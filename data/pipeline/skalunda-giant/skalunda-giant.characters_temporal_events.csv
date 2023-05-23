@@ -1,0 +1,51 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,felt,101,105,101,105,10,60.0,67.0,60.0,67.0,118.0,155.0,,,verb.emotion,0,subject,a giant,1,3,4,male,1.0,secondary
+1,0,decided,3,10,160,167,10,0.0,2.0,157.0,159.0,,,,,verb.cognition,1,subject,a giant,1,3,4,male,1.0,secondary
+2,0,emigrated,7,16,237,246,10,4.0,6.0,234.0,236.0,,,,,verb.motion,2,subject,a giant,1,3,4,male,1.0,secondary
+2,1,settled,21,28,251,258,10,4.0,6.0,234.0,236.0,,,,,verb.motion,3,subject,a giant,1,3,4,male,1.0,secondary
+4,1,hail,19,23,431,435,20,6.0,11.0,418.0,423.0,,,,,verb.motion,4,subject,one of the men saved,1,3,4,male,1.0,secondary
+6,1,said,24,28,558,562,20,0.0,21.0,534.0,555.0,,,,,verb.communication,7,subject,one of the men saved,1,3,4,male,1.0,secondary
+7,2,feel,34,38,619,623,22,28.0,29.0,613.0,614.0,,,,,verb.emotion,9,subject,the giant,4,9,13,male,1.0,primary
+7,6,said,107,111,692,696,22,1.0,104.0,586.0,689.0,,,,,verb.communication,11,subject,the giant,4,9,13,male,1.0,primary
+7,6,said,107,111,692,696,20,1.0,104.0,586.0,689.0,,,,,verb.communication,11,subject,one of the men saved,1,3,4,male,1.0,secondary
+8,0,feared,13,19,721,727,23,0.0,7.0,708.0,715.0,,,,,verb.emotion,10,subject,The man,3,5,8,male,1.0,primary
+8,2,drew,51,55,759,763,23,0.0,49.0,708.0,757.0,,,,,verb.contact,12,subject,The man,3,5,8,male,1.0,primary
+8,2,drew,51,55,759,763,22,0.0,49.0,708.0,757.0,,,,,verb.contact,12,subject,the giant,4,9,13,male,1.0,primary
+8,3,handed,96,102,804,810,23,0.0,49.0,708.0,757.0,,,,,verb.possession,13,subject,The man,3,5,8,male,1.0,primary
+8,3,handed,96,102,804,810,22,0.0,49.0,708.0,757.0,,,,,verb.possession,13,subject,the giant,4,9,13,male,1.0,primary
+9,0,seized,3,9,825,831,23,0.0,2.0,822.0,824.0,13.0,19.0,835.0,841.0,verb.contact,14,subject,The man,3,5,8,male,1.0,primary
+9,1,pressed,25,32,847,854,23,0.0,2.0,822.0,824.0,36.0,93.0,858.0,915.0,verb.contact,15,subject,The man,3,5,8,male,1.0,primary
+11,1,continued,18,27,1000,1009,23,15.0,17.0,997.0,999.0,,,,,verb.communication,19,subject,The man,3,5,8,male,1.0,primary
+12,1,scratched,19,28,1069,1078,37,5.0,13.0,1055.0,1063.0,,,,,verb.contact,18,subject,the hens,1,0,1,unknown,0.0,tertiary
+12,2,answered,47,55,1097,1105,37,1.0,36.0,1051.0,1086.0,,,,,verb.communication,22,subject,the hens,1,0,1,unknown,0.0,tertiary
+12,2,answered,47,55,1097,1105,23,1.0,36.0,1051.0,1086.0,,,,,verb.communication,22,subject,The man,3,5,8,male,1.0,primary
+15,0,piled,22,27,1166,1171,38,1.0,21.0,1145.0,1165.0,34.0,74.0,1178.0,1218.0,verb.contact,21,subject,the giant's wife,1,0,1,female,1.0,tertiary
+15,0,piled,22,27,1166,1171,39,1.0,21.0,1145.0,1165.0,34.0,74.0,1178.0,1218.0,verb.contact,21,subject,daughter,1,0,1,unknown,0.0,tertiary
+15,0,piled,22,27,1166,1171,22,1.0,21.0,1145.0,1165.0,34.0,74.0,1178.0,1218.0,verb.contact,21,subject,the giant,4,9,13,male,1.0,primary
+16,2,built,76,81,1296,1301,22,68.0,73.0,1288.0,1293.0,,,,,verb.creation,20,subject,the giant,4,9,13,male,1.0,primary
+17,1,confirmed,17,26,1328,1337,23,5.0,12.0,1316.0,1323.0,,,,,verb.cognition,23,subject,The man,3,5,8,male,1.0,primary
+17,2,wanted,43,49,1354,1360,22,33.0,42.0,1344.0,1353.0,,,,,verb.emotion,24,subject,the giant,4,9,13,male,1.0,primary
+17,3,know,53,57,1364,1368,22,33.0,42.0,1344.0,1353.0,,,,,verb.cognition,25,subject,the giant,4,9,13,male,1.0,primary
+18,2,gave,40,44,1452,1456,22,37.0,39.0,1449.0,1451.0,,,,,verb.possession,27,subject,the giant,4,9,13,male,1.0,primary
+19,0,took,8,12,1553,1557,30,0.0,7.0,1545.0,1552.0,,,,,verb.contact,28,subject,The men,1,1,2,male,1.0,tertiary
+19,1,gave,28,32,1573,1577,30,0.0,7.0,1545.0,1552.0,,,,,verb.possession,29,subject,The men,1,1,2,male,1.0,tertiary
+20,0,put,17,20,1631,1634,7,11.0,16.0,1625.0,1630.0,,,,,verb.contact,31,subject,Karin,4,3,7,female,1.0,secondary
+20,1,clasped,32,39,1646,1653,7,28.0,31.0,1642.0,1645.0,43.0,85.0,1657.0,1699.0,verb.contact,30,subject,Karin,4,3,7,female,1.0,secondary
+1,0,decided,3,10,160,167,10,11.0,72.0,168.0,229.0,,,,,verb.cognition,1,direct_object,a giant,1,3,4,male,1.0,secondary
+5,0,asked,0,5,438,443,19,6.0,94.0,444.0,532.0,,,,,verb.communication,5,direct_object,"the giant , who by now had grown old and blind",1,1,2,unknown,0.0,tertiary
+5,4,warming,61,68,499,506,19,69.0,76.0,507.0,514.0,77.0,94.0,515.0,532.0,verb.contact,6,direct_object,"the giant , who by now had grown old and blind",1,1,2,unknown,0.0,tertiary
+6,1,said,24,28,558,562,21,29.0,49.0,563.0,583.0,,,,,verb.communication,7,direct_object,the men saved,1,0,1,male,1.0,tertiary
+6,1,said,24,28,558,562,20,29.0,49.0,563.0,583.0,,,,,verb.communication,7,direct_object,one of the men saved,1,3,4,male,1.0,secondary
+7,0,give,1,5,586,590,20,6.0,8.0,591.0,593.0,20.0,104.0,,,verb.possession,8,direct_object,one of the men saved,1,3,4,male,1.0,secondary
+7,0,give,1,5,586,590,22,6.0,8.0,591.0,593.0,20.0,104.0,,,verb.possession,8,direct_object,the giant,4,9,13,male,1.0,primary
+7,6,said,107,111,692,696,22,112.0,121.0,697.0,706.0,,,,,verb.communication,11,direct_object,the giant,4,9,13,male,1.0,primary
+8,0,feared,13,19,721,727,22,20.0,49.0,728.0,757.0,,,,,verb.emotion,10,direct_object,the giant,4,9,13,male,1.0,primary
+8,3,handed,96,102,804,810,22,103.0,105.0,811.0,813.0,,,,,verb.possession,13,direct_object,the giant,4,9,13,male,1.0,primary
+10,3,said,56,60,973,977,23,61.0,63.0,978.0,980.0,,,,,verb.communication,16,direct_object,The man,3,5,8,male,1.0,primary
+11,0,tell,5,9,987,991,23,10.0,12.0,992.0,994.0,,,,,verb.communication,17,direct_object,The man,3,5,8,male,1.0,primary
+17,2,wanted,43,49,1354,1360,7,50.0,99.0,1361.0,1410.0,,,,,verb.emotion,24,direct_object,Karin,4,3,7,female,1.0,secondary
+17,3,know,53,57,1364,1368,7,58.0,99.0,1369.0,1410.0,,,,,verb.cognition,25,direct_object,Karin,4,3,7,female,1.0,secondary
+18,0,told,14,18,1426,1430,7,19.0,22.0,1431.0,1434.0,,,,,verb.communication,26,direct_object,Karin,4,3,7,female,1.0,secondary
+18,0,told,14,18,1426,1430,22,19.0,22.0,1431.0,1434.0,,,,,verb.communication,26,direct_object,the giant,4,9,13,male,1.0,primary
+19,1,gave,28,32,1573,1577,30,33.0,35.0,1578.0,1580.0,,,,,verb.possession,29,direct_object,The men,1,1,2,male,1.0,tertiary
+19,1,gave,28,32,1573,1577,7,33.0,35.0,1578.0,1580.0,,,,,verb.possession,29,direct_object,Karin,4,3,7,female,1.0,secondary

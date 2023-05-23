@@ -1,0 +1,565 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,had,56,59,56,59,5,28.0,51.0,28.0,51.0,,,,,verb.possession,0,subject,an old man,3.0,7.0,10.0,male,1.0,tertiary
+1,3,named,71,76,142,147,10,57.0,66.0,128.0,137.0,,,,,verb.communication,1,subject,the third,1.0,0.0,1.0,unknown,0.0,tertiary
+2,1,seated,26,32,180,186,7,12.0,16.0,166.0,170.0,,,,,verb.contact,2,subject,three sons,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+2,2,eating,50,56,204,210,7,12.0,16.0,166.0,170.0,,,,,verb.consumption,3,subject,three sons,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+3,0,said,10,14,253,257,0,1.0,7.0,244.0,250.0,27.0,35.0,270.0,278.0,verb.communication,5,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+3,1,feel,40,44,283,287,11,38.0,39.0,281.0,282.0,,,,,verb.cognition,4,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+4,1,inherit,25,32,345,352,0,0.0,3.0,320.0,323.0,,,,,verb.possession,7,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+5,0,value,13,18,375,380,0,9.0,12.0,371.0,374.0,,,,,verb.emotion,6,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+7,1,suppose,13,20,464,471,165,9.0,12.0,460.0,463.0,,,,,verb.cognition,8,subject,father,1.0,1.0,2.0,male,1.0,tertiary
+7,3,do,30,32,481,483,0,21.0,22.0,472.0,473.0,38.0,43.0,489.0,494.0,verb.social,9,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+8,2,spoke,83,88,580,585,0,80.0,82.0,577.0,579.0,,,,,verb.communication,12,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+9,0,saw,12,15,599,602,11,0.0,11.0,587.0,598.0,,,,,verb.perception,13,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+9,1,looked,37,43,624,630,2,29.0,36.0,616.0,623.0,,,,,verb.perception,14,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+9,3,forgot,101,107,688,694,1,92.0,94.0,679.0,681.0,,,,,verb.cognition,15,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+9,4,eat,111,114,698,701,1,92.0,94.0,679.0,681.0,,,,,verb.consumption,16,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+10,0,fell,33,37,751,755,13,22.0,32.0,740.0,750.0,,,,,verb.body,17,subject,the father,1.0,5.0,6.0,male,1.0,tertiary
+10,4,bid,91,94,809,812,13,56.0,86.0,774.0,804.0,,,,,verb.communication,18,subject,the father,1.0,5.0,6.0,male,1.0,tertiary
+10,4,bid,91,94,809,812,14,56.0,86.0,774.0,804.0,,,,,verb.communication,18,subject,the father's sons,1.0,0.0,1.0,unknown,0.0,tertiary
+12,0,said,13,17,903,907,13,1.0,7.0,891.0,897.0,,,,,verb.communication,22,subject,the father,1.0,5.0,6.0,male,1.0,tertiary
+12,0,said,13,17,903,907,166,1.0,7.0,891.0,897.0,,,,,verb.communication,22,subject,the father's boy,1.0,6.0,7.0,male,1.0,tertiary
+12,2,got,33,36,923,926,166,20.0,23.0,910.0,913.0,57.0,72.0,947.0,962.0,verb.possession,21,subject,the father's boy,1.0,6.0,7.0,male,1.0,tertiary
+12,4,deprived,92,100,982,990,3,81.0,87.0,971.0,977.0,,,,,verb.consumption,20,subject,Heaven,1.0,0.0,1.0,unknown,0.0,tertiary
+14,1,sank,22,26,1183,1187,11,10.0,21.0,1171.0,1182.0,,,,,verb.motion,24,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+14,2,died,51,55,1212,1216,11,10.0,21.0,1171.0,1182.0,,,,,verb.change,27,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+15,1,sounded,49,56,1267,1274,2,0.0,48.0,1218.0,1266.0,,,,,verb.perception,29,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+15,1,sounded,49,56,1267,1274,0,0.0,48.0,1218.0,1266.0,,,,,verb.perception,29,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+15,2,remained,85,93,1303,1311,1,80.0,84.0,1298.0,1302.0,142.0,165.0,1360.0,1383.0,verb.change,28,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+16,2,hid,48,51,1433,1436,1,10.0,12.0,1395.0,1397.0,60.0,73.0,1445.0,1458.0,verb.perception,30,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+16,3,wept,79,83,1464,1468,1,10.0,12.0,1395.0,1397.0,,,,,verb.body,31,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+17,1,buried,26,32,1560,1566,11,14.0,25.0,1548.0,1559.0,,,,,verb.contact,32,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+17,2,agreed,57,63,1591,1597,11,14.0,56.0,1548.0,1590.0,131.0,174.0,1665.0,1708.0,verb.communication,33,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+17,2,agreed,57,63,1591,1597,2,14.0,56.0,1548.0,1590.0,131.0,174.0,1665.0,1708.0,verb.communication,33,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+17,2,agreed,57,63,1591,1597,0,14.0,56.0,1548.0,1590.0,131.0,174.0,1665.0,1708.0,verb.communication,33,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+17,5,seek,110,114,1644,1648,21,69.0,73.0,1603.0,1607.0,,,,,verb.possession,36,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+18,2,liked,16,21,1726,1731,1,0.0,4.0,1710.0,1714.0,,,,,verb.emotion,35,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+18,3,sit,45,48,1755,1758,1,0.0,4.0,1710.0,1714.0,,,,,verb.contact,34,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+18,5,declared,114,122,1824,1832,26,76.0,112.0,1786.0,1822.0,,,,,verb.communication,37,subject,the mother,1.0,1.0,2.0,female,1.0,tertiary
+18,7,do,157,159,1867,1869,11,138.0,145.0,1848.0,1855.0,,,,,verb.social,38,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+18,9,seek,178,182,1888,1892,11,170.0,172.0,1880.0,1882.0,186.0,203.0,1896.0,1913.0,verb.contact,40,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+20,0,carried,20,27,1975,1982,2,1.0,19.0,1956.0,1974.0,,,,,verb.contact,39,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+20,0,carried,20,27,1975,1982,0,1.0,19.0,1956.0,1974.0,,,,,verb.contact,39,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+20,1,carried,66,73,2021,2028,1,61.0,65.0,2016.0,2020.0,,,,,verb.contact,41,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+21,5,eat,135,138,2173,2176,21,95.0,99.0,2133.0,2137.0,,,,,verb.consumption,43,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+22,2,knew,40,44,2218,2222,1,37.0,39.0,2215.0,2217.0,,,,,verb.cognition,44,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+23,0,threw,8,13,2270,2275,1,5.0,7.0,2267.0,2269.0,,,,,verb.contact,45,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+23,1,wept,46,50,2308,2312,1,5.0,7.0,2267.0,2269.0,,,,,verb.body,46,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+24,3,bring,53,58,2376,2381,27,22.0,25.0,2345.0,2348.0,,,,,verb.contact,47,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+24,4,said,79,83,2402,2406,27,0.0,1.0,2323.0,2324.0,,,,,verb.communication,48,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+24,5,answered,117,125,2440,2448,1,96.0,116.0,2419.0,2439.0,,,,,verb.communication,51,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+24,5,answered,117,125,2440,2448,0,96.0,116.0,2419.0,2439.0,,,,,verb.communication,51,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+25,0,talk,4,8,2476,2480,27,0.0,3.0,2472.0,2475.0,,,,,verb.communication,50,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+25,3,begin,82,87,2554,2559,27,78.0,81.0,2550.0,2553.0,,,,,verb.change,53,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+25,5,has,121,124,2593,2596,171,104.0,116.0,2576.0,2588.0,,,,,verb.possession,52,subject,poor Jack's two brothers's mother,1.0,1.0,2.0,female,1.0,tertiary
+26,1,made,75,79,2687,2691,30,51.0,74.0,2663.0,2686.0,,,,,verb.social,54,subject,neither of the brothers,1.0,0.0,1.0,male,1.0,tertiary
+26,1,made,75,79,2687,2691,31,51.0,74.0,2663.0,2686.0,,,,,verb.social,54,subject,the brothers,1.0,0.0,1.0,male,1.0,tertiary
+27,0,offered,10,17,2714,2721,21,5.0,9.0,2709.0,2713.0,,,,,verb.possession,55,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+27,2,finished,68,76,2772,2780,32,61.0,63.0,2765.0,2767.0,,,,,verb.change,56,subject,poor Jack's two brothers's brother,1.0,1.0,2.0,male,1.0,tertiary
+27,3,eating,77,83,2781,2787,32,61.0,63.0,2765.0,2767.0,,,,,verb.consumption,57,subject,poor Jack's two brothers's brother,1.0,1.0,2.0,male,1.0,tertiary
+27,4,went,89,93,2793,2797,21,84.0,88.0,2788.0,2792.0,104.0,113.0,2808.0,2817.0,verb.motion,58,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+28,0,reached,21,28,2840,2847,21,16.0,20.0,2835.0,2839.0,,,,,verb.motion,59,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+29,1,invited,32,39,2962,2969,35,0.0,30.0,2930.0,2960.0,,,,,verb.communication,61,subject,The man,1.0,2.0,3.0,male,1.0,tertiary
+29,1,invited,32,39,2962,2969,36,0.0,30.0,2930.0,2960.0,,,,,verb.communication,61,subject,a wood - cutter,1.0,0.0,1.0,unknown,0.0,tertiary
+29,2,begged,54,60,2984,2990,35,0.0,30.0,2930.0,2960.0,,,,,verb.communication,62,subject,The man,1.0,2.0,3.0,male,1.0,tertiary
+29,2,begged,54,60,2984,2990,36,0.0,30.0,2930.0,2960.0,,,,,verb.communication,62,subject,a wood - cutter,1.0,0.0,1.0,unknown,0.0,tertiary
+30,0,thanked,7,14,3026,3033,0,0.0,6.0,3019.0,3025.0,,,,,verb.communication,63,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+30,5,had,98,101,3117,3120,21,93.0,97.0,3112.0,3116.0,,,,,verb.possession,64,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+31,0,opened,28,34,3174,3180,2,5.0,19.0,3151.0,3165.0,64.0,98.0,3210.0,3244.0,verb.contact,66,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+31,0,opened,28,34,3174,3180,0,5.0,19.0,3151.0,3165.0,64.0,98.0,3210.0,3244.0,verb.contact,66,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+31,1,began,50,55,3196,3201,0,5.0,11.0,3151.0,3157.0,64.0,98.0,3210.0,3244.0,verb.change,67,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+31,2,eat,59,62,3205,3208,2,5.0,19.0,3151.0,3165.0,,,,,verb.consumption,69,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+31,2,eat,59,62,3205,3208,0,5.0,19.0,3151.0,3165.0,,,,,verb.consumption,69,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+31,3,hid,75,78,3221,3224,1,70.0,74.0,3216.0,3220.0,87.0,98.0,3233.0,3244.0,verb.contact,68,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+32,0,seeing,13,19,3259,3265,37,0.0,8.0,3246.0,3254.0,,,,,verb.cognition,70,subject,The wife,1.0,0.0,1.0,female,1.0,tertiary
+32,1,took,26,30,3272,3276,37,0.0,8.0,3246.0,3254.0,,,,,verb.cognition,71,subject,The wife,1.0,0.0,1.0,female,1.0,tertiary
+32,2,called,48,54,3294,3300,37,0.0,8.0,3246.0,3254.0,59.0,137.0,3305.0,3383.0,verb.communication,72,subject,The wife,1.0,0.0,1.0,female,1.0,tertiary
+32,3,come,62,66,3308,3312,0,55.0,58.0,3301.0,3304.0,,,,,verb.motion,73,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+32,4,share,71,76,3317,3322,0,55.0,58.0,3301.0,3304.0,,,,,verb.possession,74,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+32,6,found,129,134,3375,3380,0,126.0,128.0,3372.0,3374.0,,,,,verb.cognition,75,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+33,0,regretted,16,25,3401,3410,0,9.0,15.0,3394.0,3400.0,,,,,verb.emotion,77,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+33,3,refuse,67,73,3452,3458,0,38.0,40.0,3423.0,3425.0,,,,,verb.possession,76,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+33,5,smelt,133,138,3518,3523,0,130.0,132.0,3515.0,3517.0,,,,,verb.perception,79,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+33,7,enjoying,172,180,3557,3565,38,139.0,155.0,3524.0,3540.0,,,,,verb.emotion,78,subject,Martin's brother,1.0,0.0,1.0,male,1.0,tertiary
+33,7,enjoying,172,180,3557,3565,0,139.0,155.0,3524.0,3540.0,,,,,verb.emotion,78,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+34,1,have,11,15,3578,3582,0,1.0,7.0,3568.0,3574.0,30.0,35.0,3597.0,3602.0,verb.possession,80,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+34,2,thought,38,45,3605,3612,0,1.0,29.0,3568.0,3596.0,,,,,verb.cognition,81,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+35,0,insisted,25,33,3641,3649,0,22.0,24.0,3638.0,3640.0,,,,,verb.communication,82,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+35,1,plunging,37,45,3653,3661,0,22.0,24.0,3638.0,3640.0,,,,,verb.motion,83,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+35,3,meet,92,96,3708,3712,21,72.0,76.0,3688.0,3692.0,,,,,verb.motion,86,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+36,0,wandered,21,29,3742,3750,21,16.0,20.0,3737.0,3741.0,50.0,84.0,3771.0,3805.0,verb.motion,85,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+36,1,had,59,62,3780,3783,21,54.0,58.0,3775.0,3779.0,,,,,verb.possession,84,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+36,2,guide,74,79,3795,3800,21,54.0,58.0,3775.0,3779.0,,,,,verb.motion,87,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+38,0,shouted,5,12,3894,3901,1,0.0,4.0,3889.0,3893.0,,,,,verb.communication,88,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+38,2,said,64,68,3953,3957,0,31.0,62.0,3920.0,3951.0,,,,,verb.communication,90,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+38,5,taken,92,97,3981,3986,21,79.0,81.0,3968.0,3970.0,,,,,verb.social,89,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+42,1,travel,15,21,4143,4149,21,1.0,3.0,4129.0,4131.0,,,,,verb.motion,92,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+44,1,entered,44,51,4397,4404,21,39.0,43.0,4392.0,4396.0,,,,,verb.motion,94,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+44,2,looked,70,76,4423,4429,21,39.0,43.0,4392.0,4396.0,,,,,verb.perception,95,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+45,2,seen,25,29,4467,4471,47,0.0,14.0,4442.0,4456.0,,,,,verb.perception,96,subject,Not a creature,1.0,0.0,1.0,unknown,0.0,tertiary
+45,4,know,62,66,4504,4508,0,51.0,53.0,4493.0,4495.0,,,,,verb.cognition,97,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+46,2,left,14,18,4553,4557,0,0.0,2.0,4539.0,4541.0,30.0,37.0,4569.0,4576.0,verb.motion,99,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+46,4,walked,68,74,4607,4613,1,56.0,60.0,4595.0,4599.0,,,,,verb.motion,98,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+46,5,opened,104,110,4643,4649,1,56.0,60.0,4595.0,4599.0,,,,,verb.contact,100,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+47,3,passed,67,73,4721,4727,1,0.0,2.0,4654.0,4656.0,,,,,verb.motion,101,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+48,1,emptied,48,55,4889,4896,2,24.0,42.0,4865.0,4883.0,,,,,verb.contact,103,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+48,1,emptied,48,55,4889,4896,0,24.0,42.0,4865.0,4883.0,,,,,verb.contact,103,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+48,3,heaped,112,118,4953,4959,2,24.0,42.0,4865.0,4883.0,124.0,158.0,4965.0,4999.0,verb.possession,105,subject,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+48,3,heaped,112,118,4953,4959,0,24.0,42.0,4865.0,4883.0,124.0,158.0,4965.0,4999.0,verb.possession,105,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+49,1,done,18,22,5019,5023,21,13.0,17.0,5014.0,5018.0,28.0,61.0,5029.0,5062.0,verb.social,104,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+49,2,threw,38,43,5039,5044,1,33.0,37.0,5034.0,5038.0,,,,,verb.contact,106,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+50,1,turned,31,37,5146,5152,1,14.0,26.0,5129.0,5141.0,49.0,169.0,5164.0,5284.0,verb.motion,107,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+50,1,turned,31,37,5146,5152,27,14.0,26.0,5129.0,5141.0,49.0,169.0,5164.0,5284.0,verb.motion,107,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+51,1,finished,16,24,5302,5310,21,0.0,4.0,5286.0,5290.0,,,,,verb.change,108,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+51,2,opened,36,42,5322,5328,1,31.0,35.0,5317.0,5321.0,,,,,verb.contact,109,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+51,4,grew,158,162,5444,5448,28,147.0,157.0,5433.0,5443.0,168.0,188.0,5454.0,5474.0,verb.change,110,subject,all three,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+51,5,looked,176,182,5462,5468,28,171.0,175.0,5457.0,5461.0,,,,,verb.perception,111,subject,all three,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+52,0,recovered,19,28,5495,5504,21,9.0,13.0,5485.0,5489.0,,,,,verb.body,112,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+52,1,emptied,62,69,5538,5545,21,9.0,13.0,5485.0,5489.0,,,,,verb.contact,113,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+52,2,filled,96,102,5572,5578,21,9.0,13.0,5485.0,5489.0,118.0,125.0,5594.0,5601.0,verb.consumption,114,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+53,2,said,37,41,5640,5644,0,30.0,36.0,5633.0,5639.0,,,,,verb.communication,117,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+53,6,come,98,102,5701,5705,175,77.0,90.0,5680.0,5693.0,,,,,verb.motion,118,subject,somebody else,1.0,0.0,1.0,unknown,0.0,tertiary
+53,8,know,121,125,5724,5728,21,108.0,110.0,5711.0,5713.0,,,,,verb.cognition,115,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+53,9,do,134,136,5737,5739,21,108.0,110.0,5711.0,5713.0,,,,,verb.social,116,subject,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+54,1,left,38,42,5779,5783,0,27.0,29.0,5768.0,5770.0,,,,,verb.motion,120,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+55,1,put,42,45,5838,5841,1,0.0,4.0,5796.0,5800.0,,,,,verb.contact,121,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+55,2,eat,105,108,5901,5904,1,0.0,4.0,5796.0,5800.0,,,,,verb.consumption,122,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+56,1,found,29,34,5996,6001,0,5.0,7.0,5972.0,5974.0,,,,,verb.possession,124,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+56,3,rest,54,58,6021,6025,27,35.0,39.0,6002.0,6006.0,,,,,verb.contact,123,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+57,2,feel,40,44,6092,6096,0,24.0,30.0,6076.0,6082.0,,,,,verb.emotion,125,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+57,3,arrived,67,74,6119,6126,1,62.0,66.0,6114.0,6118.0,,,,,verb.motion,126,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+57,4,bade,79,83,6131,6135,0,76.0,78.0,6128.0,6130.0,,,,,verb.communication,127,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+57,5,return,88,94,6140,6146,1,76.0,87.0,6128.0,6139.0,,,,,verb.motion,128,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+57,5,return,88,94,6140,6146,0,76.0,87.0,6128.0,6139.0,,,,,verb.motion,128,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+57,6,bring,113,118,6165,6170,0,76.0,78.0,6128.0,6130.0,,,,,verb.contact,130,subject,Martin,16.0,25.0,41.0,male,1.0,tertiary
+57,8,left,154,158,6206,6210,27,119.0,139.0,6171.0,6191.0,,,,,verb.cognition,129,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+59,1,ate,33,36,6298,6301,1,6.0,7.0,6271.0,6272.0,42.0,48.0,6307.0,6313.0,verb.consumption,131,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+60,2,beating,86,93,6402,6409,62,14.0,27.0,6330.0,6343.0,,,,,verb.contact,133,subject,both brothers,1.0,3.0,4.0,male,1.0,tertiary
+60,3,calling,103,110,6419,6426,62,14.0,27.0,6330.0,6343.0,122.0,148.0,6438.0,6464.0,verb.communication,134,subject,both brothers,1.0,3.0,4.0,male,1.0,tertiary
+61,1,like,14,18,6480,6484,63,10.0,13.0,6476.0,6479.0,,,,,verb.emotion,135,subject,the boy,1.0,4.0,5.0,male,1.0,tertiary
+61,2,cried,21,26,6487,6492,63,0.0,18.0,6466.0,6484.0,34.0,51.0,6500.0,6517.0,verb.communication,136,subject,the boy,1.0,4.0,5.0,male,1.0,tertiary
+63,0,ran,14,17,6565,6568,1,4.0,13.0,6555.0,6564.0,,,,,verb.motion,137,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+63,1,weeping,18,25,6569,6576,1,4.0,13.0,6555.0,6564.0,,,,,verb.communication,138,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+64,1,bought,45,51,6638,6644,63,17.0,29.0,6610.0,6622.0,,,,,verb.possession,139,subject,the boy,1.0,4.0,5.0,male,1.0,tertiary
+64,1,bought,45,51,6638,6644,27,17.0,29.0,6610.0,6622.0,,,,,verb.possession,139,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+66,3,began,76,81,6873,6878,1,73.0,75.0,6870.0,6872.0,,,,,verb.change,142,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+66,4,think,85,90,6882,6887,1,73.0,75.0,6870.0,6872.0,,,,,verb.cognition,143,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+66,6,do,110,112,6907,6909,1,91.0,95.0,6888.0,6892.0,,,,,verb.social,144,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+67,4,enable,95,101,7006,7012,1,10.0,12.0,6921.0,6923.0,,,,,verb.change,146,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+69,3,reached,59,66,7207,7214,1,52.0,54.0,7200.0,7202.0,,,,,verb.motion,145,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+69,5,tied,122,126,7270,7274,1,95.0,97.0,7243.0,7245.0,139.0,183.0,7287.0,7331.0,verb.contact,147,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+70,0,began,8,13,7341,7346,1,0.0,2.0,7333.0,7335.0,,,,,verb.change,148,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+70,1,pour,17,21,7350,7354,1,0.0,2.0,7333.0,7335.0,34.0,45.0,7367.0,7378.0,verb.motion,149,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+71,3,smell,72,77,7510,7515,76,70.0,71.0,7508.0,7509.0,,,,,verb.perception,150,subject,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+72,0,entered,15,22,7552,7559,76,4.0,14.0,7541.0,7551.0,,,,,verb.motion,152,subject,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+74,1,steal,14,19,7593,7598,177,6.0,9.0,7585.0,7588.0,,,,,verb.possession,151,subject,little worm,1.0,1.0,2.0,unknown,0.0,tertiary
+76,1,got,15,18,7653,7656,76,7.0,9.0,7645.0,7647.0,23.0,26.0,7661.0,7664.0,verb.competition,154,subject,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+76,3,cook,40,44,7678,7682,76,32.0,34.0,7670.0,7672.0,49.0,59.0,7687.0,7697.0,verb.creation,156,subject,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+77,0,drew,25,29,7725,7729,78,9.0,24.0,7709.0,7724.0,,,,,verb.motion,155,subject,the other giant,1.0,0.0,1.0,unknown,0.0,tertiary
+77,1,whispered,70,79,7770,7779,76,65.0,69.0,7765.0,7769.0,,,,,verb.communication,157,subject,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+78,0,spoke,26,31,7816,7821,79,10.0,25.0,7800.0,7815.0,,,,,verb.communication,158,subject,the first giant,1.0,2.0,3.0,unknown,0.0,tertiary
+78,3,spare,61,66,7851,7856,79,54.0,55.0,7844.0,7845.0,77.0,94.0,7867.0,7884.0,verb.social,160,subject,the first giant,1.0,2.0,3.0,unknown,0.0,tertiary
+78,5,guard,122,127,7912,7917,1,112.0,115.0,7902.0,7905.0,,,,,verb.competition,161,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+79,3,saying,56,62,7989,7995,1,3.0,17.0,7936.0,7950.0,,,,,verb.communication,162,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+80,1,get,13,16,8052,8055,1,4.0,7.0,8043.0,8046.0,,,,,verb.possession,166,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+80,2,want,37,41,8076,8080,1,33.0,36.0,8072.0,8075.0,,,,,verb.consumption,165,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+82,0,had,3,6,8190,8193,1,0.0,2.0,8187.0,8189.0,,,,,verb.possession,167,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+82,2,wish,27,31,8214,8218,1,18.0,20.0,8205.0,8207.0,,,,,verb.cognition,169,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+82,3,did,41,44,8228,8231,1,0.0,2.0,8187.0,8189.0,53.0,76.0,8240.0,8263.0,verb.social,170,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+83,1,get,27,30,8291,8294,1,15.0,17.0,8279.0,8281.0,,,,,verb.change,171,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+84,1,guard,16,21,8333,8338,180,5.0,15.0,8322.0,8332.0,,,,,verb.competition,172,subject,the giants,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+84,2,said,54,58,8371,8375,1,0.0,48.0,8317.0,8365.0,70.0,77.0,8387.0,8394.0,verb.communication,174,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+84,2,said,54,58,8371,8375,180,0.0,48.0,8317.0,8365.0,70.0,77.0,8387.0,8394.0,verb.communication,174,subject,the giants,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+86,1,leave,11,16,8425,8430,1,4.0,5.0,8418.0,8419.0,,,,,verb.cognition,175,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+86,3,take,61,65,8475,8479,1,4.0,5.0,8418.0,8419.0,,,,,verb.possession,177,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+87,4,found,111,116,8630,8635,1,72.0,74.0,8591.0,8593.0,125.0,156.0,8644.0,8675.0,verb.perception,178,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+88,0,saw,9,12,8686,8689,1,6.0,8.0,8683.0,8685.0,,,,,verb.perception,179,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+88,1,begged,29,35,8706,8712,5,13.0,23.0,8690.0,8700.0,,,,,verb.communication,180,subject,an old man,3.0,7.0,10.0,male,1.0,tertiary
+88,2,give,44,48,8721,8725,1,36.0,40.0,8713.0,8717.0,,,,,verb.possession,182,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+89,2,asked,20,25,8768,8773,5,1.0,4.0,8749.0,8752.0,,,,,verb.communication,181,subject,an old man,3.0,7.0,10.0,male,1.0,tertiary
+89,3,answered,44,52,8792,8800,5,1.0,41.0,8749.0,8789.0,58.0,68.0,8806.0,8816.0,verb.communication,183,subject,an old man,3.0,7.0,10.0,male,1.0,tertiary
+89,3,answered,44,52,8792,8800,182,1.0,41.0,8749.0,8789.0,58.0,68.0,8806.0,8816.0,verb.communication,183,subject,a better person,1.0,0.0,1.0,unknown,0.0,tertiary
+90,2,set,57,60,8875,8878,1,54.0,56.0,8872.0,8874.0,,,,,verb.contact,185,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+90,3,struck,93,99,8911,8917,1,54.0,56.0,8872.0,8874.0,103.0,149.0,8921.0,8967.0,verb.contact,186,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+90,4,crying,116,122,8934,8940,1,54.0,56.0,8872.0,8874.0,,,,,verb.communication,188,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+91,1,uttered,14,21,8984,8991,5,0.0,2.0,8970.0,8972.0,32.0,78.0,9002.0,9048.0,verb.communication,187,subject,an old man,3.0,7.0,10.0,male,1.0,tertiary
+92,1,said,35,39,9085,9089,1,0.0,32.0,9050.0,9082.0,53.0,91.0,9103.0,9141.0,verb.communication,190,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+92,3,eaten,65,70,9115,9120,11,58.0,60.0,9108.0,9110.0,,,,,verb.consumption,189,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+92,4,wanted,85,91,9135,9141,11,82.0,84.0,9132.0,9134.0,,,,,verb.emotion,191,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+93,1,have,44,48,9187,9191,11,31.0,41.0,9174.0,9184.0,,,,,verb.possession,192,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+94,1,see,7,10,9222,9225,1,3.0,6.0,9218.0,9221.0,,,,,verb.creation,194,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+95,1,tell,23,27,9262,9266,1,6.0,9.0,9245.0,9248.0,,,,,verb.communication,196,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+95,2,wish,40,44,9279,9283,1,36.0,39.0,9275.0,9278.0,,,,,verb.emotion,195,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+95,4,have,71,75,9310,9314,1,62.0,65.0,9301.0,9304.0,,,,,verb.possession,198,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+96,2,left,23,27,9372,9376,1,11.0,13.0,9360.0,9362.0,,,,,verb.change,197,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+96,4,grown,49,54,9398,9403,1,40.0,44.0,9389.0,9393.0,99.0,148.0,9448.0,9497.0,verb.change,199,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+96,5,took,102,106,9451,9455,1,99.0,101.0,9448.0,9450.0,,,,,verb.possession,200,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+96,6,gave,122,126,9471,9475,1,99.0,101.0,9448.0,9450.0,137.0,148.0,9486.0,9497.0,verb.possession,201,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+97,0,bade,12,16,9511,9515,11,0.0,11.0,9499.0,9510.0,,,,,verb.communication,202,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+97,3,chose,69,74,9568,9573,1,64.0,68.0,9563.0,9567.0,,,,,verb.cognition,203,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+98,0,felt,12,16,9661,9665,1,9.0,11.0,9658.0,9660.0,,,,,verb.emotion,204,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+98,1,wished,28,34,9677,9683,1,25.0,27.0,9674.0,9676.0,49.0,72.0,9698.0,9721.0,verb.emotion,205,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+98,3,wanted,94,100,9743,9749,1,91.0,93.0,9740.0,9742.0,,,,,verb.emotion,206,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+99,0,remembered,15,25,9784,9794,1,12.0,14.0,9781.0,9783.0,,,,,verb.cognition,207,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+103,1,approached,35,45,10003,10013,88,0.0,34.0,9968.0,10002.0,,,,,verb.motion,210,subject,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+103,2,inquired,65,73,10033,10041,88,0.0,34.0,9968.0,10002.0,,,,,verb.communication,211,subject,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+103,3,wished,82,88,10050,10056,88,79.0,81.0,10047.0,10049.0,,,,,verb.emotion,212,subject,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+104,2,find,58,62,10127,10131,88,49.0,52.0,10118.0,10121.0,,,,,verb.possession,215,subject,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+104,3,carrying,74,82,10143,10151,5,63.0,73.0,10132.0,10142.0,,,,,verb.contact,214,subject,an old man,3.0,7.0,10.0,male,1.0,tertiary
+106,0,saluted,12,19,10218,10225,90,0.0,11.0,10206.0,10217.0,,,,,verb.communication,218,subject,The officer,1.0,1.0,2.0,male,1.0,tertiary
+106,2,started,50,57,10256,10263,91,37.0,44.0,10243.0,10250.0,,,,,verb.motion,217,subject,The officer's men,1.0,2.0,3.0,male,1.0,tertiary
+106,2,started,50,57,10256,10263,90,37.0,44.0,10243.0,10250.0,,,,,verb.motion,217,subject,The officer,1.0,1.0,2.0,male,1.0,tertiary
+107,1,returned,24,32,10322,10330,91,15.0,19.0,10313.0,10317.0,,,,,verb.motion,221,subject,The officer's men,1.0,2.0,3.0,male,1.0,tertiary
+107,2,bearing,34,41,10332,10339,91,15.0,19.0,10313.0,10317.0,,,,,verb.contact,222,subject,The officer's men,1.0,2.0,3.0,male,1.0,tertiary
+108,2,said,26,30,10387,10391,88,0.0,23.0,10361.0,10384.0,,,,,verb.communication,223,subject,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+109,0,disappeared,18,29,10415,10426,92,5.0,17.0,10402.0,10414.0,,,,,verb.change,225,subject,the soldiers,1.0,0.0,1.0,unknown,0.0,tertiary
+110,0,had,28,31,10474,10477,1,4.0,27.0,10450.0,10473.0,,,,,verb.perception,224,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+110,1,forgetting,50,60,10496,10506,1,4.0,27.0,10450.0,10473.0,,,,,verb.cognition,227,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+110,2,owed,69,73,10515,10519,1,66.0,68.0,10512.0,10514.0,,,,,verb.possession,226,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+111,0,breakfasted,16,27,10556,10567,1,13.0,15.0,10553.0,10555.0,,,,,verb.consumption,228,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+112,0,met,22,25,10642,10645,1,19.0,21.0,10639.0,10641.0,,,,,verb.motion,229,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+113,1,have,22,26,10718,10722,94,12.0,15.0,10708.0,10711.0,,,,,verb.possession,231,subject,"another old man , who begged for something to eat",1.0,1.0,2.0,male,1.0,tertiary
+113,3,replied,46,53,10742,10749,94,1.0,43.0,10697.0,10739.0,,,,,verb.communication,230,subject,"another old man , who begged for something to eat",1.0,1.0,2.0,male,1.0,tertiary
+114,1,cried,40,45,10796,10801,1,37.0,39.0,10793.0,10795.0,,,,,verb.communication,233,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+116,0,ate,21,24,10892,10895,11,9.0,20.0,10880.0,10891.0,,,,,verb.consumption,232,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+116,1,said,45,49,10916,10920,11,9.0,20.0,10880.0,10891.0,,,,,verb.communication,234,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+117,1,turned,41,47,10970,10976,11,38.0,40.0,10967.0,10969.0,,,,,verb.motion,235,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+117,2,said,60,64,10989,10993,11,38.0,40.0,10967.0,10969.0,,,,,verb.communication,236,subject,The old man,9.0,16.0,25.0,male,1.0,tertiary
+118,2,have,35,39,11069,11073,1,25.0,28.0,11059.0,11062.0,,,,,verb.possession,239,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+119,1,believe,9,16,11108,11115,1,1.0,2.0,11100.0,11101.0,,,,,verb.cognition,238,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+119,3,answered,49,57,11148,11156,1,1.0,46.0,11100.0,11145.0,,,,,verb.communication,240,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+122,3,want,54,58,11248,11252,1,37.0,40.0,11231.0,11234.0,,,,,verb.consumption,241,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+123,0,thought,5,12,11260,11267,1,0.0,4.0,11255.0,11259.0,,,,,verb.cognition,243,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+124,0,replied,9,16,11290,11297,1,6.0,8.0,11287.0,11289.0,,,,,verb.communication,244,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+124,2,exchange,37,45,11318,11326,1,30.0,31.0,11311.0,11312.0,,,,,verb.possession,246,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+125,1,hung,41,45,11379,11383,1,38.0,40.0,11376.0,11378.0,,,,,verb.contact,247,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+126,0,summoned,22,30,11428,11436,1,19.0,21.0,11425.0,11427.0,52.0,83.0,11458.0,11489.0,verb.contact,248,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+126,1,bade,74,78,11480,11484,1,19.0,21.0,11425.0,11427.0,,,,,verb.communication,249,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+126,3,fetch,109,114,11515,11520,1,19.0,21.0,11425.0,11427.0,,,,,verb.contact,251,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+127,1,obtained,31,39,11568,11576,1,24.0,26.0,11561.0,11563.0,,,,,verb.possession,250,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+127,2,resolved,82,90,11619,11627,1,79.0,81.0,11616.0,11618.0,,,,,verb.cognition,252,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+127,3,return,94,100,11631,11637,1,79.0,81.0,11616.0,11618.0,,,,,verb.motion,254,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+128,3,stopped,85,92,11744,11751,1,82.0,84.0,11741.0,11743.0,,,,,verb.motion,256,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+128,5,questioned,154,164,11813,11823,1,151.0,153.0,11810.0,11812.0,,,,,verb.communication,258,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+129,0,learned,18,25,11873,11880,1,15.0,17.0,11870.0,11872.0,,,,,verb.cognition,259,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+130,0,heard,8,13,11970,11975,1,5.0,7.0,11967.0,11969.0,,,,,verb.cognition,260,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+130,1,lost,23,27,11985,11989,1,20.0,22.0,11982.0,11984.0,,,,,verb.possession,261,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+130,3,imploring,81,90,12043,12052,1,20.0,22.0,11982.0,11984.0,,,,,verb.communication,262,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+130,4,give,99,103,12061,12065,27,91.0,95.0,12053.0,12057.0,,,,,verb.possession,263,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+131,0,got,23,26,12110,12113,1,5.0,19.0,12092.0,12106.0,,,,,verb.possession,264,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+132,1,told,55,59,12217,12221,1,48.0,50.0,12210.0,12212.0,,,,,verb.communication,265,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+133,2,drew,70,74,12336,12340,1,67.0,69.0,12333.0,12335.0,,,,,verb.contact,266,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+133,3,desired,109,116,12375,12382,1,67.0,69.0,12333.0,12335.0,,,,,verb.cognition,267,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+134,0,gave,16,20,12440,12444,113,5.0,15.0,12429.0,12439.0,55.0,103.0,12479.0,12527.0,verb.possession,268,subject,the cornet,1.0,0.0,1.0,unknown,0.0,tertiary
+134,1,guard,37,42,12461,12466,1,21.0,33.0,12445.0,12457.0,,,,,verb.social,269,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+134,1,guard,37,42,12461,12466,185,21.0,33.0,12445.0,12457.0,,,,,verb.social,269,subject,soldiers,3.0,0.0,3.0,unknown,0.0,tertiary
+135,0,caused,19,25,12548,12554,1,16.0,18.0,12545.0,12547.0,,,,,verb.communication,271,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+135,2,entered,66,73,12595,12602,1,53.0,65.0,12582.0,12594.0,,,,,verb.motion,272,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+135,2,entered,66,73,12595,12602,27,53.0,65.0,12582.0,12594.0,,,,,verb.motion,272,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+135,3,found,90,95,12619,12624,27,85.0,89.0,12614.0,12618.0,,,,,verb.possession,274,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+135,4,lying,100,105,12629,12634,1,96.0,99.0,12625.0,12628.0,,,,,verb.contact,273,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+136,2,knew,71,75,12720,12724,119,63.0,70.0,12712.0,12719.0,,,,,verb.cognition,276,subject,,,,,,,
+136,3,eating,76,82,12725,12731,1,0.0,4.0,12649.0,12653.0,,,,,verb.consumption,275,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+137,1,put,52,55,12793,12796,27,47.0,51.0,12788.0,12792.0,,,,,verb.contact,278,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+137,2,told,106,110,12847,12851,1,103.0,105.0,12844.0,12846.0,,,,,verb.communication,279,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+137,3,gave,150,154,12891,12895,1,103.0,105.0,12844.0,12846.0,,,,,verb.possession,281,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+137,5,seen,208,212,12949,12953,27,190.0,193.0,12931.0,12934.0,,,,,verb.perception,280,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+138,1,promised,29,37,12996,13004,27,11.0,15.0,12978.0,12982.0,,,,,verb.communication,282,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+138,2,reveal,41,47,13008,13014,27,11.0,15.0,12978.0,12982.0,,,,,verb.perception,283,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+138,4,reached,111,118,13078,13085,27,11.0,15.0,12978.0,12982.0,,,,,verb.communication,284,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+139,2,borrow,105,111,13221,13227,122,96.0,98.0,13212.0,13214.0,122.0,136.0,13238.0,13252.0,verb.possession,285,subject,poor Jack's chamberlain,2.0,1.0,3.0,male,1.0,tertiary
+140,2,take,37,41,13291,13295,125,29.0,32.0,13283.0,13286.0,50.0,58.0,13304.0,13312.0,verb.possession,287,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+141,2,return,41,47,13355,13361,121,29.0,31.0,13343.0,13345.0,51.0,79.0,13365.0,13393.0,verb.possession,290,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+142,1,took,46,50,13467,13471,125,3.0,18.0,13424.0,13439.0,63.0,172.0,13484.0,13593.0,verb.contact,289,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+142,2,telling,76,83,13497,13504,125,3.0,18.0,13424.0,13439.0,88.0,121.0,13509.0,13542.0,verb.communication,292,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+144,1,bade,40,44,13792,13796,121,9.0,11.0,13761.0,13763.0,57.0,64.0,13809.0,13816.0,verb.communication,293,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+144,2,copy,49,53,13801,13805,129,40.0,48.0,13792.0,13800.0,57.0,64.0,13809.0,13816.0,verb.contact,294,subject,the king's carpenter,1.0,1.0,2.0,male,1.0,tertiary
+144,5,told,90,94,13842,13846,121,87.0,89.0,13839.0,13841.0,,,,,verb.communication,295,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+144,6,return,114,120,13866,13872,122,95.0,110.0,13847.0,13862.0,132.0,152.0,13884.0,13904.0,verb.possession,296,subject,poor Jack's chamberlain,2.0,1.0,3.0,male,1.0,tertiary
+144,6,return,114,120,13866,13872,121,95.0,110.0,13847.0,13862.0,132.0,152.0,13884.0,13904.0,verb.possession,296,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+145,2,invited,40,47,13946,13953,1,35.0,39.0,13941.0,13945.0,,,,,verb.communication,297,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+146,3,accepted,98,106,14127,14135,132,0.0,96.0,14029.0,14125.0,137.0,214.0,14166.0,14243.0,verb.possession,298,subject,"The good man , who had eaten several excellent meals provided by the table in the last three days",1.0,1.0,2.0,male,1.0,tertiary
+146,5,dine,159,163,14188,14192,132,149.0,151.0,14178.0,14180.0,,,,,verb.social,299,subject,"The good man , who had eaten several excellent meals provided by the table in the last three days",1.0,1.0,2.0,male,1.0,tertiary
+153,3,wondering,115,124,14546,14555,125,57.0,72.0,14488.0,14503.0,,,,,verb.cognition,303,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+154,2,destroy,44,51,14617,14624,125,37.0,38.0,14610.0,14611.0,63.0,100.0,14636.0,14673.0,verb.competition,306,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+154,4,broken,83,89,14656,14662,125,76.0,77.0,14649.0,14650.0,,,,,verb.contact,305,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+155,0,hastened,16,24,14692,14700,125,0.0,15.0,14676.0,14691.0,,,,,verb.motion,307,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+155,1,gave,49,53,14725,14729,125,0.0,15.0,14676.0,14691.0,,,,,verb.communication,308,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+155,2,laughed,91,98,14767,14774,125,88.0,90.0,14764.0,14766.0,,,,,verb.body,309,subject,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+156,1,woke,43,47,14884,14888,138,38.0,42.0,14879.0,14883.0,,,,,verb.body,311,subject,The chamberlain's courtiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+157,0,saw,9,12,14990,14993,121,0.0,8.0,14981.0,14989.0,,,,,verb.perception,312,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+157,3,took,48,52,15029,15033,121,45.0,47.0,15026.0,15028.0,,,,,verb.contact,314,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+158,0,committed,3,12,15137,15146,121,1.0,2.0,15135.0,15136.0,,,,,verb.social,313,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+158,1,said,23,27,15157,15161,121,1.0,20.0,15135.0,15154.0,,,,,verb.communication,315,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+159,1,do,13,15,15178,15180,121,6.0,7.0,15171.0,15172.0,24.0,41.0,15189.0,15206.0,verb.social,319,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+160,1,own,28,31,15236,15239,1,8.0,18.0,15216.0,15226.0,,,,,verb.possession,318,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+160,1,own,28,31,15236,15239,121,8.0,18.0,15216.0,15226.0,,,,,verb.possession,318,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+160,2,tried,50,55,15258,15263,121,48.0,49.0,15256.0,15257.0,,,,,verb.social,317,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+160,3,steal,59,64,15267,15272,121,48.0,49.0,15256.0,15257.0,,,,,verb.possession,316,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+160,5,have,80,84,15288,15292,1,70.0,73.0,15278.0,15281.0,106.0,118.0,15314.0,15326.0,verb.possession,321,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+161,9,took,189,193,15518,15522,1,184.0,188.0,15513.0,15517.0,,,,,verb.change,320,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+161,10,commanded,206,215,15535,15544,1,184.0,188.0,15513.0,15517.0,,,,,verb.communication,322,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+162,0,died,44,48,15681,15685,121,27.0,43.0,15664.0,15680.0,,,,,verb.change,323,subject,the king,7.0,22.0,29.0,male,1.0,tertiary
+163,1,said,38,42,15736,15740,1,1.0,32.0,15699.0,15730.0,,,,,verb.communication,324,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+167,1,hope,13,17,15969,15973,1,0.0,2.0,15956.0,15958.0,,,,,verb.emotion,327,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+167,3,had,58,61,16014,16017,1,55.0,57.0,16011.0,16013.0,,,,,verb.possession,326,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+167,4,provide,76,83,16032,16039,1,62.0,72.0,16018.0,16028.0,,,,,verb.possession,329,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+168,0,forgave,9,16,16102,16109,1,0.0,2.0,16093.0,16095.0,64.0,162.0,16157.0,16255.0,verb.communication,331,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+168,2,treated,51,58,16144,16151,27,42.0,46.0,16135.0,16139.0,,,,,verb.body,330,subject,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+168,3,presented,74,83,16167,16176,1,71.0,73.0,16164.0,16166.0,,,,,verb.communication,332,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+168,5,wish,154,158,16247,16251,152,135.0,138.0,16228.0,16231.0,,,,,verb.cognition,333,subject,poor Jack's mother,1.0,1.0,2.0,female,1.0,tertiary
+170,0,reigned,3,10,16506,16513,1,0.0,2.0,16503.0,16505.0,,,,,verb.body,334,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+170,1,died,30,34,16533,16537,1,0.0,2.0,16503.0,16505.0,,,,,verb.change,335,subject,poor Jack,47.0,164.0,211.0,male,1.0,primary
+170,2,beloved,51,58,16554,16561,159,35.0,49.0,16538.0,16552.0,,,,,verb.emotion,336,subject,a very old man,1.0,0.0,1.0,male,1.0,tertiary
+0,1,had,56,59,56,59,7,60.0,70.0,60.0,70.0,,,,,verb.possession,0,direct_object,three sons,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+1,3,named,71,76,142,147,1,77.0,81.0,148.0,152.0,,,,,verb.communication,1,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+2,2,eating,50,56,204,210,7,57.0,87.0,211.0,241.0,,,,,verb.consumption,3,direct_object,three sons,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+3,0,said,10,14,253,257,11,15.0,26.0,258.0,269.0,27.0,35.0,270.0,278.0,verb.communication,5,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+3,1,feel,40,44,283,287,11,45.0,75.0,288.0,318.0,,,,,verb.cognition,4,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+5,0,value,13,18,375,380,11,19.0,30.0,381.0,392.0,,,,,verb.emotion,6,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+7,1,suppose,13,20,464,471,0,21.0,43.0,472.0,494.0,,,,,verb.cognition,8,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+7,1,suppose,13,20,464,471,164,21.0,43.0,472.0,494.0,,,,,verb.cognition,8,direct_object,brothers,2.0,1.0,3.0,male,1.0,tertiary
+7,3,do,30,32,481,483,164,33.0,37.0,484.0,488.0,38.0,43.0,489.0,494.0,verb.social,9,direct_object,brothers,2.0,1.0,3.0,male,1.0,tertiary
+8,0,replied,0,7,497,504,0,8.0,26.0,505.0,523.0,28.0,88.0,,,verb.communication,11,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+8,1,helping,28,35,525,532,0,36.0,43.0,533.0,540.0,,,,,verb.social,10,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+9,3,forgot,101,107,688,694,1,108.0,129.0,695.0,716.0,,,,,verb.cognition,15,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+9,4,eat,111,114,698,701,1,115.0,129.0,702.0,716.0,,,,,verb.consumption,16,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+10,4,bid,91,94,809,812,13,95.0,98.0,813.0,816.0,,,,,verb.communication,18,direct_object,the father,1.0,5.0,6.0,male,1.0,tertiary
+11,0,giving,6,12,833,839,15,13.0,24.0,840.0,851.0,,,,,verb.communication,19,direct_object,the two eldest,1.0,0.0,1.0,unknown,0.0,tertiary
+12,4,deprived,92,100,982,990,166,101.0,104.0,991.0,994.0,,,,,verb.consumption,20,direct_object,the father's boy,1.0,6.0,7.0,male,1.0,tertiary
+12,6,given,134,139,1024,1029,166,140.0,143.0,1030.0,1033.0,,,,,verb.possession,23,direct_object,the father's boy,1.0,6.0,7.0,male,1.0,tertiary
+14,0,saying,3,9,1164,1170,11,10.0,55.0,1171.0,1216.0,,,,,verb.communication,25,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+15,0,uttered,19,26,1237,1244,2,27.0,48.0,1245.0,1266.0,,,,,verb.communication,26,direct_object,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+15,0,uttered,19,26,1237,1244,0,27.0,48.0,1245.0,1266.0,,,,,verb.communication,26,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+15,2,remained,85,93,1303,1311,1,94.0,140.0,1312.0,1358.0,142.0,165.0,1360.0,1383.0,verb.change,28,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+15,2,remained,85,93,1303,1311,18,94.0,140.0,1312.0,1358.0,142.0,165.0,1360.0,1383.0,verb.change,28,direct_object,poor Jack's father,1.0,0.0,1.0,male,1.0,tertiary
+16,2,hid,48,51,1433,1436,1,52.0,59.0,1437.0,1444.0,60.0,73.0,1445.0,1458.0,verb.perception,30,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+17,2,agreed,57,63,1591,1597,21,64.0,129.0,1598.0,1663.0,131.0,174.0,1665.0,1708.0,verb.communication,33,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+17,5,seek,110,114,1644,1648,21,115.0,129.0,1649.0,1663.0,,,,,verb.possession,36,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+18,5,declared,114,122,1824,1832,11,123.0,203.0,1833.0,1913.0,,,,,verb.communication,37,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+18,5,declared,114,122,1824,1832,27,123.0,203.0,1833.0,1913.0,,,,,verb.communication,37,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+21,0,made,5,9,2043,2047,11,10.0,33.0,2048.0,2071.0,,,,,verb.change,42,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+21,0,made,5,9,2043,2047,27,10.0,33.0,2048.0,2071.0,,,,,verb.change,42,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+23,0,threw,8,13,2270,2275,1,14.0,21.0,2276.0,2283.0,,,,,verb.contact,45,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+24,3,bring,53,58,2376,2381,27,59.0,63.0,2382.0,2386.0,,,,,verb.contact,47,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+24,4,said,79,83,2402,2406,0,84.0,90.0,2407.0,2413.0,,,,,verb.communication,48,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+24,5,answered,117,125,2440,2448,170,128.0,147.0,2451.0,2470.0,,,,,verb.communication,51,direct_object,a nice pair,1.0,0.0,1.0,unknown,0.0,tertiary
+24,5,answered,117,125,2440,2448,27,128.0,147.0,2451.0,2470.0,,,,,verb.communication,51,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+25,0,talk,4,8,2476,2480,171,9.0,137.0,2481.0,2609.0,,,,,verb.communication,50,direct_object,poor Jack's two brothers's mother,1.0,1.0,2.0,female,1.0,tertiary
+25,0,talk,4,8,2476,2480,21,9.0,137.0,2481.0,2609.0,,,,,verb.communication,50,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+25,0,talk,4,8,2476,2480,27,9.0,137.0,2481.0,2609.0,,,,,verb.communication,50,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+25,1,seeking,12,19,2484,2491,27,20.0,33.0,2492.0,2505.0,34.0,73.0,,,verb.possession,49,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+25,3,begin,82,87,2554,2559,171,104.0,137.0,2576.0,2609.0,,,,,verb.change,53,direct_object,poor Jack's two brothers's mother,1.0,1.0,2.0,female,1.0,tertiary
+27,0,offered,10,17,2714,2721,32,18.0,31.0,2722.0,2735.0,,,,,verb.possession,55,direct_object,poor Jack's two brothers's brother,1.0,1.0,2.0,male,1.0,tertiary
+27,0,offered,10,17,2714,2721,21,18.0,31.0,2722.0,2735.0,,,,,verb.possession,55,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+27,2,finished,68,76,2772,2780,21,77.0,113.0,2781.0,2817.0,,,,,verb.change,56,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+27,4,went,89,93,2793,2797,21,94.0,103.0,2798.0,2807.0,104.0,113.0,2808.0,2817.0,verb.motion,58,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+28,2,asked,68,73,2887,2892,21,74.0,109.0,2893.0,2928.0,,,,,verb.communication,60,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+29,1,invited,32,39,2962,2969,35,40.0,44.0,2970.0,2974.0,,,,,verb.communication,61,direct_object,The man,1.0,2.0,3.0,male,1.0,tertiary
+29,1,invited,32,39,2962,2969,21,40.0,44.0,2970.0,2974.0,,,,,verb.communication,61,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+29,2,begged,54,60,2984,2990,21,61.0,65.0,2991.0,2995.0,,,,,verb.communication,62,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+30,0,thanked,7,14,3026,3033,35,15.0,18.0,3034.0,3037.0,,,,,verb.communication,63,direct_object,The man,1.0,2.0,3.0,male,1.0,tertiary
+30,2,explained,42,51,3061,3070,21,52.0,126.0,3071.0,3145.0,,,,,verb.communication,65,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+30,5,had,98,101,3117,3120,21,102.0,126.0,3121.0,3145.0,,,,,verb.possession,64,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+31,0,opened,28,34,3174,3180,21,35.0,45.0,3181.0,3191.0,64.0,98.0,3210.0,3244.0,verb.contact,66,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+31,3,hid,75,78,3221,3224,1,79.0,86.0,3225.0,3232.0,87.0,98.0,3233.0,3244.0,verb.contact,68,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+32,1,took,26,30,3272,3276,0,31.0,35.0,3277.0,3281.0,,,,,verb.cognition,71,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+32,2,called,48,54,3294,3300,0,55.0,58.0,3301.0,3304.0,59.0,137.0,3305.0,3383.0,verb.communication,72,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+32,4,share,71,76,3317,3322,0,77.0,137.0,3323.0,3383.0,,,,,verb.possession,74,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+32,4,share,71,76,3317,3322,21,77.0,137.0,3323.0,3383.0,,,,,verb.possession,74,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+33,0,regretted,16,25,3401,3410,38,33.0,180.0,3418.0,3565.0,,,,,verb.emotion,77,direct_object,Martin's brother,1.0,0.0,1.0,male,1.0,tertiary
+33,0,regretted,16,25,3401,3410,0,33.0,180.0,3418.0,3565.0,,,,,verb.emotion,77,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+33,5,smelt,133,138,3518,3523,38,139.0,180.0,3524.0,3565.0,,,,,verb.perception,79,direct_object,Martin's brother,1.0,0.0,1.0,male,1.0,tertiary
+33,5,smelt,133,138,3518,3523,0,139.0,180.0,3524.0,3565.0,,,,,verb.perception,79,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+34,2,thought,38,45,3605,3612,0,46.0,48.0,3613.0,3615.0,,,,,verb.cognition,81,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+35,0,insisted,25,33,3641,3649,40,34.0,103.0,3650.0,3719.0,,,,,verb.communication,82,direct_object,,,,,,,
+35,0,insisted,25,33,3641,3649,21,34.0,103.0,3650.0,3719.0,,,,,verb.communication,82,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+35,1,plunging,37,45,3653,3661,40,46.0,103.0,3662.0,3719.0,,,,,verb.motion,83,direct_object,,,,,,,
+35,1,plunging,37,45,3653,3661,21,46.0,103.0,3662.0,3719.0,,,,,verb.motion,83,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+35,3,meet,92,96,3708,3712,40,97.0,103.0,3713.0,3719.0,,,,,verb.motion,86,direct_object,,,,,,,
+36,1,had,59,62,3780,3783,21,63.0,84.0,3784.0,3805.0,,,,,verb.possession,84,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+36,2,guide,74,79,3795,3800,21,80.0,84.0,3801.0,3805.0,,,,,verb.motion,87,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+38,2,said,64,68,3953,3957,21,79.0,113.0,3968.0,4002.0,,,,,verb.communication,90,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+39,0,let,0,3,4004,4007,21,4.0,14.0,4008.0,4018.0,,,,,verb.social,91,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+41,0,replied,0,7,4030,4037,2,8.0,80.0,4038.0,4110.0,,,,,verb.communication,93,direct_object,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+44,2,looked,70,76,4423,4429,21,77.0,87.0,4430.0,4440.0,,,,,verb.perception,95,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+48,0,dazzled,16,23,4857,4864,2,24.0,158.0,4865.0,4999.0,,,,,verb.emotion,102,direct_object,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+48,0,dazzled,16,23,4857,4864,0,24.0,158.0,4865.0,4999.0,,,,,verb.emotion,102,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+48,0,dazzled,16,23,4857,4864,21,24.0,158.0,4865.0,4999.0,,,,,verb.emotion,102,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+48,1,emptied,48,55,4889,4896,21,56.0,106.0,4897.0,4947.0,,,,,verb.contact,103,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+50,1,turned,31,37,5146,5152,21,38.0,48.0,5153.0,5163.0,49.0,169.0,5164.0,5284.0,verb.motion,107,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+52,0,recovered,19,28,5495,5504,21,29.0,48.0,5505.0,5524.0,,,,,verb.body,112,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+52,1,emptied,62,69,5538,5545,21,70.0,90.0,5546.0,5566.0,,,,,verb.contact,113,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+52,2,filled,96,102,5572,5578,21,103.0,107.0,5579.0,5583.0,118.0,125.0,5594.0,5601.0,verb.consumption,114,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+53,2,said,37,41,5640,5644,175,44.0,136.0,5647.0,5739.0,,,,,verb.communication,117,direct_object,somebody else,1.0,0.0,1.0,unknown,0.0,tertiary
+53,2,said,37,41,5640,5644,21,44.0,136.0,5647.0,5739.0,,,,,verb.communication,117,direct_object,poor Jack's two brothers,1.0,42.0,43.0,male,1.0,tertiary
+54,0,followed,6,14,5747,5755,2,15.0,25.0,5756.0,5766.0,,,,,verb.motion,119,direct_object,Michael,8.0,0.0,8.0,unknown,0.0,tertiary
+55,1,put,42,45,5838,5841,1,46.0,80.0,5842.0,5876.0,,,,,verb.contact,121,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+55,2,eat,105,108,5901,5904,0,109.0,169.0,5905.0,5965.0,,,,,verb.consumption,122,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+55,2,eat,105,108,5901,5904,27,109.0,169.0,5905.0,5965.0,,,,,verb.consumption,122,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+56,1,found,29,34,5996,6001,27,35.0,83.0,6002.0,6050.0,,,,,verb.possession,124,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+57,4,bade,79,83,6131,6135,1,84.0,87.0,6136.0,6139.0,,,,,verb.communication,127,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+57,6,bring,113,118,6165,6170,27,119.0,164.0,6171.0,6216.0,,,,,verb.contact,130,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+58,2,answered,33,41,6251,6259,1,42.0,46.0,6260.0,6264.0,,,,,verb.communication,132,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+60,2,beating,86,93,6402,6409,63,94.0,97.0,6410.0,6413.0,,,,,verb.contact,133,direct_object,the boy,1.0,4.0,5.0,male,1.0,tertiary
+60,3,calling,103,110,6419,6426,63,111.0,114.0,6427.0,6430.0,122.0,148.0,6438.0,6464.0,verb.communication,134,direct_object,the boy,1.0,4.0,5.0,male,1.0,tertiary
+61,2,cried,21,26,6487,6492,0,27.0,33.0,6493.0,6499.0,34.0,51.0,6500.0,6517.0,verb.communication,136,direct_object,Martin,16.0,25.0,41.0,male,1.0,tertiary
+64,1,bought,45,51,6638,6644,27,52.0,122.0,6645.0,6715.0,,,,,verb.possession,139,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+64,1,bought,45,51,6638,6644,69,52.0,122.0,6645.0,6715.0,,,,,verb.possession,139,direct_object,great lords,1.0,0.0,1.0,unknown,0.0,tertiary
+64,1,bought,45,51,6638,6644,25,52.0,122.0,6645.0,6715.0,,,,,verb.possession,139,direct_object,poor Jack's two brothers's mother,3.0,0.0,3.0,female,1.0,tertiary
+66,0,came,17,21,6814,6818,1,22.0,36.0,6819.0,6833.0,,,,,verb.change,140,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+66,1,trouble,25,32,6822,6829,1,33.0,36.0,6830.0,6833.0,,,,,verb.social,141,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+66,3,began,76,81,6873,6878,1,82.0,112.0,6879.0,6909.0,,,,,verb.change,142,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+66,4,think,85,90,6882,6887,1,91.0,112.0,6888.0,6909.0,,,,,verb.cognition,143,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+67,4,enable,95,101,7006,7012,1,102.0,105.0,7013.0,7016.0,,,,,verb.change,146,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+71,3,smell,72,77,7510,7515,176,78.0,96.0,7516.0,7534.0,,,,,verb.perception,150,direct_object,a man,1.0,0.0,1.0,male,1.0,tertiary
+74,1,steal,14,19,7593,7598,76,20.0,33.0,7599.0,7612.0,,,,,verb.possession,151,direct_object,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+75,0,exclaimed,0,9,7615,7624,77,10.0,21.0,7625.0,7636.0,,,,,verb.communication,153,direct_object,the biggest,1.0,0.0,1.0,unknown,0.0,tertiary
+76,1,got,15,18,7653,7656,1,19.0,22.0,7657.0,7660.0,23.0,26.0,7661.0,7664.0,verb.competition,154,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+76,3,cook,40,44,7678,7682,1,45.0,48.0,7683.0,7686.0,49.0,59.0,7687.0,7697.0,verb.creation,156,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+77,0,drew,25,29,7725,7729,1,30.0,33.0,7730.0,7733.0,,,,,verb.motion,155,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+78,0,spoke,26,31,7816,7821,1,34.0,141.0,7824.0,7931.0,,,,,verb.communication,158,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+78,0,spoke,26,31,7816,7821,178,34.0,141.0,7824.0,7931.0,,,,,verb.communication,158,direct_object,the first giant's friend,1.0,0.0,1.0,unknown,0.0,tertiary
+78,0,spoke,26,31,7816,7821,76,34.0,141.0,7824.0,7931.0,,,,,verb.communication,158,direct_object,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+78,0,spoke,26,31,7816,7821,79,34.0,141.0,7824.0,7931.0,,,,,verb.communication,158,direct_object,the first giant,1.0,2.0,3.0,unknown,0.0,tertiary
+78,1,please,37,43,7827,7833,178,44.0,53.0,7834.0,7843.0,,,,,verb.emotion,159,direct_object,the first giant's friend,1.0,0.0,1.0,unknown,0.0,tertiary
+78,1,please,37,43,7827,7833,79,44.0,53.0,7834.0,7843.0,,,,,verb.emotion,159,direct_object,the first giant,1.0,2.0,3.0,unknown,0.0,tertiary
+78,3,spare,61,66,7851,7856,1,67.0,76.0,7857.0,7866.0,77.0,94.0,7867.0,7884.0,verb.social,160,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+78,5,guard,122,127,7912,7917,76,128.0,141.0,7918.0,7931.0,,,,,verb.competition,161,direct_object,two giants,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+79,3,saying,56,62,7989,7995,179,79.0,103.0,8012.0,8036.0,,,,,verb.communication,162,direct_object,an emperor,5.0,0.0,5.0,male,1.0,tertiary
+80,1,get,13,16,8052,8055,1,17.0,41.0,8056.0,8080.0,,,,,verb.possession,166,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+81,0,promised,24,32,8107,8115,1,33.0,58.0,8116.0,8141.0,,,,,verb.communication,164,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+81,2,asked,46,51,8129,8134,1,52.0,58.0,8135.0,8141.0,,,,,verb.communication,163,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+81,3,enjoyed,78,85,8161,8168,1,86.0,93.0,8169.0,8176.0,94.0,102.0,,,verb.emotion,168,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+82,0,had,3,6,8190,8193,1,7.0,35.0,8194.0,8222.0,,,,,verb.possession,167,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+84,0,let,1,4,8318,8321,180,5.0,48.0,8322.0,8365.0,,,,,verb.social,173,direct_object,the giants,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+84,1,guard,16,21,8333,8338,180,22.0,37.0,8339.0,8354.0,,,,,verb.competition,172,direct_object,the giants,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+84,2,said,54,58,8371,8375,1,59.0,69.0,8376.0,8386.0,70.0,77.0,8387.0,8394.0,verb.communication,174,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+86,1,leave,11,16,8425,8430,1,17.0,40.0,8431.0,8454.0,,,,,verb.cognition,175,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+86,3,take,61,65,8475,8479,1,66.0,102.0,8480.0,8516.0,,,,,verb.possession,177,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+87,0,tucking,4,11,8523,8530,1,12.0,21.0,8531.0,8540.0,22.0,35.0,,,verb.contact,176,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+87,4,found,111,116,8630,8635,1,117.0,124.0,8636.0,8643.0,125.0,156.0,8644.0,8675.0,verb.perception,178,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+88,0,saw,9,12,8686,8689,1,13.0,69.0,8690.0,8746.0,,,,,verb.perception,179,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+88,0,saw,9,12,8686,8689,5,13.0,69.0,8690.0,8746.0,,,,,verb.perception,179,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+88,1,begged,29,35,8706,8712,1,36.0,40.0,8713.0,8717.0,,,,,verb.communication,180,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+88,1,begged,29,35,8706,8712,5,36.0,40.0,8713.0,8717.0,,,,,verb.communication,180,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+88,2,give,44,48,8721,8725,5,49.0,52.0,8726.0,8729.0,,,,,verb.possession,182,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+89,2,asked,20,25,8768,8773,182,26.0,41.0,8774.0,8789.0,,,,,verb.communication,181,direct_object,a better person,1.0,0.0,1.0,unknown,0.0,tertiary
+89,3,answered,44,52,8792,8800,1,53.0,57.0,8801.0,8805.0,58.0,68.0,8806.0,8816.0,verb.communication,183,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+90,0,signing,4,11,8822,8829,1,12.0,18.0,8830.0,8836.0,,,,,verb.communication,184,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+90,0,signing,4,11,8822,8829,5,12.0,18.0,8830.0,8836.0,,,,,verb.communication,184,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+90,4,crying,116,122,8934,8940,179,125.0,149.0,8943.0,8967.0,,,,,verb.communication,188,direct_object,an emperor,5.0,0.0,5.0,male,1.0,tertiary
+92,1,said,35,39,9085,9089,11,40.0,51.0,9090.0,9101.0,53.0,91.0,9103.0,9141.0,verb.communication,190,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+93,0,give,1,5,9144,9148,11,6.0,8.0,9149.0,9151.0,15.0,41.0,,,verb.possession,193,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+95,1,tell,23,27,9262,9266,1,28.0,30.0,9267.0,9269.0,,,,,verb.communication,196,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+95,1,tell,23,27,9262,9266,185,28.0,30.0,9267.0,9269.0,,,,,verb.communication,196,direct_object,soldiers,3.0,0.0,3.0,unknown,0.0,tertiary
+95,4,have,71,75,9310,9314,1,76.0,107.0,9315.0,9346.0,,,,,verb.possession,198,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+95,4,have,71,75,9310,9314,185,76.0,107.0,9315.0,9346.0,,,,,verb.possession,198,direct_object,soldiers,3.0,0.0,3.0,unknown,0.0,tertiary
+96,2,left,23,27,9372,9376,1,28.0,38.0,9377.0,9387.0,,,,,verb.change,197,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+97,0,bade,12,16,9511,9515,1,17.0,20.0,9516.0,9519.0,,,,,verb.communication,202,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+98,1,wished,28,34,9677,9683,1,35.0,48.0,9684.0,9697.0,49.0,72.0,9698.0,9721.0,verb.emotion,205,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+99,0,remembered,15,25,9784,9794,1,26.0,36.0,9795.0,9805.0,,,,,verb.cognition,207,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+99,1,entered,59,66,9828,9835,1,67.0,75.0,9836.0,9844.0,,,,,verb.cognition,208,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+101,0,cried,0,5,9878,9883,1,6.0,8.0,9884.0,9886.0,,,,,verb.communication,209,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+103,1,approached,35,45,10003,10013,1,46.0,50.0,10014.0,10018.0,,,,,verb.motion,210,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+103,2,inquired,65,73,10033,10041,88,74.0,99.0,10042.0,10067.0,,,,,verb.communication,211,direct_object,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+104,0,answered,33,41,10102,10110,1,42.0,46.0,10111.0,10115.0,,,,,verb.communication,213,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+104,0,answered,33,41,10102,10110,5,42.0,46.0,10111.0,10115.0,,,,,verb.communication,213,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+104,0,answered,33,41,10102,10110,88,42.0,46.0,10111.0,10115.0,,,,,verb.communication,213,direct_object,The officer who rode at their head,1.0,3.0,4.0,male,1.0,tertiary
+104,2,find,58,62,10127,10131,5,63.0,90.0,10132.0,10159.0,,,,,verb.possession,215,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+105,0,take,0,4,10161,10165,5,5.0,14.0,10166.0,10175.0,,,,,verb.contact,216,direct_object,an old man,3.0,7.0,10.0,male,1.0,tertiary
+105,1,bring,28,33,10189,10194,1,34.0,36.0,10195.0,10197.0,,,,,verb.motion,219,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+106,2,started,50,57,10256,10263,1,70.0,90.0,10276.0,10296.0,,,,,verb.motion,217,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+106,3,do,73,75,10279,10281,1,76.0,90.0,10282.0,10296.0,,,,,verb.social,220,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+107,2,bearing,34,41,10332,10339,91,42.0,51.0,10340.0,10349.0,,,,,verb.contact,222,direct_object,The officer's men,1.0,2.0,3.0,male,1.0,tertiary
+108,2,said,26,30,10387,10391,1,31.0,35.0,10392.0,10396.0,,,,,verb.communication,223,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+110,1,forgetting,50,60,10496,10506,1,61.0,92.0,10507.0,10538.0,,,,,verb.cognition,227,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+112,0,met,22,25,10642,10645,94,26.0,74.0,10646.0,10694.0,,,,,verb.motion,229,direct_object,"another old man , who begged for something to eat",1.0,1.0,2.0,male,1.0,tertiary
+113,3,replied,46,53,10742,10749,1,54.0,58.0,10750.0,10754.0,,,,,verb.communication,230,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+117,2,said,60,64,10989,10993,1,67.0,103.0,10996.0,11032.0,,,,,verb.communication,236,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+118,0,give,0,4,11034,11038,11,5.0,14.0,11039.0,11048.0,,,,,verb.possession,237,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+122,1,give,9,13,11203,11207,1,14.0,17.0,11208.0,11211.0,,,,,verb.possession,242,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+124,0,replied,9,16,11290,11297,1,19.0,54.0,11300.0,11335.0,,,,,verb.communication,244,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+124,2,exchange,37,45,11318,11326,1,46.0,54.0,11327.0,11335.0,,,,,verb.possession,246,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+125,0,passing,4,11,11342,11349,11,12.0,21.0,11350.0,11359.0,,,,,verb.motion,245,direct_object,The old man,9.0,16.0,25.0,male,1.0,tertiary
+125,0,passing,4,11,11342,11349,1,12.0,21.0,11350.0,11359.0,,,,,verb.motion,245,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+125,1,hung,41,45,11379,11383,1,46.0,53.0,11384.0,11391.0,,,,,verb.contact,247,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+127,2,resolved,82,90,11619,11627,1,91.0,120.0,11628.0,11657.0,,,,,verb.cognition,252,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+127,3,return,94,100,11631,11637,1,101.0,120.0,11638.0,11657.0,,,,,verb.motion,254,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+128,0,smearing,0,8,11659,11667,1,9.0,17.0,11668.0,11676.0,,,,,verb.contact,253,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+128,1,tearing,33,40,11692,11699,1,41.0,52.0,11700.0,11711.0,53.0,80.0,,,verb.contact,255,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+128,4,seeking,128,135,11787,11794,1,136.0,149.0,11795.0,11808.0,,,,,verb.contact,257,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+128,5,questioned,154,164,11813,11823,101,165.0,169.0,11824.0,11828.0,,,,,verb.communication,258,direct_object,the passers by,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+129,0,learned,18,25,11873,11880,1,26.0,105.0,11881.0,11960.0,,,,,verb.cognition,259,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+129,0,learned,18,25,11873,11880,103,26.0,105.0,11881.0,11960.0,,,,,verb.cognition,259,direct_object,great men,1.0,0.0,1.0,male,1.0,tertiary
+129,0,learned,18,25,11873,11880,27,26.0,105.0,11881.0,11960.0,,,,,verb.cognition,259,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+130,1,lost,23,27,11985,11989,27,28.0,76.0,11990.0,12038.0,,,,,verb.possession,261,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+130,3,imploring,81,90,12043,12052,1,91.0,95.0,12053.0,12057.0,,,,,verb.communication,262,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+130,3,imploring,81,90,12043,12052,27,91.0,95.0,12053.0,12057.0,,,,,verb.communication,262,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+130,4,give,99,103,12061,12065,1,104.0,107.0,12066.0,12069.0,,,,,verb.possession,263,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+132,1,told,55,59,12217,12221,1,60.0,102.0,12222.0,12264.0,,,,,verb.communication,265,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+133,2,drew,70,74,12336,12340,1,75.0,82.0,12341.0,12348.0,,,,,verb.contact,266,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+134,0,gave,16,20,12440,12444,1,21.0,24.0,12445.0,12448.0,55.0,103.0,12479.0,12527.0,verb.possession,268,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+134,0,gave,16,20,12440,12444,185,21.0,24.0,12445.0,12448.0,55.0,103.0,12479.0,12527.0,verb.possession,268,direct_object,soldiers,3.0,0.0,3.0,unknown,0.0,tertiary
+134,2,furnished,71,80,12495,12504,1,81.0,84.0,12505.0,12508.0,,,,,verb.possession,270,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+135,3,found,90,95,12619,12624,1,96.0,118.0,12625.0,12647.0,,,,,verb.possession,274,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+137,0,puzzled,13,20,12754,12761,1,21.0,33.0,12762.0,12774.0,34.0,41.0,12775.0,12782.0,verb.emotion,277,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+137,0,puzzled,13,20,12754,12761,27,21.0,33.0,12762.0,12774.0,34.0,41.0,12775.0,12782.0,verb.emotion,277,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+137,1,put,52,55,12793,12796,1,56.0,79.0,12797.0,12820.0,,,,,verb.contact,278,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+137,2,told,106,110,12847,12851,27,111.0,115.0,12852.0,12856.0,,,,,verb.communication,279,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+137,3,gave,150,154,12891,12895,27,155.0,163.0,12896.0,12904.0,,,,,verb.possession,281,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+138,1,promised,29,37,12996,13004,121,38.0,147.0,13005.0,13114.0,,,,,verb.communication,282,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+138,4,reached,111,118,13078,13085,121,119.0,147.0,13086.0,13114.0,,,,,verb.communication,284,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+140,0,answered,13,21,13267,13275,1,22.0,26.0,13276.0,13280.0,,,,,verb.communication,286,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+140,0,answered,13,21,13267,13275,125,22.0,26.0,13276.0,13280.0,,,,,verb.communication,286,direct_object,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+141,0,tell,4,8,13318,13322,190,9.0,20.0,13323.0,13334.0,,,,,verb.communication,288,direct_object,the king's majesty,1.0,0.0,1.0,unknown,0.0,tertiary
+141,0,tell,4,8,13318,13322,1,9.0,20.0,13323.0,13334.0,,,,,verb.communication,288,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+141,0,tell,4,8,13318,13322,121,9.0,20.0,13323.0,13334.0,,,,,verb.communication,288,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+142,2,telling,76,83,13497,13504,121,84.0,87.0,13505.0,13508.0,88.0,121.0,13509.0,13542.0,verb.communication,292,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+143,1,gave,65,69,13660,13664,121,70.0,73.0,13665.0,13668.0,,,,,verb.possession,291,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+144,1,bade,40,44,13792,13796,129,45.0,56.0,13797.0,13808.0,57.0,64.0,13809.0,13816.0,verb.communication,293,direct_object,the king's carpenter,1.0,1.0,2.0,male,1.0,tertiary
+144,5,told,90,94,13842,13846,1,95.0,110.0,13847.0,13862.0,,,,,verb.communication,295,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+144,5,told,90,94,13842,13846,122,95.0,110.0,13847.0,13862.0,,,,,verb.communication,295,direct_object,poor Jack's chamberlain,2.0,1.0,3.0,male,1.0,tertiary
+144,5,told,90,94,13842,13846,121,95.0,110.0,13847.0,13862.0,,,,,verb.communication,295,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+144,6,return,114,120,13866,13872,1,121.0,123.0,13873.0,13875.0,132.0,152.0,13884.0,13904.0,verb.possession,296,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+145,2,invited,40,47,13946,13953,1,48.0,95.0,13954.0,14001.0,,,,,verb.communication,297,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+145,2,invited,40,47,13946,13953,131,48.0,95.0,13954.0,14001.0,,,,,verb.communication,297,direct_object,"the chamberlain , who knew nothing of the trick",1.0,0.0,1.0,unknown,0.0,tertiary
+148,0,cried,0,5,14273,14278,1,6.0,10.0,14279.0,14283.0,,,,,verb.communication,300,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+151,0,shouted,0,7,14366,14373,1,8.0,12.0,14374.0,14378.0,13.0,34.0,,,verb.communication,301,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+153,0,crushing,6,14,14437,14445,1,15.0,42.0,14446.0,14473.0,,,,,verb.contact,302,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+154,0,tell,1,5,14574,14578,193,6.0,21.0,14579.0,14594.0,,,,,verb.communication,304,direct_object,the king's false king,1.0,1.0,2.0,male,1.0,tertiary
+154,0,tell,1,5,14574,14578,125,6.0,21.0,14579.0,14594.0,,,,,verb.communication,304,direct_object,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+154,0,tell,1,5,14574,14578,121,6.0,21.0,14579.0,14594.0,,,,,verb.communication,304,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+154,2,destroy,44,51,14617,14624,193,52.0,62.0,14625.0,14635.0,63.0,100.0,14636.0,14673.0,verb.competition,306,direct_object,the king's false king,1.0,1.0,2.0,male,1.0,tertiary
+155,1,gave,49,53,14725,14729,1,54.0,115.0,14730.0,14791.0,,,,,verb.communication,308,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+155,1,gave,49,53,14725,14729,125,54.0,115.0,14730.0,14791.0,,,,,verb.communication,308,direct_object,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+155,1,gave,49,53,14725,14729,121,54.0,115.0,14730.0,14791.0,,,,,verb.communication,308,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+155,3,called,121,127,14797,14803,138,128.0,145.0,14804.0,14821.0,146.0,163.0,,,verb.communication,310,direct_object,The chamberlain's courtiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+155,3,called,121,127,14797,14803,125,128.0,145.0,14804.0,14821.0,146.0,163.0,,,verb.communication,310,direct_object,The chamberlain,3.0,6.0,9.0,male,1.0,tertiary
+158,1,said,23,27,15157,15161,121,28.0,30.0,15162.0,15164.0,,,,,verb.communication,315,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+159,1,do,13,15,15178,15180,121,16.0,23.0,15181.0,15188.0,24.0,41.0,15189.0,15206.0,verb.social,319,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+160,5,have,80,84,15288,15292,195,85.0,105.0,15293.0,15313.0,106.0,118.0,15314.0,15326.0,verb.possession,321,direct_object,the king's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+160,5,have,80,84,15288,15292,121,85.0,105.0,15293.0,15313.0,106.0,118.0,15314.0,15326.0,verb.possession,321,direct_object,the king,7.0,22.0,29.0,male,1.0,tertiary
+161,9,took,189,193,15518,15522,1,194.0,201.0,15523.0,15530.0,,,,,verb.change,320,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+161,10,commanded,206,215,15535,15544,1,216.0,259.0,15545.0,15588.0,,,,,verb.communication,322,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+161,10,commanded,206,215,15535,15544,146,216.0,259.0,15545.0,15588.0,,,,,verb.communication,322,direct_object,poor Jack's bride,1.0,0.0,1.0,unknown,0.0,tertiary
+165,0,take,0,4,15799,15803,1,17.0,68.0,15816.0,15867.0,,,,,verb.contact,325,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+165,1,rule,74,78,15873,15877,1,79.0,88.0,15878.0,15887.0,89.0,112.0,,,verb.social,328,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+165,1,rule,74,78,15873,15877,197,79.0,88.0,15878.0,15887.0,89.0,112.0,,,verb.social,328,direct_object,poor Jack's people,1.0,0.0,1.0,unknown,0.0,tertiary
+167,1,hope,13,17,15969,15973,148,18.0,38.0,15974.0,15994.0,,,,,verb.emotion,327,direct_object,king,1.0,0.0,1.0,male,1.0,tertiary
+167,3,had,58,61,16014,16017,1,62.0,135.0,16018.0,16091.0,,,,,verb.possession,326,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+167,3,had,58,61,16014,16017,150,62.0,135.0,16018.0,16091.0,,,,,verb.possession,326,direct_object,poor Jack's enemies,1.0,0.0,1.0,unknown,0.0,tertiary
+167,3,had,58,61,16014,16017,185,62.0,135.0,16018.0,16091.0,,,,,verb.possession,326,direct_object,soldiers,3.0,0.0,3.0,unknown,0.0,tertiary
+167,4,provide,76,83,16032,16039,1,84.0,87.0,16040.0,16043.0,,,,,verb.possession,329,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+167,4,provide,76,83,16032,16039,150,84.0,87.0,16040.0,16043.0,,,,,verb.possession,329,direct_object,poor Jack's enemies,1.0,0.0,1.0,unknown,0.0,tertiary
+167,4,provide,76,83,16032,16039,185,84.0,87.0,16040.0,16043.0,,,,,verb.possession,329,direct_object,soldiers,3.0,0.0,3.0,unknown,0.0,tertiary
+168,0,forgave,9,16,16102,16109,1,17.0,29.0,16110.0,16122.0,64.0,162.0,16157.0,16255.0,verb.communication,331,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+168,0,forgave,9,16,16102,16109,27,17.0,29.0,16110.0,16122.0,64.0,162.0,16157.0,16255.0,verb.communication,331,direct_object,The old man's brothers,9.0,21.0,30.0,male,1.0,tertiary
+168,2,treated,51,58,16144,16151,1,59.0,62.0,16152.0,16155.0,,,,,verb.body,330,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+168,3,presented,74,83,16167,16176,1,84.0,94.0,16177.0,16187.0,,,,,verb.communication,332,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+168,3,presented,74,83,16167,16176,152,84.0,94.0,16177.0,16187.0,,,,,verb.communication,332,direct_object,poor Jack's mother,1.0,1.0,2.0,female,1.0,tertiary
+170,1,died,30,34,16533,16537,1,35.0,72.0,16538.0,16575.0,,,,,verb.change,335,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+170,1,died,30,34,16533,16537,160,35.0,72.0,16538.0,16575.0,,,,,verb.change,335,direct_object,poor Jack's people,1.0,0.0,1.0,unknown,0.0,tertiary
+170,1,died,30,34,16533,16537,159,35.0,72.0,16538.0,16575.0,,,,,verb.change,335,direct_object,a very old man,1.0,0.0,1.0,male,1.0,tertiary
+170,2,beloved,51,58,16554,16561,1,59.0,72.0,16562.0,16575.0,,,,,verb.emotion,336,direct_object,poor Jack,47.0,164.0,211.0,male,1.0,primary
+170,2,beloved,51,58,16554,16561,160,59.0,72.0,16562.0,16575.0,,,,,verb.emotion,336,direct_object,poor Jack's people,1.0,0.0,1.0,unknown,0.0,tertiary

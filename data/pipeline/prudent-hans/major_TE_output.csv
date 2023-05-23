@@ -1,0 +1,49 @@
+sentence1,event1,te_rel,sentence2,event2,s_id,s_id2,e_id,e_id2
+"ONE day, Hans's mother said, ""Where are you going, Hans?"" ",said,BEFORE,"Hans answered, ""To Grethel's, mother."" ",answered,0,1,0,0
+"Hans answered, ""To Grethel's, mother."" ",answered,BEFORE,Then Hans came to Grethel's. ,came,1,6,0,0
+Then Hans came to Grethel's. ,came,BEFORE,"What have you brought me to-day?"" ",brought,6,9,0,1
+"What have you brought me to-day?"" ",brought,BEFORE,"""I have brought nothing, but I want something."" ",brought,9,10,1,1
+"""I have brought nothing, but I want something."" ",brought,BEFORE,So Grethel gave Hans a needle; ,gave,10,11,1,0
+So Grethel gave Hans a needle; ,gave,BEFORE," and then he said, ""Good-bye, Grethel,"" and she said, ""Good-bye, Hans."" ",said,11,12,0,1
+" and then he said, ""Good-bye, Grethel,"" and she said, ""Good-bye, Hans."" ",said,BEFORE,"Hans carried the needle away with him, and stuck it in a hay-cart that was going along, and he followed it home. ",stuck,12,13,1,1
+"Hans carried the needle away with him, and stuck it in a hay-cart that was going along, and he followed it home. ",stuck,BEFORE,"""What did you take her?"" ",take,13,18,1,1
+"""What did you take her?"" ",take,BEFORE,"""I took nothing, but I brought away something."" ",took,18,19,1,0
+"""I took nothing, but I brought away something."" ",took,AFTER,"""What did Grethel give you?"" ",give,19,20,0,1
+"""What did Grethel give you?"" ",give,BEFORE,"""What did you do with it, Hans?"" ",do,20,22,1,1
+"""What did you do with it, Hans?"" ",do,BEFORE,"You should have stuck it in your sleeve."" ",stuck,22,25,1,2
+"You should have stuck it in your sleeve."" ",stuck,BEFORE,"I'll do better next time."" ",do,25,27,2,1
+"I'll do better next time."" ",do,BEFORE,"When next time came, Hans's mother said, ""Where are you going, Hans?"" ",said,27,28,1,1
+"When next time came, Hans's mother said, ""Where are you going, Hans?"" ",said,BEFORE,Then Hans came to Grethel. ,came,28,34,1,0
+Then Hans came to Grethel. ,came,AFTER,"""I've brought nothing, but I want something."" ",brought,34,38,0,1
+"""I've brought nothing, but I want something."" ",brought,BEFORE,"So Grethel gave Hans a knife, and then he said, ""Good-bye, Grethel,"" and she said, ""Good-bye, Hans."" ",said,38,39,1,2
+"So Grethel gave Hans a knife, and then he said, ""Good-bye, Grethel,"" and she said, ""Good-bye, Hans."" ",said,BEFORE,"Hans took the knife away with him, and stuck it in his sleeve, and went home. ",stuck,39,40,2,1
+"Hans took the knife away with him, and stuck it in his sleeve, and went home. ",stuck,AFTER,"""What did Grethel give you, Hans?"" ",give,40,47,1,1
+"""What did Grethel give you, Hans?"" ",give,BEFORE,"You should have put it in your pocket."" ",put,47,52,1,2
+"You should have put it in your pocket."" ",put,BEFORE,"When next time came, Hans's mother said, ""Where to, Hans?"" ",said,52,55,2,1
+"When next time came, Hans's mother said, ""Where to, Hans?"" ",said,BEFORE,So Hans came to Grethel's. ,came,55,61,1,0
+So Hans came to Grethel's. ,came,AFTER,"""I've brought nothing, but I want to take away something."" ",brought,61,65,0,1
+"""I've brought nothing, but I want to take away something."" ",brought,BEFORE,So Grethel gave Hans a young goat; ,gave,65,66,1,0
+So Grethel gave Hans a young goat; ,gave,BEFORE,"So Hans carried off the goat, and tied its legs together, and put it in his pocket, and by the time he got home it was suffocated. ",tied,66,68,0,1
+"So Hans carried off the goat, and tied its legs together, and put it in his pocket, and by the time he got home it was suffocated. ",tied,BEFORE,"""What did you take her, Hans?"" ",take,68,73,1,1
+"""What did you take her, Hans?"" ",take,BEFORE,"""Put it in my pocket, mother."" ",Put,73,78,1,0
+"""Put it in my pocket, mother."" ",Put,BEFORE,"You should have tied a cord round its neck, and led it home."" ",tied,78,80,0,2
+"You should have tied a cord round its neck, and led it home."" ",tied,BEFORE,So Grethel gave Hans a piece of bacon. ,gave,80,94,2,0
+So Grethel gave Hans a piece of bacon. ,gave,BEFORE,"Then he said, ""Good-bye, Grethel."" ",said,94,95,0,0
+"Then he said, ""Good-bye, Grethel."" ",said,BEFORE,"She said, ""Good-bye, Hans."" ",said,95,96,0,0
+"She said, ""Good-bye, Hans."" ",said,BEFORE,"Hans took the bacon, and tied a string round it, and dragged it after him on his way home, and the dogs came and ate it up, so that when he got home he had the string in his hand, and nothing at the other end of it. ",tied,96,97,0,1
+"Hans took the bacon, and tied a string round it, and dragged it after him on his way home, and the dogs came and ate it up, so that when he got home he had the string in his hand, and nothing at the other end of it. ",tied,BEFORE,"""I took her nothing, but I brought away something."" ",took,97,103,1,0
+"""I took her nothing, but I brought away something."" ",took,BEFORE,"""I tied a piece of string to it, and led it home, but the dogs ate it, mother."" ",tied,103,107,0,0
+"""I tied a piece of string to it, and led it home, but the dogs ate it, mother."" ",tied,BEFORE,"I'll do better next time, mother."" ",do,107,111,0,1
+"I'll do better next time, mother."" ",do,AFTER,"What have you brought me?"" ",brought,111,121,1,1
+"What have you brought me?"" ",brought,AFTER,"""I have brought nothing, but I want to take away something."" ",brought,121,122,1,1
+"""I have brought nothing, but I want to take away something."" ",brought,BEFORE,So Grethel gave Hans a calf. ,gave,122,123,1,0
+So Grethel gave Hans a calf. ,gave,BEFORE,"Hans took the calf, and set it on his head, and carried it home, and the calf scratched his face. ",took,123,126,0,0
+"Hans took the calf, and set it on his head, and carried it home, and the calf scratched his face. ",took,BEFORE,"""What did you do with the calf, Hans?"" ",do,126,135,0,1
+"""What did you do with the calf, Hans?"" ",do,AFTER,"""I carried it home on my head, but it scratched my face."" ",carried,135,136,1,0
+"""I carried it home on my head, but it scratched my face."" ",carried,BEFORE,"You ought to have led home the calf, and tied it to the manger."" ",tied,136,138,0,3
+"You ought to have led home the calf, and tied it to the manger."" ",tied,BEFORE,"Then Grethel said to Hans, ""You shall take away me."" ",said,138,152,3,0
+"Then Grethel said to Hans, ""You shall take away me."" ",said,BEFORE,"Then Hans took Grethel, and tied a rope round her neck, and led her home, and fastened her up to the manger, and went to his mother. ",tied,152,153,0,1
+"Then Hans took Grethel, and tied a rope round her neck, and led her home, and fastened her up to the manger, and went to his mother. ",tied,AFTER,"""Where have you left Grethel, Hans?"" ",left,153,162,1,1
+"""Where have you left Grethel, Hans?"" ",left,BEFORE,"""I led her home with a rope, and tied her up to the manger to eat hay, mother."" ",tied,162,163,1,1
+"""I led her home with a rope, and tied her up to the manger to eat hay, mother."" ",tied,BEFORE,"You should have cast sheep's eyes at her."" ",cast,163,165,1,2
+"You should have cast sheep's eyes at her."" ",cast,BEFORE,"Then Hans went into the stable, and taking all the eyes out of the sheep, he threw them in Grethel's face. ",threw,165,168,2,2

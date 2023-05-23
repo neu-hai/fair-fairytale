@@ -1,0 +1,20 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,2,bring,62,67,201,206,2,7.0,26.0,146.0,165.0,,,,,verb.motion,True,1,subject,the bird,8,26,34,male,0.9565217391304348,primary
+2,1,draw,17,21,235,239,4,0.0,9.0,218.0,227.0,,,,,verb.contact,True,0,subject,the mouse,2,3,5,female,1.0,tertiary
+5,0,met,17,20,395,398,2,8.0,16.0,386.0,394.0,34.0,44.0,412.0,422.0,verb.contact,True,2,subject,the bird,8,26,34,male,0.9565217391304348,primary
+6,0,called,19,25,492,498,8,4.0,18.0,477.0,491.0,47.0,110.0,520.0,583.0,verb.communication,True,3,subject,the other bird,1,0,1,unknown,0.0,tertiary
+7,3,went,57,61,642,646,4,53.0,56.0,638.0,641.0,89.0,123.0,674.0,708.0,verb.motion,True,4,subject,the mouse,2,3,5,female,1.0,tertiary
+8,4,stirred,117,124,827,834,2,114.0,116.0,824.0,826.0,178.0,228.0,888.0,938.0,verb.change,True,5,subject,the bird,8,26,34,male,0.9565217391304348,primary
+11,0,came,13,17,1163,1167,2,4.0,12.0,1154.0,1162.0,36.0,70.0,1186.0,1220.0,verb.motion,True,6,subject,the bird,8,26,34,male,0.9565217391304348,primary
+12,6,cook,100,104,1524,1528,4,83.0,92.0,1507.0,1516.0,,,,,verb.creation,True,7,subject,the mouse,2,3,5,female,1.0,tertiary
+15,5,went,104,108,1868,1872,2,95.0,103.0,1859.0,1867.0,125.0,163.0,1889.0,1927.0,verb.motion,True,8,subject,the bird,8,26,34,male,0.9565217391304348,primary
+16,0,met,15,18,1944,1947,2,12.0,14.0,1941.0,1943.0,,,,,verb.contact,True,9,subject,the bird,8,26,34,male,0.9565217391304348,primary
+18,4,seen,107,111,2382,2386,2,86.0,95.0,2361.0,2370.0,,,,,verb.perception,True,10,subject,the bird,8,26,34,male,0.9565217391304348,primary
+20,8,part,173,177,2684,2688,2,162.0,165.0,2673.0,2676.0,,,,,verb.change,True,12,subject,the bird,8,26,34,male,0.9565217391304348,primary
+22,1,looked,42,48,2847,2853,2,5.0,7.0,2810.0,2812.0,,,,,verb.perception,True,13,subject,the bird,8,26,34,male,0.9565217391304348,primary
+23,11,drowned,204,211,3105,3112,2,183.0,185.0,3084.0,3086.0,,,,,verb.social,True,14,subject,the bird,8,26,34,male,0.9565217391304348,primary
+6,0,called,19,25,492,498,2,26.0,29.0,499.0,502.0,47.0,110.0,520.0,583.0,verb.communication,True,3,direct_object,the bird,8,26,34,male,0.9565217391304348,primary
+6,0,called,19,25,492,498,9,26.0,29.0,499.0,502.0,47.0,110.0,520.0,583.0,verb.communication,True,3,direct_object,a poor simpleton,1,0,1,unknown,0.0,tertiary
+7,3,went,57,61,642,646,4,62.0,88.0,647.0,673.0,89.0,123.0,674.0,708.0,verb.motion,True,4,direct_object,the mouse,2,3,5,female,1.0,tertiary
+16,0,met,15,18,1944,1947,2,19.0,130.0,1948.0,2059.0,,,,,verb.contact,True,9,direct_object,the bird,8,26,34,male,0.9565217391304348,primary
+17,0,lodged,14,20,2075,2081,26,21.0,48.0,2082.0,2109.0,,,,,verb.communication,True,11,direct_object,an open and flagrant robber,1,0,1,unknown,0.0,tertiary

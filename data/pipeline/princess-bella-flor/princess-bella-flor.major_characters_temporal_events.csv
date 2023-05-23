@@ -1,0 +1,221 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,went,28,32,81,85,7,18.0,27.0,71.0,80.0,,,,,verb.motion,True,1,subject,the elder,2,2,4,male,1.0,tertiary
+2,1,died,62,66,238,242,12,46.0,56.0,222.0,232.0,,,,,verb.change,True,2,subject,the younger son's father,3,0,3,male,1.0,tertiary
+2,1,died,62,66,238,242,10,46.0,56.0,222.0,232.0,,,,,verb.change,True,2,subject,the younger son,1,2,3,male,1.0,tertiary
+3,1,spent,41,46,344,349,13,14.0,40.0,317.0,343.0,67.0,119.0,370.0,422.0,verb.possession,True,3,subject,the son who stayed at home,1,5,6,male,1.0,tertiary
+4,4,enter,79,84,503,508,17,68.0,78.0,492.0,502.0,,,,,verb.motion,True,4,subject,a stranger,1,0,1,unknown,0.0,tertiary
+5,1,forgotten,10,19,576,585,20,6.0,9.0,572.0,575.0,,,,,verb.cognition,True,5,subject,the man,3,18,21,male,1.0,tertiary
+7,1,forget,9,15,615,621,20,1.0,2.0,607.0,608.0,,,,,verb.cognition,True,7,subject,the man,3,18,21,male,1.0,tertiary
+8,3,returned,55,63,728,736,21,48.0,49.0,721.0,722.0,69.0,107.0,742.0,780.0,verb.motion,True,8,subject,The stranger,5,40,45,male,1.0,secondary
+10,2,counted,13,20,867,874,21,0.0,1.0,854.0,855.0,45.0,79.0,899.0,933.0,verb.cognition,True,11,subject,The stranger,5,40,45,male,1.0,secondary
+11,2,left,57,61,993,997,143,54.0,56.0,990.0,992.0,67.0,104.0,1003.0,1040.0,verb.possession,True,10,subject,The stranger's father,1,3,4,male,1.0,tertiary
+12,1,go,15,17,1081,1083,21,0.0,3.0,1066.0,1069.0,,,,,verb.motion,True,13,subject,The stranger,5,40,45,male,1.0,secondary
+13,0,have,3,7,1109,1113,22,1.0,2.0,1107.0,1108.0,,,,,verb.possession,True,12,subject,the rich brother,1,3,4,male,1.0,tertiary
+14,0,went,7,11,1145,1149,22,4.0,6.0,1142.0,1144.0,,,,,verb.motion,True,14,subject,the rich brother,1,3,4,male,1.0,tertiary
+15,0,turned,16,22,1175,1181,23,3.0,15.0,1162.0,1174.0,33.0,84.0,1192.0,1243.0,verb.motion,True,15,subject,the wanderer,1,8,9,male,1.0,tertiary
+17,0,said,3,7,1377,1381,23,0.0,2.0,1374.0,1376.0,,,,,verb.communication,True,16,subject,the wanderer,1,8,9,male,1.0,tertiary
+18,4,warm,56,60,1450,1454,23,50.0,51.0,1444.0,1445.0,,,,,verb.body,True,17,subject,the wanderer,1,8,9,male,1.0,tertiary
+20,3,borrowing,87,96,1587,1596,0,31.0,59.0,1531.0,1559.0,,,,,verb.possession,True,18,subject,Poor Jose,31,95,126,male,1.0,primary
+20,3,borrowing,87,96,1587,1596,20,31.0,59.0,1531.0,1559.0,,,,,verb.possession,True,18,subject,the man,3,18,21,male,1.0,tertiary
+21,1,discovered,15,25,1649,1659,20,12.0,14.0,1646.0,1648.0,,,,,verb.creation,True,19,subject,the man,3,18,21,male,1.0,tertiary
+22,1,knowing,25,32,1725,1732,20,0.0,2.0,1700.0,1702.0,,,,,verb.cognition,True,20,subject,the man,3,18,21,male,1.0,tertiary
+23,1,inquired,55,63,1915,1923,20,44.0,46.0,1904.0,1906.0,,,,,verb.communication,True,21,subject,the man,3,18,21,male,1.0,tertiary
+25,8,saw,108,111,2229,2232,20,105.0,107.0,2226.0,2228.0,,,,,verb.perception,True,23,subject,the man,3,18,21,male,1.0,tertiary
+26,2,saw,81,84,2358,2361,36,71.0,80.0,2348.0,2357.0,,,,,verb.cognition,True,24,subject,the miser,1,1,2,male,1.0,tertiary
+27,0,picked,13,19,2442,2448,21,0.0,12.0,2429.0,2441.0,,,,,verb.contact,True,25,subject,The stranger,5,40,45,male,1.0,secondary
+28,3,crying,104,110,2650,2656,42,91.0,103.0,2637.0,2649.0,,,,,verb.body,True,26,subject,a poor woman,1,9,10,female,1.0,tertiary
+29,3,answered,54,62,2721,2729,42,50.0,53.0,2717.0,2720.0,,,,,verb.communication,True,27,subject,a poor woman,1,9,10,female,1.0,tertiary
+30,0,said,20,24,2897,2901,42,1.0,17.0,2878.0,2894.0,38.0,44.0,2915.0,2921.0,verb.communication,True,28,subject,a poor woman,1,9,10,female,1.0,tertiary
+32,2,dies,41,45,3033,3037,47,38.0,40.0,3030.0,3032.0,,,,,verb.change,True,30,subject,the husband,1,4,5,male,1.0,tertiary
+35,0,died,40,44,3175,3179,47,28.0,39.0,3163.0,3174.0,,,,,verb.change,True,32,subject,the husband,1,4,5,male,1.0,tertiary
+36,1,expected,33,41,3246,3254,21,30.0,32.0,3243.0,3245.0,,,,,verb.cognition,True,31,subject,The stranger,5,40,45,male,1.0,secondary
+37,1,do,14,16,3340,3342,21,1.0,5.0,3327.0,3331.0,,,,,verb.social,True,34,subject,The stranger,5,40,45,male,1.0,secondary
+39,0,think,3,8,3372,3377,21,1.0,2.0,3370.0,3371.0,,,,,verb.cognition,True,37,subject,The stranger,5,40,45,male,1.0,secondary
+40,2,saw,81,84,3526,3529,21,9.0,11.0,3454.0,3456.0,,,,,verb.perception,True,36,subject,The stranger,5,40,45,male,1.0,secondary
+41,0,did,7,10,3584,3587,21,4.0,6.0,3581.0,3583.0,22.0,134.0,3599.0,3711.0,verb.social,True,39,subject,The stranger,5,40,45,male,1.0,secondary
+42,2,spent,48,53,3761,3766,53,24.0,43.0,3737.0,3756.0,,,,,verb.possession,True,38,subject,the younger brother,1,2,3,male,1.0,tertiary
+43,1,went,51,55,3896,3900,21,0.0,2.0,3845.0,3847.0,78.0,179.0,3923.0,4024.0,verb.motion,True,40,subject,The stranger,5,40,45,male,1.0,secondary
+45,2,bear,79,83,4244,4248,62,15.0,28.0,4180.0,4193.0,,,,,verb.cognition,True,42,subject,the new - comer,1,0,1,unknown,0.0,tertiary
+48,4,returns,86,93,4708,4715,152,83.0,85.0,4705.0,4707.0,,,,,verb.motion,True,46,subject,the scoundrel's brother,2,3,5,male,1.0,tertiary
+50,0,went,6,10,4813,4817,35,3.0,5.0,4810.0,4812.0,14.0,18.0,4821.0,4825.0,verb.motion,True,45,subject,the king,19,33,52,male,1.0,secondary
+53,0,answered,26,34,5131,5139,2,0.0,25.0,5105.0,5130.0,,,,,verb.communication,True,48,subject,the Princess Bella - Flor-,1,0,1,female,1.0,tertiary
+60,1,knows,34,39,5539,5544,75,18.0,28.0,5523.0,5533.0,,,,,verb.cognition,True,51,subject,the traitor,1,2,3,unknown,0.0,tertiary
+60,1,knows,34,39,5539,5544,152,18.0,28.0,5523.0,5533.0,,,,,verb.cognition,True,51,subject,the scoundrel's brother,2,3,5,male,1.0,tertiary
+61,1,ask,24,27,5591,5594,156,5.0,17.0,5572.0,5584.0,,,,,verb.communication,True,54,subject,the king's majesty,2,0,2,unknown,0.0,tertiary
+61,1,ask,24,27,5591,5594,35,5.0,17.0,5572.0,5584.0,,,,,verb.communication,True,54,subject,the king,19,33,52,male,1.0,secondary
+63,0,entered,15,22,5886,5893,0,10.0,14.0,5881.0,5885.0,,,,,verb.motion,True,56,subject,Poor Jose,31,95,126,male,1.0,primary
+65,0,left,28,32,6151,6155,35,25.0,27.0,6148.0,6150.0,43.0,88.0,6166.0,6211.0,verb.motion,True,59,subject,the king,19,33,52,male,1.0,secondary
+66,3,seen,63,67,6276,6280,0,45.0,46.0,6258.0,6259.0,,,,,verb.perception,True,58,subject,Poor Jose,31,95,126,male,1.0,primary
+68,4,put,52,55,6351,6354,0,36.0,37.0,6335.0,6336.0,,,,,verb.contact,True,62,subject,Poor Jose,31,95,126,male,1.0,primary
+69,1,choose,39,45,6405,6411,0,4.0,6.0,6370.0,6372.0,,,,,verb.cognition,True,61,subject,Poor Jose,31,95,126,male,1.0,primary
+70,3,looking,107,114,6536,6543,0,98.0,102.0,6527.0,6531.0,127.0,253.0,6556.0,6682.0,verb.perception,True,63,subject,Poor Jose,31,95,126,male,1.0,primary
+72,3,forgot,83,89,6831,6837,0,80.0,82.0,6828.0,6830.0,,,,,verb.cognition,True,65,subject,Poor Jose,31,95,126,male,1.0,primary
+73,1,led,48,51,6928,6931,0,13.0,15.0,6893.0,6895.0,68.0,85.0,6948.0,6965.0,verb.motion,True,66,subject,Poor Jose,31,95,126,male,1.0,primary
+74,1,mount,16,21,6983,6988,0,0.0,2.0,6967.0,6969.0,,,,,verb.motion,True,67,subject,Poor Jose,31,95,126,male,1.0,primary
+75,5,asked,65,70,7184,7189,0,0.0,4.0,7119.0,7123.0,,,,,verb.communication,True,68,subject,Poor Jose,31,95,126,male,1.0,primary
+77,1,said,46,50,7394,7398,0,0.0,1.0,7348.0,7349.0,,,,,verb.communication,True,69,subject,Poor Jose,31,95,126,male,1.0,primary
+92,3,put,26,29,8273,8276,0,15.0,18.0,8262.0,8265.0,,,,,verb.contact,True,79,subject,Poor Jose,31,95,126,male,1.0,primary
+96,1,swimming,29,37,8502,8510,98,9.0,24.0,8482.0,8497.0,,,,,verb.motion,True,81,subject,the little fish,1,0,1,unknown,0.0,tertiary
+97,4,feeding,143,150,8668,8675,1,119.0,142.0,8644.0,8667.0,,,,,verb.consumption,True,82,subject,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+100,6,help,78,82,8892,8896,0,69.0,72.0,8883.0,8886.0,,,,,verb.social,True,86,subject,Poor Jose,31,95,126,male,1.0,primary
+101,9,carried,87,94,8998,9005,93,74.0,75.0,8985.0,8986.0,103.0,109.0,9014.0,9020.0,verb.motion,True,85,subject,the horse,7,10,17,male,1.0,tertiary
+104,3,knew,96,100,9340,9344,165,83.0,95.0,9327.0,9339.0,,,,,verb.cognition,True,89,subject,the princess,5,26,31,female,1.0,tertiary
+105,1,opened,39,45,9412,9418,165,0.0,3.0,9373.0,9376.0,,,,,verb.contact,True,90,subject,the princess,5,26,31,female,1.0,tertiary
+109,0,answered,14,22,9617,9625,0,4.0,8.0,9607.0,9611.0,,,,,verb.communication,True,92,subject,Poor Jose,31,95,126,male,1.0,primary
+111,3,threw,87,92,9792,9797,165,44.0,56.0,9749.0,9761.0,105.0,162.0,9810.0,9867.0,verb.contact,True,93,subject,the princess,5,26,31,female,1.0,tertiary
+114,3,said,39,43,9930,9934,165,0.0,36.0,9891.0,9927.0,,,,,verb.communication,True,94,subject,the princess,5,26,31,female,1.0,tertiary
+115,2,get,23,26,9963,9966,0,6.0,9.0,9946.0,9949.0,,,,,verb.possession,True,96,subject,Poor Jose,31,95,126,male,1.0,primary
+116,0,answered,9,17,9988,9996,0,4.0,8.0,9983.0,9987.0,,,,,verb.communication,True,95,subject,Poor Jose,31,95,126,male,1.0,primary
+118,1,slipped,54,61,10139,10146,165,41.0,53.0,10126.0,10138.0,,,,,verb.possession,True,97,subject,the princess,5,26,31,female,1.0,tertiary
+119,0,gasped,22,28,10223,10229,165,1.0,19.0,10202.0,10220.0,34.0,50.0,10235.0,10251.0,verb.communication,True,99,subject,the princess,5,26,31,female,1.0,tertiary
+120,1,lost,8,12,10261,10265,165,1.0,2.0,10254.0,10255.0,,,,,verb.possession,True,98,subject,the princess,5,26,31,female,1.0,tertiary
+122,0,answered,9,17,10344,10352,0,4.0,8.0,10339.0,10343.0,,,,,verb.communication,True,101,subject,Poor Jose,31,95,126,male,1.0,primary
+124,2,beholding,80,89,10514,10523,35,43.0,59.0,10477.0,10493.0,,,,,verb.creation,True,102,subject,the king,19,33,52,male,1.0,secondary
+125,5,open,122,126,10679,10683,165,84.0,100.0,10641.0,10657.0,,,,,verb.contact,True,104,subject,the princess,5,26,31,female,1.0,tertiary
+126,1,lost,29,33,10737,10741,165,10.0,26.0,10718.0,10734.0,,,,,verb.possession,True,103,subject,the princess,5,26,31,female,1.0,tertiary
+127,1,driven,30,36,10842,10848,35,17.0,25.0,10829.0,10837.0,,,,,verb.communication,True,105,subject,the king,19,33,52,male,1.0,secondary
+128,8,bring,109,114,10983,10988,0,65.0,93.0,10939.0,10967.0,120.0,124.0,10994.0,10998.0,verb.motion,True,106,subject,Poor Jose,31,95,126,male,1.0,primary
+129,0,return,11,17,11011,11017,0,7.0,10.0,11007.0,11010.0,,,,,verb.motion,True,108,subject,Poor Jose,31,95,126,male,1.0,primary
+131,0,thought,3,10,11104,11111,0,0.0,2.0,11101.0,11103.0,,,,,verb.cognition,True,107,subject,Poor Jose,31,95,126,male,1.0,primary
+132,2,consult,39,46,11226,11233,0,9.0,11.0,11196.0,11198.0,,,,,verb.communication,True,110,subject,Poor Jose,31,95,126,male,1.0,primary
+133,4,heard,51,56,11307,11312,116,44.0,46.0,11300.0,11302.0,,,,,verb.perception,True,109,subject,Poor Jose's friend,2,2,4,male,1.0,tertiary
+135,0,mounted,9,16,11384,11391,0,4.0,8.0,11379.0,11383.0,,,,,verb.motion,True,111,subject,Poor Jose,31,95,126,male,1.0,primary
+140,5,gave,112,116,11719,11723,0,98.0,107.0,11705.0,11714.0,,,,,verb.possession,True,113,subject,Poor Jose,31,95,126,male,1.0,primary
+141,0,listened,5,13,11736,11744,0,0.0,4.0,11731.0,11735.0,,,,,verb.perception,True,115,subject,Poor Jose,31,95,126,male,1.0,primary
+143,3,bade,74,78,11876,11880,0,47.0,49.0,11849.0,11851.0,84.0,122.0,11886.0,11924.0,verb.communication,True,116,subject,Poor Jose,31,95,126,male,1.0,primary
+144,0,saw,8,11,11934,11937,0,5.0,7.0,11931.0,11933.0,37.0,75.0,11963.0,12001.0,verb.perception,True,117,subject,Poor Jose,31,95,126,male,1.0,primary
+147,1,saw,32,35,12092,12095,0,5.0,9.0,12065.0,12069.0,,,,,verb.perception,True,118,subject,Poor Jose,31,95,126,male,1.0,primary
+150,3,sank,124,128,12404,12408,0,109.0,123.0,12389.0,12403.0,,,,,verb.change,True,120,subject,Poor Jose,31,95,126,male,1.0,primary
+151,1,get,13,16,12429,12432,0,8.0,9.0,12424.0,12425.0,,,,,verb.possession,True,121,subject,Poor Jose,31,95,126,male,1.0,primary
+155,2,bring,54,59,12599,12604,93,46.0,48.0,12591.0,12593.0,,,,,verb.motion,True,125,subject,the horse,7,10,17,male,1.0,tertiary
+159,3,know,72,76,13003,13007,0,63.0,64.0,12994.0,12995.0,,,,,verb.cognition,True,123,subject,Poor Jose,31,95,126,male,1.0,primary
+162,3,bring,57,62,13178,13183,1,48.0,51.0,13169.0,13172.0,,,,,verb.motion,True,128,subject,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+164,2,returned,40,48,13423,13431,0,35.0,39.0,13418.0,13422.0,,,,,verb.motion,True,129,subject,Poor Jose,31,95,126,male,1.0,primary
+165,8,fried,157,162,13603,13608,1,113.0,147.0,13559.0,13593.0,,,,,verb.change,True,130,subject,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+166,1,said,19,23,13636,13640,35,1.0,16.0,13618.0,13633.0,,,,,verb.communication,True,132,subject,the king,19,33,52,male,1.0,secondary
+167,0,see,9,12,13695,13698,0,5.0,8.0,13691.0,13694.0,,,,,verb.cognition,True,131,subject,Poor Jose,31,95,126,male,1.0,primary
+168,4,inquire,81,88,13799,13806,0,53.0,57.0,13771.0,13775.0,,,,,verb.communication,True,133,subject,Poor Jose,31,95,126,male,1.0,primary
+170,2,gallop,28,34,13938,13944,93,21.0,22.0,13931.0,13932.0,,,,,verb.motion,True,134,subject,the horse,7,10,17,male,1.0,tertiary
+171,1,ask,13,16,14097,14100,0,0.0,4.0,14084.0,14088.0,,,,,verb.communication,True,136,subject,Poor Jose,31,95,126,male,1.0,primary
+172,0,wondered,9,17,14160,14168,132,5.0,8.0,14156.0,14159.0,,,,,verb.cognition,True,137,subject,men,1,1,2,male,1.0,tertiary
+173,2,cried,34,39,14277,14282,1,23.0,33.0,14266.0,14276.0,,,,,verb.communication,True,138,subject,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+175,0,saw,24,27,14448,14451,135,21.0,23.0,14445.0,14447.0,,,,,verb.cognition,True,140,subject,the old king,1,8,9,male,1.0,tertiary
+176,2,fried,59,64,14537,14542,135,16.0,18.0,14494.0,14496.0,,,,,verb.change,True,141,subject,the old king,1,8,9,male,1.0,tertiary
+178,4,owe,97,100,14766,14769,0,95.0,96.0,14764.0,14765.0,,,,,verb.possession,True,144,subject,Poor Jose,31,95,126,male,1.0,primary
+179,1,done,13,17,14805,14809,135,9.0,12.0,14801.0,14804.0,,,,,verb.social,True,143,subject,the old king,1,8,9,male,1.0,tertiary
+181,3,help,60,64,14984,14988,0,52.0,53.0,14976.0,14977.0,70.0,90.0,14994.0,15014.0,verb.social,True,147,subject,Poor Jose,31,95,126,male,1.0,primary
+182,0,told,10,14,15026,15030,0,8.0,9.0,15024.0,15025.0,,,,,verb.communication,True,146,subject,Poor Jose,31,95,126,male,1.0,primary
+0,1,had,39,42,39,42,6,43.0,51.0,43.0,51.0,,,,,verb.possession,True,0,direct_object,two sons,1,1,2,group/nonbinary,1.0,tertiary
+1,1,went,28,32,81,85,7,36.0,69.0,89.0,122.0,,,,,verb.motion,True,1,direct_object,the elder,2,2,4,male,1.0,tertiary
+3,1,spent,41,46,344,349,13,47.0,66.0,350.0,369.0,67.0,119.0,370.0,422.0,verb.possession,True,3,direct_object,the son who stayed at home,1,5,6,male,1.0,tertiary
+3,1,spent,41,46,344,349,12,47.0,66.0,350.0,369.0,67.0,119.0,370.0,422.0,verb.possession,True,3,direct_object,the younger son's father,3,0,3,male,1.0,tertiary
+5,1,forgotten,10,19,576,585,20,20.0,22.0,586.0,588.0,,,,,verb.cognition,True,5,direct_object,the man,3,18,21,male,1.0,tertiary
+6,0,asked,0,5,591,596,20,6.0,13.0,597.0,604.0,,,,,verb.communication,True,6,direct_object,the man,3,18,21,male,1.0,tertiary
+7,1,forget,9,15,615,621,138,16.0,43.0,622.0,649.0,,,,,verb.cognition,True,7,direct_object,the man's person I have never known,1,0,1,unknown,0.0,tertiary
+7,1,forget,9,15,615,621,20,16.0,43.0,622.0,649.0,,,,,verb.cognition,True,7,direct_object,the man,3,18,21,male,1.0,tertiary
+9,1,tell,25,29,807,811,143,30.0,32.0,812.0,814.0,33.0,47.0,815.0,829.0,verb.communication,True,9,direct_object,The stranger's father,1,3,4,male,1.0,tertiary
+9,1,tell,25,29,807,811,21,30.0,32.0,812.0,814.0,33.0,47.0,815.0,829.0,verb.communication,True,9,direct_object,The stranger,5,40,45,male,1.0,secondary
+10,2,counted,13,20,867,874,21,21.0,44.0,875.0,898.0,45.0,79.0,899.0,933.0,verb.cognition,True,11,direct_object,The stranger,5,40,45,male,1.0,secondary
+11,2,left,57,61,993,997,21,62.0,65.0,998.0,1001.0,67.0,104.0,1003.0,1040.0,verb.possession,True,10,direct_object,The stranger,5,40,45,male,1.0,secondary
+15,0,turned,16,22,1175,1181,23,23.0,32.0,1182.0,1191.0,33.0,84.0,1192.0,1243.0,verb.motion,True,15,direct_object,the wanderer,1,8,9,male,1.0,tertiary
+17,0,said,3,7,1377,1381,23,8.0,18.0,1382.0,1392.0,,,,,verb.communication,True,16,direct_object,the wanderer,1,8,9,male,1.0,tertiary
+18,4,warm,56,60,1450,1454,23,61.0,67.0,1455.0,1461.0,,,,,verb.body,True,17,direct_object,the wanderer,1,8,9,male,1.0,tertiary
+23,1,inquired,55,63,1915,1923,30,64.0,137.0,1924.0,1997.0,,,,,verb.communication,True,21,direct_object,the man whose name was written inside,1,0,1,male,1.0,tertiary
+23,1,inquired,55,63,1915,1923,29,64.0,137.0,1924.0,1997.0,,,,,verb.communication,True,21,direct_object,the landlord,1,1,2,male,1.0,tertiary
+23,1,inquired,55,63,1915,1923,20,64.0,137.0,1924.0,1997.0,,,,,verb.communication,True,21,direct_object,the man,3,18,21,male,1.0,tertiary
+24,0,proved,11,17,2051,2057,32,18.0,79.0,2058.0,2119.0,,,,,verb.cognition,True,22,direct_object,"an old miser , who lived at the other end of the village",1,0,1,unknown,0.0,tertiary
+29,3,answered,54,62,2721,2729,42,80.0,106.0,2747.0,2773.0,,,,,verb.communication,True,27,direct_object,a poor woman,1,9,10,female,1.0,tertiary
+29,3,answered,54,62,2721,2729,43,80.0,106.0,2747.0,2773.0,,,,,verb.communication,True,27,direct_object,a poor woman's husband,1,1,2,male,1.0,tertiary
+30,0,said,20,24,2897,2901,21,25.0,37.0,2902.0,2914.0,38.0,44.0,2915.0,2921.0,verb.communication,True,28,direct_object,The stranger,5,40,45,male,1.0,secondary
+31,1,send,21,25,2943,2947,42,26.0,38.0,2948.0,2960.0,,,,,verb.motion,True,29,direct_object,a poor woman,1,9,10,female,1.0,tertiary
+31,1,send,21,25,2943,2947,146,26.0,38.0,2948.0,2960.0,,,,,verb.motion,True,29,direct_object,a poor woman's husband,1,0,1,male,1.0,tertiary
+33,1,nurse,21,26,3089,3094,47,27.0,30.0,3095.0,3098.0,31.0,49.0,,,verb.body,True,33,direct_object,the husband,1,4,5,male,1.0,tertiary
+38,0,said,0,4,3349,3353,21,5.0,7.0,3354.0,3356.0,,,,,verb.communication,True,35,direct_object,The stranger,5,40,45,male,1.0,secondary
+39,0,think,3,8,3372,3377,35,9.0,73.0,3378.0,3442.0,,,,,verb.cognition,True,37,direct_object,the king,19,33,52,male,1.0,secondary
+39,0,think,3,8,3372,3377,21,9.0,73.0,3378.0,3442.0,,,,,verb.cognition,True,37,direct_object,The stranger,5,40,45,male,1.0,secondary
+40,2,saw,81,84,3526,3529,35,85.0,130.0,3530.0,3575.0,,,,,verb.perception,True,36,direct_object,the king,19,33,52,male,1.0,secondary
+41,0,did,7,10,3584,3587,21,11.0,21.0,3588.0,3598.0,22.0,134.0,3599.0,3711.0,verb.social,True,39,direct_object,The stranger,5,40,45,male,1.0,secondary
+42,2,spent,48,53,3761,3766,53,54.0,84.0,3767.0,3797.0,,,,,verb.possession,True,38,direct_object,the younger brother,1,2,3,male,1.0,tertiary
+44,1,help,35,39,4061,4065,35,40.0,80.0,4066.0,4106.0,,,,,verb.social,True,41,direct_object,the king,19,33,52,male,1.0,secondary
+45,2,bear,79,83,4244,4248,60,84.0,123.0,4249.0,4288.0,,,,,verb.cognition,True,42,direct_object,the young man,1,2,3,male,1.0,tertiary
+46,1,listening,39,48,4329,4338,60,49.0,57.0,4339.0,4347.0,,,,,verb.perception,True,43,direct_object,the young man,1,2,3,male,1.0,tertiary
+47,3,rubbing,46,53,4603,4610,67,54.0,63.0,4611.0,4620.0,,,,,verb.contact,True,44,direct_object,the scoundrel,1,3,4,male,1.0,tertiary
+50,0,went,6,10,4813,4817,68,11.0,13.0,4818.0,4820.0,14.0,18.0,4821.0,4825.0,verb.motion,True,45,direct_object,the Lord High Chamberlain,1,0,1,unknown,0.0,tertiary
+51,1,bade,67,71,5033,5037,35,72.0,81.0,5038.0,5047.0,,,,,verb.communication,True,47,direct_object,the king,19,33,52,male,1.0,secondary
+53,0,answered,26,34,5131,5139,20,35.0,42.0,5140.0,5147.0,,,,,verb.communication,True,48,direct_object,the man,3,18,21,male,1.0,tertiary
+55,0,asked,0,5,5215,5220,35,6.0,14.0,5221.0,5229.0,15.0,26.0,,,verb.communication,True,49,direct_object,the king,19,33,52,male,1.0,secondary
+56,4,know,68,72,5311,5315,1,73.0,97.0,5316.0,5340.0,,,,,verb.cognition,True,50,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+57,3,bring,50,55,5393,5398,1,56.0,59.0,5399.0,5402.0,,,,,verb.motion,True,53,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+57,3,bring,50,55,5393,5398,35,56.0,59.0,5399.0,5402.0,,,,,verb.motion,True,53,direct_object,the king,19,33,52,male,1.0,secondary
+59,1,revealed,23,31,5476,5484,3,32.0,49.0,5485.0,5502.0,,,,,verb.communication,True,52,direct_object,knave,1,1,2,unknown,0.0,tertiary
+62,3,obey,81,85,5810,5814,35,86.0,96.0,5815.0,5825.0,,,,,verb.social,True,55,direct_object,the king,19,33,52,male,1.0,secondary
+64,0,bring,1,6,6005,6010,1,7.0,9.0,6011.0,6013.0,34.0,45.0,,,verb.motion,True,57,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+64,0,bring,1,6,6005,6010,35,7.0,9.0,6011.0,6013.0,34.0,45.0,,,verb.motion,True,57,direct_object,the king,19,33,52,male,1.0,secondary
+66,3,seen,63,67,6276,6280,1,68.0,71.0,6281.0,6284.0,,,,,verb.perception,True,58,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+67,0,thought,0,7,6287,6294,0,8.0,10.0,6295.0,6297.0,,,,,verb.cognition,True,60,direct_object,Poor Jose,31,95,126,male,1.0,primary
+69,1,choose,39,45,6405,6411,0,46.0,61.0,6412.0,6427.0,,,,,verb.cognition,True,61,direct_object,Poor Jose,31,95,126,male,1.0,primary
+71,0,take,1,5,6685,6689,35,6.0,8.0,6690.0,6692.0,,,,,verb.social,True,64,direct_object,the king,19,33,52,male,1.0,secondary
+73,1,led,48,51,6928,6931,86,52.0,67.0,6932.0,6947.0,68.0,85.0,6948.0,6965.0,verb.motion,True,66,direct_object,the white horse,1,0,1,unknown,0.0,tertiary
+80,0,answered,0,8,7455,7463,0,9.0,11.0,7464.0,7466.0,,,,,verb.communication,True,70,direct_object,Poor Jose,31,95,126,male,1.0,primary
+82,0,give,1,5,7486,7490,163,6.0,10.0,7491.0,7495.0,23.0,35.0,,,verb.possession,True,72,direct_object,the ants,3,5,8,group/nonbinary,1.0,tertiary
+83,2,helping,24,31,7546,7553,164,32.0,38.0,7554.0,7560.0,,,,,verb.social,True,71,direct_object,others,3,0,3,unknown,0.0,tertiary
+85,1,saw,73,76,7706,7709,92,77.0,125.0,7710.0,7758.0,,,,,verb.perception,True,73,direct_object,a hunter,1,0,1,unknown,0.0,tertiary
+86,3,said,70,74,7830,7834,93,75.0,84.0,7835.0,7844.0,,,,,verb.communication,True,74,direct_object,the horse,7,10,17,male,1.0,tertiary
+87,2,objected,28,36,7874,7882,0,37.0,41.0,7883.0,7887.0,,,,,verb.communication,True,75,direct_object,Poor Jose,31,95,126,male,1.0,primary
+89,3,answered,42,50,7980,7988,93,51.0,60.0,7989.0,7998.0,,,,,verb.communication,True,76,direct_object,the horse,7,10,17,male,1.0,tertiary
+91,6,said,134,138,8211,8215,0,141.0,168.0,8218.0,8245.0,,,,,verb.communication,True,77,direct_object,Poor Jose,31,95,126,male,1.0,primary
+93,1,find,29,33,8329,8333,167,34.0,57.0,8334.0,8357.0,58.0,88.0,8358.0,8388.0,verb.possession,True,78,direct_object,the Princess Bella - Flor,1,4,5,female,1.0,tertiary
+95,3,answered,50,58,8453,8461,93,59.0,68.0,8462.0,8471.0,,,,,verb.communication,True,80,direct_object,the horse,7,10,17,male,1.0,tertiary
+97,4,feeding,143,150,8668,8675,1,151.0,159.0,8676.0,8684.0,,,,,verb.consumption,True,82,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+98,1,said,14,18,8700,8704,93,19.0,28.0,8705.0,8714.0,,,,,verb.communication,True,83,direct_object,the horse,7,10,17,male,1.0,tertiary
+99,4,amuse,67,72,8783,8788,1,73.0,96.0,8789.0,8812.0,,,,,verb.emotion,True,84,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+100,6,help,78,82,8892,8896,167,83.0,95.0,8897.0,8909.0,,,,,verb.social,True,86,direct_object,the Princess Bella - Flor,1,4,5,female,1.0,tertiary
+101,9,carried,87,94,8998,9005,169,95.0,102.0,9006.0,9013.0,103.0,109.0,9014.0,9020.0,verb.motion,True,85,direct_object,a woman,1,0,1,female,1.0,tertiary
+102,1,go,24,26,9115,9117,35,41.0,61.0,9132.0,9152.0,,,,,verb.motion,True,88,direct_object,the king,19,33,52,male,1.0,secondary
+103,1,told,30,34,9185,9189,0,35.0,38.0,9190.0,9193.0,,,,,verb.communication,True,87,direct_object,Poor Jose,31,95,126,male,1.0,primary
+104,3,knew,96,100,9340,9344,165,101.0,127.0,9345.0,9371.0,,,,,verb.cognition,True,89,direct_object,the princess,5,26,31,female,1.0,tertiary
+105,1,opened,39,45,9412,9418,165,46.0,97.0,9419.0,9470.0,,,,,verb.contact,True,90,direct_object,the princess,5,26,31,female,1.0,tertiary
+107,0,cried,0,5,9551,9556,165,6.0,9.0,9557.0,9560.0,,,,,verb.communication,True,91,direct_object,the princess,5,26,31,female,1.0,tertiary
+114,3,said,39,43,9930,9934,165,44.0,47.0,9935.0,9938.0,,,,,verb.communication,True,94,direct_object,the princess,5,26,31,female,1.0,tertiary
+115,2,get,23,26,9963,9966,165,27.0,29.0,9967.0,9969.0,,,,,verb.possession,True,96,direct_object,the princess,5,26,31,female,1.0,tertiary
+118,1,slipped,54,61,10139,10146,165,62.0,68.0,10147.0,10153.0,,,,,verb.possession,True,97,direct_object,the princess,5,26,31,female,1.0,tertiary
+119,0,gasped,22,28,10223,10229,165,29.0,32.0,10230.0,10233.0,34.0,50.0,10235.0,10251.0,verb.communication,True,99,direct_object,the princess,5,26,31,female,1.0,tertiary
+120,1,lost,8,12,10261,10265,165,13.0,30.0,10266.0,10283.0,,,,,verb.possession,True,98,direct_object,the princess,5,26,31,female,1.0,tertiary
+121,2,look,26,30,10310,10314,0,31.0,48.0,10315.0,10332.0,,,,,verb.perception,True,100,direct_object,Poor Jose,31,95,126,male,1.0,primary
+122,0,answered,9,17,10344,10352,165,20.0,69.0,10355.0,10404.0,,,,,verb.communication,True,101,direct_object,the princess,5,26,31,female,1.0,tertiary
+124,2,beholding,80,89,10514,10523,1,90.0,121.0,10524.0,10555.0,,,,,verb.creation,True,102,direct_object,"the Princess Bella - Flor , who would have nothing to say to him",12,13,25,female,1.0,tertiary
+124,2,beholding,80,89,10514,10523,111,90.0,121.0,10524.0,10555.0,,,,,verb.creation,True,102,direct_object,the king's beloved,1,0,1,unknown,0.0,tertiary
+124,2,beholding,80,89,10514,10523,35,90.0,121.0,10524.0,10555.0,,,,,verb.creation,True,102,direct_object,the king,19,33,52,male,1.0,secondary
+127,1,driven,30,36,10842,10848,0,37.0,60.0,10849.0,10872.0,,,,,verb.communication,True,105,direct_object,Poor Jose,31,95,126,male,1.0,primary
+131,0,thought,3,10,11104,11111,0,11.0,84.0,11112.0,11185.0,,,,,verb.cognition,True,107,direct_object,Poor Jose,31,95,126,male,1.0,primary
+132,2,consult,39,46,11226,11233,116,47.0,67.0,11234.0,11254.0,,,,,verb.communication,True,110,direct_object,Poor Jose's friend,2,2,4,male,1.0,tertiary
+132,2,consult,39,46,11226,11233,0,47.0,67.0,11234.0,11254.0,,,,,verb.communication,True,110,direct_object,Poor Jose,31,95,126,male,1.0,primary
+136,2,asked,64,69,11465,11470,0,72.0,103.0,11473.0,11504.0,,,,,verb.communication,True,112,direct_object,Poor Jose,31,95,126,male,1.0,primary
+139,1,tell,26,30,11577,11581,0,31.0,35.0,11582.0,11586.0,,,,,verb.communication,True,114,direct_object,Poor Jose,31,95,126,male,1.0,primary
+139,1,tell,26,30,11577,11581,163,31.0,35.0,11582.0,11586.0,,,,,verb.communication,True,114,direct_object,the ants,3,5,8,group/nonbinary,1.0,tertiary
+140,5,gave,112,116,11719,11723,163,117.0,121.0,11724.0,11728.0,,,,,verb.possession,True,113,direct_object,the ants,3,5,8,group/nonbinary,1.0,tertiary
+143,3,bade,74,78,11876,11880,163,79.0,83.0,11881.0,11885.0,84.0,122.0,11886.0,11924.0,verb.communication,True,116,direct_object,the ants,3,5,8,group/nonbinary,1.0,tertiary
+147,1,saw,32,35,12092,12095,0,36.0,116.0,12096.0,12176.0,,,,,verb.perception,True,118,direct_object,Poor Jose,31,95,126,male,1.0,primary
+148,1,observed,41,49,12219,12227,93,50.0,59.0,12228.0,12237.0,,,,,verb.communication,True,119,direct_object,the horse,7,10,17,male,1.0,tertiary
+152,0,cried,0,5,12453,12458,0,6.0,8.0,12459.0,12461.0,,,,,verb.communication,True,122,direct_object,Poor Jose,31,95,126,male,1.0,primary
+155,2,bring,54,59,12599,12604,0,60.0,62.0,12605.0,12607.0,,,,,verb.motion,True,125,direct_object,Poor Jose,31,95,126,male,1.0,primary
+157,1,vaulting,22,30,12757,12765,0,31.0,69.0,12766.0,12804.0,,,,,verb.motion,True,124,direct_object,Poor Jose,31,95,126,male,1.0,primary
+160,0,asked,0,5,13063,13068,0,6.0,10.0,13069.0,13073.0,,,,,verb.communication,True,126,direct_object,Poor Jose,31,95,126,male,1.0,primary
+162,3,bring,57,62,13178,13183,0,63.0,65.0,13184.0,13186.0,,,,,verb.motion,True,128,direct_object,Poor Jose,31,95,126,male,1.0,primary
+163,5,brought,154,161,13350,13357,0,162.0,164.0,13358.0,13360.0,,,,,verb.motion,True,127,direct_object,Poor Jose,31,95,126,male,1.0,primary
+166,1,said,19,23,13636,13640,35,24.0,40.0,13641.0,13657.0,,,,,verb.communication,True,132,direct_object,the king,19,33,52,male,1.0,secondary
+166,1,said,19,23,13636,13640,0,24.0,40.0,13641.0,13657.0,,,,,verb.communication,True,132,direct_object,Poor Jose,31,95,126,male,1.0,primary
+168,4,inquire,81,88,13799,13806,116,89.0,112.0,13807.0,13830.0,,,,,verb.communication,True,133,direct_object,Poor Jose's friend,2,2,4,male,1.0,tertiary
+168,4,inquire,81,88,13799,13806,0,89.0,112.0,13807.0,13830.0,,,,,verb.communication,True,133,direct_object,Poor Jose,31,95,126,male,1.0,primary
+169,2,said,24,28,13894,13898,93,29.0,38.0,13899.0,13908.0,,,,,verb.communication,True,135,direct_object,the horse,7,10,17,male,1.0,tertiary
+173,2,cried,34,39,14277,14282,0,40.0,69.0,14283.0,14312.0,,,,,verb.communication,True,138,direct_object,Poor Jose,31,95,126,male,1.0,primary
+174,0,came,9,13,14323,14327,133,14.0,43.0,14328.0,14357.0,97.0,108.0,14411.0,14422.0,verb.motion,True,139,direct_object,a youth so young and handsome,1,0,1,unknown,0.0,tertiary
+174,0,came,9,13,14323,14327,0,14.0,43.0,14328.0,14357.0,97.0,108.0,14411.0,14422.0,verb.motion,True,139,direct_object,Poor Jose,31,95,126,male,1.0,primary
+175,0,saw,24,27,14448,14451,135,28.0,53.0,14452.0,14477.0,,,,,verb.cognition,True,140,direct_object,the old king,1,8,9,male,1.0,tertiary
+177,1,proclaimed,14,24,14574,14584,136,25.0,29.0,14585.0,14589.0,31.0,107.0,,,verb.social,True,142,direct_object,king,1,0,1,male,1.0,tertiary
+178,4,owe,97,100,14766,14769,0,101.0,121.0,14770.0,14790.0,,,,,verb.possession,True,144,direct_object,Poor Jose,31,95,126,male,1.0,primary
+179,1,done,13,17,14805,14809,0,18.0,26.0,14810.0,14818.0,,,,,verb.social,True,143,direct_object,Poor Jose,31,95,126,male,1.0,primary
+180,0,answered,14,22,14842,14850,176,25.0,94.0,14853.0,14922.0,,,,,verb.communication,True,145,direct_object,Poor Jose's unhappy man for whom you spent all your fortune,1,0,1,male,1.0,tertiary
+180,0,answered,14,22,14842,14850,0,25.0,94.0,14853.0,14922.0,,,,,verb.communication,True,145,direct_object,Poor Jose,31,95,126,male,1.0,primary
+181,3,help,60,64,14984,14988,0,65.0,68.0,14989.0,14992.0,70.0,90.0,14994.0,15014.0,verb.social,True,147,direct_object,Poor Jose,31,95,126,male,1.0,primary
+182,0,told,10,14,15026,15030,0,15.0,18.0,15031.0,15034.0,,,,,verb.communication,True,146,direct_object,Poor Jose,31,95,126,male,1.0,primary

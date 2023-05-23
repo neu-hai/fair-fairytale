@@ -1,0 +1,152 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,awakened,18,26,18,26,2,0.0,8.0,0.0,8.0,,,,,verb.body,True,0,subject,the king,20.0,74.0,94.0,male,1.0,primary
+1,4,appeared,153,161,308,316,6,119.0,143.0,274.0,298.0,,,,,verb.change,True,2,subject,a number of young nobles,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+2,1,playing,32,39,409,416,6,20.0,22.0,397.0,399.0,47.0,154.0,424.0,531.0,verb.competition,True,1,subject,a number of young nobles,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+3,6,struck,150,156,683,689,126,117.0,149.0,650.0,682.0,161.0,229.0,694.0,762.0,verb.contact,True,3,subject,sire's gentleman whom you see there,1.0,0.0,1.0,male,1.0,tertiary
+3,6,struck,150,156,683,689,120,117.0,149.0,650.0,682.0,161.0,229.0,694.0,762.0,verb.contact,True,3,subject,sire,3.0,2.0,5.0,unknown,0.0,tertiary
+4,7,stepped,174,181,938,945,130,165.0,173.0,929.0,937.0,,,,,verb.motion,True,4,subject,the duke,1.0,0.0,1.0,unknown,0.0,tertiary
+5,5,suppose,82,89,1084,1091,2,80.0,81.0,1082.0,1083.0,,,,,verb.cognition,True,6,subject,the king,20.0,74.0,94.0,male,1.0,primary
+6,0,had,15,18,1174,1177,122,12.0,14.0,1171.0,1173.0,,,,,verb.possession,True,5,subject,The prince,12.0,35.0,47.0,male,1.0,secondary
+8,0,saw,12,15,1236,1239,122,9.0,11.0,1233.0,1235.0,,,,,verb.perception,True,7,subject,The prince,12.0,35.0,47.0,male,1.0,secondary
+9,1,walked,25,31,1388,1394,2,16.0,24.0,1379.0,1387.0,,,,,verb.motion,True,8,subject,the king,20.0,74.0,94.0,male,1.0,primary
+12,3,brought,48,55,1824,1831,122,37.0,39.0,1813.0,1815.0,,,,,verb.motion,True,11,subject,The prince,12.0,35.0,47.0,male,1.0,secondary
+13,11,guarded,239,246,2206,2213,15,203.0,205.0,2170.0,2172.0,,,,,verb.competition,True,10,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+14,1,surrounded,40,50,2343,2353,12,0.0,13.0,2303.0,2316.0,,,,,verb.competition,True,12,subject,the young man,8.0,12.0,20.0,male,1.0,tertiary
+16,3,take,71,75,2760,2764,15,46.0,58.0,2735.0,2747.0,,,,,verb.social,True,14,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+17,2,went,39,43,2836,2840,15,36.0,38.0,2833.0,2835.0,,,,,verb.motion,True,15,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+18,3,stood,151,156,3081,3086,33,100.0,112.0,3030.0,3042.0,,,,,verb.contact,True,16,subject,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+19,4,looked,69,75,3178,3184,33,65.0,68.0,3174.0,3177.0,,,,,verb.body,True,17,subject,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+21,7,save,102,106,3360,3364,140,94.0,97.0,3352.0,3355.0,,,,,verb.social,True,18,subject,Sir,1.0,13.0,14.0,unknown,0.0,tertiary
+22,4,promise,80,87,3456,3463,140,71.0,74.0,3447.0,3450.0,,,,,verb.communication,True,19,subject,Sir,1.0,13.0,14.0,unknown,0.0,tertiary
+23,0,felt,26,30,3508,3512,15,13.0,25.0,3495.0,3507.0,,,,,verb.body,True,20,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+25,0,cried,3,8,3605,3610,15,0.0,2.0,3602.0,3604.0,,,,,verb.communication,True,22,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+27,6,marry,78,83,3755,3760,140,57.0,60.0,3734.0,3737.0,,,,,verb.social,True,23,subject,Sir,1.0,13.0,14.0,unknown,0.0,tertiary
+31,0,spoke,3,8,3935,3940,15,0.0,2.0,3932.0,3934.0,,,,,verb.communication,True,25,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+32,0,said,17,21,4055,4059,33,9.0,12.0,4047.0,4050.0,,,,,verb.communication,True,28,subject,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+33,0,reject,11,17,4089,4095,140,7.0,10.0,4085.0,4088.0,,,,,verb.cognition,True,27,subject,Sir,1.0,13.0,14.0,unknown,0.0,tertiary
+34,3,understood,87,97,4246,4256,15,84.0,86.0,4243.0,4245.0,,,,,verb.cognition,True,29,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+36,4,walk,50,54,4525,4529,41,24.0,43.0,4499.0,4518.0,,,,,verb.motion,True,30,subject,a woman past ninety,1.0,0.0,1.0,female,1.0,tertiary
+39,2,accept,34,40,4733,4739,15,1.0,2.0,4700.0,4701.0,,,,,verb.possession,True,34,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+42,1,swear,43,48,5050,5055,37,11.0,42.0,5018.0,5049.0,,,,,verb.communication,True,36,subject,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+42,1,swear,43,48,5050,5055,15,11.0,42.0,5018.0,5049.0,,,,,verb.communication,True,36,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+43,6,brought,145,152,5276,5283,12,138.0,140.0,5269.0,5271.0,,,,,verb.motion,True,37,subject,the young man,8.0,12.0,20.0,male,1.0,tertiary
+44,3,marvelled,71,80,5387,5396,56,67.0,70.0,5383.0,5386.0,,,,,verb.emotion,True,39,subject,,,,,,,
+45,5,striking,89,97,5517,5525,15,69.0,71.0,5497.0,5499.0,,,,,verb.contact,True,38,subject,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+46,5,judge,205,210,5800,5805,2,185.0,188.0,5780.0,5783.0,,,,,verb.cognition,True,41,subject,the king,20.0,74.0,94.0,male,1.0,primary
+47,4,grieved,91,98,5982,5989,149,72.0,83.0,5963.0,5974.0,103.0,110.0,5994.0,6001.0,verb.emotion,True,40,subject,no children,1.0,0.0,1.0,unknown,0.0,tertiary
+48,0,saw,10,13,6013,6016,148,0.0,9.0,6003.0,6012.0,,,,,verb.cognition,True,42,subject,the queen,4.0,4.0,8.0,female,1.0,tertiary
+49,7,tell,167,171,6313,6317,154,152.0,163.0,6298.0,6309.0,,,,,verb.communication,True,43,subject,a messenger,1.0,0.0,1.0,unknown,0.0,tertiary
+51,1,permit,31,37,6551,6557,2,12.0,25.0,6532.0,6545.0,,,,,verb.communication,True,45,subject,the king,20.0,74.0,94.0,male,1.0,primary
+51,1,permit,31,37,6551,6557,161,12.0,25.0,6532.0,6545.0,,,,,verb.communication,True,45,subject,the king's highness,2.0,0.0,2.0,unknown,0.0,tertiary
+53,4,chasing,144,151,6876,6883,2,75.0,88.0,6807.0,6820.0,,,,,verb.contact,True,47,subject,the king,20.0,74.0,94.0,male,1.0,primary
+53,4,chasing,144,151,6876,6883,161,75.0,88.0,6807.0,6820.0,,,,,verb.contact,True,47,subject,the king's highness,2.0,0.0,2.0,unknown,0.0,tertiary
+54,2,know,52,56,6946,6950,2,22.0,33.0,6916.0,6927.0,,,,,verb.cognition,True,46,subject,the king,20.0,74.0,94.0,male,1.0,primary
+55,1,answer,23,29,7113,7119,35,9.0,12.0,7099.0,7102.0,,,,,verb.communication,True,49,subject,a girl,2.0,13.0,15.0,female,1.0,tertiary
+56,3,marry,73,78,7268,7273,35,66.0,69.0,7261.0,7264.0,,,,,verb.social,True,51,subject,a girl,2.0,13.0,15.0,female,1.0,tertiary
+57,0,thought,9,16,7288,7295,35,0.0,3.0,7279.0,7282.0,,,,,verb.cognition,True,50,subject,a girl,2.0,13.0,15.0,female,1.0,tertiary
+58,2,thinking,122,130,7508,7516,2,20.0,23.0,7406.0,7409.0,,,,,verb.cognition,True,52,subject,the king,20.0,74.0,94.0,male,1.0,primary
+59,0,visited,21,28,7568,7575,2,17.0,20.0,7564.0,7567.0,41.0,51.0,7588.0,7598.0,verb.motion,True,53,subject,the king,20.0,74.0,94.0,male,1.0,primary
+61,3,inform,67,73,7757,7763,27,56.0,60.0,7746.0,7750.0,,,,,verb.communication,True,54,subject,none,2.0,0.0,2.0,unknown,0.0,tertiary
+62,1,tell,22,26,7819,7823,12,12.0,13.0,7809.0,7810.0,,,,,verb.communication,True,55,subject,the young man,8.0,12.0,20.0,male,1.0,tertiary
+63,1,revealed,94,102,7994,8002,35,70.0,93.0,7970.0,7993.0,,,,,verb.communication,True,56,subject,a girl,2.0,13.0,15.0,female,1.0,tertiary
+64,4,hide,83,87,8108,8112,179,74.0,76.0,8099.0,8101.0,92.0,169.0,8117.0,8194.0,verb.perception,True,58,subject,the old duke,1.0,6.0,7.0,male,1.0,tertiary
+66,1,gave,23,27,8309,8313,2,9.0,18.0,8295.0,8304.0,,,,,verb.possession,True,57,subject,the king,20.0,74.0,94.0,male,1.0,primary
+67,3,examine,114,121,8512,8519,53,71.0,96.0,8469.0,8494.0,,,,,verb.perception,True,60,subject,the judges,2.0,0.0,2.0,unknown,0.0,tertiary
+67,3,examine,114,121,8512,8519,67,71.0,96.0,8469.0,8494.0,,,,,verb.perception,True,60,subject,the nobles,1.0,0.0,1.0,unknown,0.0,tertiary
+69,1,look,36,40,8765,8769,2,32.0,35.0,8761.0,8764.0,,,,,verb.perception,True,61,subject,the king,20.0,74.0,94.0,male,1.0,primary
+71,4,swear,96,101,8934,8939,189,78.0,95.0,8916.0,8933.0,130.0,144.0,8968.0,8982.0,verb.communication,True,62,subject,every man present,1.0,0.0,1.0,male,1.0,tertiary
+72,5,appear,139,145,9124,9130,74,121.0,124.0,9106.0,9109.0,,,,,verb.perception,True,63,subject,the false prince,1.0,2.0,3.0,male,1.0,tertiary
+73,4,rose,91,95,9275,9279,2,35.0,43.0,9219.0,9227.0,,,,,verb.motion,True,64,subject,the king,20.0,74.0,94.0,male,1.0,primary
+78,6,received,160,168,10314,10322,37,152.0,155.0,10306.0,10309.0,,,,,verb.possession,True,69,subject,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+79,0,looked,11,17,10389,10395,50,0.0,10.0,10378.0,10388.0,32.0,121.0,10410.0,10499.0,verb.perception,True,71,subject,The guards,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+80,1,skipped,69,76,10569,10576,37,65.0,68.0,10565.0,10568.0,144.0,171.0,10644.0,10671.0,verb.motion,True,70,subject,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+81,3,took,115,119,10788,10792,2,87.0,113.0,10760.0,10786.0,,,,,verb.contact,True,72,subject,the king,20.0,74.0,94.0,male,1.0,primary
+83,3,declined,128,136,11151,11159,104,109.0,112.0,11132.0,11135.0,,,,,verb.possession,True,73,subject,the princess,2.0,9.0,11.0,female,1.0,tertiary
+84,0,returned,21,29,11256,11264,122,10.0,20.0,11245.0,11255.0,,,,,verb.motion,True,75,subject,The prince,12.0,35.0,47.0,male,1.0,secondary
+85,1,awakened,16,24,11367,11375,122,9.0,11.0,11360.0,11362.0,,,,,verb.perception,True,76,subject,The prince,12.0,35.0,47.0,male,1.0,secondary
+86,0,perceived,8,17,11540,11549,122,5.0,7.0,11537.0,11539.0,,,,,verb.perception,True,77,subject,The prince,12.0,35.0,47.0,male,1.0,secondary
+89,3,smiled,74,80,12041,12047,118,45.0,53.0,12012.0,12020.0,,,,,verb.body,True,80,subject,the lady,1.0,41.0,42.0,female,1.0,secondary
+90,3,guessed,54,61,12110,12117,118,46.0,49.0,12102.0,12105.0,,,,,verb.cognition,True,79,subject,the lady,1.0,41.0,42.0,female,1.0,secondary
+93,4,wrinkling,127,136,12487,12496,202,33.0,83.0,12393.0,12443.0,145.0,243.0,12505.0,12603.0,verb.contact,True,83,subject,the lady's parents,1.0,0.0,1.0,unknown,0.0,tertiary
+93,4,wrinkling,127,136,12487,12496,118,33.0,83.0,12393.0,12443.0,145.0,243.0,12505.0,12603.0,verb.contact,True,83,subject,the lady,1.0,41.0,42.0,female,1.0,secondary
+93,4,wrinkling,127,136,12487,12496,201,33.0,83.0,12393.0,12443.0,145.0,243.0,12505.0,12603.0,verb.contact,True,83,subject,a wicked fairy,1.0,0.0,1.0,unknown,0.0,tertiary
+95,7,walk,118,122,12920,12924,212,109.0,111.0,12911.0,12913.0,,,,,verb.motion,True,84,subject,an old man,1.0,13.0,14.0,male,1.0,tertiary
+96,0,saw,4,7,12940,12943,205,0.0,3.0,12936.0,12939.0,,,,,verb.cognition,True,85,subject,the lady's nurse,3.0,8.0,11.0,female,1.0,tertiary
+97,6,answered,150,158,13202,13210,205,146.0,149.0,13198.0,13201.0,,,,,verb.communication,True,86,subject,the lady's nurse,3.0,8.0,11.0,female,1.0,tertiary
+102,4,inform,93,99,14190,14196,2,42.0,50.0,14139.0,14147.0,,,,,verb.communication,True,89,subject,the king,20.0,74.0,94.0,male,1.0,primary
+0,1,awakened,18,26,18,26,2,27.0,67.0,27.0,67.0,,,,,verb.body,True,0,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+3,6,struck,150,156,683,689,122,157.0,160.0,690.0,693.0,161.0,229.0,694.0,762.0,verb.contact,True,3,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+5,5,suppose,82,89,1084,1091,122,90.0,154.0,1092.0,1156.0,,,,,verb.cognition,True,6,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+8,0,saw,12,15,1236,1239,122,16.0,47.0,1240.0,1271.0,,,,,verb.perception,True,7,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+11,5,told,80,84,1637,1641,2,85.0,87.0,1642.0,1644.0,,,,,verb.communication,True,9,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+11,5,told,80,84,1637,1641,122,85.0,87.0,1642.0,1644.0,,,,,verb.communication,True,9,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+12,3,brought,48,55,1824,1831,2,56.0,72.0,1832.0,1848.0,,,,,verb.motion,True,11,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+12,3,brought,48,55,1824,1831,138,56.0,72.0,1832.0,1848.0,,,,,verb.motion,True,11,direct_object,the king's judges,1.0,0.0,1.0,unknown,0.0,tertiary
+14,1,surrounded,40,50,2343,2353,22,51.0,62.0,2354.0,2365.0,,,,,verb.competition,True,12,direct_object,soldiers,1.0,0.0,1.0,unknown,0.0,tertiary
+15,3,seek,79,83,2516,2520,25,84.0,118.0,2521.0,2555.0,120.0,151.0,,,verb.possession,True,13,direct_object,wise men of all sorts,1.0,0.0,1.0,male,1.0,tertiary
+16,3,take,71,75,2760,2764,15,76.0,106.0,2765.0,2795.0,,,,,verb.social,True,14,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+18,3,stood,151,156,3081,3086,12,157.0,177.0,3087.0,3107.0,,,,,verb.contact,True,16,direct_object,the young man,8.0,12.0,20.0,male,1.0,tertiary
+21,7,save,102,106,3360,3364,140,107.0,116.0,3365.0,3374.0,,,,,verb.social,True,18,direct_object,Sir,1.0,13.0,14.0,unknown,0.0,tertiary
+22,4,promise,80,87,3456,3463,33,88.0,103.0,3464.0,3479.0,,,,,verb.communication,True,19,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+23,0,felt,26,30,3508,3512,15,31.0,79.0,3513.0,3561.0,,,,,verb.body,True,20,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+24,0,save,5,9,3568,3572,15,10.0,12.0,3573.0,3575.0,,,,,verb.social,True,21,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+27,6,marry,78,83,3755,3760,37,84.0,86.0,3761.0,3763.0,,,,,verb.social,True,23,direct_object,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+28,0,marry,1,6,3794,3799,37,7.0,10.0,3800.0,3803.0,,,,,verb.social,True,24,direct_object,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+29,0,exclaimed,0,9,3806,3815,15,10.0,12.0,3816.0,3818.0,,,,,verb.communication,True,26,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+33,0,reject,11,17,4089,4095,33,18.0,20.0,4096.0,4098.0,,,,,verb.cognition,True,27,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+34,3,understood,87,97,4246,4256,15,98.0,145.0,4257.0,4304.0,,,,,verb.cognition,True,29,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+35,3,began,51,56,4357,4362,15,57.0,167.0,4363.0,4473.0,,,,,verb.change,True,31,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+35,3,began,51,56,4357,4362,40,57.0,167.0,4363.0,4473.0,,,,,verb.change,True,31,direct_object,"the old crone , who by this time could scarcely be seen , even in the moonlight",1.0,0.0,1.0,unknown,0.0,tertiary
+38,3,pardon,86,92,4661,4667,15,93.0,95.0,4668.0,4670.0,115.0,123.0,,,verb.communication,True,32,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+39,2,accept,34,40,4733,4739,15,41.0,62.0,4740.0,4761.0,,,,,verb.possession,True,34,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+39,2,accept,34,40,4733,4739,33,41.0,62.0,4740.0,4761.0,,,,,verb.possession,True,34,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+40,3,answered,47,55,4811,4819,33,56.0,59.0,4820.0,4823.0,,,,,verb.communication,True,33,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+41,2,follow,26,32,4875,4881,33,33.0,35.0,4882.0,4884.0,36.0,43.0,,,verb.motion,True,35,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+42,1,swear,43,48,5050,5055,47,49.0,76.0,5056.0,5083.0,,,,,verb.communication,True,36,direct_object,the prisoner's wife,2.0,0.0,2.0,female,1.0,tertiary
+42,1,swear,43,48,5050,5055,15,49.0,76.0,5056.0,5083.0,,,,,verb.communication,True,36,direct_object,the prisoner,5.0,39.0,44.0,male,1.0,secondary
+42,1,swear,43,48,5050,5055,33,49.0,76.0,5056.0,5083.0,,,,,verb.communication,True,36,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+43,6,brought,145,152,5276,5283,2,153.0,183.0,5284.0,5314.0,,,,,verb.motion,True,37,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+43,6,brought,145,152,5276,5283,53,153.0,183.0,5284.0,5314.0,,,,,verb.motion,True,37,direct_object,the judges,2.0,0.0,2.0,unknown,0.0,tertiary
+47,4,grieved,91,98,5982,5989,2,99.0,102.0,5990.0,5993.0,103.0,110.0,5994.0,6001.0,verb.emotion,True,40,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+49,7,tell,167,171,6313,6317,2,172.0,175.0,6318.0,6321.0,,,,,verb.communication,True,43,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+49,7,tell,167,171,6313,6317,155,172.0,175.0,6318.0,6321.0,,,,,verb.communication,True,43,direct_object,a son,1.0,0.0,1.0,unknown,0.0,tertiary
+50,0,suspected,7,16,6349,6358,157,17.0,80.0,6359.0,6422.0,,,,,verb.cognition,True,44,direct_object,a priest to whom the queen,1.0,0.0,1.0,female,1.0,tertiary
+50,0,suspected,7,16,6349,6358,148,17.0,80.0,6359.0,6422.0,,,,,verb.cognition,True,44,direct_object,the queen,4.0,4.0,8.0,female,1.0,tertiary
+52,2,answered,33,41,6620,6628,2,42.0,50.0,6629.0,6637.0,,,,,verb.communication,True,48,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+55,1,answer,23,29,7113,7119,2,30.0,33.0,7120.0,7123.0,,,,,verb.communication,True,49,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+56,3,marry,73,78,7268,7273,2,79.0,82.0,7274.0,7277.0,,,,,verb.social,True,51,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+57,0,thought,9,16,7288,7295,2,17.0,34.0,7296.0,7313.0,,,,,verb.cognition,True,50,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+57,0,thought,9,16,7288,7295,168,17.0,34.0,7296.0,7313.0,,,,,verb.cognition,True,50,direct_object,a poor knight,1.0,0.0,1.0,unknown,0.0,tertiary
+61,3,inform,67,73,7757,7763,2,74.0,105.0,7764.0,7795.0,,,,,verb.communication,True,54,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+61,3,inform,67,73,7757,7763,176,74.0,105.0,7764.0,7795.0,,,,,verb.communication,True,54,direct_object,the king's bride,1.0,0.0,1.0,unknown,0.0,tertiary
+62,1,tell,22,26,7819,7823,2,27.0,30.0,7824.0,7827.0,,,,,verb.communication,True,55,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+64,4,hide,83,87,8108,8112,35,88.0,91.0,8113.0,8116.0,92.0,169.0,8117.0,8194.0,verb.perception,True,58,direct_object,a girl,2.0,13.0,15.0,female,1.0,tertiary
+66,1,gave,23,27,8309,8313,186,28.0,40.0,8314.0,8326.0,,,,,verb.possession,True,57,direct_object,my mother,1.0,0.0,1.0,female,1.0,tertiary
+68,4,saw,107,110,8633,8636,72,111.0,201.0,8637.0,8727.0,,,,,verb.perception,True,59,direct_object,the beautiful girl playing at ball,1.0,0.0,1.0,female,1.0,tertiary
+71,4,swear,96,101,8934,8939,2,102.0,128.0,8940.0,8966.0,130.0,144.0,8968.0,8982.0,verb.communication,True,62,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+71,4,swear,96,101,8934,8939,190,102.0,128.0,8940.0,8966.0,130.0,144.0,8968.0,8982.0,verb.communication,True,62,direct_object,king,1.0,0.0,1.0,male,1.0,tertiary
+74,11,marry,251,256,9559,9564,80,257.0,260.0,9565.0,9568.0,,,,,verb.social,True,65,direct_object,his mother,1.0,3.0,4.0,female,1.0,tertiary
+75,3,marry,58,63,9778,9783,80,64.0,67.0,9784.0,9787.0,68.0,90.0,9788.0,9810.0,verb.social,True,67,direct_object,his mother,1.0,3.0,4.0,female,1.0,tertiary
+76,10,visited,212,219,10075,10082,191,220.0,223.0,10083.0,10086.0,224.0,234.0,10087.0,10097.0,verb.social,True,66,direct_object,the priest who lives near the door of the prison,1.0,2.0,3.0,male,1.0,tertiary
+77,2,bring,30,35,10128,10133,37,36.0,39.0,10134.0,10137.0,,,,,verb.motion,True,68,direct_object,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+79,0,looked,11,17,10389,10395,93,18.0,31.0,10396.0,10409.0,32.0,121.0,10410.0,10499.0,verb.perception,True,71,direct_object,each other,1.0,0.0,1.0,unknown,0.0,tertiary
+80,1,skipped,69,76,10569,10576,2,80.0,142.0,10580.0,10642.0,144.0,171.0,10644.0,10671.0,verb.motion,True,70,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+81,3,took,115,119,10788,10792,37,120.0,128.0,10793.0,10801.0,,,,,verb.contact,True,72,direct_object,the old woman,3.0,10.0,13.0,female,1.0,tertiary
+82,1,seen,34,38,10925,10929,102,39.0,130.0,10930.0,11021.0,,,,,verb.perception,True,74,direct_object,the old wife,1.0,0.0,1.0,female,1.0,tertiary
+82,1,seen,34,38,10925,10929,122,39.0,130.0,10930.0,11021.0,,,,,verb.perception,True,74,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+83,3,declined,128,136,11151,11159,2,137.0,210.0,11160.0,11233.0,,,,,verb.possession,True,73,direct_object,the king,20.0,74.0,94.0,male,1.0,primary
+83,3,declined,128,136,11151,11159,107,137.0,210.0,11160.0,11233.0,,,,,verb.possession,True,73,direct_object,the ladies - in - waiting whom the king had appointed for her,1.0,0.0,1.0,female,0.5,tertiary
+83,3,declined,128,136,11151,11159,104,137.0,210.0,11160.0,11233.0,,,,,verb.possession,True,73,direct_object,the princess,2.0,9.0,11.0,female,1.0,tertiary
+86,0,perceived,8,17,11540,11549,104,18.0,129.0,11550.0,11661.0,,,,,verb.perception,True,77,direct_object,the princess,2.0,9.0,11.0,female,1.0,tertiary
+87,0,creeping,0,8,11663,11671,122,16.0,27.0,11679.0,11690.0,,,,,verb.motion,True,78,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+90,3,guessed,54,61,12110,12117,122,62.0,74.0,12118.0,12130.0,,,,,verb.cognition,True,79,direct_object,The prince,12.0,35.0,47.0,male,1.0,secondary
+91,3,cause,49,54,12212,12217,118,55.0,91.0,12218.0,12254.0,,,,,verb.communication,True,81,direct_object,the lady,1.0,41.0,42.0,female,1.0,secondary
+91,3,cause,49,54,12212,12217,33,55.0,91.0,12218.0,12254.0,,,,,verb.communication,True,81,direct_object,an old woman,2.0,19.0,21.0,female,1.0,tertiary
+93,4,wrinkling,127,136,12487,12496,118,137.0,144.0,12497.0,12504.0,145.0,243.0,12505.0,12603.0,verb.contact,True,83,direct_object,the lady,1.0,41.0,42.0,female,1.0,secondary
+94,1,cared,28,33,12707,12712,118,34.0,42.0,12713.0,12721.0,,,,,verb.emotion,True,82,direct_object,the lady,1.0,41.0,42.0,female,1.0,secondary
+96,0,saw,4,7,12940,12943,212,8.0,28.0,12944.0,12964.0,,,,,verb.cognition,True,85,direct_object,an old man,1.0,13.0,14.0,male,1.0,tertiary
+97,6,answered,150,158,13202,13210,205,159.0,303.0,13211.0,13355.0,,,,,verb.communication,True,86,direct_object,the lady's nurse,3.0,8.0,11.0,female,1.0,tertiary
+97,6,answered,150,158,13202,13210,118,159.0,303.0,13211.0,13355.0,,,,,verb.communication,True,86,direct_object,the lady,1.0,41.0,42.0,female,1.0,secondary
+98,14,marry,263,268,13620,13625,118,269.0,271.0,13626.0,13628.0,,,,,verb.social,True,87,direct_object,the lady,1.0,41.0,42.0,female,1.0,secondary
+101,12,marry,212,217,14086,14091,118,218.0,220.0,14092.0,14094.0,,,,,verb.social,True,88,direct_object,the lady,1.0,41.0,42.0,female,1.0,secondary
+102,4,inform,93,99,14190,14196,198,100.0,125.0,14197.0,14222.0,,,,,verb.communication,True,89,direct_object,the lady's father,2.0,2.0,4.0,male,1.0,tertiary

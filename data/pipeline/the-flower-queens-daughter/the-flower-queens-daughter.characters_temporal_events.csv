@@ -1,0 +1,426 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,riding,19,25,19,25,3,0.0,14.0,0.0,14.0,34.0,126.0,,,verb.motion,0,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+0,3,came,101,105,101,105,3,98.0,100.0,98.0,100.0,,,,,verb.motion,1,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+1,2,avoid,24,29,152,157,3,0.0,2.0,128.0,130.0,,,,,verb.communication,2,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+1,3,heard,42,47,170,175,3,39.0,41.0,167.0,169.0,,,,,verb.perception,4,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+1,4,crying,69,75,197,203,6,61.0,68.0,189.0,196.0,,,,,verb.communication,3,subject,,,,,,,
+2,0,dismounted,3,13,221,231,3,0.0,2.0,218.0,220.0,,,,,verb.motion,5,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+2,1,stepped,34,41,252,259,3,0.0,2.0,218.0,220.0,,,,,verb.motion,6,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+3,0,found,23,28,327,332,3,20.0,22.0,324.0,326.0,,,,,verb.possession,7,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+3,1,begged,47,53,351,357,8,29.0,41.0,333.0,345.0,,,,,verb.communication,8,subject,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+3,2,help,61,65,365,369,3,54.0,57.0,358.0,361.0,,,,,verb.social,9,subject,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+4,1,lifted,25,31,417,423,10,0.0,10.0,392.0,402.0,61.0,121.0,453.0,513.0,verb.contact,10,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+4,3,asking,61,67,453,459,10,0.0,10.0,392.0,402.0,72.0,88.0,464.0,480.0,verb.communication,12,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+4,5,managed,101,108,493,500,8,93.0,96.0,485.0,488.0,,,,,verb.social,11,subject,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+4,6,get,112,115,504,507,8,93.0,96.0,485.0,488.0,,,,,verb.motion,13,subject,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+6,0,lost,7,11,705,709,12,5.0,6.0,703.0,704.0,19.0,30.0,717.0,728.0,verb.possession,15,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+6,1,fell,36,40,734,738,12,5.0,6.0,703.0,704.0,,,,,verb.motion,17,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+7,0,said,16,20,838,842,10,5.0,15.0,827.0,837.0,,,,,verb.communication,19,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+7,2,walk,45,49,867,871,8,30.0,33.0,852.0,855.0,,,,,verb.motion,18,subject,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+8,1,put,8,11,880,883,10,1.0,2.0,873.0,874.0,,,,,verb.contact,20,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+8,2,lead,32,36,904,908,10,1.0,2.0,873.0,874.0,,,,,verb.motion,22,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+10,0,see,61,64,1000,1003,10,42.0,56.0,981.0,995.0,,,,,verb.perception,21,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+11,0,lifted,11,17,1056,1062,10,0.0,10.0,1045.0,1055.0,22.0,24.0,1067.0,1069.0,verb.motion,24,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+11,3,turning,104,111,1149,1156,12,76.0,89.0,1121.0,1134.0,,,,,verb.motion,26,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+11,4,said,126,130,1171,1175,10,115.0,125.0,1160.0,1170.0,,,,,verb.communication,27,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+11,7,give,164,168,1209,1213,10,157.0,158.0,1202.0,1203.0,,,,,verb.possession,29,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+12,0,disappeared,8,19,1238,1249,12,4.0,7.0,1234.0,1237.0,,,,,verb.change,28,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+12,1,returned,38,46,1268,1276,12,4.0,7.0,1234.0,1237.0,,,,,verb.motion,30,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+12,2,said,61,65,1291,1295,12,4.0,7.0,1234.0,1237.0,,,,,verb.communication,32,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+12,4,have,118,122,1348,1352,10,114.0,117.0,1344.0,1347.0,,,,,verb.perception,31,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+13,1,like,10,14,1408,1412,10,6.0,9.0,1404.0,1407.0,,,,,verb.emotion,33,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+13,2,have,18,22,1416,1420,10,6.0,9.0,1404.0,1407.0,,,,,verb.possession,34,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+14,1,replied,26,33,1501,1508,10,1.0,23.0,1476.0,1498.0,,,,,verb.communication,35,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+15,0,continued,17,26,1538,1547,12,3.0,16.0,1524.0,1537.0,,,,,verb.communication,36,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+16,1,marry,15,20,1689,1694,10,3.0,6.0,1677.0,1680.0,,,,,verb.social,38,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+16,3,set,41,44,1715,1718,10,26.0,29.0,1700.0,1703.0,,,,,verb.change,37,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+16,6,do,83,85,1757,1759,10,59.0,63.0,1733.0,1737.0,,,,,verb.social,40,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+17,2,ring,41,45,1802,1806,10,37.0,40.0,1798.0,1801.0,49.0,53.0,1810.0,1814.0,verb.contact,42,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+17,4,appear,83,89,1844,1850,147,55.0,77.0,1816.0,1838.0,,,,,verb.change,43,subject,the King of the Eagles,3.0,0.0,3.0,male,1.0,tertiary
+18,0,ring,8,12,1859,1863,10,4.0,7.0,1855.0,1858.0,16.0,21.0,1867.0,1872.0,verb.contact,44,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+18,2,come,50,54,1901,1905,148,23.0,44.0,1874.0,1895.0,,,,,verb.motion,46,subject,the King of the Foxes,3.0,1.0,4.0,male,1.0,tertiary
+19,0,ring,12,16,1925,1929,10,8.0,11.0,1921.0,1924.0,20.0,31.0,1933.0,1944.0,verb.contact,45,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+19,2,see,42,45,1955,1958,10,33.0,36.0,1946.0,1949.0,,,,,verb.perception,47,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,3,speaking,46,54,2253,2261,10,34.0,36.0,2241.0,2243.0,,,,,verb.communication,49,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,4,putting,76,83,2283,2290,10,34.0,36.0,2241.0,2243.0,100.0,109.0,2307.0,2316.0,verb.contact,51,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,5,rode,128,132,2335,2339,10,125.0,127.0,2332.0,2334.0,,,,,verb.motion,52,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,6,told,142,146,2349,2353,10,125.0,127.0,2332.0,2334.0,,,,,verb.communication,54,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,7,meant,166,171,2373,2378,10,163.0,165.0,2370.0,2372.0,,,,,verb.cognition,53,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,8,set,175,178,2382,2385,10,163.0,165.0,2370.0,2372.0,,,,,verb.change,55,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,9,intended,222,230,2429,2437,10,163.0,165.0,2370.0,2372.0,,,,,verb.cognition,56,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+24,0,mounted,31,38,2545,2552,10,20.0,30.0,2534.0,2544.0,,,,,verb.motion,57,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+24,1,left,58,62,2572,2576,10,20.0,30.0,2534.0,2544.0,,,,,verb.motion,59,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+25,1,roamed,7,13,2594,2600,10,0.0,2.0,2587.0,2589.0,,,,,verb.motion,58,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+25,3,died,66,70,2653,2657,10,52.0,61.0,2639.0,2648.0,,,,,verb.change,61,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+25,5,suffered,107,115,2694,2702,10,92.0,102.0,2679.0,2689.0,,,,,verb.perception,60,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+25,7,come,160,164,2747,2751,10,153.0,155.0,2740.0,2742.0,,,,,verb.motion,62,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+26,0,came,19,23,2811,2815,10,16.0,18.0,2808.0,2810.0,34.0,70.0,2826.0,2862.0,verb.motion,64,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+27,0,asked,11,16,2875,2880,10,0.0,10.0,2864.0,2874.0,,,,,verb.communication,67,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+27,2,know,34,38,2898,2902,37,26.0,29.0,2890.0,2893.0,,,,,verb.cognition,66,subject,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+27,4,keeps,66,71,2930,2935,151,39.0,44.0,2903.0,2908.0,,,,,verb.social,65,subject,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+28,1,answered,16,24,2996,3004,39,1.0,13.0,2981.0,2993.0,,,,,verb.communication,68,subject,the old man,3.0,4.0,7.0,male,1.0,tertiary
+29,0,go,12,14,3030,3032,10,8.0,11.0,3026.0,3029.0,40.0,50.0,3058.0,3068.0,verb.motion,69,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+29,2,reach,61,66,3079,3084,10,52.0,55.0,3070.0,3073.0,,,,,verb.motion,70,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+29,6,tell,127,131,3145,3149,151,109.0,111.0,3127.0,3129.0,,,,,verb.communication,71,subject,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+30,0,thanked,11,18,3167,3174,10,0.0,10.0,3156.0,3166.0,,,,,verb.communication,72,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+30,3,found,162,167,3318,3323,10,159.0,161.0,3315.0,3317.0,,,,,verb.possession,74,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+31,0,asked,3,8,3343,3348,10,0.0,2.0,3340.0,3342.0,,,,,verb.communication,75,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+31,1,answered,48,56,3388,3396,39,36.0,47.0,3376.0,3387.0,,,,,verb.communication,77,subject,the old man,3.0,4.0,7.0,male,1.0,tertiary
+31,3,know,72,76,3412,3416,39,63.0,64.0,3403.0,3404.0,,,,,verb.cognition,76,subject,the old man,3.0,4.0,7.0,male,1.0,tertiary
+32,2,come,63,67,3504,3508,10,54.0,57.0,3495.0,3498.0,,,,,verb.motion,79,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+33,0,know,2,6,3546,3550,39,0.0,1.0,3544.0,3545.0,,,,,verb.cognition,78,subject,the old man,3.0,4.0,7.0,male,1.0,tertiary
+33,2,tell,14,18,3558,3562,156,7.0,9.0,3551.0,3553.0,,,,,verb.communication,81,subject,The Prince's father,2.0,1.0,3.0,male,1.0,tertiary
+34,0,wandered,18,26,3587,3595,10,7.0,17.0,3576.0,3586.0,,,,,verb.motion,80,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+34,1,reached,85,92,3654,3661,10,7.0,17.0,3576.0,3586.0,,,,,verb.motion,82,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+34,2,found,110,115,3679,3684,10,107.0,109.0,3676.0,3678.0,,,,,verb.possession,83,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+35,0,put,3,6,3707,3710,10,0.0,2.0,3704.0,3706.0,32.0,69.0,3736.0,3773.0,verb.communication,85,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+35,2,put,42,45,3746,3749,10,35.0,37.0,3739.0,3741.0,,,,,verb.communication,84,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+36,0,answered,27,35,3801,3809,39,15.0,26.0,3789.0,3800.0,,,,,verb.communication,87,subject,the old man,3.0,4.0,7.0,male,1.0,tertiary
+36,3,begun,97,102,3871,3876,151,85.0,87.0,3859.0,3861.0,,,,,verb.change,86,subject,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+37,1,sleeps,55,61,3951,3957,151,52.0,54.0,3948.0,3950.0,,,,,verb.body,88,subject,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+38,0,wish,11,15,3970,3974,10,7.0,10.0,3966.0,3969.0,,,,,verb.emotion,89,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+38,1,see,19,22,3978,3981,10,7.0,10.0,3966.0,3969.0,,,,,verb.perception,91,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+38,4,has,123,126,4082,4085,165,119.0,122.0,4078.0,4081.0,134.0,145.0,4093.0,4104.0,verb.perception,90,subject,the Dragon 's old mother,1.0,1.0,2.0,female,1.0,tertiary
+38,5,goes,184,188,4143,4147,153,127.0,133.0,4086.0,4092.0,,,,,verb.motion,92,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+38,5,goes,184,188,4143,4147,162,127.0,133.0,4086.0,4092.0,,,,,verb.motion,92,subject,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+39,0,went,14,18,4174,4178,10,3.0,13.0,4163.0,4173.0,,,,,verb.motion,93,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+39,1,found,52,57,4212,4217,10,49.0,51.0,4209.0,4211.0,,,,,verb.possession,94,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+40,0,opened,3,9,4269,4275,10,0.0,2.0,4266.0,4268.0,,,,,verb.contact,95,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+40,4,walk,73,77,4339,4343,10,0.0,2.0,4266.0,4268.0,,,,,verb.motion,96,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+40,5,rushed,101,107,4367,4373,56,87.0,100.0,4353.0,4366.0,,,,,verb.motion,97,subject,seven dragons,1.0,0.0,1.0,unknown,0.0,tertiary
+40,6,asked,119,124,4385,4390,56,87.0,100.0,4353.0,4366.0,,,,,verb.communication,99,subject,seven dragons,1.0,0.0,1.0,unknown,0.0,tertiary
+40,7,wanted,137,143,4403,4409,10,129.0,133.0,4395.0,4399.0,,,,,verb.emotion,98,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+41,0,replied,11,18,4422,4429,10,0.0,10.0,4411.0,4421.0,,,,,verb.communication,101,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+41,2,heard,28,33,4439,4444,10,21.0,22.0,4432.0,4433.0,,,,,verb.perception,100,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+41,5,enter,111,116,4522,4527,10,21.0,22.0,4432.0,4433.0,,,,,verb.social,102,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+42,1,said,67,71,4609,4613,59,48.0,66.0,4590.0,4608.0,,,,,verb.communication,104,subject,the dragons's eldest of them,1.0,2.0,3.0,unknown,0.0,tertiary
+42,1,said,67,71,4609,4613,58,48.0,66.0,4590.0,4608.0,,,,,verb.communication,104,subject,the dragons,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+42,3,come,88,92,4630,4634,10,80.0,83.0,4622.0,4625.0,,,,,verb.motion,105,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+42,5,take,113,117,4655,4659,59,106.0,107.0,4648.0,4649.0,,,,,verb.motion,106,subject,the dragons's eldest of them,1.0,2.0,3.0,unknown,0.0,tertiary
+44,1,seated,49,55,4833,4839,171,31.0,48.0,4815.0,4832.0,,,,,verb.contact,107,subject,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+45,2,had,67,70,4928,4931,171,63.0,66.0,4924.0,4927.0,,,,,verb.possession,109,subject,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+47,0,asked,4,9,5063,5068,171,0.0,3.0,5059.0,5062.0,,,,,verb.communication,111,subject,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+47,2,come,29,33,5088,5092,10,25.0,28.0,5084.0,5087.0,,,,,verb.motion,110,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+48,0,answered,11,19,5111,5119,10,0.0,10.0,5100.0,5110.0,,,,,verb.communication,113,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+48,2,heard,37,42,5137,5142,10,30.0,31.0,5130.0,5131.0,,,,,verb.perception,112,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+48,4,enter,111,116,5211,5216,10,85.0,86.0,5185.0,5186.0,,,,,verb.social,114,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+50,1,enter,21,26,5289,5294,10,9.0,12.0,5277.0,5280.0,,,,,verb.social,117,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+50,3,lead,54,58,5322,5326,10,39.0,42.0,5307.0,5310.0,,,,,verb.motion,116,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+51,1,bring,18,23,5405,5410,10,8.0,11.0,5395.0,5398.0,33.0,53.0,5420.0,5440.0,verb.motion,118,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+52,0,undertook,11,20,5474,5483,10,0.0,10.0,5463.0,5473.0,,,,,verb.social,119,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+52,1,led,34,37,5497,5500,10,0.0,10.0,5463.0,5473.0,47.0,50.0,5510.0,5513.0,verb.motion,121,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+53,2,vanished,50,58,5579,5587,0,46.0,49.0,5575.0,5578.0,,,,,verb.motion,124,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+54,0,sought,11,17,5600,5606,10,0.0,10.0,5589.0,5599.0,26.0,33.0,5615.0,5622.0,verb.contact,123,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+55,0,sat,6,9,5708,5711,10,3.0,5.0,5705.0,5707.0,,,,,verb.contact,125,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+55,2,noticed,35,42,5737,5744,10,32.0,34.0,5734.0,5736.0,,,,,verb.perception,127,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+56,0,bethought,17,26,5793,5802,10,5.0,7.0,5781.0,5783.0,,,,,verb.cognition,128,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+56,1,taking,55,61,5831,5837,10,5.0,7.0,5781.0,5783.0,65.0,82.0,5841.0,5858.0,verb.contact,129,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+56,2,rang,86,90,5862,5866,10,83.0,85.0,5859.0,5861.0,94.0,98.0,5870.0,5874.0,verb.communication,130,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+57,0,heard,15,20,5891,5896,10,12.0,14.0,5888.0,5890.0,38.0,59.0,5914.0,5935.0,verb.perception,131,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+57,2,sank,88,92,5964,5968,147,65.0,87.0,5941.0,5963.0,,,,,verb.body,132,subject,the King of the Eagles,3.0,0.0,3.0,male,1.0,tertiary
+58,0,know,3,7,5985,5989,10,1.0,2.0,5983.0,5984.0,,,,,verb.cognition,134,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+58,1,want,17,21,5999,6003,10,8.0,12.0,5990.0,5994.0,,,,,verb.consumption,133,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+58,2,said,39,43,6021,6025,10,1.0,27.0,5983.0,6009.0,,,,,verb.communication,136,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+59,3,galloping,53,62,6080,6089,0,21.0,45.0,6048.0,6072.0,69.0,85.0,6096.0,6112.0,verb.motion,135,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+60,1,summon,7,13,6121,6127,10,0.0,1.0,6114.0,6115.0,40.0,48.0,6154.0,6162.0,verb.contact,137,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+60,2,order,54,59,6168,6173,10,0.0,1.0,6114.0,6115.0,,,,,verb.communication,138,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+62,0,heard,27,32,6302,6307,10,16.0,26.0,6291.0,6301.0,,,,,verb.perception,139,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+62,2,looked,80,86,6355,6361,10,77.0,79.0,6352.0,6354.0,,,,,verb.perception,141,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+62,3,saw,93,96,6368,6371,10,90.0,92.0,6365.0,6367.0,,,,,verb.perception,142,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,0,rode,16,20,6508,6512,10,5.0,15.0,6497.0,6507.0,26.0,206.0,6518.0,6698.0,verb.motion,145,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,2,saw,84,87,6576,6579,0,80.0,83.0,6572.0,6575.0,,,,,verb.perception,146,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+64,3,said,97,101,6589,6593,10,5.0,15.0,6497.0,6507.0,,,,,verb.communication,148,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,5,succeeded,113,122,6605,6614,10,104.0,107.0,6596.0,6599.0,,,,,verb.social,147,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,8,come,182,186,6674,6678,10,172.0,175.0,6664.0,6667.0,198.0,206.0,6690.0,6698.0,verb.motion,150,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+65,0,gave,4,8,6705,6709,0,0.0,3.0,6701.0,6704.0,13.0,29.0,6714.0,6730.0,verb.possession,149,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+65,2,led,58,61,6759,6762,0,0.0,3.0,6701.0,6704.0,,,,,verb.motion,152,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+65,4,dancing,132,139,6833,6840,79,86.0,126.0,6787.0,6827.0,,,,,verb.creation,151,subject,several young he - dragons and she - dragons,1.0,0.0,1.0,unknown,0.0,tertiary
+68,1,dancing,18,25,7034,7041,10,3.0,13.0,7019.0,7029.0,,,,,verb.social,153,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+68,2,managed,38,45,7054,7061,10,35.0,37.0,7051.0,7053.0,,,,,verb.social,154,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+68,3,whisper,49,56,7065,7072,10,35.0,37.0,7051.0,7053.0,,,,,verb.communication,155,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+68,5,come,77,81,7093,7097,10,70.0,71.0,7086.0,7087.0,,,,,verb.motion,156,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+68,6,set,85,88,7101,7104,10,70.0,71.0,7086.0,7087.0,93.0,97.0,7109.0,7113.0,verb.contact,157,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+69,0,said,24,28,7140,7144,84,5.0,23.0,7121.0,7139.0,,,,,verb.communication,158,subject,the beautiful girl,2.0,2.0,4.0,female,1.0,tertiary
+69,1,succeed,45,52,7161,7168,10,41.0,44.0,7157.0,7160.0,,,,,verb.social,159,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+69,2,bringing,56,64,7172,7180,10,41.0,44.0,7157.0,7160.0,86.0,99.0,7202.0,7215.0,verb.motion,160,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+69,4,give,126,130,7242,7246,171,105.0,122.0,7221.0,7238.0,,,,,verb.possession,162,subject,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+70,1,led,77,80,7361,7364,10,60.0,70.0,7344.0,7354.0,106.0,109.0,7390.0,7393.0,verb.motion,163,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+71,0,vanished,14,22,7425,7433,81,10.0,13.0,7421.0,7424.0,,,,,verb.change,164,subject,the Flower Queen 's beautiful daughter,1.0,7.0,8.0,female,1.0,tertiary
+72,1,rang,37,41,7488,7492,10,5.0,7.0,7456.0,7458.0,45.0,50.0,7496.0,7501.0,verb.communication,165,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+73,0,stood,34,39,7537,7542,148,12.0,33.0,7515.0,7536.0,,,,,verb.contact,166,subject,the King of the Foxes,3.0,1.0,4.0,male,1.0,tertiary
+73,1,said,55,59,7558,7562,148,12.0,33.0,7515.0,7536.0,,,,,verb.communication,168,subject,the King of the Foxes,3.0,1.0,4.0,male,1.0,tertiary
+73,2,know,64,68,7567,7571,148,62.0,63.0,7565.0,7566.0,,,,,verb.cognition,167,subject,the King of the Foxes,3.0,1.0,4.0,male,1.0,tertiary
+73,3,want,86,90,7589,7593,10,77.0,81.0,7580.0,7584.0,,,,,verb.consumption,169,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+74,0,disappeared,39,50,7738,7749,1,17.0,38.0,7716.0,7737.0,,,,,verb.change,173,subject,the Foxes,1.0,0.0,1.0,unknown,0.0,tertiary
+74,0,disappeared,39,50,7738,7749,148,17.0,38.0,7716.0,7737.0,,,,,verb.change,173,subject,the King of the Foxes,3.0,1.0,4.0,male,1.0,tertiary
+74,1,brought,91,98,7790,7797,90,71.0,90.0,7770.0,7789.0,,,,,verb.motion,174,subject,many thousand foxes,1.0,0.0,1.0,unknown,0.0,tertiary
+75,1,received,53,61,7875,7883,10,50.0,52.0,7872.0,7874.0,,,,,verb.possession,175,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+75,3,led,110,113,7932,7935,0,106.0,109.0,7928.0,7931.0,,,,,verb.motion,176,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+76,1,see,45,48,8003,8006,2,0.0,27.0,7958.0,7985.0,,,,,verb.perception,177,subject,the Flower Queen,2.0,0.0,2.0,female,1.0,tertiary
+76,1,see,45,48,8003,8006,162,0.0,27.0,7958.0,7985.0,,,,,verb.perception,177,subject,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+76,4,whispered,109,118,8067,8076,162,105.0,108.0,8063.0,8066.0,,,,,verb.communication,178,subject,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+76,5,succeed,139,146,8097,8104,10,135.0,138.0,8093.0,8096.0,,,,,verb.social,179,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+78,0,led,28,31,8234,8237,10,17.0,27.0,8223.0,8233.0,55.0,60.0,8261.0,8266.0,verb.motion,180,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+79,0,vanished,19,27,8286,8294,0,15.0,18.0,8282.0,8285.0,,,,,verb.change,181,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+80,1,rang,45,49,8357,8361,10,5.0,15.0,8317.0,8327.0,53.0,64.0,8365.0,8376.0,verb.perception,182,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+81,0,appeared,35,43,8413,8421,149,12.0,34.0,8390.0,8412.0,,,,,verb.change,183,subject,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,1,said,49,53,8427,8431,149,12.0,34.0,8390.0,8412.0,,,,,verb.communication,185,subject,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,2,know,65,69,8443,8447,149,63.0,64.0,8441.0,8442.0,,,,,verb.cognition,184,subject,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,4,do,101,103,8479,8481,149,81.0,85.0,8459.0,8463.0,,,,,verb.social,186,subject,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,6,summon,116,122,8494,8500,149,109.0,110.0,8487.0,8488.0,149.0,157.0,8527.0,8535.0,verb.social,187,subject,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,7,tell,163,167,8541,8545,149,109.0,110.0,8487.0,8488.0,,,,,verb.communication,188,subject,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,8,bring,176,181,8554,8559,181,168.0,172.0,8546.0,8550.0,,,,,verb.motion,190,subject,all the fishes of the sea,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+82,2,led,58,61,8672,8675,10,55.0,57.0,8669.0,8671.0,,,,,verb.motion,191,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+82,3,said,96,100,8710,8714,0,92.0,95.0,8706.0,8709.0,,,,,verb.communication,192,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+82,6,make,144,148,8758,8762,0,137.0,138.0,8751.0,8752.0,,,,,verb.creation,193,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+83,1,give,17,21,8801,8805,0,4.0,8.0,8788.0,8792.0,26.0,51.0,8810.0,8835.0,verb.possession,197,subject,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+84,0,begged,11,17,8849,8855,10,0.0,10.0,8838.0,8848.0,,,,,verb.communication,196,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+84,1,gave,74,78,8912,8916,171,32.0,40.0,8870.0,8878.0,,,,,verb.possession,195,subject,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+84,6,praised,177,184,9015,9022,10,170.0,172.0,9008.0,9010.0,,,,,verb.communication,194,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+85,0,appeared,21,29,9056,9064,10,18.0,20.0,9053.0,9055.0,,,,,verb.change,198,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+86,2,went,60,64,9157,9161,10,39.0,41.0,9136.0,9138.0,,,,,verb.motion,199,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+86,3,mounted,99,106,9196,9203,10,96.0,98.0,9193.0,9195.0,,,,,verb.motion,200,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+86,4,rode,120,124,9217,9221,10,96.0,98.0,9193.0,9195.0,145.0,184.0,9242.0,9281.0,verb.motion,201,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+87,0,appeared,36,44,9319,9327,84,17.0,35.0,9300.0,9318.0,,,,,verb.change,202,subject,the beautiful girl,2.0,2.0,4.0,female,1.0,tertiary
+87,1,placing,50,57,9333,9340,84,17.0,35.0,9300.0,9318.0,,,,,verb.contact,203,subject,the beautiful girl,2.0,2.0,4.0,female,1.0,tertiary
+87,2,flew,111,115,9394,9398,84,107.0,110.0,9390.0,9393.0,,,,,verb.motion,204,subject,the beautiful girl,2.0,2.0,4.0,female,1.0,tertiary
+89,0,flew,3,7,9553,9557,110,0.0,2.0,9550.0,9552.0,,,,,verb.motion,206,subject,their brother,1.0,3.0,4.0,male,1.0,tertiary
+89,1,heard,37,42,9587,9592,110,34.0,36.0,9584.0,9586.0,,,,,verb.perception,207,subject,their brother,1.0,3.0,4.0,male,1.0,tertiary
+89,5,lay,80,83,9630,9633,110,0.0,2.0,9550.0,9552.0,,,,,verb.contact,209,subject,their brother,1.0,3.0,4.0,male,1.0,tertiary
+90,0,caused,15,21,9684,9690,112,5.0,14.0,9674.0,9683.0,,,,,verb.creation,208,subject,the Queen,1.0,1.0,2.0,female,1.0,tertiary
+91,0,heard,22,27,9823,9828,153,5.0,21.0,9806.0,9822.0,,,,,verb.cognition,211,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,1,wanted,46,52,9847,9853,116,33.0,45.0,9834.0,9846.0,,,,,verb.emotion,210,subject,the Flower Queen's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+91,1,wanted,46,52,9847,9853,153,33.0,45.0,9834.0,9846.0,,,,,verb.emotion,210,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,2,marry,56,61,9857,9862,116,33.0,45.0,9834.0,9846.0,,,,,verb.social,212,subject,the Flower Queen's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+91,2,marry,56,61,9857,9862,153,33.0,45.0,9834.0,9846.0,,,,,verb.social,212,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,3,said,78,82,9879,9883,153,74.0,77.0,9875.0,9878.0,,,,,verb.communication,213,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,5,give,99,103,9900,9904,153,92.0,93.0,9893.0,9894.0,132.0,138.0,9933.0,9939.0,verb.possession,214,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+92,3,come,78,82,10069,10073,186,69.0,72.0,10060.0,10063.0,,,,,verb.motion,216,subject,the Flower Queen's daughter,1.0,1.0,2.0,female,1.0,tertiary
+93,0,consented,11,20,10129,10138,10,0.0,10.0,10118.0,10128.0,,,,,verb.social,215,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+93,1,led,34,37,10152,10155,10,0.0,10.0,10118.0,10128.0,,,,,verb.motion,217,subject,The Prince,27.0,136.0,163.0,male,1.0,primary
+94,2,departed,91,99,10334,10342,153,63.0,90.0,10306.0,10333.0,,,,,verb.motion,218,subject,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+94,2,departed,91,99,10334,10342,162,63.0,90.0,10306.0,10333.0,,,,,verb.motion,218,subject,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+95,0,returned,14,22,10386,10394,162,10.0,13.0,10382.0,10385.0,,,,,verb.motion,219,subject,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+95,1,began,75,80,10447,10452,121,43.0,74.0,10415.0,10446.0,,,,,verb.change,220,subject,The young couple,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+1,3,heard,42,47,170,175,6,48.0,88.0,176.0,216.0,,,,,verb.perception,4,direct_object,,,,,,,
+2,0,dismounted,3,13,221,231,3,14.0,28.0,232.0,246.0,,,,,verb.motion,5,direct_object,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+3,0,found,23,28,327,332,8,29.0,86.0,333.0,390.0,,,,,verb.possession,7,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+3,0,found,23,28,327,332,3,29.0,86.0,333.0,390.0,,,,,verb.possession,7,direct_object,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+3,1,begged,47,53,351,357,8,54.0,57.0,358.0,361.0,,,,,verb.communication,8,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+3,1,begged,47,53,351,357,3,54.0,57.0,358.0,361.0,,,,,verb.communication,8,direct_object,A young Prince,1.0,9.0,10.0,male,1.0,tertiary
+3,2,help,61,65,365,369,8,66.0,69.0,370.0,373.0,,,,,verb.social,9,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+4,1,lifted,25,31,417,423,8,32.0,35.0,424.0,427.0,61.0,121.0,453.0,513.0,verb.contact,10,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+4,3,asking,61,67,453,459,8,68.0,71.0,460.0,463.0,72.0,88.0,464.0,480.0,verb.communication,12,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+5,0,answered,10,18,525,533,131,19.0,32.0,534.0,547.0,,,,,verb.communication,14,direct_object,a very poor woman,1.0,0.0,1.0,female,1.0,tertiary
+5,0,answered,10,18,525,533,12,19.0,32.0,534.0,547.0,,,,,verb.communication,14,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+5,3,sell,131,135,646,650,12,136.0,143.0,651.0,658.0,158.0,182.0,,,verb.possession,16,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+6,0,lost,7,11,705,709,12,12.0,18.0,710.0,716.0,19.0,30.0,717.0,728.0,verb.possession,15,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+6,1,fell,36,40,734,738,12,41.0,121.0,739.0,819.0,,,,,verb.motion,17,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+6,1,fell,36,40,734,738,10,41.0,121.0,739.0,819.0,,,,,verb.motion,17,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+7,0,said,16,20,838,842,8,21.0,27.0,843.0,849.0,,,,,verb.communication,19,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+8,1,put,8,11,880,883,8,12.0,15.0,884.0,887.0,,,,,verb.contact,20,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+8,1,put,8,11,880,883,10,12.0,15.0,884.0,887.0,,,,,verb.contact,20,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+8,2,lead,32,36,904,908,8,37.0,40.0,909.0,912.0,,,,,verb.motion,22,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+10,1,replied,83,90,1022,1029,12,91.0,104.0,1030.0,1043.0,,,,,verb.communication,23,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+11,0,lifted,11,17,1056,1062,8,18.0,21.0,1063.0,1066.0,22.0,24.0,1067.0,1069.0,verb.motion,24,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+11,0,lifted,11,17,1056,1062,10,18.0,21.0,1063.0,1066.0,22.0,24.0,1067.0,1069.0,verb.motion,24,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+11,1,reached,53,60,1098,1105,12,61.0,98.0,1106.0,1143.0,,,,,verb.motion,25,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+11,4,said,126,130,1171,1175,8,133.0,182.0,1178.0,1227.0,,,,,verb.communication,27,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+11,4,said,126,130,1171,1175,10,133.0,182.0,1178.0,1227.0,,,,,verb.communication,27,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+11,7,give,164,168,1209,1213,8,169.0,172.0,1214.0,1217.0,,,,,verb.possession,29,direct_object,an old woman,1.0,12.0,13.0,female,1.0,tertiary
+12,2,said,61,65,1291,1295,138,68.0,166.0,1298.0,1396.0,,,,,verb.communication,32,direct_object,a mighty Prince,1.0,0.0,1.0,male,1.0,tertiary
+12,2,said,61,65,1291,1295,10,68.0,166.0,1298.0,1396.0,,,,,verb.communication,32,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+13,1,like,10,14,1408,1412,141,15.0,74.0,1413.0,1472.0,,,,,verb.emotion,33,direct_object,The Prince's wife,1.0,0.0,1.0,female,1.0,tertiary
+13,1,like,10,14,1408,1412,139,15.0,74.0,1413.0,1472.0,,,,,verb.emotion,33,direct_object,the most beautiful woman in the world for your wife,1.0,0.0,1.0,female,1.0,tertiary
+13,1,like,10,14,1408,1412,10,15.0,74.0,1413.0,1472.0,,,,,verb.emotion,33,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+13,2,have,18,22,1416,1420,141,23.0,74.0,1421.0,1472.0,,,,,verb.possession,34,direct_object,The Prince's wife,1.0,0.0,1.0,female,1.0,tertiary
+13,2,have,18,22,1416,1420,139,23.0,74.0,1421.0,1472.0,,,,,verb.possession,34,direct_object,the most beautiful woman in the world for your wife,1.0,0.0,1.0,female,1.0,tertiary
+13,2,have,18,22,1416,1420,10,23.0,74.0,1421.0,1472.0,,,,,verb.possession,34,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+14,1,replied,26,33,1501,1508,10,34.0,44.0,1509.0,1519.0,,,,,verb.communication,35,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+15,0,continued,17,26,1538,1547,144,29.0,151.0,1550.0,1672.0,,,,,verb.communication,36,direct_object,"the daughter of the Queen of the Flowers , who has been captured by a dragon",1.0,0.0,1.0,female,1.0,tertiary
+15,0,continued,17,26,1538,1547,142,29.0,151.0,1550.0,1672.0,,,,,verb.communication,36,direct_object,The most beautiful woman in the whole world,1.0,2.0,3.0,female,1.0,tertiary
+15,0,continued,17,26,1538,1547,145,29.0,151.0,1550.0,1672.0,,,,,verb.communication,36,direct_object,"the Queen of the Flowers , who has been captured by a dragon",1.0,0.0,1.0,female,1.0,tertiary
+16,1,marry,15,20,1689,1694,142,21.0,24.0,1695.0,1698.0,,,,,verb.social,38,direct_object,The most beautiful woman in the whole world,1.0,2.0,3.0,female,1.0,tertiary
+16,3,set,41,44,1715,1718,142,45.0,53.0,1719.0,1727.0,,,,,verb.change,37,direct_object,The most beautiful woman in the whole world,1.0,2.0,3.0,female,1.0,tertiary
+16,5,help,71,75,1745,1749,10,76.0,85.0,1750.0,1759.0,,,,,verb.social,39,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+17,1,give,7,11,1768,1772,147,12.0,15.0,1773.0,1776.0,,,,,verb.possession,41,direct_object,the King of the Eagles,3.0,0.0,3.0,male,1.0,tertiary
+17,1,give,7,11,1768,1772,10,12.0,15.0,1773.0,1776.0,,,,,verb.possession,41,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+18,2,come,50,54,1901,1905,10,55.0,61.0,1906.0,1912.0,,,,,verb.motion,46,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+19,2,see,42,45,1955,1958,149,46.0,81.0,1959.0,1994.0,,,,,verb.perception,47,direct_object,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+19,2,see,42,45,1955,1958,10,46.0,81.0,1959.0,1994.0,,,,,verb.perception,47,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+20,1,help,11,15,2007,2011,10,16.0,19.0,2012.0,2015.0,20.0,48.0,2016.0,2044.0,verb.social,48,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+21,0,prosper,25,32,2071,2078,10,33.0,49.0,2079.0,2095.0,,,,,verb.possession,50,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,3,speaking,46,54,2253,2261,27,55.0,70.0,2262.0,2277.0,,,,,verb.communication,49,direct_object,a good fairy,1.0,0.0,1.0,unknown,0.0,tertiary
+23,4,putting,76,83,2283,2290,10,84.0,99.0,2291.0,2306.0,100.0,109.0,2307.0,2316.0,verb.contact,51,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,6,told,142,146,2349,2353,30,147.0,157.0,2354.0,2364.0,,,,,verb.communication,54,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+23,6,told,142,146,2349,2353,32,147.0,157.0,2354.0,2364.0,,,,,verb.communication,54,direct_object,the maid,1.0,0.0,1.0,unknown,0.0,tertiary
+23,6,told,142,146,2349,2353,29,147.0,157.0,2354.0,2364.0,,,,,verb.communication,54,direct_object,The Prince's father,1.0,0.0,1.0,male,1.0,tertiary
+23,6,told,142,146,2349,2353,10,147.0,157.0,2354.0,2364.0,,,,,verb.communication,54,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+23,7,meant,166,171,2373,2378,30,172.0,216.0,2379.0,2423.0,,,,,verb.cognition,53,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+23,8,set,175,178,2382,2385,30,179.0,216.0,2386.0,2423.0,,,,,verb.change,55,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+23,9,intended,222,230,2429,2437,32,231.0,305.0,2438.0,2512.0,,,,,verb.cognition,56,direct_object,the maid,1.0,0.0,1.0,unknown,0.0,tertiary
+24,0,mounted,31,38,2545,2552,10,39.0,53.0,2553.0,2567.0,,,,,verb.motion,57,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+24,1,left,58,62,2572,2576,10,63.0,71.0,2577.0,2585.0,,,,,verb.motion,59,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+25,7,come,160,164,2747,2751,30,165.0,186.0,2752.0,2773.0,,,,,verb.motion,62,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+25,7,come,160,164,2747,2751,10,165.0,186.0,2752.0,2773.0,,,,,verb.motion,62,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+26,1,sat,52,55,2844,2847,37,56.0,70.0,2848.0,2862.0,,,,,verb.contact,63,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+27,0,asked,11,16,2875,2880,30,17.0,20.0,2881.0,2884.0,,,,,verb.communication,67,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+27,0,asked,11,16,2875,2880,37,17.0,20.0,2881.0,2884.0,,,,,verb.communication,67,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+27,0,asked,11,16,2875,2880,153,17.0,20.0,2881.0,2884.0,,,,,verb.communication,67,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+27,0,asked,11,16,2875,2880,151,17.0,20.0,2881.0,2884.0,,,,,verb.communication,67,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+27,2,know,34,38,2898,2902,30,39.0,113.0,2903.0,2977.0,,,,,verb.cognition,66,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+27,2,know,34,38,2898,2902,153,39.0,113.0,2903.0,2977.0,,,,,verb.cognition,66,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+27,2,know,34,38,2898,2902,151,39.0,113.0,2903.0,2977.0,,,,,verb.cognition,66,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+27,4,keeps,66,71,2930,2935,30,72.0,113.0,2936.0,2977.0,,,,,verb.social,65,direct_object,the daughter of the Flower Queen,2.0,1.0,3.0,female,1.0,tertiary
+27,4,keeps,66,71,2930,2935,153,72.0,113.0,2936.0,2977.0,,,,,verb.social,65,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+28,1,answered,16,24,2996,3004,39,25.0,36.0,3005.0,3016.0,,,,,verb.communication,68,direct_object,the old man,3.0,4.0,7.0,male,1.0,tertiary
+29,2,reach,61,66,3079,3084,156,67.0,94.0,3085.0,3112.0,,,,,verb.motion,70,direct_object,The Prince's father,2.0,1.0,3.0,male,1.0,tertiary
+29,2,reach,61,66,3079,3084,10,67.0,94.0,3085.0,3112.0,,,,,verb.motion,70,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+29,6,tell,127,131,3145,3149,10,132.0,135.0,3150.0,3153.0,,,,,verb.communication,71,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+30,0,thanked,11,18,3167,3174,37,19.0,22.0,3175.0,3178.0,,,,,verb.communication,72,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+30,2,came,129,133,3285,3289,37,134.0,136.0,3290.0,3292.0,,,,,verb.motion,73,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+30,2,came,129,133,3285,3289,10,134.0,136.0,3290.0,3292.0,,,,,verb.motion,73,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+30,3,found,162,167,3318,3323,37,168.0,182.0,3324.0,3338.0,,,,,verb.possession,74,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+31,0,asked,3,8,3343,3348,37,9.0,12.0,3349.0,3352.0,,,,,verb.communication,75,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+31,1,answered,48,56,3388,3396,0,59.0,99.0,3399.0,3439.0,,,,,verb.communication,77,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+31,1,answered,48,56,3388,3396,39,59.0,99.0,3399.0,3439.0,,,,,verb.communication,77,direct_object,the old man,3.0,4.0,7.0,male,1.0,tertiary
+31,3,know,72,76,3412,3416,0,77.0,99.0,3417.0,3439.0,,,,,verb.cognition,76,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+32,2,come,63,67,3504,3508,156,68.0,101.0,3509.0,3542.0,,,,,verb.motion,79,direct_object,The Prince's father,2.0,1.0,3.0,male,1.0,tertiary
+32,2,come,63,67,3504,3508,39,68.0,101.0,3509.0,3542.0,,,,,verb.motion,79,direct_object,the old man,3.0,4.0,7.0,male,1.0,tertiary
+33,0,know,2,6,3546,3550,156,7.0,22.0,3551.0,3566.0,,,,,verb.cognition,78,direct_object,The Prince's father,2.0,1.0,3.0,male,1.0,tertiary
+33,0,know,2,6,3546,3550,10,7.0,22.0,3551.0,3566.0,,,,,verb.cognition,78,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+33,2,tell,14,18,3558,3562,10,19.0,22.0,3563.0,3566.0,,,,,verb.communication,81,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+34,1,reached,85,92,3654,3661,48,93.0,133.0,3662.0,3702.0,,,,,verb.motion,82,direct_object,the third old man,1.0,0.0,1.0,male,1.0,tertiary
+34,1,reached,85,92,3654,3661,10,93.0,133.0,3662.0,3702.0,,,,,verb.motion,82,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+34,2,found,110,115,3679,3684,48,116.0,133.0,3685.0,3702.0,,,,,verb.possession,83,direct_object,the third old man,1.0,0.0,1.0,male,1.0,tertiary
+35,0,put,3,6,3707,3710,37,7.0,24.0,3711.0,3728.0,32.0,69.0,3736.0,3773.0,verb.communication,85,direct_object,a very old man,2.0,6.0,8.0,male,1.0,tertiary
+35,2,put,42,45,3746,3749,50,46.0,69.0,3750.0,3773.0,,,,,verb.communication,84,direct_object,grandson,1.0,0.0,1.0,unknown,0.0,tertiary
+35,2,put,42,45,3746,3749,49,46.0,69.0,3750.0,3773.0,,,,,verb.communication,84,direct_object,The Prince's son,1.0,0.0,1.0,unknown,0.0,tertiary
+35,2,put,42,45,3746,3749,10,46.0,69.0,3750.0,3773.0,,,,,verb.communication,84,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+36,0,answered,27,35,3801,3809,151,38.0,79.0,3812.0,3853.0,,,,,verb.communication,87,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+36,3,begun,97,102,3871,3876,151,103.0,120.0,3877.0,3894.0,,,,,verb.change,86,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+38,0,wish,11,15,3970,3974,153,16.0,113.0,3975.0,4072.0,,,,,verb.emotion,89,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+38,0,wish,11,15,3970,3974,162,16.0,113.0,3975.0,4072.0,,,,,verb.emotion,89,direct_object,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+38,0,wish,11,15,3970,3974,151,16.0,113.0,3975.0,4072.0,,,,,verb.emotion,89,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+38,0,wish,11,15,3970,3974,165,16.0,113.0,3975.0,4072.0,,,,,verb.emotion,89,direct_object,the Dragon 's old mother,1.0,1.0,2.0,female,1.0,tertiary
+38,1,see,19,22,3978,3981,153,23.0,76.0,3982.0,4035.0,,,,,verb.perception,91,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+38,1,see,19,22,3978,3981,162,23.0,76.0,3982.0,4035.0,,,,,verb.perception,91,direct_object,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+40,5,rushed,101,107,4367,4373,10,108.0,114.0,4374.0,4380.0,,,,,verb.motion,97,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+40,6,asked,119,124,4385,4390,10,125.0,128.0,4391.0,4394.0,,,,,verb.communication,99,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+41,0,replied,11,18,4422,4429,170,21.0,128.0,4432.0,4539.0,,,,,verb.communication,101,direct_object,the Dragon 's Mother,1.0,1.0,2.0,female,1.0,tertiary
+41,0,replied,11,18,4422,4429,151,21.0,128.0,4432.0,4539.0,,,,,verb.communication,101,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+41,0,replied,11,18,4422,4429,10,21.0,128.0,4432.0,4539.0,,,,,verb.communication,101,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+41,2,heard,28,33,4439,4444,170,34.0,91.0,4445.0,4502.0,,,,,verb.perception,100,direct_object,the Dragon 's Mother,1.0,1.0,2.0,female,1.0,tertiary
+41,2,heard,28,33,4439,4444,151,34.0,91.0,4445.0,4502.0,,,,,verb.perception,100,direct_object,the Dragon,4.0,5.0,9.0,male,1.0,tertiary
+41,5,enter,111,116,4522,4527,170,117.0,128.0,4528.0,4539.0,,,,,verb.social,102,direct_object,the Dragon 's Mother,1.0,1.0,2.0,female,1.0,tertiary
+42,0,pleased,23,30,4565,4572,58,31.0,42.0,4573.0,4584.0,,,,,verb.emotion,103,direct_object,the dragons,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+42,1,said,67,71,4609,4613,59,74.0,142.0,4616.0,4684.0,,,,,verb.communication,104,direct_object,the dragons's eldest of them,1.0,2.0,3.0,unknown,0.0,tertiary
+42,1,said,67,71,4609,4613,171,74.0,142.0,4616.0,4684.0,,,,,verb.communication,104,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+42,1,said,67,71,4609,4613,10,74.0,142.0,4616.0,4684.0,,,,,verb.communication,104,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+42,5,take,113,117,4655,4659,171,118.0,121.0,4660.0,4663.0,,,,,verb.motion,106,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+42,5,take,113,117,4655,4659,10,118.0,121.0,4660.0,4663.0,,,,,verb.motion,106,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+44,0,found,25,30,4809,4814,171,31.0,75.0,4815.0,4859.0,,,,,verb.perception,108,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+47,0,asked,4,9,5063,5068,10,10.0,13.0,5069.0,5072.0,,,,,verb.communication,111,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+48,0,answered,11,19,5111,5119,0,30.0,129.0,5130.0,5229.0,,,,,verb.communication,113,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+48,0,answered,11,19,5111,5119,10,30.0,129.0,5130.0,5229.0,,,,,verb.communication,113,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+48,2,heard,37,42,5137,5142,0,43.0,129.0,5143.0,5229.0,,,,,verb.perception,112,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+48,2,heard,37,42,5137,5142,10,43.0,129.0,5143.0,5229.0,,,,,verb.perception,112,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+48,4,enter,111,116,5211,5216,0,117.0,129.0,5217.0,5229.0,,,,,verb.social,114,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+49,0,said,13,17,5245,5249,0,18.0,35.0,5250.0,5267.0,,,,,verb.communication,115,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+50,1,enter,21,26,5289,5294,0,27.0,37.0,5295.0,5305.0,,,,,verb.social,117,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+50,3,lead,54,58,5322,5326,0,59.0,66.0,5327.0,5334.0,,,,,verb.motion,116,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+51,1,bring,18,23,5405,5410,0,24.0,32.0,5411.0,5419.0,33.0,53.0,5420.0,5440.0,verb.motion,118,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+51,3,eat,63,66,5450,5453,10,67.0,70.0,5454.0,5457.0,71.0,73.0,5458.0,5460.0,verb.consumption,120,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+53,1,reached,23,30,5552,5559,0,31.0,58.0,5560.0,5587.0,,,,,verb.motion,122,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+54,0,sought,11,17,5600,5606,0,18.0,25.0,5607.0,5614.0,26.0,33.0,5615.0,5622.0,verb.contact,123,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+54,2,contemplated,86,98,5675,5687,10,99.0,111.0,5688.0,5700.0,,,,,verb.communication,126,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+55,2,noticed,35,42,5737,5744,10,43.0,72.0,5745.0,5774.0,,,,,verb.perception,127,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+56,0,bethought,17,26,5793,5802,10,27.0,49.0,5803.0,5825.0,,,,,verb.cognition,128,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+57,2,sank,88,92,5964,5968,10,93.0,104.0,5969.0,5980.0,,,,,verb.body,132,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+58,0,know,3,7,5985,5989,10,8.0,27.0,5990.0,6009.0,,,,,verb.cognition,134,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+58,1,want,17,21,5999,6003,10,22.0,27.0,6004.0,6009.0,,,,,verb.consumption,133,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+60,2,order,54,59,6168,6173,10,60.0,64.0,6174.0,6178.0,,,,,verb.communication,138,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+60,4,bring,87,92,6201,6206,10,93.0,96.0,6207.0,6210.0,,,,,verb.motion,140,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+63,0,sank,5,9,6427,6431,10,10.0,38.0,6432.0,6460.0,,,,,verb.motion,143,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+63,1,gave,43,47,6465,6469,10,48.0,56.0,6470.0,6478.0,,,,,verb.possession,144,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,2,saw,84,87,6576,6579,10,88.0,91.0,6580.0,6583.0,,,,,verb.perception,146,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,3,said,97,101,6589,6593,175,104.0,206.0,6596.0,6698.0,,,,,verb.communication,148,direct_object,the Mother - Dragon's Mother - Dragon's mare,1.0,0.0,1.0,female,1.0,tertiary
+64,3,said,97,101,6589,6593,0,104.0,206.0,6596.0,6698.0,,,,,verb.communication,148,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+64,3,said,97,101,6589,6593,10,104.0,206.0,6596.0,6698.0,,,,,verb.communication,148,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+64,5,succeeded,113,122,6605,6614,175,123.0,129.0,6615.0,6621.0,,,,,verb.social,147,direct_object,the Mother - Dragon's Mother - Dragon's mare,1.0,0.0,1.0,female,1.0,tertiary
+64,5,succeeded,113,122,6605,6614,0,123.0,129.0,6615.0,6621.0,,,,,verb.social,147,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+64,8,come,182,186,6674,6678,0,187.0,197.0,6679.0,6689.0,198.0,206.0,6690.0,6698.0,verb.motion,150,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+65,0,gave,4,8,6705,6709,10,9.0,12.0,6710.0,6713.0,13.0,29.0,6714.0,6730.0,verb.possession,149,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+65,2,led,58,61,6759,6762,79,62.0,65.0,6763.0,6766.0,,,,,verb.motion,152,direct_object,several young he - dragons and she - dragons,1.0,0.0,1.0,unknown,0.0,tertiary
+65,2,led,58,61,6759,6762,10,62.0,65.0,6763.0,6766.0,,,,,verb.motion,152,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+68,2,managed,38,45,7054,7061,81,46.0,97.0,7062.0,7113.0,,,,,verb.social,154,direct_object,the Flower Queen 's beautiful daughter,1.0,7.0,8.0,female,1.0,tertiary
+68,2,managed,38,45,7054,7061,10,46.0,97.0,7062.0,7113.0,,,,,verb.social,154,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+68,6,set,85,88,7101,7104,81,89.0,92.0,7105.0,7108.0,93.0,97.0,7109.0,7113.0,verb.contact,157,direct_object,the Flower Queen 's beautiful daughter,1.0,7.0,8.0,female,1.0,tertiary
+69,0,said,24,28,7140,7144,171,29.0,35.0,7145.0,7151.0,,,,,verb.communication,158,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+69,0,said,24,28,7140,7144,10,29.0,35.0,7145.0,7151.0,,,,,verb.communication,158,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+69,3,ask,101,104,7217,7220,171,105.0,122.0,7221.0,7238.0,,,,,verb.communication,161,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+69,3,ask,101,104,7217,7220,10,105.0,122.0,7221.0,7238.0,,,,,verb.communication,161,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+69,4,give,126,130,7242,7246,10,131.0,134.0,7247.0,7250.0,,,,,verb.possession,162,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+70,1,led,77,80,7361,7364,171,81.0,105.0,7365.0,7389.0,106.0,109.0,7390.0,7393.0,verb.motion,163,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+73,0,stood,34,39,7537,7542,10,40.0,50.0,7543.0,7553.0,,,,,verb.contact,166,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+73,1,said,55,59,7558,7562,81,62.0,193.0,7565.0,7696.0,,,,,verb.communication,168,direct_object,the Flower Queen 's beautiful daughter,1.0,7.0,8.0,female,1.0,tertiary
+73,1,said,55,59,7558,7562,177,62.0,193.0,7565.0,7696.0,,,,,verb.communication,168,direct_object,all the foxes of the world,1.0,0.0,1.0,unknown,0.0,tertiary
+73,1,said,55,59,7558,7562,148,62.0,193.0,7565.0,7696.0,,,,,verb.communication,168,direct_object,the King of the Foxes,3.0,1.0,4.0,male,1.0,tertiary
+73,1,said,55,59,7558,7562,10,62.0,193.0,7565.0,7696.0,,,,,verb.communication,168,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+73,2,know,64,68,7567,7571,10,77.0,90.0,7580.0,7593.0,,,,,verb.cognition,167,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+73,5,summon,101,107,7604,7610,177,108.0,134.0,7611.0,7637.0,135.0,193.0,,,verb.communication,170,direct_object,all the foxes of the world,1.0,0.0,1.0,unknown,0.0,tertiary
+73,6,find,147,151,7650,7654,81,152.0,193.0,7655.0,7696.0,,,,,verb.possession,172,direct_object,the Flower Queen 's beautiful daughter,1.0,7.0,8.0,female,1.0,tertiary
+73,8,hidden,169,175,7672,7678,81,176.0,183.0,7679.0,7686.0,184.0,193.0,7687.0,7696.0,verb.perception,171,direct_object,the Flower Queen 's beautiful daughter,1.0,7.0,8.0,female,1.0,tertiary
+74,1,brought,91,98,7790,7797,10,99.0,107.0,7798.0,7806.0,,,,,verb.motion,174,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+75,3,led,110,113,7932,7935,10,114.0,117.0,7936.0,7939.0,,,,,verb.motion,176,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+76,1,see,45,48,8003,8006,10,49.0,67.0,8007.0,8025.0,,,,,verb.perception,177,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+81,1,said,49,53,8427,8431,181,54.0,60.0,8432.0,8438.0,,,,,verb.communication,185,direct_object,all the fishes of the sea,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+81,1,said,49,53,8427,8431,0,54.0,60.0,8432.0,8438.0,,,,,verb.communication,185,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+81,1,said,49,53,8427,8431,149,54.0,60.0,8432.0,8438.0,,,,,verb.communication,185,direct_object,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,1,said,49,53,8427,8431,10,54.0,60.0,8432.0,8438.0,,,,,verb.communication,185,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+81,2,know,65,69,8443,8447,149,81.0,103.0,8459.0,8481.0,,,,,verb.cognition,184,direct_object,the King of the Fishes,2.0,3.0,5.0,male,1.0,tertiary
+81,2,know,65,69,8443,8447,10,81.0,103.0,8459.0,8481.0,,,,,verb.cognition,184,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+81,6,summon,116,122,8494,8500,181,123.0,148.0,8501.0,8526.0,149.0,157.0,8527.0,8535.0,verb.social,187,direct_object,all the fishes of the sea,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+81,7,tell,163,167,8541,8545,181,168.0,172.0,8546.0,8550.0,,,,,verb.communication,188,direct_object,all the fishes of the sea,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+81,7,tell,163,167,8541,8545,0,168.0,172.0,8546.0,8550.0,,,,,verb.communication,188,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+81,7,tell,163,167,8541,8545,10,168.0,172.0,8546.0,8550.0,,,,,verb.communication,188,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+81,8,bring,176,181,8554,8559,0,182.0,185.0,8560.0,8563.0,,,,,verb.motion,190,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+81,8,bring,176,181,8554,8559,10,182.0,185.0,8560.0,8563.0,,,,,verb.motion,190,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+82,1,returned,29,37,8643,8651,10,38.0,44.0,8652.0,8658.0,,,,,verb.motion,189,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+82,2,led,58,61,8672,8675,0,62.0,65.0,8676.0,8679.0,,,,,verb.motion,191,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+82,3,said,96,100,8710,8714,185,101.0,107.0,8715.0,8721.0,,,,,verb.communication,192,direct_object,the Mother - Dragon's Mother - Dragon's body - servant,1.0,0.0,1.0,female,1.0,tertiary
+82,3,said,96,100,8710,8714,184,101.0,107.0,8715.0,8721.0,,,,,verb.communication,192,direct_object,a brave youth,1.0,0.0,1.0,unknown,0.0,tertiary
+82,3,said,96,100,8710,8714,0,101.0,107.0,8715.0,8721.0,,,,,verb.communication,192,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+82,3,said,96,100,8710,8714,10,101.0,107.0,8715.0,8721.0,,,,,verb.communication,192,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+82,6,make,144,148,8758,8762,185,149.0,168.0,8763.0,8782.0,,,,,verb.creation,193,direct_object,the Mother - Dragon's Mother - Dragon's body - servant,1.0,0.0,1.0,female,1.0,tertiary
+82,6,make,144,148,8758,8762,0,149.0,168.0,8763.0,8782.0,,,,,verb.creation,193,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+82,6,make,144,148,8758,8762,10,149.0,168.0,8763.0,8782.0,,,,,verb.creation,193,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+83,1,give,17,21,8801,8805,10,22.0,25.0,8806.0,8809.0,26.0,51.0,8810.0,8835.0,verb.possession,197,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+84,0,begged,11,17,8849,8855,171,18.0,195.0,8856.0,9033.0,,,,,verb.communication,196,direct_object,the Mother Dragon,5.0,5.0,10.0,female,1.0,tertiary
+84,0,begged,11,17,8849,8855,0,18.0,195.0,8856.0,9033.0,,,,,verb.communication,196,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+84,0,begged,11,17,8849,8855,10,18.0,195.0,8856.0,9033.0,,,,,verb.communication,196,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+84,1,gave,74,78,8912,8916,10,79.0,82.0,8917.0,8920.0,,,,,verb.possession,195,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+84,6,praised,177,184,9015,9022,0,185.0,195.0,9023.0,9033.0,,,,,verb.communication,194,direct_object,the Mother - Dragon's Mother - Dragon,6.0,22.0,28.0,female,1.0,tertiary
+86,2,went,60,64,9157,9161,153,74.0,184.0,9171.0,9281.0,,,,,verb.motion,199,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+86,2,went,60,64,9157,9161,162,74.0,184.0,9171.0,9281.0,,,,,verb.motion,199,direct_object,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary
+86,2,went,60,64,9157,9161,10,74.0,184.0,9171.0,9281.0,,,,,verb.motion,199,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+86,3,mounted,99,106,9196,9203,10,107.0,115.0,9204.0,9212.0,,,,,verb.motion,200,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+87,1,placing,50,57,9333,9340,84,58.0,61.0,9341.0,9344.0,,,,,verb.contact,203,direct_object,the beautiful girl,2.0,2.0,4.0,female,1.0,tertiary
+87,1,placing,50,57,9333,9340,10,58.0,61.0,9341.0,9344.0,,,,,verb.contact,203,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+88,2,woke,46,50,9506,9510,110,51.0,64.0,9511.0,9524.0,65.0,71.0,9525.0,9531.0,verb.body,205,direct_object,their brother,1.0,3.0,4.0,male,1.0,tertiary
+89,5,lay,80,83,9630,9633,2,84.0,89.0,9634.0,9639.0,,,,,verb.contact,209,direct_object,the Flower Queen,2.0,0.0,2.0,female,1.0,tertiary
+90,0,caused,15,21,9684,9690,112,22.0,130.0,9691.0,9799.0,,,,,verb.creation,208,direct_object,the Queen,1.0,1.0,2.0,female,1.0,tertiary
+91,0,heard,22,27,9823,9828,116,28.0,72.0,9829.0,9873.0,,,,,verb.cognition,211,direct_object,the Flower Queen's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+91,0,heard,22,27,9823,9828,153,28.0,72.0,9829.0,9873.0,,,,,verb.cognition,211,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,0,heard,22,27,9823,9828,10,28.0,72.0,9829.0,9873.0,,,,,verb.cognition,211,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+91,1,wanted,46,52,9847,9853,10,53.0,72.0,9854.0,9873.0,,,,,verb.emotion,210,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+91,2,marry,56,61,9857,9862,10,62.0,72.0,9863.0,9873.0,,,,,verb.social,212,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+91,3,said,78,82,9879,9883,186,83.0,89.0,9884.0,9890.0,,,,,verb.communication,213,direct_object,the Flower Queen's daughter,1.0,1.0,2.0,female,1.0,tertiary
+91,3,said,78,82,9879,9883,153,83.0,89.0,9884.0,9890.0,,,,,verb.communication,213,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,3,said,78,82,9879,9883,10,83.0,89.0,9884.0,9890.0,,,,,verb.communication,213,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+91,5,give,99,103,9900,9904,153,104.0,114.0,9905.0,9915.0,132.0,138.0,9933.0,9939.0,verb.possession,214,direct_object,the Flower Queen,7.0,7.0,14.0,female,1.0,tertiary
+91,5,give,99,103,9900,9904,10,104.0,114.0,9905.0,9915.0,132.0,138.0,9933.0,9939.0,verb.possession,214,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+93,1,led,34,37,10152,10155,119,38.0,63.0,10156.0,10181.0,,,,,verb.motion,217,direct_object,The Prince's beautiful bride,1.0,0.0,1.0,unknown,0.0,tertiary
+93,1,led,34,37,10152,10155,10,38.0,63.0,10156.0,10181.0,,,,,verb.motion,217,direct_object,The Prince,27.0,136.0,163.0,male,1.0,primary
+95,0,returned,14,22,10386,10394,126,23.0,37.0,10395.0,10409.0,,,,,verb.motion,219,direct_object,the Flower Queen 's daughter's husband,1.0,0.0,1.0,female,0.5,tertiary
+95,0,returned,14,22,10386,10394,162,23.0,37.0,10395.0,10409.0,,,,,verb.motion,219,direct_object,the Flower Queen 's daughter,6.0,7.0,13.0,female,1.0,tertiary

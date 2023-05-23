@@ -1,0 +1,44 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,hoped,44,49,112,117,0.0,41.0,43.0,109.0,111.0,,,,,verb.emotion,True,0,subject,a farmer who had carted pears to market,1,4,5,male,1.0,tertiary
+2,1,asked,69,74,217,222,2.0,0.0,41.0,148.0,189.0,,,,,verb.communication,True,1,subject,A bonze with a torn cap and tattered robe,1,0,1,unknown,0.0,tertiary
+3,0,repulsed,11,19,243,251,3.0,0.0,10.0,232.0,242.0,,,,,verb.emotion,True,2,subject,the farmer,6,4,10,male,1.0,tertiary
+4,1,began,31,36,314,319,3.0,5.0,15.0,288.0,298.0,,,,,verb.change,True,3,subject,the farmer,6,4,10,male,1.0,tertiary
+5,0,said,10,14,349,353,4.0,0.0,9.0,339.0,348.0,,,,,verb.communication,True,5,subject,The bonze,11,39,50,male,1.0,primary
+6,0,ask,7,10,407,410,4.0,0.0,1.0,400.0,401.0,,,,,verb.communication,True,4,subject,The bonze,11,39,50,male,1.0,primary
+9,3,let,92,95,588,591,3.0,36.0,38.0,532.0,534.0,,,,,verb.communication,True,6,subject,the farmer,6,4,10,male,1.0,tertiary
+11,2,took,83,87,721,725,11.0,80.0,82.0,718.0,720.0,,,,,verb.possession,True,7,subject,An artisan,1,4,5,male,1.0,tertiary
+12,1,said,26,30,804,808,4.0,0.0,9.0,778.0,787.0,,,,,verb.communication,True,10,subject,The bonze,11,39,50,male,1.0,primary
+13,1,invite,37,43,914,920,4.0,35.0,36.0,912.0,913.0,,,,,verb.emotion,True,9,subject,The bonze,11,39,50,male,1.0,primary
+14,3,eat,60,63,1011,1014,4.0,52.0,55.0,1003.0,1006.0,,,,,verb.consumption,True,8,subject,The bonze,11,39,50,male,1.0,primary
+15,0,answered,3,11,1029,1037,4.0,0.0,2.0,1026.0,1028.0,,,,,verb.communication,True,11,subject,The bonze,11,39,50,male,1.0,primary
+16,1,eat,26,29,1102,1105,4.0,14.0,16.0,1090.0,1092.0,39.0,49.0,1115.0,1125.0,verb.consumption,True,12,subject,The bonze,11,39,50,male,1.0,primary
+17,3,took,51,55,1178,1182,4.0,22.0,24.0,1149.0,1151.0,68.0,85.0,1195.0,1212.0,verb.contact,True,13,subject,The bonze,11,39,50,male,1.0,primary
+19,0,thrust,13,19,1267,1273,4.0,10.0,12.0,1264.0,1266.0,,,,,verb.motion,True,14,subject,The bonze,11,39,50,male,1.0,primary
+20,1,water,68,73,1378,1383,16.0,14.0,52.0,1324.0,1362.0,,,,,verb.contact,True,15,subject,the folk in the market place,1,0,1,unknown,0.0,tertiary
+21,1,watered,105,112,1493,1500,4.0,95.0,104.0,1483.0,1492.0,,,,,verb.change,True,16,subject,The bonze,11,39,50,male,1.0,primary
+27,0,climbed,10,17,1831,1838,4.0,0.0,9.0,1821.0,1830.0,,,,,verb.motion,True,17,subject,The bonze,11,39,50,male,1.0,primary
+29,0,took,15,19,1958,1962,4.0,5.0,14.0,1948.0,1957.0,,,,,verb.contact,True,18,subject,The bonze,11,39,50,male,1.0,primary
+32,0,took,8,12,2069,2073,4.0,5.0,7.0,2066.0,2068.0,22.0,37.0,2083.0,2098.0,verb.contact,True,20,subject,The bonze,11,39,50,male,1.0,primary
+33,4,mingled,65,72,2197,2204,3.0,44.0,54.0,2176.0,2186.0,,,,,verb.motion,True,19,subject,the farmer,6,4,10,male,1.0,tertiary
+34,6,hoped,102,107,2323,2328,4.0,99.0,101.0,2320.0,2322.0,,,,,verb.cognition,True,21,subject,The bonze,11,39,50,male,1.0,primary
+36,1,disappeared,18,29,2438,2449,4.0,0.0,9.0,2420.0,2429.0,,,,,verb.change,True,22,subject,The bonze,11,39,50,male,1.0,primary
+37,0,realized,8,16,2459,2467,4.0,5.0,7.0,2456.0,2458.0,,,,,verb.cognition,True,24,subject,The bonze,11,39,50,male,1.0,primary
+38,2,disappeared,53,64,2576,2587,4.0,28.0,48.0,2551.0,2571.0,,,,,verb.change,True,23,subject,The bonze,11,39,50,male,1.0,primary
+40,1,hastened,32,40,2689,2697,3.0,0.0,10.0,2657.0,2667.0,,,,,verb.motion,True,25,subject,the farmer,6,4,10,male,1.0,tertiary
+41,0,turned,12,18,2752,2758,4.0,9.0,11.0,2749.0,2751.0,,,,,verb.motion,True,26,subject,The bonze,11,39,50,male,1.0,primary
+42,0,realized,12,20,2843,2851,4.0,9.0,11.0,2840.0,2842.0,,,,,verb.cognition,True,27,subject,The bonze,11,39,50,male,1.0,primary
+43,2,found,38,43,2967,2972,4.0,0.0,9.0,2929.0,2938.0,,,,,verb.possession,True,28,subject,The bonze,11,39,50,male,1.0,primary
+3,0,repulsed,11,19,243,251,0.0,20.0,23.0,252.0,255.0,,,,,verb.emotion,True,2,direct_object,a farmer who had carted pears to market,1,4,5,male,1.0,tertiary
+4,1,began,31,36,314,319,0.0,37.0,54.0,320.0,337.0,,,,,verb.change,True,3,direct_object,a farmer who had carted pears to market,1,4,5,male,1.0,tertiary
+5,0,said,10,14,349,353,3.0,17.0,59.0,356.0,398.0,,,,,verb.communication,True,5,direct_object,the farmer,6,4,10,male,1.0,tertiary
+9,3,let,92,95,588,591,4.0,96.0,102.0,592.0,598.0,,,,,verb.communication,True,6,direct_object,The bonze,11,39,50,male,1.0,primary
+12,1,said,26,30,804,808,4.0,33.0,97.0,811.0,875.0,,,,,verb.communication,True,10,direct_object,The bonze,11,39,50,male,1.0,primary
+13,1,invite,37,43,914,920,4.0,44.0,51.0,921.0,928.0,,,,,verb.emotion,True,9,direct_object,The bonze,11,39,50,male,1.0,primary
+14,3,eat,60,63,1011,1014,4.0,64.0,72.0,1015.0,1023.0,,,,,verb.consumption,True,8,direct_object,The bonze,11,39,50,male,1.0,primary
+15,0,answered,3,11,1029,1037,4.0,14.0,47.0,1040.0,1073.0,,,,,verb.communication,True,11,direct_object,The bonze,11,39,50,male,1.0,primary
+17,3,took,51,55,1178,1182,4.0,56.0,67.0,1183.0,1194.0,68.0,85.0,1195.0,1212.0,verb.contact,True,13,direct_object,The bonze,11,39,50,male,1.0,primary
+29,0,took,15,19,1958,1962,4.0,20.0,31.0,1963.0,1974.0,,,,,verb.contact,True,18,direct_object,The bonze,11,39,50,male,1.0,primary
+33,4,mingled,65,72,2197,2204,27.0,73.0,87.0,2205.0,2219.0,,,,,verb.motion,True,19,direct_object,the crowd,1,0,1,unknown,0.0,tertiary
+34,6,hoped,102,107,2323,2328,4.0,108.0,128.0,2329.0,2349.0,,,,,verb.cognition,True,21,direct_object,The bonze,11,39,50,male,1.0,primary
+37,0,realized,8,16,2459,2467,4.0,17.0,70.0,2468.0,2521.0,,,,,verb.cognition,True,24,direct_object,The bonze,11,39,50,male,1.0,primary
+42,0,realized,12,20,2843,2851,4.0,21.0,96.0,2852.0,2927.0,,,,,verb.cognition,True,27,direct_object,The bonze,11,39,50,male,1.0,primary

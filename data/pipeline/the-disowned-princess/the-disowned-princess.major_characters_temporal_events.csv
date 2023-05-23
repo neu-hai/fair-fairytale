@@ -1,0 +1,243 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,traveled,6,14,143,151,14,3.0,5.0,140.0,142.0,20.0,25.0,157.0,162.0,verb.motion,True,1,subject,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+2,3,shied,77,82,241,246,14,67.0,76.0,231.0,240.0,,,,,verb.motion,True,2,subject,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+3,0,saw,9,12,300,303,14,6.0,8.0,297.0,299.0,,,,,verb.perception,True,3,subject,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+4,0,looked,3,9,352,358,14,0.0,2.0,349.0,351.0,,,,,verb.perception,True,4,subject,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+5,0,asked,15,20,456,461,14,12.0,14.0,453.0,455.0,,,,,verb.communication,True,6,subject,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+6,4,forsaken,46,54,533,541,11,34.0,41.0,521.0,528.0,,,,,verb.emotion,True,5,subject,Fortune,1.0,0.0,1.0,unknown,0.0,tertiary
+9,1,disowned,31,39,800,808,150,4.0,14.0,773.0,783.0,,,,,verb.communication,True,7,subject,The woman's husband,1.0,0.0,1.0,male,1.0,tertiary
+9,1,disowned,31,39,800,808,19,4.0,14.0,773.0,783.0,,,,,verb.communication,True,7,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+10,1,loved,42,47,855,860,151,37.0,41.0,850.0,854.0,58.0,65.0,871.0,878.0,verb.emotion,True,9,subject,The woman's step - parents,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+11,4,herd,77,81,973,977,19,54.0,55.0,950.0,951.0,,,,,verb.social,True,10,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+12,3,lost,50,54,1036,1040,19,19.0,28.0,1005.0,1014.0,,,,,verb.possession,True,11,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+13,0,continued,9,18,1074,1083,19,5.0,8.0,1070.0,1073.0,,,,,verb.communication,True,12,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+14,0,know,7,11,1130,1134,19,5.0,6.0,1128.0,1129.0,,,,,verb.cognition,True,13,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+15,4,know,62,66,1253,1257,19,53.0,54.0,1244.0,1245.0,,,,,verb.cognition,True,14,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+18,2,deliver,18,25,1405,1412,19,0.0,1.0,1387.0,1388.0,,,,,verb.communication,True,17,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+19,2,find,59,63,1499,1503,19,54.0,55.0,1494.0,1495.0,,,,,verb.possession,True,16,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+24,1,gave,50,54,1929,1933,19,5.0,8.0,1884.0,1887.0,,,,,verb.possession,True,20,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+25,0,bowed,4,9,1951,1956,19,0.0,3.0,1947.0,1950.0,,,,,verb.communication,True,21,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+26,0,took,3,7,2078,2082,10,0.0,2.0,2075.0,2077.0,,,,,verb.contact,True,22,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+27,0,asked,8,13,2128,2133,10,5.0,7.0,2125.0,2127.0,,,,,verb.communication,True,24,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+28,1,slaughter,12,21,2200,2209,161,3.0,11.0,2191.0,2199.0,,,,,verb.contact,True,23,subject,the gods,1.0,0.0,1.0,unknown,0.0,tertiary
+33,0,looked,12,18,2391,2397,10,9.0,11.0,2388.0,2390.0,,,,,verb.perception,True,27,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+35,0,answered,10,18,2686,2694,19,0.0,9.0,2676.0,2685.0,,,,,verb.communication,True,30,subject,The woman,6.0,36.0,42.0,female,1.0,secondary
+38,0,reached,27,34,2826,2833,10,21.0,24.0,2820.0,2823.0,,,,,verb.motion,True,29,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+39,0,loosened,3,11,2912,2920,10,0.0,2.0,2909.0,2911.0,,,,,verb.change,True,31,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+40,1,asked,57,62,3031,3036,29,8.0,17.0,2982.0,2991.0,,,,,verb.communication,True,32,subject,a warrior,1.0,0.0,1.0,unknown,0.0,tertiary
+44,0,bade,12,16,3412,3416,31,0.0,11.0,3400.0,3411.0,21.0,53.0,3421.0,3453.0,verb.communication,True,35,subject,the warrior,4.0,2.0,6.0,male,1.0,tertiary
+53,0,replied,33,40,4049,4056,31,0.0,2.0,4016.0,4018.0,,,,,verb.communication,True,37,subject,the warrior,4.0,2.0,6.0,male,1.0,tertiary
+58,1,cover,9,14,4404,4409,177,0.0,4.0,4395.0,4399.0,,,,,verb.contact,True,38,subject,The dragons,1.0,1.0,2.0,unknown,0.0,tertiary
+61,1,burn,9,13,4522,4526,181,0.0,4.0,4513.0,4517.0,35.0,54.0,4548.0,4567.0,verb.change,True,40,subject,,,,,,,
+65,0,said,12,16,4888,4892,31,0.0,11.0,4876.0,4887.0,,,,,verb.communication,True,42,subject,the warrior,4.0,2.0,6.0,male,1.0,tertiary
+67,0,asked,9,14,4948,4953,168,0.0,8.0,4939.0,4947.0,,,,,verb.communication,True,44,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+70,4,herding,81,88,5203,5210,188,51.0,79.0,5173.0,5201.0,95.0,112.0,5217.0,5234.0,verb.social,True,45,subject,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+70,4,herding,81,88,5203,5210,168,51.0,79.0,5173.0,5201.0,95.0,112.0,5217.0,5234.0,verb.social,True,45,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+73,0,complained,4,14,5349,5359,188,0.0,3.0,5345.0,5348.0,,,,,verb.communication,True,48,subject,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+74,0,gave,9,13,5422,5426,188,5.0,8.0,5418.0,5421.0,,,,,verb.possession,True,50,subject,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+77,1,read,20,24,5589,5593,46,5.0,15.0,5574.0,5584.0,,,,,verb.cognition,True,53,subject,,,,,,,
+80,3,help,52,56,5846,5850,191,27.0,30.0,5821.0,5824.0,,,,,verb.social,True,55,subject,O King,1.0,3.0,4.0,male,1.0,tertiary
+82,0,gave,22,26,6000,6004,47,10.0,21.0,5988.0,5999.0,,,,,verb.communication,True,56,subject,the monarch,1.0,0.0,1.0,unknown,0.0,tertiary
+88,1,answered,28,36,6343,6351,12,1.0,3.0,6316.0,6318.0,,,,,verb.communication,True,61,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+89,3,deposed,72,79,6434,6441,12,60.0,62.0,6422.0,6424.0,,,,,verb.social,True,60,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+91,4,cause,73,78,6572,6577,12,64.0,66.0,6563.0,6565.0,,,,,verb.creation,True,64,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+93,1,caused,56,62,6761,6767,12,53.0,55.0,6758.0,6760.0,,,,,verb.creation,True,63,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+94,1,gave,49,53,6887,6891,202,5.0,23.0,6843.0,6861.0,64.0,72.0,6902.0,6910.0,verb.possession,True,65,subject,the king of heaven,1.0,0.0,1.0,male,1.0,tertiary
+95,1,chain,9,14,6921,6926,168,0.0,1.0,6912.0,6913.0,,,,,verb.contact,True,66,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+97,1,came,107,111,7262,7266,57,0.0,106.0,7155.0,7261.0,,,,,verb.motion,True,67,subject,"A red dragon , a thousand feet long , with flashing eyes , blood - red tongue , scarlet scales and a fiery beard",1.0,5.0,6.0,male,1.0,tertiary
+98,1,dragging,7,15,7286,7294,57,0.0,2.0,7279.0,7281.0,,,,,verb.contact,True,68,subject,"A red dragon , a thousand feet long , with flashing eyes , blood - red tongue , scarlet scales and a fiery beard",1.0,5.0,6.0,male,1.0,tertiary
+101,2,disappeared,62,73,7571,7582,57,34.0,36.0,7543.0,7545.0,,,,,verb.change,True,71,subject,"A red dragon , a thousand feet long , with flashing eyes , blood - red tongue , scarlet scales and a fiery beard",1.0,5.0,6.0,male,1.0,tertiary
+103,1,said,45,49,7660,7664,168,0.0,8.0,7615.0,7623.0,,,,,verb.communication,True,73,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+104,2,hastening,27,36,7712,7721,168,8.0,18.0,7693.0,7703.0,,,,,verb.cognition,True,72,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+104,2,hastening,27,36,7712,7721,204,8.0,18.0,7693.0,7703.0,,,,,verb.cognition,True,72,subject,the king's brother,2.0,1.0,3.0,male,1.0,tertiary
+106,0,had,8,11,7788,7791,168,5.0,7.0,7785.0,7787.0,,,,,verb.consumption,True,74,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+108,2,entered,54,61,7985,7992,60,0.0,53.0,7931.0,7984.0,,,,,verb.motion,True,75,subject,A youth clad in a purple gown and wearing a lofty hat,1.0,5.0,6.0,male,1.0,tertiary
+111,1,wearing,46,53,8103,8110,60,0.0,10.0,8057.0,8067.0,,,,,verb.body,True,77,subject,A youth clad in a purple gown and wearing a lofty hat,1.0,5.0,6.0,male,1.0,tertiary
+113,0,received,37,45,8264,8272,64,0.0,36.0,8227.0,8263.0,51.0,72.0,8278.0,8299.0,verb.communication,True,78,subject,maidens in rosy garments,1.0,0.0,1.0,female,1.0,tertiary
+114,1,said,52,56,8398,8402,168,0.0,8.0,8346.0,8354.0,,,,,verb.communication,True,80,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+115,0,thanked,11,18,8449,8456,12,0.0,10.0,8438.0,8448.0,,,,,verb.communication,True,81,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+116,5,defeated,101,109,8594,8602,12,41.0,42.0,8534.0,8535.0,,,,,verb.competition,True,83,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+117,1,slay,18,22,8628,8632,12,1.0,9.0,8611.0,8619.0,,,,,verb.social,True,82,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+122,0,ate,3,6,8785,8788,12,1.0,2.0,8783.0,8784.0,11.0,16.0,8793.0,8798.0,verb.consumption,True,84,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+123,3,did,57,60,8858,8861,210,37.0,41.0,8838.0,8842.0,,,,,verb.social,True,85,subject,the fickle boy,1.0,0.0,1.0,male,1.0,tertiary
+126,0,promised,15,23,9015,9023,12,4.0,14.0,9004.0,9014.0,,,,,verb.communication,True,87,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+129,0,stood,59,64,9182,9187,72,0.0,58.0,9123.0,9181.0,,,,,verb.contact,True,86,subject,A thousand warriors with banners and spears,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+130,3,danced,98,104,9300,9306,73,85.0,97.0,9287.0,9299.0,,,,,verb.creation,True,88,subject,the warriors,1.0,0.0,1.0,unknown,0.0,tertiary
+131,4,rose,123,127,9443,9447,75,82.0,122.0,9402.0,9442.0,140.0,149.0,9460.0,9469.0,verb.motion,True,89,subject,the guest who listened to it,1.0,1.0,2.0,male,1.0,tertiary
+133,0,danced,45,51,9599,9605,76,0.0,44.0,9554.0,9598.0,,,,,verb.motion,True,90,subject,A thousand maidens in crimson and green silk,1.0,0.0,1.0,female,1.0,tertiary
+134,1,told,36,40,9650,9654,77,0.0,26.0,9614.0,9640.0,,,,,verb.communication,True,91,subject,The princess,5.0,3.0,8.0,female,1.0,tertiary
+136,1,filled,36,42,9798,9804,79,0.0,31.0,9762.0,9793.0,,,,,verb.emotion,True,92,subject,The King of the Sea of Dungting,2.0,4.0,6.0,male,1.0,tertiary
+137,1,drank,25,30,9840,9845,79,0.0,2.0,9815.0,9817.0,,,,,verb.consumption,True,93,subject,The King of the Sea of Dungting,2.0,4.0,6.0,male,1.0,tertiary
+138,0,thanked,12,19,9921,9928,82,0.0,11.0,9909.0,9920.0,26.0,35.0,9935.0,9944.0,verb.communication,True,94,subject,Both rulers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+139,0,applauded,42,51,10030,10039,83,0.0,41.0,9988.0,10029.0,,,,,verb.communication,True,95,subject,The crowd of courtiers in the palace - hall,1.0,0.0,1.0,unknown,0.0,tertiary
+142,0,presented,11,20,10256,10265,82,0.0,5.0,10245.0,10250.0,,,,,verb.communication,True,96,subject,Both rulers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+144,2,slept,30,35,10503,10508,10,27.0,29.0,10500.0,10502.0,,,,,verb.body,True,98,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+146,2,said,70,74,10660,10664,12,0.0,37.0,10590.0,10627.0,,,,,verb.communication,True,100,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+148,2,find,17,21,10850,10854,10,0.0,1.0,10833.0,10834.0,38.0,45.0,10871.0,10878.0,verb.possession,True,103,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+151,2,spoke,58,63,11114,11119,12,47.0,57.0,11103.0,11113.0,,,,,verb.communication,True,101,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+154,1,prefer,39,45,11404,11410,10,37.0,38.0,11402.0,11403.0,,,,,verb.emotion,True,106,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+155,2,said,32,36,11478,11482,12,0.0,10.0,11446.0,11456.0,,,,,verb.communication,True,109,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+156,0,hope,2,6,11513,11517,12,0.0,1.0,11511.0,11512.0,,,,,verb.emotion,True,108,subject,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+157,0,spoke,38,43,11585,11590,90,4.0,32.0,11551.0,11579.0,,,,,verb.communication,True,107,subject,the King of the Dungting Sea,1.0,0.0,1.0,male,1.0,tertiary
+159,1,gave,77,81,11777,11781,91,47.0,76.0,11747.0,11776.0,101.0,113.0,11801.0,11813.0,verb.communication,True,110,subject,the Queen of the Dungting Sea,1.0,0.0,1.0,female,1.0,tertiary
+160,1,owes,49,53,11864,11868,224,37.0,48.0,11852.0,11863.0,,,,,verb.possession,True,111,subject,the queen's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+160,1,owes,49,53,11864,11868,92,37.0,48.0,11852.0,11863.0,,,,,verb.possession,True,111,subject,the queen,1.0,2.0,3.0,female,1.0,tertiary
+162,1,thank,33,38,12051,12056,77,17.0,29.0,12035.0,12047.0,,,,,verb.communication,True,113,subject,The princess,5.0,3.0,8.0,female,1.0,tertiary
+165,3,saw,79,82,12278,12281,10,76.0,78.0,12275.0,12277.0,,,,,verb.perception,True,116,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+166,0,controlled,8,18,12380,12390,10,5.0,7.0,12377.0,12379.0,,,,,verb.social,True,118,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+167,0,took,23,27,12440,12444,10,0.0,13.0,12417.0,12430.0,,,,,verb.possession,True,117,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+168,0,escorted,36,44,12509,12517,69,0.0,35.0,12473.0,12508.0,49.0,68.0,12522.0,12541.0,verb.motion,True,120,subject,Tsian Tang's brother,2.0,0.0,2.0,male,1.0,tertiary
+168,0,escorted,36,44,12509,12517,168,0.0,35.0,12473.0,12508.0,49.0,68.0,12522.0,12541.0,verb.motion,True,120,subject,the king,10.0,17.0,27.0,male,1.0,tertiary
+169,2,received,79,87,12622,12630,10,67.0,71.0,12610.0,12614.0,,,,,verb.possession,True,119,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+170,0,decided,3,10,12723,12730,10,0.0,2.0,12720.0,12722.0,,,,,verb.cognition,True,121,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+171,4,returning,94,103,12904,12913,105,0.0,10.0,12810.0,12820.0,,,,,verb.motion,True,122,subject,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+171,4,returning,94,103,12904,12913,106,0.0,10.0,12810.0,12820.0,,,,,verb.motion,True,122,subject,a widow who lived in the North with her daughter's daughter's father,1.0,1.0,2.0,male,1.0,tertiary
+173,2,seeking,57,64,13018,13025,108,49.0,52.0,13010.0,13013.0,89.0,96.0,13050.0,13057.0,verb.contact,True,123,subject,The mother,1.0,2.0,3.0,female,1.0,tertiary
+175,2,looked,74,80,13200,13206,105,70.0,73.0,13196.0,13199.0,,,,,verb.perception,True,125,subject,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+176,2,said,49,53,13287,13291,105,27.0,30.0,13265.0,13268.0,,,,,verb.communication,True,126,subject,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+178,2,confess,42,49,13380,13387,105,35.0,36.0,13373.0,13374.0,,,,,verb.communication,True,129,subject,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+179,3,fell,59,63,13500,13504,105,57.0,58.0,13498.0,13499.0,,,,,verb.change,True,128,subject,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+180,2,feared,44,50,13585,13591,229,39.0,43.0,13580.0,13584.0,,,,,verb.emotion,True,130,subject,a widow who lived in the North with her daughter's daughter's parents,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+181,1,married,21,28,13652,13659,105,19.0,20.0,13650.0,13651.0,,,,,verb.social,True,131,subject,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+182,7,love,99,103,13792,13796,10,90.0,93.0,13783.0,13786.0,115.0,122.0,13808.0,13815.0,verb.emotion,True,133,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+184,1,wish,31,35,13952,13956,10,27.0,30.0,13948.0,13951.0,,,,,verb.emotion,True,132,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+185,3,share,50,55,14088,14093,10,40.0,43.0,14078.0,14081.0,,,,,verb.possession,True,135,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+187,3,disappeared,54,65,14206,14217,10,39.0,44.0,14191.0,14196.0,,,,,verb.motion,True,134,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+190,0,cried,11,16,14362,14367,123,0.0,10.0,14351.0,14361.0,,,,,verb.communication,True,137,subject,The seamen,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+192,2,talking,41,48,14482,14489,123,6.0,10.0,14447.0,14451.0,,,,,verb.communication,True,136,subject,The seamen,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+193,1,stood,37,42,14623,14628,129,29.0,36.0,14615.0,14622.0,,,,,verb.contact,True,138,subject,fairies,1.0,0.0,1.0,unknown,0.0,tertiary
+195,0,beckoned,3,11,14674,14682,130,0.0,2.0,14671.0,14673.0,,,,,verb.communication,True,139,subject,The man,1.0,4.0,5.0,male,1.0,tertiary
+196,1,entered,16,23,14786,14793,128,9.0,11.0,14779.0,14781.0,,,,,verb.motion,True,140,subject,A man,1.0,3.0,4.0,male,1.0,tertiary
+199,0,answered,11,19,15133,15141,131,0.0,10.0,15122.0,15132.0,,,,,verb.communication,True,142,subject,The man's cousin,4.0,8.0,12.0,male,1.0,tertiary
+199,0,answered,11,19,15133,15141,10,0.0,10.0,15122.0,15132.0,,,,,verb.communication,True,142,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+203,1,disappeared,41,52,15515,15526,10,5.0,7.0,15479.0,15481.0,,,,,verb.change,True,145,subject,Liu,35.0,71.0,106.0,male,1.0,primary
+204,3,disappeared,108,119,15636,15647,131,105.0,107.0,15633.0,15635.0,,,,,verb.change,True,146,subject,The man's cousin,4.0,8.0,12.0,male,1.0,tertiary
+0,6,pass,96,100,96,100,14,101.0,135.0,101.0,135.0,,,,,verb.possession,True,0,direct_object,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+3,0,saw,9,12,300,303,17,13.0,56.0,304.0,347.0,,,,,verb.perception,True,3,direct_object,a woman who was herding sheep on a hillside,1.0,4.0,5.0,female,1.0,tertiary
+4,0,looked,3,9,352,358,17,10.0,16.0,359.0,365.0,,,,,verb.perception,True,4,direct_object,a woman who was herding sheep on a hillside,1.0,4.0,5.0,female,1.0,tertiary
+5,0,asked,15,20,456,461,17,21.0,24.0,462.0,465.0,,,,,verb.communication,True,6,direct_object,a woman who was herding sheep on a hillside,1.0,4.0,5.0,female,1.0,tertiary
+6,4,forsaken,46,54,533,541,19,55.0,57.0,542.0,544.0,,,,,verb.emotion,True,5,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+7,1,ask,29,32,605,608,19,33.0,52.0,609.0,628.0,,,,,verb.communication,True,8,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+7,1,ask,29,32,605,608,14,33.0,52.0,609.0,628.0,,,,,verb.communication,True,8,direct_object,"a man named Liu I , who had failed to pass his examinations for the doctorate",1.0,11.0,12.0,male,1.0,tertiary
+9,1,disowned,31,39,800,808,19,40.0,42.0,809.0,811.0,,,,,verb.communication,True,7,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+10,1,loved,42,47,855,860,151,48.0,57.0,861.0,870.0,58.0,65.0,871.0,878.0,verb.emotion,True,9,direct_object,The woman's step - parents,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+10,1,loved,42,47,855,860,152,48.0,57.0,861.0,870.0,58.0,65.0,871.0,878.0,verb.emotion,True,9,direct_object,The woman's step - parents's son,1.0,0.0,1.0,unknown,0.0,tertiary
+12,3,lost,50,54,1036,1040,19,55.0,77.0,1041.0,1063.0,,,,,verb.possession,True,11,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+16,0,answered,6,14,1292,1300,19,16.0,17.0,1302.0,1303.0,,,,,verb.communication,True,15,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+18,2,deliver,18,25,1405,1412,19,26.0,36.0,1413.0,1423.0,,,,,verb.communication,True,17,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+18,2,deliver,18,25,1405,1412,155,26.0,36.0,1413.0,1423.0,,,,,verb.communication,True,17,direct_object,The woman's father,1.0,3.0,4.0,male,1.0,tertiary
+19,2,find,59,63,1499,1503,155,64.0,67.0,1504.0,1507.0,,,,,verb.possession,True,16,direct_object,The woman's father,1.0,3.0,4.0,male,1.0,tertiary
+20,1,answered,58,66,1568,1576,157,67.0,76.0,1577.0,1586.0,,,,,verb.communication,True,18,direct_object,people,1.0,0.0,1.0,unknown,0.0,tertiary
+20,1,answered,58,66,1568,1576,19,67.0,76.0,1577.0,1586.0,,,,,verb.communication,True,18,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+23,1,tell,24,28,1804,1808,19,29.0,32.0,1809.0,1812.0,,,,,verb.communication,True,19,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+23,1,tell,24,28,1804,1808,155,29.0,32.0,1809.0,1812.0,,,,,verb.communication,True,19,direct_object,The woman's father,1.0,3.0,4.0,male,1.0,tertiary
+24,1,gave,50,54,1929,1933,10,55.0,57.0,1934.0,1936.0,,,,,verb.possession,True,20,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+25,0,bowed,4,9,1951,1956,10,10.0,16.0,1957.0,1963.0,,,,,verb.communication,True,21,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+27,0,asked,8,13,2128,2133,19,14.0,17.0,2134.0,2137.0,,,,,verb.communication,True,24,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+27,0,asked,8,13,2128,2133,10,14.0,17.0,2134.0,2137.0,,,,,verb.communication,True,24,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+29,1,answered,32,40,2260,2268,19,41.0,50.0,2269.0,2278.0,,,,,verb.communication,True,25,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+32,1,replied,29,36,2360,2367,19,37.0,46.0,2368.0,2377.0,,,,,verb.communication,True,26,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+34,1,deliver,23,30,2539,2546,19,31.0,41.0,2547.0,2557.0,,,,,verb.communication,True,28,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+35,0,answered,10,18,2686,2694,164,21.0,54.0,2697.0,2730.0,,,,,verb.communication,True,30,direct_object,a stranger,3.0,0.0,3.0,unknown,0.0,tertiary
+35,0,answered,10,18,2686,2694,19,21.0,54.0,2697.0,2730.0,,,,,verb.communication,True,30,direct_object,The woman,6.0,36.0,42.0,female,1.0,secondary
+35,0,answered,10,18,2686,2694,10,21.0,54.0,2697.0,2730.0,,,,,verb.communication,True,30,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+39,0,loosened,3,11,2912,2920,10,12.0,22.0,2921.0,2931.0,,,,,verb.change,True,31,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+40,1,asked,57,62,3031,3036,167,65.0,95.0,3039.0,3069.0,,,,,verb.communication,True,32,direct_object,honored guest,1.0,0.0,1.0,unknown,0.0,tertiary
+41,0,said,6,10,3078,3082,168,12.0,73.0,3084.0,3145.0,,,,,verb.communication,True,33,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+42,1,turned,72,78,3220,3226,31,79.0,124.0,3227.0,3272.0,,,,,verb.change,True,34,direct_object,the warrior,4.0,2.0,6.0,male,1.0,tertiary
+42,1,turned,72,78,3220,3226,10,79.0,124.0,3227.0,3272.0,,,,,verb.change,True,34,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+44,0,bade,12,16,3412,3416,10,17.0,20.0,3417.0,3420.0,21.0,53.0,3421.0,3453.0,verb.communication,True,35,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+47,0,looked,6,12,3551,3557,10,13.0,22.0,3558.0,3567.0,,,,,verb.perception,True,36,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+53,0,replied,33,40,4049,4056,174,42.0,170.0,4058.0,4186.0,,,,,verb.communication,True,37,direct_object,the priest of the sun up on the coral - tower,1.0,0.0,1.0,unknown,0.0,tertiary
+53,0,replied,33,40,4049,4056,173,42.0,170.0,4058.0,4186.0,,,,,verb.communication,True,37,direct_object,Our master,3.0,2.0,5.0,male,1.0,tertiary
+55,1,ask,17,20,4242,4245,173,23.0,74.0,4248.0,4299.0,,,,,verb.communication,True,39,direct_object,Our master,3.0,2.0,5.0,male,1.0,tertiary
+64,2,appeared,37,45,4804,4812,41,46.0,107.0,4813.0,4874.0,,,,,verb.perception,True,41,direct_object,"a man in a purple robe , bearing a scepter of jade in his hand's man in a purple robe , bearing a scepter of jade in his hand",1.0,2.0,3.0,male,1.0,tertiary
+65,0,said,12,16,4888,4892,185,19.0,36.0,4895.0,4912.0,,,,,verb.communication,True,42,direct_object,the warrior's master,1.0,0.0,1.0,unknown,0.0,tertiary
+65,0,said,12,16,4888,4892,31,19.0,36.0,4895.0,4912.0,,,,,verb.communication,True,42,direct_object,the warrior,4.0,2.0,6.0,male,1.0,tertiary
+67,0,asked,9,14,4948,4953,186,17.0,49.0,4956.0,4988.0,,,,,verb.communication,True,44,direct_object,a living human being,1.0,0.0,1.0,unknown,0.0,tertiary
+67,0,asked,9,14,4948,4953,10,17.0,49.0,4956.0,4988.0,,,,,verb.communication,True,44,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+68,1,brought,9,16,4999,5006,10,17.0,20.0,5007.0,5010.0,21.0,25.0,5011.0,5015.0,verb.motion,True,43,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+69,0,gave,6,10,5024,5028,10,11.0,19.0,5029.0,5037.0,,,,,verb.communication,True,46,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+71,0,tousled,10,17,5246,5253,188,18.0,26.0,5254.0,5262.0,,,,,verb.contact,True,47,direct_object,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+72,3,spoke,40,45,5331,5336,188,46.0,52.0,5337.0,5343.0,,,,,verb.communication,True,49,direct_object,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+73,0,complained,4,14,5349,5359,190,15.0,66.0,5360.0,5411.0,,,,,verb.communication,True,48,direct_object,the king's daughter's husband,3.0,0.0,3.0,male,1.0,tertiary
+73,0,complained,4,14,5349,5359,188,15.0,66.0,5360.0,5411.0,,,,,verb.communication,True,48,direct_object,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+74,0,gave,9,13,5422,5426,168,14.0,16.0,5427.0,5429.0,,,,,verb.possession,True,50,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+75,3,visit,31,36,5479,5484,168,37.0,40.0,5485.0,5488.0,42.0,48.0,5490.0,5496.0,verb.social,True,51,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+76,1,handed,47,53,5546,5552,168,54.0,56.0,5553.0,5555.0,,,,,verb.possession,True,52,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+79,2,brought,41,48,5754,5761,188,49.0,52.0,5762.0,5765.0,62.0,79.0,5775.0,5792.0,verb.contact,True,54,direct_object,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+80,3,help,52,56,5846,5850,191,57.0,60.0,5851.0,5854.0,,,,,verb.social,True,55,direct_object,O King,1.0,3.0,4.0,male,1.0,tertiary
+80,3,help,52,56,5846,5850,188,57.0,60.0,5851.0,5854.0,,,,,verb.social,True,55,direct_object,the king's daughter,1.0,13.0,14.0,female,1.0,tertiary
+82,0,gave,22,26,6000,6004,48,27.0,37.0,6005.0,6015.0,,,,,verb.communication,True,56,direct_object,a servant who took it into the interior of the palace,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+84,4,tell,56,60,6197,6201,48,61.0,65.0,6202.0,6206.0,66.0,72.0,,,verb.communication,True,57,direct_object,a servant who took it into the interior of the palace,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+85,2,hear,32,36,6269,6273,48,37.0,41.0,6274.0,6278.0,,,,,verb.perception,True,58,direct_object,a servant who took it into the interior of the palace,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+87,0,asked,0,5,6302,6307,10,6.0,12.0,6308.0,6314.0,,,,,verb.communication,True,59,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+88,1,answered,28,36,6343,6351,168,37.0,45.0,6352.0,6360.0,,,,,verb.communication,True,61,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+90,0,asked,6,11,6450,6455,12,14.0,52.0,6458.0,6496.0,,,,,verb.communication,True,62,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+94,1,gave,49,53,6887,6891,168,54.0,57.0,6892.0,6895.0,64.0,72.0,6902.0,6910.0,verb.possession,True,65,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+94,1,gave,49,53,6887,6891,12,54.0,57.0,6892.0,6895.0,64.0,72.0,6902.0,6910.0,verb.possession,True,65,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+95,1,chain,9,14,6921,6926,168,15.0,18.0,6927.0,6930.0,,,,,verb.contact,True,66,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+95,1,chain,9,14,6921,6926,12,15.0,18.0,6927.0,6930.0,,,,,verb.contact,True,66,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+98,1,dragging,7,15,7286,7294,57,38.0,100.0,7317.0,7379.0,,,,,verb.contact,True,68,direct_object,"A red dragon , a thousand feet long , with flashing eyes , blood - red tongue , scarlet scales and a fiery beard",1.0,5.0,6.0,male,1.0,tertiary
+99,1,darted,35,41,7416,7422,57,42.0,57.0,7423.0,7438.0,,,,,verb.motion,True,69,direct_object,"A red dragon , a thousand feet long , with flashing eyes , blood - red tongue , scarlet scales and a fiery beard",1.0,5.0,6.0,male,1.0,tertiary
+100,0,whirled,38,45,7477,7484,57,46.0,55.0,7485.0,7494.0,56.0,68.0,7495.0,7507.0,verb.motion,True,70,direct_object,"A red dragon , a thousand feet long , with flashing eyes , blood - red tongue , scarlet scales and a fiery beard",1.0,5.0,6.0,male,1.0,tertiary
+104,2,hastening,27,36,7712,7721,204,37.0,63.0,7722.0,7748.0,,,,,verb.cognition,True,72,direct_object,the king's brother,2.0,1.0,3.0,male,1.0,tertiary
+106,0,had,8,11,7788,7791,59,12.0,51.0,7792.0,7831.0,,,,,verb.consumption,True,74,direct_object,the king's guest,2.0,0.0,2.0,unknown,0.0,tertiary
+106,0,had,8,11,7788,7791,168,12.0,51.0,7792.0,7831.0,,,,,verb.consumption,True,74,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+109,0,hung,8,12,8002,8006,60,13.0,24.0,8007.0,8018.0,,,,,verb.contact,True,76,direct_object,A youth clad in a purple gown and wearing a lofty hat,1.0,5.0,6.0,male,1.0,tertiary
+112,0,looked,15,21,8153,8159,61,22.0,28.0,8160.0,8166.0,,,,,verb.perception,True,79,direct_object,"a girl radiantly beautiful , wearing a robe of misty fragrance",1.0,3.0,4.0,female,1.0,tertiary
+113,0,received,37,45,8264,8272,61,46.0,49.0,8273.0,8276.0,51.0,72.0,8278.0,8299.0,verb.communication,True,78,direct_object,"a girl radiantly beautiful , wearing a robe of misty fragrance",1.0,3.0,4.0,female,1.0,tertiary
+114,1,said,52,56,8398,8402,12,59.0,89.0,8405.0,8435.0,,,,,verb.communication,True,80,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+114,1,said,52,56,8398,8402,168,59.0,89.0,8405.0,8435.0,,,,,verb.communication,True,80,direct_object,the king,10.0,17.0,27.0,male,1.0,tertiary
+114,1,said,52,56,8398,8402,204,59.0,89.0,8405.0,8435.0,,,,,verb.communication,True,80,direct_object,the king's brother,2.0,1.0,3.0,male,1.0,tertiary
+115,0,thanked,11,18,8449,8456,12,19.0,22.0,8457.0,8460.0,,,,,verb.communication,True,81,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+122,0,ate,3,6,8785,8788,209,7.0,10.0,8789.0,8792.0,11.0,16.0,8793.0,8798.0,verb.consumption,True,84,direct_object,the heartless husband,1.0,2.0,3.0,male,1.0,tertiary
+131,4,rose,123,127,9443,9447,75,128.0,139.0,9448.0,9459.0,140.0,149.0,9460.0,9469.0,verb.motion,True,89,direct_object,the guest who listened to it,1.0,1.0,2.0,male,1.0,tertiary
+138,0,thanked,12,19,9921,9928,10,20.0,25.0,9929.0,9934.0,26.0,35.0,9935.0,9944.0,verb.communication,True,94,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+142,0,presented,11,20,10256,10265,82,21.0,35.0,10266.0,10280.0,,,,,verb.communication,True,96,direct_object,Both rulers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+142,0,presented,11,20,10256,10265,86,21.0,35.0,10266.0,10280.0,,,,,verb.communication,True,96,direct_object,Both rulers's guest,1.0,0.0,1.0,unknown,0.0,tertiary
+143,3,bowed,62,67,10442,10447,10,68.0,78.0,10448.0,10458.0,79.0,91.0,10459.0,10471.0,verb.communication,True,97,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+146,2,said,70,74,10660,10664,211,77.0,146.0,10667.0,10736.0,,,,,verb.communication,True,100,direct_object,The Princess of the Dungting Sea,1.0,5.0,6.0,female,1.0,tertiary
+147,3,disowned,33,41,10771,10779,190,42.0,56.0,10780.0,10794.0,,,,,verb.emotion,True,99,direct_object,the king's daughter's husband,3.0,0.0,3.0,male,1.0,tertiary
+147,3,disowned,33,41,10771,10779,211,42.0,56.0,10780.0,10794.0,,,,,verb.emotion,True,99,direct_object,The Princess of the Dungting Sea,1.0,5.0,6.0,female,1.0,tertiary
+150,1,marry,31,36,10964,10969,211,37.0,40.0,10970.0,10973.0,,,,,verb.social,True,102,direct_object,The Princess of the Dungting Sea,1.0,5.0,6.0,female,1.0,tertiary
+151,2,spoke,58,63,11114,11119,10,64.0,70.0,11120.0,11126.0,,,,,verb.communication,True,101,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+152,0,rose,10,14,11138,11142,10,15.0,26.0,11143.0,11154.0,,,,,verb.motion,True,104,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+153,0,kill,3,7,11289,11293,219,8.0,17.0,11294.0,11303.0,,,,,verb.contact,True,105,direct_object,a husband,1.0,0.0,1.0,male,1.0,tertiary
+155,2,said,32,36,11478,11482,12,39.0,63.0,11485.0,11509.0,,,,,verb.communication,True,109,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+157,0,spoke,38,43,11585,11590,12,51.0,57.0,11598.0,11604.0,,,,,verb.communication,True,107,direct_object,Tsian Tang,9.0,24.0,33.0,male,1.0,tertiary
+160,1,owes,49,53,11864,11868,10,54.0,57.0,11869.0,11872.0,,,,,verb.possession,True,111,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+161,2,see,30,33,11987,11990,10,34.0,58.0,11991.0,12015.0,,,,,verb.perception,True,112,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+162,1,thank,33,38,12051,12056,10,39.0,45.0,12057.0,12063.0,,,,,verb.communication,True,113,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+163,3,said,53,57,12117,12121,216,60.0,103.0,12124.0,12167.0,,,,,verb.communication,True,114,direct_object,each other,4.0,0.0,4.0,unknown,0.0,tertiary
+164,0,choked,11,17,12181,12187,77,18.0,27.0,12188.0,12197.0,,,,,verb.contact,True,115,direct_object,The princess,5.0,3.0,8.0,female,1.0,tertiary
+165,3,saw,79,82,12278,12281,77,83.0,150.0,12282.0,12349.0,,,,,verb.perception,True,116,direct_object,The princess,5.0,3.0,8.0,female,1.0,tertiary
+165,3,saw,79,82,12278,12281,10,83.0,150.0,12282.0,12349.0,,,,,verb.perception,True,116,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+166,0,controlled,8,18,12380,12390,10,19.0,26.0,12391.0,12398.0,,,,,verb.social,True,118,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+168,0,escorted,36,44,12509,12517,10,45.0,48.0,12518.0,12521.0,49.0,68.0,12522.0,12541.0,verb.motion,True,120,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+170,0,decided,3,10,12723,12730,220,11.0,25.0,12731.0,12745.0,,,,,verb.cognition,True,121,direct_object,a wife,2.0,0.0,2.0,female,1.0,tertiary
+173,2,seeking,57,64,13018,13025,111,65.0,88.0,13026.0,13049.0,89.0,96.0,13050.0,13057.0,verb.contact,True,123,direct_object,a distinguished husband,1.0,0.0,1.0,male,1.0,tertiary
+174,1,take,21,25,13080,13084,105,26.0,29.0,13085.0,13088.0,,,,,verb.possession,True,124,direct_object,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+175,2,looked,74,80,13200,13206,113,81.0,110.0,13207.0,13236.0,,,,,verb.perception,True,125,direct_object,the dragon - princess,1.0,0.0,1.0,female,1.0,tertiary
+177,0,sent,20,24,13321,13325,115,25.0,29.0,13326.0,13330.0,,,,,verb.communication,True,127,direct_object,a son,2.0,1.0,3.0,male,1.0,tertiary
+178,2,confess,42,49,13380,13387,105,50.0,56.0,13388.0,13394.0,,,,,verb.communication,True,129,direct_object,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+178,2,confess,42,49,13380,13387,227,50.0,56.0,13388.0,13394.0,,,,,verb.communication,True,129,direct_object,the Princess of Dungting Sea,1.0,0.0,1.0,female,1.0,tertiary
+178,2,confess,42,49,13380,13387,10,50.0,56.0,13388.0,13394.0,,,,,verb.communication,True,129,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+180,2,feared,44,50,13585,13591,105,51.0,88.0,13592.0,13629.0,,,,,verb.emotion,True,130,direct_object,a widow who lived in the North with her daughter's daughter,1.0,17.0,18.0,female,1.0,tertiary
+180,2,feared,44,50,13585,13591,230,51.0,88.0,13592.0,13629.0,,,,,verb.emotion,True,130,direct_object,a widow who lived in the North with her daughter's daughter's family,1.0,0.0,1.0,unknown,0.0,tertiary
+180,2,feared,44,50,13585,13591,10,51.0,88.0,13592.0,13629.0,,,,,verb.emotion,True,130,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+181,1,married,21,28,13652,13659,231,29.0,60.0,13660.0,13691.0,,,,,verb.social,True,131,direct_object,a human maiden,1.0,0.0,1.0,female,1.0,tertiary
+181,1,married,21,28,13652,13659,10,29.0,60.0,13660.0,13691.0,,,,,verb.social,True,131,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+182,7,love,99,103,13792,13796,115,104.0,114.0,13797.0,13807.0,115.0,122.0,13808.0,13815.0,verb.emotion,True,133,direct_object,a son,2.0,1.0,3.0,male,1.0,tertiary
+182,7,love,99,103,13792,13796,234,104.0,114.0,13797.0,13807.0,115.0,122.0,13808.0,13815.0,verb.emotion,True,133,direct_object,a son's mother,1.0,0.0,1.0,female,1.0,tertiary
+184,1,wish,31,35,13952,13956,118,36.0,61.0,13957.0,13982.0,,,,,verb.emotion,True,132,direct_object,Liu's wife,1.0,2.0,3.0,female,1.0,tertiary
+193,1,stood,37,42,14623,14628,128,43.0,64.0,14629.0,14650.0,,,,,verb.contact,True,138,direct_object,A man,1.0,3.0,4.0,male,1.0,tertiary
+195,0,beckoned,3,11,14674,14682,131,12.0,25.0,14683.0,14696.0,,,,,verb.communication,True,139,direct_object,The man's cousin,4.0,8.0,12.0,male,1.0,tertiary
+195,0,beckoned,3,11,14674,14682,130,12.0,25.0,14683.0,14696.0,,,,,verb.communication,True,139,direct_object,The man,1.0,4.0,5.0,male,1.0,tertiary
+198,1,said,35,39,15026,15030,131,40.0,53.0,15031.0,15044.0,,,,,verb.communication,True,141,direct_object,The man's cousin,4.0,8.0,12.0,male,1.0,tertiary
+198,1,said,35,39,15026,15030,10,40.0,53.0,15031.0,15044.0,,,,,verb.communication,True,141,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+199,0,answered,11,19,15133,15141,131,21.0,74.0,15143.0,15196.0,,,,,verb.communication,True,142,direct_object,The man's cousin,4.0,8.0,12.0,male,1.0,tertiary
+199,0,answered,11,19,15133,15141,238,21.0,74.0,15143.0,15196.0,,,,,verb.communication,True,142,direct_object,a god,1.0,0.0,1.0,unknown,0.0,tertiary
+199,0,answered,11,19,15133,15141,10,21.0,74.0,15143.0,15196.0,,,,,verb.communication,True,142,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary
+201,3,extend,58,64,15280,15286,131,65.0,74.0,15287.0,15296.0,,,,,verb.change,True,143,direct_object,The man's cousin,4.0,8.0,12.0,male,1.0,tertiary
+202,2,come,45,49,15367,15371,10,50.0,55.0,15372.0,15377.0,,,,,verb.motion,True,144,direct_object,Liu,35.0,71.0,106.0,male,1.0,primary

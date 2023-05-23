@@ -1,0 +1,215 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,3,knew,118,122,299,303,36,113.0,117.0,294.0,298.0,,,,,verb.cognition,True,1,subject,the people,1,5,6,group/nonbinary,1.0,tertiary
+2,0,holding,56,63,406,413,37,0.0,30.0,350.0,380.0,,,,,verb.emotion,True,0,subject,the people's forefathers,1,0,1,unknown,0.0,tertiary
+2,0,holding,56,63,406,413,36,0.0,30.0,350.0,380.0,,,,,verb.emotion,True,0,subject,the people,1,5,6,group/nonbinary,1.0,tertiary
+4,1,joined,27,33,616,622,39,0.0,22.0,589.0,611.0,41.0,63.0,630.0,652.0,verb.change,True,4,subject,The family of Murtough,1,1,2,unknown,0.0,tertiary
+5,1,filled,31,37,935,941,18,21.0,29.0,925.0,933.0,,,,,verb.change,True,3,subject,Murtough,30,100,130,male,1.0,primary
+6,2,built,85,90,1115,1120,49,20.0,53.0,1050.0,1083.0,152.0,175.0,1182.0,1205.0,verb.creation,True,2,subject,son of Art,1,0,1,unknown,0.0,tertiary
+6,2,built,85,90,1115,1120,19,20.0,53.0,1050.0,1083.0,152.0,175.0,1182.0,1205.0,verb.creation,True,2,subject,Cormac,1,0,1,unknown,0.0,tertiary
+7,2,hunt,57,61,1314,1318,54,34.0,42.0,1291.0,1299.0,,,,,verb.contact,True,5,subject,the King,20,60,80,male,1.0,secondary
+8,3,rest,71,75,1460,1464,54,50.0,58.0,1439.0,1447.0,,,,,verb.contact,True,7,subject,the King,20,60,80,male,1.0,secondary
+11,2,scattered,38,47,1801,1810,18,31.0,33.0,1794.0,1796.0,,,,,verb.contact,True,6,subject,Murtough,30,100,130,male,1.0,primary
+13,0,knew,4,8,2092,2096,60,0.0,3.0,2088.0,2091.0,,,,,verb.cognition,True,8,subject,Star - bright and beautiful,1,12,13,female,1.0,tertiary
+16,0,donned,8,14,2974,2980,21,4.0,7.0,2970.0,2973.0,,,,,verb.body,True,11,subject,Sheen,11,102,113,female,1.0,primary
+19,0,wore,8,12,3336,3340,21,4.0,7.0,3332.0,3335.0,76.0,178.0,3404.0,3506.0,verb.body,True,12,subject,Sheen,11,102,113,female,1.0,primary
+20,2,went,28,32,3536,3540,21,24.0,27.0,3532.0,3535.0,,,,,verb.motion,True,13,subject,Sheen,11,102,113,female,1.0,primary
+21,0,perceived,27,36,3632,3641,18,18.0,26.0,3623.0,3631.0,,,,,verb.perception,True,14,subject,Murtough,30,100,130,male,1.0,primary
+22,1,knew,59,63,3935,3939,18,56.0,58.0,3932.0,3934.0,,,,,verb.cognition,True,16,subject,Murtough,30,100,130,male,1.0,primary
+23,1,filled,38,44,4026,4032,18,19.0,33.0,4007.0,4021.0,80.0,199.0,4068.0,4187.0,verb.emotion,True,15,subject,Murtough,30,100,130,male,1.0,primary
+24,4,come,100,104,4288,4292,21,92.0,95.0,4280.0,4283.0,,,,,verb.motion,True,17,subject,Sheen,11,102,113,female,1.0,primary
+25,5,come,83,87,4393,4397,21,75.0,78.0,4385.0,4388.0,,,,,verb.motion,True,18,subject,Sheen,11,102,113,female,1.0,primary
+26,4,come,90,94,4489,4493,21,70.0,74.0,4469.0,4473.0,,,,,verb.change,True,21,subject,Sheen,11,102,113,female,1.0,primary
+27,3,know,52,56,4565,4569,21,38.0,47.0,4551.0,4560.0,,,,,verb.cognition,True,20,subject,Sheen,11,102,113,female,1.0,primary
+29,2,appeared,44,52,4753,4761,21,40.0,43.0,4749.0,4752.0,,,,,verb.perception,True,22,subject,Sheen,11,102,113,female,1.0,primary
+30,7,permitted,238,247,5140,5149,241,202.0,223.0,5104.0,5125.0,,,,,verb.communication,True,23,subject,any cleric,1,0,1,unknown,0.0,tertiary
+30,7,permitted,238,247,5140,5149,18,202.0,223.0,5104.0,5125.0,,,,,verb.communication,True,23,subject,Murtough,30,100,130,male,1.0,primary
+30,7,permitted,238,247,5140,5149,235,202.0,223.0,5104.0,5125.0,,,,,verb.communication,True,23,subject,Murtough's wife,2,0,2,female,1.0,tertiary
+31,2,said,19,23,5207,5211,54,1.0,16.0,5189.0,5204.0,,,,,verb.communication,True,25,subject,the King,20,60,80,male,1.0,secondary
+31,2,said,19,23,5207,5211,18,1.0,16.0,5189.0,5204.0,,,,,verb.communication,True,25,subject,Murtough,30,100,130,male,1.0,primary
+32,5,asked,127,132,5557,5562,18,101.0,111.0,5531.0,5541.0,,,,,verb.communication,True,24,subject,Murtough,30,100,130,male,1.0,primary
+34,4,asked,81,86,5838,5843,88,51.0,68.0,5808.0,5825.0,,,,,verb.communication,True,26,subject,The damsel,2,4,6,female,1.0,tertiary
+35,3,uttered,50,57,5894,5901,88,28.0,35.0,5872.0,5879.0,,,,,verb.communication,True,28,subject,The damsel,2,4,6,female,1.0,tertiary
+38,1,brought,56,63,6284,6291,18,53.0,55.0,6281.0,6283.0,,,,,verb.motion,True,30,subject,Murtough,30,100,130,male,1.0,primary
+39,0,went,24,28,6524,6528,24,4.0,22.0,6504.0,6522.0,,,,,verb.motion,True,32,subject,Duivsech,3,6,9,female,1.0,tertiary
+39,0,went,24,28,6524,6528,18,4.0,22.0,6504.0,6522.0,,,,,verb.motion,True,32,subject,Murtough,30,100,130,male,1.0,primary
+39,0,went,24,28,6524,6528,92,4.0,22.0,6504.0,6522.0,,,,,verb.motion,True,32,subject,Murtough's wife,2,0,2,female,1.0,tertiary
+40,6,said,358,362,7070,7074,1,72.0,355.0,6784.0,7067.0,,,,,verb.communication,True,33,subject,Cletty,3,0,3,unknown,0.0,tertiary
+40,6,said,358,362,7070,7074,108,72.0,355.0,6784.0,7067.0,,,,,verb.communication,True,33,subject,the minstrels,1,0,1,unknown,0.0,tertiary
+40,6,said,358,362,7070,7074,21,72.0,355.0,6784.0,7067.0,,,,,verb.communication,True,33,subject,Sheen,11,102,113,female,1.0,primary
+40,6,said,358,362,7070,7074,107,72.0,355.0,6784.0,7067.0,,,,,verb.communication,True,33,subject,the clan of Niall,1,0,1,unknown,0.0,tertiary
+40,6,said,358,362,7070,7074,106,72.0,355.0,6784.0,7067.0,,,,,verb.communication,True,33,subject,the goodly nobles of the clan of Niall,1,0,1,unknown,0.0,tertiary
+42,0,have,116,120,7236,7240,254,2.0,66.0,7122.0,7186.0,,,,,verb.possession,True,34,subject,the lords of the clans of Owen or of Niall,1,0,1,unknown,0.0,tertiary
+42,0,have,116,120,7236,7240,253,2.0,66.0,7122.0,7186.0,,,,,verb.possession,True,34,subject,the Kings of mighty Ulster,1,0,1,male,1.0,tertiary
+42,0,have,116,120,7236,7240,252,2.0,66.0,7122.0,7186.0,,,,,verb.possession,True,34,subject,the Kings of Leinster,1,0,1,male,1.0,tertiary
+43,2,found,75,80,7337,7342,54,35.0,71.0,7297.0,7333.0,,,,,verb.possession,True,36,subject,the King,20,60,80,male,1.0,secondary
+45,3,ask,52,55,7651,7654,54,40.0,42.0,7639.0,7641.0,,,,,verb.communication,True,39,subject,the King,20,60,80,male,1.0,secondary
+46,3,saw,73,76,7829,7832,54,55.0,64.0,7811.0,7820.0,,,,,verb.perception,True,38,subject,the King,20,60,80,male,1.0,secondary
+47,0,asked,3,8,7844,7849,54,0.0,2.0,7841.0,7843.0,14.0,17.0,7855.0,7858.0,verb.communication,True,41,subject,the King,20,60,80,male,1.0,secondary
+48,0,feared,7,13,7962,7968,54,4.0,6.0,7959.0,7961.0,19.0,57.0,7974.0,8012.0,verb.emotion,True,40,subject,the King,20,60,80,male,1.0,secondary
+49,1,knew,50,54,8064,8068,21,46.0,49.0,8060.0,8063.0,,,,,verb.cognition,True,42,subject,Sheen,11,102,113,female,1.0,primary
+50,1,cried,31,36,8222,8227,21,27.0,30.0,8218.0,8221.0,,,,,verb.communication,True,43,subject,Sheen,11,102,113,female,1.0,primary
+54,2,work,158,162,8548,8552,21,121.0,122.0,8511.0,8512.0,,,,,verb.social,True,45,subject,Sheen,11,102,113,female,1.0,primary
+55,1,create,6,12,8569,8575,21,0.0,1.0,8563.0,8564.0,,,,,verb.creation,True,46,subject,Sheen,11,102,113,female,1.0,primary
+56,1,sprinkle,19,27,8610,8618,21,1.0,12.0,8592.0,8603.0,,,,,verb.change,True,48,subject,Sheen,11,102,113,female,1.0,primary
+57,3,slaughtering,57,69,8705,8717,21,0.0,1.0,8648.0,8649.0,,,,,verb.contact,True,47,subject,Sheen,11,102,113,female,1.0,primary
+58,1,make,13,17,8744,8748,21,0.0,4.0,8731.0,8735.0,,,,,verb.creation,True,49,subject,Sheen,11,102,113,female,1.0,primary
+59,1,make,35,39,8866,8870,21,29.0,30.0,8860.0,8861.0,,,,,verb.change,True,50,subject,Sheen,11,102,113,female,1.0,primary
+60,1,produce,40,47,8948,8955,268,14.0,33.0,8922.0,8941.0,,,,,verb.creation,True,51,subject,famous fighting men,1,0,1,male,1.0,tertiary
+60,1,produce,40,47,8948,8955,21,14.0,33.0,8922.0,8941.0,,,,,verb.creation,True,51,subject,Sheen,11,102,113,female,1.0,primary
+61,2,work,26,30,8995,8999,21,18.0,25.0,8987.0,8994.0,,,,,verb.creation,True,52,subject,Sheen,11,102,113,female,1.0,primary
+63,2,knew,99,103,9171,9175,18,96.0,98.0,9168.0,9170.0,,,,,verb.cognition,True,54,subject,Murtough,30,100,130,male,1.0,primary
+64,0,took,4,8,9224,9228,21,0.0,3.0,9220.0,9223.0,,,,,verb.contact,True,55,subject,Sheen,11,102,113,female,1.0,primary
+66,0,fashioned,40,49,9644,9653,21,36.0,39.0,9640.0,9643.0,,,,,verb.creation,True,56,subject,Sheen,11,102,113,female,1.0,primary
+68,1,fighting,70,78,10087,10095,139,56.0,68.0,10073.0,10085.0,,,,,verb.competition,True,58,subject,headless men,1,4,5,male,1.0,tertiary
+69,0,came,60,64,10200,10204,141,5.0,59.0,10145.0,10199.0,,,,,verb.motion,True,60,subject,hosts,1,0,1,unknown,0.0,tertiary
+69,0,came,60,64,10200,10204,142,5.0,59.0,10145.0,10199.0,,,,,verb.motion,True,60,subject,multitudes,1,0,1,unknown,0.0,tertiary
+70,2,finished,169,177,10565,10573,145,120.0,167.0,10516.0,10563.0,,,,,verb.change,True,59,subject,those headless men,1,0,1,male,1.0,tertiary
+71,1,rose,77,81,10664,10668,18,74.0,76.0,10661.0,10663.0,,,,,verb.motion,True,61,subject,Murtough,30,100,130,male,1.0,primary
+74,0,knew,31,35,11227,11231,24,4.0,29.0,11200.0,11225.0,,,,,verb.cognition,True,64,subject,Duivsech,3,6,9,female,1.0,tertiary
+74,0,knew,31,35,11227,11231,18,4.0,29.0,11200.0,11225.0,,,,,verb.cognition,True,64,subject,Murtough,30,100,130,male,1.0,primary
+74,0,knew,31,35,11227,11231,151,4.0,29.0,11200.0,11225.0,,,,,verb.cognition,True,64,subject,Murtough 's wife,1,0,1,female,1.0,tertiary
+75,1,arise,28,33,11279,11284,25,16.0,24.0,11267.0,11275.0,,,,,verb.change,True,65,subject,Bishop Cairnech,7,5,12,male,1.0,tertiary
+76,0,guarded,11,18,11425,11432,21,5.0,10.0,11419.0,11424.0,22.0,75.0,11436.0,11489.0,verb.competition,True,66,subject,Sheen,11,102,113,female,1.0,primary
+77,1,cursed,32,38,11523,11529,25,29.0,31.0,11520.0,11522.0,,,,,verb.communication,True,67,subject,Bishop Cairnech,7,5,12,male,1.0,tertiary
+78,1,returned,56,64,11761,11769,162,51.0,55.0,11756.0,11760.0,,,,,verb.motion,True,68,subject,the clans of Owen and of Niall,1,2,3,group/nonbinary,1.0,tertiary
+80,2,threw,54,59,12031,12036,165,50.0,53.0,12027.0,12030.0,85.0,116.0,12062.0,12093.0,verb.contact,True,70,subject,Murtough's witch woman who sought his destruction,1,11,12,female,1.0,tertiary
+81,4,went,92,96,12187,12191,165,88.0,91.0,12183.0,12186.0,114.0,145.0,12209.0,12240.0,verb.motion,True,71,subject,Murtough's witch woman who sought his destruction,1,11,12,female,1.0,tertiary
+82,1,set,48,51,12290,12293,165,0.0,3.0,12242.0,12245.0,143.0,197.0,12385.0,12439.0,verb.contact,True,72,subject,Murtough's witch woman who sought his destruction,1,11,12,female,1.0,tertiary
+84,4,scattered,96,105,12624,12633,165,5.0,8.0,12533.0,12536.0,,,,,verb.contact,True,74,subject,Murtough's witch woman who sought his destruction,1,11,12,female,1.0,tertiary
+85,1,slept,48,53,12718,12723,18,22.0,30.0,12692.0,12700.0,,,,,verb.body,True,73,subject,Murtough,30,100,130,male,1.0,primary
+86,0,caused,8,14,12759,12765,165,4.0,7.0,12755.0,12758.0,,,,,verb.creation,True,75,subject,Murtough's witch woman who sought his destruction,1,11,12,female,1.0,tertiary
+87,0,said,14,18,12866,12870,54,5.0,13.0,12857.0,12865.0,,,,,verb.communication,True,77,subject,the King,20,60,80,male,1.0,secondary
+88,5,come,124,128,13036,13040,21,96.0,119.0,13008.0,13031.0,,,,,verb.change,True,76,subject,Sheen,11,102,113,female,1.0,primary
+89,2,said,52,56,13094,13098,21,1.0,45.0,13043.0,13087.0,,,,,verb.communication,True,79,subject,Sheen,11,102,113,female,1.0,primary
+89,2,said,52,56,13094,13098,20,1.0,45.0,13043.0,13087.0,,,,,verb.communication,True,79,subject,Sigh,2,0,2,unknown,0.0,tertiary
+90,1,brings,53,59,13211,13217,272,10.0,47.0,13168.0,13205.0,,,,,verb.contact,True,78,subject,the maid of elfin birth,1,0,1,unknown,0.0,tertiary
+91,0,caused,15,21,13251,13257,21,11.0,14.0,13247.0,13250.0,,,,,verb.creation,True,80,subject,Sheen,11,102,113,female,1.0,primary
+93,1,lying,17,22,13559,13564,54,4.0,12.0,13546.0,13554.0,,,,,verb.contact,True,81,subject,the King,20,60,80,male,1.0,secondary
+94,4,smelled,142,149,13763,13770,54,139.0,141.0,13760.0,13762.0,,,,,verb.perception,True,83,subject,the King,20,60,80,male,1.0,secondary
+96,4,slaughtering,90,102,13915,13927,186,81.0,85.0,13906.0,13910.0,,,,,verb.social,True,84,subject,the magic hosts,1,1,2,group/nonbinary,1.0,tertiary
+97,1,said,39,43,14020,14024,188,1.0,19.0,13982.0,14000.0,,,,,verb.communication,True,86,subject,the witch maiden,1,7,8,female,1.0,tertiary
+98,1,saw,28,31,14054,14057,54,25.0,27.0,14051.0,14053.0,,,,,verb.perception,True,85,subject,the King,20,60,80,male,1.0,secondary
+100,1,quivered,32,40,14328,14336,188,21.0,31.0,14317.0,14327.0,,,,,verb.perception,True,87,subject,the witch maiden,1,7,8,female,1.0,tertiary
+102,2,prod,44,48,14531,14535,195,5.0,16.0,14492.0,14503.0,,,,,verb.contact,True,89,subject,the griffin,2,0,2,unknown,0.0,tertiary
+103,2,knew,57,61,14664,14668,54,54.0,56.0,14661.0,14663.0,,,,,verb.cognition,True,90,subject,the King,20,60,80,male,1.0,secondary
+105,0,died,45,49,14920,14924,54,42.0,44.0,14917.0,14919.0,,,,,verb.change,True,92,subject,the King,20,60,80,male,1.0,secondary
+106,1,rose,34,38,14978,14982,54,31.0,33.0,14975.0,14977.0,,,,,verb.motion,True,93,subject,the King,20,60,80,male,1.0,secondary
+107,3,answer,84,90,15113,15119,201,74.0,80.0,15103.0,15109.0,,,,,verb.communication,True,94,subject,no man,1,0,1,male,1.0,tertiary
+108,2,follow,59,65,15184,15190,18,42.0,50.0,15167.0,15175.0,,,,,verb.motion,True,95,subject,Murtough,30,100,130,male,1.0,primary
+109,0,saw,3,6,15301,15304,18,0.0,2.0,15298.0,15300.0,,,,,verb.perception,True,96,subject,Murtough,30,100,130,male,1.0,primary
+110,4,burned,125,131,15525,15531,18,109.0,120.0,15509.0,15520.0,,,,,verb.contact,True,97,subject,Murtough,30,100,130,male,1.0,primary
+111,1,took,70,74,15653,15657,122,65.0,69.0,15648.0,15652.0,78.0,80.0,15661.0,15663.0,verb.contact,True,98,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+112,0,said,9,13,15738,15742,122,4.0,8.0,15733.0,15737.0,,,,,verb.communication,True,101,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+113,2,fighting,115,123,15866,15874,277,0.0,102.0,15751.0,15853.0,,,,,verb.competition,True,100,subject,High King of Erin,1,0,1,male,1.0,tertiary
+113,2,fighting,115,123,15866,15874,29,0.0,102.0,15751.0,15853.0,,,,,verb.competition,True,100,subject,Conn,2,0,2,unknown,0.0,tertiary
+113,2,fighting,115,123,15866,15874,278,0.0,102.0,15751.0,15853.0,,,,,verb.competition,True,100,subject,the noble race of Conn,1,0,1,unknown,0.0,tertiary
+113,2,fighting,115,123,15866,15874,18,0.0,102.0,15751.0,15853.0,,,,,verb.competition,True,100,subject,Murtough,30,100,130,male,1.0,primary
+113,2,fighting,115,123,15866,15874,280,0.0,102.0,15751.0,15853.0,,,,,verb.competition,True,100,subject,the Great,1,0,1,unknown,0.0,tertiary
+113,2,fighting,115,123,15866,15874,279,0.0,102.0,15751.0,15853.0,,,,,verb.competition,True,100,subject,the descendants of Ugaine,1,0,1,unknown,0.0,tertiary
+115,4,known,73,78,15976,15981,18,59.0,61.0,15962.0,15964.0,,,,,verb.cognition,True,99,subject,Murtough,30,100,130,male,1.0,primary
+117,1,leaned,40,46,16299,16305,208,36.0,39.0,16295.0,16298.0,51.0,55.0,16310.0,16314.0,verb.motion,True,103,subject,wife of Murtough,1,11,12,female,1.0,tertiary
+118,1,died,58,62,16421,16425,208,48.0,53.0,16411.0,16416.0,,,,,verb.change,True,104,subject,wife of Murtough,1,11,12,female,1.0,tertiary
+119,2,laid,65,69,16518,16522,122,60.0,64.0,16513.0,16517.0,80.0,172.0,16533.0,16625.0,verb.contact,True,105,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+120,10,saw,231,234,16858,16861,122,226.0,230.0,16853.0,16857.0,,,,,verb.perception,True,106,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+121,2,saluted,50,57,17109,17116,218,0.0,3.0,17059.0,17062.0,,,,,verb.competition,True,107,subject,"a lonely woman , star - bright and beautiful",1,13,14,female,1.0,tertiary
+122,1,perceived,43,52,17188,17197,122,38.0,42.0,17183.0,17187.0,,,,,verb.cognition,True,108,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+123,0,asked,5,10,17255,17260,122,0.0,4.0,17250.0,17254.0,,,,,verb.communication,True,110,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+126,1,wrought,24,31,17570,17577,218,18.0,19.0,17564.0,17565.0,,,,,verb.creation,True,111,subject,"a lonely woman , star - bright and beautiful",1,13,14,female,1.0,tertiary
+127,2,brought,41,48,17667,17674,232,37.0,40.0,17663.0,17666.0,67.0,100.0,17693.0,17726.0,verb.contact,True,112,subject,maiden,4,2,6,female,1.0,tertiary
+130,0,slew,13,17,17943,17947,18,4.0,12.0,17934.0,17942.0,,,,,verb.social,True,113,subject,Murtough,30,100,130,male,1.0,primary
+132,1,wrought,37,44,18307,18314,18,15.0,33.0,18285.0,18303.0,,,,,verb.creation,True,116,subject,Murtough,30,100,130,male,1.0,primary
+139,2,revised,66,73,19100,19107,122,46.0,50.0,19080.0,19084.0,79.0,88.0,19113.0,19122.0,verb.cognition,True,121,subject,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+2,0,holding,56,63,406,413,36,64.0,68.0,414.0,418.0,,,,,verb.emotion,True,0,direct_object,the people,1,5,6,group/nonbinary,1.0,tertiary
+4,1,joined,27,33,616,622,39,34.0,40.0,623.0,629.0,41.0,63.0,630.0,652.0,verb.change,True,4,direct_object,The family of Murtough,1,1,2,unknown,0.0,tertiary
+6,2,built,85,90,1115,1120,53,128.0,150.0,1158.0,1180.0,152.0,175.0,1182.0,1205.0,verb.creation,True,2,direct_object,the God of Youth and Beauty,1,0,1,unknown,0.0,tertiary
+11,2,scattered,38,47,1801,1810,60,62.0,141.0,1825.0,1904.0,,,,,verb.contact,True,6,direct_object,Star - bright and beautiful,1,12,13,female,1.0,tertiary
+11,2,scattered,38,47,1801,1810,61,62.0,141.0,1825.0,1904.0,,,,,verb.contact,True,6,direct_object,"the Ancient Peoples of the Fairy Tribes of Erin , her country and her fatherland",1,0,1,unknown,0.0,tertiary
+11,2,scattered,38,47,1801,1810,63,62.0,141.0,1825.0,1904.0,,,,,verb.contact,True,6,direct_object,Star - bright and beautiful's fatherland,1,0,1,unknown,0.0,tertiary
+13,0,knew,4,8,2092,2096,70,15.0,308.0,2103.0,2396.0,,,,,verb.cognition,True,8,direct_object,the fairy folk,1,5,6,group/nonbinary,1.0,tertiary
+13,0,knew,4,8,2092,2096,69,15.0,308.0,2103.0,2396.0,,,,,verb.cognition,True,8,direct_object,men,9,1,10,male,1.0,tertiary
+14,0,wrought,21,28,2419,2426,72,29.0,47.0,2427.0,2445.0,,,,,verb.cognition,True,9,direct_object,the witch woman,1,0,1,female,1.0,tertiary
+15,2,saw,66,69,2626,2629,54,70.0,141.0,2630.0,2701.0,,,,,verb.perception,True,10,direct_object,the King,20,60,80,male,1.0,secondary
+15,2,saw,66,69,2626,2629,77,70.0,141.0,2630.0,2701.0,,,,,verb.perception,True,10,direct_object,the King's his comrades,1,0,1,unknown,0.0,tertiary
+16,0,donned,8,14,2974,2980,21,15.0,132.0,2981.0,3098.0,,,,,verb.body,True,11,direct_object,Sheen,11,102,113,female,1.0,primary
+21,0,perceived,27,36,3632,3641,21,37.0,54.0,3642.0,3659.0,,,,,verb.perception,True,14,direct_object,Sheen,11,102,113,female,1.0,primary
+22,1,knew,59,63,3935,3939,18,64.0,111.0,3940.0,3987.0,,,,,verb.cognition,True,16,direct_object,Murtough,30,100,130,male,1.0,primary
+22,1,knew,59,63,3935,3939,21,64.0,111.0,3940.0,3987.0,,,,,verb.cognition,True,16,direct_object,Sheen,11,102,113,female,1.0,primary
+23,1,filled,38,44,4026,4032,21,45.0,78.0,4033.0,4066.0,80.0,199.0,4068.0,4187.0,verb.emotion,True,15,direct_object,Sheen,11,102,113,female,1.0,primary
+27,3,know,52,56,4565,4569,18,57.0,59.0,4570.0,4572.0,,,,,verb.cognition,True,20,direct_object,Murtough,30,100,130,male,1.0,primary
+28,3,known,64,69,4647,4652,21,70.0,75.0,4653.0,4658.0,,,,,verb.cognition,True,19,direct_object,Sheen,11,102,113,female,1.0,primary
+30,7,permitted,238,247,5140,5149,21,248.0,283.0,5150.0,5185.0,,,,,verb.communication,True,23,direct_object,Sheen,11,102,113,female,1.0,primary
+31,2,said,19,23,5207,5211,54,24.0,32.0,5212.0,5220.0,,,,,verb.communication,True,25,direct_object,the King,20,60,80,male,1.0,secondary
+33,5,work,106,110,5671,5675,18,111.0,130.0,5676.0,5695.0,,,,,verb.creation,True,27,direct_object,Murtough,30,100,130,male,1.0,primary
+35,3,uttered,50,57,5894,5901,18,58.0,65.0,5902.0,5909.0,,,,,verb.communication,True,28,direct_object,Murtough,30,100,130,male,1.0,primary
+36,3,come,52,56,6000,6004,18,57.0,69.0,6005.0,6017.0,70.0,81.0,6018.0,6029.0,verb.change,True,29,direct_object,Murtough,30,100,130,male,1.0,primary
+37,0,said,8,12,6040,6044,21,15.0,193.0,6047.0,6225.0,,,,,verb.communication,True,31,direct_object,Sheen,11,102,113,female,1.0,primary
+37,0,said,8,12,6040,6044,69,15.0,193.0,6047.0,6225.0,,,,,verb.communication,True,31,direct_object,men,9,1,10,male,1.0,tertiary
+38,1,brought,56,63,6284,6291,18,64.0,67.0,6292.0,6295.0,,,,,verb.motion,True,30,direct_object,Murtough,30,100,130,male,1.0,primary
+39,0,went,24,28,6524,6528,102,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,Duivsech's husband,3,0,3,male,1.0,tertiary
+39,0,went,24,28,6524,6528,103,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,Duivsech's own soul - friend,1,0,1,unknown,0.0,tertiary
+39,0,went,24,28,6524,6528,18,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,Murtough,30,100,130,male,1.0,primary
+39,0,went,24,28,6524,6528,25,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,Bishop Cairnech,7,5,12,male,1.0,tertiary
+39,0,went,24,28,6524,6528,100,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,Duivsech's children,1,0,1,unknown,0.0,tertiary
+39,0,went,24,28,6524,6528,101,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,"Duivsech's half - brother of her husband , and her own soul - friend",1,0,1,male,1.0,tertiary
+39,0,went,24,28,6524,6528,24,29.0,210.0,6529.0,6710.0,,,,,verb.motion,True,32,direct_object,Duivsech,3,6,9,female,1.0,tertiary
+40,6,said,358,362,7070,7074,21,363.0,366.0,7075.0,7078.0,,,,,verb.communication,True,33,direct_object,Sheen,11,102,113,female,1.0,primary
+41,1,replied,23,30,7103,7110,54,31.0,39.0,7111.0,7119.0,,,,,verb.communication,True,35,direct_object,the King,20,60,80,male,1.0,secondary
+44,7,seen,205,209,7550,7554,21,210.0,252.0,7555.0,7597.0,,,,,verb.perception,True,37,direct_object,Sheen,11,102,113,female,1.0,primary
+44,7,seen,205,209,7550,7554,114,210.0,252.0,7555.0,7597.0,,,,,verb.perception,True,37,direct_object,a woman more goodly of appearance,1,0,1,female,1.0,tertiary
+45,3,ask,52,55,7651,7654,21,56.0,59.0,7655.0,7658.0,,,,,verb.communication,True,39,direct_object,Sheen,11,102,113,female,1.0,primary
+47,0,asked,3,8,7844,7849,118,9.0,12.0,7850.0,7853.0,14.0,17.0,7855.0,7858.0,verb.communication,True,41,direct_object,some goddess of the older world,1,0,1,unknown,0.0,tertiary
+47,0,asked,3,8,7844,7849,117,9.0,12.0,7850.0,7853.0,14.0,17.0,7855.0,7858.0,verb.communication,True,41,direct_object,the God of the clerics,1,0,1,unknown,0.0,tertiary
+47,0,asked,3,8,7844,7849,21,9.0,12.0,7850.0,7853.0,14.0,17.0,7855.0,7858.0,verb.communication,True,41,direct_object,Sheen,11,102,113,female,1.0,primary
+48,0,feared,7,13,7962,7968,21,14.0,17.0,7969.0,7972.0,19.0,57.0,7974.0,8012.0,verb.emotion,True,40,direct_object,Sheen,11,102,113,female,1.0,primary
+49,1,knew,50,54,8064,8068,54,55.0,87.0,8069.0,8101.0,,,,,verb.cognition,True,42,direct_object,the King,20,60,80,male,1.0,secondary
+52,1,meet,9,13,8327,8331,21,14.0,28.0,8332.0,8346.0,29.0,38.0,,,verb.social,True,44,direct_object,Sheen,11,102,113,female,1.0,primary
+57,3,slaughtering,57,69,8705,8717,266,70.0,81.0,8718.0,8729.0,,,,,verb.contact,True,47,direct_object,one another,1,0,1,unknown,0.0,tertiary
+58,1,make,13,17,8744,8748,267,18.0,98.0,8749.0,8829.0,,,,,verb.creation,True,49,direct_object,"sheep of lifeless stones , and swine of ferns",1,0,1,unknown,0.0,tertiary
+58,1,make,13,17,8744,8748,8,18.0,98.0,8749.0,8829.0,,,,,verb.creation,True,49,direct_object,the Boyne,1,0,1,unknown,0.0,tertiary
+62,1,says,15,19,9026,9030,54,20.0,28.0,9031.0,9039.0,,,,,verb.communication,True,53,direct_object,the King,20,60,80,male,1.0,secondary
+63,2,knew,99,103,9171,9175,18,104.0,146.0,9176.0,9218.0,,,,,verb.cognition,True,54,direct_object,Murtough,30,100,130,male,1.0,primary
+66,0,fashioned,40,49,9644,9653,21,50.0,174.0,9654.0,9778.0,,,,,verb.creation,True,56,direct_object,Sheen,11,102,113,female,1.0,primary
+67,1,made,48,52,9905,9909,69,53.0,93.0,9910.0,9950.0,,,,,verb.creation,True,57,direct_object,men,9,1,10,male,1.0,tertiary
+69,0,came,60,64,10200,10204,143,65.0,104.0,10205.0,10244.0,,,,,verb.motion,True,60,direct_object,the second battalion,1,0,1,unknown,0.0,tertiary
+71,1,rose,77,81,10664,10668,18,82.0,93.0,10669.0,10680.0,,,,,verb.motion,True,61,direct_object,Murtough,30,100,130,male,1.0,primary
+72,4,scattering,160,170,10961,10971,128,171.0,175.0,10972.0,10976.0,176.0,242.0,,,verb.motion,True,63,direct_object,the hosts,2,1,3,group/nonbinary,1.0,tertiary
+73,4,fighting,137,145,11182,11190,69,146.0,149.0,11191.0,11194.0,,,,,verb.social,True,62,direct_object,men,9,1,10,male,1.0,tertiary
+78,1,returned,56,64,11761,11769,162,65.0,85.0,11770.0,11790.0,,,,,verb.motion,True,68,direct_object,the clans of Owen and of Niall,1,2,3,group/nonbinary,1.0,tertiary
+79,1,seek,33,37,11825,11829,18,38.0,46.0,11830.0,11838.0,,,,,verb.contact,True,69,direct_object,Murtough,30,100,130,male,1.0,primary
+80,2,threw,54,59,12031,12036,54,60.0,83.0,12037.0,12060.0,85.0,116.0,12062.0,12093.0,verb.contact,True,70,direct_object,the King,20,60,80,male,1.0,secondary
+80,2,threw,54,59,12031,12036,165,60.0,83.0,12037.0,12060.0,85.0,116.0,12062.0,12093.0,verb.contact,True,70,direct_object,Murtough's witch woman who sought his destruction,1,11,12,female,1.0,tertiary
+82,1,set,48,51,12290,12293,169,52.0,56.0,12294.0,12298.0,143.0,197.0,12385.0,12439.0,verb.contact,True,72,direct_object,Murtough's witch woman who sought his destruction's magic host of warriors,1,3,4,female,1.0,tertiary
+90,1,brings,53,59,13211,13217,69,60.0,68.0,13218.0,13226.0,,,,,verb.contact,True,78,direct_object,men,9,1,10,male,1.0,tertiary
+92,7,chilling,187,195,13487,13495,183,196.0,240.0,13496.0,13540.0,,,,,verb.change,True,82,direct_object,the folk that were feasting within the house,1,0,1,unknown,0.0,tertiary
+96,4,slaughtering,90,102,13915,13927,54,103.0,112.0,13928.0,13937.0,,,,,verb.social,True,84,direct_object,the King,20,60,80,male,1.0,secondary
+96,4,slaughtering,90,102,13915,13927,275,103.0,112.0,13928.0,13937.0,,,,,verb.social,True,84,direct_object,the King's people,1,0,1,unknown,0.0,tertiary
+98,1,saw,28,31,14054,14057,54,32.0,74.0,14058.0,14100.0,,,,,verb.perception,True,85,direct_object,the King,20,60,80,male,1.0,secondary
+101,1,picked,27,33,14388,14394,54,34.0,37.0,14395.0,14398.0,54.0,125.0,,,verb.contact,True,88,direct_object,the King,20,60,80,male,1.0,secondary
+102,2,prod,44,48,14531,14535,54,49.0,52.0,14536.0,14539.0,,,,,verb.contact,True,89,direct_object,the King,20,60,80,male,1.0,secondary
+102,2,prod,44,48,14531,14535,188,49.0,52.0,14536.0,14539.0,,,,,verb.contact,True,89,direct_object,the witch maiden,1,7,8,female,1.0,tertiary
+104,0,picked,29,35,14782,14788,54,36.0,39.0,14789.0,14792.0,,,,,verb.contact,True,91,direct_object,the King,20,60,80,male,1.0,secondary
+107,3,answer,84,90,15113,15119,54,91.0,94.0,15120.0,15123.0,,,,,verb.communication,True,94,direct_object,the King,20,60,80,male,1.0,secondary
+108,2,follow,59,65,15184,15190,88,66.0,69.0,15191.0,15194.0,,,,,verb.motion,True,95,direct_object,The damsel,2,4,6,female,1.0,tertiary
+115,4,known,73,78,15976,15981,281,79.0,121.0,15982.0,16024.0,,,,,verb.cognition,True,99,direct_object,the witchdoms of the maiden,1,1,2,female,1.0,tertiary
+115,4,known,73,78,15976,15981,282,79.0,121.0,15982.0,16024.0,,,,,verb.cognition,True,99,direct_object,the maiden,1,0,1,female,1.0,tertiary
+116,1,bewailing,19,28,16046,16055,18,29.0,50.0,16056.0,16077.0,,,,,verb.cognition,True,102,direct_object,Murtough,30,100,130,male,1.0,primary
+117,1,leaned,40,46,16299,16305,208,47.0,50.0,16306.0,16309.0,51.0,55.0,16310.0,16314.0,verb.motion,True,103,direct_object,wife of Murtough,1,11,12,female,1.0,tertiary
+119,2,laid,65,69,16518,16522,212,70.0,79.0,16523.0,16532.0,80.0,172.0,16533.0,16625.0,verb.contact,True,105,direct_object,the Queen,1,0,1,female,1.0,tertiary
+120,10,saw,231,234,16858,16861,218,235.0,430.0,16862.0,17057.0,,,,,verb.perception,True,106,direct_object,"a lonely woman , star - bright and beautiful",1,13,14,female,1.0,tertiary
+120,10,saw,231,234,16858,16861,122,235.0,430.0,16862.0,17057.0,,,,,verb.perception,True,106,direct_object,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+121,2,saluted,50,57,17109,17116,122,58.0,62.0,17117.0,17121.0,,,,,verb.competition,True,107,direct_object,the clerics,5,13,18,group/nonbinary,1.0,tertiary
+122,1,perceived,43,52,17188,17197,218,53.0,103.0,17198.0,17248.0,,,,,verb.cognition,True,108,direct_object,"a lonely woman , star - bright and beautiful",1,13,14,female,1.0,tertiary
+123,0,asked,5,10,17255,17260,218,11.0,17.0,17261.0,17267.0,,,,,verb.communication,True,110,direct_object,"a lonely woman , star - bright and beautiful",1,13,14,female,1.0,tertiary
+123,0,asked,5,10,17255,17260,232,11.0,17.0,17261.0,17267.0,,,,,verb.communication,True,110,direct_object,maiden,4,2,6,female,1.0,tertiary
+125,4,slew,63,67,17439,17443,284,68.0,71.0,17444.0,17447.0,,,,,verb.motion,True,109,direct_object,A king,2,6,8,male,1.0,tertiary
+126,1,wrought,24,31,17570,17577,284,32.0,41.0,17578.0,17587.0,,,,,verb.creation,True,111,direct_object,A king,2,6,8,male,1.0,tertiary
+127,2,brought,41,48,17667,17674,284,49.0,52.0,17675.0,17678.0,67.0,100.0,17693.0,17726.0,verb.contact,True,112,direct_object,A king,2,6,8,male,1.0,tertiary
+128,0,said,8,12,17737,17741,288,15.0,85.0,17744.0,17814.0,,,,,verb.communication,True,114,direct_object,the men of the whole world,1,0,1,male,1.0,tertiary
+128,0,said,8,12,17737,17741,18,15.0,85.0,17744.0,17814.0,,,,,verb.communication,True,114,direct_object,Murtough,30,100,130,male,1.0,primary
+130,0,slew,13,17,17943,17947,293,18.0,27.0,17948.0,17957.0,,,,,verb.social,True,113,direct_object,my father,1,0,1,male,1.0,tertiary
+131,1,scattered,75,84,18197,18206,299,100.0,147.0,18222.0,18269.0,,,,,verb.contact,True,115,direct_object,the folk of the underworld,1,0,1,unknown,0.0,tertiary
+133,0,made,2,6,18349,18353,18,7.0,21.0,18354.0,18368.0,,,,,verb.social,True,117,direct_object,Murtough,30,100,130,male,1.0,primary
+135,3,wrought,138,145,18514,18521,303,146.0,186.0,18522.0,18562.0,188.0,223.0,18564.0,18599.0,verb.creation,True,118,direct_object,"armies of headless , hideous folk",1,0,1,unknown,0.0,tertiary
+135,3,wrought,138,145,18514,18521,69,146.0,186.0,18522.0,18562.0,188.0,223.0,18564.0,18599.0,verb.creation,True,118,direct_object,men,9,1,10,male,1.0,tertiary
+136,2,sign,75,79,18676,18680,30,80.0,99.0,18681.0,18700.0,100.0,138.0,18701.0,18739.0,verb.communication,True,119,direct_object,Christ,2,0,2,unknown,0.0,tertiary
+138,1,laid,112,116,18992,18996,227,117.0,152.0,18997.0,19032.0,,,,,verb.contact,True,120,direct_object,the maiden who had wrought them woe,1,0,1,female,1.0,tertiary

@@ -1,0 +1,76 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,0,had,8,11,8,11,1,0.0,7.0,0.0,7.0,,,,,verb.possession,True,0,subject,A WIDOW,1,2,3,female,1.0,tertiary
+2,1,loved,46,51,134,139,1,42.0,45.0,130.0,133.0,56.0,69.0,144.0,157.0,verb.emotion,True,1,subject,A WIDOW,1,2,3,female,1.0,tertiary
+3,2,bled,89,93,328,332,9,77.0,88.0,316.0,327.0,,,,,verb.body,True,2,subject,the poor girl,1,10,11,female,1.0,tertiary
+6,0,began,9,14,480,485,9,5.0,8.0,476.0,479.0,,,,,verb.change,True,4,subject,the poor girl,1,10,11,female,1.0,tertiary
+7,7,fetch,124,129,677,682,9,108.0,111.0,661.0,664.0,133.0,142.0,686.0,695.0,verb.contact,True,6,subject,the poor girl,1,10,11,female,1.0,tertiary
+8,1,knowing,47,54,745,752,13,5.0,13.0,703.0,711.0,,,,,verb.cognition,True,5,subject,the girl,5,97,102,female,1.0,primary
+9,0,knew,15,19,877,881,13,11.0,14.0,873.0,876.0,,,,,verb.cognition,True,7,subject,the girl,5,97,102,female,1.0,primary
+10,0,came,14,18,904,908,13,10.0,13.0,900.0,903.0,,,,,verb.motion,True,8,subject,the girl,5,97,102,female,1.0,primary
+11,1,came,47,51,1058,1062,13,43.0,46.0,1054.0,1057.0,,,,,verb.motion,True,9,subject,the girl,5,97,102,female,1.0,primary
+12,4,burn,76,80,1180,1184,13,68.0,69.0,1172.0,1173.0,,,,,verb.change,True,11,subject,the girl,5,97,102,female,1.0,primary
+13,1,baked,6,11,1191,1196,13,1.0,2.0,1186.0,1187.0,,,,,verb.consumption,True,10,subject,the girl,5,97,102,female,1.0,primary
+16,0,shook,9,14,1474,1479,13,5.0,8.0,1470.0,1473.0,24.0,55.0,1489.0,1520.0,verb.contact,True,13,subject,the girl,5,97,102,female,1.0,primary
+17,1,gathered,18,26,1587,1595,13,10.0,13.0,1579.0,1582.0,32.0,50.0,1601.0,1619.0,verb.contact,True,14,subject,the girl,5,97,102,female,1.0,primary
+18,3,had,84,87,1726,1729,20,80.0,83.0,1722.0,1725.0,,,,,verb.possession,True,15,subject,an old woman,1,1,2,female,1.0,tertiary
+20,2,do,34,36,1908,1910,13,30.0,33.0,1904.0,1907.0,,,,,verb.social,True,16,subject,the girl,5,97,102,female,1.0,primary
+21,3,shake,51,56,2026,2031,13,0.0,3.0,1975.0,1978.0,63.0,160.0,2038.0,2135.0,verb.contact,True,17,subject,the girl,5,97,102,female,1.0,primary
+22,2,consented,57,66,2195,2204,13,34.0,42.0,2172.0,2180.0,,,,,verb.communication,True,18,subject,the girl,5,97,102,female,1.0,primary
+23,1,shook,56,61,2284,2289,13,0.0,3.0,2228.0,2231.0,70.0,132.0,2298.0,2360.0,verb.contact,True,19,subject,the girl,5,97,102,female,1.0,primary
+24,2,began,54,59,2505,2510,13,50.0,53.0,2501.0,2504.0,,,,,verb.change,True,20,subject,the girl,5,97,102,female,1.0,primary
+25,0,began,13,18,2572,2577,13,9.0,12.0,2568.0,2571.0,,,,,verb.change,True,21,subject,the girl,5,97,102,female,1.0,primary
+26,2,had,86,89,2695,2698,13,82.0,85.0,2691.0,2694.0,,,,,verb.perception,True,22,subject,the girl,5,97,102,female,1.0,primary
+27,0,said,12,16,2739,2743,13,8.0,11.0,2735.0,2738.0,,,,,verb.communication,True,23,subject,the girl,5,97,102,female,1.0,primary
+29,0,answered,13,21,2887,2895,0,0.0,12.0,2874.0,2886.0,,,,,verb.communication,True,24,subject,Mother Hulda,10,16,26,female,1.0,tertiary
+30,1,led,29,32,3055,3058,0,0.0,3.0,3026.0,3029.0,,,,,verb.motion,True,25,subject,Mother Hulda,10,16,26,female,1.0,tertiary
+31,3,said,59,63,3297,3301,0,1.0,56.0,3239.0,3294.0,,,,,verb.communication,True,26,subject,Mother Hulda,10,16,26,female,1.0,tertiary
+32,0,returned,24,32,3339,3347,0,20.0,23.0,3335.0,3338.0,53.0,99.0,3368.0,3414.0,verb.motion,True,27,subject,Mother Hulda,10,16,26,female,1.0,tertiary
+33,2,found,47,52,3463,3468,13,38.0,46.0,3454.0,3462.0,,,,,verb.perception,True,28,subject,the girl,5,97,102,female,1.0,primary
+34,2,cried,78,83,3612,3617,36,36.0,44.0,3570.0,3578.0,,,,,verb.communication,True,29,subject,the cock,1,0,1,unknown,0.0,tertiary
+36,2,returned,47,55,3722,3730,13,39.0,42.0,3714.0,3717.0,,,,,verb.motion,True,30,subject,the girl,5,97,102,female,1.0,primary
+37,4,came,101,105,3873,3877,39,97.0,100.0,3869.0,3872.0,,,,,verb.change,True,31,subject,the mother,1,4,5,female,1.0,tertiary
+38,1,sit,19,22,4007,4010,13,12.0,15.0,4000.0,4003.0,,,,,verb.contact,True,32,subject,the girl,5,97,102,female,1.0,primary
+40,1,jumped,46,52,4158,4164,13,5.0,8.0,4117.0,4120.0,,,,,verb.motion,True,34,subject,the girl,5,97,102,female,1.0,primary
+41,2,came,102,106,4279,4283,13,98.0,101.0,4275.0,4278.0,,,,,verb.motion,True,35,subject,the girl,5,97,102,female,1.0,primary
+43,0,answered,19,27,4419,4427,45,4.0,18.0,4404.0,4418.0,,,,,verb.communication,True,36,subject,the lazy - bones,1,6,7,unknown,0.0,tertiary
+45,0,answered,8,16,4601,4609,13,4.0,7.0,4597.0,4600.0,,,,,verb.communication,True,39,subject,the girl,5,97,102,female,1.0,primary
+46,2,fall,27,31,4661,4665,13,9.0,19.0,4643.0,4653.0,,,,,verb.motion,True,38,subject,the girl,5,97,102,female,1.0,primary
+47,0,came,9,13,4709,4713,13,5.0,8.0,4705.0,4708.0,,,,,verb.motion,True,40,subject,the girl,5,97,102,female,1.0,primary
+48,2,did,74,77,4918,4921,13,14.0,17.0,4858.0,4861.0,112.0,144.0,4956.0,4988.0,verb.social,True,41,subject,the girl,5,97,102,female,1.0,primary
+50,7,shake,83,88,5192,5197,13,12.0,15.0,5121.0,5124.0,92.0,121.0,5201.0,5230.0,verb.body,True,42,subject,the girl,5,97,102,female,1.0,primary
+51,0,grew,26,30,5258,5262,0,3.0,20.0,5235.0,5252.0,,,,,verb.change,True,43,subject,Mother Hulda,10,16,26,female,1.0,tertiary
+52,0,led,17,20,5409,5412,0,4.0,16.0,5396.0,5408.0,,,,,verb.motion,True,44,subject,Mother Hulda,10,16,26,female,1.0,tertiary
+53,1,said,39,43,5583,5587,13,1.0,36.0,5545.0,5580.0,,,,,verb.communication,True,45,subject,the girl,5,97,102,female,1.0,primary
+54,3,cried,99,104,5720,5725,13,55.0,86.0,5676.0,5707.0,,,,,verb.communication,True,46,subject,the girl,5,97,102,female,1.0,primary
+54,3,cried,99,104,5720,5725,50,55.0,86.0,5676.0,5707.0,,,,,verb.communication,True,46,subject,the cock on the top of the well,1,0,1,unknown,0.0,tertiary
+0,0,had,8,11,8,11,2,12.0,25.0,12.0,25.0,,,,,verb.possession,True,0,direct_object,two daughters,1,0,1,unknown,0.0,tertiary
+2,1,loved,46,51,134,139,4,52.0,55.0,140.0,143.0,56.0,69.0,144.0,157.0,verb.emotion,True,1,direct_object,the ugly one,1,1,2,female,1.0,tertiary
+4,0,happened,7,15,341,349,9,21.0,91.0,355.0,425.0,,,,,verb.change,True,3,direct_object,the poor girl,1,10,11,female,1.0,tertiary
+10,0,came,14,18,904,908,13,19.0,29.0,909.0,919.0,,,,,verb.motion,True,8,direct_object,the girl,5,97,102,female,1.0,primary
+11,1,came,47,51,1058,1062,17,52.0,92.0,1063.0,1103.0,,,,,verb.motion,True,9,direct_object,baker,1,0,1,unknown,0.0,tertiary
+15,4,shake,105,110,1414,1419,13,111.0,113.0,1420.0,1422.0,,,,,verb.contact,True,12,direct_object,the girl,5,97,102,female,1.0,primary
+18,3,had,84,87,1726,1729,13,88.0,190.0,1730.0,1832.0,,,,,verb.possession,True,15,direct_object,the girl,5,97,102,female,1.0,primary
+18,3,had,84,87,1726,1729,22,88.0,190.0,1730.0,1832.0,,,,,verb.possession,True,15,direct_object,the old woman,3,4,7,female,1.0,tertiary
+24,2,began,54,59,2505,2510,13,60.0,107.0,2511.0,2558.0,,,,,verb.change,True,20,direct_object,the girl,5,97,102,female,1.0,primary
+25,0,began,13,18,2572,2577,13,19.0,49.0,2578.0,2608.0,,,,,verb.change,True,21,direct_object,the girl,5,97,102,female,1.0,primary
+27,0,said,12,16,2739,2743,13,17.0,32.0,2744.0,2759.0,,,,,verb.communication,True,23,direct_object,the girl,5,97,102,female,1.0,primary
+27,0,said,12,16,2739,2743,29,17.0,32.0,2744.0,2759.0,,,,,verb.communication,True,23,direct_object,the girl's mistress,1,0,1,unknown,0.0,tertiary
+29,0,answered,13,21,2887,2895,13,24.0,149.0,2898.0,3023.0,,,,,verb.communication,True,24,direct_object,the girl,5,97,102,female,1.0,primary
+29,0,answered,13,21,2887,2895,0,24.0,149.0,2898.0,3023.0,,,,,verb.communication,True,24,direct_object,Mother Hulda,10,16,26,female,1.0,tertiary
+30,1,led,29,32,3055,3058,13,33.0,36.0,3059.0,3062.0,,,,,verb.motion,True,25,direct_object,the girl,5,97,102,female,1.0,primary
+31,3,said,59,63,3297,3301,0,64.0,76.0,3302.0,3314.0,,,,,verb.communication,True,26,direct_object,Mother Hulda,10,16,26,female,1.0,tertiary
+32,0,returned,24,32,3339,3347,0,33.0,51.0,3348.0,3366.0,53.0,99.0,3368.0,3414.0,verb.motion,True,27,direct_object,Mother Hulda,10,16,26,female,1.0,tertiary
+33,2,found,47,52,3463,3468,13,53.0,117.0,3469.0,3533.0,,,,,verb.perception,True,28,direct_object,the girl,5,97,102,female,1.0,primary
+33,2,found,47,52,3463,3468,33,53.0,117.0,3469.0,3533.0,,,,,verb.perception,True,28,direct_object,the girl's mother,2,0,2,female,1.0,tertiary
+39,0,make,17,21,4049,4053,13,22.0,40.0,4054.0,4072.0,,,,,verb.change,True,33,direct_object,the girl,5,97,102,female,1.0,primary
+41,2,came,102,106,4279,4283,18,107.0,126.0,4284.0,4303.0,,,,,verb.motion,True,35,direct_object,the baker,2,0,2,unknown,0.0,tertiary
+43,0,answered,19,27,4419,4427,45,30.0,86.0,4430.0,4486.0,,,,,verb.communication,True,36,direct_object,the lazy - bones,1,6,7,unknown,0.0,tertiary
+44,2,shake,54,59,4542,4547,13,60.0,62.0,4548.0,4550.0,,,,,verb.motion,True,37,direct_object,the girl,5,97,102,female,1.0,primary
+46,2,fall,27,31,4661,4665,13,32.0,42.0,4666.0,4676.0,,,,,verb.motion,True,38,direct_object,the girl,5,97,102,female,1.0,primary
+47,0,came,9,13,4709,4713,0,14.0,37.0,4714.0,4737.0,,,,,verb.motion,True,40,direct_object,Mother Hulda,10,16,26,female,1.0,tertiary
+48,2,did,74,77,4918,4921,13,78.0,110.0,4922.0,4954.0,112.0,144.0,4956.0,4988.0,verb.social,True,41,direct_object,the girl,5,97,102,female,1.0,primary
+48,2,did,74,77,4918,4921,0,78.0,110.0,4922.0,4954.0,112.0,144.0,4956.0,4988.0,verb.social,True,41,direct_object,Mother Hulda,10,16,26,female,1.0,tertiary
+51,0,grew,26,30,5258,5262,13,31.0,43.0,5263.0,5275.0,,,,,verb.change,True,43,direct_object,the girl,5,97,102,female,1.0,primary
+52,0,led,17,20,5409,5412,13,21.0,24.0,5413.0,5416.0,,,,,verb.motion,True,44,direct_object,the girl,5,97,102,female,1.0,primary
+53,1,said,39,43,5583,5587,0,44.0,56.0,5588.0,5600.0,,,,,verb.communication,True,45,direct_object,Mother Hulda,10,16,26,female,1.0,tertiary
+56,1,sticking,23,31,5805,5813,48,32.0,38.0,5814.0,5820.0,39.0,43.0,5821.0,5825.0,verb.contact,True,47,direct_object,the lazy girl,1,2,3,female,1.0,tertiary

@@ -1,0 +1,272 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,3,married,31,38,31,38,20,0.0,14.0,0.0,14.0,,,,,verb.social,True,2,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+0,3,married,31,38,31,38,21,0.0,14.0,0.0,14.0,,,,,verb.social,True,2,subject,the King 's son,2.0,2.0,4.0,male,1.0,tertiary
+1,3,arrived,62,69,136,143,22,54.0,57.0,128.0,131.0,,,,,verb.motion,True,1,subject,the King's bride,1.0,2.0,3.0,female,1.0,tertiary
+2,2,driven,36,42,181,187,22,0.0,3.0,145.0,148.0,68.0,101.0,213.0,246.0,verb.motion,True,0,subject,the King's bride,1.0,2.0,3.0,female,1.0,tertiary
+5,2,wondered,69,77,596,604,28,54.0,68.0,581.0,595.0,,,,,verb.cognition,True,3,subject,all the people,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+7,0,cried,5,10,639,644,28,0.0,4.0,634.0,638.0,,,,,verb.communication,True,4,subject,all the people,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+8,2,receive,52,59,753,760,31,26.0,36.0,727.0,737.0,,,,,verb.contact,True,5,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+10,1,sank,19,23,845,849,31,16.0,18.0,842.0,844.0,,,,,verb.motion,True,6,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+11,1,murmured,33,41,919,927,31,30.0,32.0,916.0,918.0,,,,,verb.communication,True,7,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+12,0,blushed,25,32,1001,1008,25,5.0,24.0,981.0,1000.0,,,,,verb.body,True,8,subject,The little Princess,4.0,22.0,26.0,female,1.0,secondary
+13,2,said,36,40,1046,1050,25,1.0,33.0,1011.0,1043.0,,,,,verb.communication,True,9,subject,The little Princess,4.0,22.0,26.0,female,1.0,secondary
+15,1,saying,45,51,1196,1202,36,24.0,33.0,1175.0,1184.0,,,,,verb.communication,True,10,subject,everybody,5.0,0.0,5.0,unknown,0.0,tertiary
+16,3,doubled,59,66,1308,1315,38,31.0,48.0,1280.0,1297.0,,,,,verb.change,True,12,subject,the Page,1.0,0.0,1.0,unknown,0.0,tertiary
+17,0,received,6,14,1323,1331,20,3.0,5.0,1320.0,1322.0,,,,,verb.possession,True,11,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+19,1,walked,60,66,1584,1590,39,35.0,59.0,1559.0,1583.0,,,,,verb.motion,True,13,subject,The bride,3.0,0.0,3.0,unknown,0.0,tertiary
+19,1,walked,60,66,1584,1590,40,35.0,59.0,1559.0,1583.0,,,,,verb.motion,True,13,subject,bridegroom,3.0,0.0,3.0,unknown,0.0,tertiary
+21,1,drank,61,66,1790,1795,42,0.0,23.0,1729.0,1752.0,,,,,verb.consumption,True,14,subject,Princess,4.0,0.0,4.0,female,1.0,tertiary
+21,1,drank,61,66,1790,1795,31,0.0,23.0,1729.0,1752.0,,,,,verb.consumption,True,14,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+22,1,drink,23,28,1850,1855,44,0.0,16.0,1827.0,1843.0,46.0,83.0,1873.0,1910.0,verb.consumption,True,15,subject,true lovers,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+23,2,said,46,50,1983,1987,44,1.0,43.0,1938.0,1980.0,69.0,88.0,2006.0,2025.0,verb.communication,True,17,subject,true lovers,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+23,2,said,46,50,1983,1987,164,1.0,43.0,1938.0,1980.0,69.0,88.0,2006.0,2025.0,verb.communication,True,17,subject,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+24,0,doubled,13,20,2041,2048,20,4.0,12.0,2032.0,2040.0,32.0,45.0,2060.0,2073.0,verb.possession,True,16,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+28,1,dance,33,38,2193,2198,39,0.0,24.0,2160.0,2184.0,54.0,62.0,2214.0,2222.0,verb.motion,True,19,subject,The bride,3.0,0.0,3.0,unknown,0.0,tertiary
+28,1,dance,33,38,2193,2198,40,0.0,24.0,2160.0,2184.0,54.0,62.0,2214.0,2222.0,verb.motion,True,19,subject,bridegroom,3.0,0.0,3.0,unknown,0.0,tertiary
+29,0,played,3,9,2272,2278,20,0.0,2.0,2269.0,2271.0,,,,,verb.competition,True,18,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+30,0,knew,11,15,2369,2373,20,8.0,10.0,2366.0,2368.0,,,,,verb.cognition,True,21,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+34,3,given,75,80,2706,2711,20,62.0,70.0,2693.0,2701.0,,,,,verb.communication,True,23,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+36,3,walking,50,57,2875,2882,25,42.0,45.0,2867.0,2870.0,,,,,verb.motion,True,22,subject,The little Princess,4.0,22.0,26.0,female,1.0,secondary
+37,2,answered,63,71,2962,2970,20,42.0,50.0,2941.0,2949.0,,,,,verb.communication,True,24,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+47,1,said,57,61,3721,3725,20,1.0,54.0,3665.0,3718.0,,,,,verb.communication,True,27,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+50,2,killed,55,61,4064,4070,67,40.0,49.0,4049.0,4058.0,,,,,verb.contact,True,29,subject,the poets,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+51,0,wrote,5,10,4080,4085,67,0.0,4.0,4075.0,4079.0,,,,,verb.communication,True,28,subject,the poets,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+58,0,love,40,44,4406,4410,39,0.0,24.0,4366.0,4390.0,56.0,67.0,4422.0,4433.0,verb.emotion,True,31,subject,The bride,3.0,0.0,3.0,unknown,0.0,tertiary
+58,0,love,40,44,4406,4410,40,0.0,24.0,4366.0,4390.0,56.0,67.0,4422.0,4433.0,verb.emotion,True,31,subject,bridegroom,3.0,0.0,3.0,unknown,0.0,tertiary
+60,0,shook,24,29,4615,4620,5,4.0,23.0,4595.0,4614.0,,,,,verb.communication,True,33,subject,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+61,3,murmured,57,65,4688,4696,5,1.0,50.0,4632.0,4681.0,,,,,verb.communication,True,34,subject,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+61,3,murmured,57,65,4688,4696,7,1.0,50.0,4632.0,4681.0,,,,,verb.communication,True,34,subject,Romance,1.0,0.0,1.0,unknown,0.0,tertiary
+68,4,murmuring,101,110,5181,5190,5,39.0,63.0,5119.0,5143.0,,,,,verb.communication,True,35,subject,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+73,2,sleep,65,70,5465,5470,5,49.0,52.0,5449.0,5452.0,,,,,verb.body,True,36,subject,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+74,1,coughed,49,56,5521,5528,182,38.0,48.0,5510.0,5520.0,,,,,verb.body,True,37,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+75,5,talking,144,151,5697,5704,182,118.0,128.0,5671.0,5681.0,,,,,verb.communication,True,38,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+76,0,had,12,15,5718,5721,182,9.0,11.0,5715.0,5717.0,,,,,verb.possession,True,39,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+77,1,remarked,45,53,5796,5804,20,1.0,39.0,5752.0,5790.0,,,,,verb.communication,True,40,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+77,1,remarked,45,53,5796,5804,21,1.0,39.0,5752.0,5790.0,,,,,verb.communication,True,40,subject,the King 's son,2.0,2.0,4.0,male,1.0,tertiary
+86,1,spun,46,50,6445,6449,80,42.0,45.0,6441.0,6444.0,,,,,verb.motion,True,41,subject,My mother,1.0,9.0,10.0,female,1.0,tertiary
+89,0,flew,3,7,6708,6712,81,0.0,2.0,6705.0,6707.0,,,,,verb.motion,True,44,subject,My father,1.0,7.0,8.0,male,1.0,tertiary
+90,2,made,59,63,6845,6849,81,56.0,58.0,6842.0,6844.0,,,,,verb.creation,True,45,subject,My father,1.0,7.0,8.0,male,1.0,tertiary
+93,1,said,38,42,7077,7081,9,1.0,35.0,7040.0,7074.0,,,,,verb.communication,True,48,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+94,0,know,4,8,7101,7105,8,2.0,3.0,7099.0,7100.0,,,,,verb.cognition,True,47,subject,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+96,6,saying,63,69,7457,7463,9,52.0,56.0,7446.0,7450.0,,,,,verb.communication,True,49,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+97,2,replied,35,42,7501,7508,9,1.0,23.0,7467.0,7489.0,,,,,verb.communication,True,52,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+99,0,knew,3,7,7541,7545,8,1.0,2.0,7539.0,7540.0,,,,,verb.cognition,True,51,subject,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+100,0,hate,2,6,7624,7628,8,0.0,1.0,7622.0,7623.0,47.0,75.0,7669.0,7697.0,verb.emotion,True,53,subject,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+104,2,answered,84,92,7928,7936,188,1.0,81.0,7845.0,7925.0,110.0,126.0,7954.0,7970.0,verb.communication,True,55,subject,"A person who , because he has corns himself's person who , because he has corns himself",1.0,2.0,3.0,male,1.0,tertiary
+104,2,answered,84,92,7928,7936,168,1.0,81.0,7845.0,7925.0,110.0,126.0,7954.0,7970.0,verb.communication,True,55,subject,other people,3.0,1.0,4.0,unknown,0.0,tertiary
+105,0,exploded,24,32,7995,8003,10,5.0,16.0,7976.0,7987.0,,,,,verb.change,True,56,subject,the Cracker,2.0,2.0,4.0,unknown,0.0,tertiary
+106,2,laughing,20,28,8039,8047,11,16.0,19.0,8035.0,8038.0,,,,,verb.body,True,57,subject,Pray,1.0,4.0,5.0,unknown,0.0,tertiary
+108,1,laughing,11,19,8084,8092,182,2.0,3.0,8075.0,8076.0,,,,,verb.body,True,59,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+109,1,laughing,6,14,8101,8109,10,1.0,2.0,8096.0,8097.0,,,,,verb.body,True,60,subject,the Cracker,2.0,2.0,4.0,unknown,0.0,tertiary
+114,2,expect,41,47,8364,8370,182,39.0,40.0,8362.0,8363.0,,,,,verb.cognition,True,62,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+116,1,possess,32,39,8467,8474,182,30.0,31.0,8465.0,8466.0,43.0,59.0,8478.0,8494.0,verb.possession,True,61,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+119,0,know,24,28,8718,8722,182,22.0,23.0,8716.0,8717.0,,,,,verb.cognition,True,66,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+120,0,begin,15,20,8764,8769,182,13.0,14.0,8762.0,8763.0,,,,,verb.change,True,65,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+126,0,forget,6,12,9105,9111,182,2.0,5.0,9101.0,9104.0,,,,,verb.cognition,True,70,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+127,1,have,17,21,9175,9179,197,5.0,12.0,9163.0,9170.0,36.0,74.0,9194.0,9232.0,verb.possession,True,69,subject,,,,,,,
+128,0,have,6,10,9240,9244,9,4.0,5.0,9238.0,9239.0,24.0,70.0,9258.0,9304.0,verb.possession,True,72,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+131,1,care,32,36,9492,9496,9,24.0,25.0,9484.0,9485.0,,,,,verb.emotion,True,74,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+132,4,cultivated,154,164,9652,9662,9,125.0,134.0,9623.0,9632.0,,,,,verb.consumption,True,73,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+133,0,have,16,20,9680,9684,182,4.0,15.0,9668.0,9679.0,,,,,verb.possession,True,76,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+134,5,married,92,99,9789,9796,200,50.0,73.0,9747.0,9770.0,,,,,verb.social,True,75,subject,the Prince and Princess,1.0,3.0,4.0,female,0.3636363636363636,tertiary
+136,1,soar,41,45,9898,9902,91,39.0,40.0,9896.0,9897.0,,,,,verb.motion,True,78,subject,a small Fire - balloon,1.0,3.0,4.0,unknown,0.0,tertiary
+137,3,talk,33,37,9993,9997,91,31.0,32.0,9991.0,9992.0,,,,,verb.communication,True,79,subject,a small Fire - balloon,1.0,3.0,4.0,unknown,0.0,tertiary
+141,1,expected,24,32,10106,10114,182,12.0,21.0,10094.0,10103.0,,,,,verb.cognition,True,80,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+144,1,go,41,43,10208,10210,42,13.0,36.0,10180.0,10203.0,,,,,verb.motion,True,82,subject,Princess,4.0,0.0,4.0,female,1.0,tertiary
+144,1,go,41,43,10208,10210,31,13.0,36.0,10180.0,10203.0,,,,,verb.motion,True,82,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+145,2,walk,39,43,10406,10410,207,22.0,24.0,10389.0,10391.0,,,,,verb.motion,True,83,subject,a little fair - haired boy with violet eyes like the Prince himself,1.0,2.0,3.0,male,1.0,tertiary
+146,2,sleep,33,38,10459,10464,210,13.0,22.0,10439.0,10448.0,,,,,verb.body,True,84,subject,the nurse,1.0,0.0,1.0,unknown,0.0,tertiary
+147,3,drowned,64,71,10554,10561,211,13.0,27.0,10503.0,10517.0,,,,,verb.contact,True,85,subject,the little boy,1.0,0.0,1.0,male,1.0,tertiary
+149,0,lose,16,20,10607,10611,213,0.0,11.0,10591.0,10602.0,,,,,verb.possession,True,86,subject,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+152,2,said,41,45,10724,10728,213,1.0,38.0,10684.0,10721.0,,,,,verb.communication,True,88,subject,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+152,2,said,41,45,10724,10728,214,1.0,38.0,10684.0,10721.0,,,,,verb.communication,True,88,subject,Poor people's only son,4.0,0.0,4.0,unknown,0.0,tertiary
+154,2,replied,30,37,10822,10829,213,1.0,8.0,10793.0,10800.0,,,,,verb.communication,True,91,subject,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+154,2,replied,30,37,10822,10829,9,1.0,8.0,10793.0,10800.0,,,,,verb.communication,True,91,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+155,0,said,4,8,10845,10849,9,2.0,3.0,10843.0,10844.0,,,,,verb.communication,True,90,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+156,1,lost,12,16,10879,10883,213,3.0,7.0,10870.0,10874.0,,,,,verb.possession,True,89,subject,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+157,0,hate,2,6,10965,10969,9,0.0,1.0,10963.0,10964.0,,,,,verb.emotion,True,92,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+158,0,think,11,16,11013,11018,9,9.0,10.0,11011.0,11012.0,,,,,verb.cognition,True,93,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+161,1,met,50,53,11187,11190,8,18.0,42.0,11155.0,11179.0,,,,,verb.motion,True,94,subject,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+162,4,understand,73,83,11266,11276,9,62.0,65.0,11255.0,11258.0,,,,,verb.cognition,True,97,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+163,1,know,21,25,11329,11333,9,6.0,9.0,11314.0,11317.0,,,,,verb.cognition,True,96,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+164,2,answered,27,35,11393,11401,182,1.0,24.0,11367.0,11390.0,,,,,verb.communication,True,99,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+164,2,answered,27,35,11393,11401,31,1.0,24.0,11367.0,11390.0,,,,,verb.communication,True,99,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+165,2,knew,22,26,11436,11440,182,20.0,21.0,11434.0,11435.0,,,,,verb.cognition,True,98,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+167,2,said,43,47,11576,11580,9,1.0,40.0,11534.0,11573.0,,,,,verb.communication,True,101,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+171,3,weeps,74,79,12025,12030,182,71.0,73.0,12022.0,12024.0,,,,,verb.emotion,True,104,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+172,0,heaved,9,15,12084,12090,5,5.0,8.0,12080.0,12083.0,,,,,verb.body,True,106,subject,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+179,1,leading,29,36,12509,12516,42,0.0,23.0,12480.0,12503.0,,,,,verb.motion,True,105,subject,Princess,4.0,0.0,4.0,female,1.0,tertiary
+179,1,leading,29,36,12509,12516,31,0.0,23.0,12480.0,12503.0,,,,,verb.motion,True,105,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+183,1,marched,48,55,12948,12955,56,5.0,27.0,12905.0,12927.0,,,,,verb.motion,True,109,subject,the Royal Pyrotechnist,4.0,0.0,4.0,unknown,0.0,tertiary
+184,0,had,3,6,12990,12993,20,0.0,2.0,12987.0,12989.0,,,,,verb.possession,True,108,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+200,2,shot,75,79,13769,13773,20,0.0,73.0,13694.0,13767.0,,,,,verb.motion,True,112,subject,the King,13.0,19.0,32.0,male,1.0,secondary
+200,2,shot,75,79,13769,13773,117,0.0,73.0,13694.0,13767.0,,,,,verb.motion,True,112,subject,the King's poor relations,1.0,0.0,1.0,unknown,0.0,tertiary
+204,0,laughed,25,32,13898,13905,25,5.0,24.0,13878.0,13897.0,,,,,verb.body,True,114,subject,The little Princess,4.0,22.0,26.0,female,1.0,secondary
+205,3,said,59,63,13980,13984,120,1.0,56.0,13922.0,13977.0,,,,,verb.communication,True,116,subject,the workmen,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+205,3,said,59,63,13980,13984,9,1.0,56.0,13922.0,13977.0,,,,,verb.communication,True,116,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+206,2,looked,42,48,14038,14044,9,39.0,41.0,14035.0,14037.0,,,,,verb.body,True,115,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+207,0,came,25,29,14099,14103,120,13.0,24.0,14087.0,14098.0,,,,,verb.motion,True,117,subject,the workmen,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+210,0,took,9,13,14349,14353,120,4.0,8.0,14344.0,14348.0,31.0,68.0,14371.0,14408.0,verb.perception,True,120,subject,the workmen,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+213,0,cried,3,8,14460,14465,121,0.0,2.0,14457.0,14459.0,,,,,verb.communication,True,121,subject,the workmen's of them,1.0,10.0,11.0,male,1.0,tertiary
+214,0,threw,7,12,14495,14500,121,4.0,6.0,14492.0,14494.0,,,,,verb.contact,True,122,subject,the workmen's of them,1.0,10.0,11.0,male,1.0,tertiary
+217,1,whirled,15,22,14576,14583,121,12.0,14.0,14573.0,14575.0,,,,,verb.motion,True,123,subject,the workmen's of them,1.0,10.0,11.0,male,1.0,tertiary
+219,1,said,35,39,14649,14653,225,22.0,26.0,14636.0,14640.0,,,,,verb.communication,True,124,subject,the man,1.0,0.0,1.0,male,1.0,tertiary
+221,0,fell,8,12,14735,14739,121,5.0,7.0,14732.0,14734.0,,,,,verb.motion,True,125,subject,the workmen's of them,1.0,10.0,11.0,male,1.0,tertiary
+222,1,remarked,33,41,14787,14795,121,30.0,32.0,14784.0,14786.0,,,,,verb.communication,True,126,subject,the workmen's of them,1.0,10.0,11.0,male,1.0,tertiary
+224,1,swam,73,77,15038,15042,122,5.0,71.0,14970.0,15036.0,,,,,verb.motion,True,127,subject,"a little Frog , with bright jewelled eyes , and a green mottled coat",1.0,0.0,1.0,unknown,0.0,tertiary
+229,1,think,7,12,15201,15206,182,3.0,6.0,15197.0,15200.0,,,,,verb.cognition,True,130,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+230,1,hope,12,16,15247,15251,14,10.0,11.0,15245.0,15246.0,,,,,verb.emotion,True,131,subject,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+235,0,have,29,33,15394,15398,182,1.0,24.0,15366.0,15389.0,,,,,verb.possession,True,132,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+238,1,hear,9,13,15523,15527,182,0.0,3.0,15514.0,15517.0,28.0,40.0,15542.0,15554.0,verb.perception,True,136,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+240,3,listen,49,55,15702,15708,36,25.0,34.0,15678.0,15687.0,,,,,verb.perception,True,135,subject,everybody,5.0,0.0,5.0,unknown,0.0,tertiary
+241,2,say,62,65,15778,15781,232,44.0,61.0,15760.0,15777.0,,,,,verb.communication,True,138,subject,the farmer,2.0,0.0,2.0,unknown,0.0,tertiary
+241,2,say,62,65,15778,15781,236,44.0,61.0,15760.0,15777.0,,,,,verb.communication,True,138,subject,the farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+246,2,get,43,46,15995,15998,182,30.0,32.0,15982.0,15984.0,,,,,verb.possession,True,137,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+248,0,hope,4,8,16066,16070,14,2.0,3.0,16064.0,16065.0,,,,,verb.emotion,True,140,subject,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+250,3,meet,64,68,16207,16211,242,51.0,59.0,16194.0,16202.0,,,,,verb.motion,True,141,subject,the Pike,1.0,1.0,2.0,unknown,0.0,tertiary
+252,1,enjoyed,23,30,16321,16328,14,16.0,17.0,16314.0,16315.0,48.0,57.0,16346.0,16355.0,verb.emotion,True,142,subject,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+255,1,talked,10,16,16423,16429,182,1.0,4.0,16414.0,16417.0,,,,,verb.communication,True,144,subject,the Rocket,14.0,52.0,66.0,male,1.0,primary
+259,1,said,24,28,16631,16635,9,1.0,21.0,16608.0,16628.0,,,,,verb.communication,True,147,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+260,1,said,14,18,16662,16666,14,1.0,11.0,16649.0,16659.0,,,,,verb.communication,True,149,subject,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+263,0,see,3,6,16812,16815,14,1.0,2.0,16810.0,16811.0,,,,,verb.perception,True,148,subject,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+264,2,said,36,40,16912,16916,125,1.0,33.0,16877.0,16909.0,,,,,verb.communication,True,151,subject,a very irritating person,1.0,0.0,1.0,unknown,0.0,tertiary
+264,2,said,36,40,16912,16916,9,1.0,33.0,16877.0,16909.0,,,,,verb.communication,True,151,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+267,1,take,20,24,17231,17235,9,9.0,12.0,17220.0,17223.0,33.0,38.0,17244.0,17249.0,verb.cognition,True,153,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+268,1,have,24,28,17274,17278,9,1.0,4.0,17251.0,17254.0,,,,,verb.possession,True,152,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+269,2,avail,44,49,17339,17344,9,29.0,32.0,17324.0,17327.0,,,,,verb.consumption,True,155,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+271,1,married,39,46,17481,17488,42,10.0,33.0,17452.0,17475.0,,,,,verb.creation,True,154,subject,Princess,4.0,0.0,4.0,female,1.0,tertiary
+271,1,married,39,46,17481,17488,31,10.0,33.0,17452.0,17475.0,,,,,verb.creation,True,154,subject,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+272,0,know,14,18,17527,17531,9,10.0,13.0,17523.0,17526.0,45.0,52.0,17558.0,17565.0,verb.cognition,True,156,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+281,1,soared,48,54,18184,18190,250,5.0,7.0,18141.0,18143.0,,,,,verb.motion,True,160,subject,the Dragon - fly,1.0,1.0,2.0,male,1.0,tertiary
+288,0,swam,35,39,18508,18512,251,16.0,34.0,18489.0,18507.0,,,,,verb.motion,True,161,subject,a large White Duck,1.0,3.0,4.0,female,1.0,tertiary
+290,0,said,27,31,18649,18653,251,1.0,22.0,18623.0,18644.0,,,,,verb.communication,True,162,subject,a large White Duck,1.0,3.0,4.0,female,1.0,tertiary
+299,0,cried,20,25,19362,19367,139,1.0,17.0,19343.0,19359.0,37.0,68.0,19379.0,19410.0,verb.communication,True,167,subject,My good creature,1.0,0.0,1.0,unknown,0.0,tertiary
+304,3,has,116,119,19911,19914,36,106.0,115.0,19901.0,19910.0,,,,,verb.possession,True,166,subject,everybody,5.0,0.0,5.0,unknown,0.0,tertiary
+329,0,paid,14,18,21259,21263,253,5.0,13.0,21250.0,21258.0,,,,,verb.perception,True,174,subject,the Duck,2.0,0.0,2.0,unknown,0.0,tertiary
+331,3,came,146,150,21522,21526,258,114.0,145.0,21490.0,21521.0,,,,,verb.motion,True,175,subject,two little boys in white smocks,1.0,0.0,1.0,male,1.0,tertiary
+332,4,look,64,68,21645,21649,9,52.0,54.0,21633.0,21635.0,,,,,verb.perception,True,176,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+336,0,picked,8,14,21758,21764,260,5.0,7.0,21755.0,21757.0,,,,,verb.contact,True,178,subject,one of the boys,1.0,1.0,2.0,male,1.0,tertiary
+339,1,said,28,32,21865,21869,16,20.0,24.0,21857.0,21861.0,,,,,verb.communication,True,181,subject,Old Stick,1.0,2.0,3.0,male,1.0,tertiary
+341,0,mistakes,12,20,21917,21925,16,9.0,11.0,21914.0,21916.0,24.0,56.0,21929.0,21961.0,verb.cognition,True,180,subject,Old Stick,1.0,2.0,3.0,male,1.0,tertiary
+348,1,took,32,36,22425,22429,9,29.0,31.0,22422.0,22424.0,,,,,verb.possession,True,184,subject,the Rocket,15.0,53.0,68.0,male,1.0,primary
+360,0,saw,11,14,22850,22853,68,4.0,10.0,22843.0,22849.0,,,,,verb.perception,True,186,subject,,,,,,,
+370,0,heard,11,16,23192,23197,68,4.0,10.0,23185.0,23191.0,,,,,verb.perception,True,187,subject,,,,,,,
+375,0,rushed,9,15,23467,23473,19,5.0,8.0,23463.0,23466.0,,,,,verb.motion,True,190,subject,the Goose,1.0,1.0,2.0,female,1.0,tertiary
+8,2,receive,52,59,753,760,25,60.0,63.0,761.0,764.0,,,,,verb.contact,True,5,direct_object,The little Princess,4.0,22.0,26.0,female,1.0,secondary
+13,2,said,36,40,1046,1050,34,41.0,53.0,1051.0,1063.0,,,,,verb.communication,True,9,direct_object,a young Page's neighbour,1.0,0.0,1.0,unknown,0.0,tertiary
+13,2,said,36,40,1046,1050,33,41.0,53.0,1051.0,1063.0,,,,,verb.communication,True,9,direct_object,a young Page,1.0,1.0,2.0,male,1.0,tertiary
+23,2,said,46,50,1983,1987,45,51.0,66.0,1988.0,2003.0,69.0,88.0,2006.0,2025.0,verb.communication,True,17,direct_object,the little Page,1.0,0.0,1.0,unknown,0.0,tertiary
+24,0,doubled,13,20,2041,2048,20,21.0,31.0,2049.0,2059.0,32.0,45.0,2060.0,2073.0,verb.possession,True,16,direct_object,the King,13.0,19.0,32.0,male,1.0,secondary
+26,0,cried,0,5,2093,2098,47,6.0,23.0,2099.0,2116.0,,,,,verb.communication,True,20,direct_object,all the courtiers,1.0,0.0,1.0,unknown,0.0,tertiary
+34,3,given,75,80,2706,2711,25,81.0,166.0,2712.0,2797.0,,,,,verb.communication,True,23,direct_object,The little Princess,4.0,22.0,26.0,female,1.0,secondary
+34,3,given,75,80,2706,2711,56,81.0,166.0,2712.0,2797.0,,,,,verb.communication,True,23,direct_object,the Royal Pyrotechnist,4.0,0.0,4.0,unknown,0.0,tertiary
+37,2,answered,63,71,2962,2970,168,72.0,142.0,2971.0,3041.0,,,,,verb.communication,True,24,direct_object,other people,3.0,1.0,4.0,unknown,0.0,tertiary
+40,6,talk,167,171,3373,3377,164,172.0,185.0,3378.0,3391.0,,,,,verb.communication,True,25,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+41,1,cried,41,46,3434,3439,173,47.0,61.0,3440.0,3454.0,,,,,verb.communication,True,26,direct_object,a little Squib,1.0,0.0,1.0,unknown,0.0,tertiary
+49,2,exclaimed,42,51,3877,3886,5,52.0,173.0,3887.0,4008.0,,,,,verb.communication,True,30,direct_object,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+49,2,exclaimed,42,51,3877,3886,174,52.0,173.0,3887.0,4008.0,,,,,verb.communication,True,30,direct_object,"a pensive Catherine Wheel , who had been attached to an old deal box in early life",1.0,0.0,1.0,unknown,0.0,tertiary
+51,0,wrote,5,10,4080,4085,68,19.0,53.0,4094.0,4128.0,,,,,verb.communication,True,28,direct_object,,,,,,,
+51,0,wrote,5,10,4080,4085,67,19.0,53.0,4094.0,4128.0,,,,,verb.communication,True,28,direct_object,the poets,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+56,0,said,0,4,4281,4285,6,5.0,21.0,4286.0,4302.0,,,,,verb.communication,True,32,direct_object,the Roman Candle,4.0,0.0,4.0,unknown,0.0,tertiary
+58,0,love,40,44,4406,4410,164,45.0,55.0,4411.0,4421.0,56.0,67.0,4422.0,4433.0,verb.emotion,True,31,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+60,0,shook,24,29,4615,4620,5,30.0,38.0,4621.0,4629.0,,,,,verb.communication,True,33,direct_object,the Catherine Wheel,5.0,8.0,13.0,female,1.0,tertiary
+77,1,remarked,45,53,5796,5804,21,56.0,124.0,5807.0,5875.0,,,,,verb.communication,True,40,direct_object,the King 's son,2.0,2.0,4.0,male,1.0,tertiary
+81,0,said,0,4,6009,6013,184,5.0,21.0,6014.0,6030.0,,,,,verb.communication,True,43,direct_object,the little Squib,1.0,0.0,1.0,unknown,0.0,tertiary
+81,0,said,0,4,6009,6013,31,5.0,21.0,6014.0,6030.0,,,,,verb.communication,True,43,direct_object,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+84,1,come,35,39,6266,6270,79,40.0,61.0,6271.0,6292.0,,,,,verb.motion,True,42,direct_object,remarkable parents,1.0,0.0,1.0,unknown,0.0,tertiary
+92,0,called,26,32,6998,7004,81,33.0,36.0,7005.0,7008.0,,,,,verb.communication,True,46,direct_object,My father,1.0,7.0,8.0,male,1.0,tertiary
+93,1,said,38,42,7077,7081,8,43.0,57.0,7082.0,7096.0,,,,,verb.communication,True,48,direct_object,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+95,1,answered,28,36,7195,7203,9,37.0,47.0,7204.0,7214.0,49.0,74.0,7216.0,7241.0,verb.communication,True,50,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+99,0,knew,3,7,7541,7545,8,8.0,82.0,7546.0,7620.0,,,,,verb.cognition,True,51,direct_object,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+103,0,said,0,4,7806,7810,86,5.0,16.0,7811.0,7822.0,,,,,verb.communication,True,54,direct_object,the Cracker,1.0,0.0,1.0,unknown,0.0,tertiary
+104,2,answered,84,92,7928,7936,87,93.0,109.0,7937.0,7953.0,110.0,126.0,7954.0,7970.0,verb.communication,True,55,direct_object,the Roman Candle,1.0,0.0,1.0,unknown,0.0,tertiary
+107,0,inquired,0,8,8053,8061,182,9.0,19.0,8062.0,8072.0,,,,,verb.communication,True,58,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+110,1,said,33,37,8185,8189,182,38.0,48.0,8190.0,8200.0,49.0,56.0,8201.0,8208.0,verb.communication,True,63,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+114,2,expect,41,47,8364,8370,191,48.0,77.0,8371.0,8400.0,,,,,verb.cognition,True,62,direct_object,everybody else,2.0,0.0,2.0,unknown,0.0,tertiary
+117,0,suppose,0,7,8496,8503,182,23.0,102.0,8519.0,8598.0,,,,,verb.communication,True,64,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+117,0,suppose,0,7,8496,8503,192,23.0,102.0,8519.0,8598.0,,,,,verb.communication,True,64,direct_object,Every one,4.0,0.0,4.0,unknown,0.0,tertiary
+119,0,know,24,28,8718,8722,20,29.0,53.0,8723.0,8747.0,,,,,verb.cognition,True,66,direct_object,the King,13.0,19.0,32.0,male,1.0,secondary
+120,0,begin,15,20,8764,8769,182,21.0,64.0,8770.0,8813.0,,,,,verb.change,True,65,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+121,2,cried,42,47,8886,8891,6,48.0,64.0,8892.0,8908.0,,,,,verb.communication,True,67,direct_object,the Roman Candle,4.0,0.0,4.0,unknown,0.0,tertiary
+122,0,exclaimed,13,22,8959,8968,90,23.0,70.0,8969.0,9016.0,,,,,verb.communication,True,68,direct_object,the Bengal Light,1.0,0.0,1.0,unknown,0.0,tertiary
+125,0,said,0,4,9071,9075,9,5.0,27.0,9076.0,9098.0,,,,,verb.communication,True,71,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+126,0,forget,6,12,9105,9111,9,13.0,57.0,9112.0,9156.0,,,,,verb.cognition,True,70,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+135,0,exclaimed,16,25,9815,9824,91,26.0,46.0,9825.0,9845.0,,,,,verb.communication,True,77,direct_object,a small Fire - balloon,1.0,3.0,4.0,unknown,0.0,tertiary
+137,3,talk,33,37,9993,9997,200,38.0,45.0,9998.0,10005.0,,,,,verb.communication,True,79,direct_object,the Prince and Princess,1.0,3.0,4.0,female,0.3636363636363636,tertiary
+137,3,talk,33,37,9993,9997,201,38.0,45.0,9998.0,10005.0,,,,,verb.communication,True,79,direct_object,the pretty bride,1.0,0.0,1.0,unknown,0.0,tertiary
+140,0,said,0,4,10066,10070,182,5.0,15.0,10071.0,10081.0,,,,,verb.communication,True,81,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+149,0,lose,16,20,10607,10611,213,21.0,35.0,10612.0,10626.0,,,,,verb.possession,True,86,direct_object,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+149,0,lose,16,20,10607,10611,214,21.0,35.0,10612.0,10626.0,,,,,verb.possession,True,86,direct_object,Poor people's only son,4.0,0.0,4.0,unknown,0.0,tertiary
+152,2,said,41,45,10724,10728,6,46.0,62.0,10729.0,10745.0,,,,,verb.communication,True,88,direct_object,the Roman Candle,4.0,0.0,4.0,unknown,0.0,tertiary
+153,1,happened,20,28,10766,10774,213,29.0,36.0,10775.0,10782.0,37.0,43.0,10783.0,10789.0,verb.change,True,87,direct_object,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+154,2,replied,30,37,10822,10829,9,38.0,48.0,10830.0,10840.0,,,,,verb.communication,True,91,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+155,0,said,4,8,10845,10849,213,9.0,24.0,10850.0,10865.0,,,,,verb.communication,True,90,direct_object,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+156,1,lost,12,16,10879,10883,213,17.0,31.0,10884.0,10898.0,,,,,verb.possession,True,89,direct_object,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+156,1,lost,12,16,10879,10883,214,17.0,31.0,10884.0,10898.0,,,,,verb.possession,True,89,direct_object,Poor people's only son,4.0,0.0,4.0,unknown,0.0,tertiary
+157,0,hate,2,6,10965,10969,217,7.0,37.0,10970.0,11000.0,,,,,verb.emotion,True,92,direct_object,people who cry over spilt milk,1.0,0.0,1.0,unknown,0.0,tertiary
+158,0,think,11,16,11013,11018,213,17.0,52.0,11019.0,11054.0,,,,,verb.cognition,True,93,direct_object,Poor people,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+158,0,think,11,16,11013,11018,214,17.0,52.0,11019.0,11054.0,,,,,verb.cognition,True,93,direct_object,Poor people's only son,4.0,0.0,4.0,unknown,0.0,tertiary
+160,0,cried,0,5,11113,11118,8,6.0,22.0,11119.0,11135.0,,,,,verb.communication,True,95,direct_object,the Bengal Light,2.0,12.0,14.0,male,1.0,tertiary
+162,4,understand,73,83,11266,11276,182,84.0,112.0,11277.0,11305.0,,,,,verb.cognition,True,97,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+162,4,understand,73,83,11266,11276,31,84.0,112.0,11277.0,11305.0,,,,,verb.cognition,True,97,direct_object,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+163,1,know,21,25,11329,11333,31,26.0,29.0,11334.0,11337.0,,,,,verb.cognition,True,96,direct_object,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+164,2,answered,27,35,11393,11401,182,36.0,46.0,11402.0,11412.0,,,,,verb.communication,True,99,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+165,2,knew,22,26,11436,11440,31,27.0,30.0,11441.0,11444.0,,,,,verb.cognition,True,98,direct_object,the Prince,10.0,10.0,20.0,male,1.0,tertiary
+166,1,know,32,36,11512,11516,223,37.0,50.0,11517.0,11530.0,,,,,verb.cognition,True,100,direct_object,,,,,,,
+166,1,know,32,36,11512,11516,224,37.0,50.0,11517.0,11530.0,,,,,verb.cognition,True,100,direct_object,one 's friends,1.0,0.0,1.0,unknown,0.0,tertiary
+167,2,said,43,47,11576,11580,95,48.0,64.0,11581.0,11597.0,,,,,verb.communication,True,101,direct_object,the Fire - balloon,2.0,1.0,3.0,male,1.0,tertiary
+169,1,answered,43,51,11673,11681,182,52.0,62.0,11682.0,11692.0,,,,,verb.communication,True,102,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+170,1,flowed,46,52,11771,11777,182,58.0,67.0,11783.0,11792.0,68.0,83.0,,,verb.motion,True,103,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+182,2,said,27,31,12886,12890,20,32.0,40.0,12891.0,12899.0,,,,,verb.communication,True,107,direct_object,the King,13.0,19.0,32.0,male,1.0,secondary
+184,0,had,3,6,12990,12993,20,7.0,30.0,12994.0,13017.0,,,,,verb.possession,True,108,direct_object,the King,13.0,19.0,32.0,male,1.0,secondary
+184,0,had,3,6,12990,12993,110,7.0,30.0,12994.0,13017.0,,,,,verb.possession,True,108,direct_object,six attendants,1.0,0.0,1.0,unknown,0.0,tertiary
+193,0,cried,12,17,13334,13339,95,18.0,34.0,13340.0,13356.0,36.0,80.0,13358.0,13402.0,verb.communication,True,110,direct_object,the Fire - balloon,2.0,1.0,3.0,male,1.0,tertiary
+196,0,answered,0,8,13416,13424,115,9.0,61.0,13425.0,13477.0,,,,,verb.communication,True,111,direct_object,the Crackers,1.0,1.0,2.0,unknown,0.0,tertiary
+203,0,cried,0,5,13857,13862,118,6.0,15.0,13863.0,13872.0,,,,,verb.communication,True,113,direct_object,the Court,1.0,0.0,1.0,unknown,0.0,tertiary
+205,3,said,59,63,13980,13984,9,64.0,74.0,13985.0,13995.0,,,,,verb.communication,True,116,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+208,1,said,34,38,14162,14166,9,39.0,49.0,14167.0,14177.0,,,,,verb.communication,True,118,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+209,4,began,80,85,14258,14263,9,86.0,160.0,14264.0,14338.0,,,,,verb.change,True,119,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+210,0,took,9,13,14349,14353,9,14.0,30.0,14354.0,14370.0,31.0,68.0,14371.0,14408.0,verb.perception,True,120,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+214,0,threw,7,12,14495,14500,9,13.0,16.0,14501.0,14504.0,,,,,verb.contact,True,122,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+226,0,said,0,4,15078,15082,14,5.0,13.0,15083.0,15091.0,,,,,verb.communication,True,129,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+228,0,give,0,4,15137,15141,14,5.0,7.0,15142.0,15144.0,,,,,verb.possession,True,128,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+234,0,said,0,4,15325,15329,182,5.0,15.0,15330.0,15340.0,,,,,verb.communication,True,133,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+236,0,cried,0,5,15401,15406,14,6.0,14.0,15407.0,15415.0,,,,,verb.communication,True,134,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+241,2,say,62,65,15778,15781,236,66.0,72.0,15782.0,15788.0,,,,,verb.communication,True,138,direct_object,the farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+247,0,continued,33,42,16043,16052,14,43.0,51.0,16053.0,16061.0,,,,,verb.communication,True,139,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+248,0,hope,4,8,16066,16070,182,9.0,44.0,16071.0,16106.0,,,,,verb.emotion,True,140,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+250,3,meet,64,68,16207,16211,241,69.0,73.0,16212.0,16216.0,,,,,verb.motion,True,141,direct_object,six beautiful daughters,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+251,3,breakfasting,57,69,16275,16287,241,74.0,78.0,16292.0,16296.0,,,,,verb.consumption,True,143,direct_object,six beautiful daughters,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+254,0,said,0,4,16396,16400,9,5.0,15.0,16401.0,16411.0,,,,,verb.communication,True,145,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+257,2,answered,24,32,16506,16514,14,33.0,41.0,16515.0,16523.0,,,,,verb.communication,True,146,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+259,1,said,24,28,16631,16635,9,29.0,39.0,16636.0,16646.0,,,,,verb.communication,True,147,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+260,1,said,14,18,16662,16666,14,19.0,40.0,16667.0,16688.0,,,,,verb.communication,True,149,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+263,0,see,3,6,16812,16815,14,7.0,65.0,16816.0,16874.0,,,,,verb.perception,True,148,direct_object,the Frog,6.0,18.0,24.0,unknown,0.0,secondary
+263,0,see,3,6,16812,16815,240,7.0,65.0,16816.0,16874.0,,,,,verb.perception,True,148,direct_object,the Frog's daughters,2.0,0.0,2.0,unknown,0.0,tertiary
+264,2,said,36,40,16912,16916,182,41.0,51.0,16917.0,16927.0,,,,,verb.communication,True,151,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+265,0,hate,2,6,16951,16955,223,7.0,97.0,16956.0,17046.0,,,,,verb.emotion,True,150,direct_object,,,,,,,
+265,0,hate,2,6,16951,16955,9,7.0,97.0,16956.0,17046.0,,,,,verb.emotion,True,150,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+269,2,avail,44,49,17339,17344,9,50.0,58.0,17345.0,17353.0,,,,,verb.consumption,True,155,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+273,2,said,35,39,17620,17624,249,40.0,105.0,17625.0,17690.0,,,,,verb.communication,True,157,direct_object,"a Dragon - fly , who was sitting on the top of a large brown bulrush",1.0,0.0,1.0,unknown,0.0,tertiary
+275,1,answered,36,44,17768,17776,9,45.0,55.0,17777.0,17787.0,,,,,verb.communication,True,158,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+280,2,said,51,55,18116,18120,250,56.0,70.0,18121.0,18135.0,,,,,verb.communication,True,159,direct_object,the Dragon - fly,1.0,1.0,2.0,male,1.0,tertiary
+293,3,answered,65,73,18823,18831,9,74.0,84.0,18832.0,18842.0,,,,,verb.communication,True,163,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+295,2,expect,22,28,18936,18942,168,29.0,72.0,18943.0,18986.0,,,,,verb.cognition,True,164,direct_object,other people,3.0,1.0,4.0,unknown,0.0,tertiary
+297,2,said,30,34,19132,19136,15,35.0,43.0,19137.0,19145.0,,,,,verb.communication,True,165,direct_object,the Duck,3.0,0.0,3.0,unknown,0.0,tertiary
+299,0,cried,20,25,19362,19367,182,26.0,36.0,19368.0,19378.0,37.0,68.0,19379.0,19410.0,verb.communication,True,167,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+307,0,cried,10,15,20021,20026,9,16.0,26.0,20027.0,20037.0,,,,,verb.communication,True,169,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+313,2,remarked,54,62,20375,20383,15,63.0,71.0,20384.0,20392.0,,,,,verb.communication,True,168,direct_object,the Duck,3.0,0.0,3.0,unknown,0.0,tertiary
+318,2,said,29,33,20697,20701,9,34.0,44.0,20702.0,20712.0,,,,,verb.communication,True,171,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+321,1,distracts,45,54,20948,20957,223,55.0,65.0,20958.0,20968.0,66.0,84.0,20969.0,20987.0,verb.change,True,170,direct_object,,,,,,,
+324,0,said,0,4,21042,21046,15,5.0,13.0,21047.0,21055.0,,,,,verb.communication,True,172,direct_object,the Duck,3.0,0.0,3.0,unknown,0.0,tertiary
+328,0,screamed,0,8,21188,21196,182,9.0,19.0,21197.0,21207.0,,,,,verb.communication,True,173,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+334,0,cried,0,5,21675,21680,260,6.0,21.0,21681.0,21696.0,24.0,46.0,,,verb.communication,True,177,direct_object,one of the boys,1.0,1.0,2.0,male,1.0,tertiary
+334,0,cried,0,5,21675,21680,261,6.0,21.0,21681.0,21696.0,24.0,46.0,,,verb.communication,True,177,direct_object,the boys,1.0,0.0,1.0,male,1.0,tertiary
+338,0,said,0,4,21807,21811,182,5.0,15.0,21812.0,21822.0,,,,,verb.communication,True,179,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary
+343,0,said,0,4,21995,21999,263,5.0,18.0,22000.0,22013.0,,,,,verb.communication,True,182,direct_object,the other boy,1.0,0.0,1.0,male,1.0,tertiary
+345,1,cried,23,28,22154,22159,9,29.0,39.0,22160.0,22170.0,,,,,verb.communication,True,183,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+349,0,caught,27,33,22478,22484,9,34.0,37.0,22485.0,22488.0,,,,,verb.contact,True,185,direct_object,the Rocket,15.0,53.0,68.0,male,1.0,primary
+363,2,make,42,46,23005,23009,68,47.0,118.0,23010.0,23081.0,,,,,verb.creation,True,188,direct_object,,,,,,,
+370,0,heard,11,16,23192,23197,266,17.0,20.0,23198.0,23201.0,,,,,verb.perception,True,187,direct_object,the two little boys,1.0,1.0,2.0,male,1.0,tertiary
+373,0,cried,0,5,23412,23417,19,6.0,15.0,23418.0,23427.0,,,,,verb.communication,True,189,direct_object,the Goose,1.0,1.0,2.0,female,1.0,tertiary
+376,3,gasped,44,50,23534,23540,182,51.0,61.0,23541.0,23551.0,,,,,verb.communication,True,191,direct_object,the Rocket,14.0,52.0,66.0,male,1.0,primary

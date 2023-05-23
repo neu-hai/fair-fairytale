@@ -1,0 +1,343 @@
+{
+    "characters": {
+        "n": 62,
+        "female": {
+            "n": 8,
+            "p": 0.13
+        },
+        "male": {
+            "n": 12,
+            "p": 0.19
+        },
+        "group/nonbinary": {
+            "n": 5,
+            "p": 0.08
+        },
+        "unknown": {
+            "n": 37,
+            "p": 0.6
+        },
+        "primary": {
+            "n": 1,
+            "p": 0.02
+        },
+        "secondary": {
+            "n": 0,
+            "p": 0
+        },
+        "tertiary": {
+            "n": 61,
+            "p": 0.98
+        },
+        "female_primary": {
+            "n": 1,
+            "p": 0.02
+        },
+        "female_secondary": {
+            "n": 0,
+            "p": 0
+        },
+        "female_tertiary": {
+            "n": 7,
+            "p": 0.11
+        },
+        "male_primary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "male_secondary": {
+            "n": 0,
+            "p": 0
+        },
+        "male_tertiary": {
+            "n": 12,
+            "p": 0.19
+        },
+        "group/nonbinary_primary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "group/nonbinary_secondary": {
+            "n": 0,
+            "p": 0
+        },
+        "group/nonbinary_tertiary": {
+            "n": 5,
+            "p": 0.08
+        },
+        "unknown_primary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "unknown_secondary": {
+            "n": 0,
+            "p": 0
+        },
+        "unknown_tertiary": {
+            "n": 37,
+            "p": 0.6
+        },
+        "appearances": {
+            "all": [
+                135,
+                19,
+                12,
+                11,
+                9,
+                8,
+                6,
+                5,
+                4,
+                4,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "female": [
+                135,
+                8,
+                5,
+                4,
+                2,
+                1,
+                1,
+                1
+            ],
+            "male": [
+                12,
+                11,
+                6,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "group/nonbinary": [
+                19,
+                9,
+                4,
+                2,
+                2
+            ],
+            "unknown": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    },
+    "events": {
+        "counts": [
+            {
+                "gender": "female",
+                "importance": "primary",
+                "direct_object": 28,
+                "subject": 26,
+                "total": 54
+            },
+            {
+                "gender": "female",
+                "importance": "tertiary",
+                "direct_object": 7,
+                "subject": 3,
+                "total": 10
+            },
+            {
+                "gender": "female",
+                "importance": "total",
+                "direct_object": 35,
+                "subject": 29,
+                "total": 64
+            },
+            {
+                "gender": "group/nonbinary",
+                "importance": "tertiary",
+                "direct_object": 8,
+                "subject": 8,
+                "total": 16
+            },
+            {
+                "gender": "group/nonbinary",
+                "importance": "total",
+                "direct_object": 8,
+                "subject": 8,
+                "total": 16
+            },
+            {
+                "gender": "male",
+                "importance": "tertiary",
+                "direct_object": 13,
+                "subject": 5,
+                "total": 18
+            },
+            {
+                "gender": "male",
+                "importance": "total",
+                "direct_object": 13,
+                "subject": 5,
+                "total": 18
+            },
+            {
+                "gender": "total",
+                "importance": "",
+                "direct_object": 65,
+                "subject": 52,
+                "total": 117
+            },
+            {
+                "gender": "unknown",
+                "importance": "tertiary",
+                "direct_object": 9,
+                "subject": 10,
+                "total": 19
+            },
+            {
+                "gender": "unknown",
+                "importance": "total",
+                "direct_object": 9,
+                "subject": 10,
+                "total": 19
+            }
+        ],
+        "top_events": {
+            "female": [],
+            "male": [
+                {
+                    "event_lemma": "stoop",
+                    "male_female_odds": 57.0,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "exclaim",
+                    "male_female_odds": 8.23,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "congratulate",
+                    "male_female_odds": 5.32,
+                    "argument": "direct_object"
+                }
+            ],
+            "unbiased": [
+                {
+                    "event_lemma": "deck",
+                    "male_female_odds": 1.18,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "hear",
+                    "male_female_odds": 1.18,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "repair",
+                    "male_female_odds": 1.18,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "address",
+                    "male_female_odds": 0.52,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "deck",
+                    "male_female_odds": 0.52,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "hear",
+                    "male_female_odds": 0.52,
+                    "argument": "direct_object"
+                }
+            ]
+        }
+    }
+}

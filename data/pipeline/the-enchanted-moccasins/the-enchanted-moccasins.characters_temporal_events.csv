@@ -1,0 +1,657 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,called,7,13,139,145,6,0.0,2.0,132.0,134.0,,,,,verb.communication,1,subject,a little boy,1,4,5,male,1.0,tertiary
+1,3,possessed,78,87,210,219,6,75.0,77.0,207.0,209.0,,,,,verb.possession,0,subject,a little boy,1,4,5,male,1.0,tertiary
+2,1,meditating,29,39,270,280,11,0.0,8.0,241.0,249.0,,,,,verb.social,2,subject,This boy,1,18,19,male,1.0,tertiary
+2,2,asking,51,57,292,298,11,0.0,8.0,241.0,249.0,,,,,verb.communication,3,subject,This boy,1,18,19,male,1.0,tertiary
+3,1,inquired,31,39,414,422,11,28.0,30.0,411.0,413.0,,,,,verb.communication,5,subject,This boy,1,18,19,male,1.0,tertiary
+3,2,knew,66,70,449,453,7,62.0,65.0,445.0,448.0,,,,,verb.cognition,4,subject,a little boy's sister,6,4,10,female,1.0,tertiary
+4,0,replied,4,11,497,504,7,0.0,3.0,493.0,496.0,,,,,verb.communication,6,subject,a little boy's sister,6,4,10,female,1.0,tertiary
+6,0,heard,14,19,591,596,11,11.0,13.0,588.0,590.0,,,,,verb.perception,7,subject,This boy,1,18,19,male,1.0,tertiary
+6,1,said,29,33,606,610,11,26.0,28.0,603.0,605.0,,,,,verb.communication,8,subject,This boy,1,18,19,male,1.0,tertiary
+7,0,asked,9,14,694,699,11,6.0,8.0,691.0,693.0,,,,,verb.communication,9,subject,This boy,1,18,19,male,1.0,tertiary
+7,1,make,29,33,714,718,11,15.0,25.0,700.0,710.0,,,,,verb.creation,10,subject,This boy,1,18,19,male,1.0,tertiary
+7,1,make,29,33,714,718,7,15.0,25.0,700.0,710.0,,,,,verb.creation,10,subject,a little boy's sister,6,4,10,female,1.0,tertiary
+8,0,complied,4,12,755,763,7,0.0,3.0,751.0,754.0,,,,,verb.communication,11,subject,a little boy's sister,6,4,10,female,1.0,tertiary
+9,0,received,19,27,800,808,11,16.0,18.0,797.0,799.0,,,,,verb.contact,12,subject,This boy,1,18,19,male,1.0,tertiary
+10,0,traveled,3,11,896,904,11,0.0,2.0,893.0,895.0,15.0,45.0,908.0,938.0,verb.motion,13,subject,This boy,1,18,19,male,1.0,tertiary
+10,1,came,23,27,916,920,11,20.0,22.0,913.0,915.0,,,,,verb.motion,14,subject,This boy,1,18,19,male,1.0,tertiary
+10,3,discovered,73,83,966,976,11,70.0,72.0,963.0,965.0,,,,,verb.perception,17,subject,This boy,1,18,19,male,1.0,tertiary
+10,4,sitting,101,108,994,1001,21,84.0,100.0,977.0,993.0,,,,,verb.contact,16,subject,a very old woman,2,8,10,female,1.0,tertiary
+11,0,saw,15,18,1036,1039,21,11.0,14.0,1032.0,1035.0,,,,,verb.perception,18,subject,a very old woman,2,8,10,female,1.0,tertiary
+11,1,invited,37,44,1058,1065,21,33.0,36.0,1054.0,1057.0,,,,,verb.communication,19,subject,a very old woman,2,8,10,female,1.0,tertiary
+11,2,addressed,62,71,1083,1092,21,33.0,36.0,1054.0,1057.0,,,,,verb.communication,20,subject,a very old woman,2,8,10,female,1.0,tertiary
+11,3,suppose,100,107,1121,1128,21,98.0,99.0,1119.0,1120.0,,,,,verb.cognition,24,subject,a very old woman,2,8,10,female,1.0,tertiary
+11,7,returned,197,205,1218,1226,187,142.0,161.0,1163.0,1182.0,,,,,verb.motion,22,subject,no person,1,0,1,unknown,0.0,tertiary
+12,4,share,101,106,1329,1334,22,92.0,95.0,1320.0,1323.0,,,,,verb.possession,25,subject,the stranger,1,54,55,male,1.0,secondary
+13,2,use,61,64,1422,1425,189,36.0,55.0,1397.0,1416.0,,,,,verb.consumption,26,subject,the stranger's guardians of those who have gone before you,1,2,3,group/nonbinary,1.0,tertiary
+13,4,succeed,118,125,1479,1486,22,106.0,109.0,1467.0,1470.0,,,,,verb.social,28,subject,the stranger,1,54,55,male,1.0,secondary
+14,1,spoken,19,25,1508,1514,21,6.0,9.0,1495.0,1498.0,,,,,verb.communication,29,subject,a very old woman,2,8,10,female,1.0,tertiary
+14,2,gave,31,35,1520,1524,21,27.0,30.0,1516.0,1519.0,,,,,verb.communication,31,subject,a very old woman,2,8,10,female,1.0,tertiary
+14,5,seek,127,131,1616,1620,22,105.0,116.0,1594.0,1605.0,,,,,verb.contact,30,subject,the stranger,1,54,55,male,1.0,secondary
+14,7,see,142,145,1631,1634,22,133.0,136.0,1622.0,1625.0,,,,,verb.perception,33,subject,the stranger,1,54,55,male,1.0,secondary
+19,0,gave,19,23,2092,2096,23,0.0,13.0,2073.0,2086.0,,,,,verb.communication,36,subject,The old woman,11,4,15,female,1.0,tertiary
+20,0,informed,9,17,2166,2174,23,5.0,8.0,2162.0,2165.0,,,,,verb.communication,37,subject,The old woman,11,4,15,female,1.0,tertiary
+20,2,proceed,52,59,2209,2216,22,42.0,44.0,2199.0,2201.0,,,,,verb.motion,38,subject,the stranger,1,54,55,male,1.0,secondary
+22,1,gazing,15,21,2406,2412,22,8.0,10.0,2399.0,2401.0,,,,,verb.perception,39,subject,the stranger,1,54,55,male,1.0,secondary
+22,2,saw,37,40,2428,2431,22,34.0,36.0,2425.0,2427.0,,,,,verb.perception,41,subject,the stranger,1,54,55,male,1.0,secondary
+22,4,mentioned,93,102,2484,2493,23,41.0,68.0,2432.0,2459.0,,,,,verb.communication,40,subject,The old woman,11,4,15,female,1.0,tertiary
+23,0,bent,11,15,2506,2510,22,0.0,2.0,2495.0,2497.0,,,,,verb.motion,42,subject,the stranger,1,54,55,male,1.0,secondary
+23,1,approaching,44,55,2539,2550,22,0.0,2.0,2495.0,2497.0,,,,,verb.motion,43,subject,the stranger,1,54,55,male,1.0,secondary
+23,2,endeavored,60,70,2555,2565,22,57.0,59.0,2552.0,2554.0,,,,,verb.social,44,subject,the stranger,1,54,55,male,1.0,secondary
+23,3,reach,74,79,2569,2574,22,57.0,70.0,2552.0,2565.0,,,,,verb.motion,46,subject,the stranger,1,54,55,male,1.0,secondary
+25,0,attempted,20,29,2649,2658,22,17.0,19.0,2646.0,2648.0,,,,,verb.social,45,subject,the stranger,1,54,55,male,1.0,secondary
+25,1,reach,33,38,2662,2667,22,17.0,19.0,2646.0,2648.0,,,,,verb.motion,47,subject,the stranger,1,54,55,male,1.0,secondary
+26,0,bethought,3,12,2767,2776,22,0.0,2.0,2764.0,2766.0,,,,,verb.cognition,48,subject,the stranger,1,54,55,male,1.0,secondary
+26,1,invoking,38,46,2802,2810,22,0.0,2.0,2764.0,2766.0,,,,,verb.communication,49,subject,the stranger,1,54,55,male,1.0,secondary
+26,3,mounted,97,104,2861,2868,22,94.0,96.0,2858.0,2860.0,112.0,173.0,2876.0,2937.0,verb.motion,51,subject,the stranger,1,54,55,male,1.0,secondary
+28,1,remembered,31,41,3021,3031,22,28.0,30.0,3018.0,3020.0,,,,,verb.cognition,54,subject,the stranger,1,54,55,male,1.0,secondary
+28,3,thrust,125,131,3115,3121,22,122.0,124.0,3112.0,3114.0,,,,,verb.motion,56,subject,the stranger,1,54,55,male,1.0,secondary
+29,0,wearied,15,22,3215,3222,22,12.0,14.0,3212.0,3214.0,,,,,verb.social,58,subject,the stranger,1,54,55,male,1.0,secondary
+29,2,climb,64,69,3264,3269,22,12.0,55.0,3212.0,3255.0,,,,,verb.motion,57,subject,the stranger,1,54,55,male,1.0,secondary
+29,3,repeated,82,90,3282,3290,22,79.0,81.0,3279.0,3281.0,,,,,verb.communication,60,subject,the stranger,1,54,55,male,1.0,secondary
+30,2,touch,63,68,3387,3392,22,14.0,16.0,3338.0,3340.0,,,,,verb.contact,61,subject,the stranger,1,54,55,male,1.0,secondary
+31,2,began,77,82,3554,3559,22,74.0,76.0,3551.0,3553.0,,,,,verb.change,63,subject,the stranger,1,54,55,male,1.0,secondary
+32,1,resolved,30,38,3670,3678,22,27.0,29.0,3667.0,3669.0,,,,,verb.cognition,65,subject,the stranger,1,54,55,male,1.0,secondary
+32,2,try,42,45,3682,3685,22,27.0,29.0,3667.0,3669.0,,,,,verb.social,66,subject,the stranger,1,54,55,male,1.0,secondary
+33,0,went,13,17,3710,3714,22,10.0,12.0,3707.0,3709.0,,,,,verb.motion,67,subject,the stranger,1,54,55,male,1.0,secondary
+33,2,touch,60,65,3757,3762,22,35.0,37.0,3732.0,3734.0,,,,,verb.contact,68,subject,the stranger,1,54,55,male,1.0,secondary
+34,0,goes,42,46,3856,3860,22,39.0,41.0,3853.0,3855.0,,,,,verb.motion,70,subject,the stranger,1,54,55,male,1.0,secondary
+36,0,entered,6,13,3950,3957,2,0.0,5.0,3944.0,3949.0,24.0,44.0,3968.0,3988.0,verb.motion,69,subject,Bahmondang,25,56,81,male,1.0,secondary
+36,1,beheld,53,59,3997,4003,2,50.0,52.0,3994.0,3996.0,,,,,verb.perception,72,subject,Bahmondang,25,56,81,male,1.0,secondary
+36,2,sitting,83,90,4027,4034,42,60.0,82.0,4004.0,4026.0,,,,,verb.contact,71,subject,the two wicked sisters,1,2,3,female,1.0,tertiary
+37,0,asked,3,8,4059,4064,2,0.0,2.0,4056.0,4058.0,,,,,verb.communication,73,subject,Bahmondang,25,56,81,male,1.0,secondary
+38,0,called,25,31,4103,4109,2,0.0,24.0,4078.0,4102.0,,,,,verb.communication,74,subject,Bahmondang,25,56,81,male,1.0,secondary
+38,0,called,25,31,4103,4109,44,0.0,24.0,4078.0,4102.0,,,,,verb.communication,74,subject,Bahmondang's one on his left hand,1,1,2,unknown,0.0,tertiary
+39,1,discovered,43,53,4208,4218,2,40.0,42.0,4205.0,4207.0,,,,,verb.cognition,77,subject,Bahmondang,25,56,81,male,1.0,secondary
+39,2,addressed,71,80,4236,4245,2,68.0,70.0,4233.0,4235.0,89.0,105.0,4254.0,4270.0,verb.communication,76,subject,Bahmondang,25,56,81,male,1.0,secondary
+40,0,addressed,13,22,4354,4363,2,10.0,12.0,4351.0,4353.0,,,,,verb.communication,78,subject,Bahmondang,25,56,81,male,1.0,secondary
+41,0,perceived,13,22,4433,4442,2,5.0,12.0,4425.0,4432.0,,,,,verb.cognition,79,subject,Bahmondang,25,56,81,male,1.0,secondary
+42,1,said,30,34,4629,4633,2,27.0,29.0,4626.0,4628.0,,,,,verb.communication,82,subject,Bahmondang,25,56,81,male,1.0,secondary
+42,3,caused,65,71,4664,4670,49,52.0,55.0,4651.0,4654.0,,,,,verb.creation,81,subject,the sisters,1,2,3,female,1.0,tertiary
+42,6,have,143,147,4742,4746,2,108.0,109.0,4707.0,4708.0,,,,,verb.possession,84,subject,Bahmondang,25,56,81,male,1.0,secondary
+42,8,destroyed,175,184,4774,4783,49,160.0,165.0,4759.0,4764.0,,,,,verb.social,83,subject,the sisters,1,2,3,female,1.0,tertiary
+43,0,spoke,6,11,4792,4797,2,3.0,5.0,4789.0,4791.0,,,,,verb.communication,85,subject,Bahmondang,25,56,81,male,1.0,secondary
+43,1,raised,20,26,4806,4812,2,17.0,19.0,4803.0,4805.0,,,,,verb.motion,86,subject,Bahmondang,25,56,81,male,1.0,secondary
+44,0,descended,11,20,4896,4905,2,0.0,5.0,4885.0,4890.0,,,,,verb.motion,88,subject,Bahmondang,25,56,81,male,1.0,secondary
+44,1,learning,26,34,4911,4919,2,0.0,5.0,4885.0,4890.0,,,,,verb.cognition,92,subject,Bahmondang,25,56,81,male,1.0,secondary
+44,2,had,54,57,4939,4942,51,40.0,53.0,4925.0,4938.0,,,,,verb.possession,91,subject,these sisters,1,2,3,female,1.0,tertiary
+44,5,shared,102,108,4987,4993,51,80.0,92.0,4965.0,4977.0,,,,,verb.possession,90,subject,these sisters,1,2,3,female,1.0,tertiary
+44,5,shared,102,108,4987,4993,53,80.0,92.0,4965.0,4977.0,,,,,verb.possession,90,subject,these sisters's father,4,1,5,male,1.0,tertiary
+44,7,betrayed,174,182,5059,5067,54,151.0,169.0,5036.0,5054.0,,,,,verb.social,89,subject,the wicked sisters,1,0,1,female,1.0,tertiary
+44,11,put,224,227,5109,5112,52,209.0,212.0,5094.0,5097.0,260.0,312.0,5145.0,5197.0,verb.contact,93,subject,a brother,1,1,2,male,1.0,tertiary
+44,14,went,308,312,5193,5197,2,305.0,307.0,5190.0,5192.0,,,,,verb.motion,95,subject,Bahmondang,25,56,81,male,1.0,secondary
+45,0,coming,11,17,5210,5216,55,0.0,10.0,5199.0,5209.0,,,,,verb.motion,97,subject,The father,3,10,13,male,1.0,tertiary
+45,1,visit,36,41,5235,5240,55,0.0,10.0,5199.0,5209.0,,,,,verb.social,98,subject,The father,3,10,13,male,1.0,tertiary
+45,2,discovered,70,80,5269,5279,57,0.0,68.0,5199.0,5267.0,,,,,verb.perception,100,subject,The father's daughters,2,0,2,unknown,0.0,tertiary
+45,2,discovered,70,80,5269,5279,55,0.0,68.0,5199.0,5267.0,,,,,verb.perception,100,subject,The father,3,10,13,male,1.0,tertiary
+46,3,slain,62,67,5361,5366,59,41.0,52.0,5340.0,5351.0,,,,,verb.contact,99,subject,The father's sisters,4,0,4,female,1.0,tertiary
+46,3,slain,62,67,5361,5366,55,41.0,52.0,5340.0,5351.0,,,,,verb.contact,99,subject,The father,3,10,13,male,1.0,tertiary
+47,2,said,32,36,5542,5546,200,1.0,29.0,5511.0,5539.0,,,,,verb.communication,103,subject,The person who has done this,1,0,1,unknown,0.0,tertiary
+47,4,reached,68,75,5578,5585,61,61.0,63.0,5571.0,5573.0,86.0,109.0,5596.0,5619.0,verb.motion,102,subject,the brother,3,22,25,male,1.0,tertiary
+48,0,know,2,6,5743,5747,61,0.0,1.0,5741.0,5742.0,,,,,verb.cognition,104,subject,the brother,3,22,25,male,1.0,tertiary
+48,3,allow,68,73,5809,5814,201,55.0,57.0,5796.0,5798.0,,,,,verb.social,106,subject,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+48,5,killed,88,94,5829,5835,201,74.0,81.0,5815.0,5822.0,,,,,verb.social,105,subject,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+48,7,have,119,123,5860,5864,201,110.0,112.0,5851.0,5853.0,,,,,verb.possession,107,subject,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+48,8,dying,137,142,5878,5883,201,110.0,112.0,5851.0,5853.0,,,,,verb.change,108,subject,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+49,1,pursue,7,13,5903,5909,61,0.0,1.0,5896.0,5897.0,,,,,verb.social,109,subject,the brother,3,22,25,male,1.0,tertiary
+49,2,have,22,26,5918,5922,61,0.0,1.0,5896.0,5897.0,,,,,verb.social,112,subject,the brother,3,22,25,male,1.0,tertiary
+51,0,grant,26,31,6000,6005,203,2.0,25.0,5976.0,5999.0,,,,,verb.possession,110,subject,The father's son,1,9,10,unknown,0.0,tertiary
+52,0,counsel,2,9,6021,6028,55,0.0,1.0,6019.0,6020.0,,,,,verb.communication,114,subject,The father,3,10,13,male,1.0,tertiary
+54,5,try,78,81,6169,6172,201,70.0,72.0,6161.0,6163.0,,,,,verb.social,115,subject,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+54,6,deceive,85,92,6176,6183,201,70.0,72.0,6161.0,6163.0,97.0,109.0,6188.0,6200.0,verb.social,116,subject,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+55,2,succeed,39,46,6241,6248,203,35.0,38.0,6237.0,6240.0,,,,,verb.social,118,subject,The father's son,1,9,10,unknown,0.0,tertiary
+56,0,break,12,17,6261,6266,203,8.0,11.0,6257.0,6260.0,28.0,52.0,6277.0,6301.0,verb.change,117,subject,The father's son,1,9,10,unknown,0.0,tertiary
+56,1,see,39,42,6288,6291,203,35.0,38.0,6284.0,6287.0,,,,,verb.perception,119,subject,The father's son,1,9,10,unknown,0.0,tertiary
+56,4,destroyed,73,82,6322,6331,203,54.0,64.0,6303.0,6313.0,,,,,verb.possession,121,subject,The father's son,1,9,10,unknown,0.0,tertiary
+57,0,took,8,12,6342,6346,64,0.0,7.0,6334.0,6341.0,34.0,131.0,6368.0,6465.0,verb.cognition,120,subject,The son,1,6,7,male,1.0,tertiary
+58,0,made,18,22,6484,6488,64,15.0,17.0,6481.0,6483.0,,,,,verb.cognition,124,subject,The son,1,6,7,male,1.0,tertiary
+59,1,departed,41,49,6651,6659,64,14.0,16.0,6624.0,6626.0,,,,,verb.motion,125,subject,The son,1,6,7,male,1.0,tertiary
+60,1,followed,34,42,6751,6759,2,19.0,21.0,6736.0,6738.0,,,,,verb.social,127,subject,Bahmondang,25,56,81,male,1.0,secondary
+60,5,provided,136,144,6853,6861,2,129.0,131.0,6846.0,6848.0,,,,,verb.consumption,126,subject,Bahmondang,25,56,81,male,1.0,secondary
+61,3,renewed,65,72,6936,6943,2,59.0,64.0,6930.0,6935.0,,,,,verb.change,129,subject,Bahmondang,25,56,81,male,1.0,secondary
+62,0,found,13,18,6968,6973,2,10.0,12.0,6965.0,6967.0,,,,,verb.perception,131,subject,Bahmondang,25,56,81,male,1.0,secondary
+62,1,pressed,32,39,6987,6994,2,19.0,26.0,6974.0,6981.0,,,,,verb.competition,130,subject,Bahmondang,25,56,81,male,1.0,secondary
+62,2,transformed,76,87,7031,7042,2,73.0,75.0,7028.0,7030.0,,,,,verb.change,132,subject,Bahmondang,25,56,81,male,1.0,secondary
+63,0,remembered,8,18,7151,7161,2,0.0,2.0,7143.0,7145.0,,,,,verb.cognition,134,subject,Bahmondang,25,56,81,male,1.0,secondary
+63,2,given,54,59,7197,7202,2,19.0,32.0,7162.0,7175.0,,,,,verb.possession,133,subject,Bahmondang,25,56,81,male,1.0,secondary
+63,2,given,54,59,7197,7202,7,19.0,32.0,7162.0,7175.0,,,,,verb.possession,133,subject,a little boy's sister,6,4,10,female,1.0,tertiary
+64,1,placed,26,32,7260,7266,2,23.0,25.0,7257.0,7259.0,,,,,verb.contact,136,subject,Bahmondang,25,56,81,male,1.0,secondary
+66,0,left,19,23,7360,7364,70,0.0,13.0,7341.0,7354.0,,,,,verb.cognition,138,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+67,0,came,28,32,7425,7429,71,0.0,27.0,7397.0,7424.0,63.0,276.0,7460.0,7673.0,verb.motion,139,subject,The angry brother,1,33,34,male,1.0,tertiary
+67,1,perceived,71,80,7468,7477,71,68.0,70.0,7465.0,7467.0,,,,,verb.cognition,141,subject,The angry brother,1,33,34,male,1.0,tertiary
+67,4,pursuing,113,121,7510,7518,71,86.0,95.0,7483.0,7492.0,,,,,verb.motion,140,subject,The angry brother,1,33,34,male,1.0,tertiary
+67,6,stop,130,134,7527,7531,71,86.0,121.0,7483.0,7518.0,,,,,verb.motion,142,subject,The angry brother,1,33,34,male,1.0,tertiary
+67,8,follow,161,167,7558,7564,71,145.0,147.0,7542.0,7544.0,174.0,276.0,7571.0,7673.0,verb.motion,143,subject,The angry brother,1,33,34,male,1.0,tertiary
+67,9,arrived,182,189,7579,7586,71,179.0,181.0,7576.0,7578.0,,,,,verb.motion,144,subject,The angry brother,1,33,34,male,1.0,tertiary
+67,10,found,246,251,7643,7648,71,243.0,245.0,7640.0,7642.0,,,,,verb.possession,145,subject,The angry brother,1,33,34,male,1.0,tertiary
+68,3,outwitted,23,32,7698,7707,71,11.0,13.0,7686.0,7688.0,,,,,verb.perception,147,subject,The angry brother,1,33,34,male,1.0,tertiary
+68,6,complained,137,147,7812,7822,71,125.0,127.0,7800.0,7802.0,,,,,verb.communication,149,subject,The angry brother,1,33,34,male,1.0,tertiary
+68,7,resolving,149,158,7824,7833,71,125.0,127.0,7800.0,7802.0,,,,,verb.cognition,151,subject,The angry brother,1,33,34,male,1.0,tertiary
+69,3,met,43,46,7948,7951,71,36.0,38.0,7941.0,7943.0,,,,,verb.motion,150,subject,The angry brother,1,33,34,male,1.0,tertiary
+69,4,concluded,68,77,7973,7982,71,0.0,2.0,7905.0,7907.0,,,,,verb.cognition,152,subject,The angry brother,1,33,34,male,1.0,tertiary
+70,0,retraced,3,11,8028,8036,71,0.0,2.0,8025.0,8027.0,,,,,verb.motion,154,subject,The angry brother,1,33,34,male,1.0,tertiary
+70,2,disappeared,70,81,8095,8106,71,50.0,62.0,8075.0,8087.0,,,,,verb.change,153,subject,The angry brother,1,33,34,male,1.0,tertiary
+71,0,became,7,13,8183,8189,71,0.0,2.0,8176.0,8178.0,20.0,31.0,8196.0,8207.0,verb.change,156,subject,The angry brother,1,33,34,male,1.0,tertiary
+71,1,lost,37,41,8213,8217,71,0.0,2.0,8176.0,8178.0,,,,,verb.cognition,155,subject,The angry brother,1,33,34,male,1.0,tertiary
+72,0,remembered,13,23,8237,8247,71,10.0,12.0,8234.0,8236.0,,,,,verb.cognition,157,subject,The angry brother,1,33,34,male,1.0,tertiary
+72,4,enjoy,87,92,8311,8316,71,59.0,61.0,8283.0,8285.0,101.0,107.0,8325.0,8331.0,verb.consumption,158,subject,The angry brother,1,33,34,male,1.0,tertiary
+72,6,put,141,144,8365,8368,71,134.0,136.0,8358.0,8360.0,,,,,verb.contact,159,subject,The angry brother,1,33,34,male,1.0,tertiary
+72,8,determined,203,213,8427,8437,71,173.0,175.0,8397.0,8399.0,,,,,verb.cognition,160,subject,The angry brother,1,33,34,male,1.0,tertiary
+72,9,pursue,223,229,8447,8453,71,173.0,175.0,8397.0,8399.0,,,,,verb.social,161,subject,The angry brother,1,33,34,male,1.0,tertiary
+73,2,followed,35,43,8490,8498,71,20.0,22.0,8475.0,8477.0,,,,,verb.motion,162,subject,The angry brother,1,33,34,male,1.0,tertiary
+73,4,approaching,77,88,8532,8543,77,54.0,72.0,8509.0,8527.0,,,,,verb.motion,164,subject,the hungry brother,2,17,19,male,1.0,tertiary
+73,5,changed,100,107,8555,8562,77,54.0,72.0,8509.0,8527.0,,,,,verb.change,165,subject,the hungry brother,2,17,19,male,1.0,tertiary
+74,0,made,3,7,8772,8776,71,0.0,2.0,8769.0,8771.0,,,,,verb.communication,166,subject,The angry brother,1,33,34,male,1.0,tertiary
+74,3,leave,54,59,8823,8828,71,8.0,15.0,8777.0,8784.0,,,,,verb.motion,168,subject,The angry brother,1,33,34,male,1.0,tertiary
+74,5,bring,103,108,8872,8877,71,86.0,99.0,8855.0,8868.0,,,,,verb.possession,170,subject,The angry brother,1,33,34,male,1.0,tertiary
+74,5,bring,103,108,8872,8877,57,86.0,99.0,8855.0,8868.0,,,,,verb.possession,170,subject,The father's daughters,2,0,2,unknown,0.0,tertiary
+76,3,sink,61,65,9147,9151,61,26.0,28.0,9112.0,9114.0,,,,,verb.motion,171,subject,the brother,3,22,25,male,1.0,tertiary
+77,0,exclaimed,3,12,9169,9178,61,0.0,2.0,9166.0,9168.0,,,,,verb.communication,172,subject,the brother,3,22,25,male,1.0,tertiary
+78,1,forget,7,13,9234,9240,61,0.0,1.0,9227.0,9228.0,39.0,56.0,9266.0,9283.0,verb.cognition,174,subject,the brother,3,22,25,male,1.0,tertiary
+78,3,starving,48,56,9275,9283,61,43.0,44.0,9270.0,9271.0,,,,,verb.consumption,173,subject,the brother,3,22,25,male,1.0,tertiary
+81,6,eat,121,124,9415,9418,61,92.0,94.0,9386.0,9388.0,135.0,140.0,9429.0,9434.0,verb.consumption,175,subject,the brother,3,22,25,male,1.0,tertiary
+81,7,resolved,159,167,9453,9461,61,156.0,158.0,9450.0,9452.0,,,,,verb.communication,177,subject,the brother,3,22,25,male,1.0,tertiary
+81,8,pursue,171,177,9465,9471,61,156.0,158.0,9450.0,9452.0,,,,,verb.social,176,subject,the brother,3,22,25,male,1.0,tertiary
+82,0,pushed,3,9,9537,9543,61,0.0,2.0,9534.0,9536.0,13.0,49.0,9547.0,9583.0,verb.social,178,subject,the brother,3,22,25,male,1.0,tertiary
+82,1,came,21,25,9555,9559,61,18.0,20.0,9552.0,9554.0,,,,,verb.motion,179,subject,the brother,3,22,25,male,1.0,tertiary
+83,0,advanced,3,11,9588,9596,61,0.0,2.0,9585.0,9587.0,,,,,verb.motion,180,subject,the brother,3,22,25,male,1.0,tertiary
+84,0,perceived,31,40,9646,9655,91,11.0,30.0,9626.0,9645.0,,,,,verb.perception,181,subject,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+84,1,ran,50,53,9665,9668,91,45.0,49.0,9660.0,9664.0,,,,,verb.motion,182,subject,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+84,2,told,58,62,9673,9677,91,45.0,49.0,9660.0,9664.0,,,,,verb.communication,184,subject,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+84,3,approached,92,102,9707,9717,93,81.0,91.0,9696.0,9706.0,,,,,verb.motion,183,subject,a stranger,1,2,3,male,1.0,tertiary
+85,0,replied,13,20,9732,9739,91,0.0,12.0,9719.0,9731.0,,,,,verb.communication,185,subject,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+85,0,replied,13,20,9732,9739,53,0.0,12.0,9719.0,9731.0,,,,,verb.communication,185,subject,these sisters's father,4,1,5,male,1.0,tertiary
+86,1,boiled,64,70,9850,9856,91,59.0,63.0,9845.0,9849.0,,,,,verb.contact,188,subject,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+86,2,prepared,86,94,9872,9880,91,59.0,63.0,9845.0,9849.0,,,,,verb.creation,190,subject,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+87,1,had,72,75,9985,9988,77,48.0,66.0,9961.0,9979.0,,,,,verb.perception,189,subject,the hungry brother,2,17,19,male,1.0,tertiary
+88,1,felt,43,47,10103,10107,77,40.0,42.0,10100.0,10102.0,,,,,verb.emotion,192,subject,the hungry brother,2,17,19,male,1.0,tertiary
+88,4,fasting,69,76,10129,10136,77,53.0,55.0,10113.0,10115.0,,,,,verb.consumption,191,subject,the hungry brother,2,17,19,male,1.0,tertiary
+89,1,inflamed,31,39,10178,10186,77,1.0,17.0,10148.0,10164.0,,,,,verb.emotion,193,subject,the hungry brother,2,17,19,male,1.0,tertiary
+90,0,fell,3,7,10252,10256,77,0.0,2.0,10249.0,10251.0,,,,,verb.motion,194,subject,the hungry brother,2,17,19,male,1.0,tertiary
+90,1,partook,15,22,10264,10271,77,0.0,2.0,10249.0,10251.0,,,,,verb.cognition,195,subject,the hungry brother,2,17,19,male,1.0,tertiary
+91,2,overcome,26,34,10319,10327,77,19.0,21.0,10312.0,10314.0,,,,,verb.competition,196,subject,the hungry brother,2,17,19,male,1.0,tertiary
+91,3,lost,40,44,10333,10337,77,19.0,21.0,10312.0,10314.0,,,,,verb.possession,197,subject,the hungry brother,2,17,19,male,1.0,tertiary
+92,0,forgot,15,21,10375,10381,77,12.0,14.0,10372.0,10374.0,,,,,verb.cognition,198,subject,the hungry brother,2,17,19,male,1.0,tertiary
+93,0,ate,3,6,10498,10501,77,0.0,2.0,10495.0,10497.0,,,,,verb.consumption,199,subject,the hungry brother,2,17,19,male,1.0,tertiary
+93,1,came,22,26,10517,10521,77,0.0,2.0,10495.0,10497.0,,,,,verb.motion,200,subject,the hungry brother,2,17,19,male,1.0,tertiary
+94,0,watched,17,24,10662,10669,2,0.0,16.0,10645.0,10661.0,,,,,verb.perception,202,subject,Bahmondang,25,56,81,male,1.0,secondary
+94,1,saw,60,63,10705,10708,2,57.0,59.0,10702.0,10704.0,,,,,verb.cognition,203,subject,Bahmondang,25,56,81,male,1.0,secondary
+94,3,resumed,109,116,10754,10761,2,106.0,108.0,10751.0,10753.0,,,,,verb.change,204,subject,Bahmondang,25,56,81,male,1.0,secondary
+95,3,fetched,87,94,10924,10931,2,5.0,12.0,10842.0,10849.0,,,,,verb.contact,206,subject,Bahmondang,25,56,81,male,1.0,secondary
+96,1,vindicate,31,40,11025,11034,2,14.0,30.0,11008.0,11024.0,51.0,76.0,11045.0,11070.0,verb.communication,209,subject,Bahmondang,25,56,81,male,1.0,secondary
+97,2,dispatched,87,97,11159,11169,2,30.0,68.0,11102.0,11140.0,,,,,verb.contact,208,subject,Bahmondang,25,56,81,male,1.0,secondary
+97,3,found,138,143,11210,11215,2,135.0,137.0,11207.0,11209.0,152.0,156.0,11224.0,11228.0,verb.perception,210,subject,Bahmondang,25,56,81,male,1.0,secondary
+99,0,entered,6,13,11377,11384,2,0.0,5.0,11371.0,11376.0,,,,,verb.motion,214,subject,Bahmondang,25,56,81,male,1.0,secondary
+99,3,recovered,85,94,11456,11465,2,30.0,70.0,11401.0,11441.0,,,,,verb.possession,213,subject,Bahmondang,25,56,81,male,1.0,secondary
+99,5,smoked,127,133,11498,11504,2,96.0,98.0,11467.0,11469.0,152.0,203.0,11523.0,11574.0,verb.consumption,215,subject,Bahmondang,25,56,81,male,1.0,secondary
+100,0,had,42,45,11618,11621,2,25.0,41.0,11601.0,11617.0,,,,,verb.possession,216,subject,Bahmondang,25,56,81,male,1.0,secondary
+101,10,had,269,272,11929,11932,115,239.0,259.0,11899.0,11919.0,,,,,verb.possession,218,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+101,11,meant,298,303,11958,11963,115,295.0,297.0,11955.0,11957.0,,,,,verb.communication,220,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+101,12,do,307,309,11967,11969,115,239.0,259.0,11899.0,11919.0,,,,,verb.social,222,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+103,5,do,135,137,12159,12161,115,119.0,121.0,12143.0,12145.0,,,,,verb.social,224,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+104,0,said,21,25,12216,12220,2,0.0,16.0,12195.0,12211.0,,,,,verb.communication,226,subject,Bahmondang,25,56,81,male,1.0,secondary
+104,0,said,21,25,12216,12220,115,0.0,16.0,12195.0,12211.0,,,,,verb.communication,226,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+104,2,done,40,44,12235,12239,2,0.0,16.0,12195.0,12211.0,,,,,verb.social,225,subject,Bahmondang,25,56,81,male,1.0,secondary
+104,3,meant,70,75,12265,12270,5,59.0,68.0,12254.0,12263.0,,,,,verb.cognition,227,subject,Ko - ko,39,113,152,male,1.0,primary
+104,3,meant,70,75,12265,12270,115,59.0,68.0,12254.0,12263.0,,,,,verb.cognition,227,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+104,5,finish,100,106,12295,12301,5,59.0,68.0,12254.0,12263.0,113.0,128.0,12308.0,12323.0,verb.change,230,subject,Ko - ko,39,113,152,male,1.0,primary
+104,5,finish,100,106,12295,12301,115,59.0,68.0,12254.0,12263.0,113.0,128.0,12308.0,12323.0,verb.change,230,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,0,began,3,8,12328,12333,115,0.0,2.0,12325.0,12327.0,,,,,verb.change,229,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,1,procuring,12,21,12337,12346,115,0.0,2.0,12325.0,12327.0,,,,,verb.contact,228,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,2,thrust,44,50,12369,12375,115,22.0,33.0,12347.0,12358.0,56.0,64.0,12381.0,12389.0,verb.motion,231,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,3,called,113,119,12438,12444,115,104.0,106.0,12429.0,12431.0,,,,,verb.communication,233,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+106,2,employed,49,57,12526,12534,2,15.0,33.0,12492.0,12510.0,,,,,verb.consumption,232,subject,Bahmondang,25,56,81,male,1.0,secondary
+107,1,thrust,47,53,12634,12640,115,44.0,46.0,12631.0,12633.0,,,,,verb.motion,235,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+108,5,carried,64,71,12790,12797,115,50.0,52.0,12776.0,12778.0,,,,,verb.contact,237,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+109,1,had,59,62,12860,12863,115,56.0,58.0,12857.0,12859.0,,,,,verb.possession,238,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+110,0,borrowed,7,15,12899,12907,115,4.0,6.0,12896.0,12898.0,,,,,verb.possession,239,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+110,2,mistook,64,71,12956,12963,115,4.0,6.0,12896.0,12898.0,78.0,113.0,12970.0,13005.0,verb.cognition,240,subject,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+112,1,traveled,7,15,13108,13116,5,0.0,2.0,13101.0,13103.0,,,,,verb.motion,241,subject,Ko - ko,39,113,152,male,1.0,primary
+112,2,came,33,37,13134,13138,5,30.0,32.0,13131.0,13133.0,,,,,verb.motion,243,subject,Ko - ko,39,113,152,male,1.0,primary
+112,4,discovered,84,94,13185,13195,5,61.0,79.0,13162.0,13180.0,,,,,verb.perception,246,subject,Ko - ko,39,113,152,male,1.0,primary
+112,5,sitting,112,119,13213,13220,21,95.0,111.0,13196.0,13212.0,,,,,verb.contact,245,subject,a very old woman,2,8,10,female,1.0,tertiary
+114,1,said,20,24,13286,13290,129,0.0,18.0,13266.0,13284.0,,,,,verb.communication,248,subject,the wigwam,1,0,1,unknown,0.0,tertiary
+117,0,want,3,7,13377,13381,5,1.0,2.0,13375.0,13376.0,,,,,verb.emotion,249,subject,Ko - ko,39,113,152,male,1.0,primary
+117,1,find,11,15,13385,13389,5,1.0,2.0,13375.0,13376.0,26.0,106.0,13400.0,13480.0,verb.possession,251,subject,Ko - ko,39,113,152,male,1.0,primary
+117,4,answered,109,117,13483,13491,213,1.0,106.0,13375.0,13480.0,,,,,verb.communication,253,subject,travellers,1,1,2,group/nonbinary,1.0,tertiary
+117,4,answered,109,117,13483,13491,5,1.0,106.0,13375.0,13480.0,,,,,verb.communication,253,subject,Ko - ko,39,113,152,male,1.0,primary
+118,0,mean,5,9,13504,13508,5,1.0,4.0,13500.0,13503.0,,,,,verb.communication,254,subject,Ko - ko,39,113,152,male,1.0,primary
+121,2,kill,15,19,13624,13628,5,1.0,2.0,13610.0,13611.0,,,,,verb.contact,258,subject,Ko - ko,39,113,152,male,1.0,primary
+122,0,gave,13,17,13649,13653,5,10.0,12.0,13646.0,13648.0,,,,,verb.communication,257,subject,Ko - ko,39,113,152,male,1.0,primary
+122,2,looked,63,69,13699,13705,5,10.0,12.0,13646.0,13648.0,,,,,verb.perception,259,subject,Ko - ko,39,113,152,male,1.0,primary
+123,1,said,55,59,13798,13802,214,1.0,52.0,13744.0,13795.0,,,,,verb.communication,261,subject,the two young women who lived in the flying lodge,1,2,3,female,1.0,tertiary
+123,1,said,55,59,13798,13802,25,1.0,52.0,13744.0,13795.0,,,,,verb.communication,261,subject,the Wearer of the Ball,6,0,6,unknown,0.0,tertiary
+124,0,looked,6,12,13824,13830,5,0.0,5.0,13818.0,13823.0,33.0,53.0,13851.0,13871.0,verb.perception,260,subject,Ko - ko,39,113,152,male,1.0,primary
+124,1,heaving,59,66,13877,13884,5,0.0,5.0,13818.0,13823.0,79.0,93.0,13897.0,13911.0,verb.contact,262,subject,Ko - ko,39,113,152,male,1.0,primary
+124,2,acknowledged,98,110,13916,13928,5,95.0,97.0,13913.0,13915.0,,,,,verb.communication,264,subject,Ko - ko,39,113,152,male,1.0,primary
+124,4,heard,123,128,13941,13946,5,116.0,118.0,13934.0,13936.0,154.0,181.0,13972.0,13999.0,verb.perception,263,subject,Ko - ko,39,113,152,male,1.0,primary
+126,1,have,5,9,14032,14036,5,0.0,1.0,14027.0,14028.0,,,,,verb.possession,265,subject,Ko - ko,39,113,152,male,1.0,primary
+126,2,said,28,32,14055,14059,5,0.0,25.0,14027.0,14052.0,,,,,verb.communication,266,subject,Ko - ko,39,113,152,male,1.0,primary
+126,2,said,28,32,14055,14059,61,0.0,25.0,14027.0,14052.0,,,,,verb.communication,266,subject,the brother,3,22,25,male,1.0,tertiary
+127,1,said,18,22,14085,14089,61,1.0,15.0,14068.0,14082.0,,,,,verb.communication,267,subject,the brother,3,22,25,male,1.0,tertiary
+128,2,kill,37,41,14142,14146,5,31.0,33.0,14136.0,14138.0,,,,,verb.contact,268,subject,Ko - ko,39,113,152,male,1.0,primary
+131,0,made,3,7,14220,14224,5,0.0,2.0,14217.0,14219.0,,,,,verb.communication,269,subject,Ko - ko,39,113,152,male,1.0,primary
+133,1,find,14,18,14314,14318,5,5.0,8.0,14305.0,14308.0,23.0,70.0,14323.0,14370.0,verb.possession,271,subject,Ko - ko,39,113,152,male,1.0,primary
+133,2,have,44,48,14344,14348,5,40.0,43.0,14340.0,14343.0,,,,,verb.perception,270,subject,Ko - ko,39,113,152,male,1.0,primary
+134,1,like,9,13,14381,14385,55,0.0,2.0,14372.0,14374.0,,,,,verb.emotion,272,subject,The father,3,10,13,male,1.0,tertiary
+134,2,see,17,20,14389,14392,55,0.0,2.0,14372.0,14374.0,,,,,verb.social,273,subject,The father,3,10,13,male,1.0,tertiary
+134,3,added,45,50,14417,14422,23,0.0,28.0,14372.0,14400.0,,,,,verb.communication,274,subject,The old woman,11,4,15,female,1.0,tertiary
+134,3,added,45,50,14417,14422,120,0.0,28.0,14372.0,14400.0,,,,,verb.communication,274,subject,the Owl,3,0,3,unknown,0.0,tertiary
+134,3,added,45,50,14417,14422,55,0.0,28.0,14372.0,14400.0,,,,,verb.communication,274,subject,The father,3,10,13,male,1.0,tertiary
+135,1,replied,12,19,14436,14443,55,1.0,9.0,14425.0,14433.0,,,,,verb.communication,275,subject,The father,3,10,13,male,1.0,tertiary
+137,0,suppose,7,14,14494,14501,5,5.0,6.0,14492.0,14493.0,,,,,verb.cognition,277,subject,Ko - ko,39,113,152,male,1.0,primary
+137,3,climb,31,36,14518,14523,5,15.0,16.0,14502.0,14503.0,,,,,verb.motion,280,subject,Ko - ko,39,113,152,male,1.0,primary
+140,1,have,9,13,14588,14592,5,1.0,4.0,14580.0,14583.0,,,,,verb.consumption,278,subject,Ko - ko,39,113,152,male,1.0,primary
+140,2,want,29,33,14608,14612,5,25.0,28.0,14604.0,14607.0,,,,,verb.emotion,281,subject,Ko - ko,39,113,152,male,1.0,primary
+141,0,gave,8,12,14623,14627,23,4.0,7.0,14619.0,14622.0,,,,,verb.possession,282,subject,The old woman,11,4,15,female,1.0,tertiary
+141,1,taking,55,61,14670,14676,5,42.0,53.0,14657.0,14668.0,,,,,verb.cognition,284,subject,Ko - ko,39,113,152,male,1.0,primary
+142,1,said,13,17,14810,14814,23,1.0,10.0,14798.0,14807.0,,,,,verb.communication,286,subject,The old woman,11,4,15,female,1.0,tertiary
+144,1,have,14,18,14885,14889,5,6.0,9.0,14877.0,14880.0,,,,,verb.possession,287,subject,Ko - ko,39,113,152,male,1.0,primary
+144,2,said,37,41,14908,14912,5,1.0,34.0,14872.0,14905.0,,,,,verb.communication,288,subject,Ko - ko,39,113,152,male,1.0,primary
+146,0,turned,6,12,14983,14989,5,0.0,5.0,14977.0,14982.0,,,,,verb.motion,289,subject,Ko - ko,39,113,152,male,1.0,primary
+146,1,laughed,23,30,15000,15007,5,0.0,5.0,14977.0,14982.0,,,,,verb.body,290,subject,Ko - ko,39,113,152,male,1.0,primary
+146,2,scorn,34,39,15011,15016,5,0.0,5.0,14977.0,14982.0,,,,,verb.emotion,292,subject,Ko - ko,39,113,152,male,1.0,primary
+146,4,had,135,138,15112,15115,5,132.0,134.0,15109.0,15111.0,,,,,verb.perception,291,subject,Ko - ko,39,113,152,male,1.0,primary
+146,5,started,155,162,15132,15139,5,152.0,154.0,15129.0,15131.0,,,,,verb.motion,293,subject,Ko - ko,39,113,152,male,1.0,primary
+147,0,ran,6,9,15182,15185,5,0.0,5.0,15176.0,15181.0,,,,,verb.motion,295,subject,Ko - ko,39,113,152,male,1.0,primary
+147,1,feared,30,36,15206,15212,5,27.0,29.0,15203.0,15205.0,,,,,verb.emotion,294,subject,Ko - ko,39,113,152,male,1.0,primary
+147,3,lose,47,51,15223,15227,5,37.0,39.0,15213.0,15215.0,110.0,145.0,15286.0,15321.0,verb.possession,297,subject,Ko - ko,39,113,152,male,1.0,primary
+147,4,massacring,66,76,15242,15252,5,37.0,39.0,15213.0,15215.0,,,,,verb.social,296,subject,Ko - ko,39,113,152,male,1.0,primary
+148,0,slackened,8,17,15353,15362,5,0.0,2.0,15345.0,15347.0,,,,,verb.change,298,subject,Ko - ko,39,113,152,male,1.0,primary
+148,1,crept,32,37,15377,15382,5,0.0,2.0,15345.0,15347.0,,,,,verb.motion,299,subject,Ko - ko,39,113,152,male,1.0,primary
+148,3,chance,82,88,15427,15433,145,67.0,75.0,15412.0,15420.0,,,,,verb.social,301,subject,somebody,1,0,1,unknown,0.0,tertiary
+148,5,looking,95,102,15440,15447,145,67.0,75.0,15412.0,15420.0,,,,,verb.perception,300,subject,somebody,1,0,1,unknown,0.0,tertiary
+150,0,clasped,11,18,15509,15516,5,5.0,10.0,15503.0,15508.0,,,,,verb.contact,302,subject,Ko - ko,39,113,152,male,1.0,primary
+150,2,climb,41,46,15539,15544,5,5.0,10.0,15503.0,15508.0,,,,,verb.motion,303,subject,Ko - ko,39,113,152,male,1.0,primary
+151,2,panting,52,59,15598,15605,5,33.0,38.0,15579.0,15584.0,,,,,verb.body,305,subject,Ko - ko,39,113,152,male,1.0,primary
+155,0,bethought,16,25,15808,15817,5,0.0,5.0,15792.0,15797.0,,,,,verb.cognition,308,subject,Ko - ko,39,113,152,male,1.0,primary
+155,2,knew,74,78,15866,15870,5,71.0,73.0,15863.0,15865.0,,,,,verb.cognition,307,subject,Ko - ko,39,113,152,male,1.0,primary
+156,0,had,3,6,15938,15941,5,0.0,2.0,15935.0,15937.0,17.0,29.0,15952.0,15964.0,verb.possession,310,subject,Ko - ko,39,113,152,male,1.0,primary
+158,1,knew,58,62,16075,16079,5,55.0,57.0,16072.0,16074.0,66.0,73.0,16083.0,16090.0,verb.cognition,309,subject,Ko - ko,39,113,152,male,1.0,primary
+158,2,requested,79,88,16096,16105,5,0.0,2.0,16017.0,16019.0,,,,,verb.communication,311,subject,Ko - ko,39,113,152,male,1.0,primary
+158,3,convert,97,104,16114,16121,149,89.0,93.0,16106.0,16110.0,,,,,verb.change,312,subject,Ko - ko's guardian spirits whom he knew of by name,1,4,5,group/nonbinary,1.0,tertiary
+159,1,pay,34,37,16177,16180,149,4.0,23.0,16147.0,16166.0,,,,,verb.communication,315,subject,Ko - ko's guardian spirits whom he knew of by name,1,4,5,group/nonbinary,1.0,tertiary
+160,0,hung,14,18,16234,16238,5,11.0,13.0,16231.0,16233.0,,,,,verb.contact,314,subject,Ko - ko,39,113,152,male,1.0,primary
+161,0,desired,8,15,16327,16334,5,0.0,2.0,16319.0,16321.0,,,,,verb.communication,317,subject,Ko - ko,39,113,152,male,1.0,primary
+161,2,turn,32,36,16351,16355,149,21.0,25.0,16340.0,16344.0,,,,,verb.change,319,subject,Ko - ko's guardian spirits whom he knew of by name,1,4,5,group/nonbinary,1.0,tertiary
+163,0,petitioned,14,24,16456,16466,5,11.0,13.0,16453.0,16455.0,,,,,verb.communication,318,subject,Ko - ko,39,113,152,male,1.0,primary
+165,1,obliged,72,79,16717,16724,5,0.0,5.0,16645.0,16650.0,,,,,verb.communication,320,subject,Ko - ko,39,113,152,male,1.0,primary
+166,0,said,25,29,16769,16773,5,1.0,19.0,16745.0,16763.0,,,,,verb.communication,321,subject,Ko - ko,39,113,152,male,1.0,primary
+167,1,get,8,11,16806,16809,5,0.0,1.0,16798.0,16799.0,25.0,69.0,16823.0,16867.0,verb.change,323,subject,Ko - ko,39,113,152,male,1.0,primary
+167,3,forced,46,52,16844,16850,5,41.0,42.0,16839.0,16840.0,,,,,verb.social,322,subject,Ko - ko,39,113,152,male,1.0,primary
+167,4,climb,56,61,16854,16859,5,41.0,42.0,16839.0,16840.0,,,,,verb.motion,324,subject,Ko - ko,39,113,152,male,1.0,primary
+168,1,shouting,59,67,16929,16937,5,10.0,12.0,16880.0,16882.0,,,,,verb.communication,325,subject,Ko - ko,39,113,152,male,1.0,primary
+171,0,thrust,3,9,16972,16978,5,0.0,2.0,16969.0,16971.0,,,,,verb.motion,326,subject,Ko - ko,39,113,152,male,1.0,primary
+171,3,indulged,56,64,17025,17033,5,0.0,2.0,16969.0,16971.0,73.0,82.0,17042.0,17051.0,verb.social,327,subject,Ko - ko,39,113,152,male,1.0,primary
+172,2,came,115,119,17167,17171,5,104.0,109.0,17156.0,17161.0,,,,,verb.motion,330,subject,Ko - ko,39,113,152,male,1.0,primary
+172,5,shaken,175,181,17227,17233,5,152.0,161.0,17204.0,17213.0,,,,,verb.motion,329,subject,Ko - ko,39,113,152,male,1.0,primary
+172,6,rattling,189,197,17241,17249,5,168.0,170.0,17220.0,17222.0,,,,,verb.contact,331,subject,Ko - ko,39,113,152,male,1.0,primary
+183,0,observing,7,16,17560,17569,5,0.0,5.0,17553.0,17558.0,,,,,verb.cognition,337,subject,Ko - ko,39,113,152,male,1.0,primary
+183,2,scrambled,50,59,17603,17612,5,0.0,5.0,17553.0,17558.0,,,,,verb.motion,339,subject,Ko - ko,39,113,152,male,1.0,primary
+184,0,looked,8,14,17692,17698,5,5.0,7.0,17689.0,17691.0,,,,,verb.perception,340,subject,Ko - ko,39,113,152,male,1.0,primary
+184,1,saw,24,27,17708,17711,5,5.0,7.0,17689.0,17691.0,,,,,verb.perception,342,subject,Ko - ko,39,113,152,male,1.0,primary
+184,3,gaining,55,62,17739,17746,142,33.0,50.0,17717.0,17734.0,,,,,verb.competition,341,subject,the wicked father,11,1,12,male,1.0,tertiary
+184,4,mounted,81,88,17765,17772,5,73.0,80.0,17757.0,17764.0,97.0,127.0,17781.0,17811.0,verb.contact,343,subject,Ko - ko,39,113,152,male,1.0,primary
+184,8,got,211,214,17895,17898,5,208.0,210.0,17892.0,17894.0,,,,,verb.possession,344,subject,Ko - ko,39,113,152,male,1.0,primary
+184,10,obliged,238,245,17922,17929,5,208.0,210.0,17892.0,17894.0,,,,,verb.communication,345,subject,Ko - ko,39,113,152,male,1.0,primary
+184,11,descend,249,256,17933,17940,5,208.0,210.0,17892.0,17894.0,,,,,verb.motion,346,subject,Ko - ko,39,113,152,male,1.0,primary
+184,12,run,262,265,17946,17949,5,208.0,210.0,17892.0,17894.0,,,,,verb.motion,348,subject,Ko - ko,39,113,152,male,1.0,primary
+185,1,encountered,20,31,17986,17997,5,17.0,19.0,17983.0,17985.0,,,,,verb.motion,349,subject,Ko - ko,39,113,152,male,1.0,primary
+185,4,transformed,82,93,18048,18059,5,68.0,70.0,18034.0,18036.0,,,,,verb.change,350,subject,Ko - ko,39,113,152,male,1.0,primary
+186,2,suffering,54,63,18237,18246,5,42.0,49.0,18225.0,18232.0,,,,,verb.body,352,subject,Ko - ko,39,113,152,male,1.0,primary
+186,3,remembered,107,117,18290,18300,5,96.0,106.0,18279.0,18289.0,,,,,verb.cognition,353,subject,Ko - ko,39,113,152,male,1.0,primary
+187,1,send,13,17,18339,18343,5,0.0,2.0,18326.0,18328.0,48.0,71.0,18374.0,18397.0,verb.motion,354,subject,Ko - ko,39,113,152,male,1.0,primary
+188,1,improve,8,15,18407,18414,5,1.0,2.0,18400.0,18401.0,,,,,verb.change,356,subject,Ko - ko,39,113,152,male,1.0,primary
+188,2,said,38,42,18437,18441,224,1.0,35.0,18400.0,18434.0,,,,,verb.communication,355,subject,that dull fellow,1,0,1,unknown,0.0,tertiary
+188,2,said,38,42,18437,18441,5,1.0,35.0,18400.0,18434.0,,,,,verb.communication,355,subject,Ko - ko,39,113,152,male,1.0,primary
+189,1,put,8,11,18457,18460,5,1.0,2.0,18450.0,18451.0,,,,,verb.contact,358,subject,Ko - ko,39,113,152,male,1.0,primary
+190,0,had,19,22,18497,18500,5,0.0,18.0,18478.0,18496.0,,,,,verb.possession,357,subject,Ko - ko,39,113,152,male,1.0,primary
+190,2,came,81,85,18559,18563,142,63.0,80.0,18541.0,18558.0,,,,,verb.motion,359,subject,the wicked father,11,1,12,male,1.0,tertiary
+194,2,approaching,129,140,18784,18795,142,87.0,123.0,18742.0,18778.0,,,,,verb.motion,360,subject,the wicked father,11,1,12,male,1.0,tertiary
+199,1,shake,21,26,18946,18951,5,12.0,14.0,18937.0,18939.0,,,,,verb.motion,362,subject,Ko - ko,39,113,152,male,1.0,primary
+200,1,mean,13,17,19048,19052,5,1.0,5.0,19036.0,19040.0,,,,,verb.communication,363,subject,Ko - ko,39,113,152,male,1.0,primary
+202,2,answered,31,39,19196,19204,5,1.0,28.0,19166.0,19193.0,,,,,verb.communication,368,subject,Ko - ko,39,113,152,male,1.0,primary
+202,2,answered,31,39,19196,19204,225,1.0,28.0,19166.0,19193.0,,,,,verb.communication,368,subject,good man,2,1,3,male,1.0,tertiary
+203,0,tried,3,8,19215,19220,5,1.0,2.0,19213.0,19214.0,,,,,verb.social,367,subject,Ko - ko,39,113,152,male,1.0,primary
+203,3,gone,36,40,19248,19252,5,19.0,24.0,19231.0,19236.0,,,,,verb.motion,369,subject,Ko - ko,39,113,152,male,1.0,primary
+206,1,bestow,51,57,19416,19422,142,23.0,40.0,19388.0,19405.0,98.0,108.0,19463.0,19473.0,verb.contact,374,subject,the wicked father,11,1,12,male,1.0,tertiary
+213,1,answered,22,30,19616,19624,5,1.0,9.0,19595.0,19603.0,,,,,verb.communication,376,subject,Ko - ko,39,113,152,male,1.0,primary
+213,3,assure,76,82,19670,19676,5,74.0,75.0,19668.0,19669.0,,,,,verb.communication,377,subject,Ko - ko,39,113,152,male,1.0,primary
+214,1,finish,17,23,19700,19706,5,4.0,10.0,19687.0,19693.0,,,,,verb.change,379,subject,Ko - ko,39,113,152,male,1.0,primary
+214,3,hurried,54,61,19737,19744,70,36.0,49.0,19719.0,19732.0,66.0,78.0,19749.0,19761.0,verb.motion,378,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+215,2,said,51,55,19814,19818,5,1.0,48.0,19764.0,19811.0,,,,,verb.communication,382,subject,Ko - ko,39,113,152,male,1.0,primary
+216,0,seemed,14,20,19853,19859,70,0.0,13.0,19839.0,19852.0,,,,,verb.perception,381,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+216,1,know,24,28,19863,19867,70,0.0,13.0,19839.0,19852.0,,,,,verb.cognition,380,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+217,0,gave,20,24,19901,19905,70,15.0,19.0,19896.0,19900.0,,,,,verb.communication,383,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+217,2,left,72,76,19953,19957,70,15.0,19.0,19896.0,19900.0,,,,,verb.cognition,384,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+218,0,glided,11,17,19997,20003,70,6.0,10.0,19992.0,19996.0,,,,,verb.motion,385,subject,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+219,0,passing,19,26,20098,20105,177,0.0,18.0,20079.0,20097.0,36.0,54.0,20115.0,20133.0,verb.motion,386,subject,hunters,1,0,1,unknown,0.0,tertiary
+219,1,found,56,61,20135,20140,176,0.0,54.0,20079.0,20133.0,,,,,verb.perception,387,subject,A party of hunters passing that way after several days,1,1,2,group/nonbinary,1.0,tertiary
+219,1,found,56,61,20135,20140,177,0.0,54.0,20079.0,20133.0,,,,,verb.perception,387,subject,hunters,1,0,1,unknown,0.0,tertiary
+219,2,sitting,68,75,20147,20154,5,62.0,67.0,20141.0,20146.0,94.0,120.0,20173.0,20199.0,verb.contact,388,subject,Ko - ko,39,113,152,male,1.0,primary
+219,3,looking,94,101,20173,20180,5,62.0,67.0,20141.0,20146.0,,,,,verb.perception,389,subject,Ko - ko,39,113,152,male,1.0,primary
+220,0,inquired,15,23,20215,20223,176,10.0,14.0,20210.0,20214.0,,,,,verb.communication,391,subject,A party of hunters passing that way after several days,1,1,2,group/nonbinary,1.0,tertiary
+220,2,succeeded,42,51,20242,20251,5,35.0,37.0,20235.0,20237.0,,,,,verb.social,390,subject,Ko - ko,39,113,152,male,1.0,primary
+220,3,answered,92,100,20292,20300,5,89.0,91.0,20289.0,20291.0,,,,,verb.communication,393,subject,Ko - ko,39,113,152,male,1.0,primary
+220,5,demolished,113,123,20313,20323,5,106.0,108.0,20306.0,20308.0,,,,,verb.contact,392,subject,Ko - ko,39,113,152,male,1.0,primary
+1,1,called,7,13,139,145,10,14.0,107.0,146.0,239.0,,,,,verb.communication,1,direct_object,a little boy's Boy that carries the Ball on his Back,1,0,1,male,1.0,tertiary
+1,1,called,7,13,139,145,6,14.0,107.0,146.0,239.0,,,,,verb.communication,1,direct_object,a little boy,1,4,5,male,1.0,tertiary
+2,2,asking,51,57,292,298,11,58.0,72.0,299.0,313.0,,,,,verb.communication,3,direct_object,This boy,1,18,19,male,1.0,tertiary
+3,1,inquired,31,39,414,422,11,40.0,108.0,423.0,491.0,,,,,verb.communication,5,direct_object,This boy,1,18,19,male,1.0,tertiary
+3,1,inquired,31,39,414,422,15,40.0,108.0,423.0,491.0,,,,,verb.communication,5,direct_object,any human beings beside themselves,1,0,1,unknown,0.0,tertiary
+3,1,inquired,31,39,414,422,7,40.0,108.0,423.0,491.0,,,,,verb.communication,5,direct_object,a little boy's sister,6,4,10,female,1.0,tertiary
+3,2,knew,66,70,449,453,15,71.0,108.0,454.0,491.0,,,,,verb.cognition,4,direct_object,any human beings beside themselves,1,0,1,unknown,0.0,tertiary
+4,0,replied,4,11,497,504,7,12.0,24.0,505.0,517.0,,,,,verb.communication,6,direct_object,a little boy's sister,6,4,10,female,1.0,tertiary
+6,1,said,29,33,606,610,183,34.0,47.0,611.0,624.0,,,,,verb.communication,8,direct_object,a companion,1,0,1,unknown,0.0,tertiary
+6,1,said,29,33,606,610,11,34.0,47.0,611.0,624.0,,,,,verb.communication,8,direct_object,This boy,1,18,19,male,1.0,tertiary
+6,1,said,29,33,606,610,182,34.0,47.0,611.0,624.0,,,,,verb.communication,8,direct_object,a young man,1,0,1,male,1.0,tertiary
+6,1,said,29,33,606,610,7,34.0,47.0,611.0,624.0,,,,,verb.communication,8,direct_object,a little boy's sister,6,4,10,female,1.0,tertiary
+7,0,asked,9,14,694,699,11,15.0,25.0,700.0,710.0,,,,,verb.communication,9,direct_object,This boy,1,18,19,male,1.0,tertiary
+7,0,asked,9,14,694,699,7,15.0,25.0,700.0,710.0,,,,,verb.communication,9,direct_object,a little boy's sister,6,4,10,female,1.0,tertiary
+7,1,make,29,33,714,718,11,34.0,64.0,719.0,749.0,,,,,verb.creation,10,direct_object,This boy,1,18,19,male,1.0,tertiary
+8,0,complied,4,12,755,763,11,13.0,29.0,764.0,780.0,,,,,verb.communication,11,direct_object,This boy,1,18,19,male,1.0,tertiary
+10,2,looking,54,61,947,954,11,62.0,69.0,955.0,962.0,,,,,verb.perception,15,direct_object,This boy,1,18,19,male,1.0,tertiary
+10,3,discovered,73,83,966,976,21,84.0,126.0,977.0,1019.0,,,,,verb.perception,17,direct_object,a very old woman,2,8,10,female,1.0,tertiary
+11,0,saw,15,18,1036,1039,22,19.0,31.0,1040.0,1052.0,,,,,verb.perception,18,direct_object,the stranger,1,54,55,male,1.0,secondary
+11,1,invited,37,44,1058,1065,22,45.0,48.0,1066.0,1069.0,,,,,verb.communication,19,direct_object,the stranger,1,54,55,male,1.0,secondary
+11,2,addressed,62,71,1083,1092,22,72.0,75.0,1093.0,1096.0,,,,,verb.communication,20,direct_object,the stranger,1,54,55,male,1.0,secondary
+11,3,suppose,100,107,1121,1128,22,108.0,205.0,1129.0,1226.0,,,,,verb.cognition,24,direct_object,the stranger,1,54,55,male,1.0,secondary
+11,3,suppose,100,107,1121,1128,187,108.0,205.0,1129.0,1226.0,,,,,verb.cognition,24,direct_object,no person,1,0,1,unknown,0.0,tertiary
+11,5,seek,133,137,1154,1158,187,138.0,205.0,1159.0,1226.0,,,,,verb.social,23,direct_object,no person,1,0,1,unknown,0.0,tertiary
+12,2,gone,75,79,1303,1307,22,80.0,90.0,1308.0,1318.0,,,,,verb.motion,21,direct_object,the stranger,1,54,55,male,1.0,secondary
+12,4,share,101,106,1329,1334,189,107.0,131.0,1335.0,1359.0,,,,,verb.possession,25,direct_object,the stranger's guardians of those who have gone before you,1,2,3,group/nonbinary,1.0,tertiary
+13,1,provide,14,21,1375,1382,22,22.0,30.0,1383.0,1391.0,31.0,113.0,,,verb.consumption,27,direct_object,the stranger,1,54,55,male,1.0,secondary
+14,2,gave,31,35,1520,1524,22,36.0,39.0,1525.0,1528.0,,,,,verb.communication,31,direct_object,the stranger,1,54,55,male,1.0,secondary
+14,7,see,142,145,1631,1634,191,160.0,240.0,1649.0,1729.0,,,,,verb.perception,33,direct_object,"the chief of the village , who has two daughters",1,0,1,unknown,0.0,tertiary
+14,7,see,142,145,1631,1634,193,160.0,240.0,1649.0,1729.0,,,,,verb.perception,33,direct_object,two daughters,2,0,2,unknown,0.0,tertiary
+14,8,has,214,217,1703,1706,193,218.0,231.0,1707.0,1720.0,,,,,verb.possession,32,direct_object,two daughters,2,0,2,unknown,0.0,tertiary
+16,1,hung,60,64,1864,1868,195,65.0,120.0,1869.0,1924.0,,,,,verb.contact,34,direct_object,these two false daughters,1,0,1,unknown,0.0,tertiary
+18,1,abide,28,33,2039,2044,21,43.0,59.0,2054.0,2070.0,,,,,verb.social,35,direct_object,a very old woman,2,8,10,female,1.0,tertiary
+19,0,gave,19,23,2092,2096,22,24.0,40.0,2097.0,2113.0,,,,,verb.communication,36,direct_object,the stranger,1,54,55,male,1.0,secondary
+19,0,gave,19,23,2092,2096,24,24.0,40.0,2097.0,2113.0,,,,,verb.communication,36,direct_object,the young man,2,0,2,male,1.0,tertiary
+20,0,informed,9,17,2166,2174,22,18.0,21.0,2175.0,2178.0,,,,,verb.communication,37,direct_object,the stranger,1,54,55,male,1.0,secondary
+22,1,gazing,15,21,2406,2412,22,22.0,32.0,2413.0,2423.0,,,,,verb.perception,39,direct_object,the stranger,1,54,55,male,1.0,secondary
+22,2,saw,37,40,2428,2431,23,41.0,102.0,2432.0,2493.0,,,,,verb.perception,41,direct_object,The old woman,11,4,15,female,1.0,tertiary
+23,0,bent,11,15,2506,2510,22,16.0,55.0,2511.0,2550.0,,,,,verb.motion,42,direct_object,the stranger,1,54,55,male,1.0,secondary
+26,0,bethought,3,12,2767,2776,22,13.0,16.0,2777.0,2780.0,,,,,verb.cognition,48,direct_object,the stranger,1,54,55,male,1.0,secondary
+26,0,bethought,3,12,2767,2776,31,13.0,16.0,2777.0,2780.0,,,,,verb.cognition,48,direct_object,the stranger's guardian,1,0,1,unknown,0.0,tertiary
+26,1,invoking,38,46,2802,2810,22,47.0,54.0,2811.0,2818.0,,,,,verb.communication,49,direct_object,the stranger,1,54,55,male,1.0,secondary
+26,2,changing,60,68,2824,2832,22,69.0,76.0,2833.0,2840.0,,,,,verb.change,50,direct_object,the stranger,1,54,55,male,1.0,secondary
+26,5,escape,163,169,2927,2933,22,170.0,173.0,2934.0,2937.0,,,,,verb.motion,52,direct_object,the stranger,1,54,55,male,1.0,secondary
+28,0,panting,0,7,2990,2997,22,28.0,30.0,3018.0,3020.0,,,,,verb.body,53,direct_object,the stranger,1,54,55,male,1.0,secondary
+28,1,remembered,31,41,3021,3031,23,42.0,75.0,3032.0,3065.0,,,,,verb.cognition,54,direct_object,The old woman,11,4,15,female,1.0,tertiary
+28,2,drawing,81,88,3071,3078,22,89.0,103.0,3079.0,3093.0,,,,,verb.motion,55,direct_object,the stranger,1,54,55,male,1.0,secondary
+28,4,rested,167,173,3157,3163,22,174.0,181.0,3164.0,3171.0,182.0,208.0,,,verb.contact,59,direct_object,the stranger,1,54,55,male,1.0,secondary
+30,5,carry,112,117,3436,3441,22,118.0,127.0,3442.0,3451.0,,,,,verb.contact,62,direct_object,the stranger,1,54,55,male,1.0,secondary
+32,0,summoning,0,9,3640,3649,22,10.0,25.0,3650.0,3665.0,,,,,verb.communication,64,direct_object,the stranger,1,54,55,male,1.0,secondary
+36,1,beheld,53,59,3997,4003,43,60.0,110.0,4004.0,4054.0,,,,,verb.perception,72,direct_object,each other,1,0,1,unknown,0.0,tertiary
+36,1,beheld,53,59,3997,4003,42,60.0,110.0,4004.0,4054.0,,,,,verb.perception,72,direct_object,the two wicked sisters,1,2,3,female,1.0,tertiary
+36,2,sitting,83,90,4027,4034,43,91.0,110.0,4035.0,4054.0,,,,,verb.contact,71,direct_object,each other,1,0,1,unknown,0.0,tertiary
+37,0,asked,3,8,4059,4064,42,9.0,20.0,4065.0,4076.0,,,,,verb.communication,73,direct_object,the two wicked sisters,1,2,3,female,1.0,tertiary
+38,0,called,25,31,4103,4109,4,32.0,39.0,4110.0,4117.0,,,,,verb.communication,74,direct_object,Negahnabee,1,0,1,unknown,0.0,tertiary
+38,0,called,25,31,4103,4109,44,32.0,39.0,4110.0,4117.0,,,,,verb.communication,74,direct_object,Bahmondang's one on his left hand,1,1,2,unknown,0.0,tertiary
+38,0,called,25,31,4103,4109,45,32.0,39.0,4110.0,4117.0,,,,,verb.communication,74,direct_object,the one on the right,1,0,1,unknown,0.0,tertiary
+38,0,called,25,31,4103,4109,3,32.0,39.0,4110.0,4117.0,,,,,verb.communication,74,direct_object,Azhabee,1,0,1,unknown,0.0,tertiary
+39,0,talking,6,13,4171,4178,2,14.0,23.0,4179.0,4188.0,24.0,38.0,,,verb.communication,75,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+39,0,talking,6,13,4171,4178,42,14.0,23.0,4179.0,4188.0,24.0,38.0,,,verb.communication,75,direct_object,the two wicked sisters,1,2,3,female,1.0,tertiary
+39,1,discovered,43,53,4208,4218,2,54.0,175.0,4219.0,4340.0,,,,,verb.cognition,77,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+39,1,discovered,43,53,4208,4218,46,54.0,175.0,4219.0,4340.0,,,,,verb.cognition,77,direct_object,the one,1,0,1,unknown,0.0,tertiary
+39,2,addressed,71,80,4236,4245,46,81.0,88.0,4246.0,4253.0,89.0,105.0,4254.0,4270.0,verb.communication,76,direct_object,the one,1,0,1,unknown,0.0,tertiary
+40,0,addressed,13,22,4354,4363,2,23.0,30.0,4364.0,4371.0,,,,,verb.communication,78,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+41,0,perceived,13,22,4433,4442,2,23.0,27.0,4443.0,4447.0,,,,,verb.cognition,79,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+42,0,seizing,5,12,4604,4611,2,13.0,25.0,4612.0,4624.0,,,,,verb.contact,80,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+42,1,said,30,34,4629,4633,2,35.0,49.0,4634.0,4648.0,,,,,verb.communication,82,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+42,1,said,30,34,4629,4633,199,35.0,49.0,4634.0,4648.0,,,,,verb.communication,82,direct_object,Bahmondang's brethren,1,0,1,male,1.0,tertiary
+42,1,said,30,34,4629,4633,49,35.0,49.0,4634.0,4648.0,,,,,verb.communication,82,direct_object,the sisters,1,2,3,female,1.0,tertiary
+42,3,caused,65,71,4664,4670,2,72.0,107.0,4671.0,4706.0,,,,,verb.creation,81,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+42,3,caused,65,71,4664,4670,199,72.0,107.0,4671.0,4706.0,,,,,verb.creation,81,direct_object,Bahmondang's brethren,1,0,1,male,1.0,tertiary
+42,6,have,143,147,4742,4746,49,148.0,184.0,4747.0,4783.0,,,,,verb.possession,84,direct_object,the sisters,1,2,3,female,1.0,tertiary
+43,2,laid,55,59,4841,4845,2,60.0,80.0,4846.0,4866.0,,,,,verb.contact,87,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+43,2,laid,55,59,4841,4845,50,60.0,80.0,4846.0,4866.0,,,,,verb.contact,87,direct_object,the two wicked women,2,0,2,female,1.0,tertiary
+44,1,learning,26,34,4911,4919,52,35.0,312.0,4920.0,5197.0,,,,,verb.cognition,92,direct_object,a brother,1,1,2,male,1.0,tertiary
+44,1,learning,26,34,4911,4919,2,35.0,312.0,4920.0,5197.0,,,,,verb.cognition,92,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+44,1,learning,26,34,4911,4919,53,35.0,312.0,4920.0,5197.0,,,,,verb.cognition,92,direct_object,these sisters's father,4,1,5,male,1.0,tertiary
+44,1,learning,26,34,4911,4919,54,35.0,312.0,4920.0,5197.0,,,,,verb.cognition,92,direct_object,the wicked sisters,1,0,1,female,1.0,tertiary
+44,1,learning,26,34,4911,4919,51,35.0,312.0,4920.0,5197.0,,,,,verb.cognition,92,direct_object,these sisters,1,2,3,female,1.0,tertiary
+44,2,had,54,57,4939,4942,52,58.0,312.0,4943.0,5197.0,,,,,verb.possession,91,direct_object,a brother,1,1,2,male,1.0,tertiary
+44,2,had,54,57,4939,4942,2,58.0,312.0,4943.0,5197.0,,,,,verb.possession,91,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+44,2,had,54,57,4939,4942,53,58.0,312.0,4943.0,5197.0,,,,,verb.possession,91,direct_object,these sisters's father,4,1,5,male,1.0,tertiary
+44,2,had,54,57,4939,4942,54,58.0,312.0,4943.0,5197.0,,,,,verb.possession,91,direct_object,the wicked sisters,1,0,1,female,1.0,tertiary
+44,2,had,54,57,4939,4942,51,58.0,312.0,4943.0,5197.0,,,,,verb.possession,91,direct_object,these sisters,1,2,3,female,1.0,tertiary
+44,5,shared,102,108,4987,4993,54,109.0,121.0,4994.0,5006.0,,,,,verb.possession,90,direct_object,the wicked sisters,1,0,1,female,1.0,tertiary
+44,9,pursue,202,208,5087,5093,52,209.0,212.0,5094.0,5097.0,213.0,312.0,,,verb.competition,94,direct_object,a brother,1,1,2,male,1.0,tertiary
+44,11,put,224,227,5109,5112,51,228.0,234.0,5113.0,5119.0,260.0,312.0,5145.0,5197.0,verb.contact,93,direct_object,these sisters,1,2,3,female,1.0,tertiary
+44,13,knowing,289,296,5174,5181,2,297.0,312.0,5182.0,5197.0,,,,,verb.cognition,96,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+45,1,visit,36,41,5235,5240,57,42.0,68.0,5241.0,5267.0,,,,,verb.social,98,direct_object,The father's daughters,2,0,2,unknown,0.0,tertiary
+45,1,visit,36,41,5235,5240,55,42.0,68.0,5241.0,5267.0,,,,,verb.social,98,direct_object,The father,3,10,13,male,1.0,tertiary
+46,7,inflamed,129,137,5428,5436,24,138.0,209.0,5437.0,5508.0,,,,,verb.contact,101,direct_object,the young man,2,0,2,male,1.0,tertiary
+47,2,said,32,36,5542,5546,61,37.0,48.0,5547.0,5558.0,,,,,verb.communication,103,direct_object,the brother,3,22,25,male,1.0,tertiary
+48,0,know,2,6,5743,5747,201,7.0,43.0,5748.0,5784.0,,,,,verb.cognition,104,direct_object,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+48,3,allow,68,73,5809,5814,201,74.0,108.0,5815.0,5849.0,,,,,verb.social,106,direct_object,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+48,3,allow,68,73,5809,5814,202,74.0,108.0,5815.0,5849.0,,,,,verb.social,106,direct_object,the brother's sisters,2,0,2,female,1.0,tertiary
+48,3,allow,68,73,5809,5814,61,74.0,108.0,5815.0,5849.0,,,,,verb.social,106,direct_object,the brother,3,22,25,male,1.0,tertiary
+48,5,killed,88,94,5829,5835,202,95.0,108.0,5836.0,5849.0,,,,,verb.social,105,direct_object,the brother's sisters,2,0,2,female,1.0,tertiary
+48,5,killed,88,94,5829,5835,61,95.0,108.0,5836.0,5849.0,,,,,verb.social,105,direct_object,the brother,3,22,25,male,1.0,tertiary
+48,7,have,119,123,5860,5864,61,124.0,153.0,5865.0,5894.0,,,,,verb.possession,107,direct_object,the brother,3,22,25,male,1.0,tertiary
+49,1,pursue,7,13,5903,5909,201,14.0,17.0,5910.0,5913.0,,,,,verb.social,109,direct_object,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+50,1,replied,22,29,5955,5962,55,30.0,40.0,5963.0,5973.0,,,,,verb.communication,111,direct_object,The father,3,10,13,male,1.0,tertiary
+51,0,grant,26,31,6000,6005,203,32.0,35.0,6006.0,6009.0,,,,,verb.possession,110,direct_object,The father's son,1,9,10,unknown,0.0,tertiary
+52,0,counsel,2,9,6021,6028,203,10.0,39.0,6029.0,6058.0,,,,,verb.communication,114,direct_object,The father's son,1,9,10,unknown,0.0,tertiary
+54,2,put,30,33,6121,6124,201,34.0,37.0,6125.0,6128.0,41.0,64.0,6132.0,6155.0,verb.contact,113,direct_object,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+54,5,try,78,81,6169,6172,203,82.0,109.0,6173.0,6200.0,,,,,verb.social,115,direct_object,The father's son,1,9,10,unknown,0.0,tertiary
+54,6,deceive,85,92,6176,6183,203,93.0,96.0,6184.0,6187.0,97.0,109.0,6188.0,6200.0,verb.social,116,direct_object,The father's son,1,9,10,unknown,0.0,tertiary
+56,0,break,12,17,6261,6266,203,18.0,27.0,6267.0,6276.0,28.0,52.0,6277.0,6301.0,verb.change,117,direct_object,The father's son,1,9,10,unknown,0.0,tertiary
+56,1,see,39,42,6288,6291,201,43.0,52.0,6292.0,6301.0,,,,,verb.perception,119,direct_object,that boy who carries the ball on his back's boy who carries the ball on his back,1,10,11,male,1.0,tertiary
+57,1,enjoined,78,86,6412,6420,64,87.0,95.0,6421.0,6429.0,,,,,verb.emotion,122,direct_object,The son,1,6,7,male,1.0,tertiary
+57,3,staying,112,119,6446,6453,64,120.0,131.0,6454.0,6465.0,,,,,verb.possession,123,direct_object,The son,1,6,7,male,1.0,tertiary
+58,0,made,18,22,6484,6488,65,23.0,142.0,6489.0,6608.0,,,,,verb.cognition,124,direct_object,the brother of the two wicked sisters,1,0,1,female,0.5,tertiary
+60,5,provided,136,144,6853,6861,2,145.0,152.0,6862.0,6869.0,,,,,verb.consumption,126,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+61,0,seeing,0,6,6871,6877,2,7.0,83.0,6878.0,6954.0,,,,,verb.cognition,128,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+61,0,seeing,0,6,6871,6877,66,7.0,83.0,6878.0,6954.0,,,,,verb.cognition,128,direct_object,Bahmondang's pursuer,1,0,1,unknown,0.0,tertiary
+61,3,renewed,65,72,6936,6943,2,73.0,83.0,6944.0,6954.0,,,,,verb.change,129,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+62,0,found,13,18,6968,6973,2,19.0,39.0,6974.0,6994.0,,,,,verb.perception,131,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+62,2,transformed,76,87,7031,7042,2,88.0,95.0,7043.0,7050.0,,,,,verb.change,132,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+63,0,remembered,8,18,7151,7161,2,19.0,89.0,7162.0,7232.0,,,,,verb.cognition,134,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+63,0,remembered,8,18,7151,7161,7,19.0,89.0,7162.0,7232.0,,,,,verb.cognition,134,direct_object,a little boy's sister,6,4,10,female,1.0,tertiary
+63,2,given,54,59,7197,7202,2,60.0,63.0,7203.0,7206.0,,,,,verb.possession,133,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+64,0,taking,0,6,7234,7240,2,7.0,21.0,7241.0,7255.0,,,,,verb.change,135,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+65,1,said,6,10,7297,7301,2,11.0,13.0,7302.0,7304.0,24.0,47.0,,,verb.communication,137,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+66,0,left,19,23,7360,7364,2,24.0,27.0,7365.0,7368.0,,,,,verb.cognition,138,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+67,1,perceived,71,80,7468,7477,71,81.0,140.0,7478.0,7537.0,,,,,verb.cognition,141,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+67,9,arrived,182,189,7579,7586,71,190.0,213.0,7587.0,7610.0,,,,,verb.motion,144,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+68,0,vexed,0,5,7675,7680,71,6.0,124.0,7681.0,7799.0,,,,,verb.communication,148,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+68,0,vexed,0,5,7675,7680,74,6.0,124.0,7681.0,7799.0,,,,,verb.communication,148,direct_object,the moccasins's owner,1,0,1,unknown,0.0,tertiary
+68,0,vexed,0,5,7675,7680,70,6.0,124.0,7681.0,7799.0,,,,,verb.communication,148,direct_object,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+68,4,following,36,45,7711,7720,71,46.0,73.0,7721.0,7748.0,,,,,verb.motion,146,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+68,4,following,36,45,7711,7720,74,46.0,73.0,7721.0,7748.0,,,,,verb.motion,146,direct_object,the moccasins's owner,1,0,1,unknown,0.0,tertiary
+68,4,following,36,45,7711,7720,70,46.0,73.0,7721.0,7748.0,,,,,verb.motion,146,direct_object,the moccasins,3,6,9,group/nonbinary,1.0,tertiary
+68,7,resolving,149,158,7824,7833,71,159.0,185.0,7834.0,7860.0,,,,,verb.cognition,151,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+69,4,concluded,68,77,7973,7982,71,78.0,118.0,7983.0,8023.0,,,,,verb.cognition,152,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+70,0,retraced,3,11,8028,8036,71,12.0,41.0,8037.0,8066.0,,,,,verb.motion,154,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+72,0,remembered,13,23,8237,8247,59,24.0,48.0,8248.0,8272.0,,,,,verb.cognition,157,direct_object,The father's sisters,4,0,4,female,1.0,tertiary
+72,0,remembered,13,23,8237,8247,71,24.0,48.0,8248.0,8272.0,,,,,verb.cognition,157,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+72,6,put,141,144,8365,8368,2,145.0,151.0,8369.0,8375.0,,,,,verb.contact,159,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+73,0,finding,7,14,8462,8469,71,15.0,98.0,8470.0,8553.0,,,,,verb.possession,163,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+73,0,finding,7,14,8462,8469,77,15.0,98.0,8470.0,8553.0,,,,,verb.possession,163,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+73,5,changed,100,107,8555,8562,71,108.0,115.0,8563.0,8570.0,,,,,verb.change,165,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+73,5,changed,100,107,8555,8562,193,108.0,115.0,8563.0,8570.0,,,,,verb.change,165,direct_object,two daughters,2,0,2,unknown,0.0,tertiary
+73,5,changed,100,107,8555,8562,78,108.0,115.0,8563.0,8570.0,,,,,verb.change,165,direct_object,a very old man,1,0,1,male,1.0,tertiary
+74,0,made,3,7,8772,8776,71,8.0,169.0,8777.0,8938.0,,,,,verb.communication,166,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+74,0,made,3,7,8772,8776,57,8.0,169.0,8777.0,8938.0,,,,,verb.communication,166,direct_object,The father's daughters,2,0,2,unknown,0.0,tertiary
+74,0,made,3,7,8772,8776,84,8.0,169.0,8777.0,8938.0,,,,,verb.communication,166,direct_object,a mere child,1,0,1,unknown,0.0,tertiary
+74,1,appear,16,22,8785,8791,71,23.0,129.0,8792.0,8898.0,,,,,verb.change,167,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+74,1,appear,16,22,8785,8791,57,23.0,129.0,8792.0,8898.0,,,,,verb.change,167,direct_object,The father's daughters,2,0,2,unknown,0.0,tertiary
+74,1,appear,16,22,8785,8791,84,23.0,129.0,8792.0,8898.0,,,,,verb.change,167,direct_object,a mere child,1,0,1,unknown,0.0,tertiary
+74,3,leave,54,59,8823,8828,71,60.0,69.0,8829.0,8838.0,,,,,verb.motion,168,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+74,4,require,78,85,8847,8854,71,86.0,99.0,8855.0,8868.0,,,,,verb.communication,169,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+74,4,require,78,85,8847,8854,57,86.0,99.0,8855.0,8868.0,,,,,verb.communication,169,direct_object,The father's daughters,2,0,2,unknown,0.0,tertiary
+74,5,bring,103,108,8872,8877,71,109.0,112.0,8878.0,8881.0,,,,,verb.possession,170,direct_object,The angry brother,1,33,34,male,1.0,tertiary
+78,1,forget,7,13,9234,9240,202,14.0,37.0,9241.0,9264.0,39.0,56.0,9266.0,9283.0,verb.cognition,174,direct_object,the brother's sisters,2,0,2,female,1.0,tertiary
+78,1,forget,7,13,9234,9240,61,14.0,37.0,9241.0,9264.0,39.0,56.0,9266.0,9283.0,verb.cognition,174,direct_object,the brother,3,22,25,male,1.0,tertiary
+84,0,perceived,31,40,9646,9655,61,41.0,44.0,9656.0,9659.0,,,,,verb.perception,181,direct_object,the brother,3,22,25,male,1.0,tertiary
+84,2,told,58,62,9673,9677,93,63.0,75.0,9678.0,9690.0,,,,,verb.communication,184,direct_object,a stranger,1,2,3,male,1.0,tertiary
+84,2,told,58,62,9673,9677,91,63.0,75.0,9678.0,9690.0,,,,,verb.communication,184,direct_object,the fairy daughters,1,6,7,group/nonbinary,1.0,tertiary
+84,2,told,58,62,9673,9677,53,63.0,75.0,9678.0,9690.0,,,,,verb.communication,184,direct_object,these sisters's father,4,1,5,male,1.0,tertiary
+85,0,replied,13,20,9732,9739,210,23.0,64.0,9742.0,9783.0,,,,,verb.communication,185,direct_object,these sisters's father's children,1,0,1,unknown,0.0,tertiary
+85,0,replied,13,20,9732,9739,93,23.0,64.0,9742.0,9783.0,,,,,verb.communication,185,direct_object,a stranger,1,2,3,male,1.0,tertiary
+85,0,replied,13,20,9732,9739,53,23.0,64.0,9742.0,9783.0,,,,,verb.communication,185,direct_object,these sisters's father,4,1,5,male,1.0,tertiary
+85,1,invite,23,29,9742,9748,93,30.0,33.0,9749.0,9752.0,38.0,49.0,,,verb.communication,186,direct_object,a stranger,1,2,3,male,1.0,tertiary
+85,2,invite,51,57,9770,9776,93,58.0,61.0,9777.0,9780.0,,,,,verb.emotion,187,direct_object,a stranger,1,2,3,male,1.0,tertiary
+87,1,had,72,75,9985,9988,77,80.0,145.0,9993.0,10058.0,,,,,verb.perception,189,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+88,1,felt,43,47,10103,10107,77,48.0,86.0,10108.0,10146.0,,,,,verb.emotion,192,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+89,1,inflamed,31,39,10178,10186,77,40.0,100.0,10187.0,10247.0,,,,,verb.emotion,193,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+91,3,lost,40,44,10333,10337,77,45.0,65.0,10338.0,10358.0,,,,,verb.possession,197,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+92,0,forgot,15,21,10375,10381,59,22.0,133.0,10382.0,10493.0,,,,,verb.cognition,198,direct_object,The father's sisters,4,0,4,female,1.0,tertiary
+92,0,forgot,15,21,10375,10381,77,22.0,133.0,10382.0,10493.0,,,,,verb.cognition,198,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+92,0,forgot,15,21,10375,10381,99,22.0,133.0,10382.0,10493.0,,,,,verb.cognition,198,direct_object,the hungry brother's father,1,0,1,male,1.0,tertiary
+93,3,overpowered,93,104,10588,10599,77,105.0,108.0,10600.0,10603.0,,,,,verb.emotion,201,direct_object,the hungry brother,2,17,19,male,1.0,tertiary
+94,0,watched,17,24,10662,10669,2,25.0,40.0,10670.0,10685.0,,,,,verb.perception,202,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+94,1,saw,60,63,10705,10708,101,64.0,104.0,10709.0,10749.0,,,,,verb.cognition,203,direct_object,the false brother,1,0,1,male,1.0,tertiary
+94,3,resumed,109,116,10754,10761,2,117.0,134.0,10762.0,10779.0,,,,,verb.change,204,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+95,0,drawing,5,12,10842,10849,2,13.0,27.0,10850.0,10864.0,,,,,verb.contact,205,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+95,3,fetched,87,94,10924,10931,2,95.0,117.0,10932.0,10954.0,,,,,verb.contact,206,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+95,3,fetched,87,94,10924,10931,104,95.0,117.0,10932.0,10954.0,,,,,verb.contact,206,direct_object,the slumbering brother,1,0,1,male,1.0,tertiary
+95,5,sent,139,143,10976,10980,2,144.0,147.0,10981.0,10984.0,148.0,156.0,10985.0,10993.0,verb.contact,207,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+96,1,vindicate,31,40,11025,11034,2,41.0,50.0,11035.0,11044.0,51.0,76.0,11045.0,11070.0,verb.communication,209,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+97,2,dispatched,87,97,11159,11169,50,98.0,133.0,11170.0,11205.0,,,,,verb.contact,208,direct_object,the two wicked women,2,0,2,female,1.0,tertiary
+97,2,dispatched,87,97,11159,11169,106,98.0,133.0,11170.0,11205.0,,,,,verb.contact,208,direct_object,the brother of the two wicked women,1,0,1,female,0.5,tertiary
+97,3,found,138,143,11210,11215,2,144.0,151.0,11216.0,11223.0,152.0,156.0,11224.0,11228.0,verb.perception,210,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+97,3,found,138,143,11210,11215,109,144.0,151.0,11216.0,11223.0,152.0,156.0,11224.0,11228.0,verb.perception,210,direct_object,a great crowd of people,1,0,1,unknown,0.0,tertiary
+98,0,stood,33,38,11316,11321,2,39.0,49.0,11322.0,11332.0,51.0,86.0,11334.0,11369.0,verb.contact,211,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+98,0,stood,33,38,11316,11321,7,39.0,49.0,11322.0,11332.0,51.0,86.0,11334.0,11369.0,verb.contact,211,direct_object,a little boy's sister,6,4,10,female,1.0,tertiary
+98,2,invite,73,79,11356,11362,2,80.0,83.0,11363.0,11366.0,84.0,86.0,,,verb.communication,212,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+99,5,smoked,127,133,11498,11504,2,134.0,150.0,11505.0,11521.0,152.0,203.0,11523.0,11574.0,verb.consumption,215,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+100,0,had,42,45,11618,11621,113,46.0,82.0,11622.0,11658.0,,,,,verb.possession,216,direct_object,all the people,1,0,1,unknown,0.0,tertiary
+101,0,happened,7,15,11667,11675,116,16.0,327.0,11676.0,11987.0,,,,,verb.change,217,direct_object,a chief,1,0,1,unknown,0.0,tertiary
+101,0,happened,7,15,11667,11675,115,16.0,327.0,11676.0,11987.0,,,,,verb.change,217,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+101,9,proclaiming,227,238,11887,11898,115,239.0,327.0,11899.0,11987.0,,,,,verb.communication,219,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+103,0,hearing,5,12,12029,12036,25,13.0,73.0,12037.0,12097.0,,,,,verb.perception,221,direct_object,the Wearer of the Ball,6,0,6,unknown,0.0,tertiary
+103,2,announced,104,113,12128,12137,115,114.0,169.0,12138.0,12193.0,,,,,verb.communication,223,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+103,5,do,135,137,12159,12161,115,138.0,169.0,12162.0,12193.0,,,,,verb.social,224,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+104,2,done,40,44,12235,12239,115,45.0,53.0,12240.0,12248.0,,,,,verb.social,225,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,0,began,3,8,12328,12333,115,22.0,150.0,12347.0,12475.0,,,,,verb.change,229,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,0,began,3,8,12328,12333,25,22.0,150.0,12347.0,12475.0,,,,,verb.change,229,direct_object,the Wearer of the Ball,6,0,6,unknown,0.0,tertiary
+105,1,procuring,12,21,12337,12346,115,22.0,33.0,12347.0,12358.0,,,,,verb.contact,228,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,3,called,113,119,12438,12444,115,120.0,127.0,12445.0,12452.0,,,,,verb.communication,233,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+105,3,called,113,119,12438,12444,25,120.0,127.0,12445.0,12452.0,,,,,verb.communication,233,direct_object,the Wearer of the Ball,6,0,6,unknown,0.0,tertiary
+107,0,coming,0,6,12587,12593,115,44.0,46.0,12631.0,12633.0,,,,,verb.motion,234,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+107,1,thrust,47,53,12634,12640,115,54.0,61.0,12641.0,12648.0,,,,,verb.motion,235,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+107,2,possessed,93,102,12680,12689,115,103.0,137.0,12690.0,12724.0,,,,,verb.consumption,236,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+110,0,borrowed,7,15,12899,12907,125,16.0,22.0,12908.0,12914.0,,,,,verb.possession,239,direct_object,an old chief's brother,1,0,1,male,1.0,tertiary
+110,0,borrowed,7,15,12899,12907,5,16.0,22.0,12908.0,12914.0,,,,,verb.possession,239,direct_object,Ko - ko,39,113,152,male,1.0,primary
+110,0,borrowed,7,15,12899,12907,124,16.0,22.0,12908.0,12914.0,,,,,verb.possession,239,direct_object,an old chief,1,1,2,male,1.0,tertiary
+110,0,borrowed,7,15,12899,12907,126,16.0,22.0,12908.0,12914.0,,,,,verb.possession,239,direct_object,a brave man,1,0,1,male,1.0,tertiary
+110,2,mistook,64,71,12956,12963,5,72.0,77.0,12964.0,12969.0,78.0,113.0,12970.0,13005.0,verb.cognition,240,direct_object,Ko - ko,39,113,152,male,1.0,primary
+111,0,raising,5,12,13011,13018,115,13.0,30.0,13019.0,13036.0,31.0,45.0,,,verb.communication,242,direct_object,"an envious and boastful fellow , who had been once a chief , but coming home always badly whipped , he was put out of office",1,25,26,male,1.0,tertiary
+112,3,looking,64,71,13165,13172,5,72.0,79.0,13173.0,13180.0,,,,,verb.perception,244,direct_object,Ko - ko,39,113,152,male,1.0,primary
+112,4,discovered,84,94,13185,13195,21,95.0,137.0,13196.0,13238.0,,,,,verb.perception,246,direct_object,a very old woman,2,8,10,female,1.0,tertiary
+114,1,said,20,24,13286,13290,5,25.0,30.0,13291.0,13296.0,,,,,verb.communication,248,direct_object,Ko - ko,39,113,152,male,1.0,primary
+116,0,asked,0,5,13353,13358,23,6.0,19.0,13359.0,13372.0,,,,,verb.communication,247,direct_object,The old woman,11,4,15,female,1.0,tertiary
+117,0,want,3,7,13377,13381,213,8.0,106.0,13382.0,13480.0,,,,,verb.emotion,249,direct_object,travellers,1,1,2,group/nonbinary,1.0,tertiary
+117,2,slay,65,69,13439,13443,213,70.0,80.0,13444.0,13454.0,,,,,verb.social,250,direct_object,travellers,1,1,2,group/nonbinary,1.0,tertiary
+117,3,steal,85,90,13459,13464,213,91.0,106.0,13465.0,13480.0,,,,,verb.possession,252,direct_object,travellers,1,1,2,group/nonbinary,1.0,tertiary
+117,4,answered,109,117,13483,13491,5,118.0,123.0,13492.0,13497.0,,,,,verb.communication,253,direct_object,Ko - ko,39,113,152,male,1.0,primary
+118,0,mean,5,9,13504,13508,214,10.0,59.0,13509.0,13558.0,,,,,verb.communication,254,direct_object,the two young women who lived in the flying lodge,1,2,3,female,1.0,tertiary
+119,0,said,0,4,13561,13565,23,5.0,18.0,13566.0,13579.0,,,,,verb.communication,255,direct_object,The old woman,11,4,15,female,1.0,tertiary
+120,0,answered,12,20,13593,13601,5,21.0,26.0,13602.0,13607.0,,,,,verb.communication,256,direct_object,Ko - ko,39,113,152,male,1.0,primary
+121,2,kill,15,19,13624,13628,214,20.0,24.0,13629.0,13633.0,,,,,verb.contact,258,direct_object,the two young women who lived in the flying lodge,1,2,3,female,1.0,tertiary
+122,0,gave,13,17,13649,13653,5,18.0,57.0,13654.0,13693.0,,,,,verb.communication,257,direct_object,Ko - ko,39,113,152,male,1.0,primary
+122,2,looked,63,69,13699,13705,5,70.0,105.0,13706.0,13741.0,,,,,verb.perception,259,direct_object,Ko - ko,39,113,152,male,1.0,primary
+123,1,said,55,59,13798,13802,23,60.0,73.0,13803.0,13816.0,,,,,verb.communication,261,direct_object,The old woman,11,4,15,female,1.0,tertiary
+124,1,heaving,59,66,13877,13884,5,67.0,78.0,13885.0,13896.0,79.0,93.0,13897.0,13911.0,verb.contact,262,direct_object,Ko - ko,39,113,152,male,1.0,primary
+124,2,acknowledged,98,110,13916,13928,5,111.0,181.0,13929.0,13999.0,,,,,verb.communication,264,direct_object,Ko - ko,39,113,152,male,1.0,primary
+126,1,have,5,9,14032,14036,61,10.0,25.0,14037.0,14052.0,,,,,verb.possession,265,direct_object,the brother,3,22,25,male,1.0,tertiary
+126,2,said,28,32,14055,14059,5,33.0,38.0,14060.0,14065.0,,,,,verb.communication,266,direct_object,Ko - ko,39,113,152,male,1.0,primary
+127,1,said,18,22,14085,14089,23,23.0,36.0,14090.0,14103.0,,,,,verb.communication,267,direct_object,The old woman,11,4,15,female,1.0,tertiary
+131,0,made,3,7,14220,14224,5,8.0,53.0,14225.0,14270.0,,,,,verb.communication,269,direct_object,Ko - ko,39,113,152,male,1.0,primary
+133,1,find,14,18,14314,14318,55,19.0,22.0,14319.0,14322.0,23.0,70.0,14323.0,14370.0,verb.possession,271,direct_object,The father,3,10,13,male,1.0,tertiary
+133,2,have,44,48,14344,14348,55,49.0,70.0,14349.0,14370.0,,,,,verb.perception,270,direct_object,The father,3,10,13,male,1.0,tertiary
+134,1,like,9,13,14381,14385,120,14.0,28.0,14386.0,14400.0,,,,,verb.emotion,272,direct_object,the Owl,3,0,3,unknown,0.0,tertiary
+134,2,see,17,20,14389,14392,120,21.0,28.0,14393.0,14400.0,,,,,verb.social,273,direct_object,the Owl,3,0,3,unknown,0.0,tertiary
+135,1,replied,12,19,14436,14443,5,20.0,25.0,14444.0,14449.0,,,,,verb.communication,275,direct_object,Ko - ko,39,113,152,male,1.0,primary
+136,0,have,1,5,14452,14456,23,6.0,9.0,14457.0,14460.0,,,,,verb.possession,276,direct_object,The old woman,11,4,15,female,1.0,tertiary
+137,0,suppose,7,14,14494,14501,5,15.0,46.0,14502.0,14533.0,,,,,verb.cognition,277,direct_object,Ko - ko,39,113,152,male,1.0,primary
+139,0,answered,10,18,14555,14563,23,19.0,32.0,14564.0,14577.0,,,,,verb.communication,279,direct_object,The old woman,11,4,15,female,1.0,tertiary
+140,1,have,9,13,14588,14592,5,14.0,33.0,14593.0,14612.0,,,,,verb.consumption,278,direct_object,Ko - ko,39,113,152,male,1.0,primary
+141,0,gave,8,12,14623,14627,2,13.0,16.0,14628.0,14631.0,,,,,verb.possession,282,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+141,0,gave,8,12,14623,14627,5,13.0,16.0,14628.0,14631.0,,,,,verb.possession,282,direct_object,Ko - ko,39,113,152,male,1.0,primary
+141,1,taking,55,61,14670,14676,2,62.0,66.0,14677.0,14681.0,,,,,verb.cognition,284,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+141,1,taking,55,61,14670,14676,5,62.0,66.0,14677.0,14681.0,,,,,verb.cognition,284,direct_object,Ko - ko,39,113,152,male,1.0,primary
+141,4,helped,105,111,14720,14726,2,112.0,128.0,14727.0,14743.0,,,,,verb.social,283,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+141,4,helped,105,111,14720,14726,5,112.0,128.0,14727.0,14743.0,,,,,verb.social,283,direct_object,Ko - ko,39,113,152,male,1.0,primary
+141,6,thrust,159,165,14774,14780,5,166.0,180.0,14781.0,14795.0,,,,,verb.contact,285,direct_object,Ko - ko,39,113,152,male,1.0,primary
+142,1,said,13,17,14810,14814,5,18.0,23.0,14815.0,14820.0,,,,,verb.communication,286,direct_object,Ko - ko,39,113,152,male,1.0,primary
+144,2,said,37,41,14908,14912,23,42.0,55.0,14913.0,14926.0,,,,,verb.communication,288,direct_object,The old woman,11,4,15,female,1.0,tertiary
+146,5,started,155,162,15132,15139,142,163.0,176.0,15140.0,15153.0,,,,,verb.motion,293,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+147,1,feared,30,36,15206,15212,144,37.0,108.0,15213.0,15284.0,,,,,verb.emotion,294,direct_object,the wicked family,1,0,1,unknown,0.0,tertiary
+147,1,feared,30,36,15206,15212,5,37.0,108.0,15213.0,15284.0,,,,,verb.emotion,294,direct_object,Ko - ko,39,113,152,male,1.0,primary
+147,1,feared,30,36,15206,15212,143,37.0,108.0,15213.0,15284.0,,,,,verb.emotion,294,direct_object,any member of the wicked family,1,0,1,unknown,0.0,tertiary
+147,3,lose,47,51,15223,15227,144,52.0,108.0,15228.0,15284.0,110.0,145.0,15286.0,15321.0,verb.possession,297,direct_object,the wicked family,1,0,1,unknown,0.0,tertiary
+147,3,lose,47,51,15223,15227,143,52.0,108.0,15228.0,15284.0,110.0,145.0,15286.0,15321.0,verb.possession,297,direct_object,any member of the wicked family,1,0,1,unknown,0.0,tertiary
+147,4,massacring,66,76,15242,15252,144,77.0,108.0,15253.0,15284.0,,,,,verb.social,296,direct_object,the wicked family,1,0,1,unknown,0.0,tertiary
+147,4,massacring,66,76,15242,15252,143,77.0,108.0,15253.0,15284.0,,,,,verb.social,296,direct_object,any member of the wicked family,1,0,1,unknown,0.0,tertiary
+148,0,slackened,8,17,15353,15362,5,18.0,26.0,15363.0,15371.0,,,,,verb.change,298,direct_object,Ko - ko,39,113,152,male,1.0,primary
+151,1,went,28,32,15574,15578,5,33.0,38.0,15579.0,15584.0,40.0,69.0,15586.0,15615.0,verb.motion,304,direct_object,Ko - ko,39,113,152,male,1.0,primary
+155,0,bethought,16,25,15808,15817,5,26.0,29.0,15818.0,15821.0,,,,,verb.cognition,308,direct_object,Ko - ko,39,113,152,male,1.0,primary
+155,4,occurred,84,92,15876,15884,2,93.0,112.0,15885.0,15904.0,113.0,141.0,15905.0,15933.0,verb.perception,306,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+158,2,requested,79,88,16096,16105,5,89.0,93.0,16106.0,16110.0,,,,,verb.communication,311,direct_object,Ko - ko,39,113,152,male,1.0,primary
+158,2,requested,79,88,16096,16105,149,89.0,93.0,16106.0,16110.0,,,,,verb.communication,311,direct_object,Ko - ko's guardian spirits whom he knew of by name,1,4,5,group/nonbinary,1.0,tertiary
+158,3,convert,97,104,16114,16121,5,105.0,108.0,16122.0,16125.0,,,,,verb.change,312,direct_object,Ko - ko,39,113,152,male,1.0,primary
+159,0,seemed,24,30,16167,16173,5,31.0,76.0,16174.0,16219.0,,,,,verb.perception,316,direct_object,Ko - ko,39,113,152,male,1.0,primary
+159,1,pay,34,37,16177,16180,5,38.0,61.0,16181.0,16204.0,,,,,verb.communication,315,direct_object,Ko - ko,39,113,152,male,1.0,primary
+160,0,hung,14,18,16234,16238,150,20.0,65.0,16240.0,16285.0,,,,,verb.contact,314,direct_object,"the same heavy - limbed , big - headed , be - clubbed",1,0,1,unknown,0.0,tertiary
+160,4,blanketed,74,83,16294,16303,5,84.0,89.0,16304.0,16309.0,,,,,verb.body,313,direct_object,Ko - ko,39,113,152,male,1.0,primary
+161,0,desired,8,15,16327,16334,149,16.0,56.0,16335.0,16375.0,,,,,verb.communication,317,direct_object,Ko - ko's guardian spirits whom he knew of by name,1,4,5,group/nonbinary,1.0,tertiary
+161,0,desired,8,15,16327,16334,5,16.0,56.0,16335.0,16375.0,,,,,verb.communication,317,direct_object,Ko - ko,39,113,152,male,1.0,primary
+161,2,turn,32,36,16351,16355,5,37.0,40.0,16356.0,16359.0,,,,,verb.change,319,direct_object,Ko - ko,39,113,152,male,1.0,primary
+163,0,petitioned,14,24,16456,16466,152,25.0,94.0,16467.0,16536.0,,,,,verb.communication,318,direct_object,a bear,1,0,1,unknown,0.0,tertiary
+163,0,petitioned,14,24,16456,16466,149,25.0,94.0,16467.0,16536.0,,,,,verb.communication,318,direct_object,Ko - ko's guardian spirits whom he knew of by name,1,4,5,group/nonbinary,1.0,tertiary
+163,0,petitioned,14,24,16456,16466,151,25.0,94.0,16467.0,16536.0,,,,,verb.communication,318,direct_object,a gophir,1,0,1,unknown,0.0,tertiary
+165,1,obliged,72,79,16717,16724,5,80.0,97.0,16725.0,16742.0,,,,,verb.communication,320,direct_object,Ko - ko,39,113,152,male,1.0,primary
+167,3,forced,46,52,16844,16850,5,53.0,69.0,16851.0,16867.0,,,,,verb.social,322,direct_object,Ko - ko,39,113,152,male,1.0,primary
+171,3,indulged,56,64,17025,17033,5,65.0,72.0,17034.0,17041.0,73.0,82.0,17042.0,17051.0,verb.social,327,direct_object,Ko - ko,39,113,152,male,1.0,primary
+172,1,snapped,91,98,17143,17150,5,99.0,207.0,17151.0,17259.0,,,,,verb.contact,328,direct_object,Ko - ko,39,113,152,male,1.0,primary
+176,0,cried,0,5,17285,17290,142,6.0,23.0,17291.0,17308.0,25.0,78.0,,,verb.communication,332,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+176,1,making,25,31,17310,17316,142,32.0,61.0,17317.0,17346.0,,,,,verb.creation,333,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+178,0,cried,0,5,17394,17399,5,6.0,13.0,17400.0,17407.0,15.0,53.0,,,verb.communication,334,direct_object,Ko - ko,39,113,152,male,1.0,primary
+178,1,thinking,15,23,17409,17417,142,24.0,53.0,17418.0,17447.0,,,,,verb.cognition,335,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+178,2,frighten,27,35,17421,17429,142,36.0,53.0,17430.0,17447.0,,,,,verb.emotion,336,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+181,2,called,28,34,17500,17506,156,35.0,46.0,17507.0,17518.0,,,,,verb.communication,338,direct_object,the old man,4,1,5,male,1.0,tertiary
+183,0,observing,7,16,17560,17569,156,17.0,48.0,17570.0,17601.0,,,,,verb.cognition,337,direct_object,the old man,4,1,5,male,1.0,tertiary
+184,1,saw,24,27,17708,17711,142,28.0,71.0,17712.0,17755.0,,,,,verb.perception,342,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+184,1,saw,24,27,17708,17711,5,28.0,71.0,17712.0,17755.0,,,,,verb.perception,342,direct_object,Ko - ko,39,113,152,male,1.0,primary
+184,3,gaining,55,62,17739,17746,5,63.0,71.0,17747.0,17755.0,,,,,verb.competition,341,direct_object,Ko - ko,39,113,152,male,1.0,primary
+185,1,encountered,20,31,17986,17997,5,32.0,101.0,17998.0,18067.0,,,,,verb.motion,349,direct_object,Ko - ko,39,113,152,male,1.0,primary
+185,4,transformed,82,93,18048,18059,5,94.0,101.0,18060.0,18067.0,,,,,verb.change,350,direct_object,Ko - ko,39,113,152,male,1.0,primary
+185,5,having,111,117,18077,18083,159,118.0,201.0,18084.0,18167.0,,,,,verb.possession,351,direct_object,Ko - ko's one of all the guardians who should have helped him,1,0,1,unknown,0.0,tertiary
+185,5,having,111,117,18077,18083,5,118.0,201.0,18084.0,18167.0,,,,,verb.possession,351,direct_object,Ko - ko,39,113,152,male,1.0,primary
+185,8,helped,191,197,18157,18163,5,198.0,201.0,18164.0,18167.0,,,,,verb.social,347,direct_object,Ko - ko,39,113,152,male,1.0,primary
+188,2,said,38,42,18437,18441,5,43.0,48.0,18442.0,18447.0,,,,,verb.communication,355,direct_object,Ko - ko,39,113,152,male,1.0,primary
+189,1,put,8,11,18457,18460,5,12.0,16.0,18461.0,18465.0,,,,,verb.contact,358,direct_object,Ko - ko,39,113,152,male,1.0,primary
+190,0,had,19,22,18497,18500,142,23.0,94.0,18501.0,18572.0,,,,,verb.possession,357,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+199,1,shake,21,26,18946,18951,5,27.0,34.0,18952.0,18959.0,,,,,verb.motion,362,direct_object,Ko - ko,39,113,152,male,1.0,primary
+199,3,run,57,60,18982,18985,5,61.0,64.0,18986.0,18989.0,65.0,108.0,18990.0,19033.0,verb.motion,361,direct_object,Ko - ko,39,113,152,male,1.0,primary
+201,0,cried,0,5,19064,19069,142,6.0,23.0,19070.0,19087.0,25.0,99.0,,,verb.communication,364,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+201,1,falling,25,32,19089,19096,5,33.0,60.0,19097.0,19124.0,,,,,verb.motion,365,direct_object,Ko - ko,39,113,152,male,1.0,primary
+201,2,counting,66,74,19130,19138,5,75.0,83.0,19139.0,19147.0,84.0,99.0,,,verb.motion,366,direct_object,Ko - ko,39,113,152,male,1.0,primary
+202,2,answered,31,39,19196,19204,5,40.0,45.0,19205.0,19210.0,,,,,verb.communication,368,direct_object,Ko - ko,39,113,152,male,1.0,primary
+203,5,hurrying,89,97,19301,19309,5,98.0,101.0,19310.0,19313.0,102.0,109.0,19314.0,19321.0,verb.motion,370,direct_object,Ko - ko,39,113,152,male,1.0,primary
+205,0,cried,0,5,19346,19351,156,6.0,17.0,19352.0,19363.0,,,,,verb.communication,372,direct_object,the old man,4,1,5,male,1.0,tertiary
+206,0,allowing,14,22,19379,19387,142,23.0,108.0,19388.0,19473.0,,,,,verb.communication,371,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+206,0,allowing,14,22,19379,19387,5,23.0,108.0,19388.0,19473.0,,,,,verb.communication,371,direct_object,Ko - ko,39,113,152,male,1.0,primary
+206,3,taking,129,135,19494,19500,5,136.0,139.0,19501.0,19504.0,,,,,verb.motion,373,direct_object,Ko - ko,39,113,152,male,1.0,primary
+208,0,cried,0,5,19519,19524,156,6.0,17.0,19525.0,19536.0,18.0,23.0,,,verb.communication,375,direct_object,the old man,4,1,5,male,1.0,tertiary
+213,1,answered,22,30,19616,19624,5,31.0,36.0,19625.0,19630.0,,,,,verb.communication,376,direct_object,Ko - ko,39,113,152,male,1.0,primary
+213,3,assure,76,82,19670,19676,225,83.0,86.0,19677.0,19680.0,,,,,verb.communication,377,direct_object,good man,2,1,3,male,1.0,tertiary
+214,1,finish,17,23,19700,19706,5,24.0,34.0,19707.0,19717.0,,,,,verb.change,379,direct_object,Ko - ko,39,113,152,male,1.0,primary
+214,3,hurried,54,61,19737,19744,5,62.0,65.0,19745.0,19748.0,66.0,78.0,19749.0,19761.0,verb.motion,378,direct_object,Ko - ko,39,113,152,male,1.0,primary
+215,2,said,51,55,19814,19818,5,56.0,63.0,19819.0,19826.0,,,,,verb.communication,382,direct_object,Ko - ko,39,113,152,male,1.0,primary
+216,1,know,24,28,19863,19867,5,29.0,41.0,19868.0,19880.0,,,,,verb.cognition,380,direct_object,Ko - ko,39,113,152,male,1.0,primary
+217,2,left,72,76,19953,19957,5,77.0,84.0,19958.0,19965.0,,,,,verb.cognition,384,direct_object,Ko - ko,39,113,152,male,1.0,primary
+219,1,found,56,61,20135,20140,5,62.0,120.0,20141.0,20199.0,,,,,verb.perception,387,direct_object,Ko - ko,39,113,152,male,1.0,primary
+220,0,inquired,15,23,20215,20223,142,24.0,87.0,20224.0,20287.0,,,,,verb.communication,391,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+220,0,inquired,15,23,20215,20223,5,24.0,87.0,20224.0,20287.0,,,,,verb.communication,391,direct_object,Ko - ko,39,113,152,male,1.0,primary
+220,2,succeeded,42,51,20242,20251,142,52.0,87.0,20252.0,20287.0,,,,,verb.social,390,direct_object,the wicked father,11,1,12,male,1.0,tertiary
+220,3,answered,92,100,20292,20300,2,101.0,202.0,20301.0,20402.0,,,,,verb.communication,393,direct_object,Bahmondang,25,56,81,male,1.0,secondary
+220,3,answered,92,100,20292,20300,5,101.0,202.0,20301.0,20402.0,,,,,verb.communication,393,direct_object,Ko - ko,39,113,152,male,1.0,primary
+221,0,saying,1,7,20404,20410,5,8.0,66.0,20411.0,20469.0,,,,,verb.communication,394,direct_object,Ko - ko,39,113,152,male,1.0,primary

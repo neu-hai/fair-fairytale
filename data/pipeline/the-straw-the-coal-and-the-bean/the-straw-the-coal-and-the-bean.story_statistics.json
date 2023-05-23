@@ -1,0 +1,230 @@
+{
+    "characters": {
+        "n": 13,
+        "female": {
+            "n": 4,
+            "p": 0.31
+        },
+        "male": {
+            "n": 2,
+            "p": 0.15
+        },
+        "group/nonbinary": {
+            "n": 1,
+            "p": 0.08
+        },
+        "unknown": {
+            "n": 6,
+            "p": 0.46
+        },
+        "primary": {
+            "n": 5,
+            "p": 0.38
+        },
+        "secondary": {
+            "n": 4,
+            "p": 0.31
+        },
+        "tertiary": {
+            "n": 4,
+            "p": 0.31
+        },
+        "female_primary": {
+            "n": 1,
+            "p": 0.08
+        },
+        "female_secondary": {
+            "n": 3,
+            "p": 0.23
+        },
+        "female_tertiary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "male_primary": {
+            "n": 1,
+            "p": 0.08
+        },
+        "male_secondary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "male_tertiary": {
+            "n": 1,
+            "p": 0.08
+        },
+        "group/nonbinary_primary": {
+            "n": 1,
+            "p": 0.08
+        },
+        "group/nonbinary_secondary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "group/nonbinary_tertiary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "unknown_primary": {
+            "n": 2,
+            "p": 0.15
+        },
+        "unknown_secondary": {
+            "n": 1,
+            "p": 0.08
+        },
+        "unknown_tertiary": {
+            "n": 3,
+            "p": 0.23
+        },
+        "appearances": {
+            "all": [
+                12,
+                8,
+                8,
+                7,
+                7,
+                6,
+                6,
+                4,
+                4,
+                2,
+                2,
+                1,
+                1
+            ],
+            "female": [
+                7,
+                6,
+                4,
+                4
+            ],
+            "male": [
+                7,
+                2
+            ],
+            "group/nonbinary": [
+                12
+            ],
+            "unknown": [
+                8,
+                8,
+                6,
+                2,
+                1,
+                1
+            ]
+        }
+    },
+    "events": {
+        "counts": [
+            {
+                "gender": "female",
+                "importance": "primary",
+                "direct_object": 2,
+                "subject": 3,
+                "total": 5
+            },
+            {
+                "gender": "female",
+                "importance": "secondary",
+                "direct_object": 5,
+                "subject": 9,
+                "total": 14
+            },
+            {
+                "gender": "female",
+                "importance": "total",
+                "direct_object": 7,
+                "subject": 12,
+                "total": 19
+            },
+            {
+                "gender": "group/nonbinary",
+                "importance": "primary",
+                "direct_object": 6,
+                "subject": 6,
+                "total": 12
+            },
+            {
+                "gender": "group/nonbinary",
+                "importance": "total",
+                "direct_object": 6,
+                "subject": 6,
+                "total": 12
+            },
+            {
+                "gender": "male",
+                "importance": "primary",
+                "direct_object": 2,
+                "subject": 5,
+                "total": 7
+            },
+            {
+                "gender": "male",
+                "importance": "tertiary",
+                "direct_object": 1,
+                "subject": 0,
+                "total": 1
+            },
+            {
+                "gender": "male",
+                "importance": "total",
+                "direct_object": 3,
+                "subject": 5,
+                "total": 8
+            },
+            {
+                "gender": "total",
+                "importance": "",
+                "direct_object": 27,
+                "subject": 38,
+                "total": 65
+            },
+            {
+                "gender": "unknown",
+                "importance": "primary",
+                "direct_object": 6,
+                "subject": 11,
+                "total": 17
+            },
+            {
+                "gender": "unknown",
+                "importance": "secondary",
+                "direct_object": 2,
+                "subject": 3,
+                "total": 5
+            },
+            {
+                "gender": "unknown",
+                "importance": "tertiary",
+                "direct_object": 3,
+                "subject": 1,
+                "total": 4
+            },
+            {
+                "gender": "unknown",
+                "importance": "total",
+                "direct_object": 11,
+                "subject": 15,
+                "total": 26
+            }
+        ],
+        "top_events": {
+            "female": [
+                {
+                    "event_lemma": "make",
+                    "argument": "direct_object",
+                    "female_male_odds": 2.78
+                },
+                {
+                    "event_lemma": "laugh",
+                    "argument": "subject",
+                    "female_male_odds": 2.38
+                }
+            ],
+            "male": [],
+            "unbiased": []
+        }
+    }
+}

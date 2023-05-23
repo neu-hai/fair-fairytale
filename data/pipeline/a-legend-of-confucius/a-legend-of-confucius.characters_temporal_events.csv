@@ -1,0 +1,44 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,0,came,15,19,15,19,2,5.0,14.0,5.0,14.0,,,,,verb.motion,0,subject,Confucius,2,9,11,male,1.0,primary
+0,5,sought,165,171,165,171,3,34.0,163.0,34.0,163.0,,,,,verb.contact,2,subject,the Kilin,1,0,1,unknown,0.0,tertiary
+0,5,sought,165,171,165,171,6,34.0,163.0,34.0,163.0,,,,,verb.contact,2,subject,a great man on earth,1,0,1,male,1.0,tertiary
+1,1,studied,23,30,318,325,2,4.0,13.0,299.0,308.0,,,,,verb.cognition,3,subject,Confucius,2,9,11,male,1.0,primary
+1,2,learned,43,50,338,345,2,4.0,13.0,299.0,308.0,,,,,verb.cognition,4,subject,Confucius,2,9,11,male,1.0,primary
+1,3,came,62,66,357,361,2,4.0,13.0,299.0,308.0,,,,,verb.change,5,subject,Confucius,2,9,11,male,1.0,primary
+2,0,did,3,6,380,383,2,0.0,2.0,377.0,379.0,17.0,25.0,394.0,402.0,verb.creation,6,subject,Confucius,2,9,11,male,1.0,primary
+4,1,died,22,26,549,553,2,15.0,17.0,542.0,544.0,,,,,verb.body,7,subject,Confucius,2,9,11,male,1.0,primary
+4,2,gave,30,34,557,561,2,27.0,29.0,554.0,556.0,,,,,verb.communication,10,subject,Confucius,2,9,11,male,1.0,primary
+5,1,conquered,50,59,630,639,4,11.0,45.0,591.0,625.0,,,,,verb.social,9,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+6,0,found,7,12,754,759,4,4.0,6.0,751.0,753.0,,,,,verb.possession,11,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+7,1,wished,27,33,798,804,4,24.0,26.0,795.0,797.0,,,,,verb.emotion,13,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+7,4,see,56,59,827,830,4,24.0,26.0,795.0,797.0,,,,,verb.perception,15,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+8,0,advised,18,25,865,872,2,0.0,17.0,847.0,864.0,,,,,verb.communication,14,subject,Confucius,2,9,11,male,1.0,primary
+8,0,advised,18,25,865,872,17,0.0,17.0,847.0,864.0,,,,,verb.communication,14,subject,Confucius's his officials,1,1,2,group/nonbinary,1.0,tertiary
+8,3,listen,61,67,908,914,4,48.0,50.0,895.0,897.0,,,,,verb.perception,17,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+13,0,seated,16,22,1285,1291,4,0.0,15.0,1269.0,1284.0,31.0,41.0,1300.0,1310.0,verb.contact,18,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+13,1,looked,46,52,1315,1321,4,0.0,15.0,1269.0,1284.0,,,,,verb.perception,19,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+16,1,took,40,44,1516,1520,23,0.0,11.0,1476.0,1487.0,,,,,verb.contact,20,subject,The Emperor,1,2,3,male,1.0,tertiary
+16,2,left,59,63,1535,1539,23,0.0,11.0,1476.0,1487.0,,,,,verb.motion,21,subject,The Emperor,1,2,3,male,1.0,tertiary
+17,5,led,139,142,1690,1693,26,114.0,138.0,1665.0,1689.0,,,,,verb.motion,22,subject,Tsin Schi Huang's army,1,0,1,unknown,0.0,tertiary
+17,5,led,139,142,1690,1693,4,114.0,138.0,1665.0,1689.0,,,,,verb.motion,22,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+18,0,steals,4,10,1738,1744,4,1.0,3.0,1735.0,1737.0,,,,,verb.possession,23,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+18,1,takes,24,29,1758,1763,4,1.0,3.0,1735.0,1737.0,44.0,86.0,1778.0,1820.0,verb.possession,24,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+18,2,reach,47,52,1781,1786,4,1.0,3.0,1735.0,1737.0,,,,,verb.motion,25,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+20,0,reached,12,19,1900,1907,4,9.0,11.0,1897.0,1899.0,,,,,verb.motion,26,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+20,1,fell,31,35,1919,1923,4,28.0,30.0,1916.0,1918.0,,,,,verb.change,27,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+20,2,died,69,73,1957,1961,4,66.0,68.0,1954.0,1956.0,,,,,verb.change,28,subject,Tsin Schi Huang,4,12,16,male,1.0,primary
+0,0,came,15,19,15,19,3,20.0,43.0,20.0,43.0,,,,,verb.motion,0,direct_object,the Kilin,1,0,1,unknown,0.0,tertiary
+0,3,appears,121,128,121,128,7,129.0,221.0,129.0,221.0,,,,,verb.change,1,direct_object,the child,1,0,1,unknown,0.0,tertiary
+0,3,appears,121,128,121,128,6,129.0,221.0,129.0,221.0,,,,,verb.change,1,direct_object,a great man on earth,1,0,1,male,1.0,tertiary
+0,5,sought,165,171,165,171,7,172.0,181.0,172.0,181.0,,,,,verb.contact,2,direct_object,the child,1,0,1,unknown,0.0,tertiary
+1,3,came,62,66,357,361,8,67.0,80.0,362.0,375.0,,,,,verb.change,5,direct_object,a saint,1,0,1,unknown,0.0,tertiary
+2,3,reverenced,61,71,438,448,11,72.0,111.0,449.0,488.0,,,,,verb.emotion,8,direct_object,masters,1,0,1,unknown,0.0,tertiary
+2,3,reverenced,61,71,438,448,10,72.0,111.0,449.0,488.0,,,,,verb.emotion,8,direct_object,teachers,1,0,1,unknown,0.0,tertiary
+6,0,found,7,12,754,759,2,13.0,22.0,760.0,769.0,,,,,verb.possession,11,direct_object,Confucius,2,9,11,male,1.0,primary
+7,0,finding,5,12,776,783,2,13.0,22.0,784.0,793.0,,,,,verb.perception,12,direct_object,Confucius,2,9,11,male,1.0,primary
+7,0,finding,5,12,776,783,4,13.0,22.0,784.0,793.0,,,,,verb.perception,12,direct_object,Tsin Schi Huang,4,12,16,male,1.0,primary
+8,0,advised,18,25,865,872,4,26.0,29.0,873.0,876.0,,,,,verb.communication,14,direct_object,Tsin Schi Huang,4,12,16,male,1.0,primary
+8,3,listen,61,67,908,914,17,68.0,75.0,915.0,922.0,,,,,verb.perception,17,direct_object,Confucius's his officials,1,1,2,group/nonbinary,1.0,tertiary
+12,1,meant,80,85,1231,1236,22,86.0,116.0,1237.0,1267.0,,,,,verb.cognition,16,direct_object,a living person,1,0,1,unknown,0.0,tertiary
+13,0,seated,16,22,1285,1291,4,23.0,30.0,1292.0,1299.0,31.0,41.0,1300.0,1310.0,verb.contact,18,direct_object,Tsin Schi Huang,4,12,16,male,1.0,primary
+20,1,fell,31,35,1919,1923,4,36.0,73.0,1924.0,1961.0,,,,,verb.change,27,direct_object,Tsin Schi Huang,4,12,16,male,1.0,primary

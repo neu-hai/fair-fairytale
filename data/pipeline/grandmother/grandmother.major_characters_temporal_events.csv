@@ -1,0 +1,40 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,0,wears,4,9,205,210,0.0,0.0,3.0,201.0,204.0,39.0,70.0,240.0,271.0,verb.body,True,0,subject,grandmother,5,37,42,female,1.0,primary
+3,1,moves,25,30,297,302,0.0,21.0,24.0,293.0,296.0,,,,,verb.motion,True,1,subject,grandmother,5,37,42,female,1.0,primary
+4,1,tell,17,21,321,325,0.0,9.0,12.0,313.0,316.0,,,,,verb.communication,True,4,subject,grandmother,5,37,42,female,1.0,primary
+5,0,knows,12,17,366,371,0.0,0.0,11.0,354.0,365.0,32.0,96.0,386.0,450.0,verb.cognition,True,3,subject,grandmother,5,37,42,female,1.0,primary
+6,0,has,4,7,456,459,0.0,0.0,3.0,452.0,455.0,,,,,verb.possession,True,2,subject,grandmother,5,37,42,female,1.0,primary
+8,3,smiles,79,85,672,678,0.0,75.0,78.0,668.0,671.0,,,,,verb.body,True,5,subject,grandmother,5,37,42,female,1.0,primary
+9,1,looks,26,31,763,768,33.0,14.0,25.0,751.0,762.0,,,,,verb.perception,True,6,subject,grandmother,5,0,5,female,1.0,tertiary
+10,1,know,7,11,825,829,0.0,3.0,6.0,821.0,824.0,,,,,verb.cognition,True,8,subject,grandmother,5,37,42,female,1.0,primary
+11,2,looking,61,68,893,900,0.0,54.0,57.0,886.0,889.0,,,,,verb.perception,True,7,subject,grandmother,5,37,42,female,1.0,primary
+16,1,smiles,29,35,1428,1434,0.0,25.0,28.0,1424.0,1427.0,,,,,verb.body,True,11,subject,grandmother,5,37,42,female,1.0,primary
+17,1,smile,19,24,1455,1460,0.0,0.0,11.0,1436.0,1447.0,35.0,38.0,1471.0,1474.0,verb.body,True,12,subject,grandmother,5,37,42,female,1.0,primary
+18,1,smiling,12,19,1488,1495,0.0,5.0,8.0,1481.0,1484.0,23.0,41.0,1499.0,1517.0,verb.body,True,13,subject,grandmother,5,37,42,female,1.0,primary
+19,6,looking,134,141,1705,1712,12.0,120.0,132.0,1691.0,1703.0,,,,,verb.perception,True,15,subject,an old woman,1,0,1,female,1.0,tertiary
+21,2,sitting,13,20,1792,1799,0.0,0.0,3.0,1779.0,1782.0,39.0,72.0,1818.0,1851.0,verb.contact,True,14,subject,grandmother,5,37,42,female,1.0,primary
+22,4,leaned,55,61,1907,1913,0.0,27.0,30.0,1879.0,1882.0,,,,,verb.motion,True,16,subject,grandmother,5,37,42,female,1.0,primary
+23,2,slept,42,47,1987,1992,0.0,38.0,41.0,1983.0,1986.0,,,,,verb.body,True,17,subject,grandmother,5,37,42,female,1.0,primary
+26,0,smiled,4,10,2137,2143,0.0,0.0,3.0,2133.0,2136.0,,,,,verb.body,True,18,subject,grandmother,5,37,42,female,1.0,primary
+27,2,looking,32,39,2222,2229,0.0,0.0,3.0,2190.0,2193.0,59.0,128.0,2249.0,2318.0,verb.perception,True,19,subject,grandmother,5,37,42,female,1.0,primary
+28,2,looked,42,48,2361,2367,0.0,33.0,41.0,2352.0,2360.0,,,,,verb.perception,True,20,subject,grandmother,5,37,42,female,1.0,primary
+30,5,wished,86,92,2621,2627,0.0,78.0,81.0,2613.0,2616.0,,,,,verb.emotion,True,21,subject,grandmother,5,37,42,female,1.0,primary
+31,0,buried,15,21,2646,2652,14.0,10.0,14.0,2641.0,2645.0,,,,,verb.contact,True,23,subject,people,1,2,3,group/nonbinary,1.0,tertiary
+32,0,planted,49,56,2715,2722,14.0,44.0,48.0,2710.0,2714.0,,,,,verb.contact,True,24,subject,people,1,2,3,group/nonbinary,1.0,tertiary
+33,2,sang,75,79,2810,2814,18.0,32.0,47.0,2767.0,2782.0,,,,,verb.creation,True,25,subject,the nightingale,2,0,2,unknown,0.0,tertiary
+36,2,pluck,49,54,3096,3101,24.0,1.0,12.0,3048.0,3059.0,,,,,verb.contact,True,28,subject,every child,1,0,1,unknown,0.0,tertiary
+37,0,know,9,13,3156,3160,23.0,0.0,8.0,3147.0,3155.0,,,,,verb.cognition,True,27,subject,The dead,3,2,5,unknown,0.0,tertiary
+38,0,know,5,9,3198,3202,23.0,0.0,4.0,3193.0,3197.0,,,,,verb.cognition,True,29,subject,The dead,3,2,5,unknown,0.0,tertiary
+40,0,return,10,16,3363,3369,23.0,1.0,9.0,3354.0,3362.0,,,,,verb.motion,True,30,subject,The dead,3,2,5,unknown,0.0,tertiary
+45,1,die,15,18,3777,3780,1.0,0.0,4.0,3762.0,3766.0,,,,,verb.change,True,31,subject,Eyes,1,0,1,unknown,0.0,tertiary
+6,0,has,4,7,456,459,0.0,8.0,70.0,460.0,522.0,,,,,verb.possession,True,2,direct_object,grandmother,5,37,42,female,1.0,primary
+14,3,left,71,75,1332,1336,0.0,76.0,90.0,1337.0,1351.0,,,,,verb.possession,True,9,direct_object,grandmother,5,37,42,female,1.0,primary
+15,0,sits,12,16,1365,1369,9.0,17.0,45.0,1370.0,1398.0,,,,,verb.contact,True,10,direct_object,a young man,1,1,2,male,1.0,tertiary
+21,2,sitting,13,20,1792,1799,0.0,21.0,37.0,1800.0,1816.0,39.0,72.0,1818.0,1851.0,verb.contact,True,14,direct_object,grandmother,5,37,42,female,1.0,primary
+22,4,leaned,55,61,1907,1913,0.0,62.0,70.0,1914.0,1922.0,,,,,verb.motion,True,16,direct_object,grandmother,5,37,42,female,1.0,primary
+29,1,feel,11,15,2443,2447,15.0,16.0,101.0,2448.0,2533.0,,,,,verb.emotion,True,22,direct_object,"a dear , good grandmother",1,0,1,female,1.0,tertiary
+29,1,feel,11,15,2443,2447,0.0,16.0,101.0,2448.0,2533.0,,,,,verb.emotion,True,22,direct_object,grandmother,5,37,42,female,1.0,primary
+31,0,buried,15,21,2646,2652,33.0,22.0,33.0,2653.0,2664.0,,,,,verb.contact,True,23,direct_object,grandmother,5,0,5,female,1.0,tertiary
+34,0,sounded,29,36,2860,2867,21.0,37.0,151.0,2868.0,2982.0,,,,,verb.perception,True,26,direct_object,the dead one,1,0,1,unknown,0.0,tertiary
+38,0,know,5,9,3198,3202,26.0,10.0,126.0,3203.0,3319.0,,,,,verb.cognition,True,29,direct_object,a dead person among us,1,0,1,unknown,0.0,tertiary
+46,1,behold,21,27,3803,3809,31.0,28.0,65.0,3810.0,3847.0,66.0,156.0,3848.0,3938.0,verb.perception,True,32,direct_object,dear grandmother,1,1,2,female,1.0,tertiary

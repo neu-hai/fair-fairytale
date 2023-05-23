@@ -1,0 +1,169 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,served,9,15,9,15,0,0.0,4.0,0.0,4.0,,,,,verb.social,True,0,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+1,0,said,34,38,74,78,0,31.0,33.0,71.0,73.0,,,,,verb.communication,True,1,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+2,0,want,2,6,106,110,0,0.0,1.0,104.0,105.0,,,,,verb.emotion,True,2,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+3,2,said,43,47,206,210,2,1.0,40.0,164.0,203.0,,,,,verb.communication,True,4,subject,the master,1.0,2.0,3.0,male,1.0,tertiary
+3,2,said,43,47,206,210,0,1.0,40.0,164.0,203.0,,,,,verb.communication,True,4,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+4,3,gave,50,54,273,277,2,47.0,49.0,270.0,272.0,,,,,verb.possession,True,3,subject,the master,1.0,2.0,3.0,male,1.0,tertiary
+5,2,hoisted,83,90,400,407,0,0.0,4.0,317.0,321.0,,,,,verb.contact,True,5,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+6,1,trudging,14,22,471,479,0,7.0,9.0,464.0,466.0,,,,,verb.motion,True,6,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+10,1,say,24,27,786,789,0,19.0,23.0,781.0,785.0,,,,,verb.communication,True,9,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+11,4,carry,61,66,921,926,0,35.0,36.0,895.0,896.0,,,,,verb.contact,True,8,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+13,2,said,22,26,1048,1052,5,1.0,19.0,1027.0,1045.0,,,,,verb.communication,True,11,subject,The horseman,3.0,7.0,10.0,male,1.0,tertiary
+13,2,said,22,26,1048,1052,0,1.0,19.0,1027.0,1045.0,,,,,verb.communication,True,11,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+14,1,give,7,11,1091,1095,5,0.0,1.0,1084.0,1085.0,,,,,verb.possession,True,12,subject,The horseman,3.0,7.0,10.0,male,1.0,tertiary
+15,0,said,21,25,1173,1177,0,1.0,18.0,1153.0,1170.0,,,,,verb.communication,True,13,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+16,0,warn,7,11,1191,1195,0,5.0,6.0,1189.0,1190.0,,,,,verb.communication,True,14,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+17,1,took,30,34,1256,1260,5,4.0,16.0,1230.0,1242.0,,,,,verb.contact,True,15,subject,The horseman,3.0,7.0,10.0,male,1.0,tertiary
+19,4,click,47,52,1368,1373,0,38.0,41.0,1359.0,1362.0,,,,,verb.communication,True,18,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+20,0,sat,16,19,1421,1424,0,13.0,15.0,1418.0,1420.0,,,,,verb.contact,True,17,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+21,5,click,70,75,1561,1566,0,58.0,60.0,1549.0,1551.0,,,,,verb.motion,True,19,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+22,3,thrown,42,48,1646,1652,0,33.0,37.0,1637.0,1641.0,,,,,verb.contact,True,20,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+23,0,lay,9,12,1703,1706,0,6.0,8.0,1700.0,1702.0,,,,,verb.contact,True,22,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+25,2,feeling,56,63,1922,1929,0,4.0,8.0,1870.0,1874.0,,,,,verb.emotion,True,23,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+28,1,try,14,17,2111,2114,0,12.0,13.0,2109.0,2110.0,28.0,33.0,2125.0,2130.0,verb.social,True,24,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+30,2,have,41,45,2214,2218,42,0.0,3.0,2173.0,2176.0,75.0,102.0,2248.0,2275.0,verb.possession,True,26,subject,,,,,,,
+31,1,give,17,21,2294,2298,0,0.0,4.0,2277.0,2281.0,,,,,verb.possession,True,27,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+32,6,exchanging,86,96,2406,2416,0,73.0,74.0,2393.0,2394.0,,,,,verb.possession,True,28,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+33,1,swinging,44,52,2485,2493,11,31.0,42.0,2472.0,2483.0,61.0,76.0,2502.0,2517.0,verb.motion,True,29,subject,the peasant,4.0,1.0,5.0,unknown,0.0,tertiary
+34,1,driving,20,27,2562,2569,0,4.0,8.0,2546.0,2550.0,36.0,54.0,2578.0,2596.0,verb.motion,True,30,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+35,3,want,67,71,2725,2729,0,41.0,51.0,2699.0,2709.0,,,,,verb.consumption,True,31,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+36,3,milk,44,48,2835,2839,0,16.0,17.0,2807.0,2808.0,,,,,verb.consumption,True,32,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+38,0,came,12,16,2899,2903,0,9.0,11.0,2896.0,2898.0,,,,,verb.motion,True,33,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+39,0,bought,3,9,3033,3039,0,0.0,2.0,3030.0,3032.0,31.0,58.0,3061.0,3088.0,verb.possession,True,34,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+40,1,driving,22,29,3112,3119,0,8.0,10.0,3098.0,3100.0,,,,,verb.motion,True,35,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+42,0,found,5,10,3269,3274,0,0.0,4.0,3264.0,3268.0,19.0,29.0,3283.0,3293.0,verb.perception,True,36,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+43,1,feel,16,20,3356,3360,0,4.0,6.0,3344.0,3346.0,,,,,verb.body,True,37,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+45,1,find,7,11,3466,3470,0,1.0,2.0,3460.0,3461.0,,,,,verb.possession,True,38,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+46,1,milk,7,11,3488,3492,0,0.0,1.0,3481.0,3482.0,19.0,26.0,3500.0,3507.0,verb.consumption,True,40,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+47,4,milk,93,97,3603,3607,0,81.0,83.0,3591.0,3593.0,,,,,verb.consumption,True,41,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+48,2,gave,60,64,3690,3694,17,40.0,59.0,3670.0,3689.0,,,,,verb.communication,True,42,subject,the impatient beast,1.0,1.0,2.0,unknown,0.0,tertiary
+54,0,handed,12,18,4042,4048,19,0.0,11.0,4030.0,4041.0,41.0,88.0,4071.0,4118.0,verb.possession,True,46,subject,the butcher,2.0,4.0,6.0,male,1.0,tertiary
+56,3,slaughtered,50,61,4208,4219,17,0.0,3.0,4158.0,4161.0,,,,,verb.contact,True,47,subject,the impatient beast,1.0,1.0,2.0,unknown,0.0,tertiary
+57,2,scratching,31,41,4253,4263,0,25.0,29.0,4247.0,4251.0,,,,,verb.contact,True,49,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+59,2,has,60,63,4362,4365,47,54.0,59.0,4356.0,4361.0,,,,,verb.possession,True,48,subject,a man,3.0,4.0,7.0,male,1.0,tertiary
+60,1,care,21,25,4415,4419,0,12.0,13.0,4406.0,4407.0,,,,,verb.emotion,True,50,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+61,0,had,10,13,4475,4478,0,8.0,9.0,4473.0,4474.0,,,,,verb.consumption,True,51,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+62,3,exchange,66,74,4612,4620,19,38.0,58.0,4584.0,4604.0,,,,,verb.possession,True,52,subject,the butcher,2.0,4.0,6.0,male,1.0,tertiary
+62,3,exchange,66,74,4612,4620,0,38.0,58.0,4584.0,4604.0,,,,,verb.possession,True,52,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+65,1,received,25,33,4737,4745,0,22.0,24.0,4734.0,4736.0,,,,,verb.perception,True,54,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+67,2,carrying,49,57,5035,5043,21,30.0,39.0,5016.0,5025.0,77.0,90.0,5063.0,5076.0,verb.contact,True,55,subject,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+68,1,began,39,44,5117,5122,0,34.0,38.0,5112.0,5116.0,,,,,verb.change,True,57,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+69,0,told,16,20,5207,5211,11,4.0,15.0,5195.0,5206.0,,,,,verb.communication,True,58,subject,the peasant,4.0,1.0,5.0,unknown,0.0,tertiary
+74,2,despised,25,33,5521,5529,0,5.0,11.0,5501.0,5507.0,,,,,verb.emotion,True,59,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+75,0,glanced,23,30,5555,5562,11,11.0,22.0,5543.0,5554.0,,,,,verb.perception,True,61,subject,the peasant,4.0,1.0,5.0,unknown,0.0,tertiary
+76,1,said,15,19,5623,5627,21,1.0,12.0,5609.0,5620.0,,,,,verb.communication,True,63,subject,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+78,0,fear,2,6,5777,5781,21,0.0,1.0,5775.0,5776.0,,,,,verb.emotion,True,64,subject,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+81,0,grew,10,14,5992,5996,0,0.0,9.0,5982.0,5991.0,,,,,verb.change,True,65,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+85,1,drove,40,45,6295,6300,26,37.0,39.0,6292.0,6294.0,54.0,77.0,6309.0,6332.0,verb.motion,True,69,subject,the man,2.0,21.0,23.0,male,1.0,tertiary
+86,0,went,11,15,6345,6349,0,0.0,10.0,6334.0,6344.0,32.0,60.0,6366.0,6394.0,verb.motion,True,70,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+88,0,get,8,11,6481,6484,0,6.0,7.0,6479.0,6480.0,,,,,verb.possession,True,71,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+89,1,stuff,48,53,6616,6621,0,42.0,43.0,6610.0,6611.0,,,,,verb.contact,True,73,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+90,1,sleep,24,29,6662,6667,0,16.0,17.0,6654.0,6655.0,,,,,verb.body,True,76,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+91,0,reached,12,19,6725,6732,0,9.0,11.0,6722.0,6724.0,,,,,verb.motion,True,75,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+92,3,grind,59,64,6850,6855,26,45.0,58.0,6836.0,6849.0,,,,,verb.contact,True,74,subject,the man,2.0,21.0,23.0,male,1.0,tertiary
+94,1,looked,19,25,6988,6994,0,4.0,8.0,6973.0,6977.0,,,,,verb.perception,True,78,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+95,1,said,28,32,7031,7035,0,8.0,10.0,7011.0,7013.0,,,,,verb.communication,True,79,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+97,0,call,2,6,7160,7164,0,0.0,1.0,7158.0,7159.0,,,,,verb.communication,True,82,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+98,1,buy,18,21,7270,7273,0,14.0,17.0,7266.0,7269.0,,,,,verb.possession,True,81,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+99,2,exchanged,25,34,7317,7326,0,23.0,24.0,7315.0,7316.0,,,,,verb.possession,True,83,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+101,0,exchanged,8,17,7377,7386,0,1.0,5.0,7370.0,7374.0,,,,,verb.possession,True,84,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+103,0,exchanged,8,17,7422,7431,0,1.0,5.0,7415.0,7419.0,,,,,verb.possession,True,85,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+105,0,gave,3,7,7466,7470,0,1.0,2.0,7464.0,7465.0,,,,,verb.possession,True,86,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+108,3,said,50,54,7635,7639,0,1.0,47.0,7586.0,7632.0,,,,,verb.communication,True,88,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+109,1,manage,23,29,7682,7688,0,9.0,12.0,7668.0,7671.0,59.0,77.0,7718.0,7736.0,verb.social,True,87,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+110,1,manage,13,19,7787,7793,0,11.0,12.0,7785.0,7786.0,,,,,verb.social,True,89,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+112,2,said,39,43,7851,7855,26,1.0,36.0,7813.0,7848.0,,,,,verb.communication,True,91,subject,the man,2.0,21.0,23.0,male,1.0,tertiary
+112,2,said,39,43,7851,7855,59,1.0,36.0,7813.0,7848.0,,,,,verb.communication,True,91,subject,the man's knife - grinder like me,1.0,0.0,1.0,unknown,0.0,tertiary
+112,2,said,39,43,7851,7855,0,1.0,36.0,7813.0,7848.0,,,,,verb.communication,True,91,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+113,0,want,9,13,7874,7878,0,5.0,8.0,7870.0,7873.0,,,,,verb.emotion,True,90,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+114,4,mind,47,51,7986,7990,26,39.0,40.0,7978.0,7979.0,,,,,verb.cognition,True,92,subject,the man,2.0,21.0,23.0,male,1.0,tertiary
+116,1,ask,13,16,8067,8070,26,9.0,12.0,8063.0,8066.0,,,,,verb.communication,True,94,subject,the man,2.0,21.0,23.0,male,1.0,tertiary
+119,0,find,9,13,8143,8147,0,7.0,8.0,8141.0,8142.0,20.0,55.0,8154.0,8189.0,verb.possession,True,96,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+120,1,received,50,58,8278,8286,0,7.0,9.0,8235.0,8237.0,,,,,verb.possession,True,97,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+123,1,carried,29,36,8591,8598,0,0.0,4.0,8562.0,8566.0,44.0,65.0,8606.0,8627.0,verb.contact,True,100,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+124,3,born,18,22,8647,8651,0,1.0,2.0,8630.0,8631.0,,,,,verb.creation,True,99,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+126,1,wish,16,20,8732,8736,0,1.0,2.0,8717.0,8718.0,,,,,verb.communication,True,102,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+127,1,feel,26,30,8792,8796,0,14.0,16.0,8780.0,8782.0,,,,,verb.body,True,103,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+128,1,feel,17,21,8878,8882,0,0.0,2.0,8861.0,8863.0,,,,,verb.body,True,104,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+130,3,make,51,55,9023,9027,0,8.0,10.0,8980.0,8982.0,63.0,75.0,9035.0,9047.0,verb.social,True,106,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+132,4,feel,42,46,9138,9142,0,31.0,33.0,9127.0,9129.0,,,,,verb.emotion,True,105,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+133,0,went,10,14,9181,9185,0,7.0,9.0,9178.0,9180.0,,,,,verb.motion,True,107,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+134,0,thought,8,15,9237,9244,0,5.0,7.0,9234.0,9236.0,,,,,verb.cognition,True,108,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+135,0,placed,7,13,9303,9309,0,4.0,6.0,9300.0,9302.0,25.0,70.0,9321.0,9366.0,verb.contact,True,109,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+136,2,drink,39,44,9407,9412,0,25.0,27.0,9393.0,9395.0,,,,,verb.consumption,True,110,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+138,3,jumped,46,52,9551,9557,0,9.0,13.0,9514.0,9518.0,,,,,verb.motion,True,111,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+140,0,went,9,13,9784,9788,0,6.0,8.0,9781.0,9783.0,,,,,verb.motion,True,113,subject,Hans,31.0,190.0,221.0,male,1.0,primary
+0,1,served,9,15,9,15,1,16.0,26.0,16.0,26.0,,,,,verb.social,True,0,direct_object,Hans's master,1.0,0.0,1.0,unknown,0.0,tertiary
+0,1,served,9,15,9,15,0,16.0,26.0,16.0,26.0,,,,,verb.social,True,0,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+1,0,said,34,38,74,78,0,41.0,62.0,81.0,102.0,,,,,verb.communication,True,1,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+1,0,said,34,38,74,78,39,41.0,62.0,81.0,102.0,,,,,verb.communication,True,1,direct_object,Master,1.0,0.0,1.0,unknown,0.0,tertiary
+2,0,want,2,6,106,110,0,7.0,56.0,111.0,160.0,,,,,verb.emotion,True,2,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+2,0,want,2,6,106,110,41,7.0,56.0,111.0,160.0,,,,,verb.emotion,True,2,direct_object,Hans's mother,2.0,0.0,2.0,female,1.0,tertiary
+3,2,said,43,47,206,210,2,48.0,58.0,211.0,221.0,,,,,verb.communication,True,4,direct_object,the master,1.0,2.0,3.0,male,1.0,tertiary
+4,3,gave,50,54,273,277,0,55.0,58.0,278.0,281.0,,,,,verb.possession,True,3,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+5,2,hoisted,83,90,400,407,0,91.0,93.0,408.0,410.0,,,,,verb.contact,True,5,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+9,2,saving,76,82,704,710,42,83.0,94.0,711.0,722.0,,,,,verb.possession,True,7,direct_object,,,,,,,
+12,4,hurts,78,83,1006,1011,0,84.0,95.0,1012.0,1023.0,,,,,verb.body,True,10,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+13,2,said,22,26,1048,1052,5,27.0,39.0,1053.0,1065.0,,,,,verb.communication,True,11,direct_object,The horseman,3.0,7.0,10.0,male,1.0,tertiary
+14,1,give,7,11,1091,1095,5,12.0,15.0,1096.0,1099.0,,,,,verb.possession,True,12,direct_object,The horseman,3.0,7.0,10.0,male,1.0,tertiary
+14,1,give,7,11,1091,1095,0,12.0,15.0,1096.0,1099.0,,,,,verb.possession,True,12,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+15,0,said,21,25,1173,1177,0,26.0,30.0,1178.0,1182.0,,,,,verb.communication,True,13,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+16,0,warn,7,11,1191,1195,0,12.0,15.0,1196.0,1199.0,,,,,verb.communication,True,14,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+18,0,helping,0,7,1271,1278,5,8.0,15.0,1279.0,1286.0,,,,,verb.social,True,16,direct_object,The horseman,3.0,7.0,10.0,male,1.0,tertiary
+18,0,helping,0,7,1271,1278,0,8.0,15.0,1279.0,1286.0,,,,,verb.social,True,16,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+19,4,click,47,52,1368,1373,0,53.0,64.0,1374.0,1385.0,,,,,verb.communication,True,18,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+20,0,sat,16,19,1421,1424,0,20.0,34.0,1425.0,1439.0,,,,,verb.contact,True,17,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+24,7,driving,95,102,1840,1847,0,103.0,108.0,1848.0,1853.0,,,,,verb.motion,True,21,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+26,1,said,21,25,1963,1967,0,26.0,28.0,1968.0,1970.0,,,,,verb.communication,True,25,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+30,2,have,41,45,2214,2218,42,46.0,74.0,2219.0,2247.0,75.0,102.0,2248.0,2275.0,verb.possession,True,26,direct_object,,,,,,,
+32,6,exchanging,86,96,2406,2416,0,97.0,103.0,2417.0,2423.0,,,,,verb.possession,True,28,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+33,1,swinging,44,52,2485,2493,11,53.0,60.0,2494.0,2501.0,61.0,76.0,2502.0,2517.0,verb.motion,True,29,direct_object,the peasant,4.0,1.0,5.0,unknown,0.0,tertiary
+34,1,driving,20,27,2562,2569,0,28.0,35.0,2570.0,2577.0,36.0,54.0,2578.0,2596.0,verb.motion,True,30,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+36,3,milk,44,48,2835,2839,0,49.0,55.0,2840.0,2846.0,,,,,verb.consumption,True,32,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+40,1,driving,22,29,3112,3119,0,30.0,37.0,3120.0,3127.0,,,,,verb.motion,True,35,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+42,0,found,5,10,3269,3274,0,11.0,18.0,3275.0,3282.0,19.0,29.0,3283.0,3293.0,verb.perception,True,36,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+44,1,said,14,18,3448,3452,0,19.0,23.0,3453.0,3457.0,,,,,verb.communication,True,39,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+46,1,milk,7,11,3488,3492,0,12.0,18.0,3493.0,3499.0,19.0,26.0,3500.0,3507.0,verb.consumption,True,40,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+48,2,gave,60,64,3690,3694,0,65.0,68.0,3695.0,3698.0,,,,,verb.communication,True,42,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+49,1,think,24,29,3794,3799,0,30.0,42.0,3800.0,3812.0,,,,,verb.cognition,True,43,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+52,0,cried,0,5,3935,3940,18,6.0,8.0,3941.0,3943.0,10.0,45.0,,,verb.communication,True,44,direct_object,a butcher who was wheeling along a young pig in a wheelbarrow,1.0,2.0,3.0,male,1.0,tertiary
+53,0,related,10,17,3992,3999,18,18.0,24.0,4000.0,4006.0,,,,,verb.communication,True,45,direct_object,a butcher who was wheeling along a young pig in a wheelbarrow,1.0,2.0,3.0,male,1.0,tertiary
+54,0,handed,12,18,4042,4048,19,19.0,22.0,4049.0,4052.0,41.0,88.0,4071.0,4118.0,verb.possession,True,46,direct_object,the butcher,2.0,4.0,6.0,male,1.0,tertiary
+54,0,handed,12,18,4042,4048,0,19.0,22.0,4049.0,4052.0,41.0,88.0,4071.0,4118.0,verb.possession,True,46,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+57,2,scratching,31,41,4253,4263,0,42.0,50.0,4264.0,4272.0,,,,,verb.contact,True,49,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+59,2,has,60,63,4362,4365,47,64.0,90.0,4366.0,4392.0,,,,,verb.possession,True,48,direct_object,a man,3.0,4.0,7.0,male,1.0,tertiary
+64,0,cried,0,5,4700,4705,0,6.0,10.0,4706.0,4710.0,,,,,verb.communication,True,53,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+65,1,received,25,33,4737,4745,19,46.0,122.0,4758.0,4834.0,,,,,verb.perception,True,54,direct_object,the butcher,2.0,4.0,6.0,male,1.0,tertiary
+66,1,thinking,17,25,4853,4861,0,26.0,75.0,4862.0,4911.0,,,,,verb.cognition,True,56,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+68,1,began,39,44,5117,5122,0,45.0,111.0,5123.0,5189.0,,,,,verb.change,True,57,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+69,0,told,16,20,5207,5211,21,21.0,71.0,5212.0,5262.0,,,,,verb.communication,True,58,direct_object,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+70,2,said,29,33,5293,5297,21,34.0,36.0,5298.0,5300.0,38.0,63.0,5302.0,5327.0,verb.communication,True,60,direct_object,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+76,1,said,15,19,5623,5627,21,20.0,22.0,5628.0,5630.0,,,,,verb.communication,True,63,direct_object,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+77,4,stolen,54,60,5743,5749,50,61.0,84.0,5750.0,5773.0,,,,,verb.possession,True,62,direct_object,the bailiff,1.0,1.0,2.0,unknown,0.0,tertiary
+78,0,fear,2,6,5777,5781,21,8.0,39.0,5783.0,5814.0,,,,,verb.emotion,True,64,direct_object,a peasant,1.0,16.0,17.0,male,1.0,tertiary
+82,1,help,31,35,6046,6050,0,36.0,38.0,6051.0,6053.0,39.0,42.0,,,verb.social,True,66,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+83,0,take,0,4,6106,6110,0,5.0,11.0,6111.0,6117.0,,,,,verb.social,True,67,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+84,3,answered,32,40,6175,6183,26,41.0,48.0,6184.0,6191.0,,,,,verb.communication,True,68,direct_object,the man,2.0,21.0,23.0,male,1.0,tertiary
+86,0,went,11,15,6345,6349,0,16.0,31.0,6350.0,6365.0,32.0,60.0,6366.0,6394.0,verb.motion,True,70,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+87,1,said,26,30,6422,6426,0,31.0,33.0,6427.0,6429.0,,,,,verb.communication,True,72,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+89,1,stuff,48,53,6616,6621,0,54.0,63.0,6622.0,6631.0,,,,,verb.contact,True,73,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+93,4,serves,74,80,6952,6958,26,81.0,88.0,6959.0,6966.0,,,,,verb.social,True,77,direct_object,the man,2.0,21.0,23.0,male,1.0,tertiary
+94,1,looked,19,25,6988,6994,26,26.0,32.0,6995.0,7001.0,,,,,verb.perception,True,78,direct_object,the man,2.0,21.0,23.0,male,1.0,tertiary
+95,1,said,28,32,7031,7035,26,35.0,87.0,7038.0,7090.0,,,,,verb.communication,True,79,direct_object,the man,2.0,21.0,23.0,male,1.0,tertiary
+96,0,answered,7,15,7100,7108,30,16.0,33.0,7109.0,7126.0,,,,,verb.communication,True,80,direct_object,the knife - grinder,3.0,0.0,3.0,unknown,0.0,tertiary
+97,0,call,2,6,7160,7164,47,7.0,12.0,7165.0,7170.0,,,,,verb.communication,True,82,direct_object,a man,3.0,4.0,7.0,male,1.0,tertiary
+97,0,call,2,6,7160,7164,58,7.0,12.0,7165.0,7170.0,,,,,verb.communication,True,82,direct_object,a good grinder,1.0,0.0,1.0,unknown,0.0,tertiary
+99,2,exchanged,25,34,7317,7326,0,35.0,37.0,7327.0,7329.0,,,,,verb.possession,True,83,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+105,0,gave,3,7,7466,7470,0,8.0,21.0,7471.0,7484.0,,,,,verb.possession,True,86,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+108,3,said,50,54,7635,7639,30,55.0,72.0,7640.0,7657.0,,,,,verb.communication,True,88,direct_object,the knife - grinder,3.0,0.0,3.0,unknown,0.0,tertiary
+109,1,manage,23,29,7682,7688,0,30.0,58.0,7689.0,7717.0,59.0,77.0,7718.0,7736.0,verb.social,True,87,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+112,2,said,39,43,7851,7855,26,44.0,51.0,7856.0,7863.0,,,,,verb.communication,True,91,direct_object,the man,2.0,21.0,23.0,male,1.0,tertiary
+114,4,mind,47,51,7986,7990,0,52.0,98.0,7991.0,8037.0,,,,,verb.cognition,True,92,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+115,0,say,5,8,8044,8047,0,9.0,12.0,8048.0,8051.0,,,,,verb.communication,True,93,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+117,0,answered,0,8,8073,8081,0,9.0,13.0,8082.0,8086.0,,,,,verb.communication,True,95,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+121,0,said,7,11,8322,8326,30,12.0,29.0,8327.0,8344.0,31.0,79.0,,,verb.communication,True,98,direct_object,the knife - grinder,3.0,0.0,3.0,unknown,0.0,tertiary
+125,0,cried,0,5,8673,8678,0,6.0,8.0,8679.0,8681.0,10.0,41.0,,,verb.communication,True,101,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+134,0,thought,8,15,9237,9244,0,16.0,65.0,9245.0,9294.0,,,,,verb.cognition,True,108,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+135,0,placed,7,13,9303,9309,0,14.0,24.0,9310.0,9320.0,25.0,70.0,9321.0,9366.0,verb.contact,True,109,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary
+139,1,cried,18,23,9726,9731,0,24.0,26.0,9732.0,9734.0,,,,,verb.communication,True,112,direct_object,Hans,31.0,190.0,221.0,male,1.0,primary

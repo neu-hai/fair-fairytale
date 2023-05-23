@@ -1,0 +1,375 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,had,36,39,36,39,37,15.0,31.0,15.0,31.0,,,,,verb.possession,True,0,subject,a king,2,0,2,male,1.0,tertiary
+0,1,had,36,39,36,39,38,15.0,31.0,15.0,31.0,,,,,verb.possession,True,0,subject,queen,1,0,1,female,1.0,tertiary
+1,4,knew,128,132,215,219,41,116.0,123.0,203.0,210.0,,,,,verb.cognition,True,1,subject,the queen,5,21,26,female,1.0,tertiary
+2,7,beg,210,213,551,554,48,177.0,194.0,518.0,535.0,,,,,verb.communication,True,2,subject,a man with a harp,1,0,1,male,1.0,tertiary
+4,10,rise,177,181,917,921,41,175.0,176.0,915.0,916.0,,,,,verb.motion,True,3,subject,the queen,5,21,26,female,1.0,tertiary
+5,1,make,20,24,1001,1005,210,9.0,12.0,990.0,993.0,,,,,verb.communication,True,4,subject,another wife,1,1,2,female,1.0,tertiary
+6,0,promised,12,20,1136,1144,53,4.0,8.0,1128.0,1132.0,,,,,verb.communication,True,5,subject,the queen's husband,1,10,11,male,1.0,tertiary
+7,0,bade,17,21,1167,1171,41,5.0,8.0,1155.0,1158.0,26.0,77.0,1176.0,1227.0,verb.communication,True,6,subject,the queen,5,21,26,female,1.0,tertiary
+8,0,promised,17,25,1246,1254,53,14.0,16.0,1243.0,1245.0,,,,,verb.communication,True,8,subject,the queen's husband,1,10,11,male,1.0,tertiary
+9,3,lay,77,80,1505,1508,41,67.0,76.0,1495.0,1504.0,,,,,verb.body,True,7,subject,the queen,5,21,26,female,1.0,tertiary
+10,2,said,33,37,1608,1612,54,1.0,30.0,1576.0,1605.0,,,,,verb.communication,True,9,subject,the king,4,27,31,male,1.0,tertiary
+10,2,said,33,37,1608,1612,212,1.0,30.0,1576.0,1605.0,,,,,verb.communication,True,9,subject,a wife,3,0,3,female,1.0,tertiary
+11,1,tell,15,19,1669,1673,54,4.0,6.0,1658.0,1660.0,,,,,verb.communication,True,10,subject,the king,4,27,31,male,1.0,tertiary
+12,2,heard,54,59,1746,1751,41,50.0,53.0,1742.0,1745.0,63.0,70.0,1755.0,1762.0,verb.perception,True,11,subject,the queen,5,21,26,female,1.0,tertiary
+14,0,heard,8,13,2087,2092,54,5.0,7.0,2084.0,2086.0,,,,,verb.perception,True,13,subject,the king,4,27,31,male,1.0,tertiary
+15,8,beheld,173,179,2300,2306,54,170.0,172.0,2297.0,2299.0,,,,,verb.cognition,True,14,subject,the king,4,27,31,male,1.0,tertiary
+17,8,answered,117,125,2458,2466,54,92.0,110.0,2433.0,2451.0,,,,,verb.communication,True,15,subject,the king,4,27,31,male,1.0,tertiary
+17,8,answered,117,125,2458,2466,12,92.0,110.0,2433.0,2451.0,,,,,verb.communication,True,15,subject,Kilweh,33,82,115,male,1.0,primary
+33,1,say,26,29,3967,3970,12,24.0,25.0,3965.0,3966.0,,,,,verb.communication,True,22,subject,Kilweh,33,82,115,male,1.0,primary
+35,3,peppered,101,109,4175,4183,79,77.0,89.0,4151.0,4163.0,,,,,verb.consumption,True,23,subject,Kilweh's man coming out to him,1,6,7,male,1.0,tertiary
+36,2,answered,27,35,4266,4274,12,0.0,24.0,4239.0,4263.0,,,,,verb.communication,True,24,subject,Kilweh,33,82,115,male,1.0,primary
+38,3,enter,75,80,4495,4500,80,61.0,64.0,4481.0,4484.0,,,,,verb.motion,True,25,subject,the porter,7,23,30,male,1.0,tertiary
+39,1,said,45,49,4587,4591,15,38.0,44.0,4580.0,4586.0,,,,,verb.communication,True,26,subject,Thither Arthur,36,58,94,male,1.0,primary
+40,0,answered,15,23,4649,4657,80,4.0,14.0,4638.0,4648.0,,,,,verb.communication,True,28,subject,the porter,7,23,30,male,1.0,tertiary
+41,1,stands,65,71,4814,4820,15,53.0,56.0,4802.0,4805.0,,,,,verb.contact,True,27,subject,Thither Arthur,36,58,94,male,1.0,primary
+43,0,unbarred,12,20,5056,5064,17,3.0,11.0,5047.0,5055.0,,,,,verb.contact,True,29,subject,Glewlwyd,3,3,6,male,1.0,tertiary
+44,1,cried,41,46,5152,5157,233,0.0,38.0,5111.0,5149.0,,,,,verb.communication,True,31,subject,O ruler of this land,1,0,1,unknown,0.0,tertiary
+44,1,cried,41,46,5152,5157,80,0.0,38.0,5111.0,5149.0,,,,,verb.communication,True,31,subject,the porter,7,23,30,male,1.0,tertiary
+45,1,answered,24,32,5244,5252,80,0.0,21.0,5220.0,5241.0,,,,,verb.communication,True,32,subject,the porter,7,23,30,male,1.0,tertiary
+47,1,come,10,14,5423,5427,12,1.0,2.0,5414.0,5415.0,,,,,verb.motion,True,34,subject,Kilweh,33,82,115,male,1.0,primary
+48,1,grant,20,25,5607,5612,80,7.0,10.0,5594.0,5597.0,,,,,verb.communication,True,35,subject,the porter,7,23,30,male,1.0,tertiary
+49,3,said,39,43,5730,5734,80,1.0,36.0,5692.0,5727.0,53.0,165.0,5744.0,5856.0,verb.communication,True,37,subject,the porter,7,23,30,male,1.0,tertiary
+51,2,answered,59,67,6021,6029,15,52.0,58.0,6014.0,6020.0,,,,,verb.communication,True,38,subject,Thither Arthur,36,58,94,male,1.0,primary
+52,2,combed,95,101,6158,6164,15,92.0,94.0,6155.0,6157.0,,,,,verb.contact,True,39,subject,Thither Arthur,36,58,94,male,1.0,primary
+53,3,warms,46,51,6241,6246,15,37.0,45.0,6232.0,6240.0,,,,,verb.change,True,40,subject,Thither Arthur,36,58,94,male,1.0,primary
+54,1,replied,30,37,6323,6330,243,0.0,27.0,6293.0,6320.0,,,,,verb.communication,True,41,subject,son of Kilydd,3,0,3,unknown,0.0,tertiary
+54,1,replied,30,37,6323,6330,74,0.0,27.0,6293.0,6320.0,,,,,verb.communication,True,41,subject,the youth,2,1,3,unknown,0.0,tertiary
+54,1,replied,30,37,6323,6330,14,0.0,27.0,6293.0,6320.0,,,,,verb.communication,True,41,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+54,1,replied,30,37,6323,6330,12,0.0,27.0,6293.0,6320.0,,,,,verb.communication,True,41,subject,Kilweh,33,82,115,male,1.0,primary
+55,3,ask,78,81,6420,6423,15,70.0,73.0,6412.0,6415.0,,,,,verb.communication,True,42,subject,Thither Arthur,36,58,94,male,1.0,primary
+56,4,seek,104,108,6548,6552,15,92.0,101.0,6536.0,6545.0,,,,,verb.possession,True,44,subject,Thither Arthur,36,58,94,male,1.0,primary
+57,1,stand,18,23,6610,6615,19,5.0,8.0,6597.0,6600.0,,,,,verb.contact,True,43,subject,Sol,1,0,1,unknown,0.0,tertiary
+58,3,make,100,104,6738,6742,20,1.0,11.0,6639.0,6649.0,,,,,verb.change,True,46,subject,Ossol,2,2,4,male,1.0,tertiary
+59,5,crave,183,188,6977,6982,15,181.0,182.0,6975.0,6976.0,,,,,verb.emotion,True,45,subject,Thither Arthur,36,58,94,male,1.0,primary
+61,1,grant,63,68,7225,7230,12,61.0,62.0,7223.0,7224.0,,,,,verb.communication,True,48,subject,Kilweh,33,82,115,male,1.0,primary
+62,1,returned,54,62,7306,7314,87,39.0,53.0,7291.0,7305.0,,,,,verb.motion,True,49,subject,the messengers,1,0,1,unknown,0.0,tertiary
+65,1,bade,43,47,7762,7766,15,5.0,11.0,7724.0,7730.0,,,,,verb.communication,True,53,subject,Thither Arthur,36,58,94,male,1.0,primary
+67,1,knew,26,30,7922,7926,24,11.0,20.0,7907.0,7916.0,,,,,verb.cognition,True,52,subject,Kynddelig,1,3,4,male,1.0,tertiary
+69,0,returned,43,51,8107,8115,26,15.0,31.0,8079.0,8095.0,,,,,verb.motion,True,55,subject,Gwyar,3,2,5,male,1.0,tertiary
+70,2,weave,43,48,8193,8198,96,27.0,31.0,8177.0,8181.0,67.0,125.0,8217.0,8275.0,verb.creation,True,54,subject,Menw,1,0,1,unknown,0.0,tertiary
+71,1,reached,44,51,8321,8328,100,39.0,43.0,8316.0,8320.0,,,,,verb.motion,True,57,subject,these seven,1,4,5,group/nonbinary,1.0,tertiary
+73,0,stood,11,16,8596,8601,103,0.0,10.0,8585.0,8595.0,28.0,46.0,8613.0,8631.0,verb.contact,True,58,subject,A shepherd,1,1,2,male,1.0,tertiary
+76,1,answered,24,32,8777,8785,105,1.0,21.0,8754.0,8774.0,,,,,verb.communication,True,61,subject,the herdsman,2,7,9,unknown,0.0,tertiary
+79,3,treated,62,69,8950,8957,14,51.0,54.0,8939.0,8942.0,,,,,verb.body,True,62,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+81,0,come,4,8,9006,9010,105,1.0,3.0,9003.0,9005.0,31.0,71.0,9033.0,9073.0,verb.motion,True,63,subject,the herdsman,2,7,9,unknown,0.0,tertiary
+82,6,leave,106,111,9281,9286,106,77.0,79.0,9252.0,9254.0,,,,,verb.motion,True,64,subject,the shepherd,2,9,11,male,1.0,tertiary
+83,4,placed,110,116,9403,9409,106,107.0,109.0,9400.0,9402.0,,,,,verb.contact,True,65,subject,the shepherd,2,9,11,male,1.0,tertiary
+86,3,answered,72,80,9634,9642,111,0.0,54.0,9562.0,9616.0,,,,,verb.communication,True,67,subject,the wife,1,5,6,female,1.0,tertiary
+86,3,answered,72,80,9634,9642,267,0.0,54.0,9562.0,9616.0,,,,,verb.communication,True,67,subject,The man to whom this ring belonged,1,2,3,male,1.0,tertiary
+87,2,come,65,69,9721,9725,267,58.0,60.0,9714.0,9716.0,,,,,verb.motion,True,68,subject,The man to whom this ring belonged,1,2,3,male,1.0,tertiary
+88,0,heard,18,23,9760,9765,111,9.0,17.0,9751.0,9759.0,,,,,verb.cognition,True,69,subject,the wife,1,5,6,female,1.0,tertiary
+89,2,entered,56,63,9987,9994,114,39.0,55.0,9970.0,9986.0,,,,,verb.motion,True,70,subject,the rest,1,0,1,unknown,0.0,tertiary
+89,2,entered,56,63,9987,9994,22,39.0,55.0,9970.0,9986.0,,,,,verb.motion,True,70,subject,Kai,17,24,41,male,1.0,secondary
+90,0,opened,21,27,10050,10056,116,11.0,20.0,10040.0,10049.0,,,,,verb.contact,True,71,subject,the woman,2,3,5,female,1.0,tertiary
+91,3,know,57,61,10176,10180,25,55.0,56.0,10174.0,10175.0,,,,,verb.cognition,True,72,subject,Mabon,24,14,38,male,1.0,secondary
+92,6,answered,140,148,10348,10356,22,113.0,116.0,10321.0,10324.0,,,,,verb.communication,True,73,subject,Kai,17,24,41,male,1.0,secondary
+97,1,come,16,20,10591,10595,13,7.0,10.0,10582.0,10585.0,,,,,verb.motion,True,76,subject,Olwen,8,15,23,female,1.0,tertiary
+98,0,comes,5,10,10634,10639,13,1.0,4.0,10630.0,10633.0,,,,,verb.motion,True,75,subject,Olwen,8,15,23,female,1.0,tertiary
+99,1,come,10,14,10807,10811,13,6.0,9.0,10803.0,10806.0,,,,,verb.motion,True,79,subject,Olwen,8,15,23,female,1.0,tertiary
+101,1,come,10,14,10863,10867,13,1.0,4.0,10854.0,10857.0,,,,,verb.motion,True,81,subject,Olwen,8,15,23,female,1.0,tertiary
+102,4,fetch,75,80,10943,10948,22,64.0,65.0,10932.0,10933.0,,,,,verb.contact,True,80,subject,Kai,17,24,41,male,1.0,secondary
+103,2,came,42,46,10997,11001,274,31.0,41.0,10986.0,10996.0,,,,,verb.motion,True,83,subject,the maiden,2,23,25,female,1.0,tertiary
+106,1,trod,40,44,11346,11350,274,36.0,39.0,11342.0,11345.0,,,,,verb.motion,True,82,subject,the maiden,2,23,25,female,1.0,tertiary
+108,2,answered,20,28,11596,11604,274,1.0,17.0,11577.0,11593.0,,,,,verb.communication,True,85,subject,the maiden,2,23,25,female,1.0,tertiary
+109,4,give,46,50,11777,11781,274,26.0,38.0,11757.0,11769.0,,,,,verb.communication,True,86,subject,the maiden,2,23,25,female,1.0,tertiary
+113,2,entered,72,79,12104,12111,15,35.0,51.0,12067.0,12083.0,,,,,verb.motion,True,89,subject,Thither Arthur,36,58,94,male,1.0,primary
+113,2,entered,72,79,12104,12111,125,35.0,51.0,12067.0,12083.0,,,,,verb.motion,True,89,subject,all Arthur 's men,1,8,9,male,1.0,tertiary
+114,2,said,40,44,12162,12166,14,0.0,37.0,12122.0,12159.0,,,,,verb.communication,True,91,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+115,0,come,4,8,12177,12181,125,1.0,3.0,12174.0,12176.0,,,,,verb.motion,True,90,subject,all Arthur 's men,1,8,9,male,1.0,tertiary
+116,2,answer,34,40,12270,12276,14,27.0,28.0,12263.0,12264.0,,,,,verb.communication,True,93,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+117,2,flung,34,39,12474,12479,23,4.0,10.0,12444.0,12450.0,43.0,94.0,12483.0,12534.0,verb.contact,True,92,subject,Bedwyr,6,0,6,unknown,0.0,tertiary
+119,0,cried,3,8,12569,12574,14,0.0,2.0,12566.0,12568.0,,,,,verb.communication,True,94,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+120,1,walk,14,18,12610,12614,14,1.0,2.0,12597.0,12598.0,29.0,46.0,12625.0,12642.0,verb.motion,True,95,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+122,3,said,138,142,12857,12861,128,82.0,86.0,12801.0,12805.0,,,,,verb.communication,True,96,subject,the men,1,4,5,male,1.0,tertiary
+123,2,slay,37,41,12973,12977,125,29.0,31.0,12965.0,12967.0,,,,,verb.social,True,97,subject,all Arthur 's men,1,8,9,male,1.0,tertiary
+124,1,answered,72,80,13057,13065,288,0.0,69.0,12985.0,13054.0,,,,,verb.communication,True,98,subject,Yspaddaden Penkawr's daughter's four great grandmothers,1,0,1,female,1.0,tertiary
+124,1,answered,72,80,13057,13065,289,0.0,69.0,12985.0,13054.0,,,,,verb.communication,True,98,subject,Yspaddaden Penkawr's daughter's four great grandfathers,1,0,1,male,1.0,tertiary
+124,1,answered,72,80,13057,13065,282,0.0,69.0,12985.0,13054.0,,,,,verb.communication,True,98,subject,Yspaddaden Penkawr's daughter,3,4,7,female,1.0,tertiary
+127,2,turned,34,40,13177,13183,128,29.0,33.0,13172.0,13176.0,,,,,verb.motion,True,99,subject,the men,1,4,5,male,1.0,tertiary
+128,1,flung,24,29,13280,13285,28,4.0,8.0,13260.0,13264.0,33.0,39.0,13289.0,13295.0,verb.contact,True,100,subject,Menw,1,0,1,unknown,0.0,tertiary
+132,0,returned,27,35,13560,13568,15,14.0,26.0,13547.0,13559.0,,,,,verb.motion,True,101,subject,Thither Arthur,36,58,94,male,1.0,primary
+132,0,returned,27,35,13560,13568,133,14.0,26.0,13547.0,13559.0,,,,,verb.motion,True,101,subject,Arthur 's men,6,16,22,male,1.0,tertiary
+133,2,desire,46,52,13662,13668,133,42.0,45.0,13658.0,13661.0,,,,,verb.emotion,True,104,subject,Arthur 's men,6,16,22,male,1.0,tertiary
+134,2,fallen,36,42,13712,13718,14,12.0,23.0,13688.0,13699.0,,,,,verb.change,True,103,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+135,4,cast,88,92,13852,13856,14,36.0,54.0,13800.0,13818.0,96.0,103.0,13860.0,13867.0,verb.creation,True,105,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+136,1,flung,26,31,13895,13900,12,4.0,10.0,13873.0,13879.0,35.0,39.0,13904.0,13908.0,verb.contact,True,106,subject,Kilweh,33,82,115,male,1.0,primary
+139,1,said,55,59,14146,14150,15,13.0,25.0,14104.0,14116.0,,,,,verb.communication,True,108,subject,Thither Arthur,36,58,94,male,1.0,primary
+139,1,said,55,59,14146,14150,133,13.0,25.0,14104.0,14116.0,,,,,verb.communication,True,108,subject,Arthur 's men,6,16,22,male,1.0,tertiary
+140,1,seeks,18,23,14298,14303,295,10.0,12.0,14290.0,14292.0,,,,,verb.contact,True,107,subject,the man who fashioned it,1,3,4,male,1.0,tertiary
+141,1,come,8,12,14325,14329,295,4.0,7.0,14321.0,14324.0,20.0,41.0,14337.0,14358.0,verb.motion,True,109,subject,the man who fashioned it,1,3,4,male,1.0,tertiary
+142,1,spoke,38,43,14399,14404,12,4.0,10.0,14365.0,14371.0,,,,,verb.communication,True,111,subject,Kilweh,33,82,115,male,1.0,primary
+144,1,answered,11,19,14477,14485,12,7.0,8.0,14473.0,14474.0,,,,,verb.communication,True,112,subject,Kilweh,33,82,115,male,1.0,primary
+145,6,ask,128,131,14622,14625,12,109.0,113.0,14603.0,14607.0,,,,,verb.communication,True,113,subject,Kilweh,33,82,115,male,1.0,primary
+146,1,said,29,33,14689,14693,12,1.0,26.0,14661.0,14686.0,,,,,verb.communication,True,114,subject,Kilweh,33,82,115,male,1.0,primary
+148,0,see,5,8,14729,14732,12,1.0,4.0,14725.0,14728.0,18.0,28.0,14742.0,14752.0,verb.perception,True,116,subject,Kilweh,33,82,115,male,1.0,primary
+149,7,bake,114,118,14868,14872,12,107.0,108.0,14861.0,14862.0,129.0,154.0,14883.0,14908.0,verb.consumption,True,117,subject,Kilweh,33,82,115,male,1.0,primary
+150,2,compass,27,34,14938,14945,12,21.0,23.0,14932.0,14934.0,,,,,verb.social,True,119,subject,Kilweh,33,82,115,male,1.0,primary
+152,0,require,2,9,15279,15286,14,0.0,1.0,15277.0,15278.0,,,,,verb.communication,True,118,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+153,2,compass,27,34,15425,15432,12,21.0,23.0,15419.0,15421.0,,,,,verb.cognition,True,121,subject,Kilweh,33,82,115,male,1.0,primary
+154,0,compass,12,19,15452,15459,12,8.0,11.0,15448.0,15451.0,25.0,30.0,15465.0,15470.0,verb.cognition,True,120,subject,Kilweh,33,82,115,male,1.0,primary
+155,1,bring,13,18,15520,15525,12,4.0,7.0,15511.0,15514.0,,,,,verb.motion,True,122,subject,Kilweh,33,82,115,male,1.0,primary
+157,1,fetch,14,19,15645,15650,12,0.0,3.0,15631.0,15634.0,,,,,verb.contact,True,123,subject,Kilweh,33,82,115,male,1.0,primary
+158,2,arrange,101,108,15853,15860,12,95.0,96.0,15847.0,15848.0,,,,,verb.change,True,124,subject,Kilweh,33,82,115,male,1.0,primary
+159,6,hunt,175,179,16061,16065,30,157.0,174.0,16043.0,16060.0,,,,,verb.contact,True,125,subject,Drudwyn,2,0,2,unknown,0.0,tertiary
+160,2,save,43,47,16114,16118,30,35.0,42.0,16106.0,16113.0,,,,,verb.possession,True,126,subject,Drudwyn,2,0,2,unknown,0.0,tertiary
+161,6,answered,95,103,16305,16313,12,88.0,94.0,16298.0,16304.0,,,,,verb.communication,True,128,subject,Kilweh,33,82,115,male,1.0,primary
+162,0,get,12,15,16331,16334,12,8.0,11.0,16327.0,16330.0,,,,,verb.possession,True,127,subject,Kilweh,33,82,115,male,1.0,primary
+164,10,obtain,237,243,16725,16731,12,233.0,236.0,16721.0,16724.0,,,,,verb.possession,True,130,subject,Kilweh,33,82,115,male,1.0,primary
+166,1,gain,12,16,16846,16850,12,4.0,5.0,16838.0,16839.0,,,,,verb.possession,True,132,subject,Kilweh,33,82,115,male,1.0,primary
+167,1,ended,67,72,16964,16969,14,0.0,62.0,16897.0,16959.0,,,,,verb.change,True,131,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+167,1,ended,67,72,16964,16969,139,0.0,62.0,16897.0,16959.0,,,,,verb.change,True,131,subject,the son of Kilydd with Yspaddaden Penkawr,1,0,1,unknown,0.0,tertiary
+167,1,ended,67,72,16964,16969,12,0.0,62.0,16897.0,16959.0,,,,,verb.change,True,131,subject,Kilweh,33,82,115,male,1.0,primary
+168,2,reached,75,82,17046,17053,133,70.0,74.0,17041.0,17045.0,,,,,verb.motion,True,133,subject,Arthur 's men,6,16,22,male,1.0,tertiary
+169,1,come,15,19,17141,17145,143,11.0,14.0,17137.0,17140.0,26.0,31.0,17152.0,17157.0,verb.motion,True,134,subject,a black man,1,1,2,male,1.0,tertiary
+172,2,went,55,59,17453,17457,133,50.0,54.0,17448.0,17452.0,,,,,verb.motion,True,137,subject,Arthur 's men,6,16,22,male,1.0,tertiary
+175,2,replied,19,26,17521,17528,80,1.0,16.0,17503.0,17518.0,,,,,verb.communication,True,139,subject,the porter,7,23,30,male,1.0,tertiary
+180,1,tell,13,17,17871,17875,22,0.0,5.0,17858.0,17863.0,,,,,verb.communication,True,142,subject,Kai,17,24,41,male,1.0,secondary
+181,1,come,13,17,17943,17947,144,1.0,12.0,17931.0,17942.0,,,,,verb.motion,True,144,subject,the man,4,0,4,male,1.0,tertiary
+182,3,burnish,46,53,18153,18160,327,38.0,41.0,18145.0,18148.0,,,,,verb.competition,True,143,subject,the giant,8,9,17,male,1.0,tertiary
+184,1,brought,30,37,18228,18235,33,9.0,29.0,18207.0,18227.0,,,,,verb.motion,True,146,subject,Gwrnach,5,3,8,male,1.0,tertiary
+188,1,said,38,42,18449,18453,327,0.0,9.0,18411.0,18420.0,,,,,verb.communication,True,150,subject,the giant,8,9,17,male,1.0,tertiary
+189,1,has,39,42,18565,18568,329,36.0,38.0,18562.0,18564.0,,,,,verb.possession,True,149,subject,a companion,2,3,5,male,1.0,tertiary
+192,5,know,57,61,18686,18690,80,50.0,52.0,18679.0,18681.0,,,,,verb.cognition,True,151,subject,the porter,7,23,30,male,1.0,tertiary
+193,3,descend,78,85,18774,18781,80,0.0,21.0,18696.0,18717.0,101.0,106.0,18797.0,18802.0,verb.motion,True,154,subject,the porter,7,23,30,male,1.0,tertiary
+194,1,entered,41,48,18846,18853,23,34.0,40.0,18839.0,18845.0,,,,,verb.motion,True,153,subject,Bedwyr,6,0,6,unknown,0.0,tertiary
+195,3,prevailed,122,131,18977,18986,34,97.0,120.0,18952.0,18975.0,,,,,verb.social,True,155,subject,Goreu,3,3,6,male,1.0,tertiary
+195,3,prevailed,122,131,18977,18986,154,97.0,120.0,18952.0,18975.0,,,,,verb.social,True,155,subject,son of Custennin,1,0,1,unknown,0.0,tertiary
+198,3,rusted,45,51,19266,19272,327,22.0,35.0,19243.0,19256.0,,,,,verb.change,True,156,subject,the giant,8,9,17,male,1.0,tertiary
+200,1,came,69,73,19432,19436,22,4.0,6.0,19367.0,19369.0,,,,,verb.motion,True,159,subject,Kai,17,24,41,male,1.0,secondary
+201,0,struck,15,21,19536,19542,22,4.0,11.0,19525.0,19532.0,,,,,verb.contact,True,160,subject,Kai,17,24,41,male,1.0,secondary
+203,8,went,207,211,19938,19942,25,129.0,205.0,19860.0,19936.0,,,,,verb.motion,True,162,subject,Mabon,24,14,38,male,1.0,secondary
+204,2,spoke,70,75,20024,20029,25,63.0,69.0,20017.0,20023.0,,,,,verb.communication,True,163,subject,Mabon,24,14,38,male,1.0,secondary
+206,0,answered,14,22,20186,20194,167,4.0,13.0,20176.0,20185.0,,,,,verb.communication,True,166,subject,the ousel,1,7,8,female,1.0,tertiary
+207,5,pecked,81,87,20366,20372,167,74.0,75.0,20359.0,20360.0,,,,,verb.contact,True,165,subject,the ousel,1,7,8,female,1.0,tertiary
+208,1,heard,36,41,20486,20491,167,18.0,19.0,20468.0,20469.0,,,,,verb.cognition,True,167,subject,the ousel,1,7,8,female,1.0,tertiary
+209,2,guide,58,63,20571,20576,167,51.0,52.0,20564.0,20565.0,68.0,75.0,20581.0,20588.0,verb.motion,True,168,subject,the ousel,1,7,8,female,1.0,tertiary
+210,1,reached,40,47,20631,20638,167,36.0,39.0,20627.0,20630.0,,,,,verb.motion,True,169,subject,the ousel,1,7,8,female,1.0,tertiary
+213,4,heard,72,77,20953,20958,170,70.0,71.0,20951.0,20952.0,,,,,verb.cognition,True,171,subject,the stag,2,32,34,male,1.0,tertiary
+214,2,guide,46,51,21026,21031,170,39.0,40.0,21019.0,21020.0,,,,,verb.motion,True,175,subject,the stag,2,32,34,male,1.0,tertiary
+215,1,reached,38,45,21126,21133,170,35.0,37.0,21123.0,21125.0,,,,,verb.motion,True,174,subject,the stag,2,32,34,male,1.0,tertiary
+216,1,knew,40,44,21198,21202,170,37.0,39.0,21195.0,21197.0,,,,,verb.cognition,True,173,subject,the stag,2,32,34,male,1.0,tertiary
+218,0,came,20,24,21324,21328,265,6.0,19.0,21310.0,21323.0,,,,,verb.motion,True,176,subject,men,2,0,2,male,1.0,tertiary
+218,0,came,20,24,21324,21328,346,6.0,19.0,21310.0,21323.0,,,,,verb.motion,True,176,subject,a race of men,1,0,1,male,1.0,tertiary
+221,1,heard,30,35,21500,21505,170,17.0,18.0,21487.0,21488.0,,,,,verb.cognition,True,178,subject,the stag,2,32,34,male,1.0,tertiary
+222,1,guide,14,19,21541,21546,170,7.0,8.0,21534.0,21535.0,,,,,verb.motion,True,180,subject,the stag,2,32,34,male,1.0,tertiary
+224,3,pecked,88,94,21933,21939,174,86.0,87.0,21931.0,21932.0,,,,,verb.contact,True,181,subject,the eagle,1,14,15,unknown,0.0,tertiary
+226,1,heard,21,26,22035,22040,174,19.0,20.0,22033.0,22034.0,,,,,verb.cognition,True,183,subject,the eagle,1,14,15,unknown,0.0,tertiary
+227,4,escape,114,120,22240,22246,174,112.0,113.0,22238.0,22239.0,,,,,verb.motion,True,184,subject,the eagle,1,14,15,unknown,0.0,tertiary
+228,3,took,80,84,22332,22336,174,78.0,79.0,22330.0,22331.0,,,,,verb.contact,True,185,subject,the eagle,1,14,15,unknown,0.0,tertiary
+229,1,know,14,18,22384,22388,170,7.0,9.0,22377.0,22379.0,,,,,verb.cognition,True,186,subject,the stag,2,32,34,male,1.0,tertiary
+230,1,guide,11,16,22458,22463,174,4.0,5.0,22451.0,22452.0,,,,,verb.motion,True,187,subject,the eagle,1,14,15,unknown,0.0,tertiary
+234,0,answered,15,23,22836,22844,178,4.0,14.0,22825.0,22835.0,,,,,verb.communication,True,189,subject,the salmon,1,8,9,unknown,0.0,tertiary
+235,1,reach,42,47,22925,22930,178,40.0,41.0,22923.0,22924.0,,,,,verb.motion,True,190,subject,the salmon,1,8,9,unknown,0.0,tertiary
+236,4,let,45,48,23063,23066,178,26.0,44.0,23044.0,23062.0,,,,,verb.social,True,191,subject,the salmon,1,8,9,unknown,0.0,tertiary
+237,0,went,18,22,23125,23129,25,3.0,17.0,23110.0,23124.0,,,,,verb.motion,True,192,subject,Mabon,24,14,38,male,1.0,secondary
+237,0,went,18,22,23125,23129,22,3.0,17.0,23110.0,23124.0,,,,,verb.motion,True,192,subject,Kai,17,24,41,male,1.0,secondary
+242,4,said,41,45,23482,23486,25,1.0,38.0,23442.0,23479.0,,,,,verb.communication,True,194,subject,Mabon,24,14,38,male,1.0,secondary
+243,1,tell,40,44,23534,23538,276,15.0,26.0,23509.0,23520.0,,,,,verb.communication,True,195,subject,a messenger,2,0,2,unknown,0.0,tertiary
+244,2,carried,108,115,23759,23766,23,7.0,21.0,23658.0,23672.0,,,,,verb.contact,True,196,subject,Bedwyr,6,0,6,unknown,0.0,tertiary
+244,2,carried,108,115,23759,23766,22,7.0,21.0,23658.0,23672.0,,,,,verb.contact,True,196,subject,Kai,17,24,41,male,1.0,secondary
+245,1,returned,22,30,23801,23809,25,4.0,6.0,23783.0,23785.0,36.0,47.0,23815.0,23826.0,verb.motion,True,197,subject,Mabon,24,14,38,male,1.0,secondary
+246,2,heard,74,79,23902,23907,35,71.0,73.0,23899.0,23901.0,,,,,verb.perception,True,198,subject,Gwythyr,2,4,6,male,1.0,tertiary
+247,0,saw,22,25,23974,23977,35,19.0,21.0,23971.0,23973.0,,,,,verb.perception,True,200,subject,Gwythyr,2,4,6,male,1.0,tertiary
+248,3,required,141,149,24258,24266,14,86.0,115.0,24203.0,24232.0,,,,,verb.consumption,True,199,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+250,3,fight,52,57,24539,24544,29,49.0,51.0,24536.0,24538.0,,,,,verb.competition,True,202,subject,Trwyth,3,14,17,male,1.0,tertiary
+251,2,came,87,91,24700,24704,133,82.0,86.0,24695.0,24699.0,,,,,verb.motion,True,203,subject,Arthur 's men,6,16,22,male,1.0,tertiary
+252,0,caught,20,26,24744,24750,197,6.0,19.0,24730.0,24743.0,77.0,114.0,24801.0,24838.0,verb.contact,True,204,subject,three knights,1,0,1,unknown,0.0,tertiary
+253,5,came,124,128,24997,25001,29,121.0,123.0,24994.0,24996.0,,,,,verb.motion,True,205,subject,Trwyth,3,14,17,male,1.0,tertiary
+254,5,prevailed,177,186,25235,25244,15,170.0,176.0,25228.0,25234.0,,,,,verb.competition,True,206,subject,Thither Arthur,36,58,94,male,1.0,primary
+255,3,knows,51,56,25335,25340,203,44.0,50.0,25328.0,25334.0,,,,,verb.cognition,True,207,subject,no man,1,0,1,male,1.0,tertiary
+256,2,set,49,52,25403,25406,12,42.0,48.0,25396.0,25402.0,,,,,verb.motion,True,208,subject,Kilweh,33,82,115,male,1.0,primary
+260,5,lose,66,70,25788,25792,14,59.0,60.0,25781.0,25782.0,,,,,verb.possession,True,212,subject,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+261,0,spake,10,15,25813,25818,12,7.0,9.0,25810.0,25812.0,,,,,verb.emotion,True,211,subject,Kilweh,33,82,115,male,1.0,primary
+0,1,had,36,39,36,39,39,40.0,52.0,40.0,52.0,,,,,verb.possession,True,0,direct_object,a little boy,1,6,7,male,1.0,tertiary
+5,1,make,20,24,1001,1005,53,25.0,44.0,1006.0,1025.0,,,,,verb.communication,True,4,direct_object,the queen's husband,1,10,11,male,1.0,tertiary
+5,1,make,20,24,1001,1005,211,25.0,44.0,1006.0,1025.0,,,,,verb.communication,True,4,direct_object,the queen's husband's son,1,0,1,unknown,0.0,tertiary
+6,0,promised,12,20,1136,1144,41,21.0,24.0,1145.0,1148.0,,,,,verb.communication,True,5,direct_object,the queen,5,21,26,female,1.0,tertiary
+7,0,bade,17,21,1167,1171,53,22.0,25.0,1172.0,1175.0,26.0,77.0,1176.0,1227.0,verb.communication,True,6,direct_object,the queen's husband,1,10,11,male,1.0,tertiary
+8,0,promised,17,25,1246,1254,41,26.0,29.0,1255.0,1258.0,,,,,verb.communication,True,8,direct_object,the queen,5,21,26,female,1.0,tertiary
+10,2,said,33,37,1608,1612,54,38.0,40.0,1613.0,1615.0,,,,,verb.communication,True,9,direct_object,the king,4,27,31,male,1.0,tertiary
+11,1,tell,15,19,1669,1673,54,20.0,23.0,1674.0,1677.0,,,,,verb.communication,True,10,direct_object,the king,4,27,31,male,1.0,tertiary
+11,1,tell,15,19,1669,1673,59,20.0,23.0,1674.0,1677.0,,,,,verb.communication,True,10,direct_object,the king's son,1,0,1,unknown,0.0,tertiary
+11,1,tell,15,19,1669,1673,41,20.0,23.0,1674.0,1677.0,,,,,verb.communication,True,10,direct_object,the queen,5,21,26,female,1.0,tertiary
+12,2,heard,54,59,1746,1751,60,60.0,62.0,1752.0,1754.0,63.0,70.0,1755.0,1762.0,verb.perception,True,11,direct_object,the queen's old woman whom she had gone to visit,1,0,1,female,1.0,tertiary
+12,2,heard,54,59,1746,1751,41,60.0,62.0,1752.0,1754.0,63.0,70.0,1755.0,1762.0,verb.perception,True,11,direct_object,the queen,5,21,26,female,1.0,tertiary
+13,9,win,211,214,2020,2023,68,215.0,268.0,2024.0,2077.0,,,,,verb.competition,True,12,direct_object,the daughter of Yspaddaden Penkawr,3,0,3,unknown,0.0,tertiary
+13,9,win,211,214,2020,2023,67,215.0,268.0,2024.0,2077.0,,,,,verb.competition,True,12,direct_object,the king's wife Olwen the daughter of Yspaddaden Penkawr,1,0,1,female,1.0,tertiary
+13,9,win,211,214,2020,2023,14,215.0,268.0,2024.0,2077.0,,,,,verb.competition,True,12,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+13,9,win,211,214,2020,2023,13,215.0,268.0,2024.0,2077.0,,,,,verb.competition,True,12,direct_object,Olwen,8,15,23,female,1.0,tertiary
+13,9,win,211,214,2020,2023,54,215.0,268.0,2024.0,2077.0,,,,,verb.competition,True,12,direct_object,the king,4,27,31,male,1.0,tertiary
+14,0,heard,8,13,2087,2092,12,14.0,25.0,2093.0,2104.0,,,,,verb.perception,True,13,direct_object,Kilweh,33,82,115,male,1.0,primary
+15,8,beheld,173,179,2300,2306,13,180.0,183.0,2307.0,2310.0,,,,,verb.cognition,True,14,direct_object,Olwen,8,15,23,female,1.0,tertiary
+17,8,answered,117,125,2458,2466,215,128.0,220.0,2469.0,2561.0,,,,,verb.communication,True,15,direct_object,Kilweh's stepmother,1,0,1,unknown,0.0,tertiary
+17,8,answered,117,125,2458,2466,12,128.0,220.0,2469.0,2561.0,,,,,verb.communication,True,15,direct_object,Kilweh,33,82,115,male,1.0,primary
+17,8,answered,117,125,2458,2466,68,128.0,220.0,2469.0,2561.0,,,,,verb.communication,True,15,direct_object,the daughter of Yspaddaden Penkawr,3,0,3,unknown,0.0,tertiary
+17,8,answered,117,125,2458,2466,217,128.0,220.0,2469.0,2561.0,,,,,verb.communication,True,15,direct_object,Kilweh's wife,2,0,2,female,1.0,tertiary
+17,8,answered,117,125,2458,2466,14,128.0,220.0,2469.0,2561.0,,,,,verb.communication,True,15,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+17,8,answered,117,125,2458,2466,13,128.0,220.0,2469.0,2561.0,,,,,verb.communication,True,15,direct_object,Olwen,8,15,23,female,1.0,tertiary
+18,3,replied,33,40,2597,2604,54,41.0,51.0,2605.0,2615.0,,,,,verb.communication,True,16,direct_object,the king,4,27,31,male,1.0,tertiary
+18,3,replied,33,40,2597,2604,64,41.0,51.0,2605.0,2615.0,,,,,verb.communication,True,16,direct_object,the boy's father,3,1,4,male,1.0,tertiary
+20,3,grant,57,62,2707,2712,54,63.0,66.0,2713.0,2716.0,,,,,verb.possession,True,17,direct_object,the king,4,27,31,male,1.0,tertiary
+29,1,looking,14,21,3681,3688,78,22.0,27.0,3689.0,3694.0,,,,,verb.perception,True,18,direct_object,someone to open the gate,1,0,1,unknown,0.0,tertiary
+31,1,answered,55,63,3790,3798,12,64.0,80.0,3799.0,3815.0,,,,,verb.communication,True,20,direct_object,Kilweh,33,82,115,male,1.0,primary
+32,2,save,101,105,3925,3929,16,106.0,114.0,3930.0,3938.0,,,,,verb.possession,True,19,direct_object,Pennpingyon,1,2,3,male,1.0,tertiary
+34,3,enter,37,42,4010,4015,223,43.0,99.0,4016.0,4072.0,,,,,verb.social,True,21,direct_object,the son of a king,1,0,1,male,1.0,tertiary
+34,3,enter,37,42,4010,4015,37,43.0,99.0,4016.0,4072.0,,,,,verb.social,True,21,direct_object,a king,2,0,2,male,1.0,tertiary
+34,3,enter,37,42,4010,4015,225,43.0,99.0,4016.0,4072.0,,,,,verb.social,True,21,direct_object,a pedlar who has goods to sell,1,0,1,unknown,0.0,tertiary
+36,2,answered,27,35,4266,4274,12,36.0,42.0,4275.0,4281.0,,,,,verb.communication,True,24,direct_object,Kilweh,33,82,115,male,1.0,primary
+39,1,said,45,49,4587,4591,17,50.0,56.0,4592.0,4598.0,,,,,verb.communication,True,26,direct_object,Glewlwyd,3,3,6,male,1.0,tertiary
+40,0,answered,15,23,4649,4657,80,26.0,114.0,4660.0,4748.0,,,,,verb.communication,True,28,direct_object,the porter,7,23,30,male,1.0,tertiary
+40,0,answered,15,23,4649,4657,229,26.0,114.0,4660.0,4748.0,,,,,verb.communication,True,28,direct_object,many kingly men,1,0,1,male,1.0,tertiary
+42,3,return,32,38,4867,4873,80,39.0,42.0,4874.0,4877.0,,,,,verb.motion,True,30,direct_object,the porter,7,23,30,male,1.0,tertiary
+44,1,cried,41,46,5152,5157,12,47.0,49.0,5158.0,5160.0,,,,,verb.communication,True,31,direct_object,Kilweh,33,82,115,male,1.0,primary
+45,1,answered,24,32,5244,5252,15,33.0,39.0,5253.0,5259.0,,,,,verb.communication,True,32,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+46,0,sit,1,4,5262,5265,236,5.0,31.0,5266.0,5292.0,,,,,verb.contact,True,33,direct_object,Thither Arthur's warriors,1,0,1,unknown,0.0,tertiary
+46,0,sit,1,4,5262,5265,15,5.0,31.0,5266.0,5292.0,,,,,verb.contact,True,33,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+46,0,sit,1,4,5262,5265,235,5.0,31.0,5266.0,5292.0,,,,,verb.contact,True,33,direct_object,Thither Arthur's of my warriors,1,0,1,unknown,0.0,tertiary
+48,1,grant,20,25,5607,5612,12,26.0,28.0,5613.0,5615.0,,,,,verb.communication,True,35,direct_object,Kilweh,33,82,115,male,1.0,primary
+49,3,said,39,43,5730,5734,15,44.0,50.0,5735.0,5741.0,53.0,165.0,5744.0,5856.0,verb.communication,True,37,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+50,0,save,0,4,5858,5862,18,5.0,101.0,5863.0,5959.0,,,,,verb.social,True,36,direct_object,Guinevere,1,0,1,unknown,0.0,tertiary
+50,0,save,0,4,5858,5862,217,5.0,101.0,5863.0,5959.0,,,,,verb.social,True,36,direct_object,Kilweh's wife,2,0,2,female,1.0,tertiary
+50,0,save,0,4,5858,5862,15,5.0,101.0,5863.0,5959.0,,,,,verb.social,True,36,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+51,2,answered,59,67,6021,6029,15,70.0,98.0,6032.0,6060.0,,,,,verb.communication,True,38,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+52,2,combed,95,101,6158,6164,15,102.0,130.0,6165.0,6193.0,,,,,verb.contact,True,39,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+52,2,combed,95,101,6158,6164,85,102.0,130.0,6165.0,6193.0,,,,,verb.contact,True,39,direct_object,Thither Arthur's guest,1,0,1,unknown,0.0,tertiary
+52,2,combed,95,101,6158,6164,12,102.0,130.0,6165.0,6193.0,,,,,verb.contact,True,39,direct_object,Kilweh,33,82,115,male,1.0,primary
+53,3,warms,46,51,6241,6246,15,52.0,58.0,6247.0,6253.0,,,,,verb.change,True,40,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+54,1,replied,30,37,6323,6330,74,38.0,47.0,6331.0,6340.0,,,,,verb.communication,True,41,direct_object,the youth,2,1,3,unknown,0.0,tertiary
+55,3,ask,78,81,6420,6423,15,82.0,85.0,6424.0,6427.0,,,,,verb.communication,True,42,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+60,7,seek,131,135,7126,7130,252,136.0,139.0,7131.0,7134.0,140.0,164.0,,,verb.contact,True,47,direct_object,"Kilweh's maiden of whom you speak of , nor of her kindred",1,2,3,female,1.0,tertiary
+61,1,grant,63,68,7225,7230,15,69.0,72.0,7231.0,7234.0,,,,,verb.communication,True,48,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+62,1,returned,54,62,7306,7314,12,63.0,69.0,7315.0,7321.0,,,,,verb.motion,True,49,direct_object,Kilweh,33,82,115,male,1.0,primary
+63,4,answered,151,159,7517,7525,15,160.0,163.0,7526.0,7529.0,,,,,verb.communication,True,50,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+64,4,won,56,59,7643,7646,255,60.0,71.0,7647.0,7658.0,,,,,verb.competition,True,51,direct_object,that maiden,1,0,1,female,1.0,tertiary
+65,1,bade,43,47,7762,7766,90,48.0,52.0,7767.0,7771.0,,,,,verb.communication,True,53,direct_object,Thither Arthur's five best men,1,1,2,male,1.0,tertiary
+67,1,knew,26,30,7922,7926,24,31.0,119.0,7927.0,8015.0,,,,,verb.cognition,True,52,direct_object,Kynddelig,1,3,4,male,1.0,tertiary
+72,0,seemed,14,20,8389,8395,100,21.0,108.0,8396.0,8483.0,,,,,verb.perception,True,56,direct_object,these seven,1,4,5,group/nonbinary,1.0,tertiary
+75,0,asked,0,5,8734,8739,104,6.0,17.0,8740.0,8751.0,,,,,verb.communication,True,59,direct_object,the knights,1,0,1,unknown,0.0,tertiary
+76,1,answered,24,32,8777,8785,105,33.0,45.0,8786.0,8798.0,,,,,verb.communication,True,61,direct_object,the herdsman,2,7,9,unknown,0.0,tertiary
+77,0,knows,15,20,8815,8820,14,21.0,66.0,8821.0,8866.0,,,,,verb.cognition,True,60,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+79,3,treated,62,69,8950,8957,105,70.0,72.0,8958.0,8960.0,,,,,verb.body,True,62,direct_object,the herdsman,2,7,9,unknown,0.0,tertiary
+81,0,come,4,8,9006,9010,262,9.0,29.0,9011.0,9031.0,31.0,71.0,9033.0,9073.0,verb.motion,True,63,direct_object,Arthur the king,1,0,1,male,1.0,tertiary
+81,0,come,4,8,9006,9010,54,9.0,29.0,9011.0,9031.0,31.0,71.0,9033.0,9073.0,verb.motion,True,63,direct_object,the king,4,27,31,male,1.0,tertiary
+81,0,come,4,8,9006,9010,15,9.0,29.0,9011.0,9031.0,31.0,71.0,9033.0,9073.0,verb.motion,True,63,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+83,4,placed,110,116,9403,9409,106,117.0,119.0,9410.0,9412.0,,,,,verb.contact,True,65,direct_object,the shepherd,2,9,11,male,1.0,tertiary
+85,0,asked,0,5,9499,9504,106,6.0,9.0,9505.0,9508.0,,,,,verb.communication,True,66,direct_object,the shepherd,2,9,11,male,1.0,tertiary
+85,0,asked,0,5,9499,9504,109,6.0,9.0,9505.0,9508.0,,,,,verb.communication,True,66,direct_object,the shepherd's wife,1,1,2,female,1.0,tertiary
+86,3,answered,72,80,9634,9642,106,81.0,93.0,9643.0,9655.0,,,,,verb.communication,True,67,direct_object,the shepherd,2,9,11,male,1.0,tertiary
+88,0,heard,18,23,9760,9765,111,24.0,97.0,9766.0,9839.0,,,,,verb.cognition,True,69,direct_object,the wife,1,5,6,female,1.0,tertiary
+88,0,heard,18,23,9760,9765,112,24.0,97.0,9766.0,9839.0,,,,,verb.cognition,True,69,direct_object,the wife's nephew,1,0,1,male,1.0,tertiary
+88,0,heard,18,23,9760,9765,12,24.0,97.0,9766.0,9839.0,,,,,verb.cognition,True,69,direct_object,Kilweh,33,82,115,male,1.0,primary
+91,3,know,57,61,10176,10180,12,62.0,86.0,10181.0,10205.0,,,,,verb.cognition,True,72,direct_object,Kilweh,33,82,115,male,1.0,primary
+92,6,answered,140,148,10348,10356,273,151.0,241.0,10359.0,10449.0,,,,,verb.communication,True,73,direct_object,Kai's comrade,1,0,1,unknown,0.0,tertiary
+92,6,answered,140,148,10348,10356,12,151.0,241.0,10359.0,10449.0,,,,,verb.communication,True,73,direct_object,Kilweh,33,82,115,male,1.0,primary
+92,6,answered,140,148,10348,10356,22,151.0,241.0,10359.0,10449.0,,,,,verb.communication,True,73,direct_object,Kai,17,24,41,male,1.0,secondary
+95,0,asked,0,5,10502,10507,116,6.0,15.0,10508.0,10517.0,,,,,verb.communication,True,74,direct_object,the woman,2,3,5,female,1.0,tertiary
+96,1,answered,43,51,10562,10570,22,52.0,55.0,10571.0,10574.0,,,,,verb.communication,True,77,direct_object,Kai,17,24,41,male,1.0,secondary
+100,0,asked,0,5,10831,10836,22,6.0,9.0,10837.0,10840.0,11.0,20.0,,,verb.communication,True,78,direct_object,Kai,17,24,41,male,1.0,secondary
+102,4,fetch,75,80,10943,10948,13,81.0,84.0,10949.0,10952.0,,,,,verb.contact,True,80,direct_object,Olwen,8,15,23,female,1.0,tertiary
+107,2,spake,59,64,11447,11452,277,65.0,71.0,11453.0,11459.0,,,,,verb.communication,True,84,direct_object,maiden,1,0,1,female,1.0,tertiary
+107,2,spake,59,64,11447,11452,274,65.0,71.0,11453.0,11459.0,,,,,verb.communication,True,84,direct_object,the maiden,2,23,25,female,1.0,tertiary
+108,2,answered,20,28,11596,11604,274,29.0,32.0,11605.0,11608.0,,,,,verb.communication,True,85,direct_object,the maiden,2,23,25,female,1.0,tertiary
+108,2,answered,20,28,11596,11604,279,29.0,32.0,11605.0,11608.0,,,,,verb.communication,True,85,direct_object,the maiden's father,2,4,6,male,1.0,tertiary
+110,1,ask,8,11,11795,11798,274,12.0,14.0,11799.0,11801.0,,,,,verb.communication,True,87,direct_object,the maiden,2,23,25,female,1.0,tertiary
+110,1,ask,8,11,11795,11798,279,12.0,14.0,11799.0,11801.0,,,,,verb.communication,True,87,direct_object,the maiden's father,2,4,6,male,1.0,tertiary
+111,1,obtain,45,51,11932,11938,274,52.0,54.0,11939.0,11941.0,,,,,verb.possession,True,88,direct_object,the maiden,2,23,25,female,1.0,tertiary
+114,2,said,40,44,12162,12166,125,45.0,49.0,12167.0,12171.0,,,,,verb.communication,True,91,direct_object,all Arthur 's men,1,8,9,male,1.0,tertiary
+116,2,answer,34,40,12270,12276,125,41.0,44.0,12277.0,12280.0,,,,,verb.communication,True,93,direct_object,all Arthur 's men,1,8,9,male,1.0,tertiary
+122,3,said,138,142,12857,12861,282,145.0,215.0,12864.0,12934.0,,,,,verb.communication,True,96,direct_object,Yspaddaden Penkawr's daughter,3,4,7,female,1.0,tertiary
+122,3,said,138,142,12857,12861,14,145.0,215.0,12864.0,12934.0,,,,,verb.communication,True,96,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+122,3,said,138,142,12857,12861,125,145.0,215.0,12864.0,12934.0,,,,,verb.communication,True,96,direct_object,all Arthur 's men,1,8,9,male,1.0,tertiary
+123,2,slay,37,41,12973,12977,282,42.0,46.0,12978.0,12982.0,,,,,verb.social,True,97,direct_object,Yspaddaden Penkawr's daughter,3,4,7,female,1.0,tertiary
+124,1,answered,72,80,13057,13065,14,81.0,99.0,13066.0,13084.0,,,,,verb.communication,True,98,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+130,0,cried,0,5,13390,13395,14,19.0,55.0,13409.0,13445.0,,,,,verb.communication,True,102,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+132,0,returned,27,35,13560,13568,14,36.0,49.0,13569.0,13582.0,,,,,verb.motion,True,101,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+134,2,fallen,36,42,13712,13718,14,43.0,55.0,13719.0,13731.0,,,,,verb.change,True,103,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+139,1,said,55,59,14146,14150,133,62.0,186.0,14153.0,14277.0,,,,,verb.communication,True,108,direct_object,Arthur 's men,6,16,22,male,1.0,tertiary
+139,1,said,55,59,14146,14150,282,62.0,186.0,14153.0,14277.0,,,,,verb.communication,True,108,direct_object,Yspaddaden Penkawr's daughter,3,4,7,female,1.0,tertiary
+140,1,seeks,18,23,14298,14303,298,24.0,35.0,14304.0,14315.0,,,,,verb.contact,True,107,direct_object,Arthur 's men's daughter,7,1,8,female,1.0,tertiary
+140,1,seeks,18,23,14298,14303,133,24.0,35.0,14304.0,14315.0,,,,,verb.contact,True,107,direct_object,Arthur 's men,6,16,22,male,1.0,tertiary
+142,1,spoke,38,43,14399,14404,12,44.0,48.0,14405.0,14409.0,,,,,verb.communication,True,111,direct_object,Kilweh,33,82,115,male,1.0,primary
+143,1,seekest,16,23,14444,14451,298,24.0,35.0,14452.0,14463.0,,,,,verb.social,True,110,direct_object,Arthur 's men's daughter,7,1,8,female,1.0,tertiary
+143,1,seekest,16,23,14444,14451,12,24.0,35.0,14452.0,14463.0,,,,,verb.social,True,110,direct_object,Kilweh,33,82,115,male,1.0,primary
+144,1,answered,11,19,14477,14485,12,20.0,26.0,14486.0,14492.0,,,,,verb.communication,True,112,direct_object,Kilweh,33,82,115,male,1.0,primary
+146,1,said,29,33,14689,14693,12,34.0,40.0,14694.0,14700.0,,,,,verb.communication,True,114,direct_object,Kilweh,33,82,115,male,1.0,primary
+147,0,name,1,5,14703,14707,12,6.0,19.0,14708.0,14721.0,,,,,verb.communication,True,115,direct_object,Kilweh,33,82,115,male,1.0,primary
+152,0,require,2,9,15279,15286,298,10.0,14.0,15287.0,15291.0,,,,,verb.communication,True,118,direct_object,Arthur 's men's daughter,7,1,8,female,1.0,tertiary
+152,0,require,2,9,15279,15286,14,10.0,14.0,15287.0,15291.0,,,,,verb.communication,True,118,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+152,0,require,2,9,15279,15286,12,10.0,14.0,15287.0,15291.0,,,,,verb.communication,True,118,direct_object,Kilweh,33,82,115,male,1.0,primary
+155,1,bring,13,18,15520,15525,12,19.0,21.0,15526.0,15528.0,,,,,verb.motion,True,122,direct_object,Kilweh,33,82,115,male,1.0,primary
+157,1,fetch,14,19,15645,15650,12,20.0,22.0,15651.0,15653.0,,,,,verb.contact,True,123,direct_object,Kilweh,33,82,115,male,1.0,primary
+158,2,arrange,101,108,15853,15860,12,109.0,116.0,15861.0,15868.0,,,,,verb.change,True,124,direct_object,Kilweh,33,82,115,male,1.0,primary
+159,6,hunt,175,179,16061,16065,308,180.0,183.0,16066.0,16069.0,,,,,verb.contact,True,125,direct_object,the boar,1,2,3,male,1.0,tertiary
+160,2,save,43,47,16114,16118,31,48.0,70.0,16119.0,16141.0,,,,,verb.possession,True,126,direct_object,Ca nt Ewin,1,0,1,unknown,0.0,tertiary
+161,6,answered,95,103,16305,16313,12,104.0,107.0,16314.0,16317.0,,,,,verb.communication,True,128,direct_object,Kilweh,33,82,115,male,1.0,primary
+163,2,hunt,44,48,16439,16443,312,49.0,91.0,16444.0,16486.0,,,,,verb.competition,True,129,direct_object,Mabon the son of Modron,3,0,3,unknown,0.0,tertiary
+163,2,hunt,44,48,16439,16443,25,49.0,91.0,16444.0,16486.0,,,,,verb.competition,True,129,direct_object,Mabon,24,14,38,male,1.0,secondary
+166,1,gain,12,16,16846,16850,317,17.0,30.0,16851.0,16864.0,,,,,verb.possession,True,132,direct_object,Kilweh's daughter,2,3,5,female,1.0,tertiary
+166,1,gain,12,16,16846,16850,12,17.0,30.0,16851.0,16864.0,,,,,verb.possession,True,132,direct_object,Kilweh,33,82,115,male,1.0,primary
+170,0,asked,0,5,17160,17165,133,6.0,10.0,17166.0,17170.0,,,,,verb.communication,True,135,direct_object,Arthur 's men,6,16,22,male,1.0,tertiary
+171,2,answered,67,75,17267,17275,144,76.0,83.0,17276.0,17283.0,,,,,verb.communication,True,136,direct_object,the man,4,0,4,male,1.0,tertiary
+175,2,replied,19,26,17521,17528,80,27.0,37.0,17529.0,17539.0,,,,,verb.communication,True,139,direct_object,the porter,7,23,30,male,1.0,tertiary
+177,0,asked,0,5,17558,17563,22,6.0,9.0,17564.0,17567.0,,,,,verb.communication,True,138,direct_object,Kai,17,24,41,male,1.0,secondary
+178,3,save,116,120,17685,17689,323,121.0,194.0,17690.0,17763.0,,,,,verb.social,True,140,direct_object,a craftsman,1,2,3,male,1.0,tertiary
+178,3,save,116,120,17685,17689,326,121.0,194.0,17690.0,17763.0,,,,,verb.social,True,140,direct_object,a craftsman's craftsman who brings his trade,1,0,1,unknown,0.0,tertiary
+179,2,said,29,33,17795,17799,22,34.0,37.0,17800.0,17803.0,,,,,verb.communication,True,141,direct_object,Kai,17,24,41,male,1.0,secondary
+180,1,tell,13,17,17871,17875,327,18.0,35.0,17876.0,17893.0,,,,,verb.communication,True,142,direct_object,the giant,8,9,17,male,1.0,tertiary
+180,1,tell,13,17,17871,17875,33,18.0,35.0,17876.0,17893.0,,,,,verb.communication,True,142,direct_object,Gwrnach,5,3,8,male,1.0,tertiary
+181,1,come,13,17,17943,17947,33,18.0,27.0,17948.0,17957.0,,,,,verb.motion,True,144,direct_object,Gwrnach,5,3,8,male,1.0,tertiary
+183,1,answered,14,22,18184,18192,22,23.0,26.0,18193.0,18196.0,,,,,verb.communication,True,145,direct_object,Kai,17,24,41,male,1.0,secondary
+184,1,brought,30,37,18228,18235,22,38.0,44.0,18236.0,18242.0,,,,,verb.motion,True,146,direct_object,Kai,17,24,41,male,1.0,secondary
+186,0,said,0,4,18283,18287,22,5.0,47.0,18288.0,18330.0,,,,,verb.communication,True,147,direct_object,Kai,17,24,41,male,1.0,secondary
+187,1,answered,15,23,18347,18355,327,24.0,33.0,18356.0,18365.0,,,,,verb.communication,True,148,direct_object,the giant,8,9,17,male,1.0,tertiary
+188,1,said,38,42,18449,18453,329,45.0,112.0,18456.0,18523.0,,,,,verb.communication,True,150,direct_object,a companion,2,3,5,male,1.0,tertiary
+188,1,said,38,42,18449,18453,22,45.0,112.0,18456.0,18523.0,,,,,verb.communication,True,150,direct_object,Kai,17,24,41,male,1.0,secondary
+191,0,asked,0,5,18612,18617,327,6.0,15.0,18618.0,18627.0,,,,,verb.communication,True,152,direct_object,the giant,8,9,17,male,1.0,tertiary
+192,5,know,57,61,18686,18690,329,62.0,65.0,18691.0,18694.0,,,,,verb.cognition,True,151,direct_object,a companion,2,3,5,male,1.0,tertiary
+195,3,prevailed,122,131,18977,18986,80,132.0,147.0,18987.0,19002.0,,,,,verb.social,True,155,direct_object,the porter,7,23,30,male,1.0,tertiary
+196,4,said,118,122,19180,19184,22,125.0,142.0,19187.0,19204.0,,,,,verb.communication,True,157,direct_object,Kai,17,24,41,male,1.0,secondary
+198,3,rusted,45,51,19266,19272,327,52.0,61.0,19273.0,19282.0,,,,,verb.change,True,156,direct_object,the giant,8,9,17,male,1.0,tertiary
+199,0,give,1,5,19284,19288,22,9.0,14.0,19292.0,19297.0,,,,,verb.possession,True,158,direct_object,Kai,17,24,41,male,1.0,secondary
+201,0,struck,15,21,19536,19542,327,22.0,53.0,19543.0,19574.0,,,,,verb.contact,True,160,direct_object,the giant,8,9,17,male,1.0,tertiary
+202,1,returned,65,73,19670,19678,15,107.0,124.0,19712.0,19729.0,,,,,verb.motion,True,161,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+205,0,tell,1,5,20039,20043,42,6.0,8.0,20044.0,20046.0,,,,,verb.communication,True,164,direct_object,a little boy's mother,3,0,3,female,1.0,tertiary
+205,0,tell,1,5,20039,20043,334,6.0,8.0,20044.0,20046.0,,,,,verb.communication,True,164,direct_object,"Mabon the son of Modron , who was taken when three nights old from between his mother and the wall",1,0,1,female,1.0,tertiary
+205,0,tell,1,5,20039,20043,25,6.0,8.0,20044.0,20046.0,,,,,verb.communication,True,164,direct_object,Mabon,24,14,38,male,1.0,secondary
+206,0,answered,14,22,20186,20194,338,25.0,111.0,20197.0,20283.0,,,,,verb.communication,True,166,direct_object,a smith,1,0,1,unknown,0.0,tertiary
+206,0,answered,14,22,20186,20194,337,25.0,111.0,20197.0,20283.0,,,,,verb.communication,True,166,direct_object,a young bird,1,0,1,unknown,0.0,tertiary
+206,0,answered,14,22,20186,20194,167,25.0,111.0,20197.0,20283.0,,,,,verb.communication,True,166,direct_object,the ousel,1,7,8,female,1.0,tertiary
+208,1,heard,36,41,20486,20491,144,42.0,61.0,20492.0,20511.0,,,,,verb.cognition,True,167,direct_object,the man,4,0,4,male,1.0,tertiary
+211,0,inquired,15,23,20675,20683,170,24.0,35.0,20684.0,20695.0,,,,,verb.communication,True,170,direct_object,the stag,2,32,34,male,1.0,tertiary
+211,0,inquired,15,23,20675,20683,25,24.0,35.0,20684.0,20695.0,,,,,verb.communication,True,170,direct_object,Mabon,24,14,38,male,1.0,secondary
+212,1,said,28,32,20774,20778,170,33.0,35.0,20779.0,20781.0,,,,,verb.communication,True,172,direct_object,the stag,2,32,34,male,1.0,tertiary
+213,4,heard,72,77,20953,20958,342,78.0,97.0,20959.0,20978.0,,,,,verb.cognition,True,171,direct_object,the man you name,2,0,2,male,1.0,tertiary
+214,2,guide,46,51,21026,21031,170,52.0,55.0,21032.0,21035.0,,,,,verb.motion,True,175,direct_object,the stag,2,32,34,male,1.0,tertiary
+216,1,knew,40,44,21198,21202,25,45.0,59.0,21203.0,21217.0,,,,,verb.cognition,True,173,direct_object,Mabon,24,14,38,male,1.0,secondary
+217,1,said,28,32,21265,21269,170,33.0,35.0,21270.0,21272.0,,,,,verb.communication,True,177,direct_object,the stag,2,32,34,male,1.0,tertiary
+220,0,look,0,4,21417,21421,170,5.0,16.0,21422.0,21433.0,,,,,verb.perception,True,179,direct_object,the stag,2,32,34,male,1.0,tertiary
+221,1,heard,30,35,21500,21505,342,36.0,55.0,21506.0,21525.0,,,,,verb.cognition,True,178,direct_object,the man you name,2,0,2,male,1.0,tertiary
+223,4,inquired,123,131,21773,21781,170,132.0,144.0,21782.0,21794.0,,,,,verb.communication,True,182,direct_object,the stag,2,32,34,male,1.0,tertiary
+223,4,inquired,123,131,21773,21781,25,132.0,144.0,21782.0,21794.0,,,,,verb.communication,True,182,direct_object,Mabon,24,14,38,male,1.0,secondary
+226,1,heard,21,26,22035,22040,144,27.0,46.0,22041.0,22060.0,,,,,verb.cognition,True,183,direct_object,the man,4,0,4,male,1.0,tertiary
+227,4,escape,114,120,22240,22246,170,121.0,124.0,22247.0,22250.0,,,,,verb.motion,True,184,direct_object,the stag,2,32,34,male,1.0,tertiary
+228,3,took,80,84,22332,22336,170,85.0,102.0,22337.0,22354.0,,,,,verb.contact,True,185,direct_object,the stag,2,32,34,male,1.0,tertiary
+230,1,guide,11,16,22458,22463,170,17.0,20.0,22464.0,22467.0,,,,,verb.motion,True,187,direct_object,the stag,2,32,34,male,1.0,tertiary
+233,4,inquire,86,93,22754,22761,312,94.0,150.0,22762.0,22818.0,,,,,verb.communication,True,188,direct_object,Mabon the son of Modron,3,0,3,unknown,0.0,tertiary
+233,4,inquire,86,93,22754,22761,25,94.0,150.0,22762.0,22818.0,,,,,verb.communication,True,188,direct_object,Mabon,24,14,38,male,1.0,secondary
+234,0,answered,15,23,22836,22844,178,26.0,60.0,22847.0,22881.0,,,,,verb.communication,True,189,direct_object,the salmon,1,8,9,unknown,0.0,tertiary
+234,0,answered,15,23,22836,22844,15,26.0,60.0,22847.0,22881.0,,,,,verb.communication,True,189,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+236,4,let,45,48,23063,23066,178,49.0,86.0,23067.0,23104.0,,,,,verb.social,True,191,direct_object,the salmon,1,8,9,unknown,0.0,tertiary
+236,4,let,45,48,23063,23066,15,49.0,86.0,23067.0,23104.0,,,,,verb.social,True,191,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+241,0,asked,0,5,23421,23426,25,6.0,12.0,23427.0,23433.0,13.0,18.0,,,verb.communication,True,193,direct_object,Mabon,24,14,38,male,1.0,secondary
+242,4,said,41,45,23482,23486,25,46.0,51.0,23487.0,23492.0,,,,,verb.communication,True,194,direct_object,Mabon,24,14,38,male,1.0,secondary
+243,1,tell,40,44,23534,23538,15,45.0,48.0,23539.0,23542.0,,,,,verb.communication,True,195,direct_object,Thither Arthur,36,58,94,male,1.0,primary
+243,1,tell,40,44,23534,23538,25,45.0,48.0,23539.0,23542.0,,,,,verb.communication,True,195,direct_object,Mabon,24,14,38,male,1.0,secondary
+248,3,required,141,149,24258,24266,12,150.0,159.0,24267.0,24276.0,,,,,verb.consumption,True,199,direct_object,Kilweh,33,82,115,male,1.0,primary
+249,2,came,91,95,24369,24373,29,96.0,207.0,24374.0,24485.0,,,,,verb.change,True,201,direct_object,Trwyth,3,14,17,male,1.0,tertiary
+252,0,caught,20,26,24744,24750,29,27.0,44.0,24751.0,24768.0,77.0,114.0,24801.0,24838.0,verb.contact,True,204,direct_object,Trwyth,3,14,17,male,1.0,tertiary
+258,0,asked,0,5,25613,25618,12,6.0,12.0,25619.0,25625.0,,,,,verb.communication,True,209,direct_object,Kilweh,33,82,115,male,1.0,primary
+259,1,answered,16,24,25643,25651,14,25.0,35.0,25652.0,25662.0,,,,,verb.communication,True,210,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+260,5,lose,66,70,25788,25792,14,71.0,78.0,25793.0,25800.0,,,,,verb.possession,True,212,direct_object,Yspaddaden Penkawr,23,28,51,male,1.0,secondary
+261,0,spake,10,15,25813,25818,34,16.0,59.0,25819.0,25862.0,,,,,verb.emotion,True,211,direct_object,Goreu,3,3,6,male,1.0,tertiary
+261,0,spake,10,15,25813,25818,204,16.0,59.0,25819.0,25862.0,,,,,verb.emotion,True,211,direct_object,the son of Custennin,2,0,2,unknown,0.0,tertiary
+261,0,spake,10,15,25813,25818,27,16.0,59.0,25819.0,25862.0,,,,,verb.emotion,True,211,direct_object,Custennin,4,0,4,unknown,0.0,tertiary

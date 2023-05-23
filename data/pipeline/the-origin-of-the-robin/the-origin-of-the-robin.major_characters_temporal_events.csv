@@ -1,0 +1,66 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,3,come,51,55,51,55,2,15.0,41.0,15.0,41.0,,,,,verb.motion,True,0,subject,an only son,1,0,1,unknown,0.0,tertiary
+0,3,come,51,55,51,55,0,15.0,41.0,15.0,41.0,,,,,verb.motion,True,0,subject,Iadilla,4,6,10,male,1.0,tertiary
+2,3,fast,78,82,399,403,7,53.0,70.0,374.0,391.0,,,,,verb.consumption,True,1,subject,the young Iadilla,1,0,1,unknown,0.0,tertiary
+3,1,prepare,33,40,533,540,5,22.0,29.0,522.0,529.0,,,,,verb.change,True,3,subject,the father's son,5,2,7,male,1.0,tertiary
+3,1,prepare,33,40,533,540,4,22.0,29.0,522.0,529.0,,,,,verb.change,True,3,subject,the father,5,59,64,male,1.0,primary
+5,2,promised,73,81,886,894,4,0.0,2.0,813.0,815.0,,,,,verb.communication,True,4,subject,the father,5,59,64,male,1.0,primary
+6,1,lay,44,47,1032,1035,14,0.0,7.0,988.0,995.0,,,,,verb.contact,True,5,subject,The lad,1,5,6,male,1.0,tertiary
+7,1,encouraged,66,76,1243,1253,13,14.0,24.0,1191.0,1201.0,,,,,verb.communication,True,6,subject,the father's father,4,7,11,male,1.0,tertiary
+7,1,encouraged,66,76,1243,1253,4,14.0,24.0,1191.0,1201.0,,,,,verb.communication,True,6,subject,the father,5,59,64,male,1.0,primary
+8,3,addressed,157,166,1565,1574,17,154.0,156.0,1562.0,1564.0,178.0,188.0,1586.0,1596.0,verb.communication,True,7,subject,the boy,1,6,7,male,1.0,tertiary
+9,1,break,6,11,1640,1645,17,4.0,5.0,1638.0,1639.0,20.0,23.0,1654.0,1657.0,verb.change,True,8,subject,the boy,1,6,7,male,1.0,tertiary
+10,1,know,34,38,1740,1744,37,30.0,33.0,1736.0,1739.0,,,,,verb.cognition,True,9,subject,the father's son,3,12,15,unknown,0.0,tertiary
+11,2,depart,39,45,1802,1808,37,19.0,33.0,1782.0,1796.0,,,,,verb.motion,True,10,subject,the father's son,3,12,15,unknown,0.0,tertiary
+13,3,completed,52,61,1894,1903,37,34.0,43.0,1876.0,1885.0,,,,,verb.change,True,12,subject,the father's son,3,12,15,unknown,0.0,tertiary
+14,3,persevere,57,66,1962,1971,37,50.0,53.0,1955.0,1958.0,,,,,verb.social,True,11,subject,the father's son,3,12,15,unknown,0.0,tertiary
+15,2,see,35,38,2008,2011,37,10.0,26.0,1983.0,1999.0,,,,,verb.perception,True,15,subject,the father's son,3,12,15,unknown,0.0,tertiary
+15,2,see,35,38,2008,2011,38,10.0,26.0,1983.0,1999.0,,,,,verb.perception,True,15,subject,the father's son's aged father,1,0,1,male,1.0,tertiary
+16,0,assented,8,16,2080,2088,20,0.0,7.0,2072.0,2079.0,,,,,verb.communication,True,14,subject,The son,2,8,10,male,1.0,tertiary
+18,0,addressed,11,20,2261,2270,4,0.0,10.0,2250.0,2260.0,29.0,53.0,2279.0,2303.0,verb.communication,True,16,subject,the father,5,59,64,male,1.0,primary
+19,0,moaned,8,14,2420,2426,20,0.0,7.0,2412.0,2419.0,,,,,verb.communication,True,17,subject,The son,2,8,10,male,1.0,tertiary
+20,1,shame,12,17,2539,2544,0,1.0,2.0,2528.0,2529.0,,,,,verb.social,True,19,subject,Iadilla,4,6,10,male,1.0,tertiary
+21,0,lay,8,11,2586,2589,0,5.0,7.0,2583.0,2585.0,,,,,verb.contact,True,18,subject,Iadilla,4,6,10,male,1.0,tertiary
+22,3,prepared,88,96,2783,2791,4,40.0,50.0,2735.0,2745.0,,,,,verb.change,True,20,subject,the father,5,59,64,male,1.0,primary
+25,1,listen,13,19,3326,3332,36,0.0,2.0,3313.0,3315.0,,,,,verb.perception,True,23,subject,the boy's father,4,6,10,male,1.0,tertiary
+26,1,urged,7,12,3356,3361,36,0.0,2.0,3349.0,3351.0,,,,,verb.emotion,True,22,subject,the boy's father,4,6,10,male,1.0,tertiary
+30,2,shown,60,65,3624,3629,36,53.0,55.0,3617.0,3619.0,74.0,88.0,3638.0,3652.0,verb.perception,True,25,subject,the boy's father,4,6,10,male,1.0,tertiary
+31,1,go,16,18,3700,3702,4,9.0,10.0,3693.0,3694.0,,,,,verb.motion,True,27,subject,the father,5,59,64,male,1.0,primary
+32,1,exclaiming,37,47,3742,3752,30,15.0,26.0,3720.0,3731.0,,,,,verb.communication,True,26,subject,the old man,1,4,5,male,1.0,tertiary
+34,0,pray,2,6,3773,3777,30,0.0,1.0,3771.0,3772.0,,,,,verb.communication,True,29,subject,the old man,1,4,5,male,1.0,tertiary
+35,5,changed,136,143,3933,3940,31,4.0,47.0,3801.0,3844.0,,,,,verb.change,True,28,subject,"the young man , with the quickness of a bird",1,19,20,male,1.0,tertiary
+36,1,addressed,66,75,4042,4051,31,0.0,2.0,3976.0,3978.0,80.0,137.0,4056.0,4113.0,verb.communication,True,31,subject,"the young man , with the quickness of a bird",1,19,20,male,1.0,tertiary
+40,1,gratify,26,33,4317,4324,31,14.0,15.0,4305.0,4306.0,46.0,58.0,4337.0,4349.0,verb.emotion,True,30,subject,"the young man , with the quickness of a bird",1,19,20,male,1.0,tertiary
+41,3,inspire,44,51,4478,4485,31,0.0,1.0,4434.0,4435.0,,,,,verb.emotion,True,33,subject,"the young man , with the quickness of a bird",1,19,20,male,1.0,tertiary
+42,2,expected,64,72,4623,4631,13,42.0,59.0,4601.0,4618.0,,,,,verb.cognition,True,32,subject,the father's father,4,7,11,male,1.0,tertiary
+44,1,furnished,25,34,4712,4721,31,0.0,7.0,4687.0,4694.0,,,,,verb.possession,True,34,subject,"the young man , with the quickness of a bird",1,19,20,male,1.0,tertiary
+45,1,caroled,85,92,4882,4889,0,77.0,84.0,4874.0,4881.0,,,,,verb.creation,True,35,subject,Iadilla,4,6,10,male,1.0,tertiary
+4,3,prepare,78,85,664,671,4,97.0,100.0,683.0,686.0,115.0,135.0,,,verb.change,True,2,direct_object,the father,5,59,64,male,1.0,primary
+5,2,promised,73,81,886,894,13,82.0,173.0,895.0,986.0,,,,,verb.communication,True,4,direct_object,the father's father,4,7,11,male,1.0,tertiary
+5,2,promised,73,81,886,894,4,82.0,173.0,895.0,986.0,,,,,verb.communication,True,4,direct_object,the father,5,59,64,male,1.0,primary
+7,1,encouraged,66,76,1243,1253,14,77.0,80.0,1254.0,1257.0,,,,,verb.communication,True,6,direct_object,The lad,1,5,6,male,1.0,tertiary
+8,3,addressed,157,166,1565,1574,13,167.0,177.0,1575.0,1585.0,178.0,188.0,1586.0,1596.0,verb.communication,True,7,direct_object,the father's father,4,7,11,male,1.0,tertiary
+8,3,addressed,157,166,1565,1574,4,167.0,177.0,1575.0,1585.0,178.0,188.0,1586.0,1596.0,verb.communication,True,7,direct_object,the father,5,59,64,male,1.0,primary
+9,1,break,6,11,1640,1645,17,12.0,19.0,1646.0,1653.0,20.0,23.0,1654.0,1657.0,verb.change,True,8,direct_object,the boy,1,6,7,male,1.0,tertiary
+10,1,know,34,38,1740,1744,37,39.0,55.0,1745.0,1761.0,,,,,verb.cognition,True,9,direct_object,the father's son,3,12,15,unknown,0.0,tertiary
+15,2,see,35,38,2008,2011,37,39.0,96.0,2012.0,2069.0,,,,,verb.perception,True,15,direct_object,the father's son,3,12,15,unknown,0.0,tertiary
+15,2,see,35,38,2008,2011,40,39.0,96.0,2012.0,2069.0,,,,,verb.perception,True,15,direct_object,the beloved of battle,1,0,1,unknown,0.0,tertiary
+15,2,see,35,38,2008,2011,39,39.0,96.0,2012.0,2069.0,,,,,verb.perception,True,15,direct_object,the chieftains,1,0,1,unknown,0.0,tertiary
+17,3,prompted,75,83,2164,2172,20,84.0,87.0,2173.0,2176.0,,,,,verb.communication,True,13,direct_object,The son,2,8,10,male,1.0,tertiary
+18,0,addressed,11,20,2261,2270,0,21.0,28.0,2271.0,2278.0,29.0,53.0,2279.0,2303.0,verb.communication,True,16,direct_object,Iadilla,4,6,10,male,1.0,tertiary
+20,1,shame,12,17,2539,2544,4,18.0,21.0,2545.0,2548.0,,,,,verb.social,True,19,direct_object,the father,5,59,64,male,1.0,primary
+21,0,lay,8,11,2586,2589,0,12.0,115.0,2590.0,2693.0,,,,,verb.contact,True,18,direct_object,Iadilla,4,6,10,male,1.0,tertiary
+22,3,prepared,88,96,2783,2791,5,97.0,105.0,2792.0,2800.0,,,,,verb.change,True,20,direct_object,the father's son,5,2,7,male,1.0,tertiary
+22,3,prepared,88,96,2783,2791,4,97.0,105.0,2792.0,2800.0,,,,,verb.change,True,20,direct_object,the father,5,59,64,male,1.0,primary
+23,0,coming,3,9,2852,2858,4,10.0,41.0,2859.0,2890.0,,,,,verb.motion,True,21,direct_object,the father,5,59,64,male,1.0,primary
+24,7,laying,202,208,3147,3153,4,209.0,221.0,3154.0,3166.0,251.0,308.0,,,verb.contact,True,24,direct_object,the father,5,59,64,male,1.0,primary
+25,1,listen,13,19,3326,3332,4,20.0,34.0,3333.0,3347.0,,,,,verb.perception,True,23,direct_object,the father,5,59,64,male,1.0,primary
+26,1,urged,7,12,3356,3361,4,13.0,15.0,3362.0,3364.0,,,,,verb.emotion,True,22,direct_object,the father,5,59,64,male,1.0,primary
+30,2,shown,60,65,3624,3629,4,66.0,73.0,3630.0,3637.0,74.0,88.0,3638.0,3652.0,verb.perception,True,25,direct_object,the father,5,59,64,male,1.0,primary
+32,1,exclaiming,37,47,3742,3752,30,50.0,56.0,3755.0,3761.0,,,,,verb.communication,True,26,direct_object,the old man,1,4,5,male,1.0,tertiary
+32,1,exclaiming,37,47,3742,3752,37,50.0,56.0,3755.0,3761.0,,,,,verb.communication,True,26,direct_object,the father's son,3,12,15,unknown,0.0,tertiary
+34,0,pray,2,6,3773,3777,30,7.0,23.0,3778.0,3794.0,,,,,verb.communication,True,29,direct_object,the old man,1,4,5,male,1.0,tertiary
+34,0,pray,2,6,3773,3777,37,7.0,23.0,3778.0,3794.0,,,,,verb.communication,True,29,direct_object,the father's son,3,12,15,unknown,0.0,tertiary
+36,1,addressed,66,75,4042,4051,13,76.0,79.0,4052.0,4055.0,80.0,137.0,4056.0,4113.0,verb.communication,True,31,direct_object,the father's father,4,7,11,male,1.0,tertiary
+40,1,gratify,26,33,4317,4324,13,34.0,45.0,4325.0,4336.0,46.0,58.0,4337.0,4349.0,verb.emotion,True,30,direct_object,the father's father,4,7,11,male,1.0,tertiary
+41,3,inspire,44,51,4478,4485,31,52.0,61.0,4486.0,4495.0,,,,,verb.emotion,True,33,direct_object,"the young man , with the quickness of a bird",1,19,20,male,1.0,tertiary

@@ -1,0 +1,414 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,1,called,51,57,350,356,12,44.0,46.0,343.0,345.0,,,,,verb.communication,True,1,subject,Hohodemi,5.0,6.0,11.0,male,1.0,tertiary
+3,1,surpassed,60,69,475,484,33,53.0,55.0,468.0,470.0,,,,,verb.social,True,2,subject,Hohodemi's elder brother,2.0,2.0,4.0,male,1.0,tertiary
+4,0,led,18,21,593,596,36,0.0,12.0,575.0,587.0,35.0,83.0,610.0,658.0,verb.motion,True,3,subject,The brothers,1.0,1.0,2.0,male,1.0,tertiary
+5,4,return,179,185,953,959,288,175.0,178.0,949.0,952.0,,,,,verb.motion,True,4,subject,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+9,5,fish,56,60,1356,1360,16,42.0,43.0,1342.0,1343.0,,,,,verb.consumption,True,6,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+10,2,answered,104,112,1478,1486,16,101.0,103.0,1475.0,1477.0,,,,,verb.communication,True,7,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+13,3,try,81,84,1713,1716,42,44.0,65.0,1676.0,1697.0,,,,,verb.social,True,10,subject,the two brothers,2.0,1.0,3.0,male,1.0,tertiary
+14,1,knew,49,53,1832,1836,17,32.0,48.0,1815.0,1831.0,,,,,verb.cognition,True,9,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+15,0,took,17,21,1949,1953,17,0.0,16.0,1932.0,1948.0,,,,,verb.motion,True,11,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+16,0,baited,3,9,2061,2067,17,0.0,2.0,2058.0,2060.0,,,,,verb.contact,True,12,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+17,3,longed,75,81,2193,2199,17,0.0,2.0,2118.0,2120.0,,,,,verb.emotion,True,13,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+19,9,help,152,156,2521,2525,17,139.0,141.0,2508.0,2510.0,,,,,verb.social,True,15,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+20,1,sat,43,46,2601,2604,17,40.0,42.0,2598.0,2600.0,60.0,124.0,2618.0,2682.0,verb.contact,True,14,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+22,1,caught,14,20,2752,2758,17,7.0,9.0,2745.0,2747.0,,,,,verb.contact,True,16,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+23,4,lost,78,82,2856,2860,17,71.0,73.0,2849.0,2851.0,92.0,135.0,2870.0,2913.0,verb.possession,True,17,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+24,6,lost,98,102,3013,3017,17,87.0,90.0,3002.0,3005.0,,,,,verb.possession,True,18,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+25,2,look,36,40,3129,3133,17,0.0,16.0,3093.0,3109.0,,,,,verb.perception,True,20,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+26,5,looked,93,99,3373,3379,54,0.0,2.0,3280.0,3282.0,,,,,verb.perception,True,19,subject,the Skillful Fisher,1.0,12.0,13.0,male,1.0,tertiary
+27,6,said,109,113,3506,3510,54,106.0,108.0,3503.0,3505.0,,,,,verb.communication,True,21,subject,the Skillful Fisher,1.0,12.0,13.0,male,1.0,tertiary
+28,2,said,78,82,3632,3636,39,0.0,16.0,3554.0,3570.0,,,,,verb.communication,True,23,subject,the Happy Hunter,8.0,6.0,14.0,male,1.0,tertiary
+29,2,done,35,39,3717,3721,54,9.0,25.0,3691.0,3707.0,,,,,verb.social,True,22,subject,the Skillful Fisher,1.0,12.0,13.0,male,1.0,tertiary
+31,1,lost,8,12,3769,3773,54,1.0,2.0,3762.0,3763.0,42.0,94.0,3803.0,3855.0,verb.possession,True,25,subject,the Skillful Fisher,1.0,12.0,13.0,male,1.0,tertiary
+32,1,expected,18,26,3913,3921,40,6.0,15.0,3901.0,3910.0,,,,,verb.cognition,True,24,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+33,4,wish,127,131,4050,4054,40,113.0,116.0,4036.0,4039.0,135.0,142.0,4058.0,4065.0,verb.emotion,True,27,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+35,1,done,13,17,4188,4192,40,4.0,7.0,4179.0,4182.0,,,,,verb.social,True,28,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+36,1,return,11,17,4211,4217,40,0.0,1.0,4200.0,4201.0,41.0,68.0,4241.0,4268.0,verb.possession,True,29,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+37,2,return,32,38,4302,4308,40,16.0,19.0,4286.0,4289.0,48.0,55.0,4318.0,4325.0,verb.possession,True,31,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+38,2,blame,37,42,4365,4370,17,27.0,29.0,4355.0,4357.0,,,,,verb.communication,True,30,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+39,0,hunted,3,9,4474,4480,17,0.0,2.0,4471.0,4473.0,,,,,verb.contact,True,32,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+41,1,broke,38,43,4650,4655,17,0.0,2.0,4612.0,4614.0,,,,,verb.change,True,34,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+42,6,lost,146,150,4871,4875,17,131.0,138.0,4856.0,4863.0,,,,,verb.possession,True,33,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+44,1,listen,23,29,4923,4929,17,1.0,12.0,4901.0,4912.0,38.0,65.0,4938.0,4965.0,verb.perception,True,35,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+44,1,listen,23,29,4923,4929,40,1.0,12.0,4901.0,4912.0,38.0,65.0,4938.0,4965.0,verb.perception,True,35,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+45,1,took,65,69,5032,5036,17,0.0,16.0,4967.0,4983.0,91.0,119.0,5058.0,5086.0,verb.possession,True,36,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+46,2,shaking,61,68,5149,5156,16,40.0,59.0,5128.0,5147.0,,,,,verb.body,True,37,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+47,1,forgive,9,16,5203,5210,16,0.0,1.0,5194.0,5195.0,21.0,57.0,5215.0,5251.0,verb.communication,True,38,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+48,8,usurp,222,227,5476,5481,16,192.0,194.0,5446.0,5448.0,238.0,255.0,5492.0,5509.0,verb.communication,True,40,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+49,4,owed,93,97,5604,5608,17,78.0,89.0,5589.0,5600.0,,,,,verb.possession,True,39,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+50,0,returned,7,15,5644,5652,17,4.0,6.0,5641.0,5643.0,,,,,verb.motion,True,42,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+51,3,lost,34,38,5753,5757,17,27.0,29.0,5746.0,5748.0,,,,,verb.possession,True,41,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+52,2,wondering,52,61,5859,5868,17,6.0,8.0,5813.0,5815.0,,,,,verb.cognition,True,43,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+53,10,coming,169,175,6123,6129,73,157.0,168.0,6111.0,6122.0,,,,,verb.motion,True,44,subject,The old man,6.0,11.0,17.0,male,1.0,tertiary
+56,1,doing,14,19,6260,6265,17,1.0,5.0,6247.0,6251.0,,,,,verb.social,True,46,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+57,1,answered,16,24,6306,6314,76,1.0,4.0,6291.0,6294.0,,,,,verb.communication,True,50,subject,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+58,0,lost,32,36,6370,6374,76,30.0,31.0,6368.0,6369.0,,,,,verb.possession,True,49,subject,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+59,1,hunted,7,13,6418,6424,76,0.0,1.0,6411.0,6412.0,25.0,33.0,6436.0,6444.0,verb.contact,True,48,subject,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+60,4,forgive,63,70,6519,6526,288,46.0,56.0,6502.0,6512.0,74.0,98.0,6530.0,6554.0,verb.communication,True,52,subject,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+60,4,forgive,63,70,6519,6526,76,46.0,56.0,6502.0,6512.0,74.0,98.0,6530.0,6554.0,verb.communication,True,52,subject,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+65,0,tell,9,13,6730,6734,73,7.0,8.0,6728.0,6729.0,,,,,verb.communication,True,53,subject,The old man,6.0,11.0,17.0,male,1.0,tertiary
+69,0,think,2,7,7158,7163,77,0.0,1.0,7156.0,7157.0,,,,,verb.cognition,True,57,subject,the distressed man,1.0,3.0,4.0,male,1.0,tertiary
+70,6,heard,122,127,7315,7320,17,108.0,109.0,7301.0,7302.0,,,,,verb.cognition,True,56,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+71,3,said,60,64,7428,7432,17,1.0,57.0,7369.0,7425.0,,,,,verb.communication,True,58,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+72,1,make,13,17,7458,7462,73,2.0,3.0,7447.0,7448.0,,,,,verb.creation,True,59,subject,The old man,6.0,11.0,17.0,male,1.0,tertiary
+73,1,said,13,17,7523,7527,73,1.0,10.0,7511.0,7520.0,,,,,verb.communication,True,60,subject,The old man,6.0,11.0,17.0,male,1.0,tertiary
+75,3,prepared,69,77,7765,7773,17,0.0,2.0,7696.0,7698.0,,,,,verb.change,True,62,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+76,8,return,151,157,7935,7941,17,123.0,125.0,7907.0,7909.0,167.0,202.0,7951.0,7986.0,verb.motion,True,64,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+77,3,told,56,60,8044,8048,73,0.0,11.0,7988.0,7999.0,,,,,verb.communication,True,63,subject,The old man,6.0,11.0,17.0,male,1.0,tertiary
+78,2,riding,46,52,8210,8216,17,0.0,16.0,8164.0,8180.0,,,,,verb.contact,True,66,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+79,4,expected,111,119,8382,8390,17,86.0,98.0,8357.0,8369.0,,,,,verb.cognition,True,65,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+81,0,landed,8,14,8608,8614,17,0.0,2.0,8600.0,8602.0,,,,,verb.motion,True,67,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+84,5,saw,159,162,9009,9012,91,134.0,145.0,8984.0,8995.0,,,,,verb.perception,True,68,subject,Our hero,1.0,2.0,3.0,male,1.0,tertiary
+85,8,ask,155,158,9188,9191,17,146.0,148.0,9179.0,9181.0,,,,,verb.communication,True,69,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+86,0,noticed,45,52,9299,9306,17,42.0,44.0,9296.0,9298.0,,,,,verb.perception,True,70,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+87,2,draw,34,38,9376,9380,95,7.0,15.0,9349.0,9357.0,45.0,68.0,9387.0,9410.0,verb.motion,True,72,subject,,,,,,,
+88,0,climbed,8,15,9432,9439,17,5.0,7.0,9429.0,9431.0,,,,,verb.motion,True,71,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+89,0,saw,12,15,9573,9576,17,9.0,11.0,9570.0,9572.0,,,,,verb.perception,True,73,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+90,13,wondered,361,369,9998,10006,17,327.0,329.0,9964.0,9966.0,,,,,verb.communication,True,74,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+92,0,saw,3,6,10155,10158,17,0.0,2.0,10152.0,10154.0,,,,,verb.cognition,True,76,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+93,4,draw,137,141,10345,10349,103,49.0,53.0,10257.0,10261.0,,,,,verb.contact,True,77,subject,these two lovely princesses,1.0,7.0,8.0,female,1.0,tertiary
+94,3,saw,128,131,10636,10639,106,123.0,127.0,10631.0,10635.0,,,,,verb.perception,True,79,subject,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+95,1,seen,22,26,10804,10808,106,17.0,21.0,10799.0,10803.0,,,,,verb.perception,True,78,subject,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+97,5,looking,185,192,11104,11111,17,136.0,164.0,11055.0,11083.0,206.0,234.0,11125.0,11153.0,verb.perception,True,80,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+97,5,looking,185,192,11104,11111,106,136.0,164.0,11055.0,11083.0,206.0,234.0,11125.0,11153.0,verb.perception,True,80,subject,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+98,0,gazed,5,10,11160,11165,106,0.0,4.0,11155.0,11159.0,18.0,30.0,11173.0,11185.0,verb.perception,True,82,subject,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+99,7,came,137,141,11406,11410,13,135.0,136.0,11404.0,11405.0,154.0,189.0,11423.0,11458.0,verb.motion,True,81,subject,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+100,3,come,67,71,11584,11588,95,55.0,63.0,11572.0,11580.0,,,,,verb.motion,True,83,subject,,,,,,,
+101,2,appeared,85,93,11675,11683,315,68.0,84.0,11658.0,11674.0,,,,,verb.change,True,84,subject,the two ladies's noble ladies,1.0,0.0,1.0,female,1.0,tertiary
+101,2,appeared,85,93,11675,11683,106,68.0,84.0,11658.0,11674.0,,,,,verb.change,True,84,subject,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+102,0,pray,12,16,11731,11735,13,10.0,11.0,11729.0,11730.0,,,,,verb.communication,True,85,subject,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+107,1,looking,33,40,12632,12639,106,0.0,14.0,12599.0,12613.0,49.0,116.0,12648.0,12715.0,verb.perception,True,87,subject,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+109,1,honor,13,18,12871,12876,17,5.0,8.0,12863.0,12866.0,22.0,47.0,12880.0,12905.0,verb.social,True,88,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+117,4,said,46,50,13460,13464,17,0.0,43.0,13414.0,13457.0,,,,,verb.communication,True,93,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+118,8,tell,142,146,13625,13629,17,134.0,135.0,13617.0,13618.0,,,,,verb.communication,True,95,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+120,2,hope,35,39,13796,13800,17,23.0,24.0,13784.0,13785.0,73.0,113.0,13834.0,13874.0,verb.emotion,True,96,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+121,3,find,54,58,13930,13934,17,45.0,46.0,13921.0,13922.0,,,,,verb.possession,True,97,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+123,0,showed,23,29,14204,14210,333,0.0,17.0,14181.0,14198.0,,,,,verb.communication,True,99,subject,This kind old man,1.0,0.0,1.0,male,1.0,tertiary
+125,1,ask,10,13,14279,14282,17,0.0,1.0,14269.0,14270.0,23.0,57.0,14292.0,14326.0,verb.communication,True,101,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+129,6,meet,140,144,14586,14590,336,113.0,115.0,14559.0,14561.0,,,,,verb.social,True,106,subject,your father,1.0,4.0,5.0,male,1.0,tertiary
+131,3,think,62,67,14825,14830,118,54.0,57.0,14817.0,14820.0,,,,,verb.cognition,True,107,subject,Princess Tayotama's younger sister,1.0,3.0,4.0,female,1.0,tertiary
+134,3,said,51,55,15047,15051,17,1.0,48.0,14997.0,15044.0,,,,,verb.communication,True,110,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+134,3,said,51,55,15047,15051,118,1.0,48.0,14997.0,15044.0,,,,,verb.communication,True,110,subject,Princess Tayotama's younger sister,1.0,3.0,4.0,female,1.0,tertiary
+135,4,led,88,91,15158,15161,119,83.0,87.0,15153.0,15157.0,,,,,verb.motion,True,111,subject,the sisters,1.0,3.0,4.0,female,1.0,tertiary
+136,5,told,188,192,15372,15376,120,184.0,187.0,15368.0,15371.0,,,,,verb.communication,True,113,subject,The younger Princess,1.0,5.0,6.0,female,1.0,tertiary
+138,4,coming,213,219,15882,15888,135,165.0,207.0,15834.0,15876.0,,,,,verb.motion,True,114,subject,the grandson of the Sun Goddess,1.0,0.0,1.0,unknown,0.0,tertiary
+138,4,coming,213,219,15882,15888,28,165.0,207.0,15834.0,15876.0,,,,,verb.motion,True,114,subject,the Sun Goddess,3.0,0.0,3.0,unknown,0.0,tertiary
+138,4,coming,213,219,15882,15888,21,165.0,207.0,15834.0,15876.0,,,,,verb.motion,True,114,subject,Amaterasu,4.0,0.0,4.0,unknown,0.0,tertiary
+140,2,welcome,71,78,16140,16147,19,0.0,7.0,16069.0,16076.0,,,,,verb.social,True,116,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+141,1,bowed,112,117,16265,16270,143,86.0,111.0,16239.0,16264.0,121.0,131.0,16274.0,16284.0,verb.communication,True,117,subject,the Sea King's wife,1.0,0.0,1.0,female,1.0,tertiary
+141,1,bowed,112,117,16265,16270,92,86.0,111.0,16239.0,16264.0,121.0,131.0,16274.0,16284.0,verb.communication,True,117,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+142,3,said,135,139,16485,16489,92,0.0,12.0,16350.0,16362.0,,,,,verb.communication,True,118,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+144,2,heard,70,75,16661,16666,19,16.0,23.0,16607.0,16614.0,,,,,verb.cognition,True,119,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+144,2,heard,70,75,16661,16666,39,16.0,23.0,16607.0,16614.0,,,,,verb.cognition,True,119,subject,the Happy Hunter,8.0,6.0,14.0,male,1.0,tertiary
+146,1,apologize,8,17,16742,16751,19,1.0,2.0,16735.0,16736.0,,,,,verb.communication,True,122,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+147,0,bowed,7,12,16820,16825,19,4.0,6.0,16817.0,16819.0,,,,,verb.communication,True,123,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+148,2,said,25,29,16884,16888,147,1.0,22.0,16860.0,16881.0,,,,,verb.communication,True,125,subject,the Happy Hunter's host,2.0,5.0,7.0,unknown,0.0,tertiary
+148,2,said,25,29,16884,16888,19,1.0,22.0,16860.0,16881.0,,,,,verb.communication,True,125,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+149,3,coming,32,38,16930,16936,147,24.0,27.0,16922.0,16925.0,,,,,verb.motion,True,124,subject,the Happy Hunter's host,2.0,5.0,7.0,unknown,0.0,tertiary
+150,5,make,91,95,17029,17033,147,82.0,85.0,17020.0,17023.0,,,,,verb.social,True,128,subject,the Happy Hunter's host,2.0,5.0,7.0,unknown,0.0,tertiary
+152,0,clapped,21,28,17181,17188,92,8.0,20.0,17168.0,17180.0,,,,,verb.contact,True,127,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+154,1,chosen,31,37,17465,17471,155,0.0,25.0,17434.0,17459.0,79.0,187.0,17513.0,17621.0,verb.cognition,True,126,subject,All the fishes - in - waiting,1.0,0.0,1.0,unknown,0.0,tertiary
+155,0,tried,18,23,17641,17646,159,0.0,17.0,17623.0,17640.0,,,,,verb.social,True,129,subject,All in the Palace,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+156,1,commanded,56,65,17784,17793,19,48.0,55.0,17776.0,17783.0,,,,,verb.communication,True,132,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+157,4,come,96,100,18032,18036,17,89.0,91.0,18025.0,18027.0,,,,,verb.motion,True,131,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+159,11,fishing,225,232,18431,18438,13,212.0,213.0,18418.0,18419.0,,,,,verb.contact,True,130,subject,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+160,1,ask,6,9,18460,18463,13,4.0,5.0,18458.0,18459.0,,,,,verb.communication,True,133,subject,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+161,4,ask,86,89,18661,18664,168,42.0,43.0,18617.0,18618.0,,,,,verb.communication,True,135,subject,the obliging Sea King,1.0,3.0,4.0,male,1.0,tertiary
+162,1,issued,18,24,18690,18696,168,11.0,13.0,18683.0,18685.0,,,,,verb.communication,True,134,subject,the obliging Sea King,1.0,3.0,4.0,male,1.0,tertiary
+164,2,called,60,66,19126,19132,356,49.0,51.0,19115.0,19117.0,,,,,verb.communication,True,138,subject,the august grandson of Amaterasu,1.0,9.0,10.0,male,1.0,tertiary
+165,1,fishing,13,20,19181,19188,356,6.0,8.0,19174.0,19176.0,,,,,verb.contact,True,137,subject,the august grandson of Amaterasu,1.0,9.0,10.0,male,1.0,tertiary
+166,1,come,7,11,19286,19290,356,0.0,2.0,19279.0,19281.0,70.0,164.0,19349.0,19443.0,verb.motion,True,139,subject,the august grandson of Amaterasu,1.0,9.0,10.0,male,1.0,tertiary
+167,3,return,48,54,19493,19499,173,27.0,30.0,19472.0,19475.0,,,,,verb.possession,True,141,subject,All the fishes,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+168,2,heard,48,53,19647,19652,173,43.0,47.0,19642.0,19646.0,,,,,verb.perception,True,140,subject,All the fishes,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+169,1,looking,9,16,19712,19719,173,0.0,4.0,19703.0,19707.0,,,,,verb.perception,True,142,subject,All the fishes,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+170,2,think,49,54,19807,19812,92,47.0,48.0,19805.0,19806.0,,,,,verb.cognition,True,143,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+173,5,suffering,87,96,20007,20016,24,72.0,74.0,19992.0,19994.0,,,,,verb.body,True,144,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+174,0,think,18,23,20054,20059,153,16.0,17.0,20052.0,20053.0,,,,,verb.cognition,True,147,subject,the King,6.0,4.0,10.0,male,1.0,tertiary
+177,2,inquire,26,33,20282,20289,92,5.0,8.0,20261.0,20264.0,,,,,verb.communication,True,148,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+178,2,proved,27,33,20334,20340,92,5.0,18.0,20312.0,20325.0,,,,,verb.cognition,True,150,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+179,3,come,62,66,20405,20409,24,46.0,53.0,20389.0,20396.0,,,,,verb.motion,True,149,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+181,3,returned,107,115,20582,20590,92,100.0,102.0,20575.0,20577.0,,,,,verb.motion,True,152,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+182,0,led,3,6,20622,20625,92,0.0,2.0,20619.0,20621.0,,,,,verb.motion,True,153,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+183,1,looking,18,25,20665,20672,24,0.0,7.0,20647.0,20654.0,,,,,verb.body,True,154,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+184,3,looked,97,103,20790,20796,24,65.0,73.0,20758.0,20766.0,,,,,verb.perception,True,155,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+186,2,come,37,41,20878,20882,24,29.0,32.0,20870.0,20873.0,,,,,verb.motion,True,156,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+187,2,answered,35,43,20950,20958,24,1.0,32.0,20916.0,20947.0,,,,,verb.communication,True,159,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+188,2,come,26,30,20993,20997,24,14.0,15.0,20981.0,20982.0,,,,,verb.motion,True,158,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+196,1,stealing,22,30,21399,21407,24,0.0,1.0,21377.0,21378.0,,,,,verb.possession,True,162,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+197,1,saw,41,44,21468,21471,24,24.0,32.0,21451.0,21459.0,,,,,verb.perception,True,161,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+198,0,hope,5,9,21537,21541,24,3.0,4.0,21535.0,21536.0,,,,,verb.emotion,True,164,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+199,2,said,63,67,21626,21630,182,56.0,60.0,21619.0,21623.0,,,,,verb.communication,True,165,subject,The cuttlefish,1.0,2.0,3.0,unknown,0.0,tertiary
+200,0,see,4,7,21646,21649,153,0.0,3.0,21642.0,21645.0,,,,,verb.cognition,True,166,subject,the King,6.0,4.0,10.0,male,1.0,tertiary
+203,1,felt,33,37,21871,21875,24,30.0,32.0,21868.0,21870.0,48.0,54.0,21886.0,21892.0,verb.perception,True,167,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+204,2,return,18,24,21934,21940,24,2.0,3.0,21918.0,21919.0,34.0,47.0,21950.0,21963.0,verb.motion,True,170,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+205,4,drew,183,187,22149,22153,24,161.0,163.0,22127.0,22129.0,197.0,230.0,22163.0,22196.0,verb.contact,True,169,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+206,1,brought,22,29,22220,22227,24,0.0,2.0,22198.0,22200.0,,,,,verb.contact,True,171,subject,TAI,12.0,34.0,46.0,male,1.0,tertiary
+207,1,returned,62,70,22306,22314,19,0.0,7.0,22244.0,22251.0,121.0,187.0,22365.0,22431.0,verb.possession,True,173,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+208,3,owed,81,85,22514,22518,17,78.0,80.0,22511.0,22513.0,,,,,verb.cognition,True,172,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+209,2,begged,60,66,22656,22662,17,43.0,59.0,22639.0,22655.0,,,,,verb.communication,True,174,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+210,5,make,67,71,22747,22751,17,48.0,50.0,22728.0,22730.0,,,,,verb.social,True,176,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+211,4,suffered,65,73,22848,22856,368,50.0,52.0,22833.0,22835.0,96.0,123.0,22879.0,22906.0,verb.perception,True,175,subject,The TAI,4.0,5.0,9.0,male,1.0,tertiary
+213,1,blamed,25,31,22999,23005,17,22.0,24.0,22996.0,22998.0,,,,,verb.communication,True,178,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+214,5,lost,63,67,23077,23081,17,43.0,45.0,23057.0,23059.0,,,,,verb.possession,True,177,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+215,1,forgive,29,36,23250,23257,92,13.0,25.0,23234.0,23246.0,,,,,verb.communication,True,179,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+217,0,forgave,8,15,23347,23354,19,0.0,7.0,23339.0,23346.0,28.0,70.0,23367.0,23409.0,verb.communication,True,181,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+218,3,praising,124,132,23535,23543,368,56.0,70.0,23467.0,23481.0,,,,,verb.communication,True,182,subject,The TAI,4.0,5.0,9.0,male,1.0,tertiary
+219,2,had,45,48,23622,23625,17,28.0,44.0,23605.0,23621.0,,,,,verb.possession,True,183,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+220,9,make,122,126,23891,23895,17,5.0,60.0,23774.0,23829.0,,,,,verb.change,True,184,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+220,9,make,122,126,23891,23895,92,5.0,60.0,23774.0,23829.0,,,,,verb.change,True,184,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+221,2,came,95,99,24041,24045,23,45.0,93.0,23991.0,24039.0,,,,,verb.motion,True,185,subject,Tamayori,5.0,0.0,5.0,unknown,0.0,tertiary
+221,2,came,95,99,24041,24045,208,45.0,93.0,23991.0,24039.0,,,,,verb.motion,True,185,subject,the two lovely Princesses,1.0,2.0,3.0,female,1.0,tertiary
+221,2,came,95,99,24041,24045,22,45.0,93.0,23991.0,24039.0,,,,,verb.motion,True,185,subject,Princess Tayotama,4.0,5.0,9.0,female,1.0,tertiary
+222,1,found,103,108,24347,24352,39,86.0,102.0,24330.0,24346.0,,,,,verb.cognition,True,186,subject,the Happy Hunter,8.0,6.0,14.0,male,1.0,tertiary
+225,5,govern,153,159,24989,24995,17,151.0,152.0,24987.0,24988.0,,,,,verb.social,True,187,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+226,1,return,12,18,25097,25103,17,0.0,1.0,25085.0,25086.0,,,,,verb.motion,True,189,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+228,1,take,38,42,25316,25320,17,31.0,32.0,25309.0,25310.0,,,,,verb.social,True,190,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+229,0,hope,2,6,25340,25344,17,0.0,1.0,25338.0,25339.0,,,,,verb.emotion,True,191,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+231,7,answered,169,177,25601,25609,19,166.0,168.0,25598.0,25600.0,,,,,verb.communication,True,194,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+233,1,govern,31,37,25822,25828,92,27.0,30.0,25818.0,25821.0,,,,,verb.social,True,192,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+234,0,hope,2,6,25976,25980,19,0.0,1.0,25974.0,25975.0,,,,,verb.emotion,True,195,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+235,2,trust,53,58,26058,26063,19,51.0,52.0,26056.0,26057.0,,,,,verb.cognition,True,196,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+237,0,bowed,19,24,26324,26329,163,0.0,18.0,26305.0,26323.0,,,,,verb.motion,True,198,subject,The two Princesses,3.0,3.0,6.0,female,1.0,tertiary
+238,0,returned,22,30,26390,26398,163,17.0,21.0,26385.0,26389.0,,,,,verb.motion,True,199,subject,The two Princesses,3.0,3.0,6.0,female,1.0,tertiary
+239,1,wondered,38,46,26518,26526,17,35.0,37.0,26515.0,26517.0,,,,,verb.cognition,True,201,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+240,3,inherited,103,112,26650,26659,92,66.0,94.0,26613.0,26641.0,132.0,152.0,26679.0,26699.0,verb.possession,True,200,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+241,0,give,7,11,26708,26712,92,0.0,2.0,26701.0,26703.0,24.0,81.0,26725.0,26782.0,verb.possession,True,202,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+243,3,thank,64,69,26902,26907,17,52.0,53.0,26890.0,26891.0,74.0,80.0,26912.0,26918.0,verb.communication,True,203,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+244,2,tell,52,56,27000,27004,92,13.0,16.0,26961.0,26964.0,,,,,verb.communication,True,204,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+247,2,handed,71,77,27488,27494,19,20.0,30.0,27437.0,27447.0,,,,,verb.possession,True,206,subject,King,22.0,32.0,54.0,male,1.0,tertiary
+247,2,handed,71,77,27488,27494,87,20.0,30.0,27437.0,27447.0,,,,,verb.possession,True,206,subject,the Happy Hunter's friend,3.0,1.0,4.0,male,1.0,tertiary
+248,3,felt,157,161,27665,27669,17,154.0,156.0,27662.0,27664.0,,,,,verb.cognition,True,207,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+251,2,come,59,63,28205,28209,17,52.0,54.0,28198.0,28200.0,,,,,verb.motion,True,210,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+252,1,seen,13,17,28282,28286,17,10.0,12.0,28279.0,28281.0,,,,,verb.perception,True,211,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+254,1,ordered,17,24,28417,28424,92,0.0,12.0,28400.0,28412.0,,,,,verb.communication,True,212,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+255,5,returned,181,189,28659,28667,17,164.0,180.0,28642.0,28658.0,,,,,verb.motion,True,213,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+257,0,gave,8,12,28804,28808,17,0.0,2.0,28796.0,28798.0,,,,,verb.possession,True,215,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+258,1,telling,47,54,28989,28996,17,0.0,2.0,28942.0,28944.0,,,,,verb.communication,True,217,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+259,1,used,28,32,29149,29153,16,4.0,23.0,29125.0,29144.0,,,,,verb.consumption,True,216,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+260,3,returned,68,76,29293,29301,17,5.0,16.0,29230.0,29241.0,,,,,verb.motion,True,218,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+260,3,returned,68,76,29293,29301,40,5.0,16.0,29230.0,29241.0,,,,,verb.motion,True,218,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+261,5,return,97,103,29540,29546,17,73.0,84.0,29516.0,29527.0,,,,,verb.motion,True,220,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+261,5,return,97,103,29540,29546,40,73.0,84.0,29516.0,29527.0,,,,,verb.motion,True,220,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+262,2,make,54,58,29682,29686,16,45.0,47.0,29673.0,29675.0,,,,,verb.social,True,219,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+263,2,followed,73,81,30009,30017,17,61.0,72.0,29997.0,30008.0,86.0,99.0,30022.0,30035.0,verb.motion,True,222,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+263,2,followed,73,81,30009,30017,40,61.0,72.0,29997.0,30008.0,86.0,99.0,30022.0,30035.0,verb.motion,True,222,subject,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+264,9,told,225,229,30262,30266,92,203.0,207.0,30240.0,30244.0,,,,,verb.communication,True,221,subject,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+265,1,raised,75,81,30363,30369,17,3.0,5.0,30291.0,30293.0,85.0,100.0,30373.0,30388.0,verb.contact,True,223,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+267,0,stood,20,25,30551,30556,16,0.0,19.0,30531.0,30550.0,47.0,72.0,30578.0,30603.0,verb.contact,True,225,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+268,1,struggling,25,35,30630,30640,16,18.0,20.0,30623.0,30625.0,,,,,verb.contact,True,226,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+269,2,bear,48,52,30756,30760,17,0.0,16.0,30708.0,30724.0,,,,,verb.communication,True,228,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+272,6,seen,142,146,31224,31228,16,135.0,137.0,31217.0,31219.0,,,,,verb.perception,True,227,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+273,2,making,27,33,31272,31278,16,20.0,22.0,31265.0,31267.0,50.0,116.0,31295.0,31361.0,verb.social,True,229,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+274,2,forgive,63,70,31528,31535,17,56.0,59.0,31521.0,31524.0,,,,,verb.communication,True,230,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+275,7,bow,243,246,31814,31817,16,182.0,205.0,31753.0,31776.0,,,,,verb.communication,True,231,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+276,2,forgive,41,48,31892,31899,17,32.0,34.0,31883.0,31885.0,61.0,119.0,31912.0,31970.0,verb.communication,True,232,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+277,0,promised,20,28,31992,32000,16,0.0,19.0,31972.0,31991.0,,,,,verb.communication,True,233,subject,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+279,2,disturbed,53,62,32174,32183,17,0.0,16.0,32121.0,32137.0,,,,,verb.emotion,True,234,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+280,0,prized,40,46,32294,32300,17,37.0,39.0,32291.0,32293.0,,,,,verb.emotion,True,235,subject,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+0,1,governed,25,33,25,33,12,34.0,45.0,34.0,45.0,47.0,139.0,,,verb.social,True,0,direct_object,Hohodemi,5.0,6.0,11.0,male,1.0,tertiary
+2,1,called,51,57,350,356,285,58.0,113.0,357.0,412.0,,,,,verb.communication,True,1,direct_object,The Happy Hunter of the Mountains,2.0,0.0,2.0,unknown,0.0,tertiary
+2,1,called,51,57,350,356,14,58.0,113.0,357.0,412.0,,,,,verb.communication,True,1,direct_object,Yama - sachi - hiko,1.0,0.0,1.0,unknown,0.0,tertiary
+3,1,surpassed,60,69,475,484,35,70.0,91.0,485.0,506.0,,,,,verb.social,True,2,direct_object,all rivals,1.0,0.0,1.0,unknown,0.0,tertiary
+6,1,take,36,40,1022,1026,16,41.0,57.0,1027.0,1043.0,,,,,verb.motion,True,5,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+12,0,give,0,4,1540,1544,16,5.0,7.0,1545.0,1547.0,,,,,verb.possession,True,8,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+12,0,give,0,4,1540,1544,40,5.0,7.0,1545.0,1547.0,,,,,verb.possession,True,8,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+15,0,took,17,21,1949,1953,17,22.0,68.0,1954.0,2000.0,,,,,verb.motion,True,11,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+15,0,took,17,21,1949,1953,40,22.0,68.0,1954.0,2000.0,,,,,verb.motion,True,11,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+16,0,baited,3,9,2061,2067,17,10.0,18.0,2068.0,2076.0,,,,,verb.contact,True,12,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+19,9,help,152,156,2521,2525,50,157.0,187.0,2526.0,2556.0,,,,,verb.social,True,15,direct_object,the most bungling fisher,1.0,0.0,1.0,unknown,0.0,tertiary
+23,4,lost,78,82,2856,2860,17,83.0,91.0,2861.0,2869.0,92.0,135.0,2870.0,2913.0,verb.possession,True,17,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+24,6,lost,98,102,3013,3017,17,103.0,111.0,3018.0,3026.0,,,,,verb.possession,True,18,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+27,6,said,109,113,3506,3510,288,124.0,154.0,3521.0,3551.0,,,,,verb.communication,True,21,direct_object,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+27,6,said,109,113,3506,3510,54,124.0,154.0,3521.0,3551.0,,,,,verb.communication,True,21,direct_object,the Skillful Fisher,1.0,12.0,13.0,male,1.0,tertiary
+27,6,said,109,113,3506,3510,40,124.0,154.0,3521.0,3551.0,,,,,verb.communication,True,21,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+28,2,said,78,82,3632,3636,288,85.0,125.0,3639.0,3679.0,,,,,verb.communication,True,23,direct_object,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+28,2,said,78,82,3632,3636,54,85.0,125.0,3639.0,3679.0,,,,,verb.communication,True,23,direct_object,the Skillful Fisher,1.0,12.0,13.0,male,1.0,tertiary
+30,0,asked,0,5,3724,3729,59,6.0,23.0,3730.0,3747.0,24.0,35.0,,,verb.communication,True,26,direct_object,the elder brother,1.0,0.0,1.0,male,1.0,tertiary
+31,1,lost,8,12,3769,3773,40,13.0,41.0,3774.0,3802.0,42.0,94.0,3803.0,3855.0,verb.possession,True,25,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+33,4,wish,127,131,4050,4054,40,132.0,134.0,4055.0,4057.0,135.0,142.0,4058.0,4065.0,verb.emotion,True,27,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+36,1,return,11,17,4211,4217,40,18.0,21.0,4218.0,4221.0,41.0,68.0,4241.0,4268.0,verb.possession,True,29,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+37,2,return,32,38,4302,4308,40,39.0,41.0,4309.0,4311.0,48.0,55.0,4318.0,4325.0,verb.possession,True,31,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+41,1,broke,38,43,4650,4655,17,44.0,61.0,4656.0,4673.0,,,,,verb.change,True,34,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+44,1,listen,23,29,4923,4929,17,30.0,36.0,4930.0,4936.0,38.0,65.0,4938.0,4965.0,verb.perception,True,35,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+45,1,took,65,69,5032,5036,17,70.0,74.0,5037.0,5041.0,91.0,119.0,5058.0,5086.0,verb.possession,True,36,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+45,1,took,65,69,5032,5036,40,70.0,74.0,5037.0,5041.0,91.0,119.0,5058.0,5086.0,verb.possession,True,36,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+46,2,shaking,61,68,5149,5156,16,69.0,77.0,5157.0,5165.0,,,,,verb.body,True,37,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+47,1,forgive,9,16,5203,5210,17,17.0,20.0,5211.0,5214.0,21.0,57.0,5215.0,5251.0,verb.communication,True,38,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+48,8,usurp,222,227,5476,5481,16,228.0,237.0,5482.0,5491.0,238.0,255.0,5492.0,5509.0,verb.communication,True,40,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+49,4,owed,93,97,5604,5608,17,98.0,115.0,5609.0,5626.0,,,,,verb.possession,True,39,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+49,4,owed,93,97,5604,5608,33,98.0,115.0,5609.0,5626.0,,,,,verb.possession,True,39,direct_object,Hohodemi's elder brother,2.0,2.0,4.0,male,1.0,tertiary
+51,3,lost,34,38,5753,5757,17,39.0,86.0,5758.0,5805.0,,,,,verb.possession,True,41,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+51,3,lost,34,38,5753,5757,40,39.0,86.0,5758.0,5805.0,,,,,verb.possession,True,41,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+52,2,wondering,52,61,5859,5868,17,62.0,86.0,5869.0,5893.0,,,,,verb.cognition,True,43,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+54,1,called,45,51,6188,6194,17,52.0,68.0,6195.0,6211.0,,,,,verb.communication,True,45,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+55,0,asked,0,5,6227,6232,73,6.0,17.0,6233.0,6244.0,,,,,verb.communication,True,47,direct_object,The old man,6.0,11.0,17.0,male,1.0,tertiary
+57,1,answered,16,24,6306,6314,76,25.0,46.0,6315.0,6336.0,,,,,verb.communication,True,50,direct_object,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+58,0,lost,32,36,6370,6374,288,37.0,71.0,6375.0,6409.0,,,,,verb.possession,True,49,direct_object,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+58,0,lost,32,36,6370,6374,76,37.0,71.0,6375.0,6409.0,,,,,verb.possession,True,49,direct_object,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+60,4,forgive,63,70,6519,6526,76,71.0,73.0,6527.0,6529.0,74.0,98.0,6530.0,6554.0,verb.communication,True,52,direct_object,the unhappy young man,1.0,9.0,10.0,male,1.0,tertiary
+63,3,befallen,39,47,6679,6687,17,48.0,51.0,6688.0,6691.0,,,,,verb.emotion,True,51,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+65,0,tell,9,13,6730,6734,17,14.0,17.0,6735.0,6738.0,,,,,verb.communication,True,53,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+65,0,tell,9,13,6730,6734,73,14.0,17.0,6735.0,6738.0,,,,,verb.communication,True,53,direct_object,The old man,6.0,11.0,17.0,male,1.0,tertiary
+67,0,asked,0,5,6991,6996,77,6.0,24.0,6997.0,7015.0,,,,,verb.communication,True,54,direct_object,the distressed man,1.0,3.0,4.0,male,1.0,tertiary
+68,4,ask,105,108,7122,7125,17,109.0,112.0,7126.0,7129.0,,,,,verb.communication,True,55,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+68,4,ask,105,108,7122,7125,19,109.0,112.0,7126.0,7129.0,,,,,verb.communication,True,55,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+71,3,said,60,64,7428,7432,73,65.0,76.0,7433.0,7444.0,,,,,verb.communication,True,58,direct_object,The old man,6.0,11.0,17.0,male,1.0,tertiary
+72,1,make,13,17,7458,7462,17,18.0,62.0,7463.0,7507.0,,,,,verb.creation,True,59,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+73,1,said,13,17,7523,7527,17,18.0,34.0,7528.0,7544.0,,,,,verb.communication,True,60,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+73,1,said,13,17,7523,7527,73,18.0,34.0,7528.0,7544.0,,,,,verb.communication,True,60,direct_object,The old man,6.0,11.0,17.0,male,1.0,tertiary
+74,3,offered,60,67,7664,7671,17,68.0,70.0,7672.0,7674.0,,,,,verb.possession,True,61,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+77,3,told,56,60,8044,8048,17,61.0,64.0,8049.0,8052.0,,,,,verb.communication,True,63,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+78,2,riding,46,52,8210,8216,17,53.0,105.0,8217.0,8269.0,,,,,verb.contact,True,66,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+78,2,riding,46,52,8210,8216,87,53.0,105.0,8217.0,8269.0,,,,,verb.contact,True,66,direct_object,the Happy Hunter's friend,3.0,1.0,4.0,male,1.0,tertiary
+85,8,ask,155,158,9188,9191,17,159.0,177.0,9192.0,9210.0,,,,,verb.communication,True,69,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+91,2,waiting,90,97,10117,10124,103,98.0,123.0,10125.0,10150.0,,,,,verb.cognition,True,75,direct_object,these two lovely princesses,1.0,7.0,8.0,female,1.0,tertiary
+92,0,saw,3,6,10155,10158,103,7.0,54.0,10159.0,10206.0,,,,,verb.cognition,True,76,direct_object,these two lovely princesses,1.0,7.0,8.0,female,1.0,tertiary
+94,3,saw,128,131,10636,10639,106,132.0,272.0,10640.0,10780.0,,,,,verb.perception,True,79,direct_object,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+94,3,saw,128,131,10636,10639,108,132.0,272.0,10640.0,10780.0,,,,,verb.perception,True,79,direct_object,a handsome youth,1.0,0.0,1.0,unknown,0.0,tertiary
+95,1,seen,22,26,10804,10808,109,27.0,49.0,10809.0,10831.0,,,,,verb.perception,True,78,direct_object,mortal man,1.0,0.0,1.0,male,1.0,tertiary
+97,5,looking,185,192,11104,11111,106,193.0,205.0,11112.0,11124.0,206.0,234.0,11125.0,11153.0,verb.perception,True,80,direct_object,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+98,0,gazed,5,10,11160,11165,17,11.0,17.0,11166.0,11172.0,18.0,30.0,11173.0,11185.0,verb.perception,True,82,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+102,0,pray,12,16,11731,11735,13,17.0,20.0,11736.0,11739.0,,,,,verb.communication,True,85,direct_object,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+102,0,pray,12,16,11731,11735,316,17.0,20.0,11736.0,11739.0,,,,,verb.communication,True,85,direct_object,a thirsty traveler in a strange land,1.0,0.0,1.0,unknown,0.0,tertiary
+102,0,pray,12,16,11731,11735,106,17.0,20.0,11736.0,11739.0,,,,,verb.communication,True,85,direct_object,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+103,6,offered,212,219,12043,12050,112,220.0,222.0,12051.0,12053.0,,,,,verb.possession,True,86,direct_object,the stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+109,1,honor,13,18,12871,12876,106,19.0,21.0,12877.0,12879.0,22.0,47.0,12880.0,12905.0,verb.social,True,88,direct_object,the two ladies,2.0,23.0,25.0,female,1.0,tertiary
+110,0,said,0,4,12908,12912,114,5.0,21.0,12913.0,12929.0,,,,,verb.communication,True,89,direct_object,the elder damsel,1.0,0.0,1.0,unknown,0.0,tertiary
+111,0,said,13,17,12944,12948,17,18.0,34.0,12949.0,12965.0,,,,,verb.communication,True,90,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+113,0,asked,0,5,13114,13119,115,6.0,37.0,13120.0,13151.0,,,,,verb.communication,True,91,direct_object,the damsel who had spoken first,1.0,3.0,4.0,female,1.0,tertiary
+115,0,said,7,11,13254,13258,116,12.0,60.0,13259.0,13307.0,,,,,verb.communication,True,92,direct_object,the younger maiden,1.0,2.0,3.0,female,1.0,tertiary
+117,4,said,46,50,13460,13464,17,51.0,67.0,13465.0,13481.0,,,,,verb.communication,True,93,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+119,4,befallen,117,125,13748,13756,17,126.0,128.0,13757.0,13759.0,,,,,verb.emotion,True,94,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+120,2,hope,35,39,13796,13800,17,40.0,71.0,13801.0,13832.0,73.0,113.0,13834.0,13874.0,verb.emotion,True,96,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+120,2,hope,35,39,13796,13800,288,40.0,71.0,13801.0,13832.0,73.0,113.0,13834.0,13874.0,verb.emotion,True,96,direct_object,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+122,7,come,128,132,14097,14101,19,133.0,142.0,14102.0,14111.0,,,,,verb.motion,True,98,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+122,7,come,128,132,14097,14101,20,133.0,142.0,14102.0,14111.0,,,,,verb.motion,True,98,direct_object,Ryn Gu,4.0,5.0,9.0,unknown,0.0,tertiary
+123,0,showed,23,29,14204,14210,17,30.0,32.0,14211.0,14213.0,,,,,verb.communication,True,99,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+124,0,know,8,12,14235,14239,17,13.0,40.0,14240.0,14267.0,,,,,verb.cognition,True,100,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+125,1,ask,10,13,14279,14282,19,14.0,21.0,14283.0,14290.0,23.0,57.0,14292.0,14326.0,verb.communication,True,101,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+126,2,take,26,30,14354,14358,17,31.0,33.0,14359.0,14361.0,,,,,verb.motion,True,102,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+126,2,take,26,30,14354,14358,336,31.0,33.0,14359.0,14361.0,,,,,verb.motion,True,102,direct_object,your father,1.0,4.0,5.0,male,1.0,tertiary
+127,1,think,11,16,14389,14394,17,17.0,31.0,14395.0,14409.0,,,,,verb.cognition,True,104,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+127,1,think,11,16,14389,14394,336,17.0,31.0,14395.0,14409.0,,,,,verb.cognition,True,104,direct_object,your father,1.0,4.0,5.0,male,1.0,tertiary
+128,0,asked,0,5,14412,14417,17,6.0,22.0,14418.0,14434.0,23.0,32.0,,,verb.communication,True,103,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+130,4,befallen,44,52,14640,14648,336,53.0,56.0,14649.0,14652.0,,,,,verb.possession,True,105,direct_object,your father,1.0,4.0,5.0,male,1.0,tertiary
+131,3,think,62,67,14825,14830,23,68.0,80.0,14831.0,14843.0,,,,,verb.cognition,True,107,direct_object,Tamayori,5.0,0.0,5.0,unknown,0.0,tertiary
+132,0,answered,15,23,14861,14869,23,24.0,45.0,14870.0,14891.0,47.0,65.0,,,verb.communication,True,109,direct_object,Tamayori,5.0,0.0,5.0,unknown,0.0,tertiary
+133,3,welcome,50,57,14963,14970,343,58.0,68.0,14971.0,14981.0,69.0,80.0,,,verb.contact,True,108,direct_object,the Mikoto,1.0,0.0,1.0,unknown,0.0,tertiary
+134,3,said,51,55,15047,15051,17,56.0,72.0,15052.0,15068.0,,,,,verb.communication,True,110,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+135,4,led,88,91,15158,15161,17,92.0,95.0,15162.0,15165.0,,,,,verb.motion,True,111,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+136,5,told,188,192,15372,15376,123,193.0,196.0,15377.0,15380.0,,,,,verb.communication,True,113,direct_object,The younger Princess's father,1.0,2.0,3.0,male,1.0,tertiary
+136,5,told,188,192,15372,15376,119,193.0,196.0,15377.0,15380.0,,,,,verb.communication,True,113,direct_object,the sisters,1.0,3.0,4.0,female,1.0,tertiary
+137,3,visited,157,164,15649,15656,128,165.0,175.0,15657.0,15667.0,,,,,verb.social,True,112,direct_object,mortals,1.0,0.0,1.0,unknown,0.0,tertiary
+139,1,welcome,58,65,16043,16050,17,66.0,82.0,16051.0,16067.0,,,,,verb.emotion,True,115,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+140,2,welcome,71,78,16140,16147,17,79.0,82.0,16148.0,16151.0,,,,,verb.social,True,116,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+142,3,said,135,139,16485,16489,306,141.0,142.0,16491.0,16492.0,,,,,verb.communication,True,118,direct_object,the Dragon King of the Sea,5.0,0.0,5.0,male,1.0,tertiary
+142,3,said,135,139,16485,16489,19,141.0,142.0,16491.0,16492.0,,,,,verb.communication,True,118,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+142,3,said,135,139,16485,16489,346,141.0,142.0,16491.0,16492.0,,,,,verb.communication,True,118,direct_object,King's wife,1.0,0.0,1.0,female,1.0,tertiary
+143,1,remember,14,22,16569,16577,129,23.0,25.0,16578.0,16580.0,26.0,33.0,,,verb.cognition,True,120,direct_object,"King's his courtiers and the servants of the Palace , and the chief fish of the sea",1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+145,0,answered,0,8,16669,16677,147,9.0,25.0,16678.0,16694.0,,,,,verb.communication,True,121,direct_object,the Happy Hunter's host,2.0,5.0,7.0,unknown,0.0,tertiary
+145,0,answered,0,8,16669,16677,39,9.0,25.0,16678.0,16694.0,,,,,verb.communication,True,121,direct_object,the Happy Hunter,8.0,6.0,14.0,male,1.0,tertiary
+148,2,said,25,29,16884,16888,19,30.0,37.0,16889.0,16896.0,,,,,verb.communication,True,125,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+152,0,clapped,21,28,17181,17188,92,29.0,38.0,17189.0,17198.0,,,,,verb.contact,True,127,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+155,0,tried,18,23,17641,17646,161,24.0,103.0,17647.0,17726.0,,,,,verb.social,True,129,direct_object,a much honored guest,1.0,0.0,1.0,unknown,0.0,tertiary
+155,0,tried,18,23,17641,17646,39,24.0,103.0,17647.0,17726.0,,,,,verb.social,True,129,direct_object,the Happy Hunter,8.0,6.0,14.0,male,1.0,tertiary
+155,0,tried,18,23,17641,17646,159,24.0,103.0,17647.0,17726.0,,,,,verb.social,True,129,direct_object,All in the Palace,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+156,1,commanded,56,65,17784,17793,162,66.0,79.0,17794.0,17807.0,,,,,verb.communication,True,132,direct_object,King's daughters,2.0,0.0,2.0,unknown,0.0,tertiary
+156,1,commanded,56,65,17784,17793,19,66.0,79.0,17794.0,17807.0,,,,,verb.communication,True,132,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+160,1,ask,6,9,18460,18463,352,10.0,13.0,18464.0,18467.0,,,,,verb.communication,True,133,direct_object,Ryn Gu's subjects,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+160,1,ask,6,9,18460,18463,20,10.0,13.0,18464.0,18467.0,,,,,verb.communication,True,133,direct_object,Ryn Gu,4.0,5.0,9.0,unknown,0.0,tertiary
+161,4,ask,86,89,18661,18664,352,90.0,94.0,18665.0,18669.0,,,,,verb.communication,True,135,direct_object,Ryn Gu's subjects,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+162,1,issued,18,24,18690,18696,168,25.0,36.0,18697.0,18708.0,,,,,verb.communication,True,134,direct_object,the obliging Sea King,1.0,3.0,4.0,male,1.0,tertiary
+163,2,sitting,53,60,19006,19013,20,61.0,75.0,19014.0,19028.0,,,,,verb.contact,True,136,direct_object,Ryn Gu,4.0,5.0,9.0,unknown,0.0,tertiary
+164,2,called,60,66,19126,19132,285,67.0,100.0,19133.0,19166.0,,,,,verb.communication,True,138,direct_object,The Happy Hunter of the Mountains,2.0,0.0,2.0,unknown,0.0,tertiary
+169,1,looking,9,16,19712,19719,174,17.0,53.0,19720.0,19756.0,,,,,verb.perception,True,142,direct_object,each other,1.0,0.0,1.0,unknown,0.0,tertiary
+169,1,looking,9,16,19712,19719,175,17.0,53.0,19720.0,19756.0,,,,,verb.perception,True,142,direct_object,the Dragon King,1.0,0.0,1.0,male,1.0,tertiary
+170,2,think,49,54,19807,19812,370,55.0,120.0,19813.0,19878.0,,,,,verb.cognition,True,143,direct_object,the thief who has stolen the hook,1.0,0.0,1.0,unknown,0.0,tertiary
+170,2,think,49,54,19807,19812,369,55.0,120.0,19813.0,19878.0,,,,,verb.cognition,True,143,direct_object,the red bream,1.0,0.0,1.0,unknown,0.0,tertiary
+170,2,think,49,54,19807,19812,368,55.0,120.0,19813.0,19878.0,,,,,verb.cognition,True,143,direct_object,The TAI,4.0,5.0,9.0,male,1.0,tertiary
+172,0,asked,0,5,19904,19909,153,6.0,14.0,19910.0,19918.0,,,,,verb.communication,True,145,direct_object,the King,6.0,4.0,10.0,male,1.0,tertiary
+174,0,think,18,23,20054,20059,24,24.0,53.0,20060.0,20089.0,,,,,verb.cognition,True,147,direct_object,TAI,12.0,34.0,46.0,male,1.0,tertiary
+176,5,obeyed,106,112,20235,20241,92,113.0,125.0,20242.0,20254.0,,,,,verb.communication,True,146,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+180,0,send,0,4,20452,20456,24,5.0,12.0,20457.0,20464.0,13.0,20.0,,,verb.motion,True,151,direct_object,TAI,12.0,34.0,46.0,male,1.0,tertiary
+182,0,led,3,6,20622,20625,153,7.0,10.0,20626.0,20629.0,,,,,verb.motion,True,153,direct_object,the King,6.0,4.0,10.0,male,1.0,tertiary
+182,0,led,3,6,20622,20625,92,7.0,10.0,20626.0,20629.0,,,,,verb.motion,True,153,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+187,2,answered,35,43,20950,20958,24,44.0,51.0,20959.0,20966.0,,,,,verb.communication,True,159,direct_object,TAI,12.0,34.0,46.0,male,1.0,tertiary
+191,1,stealing,48,56,21101,21109,13,57.0,74.0,21110.0,21127.0,,,,,verb.possession,True,157,direct_object,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+193,0,said,0,4,21153,21157,24,5.0,12.0,21158.0,21165.0,,,,,verb.communication,True,160,direct_object,TAI,12.0,34.0,46.0,male,1.0,tertiary
+195,6,choke,77,82,21329,21334,24,83.0,85.0,21335.0,21337.0,,,,,verb.body,True,163,direct_object,TAI,12.0,34.0,46.0,male,1.0,tertiary
+196,1,stealing,22,30,21399,21407,13,31.0,48.0,21408.0,21425.0,,,,,verb.possession,True,162,direct_object,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+198,0,hope,5,9,21537,21541,24,10.0,28.0,21542.0,21560.0,,,,,verb.emotion,True,164,direct_object,TAI,12.0,34.0,46.0,male,1.0,tertiary
+198,0,hope,5,9,21537,21541,153,10.0,28.0,21542.0,21560.0,,,,,verb.emotion,True,164,direct_object,the King,6.0,4.0,10.0,male,1.0,tertiary
+201,4,return,80,86,21773,21779,13,87.0,89.0,21780.0,21782.0,97.0,103.0,21790.0,21796.0,verb.motion,True,168,direct_object,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+206,1,brought,22,29,22220,22227,153,30.0,32.0,22228.0,22230.0,,,,,verb.contact,True,171,direct_object,the King,6.0,4.0,10.0,male,1.0,tertiary
+207,1,returned,62,70,22306,22314,13,71.0,73.0,22315.0,22317.0,121.0,187.0,22365.0,22431.0,verb.possession,True,173,direct_object,the Mikoto,14.0,18.0,32.0,male,1.0,tertiary
+207,1,returned,62,70,22306,22314,17,71.0,73.0,22315.0,22317.0,121.0,187.0,22365.0,22431.0,verb.possession,True,173,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+208,3,owed,81,85,22514,22518,17,86.0,115.0,22519.0,22548.0,,,,,verb.cognition,True,172,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+208,3,owed,81,85,22514,22518,92,86.0,115.0,22519.0,22548.0,,,,,verb.cognition,True,172,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+209,2,begged,60,66,22656,22662,19,67.0,70.0,22663.0,22666.0,,,,,verb.communication,True,174,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+210,5,make,67,71,22747,22751,191,72.0,101.0,22752.0,22781.0,,,,,verb.social,True,176,direct_object,the poor TAI,1.0,0.0,1.0,unknown,0.0,tertiary
+211,4,suffered,65,73,22848,22856,368,81.0,94.0,22864.0,22877.0,96.0,123.0,22879.0,22906.0,verb.perception,True,175,direct_object,The TAI,4.0,5.0,9.0,male,1.0,tertiary
+213,1,blamed,25,31,22999,23005,17,32.0,39.0,23006.0,23013.0,,,,,verb.communication,True,178,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+214,5,lost,63,67,23077,23081,17,68.0,76.0,23082.0,23090.0,,,,,verb.possession,True,177,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+215,1,forgive,29,36,23250,23257,17,37.0,48.0,23258.0,23269.0,,,,,verb.communication,True,179,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+215,1,forgive,29,36,23250,23257,187,37.0,48.0,23258.0,23269.0,,,,,verb.communication,True,179,direct_object,King's subject,3.0,0.0,3.0,unknown,0.0,tertiary
+216,1,resist,10,16,23281,23287,195,17.0,66.0,23288.0,23337.0,,,,,verb.social,True,180,direct_object,a judge,1.0,0.0,1.0,unknown,0.0,tertiary
+217,0,forgave,8,15,23347,23354,19,16.0,27.0,23355.0,23366.0,28.0,70.0,23367.0,23409.0,verb.communication,True,181,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary
+217,0,forgave,8,15,23347,23354,187,16.0,27.0,23355.0,23366.0,28.0,70.0,23367.0,23409.0,verb.communication,True,181,direct_object,King's subject,3.0,0.0,3.0,unknown,0.0,tertiary
+218,3,praising,124,132,23535,23543,17,133.0,164.0,23544.0,23575.0,,,,,verb.communication,True,182,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+219,2,had,45,48,23622,23625,17,49.0,78.0,23626.0,23655.0,,,,,verb.possession,True,183,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+219,2,had,45,48,23622,23625,20,49.0,78.0,23626.0,23655.0,,,,,verb.possession,True,183,direct_object,Ryn Gu,4.0,5.0,9.0,unknown,0.0,tertiary
+220,9,make,122,126,23891,23895,17,127.0,175.0,23896.0,23944.0,,,,,verb.change,True,184,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+224,9,know,273,277,24745,24749,17,278.0,362.0,24750.0,24834.0,,,,,verb.cognition,True,188,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+224,9,know,273,277,24745,24749,216,278.0,362.0,24750.0,24834.0,,,,,verb.cognition,True,188,direct_object,the Happy Hunter's country,1.0,0.0,1.0,unknown,0.0,tertiary
+224,9,know,273,277,24745,24749,40,278.0,362.0,24750.0,24834.0,,,,,verb.cognition,True,188,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+226,1,return,12,18,25097,25103,17,19.0,35.0,25104.0,25120.0,,,,,verb.motion,True,189,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+226,1,return,12,18,25097,25103,288,19.0,35.0,25104.0,25120.0,,,,,verb.motion,True,189,direct_object,The Skillful Fisher's brother,10.0,14.0,24.0,male,1.0,tertiary
+228,1,take,38,42,25316,25320,17,43.0,51.0,25321.0,25329.0,,,,,verb.social,True,190,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+229,0,hope,2,6,25340,25344,92,7.0,41.0,25345.0,25379.0,,,,,verb.emotion,True,191,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+232,3,made,61,65,25773,25777,92,66.0,77.0,25778.0,25789.0,,,,,verb.change,True,193,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+234,0,hope,2,6,25976,25980,92,7.0,29.0,25981.0,26003.0,,,,,verb.emotion,True,195,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+236,5,bring,85,90,26263,26268,92,91.0,94.0,26269.0,26272.0,,,,,verb.possession,True,197,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+239,1,wondered,38,46,26518,26526,163,47.0,65.0,26527.0,26545.0,,,,,verb.cognition,True,201,direct_object,The two Princesses,3.0,3.0,6.0,female,1.0,tertiary
+240,3,inherited,103,112,26650,26659,384,113.0,131.0,26660.0,26678.0,132.0,152.0,26679.0,26699.0,verb.possession,True,200,direct_object,the Sea King's ancestors,1.0,0.0,1.0,unknown,0.0,tertiary
+240,3,inherited,103,112,26650,26659,92,113.0,131.0,26660.0,26678.0,132.0,152.0,26679.0,26699.0,verb.possession,True,200,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+241,0,give,7,11,26708,26712,229,12.0,16.0,26713.0,26717.0,24.0,81.0,26725.0,26782.0,verb.possession,True,202,direct_object,the Sea King's guest,1.0,2.0,3.0,unknown,0.0,tertiary
+243,3,thank,64,69,26902,26907,17,70.0,73.0,26908.0,26911.0,74.0,80.0,26912.0,26918.0,verb.communication,True,203,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+243,3,thank,64,69,26902,26907,92,70.0,73.0,26908.0,26911.0,74.0,80.0,26912.0,26918.0,verb.communication,True,203,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+244,2,tell,52,56,27000,27004,17,57.0,59.0,27005.0,27007.0,,,,,verb.communication,True,204,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+245,0,answered,14,22,27076,27084,92,23.0,35.0,27085.0,27097.0,,,,,verb.communication,True,205,direct_object,the Sea King,18.0,44.0,62.0,male,1.0,tertiary
+247,2,handed,71,77,27488,27494,87,78.0,82.0,27495.0,27499.0,,,,,verb.possession,True,206,direct_object,the Happy Hunter's friend,3.0,1.0,4.0,male,1.0,tertiary
+248,3,felt,157,161,27665,27669,17,162.0,233.0,27670.0,27741.0,,,,,verb.cognition,True,207,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+248,3,felt,157,161,27665,27669,232,162.0,233.0,27670.0,27741.0,,,,,verb.cognition,True,207,direct_object,enemies,1.0,0.0,1.0,unknown,0.0,tertiary
+249,0,thanking,6,14,27749,27757,17,15.0,28.0,27758.0,27771.0,29.0,38.0,,,verb.communication,True,209,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+249,0,thanking,6,14,27749,27757,233,15.0,28.0,27758.0,27771.0,29.0,38.0,,,verb.communication,True,209,direct_object,the Happy Hunter's kind host,1.0,0.0,1.0,unknown,0.0,tertiary
+250,5,standing,260,268,28072,28080,17,269.0,332.0,28081.0,28144.0,,,,,verb.contact,True,208,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+251,2,come,59,63,28205,28209,20,64.0,86.0,28210.0,28232.0,,,,,verb.motion,True,210,direct_object,Ryn Gu,4.0,5.0,9.0,unknown,0.0,tertiary
+254,1,ordered,17,24,28417,28424,17,25.0,36.0,28425.0,28436.0,,,,,verb.communication,True,212,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+254,1,ordered,17,24,28417,28424,242,25.0,36.0,28425.0,28436.0,,,,,verb.communication,True,212,direct_object,the monster,1.0,0.0,1.0,unknown,0.0,tertiary
+255,5,returned,181,189,28659,28667,17,190.0,205.0,28668.0,28683.0,,,,,verb.motion,True,213,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+256,0,landed,25,31,28710,28716,17,32.0,35.0,28717.0,28720.0,,,,,verb.contact,True,214,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+257,0,gave,8,12,28804,28808,16,13.0,16.0,28809.0,28812.0,,,,,verb.possession,True,215,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+258,1,telling,47,54,28989,28996,16,55.0,58.0,28997.0,29000.0,,,,,verb.communication,True,217,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+258,1,telling,47,54,28989,28996,17,55.0,58.0,28997.0,29000.0,,,,,verb.communication,True,217,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+259,1,used,28,32,29149,29153,17,33.0,46.0,29154.0,29167.0,,,,,verb.consumption,True,216,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+259,1,used,28,32,29149,29153,40,33.0,46.0,29154.0,29167.0,,,,,verb.consumption,True,216,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+262,2,make,54,58,29682,29686,17,59.0,109.0,29687.0,29737.0,,,,,verb.social,True,219,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+262,2,make,54,58,29682,29686,40,59.0,109.0,29687.0,29737.0,,,,,verb.social,True,219,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+263,2,followed,73,81,30009,30017,17,82.0,85.0,30018.0,30021.0,86.0,99.0,30022.0,30035.0,verb.motion,True,222,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+264,9,told,225,229,30262,30266,17,230.0,233.0,30267.0,30270.0,,,,,verb.communication,True,221,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+266,2,reached,92,99,30482,30489,17,100.0,139.0,30490.0,30529.0,,,,,verb.motion,True,224,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+266,2,reached,92,99,30482,30489,40,100.0,139.0,30490.0,30529.0,,,,,verb.motion,True,224,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+269,2,bear,48,52,30756,30760,17,53.0,88.0,30761.0,30796.0,,,,,verb.communication,True,228,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+269,2,bear,48,52,30756,30760,40,53.0,88.0,30761.0,30796.0,,,,,verb.communication,True,228,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+272,6,seen,142,146,31224,31228,16,147.0,161.0,31229.0,31243.0,,,,,verb.perception,True,227,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+272,6,seen,142,146,31224,31228,40,147.0,161.0,31229.0,31243.0,,,,,verb.perception,True,227,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+274,2,forgive,63,70,31528,31535,17,71.0,74.0,31536.0,31539.0,,,,,verb.communication,True,230,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+274,2,forgive,63,70,31528,31535,16,71.0,74.0,31536.0,31539.0,,,,,verb.communication,True,230,direct_object,The Skillful Fisher,14.0,50.0,64.0,male,1.0,tertiary
+275,7,bow,243,246,31814,31817,40,247.0,257.0,31818.0,31828.0,,,,,verb.communication,True,231,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+276,2,forgive,41,48,31892,31899,17,49.0,60.0,31900.0,31911.0,61.0,119.0,31912.0,31970.0,verb.communication,True,232,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+276,2,forgive,41,48,31892,31899,40,49.0,60.0,31900.0,31911.0,61.0,119.0,31912.0,31970.0,verb.communication,True,232,direct_object,the Happy Hunter's brother,31.0,27.0,58.0,male,1.0,tertiary
+280,0,prized,40,46,32294,32300,17,47.0,163.0,32301.0,32417.0,,,,,verb.emotion,True,235,direct_object,the Happy Hunter,47.0,266.0,313.0,male,1.0,primary
+280,0,prized,40,46,32294,32300,306,47.0,163.0,32301.0,32417.0,,,,,verb.emotion,True,235,direct_object,the Dragon King of the Sea,5.0,0.0,5.0,male,1.0,tertiary
+280,0,prized,40,46,32294,32300,19,47.0,163.0,32301.0,32417.0,,,,,verb.emotion,True,235,direct_object,King,22.0,32.0,54.0,male,1.0,tertiary

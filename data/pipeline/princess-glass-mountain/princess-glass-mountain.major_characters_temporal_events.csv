@@ -1,0 +1,302 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,knew,76,80,76,80,3,73.0,75.0,73.0,75.0,,,,,verb.cognition,True,0,subject,a king who took such a joy in the chase,1.0,8.0,9.0,male,1.0,tertiary
+2,4,tried,68,73,301,306,3,61.0,63.0,294.0,296.0,,,,,verb.social,True,2,subject,a king who took such a joy in the chase,1.0,8.0,9.0,male,1.0,tertiary
+3,4,saw,72,75,413,416,3,69.0,71.0,410.0,412.0,,,,,verb.perception,True,3,subject,a king who took such a joy in the chase,1.0,8.0,9.0,male,1.0,tertiary
+4,2,seized,61,67,537,543,9,0.0,8.0,476.0,484.0,,,,,verb.contact,True,4,subject,the king,34.0,53.0,87.0,male,1.0,primary
+6,2,return,50,56,728,734,9,41.0,43.0,719.0,721.0,,,,,verb.possession,True,5,subject,the king,34.0,53.0,87.0,male,1.0,primary
+7,4,guard,144,149,932,937,9,107.0,117.0,895.0,905.0,154.0,178.0,942.0,966.0,verb.social,True,6,subject,the king,34.0,53.0,87.0,male,1.0,primary
+7,4,guard,144,149,932,937,14,107.0,117.0,895.0,905.0,154.0,178.0,942.0,966.0,verb.social,True,6,subject,the king's people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+9,0,said,15,19,1008,1012,9,4.0,14.0,997.0,1007.0,,,,,verb.communication,True,8,subject,the king,34.0,53.0,87.0,male,1.0,primary
+9,0,said,15,19,1008,1012,14,4.0,14.0,997.0,1007.0,,,,,verb.communication,True,8,subject,the king's people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+10,1,guard,16,21,1173,1178,9,0.0,8.0,1157.0,1165.0,26.0,52.0,1183.0,1209.0,verb.competition,True,7,subject,the king,34.0,53.0,87.0,male,1.0,primary
+12,2,said,38,42,1302,1306,9,35.0,37.0,1299.0,1301.0,51.0,66.0,1315.0,1330.0,verb.communication,True,9,subject,the king,34.0,53.0,87.0,male,1.0,primary
+13,4,escape,60,66,1392,1398,15,47.0,59.0,1379.0,1391.0,,,,,verb.motion,True,10,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+14,0,vow,6,9,1436,1439,9,4.0,5.0,1434.0,1435.0,,,,,verb.communication,True,11,subject,the king,34.0,53.0,87.0,male,1.0,primary
+15,0,awoke,43,48,1565,1570,9,34.0,42.0,1556.0,1564.0,,,,,verb.body,True,12,subject,the king,34.0,53.0,87.0,male,1.0,primary
+16,0,sent,11,15,1606,1610,9,0.0,2.0,1595.0,1597.0,,,,,verb.motion,True,13,subject,the king,34.0,53.0,87.0,male,1.0,primary
+19,3,led,56,59,1950,1953,15,43.0,55.0,1937.0,1949.0,,,,,verb.motion,True,14,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+20,2,came,69,73,2092,2096,29,58.0,68.0,2081.0,2091.0,,,,,verb.motion,True,15,subject,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+23,2,take,54,58,2293,2297,9,38.0,46.0,2277.0,2285.0,,,,,verb.possession,True,17,subject,the king,34.0,53.0,87.0,male,1.0,primary
+24,4,leave,83,88,2392,2397,9,81.0,82.0,2390.0,2391.0,,,,,verb.possession,True,18,subject,the king,34.0,53.0,87.0,male,1.0,primary
+25,6,guard,70,75,2498,2503,34,61.0,64.0,2489.0,2492.0,89.0,140.0,2517.0,2568.0,verb.competition,True,19,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+26,0,promised,10,18,2581,2589,34,0.0,9.0,2571.0,2580.0,,,,,verb.communication,True,20,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+28,0,had,19,22,2832,2835,9,0.0,18.0,2813.0,2831.0,,,,,verb.possession,True,21,subject,the king,34.0,53.0,87.0,male,1.0,primary
+28,0,had,19,22,2832,2835,42,0.0,18.0,2813.0,2831.0,,,,,verb.possession,True,21,subject,queen,1.0,0.0,1.0,female,1.0,tertiary
+30,4,wandering,74,83,2978,2987,45,52.0,69.0,2956.0,2973.0,,,,,verb.motion,True,23,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+31,1,play,16,20,3064,3068,45,4.0,6.0,3052.0,3054.0,,,,,verb.competition,True,24,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+32,1,playing,17,24,3116,3123,45,10.0,12.0,3109.0,3111.0,,,,,verb.creation,True,25,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+33,0,appeared,21,29,3239,3247,15,0.0,12.0,3218.0,3230.0,,,,,verb.change,True,26,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+34,1,threw,50,55,3324,3329,45,47.0,49.0,3321.0,3323.0,69.0,74.0,3343.0,3348.0,verb.contact,True,27,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+35,3,kept,92,96,3517,3521,15,79.0,91.0,3504.0,3516.0,,,,,verb.possession,True,28,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+36,2,weep,94,98,3669,3673,45,59.0,76.0,3634.0,3651.0,,,,,verb.body,True,29,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+37,5,let,120,123,3795,3798,45,116.0,119.0,3791.0,3794.0,,,,,verb.social,True,30,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+38,2,let,43,46,3851,3854,45,41.0,42.0,3849.0,3850.0,51.0,54.0,3859.0,3862.0,verb.social,True,31,subject,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+39,0,give,9,13,3873,3877,15,5.0,8.0,3869.0,3872.0,31.0,54.0,3895.0,3918.0,verb.possession,True,32,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+40,3,tell,48,52,3969,3973,15,37.0,41.0,3958.0,3962.0,,,,,verb.communication,True,33,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+41,2,comb,48,52,4027,4031,34,41.0,44.0,4020.0,4023.0,,,,,verb.contact,True,34,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+42,3,unlock,72,78,4115,4121,60,20.0,23.0,4063.0,4066.0,,,,,verb.contact,True,35,subject,the boy,3.0,11.0,14.0,male,1.0,tertiary
+43,1,return,19,25,4151,4157,60,11.0,14.0,4143.0,4146.0,34.0,92.0,4166.0,4224.0,verb.possession,True,37,subject,the boy,3.0,11.0,14.0,male,1.0,tertiary
+44,7,took,137,141,4364,4368,15,54.0,56.0,4281.0,4283.0,,,,,verb.possession,True,36,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+45,1,opened,33,39,4427,4433,15,5.0,7.0,4399.0,4401.0,,,,,verb.contact,True,39,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+46,3,promised,74,82,4518,4526,10,72.0,73.0,4516.0,4517.0,,,,,verb.communication,True,38,subject,the dwarf,3.0,12.0,15.0,male,1.0,tertiary
+47,2,help,50,54,4635,4639,10,43.0,44.0,4628.0,4629.0,,,,,verb.social,True,40,subject,the dwarf,3.0,12.0,15.0,male,1.0,tertiary
+49,1,returned,44,52,4739,4747,65,4.0,14.0,4699.0,4709.0,61.0,92.0,4756.0,4787.0,verb.possession,True,41,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+50,4,sent,113,117,4902,4906,34,103.0,112.0,4892.0,4901.0,144.0,159.0,4933.0,4948.0,verb.motion,True,42,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+51,2,stayed,23,29,4973,4979,15,20.0,22.0,4970.0,4972.0,,,,,verb.change,True,43,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+52,1,grew,44,48,5030,5034,34,34.0,43.0,5020.0,5029.0,,,,,verb.change,True,44,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+53,1,return,33,39,5090,5096,74,18.0,29.0,5075.0,5086.0,,,,,verb.motion,True,46,subject,the queen's husband,1.0,3.0,4.0,male,1.0,tertiary
+53,1,return,33,39,5090,5096,34,18.0,29.0,5075.0,5086.0,,,,,verb.motion,True,46,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+54,6,guarded,86,93,5194,5201,15,59.0,71.0,5167.0,5179.0,,,,,verb.social,True,45,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+55,3,told,53,57,5256,5260,34,5.0,14.0,5208.0,5217.0,,,,,verb.communication,True,47,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+56,4,punish,59,65,5353,5359,9,50.0,52.0,5344.0,5346.0,82.0,107.0,5376.0,5401.0,verb.social,True,50,subject,the king,34.0,53.0,87.0,male,1.0,primary
+57,0,ordered,7,14,5410,5417,9,4.0,6.0,5407.0,5409.0,37.0,49.0,5440.0,5452.0,verb.communication,True,49,subject,the king,34.0,53.0,87.0,male,1.0,primary
+60,4,deserved,61,69,5637,5645,82,54.0,55.0,5630.0,5631.0,,,,,verb.emotion,True,48,subject,the little prince,2.0,7.0,9.0,male,1.0,tertiary
+61,1,hide,14,18,5678,5682,82,5.0,6.0,5669.0,5670.0,,,,,verb.perception,True,51,subject,the little prince,2.0,7.0,9.0,male,1.0,tertiary
+63,0,turned,15,21,5738,5744,34,5.0,14.0,5728.0,5737.0,,,,,verb.change,True,52,subject,the queen,7.0,10.0,17.0,female,1.0,tertiary
+65,1,die,13,16,5970,5973,60,4.0,7.0,5961.0,5964.0,,,,,verb.change,True,54,subject,the boy,3.0,11.0,14.0,male,1.0,tertiary
+66,0,gave,17,21,6021,6025,9,14.0,16.0,6018.0,6020.0,,,,,verb.possession,True,56,subject,the king,34.0,53.0,87.0,male,1.0,primary
+67,4,obeyed,80,86,6163,6169,9,59.0,70.0,6142.0,6153.0,,,,,verb.social,True,55,subject,the king,34.0,53.0,87.0,male,1.0,primary
+68,1,pleaded,56,63,6227,6234,94,52.0,55.0,6223.0,6226.0,,,,,verb.communication,True,57,subject,,,,,,,
+69,2,recalled,33,41,6291,6299,9,4.0,19.0,6262.0,6277.0,,,,,verb.cognition,True,58,subject,the king,34.0,53.0,87.0,male,1.0,primary
+70,4,took,38,42,6339,6343,9,0.0,15.0,6301.0,6316.0,,,,,verb.contact,True,60,subject,the king,34.0,53.0,87.0,male,1.0,primary
+70,4,took,38,42,6339,6343,97,0.0,15.0,6301.0,6316.0,,,,,verb.contact,True,60,subject,the king's serving - men,1.0,4.0,5.0,male,1.0,tertiary
+71,3,tending,73,80,6456,6463,100,60.0,72.0,6443.0,6455.0,,,,,verb.consumption,True,59,subject,a swine - herd,1.0,1.0,2.0,male,1.0,tertiary
+72,0,said,9,13,6483,6487,101,5.0,8.0,6479.0,6482.0,,,,,verb.communication,True,61,subject,,,,,,,
+74,4,led,94,97,6754,6757,103,55.0,59.0,6715.0,6719.0,,,,,verb.motion,True,63,subject,The other serving - men,1.0,6.0,7.0,male,1.0,tertiary
+75,0,told,10,14,6819,6823,103,5.0,9.0,6814.0,6818.0,,,,,verb.communication,True,64,subject,The other serving - men,1.0,6.0,7.0,male,1.0,tertiary
+77,0,did,15,18,7017,7020,9,0.0,14.0,7002.0,7016.0,,,,,verb.social,True,66,subject,the king,34.0,53.0,87.0,male,1.0,primary
+77,0,did,15,18,7017,7020,331,0.0,14.0,7002.0,7016.0,,,,,verb.social,True,66,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+78,1,wandering,11,20,7067,7076,331,0.0,2.0,7056.0,7058.0,,,,,verb.motion,True,67,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+79,1,wandered,16,24,7198,7206,331,9.0,11.0,7191.0,7193.0,,,,,verb.motion,True,68,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+80,2,climb,48,53,7329,7334,331,32.0,33.0,7313.0,7314.0,,,,,verb.motion,True,69,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+81,2,climbed,29,36,7422,7429,331,26.0,28.0,7419.0,7421.0,,,,,verb.motion,True,70,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+82,2,saw,79,82,7519,7522,331,76.0,78.0,7516.0,7518.0,,,,,verb.perception,True,71,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+83,0,grew,8,12,7614,7618,331,5.0,7.0,7611.0,7613.0,,,,,verb.change,True,72,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+84,3,begged,53,59,7724,7730,331,11.0,13.0,7682.0,7684.0,,,,,verb.communication,True,73,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+86,3,became,99,105,8017,8023,331,4.0,6.0,7922.0,7924.0,,,,,verb.change,True,76,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+88,2,married,12,19,8166,8173,124,0.0,2.0,8154.0,8156.0,,,,,verb.social,True,75,subject,the king who was reigning at the splendid castle,1.0,4.0,5.0,male,1.0,tertiary
+89,5,consider,147,155,8351,8359,124,92.0,135.0,8296.0,8339.0,,,,,verb.cognition,True,78,subject,the king who was reigning at the splendid castle,1.0,4.0,5.0,male,1.0,tertiary
+89,5,consider,147,155,8351,8359,126,92.0,135.0,8296.0,8339.0,,,,,verb.cognition,True,78,subject,an only daughter,1.0,2.0,3.0,female,1.0,tertiary
+90,1,completed,26,35,8405,8414,129,9.0,21.0,8388.0,8400.0,,,,,verb.change,True,77,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+91,1,increased,56,65,8574,8583,130,46.0,50.0,8564.0,8568.0,,,,,verb.change,True,79,subject,a quite unheard of swarm of suitors,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+92,2,win,45,48,8640,8643,334,28.0,38.0,8623.0,8633.0,,,,,verb.possession,True,80,subject,none other,2.0,0.0,2.0,unknown,0.0,tertiary
+93,0,thought,9,16,8720,8727,9,0.0,8.0,8711.0,8719.0,,,,,verb.cognition,True,82,subject,the king,34.0,53.0,87.0,male,1.0,primary
+94,7,ride,137,141,8889,8893,129,106.0,126.0,8858.0,8878.0,,,,,verb.motion,True,81,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+95,2,arrived,37,44,8954,8961,9,9.0,32.0,8926.0,8949.0,,,,,verb.motion,True,83,subject,the king,34.0,53.0,87.0,male,1.0,primary
+97,3,flocked,166,173,9384,9391,29,155.0,165.0,9373.0,9383.0,,,,,verb.social,True,85,subject,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+98,3,raced,116,121,9557,9562,145,84.0,114.0,9525.0,9555.0,,,,,verb.motion,True,86,subject,"the suitors , one after another",2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+100,0,rode,23,27,9716,9720,149,0.0,22.0,9693.0,9715.0,,,,,verb.motion,True,87,subject,the suitors,3.0,5.0,8.0,group/nonbinary,1.0,tertiary
+100,0,rode,23,27,9716,9720,148,0.0,22.0,9693.0,9715.0,,,,,verb.motion,True,87,subject,one of the suitors,1.0,1.0,2.0,male,1.0,tertiary
+102,3,rambling,52,60,10098,10106,9,33.0,47.0,10079.0,10093.0,67.0,98.0,10113.0,10144.0,verb.motion,True,89,subject,the king,34.0,53.0,87.0,male,1.0,primary
+102,3,rambling,52,60,10098,10106,331,33.0,47.0,10079.0,10093.0,67.0,98.0,10113.0,10144.0,verb.motion,True,89,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+103,0,heard,12,17,10158,10163,331,9.0,11.0,10155.0,10157.0,,,,,verb.perception,True,91,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+105,0,heard,12,17,10374,10379,331,9.0,11.0,10371.0,10373.0,,,,,verb.perception,True,92,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+109,2,ride,104,108,10721,10725,65,67.0,68.0,10684.0,10685.0,,,,,verb.motion,True,94,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+110,4,help,62,66,10839,10843,15,56.0,57.0,10833.0,10834.0,,,,,verb.social,True,97,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+111,0,helped,4,10,10853,10859,65,0.0,3.0,10849.0,10852.0,14.0,25.0,10863.0,10874.0,verb.social,True,96,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+112,1,led,37,40,10946,10949,15,5.0,7.0,10914.0,10916.0,55.0,83.0,10964.0,10992.0,verb.motion,True,98,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+115,1,tend,23,27,11388,11392,15,16.0,17.0,11381.0,11382.0,,,,,verb.contact,True,102,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+116,3,told,30,34,11435,11439,65,0.0,10.0,11405.0,11415.0,,,,,verb.communication,True,101,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+118,0,leaped,8,14,11601,11607,65,5.0,7.0,11598.0,11600.0,,,,,verb.motion,True,105,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+119,3,won,79,82,11819,11822,165,62.0,74.0,11802.0,11814.0,94.0,123.0,11834.0,11863.0,verb.possession,True,104,subject,the princess 's suitors's of them,2.0,0.0,2.0,female,1.0,tertiary
+119,3,won,79,82,11819,11822,164,62.0,74.0,11802.0,11814.0,94.0,123.0,11834.0,11863.0,verb.possession,True,104,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+120,0,stood,15,20,11880,11885,164,10.0,14.0,11875.0,11879.0,27.0,43.0,11892.0,11908.0,verb.contact,True,106,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+121,3,sat,101,104,12151,12154,167,98.0,100.0,12148.0,12150.0,115.0,177.0,12165.0,12227.0,verb.motion,True,107,subject,a youth ride out of the wood,2.0,9.0,11.0,male,1.0,tertiary
+123,1,seen,19,23,12330,12334,171,5.0,9.0,12316.0,12320.0,28.0,34.0,12339.0,12345.0,verb.perception,True,108,subject,none,1.0,0.0,1.0,unknown,0.0,tertiary
+124,3,question,45,53,12392,12400,164,4.0,8.0,12351.0,12355.0,,,,,verb.communication,True,110,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+125,1,ride,15,19,12575,12579,169,4.0,6.0,12564.0,12566.0,,,,,verb.motion,True,111,subject,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+126,2,flung,69,74,12664,12669,169,57.0,59.0,12652.0,12654.0,113.0,159.0,12708.0,12754.0,verb.contact,True,112,subject,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+127,0,disappeared,8,19,12764,12775,169,5.0,7.0,12761.0,12763.0,,,,,verb.perception,True,113,subject,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+128,1,imagine,8,15,12819,12826,101,0.0,3.0,12811.0,12814.0,,,,,verb.creation,True,115,subject,,,,,,,
+129,2,seen,26,30,12967,12971,164,11.0,15.0,12952.0,12956.0,,,,,verb.perception,True,114,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+130,2,try,51,54,13040,13043,129,17.0,39.0,13006.0,13028.0,66.0,79.0,13055.0,13068.0,verb.social,True,117,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+130,2,try,51,54,13040,13043,164,17.0,39.0,13006.0,13028.0,66.0,79.0,13055.0,13068.0,verb.social,True,117,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+131,1,led,34,37,13104,13107,9,0.0,19.0,13070.0,13089.0,61.0,94.0,13131.0,13164.0,verb.motion,True,116,subject,the king,34.0,53.0,87.0,male,1.0,primary
+131,1,led,34,37,13104,13107,180,0.0,19.0,13070.0,13089.0,61.0,94.0,13131.0,13164.0,verb.motion,True,116,subject,The king 's daughter,2.0,3.0,5.0,male,1.0,tertiary
+133,3,darted,118,124,13536,13542,145,86.0,116.0,13504.0,13534.0,141.0,161.0,13559.0,13579.0,verb.motion,True,119,subject,"the suitors , one after another",2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+137,2,shouted,71,78,13869,13876,29,60.0,70.0,13858.0,13868.0,,,,,verb.communication,True,121,subject,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+138,3,tending,54,61,14023,14030,190,33.0,49.0,14002.0,14018.0,,,,,verb.social,True,120,subject,the young prince,1.0,12.0,13.0,male,1.0,tertiary
+139,0,heard,12,17,14073,14078,190,9.0,11.0,14070.0,14072.0,,,,,verb.perception,True,122,subject,the young prince,1.0,12.0,13.0,male,1.0,tertiary
+140,5,ride,113,117,14292,14296,190,82.0,84.0,14261.0,14263.0,,,,,verb.motion,True,123,subject,the young prince,1.0,12.0,13.0,male,1.0,tertiary
+141,0,heard,20,25,14332,14337,190,17.0,19.0,14329.0,14331.0,,,,,verb.perception,True,124,subject,the young prince,1.0,12.0,13.0,male,1.0,tertiary
+144,0,replied,21,28,14517,14524,65,0.0,20.0,14496.0,14516.0,,,,,verb.communication,True,126,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+145,2,ride,104,108,14675,14679,65,67.0,68.0,14638.0,14639.0,,,,,verb.motion,True,128,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+147,0,helped,4,10,14801,14807,65,0.0,3.0,14797.0,14800.0,14.0,25.0,14811.0,14822.0,verb.social,True,127,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+148,1,led,37,40,14895,14898,15,5.0,7.0,14863.0,14865.0,68.0,81.0,14926.0,14939.0,verb.motion,True,129,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+154,0,leaped,8,14,15565,15571,65,5.0,7.0,15562.0,15564.0,,,,,verb.motion,True,133,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+155,3,won,81,84,15791,15794,164,64.0,76.0,15774.0,15786.0,96.0,131.0,15806.0,15841.0,verb.possession,True,132,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+156,0,stood,15,20,15858,15863,164,10.0,14.0,15853.0,15857.0,27.0,43.0,15870.0,15886.0,verb.contact,True,134,subject,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+157,3,sat,103,106,16133,16136,167,100.0,102.0,16130.0,16132.0,117.0,198.0,16147.0,16228.0,verb.motion,True,135,subject,a youth ride out of the wood,2.0,9.0,11.0,male,1.0,tertiary
+158,2,noticed,56,63,16286,16293,29,45.0,55.0,16275.0,16285.0,,,,,verb.perception,True,136,subject,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+159,1,leave,23,28,16370,16375,65,4.0,14.0,16351.0,16361.0,44.0,58.0,16391.0,16405.0,verb.change,True,137,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+160,4,rode,97,101,16503,16507,65,19.0,21.0,16425.0,16427.0,,,,,verb.motion,True,138,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+161,1,ride,15,19,16565,16569,65,4.0,6.0,16554.0,16556.0,32.0,39.0,16582.0,16589.0,verb.motion,True,139,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+162,4,rode,108,112,16698,16702,65,36.0,38.0,16626.0,16628.0,131.0,181.0,16721.0,16771.0,verb.motion,True,140,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+163,0,disappeared,8,19,16781,16792,65,5.0,7.0,16778.0,16780.0,,,,,verb.motion,True,141,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+165,4,found,87,92,17057,17062,221,25.0,67.0,16995.0,17037.0,,,,,verb.possession,True,143,subject,a more splendid steed,1.0,0.0,1.0,unknown,0.0,tertiary
+165,4,found,87,92,17057,17062,222,25.0,67.0,16995.0,17037.0,,,,,verb.possession,True,143,subject,a handsomer youth,1.0,0.0,1.0,unknown,0.0,tertiary
+166,1,set,26,29,17090,17093,9,17.0,25.0,17081.0,17089.0,,,,,verb.creation,True,144,subject,the king,34.0,53.0,87.0,male,1.0,primary
+167,1,seated,62,68,17218,17224,129,0.0,12.0,17156.0,17168.0,77.0,159.0,17233.0,17315.0,verb.contact,True,145,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+169,1,darted,51,57,17580,17586,149,19.0,30.0,17548.0,17559.0,74.0,94.0,17603.0,17623.0,verb.motion,True,147,subject,the suitors,3.0,5.0,8.0,group/nonbinary,1.0,tertiary
+171,0,rode,17,21,17722,17726,234,9.0,16.0,17714.0,17721.0,25.0,92.0,17730.0,17797.0,verb.motion,True,148,subject,not one,1.0,0.0,1.0,unknown,0.0,tertiary
+172,2,shouted,56,63,17855,17862,29,45.0,55.0,17844.0,17854.0,,,,,verb.communication,True,150,subject,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+173,3,tending,56,63,18002,18009,9,32.0,46.0,17978.0,17992.0,73.0,81.0,18019.0,18027.0,verb.contact,True,149,subject,the king,34.0,53.0,87.0,male,1.0,primary
+173,3,tending,56,63,18002,18009,331,32.0,46.0,17978.0,17992.0,73.0,81.0,18019.0,18027.0,verb.contact,True,149,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+174,0,heard,22,27,18051,18056,331,9.0,11.0,18038.0,18040.0,,,,,verb.perception,True,151,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+175,4,win,83,86,18246,18249,331,5.0,7.0,18168.0,18170.0,,,,,verb.possession,True,153,subject,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+176,1,standing,34,42,18289,18297,15,17.0,29.0,18272.0,18284.0,,,,,verb.contact,True,152,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+178,2,said,46,50,18443,18447,65,1.0,43.0,18398.0,18440.0,,,,,verb.communication,True,155,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+179,2,ride,105,109,18565,18569,65,68.0,69.0,18528.0,18529.0,,,,,verb.motion,True,156,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+180,4,help,65,69,18680,18684,15,59.0,60.0,18674.0,18675.0,,,,,verb.social,True,157,subject,the wild man,27.0,51.0,78.0,male,1.0,primary
+188,0,leaped,8,14,19451,19457,65,5.0,7.0,19448.0,19450.0,,,,,verb.motion,True,160,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+191,7,riding,93,99,19809,19815,254,80.0,87.0,19796.0,19803.0,,,,,verb.motion,True,161,subject,a youth,1.0,7.0,8.0,male,1.0,tertiary
+193,3,see,55,58,20163,20166,101,45.0,48.0,20153.0,20156.0,,,,,verb.cognition,True,162,subject,,,,,,,
+194,0,gave,15,19,20254,20258,65,4.0,14.0,20243.0,20253.0,,,,,verb.possession,True,164,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+195,1,reached,22,29,20325,20332,65,19.0,21.0,20322.0,20324.0,,,,,verb.motion,True,163,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+196,1,reached,12,19,20447,20454,65,5.0,7.0,20440.0,20442.0,,,,,verb.motion,True,165,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+197,1,rode,35,39,20628,20632,65,5.0,7.0,20598.0,20600.0,64.0,184.0,20657.0,20777.0,verb.motion,True,166,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+198,0,disappeared,11,22,20790,20801,65,8.0,10.0,20787.0,20789.0,,,,,verb.change,True,167,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+200,11,won,203,206,21079,21082,271,173.0,198.0,21049.0,21074.0,,,,,verb.possession,True,169,subject,the unknown golden knight,1.0,0.0,1.0,unknown,0.0,tertiary
+203,0,expected,20,28,21205,21213,174,5.0,19.0,21190.0,21204.0,,,,,verb.cognition,True,170,subject,all the people,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+204,1,come,15,19,21286,21290,272,4.0,6.0,21275.0,21277.0,,,,,verb.motion,True,171,subject,the golden knight,1.0,4.0,5.0,male,1.0,tertiary
+205,1,grew,45,49,21337,21341,129,32.0,44.0,21324.0,21336.0,,,,,verb.change,True,172,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+206,2,murmured,42,50,21398,21406,149,30.0,41.0,21386.0,21397.0,,,,,verb.communication,True,173,subject,the suitors,3.0,5.0,8.0,group/nonbinary,1.0,tertiary
+208,1,choose,28,34,21616,21622,129,9.0,21.0,21597.0,21609.0,46.0,53.0,21634.0,21641.0,verb.cognition,True,175,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+209,4,gathered,139,147,21782,21790,322,110.0,138.0,21753.0,21781.0,,,,,verb.social,True,174,subject,people,3.0,0.0,3.0,unknown,0.0,tertiary
+209,4,gathered,139,147,21782,21790,285,110.0,138.0,21753.0,21781.0,,,,,verb.social,True,174,subject,a countless number of people,1.0,0.0,1.0,unknown,0.0,tertiary
+210,1,assembled,22,31,21823,21832,149,9.0,13.0,21810.0,21814.0,,,,,verb.social,True,176,subject,the suitors,3.0,5.0,8.0,group/nonbinary,1.0,tertiary
+211,0,looked,27,33,21978,21984,129,23.0,26.0,21974.0,21977.0,,,,,verb.perception,True,178,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+213,0,had,3,6,22145,22148,292,0.0,2.0,22142.0,22144.0,,,,,verb.body,True,179,subject,a man who stood quite hidden by the crowd,1.0,7.0,8.0,male,1.0,tertiary
+214,4,seen,57,61,22263,22267,292,35.0,43.0,22241.0,22249.0,,,,,verb.perception,True,180,subject,a man who stood quite hidden by the crowd,1.0,7.0,8.0,male,1.0,tertiary
+215,0,ran,21,24,22290,22293,129,8.0,20.0,22277.0,22289.0,,,,,verb.motion,True,181,subject,The princess,19.0,20.0,39.0,female,1.0,secondary
+217,0,laughed,20,27,22401,22408,174,5.0,19.0,22386.0,22400.0,,,,,verb.body,True,182,subject,all the people,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+218,0,saw,10,13,22419,22422,174,5.0,9.0,22414.0,22418.0,,,,,verb.perception,True,183,subject,all the people,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+219,2,replied,46,53,22600,22607,300,0.0,7.0,22554.0,22561.0,,,,,verb.communication,True,184,subject,The man,1.0,3.0,4.0,male,1.0,tertiary
+221,0,flung,13,18,22715,22720,300,10.0,12.0,22712.0,22714.0,,,,,verb.contact,True,186,subject,The man,1.0,3.0,4.0,male,1.0,tertiary
+224,1,see,14,17,22943,22946,94,4.0,7.0,22933.0,22936.0,,,,,verb.cognition,True,187,subject,,,,,,,
+225,4,received,81,89,23093,23101,65,70.0,80.0,23082.0,23092.0,,,,,verb.possession,True,188,subject,The prince,18.0,86.0,104.0,male,1.0,primary
+1,1,followed,84,92,211,219,3,93.0,104.0,220.0,231.0,,,,,verb.motion,True,1,direct_object,a king who took such a joy in the chase,1.0,8.0,9.0,male,1.0,tertiary
+3,4,saw,72,75,413,416,7,76.0,133.0,417.0,474.0,,,,,verb.perception,True,3,direct_object,wild man,1.0,0.0,1.0,male,1.0,tertiary
+3,4,saw,72,75,413,416,3,76.0,133.0,417.0,474.0,,,,,verb.perception,True,3,direct_object,a king who took such a joy in the chase,1.0,8.0,9.0,male,1.0,tertiary
+3,4,saw,72,75,413,416,6,76.0,133.0,417.0,474.0,,,,,verb.perception,True,3,direct_object,a dwarf,1.0,0.0,1.0,unknown,0.0,tertiary
+4,2,seized,61,67,537,543,10,68.0,71.0,544.0,547.0,,,,,verb.contact,True,4,direct_object,the dwarf,3.0,12.0,15.0,male,1.0,tertiary
+7,4,guard,144,149,932,937,15,150.0,153.0,938.0,941.0,154.0,178.0,942.0,966.0,verb.social,True,6,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+9,0,said,15,19,1008,1012,9,20.0,26.0,1013.0,1019.0,,,,,verb.communication,True,8,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+9,0,said,15,19,1008,1012,15,20.0,26.0,1013.0,1019.0,,,,,verb.communication,True,8,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+9,0,said,15,19,1008,1012,317,20.0,26.0,1013.0,1019.0,,,,,verb.communication,True,8,direct_object,a mighty huntsman,1.0,0.0,1.0,unknown,0.0,tertiary
+10,1,guard,16,21,1173,1178,15,22.0,25.0,1179.0,1182.0,26.0,52.0,1183.0,1209.0,verb.competition,True,7,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+14,0,vow,6,9,1436,1439,9,10.0,89.0,1440.0,1519.0,,,,,verb.communication,True,11,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+14,0,vow,6,9,1436,1439,319,10.0,89.0,1440.0,1519.0,,,,,verb.communication,True,11,direct_object,the king's own son,1.0,0.0,1.0,unknown,0.0,tertiary
+14,0,vow,6,9,1436,1439,15,10.0,89.0,1440.0,1519.0,,,,,verb.communication,True,11,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+21,0,heard,16,21,2151,2156,10,22.0,69.0,2157.0,2204.0,,,,,verb.perception,True,16,direct_object,the dwarf,3.0,12.0,15.0,male,1.0,tertiary
+24,4,leave,83,88,2392,2397,322,89.0,117.0,2398.0,2426.0,,,,,verb.possession,True,18,direct_object,people,3.0,0.0,3.0,unknown,0.0,tertiary
+24,4,leave,83,88,2392,2397,34,89.0,117.0,2398.0,2426.0,,,,,verb.possession,True,18,direct_object,the queen,7.0,10.0,17.0,female,1.0,tertiary
+25,6,guard,70,75,2498,2503,15,76.0,88.0,2504.0,2516.0,89.0,140.0,2517.0,2568.0,verb.competition,True,19,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+26,0,promised,10,18,2581,2589,34,19.0,49.0,2590.0,2620.0,,,,,verb.communication,True,20,direct_object,the queen,7.0,10.0,17.0,female,1.0,tertiary
+27,2,took,96,100,2761,2765,9,101.0,125.0,2766.0,2790.0,,,,,verb.motion,True,22,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+28,0,had,19,22,2832,2835,43,23.0,67.0,2836.0,2880.0,,,,,verb.possession,True,21,direct_object,only one child,1.0,0.0,1.0,unknown,0.0,tertiary
+31,1,play,16,20,3064,3068,45,21.0,49.0,3069.0,3097.0,,,,,verb.competition,True,24,direct_object,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+37,5,let,120,123,3795,3798,15,124.0,126.0,3799.0,3801.0,,,,,verb.social,True,30,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+38,2,let,43,46,3851,3854,15,47.0,50.0,3855.0,3858.0,51.0,54.0,3859.0,3862.0,verb.social,True,31,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+39,0,give,9,13,3873,3877,45,14.0,16.0,3878.0,3880.0,31.0,54.0,3895.0,3918.0,verb.possession,True,32,direct_object,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+40,3,tell,48,52,3969,3973,45,53.0,56.0,3974.0,3977.0,,,,,verb.communication,True,33,direct_object,the little fellow,4.0,14.0,18.0,male,1.0,tertiary
+41,2,comb,48,52,4027,4031,60,53.0,62.0,4032.0,4041.0,,,,,verb.contact,True,34,direct_object,the boy,3.0,11.0,14.0,male,1.0,tertiary
+44,7,took,137,141,4364,4368,61,142.0,149.0,4369.0,4376.0,,,,,verb.possession,True,36,direct_object,the wild man's mother,2.0,3.0,5.0,female,1.0,tertiary
+46,3,promised,74,82,4518,4526,60,83.0,102.0,4527.0,4546.0,,,,,verb.communication,True,38,direct_object,the boy,3.0,11.0,14.0,male,1.0,tertiary
+47,2,help,50,54,4635,4639,60,55.0,58.0,4640.0,4643.0,,,,,verb.social,True,40,direct_object,the boy,3.0,11.0,14.0,male,1.0,tertiary
+50,4,sent,113,117,4902,4906,322,118.0,124.0,4907.0,4913.0,144.0,159.0,4933.0,4948.0,verb.motion,True,42,direct_object,people,3.0,0.0,3.0,unknown,0.0,tertiary
+50,4,sent,113,117,4902,4906,1,118.0,124.0,4907.0,4913.0,144.0,159.0,4933.0,4948.0,verb.motion,True,42,direct_object,dale,1.0,0.0,1.0,unknown,0.0,tertiary
+55,3,told,53,57,5256,5260,74,58.0,61.0,5261.0,5264.0,,,,,verb.communication,True,47,direct_object,the queen's husband,1.0,3.0,4.0,male,1.0,tertiary
+56,4,punish,59,65,5353,5359,78,66.0,80.0,5360.0,5374.0,82.0,107.0,5376.0,5401.0,verb.social,True,50,direct_object,the malefactor,1.0,0.0,1.0,unknown,0.0,tertiary
+60,4,deserved,61,69,5637,5645,82,70.0,87.0,5646.0,5663.0,,,,,verb.emotion,True,48,direct_object,the little prince,2.0,7.0,9.0,male,1.0,tertiary
+60,4,deserved,61,69,5637,5645,328,70.0,87.0,5646.0,5663.0,,,,,verb.emotion,True,48,direct_object,the little prince's father,4.0,0.0,4.0,male,1.0,tertiary
+64,3,said,43,47,5873,5877,9,65.0,125.0,5895.0,5955.0,,,,,verb.communication,True,53,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+66,0,gave,17,21,6021,6025,65,22.0,77.0,6026.0,6081.0,,,,,verb.possession,True,56,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+68,1,pleaded,56,63,6227,6234,82,64.0,85.0,6235.0,6256.0,,,,,verb.communication,True,57,direct_object,the little prince,2.0,7.0,9.0,male,1.0,tertiary
+70,4,took,38,42,6339,6343,60,43.0,50.0,6344.0,6351.0,,,,,verb.contact,True,60,direct_object,the boy,3.0,11.0,14.0,male,1.0,tertiary
+70,4,took,38,42,6339,6343,97,43.0,50.0,6344.0,6351.0,,,,,verb.contact,True,60,direct_object,the king's serving - men,1.0,4.0,5.0,male,1.0,tertiary
+71,3,tending,73,80,6456,6463,100,81.0,89.0,6464.0,6472.0,,,,,verb.consumption,True,59,direct_object,a swine - herd,1.0,1.0,2.0,male,1.0,tertiary
+72,0,said,9,13,6483,6487,102,14.0,24.0,6488.0,6498.0,,,,,verb.communication,True,61,direct_object,another,1.0,0.0,1.0,unknown,0.0,tertiary
+72,0,said,9,13,6483,6487,331,14.0,24.0,6488.0,6498.0,,,,,verb.communication,True,61,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+72,0,said,9,13,6483,6487,9,14.0,24.0,6488.0,6498.0,,,,,verb.communication,True,61,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+72,0,said,9,13,6483,6487,101,14.0,24.0,6488.0,6498.0,,,,,verb.communication,True,61,direct_object,,,,,,,
+73,0,let,1,4,6561,6564,97,5.0,44.0,6565.0,6604.0,,,,,verb.social,True,62,direct_object,the king's serving - men,1.0,4.0,5.0,male,1.0,tertiary
+75,0,told,10,14,6819,6823,65,15.0,25.0,6824.0,6834.0,,,,,verb.communication,True,64,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+76,2,imagine,66,73,6933,6940,65,74.0,133.0,6941.0,7000.0,,,,,verb.creation,True,65,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+76,2,imagine,66,73,6933,6940,103,74.0,133.0,6941.0,7000.0,,,,,verb.creation,True,65,direct_object,The other serving - men,1.0,6.0,7.0,male,1.0,tertiary
+77,0,did,15,18,7017,7020,331,19.0,52.0,7021.0,7054.0,,,,,verb.social,True,66,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+77,0,did,15,18,7017,7020,112,19.0,52.0,7021.0,7054.0,,,,,verb.social,True,66,direct_object,the serving - men,1.0,0.0,1.0,male,1.0,tertiary
+84,3,begged,53,59,7724,7730,331,60.0,63.0,7731.0,7734.0,,,,,verb.communication,True,73,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+85,6,tend,117,121,7894,7898,9,122.0,139.0,7899.0,7916.0,,,,,verb.contact,True,74,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+86,3,became,99,105,8017,8023,331,106.0,157.0,8024.0,8075.0,,,,,verb.change,True,76,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+89,5,consider,147,155,8351,8359,124,156.0,173.0,8360.0,8377.0,,,,,verb.cognition,True,78,direct_object,the king who was reigning at the splendid castle,1.0,4.0,5.0,male,1.0,tertiary
+90,1,completed,26,35,8405,8414,129,36.0,54.0,8415.0,8433.0,,,,,verb.change,True,77,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+92,2,win,45,48,8640,8643,129,49.0,51.0,8644.0,8646.0,,,,,verb.possession,True,80,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+96,5,liked,179,184,9186,9191,9,185.0,209.0,9192.0,9216.0,,,,,verb.emotion,True,84,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+96,5,liked,179,184,9186,9191,129,185.0,209.0,9192.0,9216.0,,,,,verb.emotion,True,84,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+101,0,made,5,9,9872,9876,29,10.0,119.0,9877.0,9986.0,,,,,verb.creation,True,88,direct_object,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+104,1,occurred,11,19,10294,10302,331,20.0,26.0,10303.0,10309.0,,,,,verb.cognition,True,90,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+104,1,occurred,11,19,10294,10302,154,20.0,26.0,10303.0,10309.0,,,,,verb.cognition,True,90,direct_object,the rest,2.0,0.0,2.0,unknown,0.0,tertiary
+107,0,said,0,4,10482,10486,15,5.0,7.0,10487.0,10489.0,,,,,verb.communication,True,93,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+108,0,said,8,12,10555,10559,65,13.0,23.0,10560.0,10570.0,,,,,verb.communication,True,95,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+110,4,help,62,66,10839,10843,65,67.0,70.0,10844.0,10847.0,,,,,verb.social,True,97,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+111,0,helped,4,10,10853,10859,15,11.0,13.0,10860.0,10862.0,14.0,25.0,10863.0,10874.0,verb.social,True,96,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+112,1,led,37,40,10946,10949,65,41.0,44.0,10950.0,10953.0,55.0,83.0,10964.0,10992.0,verb.motion,True,98,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+113,4,champing,104,112,11224,11232,15,113.0,120.0,11233.0,11240.0,121.0,162.0,11241.0,11282.0,verb.contact,True,99,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+114,3,try,66,69,11350,11353,65,70.0,79.0,11354.0,11363.0,,,,,verb.social,True,100,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+115,1,tend,23,27,11388,11392,65,28.0,37.0,11393.0,11402.0,,,,,verb.contact,True,102,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+117,2,hung,52,56,11506,11510,65,57.0,66.0,11511.0,11520.0,,,,,verb.contact,True,103,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+121,3,sat,101,104,12151,12154,167,105.0,114.0,12155.0,12164.0,115.0,177.0,12165.0,12227.0,verb.motion,True,107,direct_object,a youth ride out of the wood,2.0,9.0,11.0,male,1.0,tertiary
+122,1,turned,22,28,12251,12257,169,29.0,50.0,12258.0,12279.0,,,,,verb.motion,True,109,direct_object,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+123,1,seen,19,23,12330,12334,169,24.0,27.0,12335.0,12338.0,28.0,34.0,12339.0,12345.0,verb.perception,True,108,direct_object,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+126,2,flung,69,74,12664,12669,169,82.0,91.0,12677.0,12686.0,113.0,159.0,12708.0,12754.0,verb.contact,True,112,direct_object,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+128,1,imagine,8,15,12819,12826,174,16.0,67.0,12827.0,12878.0,,,,,verb.creation,True,115,direct_object,all the people,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+129,2,seen,26,30,12967,12971,176,31.0,46.0,12972.0,12987.0,,,,,verb.perception,True,114,direct_object,a braver knight,1.0,0.0,1.0,unknown,0.0,tertiary
+130,2,try,51,54,13040,13043,164,55.0,65.0,13044.0,13054.0,66.0,79.0,13055.0,13068.0,verb.social,True,117,direct_object,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+132,0,gathered,24,32,13293,13301,183,33.0,48.0,13302.0,13317.0,49.0,88.0,13318.0,13357.0,verb.contact,True,118,direct_object,all the suitors,1.0,0.0,1.0,unknown,0.0,tertiary
+138,3,tending,54,61,14023,14030,190,62.0,90.0,14031.0,14059.0,,,,,verb.social,True,120,direct_object,the young prince,1.0,12.0,13.0,male,1.0,tertiary
+143,0,said,0,4,14421,14425,15,5.0,17.0,14426.0,14438.0,,,,,verb.communication,True,125,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+144,0,replied,21,28,14517,14524,65,31.0,73.0,14527.0,14569.0,,,,,verb.communication,True,126,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+147,0,helped,4,10,14801,14807,15,11.0,13.0,14808.0,14810.0,14.0,25.0,14811.0,14822.0,verb.social,True,127,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+148,1,led,37,40,14895,14898,65,41.0,44.0,14899.0,14902.0,68.0,81.0,14926.0,14939.0,verb.motion,True,129,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+149,0,stood,16,21,15076,15081,15,22.0,62.0,15082.0,15122.0,63.0,159.0,15123.0,15219.0,verb.contact,True,130,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+153,2,hung,78,82,15469,15473,65,83.0,92.0,15474.0,15483.0,,,,,verb.contact,True,131,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+157,3,sat,103,106,16133,16136,167,107.0,116.0,16137.0,16146.0,117.0,198.0,16147.0,16228.0,verb.motion,True,135,direct_object,a youth ride out of the wood,2.0,9.0,11.0,male,1.0,tertiary
+158,2,noticed,56,63,16286,16293,212,64.0,115.0,16294.0,16345.0,,,,,verb.perception,True,136,direct_object,the same knight who had appeared before,1.0,0.0,1.0,unknown,0.0,tertiary
+158,2,noticed,56,63,16286,16293,167,64.0,115.0,16294.0,16345.0,,,,,verb.perception,True,136,direct_object,a youth ride out of the wood,2.0,9.0,11.0,male,1.0,tertiary
+159,1,leave,23,28,16370,16375,29,29.0,33.0,16376.0,16380.0,44.0,58.0,16391.0,16405.0,verb.change,True,137,direct_object,the people,10.0,2.0,12.0,group/nonbinary,1.0,tertiary
+164,5,admire,116,122,16943,16949,169,123.0,141.0,16950.0,16968.0,,,,,verb.cognition,True,142,direct_object,the strange knight,3.0,12.0,15.0,male,1.0,tertiary
+166,1,set,26,29,17090,17093,9,30.0,90.0,17094.0,17154.0,,,,,verb.creation,True,144,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+166,1,set,26,29,17090,17093,224,30.0,90.0,17094.0,17154.0,,,,,verb.creation,True,144,direct_object,the king's daughter 's suitors,1.0,0.0,1.0,unknown,0.0,tertiary
+167,1,seated,62,68,17218,17224,129,69.0,76.0,17225.0,17232.0,77.0,159.0,17233.0,17315.0,verb.contact,True,145,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+168,0,gathered,28,36,17345,17353,131,37.0,161.0,17354.0,17478.0,162.0,210.0,17479.0,17527.0,verb.change,True,146,direct_object,suitors,2.0,0.0,2.0,unknown,0.0,tertiary
+173,3,tending,56,63,18002,18009,331,64.0,72.0,18010.0,18018.0,73.0,81.0,18019.0,18027.0,verb.contact,True,149,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+175,4,win,83,86,18246,18249,238,87.0,90.0,18250.0,18253.0,,,,,verb.possession,True,153,direct_object,the lovely princess,1.0,1.0,2.0,female,1.0,tertiary
+176,1,standing,34,42,18289,18297,331,43.0,53.0,18298.0,18308.0,,,,,verb.contact,True,152,direct_object,The king 's son,4.0,39.0,43.0,male,1.0,secondary
+177,0,said,0,4,18322,18326,15,5.0,17.0,18327.0,18339.0,,,,,verb.communication,True,154,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+177,0,said,0,4,18322,18326,65,5.0,17.0,18327.0,18339.0,,,,,verb.communication,True,154,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+178,2,said,46,50,18443,18447,65,51.0,61.0,18448.0,18458.0,,,,,verb.communication,True,155,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+180,4,help,65,69,18680,18684,65,70.0,73.0,18685.0,18688.0,,,,,verb.social,True,157,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+182,1,led,42,45,18793,18796,65,46.0,49.0,18797.0,18800.0,,,,,verb.motion,True,158,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+182,1,led,42,45,18793,18796,15,46.0,49.0,18797.0,18800.0,,,,,verb.motion,True,158,direct_object,the wild man,27.0,51.0,78.0,male,1.0,primary
+187,2,hung,63,67,19355,19359,65,68.0,77.0,19360.0,19369.0,,,,,verb.contact,True,159,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+193,3,see,55,58,20163,20166,260,59.0,129.0,20167.0,20237.0,,,,,verb.cognition,True,162,direct_object,the same youth who had already appeared at different times,1.0,0.0,1.0,unknown,0.0,tertiary
+193,3,see,55,58,20163,20166,254,59.0,129.0,20167.0,20237.0,,,,,verb.cognition,True,162,direct_object,a youth,1.0,7.0,8.0,male,1.0,tertiary
+194,0,gave,15,19,20254,20258,164,20.0,24.0,20259.0,20263.0,,,,,verb.possession,True,164,direct_object,the princess 's suitors,4.0,15.0,19.0,female,1.0,tertiary
+195,1,reached,22,29,20325,20332,65,30.0,72.0,20333.0,20375.0,,,,,verb.motion,True,163,direct_object,The prince,18.0,86.0,104.0,male,1.0,primary
+202,0,knew,12,16,21176,21180,272,17.0,20.0,21181.0,21184.0,,,,,verb.cognition,True,168,direct_object,the golden knight,1.0,4.0,5.0,male,1.0,tertiary
+203,0,expected,20,28,21205,21213,272,29.0,84.0,21214.0,21269.0,,,,,verb.cognition,True,170,direct_object,the golden knight,1.0,4.0,5.0,male,1.0,tertiary
+208,1,choose,28,34,21616,21622,149,35.0,45.0,21623.0,21633.0,46.0,53.0,21634.0,21641.0,verb.cognition,True,175,direct_object,the suitors,3.0,5.0,8.0,group/nonbinary,1.0,tertiary
+211,0,looked,27,33,21978,21984,129,34.0,57.0,21985.0,22008.0,,,,,verb.perception,True,178,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+212,2,stood,48,53,22109,22114,293,54.0,79.0,22115.0,22140.0,,,,,verb.contact,True,177,direct_object,the crowd,1.0,0.0,1.0,unknown,0.0,tertiary
+213,0,had,3,6,22145,22148,294,7.0,63.0,22149.0,22205.0,,,,,verb.body,True,179,direct_object,shepherds wear,1.0,0.0,1.0,unknown,0.0,tertiary
+215,0,ran,21,24,22290,22293,292,25.0,34.0,22294.0,22303.0,,,,,verb.motion,True,181,direct_object,a man who stood quite hidden by the crowd,1.0,7.0,8.0,male,1.0,tertiary
+218,0,saw,10,13,22419,22422,9,14.0,45.0,22423.0,22454.0,,,,,verb.perception,True,183,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+218,0,saw,10,13,22419,22422,298,14.0,45.0,22423.0,22454.0,,,,,verb.perception,True,183,direct_object,the king 's herdsman,1.0,0.0,1.0,male,1.0,tertiary
+219,2,replied,46,53,22600,22607,129,55.0,95.0,22609.0,22649.0,,,,,verb.communication,True,184,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+221,0,flung,13,18,22715,22720,300,25.0,40.0,22727.0,22742.0,,,,,verb.contact,True,186,direct_object,The man,1.0,3.0,4.0,male,1.0,tertiary
+223,0,stood,41,46,22819,22824,129,47.0,149.0,22825.0,22927.0,,,,,verb.contact,True,185,direct_object,The princess,19.0,20.0,39.0,female,1.0,secondary
+223,0,stood,41,46,22819,22824,302,47.0,149.0,22825.0,22927.0,,,,,verb.contact,True,185,direct_object,"a handsome prince , clad in gold from head to foot",1.0,1.0,2.0,male,1.0,tertiary
+224,1,see,14,17,22943,22946,305,18.0,81.0,22947.0,23010.0,,,,,verb.cognition,True,187,direct_object,the same youth who had ridden up the Glass Mountain,1.0,0.0,1.0,unknown,0.0,tertiary
+225,4,received,81,89,23093,23101,9,90.0,109.0,23102.0,23121.0,,,,,verb.possession,True,188,direct_object,the king,34.0,53.0,87.0,male,1.0,primary
+225,4,received,81,89,23093,23101,180,90.0,109.0,23102.0,23121.0,,,,,verb.possession,True,188,direct_object,The king 's daughter,2.0,3.0,5.0,male,1.0,tertiary

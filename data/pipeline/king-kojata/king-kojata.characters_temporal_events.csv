@@ -1,0 +1,607 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,3,granted,95,102,201,208,2,88.0,94.0,194.0,200.0,,,,,verb.possession,1,subject,Heaven,2.0,0.0,2.0,unknown,0.0,tertiary
+3,0,travelled,3,12,344,353,1,0.0,2.0,341.0,343.0,,,,,verb.motion,3,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+4,2,commanded,38,47,538,547,1,35.0,37.0,535.0,537.0,,,,,verb.communication,4,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+4,3,pitch,64,69,564,569,1,48.0,60.0,548.0,560.0,76.0,93.0,576.0,593.0,verb.contact,5,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+4,3,pitch,64,69,564,569,12,48.0,60.0,548.0,560.0,76.0,93.0,576.0,593.0,verb.contact,5,subject,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+5,1,saw,55,58,691,694,7,52.0,54.0,688.0,690.0,68.0,72.0,704.0,708.0,verb.perception,7,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+5,2,mounted,77,84,713,720,7,74.0,76.0,710.0,712.0,,,,,verb.motion,8,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+6,0,came,15,19,804,808,7,12.0,14.0,801.0,803.0,,,,,verb.motion,9,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+7,0,tried,20,25,940,945,1,0.0,11.0,920.0,931.0,,,,,verb.social,10,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+7,1,seize,29,34,949,954,1,0.0,11.0,920.0,931.0,,,,,verb.contact,11,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+7,2,endeavoured,61,72,981,992,1,58.0,60.0,978.0,980.0,,,,,verb.social,12,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+7,3,grasp,76,81,996,1001,1,58.0,72.0,978.0,992.0,85.0,104.0,1005.0,1024.0,verb.contact,13,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+8,1,try,53,56,1185,1188,7,44.0,52.0,1176.0,1184.0,,,,,verb.social,15,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+8,2,seize,60,65,1192,1197,7,44.0,52.0,1176.0,1184.0,,,,,verb.contact,16,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+11,1,quench,7,13,1388,1394,1,1.0,2.0,1382.0,1383.0,24.0,35.0,1405.0,1416.0,verb.change,18,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+11,4,plunged,107,114,1488,1495,1,104.0,106.0,1485.0,1487.0,140.0,169.0,1521.0,1550.0,verb.contact,20,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,1,satisfied,16,25,1568,1577,1,9.0,11.0,1561.0,1563.0,,,,,verb.consumption,21,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,2,wished,42,48,1594,1600,1,9.0,11.0,1561.0,1563.0,,,,,verb.emotion,22,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,3,raise,52,57,1604,1609,1,9.0,11.0,1561.0,1563.0,,,,,verb.motion,23,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,5,lift,82,86,1634,1638,1,70.0,72.0,1622.0,1624.0,97.0,145.0,1649.0,1697.0,verb.body,25,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,6,held,113,117,1665,1669,20,105.0,112.0,1657.0,1664.0,128.0,145.0,1680.0,1697.0,verb.contact,24,subject,,,,,,,
+14,1,go,7,9,1720,1722,1,4.0,6.0,1717.0,1719.0,,,,,verb.motion,27,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+16,6,held,217,221,1985,1989,7,196.0,212.0,1964.0,1980.0,,,,,verb.contact,28,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+19,1,let,13,16,2133,2136,7,1.0,2.0,2121.0,2122.0,,,,,verb.social,30,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+19,2,go,21,23,2141,2143,7,17.0,20.0,2137.0,2140.0,,,,,verb.motion,31,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+19,3,give,46,50,2166,2170,7,42.0,45.0,2162.0,2165.0,,,,,verb.possession,33,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+19,4,know,68,72,2188,2192,7,64.0,67.0,2184.0,2187.0,,,,,verb.cognition,32,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+19,6,find,107,111,2227,2231,7,98.0,101.0,2218.0,2221.0,,,,,verb.possession,35,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+20,2,ponder,25,31,2279,2285,7,0.0,8.0,2254.0,2262.0,,,,,verb.cognition,34,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+20,6,knowing,96,103,2350,2357,7,93.0,95.0,2347.0,2349.0,,,,,verb.cognition,36,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+21,0,answered,8,16,2396,2404,7,5.0,7.0,2393.0,2395.0,,,,,verb.communication,38,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+21,1,promise,34,41,2422,2429,24,32.0,33.0,2420.0,2421.0,,,,,verb.communication,39,subject,The voice,1.0,2.0,3.0,unknown,0.0,tertiary
+21,3,have,57,61,2445,2449,24,47.0,50.0,2435.0,2438.0,,,,,verb.possession,41,subject,The voice,1.0,2.0,3.0,unknown,0.0,tertiary
+22,0,replied,10,17,2465,2472,24,0.0,9.0,2455.0,2464.0,,,,,verb.communication,40,subject,The voice,1.0,2.0,3.0,unknown,0.0,tertiary
+23,2,fail,36,40,2521,2525,7,32.0,35.0,2517.0,2520.0,,,,,verb.social,42,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+23,3,keep,44,48,2529,2533,7,32.0,35.0,2517.0,2520.0,,,,,verb.possession,44,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+25,0,drew,9,13,2633,2637,7,0.0,8.0,2624.0,2632.0,,,,,verb.contact,45,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+25,1,shook,45,50,2669,2674,7,0.0,8.0,2624.0,2632.0,59.0,69.0,2683.0,2693.0,verb.motion,46,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+26,0,mounted,9,16,2703,2710,7,6.0,8.0,2700.0,2702.0,,,,,verb.motion,47,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+26,1,rode,31,35,2725,2729,7,6.0,8.0,2700.0,2702.0,54.0,70.0,2748.0,2764.0,verb.motion,48,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+27,0,approached,10,20,2776,2786,27,5.0,9.0,2771.0,2775.0,,,,,verb.motion,49,subject,the King's retinue,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+27,2,meet,61,65,2827,2831,29,34.0,48.0,2800.0,2814.0,71.0,101.0,2837.0,2867.0,verb.social,50,subject,all the people,1.0,0.0,1.0,unknown,0.0,tertiary
+27,3,reached,121,128,2887,2894,7,112.0,120.0,2878.0,2886.0,,,,,verb.motion,51,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+27,4,met,150,153,2916,2919,32,140.0,149.0,2906.0,2915.0,158.0,174.0,2924.0,2940.0,verb.contact,52,subject,the Queen,2.0,1.0,3.0,female,1.0,tertiary
+28,0,stood,12,17,2953,2958,32,1.0,11.0,2942.0,2952.0,38.0,129.0,2979.0,3070.0,verb.contact,53,subject,the Queen,2.0,1.0,3.0,female,1.0,tertiary
+29,2,muttered,64,72,3136,3144,7,45.0,63.0,3117.0,3135.0,,,,,verb.communication,58,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+29,5,know,111,115,3183,3187,7,101.0,102.0,3173.0,3174.0,,,,,verb.cognition,57,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+31,0,took,3,7,3353,3357,7,0.0,2.0,3350.0,3352.0,18.0,29.0,3368.0,3379.0,verb.contact,61,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+31,1,kissed,34,40,3384,3390,7,0.0,2.0,3350.0,3352.0,44.0,52.0,3394.0,3402.0,verb.contact,62,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+32,1,determined,34,44,3437,3447,7,31.0,33.0,3434.0,3436.0,,,,,verb.cognition,64,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+32,2,control,48,55,3451,3458,7,31.0,33.0,3434.0,3436.0,,,,,verb.social,65,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+32,4,reign,81,86,3484,3489,7,31.0,33.0,3434.0,3436.0,,,,,verb.motion,67,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+33,0,remained,23,31,3530,3538,7,0.0,22.0,3507.0,3529.0,42.0,103.0,3549.0,3610.0,verb.change,66,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+33,1,escaped,80,87,3587,3594,7,49.0,79.0,3556.0,3586.0,,,,,verb.social,68,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+34,2,taken,46,51,3658,3663,42,27.0,36.0,3639.0,3648.0,,,,,verb.possession,70,subject,the King's child,1.0,0.0,1.0,unknown,0.0,tertiary
+34,2,taken,46,51,3658,3663,7,27.0,36.0,3639.0,3648.0,,,,,verb.possession,70,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+34,3,knew,74,78,3686,3690,1,62.0,73.0,3674.0,3685.0,87.0,99.0,3699.0,3711.0,verb.cognition,69,subject,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+36,2,forgot,110,116,3867,3873,7,93.0,109.0,3850.0,3866.0,,,,,verb.cognition,71,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+37,1,going,41,46,3969,3974,43,8.0,18.0,3936.0,3946.0,,,,,verb.motion,72,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+37,2,lost,81,85,4009,4013,43,73.0,75.0,4001.0,4003.0,,,,,verb.possession,73,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+37,3,found,110,115,4038,4043,43,73.0,75.0,4001.0,4003.0,124.0,164.0,4052.0,4092.0,verb.perception,74,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+40,3,crept,117,122,4464,4469,50,67.0,116.0,4414.0,4463.0,,,,,verb.motion,76,subject,an extraordinary old man with green eyes and chin,1.0,7.0,8.0,male,1.0,tertiary
+41,0,said,31,35,4512,4516,50,0.0,25.0,4481.0,4506.0,,,,,verb.communication,77,subject,an extraordinary old man with green eyes and chin,1.0,7.0,8.0,male,1.0,tertiary
+41,0,said,31,35,4512,4516,3,0.0,25.0,4481.0,4506.0,,,,,verb.communication,77,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+43,1,come,29,33,4594,4598,3,22.0,25.0,4587.0,4590.0,,,,,verb.motion,78,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+43,2,pay,38,41,4603,4606,3,22.0,25.0,4587.0,4590.0,,,,,verb.communication,79,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+46,3,bid,58,61,4748,4751,51,56.0,57.0,4746.0,4747.0,,,,,verb.communication,80,subject,the astonished Prince,1.0,2.0,3.0,male,1.0,tertiary
+48,5,pay,68,71,4907,4910,186,52.0,54.0,4891.0,4893.0,,,,,verb.possession,86,subject,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+51,0,disappeared,29,40,4992,5003,52,17.0,28.0,4980.0,4991.0,,,,,verb.change,85,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+51,1,returned,71,79,5034,5042,43,60.0,70.0,5023.0,5033.0,85.0,100.0,5048.0,5063.0,verb.motion,87,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+51,2,told,106,110,5069,5073,43,60.0,70.0,5023.0,5033.0,,,,,verb.communication,90,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+51,4,seen,138,142,5101,5105,43,122.0,125.0,5085.0,5088.0,,,,,verb.perception,89,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+51,5,heard,147,152,5110,5115,43,131.0,133.0,5094.0,5096.0,,,,,verb.perception,88,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+52,0,grew,9,13,5126,5130,7,0.0,8.0,5117.0,5125.0,34.0,66.0,5151.0,5183.0,verb.change,91,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+52,1,heard,42,47,5159,5164,7,39.0,41.0,5156.0,5158.0,,,,,verb.perception,92,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+52,2,said,72,76,5189,5193,7,0.0,8.0,5117.0,5125.0,,,,,verb.communication,93,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+53,4,told,64,68,5279,5283,7,61.0,63.0,5276.0,5278.0,,,,,verb.communication,94,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+54,3,answered,49,57,5388,5396,55,1.0,3.0,5340.0,5342.0,,,,,verb.communication,96,subject,The Prince's father,1.0,2.0,3.0,male,1.0,tertiary
+56,1,wager,43,48,5493,5498,7,41.0,42.0,5491.0,5492.0,,,,,verb.communication,98,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+56,3,see,61,64,5511,5514,55,41.0,52.0,5491.0,5502.0,,,,,verb.motion,100,subject,The Prince's father,1.0,2.0,3.0,male,1.0,tertiary
+56,3,see,61,64,5511,5514,7,41.0,52.0,5491.0,5502.0,,,,,verb.motion,100,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+57,0,gave,9,13,5540,5544,7,0.0,8.0,5531.0,5539.0,,,,,verb.possession,99,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+58,0,hung,10,14,5615,5619,32,0.0,9.0,5605.0,5614.0,,,,,verb.contact,101,subject,the Queen,2.0,1.0,3.0,female,1.0,tertiary
+58,2,bade,96,100,5701,5705,43,85.0,95.0,5690.0,5700.0,,,,,verb.communication,102,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+59,0,rode,3,7,5757,5761,43,0.0,2.0,5754.0,5756.0,20.0,32.0,5774.0,5786.0,verb.motion,103,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+59,1,came,54,58,5808,5812,43,51.0,53.0,5805.0,5807.0,,,,,verb.motion,104,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+61,0,noticed,36,43,6079,6086,3,0.0,35.0,6043.0,6078.0,,,,,verb.perception,105,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+61,4,took,165,169,6208,6212,3,125.0,127.0,6168.0,6170.0,,,,,verb.contact,107,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+67,3,see,120,123,6964,6967,3,78.0,80.0,6922.0,6924.0,,,,,verb.cognition,108,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+68,2,give,109,113,7105,7109,2,90.0,108.0,7086.0,7104.0,,,,,verb.possession,111,subject,Heaven,2.0,0.0,2.0,unknown,0.0,tertiary
+69,0,lay,11,14,7176,7179,43,0.0,10.0,7165.0,7175.0,46.0,56.0,7211.0,7221.0,verb.contact,110,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+69,1,stepped,62,69,7227,7234,43,0.0,10.0,7165.0,7175.0,,,,,verb.motion,112,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+70,0,stood,50,55,7307,7312,77,17.0,49.0,7274.0,7306.0,,,,,verb.contact,113,subject,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+71,0,gave,4,8,7389,7393,77,0.0,3.0,7385.0,7388.0,,,,,verb.possession,115,subject,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+71,1,spoke,33,38,7418,7423,77,0.0,3.0,7385.0,7388.0,,,,,verb.communication,117,subject,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+74,0,has,10,13,7549,7552,193,0.0,9.0,7539.0,7548.0,,,,,verb.possession,116,subject,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+74,0,has,10,13,7549,7552,77,0.0,9.0,7539.0,7548.0,,,,,verb.possession,116,subject,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+75,2,expecting,12,21,7666,7675,193,0.0,2.0,7654.0,7656.0,26.0,34.0,7680.0,7688.0,verb.cognition,118,subject,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+75,4,have,49,53,7703,7707,43,40.0,43.0,7694.0,7697.0,62.0,95.0,7716.0,7749.0,verb.perception,119,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+75,6,follow,79,85,7733,7739,43,65.0,68.0,7719.0,7722.0,,,,,verb.social,120,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+76,0,come,15,19,7766,7770,43,11.0,14.0,7762.0,7765.0,,,,,verb.motion,121,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+77,2,stamps,17,23,7889,7895,193,14.0,16.0,7886.0,7888.0,,,,,verb.contact,126,subject,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+79,0,stamped,42,49,8053,8060,4,17.0,41.0,8028.0,8052.0,64.0,84.0,8075.0,8095.0,verb.body,125,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+80,1,hewn,35,39,8199,8203,82,0.0,26.0,8164.0,8190.0,67.0,107.0,8231.0,8271.0,verb.creation,124,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+80,4,walked,126,132,8290,8296,3,113.0,125.0,8277.0,8289.0,141.0,146.0,8305.0,8310.0,verb.motion,129,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+81,0,sat,13,16,8325,8328,82,0.0,12.0,8312.0,8324.0,,,,,verb.contact,128,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+82,0,blazed,10,16,8382,8388,82,1.0,9.0,8373.0,8381.0,,,,,verb.perception,130,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+83,0,entered,24,31,8467,8474,3,11.0,23.0,8454.0,8466.0,,,,,verb.motion,131,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+83,1,flung,35,40,8478,8483,82,32.0,34.0,8475.0,8477.0,,,,,verb.contact,132,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+84,0,stamped,13,20,8519,8526,82,0.0,12.0,8506.0,8518.0,,,,,verb.motion,133,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+84,1,glared,43,49,8549,8555,82,0.0,12.0,8506.0,8518.0,,,,,verb.perception,134,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+84,2,cursed,89,95,8595,8601,82,0.0,12.0,8506.0,8518.0,,,,,verb.communication,136,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+85,2,given,51,56,8696,8701,43,27.0,38.0,8672.0,8683.0,,,,,verb.possession,135,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+85,4,approached,87,97,8732,8742,43,4.0,14.0,8649.0,8659.0,109.0,127.0,8754.0,8772.0,verb.motion,137,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+86,0,laughed,21,28,8795,8802,82,8.0,20.0,8782.0,8794.0,,,,,verb.body,138,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+86,1,said,39,43,8813,8817,82,8.0,20.0,8782.0,8794.0,,,,,verb.communication,140,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+86,4,advised,76,83,8850,8857,3,57.0,60.0,8831.0,8834.0,,,,,verb.communication,139,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+86,5,make,87,91,8861,8865,3,57.0,60.0,8831.0,8834.0,,,,,verb.communication,141,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+86,6,laugh,95,100,8869,8874,82,92.0,94.0,8866.0,8868.0,,,,,verb.body,142,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+90,1,go,19,21,9039,9041,3,11.0,14.0,9031.0,9034.0,,,,,verb.motion,144,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+90,3,have,45,49,9065,9069,82,27.0,36.0,9047.0,9056.0,,,,,verb.possession,145,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+91,0,led,18,21,9119,9122,89,5.0,17.0,9106.0,9118.0,,,,,verb.motion,147,subject,two servants,1.0,0.0,1.0,unknown,0.0,tertiary
+92,1,said,54,58,9317,9321,82,23.0,35.0,9286.0,9298.0,,,,,verb.communication,149,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+92,5,learnt,87,93,9350,9356,3,75.0,79.0,9338.0,9342.0,,,,,verb.cognition,151,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+93,1,build,28,33,9386,9391,3,19.0,22.0,9377.0,9380.0,,,,,verb.creation,153,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+95,0,do,7,9,9583,9585,3,3.0,6.0,9579.0,9582.0,,,,,verb.social,154,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+95,2,reward,27,33,9603,9609,82,20.0,21.0,9596.0,9597.0,38.0,44.0,9614.0,9620.0,verb.possession,155,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+96,2,lose,29,33,9650,9654,3,19.0,22.0,9640.0,9643.0,,,,,verb.possession,158,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+98,3,put,46,49,9739,9742,3,23.0,26.0,9716.0,9719.0,62.0,69.0,9755.0,9762.0,verb.contact,156,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+99,0,returned,9,17,9774,9782,3,6.0,8.0,9771.0,9773.0,,,,,verb.motion,159,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+101,0,opened,6,12,9969,9975,3,0.0,5.0,9963.0,9968.0,,,,,verb.contact,163,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+105,0,threatens,12,21,10163,10172,186,0.0,11.0,10151.0,10162.0,,,,,verb.communication,165,subject,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+105,0,threatens,12,21,10163,10172,3,0.0,11.0,10151.0,10162.0,,,,,verb.communication,165,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+106,2,do,40,42,10270,10272,3,5.0,9.0,10235.0,10239.0,,,,,verb.social,168,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+107,3,suppose,45,52,10320,10327,4,43.0,44.0,10318.0,10319.0,,,,,verb.cognition,167,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+107,5,die,66,69,10341,10344,208,53.0,56.0,10328.0,10331.0,,,,,verb.change,166,subject,,,,,,,
+111,1,go,14,16,10547,10549,3,5.0,8.0,10538.0,10541.0,31.0,110.0,10564.0,10643.0,verb.motion,169,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+111,4,look,75,79,10608,10612,3,5.0,8.0,10538.0,10541.0,,,,,verb.perception,171,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+111,6,finished,99,107,10632,10640,3,86.0,89.0,10619.0,10622.0,,,,,verb.change,170,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+113,2,found,69,74,10762,10767,3,27.0,39.0,10720.0,10732.0,,,,,verb.possession,172,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+114,2,believe,81,88,10922,10929,82,0.0,20.0,10841.0,10861.0,,,,,verb.cognition,173,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+115,1,said,49,53,10989,10993,82,1.0,44.0,10941.0,10984.0,,,,,verb.communication,175,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+115,1,said,49,53,10989,10993,43,1.0,44.0,10941.0,10984.0,,,,,verb.communication,175,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+115,1,said,49,53,10989,10993,211,1.0,44.0,10941.0,10984.0,,,,,verb.communication,175,subject,a splendid workman,1.0,0.0,1.0,unknown,0.0,tertiary
+116,0,see,3,6,11012,11015,82,1.0,2.0,11010.0,11011.0,,,,,verb.cognition,174,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+116,3,see,55,58,11064,11067,82,48.0,49.0,11057.0,11058.0,,,,,verb.cognition,177,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+117,0,have,2,6,11118,11122,82,0.0,1.0,11116.0,11117.0,24.0,35.0,11140.0,11151.0,verb.possession,176,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+118,1,place,17,22,11196,11201,82,0.0,9.0,11179.0,11188.0,,,,,verb.contact,178,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+119,1,walk,9,13,11238,11242,43,0.0,3.0,11229.0,11232.0,24.0,35.0,11253.0,11264.0,verb.motion,179,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+119,3,show,65,69,11294,11298,43,56.0,59.0,11285.0,11288.0,,,,,verb.communication,180,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+120,1,guess,13,18,11357,11362,43,3.0,6.0,11347.0,11350.0,,,,,verb.cognition,181,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+120,3,lose,38,42,11382,11386,43,28.0,31.0,11372.0,11375.0,,,,,verb.possession,183,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+121,1,made,18,22,11417,11421,43,11.0,14.0,11410.0,11413.0,,,,,verb.social,182,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+124,0,think,20,25,11628,11633,3,16.0,19.0,11624.0,11627.0,,,,,verb.cognition,185,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+124,1,cried,28,33,11636,11641,3,1.0,25.0,11609.0,11633.0,,,,,verb.communication,186,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+125,1,help,17,21,11696,11700,82,4.0,5.0,11683.0,11684.0,,,,,verb.social,187,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+125,3,guess,39,44,11718,11723,3,27.0,30.0,11706.0,11709.0,,,,,verb.cognition,188,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+126,2,distinguish,70,81,11795,11806,219,44.0,58.0,11769.0,11783.0,85.0,90.0,11810.0,11815.0,verb.cognition,189,subject,our own father,1.0,0.0,1.0,male,1.0,tertiary
+127,1,do,19,21,11837,11839,3,6.0,10.0,11824.0,11828.0,,,,,verb.creation,191,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+130,1,recognise,10,19,11903,11912,3,1.0,4.0,11894.0,11897.0,23.0,66.0,11916.0,11959.0,verb.cognition,193,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+130,3,have,45,49,11938,11942,4,26.0,36.0,11919.0,11929.0,,,,,verb.perception,194,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+130,6,make,104,108,11997,12001,3,72.0,86.0,11965.0,11979.0,,,,,verb.social,195,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+131,0,commanded,32,41,12046,12055,82,13.0,25.0,12027.0,12039.0,,,,,verb.communication,196,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+131,2,led,61,64,12075,12078,3,42.0,54.0,12056.0,12068.0,,,,,verb.motion,199,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+132,1,arranged,23,31,12114,12122,100,0.0,13.0,12091.0,12104.0,,,,,verb.social,198,subject,Prince Milan's daughters,1.0,6.0,7.0,male,1.0,tertiary
+132,1,arranged,23,31,12114,12122,3,0.0,13.0,12091.0,12104.0,,,,,verb.social,198,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+132,2,dressed,67,74,12158,12165,100,0.0,13.0,12091.0,12104.0,,,,,verb.body,197,subject,Prince Milan's daughters,1.0,6.0,7.0,male,1.0,tertiary
+132,2,dressed,67,74,12158,12165,3,0.0,13.0,12091.0,12104.0,,,,,verb.body,197,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+132,3,bent,110,114,12201,12205,100,99.0,109.0,12190.0,12200.0,,,,,verb.motion,200,subject,Prince Milan's daughters,1.0,6.0,7.0,male,1.0,tertiary
+133,0,said,19,23,12240,12244,3,1.0,16.0,12222.0,12237.0,,,,,verb.communication,201,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+133,0,said,19,23,12240,12244,220,1.0,16.0,12222.0,12237.0,,,,,verb.communication,201,subject,Prince Milan's genius,1.0,0.0,1.0,male,1.0,tertiary
+134,0,went,13,17,12361,12365,3,0.0,12.0,12348.0,12360.0,,,,,verb.motion,202,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+134,1,looked,32,38,12380,12386,3,0.0,12.0,12348.0,12360.0,47.0,54.0,12395.0,12402.0,verb.perception,204,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+136,0,passed,20,26,12556,12562,3,17.0,19.0,12553.0,12555.0,,,,,verb.motion,205,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+136,1,saw,41,44,12577,12580,3,32.0,34.0,12568.0,12570.0,,,,,verb.perception,206,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+137,0,perceived,23,32,12612,12621,3,20.0,22.0,12609.0,12611.0,71.0,103.0,12660.0,12692.0,verb.perception,207,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+137,2,causing,71,78,12660,12667,3,20.0,22.0,12609.0,12611.0,,,,,verb.creation,208,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+138,0,seized,16,22,12710,12716,43,5.0,15.0,12699.0,12709.0,,,,,verb.contact,209,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+139,1,said,22,26,12805,12809,43,1.0,19.0,12784.0,12802.0,40.0,52.0,12823.0,12835.0,verb.communication,210,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+140,1,do,41,43,12877,12879,43,17.0,29.0,12853.0,12865.0,,,,,verb.social,212,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+141,5,made,76,80,12957,12961,43,62.0,65.0,12943.0,12946.0,,,,,verb.creation,211,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+143,0,returned,11,19,13074,13082,43,0.0,10.0,13063.0,13073.0,32.0,42.0,13095.0,13105.0,verb.motion,213,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+144,0,came,30,34,13136,13140,222,6.0,29.0,13112.0,13135.0,42.0,59.0,13148.0,13165.0,verb.motion,215,subject,the Princess Hyacinthia,3.0,0.0,3.0,female,1.0,tertiary
+144,1,changed,52,59,13158,13165,222,6.0,29.0,13112.0,13135.0,,,,,verb.change,216,subject,the Princess Hyacinthia,3.0,0.0,3.0,female,1.0,tertiary
+144,2,asked,92,97,13198,13203,222,6.0,29.0,13112.0,13135.0,,,,,verb.communication,219,subject,the Princess Hyacinthia,3.0,0.0,3.0,female,1.0,tertiary
+146,1,set,16,19,13280,13283,186,0.0,11.0,13264.0,13275.0,23.0,32.0,13287.0,13296.0,verb.social,218,subject,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+146,1,set,16,19,13280,13283,43,0.0,11.0,13264.0,13275.0,23.0,32.0,13287.0,13296.0,verb.social,218,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+147,1,lit,29,32,13346,13349,186,7.0,15.0,13324.0,13332.0,,,,,verb.contact,217,subject,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+148,1,know,23,27,13424,13428,105,4.0,8.0,13405.0,13409.0,,,,,verb.cognition,220,subject,a prince,1.0,0.0,1.0,male,1.0,tertiary
+153,0,demands,8,15,13568,13575,186,0.0,4.0,13560.0,13564.0,,,,,verb.communication,221,subject,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+153,5,make,54,58,13614,13618,186,41.0,43.0,13601.0,13603.0,,,,,verb.change,224,subject,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+155,2,marry,33,38,13685,13690,106,23.0,26.0,13675.0,13678.0,,,,,verb.social,225,subject,dearest,1.0,4.0,5.0,unknown,0.0,tertiary
+157,0,breathed,21,29,13840,13848,4,17.0,20.0,13836.0,13839.0,,,,,verb.body,226,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+157,1,froze,60,65,13879,13884,4,49.0,59.0,13868.0,13878.0,,,,,verb.change,228,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+158,0,led,9,12,13907,13910,4,5.0,8.0,13903.0,13906.0,19.0,43.0,13917.0,13941.0,verb.motion,229,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+158,1,shut,45,49,13943,13947,4,5.0,8.0,13903.0,13906.0,,,,,verb.contact,230,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+158,2,threw,64,69,13962,13967,4,5.0,8.0,13903.0,13906.0,,,,,verb.contact,232,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+160,1,grazing,33,40,14144,14151,3,0.0,12.0,14111.0,14123.0,,,,,verb.competition,231,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+161,5,jumped,174,180,14366,14372,4,146.0,173.0,14338.0,14365.0,,,,,verb.motion,234,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+161,5,jumped,174,180,14366,14372,3,146.0,173.0,14338.0,14365.0,,,,,verb.motion,234,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+164,1,sent,25,29,14527,14531,82,22.0,24.0,14524.0,14526.0,,,,,verb.communication,236,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+164,2,fetch,46,51,14548,14553,82,30.0,42.0,14532.0,14544.0,57.0,83.0,14559.0,14585.0,verb.contact,237,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+164,2,fetch,46,51,14548,14553,12,30.0,42.0,14532.0,14544.0,57.0,83.0,14559.0,14585.0,verb.contact,237,subject,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+165,0,came,13,17,14605,14609,238,0.0,12.0,14592.0,14604.0,,,,,verb.motion,238,subject,The servants,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+165,1,finding,35,42,14627,14634,238,0.0,12.0,14592.0,14604.0,,,,,verb.perception,239,subject,The servants,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+165,3,knocked,59,66,14651,14658,238,54.0,58.0,14646.0,14650.0,,,,,verb.contact,240,subject,The servants,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+167,0,returned,22,30,14775,14783,238,17.0,21.0,14770.0,14774.0,,,,,verb.motion,241,subject,The servants,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+168,1,appear,34,40,14835,14841,43,9.0,19.0,14810.0,14820.0,,,,,verb.change,242,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+168,2,sent,58,62,14859,14863,82,55.0,57.0,14856.0,14858.0,90.0,102.0,14891.0,14903.0,verb.motion,243,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+168,3,bring,93,98,14894,14899,82,63.0,75.0,14864.0,14876.0,,,,,verb.motion,245,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+168,3,bring,93,98,14894,14899,12,63.0,75.0,14864.0,14876.0,,,,,verb.motion,245,subject,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+169,0,gave,25,29,14930,14934,242,0.0,17.0,14905.0,14922.0,,,,,verb.communication,244,subject,The frozen breath,1.0,0.0,1.0,unknown,0.0,tertiary
+169,1,came,68,72,14973,14977,43,51.0,61.0,14956.0,14966.0,,,,,verb.motion,246,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+170,0,lost,21,25,15000,15004,82,8.0,20.0,14987.0,14999.0,,,,,verb.possession,247,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+170,1,commanded,44,53,15023,15032,82,8.0,20.0,14987.0,14999.0,,,,,verb.communication,248,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+171,1,found,35,40,15095,15100,238,30.0,34.0,15090.0,15094.0,,,,,verb.cognition,249,subject,The servants,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+172,0,ordered,40,47,15194,15201,82,27.0,39.0,15181.0,15193.0,,,,,verb.communication,250,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+172,2,pursued,65,72,15219,15226,43,48.0,58.0,15202.0,15212.0,,,,,verb.competition,251,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+175,1,put,30,33,15348,15351,3,0.0,5.0,15318.0,15323.0,,,,,verb.contact,253,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+175,2,listened,60,68,15378,15386,3,0.0,5.0,15318.0,15323.0,,,,,verb.perception,254,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+176,0,answered,10,18,15398,15406,3,7.0,9.0,15395.0,15397.0,,,,,verb.communication,255,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+177,4,turned,66,72,15519,15525,4,50.0,53.0,15503.0,15506.0,95.0,101.0,15548.0,15554.0,verb.motion,257,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+179,1,came,70,74,15743,15747,115,65.0,69.0,15738.0,15742.0,,,,,verb.motion,258,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+179,2,stood,95,100,15768,15773,115,90.0,94.0,15763.0,15767.0,,,,,verb.contact,259,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+179,3,knowing,106,113,15779,15786,115,90.0,94.0,15763.0,15767.0,134.0,151.0,15807.0,15824.0,verb.cognition,260,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+179,7,choose,209,215,15882,15888,115,201.0,205.0,15874.0,15878.0,,,,,verb.cognition,261,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+180,1,returned,27,35,15922,15930,115,22.0,26.0,15917.0,15921.0,,,,,verb.motion,262,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+180,2,tell,39,43,15934,15938,115,22.0,26.0,15917.0,15921.0,,,,,verb.communication,263,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+181,0,flew,3,7,15974,15978,82,0.0,2.0,15971.0,15973.0,,,,,verb.motion,264,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+181,1,saw,37,40,16008,16011,82,34.0,36.0,16005.0,16007.0,,,,,verb.perception,265,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+185,0,hear,3,7,16190,16194,115,1.0,2.0,16188.0,16189.0,,,,,verb.perception,266,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+185,1,sighed,24,30,16211,16217,115,1.0,21.0,16188.0,16208.0,,,,,verb.communication,268,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+186,0,dismounted,11,21,16241,16251,43,0.0,10.0,16230.0,16240.0,,,,,verb.motion,269,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+186,1,put,26,29,16256,16259,43,0.0,10.0,16230.0,16240.0,,,,,verb.contact,271,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+187,1,hurrying,10,18,16293,16301,115,1.0,5.0,16284.0,16288.0,,,,,verb.motion,270,subject,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+188,1,changed,40,47,16381,16388,4,12.0,35.0,16353.0,16376.0,,,,,verb.motion,272,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+189,0,entered,15,22,16512,16519,258,0.0,14.0,16497.0,16511.0,,,,,verb.motion,273,subject,Their pursuers,1.0,0.0,1.0,unknown,0.0,tertiary
+189,1,searched,39,47,16536,16544,258,0.0,14.0,16497.0,16511.0,,,,,verb.perception,274,subject,Their pursuers,1.0,0.0,1.0,unknown,0.0,tertiary
+191,2,shouted,45,52,16778,16785,82,1.0,39.0,16734.0,16772.0,,,,,verb.communication,278,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+191,2,shouted,45,52,16778,16785,120,1.0,39.0,16734.0,16772.0,,,,,verb.communication,278,subject,the wretches,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+193,1,escape,13,19,16823,16829,120,1.0,9.0,16811.0,16819.0,,,,,verb.motion,277,subject,the wretches,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+194,0,murmured,35,43,16870,16878,263,5.0,34.0,16840.0,16869.0,,,,,verb.communication,276,subject,the beautiful Hyacinthia,1.0,0.0,1.0,unknown,0.0,tertiary
+195,0,answered,15,23,16930,16938,43,4.0,14.0,16919.0,16929.0,,,,,verb.communication,280,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+195,2,pursuing,35,43,16950,16958,120,26.0,30.0,16941.0,16945.0,47.0,52.0,16962.0,16967.0,verb.motion,279,subject,the wretches,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+197,1,ceases,45,51,17084,17090,193,35.0,44.0,17074.0,17083.0,,,,,verb.emotion,282,subject,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+198,1,chase,8,13,17099,17104,193,1.0,3.0,17092.0,17094.0,17.0,27.0,17108.0,17118.0,verb.motion,283,subject,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+200,0,loosened,13,21,17154,17162,3,0.0,12.0,17141.0,17153.0,,,,,verb.contact,286,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+200,3,given,73,78,17214,17219,122,36.0,57.0,17177.0,17198.0,,,,,verb.possession,285,subject,Prince Milan's mother,1.0,2.0,3.0,female,0.6,tertiary
+200,3,given,73,78,17214,17219,3,36.0,57.0,17177.0,17198.0,,,,,verb.possession,285,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+200,4,grasped,110,117,17251,17258,4,99.0,109.0,17240.0,17250.0,,,,,verb.contact,287,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+200,6,changed,130,137,17271,17278,122,122.0,125.0,17263.0,17266.0,,,,,verb.change,289,subject,Prince Milan's mother,1.0,2.0,3.0,female,0.6,tertiary
+202,1,see,9,12,17429,17432,129,5.0,8.0,17425.0,17428.0,,,,,verb.perception,288,subject,the monk,1.0,1.0,2.0,unknown,0.0,tertiary
+203,0,asked,3,8,17483,17488,124,0.0,2.0,17480.0,17482.0,,,,,verb.communication,290,subject,a monk,1.0,2.0,3.0,male,1.0,tertiary
+205,3,light,80,85,17647,17652,124,72.0,79.0,17639.0,17646.0,102.0,109.0,17669.0,17676.0,verb.change,292,subject,a monk,1.0,2.0,3.0,male,1.0,tertiary
+206,2,wring,13,18,17717,17722,82,1.0,2.0,17705.0,17706.0,,,,,verb.contact,294,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+206,3,said,33,37,17737,17741,82,1.0,30.0,17705.0,17734.0,,,,,verb.communication,295,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+206,4,made,56,60,17760,17764,82,1.0,2.0,17705.0,17706.0,71.0,155.0,17775.0,17859.0,verb.social,297,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+206,6,beaten,116,122,17820,17826,82,103.0,115.0,17807.0,17819.0,,,,,verb.social,296,subject,the Magician,18.0,39.0,57.0,male,1.0,secondary
+206,6,beaten,116,122,17820,17826,12,103.0,115.0,17807.0,17819.0,,,,,verb.social,296,subject,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+207,1,fearing,51,58,17912,17919,3,0.0,12.0,17861.0,17873.0,,,,,verb.emotion,298,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+209,1,seized,26,32,18054,18060,3,0.0,12.0,18028.0,18040.0,,,,,verb.cognition,299,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+211,1,fear,25,29,18182,18186,4,5.0,6.0,18162.0,18163.0,,,,,verb.emotion,301,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+216,2,wish,22,26,18487,18491,3,18.0,21.0,18483.0,18486.0,,,,,verb.emotion,305,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+217,2,await,15,20,18508,18513,4,8.0,9.0,18501.0,18502.0,,,,,verb.motion,307,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+217,4,change,48,54,18541,18547,4,35.0,36.0,18528.0,18529.0,,,,,verb.change,306,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+218,0,pray,8,12,18586,18590,4,6.0,7.0,18584.0,18585.0,,,,,verb.communication,308,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+219,2,meet,48,52,18660,18664,275,0.0,30.0,18612.0,18642.0,,,,,verb.motion,309,subject,Queen of the town,1.0,1.0,2.0,female,1.0,tertiary
+219,2,meet,48,52,18660,18664,7,0.0,30.0,18612.0,18642.0,,,,,verb.motion,309,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+219,3,leading,58,65,18670,18677,275,0.0,30.0,18612.0,18642.0,81.0,90.0,18693.0,18702.0,verb.motion,310,subject,Queen of the town,1.0,1.0,2.0,female,1.0,tertiary
+219,3,leading,58,65,18670,18677,7,0.0,30.0,18612.0,18642.0,81.0,90.0,18693.0,18702.0,verb.motion,310,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+220,4,forget,51,57,18755,18761,3,42.0,45.0,18746.0,18749.0,,,,,verb.cognition,314,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+222,0,hurried,11,18,18851,18858,43,0.0,10.0,18840.0,18850.0,,,,,verb.motion,313,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+222,1,remained,47,55,18887,18895,4,36.0,46.0,18876.0,18886.0,,,,,verb.change,312,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+223,2,return,96,102,19043,19049,3,75.0,87.0,19022.0,19034.0,,,,,verb.motion,315,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+224,1,meet,31,35,19124,19128,144,0.0,18.0,19093.0,19111.0,43.0,146.0,19136.0,19239.0,verb.social,316,subject,Queen,2.0,0.0,2.0,female,1.0,tertiary
+224,1,meet,31,35,19124,19128,7,0.0,18.0,19093.0,19111.0,43.0,146.0,19136.0,19239.0,verb.social,316,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+224,3,said,51,55,19144,19148,4,43.0,46.0,19136.0,19139.0,,,,,verb.communication,317,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+224,4,leading,57,64,19150,19157,144,0.0,18.0,19093.0,19111.0,,,,,verb.motion,318,subject,Queen,2.0,0.0,2.0,female,1.0,tertiary
+224,4,leading,57,64,19150,19157,7,0.0,18.0,19093.0,19111.0,,,,,verb.motion,318,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+225,0,caressed,18,26,19259,19267,39,0.0,9.0,19241.0,19250.0,,,,,verb.contact,319,subject,The child,3.0,1.0,4.0,unknown,0.0,tertiary
+225,3,kissed,86,92,19327,19333,39,0.0,37.0,19241.0,19278.0,96.0,108.0,19337.0,19349.0,verb.contact,320,subject,The child,3.0,1.0,4.0,unknown,0.0,tertiary
+226,1,forgot,51,57,19402,19408,3,48.0,50.0,19399.0,19401.0,,,,,verb.cognition,321,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+227,1,return,24,30,19469,19475,43,5.0,15.0,19450.0,19460.0,,,,,verb.motion,323,subject,The Prince,23.0,48.0,71.0,male,1.0,secondary
+227,2,wept,48,52,19493,19497,4,32.0,47.0,19477.0,19492.0,,,,,verb.body,322,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+227,3,changing,66,74,19511,19519,4,32.0,47.0,19477.0,19492.0,,,,,verb.change,324,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+227,4,said,137,141,19582,19586,4,133.0,136.0,19578.0,19581.0,,,,,verb.communication,326,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+227,6,grow,151,155,19596,19600,4,144.0,145.0,19589.0,19590.0,,,,,verb.change,325,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+228,0,remained,21,29,19687,19695,4,4.0,20.0,19670.0,19686.0,,,,,verb.change,327,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+230,0,pulled,3,9,19871,19877,150,0.0,2.0,19868.0,19870.0,16.0,38.0,19884.0,19906.0,verb.contact,330,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+230,1,carried,43,50,19911,19918,150,0.0,2.0,19868.0,19870.0,54.0,58.0,19922.0,19926.0,verb.contact,331,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+231,0,planted,8,15,19936,19943,150,5.0,7.0,19933.0,19935.0,19.0,40.0,19947.0,19968.0,verb.contact,332,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+231,1,watered,33,40,19961,19968,150,5.0,7.0,19933.0,19935.0,,,,,verb.contact,333,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+231,2,tended,45,51,19973,19979,150,5.0,7.0,19933.0,19935.0,69.0,78.0,19997.0,20006.0,verb.contact,334,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+232,2,changed,106,113,20114,20121,52,68.0,101.0,20076.0,20109.0,,,,,verb.change,336,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+233,0,awoke,8,13,20131,20136,150,5.0,7.0,20128.0,20130.0,,,,,verb.body,335,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+233,1,found,39,44,20162,20167,150,29.0,31.0,20152.0,20154.0,,,,,verb.perception,337,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+233,3,put,65,68,20188,20191,150,29.0,31.0,20152.0,20154.0,,,,,verb.contact,338,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+234,1,found,32,37,20301,20306,150,29.0,31.0,20298.0,20300.0,,,,,verb.possession,339,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+234,5,enjoy,114,119,20383,20388,150,86.0,88.0,20355.0,20357.0,128.0,150.0,20397.0,20419.0,verb.emotion,340,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+235,2,know,39,43,20460,20464,150,29.0,31.0,20450.0,20452.0,,,,,verb.cognition,341,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+235,3,think,52,57,20473,20478,150,29.0,31.0,20450.0,20452.0,,,,,verb.cognition,342,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+235,4,grew,79,83,20500,20504,150,76.0,78.0,20497.0,20499.0,,,,,verb.change,343,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+235,6,ask,136,139,20557,20560,150,76.0,78.0,20497.0,20499.0,,,,,verb.communication,344,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+236,0,said,10,14,20583,20587,157,0.0,9.0,20573.0,20582.0,,,,,verb.communication,346,subject,The witch,1.0,0.0,1.0,unknown,0.0,tertiary
+236,4,see,76,79,20649,20652,150,72.0,75.0,20645.0,20648.0,,,,,verb.perception,345,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+236,7,see,150,153,20723,20726,150,143.0,146.0,20716.0,20719.0,,,,,verb.creation,348,subject,an old man,1.0,16.0,17.0,male,1.0,tertiary
+237,0,closed,28,34,20774,20780,52,10.0,21.0,20756.0,20767.0,,,,,verb.contact,347,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+238,1,noticed,49,56,20838,20845,52,46.0,48.0,20835.0,20837.0,,,,,verb.perception,349,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+239,0,sprang,27,33,21043,21049,52,15.0,26.0,21031.0,21042.0,,,,,verb.motion,350,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+239,1,covered,52,59,21068,21075,52,15.0,26.0,21031.0,21042.0,,,,,verb.contact,352,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+239,3,given,104,109,21120,21125,162,76.0,85.0,21092.0,21101.0,,,,,verb.possession,351,subject,the old witch,1.0,0.0,1.0,unknown,0.0,tertiary
+239,4,stood,165,170,21181,21186,163,131.0,164.0,21147.0,21180.0,,,,,verb.contact,353,subject,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+240,1,done,15,19,21214,21218,52,1.0,5.0,21200.0,21204.0,,,,,verb.social,354,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+241,0,cried,4,9,21225,21230,163,0.0,3.0,21221.0,21224.0,,,,,verb.communication,358,subject,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+242,1,called,14,20,21246,21252,52,10.0,13.0,21242.0,21245.0,,,,,verb.communication,357,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+243,0,have,6,10,21276,21280,163,4.0,5.0,21274.0,21275.0,,,,,verb.possession,356,subject,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+243,3,deserted,82,90,21352,21360,282,35.0,76.0,21305.0,21346.0,,,,,verb.cognition,355,subject,the beautiful Princess Hyacinthia's bridegroom,1.0,0.0,1.0,female,1.0,tertiary
+243,3,deserted,82,90,21352,21360,283,35.0,76.0,21305.0,21346.0,,,,,verb.cognition,355,subject,the beautiful Prince Milan,1.0,0.0,1.0,male,1.0,tertiary
+243,3,deserted,82,90,21352,21360,163,35.0,76.0,21305.0,21346.0,,,,,verb.cognition,355,subject,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+243,3,deserted,82,90,21352,21360,3,35.0,76.0,21305.0,21346.0,,,,,verb.cognition,355,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+244,3,married,34,41,21400,21407,3,0.0,13.0,21366.0,21379.0,,,,,verb.social,361,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+244,4,replied,44,51,21410,21417,3,1.0,41.0,21367.0,21407.0,,,,,verb.communication,360,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+245,5,flocking,77,85,21508,21516,284,50.0,72.0,21481.0,21503.0,100.0,114.0,21531.0,21545.0,verb.motion,359,subject,all the invited guests,1.0,0.0,1.0,unknown,0.0,tertiary
+246,0,cried,25,30,21573,21578,4,0.0,24.0,21548.0,21572.0,,,,,verb.communication,362,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+246,1,heard,49,54,21597,21602,4,45.0,48.0,21593.0,21596.0,,,,,verb.perception,363,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+247,0,dried,10,15,21618,21623,4,6.0,9.0,21614.0,21617.0,,,,,verb.body,364,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+248,0,went,4,8,21690,21694,4,0.0,3.0,21686.0,21689.0,,,,,verb.motion,367,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+248,3,running,76,83,21762,21769,169,47.0,70.0,21733.0,21756.0,,,,,verb.motion,366,subject,the white - aproned cooks,1.0,0.0,1.0,unknown,0.0,tertiary
+249,0,went,13,17,21809,21813,170,0.0,12.0,21796.0,21808.0,,,,,verb.motion,368,subject,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+249,1,said,43,47,21839,21843,170,0.0,12.0,21796.0,21808.0,,,,,verb.communication,369,subject,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+249,4,make,101,105,21897,21901,170,98.0,100.0,21894.0,21896.0,,,,,verb.creation,371,subject,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+250,2,refuse,32,38,21968,21974,172,0.0,13.0,21936.0,21949.0,,,,,verb.possession,373,subject,The busy cook,1.0,5.0,6.0,male,1.0,tertiary
+250,3,order,54,59,21990,21995,172,0.0,13.0,21936.0,21949.0,64.0,82.0,22000.0,22018.0,verb.communication,375,subject,The busy cook,1.0,5.0,6.0,male,1.0,tertiary
+250,5,turned,123,129,22059,22065,172,120.0,122.0,22056.0,22058.0,,,,,verb.motion,374,subject,The busy cook,1.0,5.0,6.0,male,1.0,tertiary
+250,6,beheld,134,140,22070,22076,172,120.0,122.0,22056.0,22058.0,,,,,verb.communication,376,subject,The busy cook,1.0,5.0,6.0,male,1.0,tertiary
+250,7,answered,174,182,22110,22118,172,171.0,173.0,22107.0,22109.0,,,,,verb.communication,378,subject,The busy cook,1.0,5.0,6.0,male,1.0,tertiary
+250,9,come,208,212,22144,22148,170,194.0,197.0,22130.0,22133.0,,,,,verb.motion,377,subject,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+251,2,lay,34,37,22217,22220,172,5.0,14.0,22188.0,22197.0,,,,,verb.contact,381,subject,The busy cook,1.0,5.0,6.0,male,1.0,tertiary
+251,2,lay,34,37,22217,22220,170,5.0,14.0,22188.0,22197.0,,,,,verb.contact,381,subject,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+253,2,thronging,32,41,22302,22311,174,0.0,18.0,22270.0,22288.0,59.0,178.0,22329.0,22448.0,verb.motion,380,subject,The invited guests,1.0,0.0,1.0,unknown,0.0,tertiary
+253,3,entered,78,85,22348,22355,171,64.0,77.0,22334.0,22347.0,96.0,145.0,22366.0,22415.0,verb.motion,382,subject,the head cook,2.0,0.0,2.0,unknown,0.0,tertiary
+253,4,bearing,96,103,22366,22373,171,64.0,77.0,22334.0,22347.0,,,,,verb.contact,383,subject,the head cook,2.0,0.0,2.0,unknown,0.0,tertiary
+253,5,laid,151,155,22421,22425,171,64.0,77.0,22334.0,22347.0,,,,,verb.contact,384,subject,the head cook,2.0,0.0,2.0,unknown,0.0,tertiary
+254,1,lost,20,24,22470,22474,177,0.0,10.0,22450.0,22460.0,,,,,verb.emotion,385,subject,The guests,1.0,0.0,1.0,unknown,0.0,tertiary
+255,0,proceeded,21,30,22549,22558,3,0.0,12.0,22528.0,22540.0,47.0,51.0,22575.0,22579.0,verb.social,386,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+255,1,cut,34,37,22562,22565,3,0.0,12.0,22528.0,22540.0,41.0,45.0,22569.0,22573.0,verb.contact,387,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+255,8,forgot,212,218,22740,22746,3,199.0,211.0,22727.0,22739.0,,,,,verb.cognition,388,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+256,0,sighed,6,12,22778,22784,3,0.0,5.0,22772.0,22777.0,,,,,verb.body,390,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+256,1,heard,28,33,22800,22805,3,25.0,27.0,22797.0,22799.0,,,,,verb.perception,391,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+257,1,ran,46,49,22879,22882,3,5.0,7.0,22838.0,22840.0,,,,,verb.motion,392,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+257,2,found,72,77,22905,22910,3,69.0,71.0,22902.0,22904.0,,,,,verb.possession,394,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+259,1,mounted,51,58,23059,23066,4,30.0,50.0,23038.0,23058.0,76.0,129.0,23084.0,23137.0,verb.contact,395,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+259,1,mounted,51,58,23059,23066,3,30.0,50.0,23038.0,23058.0,76.0,129.0,23084.0,23137.0,verb.contact,395,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+259,2,galloped,67,75,23075,23083,4,30.0,50.0,23038.0,23058.0,,,,,verb.motion,396,subject,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+259,2,galloped,67,75,23075,23083,3,30.0,50.0,23038.0,23058.0,,,,,verb.motion,396,subject,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+260,0,received,19,27,23158,23166,144,0.0,18.0,23139.0,23157.0,33.0,93.0,23172.0,23232.0,verb.possession,397,subject,Queen,2.0,0.0,2.0,female,1.0,tertiary
+260,0,received,19,27,23158,23166,7,0.0,18.0,23139.0,23157.0,33.0,93.0,23172.0,23232.0,verb.possession,397,subject,the King,18.0,49.0,67.0,male,1.0,secondary
+0,1,called,34,40,34,40,1,41.0,47.0,41.0,47.0,,,,,verb.communication,0,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+1,3,granted,95,102,201,208,1,103.0,106.0,209.0,212.0,,,,,verb.possession,1,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+1,3,granted,95,102,201,208,7,103.0,106.0,209.0,212.0,,,,,verb.possession,1,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+1,4,grieved,122,129,228,235,7,130.0,138.0,236.0,244.0,139.0,146.0,245.0,252.0,verb.emotion,2,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+4,2,commanded,38,47,538,547,1,48.0,60.0,548.0,560.0,,,,,verb.communication,4,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+4,2,commanded,38,47,538,547,12,48.0,60.0,548.0,560.0,,,,,verb.communication,4,direct_object,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+5,0,seized,28,34,664,670,7,35.0,43.0,671.0,679.0,,,,,verb.contact,6,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+5,2,mounted,77,84,713,720,7,85.0,94.0,721.0,730.0,,,,,verb.motion,8,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+7,4,eluded,156,162,1076,1082,1,163.0,174.0,1083.0,1094.0,,,,,verb.communication,14,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+8,6,mock,199,203,1331,1335,7,204.0,212.0,1336.0,1344.0,,,,,verb.communication,17,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+10,0,said,0,4,1363,1367,1,5.0,16.0,1368.0,1379.0,,,,,verb.communication,19,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+11,1,quench,7,13,1388,1394,1,14.0,23.0,1395.0,1404.0,24.0,35.0,1405.0,1416.0,verb.change,18,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+11,4,plunged,107,114,1488,1495,1,115.0,138.0,1496.0,1519.0,140.0,169.0,1521.0,1550.0,verb.contact,20,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,1,satisfied,16,25,1568,1577,1,26.0,36.0,1578.0,1588.0,,,,,verb.consumption,21,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,2,wished,42,48,1594,1600,1,49.0,68.0,1601.0,1620.0,,,,,verb.emotion,22,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,3,raise,52,57,1604,1609,1,58.0,65.0,1610.0,1617.0,,,,,verb.motion,23,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,5,lift,82,86,1634,1638,1,87.0,95.0,1639.0,1647.0,97.0,145.0,1649.0,1697.0,verb.body,25,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+12,6,held,113,117,1665,1669,1,118.0,127.0,1670.0,1679.0,128.0,145.0,1680.0,1697.0,verb.contact,24,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+14,0,let,0,3,1713,1716,1,4.0,9.0,1717.0,1722.0,,,,,verb.social,26,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+15,0,cried,0,5,1725,1730,1,6.0,17.0,1731.0,1742.0,,,,,verb.communication,29,direct_object,poor Kojata,7.0,31.0,38.0,male,1.0,tertiary
+19,1,let,13,16,2133,2136,7,17.0,131.0,2137.0,2251.0,,,,,verb.social,30,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+19,3,give,46,50,2166,2170,7,51.0,53.0,2171.0,2173.0,,,,,verb.possession,33,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+20,2,ponder,25,31,2279,2285,7,32.0,36.0,2286.0,2290.0,,,,,verb.cognition,34,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+20,3,thought,50,57,2304,2311,7,58.0,60.0,2312.0,2314.0,,,,,verb.cognition,37,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+21,0,answered,8,16,2396,2404,24,27.0,64.0,2415.0,2452.0,,,,,verb.communication,38,direct_object,The voice,1.0,2.0,3.0,unknown,0.0,tertiary
+21,1,promise,34,41,2422,2429,24,42.0,64.0,2430.0,2452.0,,,,,verb.communication,39,direct_object,The voice,1.0,2.0,3.0,unknown,0.0,tertiary
+23,1,go,13,15,2498,2500,7,16.0,28.0,2501.0,2513.0,29.0,61.0,2514.0,2546.0,verb.change,43,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+23,2,fail,36,40,2521,2525,7,41.0,61.0,2526.0,2546.0,,,,,verb.social,42,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+23,3,keep,44,48,2529,2533,7,49.0,61.0,2534.0,2546.0,,,,,verb.possession,44,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+25,0,drew,9,13,2633,2637,7,14.0,22.0,2638.0,2646.0,,,,,verb.contact,45,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+25,1,shook,45,50,2669,2674,7,51.0,58.0,2675.0,2682.0,59.0,69.0,2683.0,2693.0,verb.motion,46,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+26,0,mounted,9,16,2703,2710,7,17.0,26.0,2711.0,2720.0,,,,,verb.motion,47,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+27,2,meet,61,65,2827,2831,27,66.0,70.0,2832.0,2836.0,71.0,101.0,2837.0,2867.0,verb.social,50,direct_object,the King's retinue,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+27,3,reached,121,128,2887,2894,7,129.0,139.0,2895.0,2905.0,,,,,verb.motion,51,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+27,4,met,150,153,2916,2919,7,154.0,157.0,2920.0,2923.0,158.0,174.0,2924.0,2940.0,verb.contact,52,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+28,0,stood,12,17,2953,2958,33,18.0,36.0,2959.0,2977.0,38.0,129.0,2979.0,3070.0,verb.contact,53,direct_object,the Prime Minister,1.0,1.0,2.0,male,1.0,tertiary
+28,1,holding,38,45,2979,2986,33,46.0,61.0,2987.0,3002.0,,,,,verb.contact,54,direct_object,the Prime Minister,1.0,1.0,2.0,male,1.0,tertiary
+29,0,dawned,21,27,3093,3099,7,28.0,39.0,3100.0,3111.0,,,,,verb.change,55,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+29,1,groaning,45,53,3117,3125,7,54.0,83.0,3126.0,3155.0,,,,,verb.body,56,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+29,2,muttered,64,72,3136,3144,7,73.0,83.0,3145.0,3155.0,,,,,verb.communication,58,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+30,2,dared,82,87,3316,3321,7,88.0,114.0,3322.0,3348.0,,,,,verb.social,59,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+30,3,ask,91,94,3325,3328,7,95.0,98.0,3329.0,3332.0,,,,,verb.communication,60,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+31,0,took,3,7,3353,3357,39,8.0,17.0,3358.0,3367.0,18.0,29.0,3368.0,3379.0,verb.contact,61,direct_object,The child,3.0,1.0,4.0,unknown,0.0,tertiary
+31,1,kissed,34,40,3384,3390,39,41.0,43.0,3391.0,3393.0,44.0,52.0,3394.0,3402.0,verb.contact,62,direct_object,The child,3.0,1.0,4.0,unknown,0.0,tertiary
+32,0,laying,6,12,3409,3415,7,13.0,15.0,3416.0,3418.0,,,,,verb.contact,63,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+32,1,determined,34,44,3437,3447,7,45.0,67.0,3448.0,3470.0,,,,,verb.cognition,64,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+32,2,control,48,55,3451,3458,7,56.0,67.0,3459.0,3470.0,,,,,verb.social,65,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+34,2,taken,46,51,3658,3663,7,52.0,60.0,3664.0,3672.0,,,,,verb.possession,70,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+37,2,lost,81,85,4009,4013,47,86.0,104.0,4014.0,4032.0,,,,,verb.possession,73,direct_object,the other huntsmen,1.0,0.0,1.0,unknown,0.0,tertiary
+37,3,found,110,115,4038,4043,43,116.0,123.0,4044.0,4051.0,124.0,164.0,4052.0,4092.0,verb.perception,74,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+38,0,grew,10,14,4104,4108,43,15.0,155.0,4109.0,4249.0,,,,,verb.change,75,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+43,2,pay,38,41,4603,4606,50,42.0,44.0,4607.0,4609.0,,,,,verb.communication,79,direct_object,an extraordinary old man with green eyes and chin,1.0,7.0,8.0,male,1.0,tertiary
+45,0,demanded,0,8,4658,4666,51,9.0,30.0,4667.0,4688.0,,,,,verb.communication,81,direct_object,the astonished Prince,1.0,2.0,3.0,male,1.0,tertiary
+46,3,bid,58,61,4748,4751,50,62.0,65.0,4752.0,4755.0,,,,,verb.communication,80,direct_object,an extraordinary old man with green eyes and chin,1.0,7.0,8.0,male,1.0,tertiary
+47,0,greet,0,5,4757,4762,186,6.0,29.0,4763.0,4786.0,30.0,37.0,,,verb.communication,82,direct_object,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+47,0,greet,0,5,4757,4762,50,6.0,29.0,4763.0,4786.0,30.0,37.0,,,verb.communication,82,direct_object,an extraordinary old man with green eyes and chin,1.0,7.0,8.0,male,1.0,tertiary
+47,0,greet,0,5,4757,4762,187,6.0,29.0,4763.0,4786.0,30.0,37.0,,,verb.communication,82,direct_object,King Kojata,1.0,0.0,1.0,male,1.0,tertiary
+47,2,forget,49,55,4806,4812,186,56.0,81.0,4813.0,4838.0,,,,,verb.cognition,83,direct_object,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+47,3,remind,59,65,4816,4822,186,66.0,69.0,4823.0,4826.0,,,,,verb.cognition,84,direct_object,an extraordinary old man with green eyes and chin's father,3.0,6.0,9.0,male,1.0,tertiary
+51,2,told,106,110,5069,5073,43,111.0,121.0,5074.0,5084.0,,,,,verb.communication,90,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+51,2,told,106,110,5069,5073,55,111.0,121.0,5074.0,5084.0,,,,,verb.communication,90,direct_object,The Prince's father,1.0,2.0,3.0,male,1.0,tertiary
+52,1,heard,42,47,5159,5164,43,48.0,66.0,5165.0,5183.0,,,,,verb.perception,92,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+52,2,said,72,76,5189,5193,7,79.0,96.0,5196.0,5213.0,,,,,verb.communication,93,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+52,2,said,72,76,5189,5193,189,79.0,96.0,5196.0,5213.0,,,,,verb.communication,93,direct_object,the King's son,1.0,0.0,1.0,unknown,0.0,tertiary
+53,4,told,64,68,5279,5283,43,69.0,79.0,5284.0,5294.0,,,,,verb.communication,94,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+54,2,distress,16,24,5355,5363,55,25.0,33.0,5364.0,5372.0,,,,,verb.emotion,95,direct_object,The Prince's father,1.0,2.0,3.0,male,1.0,tertiary
+54,3,answered,49,57,5388,5396,3,58.0,70.0,5397.0,5409.0,,,,,verb.communication,96,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+56,0,give,5,9,5455,5459,7,10.0,12.0,5460.0,5462.0,21.0,35.0,,,verb.possession,97,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+56,1,wager,43,48,5493,5498,55,49.0,78.0,5499.0,5528.0,,,,,verb.communication,98,direct_object,The Prince's father,1.0,2.0,3.0,male,1.0,tertiary
+56,1,wager,43,48,5493,5498,7,49.0,78.0,5499.0,5528.0,,,,,verb.communication,98,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+56,3,see,61,64,5511,5514,7,65.0,78.0,5515.0,5528.0,,,,,verb.motion,100,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+57,0,gave,9,13,5540,5544,43,14.0,17.0,5545.0,5548.0,,,,,verb.possession,99,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+58,0,hung,10,14,5615,5619,43,15.0,44.0,5620.0,5649.0,,,,,verb.contact,101,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+61,2,dismounting,97,108,6140,6151,3,109.0,123.0,6152.0,6166.0,,,,,verb.motion,106,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+67,3,see,120,123,6964,6967,3,124.0,150.0,6968.0,6994.0,,,,,verb.cognition,108,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+68,0,perceived,20,29,7016,7025,3,30.0,33.0,7026.0,7029.0,,,,,verb.perception,109,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+68,2,give,109,113,7105,7109,43,114.0,116.0,7110.0,7112.0,,,,,verb.possession,111,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+70,0,stood,50,55,7307,7312,43,56.0,66.0,7313.0,7323.0,,,,,verb.contact,113,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+70,2,describe,114,122,7371,7379,77,123.0,126.0,7380.0,7383.0,,,,,verb.communication,114,direct_object,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+71,0,gave,4,8,7389,7393,43,9.0,19.0,7394.0,7404.0,,,,,verb.possession,115,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+71,0,gave,4,8,7389,7393,77,9.0,19.0,7394.0,7404.0,,,,,verb.possession,115,direct_object,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+74,0,has,10,13,7549,7552,194,14.0,36.0,7553.0,7575.0,,,,,verb.possession,116,direct_object,thirty young daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+75,2,expecting,12,21,7666,7675,43,22.0,25.0,7676.0,7679.0,26.0,34.0,7680.0,7688.0,verb.cognition,118,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+75,6,follow,79,85,7733,7739,77,86.0,95.0,7740.0,7749.0,,,,,verb.social,120,direct_object,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+76,0,come,15,19,7766,7770,193,20.0,50.0,7771.0,7801.0,,,,,verb.motion,121,direct_object,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+76,0,come,15,19,7766,7770,77,20.0,50.0,7771.0,7801.0,,,,,verb.motion,121,direct_object,a beautiful girl in a white robe,1.0,9.0,10.0,female,1.0,tertiary
+76,1,throw,52,57,7803,7808,43,58.0,66.0,7809.0,7817.0,67.0,74.0,,,verb.contact,122,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+76,2,approach,93,101,7844,7852,193,102.0,105.0,7853.0,7856.0,106.0,119.0,,,verb.motion,123,direct_object,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+77,1,mind,6,10,7878,7882,193,11.0,69.0,7883.0,7941.0,,,,,verb.communication,127,direct_object,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+81,0,sat,13,16,8325,8328,82,17.0,59.0,8329.0,8371.0,,,,,verb.contact,128,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+83,1,flung,35,40,8478,8483,82,41.0,48.0,8484.0,8491.0,,,,,verb.contact,132,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+84,0,stamped,13,20,8519,8526,82,28.0,41.0,8534.0,8547.0,,,,,verb.motion,133,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+86,1,said,39,43,8813,8817,82,46.0,100.0,8820.0,8874.0,,,,,verb.communication,140,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+86,1,said,39,43,8813,8817,3,46.0,100.0,8820.0,8874.0,,,,,verb.communication,140,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+86,1,said,39,43,8813,8817,198,46.0,100.0,8820.0,8874.0,,,,,verb.communication,140,direct_object,Prince Milan's rogue,1.0,0.0,1.0,male,1.0,tertiary
+86,4,advised,76,83,8850,8857,82,84.0,100.0,8858.0,8874.0,,,,,verb.communication,139,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+86,5,make,87,91,8861,8865,82,92.0,100.0,8866.0,8874.0,,,,,verb.communication,141,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+89,2,demand,53,59,8988,8994,3,60.0,83.0,8995.0,9018.0,,,,,verb.communication,143,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+90,3,have,45,49,9065,9069,3,50.0,78.0,9070.0,9098.0,,,,,verb.possession,145,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+90,4,say,68,71,9088,9091,3,72.0,78.0,9092.0,9098.0,,,,,verb.communication,148,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+91,0,led,18,21,9119,9122,3,22.0,34.0,9123.0,9135.0,,,,,verb.motion,147,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+91,4,prepared,118,126,9219,9227,3,127.0,134.0,9228.0,9235.0,,,,,verb.change,146,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+92,1,said,54,58,9317,9321,3,61.0,93.0,9324.0,9356.0,,,,,verb.communication,149,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+92,2,let,61,64,9324,9327,3,64.0,93.0,9327.0,9356.0,,,,,verb.social,150,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+92,3,see,67,70,9330,9333,3,75.0,93.0,9338.0,9356.0,,,,,verb.cognition,152,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+95,2,reward,27,33,9603,9609,3,34.0,37.0,9610.0,9613.0,38.0,44.0,9614.0,9620.0,verb.possession,155,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+96,2,lose,29,33,9650,9654,3,34.0,43.0,9655.0,9664.0,,,,,verb.possession,158,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+98,0,thought,0,7,9693,9700,3,23.0,69.0,9716.0,9762.0,,,,,verb.cognition,157,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+98,3,put,46,49,9739,9742,3,50.0,52.0,9743.0,9745.0,62.0,69.0,9755.0,9762.0,verb.contact,156,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+99,0,returned,9,17,9774,9782,3,18.0,29.0,9783.0,9794.0,,,,,verb.motion,159,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+99,2,brooding,54,62,9819,9827,3,63.0,82.0,9828.0,9847.0,83.0,95.0,,,verb.cognition,160,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+100,3,said,72,76,9934,9938,3,79.0,98.0,9941.0,9960.0,,,,,verb.communication,161,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+100,4,let,89,92,9951,9954,3,93.0,98.0,9955.0,9960.0,,,,,verb.social,162,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+101,3,changed,72,79,10035,10042,4,80.0,109.0,10043.0,10072.0,,,,,verb.change,164,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+107,3,suppose,45,52,10320,10327,208,53.0,74.0,10328.0,10349.0,,,,,verb.cognition,167,direct_object,,,,,,,
+111,4,look,75,79,10608,10612,3,80.0,110.0,10613.0,10643.0,,,,,verb.perception,171,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+114,2,believe,81,88,10922,10929,82,89.0,97.0,10930.0,10938.0,,,,,verb.cognition,173,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+115,1,said,49,53,10989,10993,43,54.0,67.0,10994.0,11007.0,,,,,verb.communication,175,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+116,0,see,3,6,11012,11015,43,7.0,42.0,11016.0,11051.0,,,,,verb.cognition,174,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+116,3,see,55,58,11064,11067,43,59.0,105.0,11068.0,11114.0,,,,,verb.cognition,177,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+117,0,have,2,6,11118,11122,214,7.0,23.0,11123.0,11139.0,24.0,35.0,11140.0,11151.0,verb.possession,176,direct_object,beautiful princesses,1.0,0.0,1.0,female,1.0,tertiary
+119,1,walk,9,13,11238,11242,212,14.0,23.0,11243.0,11252.0,24.0,35.0,11253.0,11264.0,verb.motion,179,direct_object,the Magician's daughters in my house,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+119,3,show,65,69,11294,11298,82,70.0,72.0,11299.0,11301.0,,,,,verb.communication,180,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+120,3,lose,38,42,11382,11386,43,43.0,52.0,11387.0,11396.0,,,,,verb.possession,183,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+121,2,thought,35,42,11434,11441,3,43.0,55.0,11442.0,11454.0,,,,,verb.cognition,184,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+125,1,help,17,21,11696,11700,3,22.0,25.0,11701.0,11704.0,,,,,verb.social,187,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+128,0,asked,0,5,11842,11847,3,6.0,18.0,11848.0,11860.0,,,,,verb.communication,190,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+129,1,answered,10,18,11872,11880,4,19.0,29.0,11881.0,11891.0,,,,,verb.communication,192,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+130,1,recognise,10,19,11903,11912,4,20.0,22.0,11913.0,11915.0,23.0,66.0,11916.0,11959.0,verb.cognition,193,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+131,0,commanded,32,41,12046,12055,3,42.0,54.0,12056.0,12068.0,,,,,verb.communication,196,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+133,0,said,19,23,12240,12244,82,24.0,36.0,12245.0,12257.0,,,,,verb.communication,201,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+133,2,tell,84,88,12305,12309,222,89.0,91.0,12310.0,12312.0,,,,,verb.communication,203,direct_object,the Princess Hyacinthia,3.0,0.0,3.0,female,1.0,tertiary
+134,0,went,13,17,12361,12365,100,18.0,27.0,12366.0,12375.0,,,,,verb.motion,202,direct_object,Prince Milan's daughters,1.0,6.0,7.0,male,1.0,tertiary
+134,1,looked,32,38,12380,12386,100,39.0,46.0,12387.0,12394.0,47.0,54.0,12395.0,12402.0,verb.perception,204,direct_object,Prince Milan's daughters,1.0,6.0,7.0,male,1.0,tertiary
+136,0,passed,20,26,12556,12562,100,27.0,31.0,12563.0,12567.0,,,,,verb.motion,205,direct_object,Prince Milan's daughters,1.0,6.0,7.0,male,1.0,tertiary
+138,0,seized,16,22,12710,12716,103,23.0,38.0,12717.0,12732.0,,,,,verb.contact,209,direct_object,the girl,1.0,0.0,1.0,female,1.0,tertiary
+139,1,said,22,26,12805,12809,82,27.0,39.0,12810.0,12822.0,40.0,52.0,12823.0,12835.0,verb.communication,210,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+142,2,comes,42,47,13045,13050,43,48.0,57.0,13051.0,13060.0,,,,,verb.motion,214,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+143,0,returned,11,19,13074,13082,43,20.0,31.0,13083.0,13094.0,32.0,42.0,13095.0,13105.0,verb.motion,213,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+144,0,came,30,34,13136,13140,43,35.0,41.0,13141.0,13147.0,42.0,59.0,13148.0,13165.0,verb.motion,215,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+144,2,asked,92,97,13198,13203,43,98.0,101.0,13204.0,13207.0,,,,,verb.communication,219,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+144,2,asked,92,97,13198,13203,3,98.0,101.0,13204.0,13207.0,,,,,verb.communication,219,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+151,0,asked,0,5,13509,13514,4,6.0,16.0,13515.0,13525.0,,,,,verb.communication,222,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+155,0,love,2,6,13654,13658,106,7.0,17.0,13659.0,13669.0,,,,,verb.emotion,223,direct_object,dearest,1.0,4.0,5.0,unknown,0.0,tertiary
+155,4,save,59,63,13711,13715,106,64.0,73.0,13716.0,13725.0,,,,,verb.possession,227,direct_object,dearest,1.0,4.0,5.0,unknown,0.0,tertiary
+158,0,led,9,12,13907,13910,3,13.0,18.0,13911.0,13916.0,19.0,43.0,13917.0,13941.0,verb.motion,229,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+161,0,recognized,20,30,14212,14222,234,31.0,41.0,14223.0,14233.0,,,,,verb.perception,233,direct_object,his master,1.0,1.0,2.0,male,1.0,tertiary
+164,0,enraged,0,7,14502,14509,82,8.0,20.0,14510.0,14522.0,,,,,verb.emotion,235,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+164,1,sent,25,29,14527,14531,82,30.0,42.0,14532.0,14544.0,,,,,verb.communication,236,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+164,1,sent,25,29,14527,14531,43,30.0,42.0,14532.0,14544.0,,,,,verb.communication,236,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+164,1,sent,25,29,14527,14531,12,30.0,42.0,14532.0,14544.0,,,,,verb.communication,236,direct_object,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+164,2,fetch,46,51,14548,14553,43,52.0,55.0,14554.0,14557.0,57.0,83.0,14559.0,14585.0,verb.contact,237,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+165,1,finding,35,42,14627,14634,238,43.0,66.0,14635.0,14658.0,,,,,verb.perception,239,direct_object,The servants,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+167,0,returned,22,30,14775,14783,82,31.0,46.0,14784.0,14799.0,,,,,verb.motion,241,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+168,2,sent,58,62,14859,14863,82,63.0,75.0,14864.0,14876.0,90.0,102.0,14891.0,14903.0,verb.motion,243,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+168,2,sent,58,62,14859,14863,12,63.0,75.0,14864.0,14876.0,90.0,102.0,14891.0,14903.0,verb.motion,243,direct_object,poor Kojata's servants,6.0,1.0,7.0,group/nonbinary,1.0,tertiary
+168,3,bring,93,98,14894,14899,43,99.0,102.0,14900.0,14903.0,,,,,verb.motion,245,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+172,0,ordered,40,47,15194,15201,43,48.0,58.0,15202.0,15212.0,,,,,verb.communication,250,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+174,1,said,34,38,15287,15291,43,39.0,49.0,15292.0,15302.0,,,,,verb.communication,252,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+174,1,said,34,38,15287,15291,4,39.0,49.0,15292.0,15302.0,,,,,verb.communication,252,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+175,1,put,30,33,15348,15351,3,34.0,41.0,15352.0,15359.0,,,,,verb.contact,253,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+177,3,said,29,33,15482,15486,4,34.0,44.0,15487.0,15497.0,,,,,verb.communication,256,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+177,4,turned,66,72,15519,15525,4,73.0,80.0,15526.0,15533.0,95.0,101.0,15548.0,15554.0,verb.motion,257,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+180,2,tell,39,43,15934,15938,82,44.0,56.0,15939.0,15951.0,,,,,verb.communication,263,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+181,1,saw,37,40,16008,16011,115,41.0,45.0,16012.0,16016.0,,,,,verb.perception,265,direct_object,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+183,1,bring,12,17,16096,16101,82,18.0,22.0,16102.0,16106.0,29.0,36.0,,,verb.contact,267,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+183,1,bring,12,17,16096,16101,115,18.0,22.0,16102.0,16106.0,29.0,36.0,,,verb.contact,267,direct_object,The Magician 's servants,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+185,1,sighed,24,30,16211,16217,4,31.0,41.0,16218.0,16228.0,,,,,verb.communication,268,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+186,1,put,26,29,16256,16259,43,30.0,37.0,16260.0,16267.0,,,,,verb.contact,271,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+189,1,searched,39,47,16536,16544,260,56.0,86.0,16553.0,16583.0,,,,,verb.perception,274,direct_object,Prince Milan's bride,2.0,0.0,2.0,male,1.0,tertiary
+189,1,searched,39,47,16536,16544,3,56.0,86.0,16553.0,16583.0,,,,,verb.perception,274,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+190,3,returned,95,103,16680,16688,82,131.0,146.0,16716.0,16731.0,,,,,verb.motion,275,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+195,0,answered,15,23,16930,16938,120,26.0,72.0,16941.0,16987.0,,,,,verb.communication,280,direct_object,the wretches,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+197,0,come,27,31,17066,17070,193,32.0,44.0,17071.0,17083.0,,,,,verb.motion,281,direct_object,a beautiful girl in a white robe's father,4.0,7.0,11.0,male,0.6470588235294118,tertiary
+199,0,hand,0,4,17120,17124,3,5.0,7.0,17125.0,17127.0,,,,,verb.possession,284,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+200,0,loosened,13,21,17154,17162,122,22.0,35.0,17163.0,17176.0,,,,,verb.contact,286,direct_object,Prince Milan's mother,1.0,2.0,3.0,female,0.6,tertiary
+200,0,loosened,13,21,17154,17162,3,22.0,35.0,17163.0,17176.0,,,,,verb.contact,286,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+200,3,given,73,78,17214,17219,3,79.0,82.0,17220.0,17223.0,,,,,verb.possession,285,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+200,6,changed,130,137,17271,17278,122,138.0,145.0,17279.0,17286.0,,,,,verb.change,289,direct_object,Prince Milan's mother,1.0,2.0,3.0,female,0.6,tertiary
+202,1,see,9,12,17429,17432,266,13.0,58.0,17433.0,17478.0,,,,,verb.perception,288,direct_object,no one pass by on horseback,1.0,0.0,1.0,unknown,0.0,tertiary
+202,1,see,9,12,17429,17432,267,13.0,58.0,17433.0,17478.0,,,,,verb.perception,288,direct_object,reverend father,1.0,0.0,1.0,male,1.0,tertiary
+203,0,asked,3,8,17483,17488,129,9.0,17.0,17489.0,17497.0,,,,,verb.communication,290,direct_object,the monk,1.0,1.0,2.0,unknown,0.0,tertiary
+205,2,bade,72,76,17639,17643,124,77.0,79.0,17644.0,17646.0,,,,,verb.communication,291,direct_object,a monk,1.0,2.0,3.0,male,1.0,tertiary
+205,2,bade,72,76,17639,17643,3,77.0,79.0,17644.0,17646.0,,,,,verb.communication,291,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+205,4,give,115,119,17682,17686,3,120.0,123.0,17687.0,17690.0,,,,,verb.possession,293,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+206,3,said,33,37,17737,17741,82,38.0,50.0,17742.0,17754.0,,,,,verb.communication,295,direct_object,the Magician,18.0,39.0,57.0,male,1.0,secondary
+210,0,implored,17,25,18119,18127,4,26.0,36.0,18128.0,18138.0,,,,,verb.communication,300,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+213,0,asked,0,5,18225,18230,43,6.0,16.0,18231.0,18241.0,,,,,verb.communication,302,direct_object,The Prince,23.0,48.0,71.0,male,1.0,secondary
+215,3,sighed,66,72,18446,18452,4,73.0,83.0,18453.0,18463.0,,,,,verb.communication,303,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+216,0,let,5,8,18470,18473,3,9.0,26.0,18474.0,18491.0,,,,,verb.social,304,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+217,2,await,15,20,18508,18513,3,21.0,29.0,18514.0,18522.0,,,,,verb.motion,307,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+217,4,change,48,54,18541,18547,4,55.0,61.0,18548.0,18554.0,,,,,verb.change,306,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+218,0,pray,8,12,18586,18590,3,13.0,32.0,18591.0,18610.0,,,,,verb.communication,308,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+219,2,meet,48,52,18660,18664,3,53.0,56.0,18665.0,18668.0,,,,,verb.motion,309,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+219,3,leading,58,65,18670,18677,277,66.0,80.0,18678.0,18692.0,81.0,90.0,18693.0,18702.0,verb.motion,310,direct_object,a little child,1.0,0.0,1.0,unknown,0.0,tertiary
+220,2,kiss,23,27,18727,18731,39,28.0,37.0,18732.0,18741.0,,,,,verb.contact,311,direct_object,The child,3.0,1.0,4.0,unknown,0.0,tertiary
+220,4,forget,51,57,18755,18761,4,58.0,60.0,18762.0,18764.0,,,,,verb.cognition,314,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+224,1,meet,31,35,19124,19128,3,36.0,39.0,19129.0,19132.0,43.0,146.0,19136.0,19239.0,verb.social,316,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+224,4,leading,57,64,19150,19157,146,65.0,74.0,19158.0,19167.0,,,,,verb.motion,318,direct_object,"a lovely fair - haired little girl , whose eyes shone like two clear stars",1.0,0.0,1.0,female,1.0,tertiary
+226,1,forgot,51,57,19402,19408,4,58.0,92.0,19409.0,19443.0,,,,,verb.cognition,321,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+227,3,changing,66,74,19511,19519,4,75.0,82.0,19520.0,19527.0,,,,,verb.change,324,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+227,4,said,137,141,19582,19586,281,144.0,218.0,19589.0,19663.0,,,,,verb.communication,326,direct_object,some passer - by,1.0,0.0,1.0,unknown,0.0,tertiary
+227,4,said,137,141,19582,19586,4,144.0,218.0,19589.0,19663.0,,,,,verb.communication,326,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+229,0,happened,7,15,19756,19764,150,35.0,60.0,19784.0,19809.0,,,,,verb.change,328,direct_object,an old man,1.0,16.0,17.0,male,1.0,tertiary
+229,2,seeing,66,72,19815,19821,150,73.0,83.0,19822.0,19832.0,,,,,verb.perception,329,direct_object,an old man,1.0,16.0,17.0,male,1.0,tertiary
+233,1,found,39,44,20162,20167,150,45.0,60.0,20168.0,20183.0,,,,,verb.perception,337,direct_object,an old man,1.0,16.0,17.0,male,1.0,tertiary
+234,5,enjoy,114,119,20383,20388,150,120.0,127.0,20389.0,20396.0,128.0,150.0,20397.0,20419.0,verb.emotion,340,direct_object,an old man,1.0,16.0,17.0,male,1.0,tertiary
+236,0,said,10,14,20583,20587,150,17.0,170.0,20590.0,20743.0,,,,,verb.communication,346,direct_object,an old man,1.0,16.0,17.0,male,1.0,tertiary
+239,0,sprang,27,33,21043,21049,52,34.0,46.0,21050.0,21062.0,,,,,verb.motion,350,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+239,3,given,104,109,21120,21125,52,110.0,113.0,21126.0,21129.0,,,,,verb.possession,351,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+239,4,stood,165,170,21181,21186,52,171.0,181.0,21187.0,21197.0,,,,,verb.contact,353,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+242,1,called,14,20,21246,21252,163,21.0,23.0,21253.0,21255.0,,,,,verb.communication,357,direct_object,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+243,0,have,6,10,21276,21280,282,11.0,93.0,21281.0,21363.0,,,,,verb.possession,356,direct_object,the beautiful Princess Hyacinthia's bridegroom,1.0,0.0,1.0,female,1.0,tertiary
+243,0,have,6,10,21276,21280,283,11.0,93.0,21281.0,21363.0,,,,,verb.possession,356,direct_object,the beautiful Prince Milan,1.0,0.0,1.0,male,1.0,tertiary
+243,0,have,6,10,21276,21280,163,11.0,93.0,21281.0,21363.0,,,,,verb.possession,356,direct_object,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+243,0,have,6,10,21276,21280,3,11.0,93.0,21281.0,21363.0,,,,,verb.possession,356,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+243,3,deserted,82,90,21352,21360,163,91.0,93.0,21361.0,21363.0,,,,,verb.cognition,355,direct_object,the beautiful Princess Hyacinthia,1.0,5.0,6.0,female,1.0,tertiary
+244,4,replied,44,51,21410,21417,52,52.0,63.0,21418.0,21429.0,,,,,verb.communication,360,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+247,0,dried,10,15,21618,21623,4,16.0,25.0,21624.0,21633.0,,,,,verb.body,364,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+247,2,dressed,50,57,21658,21665,166,58.0,76.0,21666.0,21684.0,,,,,verb.body,365,direct_object,a peasant woman,1.0,0.0,1.0,female,1.0,tertiary
+248,0,went,4,8,21690,21694,169,9.0,108.0,21695.0,21794.0,,,,,verb.motion,367,direct_object,the white - aproned cooks,1.0,0.0,1.0,unknown,0.0,tertiary
+248,0,went,4,8,21690,21694,7,9.0,108.0,21695.0,21794.0,,,,,verb.motion,367,direct_object,the King,18.0,49.0,67.0,male,1.0,secondary
+249,0,went,13,17,21809,21813,171,21.0,37.0,21817.0,21833.0,,,,,verb.motion,368,direct_object,the head cook,2.0,0.0,2.0,unknown,0.0,tertiary
+249,1,said,43,47,21839,21843,170,50.0,137.0,21846.0,21933.0,,,,,verb.communication,369,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+249,1,said,43,47,21839,21843,286,50.0,137.0,21846.0,21933.0,,,,,verb.communication,369,direct_object,Dear cook,1.0,0.0,1.0,unknown,0.0,tertiary
+249,1,said,43,47,21839,21843,3,50.0,137.0,21846.0,21933.0,,,,,verb.communication,369,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+249,2,listen,68,74,21864,21870,170,75.0,88.0,21871.0,21884.0,,,,,verb.perception,370,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+249,3,let,94,97,21890,21893,170,98.0,137.0,21894.0,21933.0,,,,,verb.social,372,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+249,3,let,94,97,21890,21893,3,98.0,137.0,21894.0,21933.0,,,,,verb.social,372,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+249,4,make,101,105,21897,21901,3,106.0,120.0,21902.0,21916.0,,,,,verb.creation,371,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+250,2,refuse,32,38,21968,21974,170,39.0,49.0,21975.0,21985.0,,,,,verb.possession,373,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+250,3,order,54,59,21990,21995,170,60.0,63.0,21996.0,21999.0,64.0,82.0,22000.0,22018.0,verb.communication,375,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+250,5,turned,123,129,22059,22065,4,141.0,165.0,22077.0,22101.0,,,,,verb.motion,374,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+250,6,beheld,134,140,22070,22076,4,141.0,165.0,22077.0,22101.0,,,,,verb.communication,376,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+250,7,answered,174,182,22110,22118,287,194.0,245.0,22130.0,22181.0,,,,,verb.communication,378,direct_object,fair maiden,1.0,0.0,1.0,female,1.0,tertiary
+250,7,answered,174,182,22110,22118,170,194.0,245.0,22130.0,22181.0,,,,,verb.communication,378,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+250,9,come,208,212,22144,22148,287,234.0,245.0,22170.0,22181.0,,,,,verb.motion,377,direct_object,fair maiden,1.0,0.0,1.0,female,1.0,tertiary
+251,0,bake,0,4,22183,22187,170,5.0,14.0,22188.0,22197.0,,,,,verb.change,379,direct_object,The Princess,1.0,6.0,7.0,female,1.0,tertiary
+251,2,lay,34,37,22217,22220,3,38.0,40.0,22221.0,22223.0,,,,,verb.contact,381,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+253,5,laid,151,155,22421,22425,3,156.0,158.0,22426.0,22428.0,,,,,verb.contact,384,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+255,3,said,118,122,22646,22650,288,123.0,135.0,22651.0,22663.0,,,,,verb.communication,389,direct_object,My dear mate,1.0,0.0,1.0,unknown,0.0,tertiary
+255,3,said,118,122,22646,22650,4,123.0,135.0,22651.0,22663.0,,,,,verb.communication,389,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+255,3,said,118,122,22646,22650,179,123.0,135.0,22651.0,22663.0,,,,,verb.communication,389,direct_object,the other,1.0,0.0,1.0,unknown,0.0,tertiary
+255,3,said,118,122,22646,22650,3,123.0,135.0,22651.0,22663.0,,,,,verb.communication,389,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+255,8,forgot,212,218,22740,22746,4,219.0,241.0,22747.0,22769.0,,,,,verb.cognition,388,direct_object,poor Hyacinthia,23.0,31.0,54.0,female,1.0,secondary
+255,8,forgot,212,218,22740,22746,3,219.0,241.0,22747.0,22769.0,,,,,verb.cognition,388,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+257,2,found,72,77,22905,22910,3,78.0,118.0,22911.0,22951.0,,,,,verb.possession,394,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+258,0,stood,8,13,22961,22966,3,14.0,34.0,22967.0,22987.0,36.0,53.0,22989.0,23006.0,verb.contact,393,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary
+259,1,mounted,51,58,23059,23066,3,59.0,62.0,23067.0,23070.0,76.0,129.0,23084.0,23137.0,verb.contact,395,direct_object,Prince Milan,40.0,89.0,129.0,male,1.0,primary

@@ -1,0 +1,348 @@
+{
+    "want": {
+        "supersense_category": "verb.emotion",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "0:0:0.0": [
+                {
+                    "temporal_rank": 0,
+                    "coref_id": 1.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "harness": {
+        "supersense_category": "verb.contact",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "1:1:0.05": [
+                {
+                    "temporal_rank": 1,
+                    "coref_id": 1.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "get": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "male_event_n": 0,
+        "unknown_event_n": 1,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 1,
+        "primary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "2:0:0.11": [
+                {
+                    "temporal_rank": 2,
+                    "coref_id": 3.0,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "answer": {
+        "supersense_category": "verb.communication",
+        "event_n": 2,
+        "male_event_n": 1,
+        "unknown_event_n": 1,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 1,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 1,
+        "primary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "4:0:0.21": [
+                {
+                    "temporal_rank": 3,
+                    "coref_id": 5.0,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 3,
+                    "coref_id": 0.0,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "say": {
+        "supersense_category": "verb.communication",
+        "event_n": 2,
+        "male_event_n": 1,
+        "unknown_event_n": 1,
+        "dobj_event_n": 0,
+        "subj_event_n": 2,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 1,
+        "primary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "5:1:0.26": [
+                {
+                    "temporal_rank": 5,
+                    "coref_id": 5.0,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 5,
+                    "coref_id": 0.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "sit": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "6:2:0.32": [
+                {
+                    "temporal_rank": 4,
+                    "coref_id": 0.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "draw": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "male_event_n": 0,
+        "unknown_event_n": 1,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 1,
+        "primary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "11:0:0.58": [
+                {
+                    "temporal_rank": 7,
+                    "coref_id": 10.0,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "make": {
+        "supersense_category": "verb.creation",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "13:2:0.68": [
+                {
+                    "temporal_rank": 8,
+                    "coref_id": 0.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "run": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "14:0:0.74": [
+                {
+                    "temporal_rank": 9,
+                    "coref_id": 0.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "throw": {
+        "supersense_category": "verb.contact",
+        "event_n": 2,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_male_event_n": 1,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 2,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": 3.67,
+        "event_occurances": {
+            "16:4:0.84": [
+                {
+                    "temporal_rank": 11,
+                    "coref_id": 0.0,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 11,
+                    "coref_id": 0.0,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "come": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_male_event_n": 1,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "10:0:0.53": [
+                {
+                    "temporal_rank": 6,
+                    "coref_id": 0.0,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "stick": {
+        "supersense_category": "verb.contact",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_male_event_n": 1,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "15:4:0.79": [
+                {
+                    "temporal_rank": 10,
+                    "coref_id": 0.0,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "strike": {
+        "supersense_category": "verb.contact",
+        "event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_male_event_n": 1,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "primary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "17:2:0.89": [
+                {
+                    "temporal_rank": 12,
+                    "coref_id": 0.0,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    }
+}

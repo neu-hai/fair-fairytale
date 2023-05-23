@@ -1,0 +1,76 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,1,bought,92,98,186,192,5,58.0,84.0,152.0,178.0,,,,,verb.possession,True,0,subject,Jane Doll,1,0,1,unknown,0.0,tertiary
+2,1,bought,92,98,186,192,4,58.0,84.0,152.0,178.0,,,,,verb.possession,True,0,subject,Lucinda,1,0,1,unknown,0.0,tertiary
+4,0,sold,19,23,307,311,1,0.0,18.0,288.0,306.0,,,,,verb.possession,True,2,subject,Ginger,20,4,24,unknown,0.0,primary
+4,0,sold,19,23,307,311,2,0.0,18.0,288.0,306.0,,,,,verb.possession,True,2,subject,Pickles,24,10,34,unknown,0.0,primary
+11,0,requested,15,24,841,850,1,0.0,6.0,826.0,832.0,48.0,87.0,874.0,913.0,verb.communication,True,1,subject,Ginger,20,4,24,unknown,0.0,primary
+14,1,leave,12,17,1123,1128,63,1.0,5.0,1112.0,1116.0,,,,,verb.motion,True,4,subject,our own customers,1,2,3,group/nonbinary,1.0,tertiary
+15,2,replied,42,49,1205,1212,63,1.0,39.0,1164.0,1202.0,,,,,verb.communication,True,5,subject,our own customers,1,2,3,group/nonbinary,1.0,tertiary
+17,1,give,12,16,1301,1305,6,0.0,3.0,1289.0,1292.0,24.0,25.0,1313.0,1314.0,verb.possession,True,6,subject,Tabitha Twitchit,4,2,6,female,1.0,tertiary
+18,0,gave,19,23,1334,1338,1,0.0,18.0,1315.0,1333.0,,,,,verb.possession,True,7,subject,Ginger,20,4,24,unknown,0.0,primary
+18,0,gave,19,23,1334,1338,2,0.0,18.0,1315.0,1333.0,,,,,verb.possession,True,7,subject,Pickles,24,10,34,unknown,0.0,primary
+19,1,buys,53,57,1410,1414,27,42.0,52.0,1399.0,1409.0,,,,,verb.possession,True,8,subject,a customer,1,2,3,female,1.0,tertiary
+20,1,says,32,36,1561,1565,2,4.0,11.0,1533.0,1540.0,,,,,verb.communication,True,9,subject,Pickles,24,10,34,unknown,0.0,primary
+21,1,buy,40,43,1665,1668,29,0.0,13.0,1625.0,1638.0,56.0,102.0,1681.0,1727.0,verb.possession,True,10,subject,The customers,2,3,5,group/nonbinary,1.0,tertiary
+23,1,bought,43,49,1824,1830,29,0.0,13.0,1781.0,1794.0,,,,,verb.possession,True,11,subject,The customers,2,3,5,group/nonbinary,1.0,tertiary
+25,0,paid,12,16,1918,1922,29,1.0,5.0,1907.0,1911.0,,,,,verb.possession,True,12,subject,The customers,2,3,5,group/nonbinary,1.0,tertiary
+27,3,eat,65,68,2103,2106,1,30.0,48.0,2068.0,2086.0,,,,,verb.consumption,True,14,subject,Ginger,20,4,24,unknown,0.0,primary
+27,3,eat,65,68,2103,2106,2,30.0,48.0,2068.0,2086.0,,,,,verb.consumption,True,14,subject,Pickles,24,10,34,unknown,0.0,primary
+28,0,ate,8,11,2132,2135,2,0.0,7.0,2124.0,2131.0,,,,,verb.consumption,True,13,subject,Pickles,24,10,34,unknown,0.0,primary
+29,0,ate,5,8,2182,2185,29,0.0,4.0,2177.0,2181.0,14.0,55.0,2191.0,2232.0,verb.consumption,True,15,subject,The customers,2,3,5,group/nonbinary,1.0,tertiary
+30,3,buy,77,80,2311,2314,2,55.0,62.0,2289.0,2296.0,,,,,verb.possession,True,16,subject,Pickles,24,10,34,unknown,0.0,primary
+31,2,said,52,56,2382,2386,2,1.0,49.0,2331.0,2379.0,,,,,verb.communication,True,17,subject,Pickles,24,10,34,unknown,0.0,primary
+31,2,said,52,56,2382,2386,65,1.0,49.0,2331.0,2379.0,,,,,verb.communication,True,17,subject,the police,1,0,1,unknown,0.0,tertiary
+34,4,summoned,50,58,2558,2566,2,39.0,40.0,2547.0,2548.0,,,,,verb.social,True,19,subject,Pickles,24,10,34,unknown,0.0,primary
+35,1,tried,7,12,2575,2580,2,0.0,1.0,2568.0,2569.0,,,,,verb.social,True,18,subject,Pickles,24,10,34,unknown,0.0,primary
+39,2,owes,62,66,2781,2785,9,59.0,61.0,2778.0,2780.0,,,,,verb.possession,True,20,subject,Samuel Whiskers,2,4,6,male,1.0,tertiary
+40,4,replied,50,57,2853,2860,1,1.0,47.0,2804.0,2850.0,,,,,verb.communication,True,22,subject,Ginger,20,4,24,unknown,0.0,primary
+40,4,replied,50,57,2853,2860,9,1.0,47.0,2804.0,2850.0,,,,,verb.communication,True,22,subject,Samuel Whiskers,2,4,6,male,1.0,tertiary
+41,0,feel,7,11,2876,2880,1,5.0,6.0,2874.0,2875.0,,,,,verb.cognition,True,21,subject,Ginger,20,4,24,unknown,0.0,primary
+42,2,replied,32,39,2985,2992,1,1.0,29.0,2954.0,2982.0,,,,,verb.communication,True,23,subject,Ginger,20,4,24,unknown,0.0,primary
+43,0,retired,19,26,3020,3027,1,0.0,18.0,3001.0,3019.0,,,,,verb.motion,True,25,subject,Ginger,20,4,24,unknown,0.0,primary
+43,0,retired,19,26,3020,3027,2,0.0,18.0,3001.0,3019.0,,,,,verb.motion,True,25,subject,Pickles,24,10,34,unknown,0.0,primary
+47,1,had,8,11,3172,3175,9,1.0,3.0,3165.0,3167.0,49.0,62.0,3213.0,3226.0,verb.possession,True,24,subject,Samuel Whiskers,2,4,6,male,1.0,tertiary
+49,1,replied,59,66,3374,3381,71,0.0,56.0,3315.0,3371.0,,,,,verb.communication,True,26,subject,everybody,3,0,3,unknown,0.0,tertiary
+52,2,writing,60,67,3578,3585,37,48.0,59.0,3566.0,3577.0,,,,,verb.creation,True,27,subject,a policeman,1,6,7,male,1.0,tertiary
+53,1,barked,29,35,3631,3637,37,26.0,28.0,3628.0,3630.0,,,,,verb.communication,True,28,subject,a policeman,1,6,7,male,1.0,tertiary
+58,1,dipped,51,57,3872,3878,38,48.0,50.0,3869.0,3871.0,,,,,verb.motion,True,31,subject,the policeman,3,10,13,male,1.0,secondary
+59,0,barked,8,14,3906,3912,2,0.0,7.0,3898.0,3905.0,,,,,verb.communication,True,32,subject,Pickles,24,10,34,unknown,0.0,primary
+60,0,took,24,28,3957,3961,38,10.0,23.0,3943.0,3956.0,,,,,verb.perception,True,34,subject,the policeman,3,10,13,male,1.0,secondary
+61,0,had,3,6,3976,3979,38,0.0,2.0,3973.0,3975.0,,,,,verb.body,True,33,subject,the policeman,3,10,13,male,1.0,secondary
+62,0,found,43,48,4077,4082,2,35.0,42.0,4069.0,4076.0,,,,,verb.cognition,True,36,subject,Pickles,24,10,34,unknown,0.0,primary
+63,1,disappeared,18,29,4126,4137,38,0.0,13.0,4108.0,4121.0,,,,,verb.change,True,35,subject,the policeman,3,10,13,male,1.0,secondary
+65,4,fetch,34,39,4200,4205,38,19.0,21.0,4185.0,4187.0,,,,,verb.contact,True,37,subject,the policeman,3,10,13,male,1.0,secondary
+66,2,said,30,34,4259,4263,2,0.0,27.0,4229.0,4256.0,,,,,verb.communication,True,38,subject,Pickles,24,10,34,unknown,0.0,primary
+71,2,gone,34,38,4584,4588,44,25.0,29.0,4575.0,4579.0,,,,,verb.motion,True,39,subject,some people,1,1,2,group/nonbinary,1.0,tertiary
+77,0,raised,29,35,4821,4827,6,0.0,16.0,4792.0,4808.0,,,,,verb.change,True,41,subject,Tabitha Twitchit,4,2,6,female,1.0,tertiary
+78,1,refuse,22,28,4887,4893,6,5.0,8.0,4870.0,4873.0,,,,,verb.communication,True,42,subject,Tabitha Twitchit,4,2,6,female,1.0,tertiary
+81,1,sell,57,61,5184,5188,54,13.0,47.0,5140.0,5174.0,,,,,verb.possession,True,44,subject,Mr. John Dormouse's daughter,1,0,1,unknown,0.0,tertiary
+81,1,sell,57,61,5184,5188,12,13.0,47.0,5140.0,5174.0,,,,,verb.possession,True,44,subject,Mr. John Dormouse,2,2,4,male,1.0,tertiary
+83,1,carry,27,32,5284,5289,56,14.0,23.0,5271.0,5280.0,,,,,verb.contact,True,43,subject,five mice,1,0,1,unknown,0.0,tertiary
+85,0,refused,18,25,5407,5414,13,4.0,17.0,5393.0,5406.0,,,,,verb.communication,True,45,subject,Miss Dormouse,1,1,2,female,1.0,tertiary
+86,4,say,74,77,5563,5566,12,46.0,48.0,5535.0,5537.0,,,,,verb.communication,True,46,subject,Mr. John Dormouse,2,2,4,male,1.0,tertiary
+88,8,open,106,110,5750,5754,14,86.0,89.0,5730.0,5733.0,,,,,verb.contact,True,48,subject,Penny,3,5,8,female,1.0,tertiary
+95,1,tries,49,54,6086,6091,14,45.0,48.0,6082.0,6085.0,,,,,verb.social,True,49,subject,Penny,3,5,8,female,1.0,tertiary
+2,1,bought,92,98,186,192,1,99.0,114.0,193.0,208.0,,,,,verb.possession,True,0,direct_object,Ginger,20,4,24,unknown,0.0,primary
+2,1,bought,92,98,186,192,2,99.0,114.0,193.0,208.0,,,,,verb.possession,True,0,direct_object,Pickles,24,10,34,unknown,0.0,primary
+2,1,bought,92,98,186,192,3,99.0,114.0,193.0,208.0,,,,,verb.possession,True,0,direct_object,Dolls,1,1,2,group/nonbinary,1.0,tertiary
+11,0,requested,15,24,841,850,2,25.0,32.0,851.0,858.0,48.0,87.0,874.0,913.0,verb.communication,True,1,direct_object,Pickles,24,10,34,unknown,0.0,primary
+13,1,replied,38,45,1046,1053,2,46.0,53.0,1054.0,1061.0,,,,,verb.communication,True,3,direct_object,Pickles,24,10,34,unknown,0.0,primary
+15,2,replied,42,49,1205,1212,1,50.0,65.0,1213.0,1228.0,,,,,verb.communication,True,5,direct_object,Ginger,20,4,24,unknown,0.0,primary
+20,1,says,32,36,1561,1565,64,39.0,59.0,1568.0,1588.0,,,,,verb.communication,True,9,direct_object,madam,1,0,1,unknown,0.0,tertiary
+23,1,bought,43,49,1824,1830,31,50.0,93.0,1831.0,1874.0,,,,,verb.possession,True,11,direct_object,the toffee customers,1,0,1,unknown,0.0,tertiary
+27,3,eat,65,68,2103,2106,29,69.0,84.0,2107.0,2122.0,,,,,verb.consumption,True,14,direct_object,The customers,2,3,5,group/nonbinary,1.0,tertiary
+31,2,said,52,56,2382,2386,2,57.0,64.0,2387.0,2394.0,,,,,verb.communication,True,17,direct_object,Pickles,24,10,34,unknown,0.0,primary
+40,4,replied,50,57,2853,2860,1,58.0,64.0,2861.0,2867.0,,,,,verb.communication,True,22,direct_object,Ginger,20,4,24,unknown,0.0,primary
+41,0,feel,7,11,2876,2880,10,12.0,81.0,2881.0,2950.0,,,,,verb.cognition,True,21,direct_object,Anna Maria,1,0,1,unknown,0.0,tertiary
+42,2,replied,32,39,2985,2992,1,40.0,46.0,2993.0,2999.0,,,,,verb.communication,True,23,direct_object,Ginger,20,4,24,unknown,0.0,primary
+49,1,replied,59,66,3374,3381,1,67.0,73.0,3382.0,3388.0,,,,,verb.communication,True,26,direct_object,Ginger,20,4,24,unknown,0.0,primary
+54,0,bite,1,5,3677,3681,37,6.0,9.0,3682.0,3685.0,11.0,18.0,,,verb.contact,True,29,direct_object,a policeman,1,6,7,male,1.0,tertiary
+55,0,bite,0,4,3696,3700,37,5.0,8.0,3701.0,3704.0,,,,,verb.contact,True,30,direct_object,a policeman,1,6,7,male,1.0,tertiary
+65,4,fetch,34,39,4200,4205,73,40.0,61.0,4206.0,4227.0,,,,,verb.contact,True,37,direct_object,a real live policeman,1,0,1,unknown,0.0,tertiary
+66,2,said,30,34,4259,4263,2,35.0,42.0,4264.0,4271.0,,,,,verb.communication,True,38,direct_object,Pickles,24,10,34,unknown,0.0,primary
+67,0,replied,6,13,4279,4286,1,14.0,20.0,4287.0,4293.0,,,,,verb.communication,True,40,direct_object,Ginger,20,4,24,unknown,0.0,primary
+85,0,refused,18,25,5407,5414,13,26.0,98.0,5415.0,5487.0,,,,,verb.communication,True,45,direct_object,Miss Dormouse,1,1,2,female,1.0,tertiary
+94,1,crammed,13,20,5955,5962,59,21.0,35.0,5963.0,5977.0,,,,,verb.contact,True,47,direct_object,customers,1,0,1,unknown,0.0,tertiary
+98,1,please,22,28,6255,6261,71,29.0,38.0,6262.0,6271.0,,,,,verb.emotion,True,50,direct_object,everybody,3,0,3,unknown,0.0,tertiary

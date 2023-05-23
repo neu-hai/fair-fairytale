@@ -1,0 +1,585 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,left,20.0,24.0,20.0,24.0,8,0.0,14.0,0.0,14.0,67.0,82.0,,,verb.change,True,0,subject,Three brothers,1.0,13.0,14.0,male,1.0,tertiary
+1,2,did,71.0,74.0,155.0,158.0,10,68.0,70.0,152.0,154.0,93.0,103.0,177.0,187.0,verb.social,True,1,subject,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+2,1,managed,78.0,85.0,267.0,274.0,8,73.0,77.0,262.0,266.0,,,,,verb.social,True,3,subject,Three brothers,1.0,13.0,14.0,male,1.0,tertiary
+3,4,withdrawn,70.0,79.0,360.0,369.0,13,55.0,65.0,345.0,355.0,,,,,verb.motion,True,2,subject,the father,1.0,0.0,1.0,male,1.0,tertiary
+4,0,had,9.0,12.0,471.0,474.0,15,0.0,8.0,462.0,470.0,,,,,verb.perception,True,5,subject,The lads,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+5,1,know,18.0,22.0,541.0,545.0,15,0.0,4.0,523.0,527.0,,,,,verb.cognition,True,4,subject,The lads,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+6,1,remember,56.0,64.0,630.0,638.0,10,28.0,38.0,602.0,612.0,,,,,verb.cognition,True,6,subject,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+7,2,making,58.0,64.0,701.0,707.0,8,22.0,26.0,665.0,669.0,,,,,verb.social,True,7,subject,Three brothers,1.0,13.0,14.0,male,1.0,tertiary
+8,0,became,11.0,17.0,824.0,830.0,10,0.0,10.0,813.0,823.0,,,,,verb.change,True,8,subject,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+9,2,killing,30.0,37.0,942.0,949.0,10,0.0,2.0,912.0,914.0,,,,,verb.contact,True,9,subject,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+10,0,instructed,3.0,13.0,978.0,988.0,10,0.0,2.0,975.0,977.0,,,,,verb.communication,True,10,subject,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+11,10,procure,174.0,181.0,1265.0,1272.0,23,165.0,167.0,1256.0,1258.0,,,,,verb.possession,True,11,subject,the elder,1.0,4.0,5.0,male,1.0,tertiary
+12,2,said,56.0,60.0,1341.0,1345.0,23,38.0,50.0,1323.0,1335.0,,,,,verb.communication,True,12,subject,the elder,1.0,4.0,5.0,male,1.0,tertiary
+12,2,said,56.0,60.0,1341.0,1345.0,21,38.0,50.0,1323.0,1335.0,,,,,verb.communication,True,12,subject,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+13,1,saying,61.0,67.0,1442.0,1448.0,2,0.0,8.0,1381.0,1389.0,,,,,verb.communication,True,15,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+18,0,had,9.0,12.0,1885.0,1888.0,27,0.0,8.0,1876.0,1884.0,,,,,verb.possession,True,13,subject,the three brothers,1.0,10.0,11.0,male,1.0,tertiary
+19,0,hunted,16.0,22.0,1991.0,1997.0,27,11.0,15.0,1986.0,1990.0,34.0,75.0,2009.0,2050.0,verb.competition,True,16,subject,the three brothers,1.0,10.0,11.0,male,1.0,tertiary
+22,2,saw,49.0,52.0,2286.0,2289.0,3,46.0,48.0,2283.0,2285.0,,,,,verb.perception,True,17,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+23,0,followed,13.0,21.0,2359.0,2367.0,3,0.0,2.0,2346.0,2348.0,26.0,33.0,2372.0,2379.0,verb.motion,True,19,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+24,0,commenced,62.0,71.0,2519.0,2528.0,3,55.0,61.0,2512.0,2518.0,86.0,143.0,2543.0,2600.0,verb.change,True,18,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+25,0,rubbed,3.0,9.0,2605.0,2611.0,3,0.0,2.0,2602.0,2604.0,20.0,52.0,2622.0,2654.0,verb.contact,True,20,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+26,4,looked,98.0,104.0,2754.0,2760.0,3,77.0,89.0,2733.0,2745.0,,,,,verb.perception,True,21,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+29,1,reached,29.0,36.0,3052.0,3059.0,3,26.0,28.0,3049.0,3051.0,,,,,verb.motion,True,24,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+30,6,heard,174.0,179.0,3255.0,3260.0,3,149.0,166.0,3230.0,3247.0,,,,,verb.perception,True,23,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+31,2,took,67.0,71.0,3329.0,3333.0,3,64.0,66.0,3326.0,3328.0,,,,,verb.social,True,25,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+34,2,longed,59.0,65.0,3684.0,3690.0,3,56.0,58.0,3681.0,3683.0,,,,,verb.emotion,True,26,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+36,2,shot,59.0,63.0,3960.0,3964.0,3,0.0,6.0,3901.0,3907.0,69.0,73.0,3970.0,3974.0,verb.competition,True,27,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+37,0,stood,8.0,13.0,3984.0,3989.0,3,0.0,2.0,3976.0,3978.0,64.0,92.0,4040.0,4068.0,verb.contact,True,28,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+38,2,remembered,122.0,132.0,4192.0,4202.0,3,115.0,121.0,4185.0,4191.0,,,,,verb.cognition,True,30,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+39,1,told,20.0,24.0,4327.0,4331.0,42,0.0,11.0,4307.0,4318.0,,,,,verb.communication,True,29,subject,Maidwa's brother,3.0,0.0,3.0,male,1.0,tertiary
+39,1,told,20.0,24.0,4327.0,4331.0,3,0.0,11.0,4307.0,4318.0,,,,,verb.communication,True,29,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+40,2,secure,87.0,93.0,4599.0,4605.0,3,57.0,59.0,4569.0,4571.0,,,,,verb.possession,True,32,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+42,2,staying,38.0,45.0,4797.0,4804.0,3,21.0,23.0,4780.0,4782.0,,,,,verb.motion,True,33,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+43,1,returned,17.0,25.0,4926.0,4934.0,3,14.0,16.0,4923.0,4925.0,,,,,verb.motion,True,34,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+44,0,emerged,11.0,18.0,4996.0,5003.0,3,8.0,10.0,4993.0,4995.0,,,,,verb.motion,True,35,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+45,1,shot,23.0,27.0,5173.0,5177.0,3,20.0,22.0,5170.0,5172.0,,,,,verb.competition,True,36,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+47,3,passed,110.0,116.0,5467.0,5473.0,3,0.0,9.0,5357.0,5366.0,,,,,verb.motion,True,37,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+49,2,flapped,100.0,107.0,5675.0,5682.0,4,87.0,99.0,5662.0,5674.0,,,,,verb.motion,True,38,subject,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+50,1,meet,22.0,26.0,5789.0,5793.0,3,13.0,15.0,5780.0,5782.0,,,,,verb.motion,True,41,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+51,2,had,42.0,45.0,5897.0,5900.0,3,39.0,41.0,5894.0,5896.0,,,,,verb.possession,True,40,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+53,1,shoot,14.0,19.0,6004.0,6009.0,3,5.0,7.0,5995.0,5997.0,,,,,verb.competition,True,39,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+55,2,thought,21.0,28.0,6146.0,6153.0,3,18.0,20.0,6143.0,6145.0,,,,,verb.cognition,True,42,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+56,6,heard,160.0,165.0,6368.0,6373.0,3,157.0,159.0,6365.0,6367.0,188.0,231.0,6396.0,6439.0,verb.perception,True,43,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+57,1,heard,18.0,23.0,6459.0,6464.0,3,15.0,17.0,6456.0,6458.0,,,,,verb.perception,True,44,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+58,1,emerged,26.0,33.0,6623.0,6630.0,3,23.0,25.0,6620.0,6622.0,,,,,verb.change,True,46,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+59,1,marked,66.0,72.0,6766.0,6772.0,3,47.0,62.0,6747.0,6762.0,,,,,verb.cognition,True,45,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+60,2,procure,43.0,50.0,6862.0,6869.0,3,10.0,12.0,6829.0,6831.0,,,,,verb.possession,True,48,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+61,2,see,44.0,47.0,6973.0,6976.0,3,35.0,37.0,6964.0,6966.0,,,,,verb.perception,True,47,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+62,1,heard,28.0,33.0,7036.0,7041.0,3,0.0,2.0,7008.0,7010.0,,,,,verb.perception,True,49,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+64,0,advanced,12.0,20.0,7253.0,7261.0,3,5.0,11.0,7246.0,7252.0,,,,,verb.motion,True,50,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+65,4,left,43.0,47.0,7354.0,7358.0,66,30.0,32.0,7341.0,7343.0,,,,,verb.motion,True,51,subject,The watchman,4.0,1.0,5.0,male,1.0,tertiary
+69,2,sit,22.0,25.0,7501.0,7504.0,3,13.0,16.0,7492.0,7495.0,,,,,verb.motion,True,55,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+71,1,spoke,20.0,25.0,7618.0,7623.0,3,17.0,19.0,7615.0,7617.0,,,,,verb.communication,True,56,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+72,0,said,12.0,16.0,7666.0,7670.0,378,1.0,9.0,7655.0,7663.0,,,,,verb.communication,True,57,subject,Daughter,2.0,0.0,2.0,unknown,0.0,tertiary
+74,0,thought,7.0,14.0,7832.0,7839.0,3,0.0,6.0,7825.0,7831.0,110.0,182.0,7935.0,8007.0,verb.cognition,True,58,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+75,2,take,34.0,38.0,8043.0,8047.0,76,24.0,27.0,8033.0,8036.0,,,,,verb.possession,True,60,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+77,1,reach,21.0,26.0,8155.0,8160.0,76,13.0,16.0,8147.0,8150.0,,,,,verb.motion,True,61,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+79,3,spoke,81.0,86.0,8388.0,8393.0,3,78.0,80.0,8385.0,8387.0,,,,,verb.communication,True,62,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+80,0,touched,3.0,10.0,8429.0,8436.0,3,0.0,2.0,8426.0,8428.0,15.0,22.0,8441.0,8448.0,verb.contact,True,63,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+84,1,following,5.0,14.0,8572.0,8581.0,3,0.0,1.0,8567.0,8568.0,,,,,verb.motion,True,65,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+86,1,think,8.0,13.0,8624.0,8629.0,3,4.0,7.0,8620.0,8623.0,,,,,verb.cognition,True,67,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+87,0,said,4.0,8.0,8656.0,8660.0,76,0.0,3.0,8652.0,8655.0,,,,,verb.communication,True,68,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+88,0,answered,10.0,18.0,8672.0,8680.0,3,7.0,9.0,8669.0,8671.0,,,,,verb.communication,True,69,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+91,1,pointed,28.0,35.0,8766.0,8773.0,76,0.0,3.0,8738.0,8741.0,,,,,verb.communication,True,71,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+92,3,traveling,71.0,80.0,8876.0,8885.0,82,58.0,60.0,8863.0,8865.0,,,,,verb.motion,True,73,subject,the young man,2.0,16.0,18.0,male,1.0,tertiary
+93,0,passed,3.0,9.0,8914.0,8920.0,82,0.0,2.0,8911.0,8913.0,18.0,28.0,8929.0,8939.0,verb.motion,True,72,subject,the young man,2.0,16.0,18.0,male,1.0,tertiary
+94,2,find,35.0,39.0,9113.0,9117.0,82,17.0,19.0,9095.0,9097.0,48.0,68.0,9126.0,9146.0,verb.possession,True,74,subject,the young man,2.0,16.0,18.0,male,1.0,tertiary
+95,0,heard,22.0,27.0,9170.0,9175.0,82,19.0,21.0,9167.0,9169.0,,,,,verb.perception,True,75,subject,the young man,2.0,16.0,18.0,male,1.0,tertiary
+96,1,see,45.0,48.0,9264.0,9267.0,85,9.0,31.0,9228.0,9250.0,,,,,verb.social,True,76,subject,the men of the village,1.0,2.0,3.0,male,1.0,tertiary
+97,1,told,13.0,17.0,9295.0,9299.0,82,0.0,2.0,9282.0,9284.0,,,,,verb.communication,True,77,subject,the young man,2.0,16.0,18.0,male,1.0,tertiary
+98,1,entertained,61.0,72.0,9468.0,9479.0,90,57.0,60.0,9464.0,9467.0,77.0,88.0,9484.0,9495.0,verb.emotion,True,78,subject,the young woman,2.0,3.0,5.0,female,1.0,tertiary
+100,1,passed,67.0,73.0,9657.0,9663.0,92,54.0,66.0,9644.0,9656.0,,,,,verb.motion,True,79,subject,the Red Swan,3.0,1.0,4.0,female,1.0,tertiary
+101,3,told,72.0,76.0,9763.0,9767.0,90,0.0,3.0,9691.0,9694.0,,,,,verb.communication,True,81,subject,the young woman,2.0,3.0,5.0,female,1.0,tertiary
+102,5,running,115.0,122.0,9972.0,9979.0,3,64.0,66.0,9921.0,9923.0,,,,,verb.motion,True,82,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+103,3,lost,48.0,52.0,10038.0,10042.0,3,41.0,43.0,10031.0,10033.0,,,,,verb.possession,True,83,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+105,2,saw,77.0,80.0,10225.0,10228.0,3,74.0,76.0,10222.0,10224.0,,,,,verb.perception,True,84,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+106,1,peeping,34.0,41.0,10303.0,10310.0,3,0.0,2.0,10269.0,10271.0,,,,,verb.contact,True,85,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+107,0,thought,7.0,14.0,10438.0,10445.0,3,0.0,6.0,10431.0,10437.0,,,,,verb.cognition,True,86,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+109,2,said,53.0,57.0,10590.0,10594.0,96,41.0,52.0,10578.0,10589.0,,,,,verb.communication,True,88,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+110,5,fatigued,83.0,91.0,10704.0,10712.0,3,71.0,74.0,10692.0,10695.0,,,,,verb.body,True,87,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+111,1,prepare,7.0,14.0,10721.0,10728.0,96,0.0,1.0,10714.0,10715.0,,,,,verb.change,True,89,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+112,1,entered,42.0,49.0,10838.0,10845.0,3,0.0,6.0,10796.0,10802.0,,,,,verb.motion,True,91,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+113,1,stands,87.0,93.0,10944.0,10950.0,96,66.0,86.0,10923.0,10943.0,,,,,verb.contact,True,90,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+115,0,took,8.0,12.0,11039.0,11043.0,96,0.0,2.0,11031.0,11033.0,,,,,verb.contact,True,92,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+116,2,thought,87.0,94.0,11201.0,11208.0,3,84.0,86.0,11198.0,11200.0,,,,,verb.cognition,True,94,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+117,1,promised,16.0,24.0,11266.0,11274.0,96,0.0,11.0,11250.0,11261.0,,,,,verb.communication,True,93,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+118,0,looked,7.0,13.0,11350.0,11356.0,3,0.0,6.0,11343.0,11349.0,,,,,verb.perception,True,95,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+119,1,said,38.0,42.0,11519.0,11523.0,96,26.0,37.0,11507.0,11518.0,,,,,verb.communication,True,96,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+120,1,added,35.0,40.0,11630.0,11635.0,96,23.0,34.0,11618.0,11629.0,,,,,verb.communication,True,97,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+122,1,helped,44.0,50.0,11805.0,11811.0,104,0.0,42.0,11761.0,11803.0,,,,,verb.contact,True,99,subject,"The young man , whose hunger was very great",1.0,1.0,2.0,male,1.0,tertiary
+123,6,said,84.0,88.0,11932.0,11936.0,96,72.0,83.0,11920.0,11931.0,,,,,verb.communication,True,100,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+125,0,"said--""help",24.0,35.0,11995.0,12006.0,96,15.0,17.0,11986.0,11988.0,45.0,57.0,12016.0,12028.0,verb.contact,True,102,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+126,1,dipping,25.0,32.0,12056.0,12063.0,3,0.0,6.0,12031.0,12037.0,,,,,verb.motion,True,101,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+127,0,emptied,12.0,19.0,12115.0,12122.0,3,9.0,11.0,12112.0,12114.0,23.0,36.0,12126.0,12139.0,verb.consumption,True,103,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+128,0,observed,17.0,25.0,12237.0,12245.0,96,0.0,11.0,12220.0,12231.0,,,,,verb.communication,True,104,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+130,2,address,46.0,53.0,12451.0,12458.0,96,21.0,32.0,12426.0,12437.0,,,,,verb.communication,True,105,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+131,1,said,26.0,30.0,12556.0,12560.0,380,1.0,23.0,12531.0,12553.0,,,,,verb.communication,True,106,subject,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+131,1,said,26.0,30.0,12556.0,12560.0,96,1.0,23.0,12531.0,12553.0,,,,,verb.communication,True,106,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+132,1,gain,17.0,21.0,12591.0,12595.0,380,1.0,4.0,12575.0,12578.0,,,,,verb.possession,True,108,subject,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+134,8,accomplish,155.0,165.0,12865.0,12875.0,380,135.0,138.0,12845.0,12848.0,,,,,verb.social,True,110,subject,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+135,5,returned,74.0,82.0,12964.0,12972.0,387,36.0,62.0,12926.0,12952.0,,,,,verb.motion,True,109,subject,those who have followed it,1.0,0.0,1.0,unknown,0.0,tertiary
+139,1,prepare,61.0,68.0,13182.0,13189.0,96,21.0,32.0,13142.0,13153.0,80.0,82.0,13201.0,13203.0,verb.change,True,111,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+140,1,gave,34.0,38.0,13279.0,13283.0,96,22.0,33.0,13267.0,13278.0,54.0,77.0,13299.0,13322.0,verb.communication,True,114,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+141,2,started,65.0,72.0,13389.0,13396.0,3,58.0,60.0,13382.0,13384.0,,,,,verb.change,True,113,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+143,0,directed,27.0,35.0,13692.0,13700.0,96,0.0,11.0,13665.0,13676.0,51.0,65.0,13716.0,13730.0,verb.communication,True,116,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+144,0,traveled,3.0,11.0,13735.0,13743.0,3,0.0,2.0,13732.0,13734.0,32.0,132.0,13764.0,13864.0,verb.motion,True,117,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+145,0,reached,25.0,32.0,13891.0,13898.0,3,0.0,24.0,13866.0,13890.0,,,,,verb.motion,True,118,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+146,1,heard,29.0,34.0,13960.0,13965.0,3,26.0,28.0,13957.0,13959.0,,,,,verb.perception,True,119,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+147,1,felt,27.0,31.0,14026.0,14030.0,3,24.0,26.0,14023.0,14025.0,38.0,45.0,14037.0,14044.0,verb.emotion,True,121,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+148,0,prepared,12.0,20.0,14058.0,14066.0,96,0.0,11.0,14046.0,14057.0,43.0,81.0,14089.0,14127.0,verb.change,True,120,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+150,3,addressed,72.0,81.0,14455.0,14464.0,96,69.0,71.0,14452.0,14454.0,,,,,verb.communication,True,122,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+152,3,succeed,62.0,69.0,14708.0,14715.0,125,54.0,57.0,14700.0,14703.0,,,,,verb.social,True,126,subject,Young man,1.0,5.0,6.0,male,1.0,tertiary
+153,1,following,22.0,31.0,14739.0,14748.0,125,0.0,13.0,14717.0,14730.0,,,,,verb.social,True,125,subject,Young man,1.0,5.0,6.0,male,1.0,tertiary
+154,0,wore,19.0,23.0,14901.0,14905.0,96,16.0,18.0,14898.0,14900.0,,,,,verb.body,True,124,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+155,0,came,51.0,55.0,15007.0,15011.0,131,4.0,49.0,14960.0,15005.0,,,,,verb.motion,True,127,subject,warriors of a distant chief,1.0,0.0,1.0,unknown,0.0,tertiary
+155,0,came,51.0,55.0,15007.0,15011.0,132,4.0,49.0,14960.0,15005.0,,,,,verb.motion,True,127,subject,a distant chief,1.0,0.0,1.0,unknown,0.0,tertiary
+155,0,came,51.0,55.0,15007.0,15011.0,6,4.0,49.0,14960.0,15005.0,,,,,verb.motion,True,127,subject,Indians,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+156,2,said,28.0,32.0,15204.0,15208.0,133,24.0,27.0,15200.0,15203.0,,,,,verb.communication,True,128,subject,Indians's chief 's daughter,1.0,5.0,6.0,female,1.0,tertiary
+161,4,procure,77.0,84.0,16033.0,16040.0,138,69.0,73.0,16025.0,16029.0,,,,,verb.possession,True,132,subject,the warriors,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+164,1,ask,8.0,11.0,16355.0,16358.0,148,0.0,2.0,16347.0,16349.0,16.0,18.0,16363.0,16365.0,verb.communication,True,134,subject,this magician,1.0,7.0,8.0,male,1.0,tertiary
+166,1,question,8.0,16.0,16408.0,16416.0,148,0.0,2.0,16400.0,16402.0,21.0,28.0,16421.0,16428.0,verb.communication,True,136,subject,this magician,1.0,7.0,8.0,male,1.0,tertiary
+167,2,urge,46.0,50.0,16533.0,16537.0,148,38.0,40.0,16525.0,16527.0,,,,,verb.communication,True,137,subject,this magician,1.0,7.0,8.0,male,1.0,tertiary
+168,1,show,8.0,12.0,16588.0,16592.0,148,0.0,2.0,16580.0,16582.0,,,,,verb.perception,True,138,subject,this magician,1.0,7.0,8.0,male,1.0,tertiary
+170,0,answered,7.0,15.0,16773.0,16781.0,3,0.0,6.0,16766.0,16772.0,,,,,verb.communication,True,140,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+172,1,heard,49.0,54.0,17036.0,17041.0,3,16.0,22.0,17003.0,17009.0,,,,,verb.perception,True,141,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+174,2,saw,103.0,106.0,17316.0,17319.0,3,96.0,102.0,17309.0,17315.0,,,,,verb.cognition,True,142,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+175,3,prepare,40.0,47.0,17412.0,17419.0,135,38.0,39.0,17410.0,17411.0,,,,,verb.change,True,143,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+176,0,see,4.0,7.0,17446.0,17449.0,159,0.0,3.0,17442.0,17445.0,,,,,verb.cognition,True,145,subject,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+177,1,attend,10.0,16.0,17475.0,17481.0,135,0.0,1.0,17465.0,17466.0,38.0,102.0,17503.0,17567.0,verb.social,True,144,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+178,3,please,46.0,52.0,17615.0,17621.0,159,42.0,45.0,17611.0,17614.0,,,,,verb.emotion,True,147,subject,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+180,5,addressing,105.0,115.0,17781.0,17791.0,135,62.0,74.0,17738.0,17750.0,,,,,verb.communication,True,146,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+182,7,addressed,256.0,265.0,18133.0,18142.0,135,234.0,246.0,18111.0,18123.0,,,,,verb.communication,True,149,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+183,1,answered,36.0,44.0,18225.0,18233.0,135,23.0,35.0,18212.0,18224.0,,,,,verb.communication,True,150,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+186,0,choose,13.0,19.0,18332.0,18338.0,159,9.0,12.0,18328.0,18331.0,,,,,verb.cognition,True,152,subject,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+187,3,help,61.0,65.0,18402.0,18406.0,3,51.0,57.0,18392.0,18398.0,,,,,verb.social,True,154,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+188,3,dip,63.0,66.0,18479.0,18482.0,3,43.0,49.0,18459.0,18465.0,,,,,verb.body,True,153,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+189,0,paused,3.0,9.0,18500.0,18506.0,135,0.0,2.0,18497.0,18499.0,,,,,verb.communication,True,155,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+190,1,satisfied,19.0,28.0,18629.0,18638.0,3,0.0,6.0,18610.0,18616.0,,,,,verb.consumption,True,156,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+193,5,say,72.0,75.0,18806.0,18809.0,82,46.0,50.0,18780.0,18784.0,,,,,verb.communication,True,158,subject,the young man,2.0,16.0,18.0,male,1.0,tertiary
+195,1,added,14.0,19.0,18870.0,18875.0,135,11.0,13.0,18867.0,18869.0,32.0,45.0,18888.0,18901.0,verb.communication,True,160,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+197,2,heard,101.0,106.0,19123.0,19128.0,3,94.0,100.0,19116.0,19122.0,,,,,verb.perception,True,163,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+198,6,lost,132.0,136.0,19369.0,19373.0,3,125.0,127.0,19362.0,19364.0,,,,,verb.possession,True,162,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+199,4,treating,102.0,110.0,19683.0,19691.0,173,78.0,92.0,19659.0,19673.0,,,,,verb.body,True,164,subject,those who retained it,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+200,2,say,47.0,50.0,19744.0,19747.0,172,23.0,39.0,19720.0,19736.0,,,,,verb.communication,True,166,subject,the old magician,2.0,2.0,4.0,male,1.0,tertiary
+201,6,procure,162.0,169.0,19933.0,19940.0,3,123.0,125.0,19894.0,19896.0,,,,,verb.possession,True,165,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+202,0,told,12.0,16.0,19971.0,19975.0,3,0.0,6.0,19959.0,19965.0,,,,,verb.communication,True,167,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+203,0,groaned,13.0,20.0,20004.0,20011.0,135,0.0,12.0,19991.0,20003.0,,,,,verb.communication,True,168,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+204,1,said,25.0,29.0,20038.0,20042.0,135,1.0,19.0,20014.0,20032.0,,,,,verb.communication,True,170,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+205,0,told,7.0,11.0,20051.0,20055.0,3,0.0,6.0,20044.0,20050.0,,,,,verb.communication,True,169,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+206,1,said,42.0,46.0,20126.0,20130.0,135,0.0,12.0,20084.0,20096.0,,,,,verb.communication,True,171,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+209,0,told,8.0,12.0,20418.0,20422.0,3,5.0,7.0,20415.0,20417.0,,,,,verb.communication,True,174,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+213,0,added,13.0,18.0,20542.0,20547.0,135,0.0,12.0,20529.0,20541.0,,,,,verb.communication,True,176,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+214,1,cause,10.0,15.0,20559.0,20564.0,3,1.0,4.0,20550.0,20553.0,,,,,verb.communication,True,178,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+215,3,say,35.0,38.0,20612.0,20615.0,3,9.0,13.0,20586.0,20590.0,,,,,verb.communication,True,177,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+216,4,recover,40.0,47.0,20657.0,20664.0,3,28.0,31.0,20645.0,20648.0,,,,,verb.possession,True,179,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+217,2,go,28.0,30.0,20709.0,20711.0,3,21.0,22.0,20702.0,20703.0,,,,,verb.motion,True,180,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+218,3,know,83.0,87.0,20795.0,20799.0,3,74.0,77.0,20786.0,20789.0,,,,,verb.cognition,True,182,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+219,1,prepare,9.0,16.0,20831.0,20838.0,3,0.0,3.0,20822.0,20825.0,62.0,115.0,20884.0,20937.0,verb.change,True,181,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+221,0,say,8.0,11.0,20979.0,20982.0,3,4.0,7.0,20975.0,20978.0,,,,,verb.communication,True,184,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+222,1,fulfill,41.0,48.0,21042.0,21049.0,3,23.0,29.0,21024.0,21030.0,,,,,verb.creation,True,185,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+223,1,heard,58.0,63.0,21120.0,21125.0,3,55.0,57.0,21117.0,21119.0,,,,,verb.perception,True,187,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+224,2,thought,45.0,52.0,21206.0,21213.0,3,42.0,44.0,21203.0,21205.0,,,,,verb.cognition,True,186,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+226,0,perceived,30.0,39.0,21399.0,21408.0,3,27.0,29.0,21396.0,21398.0,,,,,verb.perception,True,189,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+228,2,dancing,74.0,81.0,21548.0,21555.0,185,64.0,68.0,21538.0,21542.0,111.0,120.0,21585.0,21594.0,verb.creation,True,190,subject,a few men,1.0,4.0,5.0,male,1.0,tertiary
+229,2,observed,19.0,27.0,21615.0,21623.0,3,7.0,9.0,21603.0,21605.0,,,,,verb.perception,True,191,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+230,0,passed,6.0,12.0,21702.0,21708.0,3,3.0,5.0,21699.0,21701.0,,,,,verb.motion,True,193,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+231,1,reached,18.0,25.0,21931.0,21938.0,3,0.0,6.0,21913.0,21919.0,,,,,verb.motion,True,192,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+232,0,loosened,3.0,11.0,22117.0,22125.0,3,0.0,2.0,22114.0,22116.0,,,,,verb.contact,True,194,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+233,4,buoyed,88.0,94.0,22296.0,22302.0,191,0.0,18.0,22208.0,22226.0,,,,,verb.creation,True,195,subject,The Indians around,1.0,0.0,1.0,unknown,0.0,tertiary
+234,0,saw,8.0,11.0,22319.0,22322.0,188,3.0,7.0,22314.0,22318.0,,,,,verb.perception,True,196,subject,some of those who were standing by,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+236,1,borne,11.0,16.0,22418.0,22423.0,3,0.0,6.0,22407.0,22413.0,,,,,verb.motion,True,197,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+237,0,followed,13.0,21.0,22485.0,22493.0,188,8.0,12.0,22480.0,22484.0,,,,,verb.motion,True,199,subject,some of those who were standing by,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+239,2,crying,90.0,96.0,22768.0,22774.0,3,0.0,22.0,22678.0,22700.0,,,,,verb.communication,True,201,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+242,3,heard,118.0,123.0,22992.0,22997.0,135,115.0,117.0,22989.0,22991.0,,,,,verb.perception,True,202,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+243,5,quivered,161.0,169.0,23187.0,23195.0,3,138.0,147.0,23164.0,23173.0,,,,,verb.body,True,203,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+245,4,returning,112.0,121.0,23608.0,23617.0,135,95.0,107.0,23591.0,23603.0,,,,,verb.change,True,205,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+246,1,stood,35.0,40.0,23653.0,23658.0,135,23.0,25.0,23641.0,23643.0,,,,,verb.contact,True,206,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+247,1,behold,34.0,40.0,23708.0,23714.0,3,24.0,30.0,23698.0,23704.0,,,,,verb.perception,True,207,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+248,1,said,27.0,31.0,23900.0,23904.0,395,1.0,21.0,23874.0,23894.0,,,,,verb.communication,True,209,subject,The magician's friend,3.0,0.0,3.0,unknown,0.0,tertiary
+248,1,said,27.0,31.0,23900.0,23904.0,135,1.0,21.0,23874.0,23894.0,,,,,verb.communication,True,209,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+248,1,said,27.0,31.0,23900.0,23904.0,3,1.0,21.0,23874.0,23894.0,,,,,verb.communication,True,209,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+249,1,restored,41.0,49.0,23947.0,23955.0,3,1.0,35.0,23907.0,23941.0,,,,,verb.change,True,208,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+250,2,accomplished,37.0,49.0,24016.0,24028.0,3,24.0,27.0,24003.0,24006.0,,,,,verb.social,True,210,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+252,0,urged,24.0,29.0,24081.0,24086.0,205,5.0,23.0,24062.0,24080.0,56.0,70.0,24113.0,24127.0,verb.communication,True,212,subject,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+253,0,alluded,55.0,62.0,24235.0,24242.0,135,0.0,12.0,24180.0,24192.0,79.0,103.0,24259.0,24283.0,verb.communication,True,211,subject,The magician,18.0,40.0,58.0,male,1.0,tertiary
+254,1,prepared,36.0,44.0,24321.0,24329.0,3,29.0,35.0,24314.0,24320.0,,,,,verb.cognition,True,213,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+255,0,bestowed,19.0,27.0,24372.0,24380.0,205,0.0,18.0,24353.0,24371.0,,,,,verb.possession,True,214,subject,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+257,0,observed,30.0,38.0,24767.0,24775.0,205,0.0,29.0,24737.0,24766.0,,,,,verb.perception,True,215,subject,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+257,0,observed,30.0,38.0,24767.0,24775.0,211,0.0,29.0,24737.0,24766.0,,,,,verb.perception,True,215,subject,the young magician's friend,1.0,0.0,1.0,unknown,0.0,tertiary
+258,4,addressed,110.0,119.0,24916.0,24925.0,205,86.0,104.0,24892.0,24910.0,,,,,verb.communication,True,217,subject,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+259,1,proved,9.0,15.0,25054.0,25060.0,3,0.0,3.0,25045.0,25048.0,,,,,verb.cognition,True,219,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+260,1,accomplished,9.0,21.0,25088.0,25100.0,3,0.0,3.0,25079.0,25082.0,,,,,verb.social,True,218,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+261,2,succeed,68.0,75.0,25235.0,25242.0,3,52.0,55.0,25219.0,25222.0,,,,,verb.social,True,220,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+266,2,understand,49.0,59.0,25627.0,25637.0,3,17.0,27.0,25595.0,25605.0,,,,,verb.cognition,True,224,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+267,1,beheld,34.0,40.0,25737.0,25743.0,3,31.0,33.0,25734.0,25736.0,,,,,verb.cognition,True,226,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+268,1,said,31.0,35.0,25946.0,25950.0,216,1.0,9.0,25916.0,25924.0,,,,,verb.communication,True,227,subject,a beautiful female,1.0,6.0,7.0,female,1.0,tertiary
+268,1,said,31.0,35.0,25946.0,25950.0,205,1.0,9.0,25916.0,25924.0,,,,,verb.communication,True,227,subject,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+271,2,done,40.0,44.0,26027.0,26031.0,3,26.0,30.0,26013.0,26017.0,,,,,verb.social,True,228,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+272,1,go,16.0,18.0,26068.0,26070.0,216,0.0,3.0,26052.0,26055.0,,,,,verb.motion,True,231,subject,a beautiful female,1.0,6.0,7.0,female,1.0,tertiary
+274,1,advanced,42.0,50.0,26236.0,26244.0,3,30.0,36.0,26224.0,26230.0,,,,,verb.motion,True,230,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+277,2,entertained,76.0,87.0,26624.0,26635.0,119,37.0,67.0,26585.0,26615.0,,,,,verb.social,True,232,subject,the third old man,2.0,1.0,3.0,male,1.0,tertiary
+279,4,secured,110.0,117.0,26805.0,26812.0,3,88.0,105.0,26783.0,26800.0,,,,,verb.possession,True,234,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+280,2,succeed,28.0,35.0,26845.0,26852.0,3,19.0,22.0,26836.0,26839.0,,,,,verb.social,True,236,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+281,3,presented,110.0,119.0,26991.0,27000.0,96,84.0,99.0,26965.0,26980.0,,,,,verb.possession,True,235,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+283,0,hope,7.0,11.0,27087.0,27091.0,96,5.0,6.0,27085.0,27086.0,,,,,verb.emotion,True,237,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+286,0,gave,9.0,13.0,27233.0,27237.0,96,1.0,3.0,27225.0,27227.0,,,,,verb.possession,True,240,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+287,1,see,15.0,18.0,27295.0,27298.0,3,8.0,14.0,27288.0,27294.0,,,,,verb.perception,True,241,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+289,0,glanced,17.0,24.0,27508.0,27515.0,3,10.0,16.0,27501.0,27507.0,,,,,verb.perception,True,243,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+290,2,said,79.0,83.0,27725.0,27729.0,96,76.0,78.0,27722.0,27724.0,,,,,verb.communication,True,245,subject,The old man,18.0,41.0,59.0,male,1.0,tertiary
+291,3,passed,91.0,97.0,27830.0,27836.0,3,59.0,73.0,27798.0,27812.0,,,,,verb.motion,True,244,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+292,2,pointing,46.0,54.0,27976.0,27984.0,68,35.0,44.0,27965.0,27974.0,,,,,verb.communication,True,246,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+293,0,said,19.0,23.0,28034.0,28038.0,76,1.0,13.0,28016.0,28028.0,,,,,verb.communication,True,248,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+293,0,said,19.0,23.0,28034.0,28038.0,68,1.0,13.0,28016.0,28028.0,,,,,verb.communication,True,248,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+294,1,engaged,25.0,32.0,28081.0,28088.0,76,0.0,20.0,28056.0,28076.0,,,,,verb.social,True,247,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+294,1,engaged,25.0,32.0,28081.0,28088.0,68,0.0,20.0,28056.0,28076.0,,,,,verb.social,True,247,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+298,1,presented,37.0,46.0,28499.0,28508.0,3,34.0,36.0,28496.0,28498.0,,,,,verb.communication,True,251,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+299,0,stole,21.0,26.0,28544.0,28549.0,76,0.0,20.0,28523.0,28543.0,,,,,verb.motion,True,252,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+299,0,stole,21.0,26.0,28544.0,28549.0,68,0.0,20.0,28523.0,28543.0,,,,,verb.motion,True,252,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+300,1,working,12.0,19.0,28631.0,28638.0,76,0.0,3.0,28619.0,28622.0,,,,,verb.social,True,253,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+301,3,telling,112.0,119.0,28799.0,28806.0,68,0.0,17.0,28687.0,28704.0,,,,,verb.communication,True,254,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+302,0,said,7.0,11.0,28882.0,28886.0,3,0.0,6.0,28875.0,28881.0,,,,,verb.communication,True,255,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+303,1,saying,25.0,31.0,28919.0,28925.0,68,0.0,9.0,28894.0,28903.0,,,,,verb.communication,True,257,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+306,1,kill,7.0,11.0,29253.0,29257.0,68,0.0,1.0,29246.0,29247.0,,,,,verb.contact,True,260,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+307,2,gave,52.0,56.0,29316.0,29320.0,68,4.0,6.0,29268.0,29270.0,,,,,verb.possession,True,259,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+308,1,came,48.0,52.0,29402.0,29406.0,403,39.0,47.0,29393.0,29401.0,,,,,verb.motion,True,261,subject,,,,,,,
+309,0,took,93.0,97.0,29594.0,29598.0,92,41.0,91.0,29542.0,29592.0,,,,,verb.motion,True,262,subject,the Red Swan,3.0,1.0,4.0,female,1.0,tertiary
+309,0,took,93.0,97.0,29594.0,29598.0,76,41.0,91.0,29542.0,29592.0,,,,,verb.motion,True,262,subject,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+309,0,took,93.0,97.0,29594.0,29598.0,3,41.0,91.0,29542.0,29592.0,,,,,verb.motion,True,262,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+309,0,took,93.0,97.0,29594.0,29598.0,68,41.0,91.0,29542.0,29592.0,,,,,verb.motion,True,262,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+310,0,gave,13.0,17.0,29688.0,29692.0,66,0.0,12.0,29675.0,29687.0,,,,,verb.communication,True,263,subject,The watchman,4.0,1.0,5.0,male,1.0,tertiary
+312,2,did,74.0,77.0,29944.0,29947.0,274,60.0,73.0,29930.0,29943.0,,,,,verb.social,True,265,subject,the two women,1.0,0.0,1.0,female,1.0,tertiary
+313,1,asked,78.0,83.0,30036.0,30041.0,68,68.0,77.0,30026.0,30035.0,,,,,verb.communication,True,266,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+314,0,gave,7.0,11.0,30203.0,30207.0,3,0.0,6.0,30196.0,30202.0,,,,,verb.possession,True,267,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+316,0,informed,15.0,23.0,30390.0,30398.0,68,0.0,9.0,30375.0,30384.0,,,,,verb.communication,True,269,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+317,0,added,3.0,8.0,30566.0,30571.0,68,0.0,2.0,30563.0,30565.0,,,,,verb.communication,True,271,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+318,3,enter,76.0,81.0,30774.0,30779.0,407,51.0,55.0,30749.0,30753.0,,,,,verb.social,True,270,subject,the chief's daughter's brothers,1.0,2.0,3.0,male,1.0,tertiary
+319,1,returned,33.0,41.0,30832.0,30840.0,407,0.0,4.0,30799.0,30803.0,,,,,verb.motion,True,272,subject,the chief's daughter's brothers,1.0,2.0,3.0,male,1.0,tertiary
+320,2,treat,27.0,32.0,30869.0,30874.0,71,0.0,3.0,30842.0,30845.0,,,,,verb.social,True,275,subject,the chief's daughter,5.0,3.0,8.0,unknown,0.0,tertiary
+321,3,disposed,94.0,102.0,31025.0,31033.0,284,55.0,77.0,30986.0,31008.0,,,,,verb.cognition,True,274,subject,some one of the number,1.0,0.0,1.0,unknown,0.0,tertiary
+323,2,given,62.0,67.0,31142.0,31147.0,3,51.0,57.0,31131.0,31137.0,,,,,verb.possession,True,273,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+324,0,want,2.0,6.0,31300.0,31304.0,289,0.0,1.0,31298.0,31299.0,,,,,verb.emotion,True,276,subject,this pretender,1.0,2.0,3.0,unknown,0.0,tertiary
+325,3,quarrel,51.0,58.0,31369.0,31376.0,3,0.0,18.0,31318.0,31336.0,,,,,verb.communication,True,277,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+325,3,quarrel,51.0,58.0,31369.0,31376.0,68,0.0,18.0,31318.0,31336.0,,,,,verb.communication,True,277,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+326,2,strike,53.0,59.0,31475.0,31481.0,3,10.0,12.0,31432.0,31434.0,,,,,verb.contact,True,279,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+327,0,sat,7.0,10.0,31490.0,31493.0,3,0.0,6.0,31483.0,31489.0,,,,,verb.contact,True,278,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+328,0,cried,3.0,8.0,31539.0,31544.0,3,0.0,2.0,31536.0,31538.0,,,,,verb.communication,True,280,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+329,2,took,56.0,60.0,31649.0,31653.0,288,10.0,23.0,31603.0,31616.0,,,,,verb.motion,True,281,subject,the old chief,2.0,1.0,3.0,male,1.0,tertiary
+330,0,came,25.0,29.0,31808.0,31812.0,3,22.0,24.0,31805.0,31807.0,,,,,verb.motion,True,282,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+331,4,visit,108.0,113.0,32030.0,32035.0,297,51.0,88.0,31973.0,32010.0,,,,,verb.social,True,283,subject,the families of the chief,1.0,0.0,1.0,unknown,0.0,tertiary
+331,4,visit,108.0,113.0,32030.0,32035.0,296,51.0,88.0,31973.0,32010.0,,,,,verb.social,True,283,subject,a number of the families of the chief,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+331,4,visit,108.0,113.0,32030.0,32035.0,68,51.0,88.0,31973.0,32010.0,,,,,verb.social,True,283,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+332,2,joined,65.0,71.0,32187.0,32193.0,299,35.0,50.0,32157.0,32172.0,,,,,verb.social,True,284,subject,a large company,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+333,0,escorted,42.0,50.0,32243.0,32251.0,301,5.0,40.0,32206.0,32241.0,56.0,71.0,32257.0,32272.0,verb.motion,True,285,subject,a party of warriors,1.0,0.0,1.0,unknown,0.0,tertiary
+333,0,escorted,42.0,50.0,32243.0,32251.0,302,5.0,40.0,32206.0,32241.0,56.0,71.0,32257.0,32272.0,verb.motion,True,285,subject,warriors,1.0,0.0,1.0,unknown,0.0,tertiary
+333,0,escorted,42.0,50.0,32243.0,32251.0,68,5.0,40.0,32206.0,32241.0,56.0,71.0,32257.0,32272.0,verb.motion,True,285,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+334,2,besought,50.0,58.0,32324.0,32332.0,68,22.0,31.0,32296.0,32305.0,91.0,116.0,32365.0,32390.0,verb.communication,True,286,subject,the chief,26.0,29.0,55.0,male,1.0,tertiary
+335,4,heard,83.0,88.0,32475.0,32480.0,299,51.0,66.0,32443.0,32458.0,99.0,224.0,32491.0,32616.0,verb.perception,True,287,subject,a large company,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+336,0,came,51.0,55.0,32669.0,32673.0,305,28.0,50.0,32646.0,32668.0,,,,,verb.motion,True,288,subject,Maidwa's friends,3.0,0.0,3.0,unknown,0.0,tertiary
+336,0,came,51.0,55.0,32669.0,32673.0,3,28.0,50.0,32646.0,32668.0,,,,,verb.motion,True,288,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+337,1,went,44.0,48.0,32740.0,32744.0,3,41.0,43.0,32737.0,32739.0,,,,,verb.motion,True,289,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+338,0,entered,3.0,10.0,32786.0,32793.0,3,0.0,2.0,32783.0,32785.0,,,,,verb.motion,True,291,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+342,0,presented,9.0,18.0,33100.0,33109.0,314,0.0,8.0,33091.0,33099.0,,,,,verb.perception,True,293,subject,This one,1.0,0.0,1.0,unknown,0.0,tertiary
+343,5,notice,64.0,70.0,33236.0,33242.0,3,51.0,53.0,33223.0,33225.0,,,,,verb.perception,True,292,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+344,5,expressed,123.0,132.0,33389.0,33398.0,10,0.0,10.0,33266.0,33276.0,142.0,155.0,33408.0,33421.0,verb.communication,True,295,subject,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+345,5,brought,78.0,85.0,33501.0,33508.0,3,71.0,73.0,33494.0,33496.0,,,,,verb.contact,True,294,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+346,7,come,135.0,139.0,33665.0,33669.0,258,126.0,129.0,33656.0,33659.0,,,,,verb.motion,True,296,subject,a wife,3.0,1.0,4.0,female,1.0,tertiary
+348,0,commenced,8.0,17.0,33747.0,33756.0,2,0.0,2.0,33739.0,33741.0,,,,,verb.change,True,298,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+350,1,gave,34.0,38.0,33845.0,33849.0,2,13.0,30.0,33824.0,33841.0,,,,,verb.communication,True,299,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+351,0,told,7.0,11.0,33870.0,33874.0,3,0.0,6.0,33863.0,33869.0,,,,,verb.communication,True,300,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+354,1,said,24.0,28.0,34176.0,34180.0,2,21.0,23.0,34173.0,34175.0,,,,,verb.communication,True,303,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+355,1,know,21.0,25.0,34234.0,34238.0,2,2.0,4.0,34215.0,34217.0,,,,,verb.cognition,True,304,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+356,3,peep,54.0,58.0,34299.0,34303.0,2,1.0,3.0,34246.0,34248.0,,,,,verb.perception,True,306,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+357,0,acted,12.0,17.0,34332.0,34337.0,2,9.0,11.0,34329.0,34331.0,27.0,41.0,34347.0,34361.0,verb.body,True,305,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+358,7,presented,95.0,104.0,34458.0,34467.0,3,88.0,94.0,34451.0,34457.0,157.0,221.0,34520.0,34584.0,verb.possession,True,307,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+359,0,give,6.0,10.0,34592.0,34596.0,3,0.0,1.0,34586.0,34587.0,,,,,verb.possession,True,309,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+360,0,intended,2.0,10.0,34612.0,34620.0,3,0.0,1.0,34610.0,34611.0,,,,,verb.cognition,True,308,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+361,2,think,31.0,36.0,34672.0,34677.0,2,29.0,30.0,34670.0,34671.0,,,,,verb.cognition,True,310,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+362,1,said,47.0,51.0,34770.0,34774.0,3,0.0,6.0,34723.0,34729.0,,,,,verb.communication,True,312,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+363,0,hung,9.0,13.0,34838.0,34842.0,2,0.0,8.0,34829.0,34837.0,28.0,48.0,34857.0,34877.0,verb.motion,True,311,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+364,1,acted,40.0,45.0,35005.0,35010.0,2,10.0,12.0,34975.0,34977.0,,,,,verb.body,True,313,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+365,5,said,74.0,78.0,35122.0,35126.0,334,0.0,72.0,35048.0,35120.0,,,,,verb.communication,True,315,subject,the company,1.0,0.0,1.0,unknown,0.0,tertiary
+365,5,said,74.0,78.0,35122.0,35126.0,3,0.0,72.0,35048.0,35120.0,,,,,verb.communication,True,315,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+366,1,spoken,17.0,23.0,35173.0,35179.0,2,0.0,2.0,35156.0,35158.0,,,,,verb.communication,True,314,subject,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+369,5,joined,176.0,182.0,35792.0,35798.0,337,158.0,175.0,35774.0,35791.0,,,,,verb.social,True,317,subject,the fourth kettle,1.0,0.0,1.0,unknown,0.0,tertiary
+370,1,advanced,38.0,46.0,35953.0,35961.0,339,23.0,37.0,35938.0,35952.0,,,,,verb.motion,True,319,subject,the big kettle,1.0,1.0,2.0,male,1.0,tertiary
+372,1,plied,40.0,45.0,36099.0,36104.0,338,14.0,18.0,36073.0,36077.0,59.0,79.0,36118.0,36138.0,verb.consumption,True,318,subject,the three cooks,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+377,1,look,34.0,38.0,36445.0,36449.0,343,8.0,24.0,36419.0,36435.0,,,,,verb.perception,True,321,subject,the two brothers,1.0,10.0,11.0,male,1.0,tertiary
+378,0,upbraided,6.0,15.0,36571.0,36580.0,343,1.0,5.0,36566.0,36570.0,20.0,48.0,36585.0,36613.0,verb.communication,True,322,subject,the two brothers,1.0,10.0,11.0,male,1.0,tertiary
+379,1,said,39.0,43.0,36654.0,36658.0,3,36.0,38.0,36651.0,36653.0,,,,,verb.communication,True,324,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+381,4,came,113.0,117.0,36893.0,36897.0,3,110.0,112.0,36890.0,36892.0,,,,,verb.motion,True,323,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+383,0,saw,8.0,11.0,37178.0,37181.0,3,5.0,7.0,37175.0,37177.0,,,,,verb.perception,True,325,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+384,0,came,13.0,17.0,37251.0,37255.0,3,10.0,12.0,37248.0,37250.0,,,,,verb.motion,True,326,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+385,1,addressed,34.0,43.0,37307.0,37316.0,343,29.0,33.0,37302.0,37306.0,,,,,verb.communication,True,327,subject,the two brothers,1.0,10.0,11.0,male,1.0,tertiary
+386,0,asked,5.0,10.0,37343.0,37348.0,343,0.0,4.0,37338.0,37342.0,,,,,verb.communication,True,328,subject,the two brothers,1.0,10.0,11.0,male,1.0,tertiary
+387,0,answered,3.0,11.0,37454.0,37462.0,3,0.0,2.0,37451.0,37453.0,,,,,verb.communication,True,329,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+389,0,know,9.0,13.0,37628.0,37632.0,343,6.0,8.0,37625.0,37627.0,,,,,verb.cognition,True,330,subject,the two brothers,1.0,10.0,11.0,male,1.0,tertiary
+390,1,come,10.0,14.0,37742.0,37746.0,3,1.0,4.0,37733.0,37736.0,,,,,verb.motion,True,332,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+391,1,return,9.0,15.0,37840.0,37846.0,3,0.0,3.0,37831.0,37834.0,48.0,106.0,37879.0,37937.0,verb.motion,True,333,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+393,1,find,9.0,13.0,38096.0,38100.0,3,0.0,3.0,38087.0,38090.0,30.0,47.0,38117.0,38134.0,verb.possession,True,334,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+394,2,die,37.0,40.0,38173.0,38176.0,3,0.0,3.0,38136.0,38139.0,,,,,verb.change,True,337,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+395,1,go,8.0,10.0,38194.0,38196.0,3,0.0,3.0,38186.0,38189.0,22.0,45.0,38208.0,38231.0,verb.social,True,336,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+396,0,looked,7.0,13.0,38241.0,38247.0,3,0.0,6.0,38234.0,38240.0,,,,,verb.perception,True,335,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+398,0,asked,3.0,8.0,38394.0,38399.0,3,0.0,2.0,38391.0,38393.0,,,,,verb.communication,True,338,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+401,0,asked,13.0,18.0,38520.0,38525.0,3,0.0,6.0,38507.0,38513.0,,,,,verb.communication,True,339,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+404,1,stood,63.0,68.0,38726.0,38731.0,3,54.0,56.0,38717.0,38719.0,,,,,verb.contact,True,343,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+405,0,learned,17.0,24.0,38807.0,38814.0,3,0.0,8.0,38790.0,38798.0,,,,,verb.cognition,True,342,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+408,0,heard,3.0,8.0,39221.0,39226.0,3,0.0,2.0,39218.0,39220.0,,,,,verb.perception,True,347,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+409,1,quarreling,10.0,20.0,39293.0,39303.0,21,0.0,4.0,39283.0,39287.0,,,,,verb.communication,True,346,subject,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+410,0,listened,7.0,15.0,39426.0,39434.0,3,0.0,6.0,39419.0,39425.0,,,,,verb.perception,True,348,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+411,0,entered,3.0,10.0,39459.0,39466.0,3,0.0,2.0,39456.0,39458.0,22.0,102.0,39478.0,39558.0,verb.motion,True,349,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+412,0,spoke,3.0,8.0,39563.0,39568.0,3,0.0,2.0,39560.0,39562.0,,,,,verb.communication,True,350,subject,Maidwa,98.0,383.0,481.0,male,1.0,primary
+413,2,spoke,54.0,59.0,39725.0,39730.0,369,15.0,33.0,39686.0,39704.0,,,,,verb.communication,True,351,subject,the talking kettle,1.0,0.0,1.0,unknown,0.0,tertiary
+0,1,left,20.0,24.0,20.0,24.0,9,25.0,34.0,25.0,34.0,67.0,82.0,,,verb.change,True,0,direct_object,Three brothers's parents,2.0,0.0,2.0,unknown,0.0,tertiary
+0,1,left,20.0,24.0,20.0,24.0,8,25.0,34.0,25.0,34.0,67.0,82.0,,,verb.change,True,0,direct_object,Three brothers,1.0,13.0,14.0,male,1.0,tertiary
+1,2,did,71.0,74.0,155.0,158.0,10,75.0,92.0,159.0,176.0,93.0,103.0,177.0,187.0,verb.social,True,1,direct_object,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+3,4,withdrawn,70.0,79.0,360.0,369.0,14,98.0,124.0,388.0,414.0,,,,,verb.motion,True,2,direct_object,the tribe,1.0,0.0,1.0,unknown,0.0,tertiary
+4,0,had,9.0,12.0,471.0,474.0,16,13.0,59.0,475.0,521.0,,,,,verb.perception,True,5,direct_object,a human being,1.0,0.0,1.0,unknown,0.0,tertiary
+4,0,had,9.0,12.0,471.0,474.0,15,13.0,59.0,475.0,521.0,,,,,verb.perception,True,5,direct_object,The lads,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+5,1,know,18.0,22.0,541.0,545.0,9,23.0,49.0,546.0,572.0,,,,,verb.cognition,True,4,direct_object,Three brothers's parents,2.0,0.0,2.0,unknown,0.0,tertiary
+5,1,know,18.0,22.0,541.0,545.0,15,23.0,49.0,546.0,572.0,,,,,verb.cognition,True,4,direct_object,The lads,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+10,0,instructed,3.0,13.0,978.0,988.0,22,14.0,26.0,989.0,1001.0,,,,,verb.communication,True,10,direct_object,the eldest's master over a particular animal which was assigned to him,1.0,0.0,1.0,unknown,0.0,tertiary
+10,0,instructed,3.0,13.0,978.0,988.0,21,14.0,26.0,989.0,1001.0,,,,,verb.communication,True,10,direct_object,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+10,0,instructed,3.0,13.0,978.0,988.0,10,14.0,26.0,989.0,1001.0,,,,,verb.communication,True,10,direct_object,the eldest,4.0,9.0,13.0,male,1.0,tertiary
+11,10,procure,174.0,181.0,1265.0,1272.0,8,182.0,192.0,1273.0,1283.0,,,,,verb.possession,True,11,direct_object,Three brothers,1.0,13.0,14.0,male,1.0,tertiary
+12,2,said,56.0,60.0,1341.0,1345.0,23,61.0,94.0,1346.0,1379.0,,,,,verb.communication,True,12,direct_object,the elder,1.0,4.0,5.0,male,1.0,tertiary
+12,2,said,56.0,60.0,1341.0,1345.0,21,61.0,94.0,1346.0,1379.0,,,,,verb.communication,True,12,direct_object,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+16,3,making,122.0,128.0,1766.0,1772.0,27,129.0,136.0,1773.0,1780.0,,,,,verb.creation,True,14,direct_object,the three brothers,1.0,10.0,11.0,male,1.0,tertiary
+18,0,had,9.0,12.0,1885.0,1888.0,27,13.0,97.0,1889.0,1973.0,,,,,verb.possession,True,13,direct_object,the three brothers,1.0,10.0,11.0,male,1.0,tertiary
+23,0,followed,13.0,21.0,2359.0,2367.0,3,22.0,25.0,2368.0,2371.0,26.0,33.0,2372.0,2379.0,verb.motion,True,19,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+24,0,commenced,62.0,71.0,2519.0,2528.0,3,72.0,84.0,2529.0,2541.0,86.0,143.0,2543.0,2600.0,verb.change,True,18,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+25,0,rubbed,3.0,9.0,2605.0,2611.0,3,10.0,18.0,2612.0,2620.0,20.0,52.0,2622.0,2654.0,verb.contact,True,20,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+27,2,came,60.0,64.0,2951.0,2955.0,3,65.0,75.0,2956.0,2966.0,,,,,verb.motion,True,22,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+37,0,stood,8.0,13.0,3984.0,3989.0,3,35.0,46.0,4011.0,4022.0,64.0,92.0,4040.0,4068.0,verb.contact,True,28,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+38,2,remembered,122.0,132.0,4192.0,4202.0,41,133.0,235.0,4203.0,4305.0,,,,,verb.cognition,True,30,direct_object,the two brothers's deceased father,2.0,0.0,2.0,male,1.0,tertiary
+38,2,remembered,122.0,132.0,4192.0,4202.0,39,133.0,235.0,4203.0,4305.0,,,,,verb.cognition,True,30,direct_object,Maidwa's elder brother,2.0,0.0,2.0,male,1.0,tertiary
+38,2,remembered,122.0,132.0,4192.0,4202.0,3,133.0,235.0,4203.0,4305.0,,,,,verb.cognition,True,30,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+39,1,told,20.0,24.0,4327.0,4331.0,44,25.0,31.0,4332.0,4338.0,,,,,verb.communication,True,29,direct_object,their father's youngest son,1.0,0.0,1.0,unknown,0.0,tertiary
+39,1,told,20.0,24.0,4327.0,4331.0,43,25.0,31.0,4332.0,4338.0,,,,,verb.communication,True,29,direct_object,their father,1.0,3.0,4.0,male,1.0,tertiary
+39,1,told,20.0,24.0,4327.0,4331.0,3,25.0,31.0,4332.0,4338.0,,,,,verb.communication,True,29,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+41,4,prompted,94.0,102.0,4706.0,4714.0,3,103.0,106.0,4715.0,4718.0,,,,,verb.communication,True,31,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+45,1,shot,23.0,27.0,5173.0,5177.0,3,28.0,57.0,5178.0,5207.0,,,,,verb.competition,True,36,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+50,1,meet,22.0,26.0,5789.0,5793.0,21,27.0,39.0,5794.0,5806.0,,,,,verb.motion,True,41,direct_object,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+50,1,meet,22.0,26.0,5789.0,5793.0,3,27.0,39.0,5794.0,5806.0,,,,,verb.motion,True,41,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+60,2,procure,43.0,50.0,6862.0,6869.0,3,51.0,108.0,6870.0,6927.0,,,,,verb.possession,True,48,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+62,1,heard,28.0,33.0,7036.0,7041.0,62,34.0,157.0,7042.0,7165.0,,,,,verb.perception,True,49,direct_object,"the watchman , who was set on a height to overlook the place",1.0,0.0,1.0,unknown,0.0,tertiary
+62,1,heard,28.0,33.0,7036.0,7041.0,63,34.0,157.0,7042.0,7165.0,,,,,verb.perception,True,49,direct_object,friends,2.0,0.0,2.0,unknown,0.0,tertiary
+62,1,heard,28.0,33.0,7036.0,7041.0,64,34.0,157.0,7042.0,7165.0,,,,,verb.perception,True,49,direct_object,foes,1.0,0.0,1.0,unknown,0.0,tertiary
+65,4,left,43.0,47.0,7354.0,7358.0,3,48.0,51.0,7359.0,7362.0,,,,,verb.motion,True,51,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+66,2,said,20.0,24.0,7384.0,7388.0,68,25.0,34.0,7389.0,7398.0,,,,,verb.communication,True,53,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+68,0,pointing,2.0,10.0,7421.0,7429.0,71,11.0,58.0,7430.0,7477.0,,,,,verb.communication,True,52,direct_object,the chief's daughter,5.0,3.0,8.0,unknown,0.0,tertiary
+68,0,pointing,2.0,10.0,7421.0,7429.0,68,11.0,58.0,7430.0,7477.0,,,,,verb.communication,True,52,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+70,0,gave,5.0,9.0,7512.0,7516.0,3,10.0,13.0,7517.0,7520.0,,,,,verb.possession,True,54,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+71,1,spoke,20.0,25.0,7618.0,7623.0,30,26.0,54.0,7624.0,7652.0,,,,,verb.communication,True,56,direct_object,,,,,,,
+71,1,spoke,20.0,25.0,7618.0,7623.0,3,26.0,54.0,7624.0,7652.0,,,,,verb.communication,True,56,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+72,0,said,12.0,16.0,7666.0,7670.0,68,17.0,26.0,7671.0,7680.0,,,,,verb.communication,True,57,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+74,0,thought,7.0,14.0,7832.0,7839.0,3,15.0,108.0,7840.0,7933.0,110.0,182.0,7935.0,8007.0,verb.cognition,True,58,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+75,2,take,34.0,38.0,8043.0,8047.0,3,39.0,74.0,8048.0,8083.0,,,,,verb.possession,True,60,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+76,0,displeased,3.0,13.0,8088.0,8098.0,76,14.0,17.0,8099.0,8102.0,,,,,verb.emotion,True,59,direct_object,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+76,0,displeased,3.0,13.0,8088.0,8098.0,3,14.0,17.0,8099.0,8102.0,,,,,verb.emotion,True,59,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+79,3,spoke,81.0,86.0,8388.0,8393.0,76,87.0,93.0,8394.0,8400.0,,,,,verb.communication,True,62,direct_object,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+80,0,touched,3.0,10.0,8429.0,8436.0,76,11.0,14.0,8437.0,8440.0,15.0,22.0,8441.0,8448.0,verb.contact,True,63,direct_object,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+82,1,turned,14.0,20.0,8484.0,8490.0,76,21.0,29.0,8491.0,8499.0,,,,,verb.motion,True,64,direct_object,the chief 's daughter,5.0,15.0,20.0,female,1.0,tertiary
+82,1,turned,14.0,20.0,8484.0,8490.0,3,21.0,29.0,8491.0,8499.0,,,,,verb.motion,True,64,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+83,0,tell,1.0,5.0,8516.0,8520.0,3,6.0,8.0,8521.0,8523.0,,,,,verb.communication,True,66,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+86,1,think,8.0,13.0,8624.0,8629.0,3,14.0,33.0,8630.0,8649.0,,,,,verb.cognition,True,67,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+90,0,retorted,0.0,8.0,8700.0,8708.0,81,9.0,36.0,8709.0,8736.0,,,,,verb.communication,True,70,direct_object,the chief 's pretty daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+90,0,retorted,0.0,8.0,8700.0,8708.0,68,9.0,36.0,8709.0,8736.0,,,,,verb.communication,True,70,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+91,1,pointed,28.0,35.0,8766.0,8773.0,3,53.0,65.0,8791.0,8803.0,,,,,verb.communication,True,71,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+94,2,find,35.0,39.0,9113.0,9117.0,82,40.0,47.0,9118.0,9125.0,48.0,68.0,9126.0,9146.0,verb.possession,True,74,direct_object,the young man,2.0,16.0,18.0,male,1.0,tertiary
+95,0,heard,22.0,27.0,9170.0,9175.0,66,28.0,51.0,9176.0,9199.0,,,,,verb.perception,True,75,direct_object,The watchman,4.0,1.0,5.0,male,1.0,tertiary
+96,1,see,45.0,48.0,9264.0,9267.0,87,49.0,61.0,9268.0,9280.0,,,,,verb.social,True,76,direct_object,the stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+97,1,told,13.0,17.0,9295.0,9299.0,68,18.0,49.0,9300.0,9331.0,,,,,verb.communication,True,77,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+98,1,entertained,61.0,72.0,9468.0,9479.0,82,73.0,76.0,9480.0,9483.0,77.0,88.0,9484.0,9495.0,verb.emotion,True,78,direct_object,the young man,2.0,16.0,18.0,male,1.0,tertiary
+99,0,urged,9.0,14.0,9506.0,9511.0,85,15.0,32.0,9512.0,9529.0,,,,,verb.communication,True,80,direct_object,the men of the village,1.0,2.0,3.0,male,1.0,tertiary
+101,3,told,72.0,76.0,9763.0,9767.0,82,77.0,80.0,9768.0,9771.0,,,,,verb.communication,True,81,direct_object,the young man,2.0,16.0,18.0,male,1.0,tertiary
+103,3,lost,48.0,52.0,10038.0,10042.0,3,53.0,85.0,10043.0,10075.0,,,,,verb.possession,True,83,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+106,1,peeping,34.0,41.0,10303.0,10310.0,3,60.0,62.0,10329.0,10331.0,,,,,verb.contact,True,85,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+107,0,thought,7.0,14.0,10438.0,10445.0,96,15.0,79.0,10446.0,10510.0,,,,,verb.cognition,True,86,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+107,0,thought,7.0,14.0,10438.0,10445.0,3,15.0,79.0,10446.0,10510.0,,,,,verb.cognition,True,86,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+109,2,said,53.0,57.0,10590.0,10594.0,380,60.0,82.0,10597.0,10619.0,,,,,verb.communication,True,88,direct_object,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+109,2,said,53.0,57.0,10590.0,10594.0,96,60.0,82.0,10597.0,10619.0,,,,,verb.communication,True,88,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+111,1,prepare,7.0,14.0,10721.0,10728.0,3,15.0,18.0,10729.0,10732.0,,,,,verb.change,True,89,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+116,2,thought,87.0,94.0,11201.0,11208.0,3,95.0,134.0,11209.0,11248.0,,,,,verb.cognition,True,94,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+117,1,promised,16.0,24.0,11266.0,11274.0,3,25.0,28.0,11275.0,11278.0,,,,,verb.communication,True,93,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+120,1,added,35.0,40.0,11630.0,11635.0,380,41.0,50.0,11636.0,11645.0,,,,,verb.communication,True,97,direct_object,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+120,1,added,35.0,40.0,11630.0,11635.0,96,41.0,50.0,11636.0,11645.0,,,,,verb.communication,True,97,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+120,1,added,35.0,40.0,11630.0,11635.0,3,41.0,50.0,11636.0,11645.0,,,,,verb.communication,True,97,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+121,0,handing,2.0,9.0,11679.0,11686.0,3,10.0,13.0,11687.0,11690.0,14.0,30.0,,,verb.possession,True,98,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+122,1,helped,44.0,50.0,11805.0,11811.0,104,51.0,58.0,11812.0,11819.0,,,,,verb.contact,True,99,direct_object,"The young man , whose hunger was very great",1.0,1.0,2.0,male,1.0,tertiary
+123,6,said,84.0,88.0,11932.0,11936.0,382,91.0,110.0,11939.0,11958.0,,,,,verb.communication,True,100,direct_object,nay grandchild,1.0,0.0,1.0,unknown,0.0,tertiary
+125,0,"said--""help",24.0,35.0,11995.0,12006.0,3,36.0,44.0,12007.0,12015.0,45.0,57.0,12016.0,12028.0,verb.contact,True,102,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+126,1,dipping,25.0,32.0,12056.0,12063.0,3,33.0,45.0,12064.0,12076.0,,,,,verb.motion,True,101,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+130,2,address,46.0,53.0,12451.0,12458.0,3,54.0,57.0,12459.0,12462.0,,,,,verb.communication,True,105,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+131,1,said,26.0,30.0,12556.0,12560.0,96,31.0,42.0,12561.0,12572.0,,,,,verb.communication,True,106,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+132,1,gain,17.0,21.0,12591.0,12595.0,380,22.0,35.0,12596.0,12609.0,,,,,verb.possession,True,108,direct_object,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+133,0,tell,3.0,7.0,12614.0,12618.0,380,8.0,11.0,12619.0,12622.0,,,,,verb.communication,True,107,direct_object,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+133,0,tell,3.0,7.0,12614.0,12618.0,96,8.0,11.0,12619.0,12622.0,,,,,verb.communication,True,107,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+134,8,accomplish,155.0,165.0,12865.0,12875.0,380,166.0,178.0,12876.0,12888.0,,,,,verb.social,True,110,direct_object,The old man's grandchild,3.0,12.0,15.0,unknown,0.0,tertiary
+137,2,answered,17.0,25.0,13070.0,13078.0,3,26.0,32.0,13079.0,13085.0,,,,,verb.communication,True,112,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+140,1,gave,34.0,38.0,13279.0,13283.0,3,39.0,42.0,13284.0,13287.0,54.0,77.0,13299.0,13322.0,verb.communication,True,114,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+142,1,entertained,53.0,64.0,13451.0,13462.0,3,65.0,68.0,13463.0,13466.0,69.0,75.0,13467.0,13473.0,verb.emotion,True,115,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+143,0,directed,27.0,35.0,13692.0,13700.0,3,36.0,39.0,13701.0,13704.0,51.0,65.0,13716.0,13730.0,verb.communication,True,116,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+145,0,reached,25.0,32.0,13891.0,13898.0,119,33.0,63.0,13899.0,13929.0,,,,,verb.motion,True,118,direct_object,the third old man,2.0,1.0,3.0,male,1.0,tertiary
+146,1,heard,29.0,34.0,13960.0,13965.0,96,35.0,67.0,13966.0,13998.0,,,,,verb.perception,True,119,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+146,1,heard,29.0,34.0,13960.0,13965.0,388,35.0,67.0,13966.0,13998.0,,,,,verb.perception,True,119,direct_object,Grandchild,2.0,0.0,2.0,unknown,0.0,tertiary
+148,0,prepared,12.0,20.0,14058.0,14066.0,3,21.0,24.0,14067.0,14070.0,43.0,81.0,14089.0,14127.0,verb.change,True,120,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+150,3,addressed,72.0,81.0,14455.0,14464.0,3,82.0,85.0,14465.0,14468.0,,,,,verb.communication,True,122,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+151,2,prompts,60.0,67.0,14608.0,14615.0,125,68.0,71.0,14616.0,14619.0,,,,,verb.communication,True,123,direct_object,Young man,1.0,5.0,6.0,male,1.0,tertiary
+154,0,wore,19.0,23.0,14901.0,14905.0,96,24.0,72.0,14906.0,14954.0,,,,,verb.body,True,124,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+157,6,restore,139.0,146.0,15367.0,15374.0,136,157.0,173.0,15385.0,15401.0,,,,,verb.body,True,130,direct_object,the dying maiden,1.0,0.0,1.0,female,1.0,tertiary
+159,5,receives,202.0,210.0,15758.0,15766.0,142,211.0,265.0,15767.0,15821.0,,,,,verb.perception,True,129,direct_object,the poor old chief to whom it belongs groans with pain,1.0,0.0,1.0,unknown,0.0,tertiary
+160,4,recover,92.0,99.0,15915.0,15922.0,135,100.0,102.0,15923.0,15925.0,,,,,verb.possession,True,131,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+162,3,come,73.0,77.0,16227.0,16231.0,148,78.0,102.0,16232.0,16256.0,,,,,verb.motion,True,133,direct_object,this magician,1.0,7.0,8.0,male,1.0,tertiary
+165,1,see,9.0,12.0,16376.0,16379.0,148,13.0,31.0,16380.0,16398.0,,,,,verb.perception,True,135,direct_object,this magician,1.0,7.0,8.0,male,1.0,tertiary
+167,2,urge,46.0,50.0,16533.0,16537.0,148,51.0,54.0,16538.0,16541.0,,,,,verb.communication,True,137,direct_object,this magician,1.0,7.0,8.0,male,1.0,tertiary
+170,0,answered,7.0,15.0,16773.0,16781.0,3,18.0,28.0,16784.0,16794.0,,,,,verb.communication,True,140,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+171,1,eaten,37.0,42.0,16834.0,16839.0,3,43.0,161.0,16840.0,16958.0,,,,,verb.consumption,True,139,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+172,1,heard,49.0,54.0,17036.0,17041.0,156,79.0,182.0,17066.0,17169.0,,,,,verb.perception,True,141,direct_object,Maidwa's person whom he could not see,1.0,0.0,1.0,unknown,0.0,tertiary
+172,1,heard,49.0,54.0,17036.0,17041.0,3,79.0,182.0,17066.0,17169.0,,,,,verb.perception,True,141,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+174,2,saw,103.0,106.0,17316.0,17319.0,135,107.0,157.0,17320.0,17370.0,,,,,verb.cognition,True,142,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+175,3,prepare,40.0,47.0,17412.0,17419.0,159,48.0,51.0,17420.0,17423.0,,,,,verb.change,True,143,direct_object,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+176,0,see,4.0,7.0,17446.0,17449.0,135,8.0,21.0,17450.0,17463.0,,,,,verb.cognition,True,145,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+177,1,attend,10.0,16.0,17475.0,17481.0,135,17.0,36.0,17482.0,17501.0,38.0,102.0,17503.0,17567.0,verb.social,True,144,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+180,5,addressing,105.0,115.0,17781.0,17791.0,159,116.0,126.0,17792.0,17802.0,,,,,verb.communication,True,146,direct_object,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+181,1,replied,17.0,24.0,17821.0,17828.0,159,25.0,35.0,17829.0,17839.0,,,,,verb.communication,True,148,direct_object,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+184,2,rejoined,35.0,43.0,18270.0,18278.0,159,44.0,54.0,18279.0,18289.0,56.0,71.0,,,verb.communication,True,151,direct_object,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+187,3,help,61.0,65.0,18402.0,18406.0,135,66.0,73.0,18407.0,18414.0,,,,,verb.social,True,154,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+188,3,dip,63.0,66.0,18479.0,18482.0,3,67.0,79.0,18483.0,18495.0,,,,,verb.body,True,153,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+190,1,satisfied,19.0,28.0,18629.0,18638.0,3,29.0,39.0,18639.0,18649.0,,,,,verb.consumption,True,156,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+192,0,asked,0.0,5.0,18683.0,18688.0,135,6.0,18.0,18689.0,18701.0,20.0,49.0,,,verb.communication,True,157,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+193,5,say,72.0,75.0,18806.0,18809.0,82,76.0,87.0,18810.0,18821.0,,,,,verb.communication,True,158,direct_object,the young man,2.0,16.0,18.0,male,1.0,tertiary
+194,0,said,13.0,17.0,18837.0,18841.0,135,18.0,30.0,18842.0,18854.0,,,,,verb.communication,True,159,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+195,1,added,14.0,19.0,18870.0,18875.0,3,20.0,29.0,18876.0,18885.0,32.0,45.0,18888.0,18901.0,verb.communication,True,160,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+196,4,advise,107.0,113.0,19010.0,19016.0,135,114.0,116.0,19017.0,19019.0,,,,,verb.communication,True,161,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+198,6,lost,132.0,136.0,19369.0,19373.0,3,137.0,146.0,19374.0,19383.0,,,,,verb.possession,True,162,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+202,0,told,12.0,16.0,19971.0,19975.0,135,17.0,20.0,19976.0,19979.0,,,,,verb.communication,True,167,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+205,0,told,7.0,11.0,20051.0,20055.0,135,12.0,15.0,20056.0,20059.0,,,,,verb.communication,True,169,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+205,0,told,7.0,11.0,20051.0,20055.0,177,12.0,15.0,20056.0,20059.0,,,,,verb.communication,True,169,direct_object,two or three others,1.0,0.0,1.0,unknown,0.0,tertiary
+207,8,added,159.0,164.0,20341.0,20346.0,135,167.0,206.0,20349.0,20388.0,,,,,verb.communication,True,172,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+208,0,said,7.0,11.0,20398.0,20402.0,3,12.0,18.0,20403.0,20409.0,,,,,verb.communication,True,173,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+209,0,told,8.0,12.0,20418.0,20422.0,135,13.0,16.0,20423.0,20426.0,,,,,verb.communication,True,174,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+210,2,said,16.0,20.0,20448.0,20452.0,159,21.0,31.0,20453.0,20463.0,,,,,verb.communication,True,175,direct_object,the kettle,7.0,9.0,16.0,unknown,0.0,tertiary
+214,1,cause,10.0,15.0,20559.0,20564.0,135,16.0,26.0,20565.0,20575.0,,,,,verb.communication,True,178,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+216,4,recover,40.0,47.0,20657.0,20664.0,135,48.0,61.0,20665.0,20678.0,,,,,verb.possession,True,179,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+218,3,know,83.0,87.0,20795.0,20799.0,3,88.0,108.0,20800.0,20820.0,,,,,verb.cognition,True,182,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+219,1,prepare,9.0,16.0,20831.0,20838.0,3,17.0,26.0,20839.0,20848.0,62.0,115.0,20884.0,20937.0,verb.change,True,181,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+220,0,said,12.0,16.0,20952.0,20956.0,135,17.0,29.0,20957.0,20969.0,,,,,verb.communication,True,183,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+222,1,fulfill,41.0,48.0,21042.0,21049.0,3,49.0,60.0,21050.0,21061.0,,,,,verb.creation,True,185,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+223,1,heard,58.0,63.0,21120.0,21125.0,184,64.0,97.0,21126.0,21159.0,,,,,verb.perception,True,187,direct_object,a great many people,1.0,0.0,1.0,unknown,0.0,tertiary
+225,0,emerging,3.0,11.0,21279.0,21287.0,185,12.0,26.0,21288.0,21302.0,,,,,verb.motion,True,188,direct_object,a few men,1.0,4.0,5.0,male,1.0,tertiary
+230,0,passed,6.0,12.0,21702.0,21708.0,188,13.0,47.0,21709.0,21743.0,,,,,verb.motion,True,193,direct_object,some of those who were standing by,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+230,0,passed,6.0,12.0,21702.0,21708.0,189,13.0,47.0,21709.0,21743.0,,,,,verb.motion,True,193,direct_object,those who were standing by,1.0,0.0,1.0,unknown,0.0,tertiary
+233,4,buoyed,88.0,94.0,22296.0,22302.0,3,95.0,98.0,22303.0,22306.0,,,,,verb.creation,True,195,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+235,1,taken,6.0,11.0,22391.0,22396.0,188,12.0,19.0,22397.0,22404.0,,,,,verb.possession,True,198,direct_object,some of those who were standing by,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+237,0,followed,13.0,21.0,22485.0,22493.0,3,22.0,25.0,22494.0,22497.0,,,,,verb.motion,True,199,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+238,1,carried,41.0,48.0,22644.0,22651.0,188,49.0,52.0,22652.0,22655.0,,,,,verb.contact,True,200,direct_object,some of those who were standing by,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+238,1,carried,41.0,48.0,22644.0,22651.0,3,49.0,52.0,22652.0,22655.0,,,,,verb.contact,True,200,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+244,6,restoring,115.0,124.0,23437.0,23446.0,3,125.0,146.0,23447.0,23468.0,,,,,verb.possession,True,204,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+246,1,stood,35.0,40.0,23653.0,23658.0,135,41.0,54.0,23659.0,23672.0,,,,,verb.contact,True,206,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+249,1,restored,41.0,49.0,23947.0,23955.0,135,50.0,52.0,23956.0,23958.0,,,,,verb.change,True,208,direct_object,The magician,18.0,40.0,58.0,male,1.0,tertiary
+252,0,urged,24.0,29.0,24081.0,24086.0,205,30.0,55.0,24087.0,24112.0,56.0,70.0,24113.0,24127.0,verb.communication,True,212,direct_object,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+252,0,urged,24.0,29.0,24081.0,24086.0,206,30.0,55.0,24087.0,24112.0,56.0,70.0,24113.0,24127.0,verb.communication,True,212,direct_object,the young magician's deliverer,1.0,0.0,1.0,unknown,0.0,tertiary
+253,0,alluded,55.0,62.0,24235.0,24242.0,4,63.0,78.0,24243.0,24258.0,79.0,103.0,24259.0,24283.0,verb.communication,True,211,direct_object,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+254,1,prepared,36.0,44.0,24321.0,24329.0,3,45.0,66.0,24330.0,24351.0,,,,,verb.cognition,True,213,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+255,0,bestowed,19.0,27.0,24372.0,24380.0,3,28.0,34.0,24381.0,24387.0,,,,,verb.possession,True,214,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+256,10,look,249.0,253.0,24700.0,24704.0,4,254.0,284.0,24705.0,24735.0,,,,,verb.perception,True,216,direct_object,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+256,10,look,249.0,253.0,24700.0,24704.0,3,254.0,284.0,24705.0,24735.0,,,,,verb.perception,True,216,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+258,4,addressed,110.0,119.0,24916.0,24925.0,3,120.0,123.0,24926.0,24929.0,,,,,verb.communication,True,217,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+259,1,proved,9.0,15.0,25054.0,25060.0,395,16.0,32.0,25061.0,25077.0,,,,,verb.cognition,True,219,direct_object,The magician's friend,3.0,0.0,3.0,unknown,0.0,tertiary
+260,1,accomplished,9.0,21.0,25088.0,25100.0,3,22.0,33.0,25101.0,25112.0,,,,,verb.social,True,218,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+262,4,feel,62.0,66.0,25306.0,25310.0,3,67.0,101.0,25311.0,25345.0,,,,,verb.emotion,True,222,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+263,1,given,7.0,12.0,25354.0,25359.0,3,13.0,16.0,25360.0,25363.0,,,,,verb.possession,True,221,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+264,0,see,7.0,10.0,25429.0,25432.0,4,11.0,52.0,25433.0,25474.0,,,,,verb.cognition,True,223,direct_object,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+264,0,see,7.0,10.0,25429.0,25432.0,3,11.0,52.0,25433.0,25474.0,,,,,verb.cognition,True,223,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+265,6,possessing,76.0,86.0,25552.0,25562.0,4,87.0,99.0,25563.0,25575.0,,,,,verb.contact,True,225,direct_object,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+270,0,treat,1.0,6.0,25971.0,25976.0,216,7.0,15.0,25977.0,25985.0,,,,,verb.body,True,229,direct_object,a beautiful female,1.0,6.0,7.0,female,1.0,tertiary
+271,2,done,40.0,44.0,26027.0,26031.0,205,45.0,63.0,26032.0,26050.0,,,,,verb.social,True,228,direct_object,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+272,1,go,16.0,18.0,26068.0,26070.0,63,28.0,55.0,26080.0,26107.0,,,,,verb.motion,True,231,direct_object,friends,2.0,0.0,2.0,unknown,0.0,tertiary
+272,1,go,16.0,18.0,26068.0,26070.0,399,28.0,55.0,26080.0,26107.0,,,,,verb.motion,True,231,direct_object,Maidwa's kindred,1.0,0.0,1.0,unknown,0.0,tertiary
+272,1,go,16.0,18.0,26068.0,26070.0,3,28.0,55.0,26080.0,26107.0,,,,,verb.motion,True,231,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+275,1,watched,60.0,67.0,26322.0,26329.0,205,68.0,89.0,26330.0,26351.0,,,,,verb.social,True,233,direct_object,the young magician,6.0,5.0,11.0,male,1.0,tertiary
+277,2,entertained,76.0,87.0,26624.0,26635.0,119,88.0,91.0,26636.0,26639.0,,,,,verb.social,True,232,direct_object,the third old man,2.0,1.0,3.0,male,1.0,tertiary
+279,4,secured,110.0,117.0,26805.0,26812.0,3,118.0,121.0,26813.0,26816.0,,,,,verb.possession,True,234,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+280,2,succeed,28.0,35.0,26845.0,26852.0,3,36.0,61.0,26853.0,26878.0,,,,,verb.social,True,236,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+281,3,presented,110.0,119.0,26991.0,27000.0,3,120.0,129.0,27001.0,27010.0,,,,,verb.possession,True,235,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+283,0,hope,7.0,11.0,27087.0,27091.0,3,12.0,46.0,27092.0,27126.0,,,,,verb.emotion,True,237,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+284,0,bidding,0.0,7.0,27129.0,27136.0,96,8.0,11.0,27137.0,27140.0,,,,,verb.communication,True,238,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+285,0,came,15.0,19.0,27189.0,27193.0,230,20.0,49.0,27194.0,27223.0,,,,,verb.motion,True,239,direct_object,the second old man,1.0,0.0,1.0,male,1.0,tertiary
+287,1,see,15.0,18.0,27295.0,27298.0,96,19.0,106.0,27299.0,27386.0,,,,,verb.perception,True,241,direct_object,The old man,18.0,41.0,59.0,male,1.0,tertiary
+288,1,came,20.0,24.0,27408.0,27412.0,233,25.0,58.0,27413.0,27446.0,,,,,verb.motion,True,242,direct_object,the first old man,1.0,0.0,1.0,male,1.0,tertiary
+292,2,pointing,46.0,54.0,27976.0,27984.0,71,55.0,83.0,27985.0,28013.0,,,,,verb.communication,True,246,direct_object,the chief's daughter,5.0,3.0,8.0,unknown,0.0,tertiary
+292,2,pointing,46.0,54.0,27976.0,27984.0,68,55.0,83.0,27985.0,28013.0,,,,,verb.communication,True,246,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+293,0,said,19.0,23.0,28034.0,28038.0,4,24.0,39.0,28039.0,28054.0,,,,,verb.communication,True,248,direct_object,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+295,1,let,27.0,30.0,28213.0,28216.0,379,31.0,77.0,28217.0,28263.0,,,,,verb.social,True,249,direct_object,the chief's son - in - law,2.0,0.0,2.0,unknown,0.0,tertiary
+295,1,let,27.0,30.0,28213.0,28216.0,403,31.0,77.0,28217.0,28263.0,,,,,verb.social,True,249,direct_object,,,,,,,
+295,1,let,27.0,30.0,28213.0,28216.0,68,31.0,77.0,28217.0,28263.0,,,,,verb.social,True,249,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+296,1,laid,20.0,24.0,28286.0,28290.0,68,25.0,35.0,28291.0,28301.0,,,,,verb.contact,True,250,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+298,1,presented,37.0,46.0,28499.0,28508.0,68,47.0,59.0,28509.0,28521.0,,,,,verb.communication,True,251,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+299,0,stole,21.0,26.0,28544.0,28549.0,249,27.0,94.0,28550.0,28617.0,,,,,verb.motion,True,252,direct_object,Maidwa's beautiful wife,1.0,0.0,1.0,female,1.0,tertiary
+299,0,stole,21.0,26.0,28544.0,28549.0,3,27.0,94.0,28550.0,28617.0,,,,,verb.motion,True,252,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+301,3,telling,112.0,119.0,28799.0,28806.0,71,120.0,123.0,28807.0,28810.0,,,,,verb.communication,True,254,direct_object,the chief's daughter,5.0,3.0,8.0,unknown,0.0,tertiary
+301,3,telling,112.0,119.0,28799.0,28806.0,3,120.0,123.0,28807.0,28810.0,,,,,verb.communication,True,254,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+303,1,saying,25.0,31.0,28919.0,28925.0,378,34.0,82.0,28928.0,28976.0,,,,,verb.communication,True,257,direct_object,Daughter,2.0,0.0,2.0,unknown,0.0,tertiary
+303,1,saying,25.0,31.0,28919.0,28925.0,3,34.0,82.0,28928.0,28976.0,,,,,verb.communication,True,257,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+304,5,thought,103.0,110.0,29082.0,29089.0,256,111.0,155.0,29090.0,29134.0,,,,,verb.cognition,True,256,direct_object,this chief,1.0,0.0,1.0,unknown,0.0,tertiary
+304,5,thought,103.0,110.0,29082.0,29089.0,258,111.0,155.0,29090.0,29134.0,,,,,verb.cognition,True,256,direct_object,a wife,3.0,1.0,4.0,female,1.0,tertiary
+304,5,thought,103.0,110.0,29082.0,29089.0,257,111.0,155.0,29090.0,29134.0,,,,,verb.cognition,True,256,direct_object,this chief 's daughter,1.0,1.0,2.0,female,1.0,tertiary
+305,3,looking,40.0,47.0,29175.0,29182.0,3,55.0,64.0,29190.0,29199.0,,,,,verb.perception,True,258,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+306,1,kill,7.0,11.0,29253.0,29257.0,3,12.0,15.0,29258.0,29261.0,,,,,verb.contact,True,260,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+311,3,saying,64.0,70.0,29831.0,29837.0,402,73.0,100.0,29840.0,29867.0,,,,,verb.communication,True,264,direct_object,son - in - law,2.0,1.0,3.0,unknown,0.0,tertiary
+313,1,asked,78.0,83.0,30036.0,30041.0,276,84.0,87.0,30042.0,30045.0,,,,,verb.communication,True,266,direct_object,all the inmates of the lodge,1.0,0.0,1.0,unknown,0.0,tertiary
+313,1,asked,78.0,83.0,30036.0,30041.0,3,84.0,87.0,30042.0,30045.0,,,,,verb.communication,True,266,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+313,1,asked,78.0,83.0,30036.0,30041.0,278,84.0,87.0,30042.0,30045.0,,,,,verb.communication,True,266,direct_object,the strangers who had gathered in at report of,1.0,0.0,1.0,unknown,0.0,tertiary
+314,0,gave,7.0,11.0,30203.0,30207.0,3,12.0,16.0,30208.0,30212.0,,,,,verb.possession,True,267,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+315,3,looked,75.0,81.0,30305.0,30311.0,4,82.0,104.0,30312.0,30334.0,117.0,133.0,30347.0,30363.0,verb.perception,True,268,direct_object,the Red Swan,12.0,5.0,17.0,female,1.0,tertiary
+316,0,informed,15.0,23.0,30390.0,30398.0,21,24.0,30.0,30399.0,30405.0,,,,,verb.communication,True,269,direct_object,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+316,0,informed,15.0,23.0,30390.0,30398.0,3,24.0,30.0,30399.0,30405.0,,,,,verb.communication,True,269,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+316,0,informed,15.0,23.0,30390.0,30398.0,68,24.0,30.0,30399.0,30405.0,,,,,verb.communication,True,269,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+317,0,added,3.0,8.0,30566.0,30571.0,71,10.0,133.0,30573.0,30696.0,,,,,verb.communication,True,271,direct_object,the chief's daughter,5.0,3.0,8.0,unknown,0.0,tertiary
+317,0,added,3.0,8.0,30566.0,30571.0,282,10.0,133.0,30573.0,30696.0,,,,,verb.communication,True,271,direct_object,a man of spirit,1.0,0.0,1.0,male,1.0,tertiary
+317,0,added,3.0,8.0,30566.0,30571.0,68,10.0,133.0,30573.0,30696.0,,,,,verb.communication,True,271,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+320,2,treat,27.0,32.0,30869.0,30874.0,411,33.0,41.0,30875.0,30883.0,,,,,verb.social,True,275,direct_object,the chief's daughter,1.0,5.0,6.0,female,1.0,tertiary
+321,3,disposed,94.0,102.0,31025.0,31033.0,285,103.0,120.0,31034.0,31051.0,,,,,verb.cognition,True,274,direct_object,the clown,1.0,0.0,1.0,unknown,0.0,tertiary
+323,2,given,62.0,67.0,31142.0,31147.0,288,68.0,90.0,31148.0,31170.0,,,,,verb.possession,True,273,direct_object,the old chief,2.0,1.0,3.0,male,1.0,tertiary
+324,0,want,2.0,6.0,31300.0,31304.0,289,7.0,17.0,31305.0,31315.0,,,,,verb.emotion,True,276,direct_object,this pretender,1.0,2.0,3.0,unknown,0.0,tertiary
+324,0,want,2.0,6.0,31300.0,31304.0,411,7.0,17.0,31305.0,31315.0,,,,,verb.emotion,True,276,direct_object,the chief's daughter,1.0,5.0,6.0,female,1.0,tertiary
+328,0,cried,3.0,8.0,31539.0,31544.0,413,9.0,37.0,31545.0,31573.0,,,,,verb.communication,True,280,direct_object,"the louder--""I",1.0,0.0,1.0,unknown,0.0,tertiary
+328,0,cried,3.0,8.0,31539.0,31544.0,411,9.0,37.0,31545.0,31573.0,,,,,verb.communication,True,280,direct_object,the chief's daughter,1.0,5.0,6.0,female,1.0,tertiary
+329,2,took,56.0,60.0,31649.0,31653.0,288,61.0,79.0,31654.0,31672.0,,,,,verb.motion,True,281,direct_object,the old chief,2.0,1.0,3.0,male,1.0,tertiary
+330,0,came,25.0,29.0,31808.0,31812.0,3,30.0,40.0,31813.0,31823.0,,,,,verb.motion,True,282,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+331,4,visit,108.0,113.0,32030.0,32035.0,296,114.0,198.0,32036.0,32120.0,,,,,verb.social,True,283,direct_object,a number of the families of the chief,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+331,4,visit,108.0,113.0,32030.0,32035.0,3,114.0,198.0,32036.0,32120.0,,,,,verb.social,True,283,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+332,2,joined,65.0,71.0,32187.0,32193.0,3,72.0,78.0,32194.0,32200.0,,,,,verb.social,True,284,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+333,0,escorted,42.0,50.0,32243.0,32251.0,299,51.0,55.0,32252.0,32256.0,56.0,71.0,32257.0,32272.0,verb.motion,True,285,direct_object,a large company,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+341,0,sat,18.0,21.0,32977.0,32980.0,2,22.0,43.0,32981.0,33002.0,45.0,130.0,33004.0,33089.0,verb.motion,True,290,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+342,0,presented,9.0,18.0,33100.0,33109.0,3,19.0,79.0,33110.0,33170.0,,,,,verb.perception,True,293,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+343,5,notice,64.0,70.0,33236.0,33242.0,42,71.0,92.0,33243.0,33264.0,,,,,verb.perception,True,292,direct_object,Maidwa's brother,3.0,0.0,3.0,male,1.0,tertiary
+343,5,notice,64.0,70.0,33236.0,33242.0,3,71.0,92.0,33243.0,33264.0,,,,,verb.perception,True,292,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+345,5,brought,78.0,85.0,33501.0,33508.0,258,86.0,98.0,33509.0,33521.0,,,,,verb.contact,True,294,direct_object,a wife,3.0,1.0,4.0,female,1.0,tertiary
+347,2,see,48.0,51.0,33720.0,33723.0,321,52.0,65.0,33724.0,33737.0,,,,,verb.perception,True,297,direct_object,the strangers,1.0,0.0,1.0,unknown,0.0,tertiary
+350,1,gave,34.0,38.0,33845.0,33849.0,2,39.0,50.0,33850.0,33861.0,,,,,verb.communication,True,299,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+350,1,gave,34.0,38.0,33845.0,33849.0,42,39.0,50.0,33850.0,33861.0,,,,,verb.communication,True,299,direct_object,Maidwa's brother,3.0,0.0,3.0,male,1.0,tertiary
+351,0,told,7.0,11.0,33870.0,33874.0,323,12.0,16.0,33875.0,33879.0,,,,,verb.communication,True,300,direct_object,the females,1.0,0.0,1.0,unknown,0.0,tertiary
+351,0,told,7.0,11.0,33870.0,33874.0,3,12.0,16.0,33875.0,33879.0,,,,,verb.communication,True,300,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+352,2,wash,39.0,43.0,33993.0,33997.0,2,44.0,51.0,33998.0,34005.0,,,,,verb.body,True,301,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+353,2,look,121.0,125.0,34127.0,34131.0,324,126.0,138.0,34132.0,34144.0,,,,,verb.perception,True,302,direct_object,the women,1.0,0.0,1.0,female,1.0,tertiary
+354,1,said,24.0,28.0,34176.0,34180.0,2,31.0,60.0,34183.0,34212.0,,,,,verb.communication,True,303,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+358,7,presented,95.0,104.0,34458.0,34467.0,329,105.0,133.0,34468.0,34496.0,157.0,221.0,34520.0,34584.0,verb.possession,True,307,direct_object,Maidwa's eldest brother,1.0,0.0,1.0,male,1.0,tertiary
+358,7,presented,95.0,104.0,34458.0,34467.0,328,105.0,133.0,34468.0,34496.0,157.0,221.0,34520.0,34584.0,verb.possession,True,307,direct_object,the chief 's daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+358,7,presented,95.0,104.0,34458.0,34467.0,3,105.0,133.0,34468.0,34496.0,157.0,221.0,34520.0,34584.0,verb.possession,True,307,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+358,7,presented,95.0,104.0,34458.0,34467.0,68,105.0,133.0,34468.0,34496.0,157.0,221.0,34520.0,34584.0,verb.possession,True,307,direct_object,the chief,26.0,29.0,55.0,male,1.0,tertiary
+361,2,think,31.0,36.0,34672.0,34677.0,3,37.0,79.0,34678.0,34720.0,,,,,verb.cognition,True,310,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+361,2,think,31.0,36.0,34672.0,34677.0,417,37.0,79.0,34678.0,34720.0,,,,,verb.cognition,True,310,direct_object,three wives,1.0,0.0,1.0,female,1.0,tertiary
+362,1,said,47.0,51.0,34770.0,34774.0,2,54.0,103.0,34777.0,34826.0,,,,,verb.communication,True,312,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+362,1,said,47.0,51.0,34770.0,34774.0,418,54.0,103.0,34777.0,34826.0,,,,,verb.communication,True,312,direct_object,Maidwa's brother,1.0,0.0,1.0,male,1.0,tertiary
+362,1,said,47.0,51.0,34770.0,34774.0,3,54.0,103.0,34777.0,34826.0,,,,,verb.communication,True,312,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+363,0,hung,9.0,13.0,34838.0,34842.0,2,19.0,27.0,34848.0,34856.0,28.0,48.0,34857.0,34877.0,verb.motion,True,311,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+364,1,acted,40.0,45.0,35005.0,35010.0,2,46.0,81.0,35011.0,35046.0,,,,,verb.body,True,313,direct_object,Jeekewis,7.0,26.0,33.0,male,1.0,tertiary
+367,3,addressing,65.0,75.0,35377.0,35387.0,3,76.0,82.0,35388.0,35394.0,,,,,verb.communication,True,316,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+369,5,joined,176.0,182.0,35792.0,35798.0,338,183.0,198.0,35799.0,35814.0,,,,,verb.social,True,317,direct_object,the three cooks,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+372,1,plied,40.0,45.0,36099.0,36104.0,338,46.0,58.0,36105.0,36117.0,59.0,79.0,36118.0,36138.0,verb.consumption,True,318,direct_object,the three cooks,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+373,0,draw,3.0,7.0,36252.0,36256.0,305,8.0,18.0,36257.0,36267.0,,,,,verb.contact,True,320,direct_object,Maidwa's friends,3.0,0.0,3.0,unknown,0.0,tertiary
+373,0,draw,3.0,7.0,36252.0,36256.0,3,8.0,18.0,36257.0,36267.0,,,,,verb.contact,True,320,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+377,1,look,34.0,38.0,36445.0,36449.0,3,39.0,55.0,36450.0,36466.0,,,,,verb.perception,True,321,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+378,0,upbraided,6.0,15.0,36571.0,36580.0,3,16.0,19.0,36581.0,36584.0,20.0,48.0,36585.0,36613.0,verb.communication,True,322,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+379,1,said,39.0,43.0,36654.0,36658.0,3,44.0,108.0,36659.0,36723.0,,,,,verb.communication,True,324,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+383,0,saw,8.0,11.0,37178.0,37181.0,350,12.0,66.0,37182.0,37236.0,,,,,verb.perception,True,325,direct_object,animals of every kind wandering about in great numbers,1.0,0.0,1.0,unknown,0.0,tertiary
+385,1,addressed,34.0,43.0,37307.0,37316.0,351,44.0,47.0,37317.0,37320.0,,,,,verb.communication,True,327,direct_object,,,,,,,
+385,1,addressed,34.0,43.0,37307.0,37316.0,3,44.0,47.0,37317.0,37320.0,,,,,verb.communication,True,327,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+386,0,asked,5.0,10.0,37343.0,37348.0,3,11.0,14.0,37349.0,37352.0,,,,,verb.communication,True,328,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+387,0,answered,3.0,11.0,37454.0,37462.0,21,12.0,87.0,37463.0,37538.0,,,,,verb.communication,True,329,direct_object,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+387,0,answered,3.0,11.0,37454.0,37462.0,3,12.0,87.0,37463.0,37538.0,,,,,verb.communication,True,329,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+388,0,said,13.0,17.0,37553.0,37557.0,353,18.0,77.0,37558.0,37617.0,,,,,verb.communication,True,331,direct_object,"the buffalos , whose form was nothing but bone",1.0,0.0,1.0,unknown,0.0,tertiary
+391,1,return,9.0,15.0,37840.0,37846.0,3,28.0,41.0,37859.0,37872.0,48.0,106.0,37879.0,37937.0,verb.motion,True,333,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+402,1,answered,33.0,41.0,38560.0,38568.0,356,42.0,53.0,38569.0,38580.0,,,,,verb.communication,True,341,direct_object,the buffalo,1.0,0.0,1.0,unknown,0.0,tertiary
+403,2,pained,49.0,55.0,38631.0,38637.0,3,56.0,64.0,38638.0,38646.0,65.0,80.0,38647.0,38662.0,verb.emotion,True,340,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+406,2,make,51.0,55.0,39011.0,39015.0,360,56.0,72.0,39016.0,39032.0,,,,,verb.change,True,344,direct_object,Maidwa's people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+406,2,make,51.0,55.0,39011.0,39015.0,3,56.0,72.0,39016.0,39032.0,,,,,verb.change,True,344,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+407,0,passing,0.0,7.0,39107.0,39114.0,3,8.0,109.0,39115.0,39216.0,,,,,verb.motion,True,345,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+408,0,heard,3.0,8.0,39221.0,39226.0,190,9.0,63.0,39227.0,39281.0,,,,,verb.perception,True,347,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+408,0,heard,3.0,8.0,39221.0,39226.0,21,9.0,63.0,39227.0,39281.0,,,,,verb.perception,True,347,direct_object,the eldest's brothers,9.0,6.0,15.0,male,1.0,tertiary
+408,0,heard,3.0,8.0,39221.0,39226.0,3,9.0,63.0,39227.0,39281.0,,,,,verb.perception,True,347,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary
+409,1,quarreling,10.0,20.0,39293.0,39303.0,331,21.0,134.0,39304.0,39417.0,,,,,verb.communication,True,346,direct_object,Jeekewis's wife,3.0,0.0,3.0,female,1.0,tertiary
+409,1,quarreling,10.0,20.0,39293.0,39303.0,3,21.0,134.0,39304.0,39417.0,,,,,verb.communication,True,346,direct_object,Maidwa,98.0,383.0,481.0,male,1.0,primary

@@ -1,0 +1,4745 @@
+{
+    "eat": {
+        "supersense_category": "verb.consumption",
+        "event_n": 3,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 3.56,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 1,
+        "secondary_event_n": 2,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 0.79,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "0:3:0.0": [
+                {
+                    "temporal_rank": 0,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 0,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "178:3:0.62": [
+                {
+                    "temporal_rank": 147,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "ask": {
+        "supersense_category": "verb.communication",
+        "event_n": 33,
+        "female_event_n": 13,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 17,
+        "unknown_event_n": 3,
+        "dobj_event_n": 14,
+        "subj_event_n": 19,
+        "dobj_female_event_n": 3,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 9,
+        "dobj_unknown_event_n": 2,
+        "subj_female_event_n": 10,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 8,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": 0.62,
+        "male_female_subj_odds": 0.4,
+        "male_female_dobj_odds": 1.22,
+        "primary_event_n": 3,
+        "secondary_event_n": 17,
+        "tertiary_event_n": 13,
+        "primary_secondary_odds": 0.23,
+        "primary_tertiary_odds": 0.37,
+        "event_occurances": {
+            "1:0:0.0": [
+                {
+                    "temporal_rank": 1,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 1,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 1,
+                    "coref_id": 3,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "8:1:0.03": [
+                {
+                    "temporal_rank": 7,
+                    "coref_id": 14,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 7,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "15:2:0.05": [
+                {
+                    "temporal_rank": 14,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 14,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "21:1:0.07": [
+                {
+                    "temporal_rank": 20,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 20,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 20,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "27:0:0.09": [
+                {
+                    "temporal_rank": 24,
+                    "coref_id": 36,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 24,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "35:0:0.12": [
+                {
+                    "temporal_rank": 32,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 32,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 32,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "55:1:0.19": [
+                {
+                    "temporal_rank": 50,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "59:1:0.21": [
+                {
+                    "temporal_rank": 54,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "69:1:0.24": [
+                {
+                    "temporal_rank": 62,
+                    "coref_id": 58,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 62,
+                    "coref_id": 59,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "99:5:0.35": [
+                {
+                    "temporal_rank": 89,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "100:4:0.35": [
+                {
+                    "temporal_rank": 88,
+                    "coref_id": 75,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "110:1:0.38": [
+                {
+                    "temporal_rank": 97,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "112:0:0.39": [
+                {
+                    "temporal_rank": 99,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "114:1:0.4": [
+                {
+                    "temporal_rank": 100,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 100,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "182:1:0.64": [
+                {
+                    "temporal_rank": 151,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "186:3:0.65": [
+                {
+                    "temporal_rank": 155,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "233:3:0.81": [
+                {
+                    "temporal_rank": 194,
+                    "coref_id": 70,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "240:1:0.84": [
+                {
+                    "temporal_rank": 200,
+                    "coref_id": 215,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "262:0:0.92": [
+                {
+                    "temporal_rank": 211,
+                    "coref_id": 226,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "241:4:0.84": [
+                {
+                    "temporal_rank": 202,
+                    "coref_id": 219,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 202,
+                    "coref_id": 215,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "272:0:0.95": [
+                {
+                    "temporal_rank": 222,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "saw": {
+        "supersense_category": "verb.perception",
+        "event_n": 14,
+        "female_event_n": 3,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 9,
+        "unknown_event_n": 2,
+        "dobj_event_n": 8,
+        "subj_event_n": 6,
+        "dobj_female_event_n": 3,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 4,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 5,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": 1.38,
+        "male_female_subj_odds": 6.46,
+        "male_female_dobj_odds": 0.55,
+        "primary_event_n": 4,
+        "secondary_event_n": 7,
+        "tertiary_event_n": 3,
+        "primary_secondary_odds": 0.78,
+        "primary_tertiary_odds": 2.01,
+        "event_occurances": {
+            "2:1:0.01": [
+                {
+                    "temporal_rank": 4,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 4,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "20:1:0.07": [
+                {
+                    "temporal_rank": 19,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 19,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "146:1:0.51": [
+                {
+                    "temporal_rank": 124,
+                    "coref_id": 100,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "209:4:0.73": [
+                {
+                    "temporal_rank": 174,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "216:0:0.76": [
+                {
+                    "temporal_rank": 181,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "225:0:0.79": [
+                {
+                    "temporal_rank": 187,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 187,
+                    "coref_id": 89,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 187,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "128:0:0.45": [
+                {
+                    "temporal_rank": 110,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "139:0:0.49": [
+                {
+                    "temporal_rank": 119,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "208:0:0.73": [
+                {
+                    "temporal_rank": 173,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "238:3:0.83": [
+                {
+                    "temporal_rank": 199,
+                    "coref_id": 212,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "play": {
+        "supersense_category": "verb.competition",
+        "event_n": 4,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 4,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 3,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.18,
+        "male_female_subj_odds": 1.32,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 2,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 0.79,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "3:1:0.01": [
+                {
+                    "temporal_rank": 3,
+                    "coref_id": 9,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "19:1:0.07": [
+                {
+                    "temporal_rank": 17,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "28:3:0.1": [
+                {
+                    "temporal_rank": 25,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "215:2:0.75": [
+                {
+                    "temporal_rank": 180,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "have": {
+        "supersense_category": "verb.possession",
+        "event_n": 15,
+        "female_event_n": 4,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 7,
+        "unknown_event_n": 4,
+        "dobj_event_n": 9,
+        "subj_event_n": 6,
+        "dobj_female_event_n": 2,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 3,
+        "dobj_unknown_event_n": 4,
+        "subj_female_event_n": 2,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 4,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.83,
+        "male_female_subj_odds": 1.01,
+        "male_female_dobj_odds": 0.6,
+        "primary_event_n": 2,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 9,
+        "primary_secondary_odds": 0.73,
+        "primary_tertiary_odds": 0.38,
+        "event_occurances": {
+            "4:0:0.01": [
+                {
+                    "temporal_rank": 2,
+                    "coref_id": 9,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "89:1:0.31": [
+                {
+                    "temporal_rank": 80,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 80,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "133:0:0.47": [
+                {
+                    "temporal_rank": 114,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "257:0:0.9": [
+                {
+                    "temporal_rank": 208,
+                    "coref_id": 229,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 208,
+                    "coref_id": 229,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "274:4:0.96": [
+                {
+                    "temporal_rank": 220,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "275:1:0.96": [
+                {
+                    "temporal_rank": 224,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "31:0:0.11": [
+                {
+                    "temporal_rank": 28,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "162:2:0.57": [
+                {
+                    "temporal_rank": 136,
+                    "coref_id": 117,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "174:1:0.61": [
+                {
+                    "temporal_rank": 144,
+                    "coref_id": 132,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "267:1:0.93": [
+                {
+                    "temporal_rank": 215,
+                    "coref_id": 226,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "283:0:0.99": [
+                {
+                    "temporal_rank": 230,
+                    "coref_id": 226,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 230,
+                    "coref_id": 4,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 230,
+                    "coref_id": 255,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "draw": {
+        "supersense_category": "verb.contact",
+        "event_n": 5,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 4,
+        "unknown_event_n": 0,
+        "dobj_event_n": 3,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.52,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": 0.73,
+        "primary_event_n": 0,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 0.14,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "6:0:0.02": [
+                {
+                    "temporal_rank": 5,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 5,
+                    "coref_id": 9,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "33:2:0.12": [
+                {
+                    "temporal_rank": 30,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 30,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "85:1:0.3": [
+                {
+                    "temporal_rank": 76,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "salute": {
+        "supersense_category": "verb.communication",
+        "event_n": 4,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 1,
+        "dobj_event_n": 2,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 3.56,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 3,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 0.18,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "7:0:0.02": [
+                {
+                    "temporal_rank": 6,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 6,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "34:0:0.12": [
+                {
+                    "temporal_rank": 31,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 31,
+                    "coref_id": 40,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "say": {
+        "supersense_category": "verb.communication",
+        "event_n": 42,
+        "female_event_n": 17,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 21,
+        "unknown_event_n": 4,
+        "dobj_event_n": 27,
+        "subj_event_n": 15,
+        "dobj_female_event_n": 13,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 12,
+        "dobj_unknown_event_n": 2,
+        "subj_female_event_n": 4,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 9,
+        "subj_unknown_event_n": 2,
+        "male_female_odds": 0.57,
+        "male_female_subj_odds": 1.2,
+        "male_female_dobj_odds": 0.32,
+        "primary_event_n": 7,
+        "secondary_event_n": 14,
+        "tertiary_event_n": 21,
+        "primary_secondary_odds": 0.65,
+        "primary_tertiary_odds": 0.49,
+        "event_occurances": {
+            "9:0:0.03": [
+                {
+                    "temporal_rank": 8,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 8,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "13:0:0.05": [
+                {
+                    "temporal_rank": 12,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 12,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "18:0:0.06": [
+                {
+                    "temporal_rank": 18,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "24:0:0.08": [
+                {
+                    "temporal_rank": 23,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 23,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 23,
+                    "coref_id": 33,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "36:0:0.13": [
+                {
+                    "temporal_rank": 33,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 33,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "46:6:0.16": [
+                {
+                    "temporal_rank": 42,
+                    "coref_id": 42,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 42,
+                    "coref_id": 268,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 42,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "52:2:0.18": [
+                {
+                    "temporal_rank": 47,
+                    "coref_id": 46,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 47,
+                    "coref_id": 46,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "63:0:0.22": [
+                {
+                    "temporal_rank": 58,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 58,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "141:1:0.49": [
+                {
+                    "temporal_rank": 121,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "183:0:0.64": [
+                {
+                    "temporal_rank": 153,
+                    "coref_id": 146,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 153,
+                    "coref_id": 148,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "194:0:0.68": [
+                {
+                    "temporal_rank": 164,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "212:6:0.74": [
+                {
+                    "temporal_rank": 176,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "228:2:0.8": [
+                {
+                    "temporal_rank": 190,
+                    "coref_id": 198,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 190,
+                    "coref_id": 304,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 190,
+                    "coref_id": 3,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 190,
+                    "coref_id": 198,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "229:1:0.8": [
+                {
+                    "temporal_rank": 191,
+                    "coref_id": 199,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 191,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "70:1:0.24": [
+                {
+                    "temporal_rank": 63,
+                    "coref_id": 36,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "92:0:0.32": [
+                {
+                    "temporal_rank": 82,
+                    "coref_id": 69,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 82,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "94:0:0.33": [
+                {
+                    "temporal_rank": 83,
+                    "coref_id": 70,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "102:0:0.36": [
+                {
+                    "temporal_rank": 91,
+                    "coref_id": 291,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "105:0:0.37": [
+                {
+                    "temporal_rank": 95,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "127:1:0.44": [
+                {
+                    "temporal_rank": 109,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "167:0:0.58": [
+                {
+                    "temporal_rank": 140,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "185:2:0.65": [
+                {
+                    "temporal_rank": 154,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "210:0:0.73": [
+                {
+                    "temporal_rank": 175,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "232:0:0.81": [
+                {
+                    "temporal_rank": 195,
+                    "coref_id": 200,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 195,
+                    "coref_id": 305,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "258:3:0.9": [
+                {
+                    "temporal_rank": 210,
+                    "coref_id": 226,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "282:4:0.99": [
+                {
+                    "temporal_rank": 228,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "answer": {
+        "supersense_category": "verb.communication",
+        "event_n": 2,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 1,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "10:0:0.03": [
+                {
+                    "temporal_rank": 9,
+                    "coref_id": 14,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 9,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "put": {
+        "supersense_category": "verb.contact",
+        "event_n": 4,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 4,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 4.61,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 0,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 0.14,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "11:0:0.04": [
+                {
+                    "temporal_rank": 10,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 10,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "285:0:1.0": [
+                {
+                    "temporal_rank": 232,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 232,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "win": {
+        "supersense_category": "verb.competition",
+        "event_n": 4,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 4,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 3,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.18,
+        "male_female_subj_odds": 1.32,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 3,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 0.18,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "12:0:0.04": [
+                {
+                    "temporal_rank": 11,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "16:1:0.06": [
+                {
+                    "temporal_rank": 15,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "22:1:0.08": [
+                {
+                    "temporal_rank": 21,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "30:1:0.1": [
+                {
+                    "temporal_rank": 26,
+                    "coref_id": 36,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "go": {
+        "supersense_category": "verb.motion",
+        "event_n": 9,
+        "female_event_n": 2,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 7,
+        "unknown_event_n": 0,
+        "dobj_event_n": 4,
+        "subj_event_n": 5,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 3,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 4,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.53,
+        "male_female_subj_odds": 1.71,
+        "male_female_dobj_odds": 1.03,
+        "primary_event_n": 1,
+        "secondary_event_n": 6,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": 0.29,
+        "primary_tertiary_odds": 0.91,
+        "event_occurances": {
+            "14:2:0.05": [
+                {
+                    "temporal_rank": 13,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "32:0:0.11": [
+                {
+                    "temporal_rank": 29,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 29,
+                    "coref_id": 36,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "60:1:0.21": [
+                {
+                    "temporal_rank": 55,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "76:2:0.27": [
+                {
+                    "temporal_rank": 69,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 69,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "78:0:0.27": [
+                {
+                    "temporal_rank": 71,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 71,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "203:0:0.71": [
+                {
+                    "temporal_rank": 170,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "bid": {
+        "supersense_category": "verb.communication",
+        "event_n": 4,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 4,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 4.61,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 0,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 0.14,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "17:0:0.06": [
+                {
+                    "temporal_rank": 16,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 16,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "23:0:0.08": [
+                {
+                    "temporal_rank": 22,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 22,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "cross": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "29:0:0.1": [
+                {
+                    "temporal_rank": 27,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "hear": {
+        "supersense_category": "verb.perception",
+        "event_n": 4,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 1,
+        "dobj_event_n": 1,
+        "subj_event_n": 3,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": 3.56,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 2,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 2.24,
+        "primary_tertiary_odds": 2.59,
+        "event_occurances": {
+            "37:2:0.13": [
+                {
+                    "temporal_rank": 34,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "226:0:0.79": [
+                {
+                    "temporal_rank": 188,
+                    "coref_id": 196,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 188,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "278:0:0.97": [
+                {
+                    "temporal_rank": 226,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "bring": {
+        "supersense_category": "verb.possession",
+        "event_n": 13,
+        "female_event_n": 5,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 6,
+        "unknown_event_n": 2,
+        "dobj_event_n": 10,
+        "subj_event_n": 3,
+        "dobj_female_event_n": 4,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 4,
+        "dobj_unknown_event_n": 2,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.58,
+        "male_female_subj_odds": 0.93,
+        "male_female_dobj_odds": 0.41,
+        "primary_event_n": 0,
+        "secondary_event_n": 2,
+        "tertiary_event_n": 11,
+        "primary_secondary_odds": 0.26,
+        "primary_tertiary_odds": 0.06,
+        "event_occurances": {
+            "38:3:0.13": [
+                {
+                    "temporal_rank": 36,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 36,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 36,
+                    "coref_id": 4,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "253:0:0.88": [
+                {
+                    "temporal_rank": 209,
+                    "coref_id": 226,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "266:0:0.93": [
+                {
+                    "temporal_rank": 214,
+                    "coref_id": 306,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 214,
+                    "coref_id": 306,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "41:1:0.14": [
+                {
+                    "temporal_rank": 38,
+                    "coref_id": 17,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 38,
+                    "coref_id": 4,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "47:1:0.16": [
+                {
+                    "temporal_rank": 43,
+                    "coref_id": 42,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 43,
+                    "coref_id": 273,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "252:0:0.88": [
+                {
+                    "temporal_rank": 207,
+                    "coref_id": 226,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "264:0:0.92": [
+                {
+                    "temporal_rank": 213,
+                    "coref_id": 312,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 213,
+                    "coref_id": 313,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "give": {
+        "supersense_category": "verb.creation",
+        "event_n": 10,
+        "female_event_n": 4,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 6,
+        "unknown_event_n": 0,
+        "dobj_event_n": 7,
+        "subj_event_n": 3,
+        "dobj_female_event_n": 4,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 3,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 3,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.72,
+        "male_female_subj_odds": 4.03,
+        "male_female_dobj_odds": 0.32,
+        "primary_event_n": 5,
+        "secondary_event_n": 2,
+        "tertiary_event_n": 3,
+        "primary_secondary_odds": 3.04,
+        "primary_tertiary_odds": 2.49,
+        "event_occurances": {
+            "39:2:0.14": [
+                {
+                    "temporal_rank": 35,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "156:0:0.55": [
+                {
+                    "temporal_rank": 131,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "157:1:0.55": [
+                {
+                    "temporal_rank": 132,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "53:0:0.19": [
+                {
+                    "temporal_rank": 48,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "57:1:0.2": [
+                {
+                    "temporal_rank": 52,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "118:1:0.41": [
+                {
+                    "temporal_rank": 101,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "221:3:0.77": [
+                {
+                    "temporal_rank": 185,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "234:4:0.82": [
+                {
+                    "temporal_rank": 196,
+                    "coref_id": 200,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "276:2:0.97": [
+                {
+                    "temporal_rank": 223,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 223,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "take": {
+        "supersense_category": "verb.possession",
+        "event_n": 14,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 13,
+        "unknown_event_n": 0,
+        "dobj_event_n": 8,
+        "subj_event_n": 6,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 8,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 5,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 4.79,
+        "male_female_subj_odds": 2.11,
+        "male_female_dobj_odds": 8.16,
+        "primary_event_n": 8,
+        "secondary_event_n": 5,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 2.16,
+        "primary_tertiary_odds": 9.49,
+        "event_occurances": {
+            "40:5:0.14": [
+                {
+                    "temporal_rank": 37,
+                    "coref_id": 13,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 37,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "153:0:0.53": [
+                {
+                    "temporal_rank": 129,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "165:4:0.58": [
+                {
+                    "temporal_rank": 139,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 139,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "189:0:0.66": [
+                {
+                    "temporal_rank": 158,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "214:0:0.75": [
+                {
+                    "temporal_rank": 179,
+                    "coref_id": 36,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 179,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "284:14:0.99": [
+                {
+                    "temporal_rank": 231,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 231,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "81:0:0.28": [
+                {
+                    "temporal_rank": 74,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "149:0:0.52": [
+                {
+                    "temporal_rank": 126,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "171:5:0.6": [
+                {
+                    "temporal_rank": 141,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "237:1:0.83": [
+                {
+                    "temporal_rank": 198,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "shake": {
+        "supersense_category": "verb.contact",
+        "event_n": 3,
+        "female_event_n": 3,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 2,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.07,
+        "male_female_subj_odds": 0.11,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 3,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.21,
+        "event_occurances": {
+            "42:3:0.15": [
+                {
+                    "temporal_rank": 39,
+                    "coref_id": 42,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "62:1:0.22": [
+                {
+                    "temporal_rank": 57,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 57,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "tell": {
+        "supersense_category": "verb.communication",
+        "event_n": 12,
+        "female_event_n": 6,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 4,
+        "unknown_event_n": 2,
+        "dobj_event_n": 8,
+        "subj_event_n": 4,
+        "dobj_female_event_n": 4,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 2,
+        "subj_female_event_n": 2,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.33,
+        "male_female_subj_odds": 0.55,
+        "male_female_dobj_odds": 0.23,
+        "primary_event_n": 0,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 8,
+        "primary_secondary_odds": 0.14,
+        "primary_tertiary_odds": 0.08,
+        "event_occurances": {
+            "45:2:0.16": [
+                {
+                    "temporal_rank": 41,
+                    "coref_id": 42,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 41,
+                    "coref_id": 13,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "56:1:0.2": [
+                {
+                    "temporal_rank": 51,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 51,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "95:2:0.33": [
+                {
+                    "temporal_rank": 84,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "96:3:0.34": [
+                {
+                    "temporal_rank": 87,
+                    "coref_id": 70,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "88:0:0.31": [
+                {
+                    "temporal_rank": 79,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 79,
+                    "coref_id": 4,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "91:0:0.32": [
+                {
+                    "temporal_rank": 81,
+                    "coref_id": 69,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "109:1:0.38": [
+                {
+                    "temporal_rank": 96,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 96,
+                    "coref_id": 77,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "191:3:0.67": [
+                {
+                    "temporal_rank": 161,
+                    "coref_id": 148,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "come": {
+        "supersense_category": "verb.motion",
+        "event_n": 18,
+        "female_event_n": 6,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 11,
+        "unknown_event_n": 1,
+        "dobj_event_n": 4,
+        "subj_event_n": 14,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 4,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 6,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 7,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": 0.88,
+        "male_female_subj_odds": 0.62,
+        "male_female_dobj_odds": 4.13,
+        "primary_event_n": 6,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 8,
+        "primary_secondary_odds": 1.98,
+        "primary_tertiary_odds": 1.18,
+        "event_occurances": {
+            "48:2:0.17": [
+                {
+                    "temporal_rank": 45,
+                    "coref_id": 273,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "49:5:0.17": [
+                {
+                    "temporal_rank": 44,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "61:1:0.21": [
+                {
+                    "temporal_rank": 56,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 56,
+                    "coref_id": 51,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "122:1:0.43": [
+                {
+                    "temporal_rank": 106,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "135:0:0.47": [
+                {
+                    "temporal_rank": 116,
+                    "coref_id": 89,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "137:3:0.48": [
+                {
+                    "temporal_rank": 117,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "144:0:0.5": [
+                {
+                    "temporal_rank": 122,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "155:1:0.54": [
+                {
+                    "temporal_rank": 130,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "159:3:0.56": [
+                {
+                    "temporal_rank": 133,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "175:8:0.61": [
+                {
+                    "temporal_rank": 145,
+                    "coref_id": 135,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "177:0:0.62": [
+                {
+                    "temporal_rank": 148,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "211:0:0.74": [
+                {
+                    "temporal_rank": 177,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 177,
+                    "coref_id": 299,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "230:1:0.8": [
+                {
+                    "temporal_rank": 193,
+                    "coref_id": 200,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "86:4:0.3": [
+                {
+                    "temporal_rank": 77,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "180:3:0.63": [
+                {
+                    "temporal_rank": 150,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "280:1:0.98": [
+                {
+                    "temporal_rank": 227,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "bend": {
+        "supersense_category": "verb.motion",
+        "event_n": 2,
+        "female_event_n": 2,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.1,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.3,
+        "event_occurances": {
+            "51:2:0.18": [
+                {
+                    "temporal_rank": 46,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 46,
+                    "coref_id": 5,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "clear": {
+        "supersense_category": "verb.change",
+        "event_n": 2,
+        "female_event_n": 2,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 2,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.1,
+        "male_female_subj_odds": 0.11,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.3,
+        "event_occurances": {
+            "54:5:0.19": [
+                {
+                    "temporal_rank": 49,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "58:5:0.2": [
+                {
+                    "temporal_rank": 53,
+                    "coref_id": 5,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "demand": {
+        "supersense_category": "verb.communication",
+        "event_n": 2,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 1,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.3,
+        "event_occurances": {
+            "72:4:0.25": [
+                {
+                    "temporal_rank": 65,
+                    "coref_id": 58,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 65,
+                    "coref_id": 4,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "apply": {
+        "supersense_category": "verb.contact",
+        "event_n": 3,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 3.56,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 3,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.21,
+        "event_occurances": {
+            "73:0:0.26": [
+                {
+                    "temporal_rank": 66,
+                    "coref_id": 58,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 66,
+                    "coref_id": 58,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "71:2:0.25": [
+                {
+                    "temporal_rank": 64,
+                    "coref_id": 58,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "follow": {
+        "supersense_category": "verb.motion",
+        "event_n": 5,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 5,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 3,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 3,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 5.66,
+        "male_female_subj_odds": 4.03,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 0,
+        "secondary_event_n": 4,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 0.14,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "74:0:0.26": [
+                {
+                    "temporal_rank": 67,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 67,
+                    "coref_id": 58,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "77:0:0.27": [
+                {
+                    "temporal_rank": 70,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "79:0:0.28": [
+                {
+                    "temporal_rank": 73,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 73,
+                    "coref_id": 2,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "want": {
+        "supersense_category": "verb.emotion",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "82:4:0.29": [
+                {
+                    "temporal_rank": 75,
+                    "coref_id": 6,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "cut": {
+        "supersense_category": "verb.contact",
+        "event_n": 2,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 2,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 0.26,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "87:4:0.3": [
+                {
+                    "temporal_rank": 78,
+                    "coref_id": 2,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "115:1:0.4": [
+                {
+                    "temporal_rank": 102,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "think": {
+        "supersense_category": "verb.cognition",
+        "event_n": 3,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.84,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "97:0:0.34": [
+                {
+                    "temporal_rank": 86,
+                    "coref_id": 70,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "121:0:0.42": [
+                {
+                    "temporal_rank": 105,
+                    "coref_id": 74,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "220:0:0.77": [
+                {
+                    "temporal_rank": 183,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "teach": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "98:2:0.34": [
+                {
+                    "temporal_rank": 85,
+                    "coref_id": 72,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "walk": {
+        "supersense_category": "verb.motion",
+        "event_n": 4,
+        "female_event_n": 2,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 4,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 2,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.5,
+        "male_female_subj_odds": 0.55,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 2,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 2.24,
+        "primary_tertiary_odds": 2.59,
+        "event_occurances": {
+            "106:5:0.37": [
+                {
+                    "temporal_rank": 94,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "195:5:0.68": [
+                {
+                    "temporal_rank": 163,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "269:2:0.94": [
+                {
+                    "temporal_rank": 216,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 216,
+                    "coref_id": 275,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "laugh": {
+        "supersense_category": "verb.body",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "107:2:0.37": [
+                {
+                    "temporal_rank": 93,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "understand": {
+        "supersense_category": "verb.cognition",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "108:1:0.38": [
+                {
+                    "temporal_rank": 92,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "appoint": {
+        "supersense_category": "verb.cognition",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "111:5:0.39": [
+                {
+                    "temporal_rank": 98,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "strike": {
+        "supersense_category": "verb.contact",
+        "event_n": 4,
+        "female_event_n": 3,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 4,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 3,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.21,
+        "male_female_subj_odds": 0.23,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 3,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 0.56,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "119:1:0.42": [
+                {
+                    "temporal_rank": 103,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "120:0:0.42": [
+                {
+                    "temporal_rank": 104,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "129:4:0.45": [
+                {
+                    "temporal_rank": 111,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "224:0:0.78": [
+                {
+                    "temporal_rank": 186,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "order": {
+        "supersense_category": "verb.communication",
+        "event_n": 4,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.18,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 2,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 2.24,
+        "primary_tertiary_odds": 2.59,
+        "event_occurances": {
+            "130:0:0.45": [
+                {
+                    "temporal_rank": 112,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                },
+                {
+                    "temporal_rank": 112,
+                    "coref_id": 89,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "197:0:0.69": [
+                {
+                    "temporal_rank": 165,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 165,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "wake": {
+        "supersense_category": "verb.body",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "132:4:0.46": [
+                {
+                    "temporal_rank": 113,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "change": {
+        "supersense_category": "verb.change",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "138:1:0.48": [
+                {
+                    "temporal_rank": 118,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "know": {
+        "supersense_category": "verb.cognition",
+        "event_n": 4,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.18,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 3,
+        "secondary_event_n": 1,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 3.17,
+        "primary_tertiary_odds": 11.09,
+        "event_occurances": {
+            "143:3:0.5": [
+                {
+                    "temporal_rank": 120,
+                    "coref_id": 74,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "secondary"
+                }
+            ],
+            "151:0:0.53": [
+                {
+                    "temporal_rank": 127,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 127,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "236:5:0.83": [
+                {
+                    "temporal_rank": 197,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "see": {
+        "supersense_category": "verb.perception",
+        "event_n": 6,
+        "female_event_n": 2,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 1,
+        "dobj_event_n": 3,
+        "subj_event_n": 3,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 3,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 2,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": 0.7,
+        "male_female_subj_odds": 0.11,
+        "male_female_dobj_odds": 3.17,
+        "primary_event_n": 2,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 4,
+        "primary_secondary_odds": 6.78,
+        "primary_tertiary_odds": 0.84,
+        "event_occurances": {
+            "145:4:0.51": [
+                {
+                    "temporal_rank": 123,
+                    "coref_id": 98,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ],
+            "190:3:0.66": [
+                {
+                    "temporal_rank": 159,
+                    "coref_id": 148,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 159,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "227:1:0.79": [
+                {
+                    "temporal_rank": 189,
+                    "coref_id": 198,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 189,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "247:2:0.86": [
+                {
+                    "temporal_rank": 206,
+                    "coref_id": 220,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "stop": {
+        "supersense_category": "verb.motion",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "148:3:0.52": [
+                {
+                    "temporal_rank": 125,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "kill": {
+        "supersense_category": "verb.contact",
+        "event_n": 3,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 1,
+        "dobj_event_n": 2,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 2.53,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 2,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 6.78,
+        "primary_tertiary_odds": 2.59,
+        "event_occurances": {
+            "150:1:0.52": [
+                {
+                    "temporal_rank": 128,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 128,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "134:2:0.47": [
+                {
+                    "temporal_rank": 115,
+                    "coref_id": 90,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "serve": {
+        "supersense_category": "verb.social",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "161:1:0.56": [
+                {
+                    "temporal_rank": 137,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "bear": {
+        "supersense_category": "verb.body",
+        "event_n": 3,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 1,
+        "male_event_n": 1,
+        "unknown_event_n": 1,
+        "dobj_event_n": 2,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 1,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.91,
+        "event_occurances": {
+            "163:1:0.57": [
+                {
+                    "temporal_rank": 135,
+                    "coref_id": 118,
+                    "argument": "subject",
+                    "gender": "group/nonbinary",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 135,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 135,
+                    "coref_id": 119,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "leave": {
+        "supersense_category": "verb.possession",
+        "event_n": 5,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 5,
+        "unknown_event_n": 0,
+        "dobj_event_n": 3,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 3,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 5.66,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": 3.17,
+        "primary_event_n": 5,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 15.48,
+        "primary_tertiary_odds": 17.87,
+        "event_occurances": {
+            "169:1:0.59": [
+                {
+                    "temporal_rank": 142,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "268:2:0.94": [
+                {
+                    "temporal_rank": 217,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 217,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "65:1:0.23": [
+                {
+                    "temporal_rank": 60,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "281:2:0.98": [
+                {
+                    "temporal_rank": 229,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "get": {
+        "supersense_category": "verb.possession",
+        "event_n": 4,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 3,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.18,
+        "male_female_subj_odds": 0.93,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 3,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 9.61,
+        "primary_tertiary_odds": 3.67,
+        "event_occurances": {
+            "176:4:0.62": [
+                {
+                    "temporal_rank": 146,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "187:0:0.65": [
+                {
+                    "temporal_rank": 157,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "265:3:0.93": [
+                {
+                    "temporal_rank": 212,
+                    "coref_id": 226,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "201:3:0.7": [
+                {
+                    "temporal_rank": 168,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "cause": {
+        "supersense_category": "verb.creation",
+        "event_n": 2,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "184:0:0.64": [
+                {
+                    "temporal_rank": 152,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 152,
+                    "coref_id": 148,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "stretch": {
+        "supersense_category": "verb.contact",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "188:2:0.66": [
+                {
+                    "temporal_rank": 156,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "allow": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "193:1:0.67": [
+                {
+                    "temporal_rank": 160,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "grow": {
+        "supersense_category": "verb.change",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "196:1:0.69": [
+                {
+                    "temporal_rank": 162,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "loose": {
+        "supersense_category": "verb.contact",
+        "event_n": 3,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 3,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 2,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 3.56,
+        "male_female_subj_odds": 2.85,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 3,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 9.61,
+        "primary_tertiary_odds": 11.09,
+        "event_occurances": {
+            "199:6:0.7": [
+                {
+                    "temporal_rank": 167,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "200:0:0.7": [
+                {
+                    "temporal_rank": 166,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "179:2:0.63": [
+                {
+                    "temporal_rank": 149,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "cry": {
+        "supersense_category": "verb.communication",
+        "event_n": 5,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 4,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 4,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 3,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 1.52,
+        "male_female_subj_odds": 1.32,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 4,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": 12.51,
+        "primary_tertiary_odds": 4.77,
+        "event_occurances": {
+            "202:0:0.71": [
+                {
+                    "temporal_rank": 169,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 169,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ],
+            "271:3:0.95": [
+                {
+                    "temporal_rank": 219,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 219,
+                    "coref_id": 275,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ],
+            "273:2:0.95": [
+                {
+                    "temporal_rank": 221,
+                    "coref_id": 53,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "help": {
+        "supersense_category": "verb.social",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 1,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 1,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "206:3:0.72": [
+                {
+                    "temporal_rank": 172,
+                    "coref_id": 3,
+                    "argument": "subject",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "call": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "213:0:0.74": [
+                {
+                    "temporal_rank": 178,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "begin": {
+        "supersense_category": "verb.change",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "217:2:0.76": [
+                {
+                    "temporal_rank": 182,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "hurt": {
+        "supersense_category": "verb.emotion",
+        "event_n": 2,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 2.53,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 2,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 6.78,
+        "primary_tertiary_odds": 7.82,
+        "event_occurances": {
+            "223:1:0.78": [
+                {
+                    "temporal_rank": 184,
+                    "coref_id": 120,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 184,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "drown": {
+        "supersense_category": "verb.body",
+        "event_n": 2,
+        "female_event_n": 2,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 0.1,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.3,
+        "event_occurances": {
+            "231:3:0.81": [
+                {
+                    "temporal_rank": 192,
+                    "coref_id": 200,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 192,
+                    "coref_id": 200,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "bite": {
+        "supersense_category": "verb.contact",
+        "event_n": 2,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 2,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 1,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.3,
+        "event_occurances": {
+            "242:4:0.85": [
+                {
+                    "temporal_rank": 201,
+                    "coref_id": 306,
+                    "argument": "subject",
+                    "gender": "male",
+                    "importance": "tertiary"
+                },
+                {
+                    "temporal_rank": 201,
+                    "coref_id": 215,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "promise": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "250:5:0.87": [
+                {
+                    "temporal_rank": 205,
+                    "coref_id": 64,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "age": {
+        "supersense_category": "verb.change",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 0,
+        "subj_event_n": 1,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 1,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "270:1:0.94": [
+                {
+                    "temporal_rank": 218,
+                    "coref_id": 59,
+                    "argument": "subject",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "speak": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "44:1:0.15": [
+                {
+                    "temporal_rank": 40,
+                    "coref_id": 17,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "carry": {
+        "supersense_category": "verb.contact",
+        "event_n": 2,
+        "female_event_n": 1,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 1,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "64:3:0.22": [
+                {
+                    "temporal_rank": 59,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                },
+                {
+                    "temporal_rank": 59,
+                    "coref_id": 275,
+                    "argument": "direct_object",
+                    "gender": "female",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "bore": {
+        "supersense_category": "verb.possession",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "67:1:0.23": [
+                {
+                    "temporal_rank": 61,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "mock": {
+        "supersense_category": "verb.social",
+        "event_n": 2,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 2.53,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 0,
+        "secondary_event_n": 2,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": 0.26,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "75:6:0.26": [
+                {
+                    "temporal_rank": 68,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ],
+            "80:3:0.28": [
+                {
+                    "temporal_rank": 72,
+                    "coref_id": 6,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "secondary"
+                }
+            ]
+        }
+    },
+    "argue": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 1,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "101:3:0.35": [
+                {
+                    "temporal_rank": 90,
+                    "coref_id": 77,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "proclaim": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 0,
+        "unknown_event_n": 1,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 1,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "123:1:0.43": [
+                {
+                    "temporal_rank": 107,
+                    "coref_id": 84,
+                    "argument": "direct_object",
+                    "gender": "unknown",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "find": {
+        "supersense_category": "verb.possession",
+        "event_n": 2,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 2.53,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "124:1:0.43": [
+                {
+                    "temporal_rank": 108,
+                    "coref_id": 86,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "204:1:0.71": [
+                {
+                    "temporal_rank": 171,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "thank": {
+        "supersense_category": "verb.communication",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "158:2:0.55": [
+                {
+                    "temporal_rank": 134,
+                    "coref_id": 53,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "place": {
+        "supersense_category": "verb.contact",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 1,
+        "male_event_n": 0,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 1,
+        "dobj_male_event_n": 0,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "164:1:0.57": [
+                {
+                    "temporal_rank": 138,
+                    "coref_id": 118,
+                    "argument": "direct_object",
+                    "gender": "group/nonbinary",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "lay": {
+        "supersense_category": "verb.contact",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 1,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 0,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "173:0:0.6": [
+                {
+                    "temporal_rank": 143,
+                    "coref_id": 120,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "primary"
+                }
+            ]
+        }
+    },
+    "cure": {
+        "supersense_category": "verb.body",
+        "event_n": 2,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 2,
+        "unknown_event_n": 0,
+        "dobj_event_n": 2,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 2,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": 2.53,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": 2.24,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 2,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": 0.3,
+        "event_occurances": {
+            "243:6:0.85": [
+                {
+                    "temporal_rank": 203,
+                    "coref_id": 220,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ],
+            "244:3:0.85": [
+                {
+                    "temporal_rank": 204,
+                    "coref_id": 220,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    },
+    "earn": {
+        "supersense_category": "verb.possession",
+        "event_n": 1,
+        "female_event_n": 0,
+        "group/nonbinary_event_n": 0,
+        "male_event_n": 1,
+        "unknown_event_n": 0,
+        "dobj_event_n": 1,
+        "subj_event_n": 0,
+        "dobj_female_event_n": 0,
+        "dobj_group_nb_event_n": 0,
+        "dobj_male_event_n": 1,
+        "dobj_unknown_event_n": 0,
+        "subj_female_event_n": 0,
+        "subj_group_nb_event_n": 0,
+        "subj_male_event_n": 0,
+        "subj_unknown_event_n": 0,
+        "male_female_odds": null,
+        "male_female_subj_odds": null,
+        "male_female_dobj_odds": null,
+        "primary_event_n": 0,
+        "secondary_event_n": 0,
+        "tertiary_event_n": 1,
+        "primary_secondary_odds": null,
+        "primary_tertiary_odds": null,
+        "event_occurances": {
+            "279:5:0.98": [
+                {
+                    "temporal_rank": 225,
+                    "coref_id": 319,
+                    "argument": "direct_object",
+                    "gender": "male",
+                    "importance": "tertiary"
+                }
+            ]
+        }
+    }
+}

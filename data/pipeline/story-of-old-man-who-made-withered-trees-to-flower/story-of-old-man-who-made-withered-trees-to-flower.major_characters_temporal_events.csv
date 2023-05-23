@@ -1,0 +1,228 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,supported,55,64,55,64,5,27.0,50.0,27.0,50.0,76.0,111.0,,,verb.social,True,1,subject,an old man's wife,8.0,0.0,8.0,female,1.0,tertiary
+0,1,supported,55,64,55,64,4,27.0,50.0,27.0,50.0,76.0,111.0,,,verb.social,True,1,subject,an old man,1.0,1.0,2.0,male,1.0,tertiary
+6,0,means,10,15,442,447,0,4.0,9.0,436.0,441.0,,,,,verb.communication,True,4,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+8,1,returned,79,87,649,657,11,71.0,78.0,641.0,648.0,,,,,verb.motion,True,3,subject,the man,1.0,4.0,5.0,male,1.0,tertiary
+11,0,said,17,21,932,936,10,5.0,16.0,920.0,931.0,,,,,verb.communication,True,6,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+12,1,gave,44,48,995,999,15,33.0,43.0,984.0,994.0,,,,,verb.possession,True,8,subject,Shiro's master,6.0,3.0,9.0,male,1.0,tertiary
+12,1,gave,44,48,995,999,0,33.0,43.0,984.0,994.0,,,,,verb.possession,True,8,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+14,0,hated,5,10,1126,1131,18,0.0,4.0,1121.0,1125.0,,,,,verb.emotion,True,7,subject,this good old couple,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+15,1,look,27,31,1220,1224,0,0.0,14.0,1193.0,1207.0,,,,,verb.perception,True,9,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+16,2,barking,24,31,1348,1355,0,8.0,13.0,1332.0,1337.0,,,,,verb.perception,True,10,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+17,0,thinking,13,21,1433,1441,10,0.0,11.0,1420.0,1431.0,,,,,verb.cognition,True,11,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+18,0,saw,17,20,1548,1551,0,11.0,16.0,1542.0,1547.0,,,,,verb.perception,True,12,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+20,1,dig,17,20,1691,1694,0,5.0,7.0,1679.0,1681.0,,,,,verb.contact,True,14,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+21,3,looking,59,66,1819,1826,10,0.0,11.0,1760.0,1771.0,70.0,85.0,1830.0,1845.0,verb.perception,True,15,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+22,2,digging,30,37,1877,1884,0,4.0,9.0,1851.0,1856.0,,,,,verb.contact,True,16,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+24,3,dig,57,60,2084,2087,0,0.0,2.0,2027.0,2029.0,72.0,84.0,2099.0,2111.0,verb.contact,True,18,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+26,0,dug,14,17,2235,2238,0,11.0,13.0,2232.0,2234.0,,,,,verb.contact,True,19,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+27,1,saw,52,55,2324,2327,0,43.0,45.0,2315.0,2317.0,,,,,verb.perception,True,20,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+29,5,make,112,116,2566,2570,10,106.0,107.0,2560.0,2561.0,,,,,verb.social,True,21,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+30,1,call,22,26,2640,2644,10,0.0,11.0,2618.0,2629.0,,,,,verb.communication,True,22,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+31,0,became,33,39,2733,2739,37,16.0,32.0,2716.0,2732.0,,,,,verb.change,True,23,subject,the poor old man,1.0,2.0,3.0,male,1.0,tertiary
+32,0,knew,34,38,2780,2784,37,0.0,33.0,2746.0,2779.0,,,,,verb.cognition,True,24,subject,the poor old man,1.0,2.0,3.0,male,1.0,tertiary
+32,0,knew,34,38,2780,2784,38,0.0,33.0,2746.0,2779.0,,,,,verb.cognition,True,24,subject,the faithful dog,1.0,1.0,2.0,male,1.0,tertiary
+33,1,petted,13,19,2809,2815,37,0.0,2.0,2796.0,2798.0,24.0,61.0,2820.0,2857.0,verb.body,True,26,subject,the poor old man,1.0,2.0,3.0,male,1.0,tertiary
+34,0,attracted,24,33,2883,2892,39,0.0,22.0,2859.0,2881.0,,,,,verb.emotion,True,25,subject,The cross old neighbor,2.0,3.0,5.0,male,1.0,tertiary
+35,0,began,3,8,2987,2992,39,0.0,2.0,2984.0,2986.0,,,,,verb.change,True,27,subject,The cross old neighbor,2.0,3.0,5.0,male,1.0,tertiary
+37,3,love,109,113,3282,3286,43,92.0,104.0,3265.0,3277.0,,,,,verb.emotion,True,29,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+37,3,love,109,113,3282,3286,31,92.0,104.0,3265.0,3277.0,,,,,verb.emotion,True,29,subject,Shiro's neighbor,6.0,4.0,10.0,male,1.0,tertiary
+39,1,refuse,45,51,3440,3446,45,4.0,20.0,3399.0,3415.0,,,,,verb.possession,True,31,subject,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+40,0,returned,19,27,3564,3572,47,0.0,18.0,3545.0,3563.0,40.0,70.0,3585.0,3615.0,verb.motion,True,33,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+41,2,succeeded,28,37,3645,3654,47,21.0,23.0,3638.0,3640.0,,,,,verb.social,True,32,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+42,0,took,8,12,3689,3693,47,0.0,2.0,3681.0,3683.0,54.0,95.0,3735.0,3776.0,verb.motion,True,34,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+43,1,said,40,44,3818,3822,47,37.0,39.0,3815.0,3817.0,57.0,70.0,3835.0,3848.0,verb.communication,True,35,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+44,1,find,9,13,3956,3960,0,0.0,3.0,3947.0,3950.0,19.0,25.0,3966.0,3972.0,verb.possession,True,36,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+48,4,dig,107,110,4112,4115,0,80.0,85.0,4085.0,4090.0,,,,,verb.contact,True,37,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+49,1,saw,37,40,4211,4214,10,34.0,36.0,4208.0,4210.0,,,,,verb.perception,True,39,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+51,2,dig,31,34,4425,4428,47,19.0,21.0,4413.0,4415.0,,,,,verb.contact,True,40,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+52,1,digging,14,21,4487,4494,47,3.0,5.0,4476.0,4478.0,,,,,verb.contact,True,41,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+53,2,imagined,29,37,4593,4601,10,0.0,21.0,4564.0,4585.0,,,,,verb.cognition,True,43,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+55,4,borrowed,86,94,4718,4726,47,79.0,81.0,4711.0,4713.0,,,,,verb.possession,True,42,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+58,1,struck,47,53,5010,5016,47,0.0,2.0,4963.0,4965.0,,,,,verb.contact,True,47,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+59,2,dug,56,59,5107,5110,47,34.0,42.0,5085.0,5093.0,,,,,verb.creation,True,46,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+60,0,returned,8,16,5204,5212,47,5.0,7.0,5201.0,5203.0,31.0,82.0,5227.0,5278.0,verb.motion,True,48,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+61,2,return,53,59,5333,5339,0,31.0,44.0,5311.0,5324.0,,,,,verb.motion,True,49,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+62,1,waited,43,49,5418,5424,45,26.0,42.0,5401.0,5417.0,,,,,verb.cognition,True,50,subject,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+63,1,asked,33,38,5467,5472,47,5.0,7.0,5439.0,5441.0,,,,,verb.communication,True,51,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+64,0,answered,53,61,5556,5564,64,33.0,52.0,5536.0,5555.0,,,,,verb.communication,True,52,subject,The wicked neighbor,3.0,5.0,8.0,male,1.0,tertiary
+65,0,wept,37,41,5656,5660,43,22.0,36.0,5641.0,5655.0,,,,,verb.body,True,53,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+65,0,wept,37,41,5656,5660,0,22.0,36.0,5641.0,5655.0,,,,,verb.body,True,53,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+67,3,asked,70,75,5857,5862,43,67.0,69.0,5854.0,5856.0,,,,,verb.communication,True,55,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+68,1,refuse,38,44,5973,5979,39,0.0,27.0,5935.0,5962.0,,,,,verb.communication,True,56,subject,The cross old neighbor,2.0,3.0,5.0,male,1.0,tertiary
+69,1,carried,42,49,6120,6127,43,0.0,14.0,6078.0,6092.0,53.0,57.0,6131.0,6135.0,verb.contact,True,57,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+69,1,carried,42,49,6120,6127,0,0.0,14.0,6078.0,6092.0,53.0,57.0,6131.0,6135.0,verb.contact,True,57,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+70,0,made,20,24,6157,6161,43,0.0,16.0,6137.0,6153.0,,,,,verb.creation,True,58,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+73,4,make,81,85,6408,6412,43,57.0,59.0,6384.0,6386.0,,,,,verb.creation,True,60,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+75,0,saw,30,33,6630,6633,5,5.0,29.0,6605.0,6629.0,,,,,verb.cognition,True,61,subject,an old man's wife,8.0,0.0,8.0,female,1.0,tertiary
+75,0,saw,30,33,6630,6633,10,5.0,29.0,6605.0,6629.0,,,,,verb.cognition,True,61,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+80,1,asked,29,34,7041,7046,80,0.0,2.0,7012.0,7014.0,,,,,verb.communication,True,62,subject,"The greedy neighbor , hearing of this new piece of good luck",1.0,2.0,3.0,male,1.0,tertiary
+81,1,lend,41,45,7262,7266,10,0.0,11.0,7221.0,7232.0,,,,,verb.possession,True,63,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+82,0,carried,19,26,7343,7350,84,3.0,18.0,7327.0,7342.0,,,,,verb.motion,True,64,subject,the envious man,1.0,0.0,1.0,male,1.0,tertiary
+83,1,waited,40,46,7438,7444,43,25.0,39.0,7423.0,7437.0,,,,,verb.cognition,True,65,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+83,1,waited,40,46,7438,7444,0,25.0,39.0,7423.0,7437.0,,,,,verb.cognition,True,65,subject,Shiro,32.0,38.0,70.0,male,1.0,primary
+84,0,asked,3,8,7508,7513,43,0.0,2.0,7505.0,7507.0,,,,,verb.communication,True,67,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+85,1,sitting,13,20,7598,7605,86,9.0,12.0,7594.0,7597.0,,,,,verb.contact,True,66,subject,the borrower,1.0,3.0,4.0,male,1.0,tertiary
+87,3,ask,94,97,7810,7813,43,82.0,85.0,7798.0,7801.0,,,,,verb.communication,True,68,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+88,2,making,35,41,7869,7875,64,30.0,31.0,7864.0,7865.0,,,,,verb.creation,True,70,subject,The wicked neighbor,3.0,5.0,8.0,male,1.0,tertiary
+89,1,pound,16,21,7912,7917,64,5.0,6.0,7901.0,7902.0,,,,,verb.contact,True,69,subject,The wicked neighbor,3.0,5.0,8.0,male,1.0,tertiary
+90,0,said,17,21,7990,7994,45,0.0,16.0,7973.0,7989.0,,,,,verb.communication,True,72,subject,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+91,2,ask,31,34,8054,8057,43,19.0,22.0,8042.0,8045.0,52.0,70.0,8075.0,8093.0,verb.communication,True,71,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+92,3,wanted,43,49,8138,8144,43,23.0,38.0,8118.0,8133.0,,,,,verb.emotion,True,73,subject,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+93,1,wish,49,53,8195,8199,45,47.0,48.0,8193.0,8194.0,,,,,verb.emotion,True,74,subject,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+94,0,consented,13,22,8253,8262,90,0.0,12.0,8240.0,8252.0,,,,,verb.communication,True,75,subject,The neighbor,1.0,0.0,1.0,unknown,0.0,tertiary
+95,0,scattered,45,54,8370,8379,10,20.0,31.0,8345.0,8356.0,,,,,verb.contact,True,76,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+98,1,transformed,34,45,8723,8734,10,0.0,20.0,8689.0,8709.0,,,,,verb.change,True,77,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+99,0,knew,22,26,8793,8797,10,0.0,21.0,8771.0,8792.0,,,,,verb.cognition,True,78,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+100,1,came,84,88,8941,8945,101,59.0,83.0,8916.0,8940.0,,,,,verb.change,True,79,subject,people from far and near,1.0,0.0,1.0,unknown,0.0,tertiary
+101,0,heard,38,43,9012,9017,10,26.0,37.0,9000.0,9011.0,,,,,verb.perception,True,81,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+102,5,standing,70,78,9119,9127,105,61.0,69.0,9110.0,9118.0,,,,,verb.contact,True,80,subject,a Knight,1.0,0.0,1.0,unknown,0.0,tertiary
+103,0,told,12,16,9147,9151,106,0.0,11.0,9135.0,9146.0,,,,,verb.communication,True,83,subject,This Knight,1.0,2.0,3.0,male,1.0,tertiary
+104,1,withered,63,71,9268,9276,109,0.0,58.0,9205.0,9263.0,,,,,verb.change,True,82,subject,this nobleman,1.0,0.0,1.0,unknown,0.0,tertiary
+105,1,tried,36,41,9314,9319,111,7.0,31.0,9285.0,9309.0,,,,,verb.social,True,84,subject,This Knight's one in his service,1.0,0.0,1.0,unknown,0.0,tertiary
+105,1,tried,36,41,9314,9319,106,7.0,31.0,9285.0,9309.0,,,,,verb.social,True,84,subject,This Knight,1.0,2.0,3.0,male,1.0,tertiary
+106,1,saw,38,41,9410,9413,112,35.0,37.0,9407.0,9409.0,,,,,verb.perception,True,86,subject,the Knight,3.0,3.0,6.0,male,1.0,tertiary
+108,2,ask,25,28,9638,9641,10,18.0,21.0,9631.0,9634.0,,,,,verb.communication,True,87,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+109,4,come,67,71,9737,9741,10,58.0,61.0,9728.0,9731.0,,,,,verb.motion,True,89,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+110,1,heard,50,55,9802,9807,45,42.0,46.0,9794.0,9798.0,,,,,verb.perception,True,88,subject,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+111,5,asked,90,95,9962,9967,10,86.0,89.0,9958.0,9961.0,100.0,107.0,9972.0,9979.0,verb.communication,True,90,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+112,1,replied,35,42,10093,10100,10,0.0,11.0,10058.0,10069.0,,,,,verb.communication,True,91,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+113,2,make,32,36,10155,10159,10,23.0,26.0,10146.0,10149.0,80.0,115.0,10203.0,10238.0,verb.change,True,93,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+115,1,carried,95,102,10353,10360,122,35.0,81.0,10293.0,10339.0,,,,,verb.contact,True,92,subject,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+115,1,carried,95,102,10353,10360,128,35.0,81.0,10293.0,10339.0,,,,,verb.contact,True,92,subject,the Daimio's retainers,2.0,0.0,2.0,unknown,0.0,tertiary
+116,2,climb,55,60,10436,10441,10,0.0,11.0,10381.0,10392.0,,,,,verb.motion,True,94,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+117,5,began,80,85,10532,10537,10,20.0,22.0,10472.0,10474.0,,,,,verb.change,True,95,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+118,0,watched,10,17,10567,10574,131,0.0,9.0,10557.0,10566.0,32.0,51.0,10589.0,10608.0,verb.perception,True,96,subject,Every one,1.0,0.0,1.0,unknown,0.0,tertiary
+119,0,climbed,11,18,10621,10628,10,8.0,10.0,10618.0,10620.0,,,,,verb.motion,True,97,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+120,2,scattered,54,63,10743,10752,10,29.0,40.0,10718.0,10729.0,,,,,verb.contact,True,98,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+123,2,looked,47,53,10942,10948,1,44.0,46.0,10939.0,10941.0,,,,,verb.perception,True,99,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+124,0,rose,3,7,10975,10979,1,0.0,2.0,10972.0,10974.0,,,,,verb.motion,True,100,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+125,2,rewarded,70,78,11126,11134,1,0.0,10.0,11056.0,11066.0,,,,,verb.possession,True,101,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+126,0,ordered,11,18,11208,11215,1,0.0,10.0,11197.0,11207.0,,,,,verb.communication,True,102,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+128,0,sent,3,7,11399,11403,1,0.0,2.0,11396.0,11398.0,17.0,33.0,11413.0,11429.0,verb.motion,True,105,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+130,1,suppress,13,21,11563,11571,10,0.0,2.0,11550.0,11552.0,,,,,verb.emotion,True,106,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+131,5,making,87,93,11708,11714,10,22.0,24.0,11643.0,11645.0,,,,,verb.creation,True,107,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+132,1,succeed,25,32,11757,11764,10,17.0,19.0,11749.0,11751.0,,,,,verb.social,True,109,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+134,1,work,13,17,11916,11920,10,3.0,5.0,11906.0,11908.0,,,,,verb.social,True,108,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+135,4,went,94,98,12126,12130,10,91.0,93.0,12123.0,12125.0,,,,,verb.motion,True,110,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+137,0,heard,25,30,12287,12292,122,0.0,24.0,12262.0,12286.0,,,,,verb.perception,True,112,subject,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+138,0,have,2,6,12358,12362,122,0.0,1.0,12356.0,12357.0,,,,,verb.possession,True,113,subject,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+139,1,try,8,11,12393,12396,144,4.0,7.0,12389.0,12392.0,20.0,25.0,12405.0,12410.0,verb.social,True,114,subject,the impostor,1.0,2.0,3.0,male,1.0,tertiary
+142,2,imagined,45,53,12560,12568,146,0.0,33.0,12515.0,12548.0,,,,,verb.communication,True,115,subject,false old man,1.0,4.0,5.0,male,1.0,tertiary
+143,5,asked,116,121,12686,12691,122,113.0,115.0,12683.0,12685.0,,,,,verb.communication,True,117,subject,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+144,0,answered,25,33,12770,12778,149,4.0,24.0,12749.0,12769.0,,,,,verb.communication,True,118,subject,the envious neighbor,2.0,5.0,7.0,unknown,0.0,tertiary
+147,0,thought,3,10,12846,12853,122,1.0,2.0,12844.0,12845.0,,,,,verb.cognition,True,120,subject,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+154,0,following,52,61,13181,13190,1,27.0,51.0,13156.0,13180.0,,,,,verb.motion,True,124,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+154,0,following,52,61,13181,13190,153,27.0,51.0,13156.0,13180.0,,,,,verb.motion,True,124,subject,the Daimio's Court,1.0,0.0,1.0,unknown,0.0,tertiary
+155,3,scattered,91,100,13310,13319,1,25.0,27.0,13244.0,13246.0,,,,,verb.contact,True,125,subject,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+157,4,sprinkled,80,89,13500,13509,10,44.0,55.0,13464.0,13475.0,,,,,verb.contact,True,126,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+161,0,ordered,3,10,13663,13670,10,0.0,2.0,13660.0,13662.0,,,,,verb.communication,True,128,subject,The old man,33.0,64.0,97.0,male,1.0,primary
+162,1,freed,52,57,13820,13825,47,23.0,41.0,13791.0,13809.0,,,,,verb.social,True,129,subject,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+2,1,had,14,17,204,207,8,18.0,26.0,208.0,216.0,,,,,verb.possession,True,0,direct_object,no child,1.0,0.0,1.0,unknown,0.0,tertiary
+5,0,loved,13,18,326,331,0,19.0,22.0,332.0,335.0,23.0,117.0,336.0,430.0,verb.emotion,True,2,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+8,1,returned,79,87,649,657,11,88.0,114.0,658.0,684.0,,,,,verb.motion,True,3,direct_object,the man,1.0,4.0,5.0,male,1.0,tertiary
+9,1,finished,7,15,693,701,11,16.0,56.0,702.0,742.0,,,,,verb.change,True,5,direct_object,the man,1.0,4.0,5.0,male,1.0,tertiary
+12,1,gave,44,48,995,999,0,49.0,52.0,1000.0,1003.0,,,,,verb.possession,True,8,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+14,0,hated,5,10,1126,1131,18,11.0,70.0,1132.0,1191.0,,,,,verb.emotion,True,7,direct_object,this good old couple,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+14,0,hated,5,10,1126,1131,0,11.0,70.0,1132.0,1191.0,,,,,verb.emotion,True,7,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+14,0,hated,5,10,1126,1131,21,11.0,70.0,1132.0,1191.0,,,,,verb.emotion,True,7,direct_object,this good old couple's good neighbors,1.0,0.0,1.0,unknown,0.0,tertiary
+15,1,look,27,31,1220,1224,18,32.0,50.0,1225.0,1243.0,,,,,verb.perception,True,9,direct_object,this good old couple,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+18,0,saw,17,20,1548,1551,15,21.0,50.0,1552.0,1581.0,,,,,verb.perception,True,12,direct_object,Shiro's master,6.0,3.0,9.0,male,1.0,tertiary
+18,0,saw,17,20,1548,1551,0,21.0,50.0,1552.0,1581.0,,,,,verb.perception,True,12,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+19,0,seizing,0,7,1601,1608,0,8.0,29.0,1609.0,1630.0,,,,,verb.contact,True,13,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+23,5,struck,102,108,2007,2013,10,109.0,120.0,2014.0,2025.0,,,,,verb.emotion,True,17,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+27,1,saw,52,55,2324,2327,31,56.0,126.0,2328.0,2398.0,,,,,verb.perception,True,20,direct_object,Shiro's neighbor,6.0,4.0,10.0,male,1.0,tertiary
+27,1,saw,52,55,2324,2327,0,56.0,126.0,2328.0,2398.0,,,,,verb.perception,True,20,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+29,5,make,112,116,2566,2570,15,117.0,161.0,2571.0,2615.0,,,,,verb.social,True,21,direct_object,Shiro's master,6.0,3.0,9.0,male,1.0,tertiary
+29,5,make,112,116,2566,2570,10,117.0,161.0,2571.0,2615.0,,,,,verb.social,True,21,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+30,1,call,22,26,2640,2644,5,27.0,35.0,2645.0,2653.0,,,,,verb.communication,True,22,direct_object,an old man's wife,8.0,0.0,8.0,female,1.0,tertiary
+30,1,call,22,26,2640,2644,10,27.0,35.0,2645.0,2653.0,,,,,verb.communication,True,22,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+33,1,petted,13,19,2809,2815,38,20.0,23.0,2816.0,2819.0,24.0,61.0,2820.0,2857.0,verb.body,True,26,direct_object,the faithful dog,1.0,1.0,2.0,male,1.0,tertiary
+34,0,attracted,24,33,2883,2892,0,34.0,52.0,2893.0,2911.0,,,,,verb.emotion,True,25,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+35,0,began,3,8,2987,2992,39,9.0,60.0,2993.0,3044.0,,,,,verb.change,True,27,direct_object,The cross old neighbor,2.0,3.0,5.0,male,1.0,tertiary
+36,2,borrow,96,102,3142,3148,0,103.0,108.0,3149.0,3154.0,109.0,125.0,,,verb.possession,True,30,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+37,3,love,109,113,3282,3286,43,114.0,125.0,3287.0,3298.0,,,,,verb.emotion,True,29,direct_object,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+38,3,crossed,77,84,3377,3384,43,85.0,93.0,3385.0,3393.0,,,,,verb.motion,True,28,direct_object,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+39,1,refuse,45,51,3440,3446,31,52.0,64.0,3447.0,3459.0,,,,,verb.possession,True,31,direct_object,Shiro's neighbor,6.0,4.0,10.0,male,1.0,tertiary
+39,1,refuse,45,51,3440,3446,45,52.0,64.0,3447.0,3459.0,,,,,verb.possession,True,31,direct_object,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+40,0,returned,19,27,3564,3572,47,28.0,39.0,3573.0,3584.0,40.0,70.0,3585.0,3615.0,verb.motion,True,33,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+41,2,succeeded,28,37,3645,3654,47,38.0,62.0,3655.0,3679.0,,,,,verb.social,True,32,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+42,0,took,8,12,3689,3693,47,13.0,22.0,3694.0,3703.0,54.0,95.0,3735.0,3776.0,verb.motion,True,34,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+43,1,said,40,44,3818,3822,47,45.0,55.0,3823.0,3833.0,57.0,70.0,3835.0,3848.0,verb.communication,True,35,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+43,1,said,40,44,3818,3822,0,45.0,55.0,3823.0,3833.0,57.0,70.0,3835.0,3848.0,verb.communication,True,35,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+43,1,said,40,44,3818,3822,163,45.0,55.0,3823.0,3833.0,57.0,70.0,3835.0,3848.0,verb.communication,True,35,direct_object,Shiro's master,1.0,0.0,1.0,unknown,0.0,tertiary
+50,2,buried,45,51,4294,4300,10,52.0,66.0,4301.0,4315.0,,,,,verb.contact,True,38,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+51,2,dig,31,34,4425,4428,47,35.0,42.0,4429.0,4436.0,,,,,verb.contact,True,40,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+55,4,borrowed,86,94,4718,4726,0,95.0,108.0,4727.0,4740.0,,,,,verb.possession,True,42,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+56,5,rewarded,102,110,4844,4852,47,111.0,114.0,4853.0,4856.0,,,,,verb.social,True,44,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+57,0,blaming,11,18,4893,4900,47,19.0,32.0,4901.0,4914.0,,,,,verb.cognition,True,45,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+58,1,struck,47,53,5010,5016,0,54.0,59.0,5017.0,5022.0,,,,,verb.contact,True,47,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+63,1,asked,33,38,5467,5472,47,39.0,42.0,5473.0,5476.0,,,,,verb.communication,True,51,direct_object,the wicked old man,2.0,40.0,42.0,male,1.0,secondary
+63,1,asked,33,38,5467,5472,31,39.0,42.0,5473.0,5476.0,,,,,verb.communication,True,51,direct_object,Shiro's neighbor,6.0,4.0,10.0,male,1.0,tertiary
+64,0,answered,53,61,5556,5564,0,62.0,114.0,5565.0,5617.0,,,,,verb.communication,True,52,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+64,0,answered,53,61,5556,5564,64,62.0,114.0,5565.0,5617.0,,,,,verb.communication,True,52,direct_object,The wicked neighbor,3.0,5.0,8.0,male,1.0,tertiary
+66,2,reproach,72,80,5760,5768,66,81.0,97.0,5769.0,5785.0,,,,,verb.communication,True,54,direct_object,Shiro 's master's bad neighbor,1.0,0.0,1.0,unknown,0.0,tertiary
+66,2,reproach,72,80,5760,5768,43,81.0,97.0,5769.0,5785.0,,,,,verb.communication,True,54,direct_object,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+67,3,asked,70,75,5857,5862,43,76.0,87.0,5863.0,5874.0,,,,,verb.communication,True,55,direct_object,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+67,3,asked,70,75,5857,5862,0,76.0,87.0,5863.0,5874.0,,,,,verb.communication,True,55,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+67,3,asked,70,75,5857,5862,69,76.0,87.0,5863.0,5874.0,,,,,verb.communication,True,55,direct_object,The old man's poor dog Shiro,1.0,0.0,1.0,unknown,0.0,tertiary
+67,3,asked,70,75,5857,5862,10,76.0,87.0,5863.0,5874.0,,,,,verb.communication,True,55,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+71,3,making,79,85,6251,6257,75,86.0,127.0,6258.0,6299.0,,,,,verb.creation,True,59,direct_object,The old man's dog,1.0,0.0,1.0,unknown,0.0,tertiary
+71,3,making,79,85,6251,6257,0,86.0,127.0,6258.0,6299.0,,,,,verb.creation,True,59,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+71,3,making,79,85,6251,6257,10,86.0,127.0,6258.0,6299.0,,,,,verb.creation,True,59,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+80,1,asked,29,34,7041,7046,0,35.0,40.0,7047.0,7052.0,,,,,verb.communication,True,62,direct_object,Shiro,32.0,38.0,70.0,male,1.0,primary
+80,1,asked,29,34,7041,7046,80,35.0,40.0,7047.0,7052.0,,,,,verb.communication,True,62,direct_object,"The greedy neighbor , hearing of this new piece of good luck",1.0,2.0,3.0,male,1.0,tertiary
+81,1,lend,41,45,7262,7266,83,46.0,48.0,7267.0,7269.0,,,,,verb.possession,True,63,direct_object,The old man's cruel neighbor,1.0,0.0,1.0,unknown,0.0,tertiary
+81,1,lend,41,45,7262,7266,10,46.0,48.0,7267.0,7269.0,,,,,verb.possession,True,63,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+84,0,asked,3,8,7508,7513,86,9.0,12.0,7514.0,7517.0,,,,,verb.communication,True,67,direct_object,the borrower,1.0,3.0,4.0,male,1.0,tertiary
+87,3,ask,94,97,7810,7813,43,98.0,100.0,7814.0,7816.0,,,,,verb.communication,True,68,direct_object,Shiro 's master,4.0,24.0,28.0,male,1.0,tertiary
+87,3,ask,94,97,7810,7813,64,98.0,100.0,7814.0,7816.0,,,,,verb.communication,True,68,direct_object,The wicked neighbor,3.0,5.0,8.0,male,1.0,tertiary
+90,0,said,17,21,7990,7994,45,24.0,48.0,7997.0,8021.0,,,,,verb.communication,True,72,direct_object,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+91,2,ask,31,34,8054,8057,45,35.0,37.0,8058.0,8060.0,52.0,70.0,8075.0,8093.0,verb.communication,True,71,direct_object,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+93,1,wish,49,53,8195,8199,45,54.0,91.0,8200.0,8237.0,,,,,verb.emotion,True,74,direct_object,The good old man,6.0,12.0,18.0,male,1.0,tertiary
+93,1,wish,49,53,8195,8199,164,54.0,91.0,8200.0,8237.0,,,,,verb.emotion,True,74,direct_object,The good old man's dog,1.0,0.0,1.0,unknown,0.0,tertiary
+95,0,scattered,45,54,8370,8379,10,55.0,106.0,8380.0,8431.0,,,,,verb.contact,True,76,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+101,0,heard,38,43,9012,9017,103,44.0,73.0,9018.0,9047.0,,,,,verb.perception,True,81,direct_object,,,,,,,
+101,0,heard,38,43,9012,9017,10,44.0,73.0,9018.0,9047.0,,,,,verb.perception,True,81,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+103,0,told,12,16,9147,9151,107,17.0,20.0,9152.0,9155.0,,,,,verb.communication,True,83,direct_object,a retainer of a great Daimio ( Earl,1.0,0.0,1.0,unknown,0.0,tertiary
+103,0,told,12,16,9147,9151,106,17.0,20.0,9152.0,9155.0,,,,,verb.communication,True,83,direct_object,This Knight,1.0,2.0,3.0,male,1.0,tertiary
+103,0,told,12,16,9147,9151,108,17.0,20.0,9152.0,9155.0,,,,,verb.communication,True,83,direct_object,a great Daimio ( Earl,1.0,0.0,1.0,unknown,0.0,tertiary
+103,0,told,12,16,9147,9151,10,17.0,20.0,9152.0,9155.0,,,,,verb.communication,True,83,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+106,1,saw,38,41,9410,9413,1,42.0,119.0,9414.0,9491.0,,,,,verb.perception,True,86,direct_object,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+106,1,saw,38,41,9410,9413,112,42.0,119.0,9414.0,9491.0,,,,,verb.perception,True,86,direct_object,the Knight,3.0,3.0,6.0,male,1.0,tertiary
+107,1,heard,37,42,9530,9535,114,43.0,118.0,9536.0,9611.0,,,,,verb.cognition,True,85,direct_object,a wonderful old man who could make withered trees to blossom,1.0,0.0,1.0,male,1.0,tertiary
+108,2,ask,25,28,9638,9641,10,29.0,40.0,9642.0,9653.0,,,,,verb.communication,True,87,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+111,5,asked,90,95,9962,9967,10,96.0,99.0,9968.0,9971.0,100.0,107.0,9972.0,9979.0,verb.communication,True,90,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+112,1,replied,35,42,10093,10100,166,45.0,62.0,10103.0,10120.0,,,,,verb.communication,True,91,direct_object,that old man,1.0,0.0,1.0,male,1.0,tertiary
+112,1,replied,35,42,10093,10100,10,45.0,62.0,10103.0,10120.0,,,,,verb.communication,True,91,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+113,2,make,32,36,10155,10159,1,37.0,79.0,10160.0,10202.0,80.0,115.0,10203.0,10238.0,verb.change,True,93,direct_object,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+115,1,carried,95,102,10353,10360,1,103.0,121.0,10361.0,10379.0,,,,,verb.contact,True,92,direct_object,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+118,0,watched,10,17,10567,10574,10,18.0,31.0,10575.0,10588.0,32.0,51.0,10589.0,10608.0,verb.perception,True,96,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+123,2,looked,47,53,10942,10948,1,54.0,75.0,10949.0,10970.0,,,,,verb.perception,True,99,direct_object,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+124,0,rose,3,7,10975,10979,1,8.0,19.0,10980.0,10991.0,,,,,verb.motion,True,100,direct_object,the Daimio,7.0,15.0,22.0,male,1.0,tertiary
+125,2,rewarded,70,78,11126,11134,10,79.0,82.0,11135.0,11138.0,,,,,verb.possession,True,101,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+126,0,ordered,11,18,11208,11215,2,19.0,145.0,11216.0,11342.0,,,,,verb.communication,True,102,direct_object,the true Hana - Saka - Jijii,5.0,0.0,5.0,unknown,0.0,tertiary
+126,0,ordered,11,18,11208,11215,10,19.0,145.0,11216.0,11342.0,,,,,verb.communication,True,102,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+127,1,recognize,23,32,11368,11377,10,33.0,36.0,11378.0,11381.0,37.0,49.0,11382.0,11394.0,verb.perception,True,103,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+128,0,sent,3,7,11399,11403,10,8.0,11.0,11404.0,11407.0,17.0,33.0,11413.0,11429.0,verb.motion,True,105,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+129,2,befallen,105,113,11536,11544,10,114.0,117.0,11545.0,11548.0,,,,,verb.emotion,True,104,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+130,1,suppress,13,21,11563,11571,10,22.0,69.0,11572.0,11619.0,,,,,verb.emotion,True,106,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+136,0,comes,5,10,12210,12215,169,11.0,54.0,12216.0,12259.0,,,,,verb.motion,True,111,direct_object,the old man who can make dead trees blossom,1.0,0.0,1.0,male,1.0,tertiary
+139,1,try,8,11,12393,12396,144,12.0,19.0,12397.0,12404.0,20.0,25.0,12405.0,12410.0,verb.social,True,114,direct_object,the impostor,1.0,2.0,3.0,male,1.0,tertiary
+140,1,amuse,8,13,12420,12425,122,14.0,16.0,12426.0,12428.0,,,,,verb.emotion,True,116,direct_object,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+143,5,asked,116,121,12686,12691,2,122.0,125.0,12692.0,12695.0,,,,,verb.communication,True,117,direct_object,the true Hana - Saka - Jijii,5.0,0.0,5.0,unknown,0.0,tertiary
+143,5,asked,116,121,12686,12691,122,122.0,125.0,12692.0,12695.0,,,,,verb.communication,True,117,direct_object,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+143,5,asked,116,121,12686,12691,170,122.0,125.0,12692.0,12695.0,,,,,verb.communication,True,117,direct_object,the Daimio's man whom I named Hana - Saka - Jijii,1.0,1.0,2.0,male,1.0,tertiary
+143,5,asked,116,121,12686,12691,146,122.0,125.0,12692.0,12695.0,,,,,verb.communication,True,117,direct_object,false old man,1.0,4.0,5.0,male,1.0,tertiary
+144,0,answered,25,33,12770,12778,171,34.0,44.0,12779.0,12789.0,,,,,verb.communication,True,118,direct_object,the envious neighbor's Lord,1.0,0.0,1.0,unknown,0.0,tertiary
+144,0,answered,25,33,12770,12778,149,34.0,44.0,12779.0,12789.0,,,,,verb.communication,True,118,direct_object,the envious neighbor,2.0,5.0,7.0,unknown,0.0,tertiary
+146,0,said,0,4,12826,12830,122,5.0,15.0,12831.0,12841.0,,,,,verb.communication,True,121,direct_object,the Daimio,6.0,9.0,15.0,male,1.0,tertiary
+150,0,came,12,16,12975,12979,149,17.0,23.0,12980.0,12986.0,24.0,30.0,12987.0,12993.0,verb.motion,True,119,direct_object,the envious neighbor,2.0,5.0,7.0,unknown,0.0,tertiary
+151,0,replied,0,7,13017,13024,10,8.0,19.0,13025.0,13036.0,20.0,25.0,,,verb.communication,True,122,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+153,0,try,0,3,13092,13095,149,4.0,19.0,13096.0,13111.0,,,,,verb.social,True,123,direct_object,the envious neighbor,2.0,5.0,7.0,unknown,0.0,tertiary
+160,0,made,5,9,13639,13643,10,10.0,24.0,13644.0,13658.0,,,,,verb.change,True,127,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+161,0,ordered,3,10,13663,13670,2,11.0,24.0,13671.0,13684.0,,,,,verb.communication,True,128,direct_object,the true Hana - Saka - Jijii,5.0,0.0,5.0,unknown,0.0,tertiary
+161,0,ordered,3,10,13663,13670,128,11.0,24.0,13671.0,13684.0,,,,,verb.communication,True,128,direct_object,the Daimio's retainers,2.0,0.0,2.0,unknown,0.0,tertiary
+161,0,ordered,3,10,13663,13670,157,11.0,24.0,13671.0,13684.0,,,,,verb.communication,True,128,direct_object,an impostor,1.0,0.0,1.0,unknown,0.0,tertiary
+161,0,ordered,3,10,13663,13670,10,11.0,24.0,13671.0,13684.0,,,,,verb.communication,True,128,direct_object,The old man,33.0,64.0,97.0,male,1.0,primary
+164,6,respected,259,268,14152,14161,162,269.0,275.0,14162.0,14168.0,,,,,verb.cognition,True,130,direct_object,,,,,,,

@@ -1,0 +1,39 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,called,57,63,57,63,5,29.0,56.0,29.0,56.0,,,,,verb.communication,True,1,subject,two peasants,2,0,2,unknown,0.0,tertiary
+1,2,wanted,87,93,209,215,9,82.0,86.0,204.0,208.0,,,,,verb.emotion,True,0,subject,the women,2,1,3,female,1.0,tertiary
+2,2,ride,51,55,284,288,12,40.0,44.0,273.0,277.0,,,,,verb.motion,True,2,subject,the two women,1,2,3,female,1.0,tertiary
+3,1,thought,44,51,487,494,9,27.0,43.0,470.0,486.0,87.0,122.0,530.0,565.0,verb.cognition,True,3,subject,the women,2,1,3,female,1.0,tertiary
+3,1,thought,44,51,487,494,15,27.0,43.0,470.0,486.0,87.0,122.0,530.0,565.0,verb.cognition,True,3,subject,one of the women,1,7,8,female,1.0,tertiary
+4,4,ride,71,75,639,643,15,50.0,53.0,618.0,621.0,,,,,verb.motion,True,5,subject,one of the women,1,7,8,female,1.0,tertiary
+5,2,took,41,45,706,710,15,37.0,40.0,702.0,705.0,78.0,92.0,743.0,757.0,verb.possession,True,4,subject,one of the women,1,7,8,female,1.0,tertiary
+7,1,took,43,47,877,881,18,33.0,42.0,867.0,876.0,,,,,verb.contact,True,6,subject,the woman,4,28,32,female,1.0,primary
+8,4,overtake,74,82,1008,1016,18,0.0,3.0,934.0,937.0,,,,,verb.competition,True,8,subject,the woman,4,28,32,female,1.0,primary
+10,1,riding,18,24,1225,1231,18,3.0,12.0,1210.0,1219.0,,,,,verb.motion,True,9,subject,the woman,4,28,32,female,1.0,primary
+11,2,returned,19,27,1366,1374,14,1.0,17.0,1348.0,1364.0,40.0,107.0,1387.0,1454.0,verb.communication,True,10,subject,the other,3,5,8,female,1.0,tertiary
+12,3,reached,62,69,1519,1526,32,0.0,60.0,1457.0,1517.0,81.0,96.0,1538.0,1553.0,verb.motion,True,11,subject,the woman's neighbor,1,0,1,unknown,0.0,tertiary
+12,3,reached,62,69,1519,1526,18,0.0,60.0,1457.0,1517.0,81.0,96.0,1538.0,1553.0,verb.motion,True,11,subject,the woman,4,28,32,female,1.0,primary
+14,2,entered,72,79,1715,1722,18,29.0,38.0,1672.0,1681.0,,,,,verb.motion,True,13,subject,the woman,4,28,32,female,1.0,primary
+17,1,see,33,36,1931,1934,18,13.0,16.0,1911.0,1914.0,,,,,verb.perception,True,15,subject,the woman,4,28,32,female,1.0,primary
+19,6,christened,104,114,2094,2104,18,95.0,98.0,2085.0,2088.0,,,,,verb.change,True,14,subject,the woman,4,28,32,female,1.0,primary
+20,0,realized,9,17,2232,2240,18,5.0,8.0,2228.0,2231.0,,,,,verb.cognition,True,16,subject,the woman,4,28,32,female,1.0,primary
+21,0,came,9,13,2311,2315,18,5.0,8.0,2307.0,2310.0,,,,,verb.motion,True,18,subject,the woman,4,28,32,female,1.0,primary
+22,0,wore,21,25,2434,2438,38,14.0,20.0,2427.0,2433.0,,,,,verb.body,True,17,subject,people,2,1,3,group/nonbinary,1.0,tertiary
+23,1,wearing,8,15,2516,2523,18,0.0,3.0,2508.0,2511.0,,,,,verb.body,True,19,subject,the woman,4,28,32,female,1.0,primary
+24,4,wake,105,109,2678,2682,18,4.0,7.0,2577.0,2580.0,,,,,verb.body,True,20,subject,the woman,4,28,32,female,1.0,primary
+26,0,sat,7,10,2753,2756,18,3.0,6.0,2749.0,2752.0,,,,,verb.contact,True,21,subject,the woman,4,28,32,female,1.0,primary
+27,1,found,34,39,2853,2858,45,29.0,33.0,2848.0,2852.0,69.0,102.0,2888.0,2921.0,verb.possession,True,23,subject,the specters,1,5,6,group/nonbinary,1.0,tertiary
+30,5,enter,103,108,3167,3172,45,45.0,49.0,3109.0,3113.0,,,,,verb.motion,True,24,subject,the specters,1,5,6,group/nonbinary,1.0,tertiary
+31,4,nearing,79,86,3260,3267,56,43.0,74.0,3224.0,3255.0,,,,,verb.motion,True,25,subject,the dead,1,0,1,unknown,0.0,tertiary
+33,2,disturbed,69,78,3498,3507,45,60.0,64.0,3489.0,3493.0,,,,,verb.emotion,True,27,subject,the specters,1,5,6,group/nonbinary,1.0,tertiary
+3,1,thought,44,51,487,494,15,52.0,85.0,495.0,528.0,87.0,122.0,530.0,565.0,verb.cognition,True,3,direct_object,one of the women,1,7,8,female,1.0,tertiary
+8,4,overtake,74,82,1008,1016,19,83.0,86.0,1017.0,1020.0,,,,,verb.competition,True,8,direct_object,the woman's friend,1,1,2,female,1.0,tertiary
+9,4,stood,147,152,1169,1174,25,153.0,183.0,1175.0,1205.0,,,,,verb.contact,True,7,direct_object,two witch trolls,1,0,1,unknown,0.0,tertiary
+11,2,returned,19,27,1366,1374,14,28.0,37.0,1375.0,1384.0,40.0,107.0,1387.0,1454.0,verb.communication,True,10,direct_object,the other,3,5,8,female,1.0,tertiary
+15,0,seemed,3,9,1738,1744,38,10.0,16.0,1745.0,1751.0,,,,,verb.perception,True,12,direct_object,people,2,1,3,group/nonbinary,1.0,tertiary
+15,0,seemed,3,9,1738,1744,18,10.0,16.0,1745.0,1751.0,,,,,verb.perception,True,12,direct_object,the woman,4,28,32,female,1.0,primary
+23,1,wearing,8,15,2516,2523,45,16.0,63.0,2524.0,2571.0,,,,,verb.body,True,19,direct_object,the specters,1,5,6,group/nonbinary,1.0,tertiary
+24,4,wake,105,109,2678,2682,48,110.0,126.0,2683.0,2699.0,,,,,verb.body,True,20,direct_object,the people there,1,0,1,unknown,0.0,tertiary
+27,1,found,34,39,2853,2858,18,40.0,68.0,2859.0,2887.0,69.0,102.0,2888.0,2921.0,verb.possession,True,23,direct_object,the woman,4,28,32,female,1.0,primary
+28,0,befell,21,27,2944,2950,52,28.0,94.0,2951.0,3017.0,,,,,verb.cognition,True,22,direct_object,"a man's wife who lived in a hut known as Ingas , below Mosled",1,0,1,female,1.0,tertiary
+28,0,befell,21,27,2944,2950,51,28.0,94.0,2951.0,3017.0,,,,,verb.cognition,True,22,direct_object,a man,1,2,3,male,1.0,tertiary
+32,3,lying,48,53,3325,3330,57,54.0,68.0,3331.0,3345.0,,,,,verb.contact,True,26,direct_object,those who shortly before had been worshiping,1,0,1,unknown,0.0,tertiary

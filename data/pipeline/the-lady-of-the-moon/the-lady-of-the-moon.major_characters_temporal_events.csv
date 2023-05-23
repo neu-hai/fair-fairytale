@@ -1,0 +1,24 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,4,endure,120,126,229,235,8.0,90.0,109.0,199.0,218.0,,,,,verb.consumption,True,0,subject,the people on earth,1,0,1,unknown,0.0,tertiary
+2,0,ordered,15,22,257,264,10.0,3.0,14.0,245.0,256.0,,,,,verb.communication,True,2,subject,the emperor,3,7,10,male,1.0,primary
+4,0,had,28,31,364,367,4.0,17.0,20.0,353.0,356.0,,,,,verb.possession,True,1,subject,Hou I,4,0,4,unknown,0.0,secondary
+7,0,gave,8,12,609,613,11.0,4.0,7.0,605.0,608.0,,,,,verb.possession,True,4,subject,the Queen - Mother of the Jasper Sea,1,1,2,female,1.0,tertiary
+9,4,floated,114,121,806,813,14.0,98.0,101.0,790.0,793.0,,,,,verb.motion,True,5,subject,his wife who was named Tschang O,1,3,4,female,1.0,secondary
+10,0,reached,9,16,841,848,14.0,5.0,8.0,837.0,840.0,,,,,verb.motion,True,7,subject,his wife who was named Tschang O,1,3,4,female,1.0,secondary
+11,0,sat,62,65,1008,1011,21.0,26.0,56.0,972.0,1002.0,74.0,92.0,1020.0,1038.0,verb.contact,True,6,subject,an emperor of the Tang dynasty,1,1,2,male,1.0,tertiary
+12,1,cast,42,46,1082,1086,22.0,4.0,15.0,1044.0,1055.0,50.0,112.0,1090.0,1152.0,verb.contact,True,8,subject,two sorcerers,1,5,6,group/nonbinary,1.0,primary
+13,0,saw,11,14,1207,1210,22.0,6.0,10.0,1202.0,1206.0,,,,,verb.perception,True,9,subject,two sorcerers,1,5,6,group/nonbinary,1.0,primary
+16,0,said,21,25,1482,1486,26.0,0.0,20.0,1461.0,1481.0,,,,,verb.communication,True,10,subject,the sorcerers,2,0,2,unknown,0.0,tertiary
+16,0,said,21,25,1482,1486,25.0,0.0,20.0,1461.0,1481.0,,,,,verb.communication,True,10,subject,One of the sorcerers,1,0,1,unknown,0.0,tertiary
+19,0,entered,10,17,1700,1707,22.0,5.0,9.0,1695.0,1699.0,,,,,verb.motion,True,12,subject,two sorcerers,1,5,6,group/nonbinary,1.0,primary
+23,3,clad,95,99,2071,2075,20.0,54.0,74.0,2030.0,2050.0,,,,,verb.body,True,11,subject,the Lady of the Moon,2,3,5,female,1.0,secondary
+24,0,smiled,4,10,2126,2132,20.0,0.0,3.0,2122.0,2125.0,,,,,verb.body,True,14,subject,the Lady of the Moon,2,3,5,female,1.0,secondary
+25,3,find,51,55,2257,2261,10.0,29.0,32.0,2235.0,2238.0,65.0,69.0,2271.0,2275.0,verb.possession,True,13,subject,the emperor,3,7,10,male,1.0,primary
+26,4,danced,83,89,2361,2367,34.0,19.0,33.0,2297.0,2311.0,,,,,verb.motion,True,15,subject,the Lady of the Moon's attendants,1,0,1,female,1.0,tertiary
+26,4,danced,83,89,2361,2367,20.0,19.0,33.0,2297.0,2311.0,,,,,verb.motion,True,15,subject,the Lady of the Moon,2,3,5,female,1.0,secondary
+30,2,returned,38,46,2606,2614,10.0,26.0,37.0,2594.0,2605.0,,,,,verb.motion,True,16,subject,the emperor,3,7,10,male,1.0,primary
+31,4,sung,69,73,2719,2723,10.0,11.0,51.0,2661.0,2701.0,115.0,138.0,2765.0,2788.0,verb.communication,True,17,subject,the emperor,3,7,10,male,1.0,primary
+2,0,ordered,15,22,257,264,4.0,23.0,28.0,265.0,270.0,,,,,verb.communication,True,2,direct_object,Hou I,4,0,4,unknown,0.0,secondary
+6,1,met,37,40,561,564,11.0,41.0,75.0,565.0,599.0,,,,,verb.motion,True,3,direct_object,the Queen - Mother of the Jasper Sea,1,1,2,female,1.0,tertiary
+16,0,said,21,25,1482,1486,41.0,28.0,55.0,1489.0,1516.0,,,,,verb.communication,True,10,direct_object,the man in the moon,1,0,1,male,1.0,tertiary
+25,3,find,51,55,2257,2261,10.0,56.0,64.0,2262.0,2270.0,65.0,69.0,2271.0,2275.0,verb.possession,True,13,direct_object,the emperor,3,7,10,male,1.0,primary

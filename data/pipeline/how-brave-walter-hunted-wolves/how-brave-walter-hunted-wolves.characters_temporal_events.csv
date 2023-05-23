@@ -1,0 +1,354 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+8,1,lives,130,135,1098,1103,5,120.0,129.0,1088.0,1097.0,,,,,verb.social,0,subject,Murre,20.0,2.0,22.0,male,1.0,tertiary
+10,1,read,10,14,1218,1222,2,0.0,2.0,1208.0,1210.0,,,,,verb.cognition,1,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+10,3,do,31,33,1239,1241,2,24.0,26.0,1232.0,1234.0,,,,,verb.social,2,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,1,turn,7,11,1268,1272,2,0.0,2.0,1261.0,1263.0,,,,,verb.motion,5,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,2,stand,24,29,1285,1290,2,0.0,2.0,1261.0,1263.0,,,,,verb.contact,4,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,3,ride,43,47,1304,1308,2,0.0,2.0,1261.0,1263.0,,,,,verb.motion,3,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,4,throw,57,62,1318,1323,2,0.0,2.0,1261.0,1263.0,,,,,verb.contact,7,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,5,play,74,78,1335,1339,2,0.0,2.0,1261.0,1263.0,,,,,verb.competition,6,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,6,eat,103,106,1364,1367,2,0.0,2.0,1261.0,1263.0,,,,,verb.consumption,8,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,7,drink,128,133,1389,1394,2,0.0,2.0,1261.0,1263.0,,,,,verb.consumption,9,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+11,8,tear,149,153,1410,1414,2,0.0,2.0,1261.0,1263.0,,,,,verb.contact,10,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+12,1,wear,7,11,1436,1440,2,0.0,2.0,1429.0,1431.0,18.0,31.0,1447.0,1460.0,verb.body,11,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+12,2,break,33,38,1462,1467,2,0.0,2.0,1429.0,1431.0,52.0,61.0,1481.0,1490.0,verb.change,12,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+12,3,throw,63,68,1492,1497,2,0.0,2.0,1429.0,1431.0,,,,,verb.contact,13,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+12,4,draw,100,104,1529,1533,2,0.0,2.0,1429.0,1431.0,,,,,verb.contact,14,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+12,5,walk,134,138,1563,1567,2,0.0,2.0,1429.0,1431.0,,,,,verb.motion,15,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+12,6,eat,161,164,1590,1593,2,0.0,2.0,1429.0,1431.0,178.0,195.0,1607.0,1624.0,verb.consumption,17,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+13,0,has,16,19,1672,1675,2,13.0,15.0,1669.0,1671.0,,,,,verb.perception,16,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+13,1,forgets,55,62,1711,1718,2,13.0,15.0,1669.0,1671.0,,,,,verb.cognition,18,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+14,1,meets,34,39,1796,1801,2,0.0,2.0,1762.0,1764.0,,,,,verb.social,19,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+14,7,hunted,137,143,1899,1905,2,134.0,136.0,1896.0,1898.0,,,,,verb.social,20,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+15,0,heard,54,59,1968,1973,2,47.0,53.0,1961.0,1967.0,,,,,verb.cognition,22,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+16,2,used,117,121,2162,2166,2,114.0,116.0,2159.0,2161.0,,,,,verb.consumption,23,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+16,3,say,131,134,2176,2179,2,114.0,116.0,2159.0,2161.0,,,,,verb.communication,25,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+17,0,wrestled,8,16,2244,2252,2,5.0,7.0,2241.0,2243.0,,,,,verb.contact,26,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+17,1,struck,64,70,2300,2306,2,5.0,7.0,2241.0,2243.0,76.0,87.0,2312.0,2323.0,verb.contact,27,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+17,3,say,98,101,2334,2337,2,89.0,91.0,2325.0,2327.0,,,,,verb.communication,28,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+17,6,do,124,126,2360,2362,2,111.0,115.0,2347.0,2351.0,,,,,verb.creation,30,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+18,0,shot,8,12,2383,2387,2,5.0,7.0,2380.0,2382.0,20.0,28.0,2395.0,2403.0,verb.competition,29,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+18,3,say,82,85,2457,2460,2,73.0,75.0,2448.0,2450.0,,,,,verb.communication,33,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+18,6,shoot,109,114,2484,2489,2,100.0,101.0,2475.0,2476.0,119.0,137.0,2494.0,2512.0,verb.competition,32,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+19,0,thought,13,20,2528,2535,46,8.0,12.0,2523.0,2527.0,,,,,verb.cognition,35,subject,,,,,,,
+19,1,boasted,40,47,2555,2562,47,26.0,39.0,2541.0,2554.0,,,,,verb.communication,34,subject,the brave boy,1.0,3.0,4.0,male,1.0,tertiary
+20,1,believe,16,23,2589,2596,48,0.0,3.0,2573.0,2576.0,28.0,52.0,2601.0,2625.0,verb.cognition,37,subject,,,,,,,
+20,2,said,37,41,2610,2614,47,34.0,36.0,2607.0,2609.0,,,,,verb.communication,36,subject,the brave boy,1.0,3.0,4.0,male,1.0,tertiary
+21,1,say,26,29,2653,2656,5,3.0,17.0,2630.0,2644.0,,,,,verb.communication,39,subject,Murre,20.0,2.0,22.0,male,1.0,tertiary
+21,1,say,26,29,2653,2656,8,3.0,17.0,2630.0,2644.0,,,,,verb.communication,39,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+21,4,shoots,67,73,2694,2700,2,55.0,61.0,2682.0,2688.0,,,,,verb.competition,38,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+22,1,say,31,34,2745,2748,50,4.0,24.0,2718.0,2738.0,,,,,verb.communication,41,subject,girls,1.0,0.0,1.0,female,1.0,tertiary
+22,1,say,31,34,2745,2748,49,4.0,24.0,2718.0,2738.0,,,,,verb.communication,41,subject,other boys,1.0,0.0,1.0,male,1.0,tertiary
+23,1,prepared,78,86,2900,2908,2,75.0,77.0,2897.0,2899.0,,,,,verb.change,42,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+24,0,took,3,7,2942,2946,2,0.0,2.0,2939.0,2941.0,,,,,verb.contact,44,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+24,4,reach,96,101,3035,3040,2,69.0,71.0,3008.0,3010.0,,,,,verb.motion,45,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+24,8,fought,215,221,3154,3160,2,184.0,186.0,3123.0,3125.0,230.0,282.0,3169.0,3221.0,verb.competition,43,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+25,1,forget,11,17,3234,3240,2,0.0,2.0,3223.0,3225.0,,,,,verb.cognition,48,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+25,2,arm,21,24,3244,3247,2,0.0,2.0,3223.0,3225.0,33.0,97.0,3256.0,3320.0,verb.social,47,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+26,0,had,3,6,3325,3328,2,0.0,2.0,3322.0,3324.0,,,,,verb.possession,46,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+26,5,look,119,123,3441,3445,2,111.0,118.0,3433.0,3440.0,,,,,verb.perception,53,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+27,3,killed,123,129,3577,3583,2,116.0,118.0,3570.0,3572.0,,,,,verb.contact,52,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+28,0,thought,3,10,3593,3600,2,0.0,2.0,3590.0,3592.0,,,,,verb.cognition,54,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+29,3,got,80,83,3740,3743,2,73.0,79.0,3733.0,3739.0,104.0,138.0,3764.0,3798.0,verb.possession,56,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+29,4,ran,115,118,3775,3778,5,110.0,114.0,3770.0,3774.0,,,,,verb.motion,55,subject,Murre,20.0,2.0,22.0,male,1.0,tertiary
+29,5,barking,119,126,3779,3786,5,110.0,114.0,3770.0,3774.0,,,,,verb.communication,57,subject,Murre,20.0,2.0,22.0,male,1.0,tertiary
+30,1,looked,40,46,3840,3846,2,33.0,39.0,3833.0,3839.0,,,,,verb.perception,58,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+31,1,omit,11,15,3928,3932,2,0.0,2.0,3917.0,3919.0,29.0,60.0,3946.0,3977.0,verb.cognition,59,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+31,2,ask,19,22,3936,3939,2,0.0,2.0,3917.0,3919.0,,,,,verb.communication,60,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+33,0,began,17,22,4050,4055,2,0.0,16.0,4033.0,4049.0,,,,,verb.change,61,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+33,1,beat,26,30,4059,4063,2,0.0,16.0,4033.0,4049.0,40.0,97.0,4073.0,4130.0,verb.competition,62,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+34,1,asked,46,51,4178,4183,2,27.0,33.0,4159.0,4165.0,,,,,verb.communication,64,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+38,2,think,21,26,4387,4392,58,17.0,20.0,4383.0,4386.0,,,,,verb.cognition,66,subject,the miller,3.0,1.0,4.0,unknown,0.0,tertiary
+41,0,asked,8,13,4501,4506,2,1.0,2.0,4494.0,4495.0,,,,,verb.communication,69,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+41,2,know,31,35,4524,4528,2,22.0,23.0,4515.0,4516.0,,,,,verb.cognition,71,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+41,4,take,48,52,4541,4545,2,39.0,40.0,4532.0,4533.0,,,,,verb.motion,72,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+42,4,have,80,84,4642,4646,2,68.0,69.0,4630.0,4631.0,,,,,verb.possession,73,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+43,1,go,28,30,4720,4722,8,19.0,20.0,4711.0,4712.0,,,,,verb.motion,75,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+43,3,said,63,67,4755,4759,2,1.0,60.0,4693.0,4752.0,,,,,verb.communication,76,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+43,3,said,63,67,4755,4759,8,1.0,60.0,4693.0,4752.0,,,,,verb.communication,76,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+44,1,come,29,33,4796,4800,8,22.0,25.0,4789.0,4792.0,,,,,verb.motion,77,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+44,2,said,40,44,4807,4811,8,1.0,37.0,4768.0,4804.0,,,,,verb.communication,79,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+46,0,have,7,11,4853,4857,8,5.0,6.0,4851.0,4852.0,,,,,verb.possession,78,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+47,1,manage,11,17,4948,4954,2,0.0,6.0,4937.0,4943.0,23.0,38.0,4960.0,4975.0,verb.social,80,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+49,0,see,9,12,5027,5030,8,5.0,8.0,5023.0,5026.0,,,,,verb.cognition,82,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+49,4,bite,60,64,5078,5082,86,42.0,53.0,5060.0,5071.0,68.0,79.0,5086.0,5097.0,verb.contact,85,subject,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+49,6,have,94,98,5112,5116,2,85.0,86.0,5103.0,5104.0,,,,,verb.perception,86,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+50,0,knew,10,14,5157,5161,2,3.0,4.0,5150.0,5151.0,,,,,verb.cognition,87,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+50,3,mind,62,66,5209,5213,2,35.0,48.0,5182.0,5195.0,,,,,verb.cognition,89,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+50,5,take,86,90,5233,5237,2,77.0,78.0,5224.0,5225.0,95.0,107.0,5242.0,5254.0,verb.contact,90,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+50,6,give,112,116,5259,5263,2,77.0,78.0,5224.0,5225.0,138.0,164.0,5285.0,5311.0,verb.possession,92,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+50,8,shook,156,161,5303,5308,9,143.0,150.0,5290.0,5297.0,,,,,verb.body,91,subject,Susanna,1.0,0.0,1.0,unknown,0.0,tertiary
+51,0,think,13,18,5327,5332,8,1.0,2.0,5315.0,5316.0,,,,,verb.cognition,93,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+51,3,said,58,62,5372,5376,8,1.0,55.0,5315.0,5369.0,,,,,verb.communication,95,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+51,5,slay,111,115,5425,5429,86,106.0,110.0,5420.0,5424.0,,,,,verb.social,94,subject,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+52,1,shake,21,26,5470,5475,2,0.0,6.0,5449.0,5455.0,32.0,42.0,5481.0,5491.0,verb.contact,96,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+53,1,said,23,27,5517,5521,8,15.0,20.0,5509.0,5514.0,,,,,verb.communication,98,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+53,5,escapes,94,101,5588,5595,86,82.0,93.0,5576.0,5587.0,,,,,verb.social,97,subject,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+53,6,bites,106,111,5600,5605,86,82.0,93.0,5576.0,5587.0,115.0,125.0,5609.0,5619.0,verb.contact,99,subject,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+54,0,see,4,7,5625,5628,8,0.0,3.0,5621.0,5624.0,,,,,verb.cognition,100,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+55,1,come,18,22,5700,5704,8,0.0,3.0,5682.0,5685.0,,,,,verb.motion,101,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+55,2,take,36,40,5718,5722,8,0.0,3.0,5682.0,5685.0,54.0,82.0,5736.0,5764.0,verb.contact,102,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+56,3,take,36,40,5802,5806,2,28.0,29.0,5794.0,5795.0,,,,,verb.possession,103,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+56,4,thrown,71,77,5837,5843,2,28.0,29.0,5794.0,5795.0,,,,,verb.contact,105,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+57,1,kick,7,11,5878,5882,2,0.0,2.0,5871.0,5873.0,,,,,verb.contact,104,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+57,2,likes,26,31,5897,5902,2,23.0,25.0,5894.0,5896.0,,,,,verb.emotion,106,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+57,4,hold,41,45,5912,5916,2,33.0,34.0,5904.0,5905.0,50.0,54.0,5921.0,5925.0,verb.contact,107,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+59,1,do,15,17,6049,6051,88,0.0,4.0,6034.0,6038.0,,,,,verb.social,109,subject,two,1.0,0.0,1.0,unknown,0.0,tertiary
+61,1,come,16,20,6126,6130,8,5.0,8.0,6115.0,6118.0,,,,,verb.motion,110,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+61,2,said,51,55,6161,6165,2,1.0,48.0,6111.0,6158.0,,,,,verb.communication,113,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+61,2,said,51,55,6161,6165,8,1.0,48.0,6111.0,6158.0,,,,,verb.communication,113,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+62,0,see,5,8,6179,6182,8,1.0,4.0,6175.0,6178.0,,,,,verb.cognition,112,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+62,2,manage,25,31,6199,6205,2,9.0,10.0,6183.0,6184.0,,,,,verb.social,111,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+62,5,tear,95,99,6269,6273,2,86.0,88.0,6260.0,6262.0,106.0,124.0,6280.0,6298.0,verb.contact,114,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+63,4,think,52,57,6353,6358,8,34.0,35.0,6335.0,6336.0,,,,,verb.cognition,117,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+63,6,say,96,99,6397,6400,89,89.0,95.0,6390.0,6396.0,,,,,verb.communication,119,subject,people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+64,1,fight,26,31,6428,6433,2,13.0,19.0,6415.0,6421.0,,,,,verb.competition,118,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+64,2,wants,109,114,6511,6516,2,102.0,108.0,6504.0,6510.0,,,,,verb.emotion,120,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+66,1,say,18,21,6578,6581,89,0.0,4.0,6560.0,6564.0,,,,,verb.communication,121,subject,people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+67,1,think,19,24,6602,6607,89,8.0,12.0,6591.0,6595.0,,,,,verb.cognition,122,subject,people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+69,0,want,7,11,6742,6746,2,0.0,1.0,6735.0,6736.0,,,,,verb.emotion,123,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+69,3,strike,39,45,6774,6780,2,33.0,36.0,6768.0,6771.0,,,,,verb.contact,125,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+70,1,take,24,28,6855,6859,2,13.0,19.0,6844.0,6850.0,,,,,verb.motion,127,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+71,1,sit,8,11,6903,6906,10,0.0,3.0,6895.0,6898.0,,,,,verb.contact,128,subject,Lisa,1.0,2.0,3.0,female,1.0,tertiary
+71,2,look,27,31,6922,6926,10,0.0,3.0,6895.0,6898.0,,,,,verb.perception,129,subject,Lisa,1.0,2.0,3.0,female,1.0,tertiary
+71,3,said,37,41,6932,6936,10,0.0,34.0,6895.0,6929.0,,,,,verb.communication,130,subject,Lisa,1.0,2.0,3.0,female,1.0,tertiary
+73,2,have,35,39,7085,7089,8,25.0,28.0,7075.0,7078.0,,,,,verb.possession,132,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+74,1,said,17,21,7168,7172,2,1.0,3.0,7152.0,7154.0,,,,,verb.communication,133,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+75,0,see,6,9,7225,7228,8,4.0,5.0,7223.0,7224.0,,,,,verb.cognition,135,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+78,1,show,9,13,7331,7335,2,1.0,2.0,7323.0,7324.0,,,,,verb.cognition,137,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+78,3,said,44,48,7366,7370,2,1.0,38.0,7323.0,7360.0,,,,,verb.communication,136,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+79,0,took,10,14,7382,7386,2,7.0,9.0,7379.0,7381.0,,,,,verb.contact,138,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+81,0,went,7,11,7593,7597,2,0.0,6.0,7586.0,7592.0,,,,,verb.motion,139,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+82,0,looked,17,23,7643,7649,2,14.0,16.0,7640.0,7642.0,,,,,verb.perception,140,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+82,1,see,41,44,7667,7670,2,24.0,37.0,7650.0,7663.0,,,,,verb.communication,142,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+83,0,thought,9,16,7739,7746,2,0.0,2.0,7730.0,7732.0,,,,,verb.cognition,141,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+85,1,beat,24,28,7835,7839,2,18.0,20.0,7829.0,7831.0,38.0,64.0,7849.0,7875.0,verb.contact,143,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+85,2,go,56,58,7867,7869,2,54.0,55.0,7865.0,7866.0,,,,,verb.motion,144,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+85,3,thought,67,74,7878,7885,2,1.0,64.0,7812.0,7875.0,,,,,verb.cognition,145,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+86,0,began,14,19,7908,7913,2,11.0,13.0,7905.0,7907.0,,,,,verb.change,146,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+86,1,beat,23,27,7917,7921,2,11.0,13.0,7905.0,7907.0,,,,,verb.contact,147,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+91,0,regained,19,27,8020,8028,2,0.0,6.0,8001.0,8007.0,,,,,verb.possession,149,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+92,1,took,15,19,8053,8057,2,13.0,14.0,8051.0,8052.0,,,,,verb.cognition,148,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+92,2,thought,41,48,8079,8086,2,38.0,40.0,8076.0,8078.0,,,,,verb.cognition,150,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+92,3,went,54,58,8092,8096,2,13.0,14.0,8051.0,8052.0,,,,,verb.motion,151,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+93,0,came,13,17,8145,8149,2,10.0,12.0,8142.0,8144.0,,,,,verb.motion,153,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+94,0,came,18,22,8230,8234,2,15.0,17.0,8227.0,8229.0,,,,,verb.motion,154,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+94,1,thought,44,51,8256,8263,2,41.0,43.0,8253.0,8255.0,,,,,verb.cognition,156,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+97,2,sitting,54,61,8413,8420,66,8.0,42.0,8367.0,8401.0,68.0,79.0,8427.0,8438.0,verb.contact,155,subject,the very ones which killed the ram,1.0,0.0,1.0,unknown,0.0,tertiary
+98,3,seen,71,75,8511,8515,67,49.0,64.0,8489.0,8504.0,,,,,verb.perception,157,subject,no other people,1.0,0.0,1.0,unknown,0.0,tertiary
+100,1,looked,64,70,8687,8693,2,0.0,28.0,8623.0,8651.0,,,,,verb.perception,159,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+101,2,say,21,24,8791,8794,2,7.0,8.0,8777.0,8778.0,,,,,verb.communication,161,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+101,3,struck,32,38,8802,8808,2,30.0,31.0,8800.0,8801.0,,,,,verb.contact,160,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+104,2,remember,33,41,8891,8899,2,25.0,28.0,8883.0,8886.0,,,,,verb.cognition,162,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+105,0,tell,7,11,8978,8982,2,3.0,6.0,8974.0,8977.0,18.0,24.0,8989.0,8995.0,verb.communication,164,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+105,1,say,29,32,9000,9003,2,3.0,6.0,8974.0,8977.0,,,,,verb.communication,166,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+105,2,struck,37,43,9008,9014,2,33.0,36.0,9004.0,9007.0,,,,,verb.contact,165,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+106,3,went,55,59,9116,9120,2,52.0,54.0,9113.0,9115.0,,,,,verb.motion,169,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+107,1,go,15,17,9137,9139,2,4.0,6.0,9126.0,9128.0,,,,,verb.motion,170,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+108,0,went,3,7,9155,9159,2,0.0,2.0,9152.0,9154.0,,,,,verb.motion,171,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+108,2,see,35,38,9187,9190,2,26.0,28.0,9178.0,9180.0,,,,,verb.perception,172,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+110,0,wonder,3,9,9346,9352,2,1.0,2.0,9344.0,9345.0,,,,,verb.cognition,175,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+110,1,thought,23,30,9366,9373,64,10.0,14.0,9353.0,9357.0,,,,,verb.cognition,174,subject,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+110,2,ate,41,44,9384,9387,64,36.0,40.0,9379.0,9383.0,,,,,verb.consumption,173,subject,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+112,1,beat,24,28,9529,9533,2,18.0,20.0,9523.0,9525.0,,,,,verb.contact,177,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+112,2,thought,43,50,9548,9555,2,40.0,42.0,9545.0,9547.0,62.0,67.0,9567.0,9572.0,verb.cognition,178,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+112,3,began,79,84,9584,9589,2,76.0,78.0,9581.0,9583.0,,,,,verb.change,179,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+112,4,beat,88,92,9593,9597,2,76.0,78.0,9581.0,9583.0,,,,,verb.contact,180,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+114,1,thought,51,58,9755,9762,2,48.0,50.0,9752.0,9754.0,,,,,verb.cognition,182,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+116,1,do,16,18,9899,9901,2,0.0,4.0,9883.0,9887.0,,,,,verb.social,183,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+117,2,threw,51,56,9958,9963,74,5.0,49.0,9912.0,9956.0,,,,,verb.contact,184,subject,the brave Walter who alone could manage four,1.0,0.0,1.0,unknown,0.0,tertiary
+117,4,ran,98,101,10005,10008,74,5.0,49.0,9912.0,9956.0,,,,,verb.motion,185,subject,the brave Walter who alone could manage four,1.0,0.0,1.0,unknown,0.0,tertiary
+118,0,ran,3,6,10013,10016,2,0.0,2.0,10010.0,10012.0,,,,,verb.motion,186,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+123,0,ran,12,15,10184,10187,2,5.0,11.0,10177.0,10183.0,,,,,verb.motion,187,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+124,1,heard,43,48,10239,10244,2,32.0,34.0,10228.0,10230.0,,,,,verb.perception,189,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+124,2,saw,53,56,10249,10252,2,32.0,34.0,10228.0,10230.0,,,,,verb.perception,191,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+126,0,lost,3,7,10311,10315,2,0.0,2.0,10308.0,10310.0,,,,,verb.possession,190,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+126,1,tripped,78,85,10386,10393,2,75.0,77.0,10383.0,10385.0,,,,,verb.motion,192,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+132,0,jumped,13,19,10711,10717,76,0.0,2.0,10698.0,10700.0,,,,,verb.contact,194,subject,the wolf,1.0,5.0,6.0,male,1.0,tertiary
+132,1,shook,46,51,10744,10749,76,38.0,40.0,10736.0,10738.0,,,,,verb.motion,196,subject,the wolf,1.0,5.0,6.0,male,1.0,tertiary
+132,2,rubbed,65,71,10763,10769,76,38.0,40.0,10736.0,10738.0,,,,,verb.contact,197,subject,the wolf,1.0,5.0,6.0,male,1.0,tertiary
+133,0,shrieked,7,15,10804,10812,2,0.0,6.0,10797.0,10803.0,,,,,verb.communication,198,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+134,0,shrieked,8,16,10822,10830,2,5.0,7.0,10819.0,10821.0,,,,,verb.communication,199,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+135,0,heard,14,19,10855,10860,8,0.0,13.0,10841.0,10854.0,,,,,verb.perception,200,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+135,2,ran,88,91,10929,10932,2,85.0,87.0,10926.0,10928.0,,,,,verb.motion,201,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+135,3,helped,96,102,10937,10943,2,85.0,87.0,10926.0,10928.0,,,,,verb.social,202,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+137,0,asked,3,8,10976,10981,2,0.0,2.0,10973.0,10975.0,,,,,verb.communication,204,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+138,1,scream,16,22,10999,11005,2,9.0,15.0,10992.0,10998.0,,,,,verb.communication,203,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+141,3,say,40,43,11078,11081,2,27.0,30.0,11065.0,11068.0,,,,,verb.communication,207,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+144,1,see,9,12,11125,11128,8,1.0,2.0,11117.0,11118.0,,,,,verb.perception,206,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+145,3,bitten,31,37,11171,11177,2,24.0,26.0,11164.0,11166.0,,,,,verb.contact,205,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+146,1,laugh,20,25,11228,11233,8,5.0,10.0,11213.0,11218.0,,,,,verb.body,209,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+147,0,laughed,8,15,11243,11250,8,5.0,7.0,11240.0,11242.0,,,,,verb.body,210,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+147,1,burst,34,39,11269,11274,8,24.0,26.0,11259.0,11261.0,,,,,verb.change,211,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+149,3,shake,59,64,11380,11385,2,9.0,30.0,11330.0,11351.0,,,,,verb.body,212,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+151,1,found,18,23,11546,11551,2,15.0,17.0,11543.0,11545.0,41.0,52.0,11569.0,11580.0,verb.possession,215,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+152,0,beat,12,16,11594,11598,2,5.0,11.0,11587.0,11593.0,,,,,verb.contact,214,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+152,3,ran,74,77,11656,11659,5,69.0,73.0,11651.0,11655.0,89.0,143.0,11671.0,11725.0,verb.motion,218,subject,Murre,20.0,2.0,22.0,male,1.0,tertiary
+152,5,wants,121,126,11703,11708,2,114.0,120.0,11696.0,11702.0,,,,,verb.emotion,217,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+152,6,romp,130,134,11712,11716,2,114.0,120.0,11696.0,11702.0,,,,,verb.motion,219,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+152,7,play,139,143,11721,11725,2,114.0,120.0,11696.0,11702.0,,,,,verb.creation,220,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+154,3,put,39,42,11779,11782,5,0.0,3.0,11740.0,11743.0,,,,,verb.contact,221,subject,Murre,20.0,2.0,22.0,male,1.0,tertiary
+155,1,feeling,14,21,11827,11834,2,0.0,6.0,11813.0,11819.0,,,,,verb.body,222,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+157,0,said,3,7,11866,11870,2,0.0,2.0,11863.0,11865.0,,,,,verb.communication,224,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+158,5,killed,71,77,11970,11976,2,47.0,48.0,11946.0,11947.0,,,,,verb.contact,223,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+158,7,listen,104,110,12003,12009,2,91.0,97.0,11990.0,11996.0,,,,,verb.perception,226,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+158,8,boast,129,134,12028,12033,2,91.0,97.0,11990.0,11996.0,,,,,verb.creation,225,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+158,9,do,154,156,12053,12055,2,91.0,97.0,11990.0,11996.0,,,,,verb.social,227,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+158,10,said,173,177,12072,12076,2,1.0,170.0,11900.0,12069.0,,,,,verb.communication,228,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+158,10,said,173,177,12072,12076,8,1.0,170.0,11900.0,12069.0,,,,,verb.communication,228,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+161,1,see,10,13,12144,12147,8,0.0,3.0,12134.0,12137.0,30.0,46.0,12164.0,12180.0,verb.perception,232,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+162,0,see,4,7,12186,12189,8,0.0,3.0,12182.0,12185.0,,,,,verb.cognition,231,subject,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+162,1,like,10,14,12192,12196,2,8.0,9.0,12190.0,12191.0,,,,,verb.emotion,230,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+162,2,fight,33,38,12215,12220,2,8.0,9.0,12190.0,12191.0,,,,,verb.competition,229,subject,Walter,54.0,183.0,237.0,male,1.0,primary
+166,2,boast,51,56,12333,12338,100,34.0,46.0,12316.0,12328.0,,,,,verb.communication,234,subject,only cowards,1.0,0.0,1.0,unknown,0.0,tertiary
+167,0,talks,25,30,12365,12370,101,0.0,18.0,12340.0,12358.0,,,,,verb.communication,236,subject,A really brave man,1.0,1.0,2.0,male,1.0,tertiary
+11,2,stand,24,29,1285,1290,2,30.0,41.0,1291.0,1302.0,,,,,verb.contact,4,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+11,8,tear,149,153,1410,1414,2,154.0,166.0,1415.0,1427.0,,,,,verb.contact,10,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+12,4,draw,100,104,1529,1533,36,105.0,112.0,1534.0,1541.0,,,,,verb.contact,14,direct_object,old men,1.0,0.0,1.0,male,1.0,tertiary
+12,6,eat,161,164,1590,1593,2,165.0,177.0,1594.0,1606.0,178.0,195.0,1607.0,1624.0,verb.consumption,17,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+13,1,forgets,55,62,1711,1718,2,63.0,104.0,1719.0,1760.0,,,,,verb.cognition,18,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+13,1,forgets,55,62,1711,1718,37,63.0,104.0,1719.0,1760.0,,,,,verb.cognition,18,direct_object,Walter's father,1.0,0.0,1.0,male,1.0,tertiary
+13,1,forgets,55,62,1711,1718,38,63.0,104.0,1719.0,1760.0,,,,,verb.cognition,18,direct_object,Walter's mother,1.0,0.0,1.0,female,1.0,tertiary
+14,5,tell,100,104,1862,1866,2,105.0,108.0,1867.0,1870.0,,,,,verb.communication,21,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+15,0,heard,54,59,1968,1973,2,60.0,129.0,1974.0,2043.0,,,,,verb.cognition,22,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+15,2,pleased,118,125,2032,2039,2,126.0,129.0,2040.0,2043.0,,,,,verb.emotion,24,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+17,0,wrestled,8,16,2244,2252,7,17.0,59.0,2253.0,2295.0,,,,,verb.contact,26,direct_object,Frithiof Waderfelt,1.0,0.0,1.0,unknown,0.0,tertiary
+17,0,wrestled,8,16,2244,2252,6,17.0,59.0,2253.0,2295.0,,,,,verb.contact,26,direct_object,Klas Bogenstrom,1.0,0.0,1.0,unknown,0.0,tertiary
+17,3,say,98,101,2334,2337,2,103.0,136.0,2339.0,2372.0,,,,,verb.communication,28,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+17,3,say,98,101,2334,2337,83,103.0,136.0,2339.0,2372.0,,,,,verb.communication,28,direct_object,a wolf,2.0,0.0,2.0,unknown,0.0,tertiary
+17,6,do,124,126,2360,2362,83,127.0,136.0,2363.0,2372.0,,,,,verb.creation,30,direct_object,a wolf,2.0,0.0,2.0,unknown,0.0,tertiary
+18,1,rattled,38,45,2413,2420,2,46.0,72.0,2421.0,2447.0,,,,,verb.change,31,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+18,3,say,82,85,2457,2460,2,88.0,137.0,2463.0,2512.0,,,,,verb.communication,33,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+18,3,say,82,85,2457,2460,8,88.0,137.0,2463.0,2512.0,,,,,verb.communication,33,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+18,3,say,82,85,2457,2460,83,88.0,137.0,2463.0,2512.0,,,,,verb.communication,33,direct_object,a wolf,2.0,0.0,2.0,unknown,0.0,tertiary
+18,6,shoot,109,114,2484,2489,8,115.0,118.0,2490.0,2493.0,119.0,137.0,2494.0,2512.0,verb.competition,32,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+19,0,thought,13,20,2528,2535,47,21.0,56.0,2536.0,2571.0,,,,,verb.cognition,35,direct_object,the brave boy,1.0,3.0,4.0,male,1.0,tertiary
+20,1,believe,16,23,2589,2596,47,24.0,27.0,2597.0,2600.0,28.0,52.0,2601.0,2625.0,verb.cognition,37,direct_object,the brave boy,1.0,3.0,4.0,male,1.0,tertiary
+20,2,said,37,41,2610,2614,47,42.0,52.0,2615.0,2625.0,,,,,verb.communication,36,direct_object,the brave boy,1.0,3.0,4.0,male,1.0,tertiary
+21,1,say,26,29,2653,2656,2,30.0,36.0,2657.0,2663.0,,,,,verb.communication,39,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+22,1,say,31,34,2745,2748,2,36.0,105.0,2750.0,2819.0,,,,,verb.communication,41,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+22,3,goes,48,52,2762,2766,2,53.0,105.0,2767.0,2819.0,,,,,verb.motion,40,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+23,1,prepared,78,86,2900,2908,2,87.0,94.0,2909.0,2916.0,,,,,verb.change,42,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+24,0,took,3,7,2942,2946,2,17.0,282.0,2956.0,3221.0,,,,,verb.contact,44,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+24,4,reach,96,101,3035,3040,2,102.0,174.0,3041.0,3113.0,,,,,verb.motion,45,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+24,8,fought,215,221,3154,3160,2,222.0,229.0,3161.0,3168.0,230.0,282.0,3169.0,3221.0,verb.competition,43,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+25,1,forget,11,17,3234,3240,2,18.0,97.0,3241.0,3320.0,,,,,verb.cognition,48,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+25,2,arm,21,24,3244,3247,2,25.0,32.0,3248.0,3255.0,33.0,97.0,3256.0,3320.0,verb.social,47,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+26,0,had,3,6,3325,3328,2,7.0,59.0,3329.0,3381.0,,,,,verb.possession,46,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+26,2,blacken,37,44,3359,3366,2,45.0,58.0,3367.0,3380.0,,,,,verb.change,49,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+26,3,put,88,91,3410,3413,2,92.0,102.0,3414.0,3424.0,103.0,130.0,3425.0,3452.0,verb.contact,50,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+26,4,make,106,110,3428,3432,2,111.0,130.0,3433.0,3452.0,,,,,verb.change,51,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+30,1,looked,40,46,3840,3846,2,58.0,68.0,3858.0,3868.0,,,,,verb.perception,58,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+31,1,omit,11,15,3928,3932,8,16.0,28.0,3933.0,3945.0,29.0,60.0,3946.0,3977.0,verb.cognition,59,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+31,2,ask,19,22,3936,3939,8,23.0,28.0,3940.0,3945.0,,,,,verb.communication,60,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+33,0,began,17,22,4050,4055,2,23.0,97.0,4056.0,4130.0,,,,,verb.change,61,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+33,1,beat,26,30,4059,4063,2,31.0,39.0,4064.0,4072.0,40.0,97.0,4073.0,4130.0,verb.competition,62,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+34,0,came,10,14,4142,4146,2,15.0,33.0,4147.0,4165.0,34.0,45.0,4166.0,4177.0,verb.motion,63,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+36,0,said,6,10,4255,4259,58,11.0,21.0,4260.0,4270.0,,,,,verb.communication,65,direct_object,the miller,3.0,1.0,4.0,unknown,0.0,tertiary
+38,0,said,0,4,4366,4370,2,5.0,11.0,4371.0,4377.0,,,,,verb.communication,67,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+38,0,said,0,4,4366,4370,58,5.0,11.0,4371.0,4377.0,,,,,verb.communication,67,direct_object,the miller,3.0,1.0,4.0,unknown,0.0,tertiary
+39,2,answered,17,25,4433,4441,58,26.0,36.0,4442.0,4452.0,,,,,verb.communication,68,direct_object,the miller,3.0,1.0,4.0,unknown,0.0,tertiary
+40,1,said,26,30,4480,4484,2,31.0,37.0,4485.0,4491.0,,,,,verb.communication,70,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+41,2,know,31,35,4524,4528,2,36.0,66.0,4529.0,4559.0,,,,,verb.cognition,71,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+41,2,know,31,35,4524,4528,8,36.0,66.0,4529.0,4559.0,,,,,verb.cognition,71,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+41,4,take,48,52,4541,4545,2,53.0,58.0,4546.0,4551.0,,,,,verb.motion,72,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+41,4,take,48,52,4541,4545,8,53.0,58.0,4546.0,4551.0,,,,,verb.motion,72,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+42,4,have,80,84,4642,4646,86,85.0,127.0,4647.0,4689.0,,,,,verb.possession,73,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+42,5,kill,93,97,4655,4659,86,98.0,102.0,4660.0,4664.0,103.0,127.0,,,verb.contact,74,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+43,3,said,63,67,4755,4759,8,68.0,73.0,4760.0,4765.0,,,,,verb.communication,76,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+44,2,said,40,44,4807,4811,2,45.0,51.0,4812.0,4818.0,,,,,verb.communication,79,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+46,1,said,23,27,4869,4873,8,28.0,33.0,4874.0,4879.0,,,,,verb.communication,81,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+47,1,manage,11,17,4948,4954,86,18.0,22.0,4955.0,4959.0,23.0,38.0,4960.0,4975.0,verb.social,80,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+48,0,said,7,11,4985,4989,2,12.0,18.0,4990.0,4996.0,,,,,verb.communication,83,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+49,2,happen,30,36,5048,5054,2,37.0,79.0,5055.0,5097.0,,,,,verb.change,84,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+49,2,happen,30,36,5048,5054,86,37.0,79.0,5055.0,5097.0,,,,,verb.change,84,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+49,4,bite,60,64,5078,5082,2,65.0,67.0,5083.0,5085.0,68.0,79.0,5086.0,5097.0,verb.contact,85,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+49,6,have,94,98,5112,5116,86,99.0,127.0,5117.0,5145.0,,,,,verb.perception,86,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+49,7,killing,115,122,5133,5140,86,123.0,127.0,5141.0,5145.0,,,,,verb.contact,88,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+50,0,knew,10,14,5157,5161,2,15.0,67.0,5162.0,5214.0,,,,,verb.cognition,87,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+50,6,give,112,116,5259,5263,86,117.0,121.0,5264.0,5268.0,138.0,164.0,5285.0,5311.0,verb.possession,92,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+50,8,shook,156,161,5303,5308,2,162.0,164.0,5309.0,5311.0,,,,,verb.body,91,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+51,3,said,58,62,5372,5376,8,63.0,68.0,5377.0,5382.0,,,,,verb.communication,95,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+51,5,slay,111,115,5425,5429,87,116.0,133.0,5430.0,5447.0,,,,,verb.social,94,direct_object,children,1.0,0.0,1.0,unknown,0.0,tertiary
+52,1,shake,21,26,5470,5475,86,27.0,31.0,5476.0,5480.0,32.0,42.0,5481.0,5491.0,verb.contact,96,direct_object,three,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+53,1,said,23,27,5517,5521,2,28.0,34.0,5522.0,5528.0,,,,,verb.communication,98,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+53,6,bites,106,111,5600,5605,2,112.0,114.0,5606.0,5608.0,115.0,125.0,5609.0,5619.0,verb.contact,99,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+54,0,see,4,7,5625,5628,2,8.0,59.0,5629.0,5680.0,,,,,verb.cognition,100,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+56,3,take,36,40,5802,5806,2,41.0,44.0,5807.0,5810.0,,,,,verb.possession,103,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+56,4,thrown,71,77,5837,5843,2,78.0,81.0,5844.0,5847.0,,,,,verb.contact,105,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+57,4,hold,41,45,5912,5916,2,46.0,49.0,5917.0,5920.0,50.0,54.0,5921.0,5925.0,verb.contact,107,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+58,1,said,43,47,5971,5975,8,48.0,53.0,5976.0,5981.0,,,,,verb.communication,108,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+61,2,said,51,55,6161,6165,2,56.0,62.0,6166.0,6172.0,,,,,verb.communication,113,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+63,1,said,21,25,6322,6326,2,26.0,31.0,6327.0,6332.0,,,,,verb.communication,116,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+63,1,said,21,25,6322,6326,89,26.0,31.0,6327.0,6332.0,,,,,verb.communication,116,direct_object,people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+63,1,said,21,25,6322,6326,8,26.0,31.0,6327.0,6332.0,,,,,verb.communication,116,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+63,3,beginning,39,48,6340,6349,2,49.0,99.0,6350.0,6400.0,,,,,verb.change,115,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+63,3,beginning,39,48,6340,6349,89,49.0,99.0,6350.0,6400.0,,,,,verb.change,115,direct_object,people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+63,4,think,52,57,6353,6358,2,58.0,99.0,6359.0,6400.0,,,,,verb.cognition,117,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+63,4,think,52,57,6353,6358,89,58.0,99.0,6359.0,6400.0,,,,,verb.cognition,117,direct_object,people,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+67,1,think,19,24,6602,6607,2,25.0,48.0,6608.0,6631.0,,,,,verb.cognition,122,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+67,1,think,19,24,6602,6607,91,25.0,48.0,6608.0,6631.0,,,,,verb.cognition,122,direct_object,a coward,2.0,0.0,2.0,unknown,0.0,tertiary
+68,1,said,16,20,6650,6654,2,21.0,27.0,6655.0,6661.0,,,,,verb.communication,124,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+69,0,want,7,11,6742,6746,2,12.0,93.0,6747.0,6828.0,,,,,verb.emotion,123,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+69,2,see,29,32,6764,6767,2,33.0,93.0,6768.0,6828.0,,,,,verb.cognition,126,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+70,1,take,24,28,6855,6859,2,29.0,62.0,6860.0,6893.0,,,,,verb.motion,127,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+70,1,take,24,28,6855,6859,10,29.0,62.0,6860.0,6893.0,,,,,verb.motion,127,direct_object,Lisa,1.0,2.0,3.0,female,1.0,tertiary
+70,1,take,24,28,6855,6859,58,29.0,62.0,6860.0,6893.0,,,,,verb.motion,127,direct_object,the miller,3.0,1.0,4.0,unknown,0.0,tertiary
+71,3,said,37,41,6932,6936,8,42.0,47.0,6937.0,6942.0,,,,,verb.communication,130,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+72,2,said,41,45,6985,6989,2,46.0,52.0,6990.0,6996.0,,,,,verb.communication,131,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+74,1,said,17,21,7168,7172,2,22.0,27.0,7173.0,7178.0,,,,,verb.communication,133,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+74,1,said,17,21,7168,7172,8,22.0,27.0,7173.0,7178.0,,,,,verb.communication,133,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+75,0,see,6,9,7225,7228,2,21.0,42.0,7240.0,7261.0,,,,,verb.cognition,135,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+77,0,touched,5,12,7288,7295,2,13.0,27.0,7296.0,7310.0,28.0,37.0,7311.0,7320.0,verb.contact,134,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+78,1,show,9,13,7331,7335,2,14.0,38.0,7336.0,7360.0,,,,,verb.cognition,137,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+79,0,took,10,14,7382,7386,2,15.0,83.0,7387.0,7455.0,,,,,verb.contact,138,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+82,0,looked,17,23,7643,7649,2,24.0,84.0,7650.0,7710.0,,,,,verb.perception,140,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+85,3,thought,67,74,7878,7885,2,75.0,81.0,7886.0,7892.0,,,,,verb.cognition,145,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+86,0,began,14,19,7908,7913,2,20.0,36.0,7914.0,7930.0,,,,,verb.change,146,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+86,1,beat,23,27,7917,7921,2,28.0,36.0,7922.0,7930.0,,,,,verb.contact,147,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+92,1,took,15,19,8053,8057,2,20.0,27.0,8058.0,8065.0,,,,,verb.cognition,148,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+93,0,came,13,17,8145,8149,64,18.0,78.0,8150.0,8210.0,,,,,verb.motion,153,direct_object,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+93,2,killed,64,70,8196,8202,64,71.0,78.0,8203.0,8210.0,,,,,verb.contact,152,direct_object,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+99,4,thought,58,65,8596,8603,2,66.0,72.0,8604.0,8610.0,,,,,verb.cognition,158,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+101,2,say,21,24,8791,8794,2,25.0,62.0,8795.0,8832.0,,,,,verb.communication,161,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+104,0,said,0,4,8858,8862,2,5.0,19.0,8863.0,8877.0,,,,,verb.communication,163,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+104,0,said,0,4,8858,8862,94,5.0,19.0,8863.0,8877.0,,,,,verb.communication,163,direct_object,man,1.0,0.0,1.0,male,1.0,tertiary
+104,0,said,0,4,8858,8862,11,5.0,19.0,8863.0,8877.0,,,,,verb.communication,163,direct_object,God,1.0,0.0,1.0,unknown,0.0,tertiary
+104,2,remember,33,41,8891,8899,11,42.0,111.0,8900.0,8969.0,,,,,verb.cognition,162,direct_object,God,1.0,0.0,1.0,unknown,0.0,tertiary
+104,2,remember,33,41,8891,8899,94,42.0,111.0,8900.0,8969.0,,,,,verb.cognition,162,direct_object,man,1.0,0.0,1.0,male,1.0,tertiary
+105,1,say,29,32,9000,9003,2,33.0,50.0,9004.0,9021.0,,,,,verb.communication,166,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+105,5,eat,77,80,9048,9051,2,81.0,84.0,9052.0,9055.0,,,,,verb.consumption,168,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+106,2,thought,29,36,9090,9097,2,37.0,43.0,9098.0,9104.0,,,,,verb.cognition,167,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+108,0,went,3,7,9155,9159,2,8.0,166.0,9160.0,9318.0,,,,,verb.motion,171,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+108,0,went,3,7,9155,9159,64,8.0,166.0,9160.0,9318.0,,,,,verb.motion,171,direct_object,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+108,2,see,35,38,9187,9190,64,39.0,166.0,9191.0,9318.0,,,,,verb.perception,172,direct_object,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+110,0,wonder,3,9,9346,9352,2,10.0,51.0,9353.0,9394.0,,,,,verb.cognition,175,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+110,0,wonder,3,9,9346,9352,64,10.0,51.0,9353.0,9394.0,,,,,verb.cognition,175,direct_object,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+110,2,ate,41,44,9384,9387,64,45.0,48.0,9388.0,9391.0,,,,,verb.consumption,173,direct_object,the ram,3.0,2.0,5.0,group/nonbinary,0.5,tertiary
+110,3,thought,54,61,9397,9404,2,62.0,68.0,9405.0,9411.0,,,,,verb.cognition,176,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+112,2,thought,43,50,9548,9555,2,51.0,61.0,9556.0,9566.0,62.0,67.0,9567.0,9572.0,verb.cognition,178,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+114,0,stiffened,15,24,9719,9728,2,25.0,27.0,9729.0,9731.0,,,,,verb.change,181,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+117,2,threw,51,56,9958,9963,2,57.0,65.0,9964.0,9972.0,,,,,verb.contact,184,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+124,0,got,9,12,10205,10208,2,13.0,30.0,10209.0,10226.0,,,,,verb.change,188,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+127,1,jumped,27,33,10443,10449,2,34.0,36.0,10450.0,10452.0,,,,,verb.motion,193,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+129,1,believe,17,24,10505,10512,2,25.0,80.0,10513.0,10568.0,,,,,verb.cognition,195,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+132,0,jumped,13,19,10711,10717,2,23.0,32.0,10721.0,10730.0,,,,,verb.contact,194,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+132,1,shook,46,51,10744,10749,76,52.0,60.0,10750.0,10758.0,,,,,verb.motion,196,direct_object,the wolf,1.0,5.0,6.0,male,1.0,tertiary
+132,2,rubbed,65,71,10763,10769,76,72.0,80.0,10770.0,10778.0,,,,,verb.contact,197,direct_object,the wolf,1.0,5.0,6.0,male,1.0,tertiary
+135,0,heard,14,19,10855,10860,2,20.0,39.0,10861.0,10880.0,,,,,verb.perception,200,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+135,3,helped,96,102,10937,10943,2,103.0,106.0,10944.0,10947.0,,,,,verb.social,202,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+145,3,bitten,31,37,11171,11177,2,38.0,40.0,11178.0,11180.0,,,,,verb.contact,205,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+145,4,groaned,52,59,11192,11199,2,60.0,66.0,11200.0,11206.0,,,,,verb.communication,208,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+147,1,burst,34,39,11269,11274,8,40.0,53.0,11275.0,11288.0,,,,,verb.change,211,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+150,0,look,5,9,11452,11456,2,10.0,32.0,11457.0,11479.0,,,,,verb.perception,213,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+151,0,expect,8,14,11536,11542,2,15.0,52.0,11543.0,11580.0,,,,,verb.cognition,216,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+152,0,beat,12,16,11594,11598,2,17.0,25.0,11599.0,11607.0,,,,,verb.contact,214,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+152,3,ran,74,77,11656,11659,2,78.0,87.0,11660.0,11669.0,89.0,143.0,11671.0,11725.0,verb.motion,218,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+154,3,put,39,42,11779,11782,97,43.0,60.0,11783.0,11800.0,,,,,verb.contact,221,direct_object,a great hero,1.0,0.0,1.0,unknown,0.0,tertiary
+158,5,killed,71,77,11970,11976,2,78.0,81.0,11977.0,11980.0,,,,,verb.contact,223,direct_object,Walter,54.0,183.0,237.0,male,1.0,primary
+158,7,listen,104,110,12003,12009,8,111.0,123.0,12010.0,12022.0,,,,,verb.perception,226,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+158,10,said,173,177,12072,12076,8,178.0,196.0,12077.0,12095.0,,,,,verb.communication,228,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+161,1,see,10,13,12144,12147,8,15.0,20.0,12149.0,12154.0,30.0,46.0,12164.0,12180.0,verb.perception,232,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+164,0,laughed,0,7,12244,12251,8,8.0,13.0,12252.0,12257.0,,,,,verb.communication,233,direct_object,Happily Jonas,23.0,25.0,48.0,male,1.0,tertiary
+166,0,remember,14,22,12296,12304,100,23.0,56.0,12305.0,12338.0,,,,,verb.cognition,235,direct_object,only cowards,1.0,0.0,1.0,unknown,0.0,tertiary
+167,0,talks,25,30,12365,12370,101,31.0,45.0,12371.0,12385.0,,,,,verb.communication,236,direct_object,A really brave man,1.0,1.0,2.0,male,1.0,tertiary

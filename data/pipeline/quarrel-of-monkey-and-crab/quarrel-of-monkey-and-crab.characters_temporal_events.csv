@@ -1,0 +1,464 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,playing,109,116,109,116,2,66.0,103.0,66.0,103.0,,,,,verb.social,0,subject,a pink - faced monkey,1,0,1,unknown,0.0,tertiary
+1,2,found,37,42,190,195,6,28.0,36.0,181.0,189.0,,,,,verb.possession,1,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+2,6,found,105,110,350,355,7,80.0,97.0,325.0,342.0,,,,,verb.perception,4,subject,the monkey,29,114,143,male,1.0,primary
+3,1,said,47,51,405,409,7,5.0,15.0,363.0,373.0,,,,,verb.communication,7,subject,the monkey,29,114,143,male,1.0,primary
+3,3,found,66,71,424,429,7,54.0,55.0,412.0,413.0,,,,,verb.possession,6,subject,the monkey,29,114,143,male,1.0,primary
+5,1,had,65,68,518,521,7,62.0,64.0,515.0,517.0,,,,,verb.possession,9,subject,the monkey,29,114,143,male,1.0,primary
+5,3,found,101,106,554,559,7,80.0,88.0,533.0,541.0,,,,,verb.possession,8,subject,the monkey,29,114,143,male,1.0,primary
+7,0,felt,37,41,654,658,7,0.0,2.0,617.0,619.0,,,,,verb.emotion,10,subject,the monkey,29,114,143,male,1.0,primary
+7,1,proposed,91,99,708,716,7,88.0,90.0,705.0,707.0,,,,,verb.communication,11,subject,the monkey,29,114,143,male,1.0,primary
+8,1,see,27,30,757,760,6,0.0,8.0,730.0,738.0,,,,,verb.cognition,12,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+8,5,consent,105,112,835,842,6,35.0,37.0,765.0,767.0,,,,,verb.communication,13,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+9,0,began,24,29,896,901,13,5.0,23.0,877.0,895.0,52.0,106.0,924.0,978.0,verb.change,14,subject,the cunning monkey,1,7,8,unknown,0.0,tertiary
+9,1,persuade,33,41,905,913,13,5.0,23.0,877.0,895.0,,,,,verb.communication,15,subject,the cunning monkey,1,7,8,unknown,0.0,tertiary
+9,2,saying,52,58,924,930,13,5.0,23.0,877.0,895.0,,,,,verb.communication,17,subject,the cunning monkey,1,7,8,unknown,0.0,tertiary
+10,2,eaten,26,31,1006,1011,6,0.0,18.0,980.0,998.0,,,,,verb.consumption,16,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+11,0,sow,12,15,1071,1074,6,8.0,11.0,1067.0,1070.0,26.0,39.0,1085.0,1098.0,verb.contact,18,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+12,1,show,16,20,1236,1240,13,8.0,9.0,1228.0,1229.0,31.0,81.0,1251.0,1301.0,verb.perception,19,subject,the cunning monkey,1,7,8,unknown,0.0,tertiary
+13,1,believe,24,31,1327,1334,6,14.0,17.0,1317.0,1320.0,,,,,verb.cognition,20,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+13,3,sow,43,46,1346,1349,13,35.0,36.0,1338.0,1339.0,50.0,56.0,1353.0,1359.0,verb.contact,22,subject,the cunning monkey,1,7,8,unknown,0.0,tertiary
+14,4,take,69,73,1429,1433,6,57.0,60.0,1417.0,1420.0,,,,,verb.possession,21,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+15,1,resist,33,39,1479,1485,15,0.0,22.0,1446.0,1468.0,,,,,verb.social,23,subject,The simple - minded crab,1,0,1,unknown,0.0,tertiary
+16,1,consented,23,32,1541,1550,6,0.0,2.0,1518.0,1520.0,,,,,verb.communication,24,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+18,2,liked,14,19,1732,1737,18,0.0,2.0,1718.0,1720.0,,,,,verb.emotion,25,subject,The greedy monkey,1,4,5,male,1.0,tertiary
+18,3,keep,23,27,1741,1745,18,0.0,2.0,1718.0,1720.0,33.0,36.0,1751.0,1754.0,verb.possession,26,subject,The greedy monkey,1,4,5,male,1.0,tertiary
+20,1,put,36,39,2001,2004,6,33.0,35.0,1998.0,2000.0,73.0,99.0,2038.0,2064.0,verb.contact,30,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+21,1,see,50,53,2116,2119,6,24.0,32.0,2090.0,2098.0,,,,,verb.perception,31,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+26,0,said,3,7,2664,2668,28,0.0,2.0,2661.0,2663.0,,,,,verb.communication,33,subject,the little crab,1,53,54,male,1.0,secondary
+27,0,knew,21,25,2702,2706,28,18.0,20.0,2699.0,2701.0,,,,,verb.cognition,32,subject,the little crab,1,53,54,male,1.0,secondary
+27,3,wanted,67,73,2748,2754,28,64.0,66.0,2745.0,2747.0,,,,,verb.emotion,34,subject,the little crab,1,53,54,male,1.0,secondary
+27,4,taste,87,92,2768,2773,28,64.0,66.0,2745.0,2747.0,,,,,verb.perception,36,subject,the little crab,1,53,54,male,1.0,secondary
+28,0,made,3,7,2782,2786,28,0.0,2.0,2779.0,2781.0,,,,,verb.social,35,subject,the little crab,1,53,54,male,1.0,secondary
+28,1,climb,28,33,2807,2812,28,0.0,2.0,2779.0,2781.0,,,,,verb.motion,37,subject,the little crab,1,53,54,male,1.0,secondary
+29,0,failed,8,14,2910,2916,28,5.0,7.0,2907.0,2909.0,,,,,verb.social,39,subject,the little crab,1,53,54,male,1.0,secondary
+29,5,do,152,154,3054,3056,28,131.0,144.0,3033.0,3046.0,,,,,verb.social,42,subject,the little crab,1,53,54,male,1.0,secondary
+30,2,knew,66,70,3138,3142,28,63.0,65.0,3135.0,3137.0,,,,,verb.cognition,41,subject,the little crab,1,53,54,male,1.0,secondary
+30,4,climb,78,83,3150,3155,28,29.0,56.0,3101.0,3128.0,90.0,127.0,3162.0,3199.0,verb.motion,40,subject,the little crab,1,53,54,male,1.0,secondary
+31,0,determined,3,13,3204,3214,28,0.0,2.0,3201.0,3203.0,,,,,verb.cognition,43,subject,the little crab,1,53,54,male,1.0,secondary
+31,1,ask,17,20,3218,3221,28,0.0,2.0,3201.0,3203.0,,,,,verb.communication,44,subject,the little crab,1,53,54,male,1.0,secondary
+31,2,help,35,39,3236,3240,7,21.0,31.0,3222.0,3232.0,,,,,verb.social,45,subject,the monkey,29,114,143,male,1.0,primary
+31,4,find,60,64,3261,3265,28,0.0,2.0,3201.0,3203.0,,,,,verb.possession,46,subject,the little crab,1,53,54,male,1.0,secondary
+32,1,found,106,111,3377,3382,6,89.0,97.0,3360.0,3368.0,,,,,verb.cognition,49,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+32,2,taking,123,129,3394,3400,7,112.0,122.0,3383.0,3393.0,147.0,216.0,3418.0,3487.0,verb.consumption,48,subject,the monkey,29,114,143,male,1.0,primary
+32,3,curled,188,194,3459,3465,7,179.0,187.0,3450.0,3458.0,,,,,verb.contact,50,subject,the monkey,29,114,143,male,1.0,primary
+32,4,prevent,220,227,3491,3498,7,112.0,122.0,3383.0,3393.0,,,,,verb.social,51,subject,the monkey,29,114,143,male,1.0,primary
+33,1,heard,41,46,3576,3581,28,38.0,40.0,3573.0,3575.0,,,,,verb.perception,52,subject,the little crab,1,53,54,male,1.0,secondary
+33,3,listening,75,84,3610,3619,28,38.0,40.0,3573.0,3575.0,,,,,verb.perception,54,subject,the little crab,1,53,54,male,1.0,secondary
+34,0,heard,8,13,3655,3660,28,5.0,7.0,3652.0,3654.0,,,,,verb.cognition,56,subject,the little crab,1,53,54,male,1.0,secondary
+34,2,exchanged,50,59,3697,3706,28,19.0,27.0,3666.0,3674.0,,,,,verb.possession,55,subject,the little crab,1,53,54,male,1.0,secondary
+34,4,grown,84,89,3731,3736,28,19.0,79.0,3666.0,3726.0,,,,,verb.change,57,subject,the little crab,1,53,54,male,1.0,secondary
+34,6,bearing,114,121,3761,3768,28,19.0,79.0,3666.0,3726.0,,,,,verb.contact,58,subject,the little crab,1,53,54,male,1.0,secondary
+34,8,devised,167,174,3814,3821,28,156.0,158.0,3803.0,3805.0,,,,,verb.creation,59,subject,the little crab,1,53,54,male,1.0,secondary
+35,0,consented,3,12,3893,3902,28,0.0,2.0,3890.0,3892.0,,,,,verb.communication,60,subject,the little crab,1,53,54,male,1.0,secondary
+35,1,go,16,18,3906,3908,28,0.0,2.0,3890.0,3892.0,,,,,verb.motion,62,subject,the little crab,1,53,54,male,1.0,secondary
+35,2,pick,36,40,3926,3930,28,0.0,2.0,3890.0,3892.0,,,,,verb.contact,63,subject,the little crab,1,53,54,male,1.0,secondary
+37,0,climbed,11,18,4138,4145,7,0.0,2.0,4127.0,4129.0,,,,,verb.motion,64,subject,the monkey,29,114,143,male,1.0,primary
+37,1,began,32,37,4159,4164,7,0.0,2.0,4127.0,4129.0,,,,,verb.change,65,subject,the monkey,29,114,143,male,1.0,primary
+37,2,pluck,41,46,4168,4173,7,0.0,2.0,4127.0,4129.0,,,,,verb.contact,66,subject,the monkey,29,114,143,male,1.0,primary
+37,3,eat,51,54,4178,4181,7,0.0,2.0,4127.0,4129.0,,,,,verb.consumption,67,subject,the monkey,29,114,143,male,1.0,primary
+38,0,chose,13,18,4246,4251,7,10.0,12.0,4243.0,4245.0,,,,,verb.cognition,69,subject,the monkey,29,114,143,male,1.0,primary
+38,3,find,48,52,4281,4285,7,19.0,38.0,4252.0,4271.0,,,,,verb.possession,68,subject,the monkey,29,114,143,male,1.0,primary
+38,7,eat,87,90,4320,4323,7,78.0,80.0,4311.0,4313.0,,,,,verb.consumption,70,subject,the monkey,29,114,143,male,1.0,primary
+39,1,give,17,21,4350,4354,7,0.0,7.0,4333.0,4340.0,,,,,verb.possession,74,subject,the monkey,29,114,143,male,1.0,primary
+39,4,finished,77,85,4410,4418,7,70.0,72.0,4403.0,4405.0,,,,,verb.change,73,subject,the monkey,29,114,143,male,1.0,primary
+40,4,done,93,97,4562,4566,28,86.0,88.0,4555.0,4557.0,,,,,verb.social,71,subject,the little crab,1,53,54,male,1.0,secondary
+40,7,saw,152,155,4621,4624,28,149.0,151.0,4618.0,4620.0,,,,,verb.perception,75,subject,the little crab,1,53,54,male,1.0,secondary
+41,1,ran,31,34,4702,4705,28,28.0,30.0,4699.0,4701.0,,,,,verb.motion,76,subject,the little crab,1,53,54,male,1.0,secondary
+42,0,took,20,24,4798,4802,7,0.0,10.0,4778.0,4788.0,,,,,verb.perception,78,subject,the monkey,29,114,143,male,1.0,primary
+42,3,find,128,132,4906,4910,7,119.0,121.0,4897.0,4899.0,146.0,164.0,4924.0,4942.0,verb.possession,79,subject,the monkey,29,114,143,male,1.0,primary
+42,4,aimed,137,142,4915,4920,7,119.0,121.0,4897.0,4899.0,,,,,verb.competition,80,subject,the monkey,29,114,143,male,1.0,primary
+44,0,struck,21,27,5018,5024,7,0.0,20.0,4997.0,5017.0,,,,,verb.contact,81,subject,the monkey,29,114,143,male,1.0,primary
+45,1,pick,37,41,5109,5113,7,28.0,30.0,5100.0,5102.0,,,,,verb.cognition,82,subject,the monkey,29,114,143,male,1.0,primary
+45,3,threw,94,99,5166,5171,7,48.0,58.0,5120.0,5130.0,129.0,188.0,5201.0,5260.0,verb.contact,83,subject,the monkey,29,114,143,male,1.0,primary
+45,4,dropped,137,144,5209,5216,28,134.0,136.0,5206.0,5208.0,,,,,verb.change,84,subject,the little crab,1,53,54,male,1.0,secondary
+45,5,covered,151,158,5223,5230,28,134.0,136.0,5206.0,5208.0,171.0,188.0,5243.0,5260.0,verb.contact,86,subject,the little crab,1,53,54,male,1.0,secondary
+46,2,planted,68,75,5330,5337,28,44.0,52.0,5306.0,5314.0,,,,,verb.contact,85,subject,the little crab,1,53,54,male,1.0,secondary
+47,0,saw,23,26,5362,5365,46,5.0,22.0,5344.0,5361.0,,,,,verb.cognition,88,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+47,2,killed,39,45,5378,5384,46,32.0,34.0,5371.0,5373.0,,,,,verb.contact,87,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+48,0,had,13,16,5502,5505,6,4.0,12.0,5493.0,5501.0,,,,,verb.possession,90,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+48,3,playing,36,43,5525,5532,48,17.0,22.0,5506.0,5511.0,58.0,115.0,5547.0,5604.0,verb.social,89,subject,a son,1,2,3,male,1.0,tertiary
+49,2,smashed,90,97,5696,5703,51,77.0,85.0,5683.0,5691.0,,,,,verb.contact,91,subject,a son's father,9,6,15,male,1.0,tertiary
+49,3,broken,112,118,5718,5724,51,102.0,111.0,5708.0,5717.0,,,,,verb.contact,92,subject,a son's father,9,6,15,male,1.0,tertiary
+50,1,wept,56,60,5880,5884,53,23.0,42.0,5847.0,5866.0,,,,,verb.body,93,subject,the poor young crab,1,0,1,unknown,0.0,tertiary
+51,1,wept,16,20,5902,5906,28,9.0,11.0,5895.0,5897.0,,,,,verb.body,94,subject,the little crab,1,53,54,male,1.0,secondary
+51,2,told,38,42,5924,5928,28,35.0,37.0,5921.0,5923.0,,,,,verb.communication,95,subject,the little crab,1,53,54,male,1.0,secondary
+52,2,determined,60,70,6031,6041,28,57.0,59.0,6028.0,6030.0,,,,,verb.cognition,97,subject,the little crab,1,53,54,male,1.0,secondary
+52,3,do,74,76,6045,6047,28,52.0,56.0,6023.0,6027.0,,,,,verb.social,99,subject,the little crab,1,53,54,male,1.0,secondary
+53,0,looked,3,9,6052,6058,28,0.0,2.0,6049.0,6051.0,,,,,verb.perception,98,subject,the little crab,1,53,54,male,1.0,secondary
+53,3,discover,54,62,6103,6111,28,47.0,50.0,6096.0,6099.0,,,,,verb.perception,101,subject,the little crab,1,53,54,male,1.0,secondary
+54,1,noticed,26,33,6152,6159,28,23.0,25.0,6149.0,6151.0,,,,,verb.perception,104,subject,the little crab,1,53,54,male,1.0,secondary
+55,0,understood,8,18,6355,6365,28,5.0,7.0,6352.0,6354.0,53.0,162.0,6400.0,6509.0,verb.cognition,107,subject,the little crab,1,53,54,male,1.0,secondary
+55,2,remembered,64,74,6411,6421,28,57.0,59.0,6404.0,6406.0,,,,,verb.cognition,106,subject,the little crab,1,53,54,male,1.0,secondary
+55,4,told,100,104,6447,6451,51,80.0,90.0,6427.0,6437.0,,,,,verb.communication,105,subject,a son's father,9,6,15,male,1.0,tertiary
+55,4,told,100,104,6447,6451,28,80.0,90.0,6427.0,6437.0,,,,,verb.communication,105,subject,the little crab,1,53,54,male,1.0,secondary
+56,0,knew,15,19,6526,6530,60,0.0,14.0,6511.0,6525.0,,,,,verb.cognition,108,subject,The young crab,13,29,42,male,1.0,tertiary
+56,2,felt,80,84,6591,6595,60,77.0,79.0,6588.0,6590.0,,,,,verb.cognition,109,subject,The young crab,13,29,42,male,1.0,tertiary
+58,1,attack,32,38,6720,6726,60,0.0,2.0,6688.0,6690.0,50.0,57.0,6738.0,6745.0,verb.social,111,subject,The young crab,13,29,42,male,1.0,tertiary
+58,2,burned,66,72,6754,6760,60,63.0,65.0,6751.0,6753.0,,,,,verb.weather,110,subject,The young crab,13,29,42,male,1.0,tertiary
+60,1,meet,8,12,6914,6918,60,0.0,2.0,6906.0,6908.0,,,,,verb.social,113,subject,The young crab,13,29,42,male,1.0,tertiary
+60,3,ask,38,41,6944,6947,60,0.0,2.0,6906.0,6908.0,75.0,139.0,6981.0,7045.0,verb.communication,114,subject,The young crab,13,29,42,male,1.0,tertiary
+60,4,help,65,69,6971,6975,60,42.0,61.0,6948.0,6967.0,,,,,verb.social,116,subject,The young crab,13,29,42,male,1.0,tertiary
+60,4,help,65,69,6971,6975,63,42.0,61.0,6948.0,6967.0,,,,,verb.social,116,subject,The young crab's of his friends,1,0,1,unknown,0.0,tertiary
+60,4,help,65,69,6971,6975,64,42.0,61.0,6948.0,6967.0,,,,,verb.social,116,subject,The young crab's friends,1,0,1,unknown,0.0,tertiary
+60,5,knew,82,86,6988,6992,60,79.0,81.0,6985.0,6987.0,,,,,verb.cognition,115,subject,The young crab,13,29,42,male,1.0,tertiary
+61,1,call,34,38,7081,7085,60,0.0,14.0,7047.0,7061.0,,,,,verb.communication,118,subject,The young crab,13,29,42,male,1.0,tertiary
+61,2,told,83,87,7130,7134,60,0.0,14.0,7047.0,7061.0,,,,,verb.communication,119,subject,The young crab,13,29,42,male,1.0,tertiary
+62,0,besought,3,11,7168,7176,60,0.0,2.0,7165.0,7167.0,34.0,71.0,7199.0,7236.0,verb.communication,120,subject,The young crab,13,29,42,male,1.0,tertiary
+62,1,help,37,41,7202,7206,60,0.0,2.0,7165.0,7167.0,,,,,verb.social,122,subject,The young crab,13,29,42,male,1.0,tertiary
+62,2,avenge,46,52,7211,7217,60,42.0,45.0,7207.0,7210.0,,,,,verb.social,121,subject,The young crab,13,29,42,male,1.0,tertiary
+63,1,heard,34,39,7272,7277,67,31.0,33.0,7269.0,7271.0,,,,,verb.perception,123,subject,The mortar,3,2,5,male,1.0,tertiary
+63,2,promised,59,67,7297,7305,67,31.0,33.0,7269.0,7271.0,,,,,verb.communication,124,subject,The mortar,3,2,5,male,1.0,tertiary
+63,3,help,79,83,7317,7321,67,31.0,33.0,7269.0,7271.0,,,,,verb.social,125,subject,The mortar,3,2,5,male,1.0,tertiary
+63,4,punish,99,105,7337,7343,60,84.0,98.0,7322.0,7336.0,,,,,verb.contact,126,subject,The young crab,13,29,42,male,1.0,tertiary
+64,0,warned,3,9,7368,7374,67,0.0,2.0,7365.0,7367.0,,,,,verb.communication,127,subject,The mortar,3,2,5,male,1.0,tertiary
+64,3,did,54,57,7419,7422,60,46.0,50.0,7411.0,7415.0,,,,,verb.social,128,subject,The young crab,13,29,42,male,1.0,tertiary
+65,0,sent,15,19,7486,7490,67,0.0,10.0,7471.0,7481.0,,,,,verb.motion,129,subject,The mortar,3,2,5,male,1.0,tertiary
+65,2,consult,87,94,7558,7565,75,60.0,83.0,7531.0,7554.0,,,,,verb.communication,131,subject,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+65,2,consult,87,94,7558,7565,6,60.0,83.0,7531.0,7554.0,,,,,verb.communication,131,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+67,1,told,15,19,7654,7658,75,5.0,9.0,7644.0,7648.0,,,,,verb.communication,132,subject,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+67,2,consented,119,128,7758,7767,75,102.0,111.0,7741.0,7750.0,,,,,verb.communication,133,subject,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+67,3,help,132,136,7771,7775,75,102.0,106.0,7741.0,7745.0,152.0,166.0,7791.0,7805.0,verb.social,134,subject,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+68,2,separated,88,97,7895,7904,75,71.0,82.0,7878.0,7889.0,,,,,verb.motion,135,subject,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+68,4,help,147,151,7954,7958,1,103.0,113.0,7910.0,7920.0,,,,,verb.social,136,subject,Mr. Mortar,1,0,1,unknown,0.0,tertiary
+68,5,bury,156,160,7963,7967,60,152.0,155.0,7959.0,7962.0,,,,,verb.contact,138,subject,The young crab,13,29,42,male,1.0,tertiary
+69,3,congratulating,47,61,8032,8046,7,32.0,42.0,8017.0,8027.0,118.0,163.0,8103.0,8148.0,verb.communication,137,subject,the monkey,29,114,143,male,1.0,primary
+69,5,comes,118,123,8103,8108,82,101.0,117.0,8086.0,8102.0,135.0,163.0,8120.0,8148.0,verb.change,140,subject,the wicked,1,2,3,group/nonbinary,1.0,tertiary
+69,7,done,149,153,8134,8138,7,138.0,141.0,8123.0,8126.0,,,,,verb.social,139,subject,the monkey,29,114,143,male,1.0,primary
+70,0,thought,3,10,8153,8160,7,0.0,2.0,8150.0,8152.0,,,,,verb.cognition,142,subject,the monkey,29,114,143,male,1.0,primary
+70,2,robbed,45,51,8195,8201,7,38.0,40.0,8188.0,8190.0,,,,,verb.possession,141,subject,the monkey,29,114,143,male,1.0,primary
+70,4,killed,111,117,8261,8267,7,104.0,106.0,8254.0,8256.0,,,,,verb.contact,143,subject,the monkey,29,114,143,male,1.0,primary
+71,3,banish,47,53,8320,8326,7,34.0,36.0,8307.0,8309.0,,,,,verb.communication,145,subject,the monkey,29,114,143,male,1.0,primary
+71,6,discovered,119,129,8392,8402,7,101.0,115.0,8374.0,8388.0,,,,,verb.cognition,146,subject,the monkey,29,114,143,male,1.0,primary
+72,2,told,29,33,8433,8437,7,26.0,28.0,8430.0,8432.0,,,,,verb.communication,148,subject,the monkey,29,114,143,male,1.0,primary
+72,6,escaped,76,83,8480,8487,7,69.0,71.0,8473.0,8475.0,,,,,verb.motion,147,subject,the monkey,29,114,143,male,1.0,primary
+74,0,found,3,8,8650,8655,7,0.0,2.0,8647.0,8649.0,,,,,verb.perception,151,subject,the monkey,29,114,143,male,1.0,primary
+74,3,said,120,124,8767,8771,7,117.0,119.0,8764.0,8766.0,,,,,verb.communication,155,subject,the monkey,29,114,143,male,1.0,primary
+74,6,killed,158,164,8805,8811,7,152.0,153.0,8799.0,8800.0,,,,,verb.social,153,subject,the monkey,29,114,143,male,1.0,primary
+75,1,breathed,29,37,8851,8859,143,15.0,28.0,8837.0,8850.0,47.0,64.0,8869.0,8886.0,verb.perception,156,subject,the old thing,1,2,3,male,1.0,tertiary
+75,2,left,56,60,8878,8882,7,54.0,55.0,8876.0,8877.0,,,,,verb.motion,158,subject,the monkey,29,114,143,male,1.0,primary
+76,0,have,11,15,8899,8903,144,0.0,10.0,8888.0,8898.0,,,,,verb.possession,157,subject,Dead crabs,1,0,1,unknown,0.0,tertiary
+80,1,crept,55,60,9135,9140,7,10.0,12.0,9090.0,9092.0,67.0,109.0,9147.0,9189.0,verb.motion,161,subject,the monkey,29,114,143,male,1.0,primary
+80,2,tried,114,119,9194,9199,7,10.0,12.0,9090.0,9092.0,,,,,verb.social,162,subject,the monkey,29,114,143,male,1.0,primary
+80,3,hear,123,127,9203,9207,7,10.0,12.0,9090.0,9092.0,,,,,verb.perception,163,subject,the monkey,29,114,143,male,1.0,primary
+81,0,wanted,3,9,9246,9252,7,0.0,2.0,9243.0,9245.0,,,,,verb.emotion,164,subject,the monkey,29,114,143,male,1.0,primary
+82,0,heard,7,12,9376,9381,7,4.0,6.0,9373.0,9375.0,,,,,verb.perception,166,subject,the monkey,29,114,143,male,1.0,primary
+82,1,said,25,29,9394,9398,7,4.0,6.0,9373.0,9375.0,,,,,verb.communication,168,subject,the monkey,29,114,143,male,1.0,primary
+82,4,know,83,87,9452,9456,6,52.0,66.0,9421.0,9435.0,,,,,verb.cognition,167,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+82,6,care,98,102,9467,9471,6,72.0,76.0,9441.0,9445.0,,,,,verb.emotion,170,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+83,1,know,14,18,9513,9517,7,11.0,13.0,9510.0,9512.0,,,,,verb.cognition,171,subject,the monkey,29,114,143,male,1.0,primary
+84,0,pretended,13,22,9629,9638,7,0.0,2.0,9616.0,9618.0,,,,,verb.creation,172,subject,the monkey,29,114,143,male,1.0,primary
+84,1,know,30,34,9646,9650,7,0.0,2.0,9616.0,9618.0,,,,,verb.cognition,174,subject,the monkey,29,114,143,male,1.0,primary
+84,5,met,90,93,9706,9709,7,83.0,85.0,9699.0,9701.0,104.0,125.0,9720.0,9741.0,verb.social,175,subject,the monkey,29,114,143,male,1.0,primary
+85,2,keep,34,38,9777,9781,7,14.0,16.0,9757.0,9759.0,,,,,verb.possession,178,subject,the monkey,29,114,143,male,1.0,primary
+85,4,meditating,86,96,9829,9839,7,61.0,71.0,9804.0,9814.0,,,,,verb.consumption,177,subject,the monkey,29,114,143,male,1.0,primary
+86,0,returned,14,22,9855,9863,7,3.0,13.0,9844.0,9854.0,42.0,55.0,9883.0,9896.0,verb.motion,179,subject,the monkey,29,114,143,male,1.0,primary
+87,0,told,3,7,9901,9905,7,0.0,2.0,9898.0,9900.0,,,,,verb.communication,181,subject,the monkey,29,114,143,male,1.0,primary
+87,1,had,19,22,9917,9920,7,16.0,18.0,9914.0,9916.0,31.0,34.0,9929.0,9932.0,verb.possession,180,subject,the monkey,29,114,143,male,1.0,primary
+88,3,surprised,58,67,10000,10009,7,51.0,53.0,9993.0,9995.0,,,,,verb.emotion,182,subject,the monkey,29,114,143,male,1.0,primary
+89,1,wondering,13,22,10077,10086,7,6.0,8.0,10070.0,10072.0,,,,,verb.cognition,183,subject,the monkey,29,114,143,male,1.0,primary
+89,4,bowed,59,64,10123,10128,103,45.0,58.0,10109.0,10122.0,,,,,verb.communication,184,subject,The messenger,2,4,6,unknown,0.0,tertiary
+89,5,said,80,84,10144,10148,103,45.0,58.0,10109.0,10122.0,,,,,verb.communication,186,subject,The messenger,2,4,6,unknown,0.0,tertiary
+89,8,sent,99,103,10163,10167,103,87.0,88.0,10151.0,10152.0,117.0,135.0,10181.0,10199.0,verb.motion,185,subject,The messenger,2,4,6,unknown,0.0,tertiary
+89,9,inform,120,126,10184,10190,103,87.0,88.0,10151.0,10152.0,,,,,verb.communication,188,subject,The messenger,2,4,6,unknown,0.0,tertiary
+89,10,died,147,151,10211,10215,60,136.0,146.0,10200.0,10210.0,,,,,verb.change,187,subject,The young crab,13,29,42,male,1.0,tertiary
+89,10,died,147,151,10211,10215,51,136.0,146.0,10200.0,10210.0,,,,,verb.change,187,subject,a son's father,9,6,15,male,1.0,tertiary
+89,11,falling,169,176,10233,10240,60,136.0,146.0,10200.0,10210.0,199.0,241.0,10263.0,10305.0,verb.motion,189,subject,The young crab,13,29,42,male,1.0,tertiary
+89,11,falling,169,176,10233,10240,51,136.0,146.0,10200.0,10210.0,199.0,241.0,10263.0,10305.0,verb.motion,189,subject,a son's father,9,6,15,male,1.0,tertiary
+89,13,climb,215,220,10279,10284,60,136.0,146.0,10200.0,10210.0,230.0,241.0,10294.0,10305.0,verb.motion,190,subject,The young crab,13,29,42,male,1.0,tertiary
+89,13,climb,215,220,10279,10284,51,136.0,146.0,10200.0,10210.0,230.0,241.0,10294.0,10305.0,verb.motion,190,subject,a son's father,9,6,15,male,1.0,tertiary
+90,3,prepared,89,97,10396,10404,103,75.0,84.0,10382.0,10391.0,,,,,verb.creation,191,subject,The messenger,2,4,6,unknown,0.0,tertiary
+90,3,prepared,89,97,10396,10404,148,75.0,84.0,10382.0,10391.0,,,,,verb.creation,191,subject,The messenger's master,3,0,3,unknown,0.0,tertiary
+90,4,come,152,156,10459,10463,7,148.0,151.0,10455.0,10458.0,,,,,verb.change,192,subject,the monkey,29,114,143,male,1.0,primary
+90,5,participate,160,171,10467,10478,7,148.0,151.0,10455.0,10458.0,,,,,verb.social,193,subject,the monkey,29,114,143,male,1.0,primary
+91,0,hopes,10,15,10532,10537,103,0.0,9.0,10522.0,10531.0,,,,,verb.emotion,194,subject,The messenger,2,4,6,unknown,0.0,tertiary
+91,0,hopes,10,15,10532,10537,148,0.0,9.0,10522.0,10531.0,,,,,verb.emotion,194,subject,The messenger's master,3,0,3,unknown,0.0,tertiary
+91,2,honor,25,30,10547,10552,7,16.0,19.0,10538.0,10541.0,41.0,61.0,10563.0,10583.0,verb.social,196,subject,the monkey,29,114,143,male,1.0,primary
+92,0,heard,16,21,10602,10607,7,5.0,15.0,10591.0,10601.0,,,,,verb.perception,195,subject,the monkey,29,114,143,male,1.0,primary
+92,1,rejoiced,37,45,10623,10631,7,34.0,36.0,10620.0,10622.0,,,,,verb.emotion,197,subject,the monkey,29,114,143,male,1.0,primary
+93,1,guess,13,18,10721,10726,7,0.0,2.0,10708.0,10710.0,,,,,verb.cognition,198,subject,the monkey,29,114,143,male,1.0,primary
+94,0,pretended,3,12,10783,10792,7,0.0,2.0,10780.0,10782.0,,,,,verb.communication,199,subject,the monkey,29,114,143,male,1.0,primary
+94,2,said,71,75,10851,10855,7,0.0,2.0,10780.0,10782.0,,,,,verb.communication,202,subject,the monkey,29,114,143,male,1.0,primary
+95,1,know,29,33,10943,10947,7,25.0,28.0,10939.0,10942.0,,,,,verb.cognition,200,subject,the monkey,29,114,143,male,1.0,primary
+96,0,remember,2,10,10951,10959,7,0.0,1.0,10949.0,10950.0,,,,,verb.cognition,203,subject,the monkey,29,114,143,male,1.0,primary
+98,0,accept,2,8,11105,11111,7,0.0,1.0,11103.0,11104.0,,,,,verb.possession,206,subject,the monkey,29,114,143,male,1.0,primary
+99,2,do,24,26,11175,11177,7,0.0,1.0,11151.0,11152.0,,,,,verb.social,208,subject,the monkey,29,114,143,male,1.0,primary
+100,0,screwed,7,14,11215,11222,7,4.0,6.0,11212.0,11214.0,,,,,verb.contact,207,subject,the monkey,29,114,143,male,1.0,primary
+101,0,laughed,14,21,11269,11276,103,0.0,13.0,11255.0,11268.0,,,,,verb.body,209,subject,The messenger,2,4,6,unknown,0.0,tertiary
+101,1,thought,35,42,11290,11297,103,0.0,13.0,11255.0,11268.0,,,,,verb.cognition,211,subject,The messenger,2,4,6,unknown,0.0,tertiary
+101,3,dropping,70,78,11325,11333,46,45.0,62.0,11300.0,11317.0,,,,,verb.motion,210,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+101,5,shed,125,129,11380,11384,46,116.0,118.0,11371.0,11373.0,,,,,verb.contact,213,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+102,0,thanked,13,20,11410,11417,7,4.0,9.0,11401.0,11406.0,32.0,40.0,11429.0,11437.0,verb.communication,212,subject,the monkey,29,114,143,male,1.0,primary
+103,1,gone,12,16,11465,11469,7,5.0,7.0,11458.0,11460.0,,,,,verb.motion,214,subject,the monkey,29,114,143,male,1.0,primary
+103,2,laughed,36,43,11489,11496,46,18.0,35.0,11471.0,11488.0,,,,,verb.body,215,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+103,3,thought,61,68,11514,11521,46,58.0,60.0,11511.0,11513.0,,,,,verb.cognition,216,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+103,11,invited,234,241,11687,11694,46,198.0,211.0,11651.0,11664.0,,,,,verb.emotion,217,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+104,0,changed,3,10,11699,11706,46,0.0,2.0,11696.0,11698.0,,,,,verb.change,219,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+104,2,visit,45,50,11741,11746,46,0.0,2.0,11696.0,11698.0,,,,,verb.social,220,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+105,0,found,3,8,11766,11771,46,0.0,2.0,11763.0,11765.0,,,,,verb.perception,221,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+105,2,receive,75,82,11838,11845,115,9.0,63.0,11772.0,11826.0,,,,,verb.possession,222,subject,The young crab's relatives,1,0,1,unknown,0.0,tertiary
+105,2,receive,75,82,11838,11845,60,9.0,63.0,11772.0,11826.0,,,,,verb.possession,222,subject,The young crab,13,29,42,male,1.0,tertiary
+105,2,receive,75,82,11838,11845,113,9.0,63.0,11772.0,11826.0,,,,,verb.possession,222,subject,the members of the crab 's family,1,0,1,unknown,0.0,tertiary
+105,2,receive,75,82,11838,11845,6,9.0,63.0,11772.0,11826.0,,,,,verb.possession,222,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+105,3,welcome,87,94,11850,11857,115,9.0,63.0,11772.0,11826.0,,,,,verb.social,223,subject,The young crab's relatives,1,0,1,unknown,0.0,tertiary
+105,3,welcome,87,94,11850,11857,60,9.0,63.0,11772.0,11826.0,,,,,verb.social,223,subject,The young crab,13,29,42,male,1.0,tertiary
+105,3,welcome,87,94,11850,11857,113,9.0,63.0,11772.0,11826.0,,,,,verb.social,223,subject,the members of the crab 's family,1,0,1,unknown,0.0,tertiary
+105,3,welcome,87,94,11850,11857,6,9.0,63.0,11772.0,11826.0,,,,,verb.social,223,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+107,0,came,29,33,11957,11961,118,5.0,28.0,11933.0,11956.0,,,,,verb.motion,225,subject,the young chief mourner,1,0,1,unknown,0.0,tertiary
+107,1,receive,37,44,11965,11972,118,5.0,28.0,11933.0,11956.0,,,,,verb.possession,226,subject,the young chief mourner,1,0,1,unknown,0.0,tertiary
+109,1,invited,28,35,12170,12177,46,16.0,18.0,12158.0,12160.0,61.0,82.0,12203.0,12224.0,verb.social,228,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+109,2,drink,64,69,12206,12211,46,16.0,18.0,12158.0,12160.0,,,,,verb.consumption,229,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+110,1,conducted,24,33,12250,12259,60,5.0,19.0,12231.0,12245.0,45.0,71.0,12271.0,12297.0,verb.motion,230,subject,The young crab,13,29,42,male,1.0,tertiary
+110,2,left,63,67,12289,12293,60,60.0,62.0,12286.0,12288.0,,,,,verb.cognition,231,subject,The young crab,13,29,42,male,1.0,tertiary
+111,2,return,33,39,12344,12350,46,22.0,24.0,12333.0,12335.0,,,,,verb.motion,232,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+112,0,became,19,25,12371,12377,7,8.0,18.0,12360.0,12370.0,,,,,verb.change,233,subject,the monkey,29,114,143,male,1.0,primary
+113,0,said,3,7,12392,12396,7,0.0,2.0,12389.0,12391.0,,,,,verb.communication,235,subject,the monkey,29,114,143,male,1.0,primary
+115,1,drinking,24,32,12513,12521,7,0.0,1.0,12489.0,12490.0,46.0,59.0,12535.0,12548.0,verb.consumption,234,subject,the monkey,29,114,143,male,1.0,primary
+116,0,approached,8,18,12559,12569,7,0.0,2.0,12551.0,12553.0,,,,,verb.motion,236,subject,the monkey,29,114,143,male,1.0,primary
+116,1,began,47,52,12598,12603,7,0.0,2.0,12551.0,12553.0,,,,,verb.change,238,subject,the monkey,29,114,143,male,1.0,primary
+117,2,hidden,56,62,12813,12819,127,7.0,19.0,12764.0,12776.0,71.0,87.0,12828.0,12844.0,verb.perception,237,subject,the crab 's friends,1,0,1,unknown,0.0,tertiary
+117,2,hidden,56,62,12813,12819,6,7.0,19.0,12764.0,12776.0,71.0,87.0,12828.0,12844.0,verb.perception,237,subject,the crab,14,16,30,male,0.5714285714285714,tertiary
+120,2,burned,43,49,13064,13070,7,30.0,38.0,13051.0,13059.0,,,,,verb.contact,239,subject,the monkey,29,114,143,male,1.0,primary
+120,3,stung,85,90,13106,13111,7,70.0,78.0,13091.0,13099.0,,,,,verb.contact,241,subject,the monkey,29,114,143,male,1.0,primary
+120,4,ran,110,113,13131,13134,7,107.0,109.0,13128.0,13130.0,,,,,verb.motion,242,subject,the monkey,29,114,143,male,1.0,primary
+120,5,screaming,117,126,13138,13147,7,107.0,109.0,13128.0,13130.0,,,,,verb.communication,243,subject,the monkey,29,114,143,male,1.0,primary
+120,6,chattering,131,141,13152,13162,7,107.0,109.0,13128.0,13130.0,,,,,verb.communication,245,subject,the monkey,29,114,143,male,1.0,primary
+121,2,ran,115,118,13289,13292,7,104.0,114.0,13278.0,13288.0,,,,,verb.motion,246,subject,the monkey,29,114,143,male,1.0,primary
+123,0,lay,3,6,13475,13478,7,0.0,2.0,13472.0,13474.0,,,,,verb.contact,248,subject,the monkey,29,114,143,male,1.0,primary
+124,0,lay,6,9,13536,13539,7,3.0,5.0,13533.0,13535.0,,,,,verb.contact,249,subject,the monkey,29,114,143,male,1.0,primary
+124,4,said,106,110,13636,13640,60,103.0,105.0,13633.0,13635.0,,,,,verb.communication,253,subject,The young crab,13,29,42,male,1.0,tertiary
+124,6,remember,124,132,13654,13662,7,116.0,119.0,13646.0,13649.0,,,,,verb.cognition,252,subject,the monkey,29,114,143,male,1.0,primary
+124,7,murdered,142,150,13672,13680,7,138.0,141.0,13668.0,13671.0,,,,,verb.contact,251,subject,the monkey,29,114,143,male,1.0,primary
+131,1,put,12,15,13882,13885,60,0.0,1.0,13870.0,13871.0,,,,,verb.contact,258,subject,The young crab,13,29,42,male,1.0,tertiary
+132,0,cut,17,20,13927,13930,60,14.0,16.0,13924.0,13926.0,,,,,verb.contact,257,subject,The young crab,13,29,42,male,1.0,tertiary
+133,0,met,23,26,14000,14003,46,5.0,22.0,13982.0,13999.0,,,,,verb.social,259,subject,the wicked monkey,4,17,21,male,1.0,tertiary
+133,2,avenged,75,82,14052,14059,60,60.0,74.0,14037.0,14051.0,,,,,verb.social,260,subject,The young crab,13,29,42,male,1.0,tertiary
+1,2,found,37,42,190,195,7,43.0,90.0,196.0,243.0,,,,,verb.possession,1,direct_object,the monkey,29,114,143,male,1.0,primary
+2,2,showed,41,47,286,292,7,48.0,50.0,293.0,295.0,66.0,110.0,311.0,355.0,verb.perception,2,direct_object,the monkey,29,114,143,male,1.0,primary
+2,3,saying,66,72,311,317,7,74.0,75.0,319.0,320.0,,,,,verb.communication,3,direct_object,the monkey,29,114,143,male,1.0,primary
+2,4,look,75,79,320,324,7,80.0,110.0,325.0,355.0,,,,,verb.perception,5,direct_object,the monkey,29,114,143,male,1.0,primary
+3,1,said,47,51,405,409,7,54.0,86.0,412.0,444.0,,,,,verb.communication,7,direct_object,the monkey,29,114,143,male,1.0,primary
+5,1,had,65,68,518,521,7,69.0,106.0,522.0,559.0,,,,,verb.possession,9,direct_object,the monkey,29,114,143,male,1.0,primary
+8,1,see,27,30,757,760,7,31.0,140.0,761.0,870.0,,,,,verb.cognition,12,direct_object,the monkey,29,114,143,male,1.0,primary
+8,1,see,27,30,757,760,6,31.0,140.0,761.0,870.0,,,,,verb.cognition,12,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+8,5,consent,105,112,835,842,7,113.0,140.0,843.0,870.0,,,,,verb.communication,13,direct_object,the monkey,29,114,143,male,1.0,primary
+9,0,began,24,29,896,901,6,30.0,50.0,902.0,922.0,52.0,106.0,924.0,978.0,verb.change,14,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+9,1,persuade,33,41,905,913,6,42.0,50.0,914.0,922.0,,,,,verb.communication,15,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+9,2,saying,52,58,924,930,6,61.0,106.0,933.0,978.0,,,,,verb.communication,17,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+12,1,show,16,20,1236,1240,6,21.0,23.0,1241.0,1243.0,31.0,81.0,1251.0,1301.0,verb.perception,19,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+13,1,believe,24,31,1327,1334,13,32.0,34.0,1335.0,1337.0,,,,,verb.cognition,20,direct_object,the cunning monkey,1,7,8,unknown,0.0,tertiary
+14,4,take,69,73,1429,1433,13,74.0,83.0,1434.0,1443.0,,,,,verb.possession,21,direct_object,the cunning monkey,1,7,8,unknown,0.0,tertiary
+15,1,resist,33,39,1479,1485,7,40.0,70.0,1486.0,1516.0,,,,,verb.social,23,direct_object,the monkey,29,114,143,male,1.0,primary
+16,1,consented,23,32,1541,1550,7,33.0,57.0,1551.0,1575.0,,,,,verb.communication,24,direct_object,the monkey,29,114,143,male,1.0,primary
+18,5,making,59,65,1777,1783,18,66.0,133.0,1784.0,1851.0,,,,,verb.creation,27,direct_object,The greedy monkey,1,4,5,male,1.0,tertiary
+18,5,making,59,65,1777,1783,6,66.0,133.0,1784.0,1851.0,,,,,verb.creation,27,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+18,7,pinched,94,101,1812,1819,18,102.0,133.0,1820.0,1851.0,,,,,verb.contact,28,direct_object,The greedy monkey,1,4,5,male,1.0,tertiary
+20,3,told,91,95,2056,2060,6,96.0,99.0,2061.0,2064.0,,,,,verb.communication,29,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+26,0,said,3,7,2664,2668,28,8.0,18.0,2669.0,2679.0,,,,,verb.communication,33,direct_object,the little crab,1,53,54,male,1.0,secondary
+28,0,made,3,7,2782,2786,28,8.0,122.0,2787.0,2901.0,,,,,verb.social,35,direct_object,the little crab,1,53,54,male,1.0,secondary
+28,2,reaching,64,72,2843,2851,28,73.0,122.0,2852.0,2901.0,,,,,verb.motion,38,direct_object,the little crab,1,53,54,male,1.0,secondary
+29,0,failed,8,14,2910,2916,28,26.0,168.0,2928.0,3070.0,,,,,verb.social,39,direct_object,the little crab,1,53,54,male,1.0,secondary
+31,0,determined,3,13,3204,3214,28,14.0,43.0,3215.0,3244.0,,,,,verb.cognition,43,direct_object,the little crab,1,53,54,male,1.0,secondary
+31,0,determined,3,13,3204,3214,7,14.0,43.0,3215.0,3244.0,,,,,verb.cognition,43,direct_object,the monkey,29,114,143,male,1.0,primary
+31,1,ask,17,20,3218,3221,28,21.0,31.0,3222.0,3232.0,,,,,verb.communication,44,direct_object,the little crab,1,53,54,male,1.0,secondary
+31,1,ask,17,20,3218,3221,7,21.0,31.0,3222.0,3232.0,,,,,verb.communication,44,direct_object,the monkey,29,114,143,male,1.0,primary
+31,2,help,35,39,3236,3240,28,40.0,43.0,3241.0,3244.0,,,,,verb.social,45,direct_object,the little crab,1,53,54,male,1.0,secondary
+31,4,find,60,64,3261,3265,7,65.0,68.0,3266.0,3269.0,,,,,verb.possession,46,direct_object,the monkey,29,114,143,male,1.0,primary
+32,0,running,0,7,3271,3278,6,8.0,20.0,3279.0,3291.0,,,,,verb.motion,47,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+32,1,found,106,111,3377,3382,7,112.0,262.0,3383.0,3533.0,,,,,verb.cognition,49,direct_object,the monkey,29,114,143,male,1.0,primary
+32,4,prevent,220,227,3491,3498,7,228.0,231.0,3499.0,3502.0,,,,,verb.social,51,direct_object,the monkey,29,114,143,male,1.0,primary
+33,1,heard,41,46,3576,3581,28,47.0,61.0,3582.0,3596.0,,,,,verb.perception,52,direct_object,the little crab,1,53,54,male,1.0,secondary
+33,3,listening,75,84,3610,3619,28,85.0,110.0,3620.0,3645.0,,,,,verb.perception,54,direct_object,the little crab,1,53,54,male,1.0,secondary
+33,4,told,102,106,3637,3641,28,107.0,110.0,3642.0,3645.0,,,,,verb.communication,53,direct_object,the little crab,1,53,54,male,1.0,secondary
+34,0,heard,8,13,3655,3660,28,14.0,132.0,3661.0,3779.0,,,,,verb.cognition,56,direct_object,the little crab,1,53,54,male,1.0,secondary
+34,8,devised,167,174,3814,3821,28,175.0,241.0,3822.0,3888.0,,,,,verb.creation,59,direct_object,the little crab,1,53,54,male,1.0,secondary
+34,10,give,202,206,3849,3853,28,207.0,210.0,3854.0,3857.0,,,,,verb.possession,61,direct_object,the little crab,1,53,54,male,1.0,secondary
+35,0,consented,3,12,3893,3902,28,13.0,58.0,3903.0,3948.0,,,,,verb.communication,60,direct_object,the little crab,1,53,54,male,1.0,secondary
+35,2,pick,36,40,3926,3930,28,41.0,50.0,3931.0,3940.0,,,,,verb.contact,63,direct_object,the little crab,1,53,54,male,1.0,secondary
+37,1,began,32,37,4159,4164,7,38.0,104.0,4165.0,4231.0,,,,,verb.change,65,direct_object,the monkey,29,114,143,male,1.0,primary
+38,0,chose,13,18,4246,4251,7,19.0,52.0,4252.0,4285.0,,,,,verb.cognition,69,direct_object,the monkey,29,114,143,male,1.0,primary
+40,2,waiting,52,59,4521,4528,28,99.0,200.0,4568.0,4669.0,,,,,verb.cognition,72,direct_object,the little crab,1,53,54,male,1.0,secondary
+40,2,waiting,52,59,4521,4528,40,99.0,200.0,4568.0,4669.0,,,,,verb.cognition,72,direct_object,the monkey devouring all the good persimmons,1,0,1,unknown,0.0,tertiary
+40,7,saw,152,155,4621,4624,40,156.0,200.0,4625.0,4669.0,,,,,verb.perception,75,direct_object,the monkey devouring all the good persimmons,1,0,1,unknown,0.0,tertiary
+41,4,remember,85,93,4756,4764,28,94.0,105.0,4765.0,4776.0,,,,,verb.cognition,77,direct_object,the little crab,1,53,54,male,1.0,secondary
+47,0,saw,23,26,5362,5365,46,27.0,54.0,5366.0,5393.0,,,,,verb.cognition,88,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+48,0,had,13,16,5502,5505,49,17.0,115.0,5506.0,5604.0,,,,,verb.possession,90,direct_object,a friend not far from the spot where this sad work had taken place,1,0,1,unknown,0.0,tertiary
+48,0,had,13,16,5502,5505,48,17.0,115.0,5506.0,5604.0,,,,,verb.possession,90,direct_object,a son,1,2,3,male,1.0,tertiary
+51,2,told,38,42,5924,5928,28,43.0,50.0,5929.0,5936.0,,,,,verb.communication,95,direct_object,the little crab,1,53,54,male,1.0,secondary
+52,1,avenge,20,26,5991,5997,51,27.0,46.0,5998.0,6017.0,,,,,verb.communication,96,direct_object,a son's father,9,6,15,male,1.0,tertiary
+52,1,avenge,20,26,5991,5997,28,27.0,46.0,5998.0,6017.0,,,,,verb.communication,96,direct_object,the little crab,1,53,54,male,1.0,secondary
+53,0,looked,3,9,6052,6058,55,10.0,75.0,6059.0,6124.0,,,,,verb.perception,98,direct_object,the murderer,3,0,3,unknown,0.0,tertiary
+53,0,looked,3,9,6052,6058,28,10.0,75.0,6059.0,6124.0,,,,,verb.perception,98,direct_object,the little crab,1,53,54,male,1.0,secondary
+53,3,discover,54,62,6103,6111,55,63.0,75.0,6112.0,6124.0,,,,,verb.perception,101,direct_object,the murderer,3,0,3,unknown,0.0,tertiary
+54,0,looking,0,7,6126,6133,51,11.0,219.0,6137.0,6345.0,,,,,verb.perception,100,direct_object,a son's father,9,6,15,male,1.0,tertiary
+54,0,looking,0,7,6126,6133,28,11.0,219.0,6137.0,6345.0,,,,,verb.perception,100,direct_object,the little crab,1,53,54,male,1.0,secondary
+54,1,noticed,26,33,6152,6159,51,34.0,219.0,6160.0,6345.0,,,,,verb.perception,104,direct_object,a son's father,9,6,15,male,1.0,tertiary
+54,1,noticed,26,33,6152,6159,28,34.0,219.0,6160.0,6345.0,,,,,verb.perception,104,direct_object,the little crab,1,53,54,male,1.0,secondary
+54,4,lay,84,87,6210,6213,51,88.0,219.0,6214.0,6345.0,,,,,verb.contact,103,direct_object,a son's father,9,6,15,male,1.0,tertiary
+54,4,lay,84,87,6210,6213,28,88.0,219.0,6214.0,6345.0,,,,,verb.contact,103,direct_object,the little crab,1,53,54,male,1.0,secondary
+54,8,thrown,199,205,6325,6331,51,206.0,219.0,6332.0,6345.0,,,,,verb.contact,102,direct_object,a son's father,9,6,15,male,1.0,tertiary
+54,8,thrown,199,205,6325,6331,28,206.0,219.0,6332.0,6345.0,,,,,verb.contact,102,direct_object,the little crab,1,53,54,male,1.0,secondary
+55,0,understood,8,18,6355,6365,55,19.0,51.0,6366.0,6398.0,53.0,162.0,6400.0,6509.0,verb.cognition,107,direct_object,the murderer,3,0,3,unknown,0.0,tertiary
+55,0,understood,8,18,6355,6365,7,19.0,51.0,6366.0,6398.0,53.0,162.0,6400.0,6509.0,verb.cognition,107,direct_object,the monkey,29,114,143,male,1.0,primary
+55,2,remembered,64,74,6411,6421,51,75.0,162.0,6422.0,6509.0,,,,,verb.cognition,106,direct_object,a son's father,9,6,15,male,1.0,tertiary
+55,2,remembered,64,74,6411,6421,28,75.0,162.0,6422.0,6509.0,,,,,verb.cognition,106,direct_object,the little crab,1,53,54,male,1.0,secondary
+55,4,told,100,104,6447,6451,28,105.0,108.0,6452.0,6455.0,,,,,verb.communication,105,direct_object,the little crab,1,53,54,male,1.0,secondary
+56,2,felt,80,84,6591,6595,60,85.0,169.0,6596.0,6680.0,,,,,verb.cognition,109,direct_object,The young crab,13,29,42,male,1.0,tertiary
+56,2,felt,80,84,6591,6595,61,85.0,169.0,6596.0,6680.0,,,,,verb.cognition,109,direct_object,the old crab,3,1,4,male,1.0,tertiary
+59,0,told,26,30,6798,6802,60,31.0,34.0,6803.0,6806.0,,,,,verb.communication,112,direct_object,The young crab,13,29,42,male,1.0,tertiary
+59,0,told,26,30,6798,6802,62,31.0,34.0,6803.0,6806.0,,,,,verb.communication,112,direct_object,an old and cunning animal,1,0,1,unknown,0.0,tertiary
+60,3,ask,38,41,6944,6947,60,42.0,61.0,6948.0,6967.0,75.0,139.0,6981.0,7045.0,verb.communication,114,direct_object,The young crab,13,29,42,male,1.0,tertiary
+60,3,ask,38,41,6944,6947,63,42.0,61.0,6948.0,6967.0,75.0,139.0,6981.0,7045.0,verb.communication,114,direct_object,The young crab's of his friends,1,0,1,unknown,0.0,tertiary
+60,3,ask,38,41,6944,6947,64,42.0,61.0,6948.0,6967.0,75.0,139.0,6981.0,7045.0,verb.communication,114,direct_object,The young crab's friends,1,0,1,unknown,0.0,tertiary
+60,4,help,65,69,6971,6975,60,70.0,73.0,6976.0,6979.0,,,,,verb.social,116,direct_object,The young crab,13,29,42,male,1.0,tertiary
+60,5,knew,82,86,6988,6992,60,87.0,139.0,6993.0,7045.0,,,,,verb.cognition,115,direct_object,The young crab,13,29,42,male,1.0,tertiary
+60,5,knew,82,86,6988,6992,61,87.0,139.0,6993.0,7045.0,,,,,verb.cognition,115,direct_object,the old crab,3,1,4,male,1.0,tertiary
+60,8,kill,125,129,7031,7035,61,130.0,133.0,7036.0,7039.0,134.0,139.0,,,verb.contact,117,direct_object,the old crab,3,1,4,male,1.0,tertiary
+61,1,call,34,38,7081,7085,66,39.0,41.0,7086.0,7088.0,,,,,verb.communication,118,direct_object,the little crab's father 's old friend,1,1,2,male,1.0,tertiary
+61,1,call,34,38,7081,7085,28,39.0,41.0,7086.0,7088.0,,,,,verb.communication,118,direct_object,the little crab,1,53,54,male,1.0,secondary
+61,2,told,83,87,7130,7134,66,88.0,91.0,7135.0,7138.0,,,,,verb.communication,119,direct_object,the little crab's father 's old friend,1,1,2,male,1.0,tertiary
+62,0,besought,3,11,7168,7176,67,12.0,22.0,7177.0,7187.0,34.0,71.0,7199.0,7236.0,verb.communication,120,direct_object,The mortar,3,2,5,male,1.0,tertiary
+62,1,help,37,41,7202,7206,60,42.0,45.0,7207.0,7210.0,,,,,verb.social,122,direct_object,The young crab,13,29,42,male,1.0,tertiary
+62,1,help,37,41,7202,7206,51,42.0,45.0,7207.0,7210.0,,,,,verb.social,122,direct_object,a son's father,9,6,15,male,1.0,tertiary
+62,1,help,37,41,7202,7206,28,42.0,45.0,7207.0,7210.0,,,,,verb.social,122,direct_object,the little crab,1,53,54,male,1.0,secondary
+62,2,avenge,46,52,7211,7217,51,53.0,71.0,7218.0,7236.0,,,,,verb.social,121,direct_object,a son's father,9,6,15,male,1.0,tertiary
+62,2,avenge,46,52,7211,7217,28,53.0,71.0,7218.0,7236.0,,,,,verb.social,121,direct_object,the little crab,1,53,54,male,1.0,secondary
+63,2,promised,59,67,7297,7305,60,76.0,125.0,7314.0,7363.0,,,,,verb.communication,124,direct_object,The young crab,13,29,42,male,1.0,tertiary
+63,3,help,79,83,7317,7321,60,84.0,125.0,7322.0,7363.0,,,,,verb.social,125,direct_object,The young crab,13,29,42,male,1.0,tertiary
+64,0,warned,3,9,7368,7374,60,10.0,13.0,7375.0,7378.0,,,,,verb.communication,127,direct_object,The young crab,13,29,42,male,1.0,tertiary
+64,0,warned,3,9,7368,7374,72,10.0,13.0,7375.0,7378.0,,,,,verb.communication,127,direct_object,a strong and cunning enemy,1,0,1,unknown,0.0,tertiary
+64,0,warned,3,9,7368,7374,7,10.0,13.0,7375.0,7378.0,,,,,verb.communication,127,direct_object,the monkey,29,114,143,male,1.0,primary
+65,0,sent,15,19,7486,7490,75,20.0,116.0,7491.0,7587.0,,,,,verb.motion,129,direct_object,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+65,0,sent,15,19,7486,7490,6,20.0,116.0,7491.0,7587.0,,,,,verb.motion,129,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+65,1,fetch,23,28,7494,7499,75,29.0,83.0,7500.0,7554.0,84.0,116.0,,,verb.contact,130,direct_object,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+65,1,fetch,23,28,7494,7499,6,29.0,83.0,7500.0,7554.0,84.0,116.0,,,verb.contact,130,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+65,2,consult,87,94,7558,7565,75,95.0,99.0,7566.0,7570.0,,,,,verb.communication,131,direct_object,the crab 's old friends,1,5,6,group/nonbinary,1.0,tertiary
+67,1,told,15,19,7654,7658,61,20.0,100.0,7659.0,7739.0,,,,,verb.communication,132,direct_object,the old crab,3,1,4,male,1.0,tertiary
+67,2,consented,119,128,7758,7767,60,129.0,166.0,7768.0,7805.0,,,,,verb.communication,133,direct_object,The young crab,13,29,42,male,1.0,tertiary
+67,3,help,132,136,7771,7775,60,137.0,151.0,7776.0,7790.0,152.0,166.0,7791.0,7805.0,verb.social,134,direct_object,The young crab,13,29,42,male,1.0,tertiary
+68,4,help,147,151,7954,7958,60,152.0,176.0,7959.0,7983.0,,,,,verb.social,136,direct_object,The young crab,13,29,42,male,1.0,tertiary
+68,4,help,147,151,7954,7958,80,152.0,176.0,7959.0,7983.0,,,,,verb.social,136,direct_object,The young crab's poor father,1,0,1,male,1.0,tertiary
+68,5,bury,156,160,7963,7967,60,161.0,176.0,7968.0,7983.0,,,,,verb.contact,138,direct_object,The young crab,13,29,42,male,1.0,tertiary
+68,5,bury,156,160,7963,7967,80,161.0,176.0,7968.0,7983.0,,,,,verb.contact,138,direct_object,The young crab's poor father,1,0,1,male,1.0,tertiary
+69,3,congratulating,47,61,8032,8046,82,62.0,69.0,8047.0,8054.0,118.0,163.0,8103.0,8148.0,verb.communication,137,direct_object,the wicked,1,2,3,group/nonbinary,1.0,tertiary
+69,3,congratulating,47,61,8032,8046,7,62.0,69.0,8047.0,8054.0,118.0,163.0,8103.0,8148.0,verb.communication,137,direct_object,the monkey,29,114,143,male,1.0,primary
+69,5,comes,118,123,8103,8108,82,124.0,134.0,8109.0,8119.0,135.0,163.0,8120.0,8148.0,verb.change,140,direct_object,the wicked,1,2,3,group/nonbinary,1.0,tertiary
+70,0,thought,3,10,8153,8160,7,11.0,121.0,8161.0,8271.0,,,,,verb.cognition,142,direct_object,the monkey,29,114,143,male,1.0,primary
+70,0,thought,3,10,8153,8160,83,11.0,121.0,8161.0,8271.0,,,,,verb.cognition,142,direct_object,the monkey's friend,1,1,2,male,1.0,tertiary
+70,2,robbed,45,51,8195,8201,7,52.0,89.0,8202.0,8239.0,,,,,verb.possession,141,direct_object,the monkey,29,114,143,male,1.0,primary
+70,2,robbed,45,51,8195,8201,83,52.0,89.0,8202.0,8239.0,,,,,verb.possession,141,direct_object,the monkey's friend,1,1,2,male,1.0,tertiary
+70,4,killed,111,117,8261,8267,83,118.0,121.0,8268.0,8271.0,,,,,verb.contact,143,direct_object,the monkey's friend,1,1,2,male,1.0,tertiary
+71,0,smile,7,12,8280,8285,7,34.0,36.0,8307.0,8309.0,,,,,verb.cognition,144,direct_object,the monkey,29,114,143,male,1.0,primary
+72,2,told,29,33,8433,8437,85,34.0,41.0,8438.0,8445.0,,,,,verb.communication,148,direct_object,the crab 's family,1,0,1,unknown,0.0,tertiary
+72,2,told,29,33,8433,8437,7,34.0,41.0,8438.0,8445.0,,,,,verb.communication,148,direct_object,the monkey,29,114,143,male,1.0,primary
+72,2,told,29,33,8433,8437,6,34.0,41.0,8438.0,8445.0,,,,,verb.communication,148,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+72,9,bear,127,131,8531,8535,7,132.0,135.0,8536.0,8539.0,,,,,verb.emotion,149,direct_object,the monkey,29,114,143,male,1.0,primary
+72,10,seek,147,151,8551,8555,7,152.0,174.0,8556.0,8578.0,,,,,verb.contact,150,direct_object,the monkey,29,114,143,male,1.0,primary
+72,11,take,155,159,8559,8563,7,160.0,167.0,8564.0,8571.0,,,,,verb.contact,152,direct_object,the monkey,29,114,143,male,1.0,primary
+74,0,found,3,8,8650,8655,7,9.0,103.0,8656.0,8750.0,,,,,verb.perception,151,direct_object,the monkey,29,114,143,male,1.0,primary
+74,3,said,120,124,8767,8771,7,127.0,173.0,8774.0,8820.0,,,,,verb.communication,155,direct_object,the monkey,29,114,143,male,1.0,primary
+74,4,knows,134,139,8781,8786,7,140.0,173.0,8787.0,8820.0,,,,,verb.cognition,154,direct_object,the monkey,29,114,143,male,1.0,primary
+75,1,breathed,29,37,8851,8859,143,38.0,46.0,8860.0,8868.0,47.0,64.0,8869.0,8886.0,verb.perception,156,direct_object,the old thing,1,2,3,male,1.0,tertiary
+75,2,left,56,60,8878,8882,143,61.0,64.0,8883.0,8886.0,,,,,verb.motion,158,direct_object,the old thing,1,2,3,male,1.0,tertiary
+77,1,tell,16,20,8931,8935,55,21.0,43.0,8936.0,8958.0,,,,,verb.communication,160,direct_object,the murderer,3,0,3,unknown,0.0,tertiary
+77,1,tell,16,20,8931,8935,7,21.0,43.0,8936.0,8958.0,,,,,verb.communication,160,direct_object,the monkey,29,114,143,male,1.0,primary
+78,2,shutting,39,47,8999,9007,7,48.0,54.0,9008.0,9014.0,71.0,86.0,,,verb.social,159,direct_object,the monkey,29,114,143,male,1.0,primary
+80,2,tried,114,119,9194,9199,91,120.0,161.0,9200.0,9241.0,,,,,verb.social,162,direct_object,the neighbors,1,0,1,unknown,0.0,tertiary
+80,3,hear,123,127,9203,9207,91,128.0,161.0,9208.0,9241.0,,,,,verb.perception,163,direct_object,the neighbors,1,0,1,unknown,0.0,tertiary
+81,0,wanted,3,9,9246,9252,92,10.0,74.0,9253.0,9317.0,,,,,verb.emotion,164,direct_object,the crab's chief,2,0,2,unknown,0.0,tertiary
+81,0,wanted,3,9,9246,9252,6,10.0,74.0,9253.0,9317.0,,,,,verb.emotion,164,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+81,3,saying,42,48,9285,9291,92,49.0,74.0,9292.0,9317.0,,,,,verb.communication,165,direct_object,the crab's chief,2,0,2,unknown,0.0,tertiary
+81,3,saying,42,48,9285,9291,6,49.0,74.0,9292.0,9317.0,,,,,verb.communication,165,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+82,1,said,25,29,9394,9398,92,30.0,40.0,9399.0,9409.0,,,,,verb.communication,168,direct_object,the crab's chief,2,0,2,unknown,0.0,tertiary
+82,1,said,25,29,9394,9398,7,30.0,40.0,9399.0,9409.0,,,,,verb.communication,168,direct_object,the monkey,29,114,143,male,1.0,primary
+82,1,said,25,29,9394,9398,6,30.0,40.0,9399.0,9409.0,,,,,verb.communication,168,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+82,6,care,98,102,9467,9471,92,103.0,127.0,9472.0,9496.0,,,,,verb.emotion,170,direct_object,the crab's chief,2,0,2,unknown,0.0,tertiary
+82,6,care,98,102,9467,9471,6,103.0,127.0,9472.0,9496.0,,,,,verb.emotion,170,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+82,7,murdered,107,115,9476,9484,92,116.0,127.0,9485.0,9496.0,,,,,verb.social,169,direct_object,the crab's chief,2,0,2,unknown,0.0,tertiary
+82,7,murdered,107,115,9476,9484,6,116.0,127.0,9485.0,9496.0,,,,,verb.social,169,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+83,1,know,14,18,9513,9517,60,54.0,115.0,9553.0,9614.0,,,,,verb.cognition,171,direct_object,The young crab,13,29,42,male,1.0,tertiary
+84,0,pretended,13,22,9629,9638,51,23.0,125.0,9639.0,9741.0,,,,,verb.creation,172,direct_object,a son's father,9,6,15,male,1.0,tertiary
+84,0,pretended,13,22,9629,9638,7,23.0,125.0,9639.0,9741.0,,,,,verb.creation,172,direct_object,the monkey,29,114,143,male,1.0,primary
+84,1,know,30,34,9646,9650,51,35.0,56.0,9651.0,9672.0,,,,,verb.cognition,174,direct_object,a son's father,9,6,15,male,1.0,tertiary
+84,1,know,30,34,9646,9650,7,35.0,56.0,9651.0,9672.0,,,,,verb.cognition,174,direct_object,the monkey,29,114,143,male,1.0,primary
+84,2,killed,39,45,9655,9661,51,46.0,56.0,9662.0,9672.0,,,,,verb.contact,173,direct_object,a son's father,9,6,15,male,1.0,tertiary
+84,2,killed,39,45,9655,9661,7,46.0,56.0,9662.0,9672.0,,,,,verb.contact,173,direct_object,the monkey,29,114,143,male,1.0,primary
+84,3,believe,70,77,9686,9693,7,78.0,125.0,9694.0,9741.0,,,,,verb.cognition,176,direct_object,the monkey,29,114,143,male,1.0,primary
+84,5,met,90,93,9706,9709,7,94.0,103.0,9710.0,9719.0,104.0,125.0,9720.0,9741.0,verb.social,175,direct_object,the monkey,29,114,143,male,1.0,primary
+85,2,keep,34,38,9777,9781,7,39.0,96.0,9782.0,9839.0,,,,,verb.possession,178,direct_object,the monkey,29,114,143,male,1.0,primary
+86,0,returned,14,22,9855,9863,7,23.0,27.0,9864.0,9868.0,42.0,55.0,9883.0,9896.0,verb.motion,179,direct_object,the monkey,29,114,143,male,1.0,primary
+87,0,told,3,7,9901,9905,7,8.0,15.0,9906.0,9913.0,,,,,verb.communication,181,direct_object,the monkey,29,114,143,male,1.0,primary
+88,3,surprised,58,67,10000,10009,60,68.0,120.0,10010.0,10062.0,,,,,verb.emotion,182,direct_object,The young crab,13,29,42,male,1.0,tertiary
+89,5,said,80,84,10144,10148,103,86.0,241.0,10150.0,10305.0,,,,,verb.communication,186,direct_object,The messenger,2,4,6,unknown,0.0,tertiary
+89,5,said,80,84,10144,10148,7,86.0,241.0,10150.0,10305.0,,,,,verb.communication,186,direct_object,the monkey,29,114,143,male,1.0,primary
+89,5,said,80,84,10144,10148,51,86.0,241.0,10150.0,10305.0,,,,,verb.communication,186,direct_object,a son's father,9,6,15,male,1.0,tertiary
+89,5,said,80,84,10144,10148,148,86.0,241.0,10150.0,10305.0,,,,,verb.communication,186,direct_object,The messenger's master,3,0,3,unknown,0.0,tertiary
+89,5,said,80,84,10144,10148,60,86.0,241.0,10150.0,10305.0,,,,,verb.communication,186,direct_object,The young crab,13,29,42,male,1.0,tertiary
+89,8,sent,99,103,10163,10167,60,104.0,116.0,10168.0,10180.0,117.0,135.0,10181.0,10199.0,verb.motion,185,direct_object,The young crab,13,29,42,male,1.0,tertiary
+89,8,sent,99,103,10163,10167,51,104.0,116.0,10168.0,10180.0,117.0,135.0,10181.0,10199.0,verb.motion,185,direct_object,a son's father,9,6,15,male,1.0,tertiary
+89,8,sent,99,103,10163,10167,103,104.0,116.0,10168.0,10180.0,117.0,135.0,10181.0,10199.0,verb.motion,185,direct_object,The messenger,2,4,6,unknown,0.0,tertiary
+89,8,sent,99,103,10163,10167,148,104.0,116.0,10168.0,10180.0,117.0,135.0,10181.0,10199.0,verb.motion,185,direct_object,The messenger's master,3,0,3,unknown,0.0,tertiary
+89,9,inform,120,126,10184,10190,60,127.0,130.0,10191.0,10194.0,,,,,verb.communication,188,direct_object,The young crab,13,29,42,male,1.0,tertiary
+89,9,inform,120,126,10184,10190,51,127.0,130.0,10191.0,10194.0,,,,,verb.communication,188,direct_object,a son's father,9,6,15,male,1.0,tertiary
+89,9,inform,120,126,10184,10190,7,127.0,130.0,10191.0,10194.0,,,,,verb.communication,188,direct_object,the monkey,29,114,143,male,1.0,primary
+90,3,prepared,89,97,10396,10404,60,98.0,137.0,10405.0,10444.0,,,,,verb.creation,191,direct_object,The young crab,13,29,42,male,1.0,tertiary
+90,3,prepared,89,97,10396,10404,51,98.0,137.0,10405.0,10444.0,,,,,verb.creation,191,direct_object,a son's father,9,6,15,male,1.0,tertiary
+91,0,hopes,10,15,10532,10537,51,16.0,61.0,10538.0,10583.0,,,,,verb.emotion,194,direct_object,a son's father,9,6,15,male,1.0,tertiary
+91,0,hopes,10,15,10532,10537,7,16.0,61.0,10538.0,10583.0,,,,,verb.emotion,194,direct_object,the monkey,29,114,143,male,1.0,primary
+91,2,honor,25,30,10547,10552,51,31.0,40.0,10553.0,10562.0,41.0,61.0,10563.0,10583.0,verb.social,196,direct_object,a son's father,9,6,15,male,1.0,tertiary
+92,0,heard,16,21,10602,10607,7,22.0,65.0,10608.0,10651.0,,,,,verb.perception,195,direct_object,the monkey,29,114,143,male,1.0,primary
+93,1,guess,13,18,10721,10726,7,19.0,70.0,10727.0,10778.0,,,,,verb.cognition,198,direct_object,the monkey,29,114,143,male,1.0,primary
+94,0,pretended,3,12,10783,10792,6,13.0,65.0,10793.0,10845.0,,,,,verb.communication,199,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+94,2,said,71,75,10851,10855,156,78.0,132.0,10858.0,10912.0,,,,,verb.communication,202,direct_object,the monkey's chief,1,1,2,male,1.0,tertiary
+94,2,said,71,75,10851,10855,7,78.0,132.0,10858.0,10912.0,,,,,verb.communication,202,direct_object,the monkey,29,114,143,male,1.0,primary
+94,4,hear,106,110,10886,10890,156,111.0,132.0,10891.0,10912.0,,,,,verb.cognition,201,direct_object,the monkey's chief,1,1,2,male,1.0,tertiary
+94,4,hear,106,110,10886,10890,7,111.0,132.0,10891.0,10912.0,,,,,verb.cognition,201,direct_object,the monkey,29,114,143,male,1.0,primary
+97,0,grieves,3,10,11024,11031,156,11.0,13.0,11032.0,11034.0,14.0,18.0,11035.0,11039.0,verb.emotion,204,direct_object,the monkey's chief,1,1,2,male,1.0,tertiary
+97,0,grieves,3,10,11024,11031,7,11.0,13.0,11032.0,11034.0,14.0,18.0,11035.0,11039.0,verb.emotion,204,direct_object,the monkey,29,114,143,male,1.0,primary
+97,1,think,22,27,11043,11048,156,28.0,80.0,11049.0,11101.0,,,,,verb.cognition,205,direct_object,the monkey's chief,1,1,2,male,1.0,tertiary
+98,0,accept,2,8,11105,11111,7,9.0,46.0,11112.0,11149.0,,,,,verb.possession,206,direct_object,the monkey,29,114,143,male,1.0,primary
+99,2,do,24,26,11175,11177,7,27.0,32.0,11178.0,11183.0,,,,,verb.social,208,direct_object,the monkey,29,114,143,male,1.0,primary
+99,2,do,24,26,11175,11177,159,27.0,32.0,11178.0,11183.0,,,,,verb.social,208,direct_object,the monkey's poor old friend,1,0,1,unknown,0.0,tertiary
+100,0,screwed,7,14,11215,11222,7,15.0,31.0,11223.0,11239.0,,,,,verb.contact,207,direct_object,the monkey,29,114,143,male,1.0,primary
+101,1,thought,35,42,11290,11297,46,45.0,139.0,11300.0,11394.0,,,,,verb.cognition,211,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+102,0,thanked,13,20,11410,11417,7,21.0,31.0,11418.0,11428.0,32.0,40.0,11429.0,11437.0,verb.communication,212,direct_object,the monkey,29,114,143,male,1.0,primary
+103,3,thought,61,68,11514,11521,60,69.0,99.0,11522.0,11552.0,,,,,verb.cognition,216,direct_object,The young crab,13,29,42,male,1.0,tertiary
+103,5,began,131,136,11584,11589,46,137.0,241.0,11590.0,11694.0,,,,,verb.change,218,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+104,0,changed,3,10,11699,11706,46,11.0,20.0,11707.0,11716.0,,,,,verb.change,219,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+104,2,visit,45,50,11741,11746,60,51.0,65.0,11747.0,11761.0,,,,,verb.social,220,direct_object,The young crab,13,29,42,male,1.0,tertiary
+105,0,found,3,8,11766,11771,115,9.0,98.0,11772.0,11861.0,,,,,verb.perception,221,direct_object,The young crab's relatives,1,0,1,unknown,0.0,tertiary
+105,0,found,3,8,11766,11771,46,9.0,98.0,11772.0,11861.0,,,,,verb.perception,221,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+105,0,found,3,8,11766,11771,6,9.0,98.0,11772.0,11861.0,,,,,verb.perception,221,direct_object,the crab,14,16,30,male,0.5714285714285714,tertiary
+105,0,found,3,8,11766,11771,60,9.0,98.0,11772.0,11861.0,,,,,verb.perception,221,direct_object,The young crab,13,29,42,male,1.0,tertiary
+105,0,found,3,8,11766,11771,112,9.0,98.0,11772.0,11861.0,,,,,verb.perception,221,direct_object,all the members of the crab 's family and his relatives waiting to receive and welcome him,1,0,1,unknown,0.0,tertiary
+105,0,found,3,8,11766,11771,113,9.0,98.0,11772.0,11861.0,,,,,verb.perception,221,direct_object,the members of the crab 's family,1,0,1,unknown,0.0,tertiary
+105,3,welcome,87,94,11850,11857,46,95.0,98.0,11858.0,11861.0,,,,,verb.social,223,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+106,1,led,46,49,11909,11912,46,50.0,53.0,11913.0,11916.0,,,,,verb.motion,224,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+107,1,receive,37,44,11965,11972,46,45.0,48.0,11973.0,11976.0,,,,,verb.possession,226,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+108,3,entertained,118,129,12096,12107,120,130.0,140.0,12108.0,12118.0,,,,,verb.social,227,direct_object,the guest of honor,1,0,1,unknown,0.0,tertiary
+108,3,entertained,118,129,12096,12107,7,130.0,140.0,12108.0,12118.0,,,,,verb.social,227,direct_object,the monkey,29,114,143,male,1.0,primary
+110,2,left,63,67,12289,12293,46,68.0,71.0,12294.0,12297.0,,,,,verb.cognition,231,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+113,0,said,3,7,12392,12396,7,8.0,18.0,12397.0,12407.0,,,,,verb.communication,235,direct_object,the monkey,29,114,143,male,1.0,primary
+119,3,stung,62,67,12997,13002,7,68.0,71.0,13003.0,13006.0,72.0,84.0,13007.0,13019.0,verb.contact,240,direct_object,the monkey,29,114,143,male,1.0,primary
+120,2,burned,43,49,13064,13070,7,50.0,101.0,13071.0,13122.0,,,,,verb.contact,239,direct_object,the monkey,29,114,143,male,1.0,primary
+121,1,hidden,25,31,13199,13205,7,32.0,39.0,13206.0,13213.0,,,,,verb.perception,244,direct_object,the monkey,29,114,143,male,1.0,primary
+122,2,falling,64,71,13431,13438,7,72.0,78.0,13439.0,13445.0,,,,,verb.motion,247,direct_object,the monkey,29,114,143,male,1.0,primary
+124,3,holding,54,61,13584,13591,60,62.0,76.0,13592.0,13606.0,,,,,verb.contact,250,direct_object,The young crab,13,29,42,male,1.0,tertiary
+124,3,holding,54,61,13584,13591,7,62.0,76.0,13592.0,13606.0,,,,,verb.contact,250,direct_object,the monkey,29,114,143,male,1.0,primary
+124,4,said,106,110,13636,13640,161,113.0,160.0,13643.0,13690.0,,,,,verb.communication,253,direct_object,The young crab's father,1,0,1,male,1.0,tertiary
+124,4,said,106,110,13636,13640,60,113.0,160.0,13643.0,13690.0,,,,,verb.communication,253,direct_object,The young crab,13,29,42,male,1.0,tertiary
+124,4,said,106,110,13636,13640,7,113.0,160.0,13643.0,13690.0,,,,,verb.communication,253,direct_object,the monkey,29,114,143,male,1.0,primary
+124,6,remember,124,132,13654,13662,161,133.0,160.0,13663.0,13690.0,,,,,verb.cognition,252,direct_object,The young crab's father,1,0,1,male,1.0,tertiary
+124,6,remember,124,132,13654,13662,60,133.0,160.0,13663.0,13690.0,,,,,verb.cognition,252,direct_object,The young crab,13,29,42,male,1.0,tertiary
+124,6,remember,124,132,13654,13662,7,133.0,160.0,13663.0,13690.0,,,,,verb.cognition,252,direct_object,the monkey,29,114,143,male,1.0,primary
+124,7,murdered,142,150,13672,13680,161,151.0,160.0,13681.0,13690.0,,,,,verb.contact,251,direct_object,The young crab's father,1,0,1,male,1.0,tertiary
+124,7,murdered,142,150,13672,13680,60,151.0,160.0,13681.0,13690.0,,,,,verb.contact,251,direct_object,The young crab,13,29,42,male,1.0,tertiary
+126,0,gasped,0,6,13718,13724,7,7.0,26.0,13725.0,13744.0,,,,,verb.communication,254,direct_object,the monkey,29,114,143,male,1.0,primary
+127,0,said,13,17,13759,13763,60,18.0,32.0,13764.0,13778.0,,,,,verb.communication,256,direct_object,The young crab,13,29,42,male,1.0,tertiary
+129,0,gasped,0,6,13819,13825,137,7.0,29.0,13826.0,13848.0,,,,,verb.communication,255,direct_object,the unrepentant monkey,1,0,1,unknown,0.0,tertiary
+131,1,put,12,15,13882,13885,7,16.0,22.0,13886.0,13892.0,,,,,verb.contact,258,direct_object,the monkey,29,114,143,male,1.0,primary
+132,0,cut,17,20,13927,13930,60,25.0,65.0,13935.0,13975.0,,,,,verb.contact,257,direct_object,The young crab,13,29,42,male,1.0,tertiary
+132,0,cut,17,20,13927,13930,7,25.0,65.0,13935.0,13975.0,,,,,verb.contact,257,direct_object,the monkey,29,114,143,male,1.0,primary
+133,0,met,23,26,14000,14003,46,27.0,54.0,14004.0,14031.0,,,,,verb.social,259,direct_object,the wicked monkey,4,17,21,male,1.0,tertiary
+133,2,avenged,75,82,14052,14059,60,83.0,101.0,14060.0,14078.0,,,,,verb.social,260,direct_object,The young crab,13,29,42,male,1.0,tertiary
+133,2,avenged,75,82,14052,14059,51,83.0,101.0,14060.0,14078.0,,,,,verb.social,260,direct_object,a son's father,9,6,15,male,1.0,tertiary

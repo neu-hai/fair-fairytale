@@ -1,0 +1,369 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,loved,3,8,184,189,20,0.0,2.0,181.0,183.0,,,,,verb.emotion,0,subject,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+2,0,loved,20,25,277,282,20,17.0,19.0,274.0,276.0,,,,,verb.emotion,1,subject,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+2,1,study,29,34,286,291,20,17.0,19.0,274.0,276.0,,,,,verb.cognition,2,subject,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+2,2,watch,50,55,307,312,20,17.0,19.0,274.0,276.0,,,,,verb.perception,4,subject,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+3,1,left,51,55,467,471,21,44.0,50.0,460.0,466.0,,,,,verb.motion,5,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+3,2,went,85,89,501,505,21,44.0,50.0,460.0,466.0,141.0,221.0,557.0,637.0,verb.motion,6,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+3,3,wandering,90,99,506,515,21,44.0,50.0,460.0,466.0,,,,,verb.motion,7,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+8,1,poking,60,66,1218,1224,44,28.0,54.0,1186.0,1212.0,79.0,188.0,1237.0,1346.0,verb.perception,9,subject,the bright - eyed water - rats,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+8,2,knew,110,114,1268,1272,44,105.0,109.0,1263.0,1267.0,,,,,verb.cognition,8,subject,the bright - eyed water - rats,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+8,5,wanted,141,147,1299,1305,44,28.0,54.0,1186.0,1212.0,,,,,verb.emotion,10,subject,the bright - eyed water - rats,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+9,0,felt,7,11,1355,1359,21,0.0,6.0,1348.0,1354.0,,,,,verb.emotion,11,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+9,2,watch,103,108,1451,1456,21,55.0,57.0,1403.0,1405.0,,,,,verb.perception,12,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+10,2,heard,26,31,1513,1518,21,23.0,25.0,1510.0,1512.0,67.0,106.0,1554.0,1593.0,verb.perception,13,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,1,saw,21,24,1615,1618,21,18.0,20.0,1612.0,1614.0,,,,,verb.perception,16,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,3,seen,66,70,1660,1664,21,54.0,56.0,1648.0,1650.0,,,,,verb.motion,15,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,5,riding,78,84,1672,1678,21,54.0,56.0,1648.0,1650.0,97.0,114.0,1691.0,1708.0,verb.motion,18,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+12,0,wore,4,8,1714,1718,45,0.0,3.0,1710.0,1713.0,,,,,verb.body,20,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+14,1,hung,37,41,1915,1919,45,0.0,15.0,1878.0,1893.0,,,,,verb.motion,19,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+16,3,rode,90,94,2282,2286,45,86.0,89.0,2278.0,2281.0,,,,,verb.motion,21,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+16,4,made,106,110,2298,2302,45,102.0,105.0,2294.0,2297.0,,,,,verb.creation,23,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+17,1,carried,46,53,2375,2382,45,42.0,45.0,2371.0,2374.0,,,,,verb.possession,22,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+18,0,led,9,12,2429,2432,45,5.0,8.0,2425.0,2428.0,30.0,107.0,2450.0,2527.0,verb.motion,24,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+19,0,rode,7,11,2536,2540,45,3.0,6.0,2532.0,2535.0,,,,,verb.motion,25,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+19,1,lilted,31,37,2560,2566,45,27.0,30.0,2556.0,2559.0,,,,,verb.creation,26,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+20,0,carried,9,16,2604,2611,45,5.0,8.0,2600.0,2603.0,25.0,48.0,2620.0,2643.0,verb.motion,27,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+20,3,kneel,108,113,2703,2708,21,84.0,88.0,2679.0,2683.0,,,,,verb.motion,28,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+20,4,worship,142,149,2737,2744,21,89.0,95.0,2684.0,2690.0,,,,,verb.emotion,29,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+20,5,thought,162,169,2757,2764,21,159.0,161.0,2754.0,2756.0,,,,,verb.cognition,30,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+21,0,came,19,23,2828,2832,49,9.0,18.0,2818.0,2827.0,,,,,verb.motion,31,subject,the rider,1.0,0.0,1.0,unknown,0.0,tertiary
+21,2,understood,45,55,2854,2864,49,9.0,18.0,2818.0,2827.0,,,,,verb.cognition,32,subject,the rider,1.0,0.0,1.0,unknown,0.0,tertiary
+21,3,shook,74,79,2883,2888,45,70.0,73.0,2879.0,2882.0,89.0,94.0,2898.0,2903.0,verb.body,33,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+22,1,said,52,56,2957,2961,45,1.0,45.0,2906.0,2950.0,,,,,verb.communication,35,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+22,1,said,52,56,2957,2961,177,1.0,45.0,2906.0,2950.0,,,,,verb.communication,35,subject,that Blessed Lady,1.0,0.0,1.0,female,1.0,tertiary
+23,0,call,5,9,2968,2972,179,1.0,4.0,2964.0,2967.0,,,,,verb.communication,34,subject,men,3.0,0.0,3.0,male,1.0,tertiary
+25,1,said,39,43,3120,3124,45,30.0,34.0,3111.0,3115.0,,,,,verb.communication,38,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+26,4,forget,79,85,3214,3220,21,75.0,78.0,3210.0,3213.0,,,,,verb.cognition,41,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+27,0,knew,7,11,3276,3280,21,4.0,6.0,3273.0,3275.0,,,,,verb.cognition,40,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+27,5,begged,125,131,3394,3400,21,122.0,124.0,3391.0,3393.0,,,,,verb.communication,42,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+27,6,give,139,143,3408,3412,45,132.0,135.0,3401.0,3404.0,,,,,verb.communication,43,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+28,1,wanted,23,29,3448,3454,45,9.0,18.0,3434.0,3443.0,,,,,verb.emotion,46,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+28,2,knew,39,43,3464,3468,45,35.0,38.0,3460.0,3463.0,,,,,verb.cognition,45,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+28,3,kissed,61,67,3486,3492,45,52.0,55.0,3477.0,3480.0,,,,,verb.contact,44,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+28,4,had,76,79,3501,3504,45,72.0,75.0,3497.0,3500.0,,,,,verb.possession,47,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+31,0,seemed,11,17,3776,3782,45,0.0,10.0,3765.0,3775.0,,,,,verb.perception,49,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+31,2,grew,45,49,3810,3814,45,41.0,44.0,3806.0,3809.0,,,,,verb.change,50,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+32,0,went,53,57,3880,3884,45,20.0,52.0,3847.0,3879.0,63.0,83.0,3890.0,3910.0,verb.change,51,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+33,0,saw,4,7,3916,3919,45,0.0,3.0,3912.0,3915.0,,,,,verb.perception,52,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+33,1,burst,56,61,3968,3973,45,52.0,55.0,3964.0,3967.0,,,,,verb.change,53,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+34,3,said,57,61,4053,4057,45,1.0,50.0,3997.0,4046.0,,,,,verb.communication,56,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+35,3,go,44,46,4204,4206,187,18.0,33.0,4178.0,4193.0,,,,,verb.motion,57,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+35,4,serve,75,80,4235,4240,187,18.0,33.0,4178.0,4193.0,91.0,113.0,4251.0,4273.0,verb.social,58,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+36,0,heard,8,13,4284,4289,21,5.0,7.0,4281.0,4283.0,,,,,verb.perception,59,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+36,1,fell,38,42,4314,4318,21,26.0,37.0,4302.0,4313.0,,,,,verb.motion,60,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+37,1,obtain,23,29,4377,4383,21,4.0,9.0,4358.0,4363.0,,,,,verb.possession,61,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+38,0,laughed,21,28,4406,4413,22,0.0,15.0,4385.0,4400.0,,,,,verb.body,62,subject,The Elfin Queen,1.0,1.0,2.0,female,1.0,tertiary
+38,1,brought,46,53,4431,4438,22,0.0,15.0,4385.0,4400.0,,,,,verb.motion,64,subject,The Elfin Queen,1.0,1.0,2.0,female,1.0,tertiary
+38,3,standing,103,111,4488,4496,21,96.0,98.0,4481.0,4483.0,,,,,verb.contact,63,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+39,0,said,14,18,4512,4516,45,1.0,9.0,4499.0,4507.0,,,,,verb.communication,65,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+42,0,mounted,49,56,4734,4741,21,3.0,9.0,4688.0,4694.0,,,,,verb.motion,66,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+43,2,shook,36,41,4789,4794,45,32.0,35.0,4785.0,4788.0,,,,,verb.contact,67,subject,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+43,4,galloped,78,86,4831,4839,56,63.0,77.0,4816.0,4830.0,,,,,verb.motion,68,subject,the grey steed,1.0,0.0,1.0,unknown,0.0,tertiary
+46,1,wondered,73,81,5144,5152,21,70.0,72.0,5141.0,5143.0,,,,,verb.cognition,72,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+46,3,cross,121,126,5192,5197,61,85.0,113.0,5156.0,5184.0,,,,,verb.motion,71,subject,poor Thomas's strange companion,2.0,0.0,2.0,unknown,0.0,tertiary
+46,3,cross,121,126,5192,5197,21,85.0,113.0,5156.0,5184.0,,,,,verb.motion,71,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+48,0,tightened,29,38,5317,5326,23,4.0,19.0,5292.0,5307.0,,,,,verb.change,73,subject,the Fairy Queen,2.0,0.0,2.0,female,1.0,tertiary
+49,3,said,42,46,5434,5438,21,5.0,39.0,5397.0,5431.0,,,,,verb.communication,75,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+49,4,glancing,57,65,5449,5457,52,47.0,55.0,5439.0,5447.0,,,,,verb.perception,74,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+49,6,lay,128,131,5520,5523,52,47.0,55.0,5439.0,5447.0,,,,,verb.contact,77,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+49,8,show,164,168,5556,5560,52,157.0,158.0,5549.0,5550.0,,,,,verb.perception,76,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+50,0,dismounted,10,20,5629,5639,21,3.0,9.0,5622.0,5628.0,,,,,verb.motion,78,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+50,1,louted,26,32,5645,5651,21,3.0,9.0,5622.0,5628.0,,,,,verb.body,79,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+50,2,rested,43,49,5662,5668,21,3.0,9.0,5622.0,5628.0,,,,,verb.contact,80,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+51,0,looked,15,21,5719,5725,21,12.0,14.0,5716.0,5718.0,,,,,verb.perception,81,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+52,0,saw,7,10,5787,5790,21,4.0,6.0,5784.0,5786.0,31.0,44.0,5811.0,5824.0,verb.perception,83,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+52,3,noticed,63,70,5843,5850,21,11.0,30.0,5791.0,5810.0,,,,,verb.perception,82,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+53,5,lose,139,143,6043,6047,68,92.0,123.0,5996.0,6027.0,,,,,verb.possession,84,subject,no one who was travelling by it,1.0,0.0,1.0,unknown,0.0,tertiary
+57,6,have,130,134,6376,6380,70,82.0,123.0,6328.0,6369.0,,,,,verb.possession,85,subject,those who were travelling along that road,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+57,7,persevering,154,165,6400,6411,70,82.0,123.0,6328.0,6369.0,183.0,189.0,6429.0,6435.0,verb.communication,86,subject,those who were travelling along that road,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+60,2,tell,53,57,6716,6720,187,45.0,46.0,6708.0,6709.0,,,,,verb.communication,88,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+62,3,repent,83,89,6950,6956,197,59.0,82.0,6926.0,6949.0,,,,,verb.emotion,89,subject,the folk that choose it,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+64,1,ask,13,16,7139,7142,197,8.0,12.0,7134.0,7138.0,,,,,verb.communication,90,subject,the folk that choose it,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+69,4,speak,148,153,7720,7725,24,6.0,21.0,7578.0,7593.0,,,,,verb.communication,96,subject,mark'ee,1.0,0.0,1.0,unknown,0.0,tertiary
+69,4,speak,148,153,7720,7725,21,6.0,21.0,7578.0,7593.0,,,,,verb.communication,96,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+69,8,bide,250,254,7822,7826,208,192.0,244.0,7764.0,7816.0,261.0,269.0,7833.0,7841.0,verb.social,92,subject,the mortal who openeth his lips rashly in Fairy - land's mortal who openeth his lips rashly in Fairy - land,1.0,1.0,2.0,male,1.0,tertiary
+75,2,ebbing,28,34,8410,8416,21,0.0,11.0,8382.0,8393.0,,,,,verb.change,94,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+75,5,parted,58,64,8440,8446,21,46.0,48.0,8428.0,8430.0,,,,,verb.contact,93,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+75,6,gave,95,99,8477,8481,21,92.0,94.0,8474.0,8476.0,111.0,119.0,8493.0,8501.0,verb.communication,97,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+76,2,come,76,80,8578,8582,21,61.0,63.0,8563.0,8565.0,,,,,verb.change,100,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+78,5,fallen,95,101,8742,8748,21,88.0,90.0,8735.0,8737.0,,,,,verb.motion,101,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+78,8,drowned,130,137,8777,8784,21,88.0,90.0,8735.0,8737.0,,,,,verb.contact,99,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+80,1,looked,30,36,8979,8985,21,5.0,11.0,8954.0,8960.0,,,,,verb.perception,104,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+82,2,felt,46,50,9171,9175,21,43.0,45.0,9168.0,9170.0,,,,,verb.emotion,103,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+82,3,longed,69,75,9194,9200,21,66.0,68.0,9191.0,9193.0,,,,,verb.emotion,105,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+82,4,restore,101,108,9226,9233,21,66.0,68.0,9191.0,9193.0,,,,,verb.change,106,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+83,1,pluck,29,34,9268,9273,21,0.0,2.0,9239.0,9241.0,,,,,verb.contact,107,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+84,0,turned,19,25,9304,9310,21,5.0,18.0,9290.0,9303.0,,,,,verb.motion,108,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+84,0,turned,19,25,9304,9310,83,5.0,18.0,9290.0,9303.0,,,,,verb.motion,108,subject,poor Thomas's companion,1.0,3.0,4.0,female,1.0,tertiary
+84,1,forbade,44,51,9329,9336,21,5.0,18.0,9290.0,9303.0,,,,,verb.communication,110,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+84,1,forbade,44,51,9329,9336,83,5.0,18.0,9290.0,9303.0,,,,,verb.communication,110,subject,poor Thomas's companion,1.0,3.0,4.0,female,1.0,tertiary
+85,1,eat,35,38,9377,9380,21,10.0,22.0,9352.0,9364.0,,,,,verb.consumption,109,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+85,2,said,50,54,9392,9396,21,1.0,43.0,9343.0,9385.0,,,,,verb.communication,111,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+85,2,said,50,54,9392,9396,83,1.0,43.0,9343.0,9385.0,,,,,verb.communication,111,subject,poor Thomas's companion,1.0,3.0,4.0,female,1.0,tertiary
+85,5,give,85,89,9427,9431,83,62.0,70.0,9404.0,9412.0,95.0,104.0,9437.0,9446.0,verb.possession,113,subject,poor Thomas's companion,1.0,3.0,4.0,female,1.0,tertiary
+87,1,restrain,22,30,9545,9553,21,3.0,14.0,9526.0,9537.0,,,,,verb.social,112,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+89,0,bent,16,20,9681,9685,187,0.0,15.0,9665.0,9680.0,,,,,verb.motion,114,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+89,1,plucked,30,37,9695,9702,187,0.0,15.0,9665.0,9680.0,,,,,verb.contact,115,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+89,2,handed,47,53,9712,9718,187,0.0,15.0,9665.0,9680.0,,,,,verb.possession,116,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+90,1,give,12,16,9752,9756,187,6.0,7.0,9746.0,9747.0,,,,,verb.possession,117,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+90,2,said,28,32,9768,9772,187,1.0,21.0,9741.0,9761.0,,,,,verb.communication,120,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+90,2,said,28,32,9768,9772,21,1.0,21.0,9741.0,9761.0,,,,,verb.communication,120,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+90,3,do,41,43,9781,9783,187,39.0,40.0,9779.0,9780.0,47.0,53.0,9787.0,9793.0,verb.creation,119,subject,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+91,3,frame,85,90,9921,9926,21,49.0,57.0,9885.0,9893.0,,,,,verb.creation,118,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+92,0,took,7,11,9942,9946,21,0.0,6.0,9935.0,9941.0,,,,,verb.contact,121,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+92,1,ate,27,30,9962,9965,21,0.0,6.0,9935.0,9941.0,,,,,verb.consumption,122,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+94,1,called,38,44,10063,10069,179,34.0,37.0,10059.0,10062.0,,,,,verb.communication,123,subject,men,3.0,0.0,3.0,male,1.0,tertiary
+96,1,said,22,26,10230,10234,90,1.0,19.0,10209.0,10227.0,38.0,60.0,10246.0,10268.0,verb.communication,125,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+96,2,pointing,38,46,10246,10254,90,27.0,36.0,10235.0,10244.0,53.0,60.0,10261.0,10268.0,verb.communication,124,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+98,1,shows,46,51,10372,10377,212,9.0,16.0,10335.0,10342.0,,,,,verb.perception,127,subject,the Queen's Lord,2.0,2.0,4.0,male,1.0,tertiary
+98,1,shows,46,51,10372,10377,90,9.0,16.0,10335.0,10342.0,,,,,verb.perception,127,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+98,2,sees,94,98,10420,10424,212,66.0,85.0,10392.0,10411.0,,,,,verb.perception,126,subject,the Queen's Lord,2.0,2.0,4.0,male,1.0,tertiary
+98,3,pray,116,120,10442,10446,90,114.0,115.0,10440.0,10441.0,127.0,131.0,10453.0,10457.0,verb.communication,128,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+99,3,tell,60,64,10589,10593,90,53.0,54.0,10582.0,10583.0,,,,,verb.communication,131,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+101,0,raised,26,32,10688,10694,52,17.0,25.0,10679.0,10687.0,,,,,verb.motion,130,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+101,1,blew,55,59,10717,10721,52,17.0,25.0,10679.0,10687.0,,,,,verb.contact,132,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+103,2,vanished,73,81,10882,10890,52,52.0,72.0,10861.0,10881.0,,,,,verb.change,134,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+103,3,appeared,91,99,10900,10908,52,87.0,90.0,10896.0,10899.0,,,,,verb.change,135,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+103,4,grew,161,165,10970,10974,52,152.0,160.0,10961.0,10969.0,,,,,verb.change,136,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+105,0,chanced,12,19,11050,11057,21,9.0,11.0,11047.0,11049.0,,,,,verb.motion,137,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+105,1,found,44,49,11082,11087,21,41.0,43.0,11079.0,11081.0,,,,,verb.cognition,139,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+105,4,transformed,90,101,11128,11139,21,55.0,80.0,11093.0,11118.0,,,,,verb.change,138,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+105,5,wore,159,163,11197,11201,21,156.0,158.0,11194.0,11196.0,,,,,verb.body,140,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+106,3,meet,107,111,11322,11326,94,83.0,91.0,11298.0,11306.0,,,,,verb.social,143,subject,the King,1.0,0.0,1.0,male,1.0,tertiary
+106,6,slid,221,225,11436,11440,21,205.0,211.0,11420.0,11426.0,,,,,verb.motion,142,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+106,7,had,244,247,11459,11462,21,205.0,242.0,11420.0,11457.0,,,,,verb.possession,144,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+106,8,obeying,265,272,11480,11487,21,205.0,242.0,11420.0,11457.0,,,,,verb.possession,141,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+107,1,see,29,32,11568,11571,101,0.0,8.0,11539.0,11547.0,43.0,53.0,11582.0,11592.0,verb.perception,146,subject,Everyone,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+107,2,crowded,64,71,11603,11610,101,59.0,63.0,11598.0,11602.0,92.0,104.0,11631.0,11643.0,verb.motion,147,subject,Everyone,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+107,3,spoke,114,119,11653,11658,90,110.0,113.0,11649.0,11652.0,132.0,142.0,11671.0,11681.0,verb.communication,148,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+107,4,allowed,148,155,11687,11694,90,110.0,113.0,11649.0,11652.0,,,,,verb.communication,149,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+107,5,kiss,164,168,11703,11707,101,156.0,160.0,11695.0,11699.0,,,,,verb.contact,150,subject,Everyone,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+108,0,passed,9,15,11727,11733,90,5.0,8.0,11723.0,11726.0,,,,,verb.motion,151,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+108,2,seated,132,138,11850,11856,106,117.0,131.0,11835.0,11849.0,150.0,185.0,11868.0,11903.0,verb.contact,152,subject,the Royal pair,1.0,1.0,2.0,unknown,0.0,tertiary
+108,3,watch,153,158,11871,11876,106,117.0,131.0,11835.0,11849.0,,,,,verb.perception,154,subject,the Royal pair,1.0,1.0,2.0,unknown,0.0,tertiary
+109,0,stood,24,29,11929,11934,25,0.0,11.0,11905.0,11916.0,69.0,154.0,11974.0,12059.0,verb.contact,153,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+109,1,feeling,69,76,11974,11981,25,0.0,11.0,11905.0,11916.0,,,,,verb.emotion,155,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+109,2,fascinated,94,104,11999,12009,25,0.0,11.0,11905.0,11916.0,,,,,verb.emotion,158,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+109,4,gazing,148,154,12053,12059,25,141.0,143.0,12046.0,12048.0,,,,,verb.perception,157,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+110,1,dancing,67,74,12128,12135,96,14.0,61.0,12075.0,12122.0,,,,,verb.motion,159,subject,Knights,2.0,0.0,2.0,unknown,0.0,tertiary
+110,1,dancing,67,74,12128,12135,108,14.0,61.0,12075.0,12122.0,,,,,verb.motion,159,subject,all the fine Ladies,1.0,0.0,1.0,female,1.0,tertiary
+110,1,dancing,67,74,12128,12135,109,14.0,61.0,12075.0,12122.0,,,,,verb.motion,159,subject,Courtiers,1.0,0.0,1.0,unknown,0.0,tertiary
+110,3,coming,120,126,12181,12187,113,111.0,119.0,12172.0,12180.0,,,,,verb.motion,160,subject,huntsmen,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+110,8,killed,213,219,12274,12280,113,204.0,208.0,12265.0,12269.0,,,,,verb.contact,156,subject,huntsmen,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+111,1,standing,29,37,12370,12378,114,15.0,28.0,12356.0,12369.0,63.0,90.0,12404.0,12431.0,verb.contact,162,subject,cooks,1.0,0.0,1.0,unknown,0.0,tertiary
+112,1,took,62,66,12537,12541,25,55.0,61.0,12530.0,12536.0,,,,,verb.perception,163,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+113,1,rose,49,53,12687,12691,90,39.0,48.0,12677.0,12686.0,,,,,verb.motion,165,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+113,3,crossed,100,107,12738,12745,90,39.0,48.0,12677.0,12686.0,117.0,141.0,12755.0,12779.0,verb.motion,167,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+113,5,standing,133,141,12771,12779,25,120.0,125.0,12758.0,12763.0,,,,,verb.contact,166,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+114,3,said,44,48,12825,12829,90,1.0,37.0,12782.0,12818.0,,,,,verb.communication,168,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+114,3,said,44,48,12825,12829,25,1.0,37.0,12782.0,12818.0,,,,,verb.communication,168,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+115,0,looked,7,13,12902,12908,25,0.0,6.0,12895.0,12901.0,21.0,33.0,12916.0,12928.0,verb.perception,169,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+116,0,exclaimed,45,54,12975,12984,25,42.0,44.0,12972.0,12974.0,,,,,verb.communication,170,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+117,0,smiled,10,16,13035,13041,90,0.0,9.0,13025.0,13034.0,,,,,verb.body,171,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+118,0,replied,53,60,13096,13103,90,49.0,52.0,13092.0,13095.0,,,,,verb.communication,172,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+121,1,go,31,33,13228,13230,25,23.0,27.0,13220.0,13224.0,,,,,verb.motion,174,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+122,4,dare,57,61,13289,13293,90,55.0,56.0,13287.0,13288.0,,,,,verb.social,175,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+124,0,fear,36,40,13513,13517,90,34.0,35.0,13511.0,13512.0,,,,,verb.emotion,176,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+124,2,choose,55,61,13532,13538,25,46.0,48.0,13523.0,13525.0,,,,,verb.cognition,177,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+125,2,let,27,30,13573,13576,90,8.0,9.0,13554.0,13555.0,,,,,verb.social,179,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+125,5,take,56,60,13602,13606,90,49.0,50.0,13595.0,13596.0,92.0,107.0,13638.0,13653.0,verb.motion,181,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+126,2,mounted,65,72,13721,13728,90,44.0,64.0,13700.0,13720.0,,,,,verb.motion,180,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+126,2,mounted,65,72,13721,13728,25,44.0,64.0,13700.0,13720.0,,,,,verb.motion,180,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+128,0,bade,15,19,13829,13833,90,5.0,14.0,13819.0,13828.0,,,,,verb.communication,182,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+129,0,asked,28,33,13878,13883,25,25.0,27.0,13875.0,13877.0,,,,,verb.communication,183,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+129,1,give,41,45,13891,13895,90,34.0,37.0,13884.0,13887.0,,,,,verb.possession,184,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+129,4,know,82,86,13932,13936,122,75.0,81.0,13925.0,13931.0,,,,,verb.cognition,187,subject,people,3.0,0.0,3.0,unknown,0.0,tertiary
+130,1,given,16,21,13992,13997,90,1.0,2.0,13977.0,13978.0,,,,,verb.possession,186,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+130,2,replied,51,58,14027,14034,90,1.0,44.0,13977.0,14020.0,,,,,verb.communication,188,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+130,2,replied,51,58,14027,14034,25,1.0,44.0,13977.0,14020.0,,,,,verb.communication,188,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+131,1,give,12,16,14048,14052,90,1.0,2.0,14037.0,14038.0,,,,,verb.possession,190,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+133,2,see,68,71,14245,14248,50,41.0,50.0,14218.0,14227.0,,,,,verb.perception,189,subject,mortals,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+135,1,return,28,34,14366,14372,90,21.0,22.0,14359.0,14360.0,,,,,verb.motion,192,subject,the Queen,7.0,31.0,38.0,female,1.0,secondary
+136,0,vanished,26,34,14416,14424,52,17.0,25.0,14407.0,14415.0,,,,,verb.change,191,subject,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+136,3,feeling,63,70,14453,14460,25,40.0,46.0,14430.0,14436.0,87.0,112.0,14477.0,14502.0,verb.emotion,193,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+137,2,named,163,168,14751,14756,122,156.0,162.0,14744.0,14750.0,,,,,verb.communication,195,subject,people,3.0,0.0,3.0,unknown,0.0,tertiary
+138,2,uttered,60,67,14857,14864,27,28.0,46.0,14825.0,14843.0,,,,,verb.communication,194,subject,Thomas the Rhymer,3.0,0.0,3.0,unknown,0.0,tertiary
+139,0,foretold,3,11,14937,14945,25,0.0,2.0,14934.0,14936.0,38.0,226.0,14972.0,15160.0,verb.communication,197,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+140,0,foretold,8,16,15170,15178,25,0.0,2.0,15162.0,15164.0,,,,,verb.communication,199,subject,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+143,2,beginning,45,54,15594,15603,122,33.0,39.0,15582.0,15588.0,,,,,verb.change,200,subject,people,3.0,0.0,3.0,unknown,0.0,tertiary
+143,3,forget,58,64,15607,15613,122,33.0,39.0,15582.0,15588.0,,,,,verb.cognition,201,subject,people,3.0,0.0,3.0,unknown,0.0,tertiary
+144,3,resting,89,96,15754,15761,141,67.0,84.0,15732.0,15749.0,124.0,160.0,15789.0,15825.0,verb.contact,202,subject,the Scottish army,1.0,0.0,1.0,unknown,0.0,tertiary
+145,0,determined,28,38,15855,15865,145,4.0,27.0,15831.0,15854.0,,,,,verb.cognition,203,subject,the Master of the Tower,1.0,1.0,2.0,male,1.0,tertiary
+145,1,make,42,46,15869,15873,145,4.0,27.0,15831.0,15854.0,,,,,verb.creation,204,subject,the Master of the Tower,1.0,1.0,2.0,male,1.0,tertiary
+145,2,invite,60,66,15887,15893,145,4.0,27.0,15831.0,15854.0,,,,,verb.emotion,206,subject,the Master of the Tower,1.0,1.0,2.0,male,1.0,tertiary
+145,4,leading,102,109,15929,15936,147,67.0,92.0,15894.0,15919.0,119.0,134.0,15946.0,15961.0,verb.social,205,subject,the Nobles,1.0,0.0,1.0,unknown,0.0,tertiary
+145,5,sup,122,125,15949,15952,147,67.0,92.0,15894.0,15919.0,,,,,verb.social,207,subject,the Nobles,1.0,0.0,1.0,unknown,0.0,tertiary
+148,2,rose,32,36,16124,16128,149,29.0,31.0,16121.0,16123.0,,,,,verb.motion,208,subject,the Laird of Ercildoune,1.0,5.0,6.0,male,1.0,tertiary
+148,3,taking,56,62,16148,16154,149,29.0,31.0,16121.0,16123.0,,,,,verb.change,209,subject,the Laird of Ercildoune,1.0,5.0,6.0,male,1.0,tertiary
+148,4,sang,82,86,16174,16178,149,79.0,81.0,16171.0,16173.0,116.0,150.0,16208.0,16242.0,verb.creation,210,subject,the Laird of Ercildoune,1.0,5.0,6.0,male,1.0,tertiary
+149,0,listened,11,19,16255,16263,152,0.0,10.0,16244.0,16254.0,,,,,verb.perception,212,subject,The guests,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+149,1,felt,43,47,16287,16291,152,38.0,42.0,16282.0,16286.0,,,,,verb.cognition,211,subject,The guests,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+149,3,hear,70,74,16314,16318,152,53.0,57.0,16297.0,16301.0,96.0,101.0,16340.0,16345.0,verb.perception,213,subject,The guests,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+151,2,saw,91,94,16458,16461,155,72.0,90.0,16439.0,16457.0,,,,,verb.creation,215,subject,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+151,3,moving,141,147,16508,16514,32,114.0,140.0,16481.0,16507.0,,,,,verb.motion,214,subject,Hind,3.0,0.0,3.0,unknown,0.0,tertiary
+152,2,come,82,86,16642,16646,155,54.0,56.0,16614.0,16616.0,,,,,verb.motion,216,subject,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+155,4,tell,67,71,17002,17006,21,49.0,51.0,16984.0,16986.0,,,,,verb.communication,220,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+156,1,cried,37,42,17072,17077,21,0.0,34.0,17035.0,17069.0,53.0,60.0,17088.0,17095.0,verb.communication,219,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+158,0,heard,8,13,17196,17201,155,5.0,7.0,17193.0,17195.0,,,,,verb.perception,222,subject,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+158,1,grew,49,53,17237,17241,168,33.0,48.0,17221.0,17236.0,,,,,verb.change,223,subject,the Seer,1.0,0.0,1.0,unknown,0.0,tertiary
+159,1,said,22,26,17281,17285,155,1.0,16.0,17260.0,17275.0,,,,,verb.communication,224,subject,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+161,3,walked,79,85,17468,17474,155,76.0,78.0,17465.0,17467.0,,,,,verb.motion,226,subject,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+162,0,reached,14,21,17534,17541,155,11.0,13.0,17531.0,17533.0,,,,,verb.motion,227,subject,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+163,2,disappeared,90,101,17682,17693,171,5.0,14.0,17597.0,17606.0,,,,,verb.change,229,subject,all three,1.0,0.0,1.0,unknown,0.0,tertiary
+164,3,found,78,83,17829,17834,21,41.0,73.0,17792.0,17824.0,,,,,verb.perception,230,subject,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+165,0,believe,34,41,17869,17876,174,17.0,33.0,17852.0,17868.0,,,,,verb.cognition,231,subject,the country folk,1.0,0.0,1.0,unknown,0.0,tertiary
+2,0,loved,20,25,277,282,20,26.0,157.0,283.0,414.0,,,,,verb.emotion,1,direct_object,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+2,2,watch,50,55,307,312,20,56.0,157.0,313.0,414.0,,,,,verb.perception,4,direct_object,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+2,3,made,96,100,353,357,20,101.0,157.0,358.0,414.0,,,,,verb.change,3,direct_object,Thomas Learmont,1.0,3.0,4.0,male,1.0,tertiary
+3,1,left,51,55,467,471,21,56.0,79.0,472.0,495.0,,,,,verb.motion,5,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+8,1,poking,60,66,1218,1224,44,67.0,78.0,1225.0,1236.0,79.0,188.0,1237.0,1346.0,verb.perception,9,direct_object,the bright - eyed water - rats,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+9,2,watch,103,108,1451,1456,21,109.0,137.0,1457.0,1485.0,,,,,verb.perception,12,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,0,looking,6,13,1600,1607,21,18.0,20.0,1612.0,1614.0,,,,,verb.perception,14,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,1,saw,21,24,1615,1618,45,25.0,114.0,1619.0,1708.0,,,,,verb.perception,16,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+11,1,saw,21,24,1615,1618,21,25.0,114.0,1619.0,1708.0,,,,,verb.perception,16,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,3,seen,66,70,1660,1664,21,71.0,114.0,1665.0,1708.0,,,,,verb.motion,15,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,4,coming,71,77,1665,1671,21,78.0,84.0,1672.0,1678.0,97.0,114.0,,,verb.motion,17,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+11,5,riding,78,84,1672,1678,21,85.0,96.0,1679.0,1690.0,97.0,114.0,1691.0,1708.0,verb.motion,18,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+20,0,carried,9,16,2604,2611,45,17.0,24.0,2612.0,2619.0,25.0,48.0,2620.0,2643.0,verb.motion,27,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+20,4,worship,142,149,2737,2744,45,150.0,153.0,2745.0,2748.0,,,,,verb.emotion,29,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+20,5,thought,162,169,2757,2764,48,170.0,212.0,2765.0,2807.0,,,,,verb.cognition,30,direct_object,the Blessed Virgin,1.0,0.0,1.0,unknown,0.0,tertiary
+20,5,thought,162,169,2757,2764,45,170.0,212.0,2765.0,2807.0,,,,,verb.cognition,30,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+21,0,came,19,23,2828,2832,21,24.0,39.0,2833.0,2848.0,,,,,verb.motion,31,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+21,2,understood,45,55,2854,2864,21,56.0,68.0,2865.0,2877.0,,,,,verb.cognition,32,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+21,3,shook,74,79,2883,2888,45,80.0,88.0,2889.0,2897.0,89.0,94.0,2898.0,2903.0,verb.body,33,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+23,0,call,5,9,2968,2972,180,10.0,12.0,2973.0,2975.0,,,,,verb.communication,34,direct_object,Queen,1.0,0.0,1.0,female,1.0,tertiary
+23,0,call,5,9,2968,2972,45,10.0,12.0,2973.0,2975.0,,,,,verb.communication,34,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+25,0,seemed,17,23,3098,3104,45,24.0,53.0,3105.0,3134.0,,,,,verb.perception,36,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+26,2,cast,50,54,3185,3189,21,55.0,66.0,3190.0,3201.0,,,,,verb.creation,37,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+26,3,making,68,74,3203,3209,21,75.0,132.0,3210.0,3267.0,,,,,verb.change,39,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+27,0,knew,7,11,3276,3280,50,12.0,68.0,3281.0,3337.0,,,,,verb.cognition,40,direct_object,mortals,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+27,0,knew,7,11,3276,3280,51,12.0,68.0,3281.0,3337.0,,,,,verb.cognition,40,direct_object,Fairies,1.0,0.0,1.0,unknown,0.0,tertiary
+27,5,begged,125,131,3394,3400,45,132.0,135.0,3401.0,3404.0,,,,,verb.communication,42,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+27,5,begged,125,131,3394,3400,21,132.0,135.0,3401.0,3404.0,,,,,verb.communication,42,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+27,6,give,139,143,3408,3412,21,144.0,147.0,3413.0,3416.0,,,,,verb.communication,43,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+28,2,knew,39,43,3464,3468,45,44.0,96.0,3469.0,3521.0,,,,,verb.cognition,45,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+28,2,knew,39,43,3464,3468,21,44.0,96.0,3469.0,3521.0,,,,,verb.cognition,45,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+28,3,kissed,61,67,3486,3492,21,68.0,71.0,3493.0,3496.0,,,,,verb.contact,44,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+28,4,had,76,79,3501,3504,45,80.0,96.0,3505.0,3521.0,,,,,verb.possession,47,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+28,4,had,76,79,3501,3504,21,80.0,96.0,3505.0,3521.0,,,,,verb.possession,47,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+30,2,leaving,71,78,3688,3695,45,79.0,87.0,3696.0,3704.0,,,,,verb.change,48,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+33,0,saw,4,7,3916,3919,55,8.0,46.0,3920.0,3958.0,,,,,verb.perception,52,direct_object,the poor man,1.0,0.0,1.0,male,1.0,tertiary
+34,4,matters,73,80,4069,4076,186,81.0,87.0,4077.0,4083.0,89.0,162.0,,,verb.change,55,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey's servant,1.0,0.0,1.0,female,1.0,tertiary
+34,4,matters,73,80,4069,4076,45,81.0,87.0,4077.0,4083.0,89.0,162.0,,,verb.change,55,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+34,5,sold,103,107,4099,4103,41,108.0,115.0,4104.0,4111.0,,,,,verb.possession,54,direct_object,the young man,2.0,1.0,3.0,male,1.0,tertiary
+35,4,serve,75,80,4235,4240,187,81.0,84.0,4241.0,4244.0,91.0,113.0,4251.0,4273.0,verb.social,58,direct_object,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+36,0,heard,8,13,4284,4289,21,14.0,55.0,4290.0,4331.0,,,,,verb.perception,59,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+36,1,fell,38,42,4314,4318,21,43.0,55.0,4319.0,4331.0,,,,,verb.motion,60,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+38,1,brought,46,53,4431,4438,21,54.0,77.0,4439.0,4462.0,,,,,verb.motion,64,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+38,1,brought,46,53,4431,4438,22,54.0,77.0,4439.0,4462.0,,,,,verb.motion,64,direct_object,The Elfin Queen,1.0,1.0,2.0,female,1.0,tertiary
+43,2,shook,36,41,4789,4794,45,42.0,57.0,4795.0,4810.0,,,,,verb.contact,67,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+45,0,left,11,15,4905,4909,59,16.0,45.0,4910.0,4939.0,,,,,verb.motion,69,direct_object,the living,1.0,0.0,1.0,unknown,0.0,tertiary
+46,0,seemed,16,22,5087,5093,21,23.0,64.0,5094.0,5135.0,,,,,verb.perception,70,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+46,1,wondered,73,81,5144,5152,61,82.0,138.0,5153.0,5209.0,,,,,verb.cognition,72,direct_object,poor Thomas's strange companion,2.0,0.0,2.0,unknown,0.0,tertiary
+46,1,wondered,73,81,5144,5152,21,82.0,138.0,5153.0,5209.0,,,,,verb.cognition,72,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+48,0,tightened,29,38,5317,5326,45,39.0,47.0,5327.0,5335.0,,,,,verb.change,73,direct_object,poor Thomas's most beautiful lady that he had ever seen coming riding towards him on a grey palfrey,1.0,55.0,56.0,female,1.0,secondary
+49,3,said,42,46,5434,5438,52,47.0,55.0,5439.0,5447.0,,,,,verb.communication,75,direct_object,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+49,6,lay,128,131,5520,5523,52,132.0,140.0,5524.0,5532.0,,,,,verb.contact,77,direct_object,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+50,2,rested,43,49,5662,5668,23,50.0,58.0,5669.0,5677.0,,,,,verb.contact,80,direct_object,the Fairy Queen,2.0,0.0,2.0,female,1.0,tertiary
+50,2,rested,43,49,5662,5668,21,50.0,58.0,5669.0,5677.0,,,,,verb.contact,80,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+53,5,lose,139,143,6043,6047,21,144.0,151.0,6048.0,6055.0,,,,,verb.possession,84,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+57,6,have,130,134,6376,6380,70,135.0,189.0,6381.0,6435.0,,,,,verb.possession,85,direct_object,those who were travelling along that road,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+57,7,persevering,154,165,6400,6411,70,166.0,182.0,6412.0,6428.0,183.0,189.0,6429.0,6435.0,verb.communication,86,direct_object,those who were travelling along that road,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+60,0,said,7,11,6670,6674,187,12.0,27.0,6675.0,6690.0,,,,,verb.communication,87,direct_object,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+62,3,repent,83,89,6950,6956,197,90.0,111.0,6957.0,6978.0,,,,,verb.emotion,89,direct_object,the folk that choose it,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+64,1,ask,13,16,7139,7142,197,18.0,80.0,7144.0,7206.0,,,,,verb.communication,90,direct_object,the folk that choose it,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+66,3,called,82,88,7328,7334,201,89.0,115.0,7335.0,7361.0,,,,,verb.communication,91,direct_object,the Great King,1.0,0.0,1.0,male,1.0,tertiary
+69,6,openeth,207,214,7779,7786,208,215.0,223.0,7787.0,7795.0,224.0,244.0,7796.0,7816.0,verb.contact,95,direct_object,the mortal who openeth his lips rashly in Fairy - land's mortal who openeth his lips rashly in Fairy - land,1.0,1.0,2.0,male,1.0,tertiary
+75,6,gave,95,99,8477,8481,21,100.0,107.0,8482.0,8489.0,111.0,119.0,8493.0,8501.0,verb.communication,97,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+76,0,seemed,8,14,8510,8516,61,15.0,21.0,8517.0,8523.0,,,,,verb.perception,98,direct_object,poor Thomas's strange companion,2.0,0.0,2.0,unknown,0.0,tertiary
+76,0,seemed,8,14,8510,8516,21,15.0,21.0,8517.0,8523.0,,,,,verb.perception,98,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+78,3,warrant,80,87,8727,8734,21,88.0,115.0,8735.0,8762.0,,,,,verb.communication,102,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+78,5,fallen,95,101,8742,8748,21,102.0,115.0,8749.0,8762.0,,,,,verb.motion,101,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+82,3,longed,69,75,9194,9200,21,76.0,112.0,9201.0,9237.0,,,,,verb.emotion,105,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+82,4,restore,101,108,9226,9233,21,109.0,112.0,9234.0,9237.0,,,,,verb.change,106,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+84,1,forbade,44,51,9329,9336,21,52.0,55.0,9337.0,9340.0,,,,,verb.communication,110,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+85,5,give,85,89,9427,9431,21,90.0,94.0,9432.0,9436.0,95.0,104.0,9437.0,9446.0,verb.possession,113,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+87,1,restrain,22,30,9545,9553,21,31.0,55.0,9554.0,9578.0,,,,,verb.social,112,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+89,2,handed,47,53,9712,9718,86,54.0,56.0,9719.0,9721.0,,,,,verb.possession,116,direct_object,The Fairy Queen's companion,1.0,0.0,1.0,unknown,0.0,tertiary
+89,2,handed,47,53,9712,9718,187,54.0,56.0,9719.0,9721.0,,,,,verb.possession,116,direct_object,The Fairy Queen,3.0,7.0,10.0,female,1.0,tertiary
+90,1,give,12,16,9752,9756,21,17.0,21.0,9757.0,9761.0,,,,,verb.possession,117,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+94,1,called,38,44,10063,10069,21,45.0,48.0,10070.0,10073.0,,,,,verb.communication,123,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+96,1,said,22,26,10230,10234,90,27.0,36.0,10235.0,10244.0,38.0,60.0,10246.0,10268.0,verb.communication,125,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+98,1,shows,46,51,10372,10377,216,52.0,112.0,10378.0,10438.0,,,,,verb.perception,127,direct_object,the Queen's Lord's strange gallant whom he sees in my company,1.0,0.0,1.0,unknown,0.0,tertiary
+98,1,shows,46,51,10372,10377,212,52.0,112.0,10378.0,10438.0,,,,,verb.perception,127,direct_object,the Queen's Lord,2.0,2.0,4.0,male,1.0,tertiary
+98,1,shows,46,51,10372,10377,90,52.0,112.0,10378.0,10438.0,,,,,verb.perception,127,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+98,3,pray,116,120,10442,10446,90,121.0,125.0,10447.0,10451.0,127.0,131.0,10453.0,10457.0,verb.communication,128,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+99,1,ask,23,26,10552,10555,90,27.0,29.0,10556.0,10558.0,,,,,verb.communication,129,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+101,0,raised,26,32,10688,10694,52,33.0,49.0,10695.0,10711.0,,,,,verb.motion,130,direct_object,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+103,1,dropped,31,38,10840,10847,52,43.0,46.0,10852.0,10855.0,,,,,verb.change,133,direct_object,the Lady,4.0,13.0,17.0,female,1.0,tertiary
+105,1,found,44,49,11082,11087,21,50.0,175.0,11088.0,11213.0,,,,,verb.cognition,139,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+106,3,meet,107,111,11322,11326,90,112.0,121.0,11327.0,11336.0,,,,,verb.social,143,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+106,6,slid,221,225,11436,11440,21,226.0,242.0,11441.0,11457.0,,,,,verb.motion,142,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+106,7,had,244,247,11459,11462,90,248.0,322.0,11463.0,11537.0,,,,,verb.possession,144,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+106,8,obeying,265,272,11480,11487,90,273.0,283.0,11488.0,11498.0,,,,,verb.possession,141,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+107,0,seemed,9,15,11548,11554,90,16.0,53.0,11555.0,11592.0,,,,,verb.perception,145,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+107,1,see,29,32,11568,11571,90,33.0,42.0,11572.0,11581.0,43.0,53.0,11582.0,11592.0,verb.perception,146,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+107,3,spoke,114,119,11653,11658,101,120.0,131.0,11659.0,11670.0,132.0,142.0,11671.0,11681.0,verb.communication,148,direct_object,Everyone,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+107,4,allowed,148,155,11687,11694,90,156.0,177.0,11695.0,11716.0,,,,,verb.communication,149,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+107,4,allowed,148,155,11687,11694,101,156.0,177.0,11695.0,11716.0,,,,,verb.communication,149,direct_object,Everyone,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+107,5,kiss,164,168,11703,11707,90,169.0,177.0,11708.0,11716.0,,,,,verb.contact,150,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+108,0,passed,9,15,11727,11733,106,35.0,185.0,11753.0,11903.0,,,,,verb.motion,151,direct_object,the Royal pair,1.0,1.0,2.0,unknown,0.0,tertiary
+108,2,seated,132,138,11850,11856,106,139.0,149.0,11857.0,11867.0,150.0,185.0,11868.0,11903.0,verb.contact,152,direct_object,the Royal pair,1.0,1.0,2.0,unknown,0.0,tertiary
+109,2,fascinated,94,104,11999,12009,25,105.0,154.0,12010.0,12059.0,,,,,verb.emotion,158,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+110,5,carrying,154,162,12215,12223,113,163.0,278.0,12224.0,12339.0,,,,,verb.contact,161,direct_object,huntsmen,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+112,6,speaking,135,143,12610,12618,115,144.0,150.0,12619.0,12625.0,,,,,verb.communication,164,direct_object,,,,,,,
+113,1,rose,49,53,12687,12691,90,54.0,69.0,12692.0,12707.0,,,,,verb.motion,165,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+114,3,said,44,48,12825,12829,25,51.0,58.0,12832.0,12839.0,,,,,verb.communication,168,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+115,0,looked,7,13,12902,12908,90,14.0,20.0,12909.0,12915.0,21.0,33.0,12916.0,12928.0,verb.perception,169,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+122,3,had,18,21,13250,13253,90,22.0,49.0,13254.0,13281.0,,,,,verb.possession,173,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+122,3,had,18,21,13250,13253,25,22.0,49.0,13254.0,13281.0,,,,,verb.possession,173,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+124,0,fear,36,40,13513,13517,25,41.0,66.0,13518.0,13543.0,,,,,verb.emotion,176,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+124,2,choose,55,61,13532,13538,25,62.0,66.0,13539.0,13543.0,,,,,verb.cognition,177,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+125,2,let,27,30,13573,13576,25,31.0,47.0,13577.0,13593.0,,,,,verb.social,179,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+125,3,befall,36,42,13582,13588,25,43.0,47.0,13589.0,13593.0,,,,,verb.change,178,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+125,5,take,56,60,13602,13606,25,61.0,65.0,13607.0,13611.0,92.0,107.0,13638.0,13653.0,verb.motion,181,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+128,0,bade,15,19,13829,13833,25,20.0,35.0,13834.0,13849.0,,,,,verb.communication,182,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+129,0,asked,28,33,13878,13883,122,34.0,37.0,13884.0,13887.0,,,,,verb.communication,183,direct_object,people,3.0,0.0,3.0,unknown,0.0,tertiary
+129,0,asked,28,33,13878,13883,90,34.0,37.0,13884.0,13887.0,,,,,verb.communication,183,direct_object,the Queen,7.0,31.0,38.0,female,1.0,secondary
+129,0,asked,28,33,13878,13883,25,34.0,37.0,13884.0,13887.0,,,,,verb.communication,183,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+129,1,give,41,45,13891,13895,122,46.0,49.0,13896.0,13899.0,,,,,verb.possession,184,direct_object,people,3.0,0.0,3.0,unknown,0.0,tertiary
+129,1,give,41,45,13891,13895,25,46.0,49.0,13896.0,13899.0,,,,,verb.possession,184,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+129,3,let,71,74,13921,13924,122,75.0,124.0,13925.0,13974.0,,,,,verb.social,185,direct_object,people,3.0,0.0,3.0,unknown,0.0,tertiary
+129,3,let,71,74,13921,13924,25,75.0,124.0,13925.0,13974.0,,,,,verb.social,185,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+129,4,know,82,86,13932,13936,25,87.0,124.0,13937.0,13974.0,,,,,verb.cognition,187,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+130,1,given,16,21,13992,13997,25,22.0,26.0,13998.0,14002.0,,,,,verb.possession,186,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+131,1,give,12,16,14048,14052,26,17.0,21.0,14053.0,14057.0,,,,,verb.possession,190,direct_object,Poesie,1.0,0.0,1.0,unknown,0.0,tertiary
+131,1,give,12,16,14048,14052,25,17.0,21.0,14053.0,14057.0,,,,,verb.possession,190,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+137,2,named,163,168,14751,14756,25,169.0,172.0,14757.0,14760.0,,,,,verb.communication,195,direct_object,Poor Thomas,8.0,32.0,40.0,male,1.0,secondary
+139,4,reddened,181,189,15115,15123,28,190.0,226.0,15124.0,15160.0,,,,,verb.change,196,direct_object,the defeated English,1.0,0.0,1.0,unknown,0.0,tertiary
+140,0,foretold,8,16,15170,15178,29,17.0,164.0,15179.0,15326.0,,,,,verb.communication,199,direct_object,Bruce,1.0,0.0,1.0,unknown,0.0,tertiary
+140,0,foretold,8,16,15170,15178,132,17.0,164.0,15179.0,15326.0,,,,,verb.communication,199,direct_object,"a Prince who was the son of a French Queen , and who yet bore the blood of Bruce in his veins",1.0,1.0,2.0,male,0.6,tertiary
+140,0,foretold,8,16,15170,15178,133,17.0,164.0,15179.0,15326.0,,,,,verb.communication,199,direct_object,"the son of a French Queen , and who yet bore the blood of Bruce in his veins",1.0,0.0,1.0,female,1.0,tertiary
+140,0,foretold,8,16,15170,15178,134,17.0,164.0,15179.0,15326.0,,,,,verb.communication,199,direct_object,a French Queen,1.0,0.0,1.0,female,1.0,tertiary
+140,2,bore,128,132,15290,15294,29,133.0,164.0,15295.0,15326.0,,,,,verb.body,198,direct_object,Bruce,1.0,0.0,1.0,unknown,0.0,tertiary
+140,2,bore,128,132,15290,15294,132,133.0,164.0,15295.0,15326.0,,,,,verb.body,198,direct_object,"a Prince who was the son of a French Queen , and who yet bore the blood of Bruce in his veins",1.0,1.0,2.0,male,0.6,tertiary
+143,2,beginning,45,54,15594,15603,27,55.0,115.0,15604.0,15664.0,,,,,verb.change,200,direct_object,Thomas the Rhymer,3.0,0.0,3.0,unknown,0.0,tertiary
+143,3,forget,58,64,15607,15613,27,65.0,115.0,15614.0,15664.0,,,,,verb.cognition,201,direct_object,Thomas the Rhymer,3.0,0.0,3.0,unknown,0.0,tertiary
+145,2,invite,60,66,15887,15893,147,67.0,118.0,15894.0,15945.0,,,,,verb.emotion,206,direct_object,the Nobles,1.0,0.0,1.0,unknown,0.0,tertiary
+145,2,invite,60,66,15887,15893,145,67.0,118.0,15894.0,15945.0,,,,,verb.emotion,206,direct_object,the Master of the Tower,1.0,1.0,2.0,male,1.0,tertiary
+145,2,invite,60,66,15887,15893,146,67.0,118.0,15894.0,15945.0,,,,,verb.emotion,206,direct_object,all the Nobles and Barons who were leading the army,1.0,0.0,1.0,unknown,0.0,tertiary
+145,5,sup,122,125,15949,15952,145,126.0,134.0,15953.0,15961.0,,,,,verb.social,207,direct_object,the Master of the Tower,1.0,1.0,2.0,male,1.0,tertiary
+148,3,taking,56,62,16148,16154,149,63.0,77.0,16155.0,16169.0,,,,,verb.change,209,direct_object,the Laird of Ercildoune,1.0,5.0,6.0,male,1.0,tertiary
+148,4,sang,82,86,16174,16178,150,87.0,115.0,16179.0,16207.0,116.0,150.0,16208.0,16242.0,verb.creation,210,direct_object,the Laird of Ercildoune's assembled guests,1.0,0.0,1.0,unknown,0.0,tertiary
+148,4,sang,82,86,16174,16178,149,87.0,115.0,16179.0,16207.0,116.0,150.0,16208.0,16242.0,verb.creation,210,direct_object,the Laird of Ercildoune,1.0,5.0,6.0,male,1.0,tertiary
+148,4,sang,82,86,16174,16178,151,87.0,115.0,16179.0,16207.0,116.0,150.0,16208.0,16242.0,verb.creation,210,direct_object,guests,1.0,0.0,1.0,unknown,0.0,tertiary
+149,1,felt,43,47,16287,16291,152,48.0,101.0,16292.0,16345.0,,,,,verb.cognition,211,direct_object,The guests,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+151,2,saw,91,94,16458,16461,32,114.0,191.0,16481.0,16558.0,,,,,verb.creation,215,direct_object,Hind,3.0,0.0,3.0,unknown,0.0,tertiary
+154,1,said,41,45,16909,16913,162,46.0,57.0,16914.0,16925.0,58.0,65.0,16926.0,16933.0,verb.communication,217,direct_object,one soldier,1.0,0.0,1.0,unknown,0.0,tertiary
+155,0,let,1,4,16936,16939,21,5.0,37.0,16940.0,16972.0,,,,,verb.social,218,direct_object,poor Thomas,22.0,72.0,94.0,male,1.0,primary
+156,1,cried,37,42,17072,17077,163,43.0,52.0,17078.0,17087.0,53.0,60.0,17088.0,17095.0,verb.communication,219,direct_object,every one,1.0,0.0,1.0,unknown,0.0,tertiary
+157,2,rouse,55,60,17152,17157,166,61.0,71.0,17158.0,17168.0,,,,,verb.motion,221,direct_object,the Rhymer,1.0,1.0,2.0,male,1.0,tertiary
+158,0,heard,8,13,17196,17201,167,14.0,31.0,17202.0,17219.0,,,,,verb.perception,222,direct_object,the boy,1.0,0.0,1.0,male,1.0,tertiary
+161,1,joining,33,40,17422,17429,155,41.0,74.0,17430.0,17463.0,,,,,verb.social,225,direct_object,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+161,1,joining,33,40,17422,17429,169,41.0,74.0,17430.0,17463.0,,,,,verb.social,225,direct_object,the little company of waiting men,1.0,0.0,1.0,male,1.0,tertiary
+162,2,greet,61,66,17581,17586,155,67.0,70.0,17587.0,17590.0,,,,,verb.communication,228,direct_object,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+165,0,believe,34,41,17869,17876,32,42.0,152.0,17877.0,17987.0,,,,,verb.cognition,231,direct_object,Hind,3.0,0.0,3.0,unknown,0.0,tertiary
+165,0,believe,34,41,17869,17876,175,42.0,152.0,17877.0,17987.0,,,,,verb.cognition,231,direct_object,the Elfin Queen,1.0,0.0,1.0,female,1.0,tertiary
+165,0,believe,34,41,17869,17876,155,42.0,152.0,17877.0,17987.0,,,,,verb.cognition,231,direct_object,a soldier on guard,1.0,11.0,12.0,male,1.0,tertiary
+165,0,believe,34,41,17869,17876,33,42.0,152.0,17877.0,17987.0,,,,,verb.cognition,231,direct_object,Hart,2.0,0.0,2.0,unknown,0.0,tertiary

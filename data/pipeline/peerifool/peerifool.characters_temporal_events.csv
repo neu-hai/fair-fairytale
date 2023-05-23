@@ -1,0 +1,644 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,2,died,55,59,124,128,12,46.0,54.0,115.0,123.0,,,,,verb.change,1,subject,the King,1.0,1.0,2.0,male,1.0,tertiary
+1,5,hated,118,123,187,192,13,85.0,101.0,154.0,170.0,,,,,verb.emotion,2,subject,a distant cousin,1.0,0.0,1.0,unknown,0.0,tertiary
+1,6,paid,137,141,206,210,13,85.0,101.0,154.0,170.0,,,,,verb.communication,4,subject,a distant cousin,1.0,0.0,1.0,unknown,0.0,tertiary
+5,2,coming,43,49,693,699,24,30.0,38.0,680.0,688.0,,,,,verb.motion,6,subject,,,,,,,
+5,3,stealing,63,71,713,721,24,30.0,38.0,680.0,688.0,,,,,verb.possession,5,subject,,,,,,,
+7,0,said,23,27,909,913,25,3.0,22.0,889.0,908.0,,,,,verb.communication,8,subject,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,3,wrap,73,77,959,963,25,28.0,31.0,914.0,917.0,,,,,verb.contact,9,subject,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,4,sit,104,107,990,993,25,28.0,31.0,914.0,917.0,124.0,169.0,1010.0,1055.0,verb.contact,10,subject,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,5,see,137,140,1023,1026,25,28.0,31.0,914.0,917.0,,,,,verb.social,11,subject,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,7,catch,154,159,1040,1045,25,144.0,147.0,1030.0,1033.0,,,,,verb.cognition,13,subject,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+10,2,heard,79,84,1302,1307,25,75.0,78.0,1298.0,1301.0,127.0,264.0,1350.0,1487.0,verb.perception,15,subject,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+10,4,trying,161,167,1384,1390,29,133.0,155.0,1356.0,1378.0,,,,,verb.social,14,subject,some very heavy person,1.0,0.0,1.0,unknown,0.0,tertiary
+10,5,tread,171,176,1394,1399,29,133.0,155.0,1356.0,1378.0,,,,,verb.motion,16,subject,some very heavy person,1.0,0.0,1.0,unknown,0.0,tertiary
+10,6,stepped,219,226,1442,1449,30,204.0,218.0,1427.0,1441.0,,,,,verb.motion,17,subject,a mighty Giant,1.0,5.0,6.0,male,1.0,tertiary
+12,0,began,8,13,1575,1580,30,5.0,7.0,1572.0,1574.0,,,,,verb.change,19,subject,a mighty Giant,1.0,5.0,6.0,male,1.0,tertiary
+12,1,cut,17,20,1584,1587,30,5.0,7.0,1572.0,1574.0,,,,,verb.contact,18,subject,a mighty Giant,1.0,5.0,6.0,male,1.0,tertiary
+12,2,throw,42,47,1609,1614,30,5.0,7.0,1572.0,1574.0,68.0,87.0,1635.0,1654.0,verb.contact,21,subject,a mighty Giant,1.0,5.0,6.0,male,1.0,tertiary
+13,2,expected,57,65,1713,1721,31,45.0,48.0,1701.0,1704.0,,,,,verb.cognition,20,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+13,3,face,69,73,1725,1729,31,45.0,48.0,1701.0,1704.0,,,,,verb.communication,24,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+13,7,cut,161,164,1817,1820,33,145.0,149.0,1801.0,1805.0,,,,,verb.contact,22,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+15,0,paid,10,14,1882,1886,33,0.0,9.0,1872.0,1881.0,,,,,verb.communication,26,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+15,3,doing,62,67,1934,1939,33,50.0,54.0,1922.0,1926.0,,,,,verb.social,25,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+16,1,hear,12,16,1953,1957,33,4.0,7.0,1945.0,1948.0,,,,,verb.perception,27,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+19,3,take,33,37,2101,2105,33,26.0,27.0,2094.0,2095.0,42.0,45.0,2110.0,2113.0,verb.social,29,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+19,4,said,48,52,2116,2120,33,1.0,45.0,2069.0,2113.0,71.0,112.0,2139.0,2180.0,verb.communication,30,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+19,4,said,48,52,2116,2120,31,1.0,45.0,2069.0,2113.0,71.0,112.0,2139.0,2180.0,verb.communication,30,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+19,5,pressing,71,79,2139,2147,33,53.0,62.0,2121.0,2130.0,93.0,97.0,2161.0,2165.0,verb.contact,31,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+20,1,like,10,14,2192,2196,31,1.0,2.0,2183.0,2184.0,,,,,verb.emotion,32,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+20,2,see,18,21,2200,2203,31,1.0,2.0,2183.0,2184.0,,,,,verb.perception,33,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+20,3,try,26,29,2208,2211,33,22.0,25.0,2204.0,2207.0,,,,,verb.social,35,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+20,4,retorted,32,40,2214,2222,33,1.0,29.0,2183.0,2211.0,55.0,98.0,2237.0,2280.0,verb.communication,34,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+20,4,retorted,32,40,2214,2222,31,1.0,29.0,2183.0,2211.0,55.0,98.0,2237.0,2280.0,verb.communication,34,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+20,5,rising,55,61,2237,2243,31,41.0,53.0,2223.0,2235.0,,,,,verb.motion,36,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+20,6,stamping,81,89,2263,2271,31,41.0,53.0,2223.0,2235.0,,,,,verb.contact,38,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+21,0,felt,9,13,2290,2294,31,5.0,8.0,2286.0,2289.0,,,,,verb.emotion,37,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+21,1,forgot,32,38,2313,2319,31,28.0,31.0,2309.0,2312.0,,,,,verb.cognition,39,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+22,2,seized,45,51,2449,2455,33,42.0,44.0,2446.0,2448.0,,,,,verb.contact,40,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+22,3,put,84,87,2488,2491,33,42.0,44.0,2446.0,2448.0,,,,,verb.contact,42,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+22,4,carried,137,144,2541,2548,33,42.0,44.0,2446.0,2448.0,149.0,160.0,2553.0,2564.0,verb.contact,43,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+23,0,reached,8,15,2574,2581,33,5.0,7.0,2571.0,2573.0,,,,,verb.motion,44,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+23,2,took,81,85,2647,2651,33,78.0,80.0,2644.0,2646.0,,,,,verb.contact,45,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+23,3,set,99,102,2665,2668,33,78.0,80.0,2644.0,2646.0,,,,,verb.contact,46,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+24,2,said,33,37,2733,2737,33,1.0,27.0,2701.0,2727.0,,,,,verb.communication,47,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+24,2,said,33,37,2733,2737,192,1.0,27.0,2701.0,2727.0,,,,,verb.communication,47,subject,the Giant's servant,1.0,0.0,1.0,unknown,0.0,tertiary
+24,2,said,33,37,2733,2737,31,1.0,27.0,2701.0,2727.0,,,,,verb.communication,47,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+25,0,have,2,6,2787,2791,33,0.0,1.0,2785.0,2786.0,,,,,verb.possession,49,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+25,2,drive,29,34,2814,2819,31,7.0,12.0,2792.0,2797.0,,,,,verb.motion,51,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+26,6,settle,89,95,2939,2945,31,66.0,69.0,2916.0,2919.0,104.0,139.0,2954.0,2989.0,verb.contact,53,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+26,8,card,155,159,3005,3009,31,66.0,69.0,2916.0,2919.0,,,,,verb.contact,54,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+26,9,spin,168,172,3018,3022,31,66.0,69.0,2916.0,2919.0,176.0,240.0,3026.0,3090.0,verb.contact,55,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+27,3,expect,55,61,3147,3153,33,47.0,48.0,3139.0,3140.0,,,,,verb.cognition,57,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+27,4,find,65,69,3157,3161,33,47.0,48.0,3139.0,3140.0,,,,,verb.perception,59,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+28,1,heard,45,50,3284,3289,43,41.0,44.0,3280.0,3283.0,,,,,verb.perception,61,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+28,5,work,101,105,3340,3344,43,68.0,71.0,3307.0,3310.0,,,,,verb.social,60,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+28,8,help,150,154,3389,3393,44,135.0,146.0,3374.0,3385.0,,,,,verb.social,58,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+28,8,help,150,154,3389,3393,43,135.0,146.0,3374.0,3385.0,,,,,verb.social,58,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+29,0,took,15,19,3413,3417,33,5.0,14.0,3403.0,3412.0,,,,,verb.perception,62,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+29,4,begin,122,127,3520,3525,33,5.0,14.0,3403.0,3412.0,,,,,verb.change,63,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+30,1,gone,18,22,3554,3558,33,11.0,13.0,3547.0,3549.0,,,,,verb.motion,64,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+30,2,drove,27,32,3563,3568,43,23.0,26.0,3559.0,3562.0,41.0,81.0,3577.0,3617.0,verb.motion,66,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+30,4,told,67,71,3603,3607,33,60.0,62.0,3596.0,3598.0,,,,,verb.communication,65,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+31,1,reached,55,62,3673,3680,43,51.0,54.0,3669.0,3672.0,,,,,verb.motion,67,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+31,3,felt,124,128,3742,3746,43,120.0,123.0,3738.0,3741.0,,,,,verb.body,68,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+32,0,thought,7,14,3766,3773,43,3.0,6.0,3762.0,3765.0,,,,,verb.cognition,69,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+32,4,began,97,102,3856,3861,43,93.0,96.0,3852.0,3855.0,,,,,verb.change,71,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+32,5,card,106,110,3865,3869,43,93.0,96.0,3852.0,3855.0,,,,,verb.contact,72,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+32,6,comb,115,119,3874,3878,43,93.0,96.0,3852.0,3855.0,,,,,verb.contact,73,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+33,3,sup,48,51,3937,3940,43,24.0,27.0,3913.0,3916.0,,,,,verb.contact,75,subject,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+34,2,seen,63,67,4071,4075,31,10.0,35.0,4018.0,4043.0,,,,,verb.perception,74,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+35,2,reached,28,35,4104,4111,52,1.0,16.0,4077.0,4092.0,,,,,verb.motion,77,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+35,2,reached,28,35,4104,4111,56,1.0,16.0,4077.0,4092.0,,,,,verb.motion,77,subject,"a crowd of wee , wee Peerie Folk's one of them",1.0,0.0,1.0,unknown,0.0,tertiary
+36,1,dressed,15,22,4148,4155,52,5.0,9.0,4138.0,4142.0,,,,,verb.body,76,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+38,1,talking,14,21,4376,4383,52,0.0,4.0,4362.0,4366.0,,,,,verb.communication,78,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+38,2,laughing,26,34,4388,4396,52,0.0,4.0,4362.0,4366.0,,,,,verb.body,79,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+39,1,reached,72,79,4486,4493,52,67.0,71.0,4481.0,4485.0,,,,,verb.motion,80,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+39,2,clustered,113,122,4527,4536,52,108.0,112.0,4522.0,4526.0,,,,,verb.motion,82,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+39,4,eating,169,175,4583,4589,31,152.0,164.0,4566.0,4578.0,,,,,verb.consumption,81,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+40,2,cried,35,40,4639,4644,52,30.0,34.0,4634.0,4638.0,,,,,verb.communication,83,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+44,0,shook,8,13,4820,4825,31,4.0,7.0,4816.0,4819.0,,,,,verb.motion,85,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+44,1,waved,27,32,4839,4844,31,4.0,7.0,4816.0,4819.0,55.0,69.0,4867.0,4881.0,verb.communication,87,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+45,0,said,4,8,4957,4961,31,0.0,3.0,4953.0,4956.0,,,,,verb.communication,90,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+45,2,feel,61,65,5014,5018,31,49.0,52.0,5002.0,5005.0,,,,,verb.emotion,89,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+45,5,vanished,152,160,5105,5113,52,147.0,151.0,5100.0,5104.0,,,,,verb.motion,91,subject,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+46,0,finished,15,23,5142,5150,31,11.0,14.0,5138.0,5141.0,37.0,45.0,5164.0,5172.0,verb.change,92,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+47,0,took,10,14,5183,5187,31,6.0,9.0,5179.0,5182.0,,,,,verb.contact,93,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+47,1,set,48,51,5221,5224,31,44.0,47.0,5217.0,5220.0,,,,,verb.change,94,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+47,2,work,55,59,5228,5232,31,44.0,47.0,5217.0,5220.0,,,,,verb.social,95,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+47,3,card,72,76,5245,5249,31,44.0,47.0,5217.0,5220.0,,,,,verb.contact,96,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+49,5,do,100,102,5392,5394,31,86.0,89.0,5378.0,5381.0,,,,,verb.social,98,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+50,1,found,32,37,5445,5450,33,29.0,31.0,5442.0,5444.0,,,,,verb.perception,101,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+50,2,sitting,42,49,5455,5462,31,38.0,41.0,5451.0,5454.0,61.0,165.0,5474.0,5578.0,verb.contact,100,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+50,5,left,129,133,5542,5546,31,101.0,113.0,5514.0,5526.0,142.0,152.0,5555.0,5565.0,verb.possession,99,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+50,6,burned,154,160,5567,5573,33,101.0,152.0,5514.0,5565.0,,,,,verb.change,102,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+50,6,burned,154,160,5567,5573,31,101.0,152.0,5514.0,5565.0,,,,,verb.change,102,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+51,3,raged,43,48,5630,5635,33,20.0,22.0,5607.0,5609.0,,,,,verb.competition,103,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+51,4,stamped,54,61,5641,5648,33,20.0,22.0,5607.0,5609.0,,,,,verb.communication,104,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+51,5,used,67,71,5654,5658,33,20.0,22.0,5607.0,5609.0,,,,,verb.consumption,105,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+52,0,took,16,20,5699,5703,33,13.0,15.0,5696.0,5698.0,,,,,verb.contact,106,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+52,1,beat,43,47,5726,5730,33,13.0,15.0,5696.0,5698.0,52.0,95.0,5735.0,5778.0,verb.contact,107,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+52,3,bleeding,87,95,5770,5778,31,58.0,70.0,5741.0,5753.0,,,,,verb.body,108,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+53,0,carried,9,16,5788,5795,33,6.0,8.0,5785.0,5787.0,21.0,36.0,5800.0,5815.0,verb.contact,109,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+53,1,threw,42,47,5821,5826,33,6.0,8.0,5785.0,5787.0,52.0,83.0,5831.0,5862.0,verb.contact,110,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+54,4,lie,83,86,5947,5950,31,68.0,71.0,5932.0,5935.0,93.0,142.0,5957.0,6006.0,verb.contact,111,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+54,5,looking,105,112,5969,5976,31,68.0,71.0,5932.0,5935.0,,,,,verb.perception,112,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+56,0,said,23,27,6121,6125,69,3.0,22.0,6101.0,6120.0,,,,,verb.communication,113,subject,the second Princess,1.0,0.0,1.0,female,1.0,tertiary
+56,7,sit,112,115,6210,6213,31,33.0,36.0,6131.0,6134.0,140.0,183.0,6238.0,6281.0,verb.contact,115,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+57,3,befallen,58,66,6341,6349,31,16.0,48.0,6299.0,6331.0,,,,,verb.emotion,116,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+58,0,appeared,10,18,6378,6386,33,0.0,9.0,6368.0,6377.0,,,,,verb.change,118,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+58,1,carried,42,49,6410,6417,33,39.0,41.0,6407.0,6409.0,,,,,verb.contact,119,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+58,2,set,63,66,6431,6434,33,39.0,41.0,6407.0,6409.0,,,,,verb.contact,120,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+58,3,mind,74,78,6442,6446,31,67.0,70.0,6435.0,6438.0,,,,,verb.emotion,121,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+59,1,appeared,42,50,6549,6557,2,5.0,41.0,6512.0,6548.0,,,,,verb.change,123,subject,Peerie Folk,5.0,0.0,5.0,unknown,0.0,tertiary
+59,2,asked,55,60,6562,6567,2,5.0,41.0,6512.0,6548.0,,,,,verb.communication,124,subject,Peerie Folk,5.0,0.0,5.0,unknown,0.0,tertiary
+59,3,refused,90,97,6597,6604,31,86.0,89.0,6593.0,6596.0,,,,,verb.communication,125,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+59,4,give,101,105,6608,6612,31,86.0,89.0,6593.0,6596.0,,,,,verb.possession,126,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,1,comb,31,35,6655,6659,31,17.0,20.0,6641.0,6644.0,,,,,verb.contact,127,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,2,card,39,43,6663,6667,31,17.0,20.0,6641.0,6644.0,,,,,verb.contact,128,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,4,scolded,86,93,6710,6717,33,83.0,85.0,6707.0,6709.0,,,,,verb.communication,129,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+60,5,beat,103,107,6727,6731,33,83.0,85.0,6707.0,6709.0,,,,,verb.contact,130,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+60,6,threw,117,122,6741,6746,33,83.0,85.0,6707.0,6709.0,131.0,186.0,6755.0,6810.0,verb.contact,131,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+61,0,determined,27,37,6839,6849,77,5.0,26.0,6817.0,6838.0,,,,,verb.cognition,132,subject,the youngest Princess,1.0,0.0,1.0,female,1.0,tertiary
+61,1,sit,41,44,6853,6856,77,5.0,26.0,6817.0,6838.0,65.0,74.0,6877.0,6886.0,verb.contact,133,subject,the youngest Princess,1.0,0.0,1.0,female,1.0,tertiary
+61,2,see,91,94,6903,6906,77,5.0,26.0,6817.0,6838.0,,,,,verb.perception,134,subject,the youngest Princess,1.0,0.0,1.0,female,1.0,tertiary
+62,0,came,19,23,7010,7014,33,9.0,18.0,7000.0,7009.0,,,,,verb.motion,137,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+62,1,carried,28,35,7019,7026,33,9.0,18.0,7000.0,7009.0,40.0,43.0,7031.0,7034.0,verb.contact,138,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+63,0,felt,13,17,7135,7139,31,9.0,12.0,7131.0,7134.0,,,,,verb.cognition,140,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+63,1,had,27,30,7149,7152,31,23.0,26.0,7145.0,7148.0,,,,,verb.possession,139,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+64,1,felt,45,49,7276,7280,31,41.0,44.0,7272.0,7275.0,,,,,verb.cognition,141,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+64,3,outwit,88,94,7319,7325,31,63.0,66.0,7294.0,7297.0,,,,,verb.competition,142,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+65,2,see,99,102,7474,7477,31,72.0,80.0,7447.0,7455.0,,,,,verb.perception,144,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+65,4,carrying,124,132,7499,7507,33,117.0,119.0,7492.0,7494.0,,,,,verb.motion,143,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+66,0,set,12,15,7529,7532,33,9.0,11.0,7526.0,7528.0,25.0,39.0,7542.0,7556.0,verb.contact,145,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+66,1,told,45,49,7562,7566,33,9.0,11.0,7526.0,7528.0,,,,,verb.communication,147,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+66,2,expected,66,74,7583,7591,33,63.0,65.0,7580.0,7582.0,,,,,verb.cognition,146,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+66,3,do,82,84,7599,7601,31,58.0,62.0,7575.0,7579.0,,,,,verb.creation,148,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,5,look,98,102,7615,7619,31,86.0,89.0,7603.0,7606.0,112.0,128.0,7629.0,7645.0,verb.perception,149,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,6,nodded,134,140,7651,7657,31,86.0,89.0,7603.0,7606.0,150.0,158.0,7667.0,7675.0,verb.communication,150,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,7,said,164,168,7681,7685,31,86.0,89.0,7603.0,7606.0,,,,,verb.communication,152,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,8,felt,178,182,7695,7699,31,174.0,177.0,7691.0,7694.0,,,,,verb.emotion,151,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+67,0,sang,8,12,7735,7739,31,4.0,7.0,7731.0,7734.0,24.0,243.0,7751.0,7970.0,verb.communication,154,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+67,1,drove,31,36,7758,7763,31,27.0,30.0,7754.0,7757.0,45.0,69.0,7772.0,7796.0,verb.motion,153,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+67,3,ran,79,82,7806,7809,31,75.0,78.0,7802.0,7805.0,103.0,243.0,7830.0,7970.0,verb.motion,155,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+67,9,told,203,207,7930,7934,31,184.0,187.0,7911.0,7914.0,,,,,verb.communication,156,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+68,0,set,11,14,7983,7986,31,7.0,10.0,7979.0,7982.0,,,,,verb.change,157,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+68,1,work,18,22,7990,7994,31,7.0,10.0,7979.0,7982.0,,,,,verb.social,159,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+68,2,made,37,41,8009,8013,31,33.0,36.0,8005.0,8008.0,65.0,69.0,8037.0,8041.0,verb.creation,158,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+69,2,sup,31,34,8097,8100,31,14.0,17.0,8080.0,8083.0,,,,,verb.contact,160,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+70,2,cried,35,40,8253,8258,90,30.0,34.0,8248.0,8252.0,,,,,verb.communication,162,subject,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+72,0,replied,21,28,8328,8335,91,1.0,18.0,8308.0,8325.0,,,,,verb.communication,163,subject,the good - natured Princess,1.0,4.0,5.0,female,1.0,tertiary
+73,1,find,12,16,8375,8379,90,4.0,7.0,8367.0,8370.0,,,,,verb.possession,164,subject,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+73,4,fill,68,72,8431,8435,91,61.0,62.0,8424.0,8425.0,78.0,85.0,8441.0,8448.0,verb.change,165,subject,the good - natured Princess,1.0,4.0,5.0,female,1.0,tertiary
+74,2,give,34,38,8484,8488,91,24.0,25.0,8474.0,8475.0,,,,,verb.possession,167,subject,the good - natured Princess,1.0,4.0,5.0,female,1.0,tertiary
+74,4,smother,69,76,8519,8526,90,59.0,62.0,8509.0,8512.0,88.0,106.0,8538.0,8556.0,verb.contact,168,subject,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+75,0,shouted,29,36,8588,8595,92,13.0,28.0,8572.0,8587.0,,,,,verb.communication,169,subject,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+75,2,tumbled,83,90,8642,8649,92,57.0,82.0,8616.0,8641.0,,,,,verb.motion,170,subject,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+76,2,came,79,83,8752,8756,92,74.0,78.0,8747.0,8751.0,98.0,193.0,8771.0,8866.0,verb.motion,171,subject,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+77,0,put,18,21,8885,8888,31,5.0,17.0,8872.0,8884.0,,,,,verb.contact,173,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+77,1,ate,116,119,8983,8986,92,111.0,115.0,8978.0,8982.0,130.0,234.0,8997.0,9101.0,verb.consumption,175,subject,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+77,3,brought,200,207,9067,9074,92,159.0,183.0,9026.0,9050.0,218.0,234.0,9085.0,9101.0,verb.contact,174,subject,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+78,1,finished,14,22,9117,9125,92,5.0,9.0,9108.0,9112.0,,,,,verb.change,176,subject,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+81,1,went,22,26,9254,9258,31,18.0,21.0,9250.0,9253.0,46.0,69.0,9278.0,9301.0,verb.motion,177,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+81,4,find,101,105,9333,9337,31,87.0,90.0,9319.0,9322.0,,,,,verb.possession,178,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+82,2,find,20,24,9364,9368,31,13.0,14.0,9357.0,9358.0,30.0,34.0,9374.0,9378.0,verb.possession,180,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+82,3,said,41,45,9385,9389,44,1.0,34.0,9345.0,9378.0,,,,,verb.communication,179,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+82,3,said,41,45,9385,9389,31,1.0,34.0,9345.0,9378.0,,,,,verb.communication,179,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+83,1,search,18,24,9420,9426,31,11.0,12.0,9413.0,9414.0,,,,,verb.contact,182,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+85,3,told,83,87,9590,9594,33,69.0,78.0,9576.0,9585.0,,,,,verb.communication,181,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+85,4,make,95,99,9602,9606,31,88.0,91.0,9595.0,9598.0,,,,,verb.creation,184,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+87,4,wore,108,112,9823,9827,4,105.0,107.0,9820.0,9822.0,,,,,verb.body,185,subject,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+88,0,walked,3,9,9872,9878,4,0.0,2.0,9869.0,9871.0,,,,,verb.motion,186,subject,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+88,1,looked,52,58,9921,9927,4,0.0,2.0,9869.0,9871.0,,,,,verb.perception,187,subject,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+89,1,have,8,12,9947,9951,31,4.0,7.0,9943.0,9946.0,,,,,verb.possession,188,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+89,2,do,32,34,9971,9973,4,13.0,21.0,9952.0,9960.0,,,,,verb.social,189,subject,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+90,0,asked,3,8,9979,9984,4,0.0,2.0,9976.0,9978.0,,,,,verb.communication,191,subject,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+91,0,know,3,7,9989,9993,4,1.0,2.0,9987.0,9988.0,,,,,verb.cognition,190,subject,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+92,0,have,3,7,10058,10062,31,1.0,2.0,10056.0,10057.0,,,,,verb.possession,192,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+92,2,replied,49,56,10104,10111,31,1.0,43.0,10056.0,10098.0,,,,,verb.communication,194,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+93,0,have,8,12,10133,10137,31,6.0,7.0,10131.0,10132.0,,,,,verb.possession,193,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+93,4,work,87,91,10212,10216,202,55.0,77.0,10180.0,10202.0,,,,,verb.social,195,subject,few folk in this world,1.0,0.0,1.0,unknown,0.0,tertiary
+94,0,ask,22,25,10255,10258,31,1.0,14.0,10234.0,10247.0,,,,,verb.communication,196,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+94,3,take,44,48,10277,10281,5,34.0,38.0,10267.0,10271.0,61.0,101.0,10294.0,10334.0,verb.cognition,198,subject,tyou,1.0,3.0,4.0,unknown,0.0,tertiary
+94,5,ken,95,98,10328,10331,204,86.0,94.0,10319.0,10327.0,,,,,verb.communication,197,subject,few folk,2.0,0.0,2.0,unknown,0.0,tertiary
+94,6,know,124,128,10357,10361,204,107.0,115.0,10340.0,10348.0,,,,,verb.cognition,199,subject,few folk,2.0,0.0,2.0,unknown,0.0,tertiary
+95,1,find,32,36,10395,10399,5,21.0,24.0,10384.0,10387.0,,,,,verb.possession,200,subject,tyou,1.0,3.0,4.0,unknown,0.0,tertiary
+95,3,pay,59,62,10422,10425,5,55.0,58.0,10418.0,10421.0,,,,,verb.possession,203,subject,tyou,1.0,3.0,4.0,unknown,0.0,tertiary
+96,0,thought,13,20,10468,10475,31,0.0,12.0,10455.0,10467.0,86.0,227.0,10541.0,10682.0,verb.cognition,202,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+96,4,agreed,93,99,10548,10554,31,89.0,92.0,10544.0,10547.0,,,,,verb.communication,201,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+96,5,putting,121,128,10576,10583,31,89.0,92.0,10544.0,10547.0,,,,,verb.contact,204,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+96,6,gave,165,169,10620,10624,31,161.0,164.0,10616.0,10619.0,,,,,verb.possession,205,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+96,7,swung,188,193,10643,10648,106,185.0,187.0,10640.0,10642.0,197.0,227.0,10652.0,10682.0,verb.contact,206,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+97,0,ran,4,7,10688,10691,31,0.0,3.0,10684.0,10687.0,20.0,169.0,10704.0,10853.0,verb.motion,207,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+97,1,see,23,26,10707,10710,31,0.0,3.0,10684.0,10687.0,,,,,verb.communication,209,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+97,2,went,36,40,10720,10724,106,27.0,32.0,10711.0,10716.0,,,,,verb.motion,208,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+97,6,follow,86,92,10770,10776,31,76.0,79.0,10760.0,10763.0,97.0,117.0,10781.0,10801.0,verb.motion,211,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,0,looked,37,43,10892,10898,31,33.0,36.0,10888.0,10891.0,,,,,verb.perception,210,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,2,vanished,70,78,10925,10933,106,63.0,65.0,10918.0,10920.0,,,,,verb.change,212,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+98,3,began,99,104,10954,10959,31,95.0,98.0,10950.0,10953.0,,,,,verb.change,213,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,4,wonder,108,114,10963,10969,31,95.0,98.0,10950.0,10953.0,,,,,verb.cognition,214,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,6,do,131,133,10986,10988,31,115.0,119.0,10970.0,10974.0,,,,,verb.social,215,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,8,found,161,166,11016,11021,33,137.0,146.0,10992.0,11001.0,,,,,verb.cognition,217,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+98,10,allowed,180,187,11035,11042,31,172.0,175.0,11027.0,11030.0,,,,,verb.social,216,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,12,know,225,229,11080,11084,31,208.0,211.0,11063.0,11066.0,,,,,verb.cognition,219,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+99,6,felt,120,124,11233,11237,31,116.0,119.0,11229.0,11232.0,,,,,verb.cognition,221,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+99,8,made,138,142,11251,11255,31,130.0,133.0,11243.0,11246.0,,,,,verb.social,218,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+99,10,grow,177,181,11290,11294,31,164.0,167.0,11277.0,11280.0,,,,,verb.change,220,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+100,4,opened,83,89,11395,11401,31,79.0,82.0,11391.0,11394.0,,,,,verb.contact,222,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+100,5,found,98,103,11410,11415,31,94.0,97.0,11406.0,11409.0,,,,,verb.perception,224,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+100,6,standing,117,125,11429,11437,111,104.0,116.0,11416.0,11428.0,,,,,verb.contact,223,subject,an old woman,1.0,0.0,1.0,female,1.0,tertiary
+100,7,begged,139,145,11451,11457,111,104.0,133.0,11416.0,11445.0,,,,,verb.communication,225,subject,an old woman,1.0,0.0,1.0,female,1.0,tertiary
+101,9,know,157,161,11638,11642,31,145.0,148.0,11626.0,11629.0,,,,,verb.cognition,226,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+101,11,say,183,186,11664,11667,33,162.0,166.0,11643.0,11647.0,,,,,verb.communication,228,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+102,0,told,7,11,11676,11680,31,3.0,6.0,11672.0,11675.0,,,,,verb.communication,227,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+102,2,take,45,49,11714,11718,31,31.0,34.0,11700.0,11703.0,54.0,132.0,11723.0,11801.0,verb.possession,229,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+103,0,made,9,13,11811,11815,31,5.0,8.0,11807.0,11810.0,,,,,verb.creation,230,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+103,2,brought,59,66,11861,11868,31,5.0,8.0,11807.0,11810.0,71.0,74.0,11873.0,11876.0,verb.possession,231,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+103,2,brought,59,66,11861,11868,106,5.0,8.0,11807.0,11810.0,71.0,74.0,11873.0,11876.0,verb.possession,231,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+103,3,gave,100,104,11902,11906,31,5.0,8.0,11807.0,11810.0,,,,,verb.possession,232,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+103,3,gave,100,104,11902,11906,106,5.0,8.0,11807.0,11810.0,,,,,verb.possession,232,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,1,looked,49,55,12002,12008,106,45.0,48.0,11998.0,12001.0,65.0,119.0,12018.0,12072.0,verb.perception,234,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,2,told,74,78,12027,12031,31,70.0,73.0,12023.0,12026.0,,,,,verb.communication,235,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+104,5,turn,106,110,12059,12063,31,88.0,91.0,12041.0,12044.0,115.0,119.0,12068.0,12072.0,verb.possession,236,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+104,6,gave,140,144,12093,12097,116,126.0,139.0,12079.0,12092.0,,,,,verb.possession,237,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+104,7,told,167,171,12120,12124,116,126.0,139.0,12079.0,12092.0,196.0,201.0,12149.0,12154.0,verb.communication,238,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+104,8,vex,183,186,12136,12139,106,172.0,175.0,12125.0,12128.0,,,,,verb.body,240,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,11,had,246,249,12199,12202,106,238.0,241.0,12191.0,12194.0,,,,,verb.consumption,239,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,14,sleep,297,302,12250,12255,106,257.0,260.0,12210.0,12213.0,,,,,verb.body,242,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+105,1,finished,18,26,12307,12315,106,10.0,13.0,12299.0,12302.0,,,,,verb.change,241,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+105,2,went,51,55,12340,12344,106,47.0,50.0,12336.0,12339.0,,,,,verb.motion,244,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+106,1,lay,28,31,12477,12480,106,24.0,27.0,12473.0,12476.0,,,,,verb.contact,243,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+106,2,felt,42,46,12491,12495,106,38.0,41.0,12487.0,12490.0,96.0,218.0,12545.0,12667.0,verb.perception,245,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+106,6,crawl,138,143,12587,12592,106,122.0,125.0,12571.0,12574.0,,,,,verb.motion,246,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+107,1,heard,32,37,12701,12706,106,28.0,31.0,12697.0,12700.0,,,,,verb.perception,247,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+110,1,call,48,52,12887,12891,207,44.0,47.0,12883.0,12886.0,,,,,verb.communication,249,subject,men,2.0,0.0,2.0,male,1.0,tertiary
+111,0,got,13,16,12910,12913,106,9.0,12.0,12906.0,12909.0,,,,,verb.motion,251,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+111,1,found,38,43,12935,12940,106,34.0,37.0,12931.0,12934.0,,,,,verb.cognition,252,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+112,0,put,14,17,13032,13035,106,10.0,13.0,13028.0,13031.0,,,,,verb.contact,253,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+112,2,see,56,59,13074,13077,106,40.0,44.0,13058.0,13062.0,,,,,verb.perception,255,subject,the boy,2.0,39.0,41.0,male,1.0,tertiary
+112,5,sitting,144,151,13162,13169,124,119.0,138.0,13137.0,13156.0,165.0,199.0,13183.0,13217.0,verb.contact,254,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+112,6,working,165,172,13183,13190,124,119.0,138.0,13137.0,13156.0,,,,,verb.social,256,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+113,3,combing,50,57,13269,13276,124,32.0,44.0,13251.0,13263.0,,,,,verb.contact,257,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+113,3,combing,50,57,13269,13276,125,32.0,44.0,13251.0,13263.0,,,,,verb.contact,257,subject,all the Peerie Folk's of them,2.0,0.0,2.0,unknown,0.0,tertiary
+113,5,spinning,80,88,13299,13307,124,62.0,74.0,13281.0,13293.0,143.0,199.0,13362.0,13418.0,verb.contact,258,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+113,8,drew,183,187,13402,13406,124,178.0,182.0,13397.0,13401.0,,,,,verb.contact,260,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+113,10,spinning,231,239,13450,13458,124,213.0,225.0,13432.0,13444.0,249.0,259.0,13468.0,13478.0,verb.contact,261,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+114,3,work,77,81,13557,13561,124,69.0,73.0,13549.0,13553.0,,,,,verb.social,263,subject,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+115,3,creeping,88,96,13690,13698,116,62.0,75.0,13664.0,13677.0,139.0,144.0,13741.0,13746.0,verb.motion,264,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+116,2,go,13,15,13761,13763,116,1.0,2.0,13749.0,13750.0,,,,,verb.motion,266,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+116,3,tell,20,24,13768,13772,116,1.0,2.0,13749.0,13750.0,43.0,62.0,13791.0,13810.0,verb.communication,268,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+117,1,seen,35,39,13847,13851,116,23.0,27.0,13835.0,13839.0,,,,,verb.perception,267,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+119,1,told,34,38,13992,13996,116,3.0,6.0,13961.0,13964.0,,,,,verb.communication,271,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+119,3,seen,69,73,14027,14031,116,52.0,55.0,14010.0,14013.0,,,,,verb.perception,270,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+119,4,heard,78,83,14036,14041,116,52.0,55.0,14010.0,14013.0,,,,,verb.perception,269,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+119,7,told,137,141,14095,14099,116,124.0,128.0,14082.0,14086.0,,,,,verb.communication,272,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+119,8,risked,155,161,14113,14119,31,151.0,154.0,14109.0,14112.0,,,,,verb.possession,273,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+119,9,allowed,184,191,14142,14149,31,151.0,154.0,14109.0,14112.0,,,,,verb.social,274,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+119,10,go,199,201,14157,14159,31,192.0,195.0,14150.0,14153.0,,,,,verb.motion,275,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+119,11,sleep,206,211,14164,14169,31,192.0,195.0,14150.0,14153.0,,,,,verb.body,276,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+120,3,rest,53,57,14239,14243,116,27.0,40.0,14213.0,14226.0,,,,,verb.contact,277,subject,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+121,1,said,25,29,14381,14385,31,1.0,19.0,14357.0,14375.0,,,,,verb.communication,278,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+121,1,said,25,29,14381,14385,135,1.0,19.0,14357.0,14375.0,,,,,verb.communication,278,subject,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+121,3,put,61,64,14417,14420,135,54.0,55.0,14410.0,14411.0,81.0,133.0,14437.0,14489.0,verb.contact,279,subject,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+121,4,tell,110,114,14466,14470,31,106.0,109.0,14462.0,14465.0,,,,,verb.communication,280,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+122,1,thought,43,50,14535,14542,31,5.0,41.0,14497.0,14533.0,,,,,verb.cognition,281,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+122,1,thought,43,50,14535,14542,137,5.0,41.0,14497.0,14533.0,,,,,verb.cognition,281,subject,a merry maiden,1.0,0.0,1.0,female,1.0,tertiary
+122,3,tease,66,71,14558,14563,31,56.0,59.0,14548.0,14551.0,90.0,155.0,14582.0,14647.0,verb.emotion,282,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+122,4,let,109,112,14601,14604,31,101.0,108.0,14593.0,14600.0,,,,,verb.communication,283,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+122,5,know,117,121,14609,14613,138,113.0,116.0,14605.0,14608.0,,,,,verb.cognition,284,subject,the little follow,1.0,3.0,4.0,male,1.0,tertiary
+123,0,mentioned,7,16,14656,14665,31,3.0,6.0,14652.0,14655.0,50.0,112.0,14699.0,14761.0,verb.communication,285,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+123,1,pretending,57,67,14706,14716,31,3.0,6.0,14652.0,14655.0,,,,,verb.communication,286,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+123,2,think,71,76,14720,14725,31,3.0,6.0,14652.0,14655.0,,,,,verb.cognition,288,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+123,4,hit,90,93,14739,14742,31,82.0,85.0,14731.0,14734.0,,,,,verb.competition,287,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+124,2,thought,79,86,14841,14848,135,76.0,78.0,14838.0,14840.0,,,,,verb.cognition,289,subject,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+125,0,grew,25,29,14961,14965,31,12.0,24.0,14948.0,14960.0,,,,,verb.change,291,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+125,1,joking,39,45,14975,14981,31,12.0,24.0,14948.0,14960.0,,,,,verb.communication,290,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+125,4,know,120,124,15056,15060,138,99.0,108.0,15035.0,15044.0,,,,,verb.cognition,293,subject,the little follow,1.0,3.0,4.0,male,1.0,tertiary
+126,0,knew,8,12,15112,15116,135,5.0,7.0,15109.0,15111.0,,,,,verb.cognition,294,subject,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+126,3,called,57,63,15161,15167,207,53.0,56.0,15157.0,15160.0,,,,,verb.communication,295,subject,men,2.0,0.0,2.0,male,1.0,tertiary
+126,6,flung,114,119,15218,15223,135,111.0,113.0,15215.0,15217.0,138.0,165.0,15242.0,15269.0,verb.contact,297,subject,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+127,1,coming,24,30,15344,15350,33,10.0,19.0,15330.0,15339.0,,,,,verb.motion,298,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+127,2,met,92,95,15412,15415,33,89.0,91.0,15409.0,15411.0,141.0,206.0,15461.0,15526.0,verb.motion,300,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+127,3,toiling,126,133,15446,15453,2,107.0,125.0,15427.0,15445.0,,,,,verb.consumption,299,subject,Peerie Folk,5.0,0.0,5.0,unknown,0.0,tertiary
+128,2,hanging,51,58,15579,15586,144,34.0,45.0,15562.0,15573.0,,,,,verb.contact,301,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+128,5,looked,145,151,15673,15679,145,122.0,144.0,15650.0,15672.0,,,,,verb.perception,303,subject,the poor little people,1.0,0.0,1.0,unknown,0.0,tertiary
+129,0,asked,10,15,15705,15710,33,0.0,9.0,15695.0,15704.0,,,,,verb.communication,304,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+129,2,told,39,43,15734,15738,144,34.0,38.0,15729.0,15733.0,,,,,verb.communication,307,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+129,4,work,65,69,15760,15764,144,53.0,57.0,15748.0,15752.0,,,,,verb.social,306,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+129,5,spinning,87,95,15782,15790,144,53.0,57.0,15748.0,15752.0,,,,,verb.contact,305,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+130,3,used,68,72,15907,15911,144,63.0,67.0,15902.0,15906.0,78.0,181.0,15917.0,16020.0,verb.consumption,308,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+130,4,wet,92,95,15931,15934,144,63.0,67.0,15902.0,15906.0,,,,,verb.change,309,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+130,6,pull,130,134,15969,15973,144,119.0,123.0,15958.0,15962.0,,,,,verb.contact,311,subject,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+131,0,thought,10,17,16032,16039,33,1.0,2.0,16023.0,16024.0,,,,,verb.cognition,310,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+131,3,said,57,61,16079,16083,33,1.0,49.0,16023.0,16071.0,,,,,verb.communication,313,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+132,2,have,64,68,16211,16215,33,43.0,56.0,16190.0,16203.0,,,,,verb.possession,312,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+132,7,spoil,131,136,16278,16283,214,127.0,130.0,16274.0,16277.0,146.0,160.0,16293.0,16307.0,verb.body,314,subject,a bonnie little woman,1.0,2.0,3.0,female,1.0,tertiary
+133,0,hurried,7,14,16317,16324,33,4.0,6.0,16314.0,16316.0,45.0,145.0,16355.0,16455.0,verb.motion,315,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+133,2,find,63,67,16373,16377,33,53.0,55.0,16363.0,16365.0,,,,,verb.cognition,317,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+133,4,grown,111,116,16421,16426,150,73.0,106.0,16383.0,16416.0,131.0,145.0,16441.0,16455.0,verb.change,316,subject,the Giant's new servant,1.0,5.0,6.0,female,1.0,tertiary
+133,4,grown,111,116,16421,16426,33,73.0,106.0,16383.0,16416.0,131.0,145.0,16441.0,16455.0,verb.change,316,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+135,1,said,49,53,16643,16647,150,4.0,43.0,16598.0,16637.0,,,,,verb.communication,319,subject,the Giant's new servant,1.0,5.0,6.0,female,1.0,tertiary
+135,1,said,49,53,16643,16647,215,4.0,43.0,16598.0,16637.0,,,,,verb.communication,319,subject,an industrious maiden,1.0,0.0,1.0,female,1.0,tertiary
+135,1,said,49,53,16643,16647,33,4.0,43.0,16598.0,16637.0,,,,,verb.communication,319,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+135,4,restore,128,135,16722,16729,33,121.0,122.0,16715.0,16716.0,,,,,verb.social,321,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+136,1,lifted,33,39,16785,16791,33,4.0,6.0,16756.0,16758.0,65.0,86.0,16817.0,16838.0,verb.contact,320,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+136,2,brought,92,99,16844,16851,33,4.0,6.0,16756.0,16758.0,,,,,verb.contact,322,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+136,3,laid,112,116,16864,16868,33,4.0,6.0,16756.0,16758.0,,,,,verb.contact,323,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+137,0,screamed,27,35,16916,16924,153,0.0,19.0,16889.0,16908.0,,,,,verb.communication,324,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,0,screamed,27,35,16916,16924,152,0.0,19.0,16889.0,16908.0,,,,,verb.communication,324,subject,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,1,saw,51,54,16940,16943,153,47.0,50.0,16936.0,16939.0,,,,,verb.perception,326,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,2,looked,68,74,16957,16963,152,55.0,62.0,16944.0,16951.0,,,,,verb.perception,325,subject,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,5,held,141,145,17030,17034,153,137.0,140.0,17026.0,17029.0,,,,,verb.emotion,327,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,6,busied,162,168,17051,17057,153,137.0,140.0,17026.0,17029.0,177.0,225.0,17066.0,17114.0,verb.social,328,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,7,applying,182,190,17071,17079,153,137.0,140.0,17026.0,17029.0,,,,,verb.consumption,329,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,9,binding,231,238,17120,17127,153,137.0,140.0,17026.0,17029.0,,,,,verb.contact,330,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,10,revived,274,281,17163,17170,44,252.0,273.0,17141.0,17162.0,,,,,verb.body,331,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+137,10,revived,274,281,17163,17170,153,252.0,273.0,17141.0,17162.0,,,,,verb.body,331,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,13,told,326,330,17215,17219,152,321.0,325.0,17210.0,17214.0,,,,,verb.communication,333,subject,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+138,2,avenged,11,18,17263,17270,153,1.0,2.0,17253.0,17254.0,,,,,verb.social,334,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+138,3,said,44,48,17296,17300,153,1.0,41.0,17253.0,17293.0,53.0,75.0,17305.0,17327.0,verb.communication,335,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+138,3,said,44,48,17296,17300,33,1.0,41.0,17253.0,17293.0,53.0,75.0,17305.0,17327.0,verb.communication,335,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+139,0,spoke,14,19,17342,17347,153,10.0,13.0,17338.0,17341.0,,,,,verb.communication,336,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+139,1,knew,42,46,17370,17374,44,30.0,41.0,17358.0,17369.0,,,,,verb.cognition,338,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+139,1,knew,42,46,17370,17374,153,30.0,41.0,17358.0,17369.0,,,,,verb.cognition,338,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+139,2,meant,56,61,17384,17389,153,52.0,55.0,17380.0,17383.0,,,,,verb.communication,337,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+139,3,said,71,75,17399,17403,153,62.0,66.0,17390.0,17394.0,,,,,verb.communication,340,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,1,fetched,46,53,17451,17458,153,42.0,45.0,17447.0,17450.0,,,,,verb.contact,339,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,2,put,69,72,17474,17477,153,42.0,45.0,17447.0,17450.0,,,,,verb.contact,341,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,3,covered,104,111,17509,17516,153,42.0,45.0,17447.0,17450.0,,,,,verb.contact,343,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,5,find,178,182,17583,17587,153,121.0,162.0,17526.0,17567.0,,,,,verb.possession,342,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,6,put,210,213,17615,17618,153,188.0,205.0,17593.0,17610.0,,,,,verb.contact,344,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,7,came,253,257,17658,17662,33,243.0,252.0,17648.0,17657.0,,,,,verb.motion,345,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+140,8,asked,273,278,17678,17683,153,269.0,272.0,17674.0,17677.0,284.0,304.0,17689.0,17709.0,verb.communication,346,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,10,do,318,320,17723,17725,33,309.0,311.0,17714.0,17716.0,,,,,verb.social,349,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+141,1,thought,87,94,17827,17834,33,84.0,86.0,17824.0,17826.0,,,,,verb.cognition,348,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+141,3,spun,103,107,17843,17847,153,95.0,98.0,17835.0,17838.0,,,,,verb.contact,347,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+141,4,said,109,113,17849,17853,153,4.0,107.0,17744.0,17847.0,,,,,verb.communication,350,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+141,4,said,109,113,17849,17853,33,4.0,107.0,17744.0,17847.0,,,,,verb.communication,350,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+142,1,eat,78,81,17947,17950,217,67.0,74.0,17936.0,17943.0,,,,,verb.consumption,352,subject,The Princess's mother,1.0,2.0,3.0,female,1.0,tertiary
+142,2,said,84,88,17953,17957,217,1.0,81.0,17870.0,17950.0,,,,,verb.communication,354,subject,The Princess's mother,1.0,2.0,3.0,female,1.0,tertiary
+142,2,said,84,88,17953,17957,31,1.0,81.0,17870.0,17950.0,,,,,verb.communication,354,subject,The Princess,16.0,165.0,181.0,female,1.0,primary
+144,3,bid,50,53,18112,18115,33,43.0,45.0,18105.0,18107.0,,,,,verb.social,355,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+144,4,carried,59,66,18121,18128,33,26.0,35.0,18088.0,18097.0,,,,,verb.contact,356,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+145,0,put,17,20,18172,18175,153,13.0,16.0,18168.0,18171.0,,,,,verb.contact,357,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,1,covered,63,70,18218,18225,153,13.0,16.0,18168.0,18171.0,,,,,verb.contact,359,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,3,find,110,114,18265,18269,153,80.0,99.0,18235.0,18254.0,,,,,verb.possession,358,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,4,put,133,136,18288,18291,153,13.0,16.0,18168.0,18171.0,,,,,verb.contact,361,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,8,carried,245,252,18400,18407,153,13.0,16.0,18168.0,18171.0,256.0,265.0,18411.0,18420.0,verb.motion,362,subject,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,8,carried,245,252,18400,18407,169,13.0,16.0,18168.0,18171.0,256.0,265.0,18411.0,18420.0,verb.motion,362,subject,"the two other Princesses's little sister's Giant , who was really getting very fond of her",1.0,0.0,1.0,unknown,0.0,tertiary
+146,0,told,37,41,18473,18477,157,17.0,36.0,18453.0,18472.0,,,,,verb.communication,363,subject,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,1,thought,55,62,18491,18498,157,51.0,54.0,18487.0,18490.0,,,,,verb.cognition,364,subject,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,3,go,78,80,18514,18516,157,68.0,71.0,18504.0,18507.0,,,,,verb.motion,366,subject,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,5,done,111,115,18547,18551,157,103.0,106.0,18539.0,18542.0,,,,,verb.social,365,subject,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,10,have,207,211,18643,18647,157,197.0,200.0,18633.0,18636.0,250.0,329.0,18686.0,18765.0,verb.consumption,367,subject,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,12,carry,262,267,18698,18703,33,253.0,255.0,18689.0,18691.0,271.0,329.0,18707.0,18765.0,verb.motion,368,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+147,0,promised,3,11,18770,18778,33,0.0,2.0,18767.0,18769.0,,,,,verb.communication,369,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+147,1,do,15,17,18782,18784,33,0.0,2.0,18767.0,18769.0,,,,,verb.social,371,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+149,3,find,140,144,18970,18974,175,85.0,124.0,18915.0,18954.0,,,,,verb.possession,370,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+149,4,brought,150,157,18980,18987,175,17.0,41.0,18847.0,18871.0,,,,,verb.contact,372,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+149,5,placed,167,173,18997,19003,175,17.0,41.0,18847.0,18871.0,,,,,verb.contact,373,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+150,1,cut,22,25,19049,19052,175,5.0,8.0,19032.0,19035.0,,,,,verb.contact,374,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+150,2,brought,50,57,19077,19084,175,5.0,8.0,19032.0,19035.0,61.0,63.0,19088.0,19090.0,verb.contact,375,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+150,3,laid,68,72,19095,19099,175,5.0,8.0,19032.0,19035.0,76.0,87.0,19103.0,19114.0,verb.contact,376,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+151,0,crept,9,14,19125,19130,175,5.0,8.0,19121.0,19124.0,,,,,verb.motion,377,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+151,1,pulled,43,49,19159,19165,175,5.0,8.0,19121.0,19124.0,,,,,verb.contact,378,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+151,2,covered,97,104,19213,19220,175,93.0,96.0,19209.0,19212.0,116.0,225.0,19232.0,19341.0,verb.contact,379,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+152,0,lay,9,12,19352,19355,175,5.0,8.0,19348.0,19351.0,,,,,verb.contact,380,subject,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+153,1,lifted,62,68,19442,19448,33,59.0,61.0,19439.0,19441.0,,,,,verb.motion,381,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+153,2,carried,83,90,19463,19470,33,59.0,61.0,19439.0,19441.0,94.0,97.0,19474.0,19477.0,verb.motion,382,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+154,2,set,35,38,19541,19544,33,32.0,34.0,19538.0,19540.0,,,,,verb.contact,383,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+154,3,turned,65,71,19571,19577,33,32.0,34.0,19538.0,19540.0,,,,,verb.motion,386,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+155,1,told,28,32,19618,19622,157,4.0,23.0,19594.0,19613.0,,,,,verb.communication,385,subject,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+155,3,had,66,69,19656,19659,44,61.0,65.0,19651.0,19655.0,105.0,133.0,19695.0,19723.0,verb.consumption,384,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+155,4,heard,149,154,19739,19744,44,144.0,148.0,19734.0,19738.0,,,,,verb.perception,387,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+155,5,coming,165,171,19755,19761,33,155.0,164.0,19745.0,19754.0,,,,,verb.motion,388,subject,the Giant,21.0,77.0,98.0,male,1.0,secondary
+155,7,emptied,233,240,19823,19830,44,202.0,206.0,19792.0,19796.0,,,,,verb.consumption,389,subject,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+0,1,had,48,51,48,51,10,52.0,67.0,52.0,67.0,,,,,verb.possession,0,direct_object,three daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+1,3,passed,75,81,144,150,13,82.0,188.0,151.0,257.0,,,,,verb.possession,3,direct_object,a distant cousin,1.0,0.0,1.0,unknown,0.0,tertiary
+1,3,passed,75,81,144,150,15,82.0,188.0,151.0,257.0,,,,,verb.possession,3,direct_object,the widowed Queen's daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+1,3,passed,75,81,144,150,14,82.0,188.0,151.0,257.0,,,,,verb.possession,3,direct_object,the widowed Queen,1.0,1.0,2.0,female,1.0,tertiary
+1,3,passed,75,81,144,150,12,82.0,188.0,151.0,257.0,,,,,verb.possession,3,direct_object,the King,1.0,1.0,2.0,male,1.0,tertiary
+1,5,hated,118,123,187,192,12,124.0,127.0,193.0,196.0,,,,,verb.emotion,2,direct_object,the King,1.0,1.0,2.0,male,1.0,tertiary
+1,6,paid,137,141,206,210,15,142.0,149.0,211.0,218.0,,,,,verb.communication,4,direct_object,the widowed Queen's daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+1,6,paid,137,141,206,210,14,142.0,149.0,211.0,218.0,,,,,verb.communication,4,direct_object,the widowed Queen,1.0,1.0,2.0,female,1.0,tertiary
+5,0,discovered,14,24,664,674,24,25.0,84.0,675.0,734.0,,,,,verb.cognition,7,direct_object,,,,,,,
+7,0,said,23,27,909,913,27,28.0,169.0,914.0,1055.0,,,,,verb.communication,8,direct_object,the thief,1.0,0.0,1.0,unknown,0.0,tertiary
+7,0,said,23,27,909,913,25,28.0,169.0,914.0,1055.0,,,,,verb.communication,8,direct_object,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,3,wrap,73,77,959,963,25,78.0,85.0,964.0,971.0,,,,,verb.contact,9,direct_object,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,5,see,137,140,1023,1026,27,141.0,169.0,1027.0,1055.0,,,,,verb.social,11,direct_object,the thief,1.0,0.0,1.0,unknown,0.0,tertiary
+7,5,see,137,140,1023,1026,25,141.0,169.0,1027.0,1055.0,,,,,verb.social,11,direct_object,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+7,7,catch,154,159,1040,1045,27,160.0,169.0,1046.0,1055.0,,,,,verb.cognition,13,direct_object,the thief,1.0,0.0,1.0,unknown,0.0,tertiary
+9,0,seemed,12,18,1127,1133,25,19.0,106.0,1134.0,1221.0,,,,,verb.perception,12,direct_object,the eldest Princess,1.0,6.0,7.0,female,1.0,tertiary
+12,0,began,8,13,1575,1580,30,14.0,87.0,1581.0,1654.0,,,,,verb.change,19,direct_object,a mighty Giant,1.0,5.0,6.0,male,1.0,tertiary
+13,2,expected,57,65,1713,1721,32,66.0,81.0,1722.0,1737.0,,,,,verb.cognition,20,direct_object,a Giant,1.0,0.0,1.0,unknown,0.0,tertiary
+13,3,face,69,73,1725,1729,32,74.0,81.0,1730.0,1737.0,,,,,verb.communication,24,direct_object,a Giant,1.0,0.0,1.0,unknown,0.0,tertiary
+13,6,gave,140,144,1796,1800,33,145.0,157.0,1801.0,1813.0,158.0,168.0,1814.0,1824.0,verb.possession,23,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+16,1,hear,12,16,1953,1957,34,17.0,19.0,1958.0,1960.0,,,,,verb.perception,27,direct_object,the girl,1.0,2.0,3.0,female,1.0,tertiary
+17,0,cried,0,5,1963,1968,34,6.0,14.0,1969.0,1977.0,15.0,26.0,,,verb.communication,28,direct_object,the girl,1.0,2.0,3.0,female,1.0,tertiary
+19,3,take,33,37,2101,2105,31,38.0,41.0,2106.0,2109.0,42.0,45.0,2110.0,2113.0,verb.social,29,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+19,4,said,48,52,2116,2120,33,53.0,69.0,2121.0,2137.0,71.0,112.0,2139.0,2180.0,verb.communication,30,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+20,1,like,10,14,2192,2196,33,15.0,29.0,2197.0,2211.0,,,,,verb.emotion,32,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+20,2,see,18,21,2200,2203,33,22.0,29.0,2204.0,2211.0,,,,,verb.perception,33,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+20,4,retorted,32,40,2214,2222,31,41.0,53.0,2223.0,2235.0,55.0,98.0,2237.0,2280.0,verb.communication,34,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+20,5,rising,55,61,2237,2243,31,62.0,76.0,2244.0,2258.0,,,,,verb.motion,36,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+20,6,stamping,81,89,2263,2271,31,90.0,98.0,2272.0,2280.0,,,,,verb.contact,38,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+21,0,felt,9,13,2290,2294,33,14.0,121.0,2295.0,2402.0,,,,,verb.emotion,37,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+21,0,felt,9,13,2290,2294,38,14.0,121.0,2295.0,2402.0,,,,,verb.emotion,37,direct_object,a weak maiden,1.0,0.0,1.0,female,1.0,tertiary
+21,0,felt,9,13,2290,2294,31,14.0,121.0,2295.0,2402.0,,,,,verb.emotion,37,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+21,0,felt,9,13,2290,2294,39,14.0,121.0,2295.0,2402.0,,,,,verb.emotion,37,direct_object,a great and powerful Giant,1.0,0.0,1.0,unknown,0.0,tertiary
+21,1,forgot,32,38,2313,2319,33,52.0,121.0,2333.0,2402.0,,,,,verb.cognition,39,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+21,1,forgot,32,38,2313,2319,38,52.0,121.0,2333.0,2402.0,,,,,verb.cognition,39,direct_object,a weak maiden,1.0,0.0,1.0,female,1.0,tertiary
+21,1,forgot,32,38,2313,2319,31,52.0,121.0,2333.0,2402.0,,,,,verb.cognition,39,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+21,1,forgot,32,38,2313,2319,39,52.0,121.0,2333.0,2402.0,,,,,verb.cognition,39,direct_object,a great and powerful Giant,1.0,0.0,1.0,unknown,0.0,tertiary
+22,0,show,14,18,2418,2422,33,19.0,22.0,2423.0,2426.0,,,,,verb.perception,41,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+22,0,show,14,18,2418,2422,31,19.0,22.0,2423.0,2426.0,,,,,verb.perception,41,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+22,2,seized,45,51,2449,2455,31,52.0,55.0,2456.0,2459.0,,,,,verb.contact,40,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+22,3,put,84,87,2488,2491,33,88.0,91.0,2492.0,2495.0,,,,,verb.contact,42,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+22,3,put,84,87,2488,2491,31,88.0,91.0,2492.0,2495.0,,,,,verb.contact,42,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+22,4,carried,137,144,2541,2548,31,145.0,148.0,2549.0,2552.0,149.0,160.0,2553.0,2564.0,verb.contact,43,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+23,0,reached,8,15,2574,2581,33,16.0,76.0,2582.0,2642.0,,,,,verb.motion,44,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+23,2,took,81,85,2647,2651,31,86.0,89.0,2652.0,2655.0,,,,,verb.contact,45,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+23,3,set,99,102,2665,2668,31,103.0,106.0,2669.0,2672.0,,,,,verb.contact,46,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+24,3,keep,44,48,2744,2748,33,49.0,57.0,2749.0,2757.0,,,,,verb.possession,48,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+24,4,do,63,65,2763,2765,33,66.0,76.0,2766.0,2776.0,,,,,verb.social,50,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+25,0,have,2,6,2787,2791,31,7.0,64.0,2792.0,2849.0,,,,,verb.possession,49,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+26,0,see,5,8,2855,2858,33,10.0,240.0,2860.0,3090.0,,,,,verb.creation,52,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+26,0,see,5,8,2855,2858,31,10.0,240.0,2860.0,3090.0,,,,,verb.creation,52,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+26,0,see,5,8,2855,2858,197,10.0,240.0,2860.0,3090.0,,,,,verb.creation,52,direct_object,a good housewife,1.0,0.0,1.0,unknown,0.0,tertiary
+26,10,weave,201,206,3051,3056,33,207.0,240.0,3057.0,3090.0,,,,,verb.contact,56,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+27,3,expect,55,61,3147,3153,33,62.0,144.0,3154.0,3236.0,,,,,verb.cognition,57,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+28,1,heard,45,50,3284,3289,43,51.0,110.0,3290.0,3349.0,,,,,verb.perception,61,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+28,8,help,150,154,3389,3393,43,155.0,158.0,3394.0,3397.0,,,,,verb.social,58,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+29,0,took,15,19,3413,3417,43,20.0,45.0,3418.0,3443.0,,,,,verb.perception,62,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+29,4,begin,122,127,3520,3525,43,128.0,136.0,3526.0,3534.0,,,,,verb.change,63,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+30,4,told,67,71,3603,3607,43,72.0,75.0,3608.0,3611.0,,,,,verb.communication,65,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+32,0,thought,7,14,3766,3773,43,15.0,128.0,3774.0,3887.0,,,,,verb.cognition,69,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+32,3,make,59,63,3818,3822,43,64.0,85.0,3823.0,3844.0,86.0,128.0,,,verb.creation,70,direct_object,The poor Princess,1.0,20.0,21.0,female,1.0,tertiary
+35,2,reached,28,35,4104,4111,31,36.0,56.0,4112.0,4132.0,,,,,verb.motion,77,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+38,2,laughing,26,34,4388,4396,58,35.0,51.0,4397.0,4413.0,,,,,verb.body,79,direct_object,one another,1.0,0.0,1.0,unknown,0.0,tertiary
+39,1,reached,72,79,4486,4493,52,80.0,188.0,4494.0,4602.0,,,,,verb.motion,80,direct_object,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+39,1,reached,72,79,4486,4493,31,80.0,188.0,4494.0,4602.0,,,,,verb.motion,80,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+39,4,eating,169,175,4583,4589,31,176.0,188.0,4590.0,4602.0,,,,,verb.consumption,81,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+41,0,spare,1,6,4676,4681,2,7.0,24.0,4682.0,4699.0,,,,,verb.possession,84,direct_object,Peerie Folk,5.0,0.0,5.0,unknown,0.0,tertiary
+44,0,shook,8,13,4820,4825,31,14.0,22.0,4826.0,4834.0,,,,,verb.motion,85,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+44,1,waved,27,32,4839,4844,52,33.0,37.0,4845.0,4849.0,55.0,69.0,4867.0,4881.0,verb.communication,87,direct_object,"a crowd of wee , wee Peerie Folk",1.0,15.0,16.0,group/nonbinary,1.0,tertiary
+44,2,have,124,128,4936,4940,31,129.0,130.0,4941.0,4942.0,,,,,verb.possession,86,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+45,2,feel,61,65,5014,5018,61,66.0,145.0,5019.0,5098.0,,,,,verb.emotion,89,direct_object,the Peerie Folk standing on the table,1.0,0.0,1.0,unknown,0.0,tertiary
+45,2,feel,61,65,5014,5018,31,66.0,145.0,5019.0,5098.0,,,,,verb.emotion,89,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+45,4,looking,131,138,5084,5091,31,139.0,145.0,5092.0,5098.0,,,,,verb.perception,88,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+46,0,finished,15,23,5142,5150,31,24.0,36.0,5151.0,5163.0,37.0,45.0,5164.0,5172.0,verb.change,92,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+49,2,try,68,71,5360,5363,31,72.0,84.0,5364.0,5376.0,,,,,verb.social,97,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+50,1,found,32,37,5445,5450,33,38.0,172.0,5451.0,5585.0,,,,,verb.perception,101,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+50,1,found,32,37,5445,5450,31,38.0,172.0,5451.0,5585.0,,,,,verb.perception,101,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+50,5,left,129,133,5542,5546,33,134.0,141.0,5547.0,5554.0,142.0,152.0,5555.0,5565.0,verb.possession,99,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+52,0,took,16,20,5699,5703,31,21.0,24.0,5704.0,5707.0,,,,,verb.contact,106,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+52,1,beat,43,47,5726,5730,31,48.0,51.0,5731.0,5734.0,52.0,95.0,5735.0,5778.0,verb.contact,107,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+53,0,carried,9,16,5788,5795,31,17.0,20.0,5796.0,5799.0,21.0,36.0,5800.0,5815.0,verb.contact,109,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+53,1,threw,42,47,5821,5826,31,48.0,51.0,5827.0,5830.0,52.0,83.0,5831.0,5862.0,verb.contact,110,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+56,0,said,23,27,6121,6125,31,28.0,183.0,6126.0,6281.0,,,,,verb.communication,113,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+56,0,said,23,27,6121,6125,70,28.0,183.0,6126.0,6281.0,,,,,verb.communication,113,direct_object,The Princess's sister,2.0,0.0,2.0,female,1.0,tertiary
+56,5,wrap,74,78,6172,6176,31,79.0,86.0,6177.0,6184.0,,,,,verb.contact,114,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+57,1,befell,38,44,6321,6327,31,45.0,48.0,6328.0,6331.0,,,,,verb.change,117,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+57,3,befallen,58,66,6341,6349,71,67.0,83.0,6350.0,6366.0,,,,,verb.emotion,116,direct_object,The Princess's elder sister,1.0,0.0,1.0,female,1.0,tertiary
+57,3,befallen,58,66,6341,6349,31,67.0,83.0,6350.0,6366.0,,,,,verb.emotion,116,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+58,1,carried,42,49,6410,6417,31,50.0,53.0,6418.0,6421.0,,,,,verb.contact,119,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+58,2,set,63,66,6431,6434,33,67.0,70.0,6435.0,6438.0,,,,,verb.contact,120,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+58,2,set,63,66,6431,6434,31,67.0,70.0,6435.0,6438.0,,,,,verb.contact,120,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+58,4,make,109,113,6477,6481,33,114.0,126.0,6482.0,6494.0,,,,,verb.change,122,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+59,2,asked,55,60,6562,6567,31,61.0,64.0,6568.0,6571.0,,,,,verb.communication,124,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,1,comb,31,35,6655,6659,31,44.0,52.0,6668.0,6676.0,,,,,verb.contact,127,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,2,card,39,43,6663,6667,31,44.0,52.0,6668.0,6676.0,,,,,verb.contact,128,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,4,scolded,86,93,6710,6717,31,94.0,97.0,6718.0,6721.0,,,,,verb.communication,129,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,5,beat,103,107,6727,6731,31,108.0,111.0,6732.0,6735.0,,,,,verb.contact,130,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+60,6,threw,117,122,6741,6746,31,123.0,126.0,6747.0,6750.0,131.0,186.0,6755.0,6810.0,verb.contact,131,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+61,5,discover,136,144,6948,6956,44,145.0,177.0,6957.0,6989.0,,,,,verb.cognition,136,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+61,5,discover,136,144,6948,6956,31,145.0,177.0,6957.0,6989.0,,,,,verb.cognition,136,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+61,7,happened,154,162,6966,6974,44,163.0,177.0,6975.0,6989.0,,,,,verb.change,135,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+61,7,happened,154,162,6966,6974,31,163.0,177.0,6975.0,6989.0,,,,,verb.change,135,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+62,1,carried,28,35,7019,7026,31,36.0,39.0,7027.0,7030.0,40.0,43.0,7031.0,7034.0,verb.contact,138,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+63,0,felt,13,17,7135,7139,44,18.0,107.0,7140.0,7229.0,,,,,verb.cognition,140,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+63,0,felt,13,17,7135,7139,31,18.0,107.0,7140.0,7229.0,,,,,verb.cognition,140,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+63,1,had,27,30,7149,7152,44,31.0,107.0,7153.0,7229.0,,,,,verb.possession,139,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+64,1,felt,45,49,7276,7280,31,50.0,143.0,7281.0,7374.0,,,,,verb.cognition,141,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+64,1,felt,45,49,7276,7280,3,50.0,143.0,7281.0,7374.0,,,,,verb.cognition,141,direct_object,the Giant,1.0,0.0,1.0,unknown,0.0,tertiary
+64,3,outwit,88,94,7319,7325,3,95.0,104.0,7326.0,7335.0,,,,,verb.competition,142,direct_object,the Giant,1.0,0.0,1.0,unknown,0.0,tertiary
+65,4,carrying,124,132,7499,7507,31,133.0,136.0,7508.0,7511.0,,,,,verb.motion,143,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,0,set,12,15,7529,7532,31,16.0,19.0,7533.0,7536.0,25.0,39.0,7542.0,7556.0,verb.contact,145,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,1,told,45,49,7562,7566,33,50.0,53.0,7567.0,7570.0,,,,,verb.communication,147,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+66,1,told,45,49,7562,7566,31,50.0,53.0,7567.0,7570.0,,,,,verb.communication,147,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,2,expected,66,74,7583,7591,31,75.0,84.0,7592.0,7601.0,,,,,verb.cognition,146,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,6,nodded,134,140,7651,7657,31,141.0,149.0,7658.0,7666.0,150.0,158.0,7667.0,7675.0,verb.communication,150,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,7,said,164,168,7681,7685,31,169.0,208.0,7686.0,7725.0,,,,,verb.communication,152,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+66,8,felt,178,182,7695,7699,31,183.0,208.0,7700.0,7725.0,,,,,verb.emotion,151,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+67,0,sang,8,12,7735,7739,31,13.0,23.0,7740.0,7750.0,24.0,243.0,7751.0,7970.0,verb.communication,154,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+67,9,told,203,207,7930,7934,33,208.0,217.0,7935.0,7944.0,,,,,verb.communication,156,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+68,2,made,37,41,8009,8013,44,42.0,63.0,8014.0,8035.0,65.0,69.0,8037.0,8041.0,verb.creation,158,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+68,2,made,37,41,8009,8013,31,42.0,63.0,8014.0,8035.0,65.0,69.0,8037.0,8041.0,verb.creation,158,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+69,6,stared,137,143,8203,8209,31,144.0,150.0,8210.0,8216.0,,,,,verb.perception,161,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+72,0,replied,21,28,8328,8335,91,29.0,54.0,8336.0,8361.0,,,,,verb.communication,163,direct_object,the good - natured Princess,1.0,4.0,5.0,female,1.0,tertiary
+73,1,find,12,16,8375,8379,90,17.0,59.0,8380.0,8422.0,,,,,verb.possession,164,direct_object,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+74,0,seems,8,13,8458,8463,91,14.0,19.0,8464.0,8469.0,,,,,verb.perception,166,direct_object,the good - natured Princess,1.0,4.0,5.0,female,1.0,tertiary
+74,0,seems,8,13,8458,8463,90,14.0,19.0,8464.0,8469.0,,,,,verb.perception,166,direct_object,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+74,2,give,34,38,8484,8488,90,39.0,42.0,8489.0,8492.0,,,,,verb.possession,167,direct_object,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+74,4,smother,69,76,8519,8526,90,77.0,87.0,8527.0,8537.0,88.0,106.0,8538.0,8556.0,verb.contact,168,direct_object,all the little yellow - haired Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+76,4,holding,98,105,8771,8778,92,106.0,193.0,8779.0,8866.0,,,,,verb.contact,172,direct_object,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+77,3,brought,200,207,9067,9074,92,208.0,217.0,9075.0,9084.0,218.0,234.0,9085.0,9101.0,verb.contact,174,direct_object,the Peerie Folk,1.0,11.0,12.0,group/nonbinary,1.0,tertiary
+81,4,find,101,105,9333,9337,44,106.0,110.0,9338.0,9342.0,,,,,verb.possession,178,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+82,2,find,20,24,9364,9368,44,25.0,29.0,9369.0,9373.0,30.0,34.0,9374.0,9378.0,verb.possession,180,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+82,3,said,41,45,9385,9389,31,46.0,56.0,9390.0,9400.0,,,,,verb.communication,179,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+85,3,told,83,87,9590,9594,31,88.0,91.0,9595.0,9598.0,,,,,verb.communication,181,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+87,2,eaten,50,55,9765,9770,31,56.0,79.0,9771.0,9794.0,,,,,verb.consumption,183,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+88,1,looked,52,58,9921,9927,4,59.0,68.0,9928.0,9937.0,,,,,verb.perception,187,direct_object,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+89,1,have,8,12,9947,9951,4,13.0,34.0,9952.0,9973.0,,,,,verb.possession,188,direct_object,a Yellow - Haired Peerie Boy,2.0,8.0,10.0,male,1.0,tertiary
+92,0,have,3,7,10058,10062,201,8.0,46.0,10063.0,10101.0,,,,,verb.possession,192,direct_object,anybody who asks it,1.0,0.0,1.0,unknown,0.0,tertiary
+92,2,replied,49,56,10104,10111,31,57.0,69.0,10112.0,10124.0,,,,,verb.communication,194,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+95,3,pay,59,62,10422,10425,5,63.0,89.0,10426.0,10452.0,,,,,verb.possession,203,direct_object,tyou,1.0,3.0,4.0,unknown,0.0,tertiary
+96,0,thought,13,20,10468,10475,106,21.0,84.0,10476.0,10539.0,86.0,227.0,10541.0,10682.0,verb.cognition,202,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+96,6,gave,165,169,10620,10624,106,170.0,172.0,10625.0,10627.0,,,,,verb.possession,205,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+97,1,see,23,26,10707,10710,106,27.0,40.0,10711.0,10724.0,,,,,verb.communication,209,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+97,6,follow,86,92,10770,10776,106,93.0,96.0,10777.0,10780.0,97.0,117.0,10781.0,10801.0,verb.motion,211,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+98,3,began,99,104,10954,10959,33,105.0,256.0,10960.0,11111.0,,,,,verb.change,213,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+98,3,began,99,104,10954,10959,31,105.0,256.0,10960.0,11111.0,,,,,verb.change,213,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,4,wonder,108,114,10963,10969,33,115.0,156.0,10970.0,11011.0,,,,,verb.cognition,214,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+98,4,wonder,108,114,10963,10969,31,115.0,156.0,10970.0,11011.0,,,,,verb.cognition,214,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+98,8,found,161,166,11016,11021,31,167.0,256.0,11022.0,11111.0,,,,,verb.cognition,217,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+99,6,felt,120,124,11233,11237,31,125.0,159.0,11238.0,11272.0,,,,,verb.cognition,221,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+100,5,found,98,103,11410,11415,111,104.0,167.0,11416.0,11479.0,,,,,verb.perception,224,direct_object,an old woman,1.0,0.0,1.0,female,1.0,tertiary
+101,9,know,157,161,11638,11642,33,162.0,186.0,11643.0,11667.0,,,,,verb.cognition,226,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+102,0,told,7,11,11676,11680,116,12.0,25.0,11681.0,11694.0,,,,,verb.communication,227,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+102,0,told,7,11,11676,11680,117,12.0,25.0,11681.0,11694.0,,,,,verb.communication,227,direct_object,a servant,1.0,0.0,1.0,unknown,0.0,tertiary
+102,0,told,7,11,11676,11680,118,12.0,25.0,11681.0,11694.0,,,,,verb.communication,227,direct_object,the mistress of the house,1.0,0.0,1.0,unknown,0.0,tertiary
+102,0,told,7,11,11676,11680,31,12.0,25.0,11681.0,11694.0,,,,,verb.communication,227,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+102,0,told,7,11,11676,11680,106,12.0,25.0,11681.0,11694.0,,,,,verb.communication,227,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+102,2,take,45,49,11714,11718,106,50.0,53.0,11719.0,11722.0,54.0,132.0,11723.0,11801.0,verb.possession,229,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+103,0,made,9,13,11811,11815,106,14.0,94.0,11816.0,11896.0,,,,,verb.creation,230,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+103,2,brought,59,66,11861,11868,106,67.0,70.0,11869.0,11872.0,71.0,74.0,11873.0,11876.0,verb.possession,231,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+103,3,gave,100,104,11902,11906,106,105.0,108.0,11907.0,11910.0,,,,,verb.possession,232,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+103,4,bathe,123,128,11925,11930,106,129.0,149.0,11931.0,11951.0,,,,,verb.body,233,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,2,told,74,78,12027,12031,116,79.0,82.0,12032.0,12035.0,,,,,verb.communication,235,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+104,2,told,74,78,12027,12031,31,79.0,82.0,12032.0,12035.0,,,,,verb.communication,235,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+104,2,told,74,78,12027,12031,106,79.0,82.0,12032.0,12035.0,,,,,verb.communication,235,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,5,turn,106,110,12059,12063,116,111.0,114.0,12064.0,12067.0,115.0,119.0,12068.0,12072.0,verb.possession,236,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+104,6,gave,140,144,12093,12097,116,145.0,148.0,12098.0,12101.0,,,,,verb.possession,237,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+104,6,gave,140,144,12093,12097,106,145.0,148.0,12098.0,12101.0,,,,,verb.possession,237,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+104,7,told,167,171,12120,12124,106,172.0,175.0,12125.0,12128.0,196.0,201.0,12149.0,12154.0,verb.communication,238,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+105,1,finished,18,26,12307,12315,106,27.0,45.0,12316.0,12334.0,,,,,verb.change,241,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+106,2,felt,42,46,12491,12495,106,47.0,94.0,12496.0,12543.0,96.0,218.0,12545.0,12667.0,verb.perception,245,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+107,1,heard,32,37,12701,12706,106,38.0,126.0,12707.0,12795.0,,,,,verb.perception,247,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+107,1,heard,32,37,12701,12706,206,38.0,126.0,12707.0,12795.0,,,,,verb.perception,247,direct_object,TEASENS,1.0,0.0,1.0,unknown,0.0,tertiary
+107,2,seemed,53,59,12722,12728,106,60.0,126.0,12729.0,12795.0,,,,,verb.perception,248,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+107,2,seemed,53,59,12722,12728,206,60.0,126.0,12729.0,12795.0,,,,,verb.perception,248,direct_object,TEASENS,1.0,0.0,1.0,unknown,0.0,tertiary
+107,4,saying,96,102,12765,12771,206,105.0,126.0,12774.0,12795.0,,,,,verb.communication,250,direct_object,TEASENS,1.0,0.0,1.0,unknown,0.0,tertiary
+110,1,call,48,52,12887,12891,106,53.0,55.0,12892.0,12894.0,,,,,verb.communication,249,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+112,0,put,14,17,13032,13035,106,18.0,25.0,13036.0,13043.0,,,,,verb.contact,253,direct_object,the boy,2.0,39.0,41.0,male,1.0,tertiary
+113,6,wetting,104,111,13323,13330,124,112.0,125.0,13331.0,13344.0,126.0,207.0,13345.0,13426.0,verb.contact,259,direct_object,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+114,2,urging,62,68,13542,13548,124,69.0,73.0,13549.0,13553.0,,,,,verb.communication,262,direct_object,all the Peerie Folk,1.0,9.0,10.0,group/nonbinary,1.0,tertiary
+115,2,said,57,61,13659,13663,116,62.0,75.0,13664.0,13677.0,88.0,144.0,13690.0,13746.0,verb.communication,265,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+116,3,tell,20,24,13768,13772,208,25.0,42.0,13773.0,13790.0,43.0,62.0,13791.0,13810.0,verb.communication,268,direct_object,the bonnie lassie,1.0,1.0,2.0,female,1.0,tertiary
+119,1,told,34,38,13992,13996,116,39.0,51.0,13997.0,14009.0,,,,,verb.communication,271,direct_object,the old woman,4.0,9.0,13.0,female,1.0,tertiary
+119,1,told,34,38,13992,13996,31,39.0,51.0,13997.0,14009.0,,,,,verb.communication,271,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+119,7,told,137,141,14095,14099,31,142.0,145.0,14100.0,14103.0,,,,,verb.communication,272,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+119,8,risked,155,161,14113,14119,33,162.0,179.0,14120.0,14137.0,,,,,verb.possession,273,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+119,9,allowed,184,191,14142,14149,31,192.0,226.0,14150.0,14184.0,,,,,verb.social,274,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+121,4,tell,110,114,14466,14470,135,115.0,117.0,14471.0,14473.0,,,,,verb.communication,280,direct_object,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+122,1,thought,43,50,14535,14542,31,51.0,155.0,14543.0,14647.0,,,,,verb.cognition,281,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+122,1,thought,43,50,14535,14542,138,51.0,155.0,14543.0,14647.0,,,,,verb.cognition,281,direct_object,the little follow,1.0,3.0,4.0,male,1.0,tertiary
+122,3,tease,66,71,14558,14563,138,72.0,89.0,14564.0,14581.0,90.0,155.0,14582.0,14647.0,verb.emotion,282,direct_object,the little follow,1.0,3.0,4.0,male,1.0,tertiary
+122,4,let,109,112,14601,14604,138,113.0,121.0,14605.0,14613.0,,,,,verb.communication,283,direct_object,the little follow,1.0,3.0,4.0,male,1.0,tertiary
+122,5,know,117,121,14609,14613,31,122.0,155.0,14614.0,14647.0,,,,,verb.cognition,284,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+122,5,know,117,121,14609,14613,138,122.0,155.0,14614.0,14647.0,,,,,verb.cognition,284,direct_object,the little follow,1.0,3.0,4.0,male,1.0,tertiary
+123,1,pretending,57,67,14706,14716,31,68.0,112.0,14717.0,14761.0,,,,,verb.communication,286,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+123,2,think,71,76,14720,14725,31,77.0,112.0,14726.0,14761.0,,,,,verb.cognition,288,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+124,2,thought,79,86,14841,14848,31,87.0,172.0,14849.0,14934.0,,,,,verb.cognition,289,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+124,2,thought,79,86,14841,14848,135,87.0,172.0,14849.0,14934.0,,,,,verb.cognition,289,direct_object,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+125,4,know,120,124,15056,15060,7,125.0,165.0,15061.0,15101.0,,,,,verb.cognition,293,direct_object,little Mannikin,1.0,0.0,1.0,unknown,0.0,tertiary
+125,4,know,120,124,15056,15060,6,125.0,165.0,15061.0,15101.0,,,,,verb.cognition,293,direct_object,PEERIFOOL,3.0,0.0,3.0,unknown,0.0,tertiary
+125,5,called,132,138,15068,15074,6,139.0,148.0,15075.0,15084.0,,,,,verb.communication,292,direct_object,PEERIFOOL,3.0,0.0,3.0,unknown,0.0,tertiary
+126,0,knew,8,12,15112,15116,31,13.0,67.0,15117.0,15171.0,,,,,verb.cognition,294,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+126,0,knew,8,12,15112,15116,135,13.0,67.0,15117.0,15171.0,,,,,verb.cognition,294,direct_object,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+126,0,knew,8,12,15112,15116,207,13.0,67.0,15117.0,15171.0,,,,,verb.cognition,294,direct_object,men,2.0,0.0,2.0,male,1.0,tertiary
+126,3,called,57,63,15161,15167,135,64.0,67.0,15168.0,15171.0,,,,,verb.communication,295,direct_object,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+126,8,slamming,192,200,15296,15304,135,201.0,203.0,15305.0,15307.0,,,,,verb.contact,296,direct_object,the Peerie Boy,2.0,12.0,14.0,male,1.0,tertiary
+127,2,met,92,95,15412,15415,2,96.0,139.0,15416.0,15459.0,141.0,206.0,15461.0,15526.0,verb.motion,300,direct_object,Peerie Folk,5.0,0.0,5.0,unknown,0.0,tertiary
+127,2,met,92,95,15412,15415,144,96.0,139.0,15416.0,15459.0,141.0,206.0,15461.0,15526.0,verb.motion,300,direct_object,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+127,4,looking,141,148,15461,15468,144,149.0,206.0,15469.0,15526.0,,,,,verb.perception,302,direct_object,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+128,2,hanging,51,58,15579,15586,144,59.0,75.0,15587.0,15603.0,,,,,verb.contact,301,direct_object,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+129,2,told,39,43,15734,15738,147,44.0,47.0,15739.0,15742.0,,,,,verb.communication,307,direct_object,a troop of little Peerie Folk's Master,1.0,0.0,1.0,unknown,0.0,tertiary
+129,2,told,39,43,15734,15738,33,44.0,47.0,15739.0,15742.0,,,,,verb.communication,307,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+129,2,told,39,43,15734,15738,144,44.0,47.0,15739.0,15742.0,,,,,verb.communication,307,direct_object,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+130,3,used,68,72,15907,15911,144,73.0,77.0,15912.0,15916.0,78.0,181.0,15917.0,16020.0,verb.consumption,308,direct_object,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+130,4,wet,92,95,15931,15934,144,96.0,109.0,15935.0,15948.0,,,,,verb.change,309,direct_object,a troop of little Peerie Folk,1.0,14.0,15.0,group/nonbinary,1.0,tertiary
+131,0,thought,10,17,16032,16039,211,18.0,54.0,16040.0,16076.0,,,,,verb.cognition,310,direct_object,women who could spin,1.0,0.0,1.0,female,1.0,tertiary
+131,3,said,57,61,16079,16083,33,62.0,71.0,16084.0,16093.0,,,,,verb.communication,313,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+132,7,spoil,131,136,16278,16283,214,137.0,145.0,16284.0,16292.0,146.0,160.0,16293.0,16307.0,verb.body,314,direct_object,a bonnie little woman,1.0,2.0,3.0,female,1.0,tertiary
+133,2,find,63,67,16373,16377,150,68.0,145.0,16378.0,16455.0,,,,,verb.cognition,317,direct_object,the Giant's new servant,1.0,5.0,6.0,female,1.0,tertiary
+133,2,find,63,67,16373,16377,33,68.0,145.0,16378.0,16455.0,,,,,verb.cognition,317,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+134,1,see,24,27,16481,16484,150,28.0,135.0,16485.0,16592.0,,,,,verb.perception,318,direct_object,the Giant's new servant,1.0,5.0,6.0,female,1.0,tertiary
+135,4,restore,128,135,16722,16729,150,136.0,148.0,16730.0,16742.0,,,,,verb.social,321,direct_object,the Giant's new servant,1.0,5.0,6.0,female,1.0,tertiary
+135,4,restore,128,135,16722,16729,216,136.0,148.0,16730.0,16742.0,,,,,verb.social,321,direct_object,the Giant's new servant's sisters,1.0,0.0,1.0,female,1.0,tertiary
+136,1,lifted,33,39,16785,16791,152,40.0,64.0,16792.0,16816.0,65.0,86.0,16817.0,16838.0,verb.contact,320,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+136,2,brought,92,99,16844,16851,152,100.0,104.0,16852.0,16856.0,,,,,verb.contact,322,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+136,3,laid,112,116,16864,16868,152,117.0,121.0,16869.0,16873.0,,,,,verb.contact,323,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,1,saw,51,54,16940,16943,152,55.0,107.0,16944.0,16996.0,,,,,verb.perception,326,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,5,held,141,145,17030,17034,153,146.0,156.0,17035.0,17045.0,,,,,verb.emotion,327,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,6,busied,162,168,17051,17057,153,169.0,176.0,17058.0,17065.0,177.0,225.0,17066.0,17114.0,verb.social,328,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,7,applying,182,190,17071,17079,152,191.0,209.0,17080.0,17098.0,,,,,verb.consumption,329,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,9,binding,231,238,17120,17127,152,239.0,243.0,17128.0,17132.0,,,,,verb.contact,330,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,13,told,326,330,17215,17219,153,331.0,334.0,17220.0,17223.0,,,,,verb.communication,333,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+137,13,told,326,330,17215,17219,152,331.0,334.0,17220.0,17223.0,,,,,verb.communication,333,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+137,15,befallen,348,356,17237,17245,152,357.0,361.0,17246.0,17250.0,,,,,verb.emotion,332,direct_object,the two other Princesses,1.0,9.0,10.0,female,1.0,tertiary
+139,1,knew,42,46,17370,17374,153,47.0,75.0,17375.0,17403.0,,,,,verb.cognition,338,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+139,2,meant,56,61,17384,17389,153,62.0,75.0,17390.0,17403.0,,,,,verb.communication,337,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,1,fetched,46,53,17451,17458,33,54.0,63.0,17459.0,17468.0,,,,,verb.contact,339,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+140,2,put,69,72,17474,17477,153,73.0,90.0,17478.0,17495.0,,,,,verb.contact,341,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,2,put,69,72,17474,17477,160,73.0,90.0,17478.0,17495.0,,,,,verb.contact,341,direct_object,the two other Princesses's little sister's eldest sister,1.0,1.0,2.0,female,1.0,tertiary
+140,3,covered,104,111,17509,17516,153,112.0,115.0,17517.0,17520.0,,,,,verb.contact,343,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,3,covered,104,111,17509,17516,160,112.0,115.0,17517.0,17520.0,,,,,verb.contact,343,direct_object,the two other Princesses's little sister's eldest sister,1.0,1.0,2.0,female,1.0,tertiary
+140,8,asked,273,278,17678,17683,153,279.0,282.0,17684.0,17687.0,284.0,304.0,17689.0,17709.0,verb.communication,346,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+140,8,asked,273,278,17678,17683,33,279.0,282.0,17684.0,17687.0,284.0,304.0,17689.0,17709.0,verb.communication,346,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+140,10,do,318,320,17723,17725,153,321.0,324.0,17726.0,17729.0,,,,,verb.social,349,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+141,1,thought,87,94,17827,17834,153,95.0,107.0,17835.0,17847.0,,,,,verb.cognition,348,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+141,4,said,109,113,17849,17853,33,114.0,127.0,17854.0,17867.0,,,,,verb.communication,350,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+142,0,carry,6,11,17875,17880,217,12.0,39.0,17881.0,17908.0,63.0,81.0,,,verb.contact,351,direct_object,The Princess's mother,1.0,2.0,3.0,female,1.0,tertiary
+142,0,carry,6,11,17875,17880,31,12.0,39.0,17881.0,17908.0,63.0,81.0,,,verb.contact,351,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+142,2,said,84,88,17953,17957,31,89.0,101.0,17958.0,17970.0,,,,,verb.communication,354,direct_object,The Princess,16.0,165.0,181.0,female,1.0,primary
+143,4,stolen,63,69,18035,18041,217,70.0,87.0,18042.0,18059.0,,,,,verb.possession,353,direct_object,The Princess's mother,1.0,2.0,3.0,female,1.0,tertiary
+145,0,put,17,20,18172,18175,153,21.0,38.0,18176.0,18193.0,,,,,verb.contact,357,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,0,put,17,20,18172,18175,167,21.0,38.0,18176.0,18193.0,,,,,verb.contact,357,direct_object,the two other Princesses's little sister's second sister,1.0,1.0,2.0,female,1.0,tertiary
+145,1,covered,63,70,18218,18225,153,71.0,74.0,18226.0,18229.0,,,,,verb.contact,359,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,1,covered,63,70,18218,18225,167,71.0,74.0,18226.0,18229.0,,,,,verb.contact,359,direct_object,the two other Princesses's little sister's second sister,1.0,1.0,2.0,female,1.0,tertiary
+145,7,getting,219,226,18374,18381,153,227.0,243.0,18382.0,18398.0,,,,,verb.change,360,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+145,8,carried,245,252,18400,18407,171,253.0,255.0,18408.0,18410.0,256.0,265.0,18411.0,18420.0,verb.motion,362,direct_object,the two other Princesses's little sister's mother,1.0,0.0,1.0,female,1.0,tertiary
+145,8,carried,245,252,18400,18407,153,253.0,255.0,18408.0,18410.0,256.0,265.0,18411.0,18420.0,verb.motion,362,direct_object,the two other Princesses's little sister,1.0,26.0,27.0,female,1.0,tertiary
+146,0,told,37,41,18473,18477,157,42.0,45.0,18478.0,18481.0,,,,,verb.communication,363,direct_object,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,0,told,37,41,18473,18477,33,42.0,45.0,18478.0,18481.0,,,,,verb.communication,363,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+146,1,thought,55,62,18491,18498,157,63.0,329.0,18499.0,18765.0,,,,,verb.cognition,364,direct_object,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,1,thought,55,62,18491,18498,33,63.0,329.0,18499.0,18765.0,,,,,verb.cognition,364,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+146,5,done,111,115,18547,18551,157,116.0,129.0,18552.0,18565.0,,,,,verb.social,365,direct_object,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+146,10,have,207,211,18643,18647,33,212.0,248.0,18648.0,18684.0,250.0,329.0,18686.0,18765.0,verb.consumption,367,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+151,1,pulled,43,49,19159,19165,175,50.0,69.0,19166.0,19185.0,,,,,verb.contact,378,direct_object,the clever little maiden,1.0,9.0,10.0,female,1.0,tertiary
+153,2,carried,83,90,19463,19470,180,91.0,93.0,19471.0,19473.0,94.0,97.0,19474.0,19477.0,verb.motion,382,direct_object,the old Queen,1.0,0.0,1.0,female,1.0,tertiary
+155,1,told,28,32,19618,19622,44,33.0,44.0,19623.0,19634.0,,,,,verb.communication,385,direct_object,The poor Princess's sisters,8.0,7.0,15.0,female,1.0,tertiary
+155,1,told,28,32,19618,19622,157,33.0,44.0,19623.0,19634.0,,,,,verb.communication,385,direct_object,the little Princess,3.0,7.0,10.0,female,1.0,tertiary
+155,4,heard,149,154,19739,19744,33,155.0,200.0,19745.0,19790.0,,,,,verb.perception,387,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary
+155,7,emptied,233,240,19823,19830,33,241.0,243.0,19831.0,19833.0,,,,,verb.consumption,389,direct_object,the Giant,21.0,77.0,98.0,male,1.0,secondary

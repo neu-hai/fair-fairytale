@@ -1,0 +1,777 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+9,0,felt,13,17,783,787,27,0.0,12.0,770.0,782.0,,,,,verb.emotion,0,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+9,1,raising,54,61,824,831,27,0.0,12.0,770.0,782.0,70.0,78.0,840.0,848.0,verb.motion,1,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+9,2,addressed,83,92,853,862,27,80.0,82.0,850.0,852.0,,,,,verb.communication,2,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+10,0,leave,3,8,878,883,27,1.0,2.0,876.0,877.0,,,,,verb.motion,3,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+10,1,said,18,22,893,897,28,1.0,12.0,876.0,887.0,,,,,verb.communication,5,subject,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+10,1,said,18,22,893,897,27,1.0,12.0,876.0,887.0,,,,,verb.communication,5,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+11,0,cast,3,7,1059,1063,27,0.0,2.0,1056.0,1058.0,,,,,verb.creation,7,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+11,1,continued,36,45,1092,1101,27,0.0,2.0,1056.0,1058.0,,,,,verb.communication,9,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+11,2,have,79,83,1135,1139,27,77.0,78.0,1133.0,1134.0,97.0,154.0,1153.0,1210.0,verb.perception,8,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+11,4,persuaded,110,119,1166,1175,27,105.0,106.0,1161.0,1162.0,,,,,verb.communication,11,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+13,1,begun,45,50,1279,1284,272,0.0,29.0,1234.0,1263.0,,,,,verb.creation,10,subject,The poor man's poor and forsaken children,1.0,0.0,1.0,unknown,0.0,tertiary
+13,1,begun,45,50,1279,1284,27,0.0,29.0,1234.0,1263.0,,,,,verb.creation,10,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+13,3,shelter,80,87,1314,1321,272,0.0,29.0,1234.0,1263.0,92.0,105.0,1326.0,1339.0,verb.social,12,subject,The poor man's poor and forsaken children,1.0,0.0,1.0,unknown,0.0,tertiary
+13,3,shelter,80,87,1314,1321,27,0.0,29.0,1234.0,1263.0,92.0,105.0,1326.0,1339.0,verb.social,12,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+16,1,withdrew,33,41,1470,1478,27,31.0,32.0,1468.0,1469.0,71.0,107.0,1508.0,1544.0,verb.social,13,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+17,1,contented,7,16,1553,1562,27,0.0,1.0,1546.0,1547.0,24.0,121.0,1570.0,1667.0,verb.consumption,15,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+18,3,caused,39,45,1708,1714,28,0.0,12.0,1669.0,1681.0,,,,,verb.communication,16,subject,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+18,3,caused,39,45,1708,1714,276,0.0,12.0,1669.0,1681.0,,,,,verb.communication,16,subject,The poor man's family's kindred,1.0,0.0,1.0,unknown,0.0,tertiary
+20,0,wished,2,8,1823,1829,27,0.0,1.0,1821.0,1822.0,,,,,verb.emotion,17,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+20,1,hide,12,16,1833,1837,27,0.0,1.0,1821.0,1822.0,21.0,87.0,1842.0,1908.0,verb.perception,19,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+21,1,seen,7,11,1917,1921,27,0.0,1.0,1910.0,1911.0,,,,,verb.perception,20,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+25,1,arrived,7,14,2174,2181,27,0.0,1.0,2167.0,2168.0,,,,,verb.motion,21,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+26,1,shut,7,11,2216,2220,27,0.0,1.0,2209.0,2210.0,29.0,87.0,2238.0,2296.0,verb.body,22,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+26,3,promise,55,62,2264,2271,271,32.0,48.0,2241.0,2257.0,,,,,verb.communication,24,subject,The poor man's children,2.0,0.0,2.0,unknown,0.0,tertiary
+26,3,promise,55,62,2264,2271,28,32.0,48.0,2241.0,2257.0,,,,,verb.communication,24,subject,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+26,3,promise,55,62,2264,2271,27,32.0,48.0,2241.0,2257.0,,,,,verb.communication,24,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+26,4,cherish,69,76,2278,2285,27,63.0,65.0,2272.0,2274.0,,,,,verb.emotion,23,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+27,1,suffer,20,26,2318,2324,275,8.0,19.0,2306.0,2317.0,,,,,verb.body,27,subject,The poor man's family's mother,2.0,1.0,3.0,female,1.0,tertiary
+27,1,suffer,20,26,2318,2324,28,8.0,19.0,2306.0,2317.0,,,,,verb.body,27,subject,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+28,0,charge,2,8,2369,2375,27,0.0,1.0,2367.0,2368.0,14.0,27.0,2381.0,2394.0,verb.communication,28,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+28,1,forsake,32,39,2399,2406,28,9.0,12.0,2376.0,2379.0,,,,,verb.communication,29,subject,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+29,0,give,9,13,2438,2442,27,7.0,8.0,2436.0,2437.0,40.0,61.0,2469.0,2490.0,verb.possession,31,subject,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+29,2,have,43,47,2472,2476,28,14.0,17.0,2443.0,2446.0,,,,,verb.perception,30,subject,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+31,1,expected,35,43,2612,2620,31,30.0,34.0,2607.0,2611.0,,,,,verb.cognition,32,subject,The family,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+31,2,hear,47,51,2624,2628,31,30.0,34.0,2607.0,2611.0,,,,,verb.perception,33,subject,The family,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+32,0,came,14,18,2662,2666,31,9.0,13.0,2657.0,2661.0,,,,,verb.motion,34,subject,The family,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+32,1,called,35,41,2683,2689,31,9.0,13.0,2657.0,2661.0,46.0,53.0,2694.0,2701.0,verb.communication,35,subject,The family,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+34,0,lamented,24,32,2779,2787,34,0.0,23.0,2755.0,2778.0,,,,,verb.communication,36,subject,daughter,2.0,0.0,2.0,unknown,0.0,tertiary
+34,0,lamented,24,32,2779,2787,33,0.0,23.0,2755.0,2778.0,,,,,verb.communication,36,subject,The mother,2.0,2.0,4.0,female,1.0,tertiary
+34,1,clothed,58,65,2813,2820,35,44.0,57.0,2799.0,2812.0,74.0,116.0,2829.0,2871.0,verb.body,37,subject,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+35,0,took,3,7,2876,2880,35,0.0,2.0,2873.0,2875.0,19.0,49.0,2892.0,2922.0,verb.motion,38,subject,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+36,0,exerted,3,10,2927,2934,35,0.0,2.0,2924.0,2926.0,19.0,85.0,2943.0,3009.0,verb.social,39,subject,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+36,1,supply,22,28,2946,2952,35,0.0,2.0,2924.0,2926.0,,,,,verb.consumption,40,subject,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+36,2,made,100,104,3024,3028,35,91.0,93.0,3015.0,3017.0,,,,,verb.social,41,subject,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+37,4,died,87,91,3139,3143,33,71.0,81.0,3123.0,3133.0,,,,,verb.change,42,subject,The mother,2.0,2.0,4.0,female,1.0,tertiary
+38,0,pressed,24,31,3169,3176,33,20.0,23.0,3165.0,3168.0,,,,,verb.communication,43,subject,The mother,2.0,2.0,4.0,female,1.0,tertiary
+40,1,directed,28,36,3379,3387,44,0.0,8.0,3351.0,3359.0,,,,,verb.communication,45,subject,The girl,1.0,2.0,3.0,female,1.0,tertiary
+41,1,feel,14,18,3416,3420,44,0.0,3.0,3402.0,3405.0,,,,,verb.emotion,46,subject,The girl,1.0,2.0,3.0,female,1.0,tertiary
+42,0,began,19,24,3540,3545,48,0.0,13.0,3521.0,3534.0,,,,,verb.change,48,subject,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+43,0,addressed,11,20,3642,3651,48,8.0,10.0,3639.0,3641.0,32.0,42.0,3663.0,3673.0,verb.communication,50,subject,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+44,1,deprive,7,14,3769,3776,48,0.0,4.0,3762.0,3766.0,,,,,verb.communication,52,subject,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+45,1,determined,7,17,3837,3847,48,0.0,1.0,3830.0,3831.0,,,,,verb.cognition,51,subject,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+46,1,seek,8,12,3882,3886,48,0.0,1.0,3874.0,3875.0,,,,,verb.contact,54,subject,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+46,3,prevent,50,57,3924,3931,284,38.0,41.0,3912.0,3915.0,,,,,verb.social,53,subject,The other boy's sister,1.0,1.0,2.0,female,1.0,tertiary
+47,0,replied,11,18,3948,3955,50,0.0,10.0,3937.0,3947.0,,,,,verb.communication,55,subject,The sister,1.0,2.0,3.0,female,1.0,tertiary
+47,2,say,30,33,3967,3970,50,21.0,22.0,3958.0,3959.0,38.0,48.0,3975.0,3985.0,verb.communication,58,subject,The sister,1.0,2.0,3.0,female,1.0,tertiary
+47,3,desire,62,68,3999,4005,289,53.0,57.0,3990.0,3994.0,,,,,verb.emotion,57,subject,The sister's brother,10.0,3.0,13.0,male,1.0,tertiary
+51,0,received,14,22,4521,4529,51,0.0,13.0,4507.0,4520.0,36.0,46.0,4543.0,4553.0,verb.possession,62,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+51,1,took,58,62,4565,4569,51,0.0,13.0,4507.0,4520.0,74.0,128.0,4581.0,4635.0,verb.change,64,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+52,1,recover,26,33,4663,4670,51,13.0,15.0,4650.0,4652.0,,,,,verb.body,67,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+53,2,amused,107,113,4791,4797,55,64.0,80.0,4748.0,4764.0,,,,,verb.social,66,subject,the two brothers,1.0,2.0,3.0,male,1.0,tertiary
+54,0,chose,17,22,4843,4848,51,14.0,16.0,4840.0,4842.0,,,,,verb.cognition,68,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+54,1,played,69,75,4895,4901,55,64.0,68.0,4890.0,4894.0,,,,,verb.competition,69,subject,the two brothers,1.0,2.0,3.0,male,1.0,tertiary
+54,2,laughed,80,87,4906,4913,55,64.0,68.0,4890.0,4894.0,,,,,verb.body,71,subject,the two brothers,1.0,2.0,3.0,male,1.0,tertiary
+56,2,looked,85,91,5067,5073,1,42.0,79.0,5024.0,5061.0,108.0,122.0,5090.0,5104.0,verb.perception,73,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+56,2,looked,85,91,5067,5073,60,42.0,79.0,5024.0,5061.0,108.0,122.0,5090.0,5104.0,verb.perception,73,subject,a wicked old Manito,1.0,0.0,1.0,unknown,0.0,tertiary
+56,3,played,116,122,5098,5104,61,111.0,115.0,5093.0,5097.0,,,,,verb.competition,72,subject,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+58,0,thought,3,10,5165,5172,51,0.0,2.0,5162.0,5164.0,,,,,verb.cognition,74,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+58,4,accompany,60,69,5222,5231,62,46.0,56.0,5208.0,5218.0,,,,,verb.motion,76,subject,these lads,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+59,1,hit,18,21,5254,5257,62,0.0,11.0,5236.0,5247.0,31.0,39.0,5267.0,5275.0,verb.contact,79,subject,these lads,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+59,1,hit,18,21,5254,5257,63,0.0,11.0,5236.0,5247.0,31.0,39.0,5267.0,5275.0,verb.contact,79,subject,these lads's of them,1.0,0.0,1.0,unknown,0.0,tertiary
+60,3,given,85,90,5395,5400,2,44.0,69.0,5354.0,5379.0,,,,,verb.possession,77,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+60,3,given,85,90,5395,5400,64,44.0,69.0,5354.0,5379.0,,,,,verb.possession,77,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+61,0,saw,12,15,5432,5435,2,5.0,11.0,5425.0,5431.0,,,,,verb.perception,80,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+61,1,professed,32,41,5452,5461,2,29.0,31.0,5449.0,5451.0,,,,,verb.communication,82,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+62,2,noticed,58,65,5545,5552,2,47.0,49.0,5534.0,5536.0,81.0,87.0,5568.0,5574.0,verb.perception,81,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+67,2,said,17,21,5761,5765,69,1.0,11.0,5745.0,5755.0,,,,,verb.communication,86,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+69,0,insisted,5,13,5798,5806,61,0.0,4.0,5793.0,5797.0,,,,,verb.communication,87,subject,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+69,3,declined,58,66,5851,5859,69,46.0,57.0,5839.0,5850.0,,,,,verb.communication,89,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+69,4,oblige,70,76,5863,5869,69,46.0,57.0,5839.0,5850.0,,,,,verb.social,90,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+70,2,go,34,36,5910,5912,2,27.0,28.0,5903.0,5904.0,,,,,verb.motion,92,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+70,3,get,41,44,5917,5920,2,27.0,28.0,5903.0,5904.0,,,,,verb.contact,93,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+72,1,said,20,24,5973,5977,69,1.0,5.0,5954.0,5958.0,,,,,verb.communication,96,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+72,3,approached,38,48,5991,6001,69,31.0,33.0,5984.0,5986.0,,,,,verb.motion,95,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+72,4,receive,64,71,6017,6024,69,31.0,33.0,5984.0,5986.0,,,,,verb.possession,97,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+75,1,grasp,20,25,6110,6115,2,0.0,6.0,6090.0,6096.0,,,,,verb.contact,99,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+75,2,seized,67,73,6157,6163,69,41.0,57.0,6131.0,6147.0,,,,,verb.contact,100,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+75,3,pushed,82,88,6172,6178,69,41.0,57.0,6131.0,6147.0,,,,,verb.contact,101,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+76,0,said,18,22,6216,6220,2,1.0,15.0,6199.0,6213.0,,,,,verb.communication,103,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+76,0,said,18,22,6216,6220,298,1.0,15.0,6199.0,6213.0,,,,,verb.communication,103,subject,Owasso's grandfather,2.0,0.0,2.0,male,1.0,tertiary
+77,1,go,16,18,6280,6282,2,6.0,7.0,6270.0,6271.0,,,,,verb.motion,104,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+78,1,starve,8,14,6301,6307,299,0.0,2.0,6293.0,6295.0,,,,,verb.social,107,subject,Owasso's little brother,1.0,2.0,3.0,male,1.0,tertiary
+78,2,leave,20,25,6313,6318,2,18.0,19.0,6311.0,6312.0,,,,,verb.motion,106,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+79,0,laughed,14,21,6339,6346,1,0.0,8.0,6325.0,6333.0,,,,,verb.body,105,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+82,1,stood,57,62,6573,6578,75,29.0,49.0,6545.0,6565.0,87.0,123.0,6603.0,6639.0,verb.contact,110,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+83,1,seated,35,41,6676,6682,1,0.0,29.0,6641.0,6670.0,,,,,verb.contact,112,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+83,1,seated,35,41,6676,6682,80,0.0,29.0,6641.0,6670.0,,,,,verb.contact,112,subject,The two daughters of Mishosha,1.0,0.0,1.0,unknown,0.0,tertiary
+84,0,said,18,22,6709,6713,2,1.0,12.0,6692.0,6703.0,38.0,57.0,6729.0,6748.0,verb.communication,114,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+84,0,said,18,22,6709,6713,300,1.0,12.0,6692.0,6703.0,38.0,57.0,6729.0,6748.0,verb.communication,114,subject,Owasso's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+84,3,brought,73,80,6764,6771,2,66.0,67.0,6757.0,6758.0,,,,,verb.motion,113,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+85,0,smiled,16,22,6804,6810,83,0.0,15.0,6788.0,6803.0,,,,,verb.body,115,subject,The young woman,1.0,2.0,3.0,female,1.0,tertiary
+87,0,told,13,17,6865,6869,75,0.0,12.0,6852.0,6864.0,,,,,verb.communication,117,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+90,1,wished,59,65,7118,7124,4,44.0,58.0,7103.0,7117.0,,,,,verb.communication,118,subject,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+91,1,compass,43,50,7188,7195,2,0.0,2.0,7145.0,7147.0,,,,,verb.social,119,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+92,0,asked,11,16,7211,7216,2,8.0,10.0,7208.0,7210.0,,,,,verb.communication,120,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+94,1,speak,25,30,7315,7320,75,0.0,12.0,7290.0,7302.0,,,,,verb.communication,122,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+96,0,advised,11,18,7446,7453,4,0.0,10.0,7435.0,7445.0,,,,,verb.communication,121,subject,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+96,1,spear,29,34,7464,7469,2,19.0,25.0,7454.0,7460.0,,,,,verb.contact,123,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+96,5,recognize,125,134,7560,7569,2,19.0,25.0,7454.0,7460.0,,,,,verb.perception,125,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+97,0,rose,7,11,7591,7595,2,0.0,6.0,7584.0,7590.0,,,,,verb.motion,126,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+97,1,dart,27,31,7611,7615,2,0.0,6.0,7584.0,7590.0,,,,,verb.motion,127,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+97,2,speaking,50,58,7634,7642,2,0.0,6.0,7584.0,7590.0,,,,,verb.communication,128,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+97,3,shot,94,98,7678,7682,1,85.0,93.0,7669.0,7677.0,,,,,verb.motion,129,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+98,1,struggle,15,23,7757,7765,2,0.0,11.0,7742.0,7753.0,,,,,verb.social,133,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+99,2,bade,81,85,7886,7890,2,14.0,49.0,7819.0,7854.0,90.0,168.0,7895.0,7973.0,verb.communication,132,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+99,3,swim,90,94,7895,7899,2,81.0,89.0,7886.0,7894.0,113.0,168.0,7918.0,7973.0,verb.motion,134,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+99,4,carried,122,129,7927,7934,2,119.0,121.0,7924.0,7926.0,134.0,168.0,7939.0,7973.0,verb.contact,135,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+100,0,directed,8,16,7983,7991,2,5.0,7.0,7980.0,7982.0,69.0,126.0,8044.0,8101.0,verb.communication,136,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+100,3,get,100,103,8075,8078,2,77.0,79.0,8052.0,8054.0,,,,,verb.perception,137,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+101,1,saw,28,31,8131,8134,2,21.0,27.0,8124.0,8130.0,,,,,verb.perception,139,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+101,3,lost,131,135,8234,8238,4,115.0,117.0,8218.0,8220.0,,,,,verb.possession,138,subject,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+103,0,spoke,8,13,8384,8389,2,0.0,2.0,8376.0,8378.0,,,,,verb.communication,141,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+103,1,told,42,46,8418,8422,2,0.0,2.0,8376.0,8378.0,,,,,verb.communication,144,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+103,7,created,117,124,8493,8500,2,110.0,112.0,8486.0,8488.0,,,,,verb.creation,142,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+105,3,dress,59,64,8648,8653,16,47.0,55.0,8636.0,8644.0,,,,,verb.body,147,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+105,3,dress,59,64,8648,8653,2,47.0,55.0,8636.0,8644.0,,,,,verb.body,147,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+105,4,cook,69,73,8658,8662,16,47.0,55.0,8636.0,8644.0,77.0,88.0,8666.0,8677.0,verb.creation,148,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+105,4,cook,69,73,8658,8662,2,47.0,55.0,8636.0,8644.0,77.0,88.0,8666.0,8677.0,verb.creation,148,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+106,3,come,45,49,8724,8728,75,28.0,40.0,8707.0,8719.0,,,,,verb.motion,149,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+107,1,arrived,22,29,8761,8768,302,1.0,17.0,8740.0,8756.0,,,,,verb.motion,150,subject,the boy's grandfather,1.0,1.0,2.0,male,1.0,tertiary
+107,1,arrived,22,29,8761,8768,119,1.0,17.0,8740.0,8756.0,,,,,verb.motion,150,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+107,2,said,32,36,8771,8775,302,1.0,29.0,8740.0,8768.0,,,,,verb.communication,151,subject,the boy's grandfather,1.0,1.0,2.0,male,1.0,tertiary
+107,2,said,32,36,8771,8775,119,1.0,29.0,8740.0,8768.0,,,,,verb.communication,151,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+108,2,brings,20,26,8818,8824,302,12.0,16.0,8810.0,8814.0,,,,,verb.creation,152,subject,the boy's grandfather,1.0,1.0,2.0,male,1.0,tertiary
+108,4,"go""--handing",48,60,8846,8858,119,44.0,47.0,8842.0,8845.0,,,,,verb.possession,154,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+109,0,went,8,12,8888,8892,119,0.0,7.0,8880.0,8887.0,,,,,verb.motion,155,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+109,1,saw,41,44,8921,8924,75,18.0,30.0,8898.0,8910.0,49.0,74.0,8929.0,8954.0,verb.perception,156,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+109,2,asked,84,89,8964,8969,75,81.0,83.0,8961.0,8963.0,,,,,verb.communication,158,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+109,4,eating,109,115,8989,8995,119,96.0,100.0,8976.0,8980.0,,,,,verb.consumption,157,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+111,0,replied,3,10,9021,9028,119,0.0,2.0,9018.0,9020.0,,,,,verb.communication,160,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+111,1,brought,23,30,9041,9048,303,13.0,22.0,9031.0,9040.0,,,,,verb.contact,159,subject,the boy's father,2.0,0.0,2.0,male,1.0,tertiary
+111,1,brought,23,30,9041,9048,119,13.0,22.0,9031.0,9040.0,,,,,verb.contact,159,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+112,0,began,13,18,9067,9072,75,0.0,12.0,9054.0,9066.0,35.0,74.0,9089.0,9128.0,verb.change,161,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+112,1,feel,22,26,9076,9080,75,0.0,12.0,9054.0,9066.0,,,,,verb.emotion,163,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+112,2,found,42,47,9096,9101,75,39.0,41.0,9093.0,9095.0,,,,,verb.cognition,162,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+113,1,entering,38,46,9168,9176,75,0.0,2.0,9130.0,9132.0,,,,,verb.motion,164,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+113,2,acted,58,63,9188,9193,75,0.0,2.0,9130.0,9132.0,,,,,verb.body,165,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+114,0,requested,37,46,9267,9276,1,22.0,30.0,9252.0,9260.0,,,,,verb.communication,166,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+114,1,accompany,65,74,9295,9304,1,47.0,61.0,9277.0,9291.0,,,,,verb.motion,167,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+114,1,accompany,65,74,9295,9304,92,47.0,61.0,9277.0,9291.0,,,,,verb.motion,167,subject,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+115,0,said,28,32,9338,9342,2,0.0,6.0,9310.0,9316.0,,,,,verb.communication,168,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+117,0,said,13,17,9494,9498,75,0.0,12.0,9481.0,9493.0,,,,,verb.communication,170,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+117,4,find,91,95,9572,9576,2,63.0,82.0,9544.0,9563.0,,,,,verb.possession,169,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+119,0,took,17,21,9717,9721,69,0.0,16.0,9700.0,9716.0,,,,,verb.change,172,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+119,1,speak,41,46,9741,9746,69,0.0,16.0,9700.0,9716.0,,,,,verb.communication,174,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+120,1,wished,13,19,9774,9780,69,1.0,2.0,9762.0,9763.0,,,,,verb.emotion,173,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+120,2,said,25,29,9786,9790,69,1.0,19.0,9762.0,9780.0,,,,,verb.communication,176,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+121,0,give,6,10,9823,9827,69,0.0,1.0,9817.0,9818.0,,,,,verb.possession,177,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+122,0,uttered,8,15,9866,9873,69,0.0,2.0,9858.0,9860.0,,,,,verb.communication,178,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+124,1,lose,15,19,10071,10075,2,0.0,6.0,10056.0,10062.0,,,,,verb.possession,182,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+124,2,addressed,49,58,10105,10114,2,46.0,48.0,10102.0,10104.0,,,,,verb.communication,183,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+124,3,said,68,72,10124,10128,2,46.0,48.0,10102.0,10104.0,,,,,verb.communication,186,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+124,4,know,86,90,10142,10146,6,82.0,85.0,10138.0,10141.0,,,,,verb.cognition,185,subject,Gulls,1.0,4.0,5.0,unknown,0.0,tertiary
+124,6,formed,104,110,10160,10166,6,91.0,94.0,10147.0,10150.0,,,,,verb.creation,184,subject,Gulls,1.0,4.0,5.0,unknown,0.0,tertiary
+124,7,eat,114,117,10170,10173,6,91.0,94.0,10147.0,10150.0,,,,,verb.consumption,187,subject,Gulls,1.0,4.0,5.0,unknown,0.0,tertiary
+127,0,listened,5,13,10350,10358,129,0.0,4.0,10345.0,10349.0,,,,,verb.perception,190,subject,the gulls,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+127,1,said,37,41,10382,10386,2,29.0,33.0,10374.0,10378.0,,,,,verb.communication,191,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+127,2,seeing,47,53,10392,10398,129,0.0,4.0,10345.0,10349.0,75.0,89.0,10420.0,10434.0,verb.perception,192,subject,the gulls,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+127,3,obeyed,96,102,10441,10447,129,91.0,95.0,10436.0,10440.0,,,,,verb.social,193,subject,the gulls,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+128,0,found,12,17,10465,10470,2,0.0,6.0,10453.0,10459.0,,,,,verb.perception,194,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+128,1,sailing,26,33,10479,10486,2,18.0,25.0,10471.0,10478.0,,,,,verb.motion,195,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+129,3,allowed,66,73,10587,10594,69,27.0,43.0,10548.0,10564.0,,,,,verb.social,196,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+129,4,come,87,91,10608,10612,69,74.0,83.0,10595.0,10604.0,,,,,verb.motion,198,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+130,0,saw,37,40,10668,10671,2,0.0,6.0,10631.0,10637.0,,,,,verb.perception,200,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+130,1,lying,45,50,10676,10681,69,41.0,44.0,10672.0,10675.0,76.0,149.0,10707.0,10780.0,verb.contact,199,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+130,2,taking,76,82,10707,10713,69,41.0,44.0,10672.0,10675.0,115.0,149.0,10746.0,10780.0,verb.body,201,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+132,3,see,58,61,10970,10973,2,15.0,36.0,10927.0,10948.0,,,,,verb.perception,203,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+133,1,exclaimed,17,26,10992,11001,2,0.0,2.0,10975.0,10977.0,,,,,verb.communication,205,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,1,flown,11,16,11110,11115,2,0.0,6.0,11099.0,11105.0,,,,,verb.motion,204,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,2,reached,24,31,11123,11130,2,0.0,6.0,11099.0,11105.0,42.0,51.0,11141.0,11150.0,verb.motion,206,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,3,excusing,58,66,11157,11165,2,0.0,6.0,11099.0,11105.0,75.0,90.0,11174.0,11189.0,verb.communication,208,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,4,killed,95,101,11194,11200,2,92.0,94.0,11191.0,11193.0,128.0,185.0,11227.0,11284.0,verb.contact,207,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,5,ornament,162,170,11261,11269,2,92.0,94.0,11191.0,11193.0,,,,,verb.communication,209,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+136,0,arrived,18,25,11304,11311,75,5.0,17.0,11291.0,11303.0,,,,,verb.motion,210,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+136,2,meet,64,68,11350,11354,2,39.0,51.0,11325.0,11337.0,,,,,verb.social,211,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+136,2,meet,64,68,11350,11354,140,39.0,51.0,11325.0,11337.0,,,,,verb.social,211,subject,Owasso's grandson,1.0,1.0,2.0,male,1.0,tertiary
+136,3,tossing,74,81,11360,11367,2,39.0,51.0,11325.0,11337.0,91.0,147.0,11377.0,11433.0,verb.motion,213,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+136,3,tossing,74,81,11360,11367,140,39.0,51.0,11325.0,11337.0,91.0,147.0,11377.0,11433.0,verb.motion,213,subject,Owasso's grandson,1.0,1.0,2.0,male,1.0,tertiary
+137,1,get,15,18,11450,11453,4,11.0,14.0,11446.0,11449.0,,,,,verb.possession,212,subject,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+139,0,brought,11,18,11515,11522,303,1.0,10.0,11505.0,11514.0,,,,,verb.contact,214,subject,the boy's father,2.0,0.0,2.0,male,1.0,tertiary
+139,0,brought,11,18,11515,11522,119,1.0,10.0,11505.0,11514.0,,,,,verb.contact,214,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+139,1,replied,34,41,11538,11545,303,1.0,23.0,11505.0,11527.0,,,,,verb.communication,217,subject,the boy's father,2.0,0.0,2.0,male,1.0,tertiary
+139,1,replied,34,41,11538,11545,119,1.0,23.0,11505.0,11527.0,,,,,verb.communication,217,subject,the boy,3.0,9.0,12.0,male,1.0,tertiary
+140,2,destroyed,66,75,11613,11622,69,55.0,57.0,11602.0,11604.0,,,,,verb.creation,216,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+141,0,entered,3,10,11642,11649,69,0.0,2.0,11639.0,11641.0,21.0,31.0,11660.0,11670.0,verb.motion,218,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+141,1,set,37,40,11676,11679,69,0.0,2.0,11639.0,11641.0,50.0,56.0,11689.0,11695.0,verb.cognition,219,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+142,2,saying,18,24,11791,11797,69,0.0,2.0,11773.0,11775.0,,,,,verb.communication,223,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+143,1,save,34,38,11908,11912,311,4.0,23.0,11878.0,11897.0,,,,,verb.social,224,subject,boy,1.0,3.0,4.0,male,1.0,tertiary
+144,1,entrap,7,13,11925,11931,69,0.0,1.0,11918.0,11919.0,,,,,verb.social,226,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+146,2,tried,35,40,11995,12000,69,28.0,30.0,11988.0,11990.0,59.0,73.0,12019.0,12033.0,verb.social,225,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+146,3,had,87,90,12047,12050,69,84.0,86.0,12044.0,12046.0,,,,,verb.possession,227,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+147,0,professed,7,16,12077,12086,69,0.0,2.0,12070.0,12072.0,,,,,verb.communication,228,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+147,2,said,93,97,12163,12167,69,90.0,92.0,12160.0,12162.0,,,,,verb.communication,229,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+147,5,go,133,135,12203,12205,2,124.0,127.0,12194.0,12197.0,,,,,verb.motion,232,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+147,6,procure,147,154,12217,12224,2,124.0,127.0,12194.0,12197.0,,,,,verb.possession,231,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+149,1,discovered,7,17,12310,12320,69,0.0,1.0,12303.0,12304.0,,,,,verb.creation,230,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+151,3,led,88,91,12481,12484,1,79.0,87.0,12472.0,12480.0,103.0,189.0,12496.0,12582.0,verb.motion,233,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+152,0,said,15,19,12599,12603,1,6.0,12.0,12590.0,12596.0,,,,,verb.communication,234,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+152,0,said,15,19,12599,12603,305,6.0,12.0,12590.0,12596.0,,,,,verb.communication,234,subject,The magician's son,3.0,2.0,5.0,unknown,0.0,tertiary
+153,0,think,2,7,12662,12667,1,0.0,1.0,12660.0,12661.0,,,,,verb.cognition,235,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+153,2,get,17,20,12677,12680,305,8.0,11.0,12668.0,12671.0,36.0,44.0,12696.0,12704.0,verb.possession,238,subject,The magician's son,3.0,2.0,5.0,unknown,0.0,tertiary
+154,0,obeyed,7,13,12714,12720,2,0.0,6.0,12707.0,12713.0,,,,,verb.motion,237,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+155,1,got,34,37,12756,12759,69,5.0,7.0,12727.0,12729.0,,,,,verb.motion,236,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+155,3,addressing,73,83,12795,12805,1,53.0,61.0,12775.0,12783.0,,,,,verb.communication,239,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+156,3,imperiled,65,74,12985,12994,2,47.0,53.0,12967.0,12973.0,84.0,119.0,13004.0,13039.0,verb.social,241,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+159,1,expected,15,23,13097,13105,316,1.0,4.0,13083.0,13086.0,,,,,verb.cognition,242,subject,ye eagles,1.0,5.0,6.0,unknown,0.0,tertiary
+160,0,present,6,13,13128,13135,1,0.0,1.0,13122.0,13123.0,,,,,verb.perception,245,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+162,2,turned,68,74,13335,13341,69,11.0,27.0,13278.0,13294.0,79.0,95.0,13346.0,13362.0,verb.motion,248,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+163,1,left,37,41,13401,13405,69,34.0,36.0,13398.0,13400.0,57.0,77.0,13421.0,13441.0,verb.cognition,250,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+163,2,shift,60,65,13424,13429,69,34.0,36.0,13398.0,13400.0,,,,,verb.motion,252,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+164,4,supposed,73,81,13516,13524,69,52.0,68.0,13495.0,13511.0,,,,,verb.cognition,251,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+166,0,replied,7,14,13695,13702,2,0.0,6.0,13688.0,13694.0,,,,,verb.communication,257,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+166,2,mounted,31,38,13719,13726,2,20.0,22.0,13708.0,13710.0,,,,,verb.contact,256,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+166,3,harm,89,93,13777,13781,2,20.0,22.0,13708.0,13710.0,,,,,verb.emotion,259,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+167,3,sent,64,68,13858,13862,2,0.0,58.0,13794.0,13852.0,73.0,75.0,13867.0,13869.0,verb.motion,258,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+167,3,sent,64,68,13858,13862,154,0.0,58.0,13794.0,13852.0,73.0,75.0,13867.0,13869.0,verb.motion,258,subject,Owasso's father - in - law,1.0,3.0,4.0,male,1.0,tertiary
+167,3,sent,64,68,13858,13862,155,0.0,58.0,13794.0,13852.0,73.0,75.0,13867.0,13869.0,verb.motion,258,subject,the old magician who had just left them,1.0,0.0,1.0,unknown,0.0,tertiary
+168,1,sending,18,25,13889,13896,154,0.0,2.0,13871.0,13873.0,30.0,52.0,13901.0,13923.0,verb.motion,260,subject,Owasso's father - in - law,1.0,3.0,4.0,male,1.0,tertiary
+169,1,enlarging,29,38,13954,13963,51,11.0,24.0,13936.0,13949.0,,,,,verb.creation,261,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+170,1,interrupted,7,18,14028,14039,51,0.0,2.0,14021.0,14023.0,63.0,78.0,14084.0,14099.0,verb.communication,262,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+171,1,seized,46,52,14147,14153,2,0.0,6.0,14101.0,14107.0,,,,,verb.contact,263,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+171,2,dashed,87,93,14188,14194,2,0.0,6.0,14101.0,14107.0,97.0,171.0,14198.0,14272.0,verb.motion,264,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+171,5,deal,141,145,14242,14246,2,139.0,140.0,14240.0,14241.0,,,,,verb.communication,265,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+172,3,appointed,117,126,14392,14401,154,102.0,104.0,14377.0,14379.0,175.0,207.0,14450.0,14482.0,verb.social,268,subject,Owasso's father - in - law,1.0,3.0,4.0,male,1.0,tertiary
+174,0,expressed,7,16,14550,14559,2,0.0,6.0,14543.0,14549.0,51.0,67.0,14594.0,14610.0,verb.communication,270,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,0,dismissed,49,58,15009,15018,2,42.0,48.0,15002.0,15008.0,,,,,verb.emotion,273,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,1,stood,74,79,15034,15039,2,42.0,48.0,15002.0,15008.0,,,,,verb.contact,274,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,2,greet,89,94,15049,15054,2,42.0,48.0,15002.0,15008.0,,,,,verb.communication,276,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,3,arrived,128,135,15088,15095,2,95.0,119.0,15055.0,15079.0,,,,,verb.motion,275,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,3,arrived,128,135,15088,15095,167,95.0,119.0,15055.0,15079.0,,,,,verb.motion,275,subject,Owasso's wicked father - in - law,1.0,0.0,1.0,male,1.0,tertiary
+179,0,espied,8,14,15105,15111,2,5.0,7.0,15102.0,15104.0,30.0,35.0,15127.0,15132.0,verb.communication,277,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+179,1,grew,55,59,15152,15156,1,46.0,54.0,15143.0,15151.0,71.0,82.0,15168.0,15179.0,verb.change,279,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+180,0,had,3,6,15184,15187,1,0.0,2.0,15181.0,15183.0,,,,,verb.possession,278,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+181,0,thought,3,10,15216,15223,1,0.0,2.0,15213.0,15215.0,,,,,verb.cognition,280,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+181,2,ponder,20,26,15233,15239,1,11.0,13.0,15224.0,15226.0,,,,,verb.cognition,281,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+181,4,employ,47,53,15260,15266,1,38.0,40.0,15251.0,15253.0,,,,,verb.consumption,282,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+182,2,doing,30,35,15325,15330,2,23.0,25.0,15318.0,15320.0,,,,,verb.social,284,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+182,4,sitting,81,88,15376,15383,16,56.0,75.0,15351.0,15370.0,,,,,verb.contact,283,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+182,4,sitting,81,88,15376,15383,2,56.0,75.0,15351.0,15370.0,,,,,verb.contact,283,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+184,1,cried,32,37,15616,15621,3,1.0,29.0,15585.0,15613.0,,,,,verb.communication,288,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+186,1,see,20,23,15682,15685,2,3.0,4.0,15665.0,15666.0,,,,,verb.perception,289,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+187,0,hung,7,11,15699,15703,2,4.0,6.0,15696.0,15698.0,26.0,41.0,15718.0,15733.0,verb.contact,290,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,0,witnessed,9,18,15744,15753,16,0.0,8.0,15735.0,15743.0,,,,,verb.perception,291,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+188,0,witnessed,9,18,15744,15753,2,0.0,8.0,15735.0,15743.0,,,,,verb.perception,291,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,1,comfort,40,47,15775,15782,16,0.0,8.0,15735.0,15743.0,,,,,verb.emotion,292,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+188,1,comfort,40,47,15775,15782,2,0.0,8.0,15735.0,15743.0,,,,,verb.emotion,292,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,2,proposed,56,64,15791,15799,16,52.0,55.0,15787.0,15790.0,,,,,verb.communication,293,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+189,2,offered,83,90,15966,15973,2,64.0,82.0,15947.0,15965.0,118.0,165.0,16001.0,16048.0,verb.communication,294,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+189,2,offered,83,90,15966,15973,175,64.0,82.0,15947.0,15965.0,118.0,165.0,16001.0,16048.0,verb.communication,294,subject,the wife of Owasso,1.0,1.0,2.0,female,1.0,tertiary
+189,3,comb,94,98,15977,15981,2,64.0,82.0,15947.0,15965.0,,,,,verb.contact,296,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+189,3,comb,94,98,15977,15981,175,64.0,82.0,15947.0,15965.0,,,,,verb.contact,296,subject,the wife of Owasso,1.0,1.0,2.0,female,1.0,tertiary
+189,6,sleep,160,165,16043,16048,2,153.0,156.0,16036.0,16039.0,,,,,verb.body,298,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+191,2,uttered,80,87,16150,16157,2,73.0,79.0,16143.0,16149.0,,,,,verb.communication,300,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+193,4,singing,126,133,16384,16391,181,106.0,125.0,16364.0,16383.0,,,,,verb.communication,302,subject,the younger brother,1.0,1.0,2.0,male,1.0,tertiary
+193,5,wakened,178,185,16436,16443,69,161.0,177.0,16419.0,16435.0,,,,,verb.body,301,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+194,1,suspected,41,50,16486,16495,2,38.0,40.0,16483.0,16485.0,,,,,verb.cognition,304,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+195,1,found,33,38,16553,16558,2,0.0,2.0,16520.0,16522.0,,,,,verb.perception,305,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+196,0,spoke,3,8,16571,16576,2,0.0,2.0,16568.0,16570.0,,,,,verb.communication,306,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+198,1,stood,43,48,16799,16804,1,34.0,42.0,16790.0,16798.0,,,,,verb.contact,307,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+199,1,utter,11,16,16854,16859,1,0.0,2.0,16843.0,16845.0,,,,,verb.communication,308,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+200,0,entered,28,35,16896,16903,193,0.0,27.0,16868.0,16895.0,46.0,56.0,16914.0,16924.0,verb.motion,309,subject,The son - in - law,1.0,0.0,1.0,unknown,0.0,tertiary
+200,0,entered,28,35,16896,16903,34,0.0,27.0,16868.0,16895.0,46.0,56.0,16914.0,16924.0,verb.motion,309,subject,daughter,2.0,0.0,2.0,unknown,0.0,tertiary
+202,0,said,42,46,17081,17085,2,35.0,41.0,17074.0,17080.0,,,,,verb.communication,310,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+202,1,wish,59,63,17098,17102,2,57.0,58.0,17096.0,17097.0,,,,,verb.emotion,311,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+202,2,try,67,70,17106,17109,2,57.0,58.0,17096.0,17097.0,,,,,verb.social,312,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+205,0,consented,13,22,17238,17247,75,0.0,12.0,17225.0,17237.0,,,,,verb.communication,313,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+208,2,hung,86,90,17504,17508,51,31.0,44.0,17449.0,17462.0,,,,,verb.contact,314,subject,the young man,4.0,10.0,14.0,male,1.0,tertiary
+209,0,did,17,20,17542,17545,69,0.0,16.0,17525.0,17541.0,31.0,76.0,17556.0,17601.0,verb.social,316,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+209,1,hanging,41,48,17566,17573,69,0.0,16.0,17525.0,17541.0,,,,,verb.contact,315,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+210,1,given,29,34,17660,17665,2,13.0,21.0,17644.0,17652.0,,,,,verb.possession,317,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+210,3,had,64,67,17695,17698,75,51.0,63.0,17682.0,17694.0,,,,,verb.possession,318,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+210,4,play,78,82,17709,17713,75,51.0,63.0,17682.0,17694.0,,,,,verb.creation,320,subject,The magician,15.0,6.0,21.0,male,1.0,tertiary
+211,1,watched,23,30,17750,17757,2,20.0,22.0,17747.0,17749.0,,,,,verb.perception,321,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+212,0,bestirred,32,41,17962,17971,69,15.0,31.0,17945.0,17961.0,51.0,77.0,17981.0,18007.0,verb.cognition,324,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+212,1,rekindle,60,68,17990,17998,69,15.0,31.0,17945.0,17961.0,,,,,verb.change,325,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+213,1,thinking,73,81,18082,18090,69,0.0,2.0,18009.0,18011.0,,,,,verb.cognition,326,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+213,3,dropped,128,135,18137,18144,69,125.0,127.0,18134.0,18136.0,,,,,verb.motion,327,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+214,0,cast,3,7,18170,18174,69,0.0,2.0,18167.0,18169.0,,,,,verb.creation,328,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+214,1,affected,26,34,18193,18201,69,0.0,2.0,18167.0,18169.0,,,,,verb.perception,329,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+217,0,know,2,6,18402,18406,1,0.0,1.0,18400.0,18401.0,10.0,22.0,18410.0,18422.0,verb.cognition,331,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+221,0,dropped,9,16,18619,18626,1,0.0,8.0,18610.0,18618.0,,,,,verb.motion,333,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+223,0,believe,3,10,18776,18783,2,1.0,2.0,18774.0,18775.0,,,,,verb.cognition,335,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+223,1,added,29,34,18802,18807,2,12.0,26.0,18785.0,18799.0,,,,,verb.communication,338,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+223,1,added,29,34,18802,18807,298,12.0,26.0,18785.0,18799.0,,,,,verb.communication,338,subject,Owasso's grandfather,2.0,0.0,2.0,male,1.0,tertiary
+224,0,fear,2,6,18865,18869,2,0.0,1.0,18863.0,18864.0,,,,,verb.emotion,337,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+224,3,set,21,24,18884,18887,1,7.0,10.0,18870.0,18873.0,52.0,69.0,18915.0,18932.0,verb.contact,336,subject,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+226,1,compelled,21,30,19018,19027,69,0.0,16.0,18997.0,19013.0,,,,,verb.communication,339,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+226,2,follow,34,40,19031,19037,69,0.0,16.0,18997.0,19013.0,,,,,verb.motion,340,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+228,1,became,55,61,19387,19393,69,46.0,54.0,19378.0,19386.0,,,,,verb.change,342,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+228,3,looked,119,125,19451,19457,69,116.0,118.0,19448.0,19450.0,,,,,verb.perception,343,subject,The old magician,14.0,59.0,73.0,male,1.0,secondary
+230,0,reached,15,22,19669,19676,2,0.0,14.0,19654.0,19668.0,28.0,73.0,19682.0,19727.0,verb.motion,346,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+231,1,left,88,92,19898,19902,2,64.0,74.0,19874.0,19884.0,110.0,120.0,19920.0,19930.0,verb.cognition,345,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+231,1,left,88,92,19898,19902,49,64.0,74.0,19874.0,19884.0,110.0,120.0,19920.0,19930.0,verb.cognition,345,subject,The other boy's sister,4.0,0.0,4.0,female,1.0,tertiary
+231,3,labored,149,156,19959,19966,2,64.0,143.0,19874.0,19953.0,,,,,verb.social,347,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+231,3,labored,149,156,19959,19966,49,64.0,143.0,19874.0,19953.0,,,,,verb.social,347,subject,The other boy's sister,4.0,0.0,4.0,female,1.0,tertiary
+231,3,labored,149,156,19959,19966,3,64.0,143.0,19874.0,19953.0,,,,,verb.social,347,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+231,3,labored,149,156,19959,19966,217,64.0,143.0,19874.0,19953.0,,,,,verb.social,347,subject,their younger brother,1.0,0.0,1.0,male,1.0,tertiary
+231,4,supply,175,181,19985,19991,2,64.0,143.0,19874.0,19953.0,,,,,verb.consumption,349,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+231,4,supply,175,181,19985,19991,49,64.0,143.0,19874.0,19953.0,,,,,verb.consumption,349,subject,The other boy's sister,4.0,0.0,4.0,female,1.0,tertiary
+231,4,supply,175,181,19985,19991,3,64.0,143.0,19874.0,19953.0,,,,,verb.consumption,349,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+231,4,supply,175,181,19985,19991,217,64.0,143.0,19874.0,19953.0,,,,,verb.consumption,349,subject,their younger brother,1.0,0.0,1.0,male,1.0,tertiary
+232,0,knew,4,8,20007,20011,16,0.0,3.0,20003.0,20006.0,,,,,verb.cognition,348,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+233,0,watched,4,11,20078,20085,16,0.0,3.0,20074.0,20077.0,54.0,81.0,20128.0,20155.0,verb.social,350,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+233,1,tended,36,42,20110,20116,16,0.0,3.0,20074.0,20077.0,54.0,86.0,20128.0,20160.0,verb.social,351,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+235,0,came,7,11,20231,20235,222,0.0,6.0,20224.0,20230.0,,,,,verb.motion,353,subject,,,,,,,
+236,1,converse,14,22,20335,20343,16,0.0,3.0,20321.0,20324.0,,,,,verb.communication,354,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+236,2,felt,68,72,20389,20393,16,64.0,67.0,20385.0,20388.0,,,,,verb.cognition,355,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+237,0,forgot,22,28,20465,20471,16,18.0,21.0,20461.0,20464.0,,,,,verb.cognition,356,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+238,0,wished,11,17,20504,20510,16,0.0,3.0,20493.0,20496.0,,,,,verb.emotion,358,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+239,1,kept,26,30,20546,20550,224,12.0,14.0,20532.0,20534.0,,,,,verb.social,357,subject,"the dying inmate , who was the head of a poor family's wife's younger brother",1.0,2.0,3.0,male,1.0,tertiary
+239,2,seeking,40,47,20560,20567,16,31.0,34.0,20551.0,20554.0,,,,,verb.contact,359,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+240,3,reserve,66,73,20663,20670,16,30.0,44.0,20627.0,20641.0,,,,,verb.possession,360,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+240,5,said,143,147,20740,20744,16,139.0,142.0,20736.0,20739.0,,,,,verb.communication,362,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+240,7,stray,197,202,20794,20799,289,184.0,187.0,20781.0,20784.0,,,,,verb.motion,363,subject,The sister's brother,10.0,3.0,13.0,male,1.0,tertiary
+241,2,seek,14,18,20830,20834,16,0.0,1.0,20816.0,20817.0,,,,,verb.contact,365,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+243,0,set,9,12,20886,20889,16,0.0,3.0,20877.0,20880.0,,,,,verb.contact,364,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+243,1,taking,46,52,20923,20929,16,0.0,3.0,20877.0,20880.0,,,,,verb.motion,366,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+244,1,began,102,107,21082,21087,16,98.0,101.0,21078.0,21081.0,,,,,verb.change,367,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+244,2,think,111,116,21091,21096,16,98.0,101.0,21078.0,21081.0,,,,,verb.cognition,368,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+245,0,accepted,4,12,21145,21153,16,0.0,3.0,21141.0,21144.0,,,,,verb.cognition,369,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+245,1,forgot,67,73,21208,21214,16,55.0,58.0,21196.0,21199.0,,,,,verb.cognition,370,subject,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+246,1,brought,38,45,21272,21279,3,26.0,28.0,21260.0,21262.0,,,,,verb.motion,371,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+247,1,eaten,18,23,21332,21337,3,11.0,13.0,21325.0,21327.0,,,,,verb.consumption,372,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+247,4,obliged,66,73,21380,21387,3,59.0,61.0,21373.0,21375.0,,,,,verb.communication,374,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+247,5,pick,77,81,21391,21395,3,59.0,61.0,21373.0,21375.0,,,,,verb.contact,375,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+247,8,dig,130,133,21444,21447,3,121.0,123.0,21435.0,21437.0,,,,,verb.contact,373,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+248,1,stay,49,53,21521,21525,3,3.0,5.0,21475.0,21477.0,,,,,verb.consumption,376,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+248,2,looked,75,81,21547,21553,3,66.0,68.0,21538.0,21540.0,,,,,verb.perception,377,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+248,3,saw,100,103,21572,21575,3,66.0,68.0,21538.0,21540.0,,,,,verb.perception,378,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+249,0,looked,12,18,21623,21629,3,9.0,11.0,21620.0,21622.0,,,,,verb.perception,379,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+249,1,saw,59,62,21670,21673,3,50.0,52.0,21661.0,21663.0,,,,,verb.perception,381,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+249,2,returning,82,91,21693,21702,234,63.0,81.0,21674.0,21692.0,,,,,verb.motion,380,subject,sister,1.0,0.0,1.0,female,1.0,tertiary
+249,2,returning,82,91,21693,21702,235,63.0,81.0,21674.0,21692.0,,,,,verb.motion,380,subject,brother,1.0,0.0,1.0,male,1.0,tertiary
+251,6,obliged,126,133,21898,21905,238,104.0,121.0,21876.0,21893.0,,,,,verb.communication,382,subject,poor little Sheem,1.0,0.0,1.0,unknown,0.0,tertiary
+251,6,obliged,126,133,21898,21905,3,104.0,121.0,21876.0,21893.0,,,,,verb.communication,382,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+251,7,leave,137,142,21909,21914,238,104.0,121.0,21876.0,21893.0,,,,,verb.motion,383,subject,poor little Sheem,1.0,0.0,1.0,unknown,0.0,tertiary
+251,7,leave,137,142,21909,21914,3,104.0,121.0,21876.0,21893.0,,,,,verb.motion,383,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+252,1,enforced,17,25,21977,21985,3,10.0,12.0,21970.0,21972.0,,,,,verb.communication,384,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+253,1,grew,47,51,22156,22160,3,44.0,46.0,22153.0,22155.0,,,,,verb.change,386,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+253,4,sit,107,110,22216,22219,3,98.0,100.0,22207.0,22209.0,119.0,149.0,22228.0,22258.0,verb.contact,387,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+253,6,await,165,170,22274,22279,3,98.0,100.0,22207.0,22209.0,,,,,verb.cognition,388,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+254,1,seeming,64,71,22355,22362,241,15.0,25.0,22306.0,22316.0,,,,,verb.perception,389,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+254,2,understand,75,85,22366,22376,241,15.0,25.0,22306.0,22316.0,,,,,verb.cognition,390,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+254,4,leave,127,132,22418,22423,241,109.0,113.0,22400.0,22404.0,,,,,verb.possession,391,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+254,5,eat,154,157,22445,22448,3,133.0,142.0,22424.0,22433.0,,,,,verb.consumption,392,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+255,0,began,15,20,22465,22470,241,10.0,14.0,22460.0,22464.0,,,,,verb.change,393,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+255,1,talk,24,28,22474,22478,241,10.0,14.0,22460.0,22464.0,,,,,verb.communication,394,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+255,2,inquire,46,53,22496,22503,241,10.0,14.0,22460.0,22464.0,,,,,verb.communication,395,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+256,0,told,8,12,22530,22534,3,5.0,7.0,22527.0,22529.0,,,,,verb.communication,397,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+256,3,forsaken,35,43,22557,22565,3,23.0,25.0,22545.0,22547.0,,,,,verb.emotion,396,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+256,6,wondered,150,158,22672,22680,241,75.0,85.0,22597.0,22607.0,177.0,193.0,22699.0,22715.0,verb.communication,398,subject,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+257,2,followed,91,99,22844,22852,3,88.0,90.0,22841.0,22843.0,116.0,128.0,22869.0,22881.0,verb.motion,399,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+258,2,fishing,65,72,22948,22955,2,34.0,59.0,22917.0,22942.0,,,,,verb.motion,400,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+258,2,fishing,65,72,22948,22955,249,34.0,59.0,22917.0,22942.0,,,,,verb.motion,400,subject,little Sheem's elder brother,1.0,1.0,2.0,male,1.0,tertiary
+258,2,fishing,65,72,22948,22955,3,34.0,59.0,22917.0,22942.0,,,,,verb.motion,400,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+259,0,thought,3,10,23022,23029,3,0.0,2.0,23019.0,23021.0,,,,,verb.cognition,403,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+259,1,heard,14,19,23033,23038,3,11.0,13.0,23030.0,23032.0,,,,,verb.perception,402,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+260,0,wondered,3,11,23079,23087,3,0.0,2.0,23076.0,23078.0,,,,,verb.cognition,404,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+261,0,listened,3,11,23158,23166,3,0.0,2.0,23155.0,23157.0,,,,,verb.perception,405,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+261,1,heard,45,50,23200,23205,3,42.0,44.0,23197.0,23199.0,,,,,verb.perception,406,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+262,2,reached,64,71,23299,23306,256,17.0,26.0,23252.0,23261.0,,,,,verb.communication,407,subject,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+262,2,reached,64,71,23299,23306,3,17.0,26.0,23252.0,23261.0,,,,,verb.communication,407,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+263,0,knew,3,7,23319,23323,3,0.0,2.0,23316.0,23318.0,79.0,90.0,23395.0,23406.0,verb.cognition,408,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+263,1,heard,47,52,23363,23368,3,44.0,46.0,23360.0,23362.0,,,,,verb.perception,412,subject,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+263,2,chaunting,57,66,23373,23382,256,53.0,56.0,23369.0,23372.0,,,,,verb.communication,411,subject,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+265,0,left,10,14,23430,23434,2,6.0,9.0,23426.0,23429.0,,,,,verb.possession,410,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+265,1,going,18,23,23438,23443,256,15.0,17.0,23435.0,23437.0,,,,,verb.motion,409,subject,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+265,3,changed,58,65,23478,23485,256,48.0,49.0,23468.0,23469.0,,,,,verb.change,413,subject,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+266,1,changed,10,17,23516,23523,256,0.0,1.0,23506.0,23507.0,,,,,verb.change,414,subject,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+267,1,approached,37,47,23582,23592,2,34.0,36.0,23579.0,23581.0,,,,,verb.motion,415,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+268,3,listen,89,95,23707,23713,2,79.0,85.0,23697.0,23703.0,,,,,verb.perception,416,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+270,0,drew,19,23,23840,23844,2,16.0,18.0,23837.0,23839.0,,,,,verb.motion,418,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+270,1,saw,47,50,23868,23871,2,44.0,46.0,23865.0,23867.0,,,,,verb.perception,419,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+272,2,espied,79,85,24039,24045,2,76.0,78.0,24036.0,24038.0,111.0,185.0,24071.0,24145.0,verb.communication,421,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+272,3,flying,163,169,24123,24129,261,139.0,161.0,24099.0,24121.0,,,,,verb.motion,420,subject,half boy,1.0,0.0,1.0,male,1.0,tertiary
+273,0,leaped,19,25,24166,24172,2,0.0,6.0,24147.0,24153.0,,,,,verb.motion,423,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+273,1,strove,46,52,24193,24199,2,0.0,6.0,24147.0,24153.0,,,,,verb.social,424,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+273,2,catch,56,61,24203,24208,2,0.0,6.0,24147.0,24153.0,66.0,77.0,24213.0,24224.0,verb.contact,425,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+273,3,saying,79,85,24226,24232,2,0.0,6.0,24147.0,24153.0,99.0,109.0,24246.0,24256.0,verb.communication,426,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+276,1,crying,41,47,24324,24330,263,4.0,21.0,24287.0,24304.0,,,,,verb.communication,427,subject,the poor wolf - boy,1.0,4.0,5.0,male,1.0,tertiary
+276,2,fled,55,59,24338,24342,263,52.0,54.0,24335.0,24337.0,,,,,verb.motion,430,subject,the poor wolf - boy,1.0,4.0,5.0,male,1.0,tertiary
+277,0,left,10,14,24371,24375,2,6.0,9.0,24367.0,24370.0,,,,,verb.possession,429,subject,Owasso,54.0,135.0,189.0,male,1.0,primary
+277,1,going,18,23,24379,24384,263,15.0,17.0,24376.0,24378.0,,,,,verb.motion,428,subject,the poor wolf - boy,1.0,4.0,5.0,male,1.0,tertiary
+277,3,changed,57,64,24418,24425,263,47.0,48.0,24408.0,24409.0,,,,,verb.change,431,subject,the poor wolf - boy,1.0,4.0,5.0,male,1.0,tertiary
+278,1,changed,10,17,24456,24463,263,0.0,1.0,24446.0,24447.0,,,,,verb.change,432,subject,the poor wolf - boy,1.0,4.0,5.0,male,1.0,tertiary
+280,0,feeling,38,45,24566,24573,64,0.0,17.0,24528.0,24545.0,97.0,109.0,24625.0,24637.0,verb.cognition,434,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+280,1,returning,86,95,24614,24623,64,53.0,76.0,24581.0,24604.0,,,,,verb.change,433,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+283,0,approached,18,28,24714,24724,64,15.0,17.0,24711.0,24713.0,44.0,62.0,24740.0,24758.0,verb.motion,435,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+283,1,fled,58,62,24754,24758,64,55.0,57.0,24751.0,24753.0,,,,,verb.motion,436,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+285,0,leaped,3,9,24948,24954,64,0.0,2.0,24945.0,24947.0,,,,,verb.motion,437,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+285,2,casting,45,52,24990,24997,64,0.0,2.0,24945.0,24947.0,,,,,verb.creation,438,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+285,3,exclaimed,105,114,25050,25059,64,102.0,104.0,25047.0,25049.0,,,,,verb.communication,439,subject,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+9,1,raising,54,61,824,831,27,62.0,69.0,832.0,839.0,70.0,78.0,840.0,848.0,verb.motion,1,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+9,2,addressed,83,92,853,862,28,93.0,103.0,863.0,873.0,,,,,verb.communication,2,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+9,2,addressed,83,92,853,862,27,93.0,103.0,863.0,873.0,,,,,verb.communication,2,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+10,0,leave,3,8,878,883,28,9.0,12.0,884.0,887.0,,,,,verb.motion,3,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+10,4,supply,99,105,974,980,28,106.0,109.0,981.0,984.0,,,,,verb.consumption,4,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+10,5,protect,123,130,998,1005,28,131.0,134.0,1006.0,1009.0,,,,,verb.competition,6,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+11,0,cast,3,7,1059,1063,16,8.0,16.0,1064.0,1072.0,,,,,verb.creation,7,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+11,0,cast,3,7,1059,1063,27,8.0,16.0,1064.0,1072.0,,,,,verb.creation,7,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+11,1,continued,36,45,1092,1101,270,48.0,154.0,1104.0,1210.0,,,,,verb.communication,9,direct_object,The poor man's partner,1.0,0.0,1.0,unknown,0.0,tertiary
+11,1,continued,36,45,1092,1101,28,48.0,154.0,1104.0,1210.0,,,,,verb.communication,9,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+11,1,continued,36,45,1092,1101,27,48.0,154.0,1104.0,1210.0,,,,,verb.communication,9,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+11,4,persuaded,110,119,1166,1175,28,120.0,154.0,1176.0,1210.0,,,,,verb.communication,11,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+11,4,persuaded,110,119,1166,1175,27,120.0,154.0,1176.0,1210.0,,,,,verb.communication,11,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+13,3,shelter,80,87,1314,1321,28,88.0,91.0,1322.0,1325.0,92.0,105.0,1326.0,1339.0,verb.social,12,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+14,0,listen,0,6,1341,1347,27,7.0,18.0,1348.0,1359.0,,,,,verb.perception,14,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+16,1,withdrew,33,41,1470,1478,273,42.0,70.0,1479.0,1507.0,71.0,107.0,1508.0,1544.0,verb.social,13,direct_object,The poor man's tribe,1.0,0.0,1.0,unknown,0.0,tertiary
+16,1,withdrew,33,41,1470,1478,27,42.0,70.0,1479.0,1507.0,71.0,107.0,1508.0,1544.0,verb.social,13,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+17,1,contented,7,16,1553,1562,27,17.0,23.0,1563.0,1569.0,24.0,121.0,1570.0,1667.0,verb.consumption,15,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+20,0,wished,2,8,1823,1829,28,9.0,87.0,1830.0,1908.0,,,,,verb.emotion,17,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+20,1,hide,12,16,1833,1837,28,17.0,20.0,1838.0,1841.0,21.0,87.0,1842.0,1908.0,verb.perception,19,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+20,4,spoiled,65,72,1886,1893,28,73.0,87.0,1894.0,1908.0,,,,,verb.change,18,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+21,1,seen,7,11,1917,1921,28,12.0,53.0,1922.0,1963.0,,,,,verb.perception,20,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+26,1,shut,7,11,2216,2220,27,12.0,19.0,2221.0,2228.0,29.0,87.0,2238.0,2296.0,verb.body,22,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+26,3,promise,55,62,2264,2271,281,63.0,65.0,2272.0,2274.0,,,,,verb.communication,24,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+26,3,promise,55,62,2264,2271,27,63.0,65.0,2272.0,2274.0,,,,,verb.communication,24,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+26,4,cherish,69,76,2278,2285,281,77.0,87.0,2286.0,2296.0,,,,,verb.emotion,23,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+27,0,let,0,3,2298,2301,275,4.0,67.0,2302.0,2365.0,,,,,verb.social,25,direct_object,The poor man's family's mother,2.0,1.0,3.0,female,1.0,tertiary
+27,0,let,0,3,2298,2301,28,4.0,67.0,2302.0,2365.0,,,,,verb.social,25,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+27,3,left,56,60,2354,2358,275,61.0,67.0,2359.0,2365.0,,,,,verb.possession,26,direct_object,The poor man's family's mother,2.0,1.0,3.0,female,1.0,tertiary
+28,0,charge,2,8,2369,2375,283,9.0,12.0,2376.0,2379.0,14.0,27.0,2381.0,2394.0,verb.communication,28,direct_object,The poor man's family's younger brother,1.0,1.0,2.0,male,1.0,tertiary
+28,0,charge,2,8,2369,2375,28,9.0,12.0,2376.0,2379.0,14.0,27.0,2381.0,2394.0,verb.communication,28,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+28,1,forsake,32,39,2399,2406,283,40.0,60.0,2407.0,2427.0,,,,,verb.communication,29,direct_object,The poor man's family's younger brother,1.0,1.0,2.0,male,1.0,tertiary
+28,1,forsake,32,39,2399,2406,28,40.0,60.0,2407.0,2427.0,,,,,verb.communication,29,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+29,0,give,9,13,2438,2442,28,14.0,17.0,2443.0,2446.0,40.0,61.0,2469.0,2490.0,verb.possession,31,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+29,0,give,9,13,2438,2442,27,14.0,17.0,2443.0,2446.0,40.0,61.0,2469.0,2490.0,verb.possession,31,direct_object,The poor man,1.0,34.0,35.0,male,1.0,tertiary
+34,1,clothed,58,65,2813,2820,35,66.0,73.0,2821.0,2828.0,74.0,116.0,2829.0,2871.0,verb.body,37,direct_object,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+35,0,took,3,7,2876,2880,35,8.0,18.0,2881.0,2891.0,19.0,49.0,2892.0,2922.0,verb.motion,38,direct_object,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+36,0,exerted,3,10,2927,2934,35,11.0,18.0,2935.0,2942.0,19.0,85.0,2943.0,3009.0,verb.social,39,direct_object,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+36,1,supply,22,28,2946,2952,36,52.0,85.0,2976.0,3009.0,,,,,verb.consumption,40,direct_object,the little household,1.0,0.0,1.0,unknown,0.0,tertiary
+36,2,made,100,104,3024,3028,37,105.0,126.0,3029.0,3050.0,,,,,verb.social,41,direct_object,the elder son's father,1.0,0.0,1.0,male,1.0,tertiary
+36,2,made,100,104,3024,3028,35,105.0,126.0,3029.0,3050.0,,,,,verb.social,41,direct_object,the elder son,1.0,8.0,9.0,male,1.0,tertiary
+38,0,pressed,24,31,3169,3176,40,32.0,70.0,3177.0,3215.0,,,,,verb.communication,43,direct_object,their father,1.0,0.0,1.0,male,1.0,tertiary
+39,2,cheered,72,79,3289,3296,42,80.0,132.0,3297.0,3349.0,,,,,verb.emotion,44,direct_object,the lonely little people in the lodge,1.0,0.0,1.0,unknown,0.0,tertiary
+39,2,cheered,72,79,3289,3296,41,80.0,132.0,3297.0,3349.0,,,,,verb.emotion,44,direct_object,the spirits of the lonely little people in the lodge,1.0,0.0,1.0,unknown,0.0,tertiary
+40,1,directed,28,36,3379,3387,44,37.0,49.0,3388.0,3400.0,,,,,verb.communication,45,direct_object,The girl,1.0,2.0,3.0,female,1.0,tertiary
+40,1,directed,28,36,3379,3387,46,37.0,49.0,3388.0,3400.0,,,,,verb.communication,45,direct_object,The girl's brothers,1.0,0.0,1.0,male,1.0,tertiary
+41,0,seemed,4,10,3406,3412,47,11.0,117.0,3413.0,3519.0,,,,,verb.perception,47,direct_object,the youngest,1.0,0.0,1.0,unknown,0.0,tertiary
+41,1,feel,14,18,3416,3420,47,19.0,117.0,3421.0,3519.0,,,,,verb.emotion,46,direct_object,the youngest,1.0,0.0,1.0,unknown,0.0,tertiary
+42,0,began,19,24,3540,3545,48,25.0,108.0,3546.0,3629.0,,,,,verb.change,48,direct_object,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+42,2,showed,70,76,3591,3597,48,77.0,108.0,3598.0,3629.0,,,,,verb.perception,49,direct_object,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+43,0,addressed,11,20,3642,3651,49,21.0,31.0,3652.0,3662.0,32.0,42.0,3663.0,3673.0,verb.communication,50,direct_object,The other boy's sister,4.0,0.0,4.0,female,1.0,tertiary
+43,0,addressed,11,20,3642,3651,48,21.0,31.0,3652.0,3662.0,32.0,42.0,3663.0,3673.0,verb.communication,50,direct_object,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+44,1,deprive,7,14,3769,3776,286,15.0,21.0,3777.0,3783.0,,,,,verb.communication,52,direct_object,The other boy's own kind,1.0,0.0,1.0,unknown,0.0,tertiary
+44,1,deprive,7,14,3769,3776,48,15.0,21.0,3777.0,3783.0,,,,,verb.communication,52,direct_object,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+45,1,determined,7,17,3837,3847,48,18.0,42.0,3848.0,3872.0,,,,,verb.cognition,51,direct_object,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+46,1,seek,8,12,3882,3886,288,13.0,32.0,3887.0,3906.0,,,,,verb.contact,54,direct_object,men,1.0,0.0,1.0,male,1.0,tertiary
+46,3,prevent,50,57,3924,3931,48,58.0,60.0,3932.0,3934.0,,,,,verb.social,53,direct_object,The other boy,1.0,11.0,12.0,male,1.0,tertiary
+47,0,replied,11,18,3948,3955,50,21.0,68.0,3958.0,4005.0,,,,,verb.communication,55,direct_object,The sister,1.0,2.0,3.0,female,1.0,tertiary
+47,0,replied,11,18,3948,3955,289,21.0,68.0,3958.0,4005.0,,,,,verb.communication,55,direct_object,The sister's brother,10.0,3.0,13.0,male,1.0,tertiary
+47,2,say,30,33,3967,3970,289,34.0,37.0,3971.0,3974.0,38.0,48.0,3975.0,3985.0,verb.communication,58,direct_object,The sister's brother,10.0,3.0,13.0,male,1.0,tertiary
+48,1,forbidden,11,20,4018,4027,290,21.0,54.0,4028.0,4061.0,,,,,verb.communication,56,direct_object,our fellow - mortals,1.0,0.0,1.0,unknown,0.0,tertiary
+48,3,told,67,71,4074,4078,281,72.0,93.0,4079.0,4100.0,,,,,verb.communication,60,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+48,4,cherish,75,82,4082,4089,281,83.0,93.0,4090.0,4100.0,,,,,verb.emotion,59,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+50,2,make,50,54,4415,4419,295,55.0,139.0,4420.0,4504.0,,,,,verb.change,61,direct_object,our father,1.0,0.0,1.0,male,1.0,tertiary
+50,2,make,50,54,4415,4419,296,55.0,139.0,4420.0,4504.0,,,,,verb.change,61,direct_object,mother,1.0,0.0,1.0,female,1.0,tertiary
+50,2,make,50,54,4415,4419,293,55.0,139.0,4420.0,4504.0,,,,,verb.change,61,direct_object,our younger brother,1.0,1.0,2.0,male,1.0,tertiary
+50,3,neglect,58,65,4423,4430,293,66.0,69.0,4431.0,4434.0,,,,,verb.cognition,63,direct_object,our younger brother,1.0,1.0,2.0,male,1.0,tertiary
+51,1,took,58,62,4565,4569,51,63.0,73.0,4570.0,4580.0,74.0,128.0,4581.0,4635.0,verb.change,64,direct_object,the young man,4.0,10.0,14.0,male,1.0,tertiary
+52,0,seemed,16,22,4653,4659,51,23.0,45.0,4660.0,4682.0,,,,,verb.perception,65,direct_object,the young man,4.0,10.0,14.0,male,1.0,tertiary
+52,1,recover,26,33,4663,4670,51,34.0,45.0,4671.0,4682.0,,,,,verb.body,67,direct_object,the young man,4.0,10.0,14.0,male,1.0,tertiary
+53,2,amused,107,113,4791,4797,55,114.0,124.0,4798.0,4808.0,,,,,verb.social,66,direct_object,the two brothers,1.0,2.0,3.0,male,1.0,tertiary
+56,1,harbor,35,41,5017,5023,60,42.0,62.0,5024.0,5044.0,63.0,122.0,5045.0,5104.0,verb.perception,70,direct_object,a wicked old Manito,1.0,0.0,1.0,unknown,0.0,tertiary
+56,2,looked,85,91,5067,5073,61,92.0,107.0,5074.0,5089.0,108.0,122.0,5090.0,5104.0,verb.perception,73,direct_object,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+58,0,thought,3,10,5165,5172,51,11.0,21.0,5173.0,5183.0,,,,,verb.cognition,74,direct_object,the young man,4.0,10.0,14.0,male,1.0,tertiary
+58,0,thought,3,10,5165,5172,62,11.0,21.0,5173.0,5183.0,,,,,verb.cognition,74,direct_object,these lads,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+58,3,get,42,45,5204,5207,62,46.0,72.0,5208.0,5234.0,,,,,verb.change,75,direct_object,these lads,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+60,1,seemed,31,37,5341,5347,2,38.0,108.0,5348.0,5418.0,,,,,verb.perception,78,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+60,1,seemed,31,37,5341,5347,64,38.0,108.0,5348.0,5418.0,,,,,verb.perception,78,direct_object,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+61,0,saw,12,15,5432,5435,66,16.0,27.0,5436.0,5447.0,,,,,verb.perception,80,direct_object,the old man,1.0,0.0,1.0,male,1.0,tertiary
+62,2,noticed,58,65,5545,5552,68,66.0,80.0,5553.0,5567.0,81.0,87.0,5568.0,5574.0,verb.perception,81,direct_object,the old Manito,1.0,0.0,1.0,unknown,0.0,tertiary
+63,0,bring,1,6,5577,5582,61,7.0,15.0,5583.0,5591.0,,,,,verb.motion,83,direct_object,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+65,0,answered,6,14,5648,5656,69,15.0,31.0,5657.0,5673.0,,,,,verb.communication,84,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+66,1,wade,52,56,5727,5731,69,61.0,67.0,5736.0,5742.0,,,,,verb.motion,85,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+68,1,get,10,13,5777,5780,61,14.0,23.0,5781.0,5790.0,,,,,verb.contact,88,direct_object,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+69,0,insisted,5,13,5798,5806,69,14.0,40.0,5807.0,5833.0,,,,,verb.communication,87,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+69,3,declined,58,66,5851,5859,61,67.0,81.0,5860.0,5874.0,,,,,verb.communication,89,direct_object,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+69,4,oblige,70,76,5863,5869,61,77.0,81.0,5870.0,5874.0,,,,,verb.social,90,direct_object,the brothers,1.0,8.0,9.0,male,1.0,tertiary
+70,0,said,13,17,5889,5893,2,18.0,24.0,5894.0,5900.0,,,,,verb.communication,91,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+72,0,hand,1,5,5954,5958,69,6.0,8.0,5959.0,5961.0,,,,,verb.possession,94,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+74,0,answered,0,8,6035,6043,2,9.0,19.0,6044.0,6054.0,,,,,verb.communication,98,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+74,0,answered,0,8,6035,6043,4,9.0,19.0,6044.0,6054.0,,,,,verb.communication,98,direct_object,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+75,2,seized,67,73,6157,6163,2,74.0,77.0,6164.0,6167.0,,,,,verb.contact,100,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+75,3,pushed,82,88,6172,6178,2,89.0,92.0,6179.0,6182.0,,,,,verb.contact,101,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+76,2,take,37,41,6235,6239,2,42.0,59.0,6240.0,6257.0,60.0,64.0,,,verb.possession,102,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+76,2,take,37,41,6235,6239,299,42.0,59.0,6240.0,6257.0,60.0,64.0,,,verb.possession,102,direct_object,Owasso's little brother,1.0,2.0,3.0,male,1.0,tertiary
+78,2,leave,20,25,6313,6318,299,26.0,29.0,6319.0,6322.0,,,,,verb.motion,106,direct_object,Owasso's little brother,1.0,2.0,3.0,male,1.0,tertiary
+79,0,laughed,14,21,6339,6346,2,22.0,28.0,6347.0,6353.0,,,,,verb.body,105,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+80,0,uttering,5,13,6360,6368,5,14.0,47.0,6369.0,6402.0,,,,,verb.communication,108,direct_object,Chemaun Poll,1.0,0.0,1.0,unknown,0.0,tertiary
+81,0,giving,4,10,6408,6414,2,11.0,20.0,6415.0,6424.0,,,,,verb.possession,109,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+82,0,reached,21,28,6537,6544,75,29.0,123.0,6545.0,6639.0,,,,,verb.motion,111,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+84,0,said,18,22,6709,6713,2,23.0,36.0,6714.0,6727.0,38.0,57.0,6729.0,6748.0,verb.communication,114,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+84,0,said,18,22,6709,6713,81,23.0,36.0,6714.0,6727.0,38.0,57.0,6729.0,6748.0,verb.communication,114,direct_object,Owasso's eldest,1.0,0.0,1.0,unknown,0.0,tertiary
+84,3,brought,73,80,6764,6771,301,81.0,84.0,6772.0,6775.0,,,,,verb.motion,113,direct_object,a husband,1.0,0.0,1.0,male,1.0,tertiary
+84,3,brought,73,80,6764,6771,83,81.0,84.0,6772.0,6775.0,,,,,verb.motion,113,direct_object,The young woman,1.0,2.0,3.0,female,1.0,tertiary
+87,0,told,13,17,6865,6869,2,18.0,21.0,6870.0,6873.0,,,,,verb.communication,117,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+87,0,told,13,17,6865,6869,83,18.0,21.0,6870.0,6873.0,,,,,verb.communication,117,direct_object,The young woman,1.0,2.0,3.0,female,1.0,tertiary
+89,1,born,31,35,7039,7043,20,44.0,49.0,7052.0,7057.0,,,,,verb.creation,116,direct_object,a son,2.0,0.0,2.0,unknown,0.0,tertiary
+90,1,wished,59,65,7118,7124,2,66.0,69.0,7125.0,7128.0,,,,,verb.communication,118,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+92,0,asked,11,16,7211,7216,2,17.0,31.0,7217.0,7231.0,,,,,verb.communication,120,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+92,0,asked,11,16,7211,7216,92,17.0,31.0,7217.0,7231.0,,,,,verb.communication,120,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+96,0,advised,11,18,7446,7453,2,19.0,25.0,7454.0,7460.0,,,,,verb.communication,121,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+96,4,seemed,115,121,7550,7556,75,122.0,147.0,7557.0,7582.0,,,,,verb.perception,124,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+96,5,recognize,125,134,7560,7569,75,135.0,147.0,7570.0,7582.0,,,,,verb.perception,125,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+97,1,dart,27,31,7611,7615,2,32.0,41.0,7616.0,7625.0,,,,,verb.motion,127,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+97,4,hurled,111,117,7695,7701,1,118.0,132.0,7702.0,7716.0,133.0,156.0,,,verb.contact,130,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+97,4,hurled,111,117,7695,7701,92,118.0,132.0,7702.0,7716.0,133.0,156.0,,,verb.contact,130,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+98,0,leaving,0,7,7742,7749,2,8.0,11.0,7750.0,7753.0,,,,,verb.change,131,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+98,1,struggle,15,23,7757,7765,2,37.0,39.0,7779.0,7781.0,,,,,verb.social,133,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+99,2,bade,81,85,7886,7890,2,86.0,89.0,7891.0,7894.0,90.0,168.0,7895.0,7973.0,verb.communication,132,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+99,4,carried,122,129,7927,7934,2,130.0,133.0,7935.0,7938.0,134.0,168.0,7939.0,7973.0,verb.contact,135,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+100,3,get,100,103,8075,8078,75,104.0,126.0,8079.0,8101.0,,,,,verb.perception,137,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+101,1,saw,28,31,8131,8134,107,32.0,158.0,8135.0,8261.0,,,,,verb.perception,139,direct_object,The Manito's member of his family,1.0,0.0,1.0,unknown,0.0,tertiary
+101,1,saw,28,31,8131,8134,4,32.0,158.0,8135.0,8261.0,,,,,verb.perception,139,direct_object,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+101,1,saw,28,31,8131,8134,28,32.0,158.0,8135.0,8261.0,,,,,verb.perception,139,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+101,3,lost,131,135,8234,8238,107,136.0,158.0,8239.0,8261.0,,,,,verb.possession,138,direct_object,The Manito's member of his family,1.0,0.0,1.0,unknown,0.0,tertiary
+101,3,lost,131,135,8234,8238,4,136.0,158.0,8239.0,8261.0,,,,,verb.possession,138,direct_object,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+101,3,lost,131,135,8234,8238,28,136.0,158.0,8239.0,8261.0,,,,,verb.possession,138,direct_object,The poor man's family,2.0,19.0,21.0,unknown,0.0,tertiary
+102,1,went,25,29,8288,8292,2,30.0,36.0,8293.0,8299.0,38.0,111.0,,,verb.motion,140,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+103,1,told,42,46,8418,8422,2,47.0,50.0,8423.0,8426.0,,,,,verb.communication,144,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+103,1,told,42,46,8418,8422,88,47.0,50.0,8423.0,8426.0,,,,,verb.communication,144,direct_object,man,2.0,0.0,2.0,male,1.0,tertiary
+103,5,speared,94,101,8470,8477,2,102.0,105.0,8478.0,8481.0,,,,,verb.social,143,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+105,0,drawing,8,15,8597,8604,2,16.0,19.0,8605.0,8608.0,,,,,verb.motion,145,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+105,2,told,42,46,8631,8635,16,47.0,55.0,8636.0,8644.0,,,,,verb.communication,146,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+105,2,told,42,46,8631,8635,2,47.0,55.0,8636.0,8644.0,,,,,verb.communication,146,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+107,2,said,32,36,8771,8775,118,37.0,46.0,8776.0,8785.0,,,,,verb.communication,151,direct_object,the woman's son,1.0,0.0,1.0,unknown,0.0,tertiary
+107,2,said,32,36,8771,8775,117,37.0,46.0,8776.0,8785.0,,,,,verb.communication,151,direct_object,the woman,1.0,1.0,2.0,female,1.0,tertiary
+108,1,see,8,11,8806,8809,302,12.0,26.0,8810.0,8824.0,,,,,verb.communication,153,direct_object,the boy's grandfather,1.0,1.0,2.0,male,1.0,tertiary
+109,1,saw,41,44,8921,8924,119,45.0,48.0,8925.0,8928.0,49.0,74.0,8929.0,8954.0,verb.perception,156,direct_object,the boy,3.0,9.0,12.0,male,1.0,tertiary
+109,2,asked,84,89,8964,8969,119,90.0,93.0,8970.0,8973.0,,,,,verb.communication,158,direct_object,the boy,3.0,9.0,12.0,male,1.0,tertiary
+111,0,replied,3,10,9021,9028,303,13.0,33.0,9031.0,9051.0,,,,,verb.communication,160,direct_object,the boy's father,2.0,0.0,2.0,male,1.0,tertiary
+111,0,replied,3,10,9021,9028,119,13.0,33.0,9031.0,9051.0,,,,,verb.communication,160,direct_object,the boy,3.0,9.0,12.0,male,1.0,tertiary
+112,2,found,42,47,9096,9101,75,48.0,74.0,9102.0,9128.0,,,,,verb.cognition,162,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+114,0,requested,37,46,9267,9276,1,47.0,78.0,9277.0,9308.0,,,,,verb.communication,166,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+114,0,requested,37,46,9267,9276,92,47.0,78.0,9277.0,9308.0,,,,,verb.communication,166,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+114,1,accompany,65,74,9295,9304,1,75.0,78.0,9305.0,9308.0,,,,,verb.motion,167,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+117,0,said,13,17,9494,9498,2,18.0,27.0,9499.0,9508.0,,,,,verb.communication,170,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+117,0,said,13,17,9494,9498,305,18.0,27.0,9499.0,9508.0,,,,,verb.communication,170,direct_object,The magician's son,3.0,2.0,5.0,unknown,0.0,tertiary
+117,0,said,13,17,9494,9498,75,18.0,27.0,9499.0,9508.0,,,,,verb.communication,170,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+118,3,saw,89,92,9668,9671,2,93.0,119.0,9672.0,9698.0,,,,,verb.perception,171,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+119,0,took,17,21,9717,9721,129,22.0,59.0,9722.0,9759.0,,,,,verb.change,172,direct_object,the gulls,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+119,1,speak,41,46,9741,9746,129,47.0,59.0,9747.0,9759.0,,,,,verb.communication,174,direct_object,the gulls,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+120,1,wished,13,19,9774,9780,2,32.0,54.0,9793.0,9815.0,,,,,verb.emotion,173,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+120,3,offer,35,40,9796,9801,2,41.0,44.0,9802.0,9805.0,,,,,verb.possession,175,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+121,0,give,6,10,9823,9827,2,11.0,14.0,9828.0,9831.0,,,,,verb.possession,177,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+121,0,give,6,10,9823,9827,306,11.0,14.0,9828.0,9831.0,,,,,verb.possession,177,direct_object,this young man,1.0,0.0,1.0,male,1.0,tertiary
+122,0,uttered,8,15,9866,9873,69,16.0,25.0,9874.0,9883.0,,,,,verb.communication,178,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+122,2,leaving,66,73,9924,9931,2,74.0,80.0,9932.0,9938.0,,,,,verb.change,179,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+122,3,make,84,88,9942,9946,2,89.0,98.0,9947.0,9956.0,99.0,120.0,,,verb.change,180,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+123,2,devour,64,70,10044,10050,2,71.0,74.0,10051.0,10054.0,,,,,verb.contact,181,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+124,1,lose,15,19,10071,10075,2,20.0,40.0,10076.0,10096.0,,,,,verb.possession,182,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+124,2,addressed,49,58,10105,10114,129,59.0,63.0,10115.0,10119.0,,,,,verb.communication,183,direct_object,the gulls,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+124,3,said,68,72,10124,10128,307,75.0,171.0,10131.0,10227.0,,,,,verb.communication,186,direct_object,man made to be the prey of birds,1.0,0.0,1.0,male,1.0,tertiary
+124,3,said,68,72,10124,10128,6,75.0,171.0,10131.0,10227.0,,,,,verb.communication,186,direct_object,Gulls,1.0,4.0,5.0,unknown,0.0,tertiary
+124,4,know,86,90,10142,10146,6,91.0,129.0,10147.0,10185.0,,,,,verb.cognition,185,direct_object,Gulls,1.0,4.0,5.0,unknown,0.0,tertiary
+125,0,obey,0,4,10229,10233,2,5.0,13.0,10234.0,10242.0,,,,,verb.social,188,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+126,1,carry,52,57,10296,10301,2,58.0,60.0,10302.0,10304.0,61.0,74.0,,,verb.contact,189,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+126,1,carry,52,57,10296,10301,75,58.0,60.0,10302.0,10304.0,61.0,74.0,,,verb.contact,189,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+127,0,listened,5,13,10350,10358,2,26.0,41.0,10371.0,10386.0,,,,,verb.perception,190,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+127,3,obeyed,96,102,10441,10447,2,103.0,106.0,10448.0,10451.0,,,,,verb.social,193,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+128,0,found,12,17,10465,10470,2,18.0,66.0,10471.0,10519.0,,,,,verb.perception,194,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+129,0,appears,14,21,10535,10542,69,22.0,108.0,10543.0,10629.0,,,,,verb.perception,197,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+129,3,allowed,66,73,10587,10594,69,74.0,108.0,10595.0,10629.0,,,,,verb.social,196,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+130,0,saw,37,40,10668,10671,69,41.0,149.0,10672.0,10780.0,,,,,verb.perception,200,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+130,1,lying,45,50,10676,10681,69,51.0,74.0,10682.0,10705.0,76.0,149.0,10707.0,10780.0,verb.contact,199,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+132,1,besmeared,18,27,10930,10939,2,28.0,36.0,10940.0,10948.0,37.0,61.0,10949.0,10973.0,verb.contact,202,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,3,excusing,58,66,11157,11165,2,67.0,74.0,11166.0,11173.0,75.0,90.0,11174.0,11189.0,verb.communication,208,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,5,ornament,162,170,11261,11269,2,171.0,185.0,11270.0,11284.0,,,,,verb.communication,209,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+135,5,ornament,162,170,11261,11269,138,171.0,185.0,11270.0,11284.0,,,,,verb.communication,209,direct_object,Owasso's son,1.0,0.0,1.0,unknown,0.0,tertiary
+136,2,meet,64,68,11350,11354,75,69.0,72.0,11355.0,11358.0,,,,,verb.social,211,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+136,3,tossing,74,81,11360,11367,140,82.0,90.0,11368.0,11376.0,91.0,147.0,11377.0,11433.0,verb.motion,213,direct_object,Owasso's grandson,1.0,1.0,2.0,male,1.0,tertiary
+138,0,asked,0,5,11462,11467,4,6.0,16.0,11468.0,11478.0,,,,,verb.communication,215,direct_object,The Manito,5.0,4.0,9.0,male,1.0,tertiary
+140,2,destroyed,66,75,11613,11622,2,76.0,90.0,11623.0,11637.0,,,,,verb.creation,216,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+140,2,destroyed,66,75,11613,11622,92,76.0,90.0,11623.0,11637.0,,,,,verb.creation,216,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+141,0,entered,3,10,11642,11649,2,11.0,20.0,11650.0,11659.0,21.0,31.0,11660.0,11670.0,verb.motion,218,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+141,1,set,37,40,11676,11679,69,41.0,49.0,11680.0,11688.0,50.0,56.0,11689.0,11695.0,verb.cognition,219,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+141,2,contrive,74,82,11713,11721,69,83.0,132.0,11722.0,11771.0,,,,,verb.creation,220,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+141,3,easing,97,103,11736,11742,69,104.0,116.0,11743.0,11755.0,117.0,132.0,,,verb.emotion,221,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+142,2,saying,18,24,11791,11797,69,25.0,35.0,11798.0,11808.0,,,,,verb.communication,223,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+142,2,saying,18,24,11791,11797,311,25.0,35.0,11798.0,11808.0,,,,,verb.communication,223,direct_object,boy,1.0,3.0,4.0,male,1.0,tertiary
+142,5,escaping,77,85,11850,11858,69,86.0,99.0,11859.0,11872.0,,,,,verb.motion,222,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+143,1,save,34,38,11908,11912,311,39.0,42.0,11913.0,11916.0,,,,,verb.social,224,direct_object,boy,1.0,3.0,4.0,male,1.0,tertiary
+144,1,entrap,7,13,11925,11931,311,14.0,17.0,11932.0,11935.0,,,,,verb.social,226,direct_object,boy,1.0,3.0,4.0,male,1.0,tertiary
+146,2,tried,35,40,11995,12000,69,41.0,58.0,12001.0,12018.0,59.0,73.0,12019.0,12033.0,verb.social,225,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+147,0,professed,7,16,12077,12086,2,17.0,66.0,12087.0,12136.0,,,,,verb.communication,228,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+147,0,professed,7,16,12077,12086,92,17.0,66.0,12087.0,12136.0,,,,,verb.communication,228,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+147,2,said,93,97,12163,12167,2,98.0,107.0,12168.0,12177.0,,,,,verb.communication,229,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+147,2,said,93,97,12163,12167,305,98.0,107.0,12168.0,12177.0,,,,,verb.communication,229,direct_object,The magician's son,3.0,2.0,5.0,unknown,0.0,tertiary
+147,2,said,93,97,12163,12167,69,98.0,107.0,12168.0,12177.0,,,,,verb.communication,229,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+151,3,led,88,91,12481,12484,69,92.0,95.0,12485.0,12488.0,103.0,189.0,12496.0,12582.0,verb.motion,233,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+153,0,think,2,7,12662,12667,305,8.0,44.0,12668.0,12704.0,,,,,verb.cognition,235,direct_object,The magician's son,3.0,2.0,5.0,unknown,0.0,tertiary
+155,3,addressing,73,83,12795,12805,1,84.0,91.0,12806.0,12813.0,,,,,verb.communication,239,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+155,4,stretch,159,166,12881,12888,305,167.0,175.0,12889.0,12897.0,,,,,verb.contact,240,direct_object,The magician's son,3.0,2.0,5.0,unknown,0.0,tertiary
+156,3,imperiled,65,74,12985,12994,2,75.0,83.0,12995.0,13003.0,84.0,119.0,13004.0,13039.0,verb.social,241,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+158,0,continued,0,9,13062,13071,1,10.0,18.0,13072.0,13080.0,,,,,verb.communication,243,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+159,1,expected,15,23,13097,13105,1,24.0,38.0,13106.0,13120.0,,,,,verb.cognition,242,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+160,0,present,6,13,13128,13135,316,14.0,17.0,13136.0,13139.0,,,,,verb.perception,245,direct_object,ye eagles,1.0,5.0,6.0,unknown,0.0,tertiary
+160,0,present,6,13,13128,13135,317,14.0,17.0,13136.0,13139.0,,,,,verb.perception,245,direct_object,"ye eagles's boy , who has had the presumption to climb up where you are to molest your young",1.0,1.0,2.0,male,1.0,tertiary
+160,2,had,36,39,13158,13161,316,40.0,102.0,13162.0,13224.0,,,,,verb.possession,244,direct_object,ye eagles,1.0,5.0,6.0,unknown,0.0,tertiary
+160,5,molest,85,91,13207,13213,316,92.0,102.0,13214.0,13224.0,,,,,verb.social,246,direct_object,ye eagles,1.0,5.0,6.0,unknown,0.0,tertiary
+161,1,seize,29,34,13255,13260,317,35.0,38.0,13261.0,13264.0,,,,,verb.contact,247,direct_object,"ye eagles's boy , who has had the presumption to climb up where you are to molest your young",1.0,1.0,2.0,male,1.0,tertiary
+162,0,saying,3,9,13270,13276,69,11.0,66.0,13278.0,13333.0,,,,,verb.communication,249,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+162,2,turned,68,74,13335,13341,69,75.0,78.0,13342.0,13345.0,79.0,95.0,13346.0,13362.0,verb.motion,248,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+163,1,left,37,41,13401,13405,69,42.0,56.0,13406.0,13420.0,57.0,77.0,13421.0,13441.0,verb.cognition,250,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+163,1,left,37,41,13401,13405,92,42.0,56.0,13406.0,13420.0,57.0,77.0,13421.0,13441.0,verb.cognition,250,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+163,2,shift,60,65,13424,13429,69,66.0,77.0,13430.0,13441.0,,,,,verb.motion,252,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+165,1,opened,95,101,13621,13627,69,102.0,123.0,13628.0,13649.0,124.0,160.0,13650.0,13686.0,verb.competition,253,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+165,2,asking,127,133,13653,13659,69,134.0,160.0,13660.0,13686.0,,,,,verb.communication,255,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+165,4,brought,143,150,13669,13676,69,151.0,154.0,13677.0,13680.0,155.0,160.0,13681.0,13686.0,verb.motion,254,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+166,0,replied,7,14,13695,13702,2,15.0,104.0,13703.0,13792.0,,,,,verb.communication,257,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+166,0,replied,7,14,13695,13702,153,15.0,104.0,13703.0,13792.0,,,,,verb.communication,257,direct_object,Owasso's people,1.0,0.0,1.0,unknown,0.0,tertiary
+166,2,mounted,31,38,13719,13726,2,39.0,104.0,13727.0,13792.0,,,,,verb.contact,256,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+166,2,mounted,31,38,13719,13726,153,39.0,104.0,13727.0,13792.0,,,,,verb.contact,256,direct_object,Owasso's people,1.0,0.0,1.0,unknown,0.0,tertiary
+166,3,harm,89,93,13777,13781,2,94.0,104.0,13782.0,13792.0,,,,,verb.emotion,259,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+166,3,harm,89,93,13777,13781,153,94.0,104.0,13782.0,13792.0,,,,,verb.emotion,259,direct_object,Owasso's people,1.0,0.0,1.0,unknown,0.0,tertiary
+167,3,sent,64,68,13858,13862,2,69.0,72.0,13863.0,13866.0,73.0,75.0,13867.0,13869.0,verb.motion,258,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+168,1,sending,18,25,13889,13896,2,26.0,29.0,13897.0,13900.0,30.0,52.0,13901.0,13923.0,verb.motion,260,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+169,1,enlarging,29,38,13954,13963,158,55.0,94.0,13980.0,14019.0,,,,,verb.creation,261,direct_object,the wicked Manito,1.0,0.0,1.0,unknown,0.0,tertiary
+171,5,deal,141,145,14242,14246,2,146.0,171.0,14247.0,14272.0,,,,,verb.communication,265,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+171,6,come,159,163,14260,14264,2,164.0,171.0,14265.0,14272.0,,,,,verb.motion,267,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+172,0,appeared,19,27,14294,14302,160,28.0,55.0,14303.0,14330.0,,,,,verb.perception,266,direct_object,the tribe,1.0,0.0,1.0,unknown,0.0,tertiary
+172,0,appeared,19,27,14294,14302,159,28.0,55.0,14303.0,14330.0,,,,,verb.perception,266,direct_object,the head of the tribe,1.0,0.0,1.0,unknown,0.0,tertiary
+172,4,transport,178,187,14453,14462,2,188.0,194.0,14463.0,14469.0,,,,,verb.motion,269,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+172,4,transport,178,187,14453,14462,154,188.0,194.0,14463.0,14469.0,,,,,verb.motion,269,direct_object,Owasso's father - in - law,1.0,3.0,4.0,male,1.0,tertiary
+173,2,conducting,27,37,14511,14521,2,38.0,41.0,14522.0,14525.0,42.0,57.0,,,verb.social,271,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+174,0,expressed,7,16,14550,14559,163,17.0,33.0,14560.0,14576.0,51.0,67.0,14594.0,14610.0,verb.communication,270,direct_object,the old eagle,1.0,1.0,2.0,male,1.0,tertiary
+175,5,descry,123,129,14763,14769,69,130.0,179.0,14770.0,14819.0,181.0,215.0,14821.0,14855.0,verb.contact,272,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+178,1,stood,74,79,15034,15039,2,80.0,135.0,15040.0,15095.0,,,,,verb.contact,274,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,1,stood,74,79,15034,15039,167,80.0,135.0,15040.0,15095.0,,,,,verb.contact,274,direct_object,Owasso's wicked father - in - law,1.0,0.0,1.0,male,1.0,tertiary
+178,2,greet,89,94,15049,15054,2,95.0,135.0,15055.0,15095.0,,,,,verb.communication,276,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+178,2,greet,89,94,15049,15054,167,95.0,135.0,15055.0,15095.0,,,,,verb.communication,276,direct_object,Owasso's wicked father - in - law,1.0,0.0,1.0,male,1.0,tertiary
+179,0,espied,8,14,15105,15111,2,15.0,29.0,15112.0,15126.0,30.0,35.0,15127.0,15132.0,verb.communication,277,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+179,0,espied,8,14,15105,15111,92,15.0,29.0,15112.0,15126.0,30.0,35.0,15127.0,15132.0,verb.communication,277,direct_object,Owasso's son - in - law,7.0,0.0,7.0,unknown,0.0,tertiary
+181,0,thought,3,10,15216,15223,1,11.0,80.0,15224.0,15293.0,,,,,verb.cognition,280,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+181,2,ponder,20,26,15233,15239,1,34.0,80.0,15247.0,15293.0,,,,,verb.cognition,281,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+182,0,happened,3,11,15298,15306,16,12.0,211.0,15307.0,15506.0,,,,,verb.change,285,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+182,0,happened,3,11,15298,15306,172,12.0,211.0,15307.0,15506.0,,,,,verb.change,285,direct_object,some one at a great distance,1.0,0.0,1.0,unknown,0.0,tertiary
+182,0,happened,3,11,15298,15306,2,12.0,211.0,15307.0,15506.0,,,,,verb.change,285,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+182,6,heard,155,160,15450,15455,172,161.0,211.0,15456.0,15506.0,,,,,verb.perception,287,direct_object,some one at a great distance,1.0,0.0,1.0,unknown,0.0,tertiary
+182,7,sung,175,179,15470,15474,172,180.0,211.0,15475.0,15506.0,,,,,verb.creation,286,direct_object,some one at a great distance,1.0,0.0,1.0,unknown,0.0,tertiary
+184,1,cried,32,37,15616,15621,2,38.0,44.0,15622.0,15628.0,,,,,verb.communication,288,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+186,1,see,20,23,15682,15685,289,24.0,27.0,15686.0,15689.0,,,,,verb.perception,289,direct_object,The sister's brother,10.0,3.0,13.0,male,1.0,tertiary
+187,0,hung,7,11,15699,15703,2,17.0,25.0,15709.0,15717.0,26.0,41.0,15718.0,15733.0,verb.contact,290,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,0,witnessed,9,18,15744,15753,2,19.0,31.0,15754.0,15766.0,,,,,verb.perception,291,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,1,comfort,40,47,15775,15782,2,48.0,51.0,15783.0,15786.0,,,,,verb.emotion,292,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,2,proposed,56,64,15791,15799,2,65.0,146.0,15800.0,15881.0,,,,,verb.communication,293,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+188,6,carry,116,121,15851,15856,2,122.0,125.0,15857.0,15860.0,133.0,146.0,15868.0,15881.0,verb.contact,295,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+189,2,offered,83,90,15966,15973,175,91.0,116.0,15974.0,15999.0,118.0,165.0,16001.0,16048.0,verb.communication,294,direct_object,the wife of Owasso,1.0,1.0,2.0,female,1.0,tertiary
+189,2,offered,83,90,15966,15973,176,91.0,116.0,15974.0,15999.0,118.0,165.0,16001.0,16048.0,verb.communication,294,direct_object,the wife of Owasso's father,1.0,0.0,1.0,female,0.5,tertiary
+189,3,comb,94,98,15977,15981,175,99.0,116.0,15982.0,15999.0,,,,,verb.contact,296,direct_object,the wife of Owasso,1.0,1.0,2.0,female,1.0,tertiary
+189,3,comb,94,98,15977,15981,176,99.0,116.0,15982.0,15999.0,,,,,verb.contact,296,direct_object,the wife of Owasso's father,1.0,0.0,1.0,female,0.5,tertiary
+189,5,soothe,146,152,16029,16035,2,153.0,156.0,16036.0,16039.0,,,,,verb.emotion,297,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+191,0,saw,15,18,16085,16088,2,19.0,120.0,16089.0,16190.0,,,,,verb.perception,299,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+193,3,hear,88,92,16346,16350,181,93.0,185.0,16351.0,16443.0,,,,,verb.perception,303,direct_object,the younger brother,1.0,1.0,2.0,male,1.0,tertiary
+193,3,hear,88,92,16346,16350,69,93.0,185.0,16351.0,16443.0,,,,,verb.perception,303,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+193,4,singing,126,133,16384,16391,181,134.0,144.0,16392.0,16402.0,,,,,verb.communication,302,direct_object,the younger brother,1.0,1.0,2.0,male,1.0,tertiary
+196,0,spoke,3,8,16571,16576,2,9.0,135.0,16577.0,16703.0,,,,,verb.communication,306,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+196,0,spoke,3,8,16571,16576,186,9.0,135.0,16577.0,16703.0,,,,,verb.communication,306,direct_object,any other person in the world,1.0,0.0,1.0,unknown,0.0,tertiary
+202,0,said,42,46,17081,17085,2,49.0,90.0,17088.0,17129.0,,,,,verb.communication,310,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+202,0,said,42,46,17081,17085,7,49.0,90.0,17088.0,17129.0,,,,,verb.communication,310,direct_object,Father,1.0,0.0,1.0,male,1.0,tertiary
+202,1,wish,59,63,17098,17102,2,64.0,90.0,17103.0,17129.0,,,,,verb.emotion,311,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+202,2,try,67,70,17106,17109,2,71.0,90.0,17110.0,17129.0,,,,,verb.social,312,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+209,1,hanging,41,48,17566,17573,69,49.0,56.0,17574.0,17581.0,,,,,verb.contact,315,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+210,2,suspected,36,45,17667,17676,2,46.0,94.0,17677.0,17725.0,,,,,verb.cognition,319,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+210,2,suspected,36,45,17667,17676,75,46.0,94.0,17677.0,17725.0,,,,,verb.cognition,319,direct_object,The magician,15.0,6.0,21.0,male,1.0,tertiary
+210,3,had,64,67,17695,17698,2,68.0,94.0,17699.0,17725.0,,,,,verb.possession,318,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+210,4,play,78,82,17709,17713,2,83.0,86.0,17714.0,17717.0,,,,,verb.creation,320,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+211,1,watched,23,30,17750,17757,1,31.0,201.0,17758.0,17928.0,,,,,verb.perception,321,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+211,1,watched,23,30,17750,17757,69,31.0,201.0,17758.0,17928.0,,,,,verb.perception,321,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+211,4,putting,95,102,17822,17829,1,103.0,110.0,17830.0,17837.0,,,,,verb.contact,322,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+211,4,putting,95,102,17822,17829,69,103.0,110.0,17830.0,17837.0,,,,,verb.contact,322,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+211,6,help,185,189,17912,17916,69,190.0,193.0,17917.0,17920.0,,,,,verb.social,323,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+212,0,bestirred,32,41,17962,17971,69,42.0,49.0,17972.0,17979.0,51.0,77.0,17981.0,18007.0,verb.cognition,324,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+213,1,thinking,73,81,18082,18090,2,82.0,123.0,18091.0,18132.0,,,,,verb.cognition,326,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+213,1,thinking,73,81,18082,18090,69,82.0,123.0,18091.0,18132.0,,,,,verb.cognition,326,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+214,0,cast,3,7,18170,18174,69,8.0,15.0,18175.0,18182.0,,,,,verb.creation,328,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+216,1,rubbing,25,32,18321,18328,1,33.0,41.0,18329.0,18337.0,,,,,verb.body,330,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+219,0,said,17,21,18488,18492,2,22.0,24.0,18493.0,18495.0,,,,,verb.communication,332,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+221,0,dropped,9,16,18619,18626,1,17.0,25.0,18627.0,18635.0,,,,,verb.motion,333,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+222,4,help,76,80,18729,18733,1,81.0,84.0,18734.0,18737.0,,,,,verb.social,334,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+223,0,believe,3,10,18776,18783,2,12.0,26.0,18785.0,18799.0,,,,,verb.cognition,335,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+223,0,believe,3,10,18776,18783,298,12.0,26.0,18785.0,18799.0,,,,,verb.cognition,335,direct_object,Owasso's grandfather,2.0,0.0,2.0,male,1.0,tertiary
+224,0,fear,2,6,18865,18869,1,7.0,98.0,18870.0,18961.0,,,,,verb.emotion,337,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+224,3,set,21,24,18884,18887,1,25.0,51.0,18888.0,18914.0,52.0,69.0,18915.0,18932.0,verb.contact,336,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+226,1,compelled,21,30,19018,19027,1,31.0,44.0,19028.0,19041.0,,,,,verb.communication,339,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+226,2,follow,34,40,19031,19037,1,41.0,44.0,19038.0,19041.0,,,,,verb.motion,340,direct_object,Mishosha,16.0,26.0,42.0,male,1.0,tertiary
+227,0,had,42,45,19183,19186,69,46.0,106.0,19187.0,19247.0,108.0,189.0,19249.0,19330.0,verb.possession,341,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+228,3,looked,119,125,19451,19457,2,126.0,229.0,19458.0,19561.0,,,,,verb.perception,343,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+228,3,looked,119,125,19451,19457,69,126.0,229.0,19458.0,19561.0,,,,,verb.perception,343,direct_object,The old magician,14.0,59.0,73.0,male,1.0,secondary
+228,3,looked,119,125,19451,19457,207,126.0,229.0,19458.0,19561.0,,,,,verb.perception,343,direct_object,the wicked old magician,1.0,1.0,2.0,male,1.0,tertiary
+228,5,leaving,163,170,19495,19502,207,171.0,194.0,19503.0,19526.0,201.0,229.0,19533.0,19561.0,verb.change,344,direct_object,the wicked old magician,1.0,1.0,2.0,male,1.0,tertiary
+233,0,watched,4,11,20078,20085,16,12.0,30.0,20086.0,20104.0,54.0,81.0,20128.0,20155.0,verb.social,350,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+233,0,watched,4,11,20078,20085,220,12.0,30.0,20086.0,20104.0,54.0,81.0,20128.0,20155.0,verb.social,350,direct_object,"the dying inmate , who was the head of a poor family's wife's little brother",3.0,1.0,4.0,male,1.0,tertiary
+233,1,tended,36,42,20110,20116,220,43.0,52.0,20117.0,20126.0,54.0,86.0,20128.0,20160.0,verb.social,351,direct_object,"the dying inmate , who was the head of a poor family's wife's little brother",3.0,1.0,4.0,male,1.0,tertiary
+234,0,began,13,18,20175,20180,16,19.0,60.0,20181.0,20222.0,,,,,verb.change,352,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+235,0,came,7,11,20231,20235,16,12.0,95.0,20236.0,20319.0,,,,,verb.motion,353,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+235,0,came,7,11,20231,20235,223,12.0,95.0,20236.0,20319.0,,,,,verb.motion,353,direct_object,"the dying inmate , who was the head of a poor family's wife's mother",1.0,0.0,1.0,female,1.0,tertiary
+236,2,felt,68,72,20389,20393,16,102.0,120.0,20423.0,20441.0,,,,,verb.cognition,355,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+237,0,forgot,22,28,20465,20471,16,29.0,48.0,20472.0,20491.0,,,,,verb.cognition,356,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+237,0,forgot,22,28,20465,20471,224,29.0,48.0,20472.0,20491.0,,,,,verb.cognition,356,direct_object,"the dying inmate , who was the head of a poor family's wife's younger brother",1.0,2.0,3.0,male,1.0,tertiary
+238,0,wished,11,17,20504,20510,224,18.0,26.0,20511.0,20519.0,,,,,verb.emotion,358,direct_object,"the dying inmate , who was the head of a poor family's wife's younger brother",1.0,2.0,3.0,male,1.0,tertiary
+239,1,kept,26,30,20546,20550,16,31.0,34.0,20551.0,20554.0,,,,,verb.social,357,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+239,1,kept,26,30,20546,20550,225,31.0,34.0,20551.0,20554.0,,,,,verb.social,357,direct_object,others,1.0,0.0,1.0,unknown,0.0,tertiary
+239,2,seeking,40,47,20560,20567,225,48.0,75.0,20568.0,20595.0,,,,,verb.contact,359,direct_object,others,1.0,0.0,1.0,unknown,0.0,tertiary
+240,0,collecting,15,25,20612,20622,16,26.0,94.0,20623.0,20691.0,,,,,verb.possession,361,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+240,5,said,143,147,20740,20744,16,148.0,169.0,20745.0,20766.0,,,,,verb.communication,362,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+240,5,said,143,147,20740,20744,289,148.0,169.0,20745.0,20766.0,,,,,verb.communication,362,direct_object,The sister's brother,10.0,3.0,13.0,male,1.0,tertiary
+240,5,said,143,147,20740,20744,220,148.0,169.0,20745.0,20766.0,,,,,verb.communication,362,direct_object,"the dying inmate , who was the head of a poor family's wife's little brother",3.0,1.0,4.0,male,1.0,tertiary
+241,2,seek,14,18,20830,20834,324,19.0,36.0,20835.0,20852.0,,,,,verb.contact,365,direct_object,our elder brother,1.0,0.0,1.0,male,1.0,tertiary
+243,1,taking,46,52,20923,20929,16,53.0,63.0,20930.0,20940.0,,,,,verb.motion,366,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+244,1,began,102,107,21082,21087,16,108.0,159.0,21088.0,21139.0,,,,,verb.change,367,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+244,1,began,102,107,21082,21087,3,108.0,159.0,21088.0,21139.0,,,,,verb.change,367,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+244,1,began,102,107,21082,21087,220,108.0,159.0,21088.0,21139.0,,,,,verb.change,367,direct_object,"the dying inmate , who was the head of a poor family's wife's little brother",3.0,1.0,4.0,male,1.0,tertiary
+244,2,think,111,116,21091,21096,16,117.0,159.0,21097.0,21139.0,,,,,verb.cognition,368,direct_object,"the dying inmate , who was the head of a poor family's wife",7.0,32.0,39.0,female,1.0,tertiary
+244,2,think,111,116,21091,21096,3,117.0,159.0,21097.0,21139.0,,,,,verb.cognition,368,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+244,2,think,111,116,21091,21096,220,117.0,159.0,21097.0,21139.0,,,,,verb.cognition,368,direct_object,"the dying inmate , who was the head of a poor family's wife's little brother",3.0,1.0,4.0,male,1.0,tertiary
+245,1,forgot,67,73,21208,21214,230,74.0,91.0,21215.0,21232.0,,,,,verb.cognition,370,direct_object,the abandoned boy,1.0,0.0,1.0,male,1.0,tertiary
+246,1,brought,38,45,21272,21279,3,46.0,78.0,21280.0,21312.0,,,,,verb.motion,371,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+248,1,stay,49,53,21521,21525,3,54.0,64.0,21526.0,21536.0,,,,,verb.consumption,376,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+249,1,saw,59,62,21670,21673,234,63.0,113.0,21674.0,21724.0,,,,,verb.perception,381,direct_object,sister,1.0,0.0,1.0,female,1.0,tertiary
+249,1,saw,59,62,21670,21673,235,63.0,113.0,21674.0,21724.0,,,,,verb.perception,381,direct_object,brother,1.0,0.0,1.0,male,1.0,tertiary
+252,3,break,90,95,22050,22055,3,96.0,104.0,22056.0,22064.0,105.0,147.0,,,verb.change,385,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+253,1,grew,47,51,22156,22160,3,52.0,180.0,22161.0,22289.0,,,,,verb.change,386,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+253,6,await,165,170,22274,22279,3,171.0,180.0,22280.0,22289.0,,,,,verb.cognition,388,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+254,1,seeming,64,71,22355,22362,3,72.0,107.0,22363.0,22398.0,,,,,verb.perception,389,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+254,2,understand,75,85,22366,22376,3,86.0,107.0,22377.0,22398.0,,,,,verb.cognition,390,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+254,4,leave,127,132,22418,22423,3,133.0,157.0,22424.0,22448.0,,,,,verb.possession,391,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+255,0,began,15,20,22465,22470,3,21.0,70.0,22471.0,22520.0,,,,,verb.change,393,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+255,1,talk,24,28,22474,22478,3,29.0,37.0,22479.0,22487.0,,,,,verb.communication,394,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+255,2,inquire,46,53,22496,22503,3,54.0,70.0,22504.0,22520.0,,,,,verb.communication,395,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+256,0,told,8,12,22530,22534,242,13.0,17.0,22535.0,22539.0,,,,,verb.communication,397,direct_object,little Sheem's brother,2.0,0.0,2.0,male,1.0,tertiary
+256,0,told,8,12,22530,22534,49,13.0,17.0,22535.0,22539.0,,,,,verb.communication,397,direct_object,The other boy's sister,4.0,0.0,4.0,female,1.0,tertiary
+256,0,told,8,12,22530,22534,3,13.0,17.0,22535.0,22539.0,,,,,verb.communication,397,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+256,0,told,8,12,22530,22534,241,13.0,17.0,22535.0,22539.0,,,,,verb.communication,397,direct_object,the wolves,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+256,3,forsaken,35,43,22557,22565,242,44.0,73.0,22566.0,22595.0,,,,,verb.emotion,396,direct_object,little Sheem's brother,2.0,0.0,2.0,male,1.0,tertiary
+256,3,forsaken,35,43,22557,22565,49,44.0,73.0,22566.0,22595.0,,,,,verb.emotion,396,direct_object,The other boy's sister,4.0,0.0,4.0,female,1.0,tertiary
+256,3,forsaken,35,43,22557,22565,3,44.0,73.0,22566.0,22595.0,,,,,verb.emotion,396,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+257,2,followed,91,99,22844,22852,247,100.0,115.0,22853.0,22868.0,116.0,128.0,22869.0,22881.0,verb.motion,399,direct_object,little Sheem's new friends,1.0,0.0,1.0,unknown,0.0,tertiary
+257,2,followed,91,99,22844,22852,3,100.0,115.0,22853.0,22868.0,116.0,128.0,22869.0,22881.0,verb.motion,399,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+258,0,happened,3,11,22886,22894,2,29.0,134.0,22912.0,23017.0,,,,,verb.change,401,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+258,0,happened,3,11,22886,22894,249,29.0,134.0,22912.0,23017.0,,,,,verb.change,401,direct_object,little Sheem's elder brother,1.0,1.0,2.0,male,1.0,tertiary
+258,0,happened,3,11,22886,22894,3,29.0,134.0,22912.0,23017.0,,,,,verb.change,401,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+258,2,fishing,65,72,22948,22955,249,73.0,91.0,22956.0,22974.0,,,,,verb.motion,400,direct_object,little Sheem's elder brother,1.0,1.0,2.0,male,1.0,tertiary
+259,0,thought,3,10,23022,23029,3,11.0,55.0,23030.0,23074.0,,,,,verb.cognition,403,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+259,0,thought,3,10,23022,23029,252,11.0,55.0,23030.0,23074.0,,,,,verb.cognition,403,direct_object,a child,1.0,0.0,1.0,unknown,0.0,tertiary
+259,1,heard,14,19,23033,23038,252,20.0,55.0,23039.0,23074.0,,,,,verb.perception,402,direct_object,a child,1.0,0.0,1.0,unknown,0.0,tertiary
+260,0,wondered,3,11,23079,23087,254,12.0,77.0,23088.0,23153.0,,,,,verb.cognition,404,direct_object,any human creature,1.0,0.0,1.0,unknown,0.0,tertiary
+262,2,reached,64,71,23299,23306,3,72.0,79.0,23307.0,23314.0,,,,,verb.communication,407,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+263,0,knew,3,7,23319,23323,256,17.0,77.0,23333.0,23393.0,79.0,90.0,23395.0,23406.0,verb.cognition,408,direct_object,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+263,0,knew,3,7,23319,23323,3,17.0,77.0,23333.0,23393.0,79.0,90.0,23395.0,23406.0,verb.cognition,408,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+263,1,heard,47,52,23363,23368,256,53.0,56.0,23369.0,23372.0,,,,,verb.perception,412,direct_object,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+265,0,left,10,14,23430,23434,256,15.0,46.0,23435.0,23466.0,,,,,verb.possession,410,direct_object,little Sheem's younger brother,1.0,6.0,7.0,male,1.0,tertiary
+266,1,changed,10,17,23516,23523,8,18.0,36.0,23524.0,23542.0,,,,,verb.change,414,direct_object,E - wee,1.0,0.0,1.0,unknown,0.0,tertiary
+269,0,touched,3,10,23721,23728,2,11.0,14.0,23729.0,23732.0,15.0,101.0,23733.0,23819.0,verb.emotion,417,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+272,1,smote,45,50,24005,24010,2,51.0,57.0,24011.0,24017.0,71.0,185.0,24031.0,24145.0,verb.contact,422,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+272,2,espied,79,85,24039,24045,2,86.0,109.0,24046.0,24069.0,111.0,185.0,24071.0,24145.0,verb.communication,421,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+272,2,espied,79,85,24039,24045,259,86.0,109.0,24046.0,24069.0,111.0,185.0,24071.0,24145.0,verb.communication,421,direct_object,Owasso's poor little brother,1.0,1.0,2.0,male,1.0,tertiary
+273,2,catch,56,61,24203,24208,259,62.0,65.0,24209.0,24212.0,66.0,77.0,24213.0,24224.0,verb.contact,425,direct_object,Owasso's poor little brother,1.0,1.0,2.0,male,1.0,tertiary
+277,0,left,10,14,24371,24375,263,15.0,45.0,24376.0,24406.0,,,,,verb.possession,429,direct_object,the poor wolf - boy,1.0,4.0,5.0,male,1.0,tertiary
+277,0,left,10,14,24371,24375,64,15.0,45.0,24376.0,24406.0,,,,,verb.possession,429,direct_object,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+280,0,feeling,38,45,24566,24573,64,46.0,95.0,24574.0,24623.0,97.0,109.0,24625.0,24637.0,verb.cognition,434,direct_object,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+283,0,approached,18,28,24714,24724,3,29.0,42.0,24725.0,24738.0,44.0,62.0,24740.0,24758.0,verb.motion,435,direct_object,little Sheem,9.0,38.0,47.0,male,1.0,tertiary
+285,2,casting,45,52,24990,24997,2,53.0,64.0,24998.0,25009.0,,,,,verb.creation,438,direct_object,Owasso,54.0,135.0,189.0,male,1.0,primary
+285,2,casting,45,52,24990,24997,64,53.0,64.0,24998.0,25009.0,,,,,verb.creation,438,direct_object,the elder brother,2.0,12.0,14.0,male,1.0,tertiary
+285,3,exclaimed,105,114,25050,25059,64,117.0,128.0,25062.0,25073.0,,,,,verb.communication,439,direct_object,the elder brother,2.0,12.0,14.0,male,1.0,tertiary

@@ -1,0 +1,634 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,given,15,20,92,97,1,0.0,6.0,77.0,83.0,,,,,verb.possession,0,subject,Heaven,1.0,0.0,1.0,unknown,0.0,tertiary
+1,2,wanted,68,74,145,151,5,55.0,67.0,132.0,144.0,,,,,verb.emotion,1,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+1,2,wanted,68,74,145,151,8,55.0,67.0,132.0,144.0,,,,,verb.emotion,1,subject,five women who were standing in a field's of them,1.0,0.0,1.0,female,1.0,tertiary
+1,3,have,78,82,155,159,5,55.0,67.0,132.0,144.0,,,,,verb.possession,2,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+1,3,have,78,82,155,159,8,55.0,67.0,132.0,144.0,,,,,verb.possession,2,subject,five women who were standing in a field's of them,1.0,0.0,1.0,female,1.0,tertiary
+2,0,saw,18,21,183,186,5,13.0,17.0,178.0,182.0,,,,,verb.perception,3,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+3,0,saw,3,6,264,267,10,1.0,2.0,262.0,263.0,10.0,15.0,271.0,276.0,verb.perception,4,subject,the one,1.0,1.0,2.0,unknown,0.0,tertiary
+3,1,said,18,22,279,283,10,1.0,15.0,262.0,276.0,,,,,verb.communication,6,subject,the one,1.0,1.0,2.0,unknown,0.0,tertiary
+4,0,saw,3,6,296,299,11,1.0,2.0,294.0,295.0,10.0,39.0,303.0,332.0,verb.perception,5,subject,another,1.0,3.0,4.0,unknown,0.0,tertiary
+4,2,insisted,42,50,335,343,11,1.0,39.0,294.0,332.0,,,,,verb.communication,7,subject,another,1.0,3.0,4.0,unknown,0.0,tertiary
+5,0,want,7,11,360,364,11,5.0,6.0,358.0,359.0,16.0,41.0,369.0,394.0,verb.emotion,9,subject,another,1.0,3.0,4.0,unknown,0.0,tertiary
+5,1,saw,22,25,375,378,11,20.0,21.0,373.0,374.0,29.0,41.0,382.0,394.0,verb.perception,8,subject,another,1.0,3.0,4.0,unknown,0.0,tertiary
+6,1,fought,27,33,444,450,5,9.0,13.0,426.0,430.0,,,,,verb.competition,10,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+7,0,agreed,13,19,513,519,5,8.0,12.0,508.0,512.0,,,,,verb.communication,11,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+7,4,sit,91,94,591,594,13,72.0,83.0,572.0,583.0,102.0,121.0,602.0,621.0,verb.contact,12,subject,five women who were standing in a field's of them,1.0,0.0,1.0,female,1.0,tertiary
+7,4,sit,91,94,591,594,5,72.0,83.0,572.0,583.0,102.0,121.0,602.0,621.0,verb.contact,12,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+8,0,remained,10,18,667,675,15,0.0,9.0,657.0,666.0,38.0,52.0,695.0,709.0,verb.change,13,subject,The first,1.0,1.0,2.0,female,1.0,tertiary
+8,5,do,87,89,744,746,15,0.0,9.0,657.0,666.0,,,,,verb.social,14,subject,The first,1.0,1.0,2.0,female,1.0,tertiary
+9,1,feed,33,37,789,793,16,17.0,25.0,773.0,781.0,57.0,64.0,813.0,820.0,verb.consumption,15,subject,the rest,2.0,1.0,3.0,unknown,0.0,tertiary
+10,0,grew,12,16,834,838,17,0.0,11.0,822.0,833.0,23.0,50.0,845.0,872.0,verb.change,16,subject,five women who were standing in a field's of them,2.0,1.0,3.0,female,1.0,tertiary
+10,0,grew,12,16,834,838,5,0.0,11.0,822.0,833.0,23.0,50.0,845.0,872.0,verb.change,16,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+10,1,scolded,43,50,865,872,17,0.0,11.0,822.0,833.0,,,,,verb.communication,18,subject,five women who were standing in a field's of them,2.0,1.0,3.0,female,1.0,tertiary
+10,1,scolded,43,50,865,872,5,0.0,11.0,822.0,833.0,,,,,verb.communication,18,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+11,1,crawl,13,18,887,892,18,1.0,4.0,875.0,878.0,,,,,verb.motion,17,subject,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+11,3,cry,58,61,932,935,18,48.0,51.0,922.0,925.0,,,,,verb.body,19,subject,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+13,0,believe,14,21,1011,1018,18,5.0,6.0,1002.0,1003.0,,,,,verb.cognition,20,subject,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+13,3,slip,53,57,1050,1054,233,27.0,40.0,1024.0,1037.0,,,,,verb.motion,22,subject,a human child,1.0,0.0,1.0,unknown,0.0,tertiary
+14,1,sit,17,20,1196,1199,18,9.0,12.0,1188.0,1191.0,27.0,66.0,1206.0,1245.0,verb.contact,23,subject,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+14,2,bring,52,57,1231,1236,5,49.0,51.0,1228.0,1230.0,,,,,verb.possession,25,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+15,6,punched,172,179,1420,1427,18,168.0,171.0,1416.0,1419.0,187.0,197.0,1435.0,1445.0,verb.contact,26,subject,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+19,0,named,8,13,1652,1657,5,3.0,7.0,1647.0,1651.0,,,,,verb.communication,28,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+20,0,took,55,59,1741,1745,23,36.0,45.0,1722.0,1731.0,,,,,verb.cognition,29,subject,the women,1.0,0.0,1.0,female,1.0,tertiary
+21,0,grew,20,24,1799,1803,22,17.0,19.0,1796.0,1798.0,,,,,verb.change,30,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+21,1,devoured,43,51,1822,1830,22,40.0,42.0,1819.0,1821.0,,,,,verb.contact,32,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+22,0,cooked,10,16,1862,1868,5,5.0,9.0,1857.0,1861.0,,,,,verb.consumption,31,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+22,3,swallowed,102,111,1954,1963,22,92.0,101.0,1944.0,1953.0,119.0,129.0,1971.0,1981.0,verb.consumption,34,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+23,1,want,16,20,1999,2003,5,3.0,7.0,1986.0,1990.0,,,,,verb.emotion,37,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+24,1,had,12,15,2040,2043,17,1.0,2.0,2029.0,2030.0,35.0,66.0,2063.0,2094.0,verb.consumption,36,subject,five women who were standing in a field's of them,2.0,1.0,3.0,female,1.0,tertiary
+24,2,crawled,55,62,2083,2090,234,41.0,54.0,2069.0,2082.0,,,,,verb.motion,35,subject,the changling,1.0,0.0,1.0,unknown,0.0,tertiary
+24,3,said,69,73,2097,2101,17,1.0,66.0,2029.0,2094.0,,,,,verb.communication,38,subject,five women who were standing in a field's of them,2.0,1.0,3.0,female,1.0,tertiary
+24,3,said,69,73,2097,2101,234,1.0,66.0,2029.0,2094.0,,,,,verb.communication,38,subject,the changling,1.0,0.0,1.0,unknown,0.0,tertiary
+25,0,heard,22,27,2137,2142,2,5.0,21.0,2120.0,2136.0,,,,,verb.perception,39,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+25,1,agreed,47,53,2162,2168,16,38.0,46.0,2153.0,2161.0,,,,,verb.communication,40,subject,the rest,2.0,1.0,3.0,unknown,0.0,tertiary
+25,2,said,58,62,2173,2177,22,55.0,57.0,2170.0,2172.0,,,,,verb.communication,42,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+25,5,had,114,117,2229,2232,5,109.0,113.0,2224.0,2228.0,,,,,verb.possession,41,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+25,6,had,142,145,2257,2260,22,139.0,141.0,2254.0,2256.0,,,,,verb.possession,43,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+26,0,came,11,15,2317,2321,22,8.0,10.0,2314.0,2316.0,,,,,verb.motion,44,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+26,2,asked,64,69,2370,2375,22,8.0,10.0,2314.0,2316.0,,,,,verb.communication,46,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+27,0,needed,10,16,2396,2402,5,5.0,9.0,2391.0,2395.0,,,,,verb.consumption,45,subject,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+27,1,told,43,47,2429,2433,30,32.0,42.0,2418.0,2428.0,,,,,verb.communication,47,subject,the master,2.0,1.0,3.0,male,1.0,tertiary
+29,5,put,127,130,2662,2665,22,94.0,122.0,2629.0,2657.0,,,,,verb.contact,48,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,1,finished,19,27,2705,2713,22,12.0,14.0,2698.0,2700.0,,,,,verb.change,49,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,2,wanted,42,48,2728,2734,22,12.0,14.0,2698.0,2700.0,,,,,verb.emotion,50,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,3,know,52,56,2738,2742,22,12.0,14.0,2698.0,2700.0,,,,,verb.cognition,51,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,5,do,72,74,2758,2760,22,57.0,61.0,2743.0,2747.0,,,,,verb.social,52,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+33,2,finished,26,34,2856,2864,22,1.0,4.0,2831.0,2834.0,,,,,verb.change,53,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+33,4,begun,58,63,2888,2893,22,42.0,45.0,2872.0,2875.0,,,,,verb.change,56,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+34,0,emptied,21,28,2917,2924,2,4.0,20.0,2900.0,2916.0,,,,,verb.consumption,55,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+34,1,threw,46,51,2942,2947,2,4.0,20.0,2900.0,2916.0,,,,,verb.contact,57,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+35,0,saw,16,19,2986,2989,33,5.0,15.0,2975.0,2985.0,,,,,verb.cognition,59,subject,the child's master,2.0,1.0,3.0,male,1.0,tertiary
+35,0,saw,16,19,2986,2989,22,5.0,15.0,2975.0,2985.0,,,,,verb.cognition,59,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+35,2,finished,32,40,3002,3010,22,25.0,27.0,2995.0,2997.0,,,,,verb.change,58,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+35,5,handle,78,84,3048,3054,35,60.0,63.0,3030.0,3033.0,,,,,verb.social,60,subject,,,,,,,
+36,0,told,6,10,3099,3103,33,3.0,5.0,3096.0,3098.0,,,,,verb.communication,61,subject,the child's master,2.0,1.0,3.0,male,1.0,tertiary
+36,2,eat,30,33,3123,3126,22,11.0,14.0,3104.0,3107.0,,,,,verb.consumption,63,subject,the child,2.0,27.0,29.0,male,1.0,tertiary
+40,3,noticed,77,84,3462,3469,2,74.0,76.0,3459.0,3461.0,,,,,verb.perception,64,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+40,4,said,90,94,3475,3479,2,1.0,87.0,3386.0,3472.0,,,,,verb.communication,67,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+40,4,said,90,94,3475,3479,237,1.0,87.0,3386.0,3472.0,,,,,verb.communication,67,subject,a poor peasant,1.0,0.0,1.0,unknown,0.0,tertiary
+40,4,said,90,94,3475,3479,236,1.0,87.0,3386.0,3472.0,,,,,verb.communication,67,subject,Such a serving - man,1.0,0.0,1.0,male,1.0,tertiary
+41,0,had,3,6,3487,3490,2,0.0,2.0,3484.0,3486.0,,,,,verb.possession,66,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+42,2,given,54,59,3629,3634,2,3.0,19.0,3578.0,3594.0,,,,,verb.possession,68,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+43,2,help,33,37,3730,3734,2,0.0,2.0,3697.0,3699.0,,,,,verb.social,70,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+43,3,fetch,48,53,3745,3750,47,38.0,47.0,3735.0,3744.0,,,,,verb.contact,69,subject,the maids,1.0,0.0,1.0,unknown,0.0,tertiary
+43,4,do,74,76,3771,3773,2,0.0,2.0,3697.0,3699.0,,,,,verb.social,71,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+44,0,asked,6,11,3796,3801,2,3.0,5.0,3793.0,3795.0,,,,,verb.communication,72,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+44,2,do,27,29,3817,3819,2,12.0,16.0,3802.0,3806.0,,,,,verb.social,74,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+45,2,chop,28,32,3855,3859,2,19.0,21.0,3846.0,3848.0,,,,,verb.contact,73,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+45,3,said,44,48,3871,3875,2,19.0,42.0,3846.0,3869.0,,,,,verb.communication,77,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+46,0,began,20,25,3902,3907,2,3.0,19.0,3885.0,3901.0,,,,,verb.change,76,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+46,1,chop,29,33,3911,3915,2,3.0,19.0,3885.0,3901.0,,,,,verb.contact,75,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+46,2,hewed,49,54,3931,3936,2,3.0,19.0,3885.0,3901.0,67.0,109.0,3949.0,3991.0,verb.contact,78,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+47,3,kindling,50,58,4043,4051,2,12.0,14.0,4005.0,4007.0,,,,,verb.creation,79,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+47,5,came,137,141,4130,4134,2,134.0,136.0,4127.0,4129.0,,,,,verb.motion,81,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+47,6,asked,146,151,4139,4144,2,134.0,136.0,4127.0,4129.0,,,,,verb.communication,82,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+47,8,do,167,169,4160,4162,2,152.0,156.0,4145.0,4149.0,,,,,verb.social,80,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+48,1,finish,9,15,4177,4183,2,1.0,4.0,4169.0,4172.0,,,,,verb.change,84,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+48,2,chopping,16,24,4184,4192,2,1.0,4.0,4169.0,4172.0,,,,,verb.contact,83,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+48,3,said,41,45,4209,4213,2,1.0,38.0,4169.0,4206.0,,,,,verb.communication,85,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+51,1,chopped,34,41,4382,4389,2,13.0,29.0,4361.0,4377.0,,,,,verb.contact,87,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+53,0,said,29,33,4488,4492,49,10.0,28.0,4469.0,4487.0,,,,,verb.communication,89,subject,the superintendent,2.0,0.0,2.0,unknown,0.0,tertiary
+53,2,have,63,67,4522,4526,2,39.0,55.0,4498.0,4514.0,,,,,verb.possession,90,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+54,2,make,62,66,4703,4707,53,52.0,61.0,4693.0,4702.0,,,,,verb.creation,91,subject,the smith,3.0,6.0,9.0,male,1.0,tertiary
+55,1,began,38,43,4782,4787,2,10.0,12.0,4754.0,4756.0,,,,,verb.change,92,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+55,2,chop,47,51,4791,4795,2,10.0,12.0,4754.0,4756.0,,,,,verb.contact,94,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+56,1,found,75,80,4872,4877,2,63.0,66.0,4860.0,4863.0,,,,,verb.possession,93,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+56,2,found,122,127,4919,4924,2,114.0,118.0,4911.0,4915.0,,,,,verb.possession,95,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+58,0,loaded,8,14,5067,5073,2,5.0,7.0,5064.0,5066.0,,,,,verb.contact,96,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+60,0,unharnessed,6,17,5180,5191,2,3.0,5.0,5177.0,5179.0,,,,,verb.contact,97,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+60,1,put,28,31,5202,5205,2,3.0,5.0,5177.0,5179.0,,,,,verb.contact,98,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+61,0,came,8,12,5269,5273,2,5.0,7.0,5266.0,5268.0,,,,,verb.motion,100,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+61,5,wrought,183,190,5444,5451,2,160.0,175.0,5421.0,5436.0,,,,,verb.creation,101,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+62,4,made,66,70,5533,5537,2,49.0,58.0,5516.0,5525.0,,,,,verb.creation,103,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+63,0,came,26,30,5565,5569,2,9.0,25.0,5548.0,5564.0,,,,,verb.motion,105,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+63,1,grew,68,72,5607,5611,42,59.0,67.0,5598.0,5606.0,,,,,verb.change,106,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+63,2,thought,109,116,5648,5655,42,106.0,108.0,5645.0,5647.0,,,,,verb.cognition,107,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+64,4,eat,87,90,5815,5818,2,64.0,72.0,5792.0,5800.0,,,,,verb.consumption,110,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+64,5,continued,104,113,5832,5841,42,101.0,103.0,5829.0,5831.0,,,,,verb.communication,112,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+65,1,have,14,18,5889,5893,2,3.0,5.0,5878.0,5880.0,,,,,verb.consumption,113,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+66,1,eaten,13,18,5980,5985,2,6.0,8.0,5973.0,5975.0,,,,,verb.consumption,114,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+66,4,said,53,57,6020,6024,2,0.0,51.0,5967.0,6018.0,,,,,verb.communication,116,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+67,5,carry,95,100,6138,6143,2,81.0,87.0,6124.0,6130.0,106.0,122.0,6149.0,6165.0,verb.contact,115,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+68,0,piled,6,11,6173,6178,2,3.0,5.0,6170.0,6172.0,,,,,verb.contact,117,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+69,0,drove,8,13,6221,6226,2,5.0,7.0,6218.0,6220.0,17.0,33.0,6230.0,6246.0,verb.contact,118,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+72,0,called,3,9,6464,6470,2,0.0,2.0,6461.0,6463.0,,,,,verb.communication,120,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+73,1,come,29,33,6549,6553,75,10.0,20.0,6530.0,6540.0,,,,,verb.motion,121,subject,the people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+73,2,suit,50,54,6570,6574,75,10.0,20.0,6530.0,6540.0,,,,,verb.social,122,subject,the people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+74,0,picked,6,12,6586,6592,2,3.0,5.0,6583.0,6585.0,,,,,verb.cognition,123,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+74,1,killed,38,44,6618,6624,2,3.0,5.0,6583.0,6585.0,,,,,verb.social,124,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+75,0,kill,5,9,6638,6642,2,1.0,4.0,6634.0,6637.0,,,,,verb.contact,125,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+75,1,eat,39,42,6672,6675,2,35.0,38.0,6668.0,6671.0,,,,,verb.consumption,126,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+75,3,do,108,110,6741,6743,2,80.0,99.0,6713.0,6732.0,,,,,verb.social,127,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+75,3,do,108,110,6741,6743,242,80.0,99.0,6713.0,6732.0,,,,,verb.social,127,subject,men,1.0,0.0,1.0,male,1.0,tertiary
+77,0,do,3,5,6765,6767,2,1.0,2.0,6763.0,6764.0,39.0,42.0,6801.0,6804.0,verb.social,128,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+77,1,said,45,49,6807,6811,2,1.0,42.0,6763.0,6804.0,,,,,verb.communication,131,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+78,1,eaten,12,17,6832,6837,2,5.0,7.0,6825.0,6827.0,,,,,verb.consumption,130,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+79,0,pulled,6,12,6882,6888,2,3.0,5.0,6879.0,6881.0,,,,,verb.contact,132,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+79,1,made,48,52,6924,6928,2,3.0,5.0,6879.0,6881.0,,,,,verb.creation,133,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+79,4,took,116,120,6992,6996,2,113.0,115.0,6989.0,6991.0,,,,,verb.contact,134,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+79,5,set,171,174,7047,7050,2,113.0,115.0,6989.0,6991.0,,,,,verb.contact,135,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+80,0,threshed,8,16,7092,7100,2,5.0,7.0,7089.0,7091.0,41.0,53.0,7125.0,7137.0,verb.consumption,136,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+81,1,finished,33,41,7232,7240,2,5.0,21.0,7204.0,7220.0,,,,,verb.change,137,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,0,told,14,18,7312,7316,42,5.0,13.0,7303.0,7311.0,,,,,verb.communication,138,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+82,1,gather,26,32,7324,7330,2,19.0,22.0,7317.0,7320.0,,,,,verb.contact,139,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,3,meet,61,65,7359,7363,2,19.0,22.0,7317.0,7320.0,,,,,verb.social,140,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,5,thought,106,113,7404,7411,2,103.0,105.0,7401.0,7403.0,,,,,verb.cognition,141,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,7,kill,139,143,7437,7441,79,114.0,123.0,7412.0,7421.0,,,,,verb.contact,142,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+83,2,want,38,42,7485,7489,2,27.0,29.0,7474.0,7476.0,,,,,verb.emotion,143,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+83,3,have,46,50,7493,7497,2,27.0,29.0,7474.0,7476.0,,,,,verb.change,146,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+83,4,killed,69,75,7516,7522,42,51.0,68.0,7498.0,7515.0,,,,,verb.contact,145,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+83,4,killed,69,75,7516,7522,86,51.0,68.0,7498.0,7515.0,,,,,verb.contact,145,subject,the king 's people,1.0,0.0,1.0,male,1.0,tertiary
+84,1,see,9,12,7533,7536,2,0.0,2.0,7524.0,7526.0,,,,,verb.cognition,147,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+86,1,need,13,17,7656,7660,2,4.0,6.0,7647.0,7649.0,,,,,verb.consumption,149,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+86,2,said,33,37,7676,7680,2,0.0,31.0,7643.0,7674.0,,,,,verb.communication,151,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+87,1,forged,34,40,7723,7729,53,31.0,33.0,7720.0,7722.0,,,,,verb.creation,152,subject,the smith,3.0,6.0,9.0,male,1.0,tertiary
+89,0,forged,6,12,7828,7834,53,3.0,5.0,7825.0,7827.0,,,,,verb.change,153,subject,the smith,3.0,6.0,9.0,male,1.0,tertiary
+91,0,told,14,18,7950,7954,53,4.0,13.0,7940.0,7949.0,,,,,verb.communication,156,subject,the smith,3.0,6.0,9.0,male,1.0,tertiary
+91,2,forge,70,75,8006,8011,53,28.0,59.0,7964.0,7995.0,,,,,verb.creation,155,subject,the smith,3.0,6.0,9.0,male,1.0,tertiary
+91,2,forge,70,75,8006,8011,92,28.0,59.0,7964.0,7995.0,,,,,verb.creation,155,subject,the smith's workmen,1.0,0.0,1.0,unknown,0.0,tertiary
+92,1,forged,56,62,8082,8088,2,5.0,21.0,8031.0,8047.0,,,,,verb.change,158,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+95,0,wanted,8,14,8249,8255,53,5.0,7.0,8246.0,8248.0,,,,,verb.emotion,160,subject,the smith,3.0,6.0,9.0,male,1.0,tertiary
+97,0,wandered,12,20,8374,8382,2,5.0,11.0,8367.0,8373.0,,,,,verb.motion,162,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+98,1,see,45,48,8505,8508,96,29.0,41.0,8489.0,8501.0,,,,,verb.perception,163,subject,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+98,2,sent,59,63,8519,8523,96,54.0,58.0,8514.0,8518.0,,,,,verb.communication,164,subject,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+98,3,ask,67,70,8527,8530,96,54.0,58.0,8514.0,8518.0,,,,,verb.communication,166,subject,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+98,4,had,82,85,8542,8545,2,79.0,81.0,8539.0,8541.0,,,,,verb.perception,165,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+99,2,eaten,24,29,8593,8598,2,17.0,18.0,8586.0,8587.0,,,,,verb.consumption,168,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+99,3,said,32,36,8601,8605,2,1.0,29.0,8570.0,8598.0,,,,,verb.communication,169,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+100,2,began,34,39,8693,8698,79,4.0,13.0,8663.0,8672.0,,,,,verb.change,171,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+100,3,fire,43,47,8702,8706,79,4.0,13.0,8663.0,8672.0,,,,,verb.competition,172,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+102,1,care,9,13,8788,8792,2,1.0,2.0,8780.0,8781.0,,,,,verb.emotion,174,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+102,2,said,44,48,8823,8827,2,1.0,41.0,8780.0,8820.0,,,,,verb.communication,176,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+103,2,stood,56,61,8932,8937,2,43.0,55.0,8919.0,8931.0,,,,,verb.contact,177,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+103,3,caught,78,84,8954,8960,2,43.0,55.0,8919.0,8931.0,,,,,verb.contact,178,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+104,0,began,15,20,9001,9006,79,5.0,14.0,8991.0,9000.0,,,,,verb.change,179,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+104,1,throw,24,29,9010,9015,79,5.0,14.0,8991.0,9000.0,,,,,verb.contact,180,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+104,2,shoot,48,53,9034,9039,79,5.0,14.0,8991.0,9000.0,61.0,72.0,9047.0,9058.0,verb.competition,181,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+105,0,moved,10,15,9070,9075,2,0.0,2.0,9060.0,9062.0,,,,,verb.motion,182,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+105,2,struck,28,34,9088,9094,2,21.0,23.0,9081.0,9083.0,,,,,verb.competition,183,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,0,grew,8,12,9348,9352,2,5.0,7.0,9345.0,9347.0,,,,,verb.change,186,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,2,took,30,34,9370,9374,2,5.0,7.0,9345.0,9347.0,,,,,verb.contact,187,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,3,pounded,45,52,9385,9392,2,5.0,7.0,9345.0,9347.0,,,,,verb.contact,188,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,4,asked,77,82,9417,9422,2,5.0,7.0,9345.0,9347.0,,,,,verb.communication,189,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,5,wanted,96,102,9436,9442,79,91.0,95.0,9431.0,9435.0,,,,,verb.emotion,190,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+111,6,take,106,110,9446,9450,79,91.0,95.0,9431.0,9435.0,,,,,verb.possession,192,subject,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+112,0,struck,8,14,9563,9569,2,5.0,7.0,9560.0,9562.0,33.0,167.0,9588.0,9722.0,verb.social,191,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+112,2,flew,103,107,9658,9662,100,89.0,102.0,9644.0,9657.0,,,,,verb.motion,193,subject,all the enemy,1.0,0.0,1.0,unknown,0.0,tertiary
+113,1,asked,26,31,9750,9755,2,5.0,11.0,9729.0,9735.0,,,,,verb.communication,195,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+113,4,felt,82,86,9806,9810,42,75.0,77.0,9799.0,9801.0,,,,,verb.cognition,194,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+114,0,knew,6,10,9850,9854,42,3.0,5.0,9847.0,9849.0,,,,,verb.cognition,196,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+114,2,send,43,47,9887,9891,42,3.0,5.0,9847.0,9849.0,,,,,verb.motion,197,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+115,2,fetch,34,39,9952,9957,2,5.0,8.0,9923.0,9926.0,,,,,verb.contact,198,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+115,3,said,63,67,9981,9985,2,1.0,60.0,9919.0,9978.0,,,,,verb.communication,200,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+115,3,said,63,67,9981,9985,102,1.0,60.0,9919.0,9978.0,,,,,verb.communication,200,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+117,1,reached,12,19,10097,10104,2,0.0,2.0,10085.0,10087.0,,,,,verb.motion,199,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+118,0,got,8,11,10129,10132,2,5.0,7.0,10126.0,10128.0,,,,,verb.motion,201,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+119,1,said,51,55,10221,10225,109,47.0,50.0,10217.0,10220.0,,,,,verb.communication,203,subject,Murmur's grandmother,4.0,2.0,6.0,female,1.0,tertiary
+119,3,heard,74,79,10244,10249,109,56.0,59.0,10226.0,10229.0,,,,,verb.perception,202,subject,Murmur's grandmother,4.0,2.0,6.0,female,1.0,tertiary
+121,0,know,3,7,10371,10375,2,1.0,2.0,10369.0,10370.0,,,,,verb.cognition,205,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+122,5,had,89,92,10483,10486,2,86.0,88.0,10480.0,10482.0,,,,,verb.possession,204,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+123,1,eaten,16,21,10527,10532,2,9.0,11.0,10520.0,10522.0,,,,,verb.consumption,207,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+123,2,grew,45,49,10556,10560,2,42.0,44.0,10553.0,10555.0,,,,,verb.change,208,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+124,0,demanded,9,17,10577,10585,2,0.0,2.0,10568.0,10570.0,,,,,verb.communication,209,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+125,1,get,10,13,10630,10633,2,1.0,4.0,10621.0,10624.0,,,,,verb.possession,210,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+125,4,said,88,92,10708,10712,2,1.0,85.0,10621.0,10705.0,,,,,verb.communication,212,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+125,4,said,88,92,10708,10712,102,1.0,85.0,10621.0,10705.0,,,,,verb.communication,212,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+126,3,girdle,109,115,10847,10853,117,84.0,95.0,10822.0,10833.0,119.0,134.0,10857.0,10872.0,verb.contact,211,subject,fifteen men,1.0,1.0,2.0,male,1.0,tertiary
+127,0,climbed,11,18,10885,10892,2,4.0,10.0,10878.0,10884.0,,,,,verb.motion,213,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+127,1,shook,48,53,10922,10927,2,4.0,10.0,10878.0,10884.0,57.0,99.0,10931.0,10973.0,verb.contact,214,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+128,2,pay,67,70,11042,11045,113,53.0,56.0,11028.0,11031.0,,,,,verb.possession,218,subject,the grandmother,1.0,2.0,3.0,female,1.0,tertiary
+129,2,refuse,23,29,11086,11092,113,3.0,6.0,11066.0,11069.0,,,,,verb.possession,217,subject,the grandmother,1.0,2.0,3.0,female,1.0,tertiary
+129,5,carry,93,98,11156,11161,2,58.0,71.0,11121.0,11134.0,,,,,verb.possession,216,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+131,1,gone,21,25,11243,11247,2,18.0,20.0,11240.0,11242.0,,,,,verb.motion,219,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+131,3,learned,64,71,11286,11293,102,61.0,63.0,11283.0,11285.0,,,,,verb.cognition,221,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+132,0,beat,9,13,11351,11355,102,0.0,2.0,11342.0,11344.0,,,,,verb.competition,220,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+132,1,hurried,40,47,11382,11389,102,0.0,2.0,11342.0,11344.0,,,,,verb.motion,222,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+133,2,flew,79,83,11483,11487,102,34.0,36.0,11438.0,11440.0,,,,,verb.motion,223,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+135,0,began,36,41,11602,11607,2,33.0,35.0,11599.0,11601.0,,,,,verb.change,224,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+135,1,run,45,48,11611,11614,2,33.0,35.0,11599.0,11601.0,,,,,verb.motion,225,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+136,1,keep,41,45,11677,11681,2,0.0,2.0,11636.0,11638.0,,,,,verb.social,226,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+138,0,held,7,11,11777,11781,2,0.0,6.0,11770.0,11776.0,57.0,89.0,11827.0,11859.0,verb.contact,227,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+139,0,jumped,13,19,11874,11880,2,6.0,12.0,11867.0,11873.0,,,,,verb.motion,228,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+139,1,followed,68,76,11929,11937,102,58.0,67.0,11919.0,11928.0,81.0,89.0,11942.0,11950.0,verb.motion,229,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+139,2,ran,98,101,11959,11962,102,95.0,97.0,11956.0,11958.0,,,,,verb.motion,230,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+139,4,broke,147,152,12008,12013,102,58.0,67.0,11919.0,11928.0,,,,,verb.contact,231,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+139,5,lay,175,178,12036,12039,102,166.0,171.0,12027.0,12032.0,,,,,verb.contact,232,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+141,2,reached,35,42,12100,12107,2,28.0,30.0,12093.0,12095.0,,,,,verb.motion,233,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+141,3,flung,68,73,12133,12138,2,65.0,67.0,12130.0,12132.0,123.0,156.0,12188.0,12221.0,verb.contact,235,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+142,0,thanked,9,16,12232,12239,42,0.0,8.0,12223.0,12231.0,,,,,verb.communication,236,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+142,1,promised,33,41,12256,12264,42,0.0,8.0,12223.0,12231.0,83.0,98.0,12306.0,12321.0,verb.communication,237,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+142,2,wanted,89,95,12312,12318,2,86.0,88.0,12309.0,12311.0,,,,,verb.emotion,238,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+143,0,wanted,17,23,12339,12345,2,5.0,11.0,12327.0,12333.0,,,,,verb.emotion,239,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+144,1,do,14,16,12377,12379,2,1.0,5.0,12364.0,12368.0,,,,,verb.creation,241,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+145,0,asked,3,8,12389,12394,2,0.0,2.0,12386.0,12388.0,,,,,verb.communication,240,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+146,0,reflected,9,18,12405,12414,42,0.0,8.0,12396.0,12404.0,,,,,verb.cognition,242,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+146,1,said,44,48,12440,12444,42,41.0,43.0,12437.0,12439.0,,,,,verb.communication,244,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+148,1,given,11,16,12608,12613,2,0.0,6.0,12597.0,12603.0,48.0,67.0,12645.0,12664.0,verb.possession,245,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+149,0,wandered,8,16,12697,12705,2,5.0,7.0,12694.0,12696.0,76.0,167.0,12765.0,12856.0,verb.motion,246,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+149,1,came,84,88,12773,12777,2,81.0,83.0,12770.0,12772.0,,,,,verb.motion,248,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+149,4,robbed,139,145,12828,12834,146,115.0,130.0,12804.0,12819.0,,,,,verb.possession,247,subject,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+150,3,get,88,91,12946,12949,2,71.0,77.0,12929.0,12935.0,,,,,verb.possession,249,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+151,0,joined,6,12,12960,12966,2,3.0,5.0,12957.0,12959.0,,,,,verb.social,251,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+152,1,had,15,18,13073,13076,151,0.0,4.0,13058.0,13062.0,,,,,verb.possession,250,subject,a party of stone - breakers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+152,2,hewed,45,50,13103,13108,2,38.0,44.0,13096.0,13102.0,,,,,verb.contact,252,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+153,1,rest,25,29,13226,13230,2,9.0,11.0,13210.0,13212.0,,,,,verb.body,254,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+154,0,have,3,7,13314,13318,2,1.0,2.0,13312.0,13313.0,,,,,verb.perception,253,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+154,5,eaten,109,114,13420,13425,155,102.0,104.0,13413.0,13415.0,128.0,135.0,13439.0,13446.0,verb.consumption,255,subject,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+156,0,went,20,24,13527,13531,2,17.0,19.0,13524.0,13526.0,,,,,verb.motion,257,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+156,1,work,28,32,13535,13539,2,17.0,19.0,13524.0,13526.0,,,,,verb.social,258,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+156,4,pretended,100,109,13607,13616,2,17.0,19.0,13524.0,13526.0,,,,,verb.creation,259,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+156,6,sleeping,116,124,13623,13631,2,17.0,19.0,13524.0,13526.0,,,,,verb.body,260,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+157,1,began,52,57,13685,13690,155,5.0,29.0,13638.0,13662.0,,,,,verb.change,261,subject,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+157,2,smack,61,66,13694,13699,155,5.0,29.0,13638.0,13662.0,,,,,verb.contact,262,subject,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+157,3,eat,81,84,13714,13717,155,5.0,29.0,13638.0,13662.0,,,,,verb.consumption,263,subject,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+158,4,eat,44,47,13781,13784,2,30.0,31.0,13767.0,13768.0,,,,,verb.consumption,264,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+158,5,said,50,54,13787,13791,2,1.0,47.0,13738.0,13784.0,,,,,verb.communication,266,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+160,2,come,54,58,13959,13963,146,40.0,49.0,13945.0,13954.0,,,,,verb.motion,265,subject,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+160,6,stood,143,148,14048,14053,2,132.0,142.0,14037.0,14047.0,,,,,verb.contact,267,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+163,2,said,32,36,14184,14188,160,1.0,29.0,14153.0,14181.0,,,,,verb.communication,269,subject,the horse,1.0,1.0,2.0,unknown,0.0,tertiary
+164,1,turn,8,12,14208,14212,2,1.0,2.0,14201.0,14202.0,17.0,23.0,14217.0,14223.0,verb.contact,270,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+164,2,said,26,30,14226,14230,2,1.0,23.0,14201.0,14223.0,,,,,verb.communication,271,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+165,1,pleaded,28,35,14277,14284,2,1.0,17.0,14250.0,14266.0,,,,,verb.communication,272,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+167,0,said,3,7,14365,14369,2,0.0,2.0,14362.0,14364.0,,,,,verb.communication,275,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+167,3,enchanted,25,34,14387,14396,2,13.0,15.0,14375.0,14377.0,,,,,verb.emotion,274,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+168,0,helped,8,14,14444,14450,2,5.0,7.0,14441.0,14443.0,,,,,verb.social,277,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+168,3,hidden,62,68,14498,14504,146,31.0,40.0,14467.0,14476.0,,,,,verb.contact,276,subject,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+169,2,snoring,56,63,14576,14583,165,48.0,51.0,14568.0,14571.0,,,,,verb.body,279,subject,the troll 's grandmother,1.0,1.0,2.0,female,1.0,tertiary
+171,1,get,19,22,14699,14702,168,5.0,8.0,14685.0,14688.0,,,,,verb.perception,280,subject,the old troll grandmother,1.0,4.0,5.0,female,1.0,tertiary
+171,2,commenced,42,51,14722,14731,168,38.0,41.0,14718.0,14721.0,,,,,verb.change,281,subject,the old troll grandmother,1.0,4.0,5.0,female,1.0,tertiary
+171,3,drink,55,60,14735,14740,168,38.0,41.0,14718.0,14721.0,,,,,verb.consumption,282,subject,the old troll grandmother,1.0,4.0,5.0,female,1.0,tertiary
+172,1,drink,26,31,14812,14817,168,12.0,15.0,14798.0,14801.0,,,,,verb.consumption,283,subject,the old troll grandmother,1.0,4.0,5.0,female,1.0,tertiary
+172,2,burst,61,66,14847,14852,168,57.0,60.0,14843.0,14846.0,,,,,verb.change,284,subject,the old troll grandmother,1.0,4.0,5.0,female,1.0,tertiary
+173,1,sent,30,34,14884,14888,2,23.0,29.0,14877.0,14883.0,,,,,verb.motion,285,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+173,2,had,52,55,14906,14909,2,23.0,29.0,14877.0,14883.0,,,,,verb.possession,286,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+173,3,told,60,64,14914,14918,42,56.0,59.0,14910.0,14913.0,,,,,verb.communication,287,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+174,0,sent,21,25,14966,14970,42,12.0,20.0,14957.0,14965.0,,,,,verb.motion,288,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+175,0,sent,3,7,15025,15029,42,0.0,2.0,15022.0,15024.0,,,,,verb.motion,289,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+175,1,sent,18,22,15040,15044,42,15.0,17.0,15037.0,15039.0,,,,,verb.motion,290,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+176,1,carried,38,45,15179,15186,2,5.0,21.0,15146.0,15162.0,,,,,verb.contact,291,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+177,1,believe,19,26,15216,15223,42,0.0,8.0,15197.0,15205.0,36.0,64.0,15233.0,15261.0,verb.cognition,293,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+177,2,saw,44,47,15241,15244,42,41.0,43.0,15238.0,15240.0,55.0,64.0,15252.0,15261.0,verb.perception,292,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+178,1,promised,30,38,15292,15300,42,5.0,7.0,15267.0,15269.0,,,,,verb.communication,294,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+179,0,asked,16,21,15345,15350,2,9.0,15.0,15338.0,15344.0,,,,,verb.communication,295,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+179,1,told,40,44,15369,15373,42,37.0,39.0,15366.0,15368.0,,,,,verb.communication,296,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+179,2,travel,52,58,15381,15387,2,45.0,48.0,15374.0,15377.0,,,,,verb.motion,297,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+179,7,built,138,143,15467,15472,42,131.0,133.0,15460.0,15462.0,171.0,197.0,15500.0,15526.0,verb.creation,298,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+179,9,cross,192,197,15521,15526,82,179.0,185.0,15508.0,15514.0,,,,,verb.motion,299,subject,people,2.0,0.0,2.0,unknown,0.0,tertiary
+180,1,do,12,14,15540,15542,42,3.0,5.0,15531.0,15533.0,,,,,verb.social,300,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+180,3,reward,30,36,15558,15564,42,21.0,23.0,15549.0,15551.0,41.0,45.0,15569.0,15573.0,verb.social,301,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+180,5,give,66,70,15594,15598,42,52.0,54.0,15580.0,15582.0,,,,,verb.possession,302,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+180,6,said,89,93,15617,15621,2,0.0,78.0,15528.0,15606.0,,,,,verb.communication,303,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+180,6,said,89,93,15617,15621,42,0.0,78.0,15528.0,15606.0,,,,,verb.communication,303,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+181,1,attend,9,15,15641,15647,42,0.0,2.0,15632.0,15634.0,,,,,verb.social,304,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+181,2,said,23,27,15655,15659,42,0.0,21.0,15632.0,15653.0,,,,,verb.communication,306,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+182,1,returned,28,36,15696,15704,183,4.0,18.0,15672.0,15686.0,44.0,49.0,15712.0,15717.0,verb.motion,305,subject,no human being,1.0,0.0,1.0,unknown,0.0,tertiary
+183,4,thought,89,96,15807,15814,42,80.0,88.0,15798.0,15806.0,,,,,verb.cognition,307,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+183,7,see,142,145,15860,15863,42,127.0,129.0,15845.0,15847.0,150.0,155.0,15868.0,15873.0,verb.perception,309,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+185,0,took,3,7,15898,15902,2,0.0,2.0,15895.0,15897.0,,,,,verb.contact,310,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+186,0,reached,8,15,16056,16063,2,5.0,7.0,16053.0,16055.0,,,,,verb.motion,311,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+187,0,planted,7,14,16150,16157,2,4.0,6.0,16147.0,16149.0,24.0,30.0,16167.0,16173.0,verb.contact,312,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+187,1,waded,50,55,16193,16198,2,4.0,6.0,16147.0,16149.0,,,,,verb.motion,313,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+188,1,warmed,12,18,16238,16244,2,5.0,7.0,16231.0,16233.0,,,,,verb.body,314,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+188,2,satisfied,31,40,16257,16266,2,5.0,7.0,16231.0,16233.0,,,,,verb.emotion,315,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+188,3,wanted,56,62,16282,16288,2,53.0,55.0,16279.0,16281.0,,,,,verb.emotion,316,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+188,4,sleep,66,71,16292,16297,2,53.0,55.0,16279.0,16281.0,,,,,verb.body,317,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+190,1,saw,36,39,16428,16431,2,29.0,35.0,16421.0,16427.0,,,,,verb.perception,318,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+192,1,said,40,44,16590,16594,245,0.0,37.0,16550.0,16587.0,,,,,verb.communication,322,subject,an old friend of mine,1.0,0.0,1.0,unknown,0.0,tertiary
+192,1,said,40,44,16590,16594,4,0.0,37.0,16550.0,16587.0,,,,,verb.communication,322,subject,Master Devil,1.0,2.0,3.0,unknown,0.0,tertiary
+195,4,forced,68,74,16742,16748,2,45.0,56.0,16719.0,16730.0,,,,,verb.communication,321,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+196,0,played,22,28,16806,16812,2,19.0,21.0,16803.0,16805.0,,,,,verb.competition,323,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+196,1,won,44,47,16828,16831,2,30.0,36.0,16814.0,16820.0,,,,,verb.competition,325,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+197,0,made,8,12,16840,16844,2,5.0,7.0,16837.0,16839.0,,,,,verb.social,324,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+198,1,won,17,20,16884,16887,2,10.0,12.0,16877.0,16879.0,,,,,verb.competition,327,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+198,2,had,35,38,16902,16905,102,21.0,34.0,16888.0,16901.0,,,,,verb.possession,326,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+198,4,give,67,71,16934,16938,194,49.0,59.0,16916.0,16926.0,,,,,verb.possession,328,subject,,,,,,,
+201,0,hewed,3,8,17134,17139,2,0.0,2.0,17131.0,17133.0,37.0,48.0,17168.0,17179.0,verb.contact,329,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+201,5,gave,147,151,17278,17282,2,140.0,146.0,17271.0,17277.0,,,,,verb.possession,331,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+202,3,said,36,40,17348,17352,102,1.0,30.0,17313.0,17342.0,,,,,verb.communication,332,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+202,3,said,36,40,17348,17352,2,1.0,30.0,17313.0,17342.0,,,,,verb.communication,332,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+203,4,see,86,89,17453,17456,2,80.0,81.0,17447.0,17448.0,,,,,verb.perception,335,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+203,6,do,103,105,17470,17472,102,90.0,94.0,17457.0,17461.0,,,,,verb.social,334,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+204,0,thrust,21,27,17496,17502,102,0.0,9.0,17475.0,17484.0,,,,,verb.contact,336,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+204,1,tore,59,63,17534,17538,102,0.0,9.0,17475.0,17484.0,,,,,verb.contact,337,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+204,2,clawed,68,74,17543,17549,102,0.0,9.0,17475.0,17484.0,,,,,verb.contact,338,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+205,2,caught,78,84,17647,17653,102,64.0,73.0,17633.0,17642.0,96.0,139.0,17665.0,17708.0,verb.contact,340,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+205,3,belabored,109,118,17678,17687,2,102.0,108.0,17671.0,17677.0,,,,,verb.perception,339,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+206,0,wailed,10,16,17720,17726,102,0.0,9.0,17710.0,17719.0,,,,,verb.communication,341,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+206,1,begged,22,28,17732,17738,102,0.0,9.0,17710.0,17719.0,,,,,verb.communication,342,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+206,2,let,39,42,17749,17752,2,29.0,35.0,17739.0,17745.0,,,,,verb.social,343,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+207,1,hear,18,22,17778,17782,2,5.0,11.0,17765.0,17771.0,37.0,114.0,17797.0,17874.0,verb.perception,344,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+207,3,promised,50,58,17810,17818,2,43.0,45.0,17803.0,17805.0,,,,,verb.communication,345,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+207,5,make,82,86,17842,17846,2,43.0,45.0,17803.0,17805.0,109.0,114.0,17869.0,17874.0,verb.social,346,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+208,1,promise,24,31,17900,17907,102,14.0,16.0,17890.0,17892.0,,,,,verb.communication,347,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+208,2,build,35,40,17911,17916,102,14.0,16.0,17890.0,17892.0,,,,,verb.creation,348,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+211,3,wished,66,72,18168,18174,102,63.0,65.0,18165.0,18167.0,,,,,verb.emotion,351,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+212,0,made,7,11,18194,18198,102,4.0,6.0,18191.0,18193.0,,,,,verb.social,352,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+212,2,have,42,46,18229,18233,102,32.0,34.0,18219.0,18221.0,,,,,verb.change,353,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+213,1,have,9,13,18297,18301,102,0.0,2.0,18288.0,18290.0,,,,,verb.possession,354,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+213,2,said,18,22,18306,18310,102,0.0,16.0,18288.0,18304.0,,,,,verb.communication,356,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+214,0,let,8,11,18327,18330,102,5.0,7.0,18324.0,18326.0,,,,,verb.social,355,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+214,1,ran,34,37,18353,18356,102,31.0,33.0,18350.0,18352.0,,,,,verb.motion,357,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+215,1,slept,24,29,18396,18401,2,4.0,10.0,18376.0,18382.0,,,,,verb.body,358,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+216,0,came,14,18,18450,18454,42,5.0,13.0,18441.0,18449.0,,,,,verb.motion,359,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+216,1,see,22,25,18458,18461,42,5.0,13.0,18441.0,18449.0,,,,,verb.cognition,361,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+216,4,crushed,62,69,18498,18505,2,34.0,50.0,18470.0,18486.0,,,,,verb.contact,360,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+216,7,beaten,110,116,18546,18552,2,34.0,50.0,18470.0,18486.0,,,,,verb.contact,362,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+217,3,reach,54,59,18608,18613,42,45.0,47.0,18599.0,18601.0,,,,,verb.motion,364,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+218,2,lay,79,82,18702,18705,2,72.0,78.0,18695.0,18701.0,,,,,verb.contact,363,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+218,3,snored,98,104,18721,18727,2,72.0,78.0,18695.0,18701.0,,,,,verb.body,365,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+220,1,saw,24,27,18791,18794,42,21.0,23.0,18788.0,18790.0,,,,,verb.perception,368,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+225,0,wanted,17,23,19136,19142,2,0.0,16.0,19119.0,19135.0,,,,,verb.emotion,373,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+226,0,had,9,12,19205,19208,42,0.0,8.0,19196.0,19204.0,,,,,verb.possession,375,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+226,2,mounted,56,63,19252,19259,2,41.0,55.0,19237.0,19251.0,,,,,verb.motion,376,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+226,5,dashed,202,208,19398,19404,218,150.0,153.0,19346.0,19349.0,,,,,verb.motion,377,subject,the fat dairy - maid from the castle before him,1.0,6.0,7.0,female,1.0,tertiary
+231,0,want,7,11,19570,19574,42,3.0,6.0,19566.0,19569.0,,,,,verb.emotion,379,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+231,2,spit,26,30,19589,19593,42,17.0,20.0,19580.0,19583.0,,,,,verb.body,380,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+231,3,catch,49,54,19612,19617,42,17.0,20.0,19580.0,19583.0,,,,,verb.contact,381,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+231,4,said,69,73,19632,19636,42,0.0,66.0,19563.0,19629.0,,,,,verb.communication,382,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+231,4,said,69,73,19632,19636,218,0.0,66.0,19563.0,19629.0,,,,,verb.communication,382,subject,the fat dairy - maid from the castle before him,1.0,6.0,7.0,female,1.0,tertiary
+233,4,said,78,82,19749,19753,102,0.0,75.0,19671.0,19746.0,,,,,verb.communication,384,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+233,4,said,78,82,19749,19753,218,0.0,75.0,19671.0,19746.0,,,,,verb.communication,384,subject,the fat dairy - maid from the castle before him,1.0,6.0,7.0,female,1.0,tertiary
+234,0,caught,5,11,19770,19776,42,1.0,4.0,19766.0,19769.0,25.0,29.0,19790.0,19794.0,verb.cognition,383,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+234,2,fool,45,49,19810,19814,42,35.0,38.0,19800.0,19803.0,53.0,66.0,19818.0,19831.0,verb.social,385,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+234,3,said,69,73,19834,19838,102,1.0,66.0,19766.0,19831.0,,,,,verb.communication,387,subject,The devil,20.0,33.0,53.0,male,1.0,tertiary
+234,3,said,69,73,19834,19838,42,1.0,66.0,19766.0,19831.0,,,,,verb.communication,387,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+234,4,flew,82,86,19847,19851,42,35.0,38.0,19800.0,19803.0,,,,,verb.motion,386,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+235,1,asked,52,57,19997,20002,2,4.0,20.0,19949.0,19965.0,,,,,verb.communication,390,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+235,3,promised,86,94,20031,20039,42,73.0,81.0,20018.0,20026.0,,,,,verb.communication,389,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+236,1,began,32,37,20077,20082,42,9.0,17.0,20054.0,20062.0,,,,,verb.change,391,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+236,2,make,41,45,20086,20090,42,9.0,17.0,20054.0,20062.0,,,,,verb.social,392,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+237,0,said,7,11,20162,20166,2,0.0,6.0,20155.0,20161.0,,,,,verb.communication,393,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+237,7,take,124,128,20279,20283,2,99.0,109.0,20254.0,20264.0,140.0,147.0,20295.0,20302.0,verb.possession,394,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+238,2,took,59,63,20363,20367,2,52.0,58.0,20356.0,20362.0,73.0,110.0,20377.0,20414.0,verb.motion,395,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+238,3,gave,116,120,20420,20424,2,52.0,58.0,20356.0,20362.0,141.0,177.0,20445.0,20481.0,verb.possession,396,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+238,4,flew,152,156,20456,20460,42,149.0,151.0,20453.0,20455.0,,,,,verb.motion,397,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+239,0,threw,7,12,20490,20495,2,4.0,6.0,20487.0,20489.0,40.0,98.0,20523.0,20581.0,verb.contact,398,subject,Murmur,74.0,196.0,270.0,male,1.0,primary
+239,3,left,64,68,20547,20551,42,48.0,50.0,20531.0,20533.0,80.0,98.0,20563.0,20581.0,verb.motion,400,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+240,3,floating,69,77,20652,20660,42,34.0,64.0,20617.0,20647.0,,,,,verb.motion,399,subject,the king,31.0,44.0,75.0,male,1.0,tertiary
+1,1,given,15,20,92,97,5,21.0,41.0,98.0,118.0,,,,,verb.possession,0,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+1,1,given,15,20,92,97,7,21.0,41.0,98.0,118.0,,,,,verb.possession,0,direct_object,a child,2.0,2.0,4.0,unknown,0.0,tertiary
+2,0,saw,18,21,183,186,9,22.0,94.0,187.0,259.0,,,,,verb.perception,3,direct_object,a man,1.0,0.0,1.0,male,1.0,tertiary
+3,1,said,18,22,279,283,10,23.0,30.0,284.0,291.0,,,,,verb.communication,6,direct_object,the one,1.0,1.0,2.0,unknown,0.0,tertiary
+4,2,insisted,42,50,335,343,11,51.0,58.0,344.0,351.0,,,,,verb.communication,7,direct_object,another,1.0,3.0,4.0,unknown,0.0,tertiary
+7,0,agreed,13,19,513,519,13,20.0,155.0,520.0,655.0,,,,,verb.communication,11,direct_object,five women who were standing in a field's of them,1.0,0.0,1.0,female,1.0,tertiary
+7,0,agreed,13,19,513,519,5,20.0,155.0,520.0,655.0,,,,,verb.communication,11,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+7,0,agreed,13,19,513,519,14,20.0,155.0,520.0,655.0,,,,,verb.communication,11,direct_object,the little gosling,1.0,0.0,1.0,unknown,0.0,tertiary
+7,0,agreed,13,19,513,519,12,20.0,155.0,520.0,655.0,,,,,verb.communication,11,direct_object,five women who were standing in a field's five of them,1.0,0.0,1.0,female,1.0,tertiary
+9,1,feed,33,37,789,793,16,38.0,56.0,794.0,812.0,57.0,64.0,813.0,820.0,verb.consumption,15,direct_object,the rest,2.0,1.0,3.0,unknown,0.0,tertiary
+9,1,feed,33,37,789,793,15,38.0,56.0,794.0,812.0,57.0,64.0,813.0,820.0,verb.consumption,15,direct_object,The first,1.0,1.0,2.0,female,1.0,tertiary
+12,0,said,0,4,943,947,18,5.0,52.0,948.0,995.0,,,,,verb.communication,21,direct_object,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+13,0,believe,14,21,1011,1018,233,22.0,132.0,1019.0,1129.0,,,,,verb.cognition,20,direct_object,a human child,1.0,0.0,1.0,unknown,0.0,tertiary
+13,7,said,172,176,1169,1173,18,177.0,180.0,1174.0,1177.0,,,,,verb.communication,24,direct_object,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+14,2,bring,52,57,1231,1236,18,58.0,61.0,1237.0,1240.0,,,,,verb.possession,25,direct_object,the one who was sitting on the egg and hatching,1.0,8.0,9.0,female,1.0,tertiary
+16,0,came,25,29,1472,1476,7,30.0,37.0,1477.0,1484.0,,,,,verb.motion,27,direct_object,a child,2.0,2.0,4.0,unknown,0.0,tertiary
+20,0,took,55,59,1741,1745,22,60.0,91.0,1746.0,1777.0,,,,,verb.cognition,29,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+21,0,grew,20,24,1799,1803,5,25.0,71.0,1804.0,1850.0,,,,,verb.change,30,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+21,0,grew,20,24,1799,1803,22,25.0,71.0,1804.0,1850.0,,,,,verb.change,30,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+21,1,devoured,43,51,1822,1830,5,52.0,71.0,1831.0,1850.0,,,,,verb.contact,32,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+22,0,cooked,10,16,1862,1868,24,17.0,90.0,1869.0,1942.0,,,,,verb.consumption,31,direct_object,all six of them's six of them,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+22,2,do,68,70,1920,1922,24,71.0,90.0,1923.0,1942.0,,,,,verb.creation,33,direct_object,all six of them's six of them,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+23,1,want,16,20,1999,2003,22,21.0,43.0,2004.0,2026.0,,,,,verb.emotion,37,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+24,3,said,69,73,2097,2101,17,74.0,85.0,2102.0,2113.0,,,,,verb.communication,38,direct_object,five women who were standing in a field's of them,2.0,1.0,3.0,female,1.0,tertiary
+24,3,said,69,73,2097,2101,5,74.0,85.0,2102.0,2113.0,,,,,verb.communication,38,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+25,0,heard,22,27,2137,2142,16,28.0,53.0,2143.0,2168.0,,,,,verb.perception,39,direct_object,the rest,2.0,1.0,3.0,unknown,0.0,tertiary
+25,2,said,58,62,2173,2177,5,63.0,189.0,2178.0,2304.0,,,,,verb.communication,42,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+25,2,said,58,62,2173,2177,22,63.0,189.0,2178.0,2304.0,,,,,verb.communication,42,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+25,5,had,114,117,2229,2232,22,118.0,132.0,2233.0,2247.0,,,,,verb.possession,41,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+25,6,had,142,145,2257,2260,5,146.0,161.0,2261.0,2276.0,,,,,verb.possession,43,direct_object,five women who were standing in a field,1.0,18.0,19.0,female,1.0,tertiary
+27,0,needed,10,16,2396,2402,29,17.0,26.0,2403.0,2412.0,,,,,verb.consumption,45,direct_object,a workman,1.0,1.0,2.0,male,1.0,tertiary
+27,1,told,43,47,2429,2433,29,48.0,51.0,2434.0,2437.0,,,,,verb.communication,47,direct_object,a workman,1.0,1.0,2.0,male,1.0,tertiary
+29,5,put,127,130,2662,2665,22,131.0,135.0,2666.0,2670.0,,,,,verb.contact,48,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,1,finished,19,27,2705,2713,22,28.0,36.0,2714.0,2722.0,,,,,verb.change,49,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,2,wanted,42,48,2728,2734,22,49.0,79.0,2735.0,2765.0,,,,,verb.emotion,50,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+30,3,know,52,56,2738,2742,22,57.0,79.0,2743.0,2765.0,,,,,verb.cognition,51,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+32,0,said,0,4,2813,2817,33,5.0,15.0,2818.0,2828.0,,,,,verb.communication,54,direct_object,the child's master,2.0,1.0,3.0,male,1.0,tertiary
+32,0,said,0,4,2813,2817,22,5.0,15.0,2818.0,2828.0,,,,,verb.communication,54,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+34,0,emptied,21,28,2917,2924,22,29.0,40.0,2925.0,2936.0,,,,,verb.consumption,55,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+35,0,saw,16,19,2986,2989,35,20.0,121.0,2990.0,3091.0,,,,,verb.cognition,59,direct_object,,,,,,,
+35,0,saw,16,19,2986,2989,36,20.0,121.0,2990.0,3091.0,,,,,verb.cognition,59,direct_object,such a strong fellow with kid gloves,1.0,0.0,1.0,unknown,0.0,tertiary
+35,0,saw,16,19,2986,2989,22,20.0,121.0,2990.0,3091.0,,,,,verb.cognition,59,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+35,2,finished,32,40,3002,3010,22,41.0,49.0,3011.0,3019.0,,,,,verb.change,58,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+35,5,handle,78,84,3048,3054,36,85.0,121.0,3055.0,3091.0,,,,,verb.social,60,direct_object,such a strong fellow with kid gloves,1.0,0.0,1.0,unknown,0.0,tertiary
+36,0,told,6,10,3099,3103,22,11.0,14.0,3104.0,3107.0,,,,,verb.communication,61,direct_object,the child,2.0,27.0,29.0,male,1.0,tertiary
+37,3,supplied,72,80,3200,3208,30,81.0,106.0,3209.0,3234.0,,,,,verb.consumption,62,direct_object,the master,2.0,1.0,3.0,male,1.0,tertiary
+37,3,supplied,72,80,3200,3208,38,81.0,106.0,3209.0,3234.0,,,,,verb.consumption,62,direct_object,the master's family,1.0,0.0,1.0,unknown,0.0,tertiary
+39,0,said,48,52,3367,3371,41,53.0,64.0,3372.0,3383.0,,,,,verb.communication,65,direct_object,the peasant,1.0,0.0,1.0,unknown,0.0,tertiary
+40,4,said,90,94,3475,3479,2,95.0,97.0,3480.0,3482.0,,,,,verb.communication,67,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+41,0,had,3,6,3487,3490,2,7.0,27.0,3491.0,3511.0,,,,,verb.possession,66,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+43,2,help,33,37,3730,3734,47,38.0,68.0,3735.0,3765.0,,,,,verb.social,70,direct_object,the maids,1.0,0.0,1.0,unknown,0.0,tertiary
+44,0,asked,6,11,3796,3801,2,12.0,35.0,3802.0,3825.0,,,,,verb.communication,72,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+47,6,asked,146,151,4139,4144,2,152.0,173.0,4145.0,4166.0,,,,,verb.communication,82,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+49,2,said,22,26,4242,4246,2,27.0,43.0,4247.0,4263.0,,,,,verb.communication,86,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+50,2,said,28,32,4293,4297,49,33.0,51.0,4298.0,4316.0,,,,,verb.communication,88,direct_object,the superintendent,2.0,0.0,2.0,unknown,0.0,tertiary
+53,0,said,29,33,4488,4492,2,34.0,180.0,4493.0,4639.0,,,,,verb.communication,89,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+53,2,have,63,67,4522,4526,2,68.0,180.0,4527.0,4639.0,,,,,verb.possession,90,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+60,1,put,28,31,5202,5205,2,32.0,39.0,5206.0,5213.0,,,,,verb.contact,98,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+61,0,came,8,12,5269,5273,42,13.0,33.0,5274.0,5294.0,,,,,verb.motion,100,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+61,1,stood,41,46,5302,5307,42,47.0,55.0,5308.0,5316.0,56.0,97.0,,,verb.contact,99,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+61,3,give,122,126,5383,5387,2,127.0,130.0,5388.0,5391.0,,,,,verb.communication,102,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+62,2,seen,44,48,5511,5515,2,49.0,70.0,5516.0,5537.0,,,,,verb.perception,104,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+63,2,thought,109,116,5648,5655,2,117.0,187.0,5656.0,5726.0,,,,,verb.cognition,107,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+63,6,handle,167,173,5706,5712,2,174.0,177.0,5713.0,5716.0,178.0,187.0,,,verb.social,108,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+64,1,said,35,39,5763,5767,42,40.0,48.0,5768.0,5776.0,,,,,verb.communication,109,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+64,2,tell,55,59,5783,5787,2,60.0,62.0,5788.0,5790.0,,,,,verb.communication,111,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+64,2,tell,55,59,5783,5787,42,60.0,62.0,5788.0,5790.0,,,,,verb.communication,111,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+66,4,said,53,57,6020,6024,2,58.0,74.0,6025.0,6041.0,,,,,verb.communication,116,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+71,1,sent,36,40,6414,6418,2,41.0,44.0,6419.0,6422.0,65.0,81.0,6443.0,6459.0,verb.motion,119,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+72,0,called,3,9,6464,6470,3,20.0,57.0,6481.0,6518.0,,,,,verb.communication,120,direct_object,vale,1.0,0.0,1.0,unknown,0.0,tertiary
+73,2,suit,50,54,6570,6574,2,55.0,58.0,6575.0,6578.0,,,,,verb.social,122,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+74,0,picked,6,12,6586,6592,75,13.0,32.0,6593.0,6612.0,,,,,verb.cognition,123,direct_object,the people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+75,0,kill,5,9,6638,6642,42,10.0,29.0,6643.0,6662.0,,,,,verb.contact,125,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+75,0,kill,5,9,6638,6642,241,10.0,29.0,6643.0,6662.0,,,,,verb.contact,125,direct_object,the king's people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+75,0,kill,5,9,6638,6642,240,10.0,29.0,6643.0,6662.0,,,,,verb.contact,125,direct_object,the king's of my people,1.0,0.0,1.0,unknown,0.0,tertiary
+76,0,asked,0,5,6746,6751,42,6.0,14.0,6752.0,6760.0,,,,,verb.communication,129,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+77,1,said,45,49,6807,6811,2,50.0,56.0,6812.0,6818.0,,,,,verb.communication,131,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,0,told,14,18,7312,7316,2,19.0,22.0,7317.0,7320.0,,,,,verb.communication,138,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,0,told,14,18,7312,7316,82,19.0,22.0,7317.0,7320.0,,,,,verb.communication,138,direct_object,people,2.0,0.0,2.0,unknown,0.0,tertiary
+82,1,gather,26,32,7324,7330,2,33.0,49.0,7331.0,7347.0,,,,,verb.contact,139,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,1,gather,26,32,7324,7330,82,33.0,49.0,7331.0,7347.0,,,,,verb.contact,139,direct_object,people,2.0,0.0,2.0,unknown,0.0,tertiary
+82,3,meet,61,65,7359,7363,83,66.0,73.0,7364.0,7371.0,,,,,verb.social,140,direct_object,the foe,1.0,0.0,1.0,unknown,0.0,tertiary
+82,5,thought,106,113,7404,7411,2,114.0,147.0,7412.0,7445.0,,,,,verb.cognition,141,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+82,5,thought,106,113,7404,7411,79,114.0,147.0,7412.0,7445.0,,,,,verb.cognition,141,direct_object,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+82,7,kill,139,143,7437,7441,2,144.0,147.0,7442.0,7445.0,,,,,verb.contact,142,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+83,0,said,4,8,7451,7455,2,9.0,25.0,7456.0,7472.0,,,,,verb.communication,144,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+83,2,want,38,42,7485,7489,42,43.0,75.0,7490.0,7522.0,,,,,verb.emotion,143,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+83,2,want,38,42,7485,7489,86,43.0,75.0,7490.0,7522.0,,,,,verb.emotion,143,direct_object,the king 's people,1.0,0.0,1.0,male,1.0,tertiary
+83,3,have,46,50,7493,7497,42,51.0,75.0,7498.0,7522.0,,,,,verb.change,146,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+83,3,have,46,50,7493,7497,86,51.0,75.0,7498.0,7522.0,,,,,verb.change,146,direct_object,the king 's people,1.0,0.0,1.0,male,1.0,tertiary
+84,1,see,9,12,7533,7536,2,13.0,49.0,7537.0,7573.0,,,,,verb.cognition,147,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+84,1,see,9,12,7533,7536,79,13.0,49.0,7537.0,7573.0,,,,,verb.cognition,147,direct_object,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+85,0,thought,16,23,7591,7598,42,24.0,32.0,7599.0,7607.0,,,,,verb.cognition,148,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+86,2,said,33,37,7676,7680,2,38.0,44.0,7681.0,7687.0,,,,,verb.communication,151,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+87,0,sent,8,12,7697,7701,53,13.0,25.0,7702.0,7714.0,,,,,verb.motion,150,direct_object,the smith,3.0,6.0,9.0,male,1.0,tertiary
+88,2,said,38,42,7799,7803,2,43.0,59.0,7804.0,7820.0,,,,,verb.communication,154,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+90,2,said,36,40,7913,7917,2,41.0,57.0,7918.0,7934.0,,,,,verb.communication,157,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+91,0,told,14,18,7950,7954,53,19.0,22.0,7955.0,7958.0,,,,,verb.communication,156,direct_object,the smith,3.0,6.0,9.0,male,1.0,tertiary
+91,0,told,14,18,7950,7954,92,19.0,22.0,7955.0,7958.0,,,,,verb.communication,156,direct_object,the smith's workmen,1.0,0.0,1.0,unknown,0.0,tertiary
+92,1,forged,56,62,8082,8088,2,63.0,70.0,8089.0,8096.0,,,,,verb.change,158,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+93,2,taken,14,19,8145,8150,94,20.0,33.0,8151.0,8164.0,34.0,38.0,,,verb.possession,159,direct_object,a hundred men,1.0,0.0,1.0,male,1.0,tertiary
+94,2,said,26,30,8228,8232,2,31.0,37.0,8233.0,8239.0,,,,,verb.communication,161,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+98,1,see,45,48,8505,8508,2,49.0,52.0,8509.0,8512.0,,,,,verb.perception,163,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+98,2,sent,59,63,8519,8523,2,64.0,107.0,8524.0,8567.0,,,,,verb.communication,164,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+98,2,sent,59,63,8519,8523,96,64.0,107.0,8524.0,8567.0,,,,,verb.communication,164,direct_object,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+98,3,ask,67,70,8527,8530,2,71.0,107.0,8531.0,8567.0,,,,,verb.communication,166,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+98,3,ask,67,70,8527,8530,96,71.0,107.0,8531.0,8567.0,,,,,verb.communication,166,direct_object,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+98,4,had,82,85,8542,8545,96,86.0,107.0,8546.0,8567.0,,,,,verb.perception,165,direct_object,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+98,5,attack,96,102,8556,8562,96,103.0,107.0,8563.0,8567.0,,,,,verb.social,167,direct_object,the soldiers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+99,4,sat,49,52,8618,8621,2,53.0,56.0,8622.0,8625.0,,,,,verb.motion,170,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+100,2,began,34,39,8693,8698,2,40.0,54.0,8699.0,8713.0,,,,,verb.change,171,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+101,1,hailed,25,31,8740,8746,2,32.0,62.0,8747.0,8777.0,,,,,verb.contact,173,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+102,2,said,44,48,8823,8827,2,49.0,65.0,8828.0,8844.0,,,,,verb.communication,176,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+103,1,wound,28,33,8904,8909,2,34.0,37.0,8910.0,8913.0,,,,,verb.contact,175,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+103,2,stood,56,61,8932,8937,2,62.0,72.0,8938.0,8948.0,,,,,verb.contact,177,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+104,0,began,15,20,9001,9006,2,21.0,72.0,9007.0,9058.0,,,,,verb.change,179,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+104,1,throw,24,29,9010,9015,2,30.0,35.0,9016.0,9021.0,,,,,verb.contact,180,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+104,2,shoot,48,53,9034,9039,2,54.0,60.0,9040.0,9046.0,61.0,72.0,9047.0,9058.0,verb.competition,181,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+110,0,said,0,4,9182,9186,2,5.0,7.0,9187.0,9189.0,,,,,verb.communication,185,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+110,3,fell,65,69,9247,9251,2,70.0,91.0,9252.0,9273.0,,,,,verb.motion,184,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,2,took,30,34,9370,9374,2,35.0,43.0,9375.0,9383.0,,,,,verb.contact,187,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,4,asked,77,82,9417,9422,2,83.0,213.0,9423.0,9553.0,,,,,verb.communication,189,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,4,asked,77,82,9417,9422,79,83.0,213.0,9423.0,9553.0,,,,,verb.communication,189,direct_object,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+111,5,wanted,96,102,9436,9442,2,103.0,207.0,9443.0,9547.0,,,,,verb.emotion,190,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+111,5,wanted,96,102,9436,9442,79,103.0,207.0,9443.0,9547.0,,,,,verb.emotion,190,direct_object,the enemy,5.0,3.0,8.0,group/nonbinary,1.0,tertiary
+111,6,take,106,110,9446,9450,2,111.0,119.0,9451.0,9459.0,,,,,verb.possession,192,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+113,4,felt,82,86,9806,9810,2,87.0,118.0,9811.0,9842.0,,,,,verb.cognition,194,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+113,4,felt,82,86,9806,9810,42,87.0,118.0,9811.0,9842.0,,,,,verb.cognition,194,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+114,0,knew,6,10,9850,9854,2,11.0,72.0,9855.0,9916.0,,,,,verb.cognition,196,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+114,0,knew,6,10,9850,9854,102,11.0,72.0,9855.0,9916.0,,,,,verb.cognition,196,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+114,2,send,43,47,9887,9891,2,48.0,51.0,9892.0,9895.0,,,,,verb.motion,197,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+114,2,send,43,47,9887,9891,102,48.0,51.0,9892.0,9895.0,,,,,verb.motion,197,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+115,2,fetch,34,39,9952,9957,102,40.0,51.0,9958.0,9969.0,,,,,verb.contact,198,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+115,3,said,63,67,9981,9985,42,68.0,76.0,9986.0,9994.0,,,,,verb.communication,200,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+119,1,said,51,55,10221,10225,2,56.0,150.0,10226.0,10320.0,,,,,verb.communication,203,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+119,1,said,51,55,10221,10225,109,56.0,150.0,10226.0,10320.0,,,,,verb.communication,203,direct_object,Murmur's grandmother,4.0,2.0,6.0,female,1.0,tertiary
+120,2,said,37,41,10359,10363,2,42.0,44.0,10364.0,10366.0,,,,,verb.communication,206,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+123,1,eaten,16,21,10527,10532,2,22.0,40.0,10533.0,10551.0,,,,,verb.consumption,207,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+124,0,demanded,9,17,10577,10585,113,18.0,50.0,10586.0,10618.0,,,,,verb.communication,209,direct_object,the grandmother,1.0,2.0,3.0,female,1.0,tertiary
+125,1,get,10,13,10630,10633,102,14.0,21.0,10634.0,10641.0,,,,,verb.possession,210,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+125,4,said,88,92,10708,10712,102,93.0,116.0,10713.0,10736.0,,,,,verb.communication,212,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+125,4,said,88,92,10708,10712,115,93.0,116.0,10713.0,10736.0,,,,,verb.communication,212,direct_object,the devil 's grandmother,2.0,0.0,2.0,female,1.0,tertiary
+128,0,asked,5,10,10980,10985,102,11.0,34.0,10986.0,11009.0,35.0,44.0,,,verb.communication,215,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+128,0,asked,5,10,10980,10985,115,11.0,34.0,10986.0,11009.0,35.0,44.0,,,verb.communication,215,direct_object,the devil 's grandmother,2.0,0.0,2.0,female,1.0,tertiary
+128,0,asked,5,10,10980,10985,2,11.0,34.0,10986.0,11009.0,35.0,44.0,,,verb.communication,215,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+128,0,asked,5,10,10980,10985,113,11.0,34.0,10986.0,11009.0,35.0,44.0,,,verb.communication,215,direct_object,the grandmother,1.0,2.0,3.0,female,1.0,tertiary
+128,2,pay,67,70,11042,11045,2,71.0,74.0,11046.0,11049.0,,,,,verb.possession,218,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+131,3,learned,64,71,11286,11293,2,72.0,118.0,11294.0,11340.0,,,,,verb.cognition,221,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+132,0,beat,9,13,11351,11355,102,14.0,29.0,11356.0,11371.0,,,,,verb.competition,220,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+132,0,beat,9,13,11351,11355,109,14.0,29.0,11356.0,11371.0,,,,,verb.competition,220,direct_object,Murmur's grandmother,4.0,2.0,6.0,female,1.0,tertiary
+132,1,hurried,40,47,11382,11389,2,48.0,60.0,11390.0,11402.0,,,,,verb.motion,222,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+135,0,began,36,41,11602,11607,2,42.0,68.0,11608.0,11634.0,,,,,verb.change,224,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+136,1,keep,41,45,11677,11681,102,46.0,55.0,11682.0,11691.0,,,,,verb.social,226,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+138,0,held,7,11,11777,11781,102,12.0,55.0,11782.0,11825.0,57.0,89.0,11827.0,11859.0,verb.contact,227,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+139,1,followed,68,76,11929,11937,2,77.0,80.0,11938.0,11941.0,81.0,89.0,11942.0,11950.0,verb.motion,229,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+139,1,followed,68,76,11929,11937,102,77.0,80.0,11938.0,11941.0,81.0,89.0,11942.0,11950.0,verb.motion,229,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+139,4,broke,147,152,12008,12013,102,153.0,161.0,12014.0,12022.0,,,,,verb.contact,231,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+141,0,said,0,4,12065,12069,42,5.0,11.0,12070.0,12076.0,,,,,verb.communication,234,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+141,0,said,0,4,12065,12069,2,5.0,11.0,12070.0,12076.0,,,,,verb.communication,234,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+141,3,flung,68,73,12133,12138,42,79.0,121.0,12144.0,12186.0,123.0,156.0,12188.0,12221.0,verb.contact,235,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+142,0,thanked,9,16,12232,12239,2,17.0,20.0,12240.0,12243.0,,,,,verb.communication,236,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+142,1,promised,33,41,12256,12264,2,42.0,45.0,12265.0,12268.0,83.0,98.0,12306.0,12321.0,verb.communication,237,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+146,1,said,44,48,12440,12444,2,49.0,137.0,12445.0,12533.0,,,,,verb.communication,244,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+146,1,said,44,48,12440,12444,139,49.0,137.0,12445.0,12533.0,,,,,verb.communication,244,direct_object,Murmur's ancestors,1.0,0.0,1.0,unknown,0.0,tertiary
+146,1,said,44,48,12440,12444,138,49.0,137.0,12445.0,12533.0,,,,,verb.communication,244,direct_object,"Murmur's hill - troll , who had robbed him of the sword of his ancestors",1.0,0.0,1.0,unknown,0.0,tertiary
+146,5,robbed,97,103,12493,12499,2,104.0,107.0,12500.0,12503.0,,,,,verb.possession,243,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+146,5,robbed,97,103,12493,12499,139,104.0,107.0,12500.0,12503.0,,,,,verb.possession,243,direct_object,Murmur's ancestors,1.0,0.0,1.0,unknown,0.0,tertiary
+149,1,came,84,88,12773,12777,147,89.0,167.0,12778.0,12856.0,,,,,verb.motion,248,direct_object,the king of the sword,1.0,0.0,1.0,male,1.0,tertiary
+149,1,came,84,88,12773,12777,146,89.0,167.0,12778.0,12856.0,,,,,verb.motion,248,direct_object,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+149,4,robbed,139,145,12828,12834,147,146.0,167.0,12835.0,12856.0,,,,,verb.possession,247,direct_object,the king of the sword,1.0,0.0,1.0,male,1.0,tertiary
+151,0,joined,6,12,12960,12966,151,13.0,97.0,12967.0,13051.0,,,,,verb.social,251,direct_object,a party of stone - breakers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+152,1,had,15,18,13073,13076,2,19.0,141.0,13077.0,13199.0,,,,,verb.possession,250,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+152,1,had,15,18,13073,13076,153,19.0,141.0,13077.0,13199.0,,,,,verb.possession,250,direct_object,such a helper,1.0,0.0,1.0,unknown,0.0,tertiary
+154,0,have,3,7,13314,13318,2,8.0,30.0,13319.0,13341.0,,,,,verb.perception,253,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+154,1,said,33,37,13344,13348,2,38.0,44.0,13349.0,13355.0,,,,,verb.communication,256,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+157,1,began,52,57,13685,13690,155,58.0,102.0,13691.0,13735.0,,,,,verb.change,261,direct_object,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+157,2,smack,61,66,13694,13699,155,67.0,75.0,13700.0,13708.0,,,,,verb.contact,262,direct_object,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+157,3,eat,81,84,13714,13717,155,85.0,102.0,13718.0,13735.0,,,,,verb.consumption,263,direct_object,a troll with seven heads,1.0,4.0,5.0,male,1.0,tertiary
+158,5,said,50,54,13787,13791,2,55.0,57.0,13792.0,13794.0,,,,,verb.communication,266,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+162,0,asked,0,5,14128,14133,2,6.0,22.0,14134.0,14150.0,,,,,verb.communication,268,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+163,2,said,32,36,14184,14188,160,37.0,46.0,14189.0,14198.0,,,,,verb.communication,269,direct_object,the horse,1.0,1.0,2.0,unknown,0.0,tertiary
+164,2,said,26,30,14226,14230,2,31.0,47.0,14231.0,14247.0,,,,,verb.communication,271,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+165,0,tear,1,5,14250,14254,2,6.0,13.0,14255.0,14262.0,14.0,25.0,,,verb.contact,273,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+167,0,said,3,7,14365,14369,2,8.0,72.0,14370.0,14434.0,,,,,verb.communication,275,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+167,0,said,3,7,14365,14369,146,8.0,72.0,14370.0,14434.0,,,,,verb.communication,275,direct_object,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+168,0,helped,8,14,14444,14450,2,15.0,82.0,14451.0,14518.0,,,,,verb.social,277,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+168,0,helped,8,14,14444,14450,146,15.0,82.0,14451.0,14518.0,,,,,verb.social,277,direct_object,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+169,0,lay,15,18,14535,14538,165,19.0,42.0,14539.0,14562.0,,,,,verb.contact,278,direct_object,the troll 's grandmother,1.0,1.0,2.0,female,1.0,tertiary
+169,0,lay,15,18,14535,14538,146,19.0,42.0,14539.0,14562.0,,,,,verb.contact,278,direct_object,the troll,7.0,0.0,7.0,unknown,0.0,tertiary
+173,1,sent,30,34,14884,14888,42,35.0,46.0,14889.0,14900.0,,,,,verb.motion,285,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+173,2,had,52,55,14906,14909,42,56.0,90.0,14910.0,14944.0,,,,,verb.possession,286,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+177,1,believe,19,26,15216,15223,42,27.0,35.0,15224.0,15232.0,36.0,64.0,15233.0,15261.0,verb.cognition,293,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+177,2,saw,44,47,15241,15244,2,48.0,54.0,15245.0,15251.0,55.0,64.0,15252.0,15261.0,verb.perception,292,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+178,1,promised,30,38,15292,15300,2,39.0,42.0,15301.0,15304.0,,,,,verb.communication,294,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+179,1,told,40,44,15369,15373,2,45.0,48.0,15374.0,15377.0,,,,,verb.communication,296,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+179,1,told,40,44,15369,15373,42,45.0,48.0,15374.0,15377.0,,,,,verb.communication,296,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+179,1,told,40,44,15369,15373,82,45.0,48.0,15374.0,15377.0,,,,,verb.communication,296,direct_object,people,2.0,0.0,2.0,unknown,0.0,tertiary
+179,2,travel,52,58,15381,15387,82,59.0,103.0,15388.0,15432.0,,,,,verb.motion,297,direct_object,people,2.0,0.0,2.0,unknown,0.0,tertiary
+179,2,travel,52,58,15381,15387,42,59.0,103.0,15388.0,15432.0,,,,,verb.motion,297,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+180,3,reward,30,36,15558,15564,2,37.0,40.0,15565.0,15568.0,41.0,45.0,15569.0,15573.0,verb.social,301,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+180,3,reward,30,36,15558,15564,42,37.0,40.0,15565.0,15568.0,41.0,45.0,15569.0,15573.0,verb.social,301,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+180,3,reward,30,36,15558,15564,181,37.0,40.0,15565.0,15568.0,41.0,45.0,15569.0,15573.0,verb.social,301,direct_object,the king's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+180,5,give,66,70,15594,15598,2,71.0,74.0,15599.0,15602.0,,,,,verb.possession,302,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+180,5,give,66,70,15594,15598,42,71.0,74.0,15599.0,15602.0,,,,,verb.possession,302,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+180,5,give,66,70,15594,15598,181,71.0,74.0,15599.0,15602.0,,,,,verb.possession,302,direct_object,the king's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+180,6,said,89,93,15617,15621,42,94.0,102.0,15622.0,15630.0,,,,,verb.communication,303,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+181,2,said,23,27,15655,15659,2,28.0,34.0,15660.0,15666.0,,,,,verb.communication,306,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+183,4,thought,89,96,15807,15814,2,122.0,155.0,15840.0,15873.0,,,,,verb.cognition,307,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+183,4,thought,89,96,15807,15814,42,122.0,155.0,15840.0,15873.0,,,,,verb.cognition,307,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+183,5,sending,103,110,15821,15828,2,111.0,114.0,15829.0,15832.0,115.0,120.0,,,verb.motion,308,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+183,7,see,142,145,15860,15863,2,146.0,149.0,15864.0,15867.0,150.0,155.0,15868.0,15873.0,verb.perception,309,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+185,0,took,3,7,15898,15902,2,17.0,29.0,15912.0,15924.0,,,,,verb.contact,310,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+187,0,planted,7,14,16150,16157,2,15.0,23.0,16158.0,16166.0,24.0,30.0,16167.0,16173.0,verb.contact,312,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+188,1,warmed,12,18,16238,16244,2,19.0,26.0,16245.0,16252.0,,,,,verb.body,314,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+188,2,satisfied,31,40,16257,16266,2,41.0,51.0,16267.0,16277.0,,,,,verb.emotion,315,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+191,0,let,1,4,16524,16527,4,4.0,25.0,16527.0,16548.0,,,,,verb.social,319,direct_object,Master Devil,1.0,2.0,3.0,unknown,0.0,tertiary
+191,1,see,7,10,16530,16533,4,11.0,25.0,16534.0,16548.0,,,,,verb.communication,320,direct_object,Master Devil,1.0,2.0,3.0,unknown,0.0,tertiary
+192,1,said,40,44,16590,16594,2,45.0,51.0,16595.0,16601.0,,,,,verb.communication,322,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+198,1,won,17,20,16884,16887,2,21.0,47.0,16888.0,16914.0,,,,,verb.competition,327,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+198,1,won,17,20,16884,16887,102,21.0,47.0,16888.0,16914.0,,,,,verb.competition,327,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+198,4,give,67,71,16934,16938,2,72.0,75.0,16939.0,16942.0,,,,,verb.possession,328,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+200,2,said,26,30,17118,17122,2,31.0,37.0,17123.0,17129.0,,,,,verb.communication,330,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+201,5,gave,147,151,17278,17282,2,152.0,159.0,17283.0,17290.0,,,,,verb.possession,331,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+202,3,said,36,40,17348,17352,102,41.0,53.0,17353.0,17365.0,,,,,verb.communication,332,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+203,0,spit,1,5,17368,17372,102,6.0,19.0,17373.0,17386.0,,,,,verb.body,333,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+203,4,see,86,89,17453,17456,102,90.0,105.0,17457.0,17472.0,,,,,verb.perception,335,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+205,3,belabored,109,118,17678,17687,2,119.0,127.0,17688.0,17696.0,,,,,verb.perception,339,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+206,1,begged,22,28,17732,17738,2,29.0,35.0,17739.0,17745.0,,,,,verb.communication,342,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+206,1,begged,22,28,17732,17738,102,29.0,35.0,17739.0,17745.0,,,,,verb.communication,342,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+206,2,let,39,42,17749,17752,102,43.0,49.0,17753.0,17759.0,,,,,verb.social,343,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+207,3,promised,50,58,17810,17818,2,59.0,114.0,17819.0,17874.0,,,,,verb.communication,345,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+207,5,make,82,86,17842,17846,2,87.0,108.0,17847.0,17868.0,109.0,114.0,17869.0,17874.0,verb.social,346,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+211,0,said,0,4,18102,18106,102,5.0,14.0,18107.0,18116.0,,,,,verb.communication,349,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+211,2,promise,52,59,18154,18161,102,60.0,83.0,18162.0,18185.0,,,,,verb.communication,350,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+213,2,said,18,22,18306,18310,2,23.0,29.0,18311.0,18317.0,,,,,verb.communication,356,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+214,0,let,8,11,18327,18330,102,12.0,25.0,18331.0,18344.0,,,,,verb.social,355,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+216,1,see,22,25,18458,18461,2,26.0,116.0,18462.0,18552.0,,,,,verb.cognition,361,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+219,0,help,12,16,18741,18745,42,17.0,35.0,18746.0,18764.0,,,,,verb.social,367,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+219,0,help,12,16,18741,18745,246,17.0,35.0,18746.0,18764.0,,,,,verb.social,367,direct_object,the king's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+220,0,cried,0,5,18767,18772,42,6.0,14.0,18773.0,18781.0,16.0,75.0,,,verb.communication,366,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+220,1,saw,24,27,18791,18794,2,28.0,75.0,18795.0,18842.0,,,,,verb.perception,368,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+221,5,said,78,82,18922,18926,42,83.0,91.0,18927.0,18935.0,,,,,verb.communication,370,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+224,0,stood,11,16,19062,19067,102,17.0,26.0,19068.0,19077.0,28.0,66.0,19079.0,19117.0,verb.contact,369,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+224,1,collect,37,44,19088,19095,102,45.0,66.0,19096.0,19117.0,,,,,verb.possession,372,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+224,2,promised,54,62,19105,19113,102,63.0,66.0,19114.0,19117.0,,,,,verb.communication,371,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+225,0,wanted,17,23,19136,19142,102,24.0,75.0,19143.0,19194.0,,,,,verb.emotion,373,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+225,0,wanted,17,23,19136,19142,42,24.0,75.0,19143.0,19194.0,,,,,verb.emotion,373,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+225,2,try,52,55,19171,19174,102,56.0,66.0,19175.0,19185.0,,,,,verb.social,374,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+229,0,cried,0,5,19514,19519,102,6.0,15.0,19520.0,19529.0,,,,,verb.communication,378,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+231,0,want,7,11,19570,19574,218,12.0,15.0,19575.0,19578.0,,,,,verb.emotion,379,direct_object,the fat dairy - maid from the castle before him,1.0,6.0,7.0,female,1.0,tertiary
+231,2,spit,26,30,19589,19593,42,31.0,33.0,19594.0,19596.0,,,,,verb.body,380,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+231,3,catch,49,54,19612,19617,218,55.0,66.0,19618.0,19629.0,,,,,verb.contact,381,direct_object,the fat dairy - maid from the castle before him,1.0,6.0,7.0,female,1.0,tertiary
+231,4,said,69,73,19632,19636,2,74.0,90.0,19637.0,19653.0,,,,,verb.communication,382,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+233,4,said,78,82,19749,19753,102,83.0,92.0,19754.0,19763.0,,,,,verb.communication,384,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+234,0,caught,5,11,19770,19776,102,12.0,14.0,19777.0,19779.0,25.0,29.0,19790.0,19794.0,verb.cognition,383,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+234,2,fool,45,49,19810,19814,102,50.0,52.0,19815.0,19817.0,53.0,66.0,19818.0,19831.0,verb.social,385,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+234,3,said,69,73,19834,19838,102,74.0,76.0,19839.0,19841.0,,,,,verb.communication,387,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+234,8,seen,167,171,19932,19936,102,172.0,178.0,19937.0,19943.0,,,,,verb.perception,388,direct_object,The devil,20.0,33.0,53.0,male,1.0,tertiary
+235,1,asked,52,57,19997,20002,2,58.0,98.0,20003.0,20043.0,,,,,verb.communication,390,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+235,1,asked,52,57,19997,20002,42,58.0,98.0,20003.0,20043.0,,,,,verb.communication,390,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+235,3,promised,86,94,20031,20039,2,95.0,98.0,20040.0,20043.0,,,,,verb.communication,389,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+237,0,said,7,11,20162,20166,2,12.0,147.0,20167.0,20302.0,,,,,verb.communication,393,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+237,7,take,124,128,20279,20283,2,129.0,139.0,20284.0,20294.0,140.0,147.0,20295.0,20302.0,verb.possession,394,direct_object,Murmur,74.0,196.0,270.0,male,1.0,primary
+238,2,took,59,63,20363,20367,42,64.0,72.0,20368.0,20376.0,73.0,110.0,20377.0,20414.0,verb.motion,395,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+238,3,gave,116,120,20420,20424,42,121.0,124.0,20425.0,20428.0,141.0,177.0,20445.0,20481.0,verb.possession,396,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary
+239,0,threw,7,12,20490,20495,42,13.0,25.0,20496.0,20508.0,40.0,98.0,20523.0,20581.0,verb.contact,398,direct_object,the king,31.0,44.0,75.0,male,1.0,tertiary

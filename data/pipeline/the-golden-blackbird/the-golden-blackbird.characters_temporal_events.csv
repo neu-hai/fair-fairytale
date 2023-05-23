@@ -1,0 +1,380 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,fell,3,7,63,67,4,0.0,2.0,60.0,62.0,,,,,verb.change,1,subject,a great lord who had three sons,1.0,3.0,4.0,male,1.0,tertiary
+1,5,give,145,149,205,209,8,72.0,90.0,132.0,150.0,,,,,verb.possession,2,subject,doctors of every kind's of them,1.0,0.0,1.0,unknown,0.0,tertiary
+1,5,give,145,149,205,209,6,72.0,90.0,132.0,150.0,,,,,verb.possession,2,subject,doctors of every kind,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+2,1,declared,41,49,267,275,9,19.0,35.0,245.0,261.0,,,,,verb.communication,4,subject,a foreign doctor,1.0,0.0,1.0,unknown,0.0,tertiary
+2,3,cure,88,92,314,318,0,55.0,81.0,281.0,307.0,,,,,verb.body,5,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+3,0,despatched,16,26,349,359,11,3.0,15.0,336.0,348.0,42.0,72.0,375.0,405.0,verb.contact,6,subject,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+3,2,promised,78,86,411,419,11,3.0,41.0,336.0,374.0,104.0,146.0,437.0,479.0,verb.communication,7,subject,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+3,2,promised,78,86,411,419,12,3.0,41.0,336.0,374.0,104.0,146.0,437.0,479.0,verb.communication,7,subject,the old lord's eldest son,1.0,2.0,3.0,male,1.0,tertiary
+3,3,managed,110,117,443,450,12,107.0,109.0,440.0,442.0,,,,,verb.social,8,subject,the old lord's eldest son,1.0,2.0,3.0,male,1.0,tertiary
+3,4,find,121,125,454,458,12,107.0,109.0,440.0,442.0,,,,,verb.possession,9,subject,the old lord's eldest son,1.0,2.0,3.0,male,1.0,tertiary
+3,5,bring,133,138,466,471,12,107.0,109.0,440.0,442.0,142.0,146.0,475.0,479.0,verb.contact,11,subject,the old lord's eldest son,1.0,2.0,3.0,male,1.0,tertiary
+4,0,began,14,19,495,500,13,0.0,13.0,481.0,494.0,,,,,verb.change,10,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,1,know,11,15,575,579,13,0.0,2.0,564.0,566.0,,,,,verb.cognition,12,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,2,choose,25,31,589,595,13,0.0,2.0,564.0,566.0,,,,,verb.cognition,13,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,3,tossed,37,43,601,607,13,0.0,2.0,564.0,566.0,64.0,124.0,628.0,688.0,verb.motion,14,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,4,determining,64,75,628,639,13,0.0,2.0,564.0,566.0,,,,,verb.cognition,15,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+6,1,grew,43,47,733,737,13,40.0,42.0,730.0,732.0,,,,,verb.change,19,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+6,2,walking,57,64,747,754,13,40.0,42.0,730.0,732.0,,,,,verb.motion,18,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+6,3,knowing,73,80,763,770,13,40.0,42.0,730.0,732.0,,,,,verb.cognition,21,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+7,0,said,12,16,905,909,13,1.0,9.0,894.0,902.0,,,,,verb.communication,22,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+8,1,dies,28,32,1003,1007,115,25.0,27.0,1000.0,1002.0,,,,,verb.change,23,subject,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+8,3,inherit,41,48,1016,1023,13,33.0,34.0,1008.0,1009.0,,,,,verb.possession,25,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+9,1,sent,52,56,1088,1092,17,0.0,11.0,1036.0,1047.0,,,,,verb.motion,24,subject,The old man,2.0,2.0,4.0,male,1.0,tertiary
+10,0,took,10,14,1148,1152,19,0.0,9.0,1138.0,1147.0,34.0,48.0,1172.0,1186.0,verb.motion,26,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+10,1,came,62,66,1200,1204,19,59.0,61.0,1197.0,1199.0,,,,,verb.motion,27,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+11,1,walked,49,55,1318,1324,19,46.0,48.0,1315.0,1317.0,,,,,verb.motion,28,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+11,2,came,67,71,1336,1340,19,64.0,66.0,1333.0,1335.0,,,,,verb.motion,30,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+12,1,leaning,20,27,1403,1410,23,0.0,10.0,1383.0,1393.0,,,,,verb.contact,29,subject,,,,,,,
+12,2,called,58,64,1441,1447,23,0.0,56.0,1383.0,1439.0,72.0,110.0,1455.0,1493.0,verb.communication,31,subject,,,,,,,
+12,3,stay,75,79,1458,1462,23,0.0,56.0,1383.0,1439.0,,,,,verb.motion,32,subject,,,,,,,
+13,1,replied,17,24,1512,1519,23,1.0,14.0,1496.0,1509.0,,,,,verb.communication,34,subject,,,,,,,
+14,2,find,28,32,1559,1563,19,14.0,15.0,1545.0,1546.0,55.0,102.0,1586.0,1633.0,verb.possession,37,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+14,3,sought,65,71,1596,1602,19,63.0,64.0,1594.0,1595.0,88.0,102.0,1619.0,1633.0,verb.social,36,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+15,0,dies,29,33,1664,1668,17,17.0,28.0,1652.0,1663.0,,,,,verb.change,38,subject,The old man,2.0,2.0,4.0,male,1.0,tertiary
+15,2,have,44,48,1679,1683,27,35.0,37.0,1670.0,1672.0,,,,,verb.possession,40,subject,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+16,0,entered,3,10,1702,1709,19,0.0,2.0,1699.0,1701.0,,,,,verb.motion,39,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+16,1,made,40,44,1739,1743,27,23.0,39.0,1722.0,1738.0,,,,,verb.change,41,subject,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+16,2,feasted,55,62,1754,1761,27,23.0,39.0,1722.0,1738.0,,,,,verb.consumption,42,subject,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+16,4,spent,99,104,1798,1803,27,79.0,90.0,1778.0,1789.0,,,,,verb.possession,44,subject,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+17,0,owed,10,14,1815,1819,27,0.0,4.0,1805.0,1809.0,,,,,verb.possession,43,subject,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+17,3,pay,86,89,1891,1894,27,75.0,79.0,1880.0,1884.0,,,,,verb.possession,45,subject,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+19,1,stop,22,26,2039,2043,19,15.0,18.0,2032.0,2035.0,,,,,verb.motion,46,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+19,2,did,32,35,2049,2052,32,0.0,4.0,2017.0,2021.0,51.0,79.0,2068.0,2096.0,verb.social,47,subject,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+19,5,going,66,71,2083,2088,19,62.0,65.0,2079.0,2082.0,,,,,verb.motion,49,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+20,0,replied,9,16,2107,2114,19,6.0,8.0,2104.0,2106.0,,,,,verb.communication,51,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+20,1,trusted,29,36,2127,2134,115,19.0,28.0,2117.0,2126.0,,,,,verb.social,50,subject,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+20,1,trusted,29,36,2127,2134,19,19.0,28.0,2117.0,2126.0,,,,,verb.social,50,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+20,3,go,52,54,2150,2152,19,45.0,46.0,2143.0,2144.0,74.0,106.0,2172.0,2204.0,verb.motion,52,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+20,4,find,81,85,2179,2183,19,79.0,80.0,2177.0,2178.0,,,,,verb.possession,53,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+21,2,succeed,42,49,2249,2256,19,27.0,30.0,2234.0,2237.0,,,,,verb.social,55,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+22,1,die,8,11,2289,2292,19,4.0,7.0,2285.0,2288.0,,,,,verb.change,57,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+22,2,wants,18,23,2299,2304,19,15.0,17.0,2296.0,2298.0,,,,,verb.emotion,58,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+23,1,divide,9,15,2317,2323,32,1.0,3.0,2309.0,2311.0,,,,,verb.social,60,subject,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+24,0,went,6,10,2345,2349,19,3.0,5.0,2342.0,2344.0,,,,,verb.motion,59,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+24,1,met,22,25,2361,2364,19,19.0,21.0,2358.0,2360.0,,,,,verb.motion,61,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+24,4,asked,73,78,2412,2417,19,19.0,21.0,2358.0,2360.0,,,,,verb.communication,64,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+24,6,going,95,100,2434,2439,19,81.0,86.0,2420.0,2425.0,,,,,verb.motion,65,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+25,2,answered,29,37,2482,2490,19,1.0,15.0,2454.0,2468.0,,,,,verb.communication,66,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+26,3,cured,36,41,2531,2536,115,23.0,25.0,2518.0,2520.0,,,,,verb.body,67,subject,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+26,4,bring,51,56,2546,2551,35,49.0,50.0,2544.0,2545.0,,,,,verb.motion,68,subject,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+28,1,have,26,30,2686,2690,19,22.0,25.0,2682.0,2685.0,,,,,verb.possession,70,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+29,2,walk,17,21,2730,2734,19,0.0,3.0,2713.0,2716.0,51.0,71.0,2764.0,2784.0,verb.motion,72,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+29,3,get,62,65,2775,2778,19,58.0,61.0,2771.0,2774.0,,,,,verb.motion,74,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+30,1,travel,17,23,2804,2810,35,12.0,13.0,2799.0,2800.0,,,,,verb.motion,73,subject,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+31,2,conduct,54,61,2883,2890,36,47.0,48.0,2876.0,2877.0,,,,,verb.social,76,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+32,0,obeyed,14,20,2911,2917,13,0.0,13.0,2897.0,2910.0,,,,,verb.communication,77,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+32,2,went,52,56,2949,2953,36,36.0,51.0,2933.0,2948.0,,,,,verb.motion,78,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+33,1,said,53,57,3123,3127,0,1.0,50.0,3071.0,3120.0,,,,,verb.communication,79,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+33,3,find,96,100,3166,3170,19,80.0,83.0,3150.0,3153.0,,,,,verb.possession,80,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+35,4,know,98,102,3346,3350,125,69.0,92.0,3317.0,3340.0,,,,,verb.cognition,82,subject,everybody in the castle,1.0,0.0,1.0,unknown,0.0,tertiary
+35,6,stolen,117,123,3365,3371,19,108.0,111.0,3356.0,3359.0,,,,,verb.possession,81,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+36,0,found,10,15,3387,3392,19,0.0,9.0,3377.0,3386.0,,,,,verb.perception,84,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+36,1,standing,37,45,3414,3422,0,16.0,36.0,3393.0,3413.0,,,,,verb.contact,83,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+38,1,revive,18,24,3554,3560,0,9.0,11.0,3545.0,3547.0,,,,,verb.motion,86,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+38,3,put,38,41,3574,3577,19,28.0,29.0,3564.0,3565.0,,,,,verb.contact,85,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+38,4,thought,68,75,3604,3611,19,1.0,65.0,3537.0,3601.0,,,,,verb.communication,88,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+38,4,thought,68,75,3604,3611,0,1.0,65.0,3537.0,3601.0,,,,,verb.communication,88,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+39,1,touched,32,39,3655,3662,1,16.0,27.0,3639.0,3650.0,,,,,verb.contact,87,subject,Golden Bird,1.0,0.0,1.0,unknown,0.0,tertiary
+39,2,awoke,73,78,3696,3701,0,70.0,72.0,3693.0,3695.0,,,,,verb.body,89,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+39,3,began,84,89,3707,3712,1,16.0,27.0,3639.0,3650.0,102.0,225.0,3725.0,3848.0,verb.change,90,subject,Golden Bird,1.0,0.0,1.0,unknown,0.0,tertiary
+39,4,whistle,93,100,3716,3723,1,16.0,27.0,3639.0,3650.0,,,,,verb.communication,91,subject,Golden Bird,1.0,0.0,1.0,unknown,0.0,tertiary
+39,5,ran,141,144,3764,3767,48,110.0,140.0,3733.0,3763.0,,,,,verb.motion,92,subject,all the servants of the castle,1.0,0.0,1.0,unknown,0.0,tertiary
+39,6,see,148,151,3771,3774,48,110.0,140.0,3733.0,3763.0,,,,,verb.communication,93,subject,all the servants of the castle,1.0,0.0,1.0,unknown,0.0,tertiary
+39,8,saying,173,179,3796,3802,48,110.0,140.0,3733.0,3763.0,,,,,verb.communication,94,subject,all the servants of the castle,1.0,0.0,1.0,unknown,0.0,tertiary
+39,12,put,212,215,3835,3838,0,185.0,187.0,3808.0,3810.0,,,,,verb.social,95,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+40,0,answered,9,17,3859,3867,0,1.0,3.0,3851.0,3853.0,,,,,verb.communication,97,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+41,1,taken,10,15,3898,3903,0,3.0,4.0,3891.0,3892.0,,,,,verb.possession,96,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+41,7,travelled,100,109,3988,3997,0,93.0,94.0,3981.0,3982.0,140.0,159.0,4028.0,4047.0,verb.motion,98,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+42,3,go,39,41,4089,4091,19,35.0,38.0,4085.0,4088.0,,,,,verb.motion,102,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+42,7,bring,102,107,4152,4157,19,86.0,89.0,4136.0,4139.0,,,,,verb.motion,105,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+43,0,departed,10,18,4194,4202,19,0.0,9.0,4184.0,4193.0,,,,,verb.motion,104,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+43,1,met,33,36,4217,4220,19,0.0,9.0,4184.0,4193.0,,,,,verb.motion,107,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+44,1,crying,14,20,4281,4287,19,10.0,13.0,4277.0,4280.0,,,,,verb.communication,106,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+46,1,answered,20,28,4341,4349,0,17.0,19.0,4338.0,4340.0,,,,,verb.communication,110,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+46,3,allow,58,63,4379,4384,130,31.0,48.0,4352.0,4369.0,,,,,verb.communication,109,subject,the castle people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+46,4,carry,70,75,4391,4396,0,64.0,66.0,4385.0,4387.0,101.0,153.0,4422.0,4474.0,verb.motion,111,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+47,1,followed,14,22,4491,4499,19,1.0,4.0,4478.0,4481.0,,,,,verb.social,112,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+47,2,said,35,39,4512,4516,19,1.0,32.0,4478.0,4509.0,,,,,verb.communication,115,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+47,2,said,35,39,4512,4516,36,1.0,32.0,4478.0,4509.0,,,,,verb.communication,115,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+48,1,put,14,17,4548,4551,19,5.0,8.0,4539.0,4542.0,,,,,verb.contact,114,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+53,2,take,27,31,4743,4747,36,20.0,21.0,4736.0,4737.0,,,,,verb.motion,117,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+54,2,stopped,87,94,4847,4854,0,84.0,86.0,4844.0,4846.0,,,,,verb.motion,118,subject,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+55,0,said,24,28,4905,4909,2,0.0,21.0,4881.0,4902.0,,,,,verb.communication,119,subject,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+55,2,come,58,62,4939,4943,2,0.0,21.0,4881.0,4902.0,68.0,145.0,4949.0,5026.0,verb.motion,121,subject,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+55,3,bathe,71,76,4952,4957,2,0.0,21.0,4881.0,4902.0,,,,,verb.body,120,subject,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+55,4,eat,108,111,4989,4992,35,101.0,102.0,4982.0,4983.0,132.0,145.0,5013.0,5026.0,verb.consumption,122,subject,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+55,5,refresh,135,142,5016,5023,35,101.0,102.0,4982.0,4983.0,,,,,verb.consumption,123,subject,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+56,2,hide,37,41,5065,5069,19,33.0,36.0,5061.0,5064.0,55.0,86.0,5083.0,5114.0,verb.perception,124,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+56,8,follow,144,150,5172,5178,2,128.0,140.0,5156.0,5168.0,,,,,verb.motion,125,subject,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+57,0,left,16,20,5201,5205,36,0.0,15.0,5185.0,5200.0,,,,,verb.motion,126,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+58,0,undressed,4,13,5285,5294,131,0.0,3.0,5281.0,5284.0,,,,,verb.body,128,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+59,2,hid,80,83,5407,5410,13,58.0,69.0,5385.0,5396.0,,,,,verb.contact,129,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+59,2,hid,80,83,5407,5410,131,58.0,69.0,5385.0,5396.0,,,,,verb.contact,129,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+60,1,playing,39,46,5481,5488,2,5.0,25.0,5447.0,5467.0,,,,,verb.creation,130,subject,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+60,3,dress,76,81,5518,5523,131,60.0,63.0,5502.0,5505.0,,,,,verb.body,131,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+60,6,find,154,158,5596,5600,131,144.0,147.0,5586.0,5589.0,164.0,171.0,5606.0,5613.0,verb.possession,132,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+61,0,helped,12,18,5627,5633,131,0.0,11.0,5615.0,5626.0,23.0,36.0,5638.0,5651.0,verb.social,133,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+61,0,helped,12,18,5627,5633,134,0.0,11.0,5615.0,5626.0,23.0,36.0,5638.0,5651.0,verb.social,133,subject,the Porcelain Maiden's friends,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+61,1,seeing,43,49,5658,5664,131,0.0,11.0,5615.0,5626.0,,,,,verb.cognition,134,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+61,1,seeing,43,49,5658,5664,134,0.0,11.0,5615.0,5626.0,,,,,verb.cognition,134,subject,the Porcelain Maiden's friends,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+61,4,weeping,115,122,5730,5737,134,81.0,85.0,5696.0,5700.0,,,,,verb.body,136,subject,the Porcelain Maiden's friends,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+62,1,cry,12,15,5760,5763,131,8.0,11.0,5756.0,5759.0,,,,,verb.communication,135,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+63,1,approaching,20,31,5786,5797,13,5.0,18.0,5771.0,5784.0,,,,,verb.motion,137,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+65,2,bathing,27,34,5838,5845,131,21.0,22.0,5832.0,5833.0,,,,,verb.contact,139,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+65,3,stole,43,48,5854,5859,136,35.0,42.0,5846.0,5853.0,,,,,verb.possession,141,subject,,,,,,,
+65,5,abandoned,81,90,5892,5901,131,65.0,75.0,5876.0,5886.0,,,,,verb.possession,142,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+65,5,abandoned,81,90,5892,5901,137,65.0,75.0,5876.0,5886.0,,,,,verb.possession,142,subject,the Porcelain Maiden's friends,1.0,0.0,1.0,unknown,0.0,tertiary
+66,1,find,8,12,5915,5919,13,1.0,2.0,5908.0,5909.0,26.0,55.0,5933.0,5962.0,verb.possession,145,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+66,3,come,43,47,5950,5954,13,29.0,32.0,5936.0,5939.0,,,,,verb.motion,144,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+67,0,agreed,25,31,5990,5996,131,4.0,24.0,5969.0,5989.0,,,,,verb.communication,143,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+67,1,follow,35,41,6000,6006,131,4.0,24.0,5969.0,5989.0,,,,,verb.motion,146,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+67,4,bought,100,106,6065,6071,13,86.0,99.0,6051.0,6064.0,,,,,verb.possession,147,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+67,5,went,136,140,6101,6105,131,107.0,120.0,6072.0,6085.0,,,,,verb.motion,148,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+68,0,brought,16,23,6137,6144,36,0.0,15.0,6121.0,6136.0,39.0,71.0,6160.0,6192.0,verb.motion,149,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+68,4,said,142,146,6263,6267,73,126.0,141.0,6247.0,6262.0,,,,,verb.communication,151,subject,the little hero,1.0,0.0,1.0,unknown,0.0,tertiary
+68,9,manage,229,235,6350,6356,13,220.0,223.0,6341.0,6344.0,,,,,verb.social,150,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+70,0,vanished,21,29,6551,6559,36,0.0,15.0,6530.0,6545.0,,,,,verb.change,153,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+71,2,bid,25,28,6585,6588,19,18.0,20.0,6578.0,6580.0,,,,,verb.contact,152,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+71,3,noticed,60,67,6620,6627,78,34.0,53.0,6594.0,6613.0,,,,,verb.perception,154,subject,the castle servants,1.0,0.0,1.0,unknown,0.0,tertiary
+72,0,reached,8,15,6678,6685,19,5.0,7.0,6675.0,6677.0,,,,,verb.motion,156,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+72,2,detained,48,56,6718,6726,32,30.0,42.0,6700.0,6712.0,,,,,verb.social,155,subject,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+72,2,detained,48,56,6718,6726,19,30.0,42.0,6700.0,6712.0,,,,,verb.social,155,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+72,3,delivered,61,70,6731,6740,19,58.0,60.0,6728.0,6730.0,76.0,96.0,6746.0,6766.0,verb.contact,157,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+72,4,paying,79,85,6749,6755,19,58.0,60.0,6728.0,6730.0,,,,,verb.possession,158,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+73,2,took,107,111,6875,6879,81,102.0,106.0,6870.0,6874.0,128.0,252.0,6896.0,7020.0,verb.social,159,subject,the two elder brothers,1.0,3.0,4.0,male,1.0,tertiary
+73,7,fling,230,235,6998,7003,81,102.0,106.0,6870.0,6874.0,240.0,252.0,7008.0,7020.0,verb.contact,161,subject,the two elder brothers,1.0,3.0,4.0,male,1.0,tertiary
+74,1,taking,35,41,7057,7063,32,5.0,9.0,7027.0,7031.0,,,,,verb.social,163,subject,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+74,3,drowned,116,123,7138,7145,32,98.0,111.0,7120.0,7133.0,,,,,verb.social,162,subject,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+74,3,drowned,116,123,7138,7145,87,98.0,111.0,7120.0,7133.0,,,,,verb.social,162,subject,The youngest son's brothers's brother,1.0,0.0,1.0,male,1.0,tertiary
+75,1,snatched,21,29,7168,7176,19,14.0,16.0,7161.0,7163.0,,,,,verb.contact,165,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+75,2,falling,33,40,7180,7187,19,14.0,16.0,7161.0,7163.0,,,,,verb.motion,164,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+75,3,called,65,71,7212,7218,19,14.0,16.0,7161.0,7163.0,,,,,verb.communication,166,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+76,0,came,16,20,7252,7256,36,0.0,15.0,7236.0,7251.0,,,,,verb.motion,167,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+76,1,running,21,28,7257,7264,36,0.0,15.0,7236.0,7251.0,,,,,verb.motion,168,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+76,2,said,41,45,7277,7281,36,0.0,15.0,7236.0,7251.0,,,,,verb.communication,169,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+77,1,said,42,46,7382,7386,36,26.0,41.0,7366.0,7381.0,,,,,verb.communication,171,subject,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+77,4,do,85,87,7425,7427,19,68.0,72.0,7408.0,7412.0,,,,,verb.social,172,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+77,6,seeking,118,125,7458,7465,139,109.0,117.0,7449.0,7457.0,,,,,verb.possession,173,subject,a Breton,1.0,0.0,1.0,unknown,0.0,tertiary
+78,2,make,39,43,7575,7579,19,12.0,15.0,7548.0,7551.0,,,,,verb.communication,176,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+78,3,understand,48,58,7584,7594,141,44.0,47.0,7580.0,7583.0,,,,,verb.cognition,177,subject,the youth's father,1.0,1.0,2.0,male,1.0,tertiary
+79,3,enquired,86,94,7693,7701,13,51.0,53.0,7658.0,7660.0,,,,,verb.communication,178,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+83,1,undertake,8,17,7982,7991,19,1.0,2.0,7975.0,7976.0,,,,,verb.communication,181,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+83,2,groom,21,26,7995,8000,19,1.0,2.0,7975.0,7976.0,,,,,verb.contact,182,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+83,3,said,32,36,8006,8010,19,1.0,29.0,7975.0,8003.0,,,,,verb.communication,184,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+84,0,saw,9,12,8031,8034,19,1.0,2.0,8023.0,8024.0,,,,,verb.perception,183,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+88,1,lets,20,24,8222,8226,96,17.0,19.0,8219.0,8221.0,40.0,72.0,8242.0,8274.0,verb.social,186,subject,a stable - boy,1.0,4.0,5.0,male,1.0,tertiary
+88,2,touch,29,34,8231,8236,19,25.0,28.0,8227.0,8230.0,,,,,verb.contact,185,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+89,0,knows,12,17,8289,8294,96,9.0,11.0,8286.0,8288.0,,,,,verb.cognition,188,subject,a stable - boy,1.0,4.0,5.0,male,1.0,tertiary
+90,0,said,35,39,8360,8364,99,24.0,34.0,8349.0,8359.0,,,,,verb.communication,191,subject,the master,3.0,1.0,4.0,unknown,0.0,tertiary
+90,4,scratches,147,156,8472,8481,131,143.0,146.0,8468.0,8471.0,,,,,verb.emotion,190,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+90,5,approaches,171,181,8496,8506,131,143.0,165.0,8468.0,8490.0,,,,,verb.motion,192,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+91,2,accept,16,22,8528,8534,131,7.0,10.0,8519.0,8522.0,,,,,verb.possession,195,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+92,0,entered,15,22,8566,8573,19,5.0,14.0,8556.0,8565.0,,,,,verb.motion,194,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+92,3,sang,125,129,8676,8680,131,104.0,124.0,8655.0,8675.0,,,,,verb.creation,196,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+92,4,jumped,139,145,8690,8696,131,104.0,124.0,8655.0,8675.0,,,,,verb.motion,197,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+95,0,know,47,51,8788,8792,131,0.0,46.0,8741.0,8787.0,56.0,59.0,8797.0,8800.0,verb.cognition,198,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+95,0,know,47,51,8788,8792,149,0.0,46.0,8741.0,8787.0,56.0,59.0,8797.0,8800.0,verb.cognition,198,subject,the Golden Blackbird,1.0,0.0,1.0,unknown,0.0,tertiary
+96,2,tell,56,60,8859,8863,131,31.0,51.0,8834.0,8854.0,82.0,98.0,8885.0,8901.0,verb.communication,201,subject,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+98,1,delivered,27,36,9057,9066,19,25.0,26.0,9055.0,9056.0,,,,,verb.motion,206,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+98,4,threw,108,113,9138,9143,151,103.0,107.0,9133.0,9137.0,,,,,verb.contact,208,subject,"the youth's brothers , who were kept prisoners in an inn",1.0,1.0,2.0,male,1.0,tertiary
+99,0,disguised,5,14,9165,9174,19,3.0,4.0,9163.0,9164.0,37.0,71.0,9197.0,9231.0,verb.change,209,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+99,1,came,26,30,9186,9190,19,3.0,4.0,9163.0,9164.0,37.0,71.0,9197.0,9231.0,verb.motion,210,subject,the youth,11.0,78.0,89.0,male,1.0,primary
+100,0,embraced,16,24,9250,9258,11,3.0,15.0,9237.0,9249.0,,,,,verb.emotion,212,subject,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,1,promised,38,46,9272,9280,11,3.0,15.0,9237.0,9249.0,,,,,verb.communication,213,subject,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,3,inherit,62,69,9296,9303,111,52.0,54.0,9286.0,9288.0,,,,,verb.possession,214,subject,the old lord's son,1.0,2.0,3.0,male,1.0,tertiary
+100,4,put,98,101,9332,9335,11,95.0,97.0,9329.0,9331.0,,,,,verb.contact,216,subject,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,6,deceived,139,147,9373,9381,112,111.0,129.0,9345.0,9363.0,,,,,verb.social,215,subject,the two elder ones,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+100,8,tried,160,165,9394,9399,112,111.0,129.0,9345.0,9363.0,,,,,verb.social,217,subject,the two elder ones,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+101,0,married,14,21,9441,9448,13,0.0,13.0,9427.0,9440.0,,,,,verb.social,219,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+101,1,had,48,51,9475,9478,13,0.0,13.0,9427.0,9440.0,,,,,verb.creation,220,subject,the young man,8.0,22.0,30.0,male,1.0,secondary
+0,1,had,44,47,44,47,5,48.0,58.0,48.0,58.0,,,,,verb.possession,0,direct_object,three sons,1.0,0.0,1.0,unknown,0.0,tertiary
+1,5,give,145,149,205,209,4,150.0,153.0,210.0,213.0,,,,,verb.possession,2,direct_object,a great lord who had three sons,1.0,3.0,4.0,male,1.0,tertiary
+2,0,came,14,18,240,244,9,19.0,105.0,245.0,331.0,,,,,verb.motion,3,direct_object,a foreign doctor,1.0,0.0,1.0,unknown,0.0,tertiary
+2,0,came,14,18,240,244,0,19.0,105.0,245.0,331.0,,,,,verb.motion,3,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+2,0,came,14,18,240,244,10,19.0,105.0,245.0,331.0,,,,,verb.motion,3,direct_object,the sick man,1.0,0.0,1.0,male,1.0,tertiary
+2,1,declared,41,49,267,275,0,50.0,105.0,276.0,331.0,,,,,verb.communication,4,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+2,1,declared,41,49,267,275,10,50.0,105.0,276.0,331.0,,,,,verb.communication,4,direct_object,the sick man,1.0,0.0,1.0,male,1.0,tertiary
+2,3,cure,88,92,314,318,10,93.0,105.0,319.0,331.0,,,,,verb.body,5,direct_object,the sick man,1.0,0.0,1.0,male,1.0,tertiary
+3,0,despatched,16,26,349,359,11,27.0,41.0,360.0,374.0,42.0,72.0,375.0,405.0,verb.contact,6,direct_object,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+3,0,despatched,16,26,349,359,12,27.0,41.0,360.0,374.0,42.0,72.0,375.0,405.0,verb.contact,6,direct_object,the old lord's eldest son,1.0,2.0,3.0,male,1.0,tertiary
+3,2,promised,78,86,411,419,12,87.0,90.0,420.0,423.0,104.0,146.0,437.0,479.0,verb.communication,7,direct_object,the old lord's eldest son,1.0,2.0,3.0,male,1.0,tertiary
+4,0,began,14,19,495,500,13,20.0,31.0,501.0,512.0,,,,,verb.change,10,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,3,tossed,37,43,601,607,13,44.0,51.0,608.0,615.0,64.0,124.0,628.0,688.0,verb.motion,14,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,4,determining,64,75,628,639,13,76.0,124.0,640.0,688.0,,,,,verb.cognition,15,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+5,6,decide,114,120,678,684,13,121.0,124.0,685.0,688.0,,,,,verb.cognition,17,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+6,0,travelling,6,16,696,706,13,40.0,42.0,730.0,732.0,,,,,verb.motion,16,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+6,6,filled,139,145,829,835,16,146.0,162.0,836.0,852.0,,,,,verb.consumption,20,direct_object,merrymakers,1.0,0.0,1.0,unknown,0.0,tertiary
+7,0,said,12,16,905,909,13,17.0,19.0,910.0,912.0,,,,,verb.communication,22,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+8,3,inherit,41,48,1016,1023,115,49.0,58.0,1024.0,1033.0,,,,,verb.possession,25,direct_object,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+9,1,sent,52,56,1088,1092,17,57.0,71.0,1093.0,1107.0,,,,,verb.motion,24,direct_object,The old man,2.0,2.0,4.0,male,1.0,tertiary
+9,1,sent,52,56,1088,1092,18,57.0,71.0,1093.0,1107.0,,,,,verb.motion,24,direct_object,The old man's second son,1.0,0.0,1.0,unknown,0.0,tertiary
+11,2,came,67,71,1336,1340,19,72.0,112.0,1341.0,1381.0,,,,,verb.motion,30,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+11,2,came,67,71,1336,1340,20,72.0,112.0,1341.0,1381.0,,,,,verb.motion,30,direct_object,the youth's brother,2.0,0.0,2.0,male,1.0,tertiary
+12,2,called,58,64,1441,1447,19,65.0,71.0,1448.0,1454.0,72.0,110.0,1455.0,1493.0,verb.communication,31,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+12,3,stay,75,79,1458,1462,19,80.0,92.0,1463.0,1475.0,,,,,verb.motion,32,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+12,5,amuse,97,102,1480,1485,19,103.0,110.0,1486.0,1493.0,,,,,verb.consumption,33,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+13,1,replied,17,24,1512,1519,19,25.0,34.0,1520.0,1529.0,,,,,verb.communication,34,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+14,0,knows,5,10,1536,1541,19,11.0,102.0,1542.0,1633.0,,,,,verb.cognition,35,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+14,0,knows,5,10,1536,1541,0,11.0,102.0,1542.0,1633.0,,,,,verb.cognition,35,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+14,2,find,28,32,1559,1563,0,33.0,53.0,1564.0,1584.0,55.0,102.0,1586.0,1633.0,verb.possession,37,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+15,2,have,44,48,1679,1683,17,49.0,61.0,1684.0,1696.0,,,,,verb.possession,40,direct_object,The old man,2.0,2.0,4.0,male,1.0,tertiary
+17,0,owed,10,14,1815,1819,29,15.0,24.0,1820.0,1829.0,,,,,verb.possession,43,direct_object,hostages,1.0,0.0,1.0,unknown,0.0,tertiary
+17,0,owed,10,14,1815,1819,28,15.0,24.0,1820.0,1829.0,,,,,verb.possession,43,direct_object,the two brothers's landlord,1.0,0.0,1.0,unknown,0.0,tertiary
+17,0,owed,10,14,1815,1819,27,15.0,24.0,1820.0,1829.0,,,,,verb.possession,43,direct_object,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+17,3,pay,86,89,1891,1894,27,90.0,101.0,1895.0,1906.0,,,,,verb.possession,45,direct_object,the two brothers,1.0,7.0,8.0,male,1.0,tertiary
+19,2,did,32,35,2049,2052,32,36.0,50.0,2053.0,2067.0,51.0,79.0,2068.0,2096.0,verb.social,47,direct_object,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+19,4,prevent,54,61,2071,2078,19,62.0,71.0,2079.0,2088.0,72.0,79.0,,,verb.social,48,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+20,0,replied,9,16,2107,2114,115,19.0,106.0,2117.0,2204.0,,,,,verb.communication,51,direct_object,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+20,0,replied,9,16,2107,2114,19,19.0,106.0,2117.0,2204.0,,,,,verb.communication,51,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+20,0,replied,9,16,2107,2114,0,19.0,106.0,2117.0,2204.0,,,,,verb.communication,51,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+20,1,trusted,29,36,2127,2134,19,37.0,39.0,2135.0,2137.0,,,,,verb.social,50,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+20,4,find,81,85,2179,2183,0,86.0,106.0,2184.0,2204.0,,,,,verb.possession,53,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+21,0,said,7,11,2214,2218,32,12.0,24.0,2219.0,2231.0,,,,,verb.communication,54,direct_object,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+21,0,said,7,11,2214,2218,19,12.0,24.0,2219.0,2231.0,,,,,verb.communication,54,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+22,0,let,0,3,2281,2284,19,4.0,26.0,2285.0,2307.0,,,,,verb.social,56,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+24,1,met,22,25,2361,2364,19,26.0,67.0,2365.0,2406.0,,,,,verb.motion,61,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+24,2,stopped,45,52,2384,2391,19,53.0,67.0,2392.0,2406.0,,,,,verb.motion,62,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+24,3,look,56,60,2395,2399,19,61.0,67.0,2400.0,2406.0,,,,,verb.perception,63,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+24,4,asked,73,78,2412,2417,19,81.0,111.0,2420.0,2450.0,,,,,verb.communication,64,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+24,4,asked,73,78,2412,2417,121,81.0,111.0,2420.0,2450.0,,,,,verb.communication,64,direct_object,the youth's friend,2.0,0.0,2.0,unknown,0.0,tertiary
+25,2,answered,29,37,2482,2490,19,38.0,40.0,2491.0,2493.0,,,,,verb.communication,66,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+26,4,bring,51,56,2546,2551,115,57.0,60.0,2552.0,2555.0,,,,,verb.motion,68,direct_object,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+27,3,tell,50,54,2633,2637,35,55.0,57.0,2638.0,2640.0,,,,,verb.communication,69,direct_object,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+28,0,said,6,10,2666,2670,35,11.0,19.0,2671.0,2679.0,,,,,verb.communication,71,direct_object,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+31,0,said,20,24,2849,2853,36,25.0,40.0,2854.0,2869.0,,,,,verb.communication,75,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+31,2,conduct,54,61,2883,2890,19,62.0,65.0,2891.0,2894.0,,,,,verb.social,76,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+32,0,obeyed,14,20,2911,2917,36,22.0,171.0,2919.0,3068.0,,,,,verb.communication,77,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+33,1,said,53,57,3123,3127,36,58.0,73.0,3128.0,3143.0,,,,,verb.communication,79,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+35,4,know,98,102,3346,3350,19,103.0,126.0,3351.0,3374.0,,,,,verb.cognition,82,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+36,0,found,10,15,3387,3392,0,16.0,105.0,3393.0,3482.0,,,,,verb.perception,84,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+38,3,put,38,41,3574,3577,0,42.0,45.0,3578.0,3581.0,,,,,verb.contact,85,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+38,4,thought,68,75,3604,3611,19,76.0,85.0,3612.0,3621.0,,,,,verb.communication,88,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+39,1,touched,32,39,3655,3662,0,40.0,78.0,3663.0,3701.0,,,,,verb.contact,87,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+39,8,saying,173,179,3796,3802,50,180.0,225.0,3803.0,3848.0,,,,,verb.communication,94,direct_object,a thief,2.0,0.0,2.0,unknown,0.0,tertiary
+39,8,saying,173,179,3796,3802,0,180.0,225.0,3803.0,3848.0,,,,,verb.communication,94,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+40,0,answered,9,17,3859,3867,50,20.0,36.0,3870.0,3886.0,,,,,verb.communication,97,direct_object,a thief,2.0,0.0,2.0,unknown,0.0,tertiary
+40,0,answered,9,17,3859,3867,0,20.0,36.0,3870.0,3886.0,,,,,verb.communication,97,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+41,4,cure,61,65,3949,3953,115,66.0,87.0,3954.0,3975.0,,,,,verb.body,99,direct_object,the young man's father,4.0,4.0,8.0,male,1.0,tertiary
+41,4,cure,61,65,3949,3953,0,66.0,87.0,3954.0,3975.0,,,,,verb.body,99,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+42,0,replied,13,20,4063,4070,2,23.0,131.0,4073.0,4181.0,,,,,verb.communication,100,direct_object,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+42,0,replied,13,20,4063,4070,19,23.0,131.0,4073.0,4181.0,,,,,verb.communication,100,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+42,2,let,31,34,4081,4084,19,35.0,41.0,4085.0,4091.0,83.0,131.0,4133.0,4181.0,verb.social,101,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+42,5,give,57,61,4107,4111,19,62.0,65.0,4112.0,4115.0,83.0,131.0,4133.0,4181.0,verb.possession,103,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+42,7,bring,102,107,4152,4157,2,108.0,110.0,4158.0,4160.0,,,,,verb.motion,105,direct_object,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+45,0,asked,0,5,4305,4310,35,6.0,14.0,4311.0,4319.0,,,,,verb.communication,108,direct_object,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+46,1,answered,20,28,4341,4349,131,31.0,153.0,4352.0,4474.0,,,,,verb.communication,110,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+46,1,answered,20,28,4341,4349,130,31.0,153.0,4352.0,4474.0,,,,,verb.communication,110,direct_object,the castle people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+46,1,answered,20,28,4341,4349,0,31.0,153.0,4352.0,4474.0,,,,,verb.communication,110,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+46,3,allow,58,63,4379,4384,131,64.0,153.0,4385.0,4474.0,,,,,verb.communication,109,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+46,3,allow,58,63,4379,4384,130,64.0,153.0,4385.0,4474.0,,,,,verb.communication,109,direct_object,the castle people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+46,3,allow,58,63,4379,4384,0,64.0,153.0,4385.0,4474.0,,,,,verb.communication,109,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+46,4,carry,70,75,4391,4396,0,80.0,100.0,4401.0,4421.0,101.0,153.0,4422.0,4474.0,verb.motion,111,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+46,5,giving,109,115,4430,4436,131,116.0,120.0,4437.0,4441.0,142.0,153.0,,,verb.possession,113,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+46,5,giving,109,115,4430,4436,130,116.0,120.0,4437.0,4441.0,142.0,153.0,,,verb.possession,113,direct_object,the castle people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+47,1,followed,14,22,4491,4499,36,23.0,32.0,4500.0,4509.0,,,,,verb.social,112,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+47,2,said,35,39,4512,4516,36,40.0,55.0,4517.0,4532.0,,,,,verb.communication,115,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+53,0,jump,0,4,4716,4720,36,5.0,15.0,4721.0,4731.0,,,,,verb.motion,116,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+53,2,take,27,31,4743,4747,19,32.0,35.0,4748.0,4751.0,,,,,verb.motion,117,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+55,0,said,24,28,4905,4909,19,29.0,37.0,4910.0,4918.0,,,,,verb.communication,119,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+55,0,said,24,28,4905,4909,35,29.0,37.0,4910.0,4918.0,,,,,verb.communication,119,direct_object,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+55,5,refresh,135,142,5016,5023,35,143.0,145.0,5024.0,5026.0,,,,,verb.consumption,123,direct_object,the hare,3.0,8.0,11.0,unknown,0.0,tertiary
+56,2,hide,37,41,5065,5069,2,42.0,53.0,5070.0,5081.0,55.0,86.0,5083.0,5114.0,verb.perception,124,direct_object,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+56,6,give,99,103,5127,5131,2,104.0,108.0,5132.0,5136.0,121.0,154.0,,,verb.possession,127,direct_object,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary
+56,8,follow,144,150,5172,5178,19,151.0,154.0,5179.0,5182.0,,,,,verb.motion,125,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+57,0,left,16,20,5201,5205,0,21.0,24.0,5206.0,5209.0,,,,,verb.motion,126,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+58,0,undressed,4,13,5285,5294,131,14.0,21.0,5295.0,5302.0,,,,,verb.body,128,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+60,3,dress,76,81,5518,5523,131,82.0,89.0,5524.0,5531.0,,,,,verb.body,131,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+61,0,helped,12,18,5627,5633,131,19.0,22.0,5634.0,5637.0,23.0,36.0,5638.0,5651.0,verb.social,133,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+61,1,seeing,43,49,5658,5664,131,58.0,79.0,5673.0,5694.0,,,,,verb.cognition,134,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+61,1,seeing,43,49,5658,5664,134,58.0,79.0,5673.0,5694.0,,,,,verb.cognition,134,direct_object,the Porcelain Maiden's friends,3.0,1.0,4.0,group/nonbinary,1.0,tertiary
+63,0,said,0,4,5766,5770,13,5.0,35.0,5771.0,5801.0,,,,,verb.communication,138,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+63,0,said,0,4,5766,5770,131,5.0,35.0,5771.0,5801.0,,,,,verb.communication,138,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+63,1,approaching,20,31,5786,5797,131,32.0,35.0,5798.0,5801.0,,,,,verb.motion,137,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+65,0,answered,0,8,5811,5819,131,9.0,12.0,5820.0,5823.0,,,,,verb.communication,140,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+65,0,answered,0,8,5811,5819,136,9.0,12.0,5820.0,5823.0,,,,,verb.communication,140,direct_object,,,,,,,
+65,0,answered,0,8,5811,5819,137,9.0,12.0,5820.0,5823.0,,,,,verb.communication,140,direct_object,the Porcelain Maiden's friends,1.0,0.0,1.0,unknown,0.0,tertiary
+65,3,stole,43,48,5854,5859,131,49.0,59.0,5860.0,5870.0,,,,,verb.possession,141,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+65,5,abandoned,81,90,5892,5901,131,91.0,93.0,5902.0,5904.0,,,,,verb.possession,142,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+66,1,find,8,12,5915,5919,13,13.0,25.0,5920.0,5932.0,26.0,55.0,5933.0,5962.0,verb.possession,145,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+67,0,agreed,25,31,5990,5996,13,32.0,45.0,5997.0,6010.0,,,,,verb.communication,143,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+67,1,follow,35,41,6000,6006,13,42.0,45.0,6007.0,6010.0,,,,,verb.motion,146,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+67,4,bought,100,106,6065,6071,131,107.0,120.0,6072.0,6085.0,,,,,verb.possession,147,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+68,4,said,142,146,6263,6267,13,147.0,163.0,6268.0,6284.0,,,,,verb.communication,151,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+68,4,said,142,146,6263,6267,131,147.0,163.0,6268.0,6284.0,,,,,verb.communication,151,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+68,9,manage,229,235,6350,6356,131,236.0,299.0,6357.0,6420.0,,,,,verb.social,150,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+71,3,noticed,60,67,6620,6627,19,68.0,108.0,6628.0,6668.0,,,,,verb.perception,154,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+72,0,reached,8,15,6678,6685,32,16.0,56.0,6686.0,6726.0,,,,,verb.motion,156,direct_object,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+72,0,reached,8,15,6678,6685,19,16.0,56.0,6686.0,6726.0,,,,,verb.motion,156,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+72,3,delivered,61,70,6731,6740,32,71.0,75.0,6741.0,6745.0,76.0,96.0,6746.0,6766.0,verb.contact,157,direct_object,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+72,4,paying,79,85,6749,6755,32,86.0,96.0,6756.0,6766.0,,,,,verb.possession,158,direct_object,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+73,5,throw,176,181,6944,6949,81,182.0,192.0,6950.0,6960.0,,,,,verb.contact,160,direct_object,the two elder brothers,1.0,3.0,4.0,male,1.0,tertiary
+73,5,throw,176,181,6944,6949,19,182.0,192.0,6950.0,6960.0,,,,,verb.contact,160,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+73,7,fling,230,235,6998,7003,19,236.0,239.0,7004.0,7007.0,240.0,252.0,7008.0,7020.0,verb.contact,161,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+74,1,taking,35,41,7057,7063,32,42.0,51.0,7064.0,7073.0,,,,,verb.social,163,direct_object,The youngest son's brothers,3.0,11.0,14.0,male,1.0,tertiary
+74,1,taking,35,41,7057,7063,131,42.0,51.0,7064.0,7073.0,,,,,verb.social,163,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+74,1,taking,35,41,7057,7063,87,42.0,51.0,7064.0,7073.0,,,,,verb.social,163,direct_object,The youngest son's brothers's brother,1.0,0.0,1.0,male,1.0,tertiary
+76,1,running,21,28,7257,7264,19,29.0,35.0,7265.0,7271.0,,,,,verb.motion,168,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+76,2,said,41,45,7277,7281,19,47.0,101.0,7283.0,7337.0,,,,,verb.communication,169,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+76,2,said,41,45,7277,7281,36,47.0,101.0,7283.0,7337.0,,,,,verb.communication,169,direct_object,The little hare,10.0,6.0,16.0,unknown,0.0,tertiary
+76,4,pull,71,75,7307,7311,19,76.0,84.0,7312.0,7320.0,,,,,verb.contact,170,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+77,1,said,42,46,7382,7386,140,47.0,53.0,7387.0,7393.0,,,,,verb.communication,171,direct_object,stable - boy,1.0,0.0,1.0,male,1.0,tertiary
+77,1,said,42,46,7382,7386,19,47.0,53.0,7387.0,7393.0,,,,,verb.communication,171,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+77,1,said,42,46,7382,7386,139,47.0,53.0,7387.0,7393.0,,,,,verb.communication,171,direct_object,a Breton,1.0,0.0,1.0,unknown,0.0,tertiary
+77,1,said,42,46,7382,7386,141,47.0,53.0,7387.0,7393.0,,,,,verb.communication,171,direct_object,the youth's father,1.0,1.0,2.0,male,1.0,tertiary
+77,5,dress,89,94,7429,7434,19,95.0,103.0,7435.0,7443.0,104.0,147.0,,,verb.body,174,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+77,6,seeking,118,125,7458,7465,140,126.0,147.0,7466.0,7487.0,,,,,verb.possession,173,direct_object,stable - boy,1.0,0.0,1.0,male,1.0,tertiary
+77,8,offer,160,165,7500,7505,19,166.0,179.0,7506.0,7519.0,,,,,verb.possession,175,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+77,8,offer,160,165,7500,7505,141,166.0,179.0,7506.0,7519.0,,,,,verb.possession,175,direct_object,the youth's father,1.0,1.0,2.0,male,1.0,tertiary
+78,2,make,39,43,7575,7579,141,44.0,68.0,7580.0,7604.0,,,,,verb.communication,176,direct_object,the youth's father,1.0,1.0,2.0,male,1.0,tertiary
+79,3,enquired,86,94,7693,7701,96,112.0,135.0,7719.0,7742.0,,,,,verb.communication,178,direct_object,a stable - boy,1.0,4.0,5.0,male,1.0,tertiary
+80,0,replied,7,14,7751,7758,13,15.0,25.0,7759.0,7769.0,,,,,verb.communication,180,direct_object,the young man,8.0,22.0,30.0,male,1.0,secondary
+80,0,replied,7,14,7751,7758,93,15.0,25.0,7759.0,7769.0,,,,,verb.communication,180,direct_object,the young man's father,2.0,0.0,2.0,male,1.0,tertiary
+82,5,kicked,95,101,7914,7920,145,111.0,152.0,7930.0,7971.0,,,,,verb.contact,179,direct_object,several people who have tried to groom it,1.0,0.0,1.0,unknown,0.0,tertiary
+83,3,said,32,36,8006,8010,19,37.0,46.0,8011.0,8020.0,,,,,verb.communication,184,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+84,0,saw,9,12,8031,8034,19,13.0,42.0,8035.0,8064.0,,,,,verb.perception,183,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+87,0,exclaimed,0,9,8181,8190,99,10.0,20.0,8191.0,8201.0,,,,,verb.communication,187,direct_object,the master,3.0,1.0,4.0,unknown,0.0,tertiary
+88,1,lets,20,24,8222,8226,96,25.0,38.0,8227.0,8240.0,40.0,72.0,8242.0,8274.0,verb.social,186,direct_object,a stable - boy,1.0,4.0,5.0,male,1.0,tertiary
+88,1,lets,20,24,8222,8226,19,25.0,38.0,8227.0,8240.0,40.0,72.0,8242.0,8274.0,verb.social,186,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+88,2,touch,29,34,8231,8236,96,35.0,38.0,8237.0,8240.0,,,,,verb.contact,185,direct_object,a stable - boy,1.0,4.0,5.0,male,1.0,tertiary
+89,0,knows,12,17,8289,8294,100,18.0,20.0,8295.0,8297.0,,,,,verb.cognition,188,direct_object,the stable - boy,1.0,2.0,3.0,male,1.0,tertiary
+89,1,answered,23,31,8300,8308,100,32.0,46.0,8309.0,8323.0,,,,,verb.communication,189,direct_object,the stable - boy,1.0,2.0,3.0,male,1.0,tertiary
+90,0,said,35,39,8360,8364,131,40.0,46.0,8365.0,8371.0,,,,,verb.communication,191,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+90,0,said,35,39,8360,8364,100,40.0,46.0,8365.0,8371.0,,,,,verb.communication,191,direct_object,the stable - boy,1.0,2.0,3.0,male,1.0,tertiary
+90,4,scratches,147,156,8472,8481,131,157.0,185.0,8482.0,8510.0,,,,,verb.emotion,190,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+90,5,approaches,171,181,8496,8506,131,182.0,185.0,8507.0,8510.0,,,,,verb.motion,192,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+91,0,try,0,3,8512,8515,131,4.0,36.0,8516.0,8548.0,,,,,verb.social,193,direct_object,the Porcelain Maiden,10.0,27.0,37.0,female,1.0,secondary
+91,0,try,0,3,8512,8515,19,4.0,36.0,8516.0,8548.0,,,,,verb.social,193,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+91,2,accept,16,22,8528,8534,19,23.0,36.0,8535.0,8548.0,,,,,verb.possession,195,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+94,0,cried,0,5,8723,8728,99,6.0,16.0,8729.0,8739.0,,,,,verb.communication,199,direct_object,the master,3.0,1.0,4.0,unknown,0.0,tertiary
+95,0,know,47,51,8788,8792,19,52.0,55.0,8793.0,8796.0,56.0,59.0,8797.0,8800.0,verb.cognition,198,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+96,0,replied,7,14,8810,8817,19,15.0,24.0,8818.0,8827.0,,,,,verb.communication,200,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+96,2,tell,56,60,8859,8863,99,61.0,64.0,8864.0,8867.0,82.0,98.0,8885.0,8901.0,verb.communication,201,direct_object,the master,3.0,1.0,4.0,unknown,0.0,tertiary
+97,0,told,9,13,8913,8917,108,14.0,124.0,8918.0,9028.0,,,,,verb.communication,203,direct_object,the young man who had captured the Golden Blackbird,1.0,0.0,1.0,male,1.0,tertiary
+97,0,told,9,13,8913,8917,0,14.0,124.0,8918.0,9028.0,,,,,verb.communication,203,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+97,4,consented,53,62,8957,8966,108,63.0,124.0,8967.0,9028.0,,,,,verb.communication,202,direct_object,the young man who had captured the Golden Blackbird,1.0,0.0,1.0,male,1.0,tertiary
+97,4,consented,53,62,8957,8966,0,63.0,124.0,8967.0,9028.0,,,,,verb.communication,202,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+97,5,follow,66,72,8970,8976,108,73.0,124.0,8977.0,9028.0,,,,,verb.motion,205,direct_object,the young man who had captured the Golden Blackbird,1.0,0.0,1.0,male,1.0,tertiary
+97,5,follow,66,72,8970,8976,0,73.0,124.0,8977.0,9028.0,,,,,verb.motion,205,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+97,7,captured,95,103,8999,9007,0,104.0,124.0,9008.0,9028.0,,,,,verb.contact,204,direct_object,The Golden Blackbird,8.0,15.0,23.0,male,1.0,tertiary
+98,0,added,7,12,9037,9042,19,13.0,22.0,9043.0,9052.0,,,,,verb.communication,207,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+98,0,added,7,12,9037,9042,151,13.0,22.0,9043.0,9052.0,,,,,verb.communication,207,direct_object,"the youth's brothers , who were kept prisoners in an inn",1.0,1.0,2.0,male,1.0,tertiary
+98,1,delivered,27,36,9057,9066,19,37.0,83.0,9067.0,9113.0,,,,,verb.motion,206,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+98,1,delivered,27,36,9057,9066,151,37.0,83.0,9067.0,9113.0,,,,,verb.motion,206,direct_object,"the youth's brothers , who were kept prisoners in an inn",1.0,1.0,2.0,male,1.0,tertiary
+98,4,threw,108,113,9138,9143,19,114.0,116.0,9144.0,9146.0,,,,,verb.contact,208,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+99,0,disguised,5,14,9165,9174,19,15.0,21.0,9175.0,9181.0,37.0,71.0,9197.0,9231.0,verb.change,209,direct_object,the youth,11.0,78.0,89.0,male,1.0,primary
+99,2,prove,49,54,9209,9214,11,55.0,64.0,9215.0,9224.0,,,,,verb.cognition,211,direct_object,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,0,embraced,16,24,9250,9258,11,25.0,32.0,9259.0,9266.0,,,,,verb.emotion,212,direct_object,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,0,embraced,16,24,9250,9258,111,25.0,32.0,9259.0,9266.0,,,,,verb.emotion,212,direct_object,the old lord's son,1.0,2.0,3.0,male,1.0,tertiary
+100,1,promised,38,46,9272,9280,111,47.0,89.0,9281.0,9323.0,,,,,verb.communication,213,direct_object,the old lord's son,1.0,2.0,3.0,male,1.0,tertiary
+100,3,inherit,62,69,9296,9303,111,70.0,89.0,9304.0,9323.0,,,,,verb.possession,214,direct_object,the old lord's son,1.0,2.0,3.0,male,1.0,tertiary
+100,4,put,98,101,9332,9335,11,102.0,110.0,9336.0,9344.0,,,,,verb.contact,216,direct_object,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,4,put,98,101,9332,9335,112,102.0,110.0,9336.0,9344.0,,,,,verb.contact,216,direct_object,the two elder ones,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+100,4,put,98,101,9332,9335,113,102.0,110.0,9336.0,9344.0,,,,,verb.contact,216,direct_object,the two elder ones's own brother,1.0,0.0,1.0,male,1.0,tertiary
+100,6,deceived,139,147,9373,9381,11,148.0,151.0,9382.0,9385.0,,,,,verb.social,215,direct_object,the old lord,2.0,5.0,7.0,male,1.0,tertiary
+100,8,tried,160,165,9394,9399,112,166.0,191.0,9400.0,9425.0,,,,,verb.social,217,direct_object,the two elder ones,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+100,8,tried,160,165,9394,9399,113,166.0,191.0,9400.0,9425.0,,,,,verb.social,217,direct_object,the two elder ones's own brother,1.0,0.0,1.0,male,1.0,tertiary
+100,9,slay,169,173,9403,9407,112,174.0,191.0,9408.0,9425.0,,,,,verb.social,218,direct_object,the two elder ones,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+100,9,slay,169,173,9403,9407,113,174.0,191.0,9408.0,9425.0,,,,,verb.social,218,direct_object,the two elder ones's own brother,1.0,0.0,1.0,male,1.0,tertiary
+101,0,married,14,21,9441,9448,2,22.0,42.0,9449.0,9469.0,,,,,verb.social,219,direct_object,the Porcelain Maiden,4.0,5.0,9.0,female,1.0,tertiary

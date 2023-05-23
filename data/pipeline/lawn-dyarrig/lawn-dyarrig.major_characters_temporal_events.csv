@@ -1,0 +1,415 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,went,49.0,53.0,49.0,53.0,12,46.0,48.0,46.0,48.0,62.0,69.0,,,verb.social,True,0,subject,a King,1,5,6,male,1.0,tertiary
+1,0,met,9.0,12.0,80.0,83.0,13,0.0,8.0,71.0,79.0,,,,,verb.social,True,1,subject,the King,12,11,23,male,1.0,tertiary
+2,1,gave,29.0,33.0,252.0,256.0,15,0.0,7.0,223.0,230.0,,,,,verb.possession,True,2,subject,The man,2,1,3,male,1.0,tertiary
+4,0,rose,8.0,12.0,374.0,378.0,13,5.0,7.0,371.0,373.0,,,,,verb.motion,True,5,subject,the King,12,11,23,male,1.0,tertiary
+5,0,had,9.0,12.0,471.0,474.0,13,0.0,8.0,462.0,470.0,,,,,verb.possession,True,4,subject,the King,12,11,23,male,1.0,tertiary
+7,0,sighed,11.0,17.0,614.0,620.0,26,0.0,10.0,603.0,613.0,,,,,verb.body,True,6,subject,the Father,5,3,8,male,1.0,tertiary
+10,1,said,34.0,38.0,736.0,740.0,212,1.0,31.0,703.0,733.0,,,,,verb.communication,True,8,subject,the eldest's father,3,0,3,male,1.0,tertiary
+10,1,said,34.0,38.0,736.0,740.0,31,1.0,31.0,703.0,733.0,,,,,verb.communication,True,8,subject,The three sons's father,3,2,5,male,1.0,tertiary
+10,1,said,34.0,38.0,736.0,740.0,28,1.0,31.0,703.0,733.0,,,,,verb.communication,True,8,subject,the eldest,1,9,10,unknown,0.0,tertiary
+11,1,asked,40.0,45.0,793.0,798.0,30,0.0,14.0,753.0,767.0,,,,,verb.communication,True,10,subject,The three sons,1,2,3,group/nonbinary,1.0,tertiary
+12,0,met,21.0,24.0,837.0,840.0,32,19.0,20.0,835.0,836.0,28.0,31.0,844.0,847.0,verb.cognition,True,9,subject,the father of the eldest son,1,4,5,male,1.0,tertiary
+13,2,met,32.0,35.0,972.0,975.0,28,28.0,31.0,968.0,971.0,,,,,verb.social,True,11,subject,the eldest,1,9,10,unknown,0.0,tertiary
+15,0,met,6.0,9.0,1024.0,1027.0,5,4.0,5.0,1022.0,1023.0,,,,,verb.social,True,13,subject,Ur,23,57,80,male,1.0,secondary
+16,1,said,18.0,22.0,1123.0,1127.0,13,1.0,15.0,1106.0,1120.0,,,,,verb.communication,True,15,subject,the King,12,11,23,male,1.0,tertiary
+16,1,said,18.0,22.0,1123.0,1127.0,215,1.0,15.0,1106.0,1120.0,,,,,verb.communication,True,15,subject,the King's son,3,0,3,unknown,0.0,tertiary
+16,1,said,18.0,22.0,1123.0,1127.0,28,1.0,15.0,1106.0,1120.0,,,,,verb.communication,True,15,subject,the eldest,1,9,10,unknown,0.0,tertiary
+17,2,met,26.0,29.0,1164.0,1167.0,35,22.0,25.0,1160.0,1163.0,,,,,verb.social,True,14,subject,the second son,2,2,4,unknown,0.0,tertiary
+19,2,burn,37.0,41.0,1257.0,1261.0,13,29.0,30.0,1249.0,1250.0,46.0,64.0,1266.0,1284.0,verb.change,True,17,subject,the King,12,11,23,male,1.0,tertiary
+21,1,do,15.0,17.0,1325.0,1327.0,28,0.0,4.0,1310.0,1314.0,,,,,verb.creation,True,19,subject,the eldest,1,9,10,unknown,0.0,tertiary
+23,0,met,6.0,9.0,1368.0,1371.0,36,4.0,5.0,1366.0,1367.0,,,,,verb.contact,True,20,subject,the King of Lawn Dyarrig,1,5,6,male,1.0,tertiary
+25,2,said,44.0,48.0,1519.0,1523.0,26,0.0,41.0,1475.0,1516.0,,,,,verb.communication,True,21,subject,the Father,5,3,8,male,1.0,tertiary
+25,2,said,44.0,48.0,1519.0,1523.0,28,0.0,41.0,1475.0,1516.0,,,,,verb.communication,True,21,subject,the eldest,1,9,10,unknown,0.0,tertiary
+26,2,leave,26.0,31.0,1562.0,1567.0,28,1.0,4.0,1537.0,1540.0,,,,,verb.cognition,True,23,subject,the eldest,1,9,10,unknown,0.0,tertiary
+27,0,rose,44.0,48.0,1629.0,1633.0,38,25.0,43.0,1610.0,1628.0,,,,,verb.motion,True,22,subject,the three brothers,1,0,1,male,1.0,tertiary
+29,2,travel,37.0,43.0,1773.0,1779.0,40,0.0,22.0,1736.0,1758.0,54.0,114.0,1790.0,1850.0,verb.motion,True,25,subject,The other two brothers,1,2,3,male,1.0,tertiary
+30,1,saw,38.0,41.0,1890.0,1893.0,7,35.0,37.0,1887.0,1889.0,,,,,verb.perception,True,26,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+32,1,said,18.0,22.0,2054.0,2058.0,44,1.0,15.0,2037.0,2051.0,,,,,verb.communication,True,28,subject,The two,3,10,13,group/nonbinary,1.0,tertiary
+33,2,said,28.0,32.0,2091.0,2095.0,44,1.0,25.0,2064.0,2088.0,,,,,verb.communication,True,30,subject,The two,3,10,13,group/nonbinary,1.0,tertiary
+33,2,said,28.0,32.0,2091.0,2095.0,223,1.0,25.0,2064.0,2088.0,,,,,verb.communication,True,30,subject,Company,1,0,1,unknown,0.0,tertiary
+34,0,let,8.0,11.0,2112.0,2115.0,44,0.0,7.0,2104.0,2111.0,,,,,verb.social,True,29,subject,The two,3,10,13,group/nonbinary,1.0,tertiary
+35,2,came,37.0,41.0,2259.0,2263.0,44,0.0,4.0,2222.0,2226.0,,,,,verb.motion,True,31,subject,The two,3,10,13,group/nonbinary,1.0,tertiary
+36,0,shook,4.0,9.0,2312.0,2317.0,50,0.0,3.0,2308.0,2311.0,16.0,34.0,2324.0,2342.0,verb.contact,True,32,subject,one woman,1,2,3,female,1.0,tertiary
+37,1,welcomed,28.0,36.0,2390.0,2398.0,50,0.0,12.0,2362.0,2374.0,,,,,verb.emotion,True,33,subject,one woman,1,2,3,female,1.0,tertiary
+37,1,welcomed,28.0,36.0,2390.0,2398.0,7,0.0,12.0,2362.0,2374.0,,,,,verb.emotion,True,33,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+39,3,said,77.0,81.0,2513.0,2517.0,224,1.0,74.0,2437.0,2510.0,,,,,verb.communication,True,35,subject,the elder,1,0,1,unknown,0.0,tertiary
+39,3,said,77.0,81.0,2513.0,2517.0,225,1.0,74.0,2437.0,2510.0,,,,,verb.communication,True,35,subject,the younger,1,0,1,unknown,0.0,tertiary
+41,0,made,5.0,9.0,2610.0,2614.0,44,0.0,4.0,2605.0,2609.0,,,,,verb.social,True,36,subject,The two,3,10,13,group/nonbinary,1.0,tertiary
+43,2,had,66.0,69.0,2850.0,2853.0,54,40.0,53.0,2824.0,2837.0,,,,,verb.consumption,True,38,subject,the old woman,1,11,12,female,1.0,tertiary
+44,4,asked,64.0,69.0,2942.0,2947.0,54,55.0,59.0,2933.0,2937.0,,,,,verb.communication,True,40,subject,the old woman,1,11,12,female,1.0,tertiary
+45,0,met,12.0,15.0,3044.0,3047.0,228,1.0,11.0,3033.0,3043.0,,,,,verb.social,True,39,subject,a champion,2,0,2,unknown,0.0,tertiary
+46,2,find,30.0,34.0,3149.0,3153.0,54,0.0,1.0,3119.0,3120.0,,,,,verb.perception,True,42,subject,the old woman,1,11,12,female,1.0,tertiary
+49,6,seen,212.0,216.0,3492.0,3496.0,54,210.0,211.0,3490.0,3491.0,,,,,verb.perception,True,43,subject,the old woman,1,11,12,female,1.0,tertiary
+50,1,going,22.0,27.0,3592.0,3597.0,54,8.0,13.0,3578.0,3583.0,,,,,verb.motion,True,44,subject,the old woman,1,11,12,female,1.0,tertiary
+52,1,going,15.0,20.0,3667.0,3672.0,7,1.0,6.0,3653.0,3658.0,,,,,verb.motion,True,45,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+53,2,said,38.0,42.0,3727.0,3731.0,221,1.0,35.0,3690.0,3724.0,,,,,verb.communication,True,46,subject,a servant,2,0,2,unknown,0.0,tertiary
+53,2,said,38.0,42.0,3727.0,3731.0,7,1.0,35.0,3690.0,3724.0,,,,,verb.communication,True,46,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+54,2,said,60.0,64.0,3806.0,3810.0,8,1.0,57.0,3747.0,3803.0,,,,,verb.communication,True,47,subject,God,1,0,1,unknown,0.0,tertiary
+54,2,said,60.0,64.0,3806.0,3810.0,7,1.0,57.0,3747.0,3803.0,,,,,verb.communication,True,47,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+55,1,speak,16.0,21.0,3838.0,3843.0,53,9.0,10.0,3831.0,3832.0,,,,,verb.communication,True,49,subject,the woman,6,6,12,female,1.0,tertiary
+56,0,passed,34.0,40.0,3885.0,3891.0,228,23.0,33.0,3874.0,3884.0,,,,,verb.motion,True,48,subject,a champion,2,0,2,unknown,0.0,tertiary
+57,0,wore,3.0,7.0,3905.0,3909.0,5,0.0,2.0,3902.0,3904.0,,,,,verb.body,True,51,subject,Ur,23,57,80,male,1.0,secondary
+58,0,had,2.0,5.0,3953.0,3956.0,53,0.0,1.0,3951.0,3952.0,33.0,48.0,3984.0,3999.0,verb.possession,True,50,subject,the woman,6,6,12,female,1.0,tertiary
+59,2,took,52.0,56.0,4053.0,4057.0,5,0.0,2.0,4001.0,4003.0,,,,,verb.contact,True,52,subject,Ur,23,57,80,male,1.0,secondary
+60,0,followed,11.0,19.0,4083.0,4091.0,242,0.0,10.0,4072.0,4082.0,32.0,43.0,4104.0,4115.0,verb.motion,True,53,subject,a daughter sewing there in the open window's father,1,0,1,male,1.0,tertiary
+60,0,followed,11.0,19.0,4083.0,4091.0,241,0.0,10.0,4072.0,4082.0,32.0,43.0,4104.0,4115.0,verb.motion,True,53,subject,a daughter sewing there in the open window,1,4,5,female,1.0,tertiary
+63,0,take,7.0,11.0,4337.0,4341.0,5,3.0,6.0,4333.0,4336.0,,,,,verb.cognition,True,55,subject,Ur,23,57,80,male,1.0,secondary
+65,3,said,46.0,50.0,4522.0,4526.0,53,36.0,45.0,4512.0,4521.0,,,,,verb.communication,True,56,subject,the woman,6,6,12,female,1.0,tertiary
+66,1,find,8.0,12.0,4575.0,4579.0,7,1.0,4.0,4568.0,4571.0,,,,,verb.communication,True,58,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+68,4,came,73.0,77.0,4770.0,4774.0,7,60.0,72.0,4757.0,4769.0,,,,,verb.motion,True,57,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+70,1,find,9.0,13.0,4860.0,4864.0,7,0.0,3.0,4851.0,4854.0,18.0,31.0,4869.0,4882.0,verb.possession,True,60,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+72,1,gave,55.0,59.0,4951.0,4955.0,5,31.0,46.0,4927.0,4942.0,,,,,verb.possession,True,59,subject,Ur,23,57,80,male,1.0,secondary
+74,3,said,40.0,44.0,5094.0,5098.0,7,1.0,37.0,5055.0,5091.0,,,,,verb.communication,True,61,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+76,1,stop,20.0,24.0,5212.0,5216.0,254,0.0,8.0,5192.0,5200.0,,,,,verb.motion,True,62,subject,That one,1,1,2,male,1.0,tertiary
+77,0,like,7.0,11.0,5287.0,5291.0,7,3.0,6.0,5283.0,5286.0,,,,,verb.emotion,True,63,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+79,0,think,6.0,11.0,5353.0,5358.0,53,4.0,5.0,5351.0,5352.0,,,,,verb.cognition,True,65,subject,the woman,6,6,12,female,1.0,tertiary
+80,1,took,37.0,41.0,5449.0,5453.0,7,0.0,12.0,5412.0,5424.0,,,,,verb.contact,True,66,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+81,3,stands,73.0,79.0,5646.0,5652.0,5,70.0,72.0,5643.0,5645.0,,,,,verb.contact,True,67,subject,Ur,23,57,80,male,1.0,secondary
+82,0,stops,8.0,13.0,5710.0,5715.0,5,5.0,7.0,5707.0,5709.0,,,,,verb.motion,True,69,subject,Ur,23,57,80,male,1.0,secondary
+83,1,crossed,54.0,61.0,5845.0,5852.0,5,51.0,53.0,5842.0,5844.0,,,,,verb.motion,True,68,subject,Ur,23,57,80,male,1.0,secondary
+84,1,overtake,9.0,17.0,5947.0,5955.0,5,0.0,2.0,5938.0,5940.0,43.0,118.0,5981.0,6056.0,verb.contact,True,70,subject,Ur,23,57,80,male,1.0,secondary
+86,1,cut,33.0,36.0,6159.0,6162.0,7,20.0,32.0,6146.0,6158.0,90.0,136.0,6216.0,6262.0,verb.contact,True,71,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+89,2,making,20.0,26.0,6538.0,6544.0,76,1.0,3.0,6519.0,6521.0,,,,,verb.creation,True,73,subject,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+90,1,answered,31.0,39.0,6585.0,6593.0,76,1.0,18.0,6555.0,6572.0,,,,,verb.communication,True,75,subject,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+91,1,twisting,53.0,61.0,6653.0,6661.0,5,0.0,13.0,6600.0,6613.0,,,,,verb.contact,True,76,subject,Ur,23,57,80,male,1.0,secondary
+91,1,twisting,53.0,61.0,6653.0,6661.0,6,0.0,13.0,6600.0,6613.0,,,,,verb.contact,True,76,subject,Arthur,10,4,14,unknown,0.0,tertiary
+92,0,came,18.0,22.0,6690.0,6694.0,7,5.0,17.0,6677.0,6689.0,,,,,verb.motion,True,77,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+95,2,said,48.0,52.0,6989.0,6993.0,258,1.0,45.0,6942.0,6986.0,,,,,verb.communication,True,79,subject,one another,1,0,1,unknown,0.0,tertiary
+95,2,said,48.0,52.0,6989.0,6993.0,76,1.0,45.0,6942.0,6986.0,,,,,verb.communication,True,79,subject,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+96,1,make,6.0,10.0,7014.0,7018.0,7,1.0,2.0,7009.0,7010.0,,,,,verb.creation,True,81,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+97,2,putting,16.0,23.0,7048.0,7055.0,76,6.0,10.0,7038.0,7042.0,,,,,verb.contact,True,80,subject,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+98,0,said,15.0,19.0,7121.0,7125.0,259,1.0,12.0,7107.0,7118.0,,,,,verb.communication,True,83,subject,brother,2,0,2,male,1.0,tertiary
+99,2,left,43.0,47.0,7202.0,7206.0,76,38.0,42.0,7197.0,7201.0,53.0,69.0,7212.0,7228.0,verb.motion,True,82,subject,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+104,4,draw,62.0,66.0,7411.0,7415.0,261,55.0,58.0,7404.0,7407.0,,,,,verb.motion,True,85,subject,brothers,1,1,2,male,1.0,tertiary
+105,1,said,11.0,15.0,7435.0,7439.0,79,0.0,8.0,7424.0,7432.0,,,,,verb.communication,True,86,subject,the other two,2,2,4,unknown,0.0,tertiary
+106,3,cried,41.0,46.0,7496.0,7501.0,5,38.0,40.0,7493.0,7495.0,,,,,verb.communication,True,87,subject,Ur,23,57,80,male,1.0,secondary
+107,2,give,98.0,102.0,7622.0,7626.0,5,86.0,87.0,7610.0,7611.0,,,,,verb.possession,True,88,subject,Ur,23,57,80,male,1.0,secondary
+108,0,cried,3.0,8.0,7667.0,7672.0,5,0.0,2.0,7664.0,7666.0,,,,,verb.communication,True,89,subject,Ur,23,57,80,male,1.0,secondary
+113,0,went,19.0,23.0,7805.0,7809.0,5,0.0,8.0,7786.0,7794.0,,,,,verb.motion,True,90,subject,Ur,23,57,80,male,1.0,secondary
+114,1,give,54.0,58.0,7898.0,7902.0,6,43.0,44.0,7887.0,7888.0,,,,,verb.communication,True,93,subject,Arthur,10,4,14,unknown,0.0,tertiary
+115,4,hope,73.0,77.0,8048.0,8052.0,7,71.0,72.0,8046.0,8047.0,,,,,verb.emotion,True,95,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+117,0,went,30.0,34.0,8149.0,8153.0,79,16.0,29.0,8135.0,8148.0,,,,,verb.motion,True,94,subject,the other two,2,2,4,unknown,0.0,tertiary
+118,3,met,59.0,62.0,8318.0,8321.0,7,56.0,58.0,8315.0,8317.0,,,,,verb.motion,True,96,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+128,0,went,14.0,18.0,8873.0,8877.0,7,11.0,13.0,8870.0,8872.0,,,,,verb.motion,True,100,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+129,3,thought,41.0,48.0,8983.0,8990.0,7,1.0,38.0,8943.0,8980.0,,,,,verb.cognition,True,101,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+130,1,took,30.0,34.0,9025.0,9029.0,7,10.0,12.0,9005.0,9007.0,,,,,verb.consumption,True,103,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+132,2,wash,78.0,82.0,9186.0,9190.0,85,33.0,70.0,9141.0,9178.0,,,,,verb.body,True,102,subject,the lady in the Green Knight,1,1,2,female,1.0,tertiary
+133,4,came,108.0,112.0,9373.0,9377.0,89,99.0,107.0,9364.0,9372.0,,,,,verb.motion,True,104,subject,the girl,2,7,9,female,1.0,tertiary
+134,5,come,87.0,91.0,9466.0,9470.0,89,73.0,76.0,9452.0,9455.0,108.0,123.0,9487.0,9502.0,verb.motion,True,105,subject,the girl,2,7,9,female,1.0,tertiary
+135,2,took,44.0,48.0,9548.0,9552.0,89,40.0,43.0,9544.0,9547.0,,,,,verb.contact,True,107,subject,the girl,2,7,9,female,1.0,tertiary
+136,1,complaining,17.0,28.0,9581.0,9592.0,89,0.0,12.0,9564.0,9576.0,,,,,verb.communication,True,106,subject,the girl,2,7,9,female,1.0,tertiary
+136,1,complaining,17.0,28.0,9581.0,9592.0,92,0.0,12.0,9564.0,9576.0,,,,,verb.communication,True,106,subject,the girl's mistress,1,0,1,unknown,0.0,tertiary
+137,2,said,19.0,23.0,9638.0,9642.0,93,1.0,16.0,9620.0,9635.0,,,,,verb.communication,True,110,subject,the maid,1,3,4,unknown,0.0,tertiary
+141,2,sleeping,51.0,59.0,9816.0,9824.0,269,1.0,34.0,9766.0,9799.0,,,,,verb.body,True,108,subject,a woman,1,0,1,female,1.0,tertiary
+142,3,comes,49.0,54.0,9890.0,9895.0,7,36.0,48.0,9877.0,9889.0,,,,,verb.motion,True,111,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+143,3,sleeping,30.0,38.0,9948.0,9956.0,7,21.0,23.0,9939.0,9941.0,,,,,verb.body,True,112,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+144,1,said,19.0,23.0,9992.0,9996.0,7,1.0,16.0,9974.0,9989.0,,,,,verb.communication,True,114,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+145,1,stop,17.0,21.0,10024.0,10028.0,94,0.0,8.0,10007.0,10015.0,,,,,verb.motion,True,113,subject,the lady,12,33,45,female,1.0,tertiary
+146,0,came,9.0,13.0,10112.0,10116.0,94,5.0,8.0,10108.0,10111.0,,,,,verb.motion,True,115,subject,the lady,12,33,45,female,1.0,tertiary
+147,2,left,28.0,32.0,10184.0,10188.0,94,24.0,27.0,10180.0,10183.0,,,,,verb.cognition,True,116,subject,the lady,12,33,45,female,1.0,tertiary
+148,0,smothered,4.0,13.0,10207.0,10216.0,94,0.0,3.0,10203.0,10206.0,18.0,29.0,10221.0,10232.0,verb.contact,True,117,subject,the lady,12,33,45,female,1.0,tertiary
+149,0,locked,20.0,26.0,10338.0,10344.0,94,0.0,19.0,10318.0,10337.0,,,,,verb.contact,True,118,subject,the lady,12,33,45,female,1.0,tertiary
+149,0,locked,20.0,26.0,10338.0,10344.0,7,0.0,19.0,10318.0,10337.0,,,,,verb.contact,True,118,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+151,2,brought,85.0,92.0,10599.0,10606.0,100,82.0,84.0,10596.0,10598.0,,,,,verb.motion,True,120,subject,the Green Knight,8,20,28,male,1.0,tertiary
+152,1,serve,15.0,20.0,10733.0,10738.0,94,8.0,9.0,10726.0,10727.0,,,,,verb.social,True,122,subject,the lady,12,33,45,female,1.0,tertiary
+153,0,goes,8.0,12.0,10752.0,10756.0,7,5.0,7.0,10749.0,10751.0,,,,,verb.motion,True,121,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+154,2,prepare,52.0,59.0,10876.0,10883.0,94,46.0,48.0,10870.0,10872.0,,,,,verb.change,True,123,subject,the lady,12,33,45,female,1.0,tertiary
+155,4,tell,91.0,95.0,10987.0,10991.0,277,57.0,85.0,10953.0,10981.0,,,,,verb.communication,True,124,subject,that brass head beyond there,1,0,1,unknown,0.0,tertiary
+161,3,spoke,63.0,68.0,11375.0,11380.0,107,48.0,62.0,11360.0,11374.0,,,,,verb.communication,True,127,subject,the brass head,1,2,3,unknown,0.0,tertiary
+162,0,thought,3.0,10.0,11385.0,11392.0,107,1.0,2.0,11383.0,11384.0,,,,,verb.cognition,True,128,subject,the brass head,1,2,3,unknown,0.0,tertiary
+166,2,eat,44.0,47.0,11700.0,11703.0,108,42.0,43.0,11698.0,11699.0,,,,,verb.consumption,True,130,subject,the knight,6,19,25,male,1.0,tertiary
+167,2,bring,55.0,60.0,11788.0,11793.0,235,4.0,41.0,11737.0,11774.0,78.0,120.0,11811.0,11853.0,verb.motion,True,132,subject,three hundred heroes,2,3,5,group/nonbinary,1.0,tertiary
+168,0,went,25.0,29.0,11881.0,11885.0,109,0.0,24.0,11856.0,11880.0,,,,,verb.motion,True,131,subject,The three hundred heroes,1,2,3,group/nonbinary,1.0,tertiary
+169,4,said,69.0,73.0,12048.0,12052.0,281,1.0,66.0,11980.0,12045.0,,,,,verb.communication,True,133,subject,the knight's men,3,2,5,male,1.0,tertiary
+169,4,said,69.0,73.0,12048.0,12052.0,108,1.0,66.0,11980.0,12045.0,,,,,verb.communication,True,133,subject,the knight,6,19,25,male,1.0,tertiary
+169,4,said,69.0,73.0,12048.0,12052.0,279,1.0,66.0,11980.0,12045.0,,,,,verb.communication,True,133,subject,a man,1,6,7,male,1.0,tertiary
+171,0,went,25.0,29.0,12194.0,12198.0,112,0.0,24.0,12169.0,12193.0,,,,,verb.motion,True,135,subject,The second three hundred,1,1,2,group/nonbinary,1.0,tertiary
+172,3,said,46.0,50.0,12382.0,12386.0,281,1.0,43.0,12337.0,12379.0,,,,,verb.communication,True,136,subject,the knight's men,3,2,5,male,1.0,tertiary
+172,3,said,46.0,50.0,12382.0,12386.0,108,1.0,43.0,12337.0,12379.0,,,,,verb.communication,True,136,subject,the knight,6,19,25,male,1.0,tertiary
+172,3,said,46.0,50.0,12382.0,12386.0,279,1.0,43.0,12337.0,12379.0,,,,,verb.communication,True,136,subject,a man,1,6,7,male,1.0,tertiary
+173,2,bring,58.0,63.0,12457.0,12462.0,281,4.0,7.0,12403.0,12406.0,,,,,verb.motion,True,139,subject,the knight's men,3,2,5,male,1.0,tertiary
+174,0,went,35.0,39.0,12504.0,12508.0,115,0.0,34.0,12469.0,12503.0,,,,,verb.motion,True,138,subject,The three hundred savage hirelings,1,2,3,group/nonbinary,1.0,tertiary
+175,1,worn,21.0,25.0,12785.0,12789.0,119,0.0,16.0,12764.0,12780.0,,,,,verb.body,True,137,subject,The bulkiest one,1,0,1,unknown,0.0,tertiary
+176,2,coaxing,47.0,54.0,12896.0,12903.0,7,30.0,42.0,12879.0,12891.0,,,,,verb.social,True,140,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+179,1,took,38.0,42.0,13164.0,13168.0,100,0.0,2.0,13126.0,13128.0,,,,,verb.contact,True,141,subject,the Green Knight,8,20,28,male,1.0,tertiary
+180,0,took,8.0,12.0,13229.0,13233.0,100,5.0,7.0,13226.0,13228.0,,,,,verb.contact,True,143,subject,the Green Knight,8,20,28,male,1.0,tertiary
+181,1,took,49.0,53.0,13349.0,13353.0,100,13.0,15.0,13313.0,13315.0,58.0,91.0,13358.0,13391.0,verb.motion,True,144,subject,the Green Knight,8,20,28,male,1.0,tertiary
+182,1,strikes,64.0,71.0,13498.0,13505.0,100,47.0,63.0,13481.0,13497.0,,,,,verb.competition,True,145,subject,the Green Knight,8,20,28,male,1.0,tertiary
+183,4,tell,50.0,54.0,13600.0,13604.0,94,43.0,47.0,13593.0,13597.0,,,,,verb.communication,True,146,subject,the lady,12,33,45,female,1.0,tertiary
+184,8,strike,158.0,164.0,13768.0,13774.0,100,96.0,98.0,13706.0,13708.0,,,,,verb.social,True,147,subject,the Green Knight,8,20,28,male,1.0,tertiary
+186,1,leave,8.0,13.0,13955.0,13960.0,7,1.0,4.0,13948.0,13951.0,22.0,57.0,13969.0,14004.0,verb.motion,True,149,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+187,3,strike,53.0,59.0,14059.0,14065.0,100,5.0,21.0,14011.0,14027.0,,,,,verb.competition,True,150,subject,the Green Knight,8,20,28,male,1.0,tertiary
+188,1,make,7.0,11.0,14104.0,14108.0,7,0.0,3.0,14097.0,14100.0,,,,,verb.creation,True,152,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+189,0,rose,34.0,38.0,14166.0,14170.0,7,21.0,33.0,14153.0,14165.0,,,,,verb.motion,True,151,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+190,0,gave,17.0,21.0,14219.0,14223.0,7,0.0,8.0,14202.0,14210.0,,,,,verb.communication,True,153,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+191,1,want,13.0,17.0,14375.0,14379.0,108,1.0,5.0,14363.0,14367.0,,,,,verb.emotion,True,154,subject,the knight,6,19,25,male,1.0,tertiary
+194,1,left,14.0,18.0,14523.0,14527.0,108,1.0,4.0,14510.0,14513.0,,,,,verb.possession,True,155,subject,the knight,6,19,25,male,1.0,tertiary
+195,0,faced,11.0,16.0,14623.0,14628.0,108,0.0,10.0,14612.0,14622.0,,,,,verb.competition,True,157,subject,the knight,6,19,25,male,1.0,tertiary
+196,1,stood,58.0,63.0,14754.0,14759.0,94,49.0,57.0,14745.0,14753.0,,,,,verb.contact,True,158,subject,the lady,12,33,45,female,1.0,tertiary
+197,2,cried,55.0,60.0,14842.0,14847.0,7,1.0,12.0,14788.0,14799.0,,,,,verb.communication,True,159,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+198,1,wail,38.0,42.0,14891.0,14895.0,297,10.0,18.0,14863.0,14871.0,,,,,verb.communication,True,160,subject,no woman,1,0,1,female,1.0,tertiary
+199,1,rose,35.0,39.0,14975.0,14979.0,108,32.0,34.0,14972.0,14974.0,,,,,verb.motion,True,161,subject,the knight,6,19,25,male,1.0,tertiary
+201,1,had,51.0,54.0,15185.0,15188.0,94,30.0,46.0,15164.0,15180.0,,,,,verb.possession,True,162,subject,the lady,12,33,45,female,1.0,tertiary
+204,1,took,86.0,90.0,15501.0,15505.0,7,0.0,12.0,15415.0,15427.0,,,,,verb.contact,True,164,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+205,0,brought,16.0,23.0,15528.0,15535.0,94,0.0,15.0,15512.0,15527.0,,,,,verb.contact,True,165,subject,the lady,12,33,45,female,1.0,tertiary
+205,0,brought,16.0,23.0,15528.0,15535.0,7,0.0,15.0,15512.0,15527.0,,,,,verb.contact,True,165,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+207,3,taken,40.0,45.0,15715.0,15720.0,298,29.0,32.0,15704.0,15707.0,,,,,verb.possession,True,168,subject,this beautiful lady,1,3,4,female,1.0,tertiary
+208,1,gave,34.0,38.0,15780.0,15784.0,94,30.0,33.0,15776.0,15779.0,50.0,96.0,15796.0,15842.0,verb.possession,True,167,subject,the lady,12,33,45,female,1.0,tertiary
+209,1,rose,26.0,30.0,15870.0,15874.0,94,22.0,25.0,15866.0,15869.0,,,,,verb.motion,True,169,subject,the lady,12,33,45,female,1.0,tertiary
+210,1,thought,27.0,34.0,15917.0,15924.0,5,24.0,26.0,15914.0,15916.0,,,,,verb.cognition,True,170,subject,Ur,23,57,80,male,1.0,secondary
+211,2,said,45.0,49.0,16045.0,16049.0,301,1.0,42.0,16001.0,16042.0,,,,,verb.communication,True,171,subject,wife,1,0,1,female,1.0,tertiary
+211,2,said,45.0,49.0,16045.0,16049.0,5,1.0,42.0,16001.0,16042.0,,,,,verb.communication,True,171,subject,Ur,23,57,80,male,1.0,secondary
+211,2,said,45.0,49.0,16045.0,16049.0,94,1.0,42.0,16001.0,16042.0,,,,,verb.communication,True,171,subject,the lady,12,33,45,female,1.0,tertiary
+212,2,lay,43.0,46.0,16109.0,16112.0,94,30.0,33.0,16096.0,16099.0,60.0,85.0,16126.0,16151.0,verb.cognition,True,172,subject,the lady,12,33,45,female,1.0,tertiary
+215,1,took,68.0,72.0,16331.0,16335.0,5,12.0,14.0,16275.0,16277.0,79.0,125.0,16342.0,16388.0,verb.contact,True,173,subject,Ur,23,57,80,male,1.0,secondary
+216,0,travelled,5.0,14.0,16396.0,16405.0,64,0.0,4.0,16391.0,16395.0,,,,,verb.motion,True,175,subject,The two brothers,2,2,4,male,1.0,tertiary
+217,2,left,18.0,22.0,16454.0,16458.0,5,0.0,2.0,16436.0,16438.0,54.0,100.0,16490.0,16536.0,verb.cognition,True,176,subject,Ur,23,57,80,male,1.0,secondary
+218,0,stopped,16.0,23.0,16553.0,16560.0,26,5.0,15.0,16542.0,16552.0,,,,,verb.competition,True,177,subject,the Father,5,3,8,male,1.0,tertiary
+219,0,left,14.0,18.0,16580.0,16584.0,7,0.0,12.0,16566.0,16578.0,,,,,verb.motion,True,179,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+220,2,walking,12.0,19.0,16651.0,16658.0,7,0.0,2.0,16639.0,16641.0,,,,,verb.motion,True,178,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+221,1,leave,19.0,24.0,16762.0,16767.0,7,17.0,18.0,16760.0,16761.0,,,,,verb.motion,True,180,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+223,4,said,72.0,76.0,16878.0,16882.0,7,1.0,69.0,16807.0,16875.0,,,,,verb.communication,True,183,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+223,4,said,72.0,76.0,16878.0,16882.0,152,1.0,69.0,16807.0,16875.0,,,,,verb.communication,True,183,subject,Short - clothes,3,12,15,unknown,0.0,tertiary
+224,1,touched,16.0,23.0,16914.0,16921.0,7,4.0,7.0,16902.0,16905.0,,,,,verb.contact,True,182,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+225,2,treat,25.0,30.0,16988.0,16993.0,7,12.0,15.0,16975.0,16978.0,34.0,72.0,16997.0,17035.0,verb.social,True,184,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+226,3,said,43.0,47.0,17081.0,17085.0,7,1.0,40.0,17039.0,17078.0,,,,,verb.communication,True,186,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+228,4,gave,92.0,96.0,17269.0,17273.0,7,89.0,91.0,17266.0,17268.0,,,,,verb.possession,True,187,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+229,3,said,41.0,45.0,17356.0,17360.0,305,1.0,38.0,17316.0,17353.0,,,,,verb.communication,True,188,subject,Short - clothes's best hero I have ever met,1,0,1,unknown,0.0,tertiary
+229,3,said,41.0,45.0,17356.0,17360.0,7,1.0,38.0,17316.0,17353.0,,,,,verb.communication,True,188,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+229,3,said,41.0,45.0,17356.0,17360.0,152,1.0,38.0,17316.0,17353.0,,,,,verb.communication,True,188,subject,Short - clothes,3,12,15,unknown,0.0,tertiary
+231,1,tell,15.0,19.0,17431.0,17435.0,152,5.0,6.0,17421.0,17422.0,,,,,verb.communication,True,189,subject,Short - clothes,3,12,15,unknown,0.0,tertiary
+232,4,freed,78.0,83.0,17567.0,17572.0,7,75.0,77.0,17564.0,17566.0,,,,,verb.possession,True,192,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+234,2,leave,27.0,32.0,17691.0,17696.0,7,20.0,23.0,17684.0,17687.0,,,,,verb.motion,True,193,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+237,0,shook,13.0,18.0,17862.0,17867.0,7,0.0,12.0,17849.0,17861.0,,,,,verb.contact,True,194,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+238,2,let,64.0,67.0,18013.0,18016.0,7,0.0,12.0,17949.0,17961.0,,,,,verb.communication,True,196,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+239,1,took,73.0,77.0,18124.0,18128.0,159,0.0,8.0,18051.0,18059.0,,,,,verb.motion,True,197,subject,The foal,1,0,1,unknown,0.0,tertiary
+240,0,stopped,13.0,20.0,18155.0,18162.0,7,0.0,12.0,18142.0,18154.0,,,,,verb.motion,True,198,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+243,1,said,17.0,21.0,18297.0,18301.0,306,1.0,14.0,18281.0,18294.0,,,,,verb.communication,True,202,subject,a weaver,1,0,1,unknown,0.0,tertiary
+243,1,said,17.0,21.0,18297.0,18301.0,7,1.0,14.0,18281.0,18294.0,,,,,verb.communication,True,202,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+244,1,do,14.0,16.0,18330.0,18332.0,164,1.0,5.0,18317.0,18321.0,,,,,verb.social,True,201,subject,an old weaver,1,2,3,unknown,0.0,tertiary
+245,1,spin,7.0,11.0,18342.0,18346.0,166,1.0,2.0,18336.0,18337.0,33.0,43.0,18368.0,18378.0,verb.motion,True,200,subject,the old weaver,1,2,3,male,1.0,tertiary
+247,2,doing,23.0,28.0,18482.0,18487.0,167,0.0,8.0,18459.0,18467.0,,,,,verb.social,True,203,subject,the old weaver's sons,1,2,3,group/nonbinary,1.0,tertiary
+248,2,wash,42.0,46.0,18566.0,18570.0,165,21.0,32.0,18545.0,18556.0,,,,,verb.contact,True,206,subject,the old man,3,4,7,male,1.0,tertiary
+251,4,took,84.0,88.0,18740.0,18744.0,5,57.0,75.0,18713.0,18731.0,,,,,verb.possession,True,205,subject,Ur,23,57,80,male,1.0,secondary
+252,1,said,14.0,18.0,18802.0,18806.0,7,1.0,11.0,18789.0,18799.0,,,,,verb.communication,True,208,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+253,2,suppose,37.0,44.0,18857.0,18864.0,7,35.0,36.0,18855.0,18856.0,,,,,verb.cognition,True,207,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+254,1,said,15.0,19.0,18907.0,18911.0,7,1.0,12.0,18893.0,18904.0,,,,,verb.communication,True,209,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+259,0,made,11.0,15.0,19117.0,19121.0,170,0.0,10.0,19106.0,19116.0,21.0,47.0,19127.0,19153.0,verb.creation,True,212,subject,The weaver,4,0,4,unknown,0.0,tertiary
+261,2,sent,79.0,83.0,19260.0,19264.0,7,0.0,12.0,19181.0,19193.0,,,,,verb.motion,True,213,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+262,2,sent,115.0,119.0,19406.0,19410.0,33,0.0,59.0,19291.0,19350.0,,,,,verb.motion,True,215,subject,the eldest son,2,0,2,unknown,0.0,tertiary
+262,2,sent,115.0,119.0,19406.0,19410.0,7,0.0,59.0,19291.0,19350.0,,,,,verb.motion,True,215,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+263,2,taking,55.0,61.0,19480.0,19486.0,181,30.0,50.0,19455.0,19475.0,,,,,verb.possession,True,214,subject,an impudent stranger,1,0,1,unknown,0.0,tertiary
+264,4,mind,92.0,96.0,19593.0,19597.0,314,69.0,82.0,19570.0,19583.0,,,,,verb.communication,True,216,subject,that stranger,1,1,2,male,1.0,tertiary
+265,2,said,44.0,48.0,19680.0,19684.0,316,0.0,41.0,19636.0,19677.0,,,,,verb.communication,True,217,subject,the disturber,1,0,1,unknown,0.0,tertiary
+265,2,said,44.0,48.0,19680.0,19684.0,183,0.0,41.0,19636.0,19677.0,,,,,verb.communication,True,217,subject,the bride,7,11,18,female,1.0,tertiary
+266,4,said,55.0,59.0,19751.0,19755.0,318,1.0,52.0,19697.0,19748.0,,,,,verb.communication,True,218,subject,the guests,1,0,1,unknown,0.0,tertiary
+266,4,said,55.0,59.0,19751.0,19755.0,317,1.0,52.0,19697.0,19748.0,,,,,verb.communication,True,218,subject,the fellow who is troubling the guests,1,0,1,unknown,0.0,tertiary
+267,4,gave,98.0,102.0,19874.0,19878.0,183,54.0,63.0,19830.0,19839.0,,,,,verb.possession,True,219,subject,the bride,7,11,18,female,1.0,tertiary
+268,1,dropped,38.0,45.0,19928.0,19935.0,7,0.0,12.0,19890.0,19902.0,,,,,verb.motion,True,220,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+269,0,took,15.0,19.0,20012.0,20016.0,183,5.0,14.0,20002.0,20011.0,,,,,verb.contact,True,222,subject,the bride,7,11,18,female,1.0,tertiary
+271,3,said,84.0,88.0,20216.0,20220.0,319,1.0,81.0,20133.0,20213.0,,,,,verb.communication,True,223,subject,the man who conquered the Green Knight and saved me from Terrible Valley,1,0,1,male,1.0,tertiary
+271,3,said,84.0,88.0,20216.0,20220.0,100,1.0,81.0,20133.0,20213.0,,,,,verb.communication,True,223,subject,the Green Knight,8,20,28,male,1.0,tertiary
+271,3,said,84.0,88.0,20216.0,20220.0,183,1.0,81.0,20133.0,20213.0,,,,,verb.communication,True,223,subject,the bride,7,11,18,female,1.0,tertiary
+273,1,put,42.0,45.0,20322.0,20325.0,7,0.0,12.0,20280.0,20292.0,,,,,verb.contact,True,224,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+275,2,marry,46.0,51.0,20460.0,20465.0,94,31.0,39.0,20445.0,20453.0,,,,,verb.social,True,225,subject,the lady,12,33,45,female,1.0,tertiary
+276,2,said,29.0,33.0,20543.0,20547.0,7,1.0,26.0,20515.0,20540.0,,,,,verb.communication,True,226,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+276,2,said,29.0,33.0,20543.0,20547.0,183,1.0,26.0,20515.0,20540.0,,,,,verb.communication,True,226,subject,the bride,7,11,18,female,1.0,tertiary
+277,2,wear,44.0,48.0,20616.0,20620.0,7,9.0,26.0,20581.0,20598.0,,,,,verb.body,True,227,subject,Lawn Dyarrig,58,161,219,male,1.0,primary
+278,0,put,10.0,13.0,20658.0,20661.0,196,0.0,9.0,20648.0,20657.0,,,,,verb.contact,True,228,subject,the Queen,9,8,17,female,1.0,tertiary
+280,1,have,22.0,26.0,20778.0,20782.0,322,1.0,12.0,20757.0,20768.0,,,,,verb.possession,True,229,subject,Ur 's father,2,2,4,male,1.0,tertiary
+280,1,have,22.0,26.0,20778.0,20782.0,244,1.0,12.0,20757.0,20768.0,,,,,verb.possession,True,229,subject,father,2,0,2,male,1.0,tertiary
+281,0,said,18.0,22.0,20840.0,20844.0,326,0.0,15.0,20822.0,20837.0,,,,,verb.communication,True,232,subject,Tighten,1,0,1,unknown,0.0,tertiary
+282,0,thought,22.0,29.0,20878.0,20885.0,196,12.0,21.0,20868.0,20877.0,,,,,verb.cognition,True,231,subject,the Queen,9,8,17,female,1.0,tertiary
+287,0,said,16.0,20.0,21121.0,21125.0,328,1.0,13.0,21106.0,21118.0,,,,,verb.communication,True,236,subject,The gardener,1,0,1,unknown,0.0,tertiary
+291,0,suffered,13.0,21.0,21225.0,21233.0,196,3.0,12.0,21215.0,21224.0,,,,,verb.body,True,235,subject,the Queen,9,8,17,female,1.0,tertiary
+297,0,has,10.0,13.0,21467.0,21470.0,13,1.0,9.0,21458.0,21466.0,,,,,verb.possession,True,238,subject,the King,12,11,23,male,1.0,tertiary
+299,4,commanding,53.0,63.0,21568.0,21578.0,196,34.0,43.0,21549.0,21558.0,67.0,83.0,21582.0,21598.0,verb.communication,True,237,subject,the Queen,9,8,17,female,1.0,tertiary
+300,1,gave,36.0,40.0,21704.0,21708.0,13,27.0,35.0,21695.0,21703.0,,,,,verb.possession,True,240,subject,the King,12,11,23,male,1.0,tertiary
+1,0,met,9.0,12.0,80.0,83.0,14,13.0,150.0,84.0,221.0,,,,,verb.social,True,1,direct_object,"a King's man whose head was out through his cap , whose elbows and knees were out through his clothing , and whose toes were out through his shoes",1,0,1,male,1.0,tertiary
+1,0,met,9.0,12.0,80.0,83.0,12,13.0,150.0,84.0,221.0,,,,,verb.social,True,1,direct_object,a King,1,5,6,male,1.0,tertiary
+2,1,gave,29.0,33.0,252.0,256.0,13,34.0,37.0,257.0,260.0,,,,,verb.possession,True,2,direct_object,the King,12,11,23,male,1.0,tertiary
+3,0,put,14.0,17.0,333.0,336.0,13,18.0,33.0,337.0,352.0,,,,,verb.contact,True,3,direct_object,the King,12,11,23,male,1.0,tertiary
+5,0,had,9.0,12.0,471.0,474.0,22,13.0,23.0,475.0,485.0,,,,,verb.possession,True,4,direct_object,three sons,1,1,2,group/nonbinary,1.0,tertiary
+9,0,asked,0.0,5.0,684.0,689.0,28,6.0,16.0,690.0,700.0,,,,,verb.communication,True,7,direct_object,the eldest,1,9,10,unknown,0.0,tertiary
+10,1,said,34.0,38.0,736.0,740.0,29,39.0,49.0,741.0,751.0,,,,,verb.communication,True,8,direct_object,the mother,1,0,1,female,1.0,tertiary
+11,1,asked,40.0,45.0,793.0,798.0,31,46.0,61.0,799.0,814.0,,,,,verb.communication,True,10,direct_object,The three sons's father,3,2,5,male,1.0,tertiary
+13,2,met,32.0,35.0,972.0,975.0,213,36.0,39.0,976.0,979.0,,,,,verb.social,True,11,direct_object,the father of the eldest son's strong man that I met to - day,1,5,6,male,1.0,tertiary
+14,0,asked,0.0,5.0,982.0,987.0,32,6.0,34.0,988.0,1016.0,,,,,verb.communication,True,12,direct_object,the father of the eldest son,1,4,5,male,1.0,tertiary
+14,0,asked,0.0,5.0,982.0,987.0,33,6.0,34.0,988.0,1016.0,,,,,verb.communication,True,12,direct_object,the eldest son,2,0,2,unknown,0.0,tertiary
+15,0,met,6.0,9.0,1024.0,1027.0,214,10.0,18.0,1028.0,1036.0,,,,,verb.social,True,13,direct_object,that man,5,3,8,male,1.0,tertiary
+16,1,said,18.0,22.0,1123.0,1127.0,13,23.0,31.0,1128.0,1136.0,,,,,verb.communication,True,15,direct_object,the King,12,11,23,male,1.0,tertiary
+17,2,met,26.0,29.0,1164.0,1167.0,213,30.0,33.0,1168.0,1171.0,,,,,verb.social,True,14,direct_object,the father of the eldest son's strong man that I met to - day,1,5,6,male,1.0,tertiary
+18,0,asked,0.0,5.0,1174.0,1179.0,13,6.0,8.0,1180.0,1182.0,9.0,44.0,,,verb.communication,True,16,direct_object,the King,12,11,23,male,1.0,tertiary
+19,2,burn,37.0,41.0,1257.0,1261.0,213,42.0,45.0,1262.0,1265.0,46.0,64.0,1266.0,1284.0,verb.change,True,17,direct_object,the father of the eldest son's strong man that I met to - day,1,5,6,male,1.0,tertiary
+22,0,asked,0.0,5.0,1330.0,1335.0,7,6.0,30.0,1336.0,1360.0,,,,,verb.communication,True,18,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+22,0,asked,0.0,5.0,1330.0,1335.0,36,6.0,30.0,1336.0,1360.0,,,,,verb.communication,True,18,direct_object,the King of Lawn Dyarrig,1,5,6,male,1.0,tertiary
+23,0,met,6.0,9.0,1368.0,1371.0,214,10.0,18.0,1372.0,1380.0,,,,,verb.contact,True,20,direct_object,that man,5,3,8,male,1.0,tertiary
+25,2,said,44.0,48.0,1519.0,1523.0,26,49.0,59.0,1524.0,1534.0,,,,,verb.communication,True,21,direct_object,the Father,5,3,8,male,1.0,tertiary
+28,3,make,58.0,62.0,1706.0,1710.0,7,63.0,74.0,1711.0,1722.0,75.0,86.0,,,verb.social,True,24,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+30,1,saw,38.0,41.0,1890.0,1893.0,44,42.0,49.0,1894.0,1901.0,,,,,verb.perception,True,26,direct_object,The two,3,10,13,group/nonbinary,1.0,tertiary
+31,1,said,25.0,29.0,1962.0,1966.0,7,30.0,32.0,1967.0,1969.0,35.0,42.0,,,verb.communication,True,27,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+32,1,said,18.0,22.0,2054.0,2058.0,5,23.0,25.0,2059.0,2061.0,,,,,verb.communication,True,28,direct_object,Ur,23,57,80,male,1.0,secondary
+33,2,said,28.0,32.0,2091.0,2095.0,6,33.0,39.0,2096.0,2102.0,,,,,verb.communication,True,30,direct_object,Arthur,10,4,14,unknown,0.0,tertiary
+34,0,let,8.0,11.0,2112.0,2115.0,44,12.0,54.0,2116.0,2158.0,,,,,verb.social,True,29,direct_object,The two,3,10,13,group/nonbinary,1.0,tertiary
+34,0,let,8.0,11.0,2112.0,2115.0,7,12.0,54.0,2116.0,2158.0,,,,,verb.social,True,29,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+34,0,let,8.0,11.0,2112.0,2115.0,46,12.0,54.0,2116.0,2158.0,,,,,verb.social,True,29,direct_object,a serving - boy,1,0,1,male,1.0,tertiary
+35,2,came,37.0,41.0,2259.0,2263.0,50,47.0,84.0,2269.0,2306.0,,,,,verb.motion,True,31,direct_object,one woman,1,2,3,female,1.0,tertiary
+38,0,called,1.0,7.0,2400.0,2406.0,52,8.0,11.0,2407.0,2410.0,,,,,verb.communication,True,34,direct_object,the King of Erin,3,0,3,male,1.0,tertiary
+38,0,called,1.0,7.0,2400.0,2406.0,51,8.0,11.0,2407.0,2410.0,,,,,verb.communication,True,34,direct_object,son of the King of Erin,1,0,1,male,1.0,tertiary
+38,0,called,1.0,7.0,2400.0,2406.0,7,8.0,11.0,2407.0,2410.0,,,,,verb.communication,True,34,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+39,3,said,77.0,81.0,2513.0,2517.0,5,82.0,84.0,2518.0,2520.0,,,,,verb.communication,True,35,direct_object,Ur,23,57,80,male,1.0,secondary
+40,2,said,27.0,31.0,2549.0,2553.0,5,32.0,41.0,2554.0,2563.0,,,,,verb.communication,True,37,direct_object,Ur,23,57,80,male,1.0,secondary
+40,2,said,27.0,31.0,2549.0,2553.0,53,32.0,41.0,2554.0,2563.0,,,,,verb.communication,True,37,direct_object,the woman,6,6,12,female,1.0,tertiary
+43,2,had,66.0,69.0,2850.0,2853.0,55,70.0,92.0,2854.0,2876.0,,,,,verb.consumption,True,38,direct_object,the young men,1,0,1,male,1.0,tertiary
+44,4,asked,64.0,69.0,2942.0,2947.0,5,70.0,76.0,2948.0,2954.0,,,,,verb.communication,True,40,direct_object,Ur,23,57,80,male,1.0,secondary
+45,0,met,12.0,15.0,3044.0,3047.0,54,16.0,25.0,3048.0,3057.0,,,,,verb.social,True,39,direct_object,the old woman,1,11,12,female,1.0,tertiary
+45,0,met,12.0,15.0,3044.0,3047.0,229,16.0,25.0,3048.0,3057.0,,,,,verb.social,True,39,direct_object,the old woman's father,7,3,10,male,1.0,tertiary
+46,2,find,30.0,34.0,3149.0,3153.0,229,35.0,52.0,3154.0,3171.0,,,,,verb.perception,True,42,direct_object,the old woman's father,7,3,10,male,1.0,tertiary
+48,1,took,18.0,22.0,3241.0,3245.0,54,23.0,38.0,3246.0,3261.0,,,,,verb.possession,True,41,direct_object,the old woman,1,11,12,female,1.0,tertiary
+48,1,took,18.0,22.0,3241.0,3245.0,212,23.0,38.0,3246.0,3261.0,,,,,verb.possession,True,41,direct_object,the eldest's father,3,0,3,male,1.0,tertiary
+53,2,said,38.0,42.0,3727.0,3731.0,7,43.0,55.0,3732.0,3744.0,,,,,verb.communication,True,46,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+54,2,said,60.0,64.0,3806.0,3810.0,53,65.0,74.0,3811.0,3820.0,,,,,verb.communication,True,47,direct_object,the woman,6,6,12,female,1.0,tertiary
+55,1,speak,16.0,21.0,3838.0,3843.0,5,22.0,27.0,3844.0,3849.0,,,,,verb.communication,True,49,direct_object,Ur,23,57,80,male,1.0,secondary
+59,2,took,52.0,56.0,4053.0,4057.0,5,57.0,60.0,4058.0,4061.0,,,,,verb.contact,True,52,direct_object,Ur,23,57,80,male,1.0,secondary
+59,2,took,52.0,56.0,4053.0,4057.0,241,57.0,60.0,4058.0,4061.0,,,,,verb.contact,True,52,direct_object,a daughter sewing there in the open window,1,4,5,female,1.0,tertiary
+63,0,take,7.0,11.0,4337.0,4341.0,53,12.0,21.0,4342.0,4351.0,,,,,verb.cognition,True,55,direct_object,the woman,6,6,12,female,1.0,tertiary
+64,1,vexed,14.0,19.0,4412.0,4417.0,5,20.0,22.0,4418.0,4420.0,,,,,verb.possession,True,54,direct_object,Ur,23,57,80,male,1.0,secondary
+65,3,said,46.0,50.0,4522.0,4526.0,53,51.0,66.0,4527.0,4542.0,,,,,verb.communication,True,56,direct_object,the woman,6,6,12,female,1.0,tertiary
+65,3,said,46.0,50.0,4522.0,4526.0,7,51.0,66.0,4527.0,4542.0,,,,,verb.communication,True,56,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+66,1,find,8.0,12.0,4575.0,4579.0,251,19.0,40.0,4586.0,4607.0,,,,,verb.communication,True,58,direct_object,a hero,2,0,2,unknown,0.0,tertiary
+74,3,said,40.0,44.0,5094.0,5098.0,53,45.0,54.0,5099.0,5108.0,,,,,verb.communication,True,61,direct_object,the woman,6,6,12,female,1.0,tertiary
+78,0,let,9.0,12.0,5332.0,5335.0,256,13.0,22.0,5336.0,5345.0,,,,,verb.social,True,64,direct_object,Lawn Dyarrig's two men behind you,1,1,2,male,1.0,tertiary
+79,0,think,6.0,11.0,5353.0,5358.0,7,12.0,62.0,5359.0,5409.0,,,,,verb.cognition,True,65,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+84,1,overtake,9.0,17.0,5947.0,5955.0,5,18.0,42.0,5956.0,5980.0,43.0,118.0,5981.0,6056.0,verb.contact,True,70,direct_object,Ur,23,57,80,male,1.0,secondary
+87,3,let,71.0,74.0,6381.0,6384.0,5,75.0,86.0,6385.0,6396.0,,,,,verb.communication,True,72,direct_object,Ur,23,57,80,male,1.0,secondary
+88,0,said,7.0,11.0,6405.0,6409.0,76,12.0,24.0,6410.0,6422.0,,,,,verb.communication,True,74,direct_object,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+88,0,said,7.0,11.0,6405.0,6409.0,7,12.0,24.0,6410.0,6422.0,,,,,verb.communication,True,74,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+90,1,answered,31.0,39.0,6585.0,6593.0,76,40.0,44.0,6594.0,6598.0,,,,,verb.communication,True,75,direct_object,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+94,0,stop,1.0,5.0,6857.0,6861.0,7,6.0,16.0,6862.0,6872.0,,,,,verb.change,True,78,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+95,2,said,48.0,52.0,6989.0,6993.0,7,53.0,65.0,6994.0,7006.0,,,,,verb.communication,True,79,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+98,0,said,15.0,19.0,7121.0,7125.0,260,20.0,24.0,7126.0,7130.0,,,,,verb.communication,True,83,direct_object,a quick workman,1,0,1,unknown,0.0,tertiary
+98,0,said,15.0,19.0,7121.0,7125.0,76,20.0,24.0,7126.0,7130.0,,,,,verb.communication,True,83,direct_object,Lawn Dyarrig's brothers,1,13,14,male,1.0,tertiary
+98,0,said,15.0,19.0,7121.0,7125.0,7,20.0,24.0,7126.0,7130.0,,,,,verb.communication,True,83,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+101,0,said,0.0,4.0,7263.0,7267.0,7,5.0,17.0,7268.0,7280.0,18.0,46.0,,,verb.communication,True,84,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+104,4,draw,62.0,66.0,7411.0,7415.0,5,67.0,69.0,7416.0,7418.0,,,,,verb.motion,True,85,direct_object,Ur,23,57,80,male,1.0,secondary
+105,1,said,11.0,15.0,7435.0,7439.0,79,16.0,29.0,7440.0,7453.0,,,,,verb.communication,True,86,direct_object,the other two,2,2,4,unknown,0.0,tertiary
+111,1,go,10.0,12.0,7757.0,7759.0,6,13.0,19.0,7760.0,7766.0,,,,,verb.motion,True,92,direct_object,Arthur,10,4,14,unknown,0.0,tertiary
+112,0,answered,0.0,8.0,7769.0,7777.0,6,9.0,15.0,7778.0,7784.0,,,,,verb.communication,True,91,direct_object,Arthur,10,4,14,unknown,0.0,tertiary
+115,4,hope,73.0,77.0,8048.0,8052.0,7,78.0,107.0,8053.0,8082.0,,,,,verb.emotion,True,95,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+118,3,met,59.0,62.0,8318.0,8321.0,82,63.0,104.0,8322.0,8363.0,,,,,verb.motion,True,96,direct_object,seven hundred heroes guarding the country,1,0,1,unknown,0.0,tertiary
+120,0,asked,0.0,5.0,8417.0,8422.0,7,6.0,8.0,8423.0,8425.0,,,,,verb.communication,True,98,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+123,0,had,7.0,10.0,8526.0,8529.0,7,11.0,44.0,8530.0,8563.0,,,,,verb.consumption,True,97,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+125,0,faced,5.0,10.0,8667.0,8672.0,7,11.0,23.0,8673.0,8685.0,,,,,verb.competition,True,99,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+128,0,went,14.0,18.0,8873.0,8877.0,7,19.0,34.0,8878.0,8893.0,,,,,verb.motion,True,100,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+129,3,thought,41.0,48.0,8983.0,8990.0,7,49.0,51.0,8991.0,8993.0,,,,,verb.cognition,True,101,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+136,1,complaining,17.0,28.0,9581.0,9592.0,89,29.0,53.0,9593.0,9617.0,,,,,verb.communication,True,106,direct_object,the girl,2,7,9,female,1.0,tertiary
+137,2,said,19.0,23.0,9638.0,9642.0,93,24.0,32.0,9643.0,9651.0,,,,,verb.communication,True,110,direct_object,the maid,1,3,4,unknown,0.0,tertiary
+140,0,asked,0.0,5.0,9749.0,9754.0,94,6.0,14.0,9755.0,9763.0,,,,,verb.communication,True,109,direct_object,the lady,12,33,45,female,1.0,tertiary
+142,3,comes,49.0,54.0,9890.0,9895.0,251,55.0,75.0,9896.0,9916.0,,,,,verb.motion,True,111,direct_object,a hero,2,0,2,unknown,0.0,tertiary
+144,1,said,19.0,23.0,9992.0,9996.0,89,24.0,32.0,9997.0,10005.0,,,,,verb.communication,True,114,direct_object,the girl,2,7,9,female,1.0,tertiary
+147,2,left,28.0,32.0,10184.0,10188.0,7,33.0,36.0,10189.0,10192.0,,,,,verb.cognition,True,116,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+148,0,smothered,4.0,13.0,10207.0,10216.0,7,14.0,17.0,10217.0,10220.0,18.0,29.0,10221.0,10232.0,verb.contact,True,117,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+150,1,inviting,21.0,29.0,10419.0,10427.0,102,30.0,40.0,10428.0,10438.0,78.0,114.0,10476.0,10512.0,verb.consumption,True,119,direct_object,each other,4,0,4,unknown,0.0,tertiary
+151,2,brought,85.0,92.0,10599.0,10606.0,94,93.0,95.0,10607.0,10609.0,,,,,verb.motion,True,120,direct_object,the lady,12,33,45,female,1.0,tertiary
+152,1,serve,15.0,20.0,10733.0,10738.0,7,21.0,24.0,10739.0,10742.0,,,,,verb.social,True,122,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+154,2,prepare,52.0,59.0,10876.0,10883.0,7,60.0,70.0,10884.0,10894.0,,,,,verb.change,True,123,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+156,2,said,36.0,40.0,11036.0,11040.0,7,41.0,53.0,11041.0,11053.0,,,,,verb.communication,True,125,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+158,1,prepare,24.0,31.0,11164.0,11171.0,9,32.0,59.0,11172.0,11199.0,,,,,verb.change,True,126,direct_object,the Green Knight,2,0,2,unknown,0.0,tertiary
+162,0,thought,3.0,10.0,11385.0,11392.0,107,11.0,101.0,11393.0,11483.0,,,,,verb.cognition,True,128,direct_object,the brass head,1,2,3,unknown,0.0,tertiary
+162,0,thought,3.0,10.0,11385.0,11392.0,278,11.0,101.0,11393.0,11483.0,,,,,verb.cognition,True,128,direct_object,your wife,1,0,1,female,1.0,tertiary
+162,0,thought,3.0,10.0,11385.0,11392.0,279,11.0,101.0,11393.0,11483.0,,,,,verb.cognition,True,128,direct_object,a man,1,6,7,male,1.0,tertiary
+165,0,cried,0.0,5.0,11638.0,11643.0,108,6.0,16.0,11644.0,11654.0,,,,,verb.communication,True,129,direct_object,the knight,6,19,25,male,1.0,tertiary
+166,2,eat,44.0,47.0,11700.0,11703.0,279,48.0,75.0,11704.0,11731.0,,,,,verb.consumption,True,130,direct_object,a man,1,6,7,male,1.0,tertiary
+167,2,bring,55.0,60.0,11788.0,11793.0,108,61.0,70.0,11794.0,11803.0,78.0,120.0,11811.0,11853.0,verb.motion,True,132,direct_object,the knight,6,19,25,male,1.0,tertiary
+167,2,bring,55.0,60.0,11788.0,11793.0,279,61.0,70.0,11794.0,11803.0,78.0,120.0,11811.0,11853.0,verb.motion,True,132,direct_object,a man,1,6,7,male,1.0,tertiary
+169,4,said,69.0,73.0,12048.0,12052.0,108,74.0,84.0,12053.0,12063.0,,,,,verb.communication,True,133,direct_object,the knight,6,19,25,male,1.0,tertiary
+170,0,let,1.0,4.0,12066.0,12069.0,279,5.0,101.0,12070.0,12166.0,,,,,verb.social,True,134,direct_object,a man,1,6,7,male,1.0,tertiary
+170,0,let,1.0,4.0,12066.0,12069.0,108,5.0,101.0,12070.0,12166.0,,,,,verb.social,True,134,direct_object,the knight,6,19,25,male,1.0,tertiary
+170,0,let,1.0,4.0,12066.0,12069.0,282,5.0,101.0,12070.0,12166.0,,,,,verb.social,True,134,direct_object,three hundred more heroes,1,0,1,unknown,0.0,tertiary
+170,0,let,1.0,4.0,12066.0,12069.0,235,5.0,101.0,12070.0,12166.0,,,,,verb.social,True,134,direct_object,three hundred heroes,2,3,5,group/nonbinary,1.0,tertiary
+172,3,said,46.0,50.0,12382.0,12386.0,108,51.0,61.0,12387.0,12397.0,,,,,verb.communication,True,136,direct_object,the knight,6,19,25,male,1.0,tertiary
+173,2,bring,58.0,63.0,12457.0,12462.0,279,64.0,67.0,12463.0,12466.0,,,,,verb.motion,True,139,direct_object,a man,1,6,7,male,1.0,tertiary
+175,1,worn,21.0,25.0,12785.0,12789.0,7,26.0,83.0,12790.0,12847.0,,,,,verb.body,True,137,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+176,2,coaxing,47.0,54.0,12896.0,12903.0,121,55.0,62.0,12904.0,12911.0,,,,,verb.social,True,140,direct_object,the men,1,0,1,male,1.0,tertiary
+177,2,said,20.0,24.0,12988.0,12992.0,7,25.0,37.0,12993.0,13005.0,,,,,verb.communication,True,142,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+179,1,took,38.0,42.0,13164.0,13168.0,100,43.0,51.0,13169.0,13177.0,,,,,verb.contact,True,141,direct_object,the Green Knight,8,20,28,male,1.0,tertiary
+180,0,took,8.0,12.0,13229.0,13233.0,94,13.0,21.0,13234.0,13242.0,,,,,verb.contact,True,143,direct_object,the lady,12,33,45,female,1.0,tertiary
+181,1,took,49.0,53.0,13349.0,13353.0,94,54.0,57.0,13354.0,13357.0,58.0,91.0,13358.0,13391.0,verb.motion,True,144,direct_object,the lady,12,33,45,female,1.0,tertiary
+183,4,tell,50.0,54.0,13600.0,13604.0,7,55.0,58.0,13605.0,13608.0,,,,,verb.communication,True,146,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+184,8,strike,158.0,164.0,13768.0,13774.0,7,165.0,168.0,13775.0,13778.0,,,,,verb.social,True,147,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+185,3,cut,65.0,68.0,13876.0,13879.0,26,69.0,74.0,13880.0,13885.0,,,,,verb.contact,True,148,direct_object,the Father,5,3,8,male,1.0,tertiary
+185,3,cut,65.0,68.0,13876.0,13879.0,73,69.0,74.0,13880.0,13885.0,,,,,verb.contact,True,148,direct_object,Son,2,0,2,unknown,0.0,tertiary
+185,3,cut,65.0,68.0,13876.0,13879.0,10,69.0,74.0,13880.0,13885.0,,,,,verb.contact,True,148,direct_object,Holy Ghost,1,0,1,unknown,0.0,tertiary
+188,1,make,7.0,11.0,14104.0,14108.0,100,12.0,32.0,14109.0,14129.0,,,,,verb.creation,True,152,direct_object,the Green Knight,8,20,28,male,1.0,tertiary
+192,0,asked,0.0,5.0,14382.0,14387.0,108,6.0,16.0,14388.0,14398.0,,,,,verb.communication,True,156,direct_object,the knight,6,19,25,male,1.0,tertiary
+195,0,faced,11.0,16.0,14623.0,14628.0,7,17.0,20.0,14629.0,14632.0,,,,,verb.competition,True,157,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+197,2,cried,55.0,60.0,14842.0,14847.0,94,61.0,64.0,14848.0,14851.0,,,,,verb.communication,True,159,direct_object,the lady,12,33,45,female,1.0,tertiary
+200,2,struck,35.0,41.0,15046.0,15052.0,7,42.0,45.0,15053.0,15056.0,59.0,90.0,15070.0,15101.0,verb.contact,True,163,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+206,1,thought,36.0,43.0,15612.0,15619.0,7,44.0,56.0,15620.0,15632.0,,,,,verb.cognition,True,166,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+207,3,taken,40.0,45.0,15715.0,15720.0,300,46.0,53.0,15721.0,15728.0,,,,,verb.possession,True,168,direct_object,people here,1,0,1,unknown,0.0,tertiary
+207,3,taken,40.0,45.0,15715.0,15720.0,7,46.0,53.0,15721.0,15728.0,,,,,verb.possession,True,168,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+208,1,gave,34.0,38.0,15780.0,15784.0,7,39.0,42.0,15785.0,15788.0,50.0,96.0,15796.0,15842.0,verb.possession,True,167,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+211,2,said,45.0,49.0,16045.0,16049.0,5,50.0,52.0,16050.0,16052.0,,,,,verb.communication,True,171,direct_object,Ur,23,57,80,male,1.0,secondary
+211,2,said,45.0,49.0,16045.0,16049.0,94,50.0,52.0,16050.0,16052.0,,,,,verb.communication,True,171,direct_object,the lady,12,33,45,female,1.0,tertiary
+212,2,lay,43.0,46.0,16109.0,16112.0,94,47.0,53.0,16113.0,16119.0,60.0,85.0,16126.0,16151.0,verb.cognition,True,172,direct_object,the lady,12,33,45,female,1.0,tertiary
+213,2,said,56.0,60.0,16210.0,16214.0,5,61.0,63.0,16215.0,16217.0,,,,,verb.communication,True,174,direct_object,Ur,23,57,80,male,1.0,secondary
+217,2,left,18.0,22.0,16454.0,16458.0,5,23.0,30.0,16459.0,16466.0,54.0,100.0,16490.0,16536.0,verb.cognition,True,176,direct_object,Ur,23,57,80,male,1.0,secondary
+217,2,left,18.0,22.0,16454.0,16458.0,139,23.0,30.0,16459.0,16466.0,54.0,100.0,16490.0,16536.0,verb.cognition,True,176,direct_object,Lawn Dyarrig's father,4,0,4,male,1.0,tertiary
+218,0,stopped,16.0,23.0,16553.0,16560.0,5,24.0,27.0,16561.0,16564.0,,,,,verb.competition,True,177,direct_object,Ur,23,57,80,male,1.0,secondary
+222,0,asked,0.0,5.0,16786.0,16791.0,7,6.0,18.0,16792.0,16804.0,,,,,verb.communication,True,181,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+223,4,said,72.0,76.0,16878.0,16882.0,152,77.0,90.0,16883.0,16896.0,,,,,verb.communication,True,183,direct_object,Short - clothes,3,12,15,unknown,0.0,tertiary
+224,1,touched,16.0,23.0,16914.0,16921.0,152,24.0,26.0,16922.0,16924.0,,,,,verb.contact,True,182,direct_object,Short - clothes,3,12,15,unknown,0.0,tertiary
+225,2,treat,25.0,30.0,16988.0,16993.0,7,31.0,33.0,16994.0,16996.0,34.0,72.0,16997.0,17035.0,verb.social,True,184,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+226,3,said,43.0,47.0,17081.0,17085.0,7,48.0,60.0,17086.0,17098.0,,,,,verb.communication,True,186,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+227,0,caught,5.0,11.0,17105.0,17111.0,102,12.0,22.0,17112.0,17122.0,23.0,27.0,17123.0,17127.0,verb.contact,True,185,direct_object,each other,4,0,4,unknown,0.0,tertiary
+228,4,gave,92.0,96.0,17269.0,17273.0,7,97.0,100.0,17274.0,17277.0,,,,,verb.possession,True,187,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+229,3,said,41.0,45.0,17356.0,17360.0,152,46.0,59.0,17361.0,17374.0,,,,,verb.communication,True,188,direct_object,Short - clothes,3,12,15,unknown,0.0,tertiary
+230,1,spare,31.0,36.0,17406.0,17411.0,152,37.0,39.0,17412.0,17414.0,,,,,verb.possession,True,190,direct_object,Short - clothes,3,12,15,unknown,0.0,tertiary
+231,1,tell,15.0,19.0,17431.0,17435.0,7,20.0,23.0,17436.0,17439.0,,,,,verb.communication,True,189,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+231,1,tell,15.0,19.0,17431.0,17435.0,152,20.0,23.0,17436.0,17439.0,,,,,verb.communication,True,189,direct_object,Short - clothes,3,12,15,unknown,0.0,tertiary
+232,4,freed,78.0,83.0,17567.0,17572.0,7,84.0,87.0,17573.0,17576.0,,,,,verb.possession,True,192,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+233,3,allotted,69.0,77.0,17647.0,17655.0,7,78.0,84.0,17656.0,17662.0,,,,,verb.possession,True,191,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+236,3,carry,61.0,66.0,17837.0,17842.0,7,67.0,70.0,17843.0,17846.0,,,,,verb.contact,True,195,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+238,2,let,64.0,67.0,18013.0,18016.0,7,68.0,100.0,18017.0,18049.0,,,,,verb.communication,True,196,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+239,1,took,73.0,77.0,18124.0,18128.0,7,78.0,81.0,18129.0,18132.0,,,,,verb.motion,True,197,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+240,0,stopped,13.0,20.0,18155.0,18162.0,139,21.0,59.0,18163.0,18201.0,,,,,verb.motion,True,198,direct_object,Lawn Dyarrig's father,4,0,4,male,1.0,tertiary
+240,0,stopped,13.0,20.0,18155.0,18162.0,7,21.0,59.0,18163.0,18201.0,,,,,verb.motion,True,198,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+242,0,asked,0.0,5.0,18261.0,18266.0,165,6.0,17.0,18267.0,18278.0,,,,,verb.communication,True,199,direct_object,the old man,3,4,7,male,1.0,tertiary
+243,1,said,17.0,21.0,18297.0,18301.0,7,22.0,34.0,18302.0,18314.0,,,,,verb.communication,True,202,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+246,2,let,61.0,64.0,18442.0,18445.0,167,65.0,75.0,18446.0,18456.0,,,,,verb.social,True,204,direct_object,the old weaver's sons,1,2,3,group/nonbinary,1.0,tertiary
+246,2,let,61.0,64.0,18442.0,18445.0,165,65.0,75.0,18446.0,18456.0,,,,,verb.social,True,204,direct_object,the old man,3,4,7,male,1.0,tertiary
+251,4,took,84.0,88.0,18740.0,18744.0,246,89.0,129.0,18745.0,18785.0,,,,,verb.possession,True,205,direct_object,the Green Knight of Terrible Valley,2,0,2,unknown,0.0,tertiary
+252,1,said,14.0,18.0,18802.0,18806.0,7,19.0,31.0,18807.0,18819.0,,,,,verb.communication,True,208,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+253,2,suppose,37.0,44.0,18857.0,18864.0,7,45.0,69.0,18865.0,18889.0,,,,,verb.cognition,True,207,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+254,1,said,15.0,19.0,18907.0,18911.0,170,20.0,30.0,18912.0,18922.0,,,,,verb.communication,True,209,direct_object,The weaver,4,0,4,unknown,0.0,tertiary
+257,1,said,13.0,17.0,19030.0,19034.0,170,18.0,28.0,19035.0,19045.0,,,,,verb.communication,True,211,direct_object,The weaver,4,0,4,unknown,0.0,tertiary
+258,1,have,15.0,19.0,19062.0,19066.0,312,20.0,56.0,19067.0,19103.0,,,,,verb.consumption,True,210,direct_object,two sons,1,0,1,unknown,0.0,tertiary
+258,1,have,15.0,19.0,19062.0,19066.0,7,20.0,56.0,19067.0,19103.0,,,,,verb.consumption,True,210,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+261,2,sent,79.0,83.0,19260.0,19264.0,165,84.0,100.0,19265.0,19281.0,,,,,verb.motion,True,213,direct_object,the old man,3,4,7,male,1.0,tertiary
+262,2,sent,115.0,119.0,19406.0,19410.0,44,120.0,132.0,19411.0,19423.0,,,,,verb.motion,True,215,direct_object,The two,3,10,13,group/nonbinary,1.0,tertiary
+265,2,said,44.0,48.0,19680.0,19684.0,183,49.0,58.0,19685.0,19694.0,,,,,verb.communication,True,217,direct_object,the bride,7,11,18,female,1.0,tertiary
+266,4,said,55.0,59.0,19751.0,19755.0,5,60.0,62.0,19756.0,19758.0,,,,,verb.communication,True,218,direct_object,Ur,23,57,80,male,1.0,secondary
+266,4,said,55.0,59.0,19751.0,19755.0,184,60.0,62.0,19756.0,19758.0,,,,,verb.communication,True,218,direct_object,the servants,1,0,1,unknown,0.0,tertiary
+267,4,gave,98.0,102.0,19874.0,19878.0,7,103.0,105.0,19879.0,19881.0,,,,,verb.possession,True,219,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+270,2,standing,22.0,30.0,20111.0,20119.0,183,31.0,41.0,20120.0,20130.0,,,,,verb.contact,True,221,direct_object,the bride,7,11,18,female,1.0,tertiary
+271,3,said,84.0,88.0,20216.0,20220.0,52,89.0,92.0,20221.0,20224.0,,,,,verb.communication,True,223,direct_object,the King of Erin,3,0,3,male,1.0,tertiary
+271,3,said,84.0,88.0,20216.0,20220.0,183,89.0,92.0,20221.0,20224.0,,,,,verb.communication,True,223,direct_object,the bride,7,11,18,female,1.0,tertiary
+273,1,put,42.0,45.0,20322.0,20325.0,139,46.0,50.0,20326.0,20330.0,,,,,verb.contact,True,224,direct_object,Lawn Dyarrig's father,4,0,4,male,1.0,tertiary
+273,1,put,42.0,45.0,20322.0,20325.0,7,46.0,50.0,20326.0,20330.0,,,,,verb.contact,True,224,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+275,2,marry,46.0,51.0,20460.0,20465.0,193,52.0,75.0,20466.0,20489.0,,,,,verb.social,True,225,direct_object,no man,1,0,1,male,1.0,tertiary
+275,2,marry,46.0,51.0,20460.0,20465.0,7,52.0,75.0,20466.0,20489.0,,,,,verb.social,True,225,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+276,2,said,29.0,33.0,20543.0,20547.0,196,34.0,56.0,20548.0,20570.0,,,,,verb.communication,True,226,direct_object,the Queen,9,8,17,female,1.0,tertiary
+276,2,said,29.0,33.0,20543.0,20547.0,183,34.0,56.0,20548.0,20570.0,,,,,verb.communication,True,226,direct_object,the bride,7,11,18,female,1.0,tertiary
+278,0,put,10.0,13.0,20658.0,20661.0,196,14.0,23.0,20662.0,20671.0,,,,,verb.contact,True,228,direct_object,the Queen,9,8,17,female,1.0,tertiary
+279,1,said,15.0,19.0,20704.0,20708.0,196,20.0,29.0,20709.0,20718.0,,,,,verb.communication,True,230,direct_object,the Queen,9,8,17,female,1.0,tertiary
+279,1,said,15.0,19.0,20704.0,20708.0,183,20.0,29.0,20709.0,20718.0,,,,,verb.communication,True,230,direct_object,the bride,7,11,18,female,1.0,tertiary
+281,0,said,18.0,22.0,20840.0,20844.0,183,23.0,32.0,20845.0,20854.0,,,,,verb.communication,True,232,direct_object,the bride,7,11,18,female,1.0,tertiary
+282,0,thought,22.0,29.0,20878.0,20885.0,196,30.0,112.0,20886.0,20968.0,,,,,verb.cognition,True,231,direct_object,the Queen,9,8,17,female,1.0,tertiary
+284,0,cried,0.0,5.0,20997.0,21002.0,196,6.0,15.0,21003.0,21012.0,,,,,verb.communication,True,233,direct_object,the Queen,9,8,17,female,1.0,tertiary
+285,0,answer,1.0,7.0,21015.0,21021.0,196,8.0,19.0,21022.0,21033.0,20.0,28.0,,,verb.communication,True,234,direct_object,the Queen,9,8,17,female,1.0,tertiary
+287,0,said,16.0,20.0,21121.0,21125.0,196,21.0,30.0,21126.0,21135.0,,,,,verb.communication,True,236,direct_object,the Queen,9,8,17,female,1.0,tertiary
+292,0,answer,1.0,7.0,21304.0,21310.0,196,8.0,10.0,21311.0,21313.0,11.0,16.0,,,verb.communication,True,239,direct_object,the Queen,9,8,17,female,1.0,tertiary
+297,0,has,10.0,13.0,21467.0,21470.0,334,14.0,37.0,21471.0,21494.0,,,,,verb.possession,True,238,direct_object,no son,1,0,1,unknown,0.0,tertiary
+297,0,has,10.0,13.0,21467.0,21470.0,7,14.0,37.0,21471.0,21494.0,,,,,verb.possession,True,238,direct_object,Lawn Dyarrig,58,161,219,male,1.0,primary
+300,1,gave,36.0,40.0,21704.0,21708.0,13,41.0,45.0,21709.0,21713.0,,,,,verb.possession,True,240,direct_object,the King,12,11,23,male,1.0,tertiary

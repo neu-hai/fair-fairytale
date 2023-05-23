@@ -1,0 +1,144 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,owned,16.0,21.0,120.0,125.0,16,7.0,10.0,111.0,114.0,35.0,52.0,139.0,156.0,verb.possession,True,0,subject,a king,1,4,5,male,1.0,tertiary
+6,3,loved,70.0,75.0,685.0,690.0,96,45.0,47.0,660.0,662.0,82.0,102.0,697.0,717.0,verb.emotion,True,1,subject,the King,37,87,124,male,1.0,primary
+7,0,got,33.0,36.0,779.0,782.0,16,9.0,29.0,755.0,775.0,,,,,verb.possession,True,4,subject,a king,1,4,5,male,1.0,tertiary
+10,1,had,49.0,52.0,1098.0,1101.0,96,40.0,48.0,1089.0,1097.0,,,,,verb.possession,True,3,subject,the King,37,87,124,male,1.0,primary
+11,3,got,101.0,104.0,1215.0,1218.0,96,98.0,100.0,1212.0,1214.0,,,,,verb.change,True,5,subject,the King,37,87,124,male,1.0,primary
+12,4,go,65.0,67.0,1325.0,1327.0,96,53.0,55.0,1313.0,1315.0,78.0,87.0,1338.0,1347.0,verb.motion,True,6,subject,the King,37,87,124,male,1.0,primary
+20,4,know,63.0,67.0,2207.0,2211.0,103,17.0,30.0,2161.0,2174.0,,,,,verb.cognition,True,11,subject,The poor King,4,1,5,male,1.0,tertiary
+22,6,meet,283.0,287.0,2619.0,2623.0,96,280.0,282.0,2616.0,2618.0,,,,,verb.social,True,12,subject,the King,37,87,124,male,1.0,primary
+24,1,says,23.0,27.0,2829.0,2833.0,96,0.0,20.0,2806.0,2826.0,49.0,59.0,2855.0,2865.0,verb.communication,True,14,subject,the King,37,87,124,male,1.0,primary
+24,1,says,23.0,27.0,2829.0,2833.0,8,0.0,20.0,2806.0,2826.0,49.0,59.0,2855.0,2865.0,verb.communication,True,14,subject,God,5,0,5,unknown,0.0,tertiary
+27,0,says,49.0,53.0,3007.0,3011.0,43,0.0,1.0,2958.0,2959.0,,,,,verb.communication,True,16,subject,Prince,1,0,1,male,1.0,tertiary
+37,7,says,133.0,137.0,3468.0,3472.0,46,1.0,130.0,3336.0,3465.0,,,,,verb.communication,True,21,subject,private friends,1,0,1,unknown,0.0,tertiary
+37,7,says,133.0,137.0,3468.0,3472.0,96,1.0,130.0,3336.0,3465.0,,,,,verb.communication,True,21,subject,the King,37,87,124,male,1.0,primary
+38,1,says,35.0,39.0,3535.0,3539.0,114,1.0,32.0,3501.0,3532.0,,,,,verb.communication,True,22,subject,the fairies,2,0,2,unknown,0.0,tertiary
+40,2,says,43.0,47.0,3677.0,3681.0,48,1.0,40.0,3635.0,3674.0,,,,,verb.communication,True,24,subject,my gay fellow,1,0,1,unknown,0.0,tertiary
+43,2,says,50.0,54.0,3886.0,3890.0,51,0.0,47.0,3836.0,3883.0,,,,,verb.communication,True,26,subject,the saint,7,4,11,male,1.0,tertiary
+44,2,says,52.0,56.0,3954.0,3958.0,119,1.0,7.0,3903.0,3909.0,,,,,verb.communication,True,27,subject,gor,1,0,1,unknown,0.0,tertiary
+45,1,scorn,5.0,10.0,3989.0,3994.0,9,1.0,2.0,3985.0,3986.0,,,,,verb.emotion,True,28,subject,Saint Kavin,28,33,61,male,1.0,secondary
+46,4,says,59.0,63.0,4080.0,4084.0,9,0.0,4.0,4021.0,4025.0,,,,,verb.communication,True,29,subject,Saint Kavin,28,33,61,male,1.0,secondary
+46,4,says,59.0,63.0,4080.0,4084.0,121,0.0,4.0,4021.0,4025.0,,,,,verb.communication,True,29,subject,the like,2,0,2,unknown,0.0,tertiary
+49,1,says,21.0,25.0,4196.0,4200.0,54,0.0,18.0,4175.0,4193.0,,,,,verb.communication,True,32,subject,an honest man,1,0,1,male,1.0,tertiary
+49,1,says,21.0,25.0,4196.0,4200.0,96,0.0,18.0,4175.0,4193.0,,,,,verb.communication,True,32,subject,the King,37,87,124,male,1.0,primary
+50,2,make,54.0,58.0,4268.0,4272.0,55,50.0,53.0,4264.0,4267.0,,,,,verb.change,True,31,subject,honest man,1,14,15,male,1.0,tertiary
+56,1,says,37.0,41.0,4490.0,4494.0,59,0.0,34.0,4453.0,4487.0,,,,,verb.communication,True,35,subject,a tinker,1,0,1,unknown,0.0,tertiary
+57,1,say,16.0,19.0,4515.0,4518.0,55,1.0,5.0,4500.0,4504.0,,,,,verb.communication,True,36,subject,honest man,1,14,15,male,1.0,tertiary
+58,2,think,64.0,69.0,4637.0,4642.0,55,58.0,61.0,4631.0,4634.0,,,,,verb.cognition,True,37,subject,honest man,1,14,15,male,1.0,tertiary
+59,6,did,93.0,96.0,4797.0,4800.0,55,89.0,92.0,4793.0,4796.0,,,,,verb.social,True,38,subject,honest man,1,14,15,male,1.0,tertiary
+60,1,says,28.0,32.0,4883.0,4887.0,55,0.0,1.0,4855.0,4856.0,,,,,verb.communication,True,39,subject,honest man,1,14,15,male,1.0,tertiary
+61,3,says,69.0,73.0,4970.0,4974.0,55,0.0,66.0,4901.0,4967.0,,,,,verb.communication,True,40,subject,honest man,1,14,15,male,1.0,tertiary
+64,3,looking,69.0,76.0,5235.0,5242.0,96,42.0,50.0,5208.0,5216.0,,,,,verb.perception,True,42,subject,the King,37,87,124,male,1.0,primary
+65,0,says,19.0,23.0,5288.0,5292.0,96,0.0,16.0,5269.0,5285.0,,,,,verb.communication,True,43,subject,the King,37,87,124,male,1.0,primary
+66,2,says,33.0,37.0,5339.0,5343.0,96,5.0,24.0,5311.0,5330.0,,,,,verb.communication,True,44,subject,the King,37,87,124,male,1.0,primary
+67,3,say,73.0,76.0,5483.0,5486.0,96,64.0,68.0,5474.0,5478.0,,,,,verb.communication,True,45,subject,the King,37,87,124,male,1.0,primary
+72,3,says,75.0,79.0,5828.0,5832.0,51,0.0,72.0,5753.0,5825.0,,,,,verb.communication,True,49,subject,the saint,7,4,11,male,1.0,tertiary
+72,3,says,75.0,79.0,5828.0,5832.0,96,0.0,72.0,5753.0,5825.0,,,,,verb.communication,True,49,subject,the King,37,87,124,male,1.0,primary
+74,4,repair,109.0,115.0,6072.0,6078.0,9,98.0,100.0,6061.0,6063.0,,,,,verb.change,True,50,subject,Saint Kavin,28,33,61,male,1.0,secondary
+75,4,says,65.0,69.0,6172.0,6176.0,96,1.0,62.0,6108.0,6169.0,,,,,verb.communication,True,52,subject,the King,37,87,124,male,1.0,primary
+76,3,says,34.0,38.0,6224.0,6228.0,96,1.0,31.0,6191.0,6221.0,,,,,verb.communication,True,53,subject,the King,37,87,124,male,1.0,primary
+78,0,says,18.0,22.0,6276.0,6280.0,11,1.0,15.0,6259.0,6273.0,,,,,verb.communication,True,54,subject,Devil,1,0,1,unknown,0.0,tertiary
+89,3,grace,111.0,116.0,6960.0,6965.0,60,96.0,107.0,6945.0,6956.0,,,,,verb.emotion,True,60,subject,the King's dear,4,13,17,female,1.0,tertiary
+93,1,flew,82.0,86.0,7327.0,7331.0,60,5.0,8.0,7250.0,7253.0,,,,,verb.motion,True,62,subject,the King's dear,4,13,17,female,1.0,tertiary
+96,0,flew,35.0,39.0,7866.0,7870.0,60,20.0,30.0,7851.0,7861.0,,,,,verb.motion,True,63,subject,the King's dear,4,13,17,female,1.0,tertiary
+97,1,cut,46.0,49.0,8440.0,8443.0,9,0.0,2.0,8394.0,8396.0,70.0,93.0,8464.0,8487.0,verb.contact,True,64,subject,Saint Kavin,28,33,61,male,1.0,secondary
+98,2,chopped,82.0,89.0,8571.0,8578.0,9,40.0,42.0,8529.0,8531.0,94.0,243.0,8583.0,8732.0,verb.contact,True,65,subject,Saint Kavin,28,33,61,male,1.0,secondary
+104,1,say,12.0,15.0,9425.0,9428.0,96,8.0,11.0,9421.0,9424.0,,,,,verb.communication,True,70,subject,the King,37,87,124,male,1.0,primary
+106,1,says,32.0,36.0,9498.0,9502.0,96,5.0,29.0,9471.0,9495.0,,,,,verb.communication,True,71,subject,the King,37,87,124,male,1.0,primary
+107,1,give,14.0,18.0,9527.0,9531.0,96,10.0,13.0,9523.0,9526.0,,,,,verb.possession,True,72,subject,the King,37,87,124,male,1.0,primary
+109,3,says,57.0,61.0,9647.0,9651.0,9,0.0,54.0,9590.0,9644.0,67.0,73.0,9657.0,9663.0,verb.communication,True,73,subject,Saint Kavin,28,33,61,male,1.0,secondary
+109,3,says,57.0,61.0,9647.0,9651.0,96,0.0,54.0,9590.0,9644.0,67.0,73.0,9657.0,9663.0,verb.communication,True,73,subject,the King,37,87,124,male,1.0,primary
+109,3,says,57.0,61.0,9647.0,9651.0,6,0.0,54.0,9590.0,9644.0,67.0,73.0,9657.0,9663.0,verb.communication,True,73,subject,King,10,0,10,male,1.0,tertiary
+113,3,says,113.0,117.0,9900.0,9904.0,96,1.0,18.0,9788.0,9805.0,,,,,verb.communication,True,75,subject,the King,37,87,124,male,1.0,primary
+114,4,says,94.0,98.0,10003.0,10007.0,96,1.0,91.0,9910.0,10000.0,,,,,verb.communication,True,76,subject,the King,37,87,124,male,1.0,primary
+114,4,says,94.0,98.0,10003.0,10007.0,164,1.0,91.0,9910.0,10000.0,,,,,verb.communication,True,76,subject,the devil,1,0,1,unknown,0.0,tertiary
+116,3,made,103.0,107.0,10197.0,10201.0,9,100.0,102.0,10194.0,10196.0,,,,,verb.change,True,78,subject,Saint Kavin,28,33,61,male,1.0,secondary
+119,0,done,12.0,16.0,10480.0,10484.0,9,9.0,11.0,10477.0,10479.0,,,,,verb.social,True,80,subject,Saint Kavin,28,33,61,male,1.0,secondary
+120,4,distract,148.0,156.0,10713.0,10721.0,96,107.0,115.0,10672.0,10680.0,161.0,180.0,10726.0,10745.0,verb.emotion,True,82,subject,the King,37,87,124,male,1.0,primary
+121,1,came,33.0,37.0,10780.0,10784.0,96,30.0,32.0,10777.0,10779.0,57.0,98.0,10804.0,10845.0,verb.motion,True,81,subject,the King,37,87,124,male,1.0,primary
+122,0,thought,15.0,22.0,10888.0,10895.0,91,0.0,14.0,10873.0,10887.0,,,,,verb.cognition,True,83,subject,The poor goose,1,6,7,male,0.8333333333333334,tertiary
+123,1,made,35.0,39.0,10967.0,10971.0,91,22.0,31.0,10954.0,10963.0,,,,,verb.social,True,84,subject,The poor goose,1,6,7,male,0.8333333333333334,tertiary
+125,1,ate,14.0,17.0,11179.0,11182.0,91,4.0,6.0,11169.0,11171.0,23.0,88.0,11188.0,11253.0,verb.consumption,True,86,subject,The poor goose,1,6,7,male,0.8333333333333334,tertiary
+5,1,say,51.0,54.0,493.0,496.0,96,55.0,87.0,497.0,529.0,,,,,verb.communication,True,2,direct_object,the King,37,87,124,male,1.0,primary
+10,1,had,49.0,52.0,1098.0,1101.0,96,53.0,63.0,1102.0,1112.0,,,,,verb.possession,True,3,direct_object,the King,37,87,124,male,1.0,primary
+13,3,distract,64.0,72.0,1413.0,1421.0,96,73.0,76.0,1422.0,1425.0,,,,,verb.emotion,True,7,direct_object,the King,37,87,124,male,1.0,primary
+15,3,think,83.0,88.0,1690.0,1695.0,96,89.0,157.0,1696.0,1764.0,,,,,verb.cognition,True,9,direct_object,the King,37,87,124,male,1.0,primary
+16,1,distracted,97.0,107.0,1863.0,1873.0,96,108.0,116.0,1874.0,1882.0,,,,,verb.cognition,True,8,direct_object,the King,37,87,124,male,1.0,primary
+19,5,distract,152.0,160.0,2120.0,2128.0,36,161.0,164.0,2129.0,2132.0,165.0,174.0,2133.0,2142.0,verb.emotion,True,10,direct_object,the King's master,2,1,3,male,1.0,tertiary
+23,5,says,108.0,112.0,2780.0,2784.0,96,113.0,115.0,2785.0,2787.0,,,,,verb.communication,True,13,direct_object,the King,37,87,124,male,1.0,primary
+23,5,says,108.0,112.0,2780.0,2784.0,109,113.0,115.0,2785.0,2787.0,,,,,verb.communication,True,13,direct_object,the young man,2,0,2,male,1.0,tertiary
+24,1,says,23.0,27.0,2829.0,2833.0,96,28.0,48.0,2834.0,2854.0,49.0,59.0,2855.0,2865.0,verb.communication,True,14,direct_object,the King,37,87,124,male,1.0,primary
+24,1,says,23.0,27.0,2829.0,2833.0,109,28.0,48.0,2834.0,2854.0,49.0,59.0,2855.0,2865.0,verb.communication,True,14,direct_object,the young man,2,0,2,male,1.0,tertiary
+26,2,says,52.0,56.0,2949.0,2953.0,96,57.0,59.0,2954.0,2956.0,,,,,verb.communication,True,15,direct_object,the King,37,87,124,male,1.0,primary
+30,1,says,18.0,22.0,3076.0,3080.0,9,23.0,36.0,3081.0,3094.0,40.0,64.0,3098.0,3122.0,verb.communication,True,17,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+31,2,ask,29.0,32.0,3153.0,3156.0,44,34.0,65.0,3158.0,3189.0,,,,,verb.communication,True,19,direct_object,King O'Toole,2,0,2,male,1.0,tertiary
+34,0,says,0.0,4.0,3255.0,3259.0,96,5.0,13.0,3260.0,3268.0,,,,,verb.communication,True,18,direct_object,the King,37,87,124,male,1.0,primary
+36,3,says,31.0,35.0,3317.0,3321.0,9,36.0,47.0,3322.0,3333.0,,,,,verb.communication,True,20,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+37,7,says,133.0,137.0,3468.0,3472.0,96,138.0,140.0,3473.0,3475.0,,,,,verb.communication,True,21,direct_object,the King,37,87,124,male,1.0,primary
+38,1,says,35.0,39.0,3535.0,3539.0,9,40.0,51.0,3540.0,3551.0,,,,,verb.communication,True,22,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+39,3,says,25.0,29.0,3578.0,3582.0,9,30.0,32.0,3583.0,3585.0,,,,,verb.communication,True,23,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+40,2,says,43.0,47.0,3677.0,3681.0,96,48.0,56.0,3682.0,3690.0,,,,,verb.communication,True,24,direct_object,the King,37,87,124,male,1.0,primary
+42,4,says,66.0,70.0,3827.0,3831.0,96,71.0,73.0,3832.0,3834.0,,,,,verb.communication,True,25,direct_object,the King,37,87,124,male,1.0,primary
+43,2,says,50.0,54.0,3886.0,3890.0,51,55.0,64.0,3891.0,3900.0,,,,,verb.communication,True,26,direct_object,the saint,7,4,11,male,1.0,tertiary
+44,2,says,52.0,56.0,3954.0,3958.0,96,57.0,59.0,3959.0,3961.0,,,,,verb.communication,True,27,direct_object,the King,37,87,124,male,1.0,primary
+45,1,scorn,5.0,10.0,3989.0,3994.0,9,11.0,35.0,3995.0,4019.0,,,,,verb.emotion,True,28,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+45,1,scorn,5.0,10.0,3989.0,3994.0,122,11.0,35.0,3995.0,4019.0,,,,,verb.emotion,True,28,direct_object,Saint Kavin's lord,1,0,1,unknown,0.0,tertiary
+45,1,scorn,5.0,10.0,3989.0,3994.0,121,11.0,35.0,3995.0,4019.0,,,,,verb.emotion,True,28,direct_object,the like,2,0,2,unknown,0.0,tertiary
+46,4,says,59.0,63.0,4080.0,4084.0,9,64.0,66.0,4085.0,4087.0,,,,,verb.communication,True,29,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+48,1,makes,21.0,26.0,4132.0,4137.0,55,27.0,40.0,4138.0,4151.0,,,,,verb.change,True,30,direct_object,honest man,1,14,15,male,1.0,tertiary
+49,1,says,21.0,25.0,4196.0,4200.0,9,26.0,37.0,4201.0,4212.0,,,,,verb.communication,True,32,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+50,2,make,54.0,58.0,4268.0,4272.0,55,59.0,77.0,4273.0,4291.0,,,,,verb.change,True,31,direct_object,honest man,1,14,15,male,1.0,tertiary
+51,0,says,39.0,43.0,4333.0,4337.0,9,44.0,55.0,4338.0,4349.0,,,,,verb.communication,True,33,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+54,0,says,6.0,10.0,4398.0,4402.0,51,11.0,20.0,4403.0,4412.0,,,,,verb.communication,True,34,direct_object,the saint,7,4,11,male,1.0,tertiary
+58,2,think,64.0,69.0,4637.0,4642.0,125,70.0,128.0,4643.0,4701.0,,,,,verb.cognition,True,37,direct_object,the poor old King,2,0,2,male,1.0,tertiary
+60,1,says,28.0,32.0,4883.0,4887.0,9,33.0,44.0,4888.0,4899.0,,,,,verb.communication,True,39,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+61,3,says,69.0,73.0,4970.0,4974.0,9,74.0,141.0,4975.0,5042.0,,,,,verb.communication,True,40,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+61,3,says,69.0,73.0,4970.0,4974.0,96,74.0,141.0,4975.0,5042.0,,,,,verb.communication,True,40,direct_object,the King,37,87,124,male,1.0,primary
+62,1,says,24.0,28.0,5068.0,5072.0,51,29.0,38.0,5073.0,5082.0,,,,,verb.communication,True,41,direct_object,the saint,7,4,11,male,1.0,tertiary
+64,3,looking,69.0,76.0,5235.0,5242.0,96,77.0,101.0,5243.0,5267.0,,,,,verb.perception,True,42,direct_object,the King,37,87,124,male,1.0,primary
+65,0,says,19.0,23.0,5288.0,5292.0,9,24.0,35.0,5293.0,5304.0,,,,,verb.communication,True,43,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+66,2,says,33.0,37.0,5339.0,5343.0,96,38.0,40.0,5344.0,5346.0,,,,,verb.communication,True,44,direct_object,the King,37,87,124,male,1.0,primary
+68,0,try,1.0,4.0,5490.0,5493.0,9,5.0,7.0,5494.0,5496.0,,,,,verb.social,True,46,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+70,1,says,29.0,33.0,5546.0,5550.0,9,34.0,36.0,5551.0,5553.0,,,,,verb.communication,True,47,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+71,1,came,38.0,42.0,5631.0,5635.0,128,43.0,158.0,5636.0,5751.0,,,,,verb.motion,True,48,direct_object,the poor old cripple,1,1,2,male,1.0,tertiary
+71,1,came,38.0,42.0,5631.0,5635.0,96,43.0,158.0,5636.0,5751.0,,,,,verb.motion,True,48,direct_object,the King,37,87,124,male,1.0,primary
+71,1,came,38.0,42.0,5631.0,5635.0,130,43.0,158.0,5636.0,5751.0,,,,,verb.motion,True,48,direct_object,two pays,1,0,1,unknown,0.0,tertiary
+71,1,came,38.0,42.0,5631.0,5635.0,36,43.0,158.0,5636.0,5751.0,,,,,verb.motion,True,48,direct_object,the King's master,2,1,3,male,1.0,tertiary
+72,3,says,75.0,79.0,5828.0,5832.0,6,80.0,97.0,5833.0,5850.0,,,,,verb.communication,True,49,direct_object,King,10,0,10,male,1.0,tertiary
+73,3,say,54.0,57.0,5907.0,5910.0,96,58.0,107.0,5911.0,5960.0,,,,,verb.communication,True,51,direct_object,the King,37,87,124,male,1.0,primary
+73,3,say,54.0,57.0,5907.0,5910.0,132,58.0,107.0,5911.0,5960.0,,,,,verb.communication,True,51,direct_object,the cleverest fellow in the seven parishes,1,0,1,unknown,0.0,tertiary
+74,4,repair,109.0,115.0,6072.0,6078.0,96,116.0,130.0,6079.0,6093.0,,,,,verb.change,True,50,direct_object,the King,37,87,124,male,1.0,primary
+75,4,says,65.0,69.0,6172.0,6176.0,9,70.0,81.0,6177.0,6188.0,,,,,verb.communication,True,52,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+76,3,says,34.0,38.0,6224.0,6228.0,96,39.0,47.0,6229.0,6237.0,,,,,verb.communication,True,53,direct_object,the King,37,87,124,male,1.0,primary
+78,0,says,18.0,22.0,6276.0,6280.0,51,23.0,32.0,6281.0,6290.0,,,,,verb.communication,True,54,direct_object,the saint,7,4,11,male,1.0,tertiary
+80,3,make,41.0,45.0,6365.0,6369.0,96,46.0,54.0,6370.0,6378.0,,,,,verb.social,True,55,direct_object,the King,37,87,124,male,1.0,primary
+81,1,says,10.0,14.0,6509.0,6513.0,96,15.0,23.0,6514.0,6522.0,,,,,verb.communication,True,56,direct_object,the King,37,87,124,male,1.0,primary
+85,0,says,0.0,4.0,6592.0,6596.0,96,5.0,39.0,6597.0,6631.0,,,,,verb.communication,True,57,direct_object,the King,37,87,124,male,1.0,primary
+85,0,says,0.0,4.0,6592.0,6596.0,6,5.0,39.0,6597.0,6631.0,,,,,verb.communication,True,57,direct_object,King,10,0,10,male,1.0,tertiary
+86,1,says,16.0,20.0,6649.0,6653.0,9,21.0,32.0,6654.0,6665.0,33.0,43.0,6666.0,6676.0,verb.communication,True,58,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+88,4,make,102.0,106.0,6820.0,6824.0,60,107.0,128.0,6825.0,6846.0,,,,,verb.change,True,59,direct_object,the King's dear,4,13,17,female,1.0,tertiary
+91,1,givin,14.0,19.0,7062.0,7067.0,60,21.0,24.0,7069.0,7072.0,33.0,44.0,7081.0,7092.0,verb.possession,True,61,direct_object,the King's dear,4,13,17,female,1.0,tertiary
+98,2,chopped,82.0,89.0,8571.0,8578.0,74,90.0,93.0,8579.0,8582.0,94.0,243.0,8583.0,8732.0,verb.contact,True,65,direct_object,the giant,1,2,3,male,1.0,tertiary
+100,1,see,44.0,47.0,9010.0,9013.0,96,48.0,142.0,9014.0,9108.0,,,,,verb.perception,True,66,direct_object,the King,37,87,124,male,1.0,primary
+101,2,says,70.0,74.0,9209.0,9213.0,96,75.0,77.0,9214.0,9216.0,,,,,verb.communication,True,67,direct_object,the King,37,87,124,male,1.0,primary
+102,2,says,29.0,33.0,9287.0,9291.0,9,34.0,45.0,9292.0,9303.0,,,,,verb.communication,True,68,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+103,1,say,28.0,31.0,9360.0,9363.0,160,32.0,39.0,9364.0,9371.0,,,,,verb.communication,True,69,direct_object,the art o ' men,1,0,1,male,1.0,tertiary
+106,1,says,32.0,36.0,9498.0,9502.0,96,37.0,45.0,9503.0,9511.0,,,,,verb.communication,True,71,direct_object,the King,37,87,124,male,1.0,primary
+107,1,give,14.0,18.0,9527.0,9531.0,9,19.0,21.0,9532.0,9534.0,,,,,verb.possession,True,72,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+109,3,says,57.0,61.0,9647.0,9651.0,9,62.0,64.0,9652.0,9654.0,67.0,73.0,9657.0,9663.0,verb.communication,True,73,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+112,0,says,22.0,26.0,9772.0,9776.0,96,27.0,35.0,9777.0,9785.0,,,,,verb.communication,True,74,direct_object,the King,37,87,124,male,1.0,primary
+113,3,says,113.0,117.0,9900.0,9904.0,96,118.0,120.0,9905.0,9907.0,,,,,verb.communication,True,75,direct_object,the King,37,87,124,male,1.0,primary
+114,4,says,94.0,98.0,10003.0,10007.0,9,99.0,110.0,10008.0,10019.0,,,,,verb.communication,True,76,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+115,5,telling,59.0,66.0,10080.0,10087.0,96,67.0,70.0,10088.0,10091.0,,,,,verb.communication,True,77,direct_object,the King,37,87,124,male,1.0,primary
+116,3,made,103.0,107.0,10197.0,10201.0,9,108.0,133.0,10202.0,10227.0,,,,,verb.change,True,78,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+116,3,made,103.0,107.0,10197.0,10201.0,96,108.0,133.0,10202.0,10227.0,,,,,verb.change,True,78,direct_object,the King,37,87,124,male,1.0,primary
+117,1,came,46.0,50.0,10275.0,10279.0,9,65.0,94.0,10294.0,10323.0,,,,,verb.motion,True,79,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+119,0,done,12.0,16.0,10480.0,10484.0,9,17.0,29.0,10485.0,10497.0,,,,,verb.social,True,80,direct_object,Saint Kavin,28,33,61,male,1.0,secondary
+119,0,done,12.0,16.0,10480.0,10484.0,8,17.0,29.0,10485.0,10497.0,,,,,verb.social,True,80,direct_object,God,5,0,5,unknown,0.0,tertiary
+119,0,done,12.0,16.0,10480.0,10484.0,84,17.0,29.0,10485.0,10497.0,,,,,verb.social,True,80,direct_object,the old King,1,1,2,male,1.0,tertiary
+120,4,distract,148.0,156.0,10713.0,10721.0,96,157.0,160.0,10722.0,10725.0,161.0,180.0,10726.0,10745.0,verb.emotion,True,82,direct_object,the King,37,87,124,male,1.0,primary
+121,1,came,33.0,37.0,10780.0,10784.0,96,38.0,55.0,10785.0,10802.0,57.0,98.0,10804.0,10845.0,verb.motion,True,81,direct_object,the King,37,87,124,male,1.0,primary
+122,0,thought,15.0,22.0,10888.0,10895.0,91,23.0,57.0,10896.0,10930.0,,,,,verb.cognition,True,83,direct_object,The poor goose,1,6,7,male,0.8333333333333334,tertiary
+124,0,killed,89.0,95.0,11116.0,11122.0,91,96.0,136.0,11123.0,11163.0,,,,,verb.contact,True,85,direct_object,The poor goose,1,6,7,male,0.8333333333333334,tertiary
+124,0,killed,89.0,95.0,11116.0,11122.0,96,96.0,136.0,11123.0,11163.0,,,,,verb.contact,True,85,direct_object,the King,37,87,124,male,1.0,primary
+125,1,ate,14.0,17.0,11179.0,11182.0,91,18.0,21.0,11183.0,11186.0,23.0,88.0,11188.0,11253.0,verb.consumption,True,86,direct_object,The poor goose,1,6,7,male,0.8333333333333334,tertiary

@@ -1,0 +1,773 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,said,62.0,66.0,158.0,162.0,2,28.0,61.0,124.0,157.0,,,,,verb.communication,0,subject,the son of the king of Tethertown,1.0,2.0,3.0,male,1.0,tertiary
+1,1,said,62.0,66.0,158.0,162.0,3,28.0,61.0,124.0,157.0,,,,,verb.communication,0,subject,the king of Tethertown,2.0,0.0,2.0,male,1.0,tertiary
+1,6,see,120.0,123.0,216.0,219.0,2,99.0,101.0,195.0,197.0,,,,,verb.perception,3,subject,the son of the king of Tethertown,1.0,2.0,3.0,male,1.0,tertiary
+1,8,bring,138.0,143.0,234.0,239.0,2,99.0,101.0,195.0,197.0,,,,,verb.communication,1,subject,the son of the king of Tethertown,1.0,2.0,3.0,male,1.0,tertiary
+3,0,struck,5.0,11.0,419.0,425.0,5,0.0,4.0,414.0,418.0,,,,,verb.contact,2,subject,Both,1.0,0.0,1.0,unknown,0.0,tertiary
+3,8,drawn,159.0,164.0,573.0,578.0,8,144.0,158.0,558.0,572.0,,,,,verb.contact,4,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+3,8,drawn,159.0,164.0,573.0,578.0,7,144.0,158.0,558.0,572.0,,,,,verb.contact,4,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+4,2,said,72.0,76.0,714.0,718.0,9,51.0,53.0,693.0,695.0,,,,,verb.communication,5,subject,the raven,2.0,8.0,10.0,male,1.0,tertiary
+4,4,show,119.0,123.0,761.0,765.0,9,112.0,113.0,754.0,755.0,,,,,verb.perception,7,subject,the raven,2.0,8.0,10.0,male,1.0,tertiary
+7,1,see,8.0,11.0,978.0,981.0,8,4.0,7.0,974.0,977.0,,,,,verb.cognition,6,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+9,3,make,69.0,73.0,1095.0,1099.0,297,60.0,63.0,1086.0,1089.0,,,,,verb.change,9,subject,the raven's sister of mine,1.0,3.0,4.0,female,1.0,tertiary
+10,0,asks,11.0,15.0,1130.0,1134.0,297,7.0,10.0,1126.0,1129.0,,,,,verb.communication,10,subject,the raven's sister of mine,1.0,3.0,4.0,female,1.0,tertiary
+11,1,asks,34.0,38.0,1210.0,1214.0,297,30.0,33.0,1206.0,1209.0,,,,,verb.communication,12,subject,the raven's sister of mine,1.0,3.0,4.0,female,1.0,tertiary
+13,2,had,66.0,69.0,1399.0,1402.0,8,63.0,65.0,1396.0,1398.0,,,,,verb.possession,14,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+14,2,found,130.0,135.0,1628.0,1633.0,8,115.0,129.0,1613.0,1627.0,,,,,verb.perception,15,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+14,2,found,130.0,135.0,1628.0,1633.0,7,115.0,129.0,1613.0,1627.0,,,,,verb.perception,15,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+14,3,waiting,136.0,143.0,1634.0,1641.0,8,115.0,129.0,1613.0,1627.0,,,,,verb.cognition,16,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+14,3,waiting,136.0,143.0,1634.0,1641.0,7,115.0,129.0,1613.0,1627.0,,,,,verb.cognition,16,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+16,1,answered,36.0,44.0,1785.0,1793.0,25,26.0,35.0,1775.0,1784.0,,,,,verb.communication,20,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+16,4,delivered,74.0,83.0,1823.0,1832.0,25,68.0,69.0,1817.0,1818.0,,,,,verb.motion,19,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+18,4,entered,85.0,92.0,2183.0,2190.0,8,82.0,84.0,2180.0,2182.0,106.0,129.0,2204.0,2227.0,verb.motion,23,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+19,1,walked,7.0,13.0,2236.0,2242.0,8,0.0,2.0,2229.0,2231.0,,,,,verb.motion,22,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+20,0,put,10.0,13.0,2311.0,2314.0,8,7.0,9.0,2308.0,2310.0,22.0,34.0,2323.0,2335.0,verb.contact,24,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+20,1,thought,48.0,55.0,2349.0,2356.0,8,45.0,47.0,2346.0,2348.0,,,,,verb.cognition,25,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+21,2,unfastened,54.0,64.0,2432.0,2442.0,8,34.0,48.0,2412.0,2426.0,,,,,verb.contact,27,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+21,2,unfastened,54.0,64.0,2432.0,2442.0,7,34.0,48.0,2412.0,2426.0,,,,,verb.contact,27,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+22,1,saw,15.0,18.0,2470.0,2473.0,8,9.0,11.0,2464.0,2466.0,,,,,verb.perception,26,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,1,dwell,28.0,33.0,2620.0,2625.0,8,21.0,24.0,2613.0,2616.0,,,,,verb.cognition,29,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,4,wish,94.0,98.0,2686.0,2690.0,8,87.0,89.0,2679.0,2681.0,,,,,verb.emotion,31,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,6,left,106.0,110.0,2698.0,2702.0,8,99.0,101.0,2691.0,2693.0,122.0,196.0,2714.0,2788.0,verb.cognition,30,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,8,reached,143.0,150.0,2735.0,2742.0,8,136.0,138.0,2728.0,2730.0,,,,,verb.motion,28,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+25,2,glanced,48.0,55.0,2838.0,2845.0,8,45.0,47.0,2835.0,2837.0,,,,,verb.perception,33,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+26,2,said,64.0,68.0,2958.0,2962.0,306,0.0,61.0,2894.0,2955.0,,,,,verb.communication,34,subject,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+26,2,said,64.0,68.0,2958.0,2962.0,4,0.0,61.0,2894.0,2955.0,,,,,verb.communication,34,subject,king,8.0,3.0,11.0,male,1.0,tertiary
+29,1,put,36.0,39.0,3077.0,3080.0,38,34.0,35.0,3075.0,3076.0,,,,,verb.contact,37,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+33,1,said,54.0,58.0,3230.0,3234.0,307,1.0,51.0,3177.0,3227.0,,,,,verb.communication,40,subject,The first boy thou hast when he is seven years old,1.0,1.0,2.0,male,1.0,tertiary
+34,0,have,6.0,10.0,3252.0,3256.0,7,4.0,5.0,3250.0,3251.0,,,,,verb.possession,39,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+34,3,spoke,73.0,78.0,3319.0,3324.0,8,70.0,72.0,3316.0,3318.0,,,,,verb.communication,43,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+35,2,take,31.0,35.0,3417.0,3421.0,38,24.0,25.0,3410.0,3411.0,,,,,verb.motion,44,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+35,3,said,43.0,47.0,3429.0,3433.0,38,1.0,40.0,3387.0,3426.0,,,,,verb.communication,45,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+36,1,remember,44.0,52.0,3489.0,3497.0,38,37.0,38.0,3482.0,3483.0,,,,,verb.cognition,47,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+37,1,came,56.0,60.0,3559.0,3563.0,8,53.0,55.0,3556.0,3558.0,,,,,verb.motion,46,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+38,0,unloosed,10.0,18.0,3620.0,3628.0,8,7.0,9.0,3617.0,3619.0,31.0,95.0,3641.0,3705.0,verb.contact,49,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+38,3,find,54.0,58.0,3664.0,3668.0,8,44.0,46.0,3654.0,3656.0,,,,,verb.possession,50,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+40,3,opened,41.0,47.0,3756.0,3762.0,8,38.0,40.0,3753.0,3755.0,,,,,verb.contact,51,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+41,1,said,21.0,25.0,3865.0,3869.0,306,0.0,18.0,3844.0,3862.0,,,,,verb.communication,52,subject,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+41,1,said,21.0,25.0,3865.0,3869.0,4,0.0,18.0,3844.0,3862.0,,,,,verb.communication,52,subject,king,8.0,3.0,11.0,male,1.0,tertiary
+42,2,forgot,92.0,98.0,4033.0,4039.0,8,89.0,91.0,4030.0,4032.0,,,,,verb.cognition,54,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+43,3,beheld,88.0,94.0,4149.0,4155.0,8,85.0,87.0,4146.0,4148.0,105.0,132.0,4166.0,4193.0,verb.perception,56,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+43,4,striding,105.0,113.0,4166.0,4174.0,8,85.0,87.0,4146.0,4148.0,,,,,verb.motion,55,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+44,0,remembered,8.0,18.0,4203.0,4213.0,8,5.0,7.0,4200.0,4202.0,,,,,verb.cognition,57,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+44,1,remembered,36.0,46.0,4231.0,4241.0,8,5.0,7.0,4200.0,4202.0,,,,,verb.cognition,59,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+44,3,told,65.0,69.0,4260.0,4264.0,8,58.0,60.0,4253.0,4255.0,,,,,verb.communication,58,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+45,1,tell,12.0,16.0,4305.0,4309.0,8,4.0,6.0,4297.0,4299.0,,,,,verb.communication,60,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+45,3,help,44.0,48.0,4337.0,4341.0,66,34.0,37.0,4327.0,4330.0,,,,,verb.social,62,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+46,0,listened,10.0,18.0,4372.0,4380.0,66,0.0,9.0,4362.0,4371.0,,,,,verb.perception,61,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+46,2,finished,60.0,68.0,4422.0,4430.0,8,53.0,55.0,4415.0,4417.0,,,,,verb.change,63,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+46,3,said,79.0,83.0,4441.0,4445.0,66,70.0,73.0,4432.0,4435.0,,,,,verb.communication,64,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+46,5,spoke,141.0,146.0,4503.0,4508.0,66,137.0,140.0,4499.0,4502.0,,,,,verb.communication,66,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+46,6,entered,158.0,165.0,4520.0,4527.0,38,148.0,157.0,4510.0,4519.0,,,,,verb.motion,67,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+46,7,stood,179.0,184.0,4541.0,4546.0,38,148.0,157.0,4510.0,4519.0,,,,,verb.contact,68,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+47,1,cried,22.0,27.0,4582.0,4587.0,66,1.0,19.0,4561.0,4579.0,31.0,91.0,4591.0,4651.0,verb.communication,70,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+47,1,cried,22.0,27.0,4582.0,4587.0,313,1.0,19.0,4561.0,4579.0,31.0,91.0,4591.0,4651.0,verb.communication,70,subject,the queen's son,1.0,0.0,1.0,unknown,0.0,tertiary
+47,2,promised,52.0,60.0,4612.0,4620.0,66,48.0,51.0,4608.0,4611.0,64.0,91.0,4624.0,4651.0,verb.communication,69,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,0,glanced,9.0,16.0,4663.0,4670.0,7,0.0,8.0,4654.0,4662.0,,,,,verb.perception,72,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+48,1,nodded,34.0,40.0,4688.0,4694.0,73,20.0,28.0,4674.0,4682.0,,,,,verb.communication,73,subject,the king's wife,2.0,1.0,3.0,female,1.0,tertiary
+48,1,nodded,34.0,40.0,4688.0,4694.0,7,20.0,28.0,4674.0,4682.0,,,,,verb.communication,73,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+48,2,answered,48.0,56.0,4702.0,4710.0,7,45.0,47.0,4699.0,4701.0,,,,,verb.communication,74,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+48,4,put,80.0,83.0,4734.0,4737.0,314,63.0,73.0,4717.0,4727.0,,,,,verb.contact,76,subject,the cook 's son's mother,1.0,0.0,1.0,female,1.0,tertiary
+48,4,put,80.0,83.0,4734.0,4737.0,77,63.0,73.0,4717.0,4727.0,,,,,verb.contact,76,subject,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,5,left,113.0,117.0,4767.0,4771.0,66,103.0,112.0,4757.0,4766.0,,,,,verb.motion,77,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,6,took,132.0,136.0,4786.0,4790.0,66,103.0,112.0,4757.0,4766.0,,,,,verb.contact,78,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,7,dressed,156.0,163.0,4810.0,4817.0,66,103.0,112.0,4757.0,4766.0,,,,,verb.body,79,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,8,led,197.0,200.0,4851.0,4854.0,66,103.0,112.0,4757.0,4766.0,,,,,verb.motion,80,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,9,held,226.0,230.0,4880.0,4884.0,38,211.0,220.0,4865.0,4874.0,,,,,verb.contact,81,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+49,2,stopped,39.0,46.0,4977.0,4984.0,38,29.0,38.0,4967.0,4976.0,,,,,verb.motion,82,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+49,3,stretched,51.0,60.0,4989.0,4998.0,38,29.0,38.0,4967.0,4976.0,,,,,verb.motion,84,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+50,0,had,16.0,19.0,5039.0,5042.0,315,4.0,15.0,5027.0,5038.0,,,,,verb.consumption,83,subject,the boy's father,2.0,2.0,4.0,male,1.0,tertiary
+50,0,had,16.0,19.0,5039.0,5042.0,83,4.0,15.0,5027.0,5038.0,,,,,verb.consumption,83,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+52,0,had,14.0,17.0,5106.0,5109.0,316,4.0,13.0,5096.0,5105.0,,,,,verb.consumption,85,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+52,0,had,14.0,17.0,5106.0,5109.0,83,4.0,13.0,5096.0,5105.0,,,,,verb.consumption,85,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+52,2,beat,39.0,43.0,5131.0,5135.0,315,30.0,32.0,5122.0,5124.0,,,,,verb.competition,88,subject,the boy's father,2.0,2.0,4.0,male,1.0,tertiary
+52,4,replied,91.0,98.0,5183.0,5190.0,315,1.0,28.0,5093.0,5120.0,,,,,verb.communication,89,subject,the boy's father,2.0,2.0,4.0,male,1.0,tertiary
+52,4,replied,91.0,98.0,5183.0,5190.0,316,1.0,28.0,5093.0,5120.0,,,,,verb.communication,89,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+52,4,replied,91.0,98.0,5183.0,5190.0,7,1.0,28.0,5093.0,5120.0,,,,,verb.communication,89,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+52,4,replied,91.0,98.0,5183.0,5190.0,83,1.0,28.0,5093.0,5120.0,,,,,verb.communication,89,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+56,1,strode,25.0,31.0,5293.0,5299.0,38,22.0,24.0,5290.0,5292.0,,,,,verb.motion,92,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+57,0,seek,8.0,12.0,5332.0,5336.0,88,4.0,7.0,5328.0,5331.0,,,,,verb.social,93,subject,queen,1.0,1.0,2.0,female,1.0,tertiary
+57,1,trick,16.0,21.0,5340.0,5345.0,88,4.0,7.0,5328.0,5331.0,25.0,34.0,5349.0,5358.0,verb.social,94,subject,queen,1.0,1.0,2.0,female,1.0,tertiary
+57,4,said,80.0,84.0,5404.0,5408.0,38,1.0,77.0,5325.0,5401.0,,,,,verb.communication,96,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+57,4,said,80.0,84.0,5404.0,5408.0,88,1.0,77.0,5325.0,5401.0,,,,,verb.communication,96,subject,queen,1.0,1.0,2.0,female,1.0,tertiary
+57,5,trembled,112.0,120.0,5436.0,5444.0,88,93.0,111.0,5417.0,5435.0,,,,,verb.body,95,subject,queen,1.0,1.0,2.0,female,1.0,tertiary
+57,5,trembled,112.0,120.0,5436.0,5444.0,7,93.0,111.0,5417.0,5435.0,,,,,verb.body,95,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+58,1,whispered,44.0,53.0,5536.0,5545.0,322,1.0,36.0,5493.0,5528.0,,,,,verb.communication,97,subject,the butler,2.0,0.0,2.0,unknown,0.0,tertiary
+58,1,whispered,44.0,53.0,5536.0,5545.0,323,1.0,36.0,5493.0,5528.0,,,,,verb.communication,97,subject,The butler 's son,1.0,0.0,1.0,unknown,0.0,tertiary
+59,1,know,14.0,18.0,5570.0,5574.0,92,2.0,4.0,5558.0,5560.0,,,,,verb.cognition,99,subject,the child,2.0,5.0,7.0,male,1.0,tertiary
+59,2,took,44.0,48.0,5600.0,5604.0,66,40.0,43.0,5596.0,5599.0,,,,,verb.contact,98,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+59,3,dressed,63.0,70.0,5619.0,5626.0,66,40.0,43.0,5596.0,5599.0,,,,,verb.body,100,subject,the queen,4.0,8.0,12.0,female,1.0,tertiary
+59,4,let,114.0,117.0,5670.0,5673.0,38,104.0,113.0,5660.0,5669.0,,,,,verb.social,101,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+60,2,stopped,28.0,35.0,5727.0,5734.0,38,25.0,27.0,5724.0,5726.0,,,,,verb.motion,103,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+61,0,had,15.0,18.0,5773.0,5776.0,324,4.0,14.0,5762.0,5772.0,,,,,verb.possession,102,subject,the boy's father,1.0,2.0,3.0,male,1.0,tertiary
+61,0,had,15.0,18.0,5773.0,5776.0,83,4.0,14.0,5762.0,5772.0,,,,,verb.possession,102,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+63,1,beat,10.0,14.0,5841.0,5845.0,324,1.0,3.0,5832.0,5834.0,,,,,verb.competition,105,subject,the boy's father,1.0,2.0,3.0,male,1.0,tertiary
+63,3,answered,65.0,73.0,5896.0,5904.0,324,1.0,62.0,5832.0,5893.0,,,,,verb.communication,106,subject,the boy's father,1.0,2.0,3.0,male,1.0,tertiary
+63,3,answered,65.0,73.0,5896.0,5904.0,7,1.0,62.0,5832.0,5893.0,,,,,verb.communication,106,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+67,1,strode,22.0,28.0,6011.0,6017.0,38,19.0,21.0,6008.0,6010.0,,,,,verb.motion,108,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+68,6,brought,121.0,128.0,6167.0,6174.0,101,101.0,116.0,6147.0,6162.0,,,,,verb.motion,111,subject,the real prince,1.0,0.0,1.0,male,1.0,tertiary
+69,0,wept,23.0,27.0,6199.0,6203.0,102,11.0,22.0,6187.0,6198.0,,,,,verb.body,112,subject,the boy's parents,1.0,0.0,1.0,unknown,0.0,tertiary
+69,0,wept,23.0,27.0,6199.0,6203.0,83,11.0,22.0,6187.0,6198.0,,,,,verb.body,112,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+69,1,fancied,41.0,48.0,6217.0,6224.0,102,11.0,22.0,6187.0,6198.0,,,,,verb.cognition,114,subject,the boy's parents,1.0,0.0,1.0,unknown,0.0,tertiary
+69,1,fancied,41.0,48.0,6217.0,6224.0,83,11.0,22.0,6187.0,6198.0,,,,,verb.cognition,114,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+69,3,suffering,63.0,72.0,6239.0,6248.0,92,49.0,58.0,6225.0,6234.0,,,,,verb.body,113,subject,the child,2.0,5.0,7.0,male,1.0,tertiary
+69,4,treated,113.0,120.0,6289.0,6296.0,38,103.0,112.0,6279.0,6288.0,125.0,191.0,6301.0,6367.0,verb.body,115,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+69,5,allowed,159.0,166.0,6335.0,6342.0,38,150.0,152.0,6326.0,6328.0,,,,,verb.social,116,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+69,6,see,174.0,177.0,6350.0,6353.0,92,167.0,170.0,6343.0,6346.0,,,,,verb.social,117,subject,the child,2.0,5.0,7.0,male,1.0,tertiary
+70,0,grew,8.0,12.0,6377.0,6381.0,83,0.0,7.0,6369.0,6376.0,,,,,verb.change,118,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+70,2,told,52.0,56.0,6421.0,6425.0,38,42.0,51.0,6411.0,6420.0,,,,,verb.communication,119,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+70,5,amuse,83.0,88.0,6452.0,6457.0,83,66.0,68.0,6435.0,6437.0,103.0,117.0,6472.0,6486.0,verb.consumption,120,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+70,6,had,125.0,128.0,6494.0,6497.0,83,122.0,124.0,6491.0,6493.0,,,,,verb.possession,121,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+71,0,wandered,11.0,19.0,6528.0,6536.0,83,3.0,10.0,6520.0,6527.0,,,,,verb.motion,122,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+72,3,beheld,93.0,99.0,6688.0,6694.0,83,90.0,92.0,6685.0,6687.0,130.0,144.0,6725.0,6739.0,verb.perception,123,subject,the boy,5.0,18.0,23.0,male,1.0,tertiary
+73,0,see,21.0,24.0,6762.0,6765.0,113,19.0,20.0,6760.0,6761.0,,,,,verb.perception,124,subject,a girl sitting by the window,1.0,3.0,4.0,female,1.0,tertiary
+73,1,whispered,55.0,64.0,6796.0,6805.0,113,51.0,54.0,6792.0,6795.0,,,,,verb.communication,125,subject,a girl sitting by the window,1.0,3.0,4.0,female,1.0,tertiary
+74,2,bid,29.0,32.0,6915.0,6918.0,78,22.0,24.0,6908.0,6910.0,,,,,verb.emotion,126,subject,the prince,4.0,7.0,11.0,male,1.0,tertiary
+75,4,marry,115.0,120.0,7100.0,7105.0,332,83.0,96.0,7068.0,7081.0,,,,,verb.social,129,subject,the girl's two sisters,2.0,0.0,2.0,female,1.0,tertiary
+75,4,marry,115.0,120.0,7100.0,7105.0,117,83.0,96.0,7068.0,7081.0,,,,,verb.social,129,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+75,6,answer,136.0,142.0,7121.0,7127.0,78,126.0,130.0,7111.0,7115.0,,,,,verb.communication,130,subject,the prince,4.0,7.0,11.0,male,1.0,tertiary
+76,2,wishes,36.0,42.0,7209.0,7215.0,38,33.0,35.0,7206.0,7208.0,,,,,verb.emotion,131,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+76,3,betroth,46.0,53.0,7219.0,7226.0,38,33.0,35.0,7206.0,7208.0,64.0,121.0,7237.0,7294.0,verb.communication,134,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+76,4,like,106.0,110.0,7279.0,7283.0,117,104.0,105.0,7277.0,7278.0,115.0,121.0,7288.0,7294.0,verb.emotion,133,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+77,2,said,53.0,57.0,7350.0,7354.0,117,40.0,48.0,7337.0,7345.0,,,,,verb.communication,135,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+77,3,called,69.0,75.0,7366.0,7372.0,38,59.0,68.0,7356.0,7365.0,96.0,102.0,7393.0,7399.0,verb.communication,136,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+77,4,spoke,145.0,150.0,7442.0,7447.0,38,117.0,133.0,7414.0,7430.0,,,,,verb.communication,137,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+79,1,take,61.0,65.0,7583.0,7587.0,124,0.0,44.0,7522.0,7566.0,70.0,118.0,7592.0,7640.0,verb.motion,140,subject,the giant's young prince to whom he spoke,1.0,5.0,6.0,male,1.0,tertiary
+79,1,take,61.0,65.0,7583.0,7587.0,339,0.0,44.0,7522.0,7566.0,70.0,118.0,7592.0,7640.0,verb.motion,140,subject,the giant's young prince to whom he spoke's two elder daughters,1.0,0.0,1.0,male,1.0,tertiary
+79,1,take,61.0,65.0,7583.0,7587.0,338,0.0,44.0,7522.0,7566.0,70.0,118.0,7592.0,7640.0,verb.motion,140,subject,the giant's young prince to whom he spoke's of my two elder daughters,1.0,1.0,2.0,male,1.0,tertiary
+80,1,replied,32.0,39.0,7675.0,7682.0,25,1.0,8.0,7644.0,7651.0,,,,,verb.communication,141,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+80,2,darkened,72.0,80.0,7715.0,7723.0,38,55.0,71.0,7698.0,7714.0,,,,,verb.change,142,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+80,3,heard,87.0,92.0,7730.0,7735.0,38,84.0,86.0,7727.0,7729.0,,,,,verb.perception,143,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+81,3,said,35.0,39.0,7776.0,7780.0,124,1.0,32.0,7742.0,7773.0,,,,,verb.communication,144,subject,the giant's young prince to whom he spoke,1.0,5.0,6.0,male,1.0,tertiary
+82,2,do,16.0,18.0,7801.0,7803.0,78,9.0,10.0,7794.0,7795.0,,,,,verb.social,147,subject,the prince,4.0,7.0,11.0,male,1.0,tertiary
+82,3,replied,26.0,33.0,7811.0,7818.0,78,1.0,15.0,7786.0,7800.0,,,,,verb.communication,146,subject,the prince,4.0,7.0,11.0,male,1.0,tertiary
+82,4,left,60.0,64.0,7845.0,7849.0,38,50.0,59.0,7835.0,7844.0,,,,,verb.motion,148,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+82,5,bade,80.0,84.0,7865.0,7869.0,38,50.0,59.0,7835.0,7844.0,,,,,verb.communication,149,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+82,6,follow,89.0,95.0,7874.0,7880.0,38,80.0,88.0,7865.0,7873.0,,,,,verb.motion,151,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+83,1,swept,32.0,37.0,7952.0,7957.0,343,21.0,27.0,7941.0,7947.0,,,,,verb.contact,150,subject,no man,1.0,0.0,1.0,male,1.0,tertiary
+83,2,said,50.0,54.0,7970.0,7974.0,343,1.0,47.0,7921.0,7967.0,,,,,verb.communication,152,subject,no man,1.0,0.0,1.0,male,1.0,tertiary
+83,3,reach,95.0,100.0,8015.0,8020.0,38,93.0,94.0,8013.0,8014.0,,,,,verb.motion,154,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+83,5,cleaned,120.0,127.0,8040.0,8047.0,124,107.0,111.0,8027.0,8031.0,131.0,217.0,8051.0,8137.0,verb.change,153,subject,the giant's young prince to whom he spoke,1.0,5.0,6.0,male,1.0,tertiary
+83,9,pay,207.0,210.0,8127.0,8130.0,124,191.0,200.0,8111.0,8120.0,,,,,verb.possession,156,subject,the giant's young prince to whom he spoke,1.0,5.0,6.0,male,1.0,tertiary
+84,0,toiled,23.0,29.0,8163.0,8169.0,25,13.0,22.0,8153.0,8162.0,,,,,verb.emotion,155,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+84,3,tried,57.0,62.0,8197.0,8202.0,25,35.0,37.0,8175.0,8177.0,,,,,verb.social,158,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+84,4,empty,66.0,71.0,8206.0,8211.0,25,35.0,37.0,8175.0,8177.0,,,,,verb.change,157,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+85,2,move,48.0,52.0,8271.0,8275.0,25,32.0,34.0,8255.0,8257.0,,,,,verb.motion,160,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+85,3,stood,84.0,89.0,8307.0,8312.0,38,54.0,83.0,8277.0,8306.0,,,,,verb.contact,159,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+85,3,stood,84.0,89.0,8307.0,8312.0,135,54.0,83.0,8277.0,8306.0,,,,,verb.contact,159,subject,the giant 's youngest daughter,1.0,9.0,10.0,female,1.0,tertiary
+86,1,said,26.0,30.0,8355.0,8359.0,135,1.0,23.0,8330.0,8352.0,,,,,verb.communication,163,subject,the giant 's youngest daughter,1.0,9.0,10.0,female,1.0,tertiary
+86,2,thinking,56.0,64.0,8385.0,8393.0,8,31.0,54.0,8360.0,8383.0,,,,,verb.cognition,162,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+86,2,thinking,56.0,64.0,8385.0,8393.0,135,31.0,54.0,8360.0,8383.0,,,,,verb.cognition,162,subject,the giant 's youngest daughter,1.0,9.0,10.0,female,1.0,tertiary
+86,2,thinking,56.0,64.0,8385.0,8393.0,7,31.0,54.0,8360.0,8383.0,,,,,verb.cognition,162,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+86,4,die,79.0,82.0,8408.0,8411.0,8,65.0,67.0,8394.0,8396.0,,,,,verb.change,161,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+86,5,sank,89.0,93.0,8418.0,8422.0,8,65.0,67.0,8394.0,8396.0,,,,,verb.contact,164,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+87,0,woke,8.0,12.0,8483.0,8487.0,8,5.0,7.0,8480.0,8482.0,,,,,verb.body,166,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+87,2,disappeared,26.0,37.0,8501.0,8512.0,117,13.0,21.0,8488.0,8496.0,,,,,verb.change,165,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+88,0,jumped,3.0,9.0,8597.0,8603.0,8,0.0,2.0,8594.0,8596.0,,,,,verb.motion,167,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+89,0,cleaned,11.0,18.0,8669.0,8676.0,135,0.0,10.0,8658.0,8668.0,,,,,verb.contact,168,subject,the giant 's youngest daughter,1.0,9.0,10.0,female,1.0,tertiary
+91,1,cleaned,8.0,15.0,8718.0,8725.0,38,1.0,2.0,8711.0,8712.0,,,,,verb.body,170,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+91,2,answered,21.0,29.0,8731.0,8739.0,38,1.0,7.0,8711.0,8717.0,,,,,verb.communication,171,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+93,1,took,33.0,37.0,8951.0,8955.0,25,23.0,32.0,8941.0,8950.0,,,,,verb.contact,172,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+93,3,kill,76.0,80.0,8994.0,8998.0,25,23.0,32.0,8941.0,8950.0,,,,,verb.contact,173,subject,the youth,4.0,11.0,15.0,male,1.0,tertiary
+94,0,went,19.0,23.0,9029.0,9033.0,8,7.0,15.0,9017.0,9025.0,,,,,verb.motion,174,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+95,0,got,11.0,14.0,9088.0,9091.0,8,8.0,10.0,9085.0,9087.0,,,,,verb.change,175,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+96,2,die,30.0,33.0,9178.0,9181.0,8,24.0,25.0,9172.0,9173.0,,,,,verb.change,176,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+96,3,thought,36.0,43.0,9184.0,9191.0,8,1.0,33.0,9149.0,9181.0,,,,,verb.cognition,177,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+100,1,answered,8.0,16.0,9287.0,9295.0,8,1.0,2.0,9280.0,9281.0,,,,,verb.communication,181,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+101,2,wandered,25.0,33.0,9324.0,9332.0,119,23.0,24.0,9322.0,9323.0,,,,,verb.motion,180,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+102,1,said,39.0,43.0,9435.0,9439.0,8,1.0,36.0,9397.0,9432.0,,,,,verb.communication,182,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+102,3,bade,67.0,71.0,9463.0,9467.0,119,63.0,66.0,9459.0,9462.0,,,,,verb.communication,183,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+103,0,woke,8.0,12.0,9503.0,9507.0,8,5.0,7.0,9500.0,9502.0,,,,,verb.body,185,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+103,2,disappeared,26.0,37.0,9521.0,9532.0,117,13.0,21.0,9508.0,9516.0,,,,,verb.change,184,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+103,4,returned,58.0,66.0,9553.0,9561.0,8,43.0,45.0,9538.0,9540.0,,,,,verb.motion,187,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+104,1,rubbed,20.0,26.0,9595.0,9601.0,8,17.0,19.0,9592.0,9594.0,36.0,136.0,9611.0,9711.0,verb.contact,188,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+104,2,thinking,42.0,50.0,9617.0,9625.0,8,17.0,19.0,9592.0,9594.0,,,,,verb.cognition,190,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+104,4,dreaming,58.0,66.0,9633.0,9641.0,8,51.0,53.0,9626.0,9628.0,,,,,verb.creation,189,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+104,8,wished,130.0,136.0,9705.0,9711.0,38,116.0,125.0,9691.0,9700.0,,,,,verb.emotion,186,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+105,0,met,28.0,31.0,9741.0,9744.0,8,25.0,27.0,9738.0,9740.0,,,,,verb.motion,192,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+107,1,thatched,8.0,16.0,9807.0,9815.0,38,1.0,2.0,9800.0,9801.0,,,,,verb.change,193,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+108,1,have,48.0,52.0,9869.0,9873.0,8,46.0,47.0,9867.0,9868.0,,,,,verb.possession,194,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+111,0,bring,10.0,15.0,10050.0,10055.0,8,0.0,9.0,10040.0,10049.0,30.0,43.0,10070.0,10083.0,verb.contact,195,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+111,5,pay,94.0,97.0,10134.0,10137.0,8,78.0,87.0,10118.0,10127.0,,,,,verb.possession,197,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+112,1,jumped,45.0,51.0,10192.0,10198.0,8,30.0,44.0,10177.0,10191.0,,,,,verb.motion,196,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+112,1,jumped,45.0,51.0,10192.0,10198.0,7,30.0,44.0,10177.0,10191.0,,,,,verb.motion,196,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+112,2,ran,67.0,70.0,10214.0,10217.0,8,30.0,44.0,10177.0,10191.0,,,,,verb.motion,198,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+112,2,ran,67.0,70.0,10214.0,10217.0,7,30.0,44.0,10177.0,10191.0,,,,,verb.motion,198,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+114,0,walked,19.0,25.0,10394.0,10400.0,8,16.0,18.0,10391.0,10393.0,,,,,verb.motion,199,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,2,find,46.0,50.0,10421.0,10425.0,8,16.0,18.0,10391.0,10393.0,,,,,verb.possession,201,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,4,put,93.0,96.0,10468.0,10471.0,8,84.0,86.0,10459.0,10461.0,,,,,verb.contact,202,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,6,saw,150.0,153.0,10525.0,10528.0,8,142.0,144.0,10517.0,10519.0,,,,,verb.perception,203,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,4,try,75.0,78.0,10778.0,10781.0,8,67.0,69.0,10770.0,10772.0,,,,,verb.social,205,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,5,do,82.0,84.0,10785.0,10787.0,8,67.0,69.0,10770.0,10772.0,,,,,verb.social,206,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,6,try,99.0,102.0,10802.0,10805.0,8,67.0,69.0,10770.0,10772.0,110.0,144.0,10813.0,10847.0,verb.social,207,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,11,slid,196.0,200.0,10899.0,10903.0,8,193.0,195.0,10896.0,10898.0,,,,,verb.motion,204,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+117,0,climbed,8.0,15.0,10924.0,10931.0,8,5.0,7.0,10921.0,10923.0,,,,,verb.motion,208,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+117,2,came,86.0,90.0,11002.0,11006.0,8,83.0,85.0,10999.0,11001.0,,,,,verb.motion,209,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+117,3,smarted,132.0,139.0,11048.0,11055.0,8,112.0,131.0,11028.0,11047.0,,,,,verb.contact,210,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+118,4,recover,105.0,112.0,11178.0,11185.0,8,75.0,77.0,11148.0,11150.0,,,,,verb.possession,211,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+121,2,laid,35.0,39.0,11283.0,11287.0,119,31.0,34.0,11279.0,11282.0,,,,,verb.contact,214,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+121,4,put,79.0,82.0,11327.0,11330.0,119,31.0,34.0,11279.0,11282.0,,,,,verb.contact,216,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+122,0,placed,9.0,15.0,11356.0,11362.0,119,5.0,8.0,11352.0,11355.0,,,,,verb.contact,217,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+122,1,reached,69.0,76.0,11416.0,11423.0,8,66.0,68.0,11413.0,11415.0,,,,,verb.motion,219,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+123,1,cried,36.0,41.0,11506.0,11511.0,119,32.0,35.0,11502.0,11505.0,,,,,verb.communication,221,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+123,3,burning,70.0,77.0,11540.0,11547.0,316,48.0,59.0,11518.0,11529.0,,,,,verb.change,220,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+123,3,burning,70.0,77.0,11540.0,11547.0,119,48.0,59.0,11518.0,11529.0,,,,,verb.change,220,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+123,4,scrambled,100.0,109.0,11570.0,11579.0,8,92.0,96.0,11562.0,11566.0,,,,,verb.motion,223,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+123,9,obliged,207.0,214.0,11677.0,11684.0,119,199.0,202.0,11669.0,11672.0,,,,,verb.communication,224,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+123,10,leave,218.0,223.0,11688.0,11693.0,119,199.0,202.0,11669.0,11672.0,227.0,232.0,11697.0,11702.0,verb.cognition,225,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+124,1,pay,24.0,27.0,11728.0,11731.0,119,4.0,7.0,11708.0,11711.0,,,,,verb.communication,226,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+125,1,said,20.0,24.0,11811.0,11815.0,119,0.0,13.0,11791.0,11804.0,,,,,verb.communication,228,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+126,2,dressed,41.0,48.0,11858.0,11865.0,332,12.0,32.0,11829.0,11849.0,,,,,verb.body,229,subject,the girl's two sisters,2.0,0.0,2.0,female,1.0,tertiary
+126,2,dressed,41.0,48.0,11858.0,11865.0,119,12.0,32.0,11829.0,11849.0,,,,,verb.body,229,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+126,4,know,88.0,92.0,11905.0,11909.0,8,75.0,78.0,11892.0,11895.0,,,,,verb.cognition,230,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+127,0,says,19.0,23.0,11933.0,11937.0,316,9.0,18.0,11923.0,11932.0,,,,,verb.communication,231,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+127,0,says,19.0,23.0,11933.0,11937.0,119,9.0,18.0,11923.0,11932.0,,,,,verb.communication,231,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+127,1,go,25.0,27.0,11939.0,11941.0,316,9.0,18.0,11923.0,11932.0,,,,,verb.motion,232,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+127,1,go,25.0,27.0,11939.0,11941.0,119,9.0,18.0,11923.0,11932.0,,,,,verb.motion,232,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+128,0,went,6.0,10.0,12030.0,12034.0,8,3.0,5.0,12027.0,12029.0,,,,,verb.motion,234,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+128,1,gave,15.0,19.0,12039.0,12043.0,8,3.0,5.0,12027.0,12029.0,,,,,verb.possession,235,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+129,1,cried,31.0,36.0,12119.0,12124.0,356,0.0,28.0,12088.0,12116.0,,,,,verb.communication,238,subject,the one whose right hand has no little finger,1.0,2.0,3.0,unknown,0.0,tertiary
+129,5,summon,103.0,109.0,12191.0,12197.0,8,96.0,97.0,12184.0,12185.0,120.0,133.0,12208.0,12221.0,verb.communication,239,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+129,6,greet,123.0,128.0,12211.0,12216.0,8,110.0,119.0,12198.0,12207.0,,,,,verb.communication,240,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+129,6,greet,123.0,128.0,12211.0,12216.0,357,110.0,119.0,12198.0,12207.0,,,,,verb.communication,240,subject,The king 's son's bride,1.0,0.0,1.0,male,1.0,tertiary
+130,1,sent,30.0,34.0,12254.0,12258.0,8,5.0,24.0,12229.0,12248.0,,,,,verb.motion,241,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+130,1,sent,30.0,34.0,12254.0,12258.0,123,5.0,24.0,12229.0,12248.0,,,,,verb.motion,241,subject,the giant's three daughters,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+130,2,entered,53.0,60.0,12277.0,12284.0,123,44.0,52.0,12268.0,12276.0,,,,,verb.body,242,subject,the giant's three daughters,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+130,3,dressed,61.0,68.0,12285.0,12292.0,123,44.0,52.0,12268.0,12276.0,,,,,verb.body,243,subject,the giant's three daughters,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+131,0,looked,15.0,21.0,12387.0,12393.0,8,0.0,14.0,12372.0,12386.0,,,,,verb.perception,244,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+131,0,looked,15.0,21.0,12387.0,12393.0,7,0.0,14.0,12372.0,12386.0,,,,,verb.perception,244,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+133,0,fell,18.0,22.0,12457.0,12461.0,8,9.0,17.0,12448.0,12456.0,,,,,verb.motion,245,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+134,2,laid,72.0,76.0,12597.0,12601.0,8,57.0,71.0,12582.0,12596.0,,,,,verb.contact,246,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+134,2,laid,72.0,76.0,12597.0,12601.0,7,57.0,71.0,12582.0,12596.0,,,,,verb.contact,246,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+135,0,pretended,15.0,24.0,12684.0,12693.0,8,12.0,14.0,12681.0,12683.0,,,,,verb.creation,248,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+135,1,laugh,28.0,33.0,12697.0,12702.0,8,12.0,14.0,12681.0,12683.0,,,,,verb.body,249,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+135,2,saw,45.0,48.0,12714.0,12717.0,174,35.0,44.0,12704.0,12713.0,,,,,verb.perception,250,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+135,3,warned,74.0,80.0,12743.0,12749.0,8,49.0,50.0,12718.0,12719.0,,,,,verb.communication,251,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+138,2,kill,42.0,46.0,13060.0,13064.0,174,27.0,36.0,13045.0,13054.0,,,,,verb.contact,252,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+138,2,kill,42.0,46.0,13060.0,13064.0,316,27.0,36.0,13045.0,13054.0,,,,,verb.contact,252,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+138,3,whispered,58.0,67.0,13076.0,13085.0,174,54.0,57.0,13072.0,13075.0,,,,,verb.communication,253,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+138,5,save,105.0,109.0,13123.0,13127.0,174,83.0,99.0,13101.0,13117.0,116.0,131.0,13134.0,13149.0,verb.social,255,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+138,5,save,105.0,109.0,13123.0,13127.0,362,83.0,99.0,13101.0,13117.0,116.0,131.0,13134.0,13149.0,verb.social,255,subject,the bride's husband,1.0,0.0,1.0,male,1.0,tertiary
+138,7,cut,142.0,145.0,13160.0,13163.0,174,138.0,141.0,13156.0,13159.0,,,,,verb.contact,254,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+138,8,put,177.0,180.0,13195.0,13198.0,174,138.0,141.0,13156.0,13159.0,,,,,verb.contact,256,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,2,heard,32.0,37.0,13389.0,13394.0,174,28.0,31.0,13385.0,13388.0,,,,,verb.perception,257,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,5,stole,101.0,106.0,13458.0,13463.0,174,57.0,79.0,13414.0,13436.0,,,,,verb.motion,258,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,5,stole,101.0,106.0,13458.0,13463.0,8,57.0,79.0,13414.0,13436.0,,,,,verb.motion,258,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+139,5,stole,101.0,106.0,13458.0,13463.0,7,57.0,79.0,13414.0,13436.0,,,,,verb.motion,258,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+139,6,led,139.0,142.0,13496.0,13499.0,174,135.0,138.0,13492.0,13495.0,,,,,verb.motion,259,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,7,jumped,170.0,176.0,13527.0,13533.0,174,135.0,138.0,13492.0,13495.0,,,,,verb.motion,260,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,8,mounted,206.0,213.0,13563.0,13570.0,174,194.0,205.0,13551.0,13562.0,,,,,verb.contact,261,subject,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,8,mounted,206.0,213.0,13563.0,13570.0,191,194.0,205.0,13551.0,13562.0,,,,,verb.contact,261,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+140,0,awoke,26.0,31.0,13609.0,13614.0,38,16.0,25.0,13599.0,13608.0,,,,,verb.body,262,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+143,3,snoring,94.0,101.0,13738.0,13745.0,38,58.0,67.0,13702.0,13711.0,,,,,verb.body,263,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+144,0,called,14.0,20.0,13781.0,13787.0,38,0.0,10.0,13767.0,13777.0,,,,,verb.communication,264,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+147,0,called,18.0,24.0,13910.0,13916.0,38,15.0,17.0,13907.0,13909.0,40.0,54.0,13932.0,13946.0,verb.communication,265,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+148,1,put,75.0,78.0,14024.0,14027.0,38,72.0,74.0,14021.0,14023.0,92.0,111.0,14041.0,14060.0,verb.contact,266,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+148,2,received,116.0,124.0,14065.0,14073.0,38,72.0,74.0,14021.0,14023.0,,,,,verb.perception,267,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+148,3,guessed,177.0,184.0,14126.0,14133.0,38,174.0,176.0,14123.0,14125.0,,,,,verb.cognition,269,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+150,1,burning,23.0,30.0,14245.0,14252.0,316,1.0,19.0,14223.0,14241.0,,,,,verb.perception,268,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+150,1,burning,23.0,30.0,14245.0,14252.0,117,1.0,19.0,14223.0,14241.0,,,,,verb.perception,268,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+150,4,throw,130.0,135.0,14352.0,14357.0,117,101.0,128.0,14323.0,14350.0,,,,,verb.contact,272,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+151,1,threw,63.0,68.0,14438.0,14443.0,38,60.0,62.0,14435.0,14437.0,,,,,verb.contact,273,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+152,3,caught,55.0,61.0,14606.0,14612.0,199,4.0,49.0,14555.0,14600.0,,,,,verb.contact,274,subject,"the giant , who was striding headlong forwards",1.0,0.0,1.0,unknown,0.0,tertiary
+153,1,said,42.0,46.0,14696.0,14700.0,364,1.0,36.0,14655.0,14690.0,,,,,verb.communication,277,subject,the giant's daughter,3.0,0.0,3.0,unknown,0.0,tertiary
+153,1,said,42.0,46.0,14696.0,14700.0,38,1.0,36.0,14655.0,14690.0,,,,,verb.communication,277,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+153,2,had,69.0,72.0,14723.0,14726.0,38,67.0,68.0,14721.0,14722.0,,,,,verb.possession,276,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+153,5,making,123.0,129.0,14777.0,14783.0,38,103.0,104.0,14757.0,14758.0,,,,,verb.motion,278,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+154,3,laid,79.0,83.0,14950.0,14954.0,38,76.0,78.0,14947.0,14949.0,,,,,verb.contact,280,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+155,1,leave,8.0,13.0,14999.0,15004.0,38,1.0,2.0,14992.0,14993.0,19.0,38.0,15010.0,15029.0,verb.cognition,281,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+155,2,return,32.0,38.0,15023.0,15029.0,38,30.0,31.0,15021.0,15022.0,,,,,verb.motion,283,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+155,3,murmured,44.0,52.0,15035.0,15043.0,38,41.0,43.0,15032.0,15034.0,,,,,verb.communication,282,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+157,3,take,44.0,48.0,15230.0,15234.0,38,37.0,38.0,15223.0,15224.0,,,,,verb.motion,288,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+158,0,took,6.0,10.0,15253.0,15257.0,38,3.0,5.0,15250.0,15252.0,,,,,verb.motion,287,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+158,1,started,26.0,33.0,15273.0,15280.0,38,3.0,5.0,15250.0,15252.0,,,,,verb.change,290,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+159,1,burning,23.0,30.0,15327.0,15334.0,316,1.0,19.0,15305.0,15323.0,,,,,verb.change,289,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+159,1,burning,23.0,30.0,15327.0,15334.0,117,1.0,19.0,15305.0,15323.0,,,,,verb.change,289,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+160,2,found,105.0,110.0,15476.0,15481.0,8,90.0,104.0,15461.0,15475.0,,,,,verb.possession,293,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+160,2,found,105.0,110.0,15476.0,15481.0,7,90.0,104.0,15461.0,15475.0,,,,,verb.possession,293,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+160,3,threw,141.0,146.0,15512.0,15517.0,8,90.0,104.0,15461.0,15475.0,,,,,verb.contact,296,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+160,3,threw,141.0,146.0,15512.0,15517.0,7,90.0,104.0,15461.0,15475.0,,,,,verb.contact,296,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+161,2,said,64.0,68.0,15675.0,15679.0,364,1.0,61.0,15612.0,15672.0,,,,,verb.communication,297,subject,the giant's daughter,3.0,0.0,3.0,unknown,0.0,tertiary
+161,2,said,64.0,68.0,15675.0,15679.0,38,1.0,61.0,15612.0,15672.0,,,,,verb.communication,297,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+161,8,got,195.0,198.0,15806.0,15809.0,38,188.0,190.0,15799.0,15801.0,,,,,verb.contact,295,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+161,11,fetch,227.0,232.0,15838.0,15843.0,38,205.0,207.0,15816.0,15818.0,,,,,verb.contact,298,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+163,1,leave,8.0,13.0,15925.0,15930.0,38,1.0,2.0,15918.0,15919.0,,,,,verb.possession,304,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+163,2,murmured,34.0,42.0,15951.0,15959.0,38,31.0,33.0,15948.0,15950.0,49.0,69.0,15966.0,15986.0,verb.communication,303,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+163,4,finished,61.0,69.0,15978.0,15986.0,38,54.0,56.0,15971.0,15973.0,,,,,verb.change,302,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+164,5,answered,110.0,118.0,16098.0,16106.0,38,100.0,109.0,16088.0,16097.0,,,,,verb.communication,308,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+166,1,burning,23.0,30.0,16187.0,16194.0,316,0.0,19.0,16164.0,16183.0,,,,,verb.change,307,subject,the boy's father,7.0,0.0,7.0,male,1.0,tertiary
+166,1,burning,23.0,30.0,16187.0,16194.0,117,0.0,19.0,16164.0,16183.0,,,,,verb.change,307,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+167,4,looked,62.0,68.0,16282.0,16288.0,38,59.0,61.0,16279.0,16281.0,,,,,verb.perception,311,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+167,5,found,74.0,79.0,16294.0,16299.0,38,59.0,61.0,16279.0,16281.0,,,,,verb.possession,312,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+167,6,threw,119.0,124.0,16339.0,16344.0,38,80.0,108.0,16300.0,16328.0,,,,,verb.contact,313,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+168,3,stop,54.0,58.0,16439.0,16443.0,216,4.0,42.0,16389.0,16427.0,,,,,verb.motion,315,subject,"the giant , who was striding on so fast",1.0,2.0,3.0,male,1.0,tertiary
+168,4,walked,75.0,81.0,16460.0,16466.0,216,72.0,74.0,16457.0,16459.0,,,,,verb.motion,314,subject,"the giant , who was striding on so fast",1.0,2.0,3.0,male,1.0,tertiary
+168,6,drowned,112.0,119.0,16497.0,16504.0,216,72.0,74.0,16457.0,16459.0,,,,,verb.contact,316,subject,"the giant , who was striding on so fast",1.0,2.0,3.0,male,1.0,tertiary
+169,1,came,78.0,82.0,16584.0,16588.0,8,63.0,77.0,16569.0,16583.0,,,,,verb.motion,317,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+169,1,came,78.0,82.0,16584.0,16588.0,7,63.0,77.0,16569.0,16583.0,,,,,verb.motion,317,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+170,4,married,68.0,75.0,16689.0,16696.0,4,58.0,67.0,16679.0,16688.0,,,,,verb.social,319,subject,king,8.0,3.0,11.0,male,1.0,tertiary
+171,1,kiss,41.0,45.0,16742.0,16746.0,379,19.0,40.0,16720.0,16741.0,52.0,98.0,16753.0,16799.0,verb.contact,321,subject,beast,1.0,0.0,1.0,unknown,0.0,tertiary
+171,1,kiss,41.0,45.0,16742.0,16746.0,378,19.0,40.0,16720.0,16741.0,52.0,98.0,16753.0,16799.0,verb.contact,321,subject,neither man,1.0,0.0,1.0,male,1.0,tertiary
+172,1,do,8.0,10.0,16810.0,16812.0,38,1.0,2.0,16803.0,16804.0,,,,,verb.social,324,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+172,3,left,42.0,46.0,16844.0,16848.0,38,1.0,2.0,16803.0,16804.0,,,,,verb.motion,326,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+173,1,bade,16.0,20.0,16882.0,16886.0,38,0.0,15.0,16866.0,16881.0,25.0,32.0,16891.0,16898.0,verb.communication,327,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+173,2,charged,41.0,48.0,16907.0,16914.0,38,38.0,40.0,16904.0,16906.0,,,,,verb.communication,328,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+173,3,kiss,78.0,82.0,16944.0,16948.0,223,49.0,70.0,16915.0,16936.0,,,,,verb.contact,329,subject,mother,1.0,0.0,1.0,female,1.0,tertiary
+173,3,kiss,78.0,82.0,16944.0,16948.0,38,49.0,70.0,16915.0,16936.0,,,,,verb.contact,329,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+173,3,kiss,78.0,82.0,16944.0,16948.0,27,49.0,70.0,16915.0,16936.0,,,,,verb.contact,329,subject,The king 's son's father,5.0,0.0,5.0,male,1.0,tertiary
+173,4,greeted,98.0,105.0,16964.0,16971.0,38,95.0,97.0,16961.0,16963.0,135.0,146.0,17001.0,17012.0,verb.social,330,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+174,1,remember,26.0,34.0,17069.0,17077.0,38,15.0,17.0,17058.0,17060.0,,,,,verb.cognition,333,subject,the giant,38.0,88.0,126.0,male,1.0,primary
+175,0,sat,17.0,20.0,17117.0,17120.0,119,13.0,16.0,17113.0,17116.0,56.0,72.0,17156.0,17172.0,verb.contact,332,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+175,4,came,99.0,103.0,17199.0,17203.0,8,78.0,92.0,17178.0,17192.0,,,,,verb.motion,334,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+175,4,came,99.0,103.0,17199.0,17203.0,7,78.0,92.0,17178.0,17192.0,,,,,verb.motion,334,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+176,0,climbed,20.0,27.0,17225.0,17232.0,119,16.0,19.0,17221.0,17224.0,,,,,verb.motion,335,subject,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+177,0,went,74.0,78.0,17398.0,17402.0,231,26.0,73.0,17350.0,17397.0,,,,,verb.motion,336,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+177,0,went,74.0,78.0,17398.0,17402.0,232,26.0,73.0,17350.0,17397.0,,,,,verb.motion,336,subject,a shoemaker who dwelt near the well,1.0,0.0,1.0,unknown,0.0,tertiary
+177,1,draw,82.0,86.0,17406.0,17410.0,231,26.0,73.0,17350.0,17397.0,93.0,117.0,17417.0,17441.0,verb.motion,337,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+177,1,draw,82.0,86.0,17406.0,17410.0,232,26.0,73.0,17350.0,17397.0,93.0,117.0,17417.0,17441.0,verb.motion,337,subject,a shoemaker who dwelt near the well,1.0,0.0,1.0,unknown,0.0,tertiary
+177,2,drink,112.0,117.0,17436.0,17441.0,231,97.0,108.0,17421.0,17432.0,,,,,verb.consumption,338,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+177,2,drink,112.0,117.0,17436.0,17441.0,191,97.0,108.0,17421.0,17432.0,,,,,verb.consumption,338,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+177,3,saw,127.0,130.0,17451.0,17454.0,231,123.0,126.0,17447.0,17450.0,,,,,verb.perception,339,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+177,4,thought,171.0,178.0,17495.0,17502.0,231,123.0,126.0,17447.0,17450.0,,,,,verb.cognition,340,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,3,gazing,43.0,49.0,17569.0,17575.0,231,38.0,41.0,17564.0,17567.0,,,,,verb.perception,341,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,5,behold,87.0,93.0,17613.0,17619.0,231,72.0,75.0,17598.0,17601.0,102.0,108.0,17628.0,17634.0,verb.perception,343,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,9,forced,177.0,183.0,17703.0,17709.0,231,169.0,172.0,17695.0,17698.0,,,,,verb.social,344,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,10,return,187.0,193.0,17713.0,17719.0,231,169.0,172.0,17695.0,17698.0,209.0,226.0,17735.0,17752.0,verb.motion,345,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+180,2,went,59.0,63.0,17879.0,17883.0,117,50.0,58.0,17870.0,17878.0,,,,,verb.motion,350,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+182,2,held,52.0,56.0,18017.0,18021.0,231,48.0,51.0,18013.0,18016.0,,,,,verb.contact,353,subject,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+183,0,saw,7.0,10.0,18093.0,18096.0,191,0.0,2.0,18086.0,18088.0,,,,,verb.perception,355,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+183,1,looked,56.0,62.0,18142.0,18148.0,191,0.0,2.0,18086.0,18088.0,,,,,verb.perception,356,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+183,2,discover,69.0,77.0,18155.0,18163.0,191,0.0,2.0,18086.0,18088.0,,,,,verb.perception,358,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+183,4,sat,114.0,117.0,18200.0,18203.0,191,98.0,113.0,18184.0,18199.0,,,,,verb.contact,357,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+184,1,said,16.0,20.0,18259.0,18263.0,191,1.0,10.0,18244.0,18253.0,,,,,verb.communication,359,subject,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+184,3,come,97.0,101.0,18340.0,18344.0,117,81.0,89.0,18324.0,18332.0,,,,,verb.motion,360,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+185,1,marry,41.0,46.0,18387.0,18392.0,244,4.0,27.0,18350.0,18373.0,,,,,verb.social,361,subject,the king of the country,1.0,0.0,1.0,male,1.0,tertiary
+185,2,thronged,82.0,90.0,18428.0,18436.0,246,52.0,81.0,18398.0,18427.0,112.0,152.0,18458.0,18498.0,verb.emotion,362,subject,the young men about the court,1.0,2.0,3.0,male,1.0,tertiary
+186,0,said,31.0,35.0,18531.0,18535.0,383,0.0,28.0,18500.0,18528.0,,,,,verb.communication,364,subject,a pretty daughter,1.0,1.0,2.0,female,1.0,tertiary
+186,0,said,31.0,35.0,18531.0,18535.0,117,0.0,28.0,18500.0,18528.0,,,,,verb.communication,364,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+186,1,beheld,51.0,57.0,18551.0,18557.0,246,46.0,50.0,18546.0,18550.0,,,,,verb.perception,363,subject,the young men about the court,1.0,2.0,3.0,male,1.0,tertiary
+187,1,answered,17.0,25.0,18601.0,18609.0,383,1.0,14.0,18585.0,18598.0,,,,,verb.communication,365,subject,a pretty daughter,1.0,1.0,2.0,female,1.0,tertiary
+188,1,give,9.0,13.0,18661.0,18665.0,167,1.0,2.0,18653.0,18654.0,31.0,43.0,18683.0,18695.0,verb.possession,366,subject,,,,,,,
+188,2,marry,34.0,39.0,18686.0,18691.0,167,1.0,2.0,18653.0,18654.0,,,,,verb.social,367,subject,,,,,,,
+188,3,said,46.0,50.0,18698.0,18702.0,117,1.0,43.0,18653.0,18695.0,,,,,verb.communication,368,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+188,3,said,46.0,50.0,18698.0,18702.0,167,1.0,43.0,18653.0,18695.0,,,,,verb.communication,368,subject,,,,,,,
+189,0,cried,18.0,23.0,18726.0,18731.0,167,5.0,6.0,18713.0,18714.0,,,,,verb.communication,369,subject,,,,,,,
+190,2,bade,73.0,77.0,18817.0,18821.0,254,59.0,72.0,18803.0,18816.0,,,,,verb.communication,371,subject,the young men,2.0,3.0,5.0,male,1.0,tertiary
+190,3,ask,82.0,85.0,18826.0,18829.0,239,59.0,81.0,18803.0,18825.0,,,,,verb.communication,372,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+190,3,ask,82.0,85.0,18826.0,18829.0,254,59.0,81.0,18803.0,18825.0,,,,,verb.communication,372,subject,the young men,2.0,3.0,5.0,male,1.0,tertiary
+190,5,choose,103.0,109.0,18847.0,18853.0,117,93.0,96.0,18837.0,18840.0,,,,,verb.cognition,373,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+190,6,tell,144.0,148.0,18888.0,18892.0,117,93.0,96.0,18837.0,18840.0,154.0,167.0,18898.0,18911.0,verb.communication,374,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+191,0,asked,19.0,24.0,18932.0,18937.0,239,5.0,18.0,18918.0,18931.0,,,,,verb.communication,375,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+191,1,said,43.0,47.0,18956.0,18960.0,117,34.0,42.0,18947.0,18955.0,,,,,verb.communication,376,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+191,3,marry,63.0,68.0,18976.0,18981.0,117,53.0,56.0,18966.0,18969.0,,,,,verb.social,377,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+192,0,hurried,17.0,24.0,19043.0,19050.0,239,3.0,16.0,19029.0,19042.0,38.0,58.0,19064.0,19084.0,verb.motion,378,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+192,5,sought,143.0,149.0,19169.0,19175.0,239,140.0,142.0,19166.0,19168.0,,,,,verb.possession,381,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+195,1,give,15.0,19.0,19254.0,19258.0,117,1.0,13.0,19240.0,19252.0,,,,,verb.possession,383,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+196,2,move,46.0,50.0,19347.0,19351.0,239,33.0,35.0,19334.0,19336.0,,,,,verb.motion,384,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+198,4,walk,125.0,129.0,19557.0,19561.0,239,110.0,112.0,19542.0,19544.0,,,,,verb.motion,386,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+198,7,tell,178.0,182.0,19610.0,19614.0,239,167.0,169.0,19599.0,19601.0,,,,,verb.communication,389,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+199,4,said,128.0,132.0,19780.0,19784.0,117,124.0,127.0,19776.0,19779.0,,,,,verb.communication,390,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+200,0,hastened,14.0,22.0,19842.0,19850.0,271,0.0,13.0,19828.0,19841.0,,,,,verb.motion,391,subject,The young man,1.0,8.0,9.0,male,1.0,tertiary
+200,1,do,26.0,28.0,19854.0,19856.0,271,0.0,13.0,19828.0,19841.0,,,,,verb.social,392,subject,The young man,1.0,8.0,9.0,male,1.0,tertiary
+200,2,touched,60.0,67.0,19888.0,19895.0,271,57.0,59.0,19885.0,19887.0,,,,,verb.contact,393,subject,The young man,1.0,8.0,9.0,male,1.0,tertiary
+200,7,let,188.0,191.0,20016.0,20019.0,117,179.0,187.0,20007.0,20015.0,,,,,verb.contact,394,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+200,8,go,196.0,198.0,20024.0,20026.0,271,192.0,195.0,20020.0,20023.0,,,,,verb.motion,395,subject,The young man,1.0,8.0,9.0,male,1.0,tertiary
+201,2,told,39.0,43.0,20067.0,20071.0,271,36.0,38.0,20064.0,20066.0,,,,,verb.communication,398,subject,The young man,1.0,8.0,9.0,male,1.0,tertiary
+202,1,remained,49.0,57.0,20151.0,20159.0,276,40.0,48.0,20142.0,20150.0,81.0,106.0,20183.0,20208.0,verb.change,400,subject,the third man,1.0,3.0,4.0,male,1.0,tertiary
+202,2,fastened,58.0,66.0,20160.0,20168.0,276,40.0,48.0,20142.0,20150.0,81.0,106.0,20183.0,20208.0,verb.contact,399,subject,the third man,1.0,3.0,4.0,male,1.0,tertiary
+202,3,unloosed,95.0,103.0,20197.0,20205.0,117,86.0,94.0,20188.0,20196.0,,,,,verb.change,401,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+203,3,looking,45.0,52.0,20255.0,20262.0,276,16.0,18.0,20226.0,20228.0,,,,,verb.perception,403,subject,the third man,1.0,3.0,4.0,male,1.0,tertiary
+204,2,have,61.0,65.0,20336.0,20340.0,117,59.0,60.0,20334.0,20335.0,,,,,verb.possession,404,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+205,0,took,18.0,22.0,20400.0,20404.0,239,4.0,17.0,20386.0,20399.0,,,,,verb.possession,406,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+205,1,told,30.0,34.0,20412.0,20416.0,239,4.0,17.0,20386.0,20399.0,,,,,verb.communication,408,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+205,3,carry,52.0,57.0,20434.0,20439.0,239,44.0,46.0,20426.0,20428.0,68.0,100.0,20450.0,20482.0,verb.contact,407,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+206,2,get,14.0,17.0,20498.0,20501.0,117,1.0,2.0,20485.0,20486.0,44.0,61.0,20528.0,20545.0,verb.possession,409,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+206,3,marries,54.0,61.0,20538.0,20545.0,8,51.0,53.0,20535.0,20537.0,,,,,verb.social,410,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+206,4,sighed,64.0,70.0,20548.0,20554.0,8,1.0,61.0,20485.0,20545.0,,,,,verb.communication,411,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+206,4,sighed,64.0,70.0,20548.0,20554.0,117,1.0,61.0,20485.0,20545.0,,,,,verb.communication,411,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+206,4,sighed,64.0,70.0,20548.0,20554.0,7,1.0,61.0,20485.0,20545.0,,,,,verb.communication,411,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+207,1,answered,22.0,30.0,20582.0,20590.0,239,0.0,13.0,20560.0,20573.0,,,,,verb.communication,412,subject,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+208,2,let,49.0,52.0,20643.0,20646.0,389,39.0,43.0,20633.0,20637.0,,,,,verb.social,414,subject,the servants,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+208,3,stand,57.0,62.0,20651.0,20656.0,117,53.0,56.0,20647.0,20650.0,,,,,verb.contact,413,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+208,5,pass,109.0,113.0,20703.0,20707.0,8,66.0,77.0,20660.0,20671.0,,,,,verb.motion,416,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+208,5,pass,109.0,113.0,20703.0,20707.0,7,66.0,77.0,20660.0,20671.0,,,,,verb.motion,416,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+209,1,saw,51.0,54.0,20786.0,20789.0,254,37.0,50.0,20772.0,20785.0,,,,,verb.perception,415,subject,the young men,2.0,3.0,5.0,male,1.0,tertiary
+209,3,led,85.0,88.0,20820.0,20823.0,254,80.0,84.0,20815.0,20819.0,,,,,verb.motion,417,subject,the young men,2.0,3.0,5.0,male,1.0,tertiary
+209,6,poured,142.0,148.0,20877.0,20883.0,254,80.0,84.0,20815.0,20819.0,153.0,156.0,20888.0,20891.0,verb.possession,418,subject,the young men,2.0,3.0,5.0,male,1.0,tertiary
+210,1,raising,13.0,20.0,20916.0,20923.0,117,0.0,3.0,20903.0,20906.0,31.0,70.0,20934.0,20973.0,verb.motion,419,subject,the girl,19.0,40.0,59.0,female,1.0,secondary
+212,1,cleaned,32.0,39.0,21228.0,21235.0,290,30.0,31.0,21226.0,21227.0,,,,,verb.body,420,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+212,4,cooed,88.0,93.0,21284.0,21289.0,290,50.0,76.0,21246.0,21272.0,,,,,verb.communication,423,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+212,5,spoke,123.0,128.0,21319.0,21324.0,290,120.0,122.0,21316.0,21318.0,,,,,verb.communication,426,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+213,1,thatched,32.0,40.0,21423.0,21431.0,290,30.0,31.0,21421.0,21422.0,,,,,verb.change,424,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+213,4,cooed,89.0,94.0,21480.0,21485.0,290,1.0,86.0,21392.0,21477.0,113.0,118.0,21504.0,21509.0,verb.communication,428,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+213,4,cooed,89.0,94.0,21480.0,21485.0,130,1.0,86.0,21392.0,21477.0,113.0,118.0,21504.0,21509.0,verb.communication,428,subject,the byre,3.0,0.0,3.0,unknown,0.0,tertiary
+214,0,spoke,11.0,16.0,21521.0,21526.0,290,8.0,10.0,21518.0,21520.0,,,,,verb.communication,431,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+215,1,got,32.0,35.0,21644.0,21647.0,290,30.0,31.0,21642.0,21643.0,,,,,verb.possession,429,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+215,4,cooed,93.0,98.0,21705.0,21710.0,290,55.0,90.0,21667.0,21702.0,,,,,verb.communication,433,subject,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+216,0,understood,20.0,30.0,21750.0,21760.0,8,5.0,19.0,21735.0,21749.0,,,,,verb.cognition,434,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+216,0,understood,20.0,30.0,21750.0,21760.0,7,5.0,19.0,21735.0,21749.0,,,,,verb.cognition,434,subject,the king,28.0,9.0,37.0,male,1.0,tertiary
+216,5,forgotten,79.0,88.0,21809.0,21818.0,8,67.0,71.0,21797.0,21801.0,,,,,verb.cognition,435,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+216,7,knew,128.0,132.0,21858.0,21862.0,8,125.0,127.0,21855.0,21857.0,,,,,verb.cognition,437,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+216,8,kissed,147.0,153.0,21877.0,21883.0,8,125.0,127.0,21855.0,21857.0,,,,,verb.contact,438,subject,The king 's son,24.0,122.0,146.0,male,1.0,primary
+1,1,said,62.0,66.0,158.0,162.0,2,67.0,172.0,163.0,268.0,,,,,verb.communication,0,direct_object,the son of the king of Tethertown,1.0,2.0,3.0,male,1.0,tertiary
+1,1,said,62.0,66.0,158.0,162.0,4,67.0,172.0,163.0,268.0,,,,,verb.communication,0,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+1,8,bring,138.0,143.0,234.0,239.0,4,149.0,172.0,245.0,268.0,,,,,verb.communication,1,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+3,8,drawn,159.0,164.0,573.0,578.0,8,165.0,174.0,579.0,588.0,,,,,verb.contact,4,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+4,2,said,72.0,76.0,714.0,718.0,9,79.0,136.0,721.0,778.0,,,,,verb.communication,5,direct_object,the raven,2.0,8.0,10.0,male,1.0,tertiary
+4,2,said,72.0,76.0,714.0,718.0,10,79.0,136.0,721.0,778.0,,,,,verb.communication,5,direct_object,the raven's enemy,1.0,2.0,3.0,unknown,0.0,tertiary
+4,4,show,119.0,123.0,761.0,765.0,10,124.0,128.0,766.0,770.0,,,,,verb.perception,7,direct_object,the raven's enemy,1.0,2.0,3.0,unknown,0.0,tertiary
+8,0,said,0.0,4.0,1002.0,1006.0,9,5.0,14.0,1007.0,1016.0,15.0,22.0,,,verb.communication,8,direct_object,the raven,2.0,8.0,10.0,male,1.0,tertiary
+9,3,make,69.0,73.0,1095.0,1099.0,8,74.0,91.0,1100.0,1117.0,,,,,verb.change,9,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+11,2,see,52.0,55.0,1228.0,1231.0,9,56.0,67.0,1232.0,1243.0,,,,,verb.perception,11,direct_object,the raven,2.0,8.0,10.0,male,1.0,tertiary
+13,1,told,39.0,43.0,1372.0,1376.0,8,44.0,47.0,1377.0,1380.0,,,,,verb.communication,13,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+13,2,had,66.0,69.0,1399.0,1402.0,8,70.0,163.0,1403.0,1496.0,,,,,verb.possession,14,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+14,2,found,130.0,135.0,1628.0,1633.0,8,136.0,218.0,1634.0,1716.0,,,,,verb.perception,15,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+14,2,found,130.0,135.0,1628.0,1633.0,22,136.0,218.0,1634.0,1716.0,,,,,verb.perception,15,direct_object,the handsomest youth that ever was seen,1.0,1.0,2.0,male,1.0,tertiary
+14,3,waiting,136.0,143.0,1634.0,1641.0,8,144.0,191.0,1642.0,1689.0,,,,,verb.cognition,16,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+14,3,waiting,136.0,143.0,1634.0,1641.0,22,144.0,191.0,1642.0,1689.0,,,,,verb.cognition,16,direct_object,the handsomest youth that ever was seen,1.0,1.0,2.0,male,1.0,tertiary
+16,0,asked,0.0,5.0,1749.0,1754.0,8,6.0,20.0,1755.0,1769.0,,,,,verb.communication,17,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+16,0,asked,0.0,5.0,1749.0,1754.0,7,6.0,20.0,1755.0,1769.0,,,,,verb.communication,17,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+16,0,asked,0.0,5.0,1749.0,1754.0,25,6.0,20.0,1755.0,1769.0,,,,,verb.communication,17,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+16,1,answered,36.0,44.0,1785.0,1793.0,7,47.0,162.0,1796.0,1911.0,,,,,verb.communication,20,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+16,1,answered,36.0,44.0,1785.0,1793.0,25,47.0,162.0,1796.0,1911.0,,,,,verb.communication,20,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+16,4,delivered,74.0,83.0,1823.0,1832.0,7,84.0,91.0,1833.0,1840.0,,,,,verb.motion,19,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+16,4,delivered,74.0,83.0,1823.0,1832.0,25,84.0,91.0,1833.0,1840.0,,,,,verb.motion,19,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+16,5,bound,113.0,118.0,1862.0,1867.0,25,119.0,121.0,1868.0,1870.0,,,,,verb.contact,18,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+17,0,go,0.0,2.0,1913.0,1915.0,7,8.0,31.0,1921.0,1944.0,,,,,verb.motion,21,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+20,1,thought,48.0,55.0,2349.0,2356.0,8,56.0,75.0,2357.0,2376.0,,,,,verb.cognition,25,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,4,wish,94.0,98.0,2686.0,2690.0,8,99.0,196.0,2691.0,2788.0,,,,,verb.emotion,31,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,4,wish,94.0,98.0,2686.0,2690.0,27,99.0,196.0,2691.0,2788.0,,,,,verb.emotion,31,direct_object,The king 's son's father,5.0,0.0,5.0,male,1.0,tertiary
+24,8,reached,143.0,150.0,2735.0,2742.0,8,151.0,196.0,2743.0,2788.0,,,,,verb.motion,28,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+24,8,reached,143.0,150.0,2735.0,2742.0,27,151.0,196.0,2743.0,2788.0,,,,,verb.motion,28,direct_object,The king 's son's father,5.0,0.0,5.0,male,1.0,tertiary
+26,1,built,34.0,39.0,2928.0,2933.0,306,40.0,61.0,2934.0,2955.0,,,,,verb.creation,32,direct_object,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+26,1,built,34.0,39.0,2928.0,2933.0,4,40.0,61.0,2934.0,2955.0,,,,,verb.creation,32,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+26,2,said,64.0,68.0,2958.0,2962.0,38,69.0,78.0,2963.0,2972.0,,,,,verb.communication,34,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+28,3,answered,36.0,44.0,3016.0,3024.0,8,45.0,59.0,3025.0,3039.0,,,,,verb.communication,35,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+28,3,answered,36.0,44.0,3016.0,3024.0,7,45.0,59.0,3025.0,3039.0,,,,,verb.communication,35,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+29,0,give,23.0,27.0,3064.0,3068.0,38,28.0,30.0,3069.0,3071.0,31.0,61.0,3072.0,3102.0,verb.possession,36,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+30,0,asked,0.0,5.0,3105.0,3110.0,38,6.0,15.0,3111.0,3120.0,,,,,verb.communication,38,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+33,1,said,54.0,58.0,3230.0,3234.0,38,59.0,68.0,3235.0,3244.0,,,,,verb.communication,40,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+34,1,get,28.0,31.0,3274.0,3277.0,308,32.0,35.0,3278.0,3281.0,,,,,verb.possession,41,direct_object,a boy thou shalt get him,1.0,1.0,2.0,male,1.0,tertiary
+34,2,answered,38.0,46.0,3284.0,3292.0,8,47.0,61.0,3293.0,3307.0,,,,,verb.communication,42,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+34,2,answered,38.0,46.0,3284.0,3292.0,7,47.0,61.0,3293.0,3307.0,,,,,verb.communication,42,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+35,2,take,31.0,35.0,3417.0,3421.0,38,36.0,40.0,3422.0,3426.0,,,,,verb.motion,44,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+35,3,said,43.0,47.0,3429.0,3433.0,38,48.0,57.0,3434.0,3443.0,,,,,verb.communication,45,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+37,1,came,56.0,60.0,3559.0,3563.0,8,61.0,105.0,3564.0,3608.0,,,,,verb.motion,46,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+37,1,came,56.0,60.0,3559.0,3563.0,27,61.0,105.0,3564.0,3608.0,,,,,verb.motion,46,direct_object,The king 's son's father,5.0,0.0,5.0,male,1.0,tertiary
+38,1,fearing,31.0,38.0,3641.0,3648.0,8,39.0,95.0,3649.0,3705.0,,,,,verb.emotion,48,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+41,1,said,21.0,25.0,3865.0,3869.0,56,26.0,29.0,3870.0,3873.0,,,,,verb.communication,52,direct_object,the most beautiful maiden that ever was seen,1.0,1.0,2.0,female,1.0,tertiary
+42,0,proved,11.0,17.0,3952.0,3958.0,59,18.0,29.0,3959.0,3970.0,,,,,verb.cognition,53,direct_object,a good wife,1.0,0.0,1.0,female,1.0,tertiary
+42,2,forgot,92.0,98.0,4033.0,4039.0,38,99.0,118.0,4040.0,4059.0,,,,,verb.cognition,54,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+43,3,beheld,88.0,94.0,4149.0,4155.0,38,95.0,104.0,4156.0,4165.0,105.0,132.0,4166.0,4193.0,verb.perception,56,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+44,0,remembered,8.0,18.0,4203.0,4213.0,8,19.0,30.0,4214.0,4225.0,,,,,verb.cognition,57,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+44,1,remembered,36.0,46.0,4231.0,4241.0,66,53.0,96.0,4248.0,4291.0,,,,,verb.cognition,59,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+44,1,remembered,36.0,46.0,4231.0,4241.0,8,53.0,96.0,4248.0,4291.0,,,,,verb.cognition,59,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+44,3,told,65.0,69.0,4260.0,4264.0,66,70.0,79.0,4265.0,4274.0,,,,,verb.communication,58,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+45,1,tell,12.0,16.0,4305.0,4309.0,66,17.0,20.0,4310.0,4313.0,,,,,verb.communication,60,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+45,3,help,44.0,48.0,4337.0,4341.0,8,49.0,52.0,4342.0,4345.0,,,,,verb.social,62,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+46,0,listened,10.0,18.0,4372.0,4380.0,8,30.0,41.0,4392.0,4403.0,,,,,verb.perception,61,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+46,3,said,79.0,83.0,4441.0,4445.0,66,86.0,196.0,4448.0,4558.0,,,,,verb.communication,64,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+46,3,said,79.0,83.0,4441.0,4445.0,38,86.0,196.0,4448.0,4558.0,,,,,verb.communication,64,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+46,4,leave,86.0,91.0,4448.0,4453.0,66,92.0,127.0,4454.0,4489.0,,,,,verb.communication,65,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+46,4,leave,86.0,91.0,4448.0,4453.0,38,92.0,127.0,4454.0,4489.0,,,,,verb.communication,65,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+47,0,bring,1.0,6.0,4561.0,4566.0,66,11.0,19.0,4571.0,4579.0,,,,,verb.motion,71,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+47,0,bring,1.0,6.0,4561.0,4566.0,313,11.0,19.0,4571.0,4579.0,,,,,verb.motion,71,direct_object,the queen's son,1.0,0.0,1.0,unknown,0.0,tertiary
+47,1,cried,22.0,27.0,4582.0,4587.0,8,28.0,30.0,4588.0,4590.0,31.0,91.0,4591.0,4651.0,verb.communication,70,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+47,2,promised,52.0,60.0,4612.0,4620.0,8,61.0,63.0,4621.0,4623.0,64.0,91.0,4624.0,4651.0,verb.communication,69,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+48,0,glanced,9.0,16.0,4663.0,4670.0,73,17.0,40.0,4671.0,4694.0,,,,,verb.perception,72,direct_object,the king's wife,2.0,1.0,3.0,female,1.0,tertiary
+48,0,glanced,9.0,16.0,4663.0,4670.0,7,17.0,40.0,4671.0,4694.0,,,,,verb.perception,72,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+48,2,answered,48.0,56.0,4702.0,4710.0,78,59.0,282.0,4713.0,4936.0,,,,,verb.communication,74,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+48,2,answered,48.0,56.0,4702.0,4710.0,314,59.0,282.0,4713.0,4936.0,,,,,verb.communication,74,direct_object,the cook 's son's mother,1.0,0.0,1.0,female,1.0,tertiary
+48,2,answered,48.0,56.0,4702.0,4710.0,66,59.0,282.0,4713.0,4936.0,,,,,verb.communication,74,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,2,answered,48.0,56.0,4702.0,4710.0,38,59.0,282.0,4713.0,4936.0,,,,,verb.communication,74,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+48,2,answered,48.0,56.0,4702.0,4710.0,76,59.0,282.0,4713.0,4936.0,,,,,verb.communication,74,direct_object,the cook,2.0,0.0,2.0,unknown,0.0,tertiary
+48,2,answered,48.0,56.0,4702.0,4710.0,77,59.0,282.0,4713.0,4936.0,,,,,verb.communication,74,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,3,let,59.0,62.0,4713.0,4716.0,78,63.0,191.0,4717.0,4845.0,,,,,verb.social,75,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+48,3,let,59.0,62.0,4713.0,4716.0,314,63.0,191.0,4717.0,4845.0,,,,,verb.social,75,direct_object,the cook 's son's mother,1.0,0.0,1.0,female,1.0,tertiary
+48,3,let,59.0,62.0,4713.0,4716.0,66,63.0,191.0,4717.0,4845.0,,,,,verb.social,75,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+48,3,let,59.0,62.0,4713.0,4716.0,76,63.0,191.0,4717.0,4845.0,,,,,verb.social,75,direct_object,the cook,2.0,0.0,2.0,unknown,0.0,tertiary
+48,3,let,59.0,62.0,4713.0,4716.0,77,63.0,191.0,4717.0,4845.0,,,,,verb.social,75,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,4,put,80.0,83.0,4734.0,4737.0,77,84.0,87.0,4738.0,4741.0,,,,,verb.contact,76,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,6,took,132.0,136.0,4786.0,4790.0,76,137.0,151.0,4791.0,4805.0,,,,,verb.contact,78,direct_object,the cook,2.0,0.0,2.0,unknown,0.0,tertiary
+48,6,took,132.0,136.0,4786.0,4790.0,77,137.0,151.0,4791.0,4805.0,,,,,verb.contact,78,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,7,dressed,156.0,163.0,4810.0,4817.0,78,164.0,167.0,4818.0,4821.0,,,,,verb.body,79,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+48,7,dressed,156.0,163.0,4810.0,4817.0,77,164.0,167.0,4818.0,4821.0,,,,,verb.body,79,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,8,led,197.0,200.0,4851.0,4854.0,38,201.0,204.0,4855.0,4858.0,,,,,verb.motion,80,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+48,8,led,197.0,200.0,4851.0,4854.0,77,201.0,204.0,4855.0,4858.0,,,,,verb.motion,80,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+48,9,held,226.0,230.0,4880.0,4884.0,77,231.0,239.0,4885.0,4893.0,,,,,verb.contact,81,direct_object,the cook 's son,2.0,5.0,7.0,male,1.0,tertiary
+49,3,stretched,51.0,60.0,4989.0,4998.0,83,65.0,72.0,5003.0,5010.0,,,,,verb.motion,84,direct_object,the boy,5.0,18.0,23.0,male,1.0,tertiary
+51,0,asked,0.0,5.0,5082.0,5087.0,83,6.0,8.0,5088.0,5090.0,,,,,verb.communication,86,direct_object,the boy,5.0,18.0,23.0,male,1.0,tertiary
+52,2,beat,39.0,43.0,5131.0,5135.0,7,44.0,88.0,5136.0,5180.0,,,,,verb.competition,88,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+52,3,steal,67.0,72.0,5159.0,5164.0,7,73.0,88.0,5165.0,5180.0,,,,,verb.possession,87,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+52,4,replied,91.0,98.0,5183.0,5190.0,83,99.0,106.0,5191.0,5198.0,,,,,verb.communication,89,direct_object,the boy,5.0,18.0,23.0,male,1.0,tertiary
+54,0,cried,0.0,5.0,5227.0,5232.0,38,6.0,15.0,5233.0,5242.0,,,,,verb.communication,90,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+56,0,turning,5.0,12.0,5273.0,5280.0,38,13.0,16.0,5281.0,5284.0,17.0,21.0,,,verb.motion,91,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+57,0,seek,8.0,12.0,5332.0,5336.0,38,13.0,34.0,5337.0,5358.0,,,,,verb.social,93,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+57,1,trick,16.0,21.0,5340.0,5345.0,38,22.0,24.0,5346.0,5348.0,25.0,34.0,5349.0,5358.0,verb.social,94,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+57,4,said,80.0,84.0,5404.0,5408.0,38,85.0,87.0,5409.0,5411.0,,,,,verb.communication,96,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+57,4,said,80.0,84.0,5404.0,5408.0,88,85.0,87.0,5409.0,5411.0,,,,,verb.communication,96,direct_object,queen,1.0,1.0,2.0,female,1.0,tertiary
+57,4,said,80.0,84.0,5404.0,5408.0,7,85.0,87.0,5409.0,5411.0,,,,,verb.communication,96,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+58,1,whispered,44.0,53.0,5536.0,5545.0,66,54.0,63.0,5546.0,5555.0,,,,,verb.communication,97,direct_object,the queen,4.0,8.0,12.0,female,1.0,tertiary
+59,2,took,44.0,48.0,5600.0,5604.0,92,49.0,58.0,5605.0,5614.0,,,,,verb.contact,98,direct_object,the child,2.0,5.0,7.0,male,1.0,tertiary
+59,3,dressed,63.0,70.0,5619.0,5626.0,78,71.0,74.0,5627.0,5630.0,,,,,verb.body,100,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+59,3,dressed,63.0,70.0,5619.0,5626.0,92,71.0,74.0,5627.0,5630.0,,,,,verb.body,100,direct_object,the child,2.0,5.0,7.0,male,1.0,tertiary
+59,4,let,114.0,117.0,5670.0,5673.0,92,118.0,141.0,5674.0,5697.0,,,,,verb.social,101,direct_object,the child,2.0,5.0,7.0,male,1.0,tertiary
+63,1,beat,10.0,14.0,5841.0,5845.0,7,15.0,62.0,5846.0,5893.0,,,,,verb.competition,105,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+63,2,break,38.0,43.0,5869.0,5874.0,7,44.0,62.0,5875.0,5893.0,,,,,verb.change,104,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+63,3,answered,65.0,73.0,5896.0,5904.0,83,74.0,81.0,5905.0,5912.0,,,,,verb.communication,106,direct_object,the boy,5.0,18.0,23.0,male,1.0,tertiary
+67,0,turning,5.0,12.0,5994.0,6001.0,38,13.0,18.0,6002.0,6007.0,,,,,verb.motion,107,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+68,0,bring,1.0,6.0,6047.0,6052.0,38,11.0,18.0,6057.0,6064.0,19.0,26.0,,,verb.motion,109,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+68,0,bring,1.0,6.0,6047.0,6052.0,330,11.0,18.0,6057.0,6064.0,19.0,26.0,,,verb.motion,109,direct_object,the giant's son,1.0,0.0,1.0,unknown,0.0,tertiary
+68,1,roared,29.0,35.0,6075.0,6081.0,38,36.0,38.0,6082.0,6084.0,,,,,verb.communication,110,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+69,1,fancied,41.0,48.0,6217.0,6224.0,92,49.0,58.0,6225.0,6234.0,,,,,verb.cognition,114,direct_object,the child,2.0,5.0,7.0,male,1.0,tertiary
+69,4,treated,113.0,120.0,6289.0,6296.0,92,121.0,124.0,6297.0,6300.0,125.0,191.0,6301.0,6367.0,verb.body,115,direct_object,the child,2.0,5.0,7.0,male,1.0,tertiary
+69,5,allowed,159.0,166.0,6335.0,6342.0,38,167.0,191.0,6343.0,6367.0,,,,,verb.social,116,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+69,5,allowed,159.0,166.0,6335.0,6342.0,106,167.0,191.0,6343.0,6367.0,,,,,verb.social,116,direct_object,the giant's daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+69,5,allowed,159.0,166.0,6335.0,6342.0,92,167.0,191.0,6343.0,6367.0,,,,,verb.social,116,direct_object,the child,2.0,5.0,7.0,male,1.0,tertiary
+69,6,see,174.0,177.0,6350.0,6353.0,38,178.0,191.0,6354.0,6367.0,,,,,verb.social,117,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+69,6,see,174.0,177.0,6350.0,6353.0,106,178.0,191.0,6354.0,6367.0,,,,,verb.social,117,direct_object,the giant's daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+70,2,told,52.0,56.0,6421.0,6425.0,83,57.0,60.0,6426.0,6429.0,,,,,verb.communication,119,direct_object,the boy,5.0,18.0,23.0,male,1.0,tertiary
+70,5,amuse,83.0,88.0,6452.0,6457.0,83,89.0,102.0,6458.0,6471.0,103.0,117.0,6472.0,6486.0,verb.consumption,120,direct_object,the boy,5.0,18.0,23.0,male,1.0,tertiary
+72,3,beheld,93.0,99.0,6688.0,6694.0,113,100.0,128.0,6695.0,6723.0,130.0,144.0,6725.0,6739.0,verb.perception,123,direct_object,a girl sitting by the window,1.0,3.0,4.0,female,1.0,tertiary
+73,0,see,21.0,24.0,6762.0,6765.0,38,25.0,48.0,6766.0,6789.0,,,,,verb.perception,124,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+75,0,said,13.0,17.0,6998.0,7002.0,38,18.0,56.0,7003.0,7041.0,,,,,verb.communication,127,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+75,0,said,13.0,17.0,6998.0,7002.0,117,18.0,56.0,7003.0,7041.0,,,,,verb.communication,127,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+75,0,said,13.0,17.0,6998.0,7002.0,119,18.0,56.0,7003.0,7041.0,,,,,verb.communication,127,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+75,3,get,79.0,82.0,7064.0,7067.0,332,83.0,120.0,7068.0,7105.0,,,,,verb.change,128,direct_object,the girl's two sisters,2.0,0.0,2.0,female,1.0,tertiary
+75,3,get,79.0,82.0,7064.0,7067.0,117,83.0,120.0,7068.0,7105.0,,,,,verb.change,128,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+75,6,answer,136.0,142.0,7121.0,7127.0,78,143.0,173.0,7128.0,7158.0,,,,,verb.communication,130,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+76,1,anger,10.0,15.0,7183.0,7188.0,38,16.0,19.0,7189.0,7192.0,20.0,121.0,7193.0,7294.0,verb.emotion,132,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+76,2,wishes,36.0,42.0,7209.0,7215.0,334,43.0,56.0,7216.0,7229.0,,,,,verb.emotion,131,direct_object,the king of the Green City,1.0,0.0,1.0,male,1.0,tertiary
+76,2,wishes,36.0,42.0,7209.0,7215.0,333,43.0,56.0,7216.0,7229.0,,,,,verb.emotion,131,direct_object,"the son of the king of the Green City , whom I like not at all",1.0,0.0,1.0,male,1.0,tertiary
+76,2,wishes,36.0,42.0,7209.0,7215.0,117,43.0,56.0,7216.0,7229.0,,,,,verb.emotion,131,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+76,3,betroth,46.0,53.0,7219.0,7226.0,117,54.0,56.0,7227.0,7229.0,64.0,121.0,7237.0,7294.0,verb.communication,134,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+77,3,called,69.0,75.0,7366.0,7372.0,38,76.0,95.0,7373.0,7392.0,96.0,102.0,7393.0,7399.0,verb.communication,136,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+77,3,called,69.0,75.0,7366.0,7372.0,123,76.0,95.0,7373.0,7392.0,96.0,102.0,7393.0,7399.0,verb.communication,136,direct_object,the giant's three daughters,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+79,0,choose,0.0,6.0,7522.0,7528.0,124,7.0,36.0,7529.0,7558.0,,,,,verb.cognition,138,direct_object,the giant's young prince to whom he spoke,1.0,5.0,6.0,male,1.0,tertiary
+79,0,choose,0.0,6.0,7522.0,7528.0,339,7.0,36.0,7529.0,7558.0,,,,,verb.cognition,138,direct_object,the giant's young prince to whom he spoke's two elder daughters,1.0,0.0,1.0,male,1.0,tertiary
+79,0,choose,0.0,6.0,7522.0,7528.0,338,7.0,36.0,7529.0,7558.0,,,,,verb.cognition,138,direct_object,the giant's young prince to whom he spoke's of my two elder daughters,1.0,1.0,2.0,male,1.0,tertiary
+79,1,take,61.0,65.0,7583.0,7587.0,338,66.0,69.0,7588.0,7591.0,70.0,118.0,7592.0,7640.0,verb.motion,140,direct_object,the giant's young prince to whom he spoke's of my two elder daughters,1.0,1.0,2.0,male,1.0,tertiary
+80,0,give,1.0,5.0,7644.0,7648.0,342,6.0,8.0,7649.0,7651.0,22.0,29.0,,,verb.possession,139,direct_object,the youngest,2.0,0.0,2.0,unknown,0.0,tertiary
+80,0,give,1.0,5.0,7644.0,7648.0,25,6.0,8.0,7649.0,7651.0,22.0,29.0,,,verb.possession,139,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+80,1,replied,32.0,39.0,7675.0,7682.0,25,40.0,49.0,7683.0,7692.0,,,,,verb.communication,141,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+80,3,heard,87.0,92.0,7730.0,7735.0,25,93.0,96.0,7736.0,7739.0,,,,,verb.perception,143,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+81,3,said,35.0,39.0,7776.0,7780.0,38,40.0,42.0,7781.0,7783.0,,,,,verb.communication,144,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+82,0,say,1.0,4.0,7786.0,7789.0,78,5.0,7.0,7790.0,7792.0,,,,,verb.communication,145,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+82,3,replied,26.0,33.0,7811.0,7818.0,78,34.0,44.0,7819.0,7829.0,,,,,verb.communication,146,direct_object,the prince,4.0,7.0,11.0,male,1.0,tertiary
+82,5,bade,80.0,84.0,7865.0,7869.0,38,85.0,88.0,7870.0,7873.0,,,,,verb.communication,149,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+83,2,said,50.0,54.0,7970.0,7974.0,38,55.0,64.0,7975.0,7984.0,,,,,verb.communication,152,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+86,1,said,26.0,30.0,8355.0,8359.0,135,31.0,34.0,8360.0,8363.0,,,,,verb.communication,163,direct_object,the giant 's youngest daughter,1.0,9.0,10.0,female,1.0,tertiary
+86,2,thinking,56.0,64.0,8385.0,8393.0,8,65.0,144.0,8394.0,8473.0,,,,,verb.cognition,162,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+86,2,thinking,56.0,64.0,8385.0,8393.0,135,65.0,144.0,8394.0,8473.0,,,,,verb.cognition,162,direct_object,the giant 's youngest daughter,1.0,9.0,10.0,female,1.0,tertiary
+88,1,came,48.0,52.0,8642.0,8646.0,38,53.0,62.0,8647.0,8656.0,,,,,verb.motion,169,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+89,0,cleaned,11.0,18.0,8669.0,8676.0,306,19.0,39.0,8677.0,8697.0,,,,,verb.contact,168,direct_object,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+89,0,cleaned,11.0,18.0,8669.0,8676.0,4,19.0,39.0,8677.0,8697.0,,,,,verb.contact,168,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+91,2,answered,21.0,29.0,8731.0,8739.0,38,30.0,32.0,8740.0,8742.0,,,,,verb.communication,171,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+93,1,took,33.0,37.0,8951.0,8955.0,25,38.0,60.0,8956.0,8978.0,,,,,verb.contact,172,direct_object,the youth,4.0,11.0,15.0,male,1.0,tertiary
+95,0,got,11.0,14.0,9088.0,9091.0,8,15.0,69.0,9092.0,9146.0,,,,,verb.change,175,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+96,3,thought,36.0,43.0,9184.0,9191.0,8,44.0,46.0,9192.0,9194.0,,,,,verb.cognition,177,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+97,0,came,15.0,19.0,9211.0,9215.0,38,20.0,40.0,9216.0,9236.0,,,,,verb.change,178,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+97,0,came,15.0,19.0,9211.0,9215.0,119,20.0,40.0,9216.0,9236.0,,,,,verb.change,178,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+99,0,asked,0.0,5.0,9268.0,9273.0,119,6.0,9.0,9274.0,9277.0,,,,,verb.communication,179,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+100,1,answered,8.0,16.0,9287.0,9295.0,8,17.0,19.0,9296.0,9298.0,,,,,verb.communication,181,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+102,1,said,39.0,43.0,9435.0,9439.0,119,44.0,47.0,9440.0,9443.0,,,,,verb.communication,182,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+102,3,bade,67.0,71.0,9463.0,9467.0,8,72.0,75.0,9468.0,9471.0,,,,,verb.communication,183,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+104,1,rubbed,20.0,26.0,9595.0,9601.0,8,27.0,35.0,9602.0,9610.0,36.0,136.0,9611.0,9711.0,verb.contact,188,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+104,2,thinking,42.0,50.0,9617.0,9625.0,8,51.0,66.0,9626.0,9641.0,,,,,verb.cognition,190,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+105,0,met,28.0,31.0,9741.0,9744.0,38,32.0,41.0,9745.0,9754.0,,,,,verb.motion,192,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+106,0,thatched,11.0,19.0,9767.0,9775.0,306,20.0,40.0,9776.0,9796.0,,,,,verb.change,191,direct_object,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+106,0,thatched,11.0,19.0,9767.0,9775.0,4,20.0,40.0,9776.0,9796.0,,,,,verb.change,191,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+106,0,thatched,11.0,19.0,9767.0,9775.0,130,20.0,40.0,9776.0,9796.0,,,,,verb.change,191,direct_object,the byre,3.0,0.0,3.0,unknown,0.0,tertiary
+108,1,have,48.0,52.0,9869.0,9873.0,8,53.0,76.0,9874.0,9897.0,,,,,verb.possession,194,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+111,0,bring,10.0,15.0,10050.0,10055.0,8,16.0,18.0,10056.0,10058.0,30.0,43.0,10070.0,10083.0,verb.contact,195,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,1,trying,36.0,42.0,10411.0,10417.0,8,43.0,105.0,10418.0,10480.0,,,,,verb.social,200,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,2,find,46.0,50.0,10421.0,10425.0,8,51.0,105.0,10426.0,10480.0,,,,,verb.possession,201,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,4,put,93.0,96.0,10468.0,10471.0,8,97.0,105.0,10472.0,10480.0,,,,,verb.contact,202,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+114,6,saw,150.0,153.0,10525.0,10528.0,153,154.0,248.0,10529.0,10623.0,,,,,verb.perception,203,direct_object,a sailor,1.0,0.0,1.0,unknown,0.0,tertiary
+114,6,saw,150.0,153.0,10525.0,10528.0,8,154.0,248.0,10529.0,10623.0,,,,,verb.perception,203,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,4,try,75.0,78.0,10778.0,10781.0,8,79.0,93.0,10782.0,10796.0,,,,,verb.social,205,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,5,do,82.0,84.0,10785.0,10787.0,8,85.0,93.0,10788.0,10796.0,,,,,verb.social,206,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+116,6,try,99.0,102.0,10802.0,10805.0,8,103.0,109.0,10806.0,10812.0,110.0,144.0,10813.0,10847.0,verb.social,207,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+118,2,said,32.0,36.0,11105.0,11109.0,38,37.0,70.0,11110.0,11143.0,72.0,123.0,11145.0,11196.0,verb.communication,212,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+118,2,said,32.0,36.0,11105.0,11109.0,119,37.0,70.0,11110.0,11143.0,72.0,123.0,11145.0,11196.0,verb.communication,212,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+118,4,recover,105.0,112.0,11178.0,11185.0,8,113.0,123.0,11186.0,11196.0,,,,,verb.possession,211,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+120,1,answered,30.0,38.0,11235.0,11243.0,8,39.0,41.0,11244.0,11246.0,,,,,verb.communication,213,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+121,1,said,17.0,21.0,11265.0,11269.0,119,22.0,25.0,11270.0,11273.0,,,,,verb.communication,215,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+121,4,put,79.0,82.0,11327.0,11330.0,8,83.0,91.0,11331.0,11339.0,,,,,verb.contact,216,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+122,1,reached,69.0,76.0,11416.0,11423.0,119,77.0,121.0,11424.0,11468.0,,,,,verb.motion,219,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+122,3,built,107.0,112.0,11454.0,11459.0,119,113.0,121.0,11460.0,11468.0,,,,,verb.creation,218,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+123,0,make,1.0,5.0,11471.0,11475.0,119,6.0,11.0,11476.0,11481.0,12.0,29.0,,,verb.social,222,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+125,0,listen,1.0,7.0,11792.0,11798.0,119,8.0,13.0,11799.0,11804.0,,,,,verb.perception,227,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+126,4,know,88.0,92.0,11905.0,11909.0,119,93.0,95.0,11910.0,11912.0,,,,,verb.cognition,230,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+127,0,says,19.0,23.0,11933.0,11937.0,161,25.0,52.0,11939.0,11966.0,,,,,verb.communication,231,direct_object,The king 's son's wife,1.0,0.0,1.0,female,0.5,tertiary
+127,0,says,19.0,23.0,11933.0,11937.0,306,25.0,52.0,11939.0,11966.0,,,,,verb.communication,231,direct_object,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+127,0,says,19.0,23.0,11933.0,11937.0,4,25.0,52.0,11939.0,11966.0,,,,,verb.communication,231,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+127,0,says,19.0,23.0,11933.0,11937.0,8,25.0,52.0,11939.0,11966.0,,,,,verb.communication,231,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+127,1,go,25.0,27.0,11939.0,11941.0,161,28.0,51.0,11942.0,11965.0,,,,,verb.motion,232,direct_object,The king 's son's wife,1.0,0.0,1.0,female,0.5,tertiary
+127,1,go,25.0,27.0,11939.0,11941.0,306,28.0,51.0,11942.0,11965.0,,,,,verb.motion,232,direct_object,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+127,1,go,25.0,27.0,11939.0,11941.0,4,28.0,51.0,11942.0,11965.0,,,,,verb.motion,232,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+127,1,go,25.0,27.0,11939.0,11941.0,8,28.0,51.0,11942.0,11965.0,,,,,verb.motion,232,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+127,2,come,54.0,58.0,11968.0,11972.0,356,59.0,107.0,11973.0,12021.0,,,,,verb.motion,233,direct_object,the one whose right hand has no little finger,1.0,2.0,3.0,unknown,0.0,tertiary
+128,1,gave,15.0,19.0,12039.0,12043.0,8,20.0,28.0,12044.0,12052.0,,,,,verb.possession,235,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+128,2,nodded,47.0,53.0,12071.0,12077.0,8,54.0,62.0,12078.0,12086.0,,,,,verb.communication,236,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+129,0,make,1.0,5.0,12089.0,12093.0,356,12.0,28.0,12100.0,12116.0,,,,,verb.creation,237,direct_object,the one whose right hand has no little finger,1.0,2.0,3.0,unknown,0.0,tertiary
+129,1,cried,31.0,36.0,12119.0,12124.0,8,37.0,39.0,12125.0,12127.0,,,,,verb.communication,238,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+129,5,summon,103.0,109.0,12191.0,12197.0,8,110.0,119.0,12198.0,12207.0,120.0,133.0,12208.0,12221.0,verb.communication,239,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+129,5,summon,103.0,109.0,12191.0,12197.0,357,110.0,119.0,12198.0,12207.0,120.0,133.0,12208.0,12221.0,verb.communication,239,direct_object,The king 's son's bride,1.0,0.0,1.0,male,1.0,tertiary
+129,6,greet,123.0,128.0,12211.0,12216.0,356,129.0,133.0,12217.0,12221.0,,,,,verb.communication,240,direct_object,the one whose right hand has no little finger,1.0,2.0,3.0,unknown,0.0,tertiary
+133,0,fell,18.0,22.0,12457.0,12461.0,169,23.0,52.0,12462.0,12491.0,,,,,verb.motion,245,direct_object,the middle one,1.0,0.0,1.0,unknown,0.0,tertiary
+134,1,said,38.0,42.0,12563.0,12567.0,38,43.0,52.0,12568.0,12577.0,,,,,verb.communication,247,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+134,2,laid,72.0,76.0,12597.0,12601.0,8,77.0,85.0,12602.0,12610.0,,,,,verb.contact,246,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+135,2,saw,45.0,48.0,12714.0,12717.0,174,49.0,94.0,12718.0,12763.0,,,,,verb.perception,250,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+135,2,saw,45.0,48.0,12714.0,12717.0,8,49.0,94.0,12718.0,12763.0,,,,,verb.perception,250,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+135,3,warned,74.0,80.0,12743.0,12749.0,174,81.0,84.0,12750.0,12753.0,,,,,verb.communication,251,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+138,2,kill,42.0,46.0,13060.0,13064.0,8,47.0,51.0,13065.0,13069.0,,,,,verb.contact,252,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+138,5,save,105.0,109.0,13123.0,13127.0,8,110.0,114.0,13128.0,13132.0,116.0,131.0,13134.0,13149.0,verb.social,255,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+139,2,heard,32.0,37.0,13389.0,13394.0,38,38.0,55.0,13395.0,13412.0,,,,,verb.perception,257,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+139,5,stole,101.0,106.0,13458.0,13463.0,174,114.0,127.0,13471.0,13484.0,,,,,verb.motion,258,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+139,5,stole,101.0,106.0,13458.0,13463.0,191,114.0,127.0,13471.0,13484.0,,,,,verb.motion,258,direct_object,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+150,2,cried,41.0,46.0,14263.0,14268.0,117,47.0,55.0,14269.0,14277.0,,,,,verb.communication,270,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+150,3,put,58.0,61.0,14280.0,14283.0,117,62.0,70.0,14284.0,14292.0,,,,,verb.contact,271,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+150,4,throw,130.0,135.0,14352.0,14357.0,117,136.0,138.0,14358.0,14360.0,,,,,verb.contact,272,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+151,1,threw,63.0,68.0,14438.0,14443.0,38,69.0,71.0,14444.0,14446.0,,,,,verb.contact,273,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+152,4,pulled,76.0,82.0,14627.0,14633.0,38,83.0,101.0,14634.0,14652.0,,,,,verb.contact,275,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+153,1,said,42.0,46.0,14696.0,14700.0,38,47.0,57.0,14701.0,14711.0,,,,,verb.communication,277,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+153,2,had,69.0,72.0,14723.0,14726.0,38,73.0,101.0,14727.0,14755.0,,,,,verb.possession,276,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+154,0,took,3.0,7.0,14874.0,14878.0,38,8.0,11.0,14879.0,14882.0,,,,,verb.possession,279,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+155,6,heard,121.0,126.0,15112.0,15117.0,38,127.0,130.0,15118.0,15121.0,,,,,verb.perception,284,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+156,0,said,24.0,28.0,15147.0,15151.0,203,29.0,39.0,15152.0,15162.0,,,,,verb.communication,285,direct_object,the hoodie,1.0,0.0,1.0,unknown,0.0,tertiary
+157,1,answered,12.0,20.0,15198.0,15206.0,38,21.0,30.0,15207.0,15216.0,,,,,verb.communication,286,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+158,1,started,26.0,33.0,15273.0,15280.0,38,41.0,55.0,15288.0,15302.0,,,,,verb.change,290,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+159,2,cried,41.0,46.0,15345.0,15350.0,117,47.0,55.0,15351.0,15359.0,56.0,65.0,,,verb.communication,291,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+160,0,put,1.0,4.0,15372.0,15375.0,117,5.0,15.0,15376.0,15386.0,,,,,verb.contact,292,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+160,1,throw,38.0,43.0,15409.0,15414.0,117,44.0,55.0,15415.0,15426.0,,,,,verb.contact,294,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+160,3,threw,141.0,146.0,15512.0,15517.0,8,147.0,149.0,15518.0,15520.0,,,,,verb.contact,296,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+161,2,said,64.0,68.0,15675.0,15679.0,38,69.0,78.0,15680.0,15689.0,,,,,verb.communication,297,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+161,6,making,142.0,148.0,15753.0,15759.0,38,149.0,173.0,15760.0,15784.0,174.0,178.0,,,verb.motion,299,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+162,0,took,8.0,12.0,15858.0,15862.0,38,13.0,33.0,15863.0,15883.0,,,,,verb.possession,300,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+162,1,hew,37.0,40.0,15887.0,15890.0,38,41.0,48.0,15891.0,15898.0,49.0,65.0,,,verb.contact,301,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+164,2,said,44.0,48.0,16032.0,16036.0,38,49.0,94.0,16037.0,16082.0,,,,,verb.communication,306,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+164,2,said,44.0,48.0,16032.0,16036.0,213,49.0,94.0,16037.0,16082.0,,,,,verb.communication,306,direct_object,the giant's hoodie who was perched on a stone above him,1.0,0.0,1.0,unknown,0.0,tertiary
+164,4,perched,66.0,73.0,16054.0,16061.0,38,74.0,94.0,16062.0,16082.0,,,,,verb.contact,305,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+166,2,cried,41.0,46.0,16205.0,16210.0,117,47.0,55.0,16211.0,16219.0,,,,,verb.communication,309,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+167,1,look,2.0,6.0,16222.0,16226.0,306,7.0,36.0,16227.0,16256.0,,,,,verb.perception,310,direct_object,king 's son,7.0,0.0,7.0,male,1.0,tertiary
+167,1,look,2.0,6.0,16222.0,16226.0,4,7.0,36.0,16227.0,16256.0,,,,,verb.perception,310,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+167,5,found,74.0,79.0,16294.0,16299.0,38,80.0,135.0,16300.0,16355.0,,,,,verb.possession,312,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+167,6,threw,119.0,124.0,16339.0,16344.0,38,125.0,131.0,16345.0,16351.0,,,,,verb.contact,313,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+168,3,stop,54.0,58.0,16439.0,16443.0,216,59.0,66.0,16444.0,16451.0,,,,,verb.motion,315,direct_object,"the giant , who was striding on so fast",1.0,2.0,3.0,male,1.0,tertiary
+169,1,came,78.0,82.0,16584.0,16588.0,8,83.0,113.0,16589.0,16619.0,,,,,verb.motion,317,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+169,1,came,78.0,82.0,16584.0,16588.0,27,83.0,113.0,16589.0,16619.0,,,,,verb.motion,317,direct_object,The king 's son's father,5.0,0.0,5.0,male,1.0,tertiary
+170,2,said,22.0,26.0,16643.0,16647.0,174,27.0,36.0,16648.0,16657.0,,,,,verb.communication,318,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+170,3,tell,43.0,47.0,16664.0,16668.0,174,48.0,52.0,16669.0,16673.0,,,,,verb.communication,320,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+170,3,tell,43.0,47.0,16664.0,16668.0,4,48.0,52.0,16669.0,16673.0,,,,,verb.communication,320,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+170,4,married,68.0,75.0,16689.0,16696.0,174,76.0,78.0,16697.0,16699.0,,,,,verb.social,319,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+171,1,kiss,41.0,45.0,16742.0,16746.0,174,46.0,50.0,16747.0,16751.0,52.0,98.0,16753.0,16799.0,verb.contact,321,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+171,2,remember,80.0,88.0,16781.0,16789.0,174,89.0,91.0,16790.0,16792.0,92.0,98.0,,,verb.cognition,322,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+172,1,do,8.0,10.0,16810.0,16812.0,4,11.0,22.0,16813.0,16824.0,,,,,verb.social,324,direct_object,king,8.0,3.0,11.0,male,1.0,tertiary
+172,2,answered,25.0,33.0,16827.0,16835.0,38,34.0,36.0,16836.0,16838.0,,,,,verb.communication,323,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+172,3,left,42.0,46.0,16844.0,16848.0,174,47.0,50.0,16849.0,16852.0,,,,,verb.motion,326,direct_object,the bride,2.0,19.0,21.0,female,1.0,tertiary
+173,0,met,8.0,11.0,16874.0,16877.0,38,12.0,15.0,16878.0,16881.0,16.0,32.0,16882.0,16898.0,verb.social,325,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+173,1,bade,16.0,20.0,16882.0,16886.0,38,21.0,24.0,16887.0,16890.0,25.0,32.0,16891.0,16898.0,verb.communication,327,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+173,2,charged,41.0,48.0,16907.0,16914.0,223,49.0,70.0,16915.0,16936.0,,,,,verb.communication,328,direct_object,mother,1.0,0.0,1.0,female,1.0,tertiary
+173,2,charged,41.0,48.0,16907.0,16914.0,38,49.0,70.0,16915.0,16936.0,,,,,verb.communication,328,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+173,2,charged,41.0,48.0,16907.0,16914.0,27,49.0,70.0,16915.0,16936.0,,,,,verb.communication,328,direct_object,The king 's son's father,5.0,0.0,5.0,male,1.0,tertiary
+173,3,kiss,78.0,82.0,16944.0,16948.0,38,83.0,86.0,16949.0,16952.0,,,,,verb.contact,329,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+173,4,greeted,98.0,105.0,16964.0,16971.0,38,106.0,110.0,16972.0,16976.0,135.0,146.0,17001.0,17012.0,verb.social,330,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+173,4,greeted,98.0,105.0,16964.0,16971.0,225,106.0,110.0,16972.0,16976.0,135.0,146.0,17001.0,17012.0,verb.social,330,direct_object,the giant's old greyhound,1.0,0.0,1.0,unknown,0.0,tertiary
+173,5,kissed,152.0,158.0,17018.0,17024.0,38,159.0,162.0,17025.0,17028.0,163.0,175.0,,,verb.contact,331,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+174,1,remember,26.0,34.0,17069.0,17077.0,38,35.0,55.0,17078.0,17098.0,,,,,verb.cognition,333,direct_object,the giant,38.0,88.0,126.0,male,1.0,primary
+174,1,remember,26.0,34.0,17069.0,17077.0,119,35.0,55.0,17078.0,17098.0,,,,,verb.cognition,333,direct_object,the giant 's daughter,4.0,22.0,26.0,female,1.0,tertiary
+177,3,saw,127.0,130.0,17451.0,17454.0,234,131.0,165.0,17455.0,17489.0,,,,,verb.perception,339,direct_object,the girl in the tree,1.0,0.0,1.0,female,1.0,tertiary
+177,4,thought,171.0,178.0,17495.0,17502.0,231,179.0,200.0,17503.0,17524.0,,,,,verb.cognition,340,direct_object,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,2,said,33.0,37.0,17559.0,17563.0,231,38.0,41.0,17564.0,17567.0,43.0,63.0,,,verb.communication,342,direct_object,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,5,behold,87.0,93.0,17613.0,17619.0,231,94.0,101.0,17620.0,17627.0,102.0,108.0,17628.0,17634.0,verb.perception,343,direct_object,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,9,forced,177.0,183.0,17703.0,17709.0,231,184.0,226.0,17710.0,17752.0,,,,,verb.social,344,direct_object,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,9,forced,177.0,183.0,17703.0,17709.0,191,184.0,226.0,17710.0,17752.0,,,,,verb.social,344,direct_object,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+178,10,return,187.0,193.0,17713.0,17719.0,231,194.0,208.0,17720.0,17734.0,209.0,226.0,17735.0,17752.0,verb.motion,345,direct_object,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+178,10,return,187.0,193.0,17713.0,17719.0,191,194.0,208.0,17720.0,17734.0,209.0,226.0,17735.0,17752.0,verb.motion,345,direct_object,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+178,11,angered,237.0,244.0,17763.0,17770.0,191,245.0,248.0,17771.0,17774.0,,,,,verb.emotion,346,direct_object,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+179,1,said,26.0,30.0,17802.0,17806.0,191,31.0,33.0,17807.0,17809.0,34.0,42.0,17810.0,17818.0,verb.communication,347,direct_object,the bride's husband,3.0,8.0,11.0,male,1.0,tertiary
+180,0,go,1.0,3.0,17821.0,17823.0,364,4.0,21.0,17824.0,17841.0,,,,,verb.motion,348,direct_object,the giant's daughter,3.0,0.0,3.0,unknown,0.0,tertiary
+180,0,go,1.0,3.0,17821.0,17823.0,117,4.0,21.0,17824.0,17841.0,,,,,verb.motion,348,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+180,1,fetch,27.0,32.0,17847.0,17852.0,117,33.0,35.0,17853.0,17855.0,,,,,verb.contact,349,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+180,3,befell,84.0,90.0,17904.0,17910.0,117,91.0,94.0,17911.0,17914.0,95.0,121.0,17915.0,17941.0,verb.change,352,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+180,5,befallen,102.0,110.0,17922.0,17930.0,238,111.0,121.0,17931.0,17941.0,,,,,verb.social,351,direct_object,the girl's mother,1.0,0.0,1.0,female,1.0,tertiary
+180,5,befallen,102.0,110.0,17922.0,17930.0,117,111.0,121.0,17931.0,17941.0,,,,,verb.social,351,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+182,0,asked,0.0,5.0,17965.0,17970.0,231,6.0,19.0,17971.0,17984.0,,,,,verb.communication,354,direct_object,the wife of a shoemaker who dwelt near the well,1.0,11.0,12.0,female,1.0,tertiary
+182,0,asked,0.0,5.0,17965.0,17970.0,239,6.0,19.0,17971.0,17984.0,,,,,verb.communication,354,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+183,0,saw,7.0,10.0,18093.0,18096.0,240,11.0,50.0,18097.0,18136.0,,,,,verb.perception,355,direct_object,the woman in the tree,1.0,0.0,1.0,female,1.0,tertiary
+183,4,sat,114.0,117.0,18200.0,18203.0,241,118.0,155.0,18204.0,18241.0,,,,,verb.contact,357,direct_object,the most beautiful woman in the world,1.0,0.0,1.0,female,1.0,tertiary
+185,2,thronged,82.0,90.0,18428.0,18436.0,239,91.0,111.0,18437.0,18457.0,112.0,152.0,18458.0,18498.0,verb.emotion,362,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+186,1,beheld,51.0,57.0,18551.0,18557.0,117,58.0,82.0,18558.0,18582.0,,,,,verb.perception,363,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+187,1,answered,17.0,25.0,18601.0,18609.0,239,26.0,39.0,18610.0,18623.0,,,,,verb.communication,365,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+188,2,marry,34.0,39.0,18686.0,18691.0,117,40.0,43.0,18692.0,18695.0,,,,,verb.social,367,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+188,3,said,46.0,50.0,18698.0,18702.0,167,51.0,54.0,18703.0,18706.0,,,,,verb.communication,368,direct_object,,,,,,,
+189,0,cried,18.0,23.0,18726.0,18731.0,252,24.0,34.0,18732.0,18742.0,,,,,verb.communication,369,direct_object,,,,,,,
+190,1,answered,31.0,39.0,18775.0,18783.0,239,40.0,53.0,18784.0,18797.0,,,,,verb.communication,370,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+190,2,bade,73.0,77.0,18817.0,18821.0,239,78.0,81.0,18822.0,18825.0,,,,,verb.communication,371,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+190,3,ask,82.0,85.0,18826.0,18829.0,255,86.0,89.0,18830.0,18833.0,,,,,verb.communication,372,direct_object,a husband,1.0,0.0,1.0,male,1.0,tertiary
+190,3,ask,82.0,85.0,18826.0,18829.0,117,86.0,89.0,18830.0,18833.0,,,,,verb.communication,372,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+190,3,ask,82.0,85.0,18826.0,18829.0,254,86.0,89.0,18830.0,18833.0,,,,,verb.communication,372,direct_object,the young men,2.0,3.0,5.0,male,1.0,tertiary
+190,5,choose,103.0,109.0,18847.0,18853.0,255,110.0,121.0,18854.0,18865.0,,,,,verb.cognition,373,direct_object,a husband,1.0,0.0,1.0,male,1.0,tertiary
+190,5,choose,103.0,109.0,18847.0,18853.0,254,110.0,121.0,18854.0,18865.0,,,,,verb.cognition,373,direct_object,the young men,2.0,3.0,5.0,male,1.0,tertiary
+190,6,tell,144.0,148.0,18888.0,18892.0,254,149.0,153.0,18893.0,18897.0,154.0,167.0,18898.0,18911.0,verb.communication,374,direct_object,the young men,2.0,3.0,5.0,male,1.0,tertiary
+191,0,asked,19.0,24.0,18932.0,18937.0,117,25.0,28.0,18938.0,18941.0,,,,,verb.communication,375,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+191,1,said,43.0,47.0,18956.0,18960.0,258,48.0,111.0,18961.0,19024.0,,,,,verb.communication,376,direct_object,the shoemaker's one who would bring his purse with him,1.0,0.0,1.0,unknown,0.0,tertiary
+191,1,said,43.0,47.0,18956.0,18960.0,239,48.0,111.0,18961.0,19024.0,,,,,verb.communication,376,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+191,1,said,43.0,47.0,18956.0,18960.0,117,48.0,111.0,18961.0,19024.0,,,,,verb.communication,376,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+191,3,marry,63.0,68.0,18976.0,18981.0,258,69.0,111.0,18982.0,19024.0,,,,,verb.social,377,direct_object,the shoemaker's one who would bring his purse with him,1.0,0.0,1.0,unknown,0.0,tertiary
+191,3,marry,63.0,68.0,18976.0,18981.0,239,69.0,111.0,18982.0,19024.0,,,,,verb.social,377,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+191,5,bring,87.0,92.0,19000.0,19005.0,239,93.0,102.0,19006.0,19015.0,,,,,verb.contact,379,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+192,4,giving,88.0,94.0,19114.0,19120.0,239,95.0,108.0,19121.0,19134.0,126.0,138.0,,,verb.possession,380,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+192,5,sought,143.0,149.0,19169.0,19175.0,239,150.0,183.0,19176.0,19209.0,,,,,verb.possession,381,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+192,5,sought,143.0,149.0,19169.0,19175.0,117,150.0,183.0,19176.0,19209.0,,,,,verb.possession,381,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+194,0,inquired,0.0,8.0,19225.0,19233.0,117,9.0,12.0,19234.0,19237.0,,,,,verb.communication,382,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+195,1,give,15.0,19.0,19254.0,19258.0,117,20.0,22.0,19259.0,19261.0,,,,,verb.possession,383,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+198,1,cried,30.0,35.0,19462.0,19467.0,239,36.0,44.0,19468.0,19476.0,62.0,69.0,,,verb.communication,385,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+198,1,cried,30.0,35.0,19462.0,19467.0,117,36.0,44.0,19468.0,19476.0,62.0,69.0,,,verb.communication,385,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+198,5,betook,135.0,141.0,19567.0,19573.0,239,142.0,149.0,19574.0,19581.0,150.0,161.0,,,verb.possession,387,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+198,7,tell,178.0,182.0,19610.0,19614.0,239,183.0,193.0,19615.0,19625.0,,,,,verb.communication,389,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+198,7,tell,178.0,182.0,19610.0,19614.0,252,183.0,193.0,19615.0,19625.0,,,,,verb.communication,389,direct_object,,,,,,,
+198,9,happened,203.0,211.0,19635.0,19643.0,239,212.0,218.0,19644.0,19650.0,,,,,verb.change,388,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+199,4,said,128.0,132.0,19780.0,19784.0,239,133.0,139.0,19785.0,19791.0,,,,,verb.communication,390,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+200,0,hastened,14.0,22.0,19842.0,19850.0,117,23.0,40.0,19851.0,19868.0,,,,,verb.motion,391,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+200,1,do,26.0,28.0,19854.0,19856.0,117,29.0,40.0,19857.0,19868.0,,,,,verb.social,392,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+200,7,let,188.0,191.0,20016.0,20019.0,271,192.0,198.0,20020.0,20026.0,,,,,verb.contact,394,direct_object,The young man,1.0,8.0,9.0,male,1.0,tertiary
+201,0,hanging,0.0,7.0,20028.0,20035.0,271,8.0,16.0,20036.0,20044.0,,,,,verb.contact,396,direct_object,The young man,1.0,8.0,9.0,male,1.0,tertiary
+201,2,told,39.0,43.0,20067.0,20071.0,271,44.0,50.0,20072.0,20078.0,,,,,verb.communication,398,direct_object,The young man,1.0,8.0,9.0,male,1.0,tertiary
+201,4,befallen,60.0,68.0,20088.0,20096.0,271,69.0,72.0,20097.0,20100.0,,,,,verb.social,397,direct_object,The young man,1.0,8.0,9.0,male,1.0,tertiary
+203,2,seen,40.0,44.0,20250.0,20254.0,276,45.0,63.0,20255.0,20273.0,,,,,verb.perception,402,direct_object,the third man,1.0,3.0,4.0,male,1.0,tertiary
+204,1,said,26.0,30.0,20301.0,20305.0,239,31.0,56.0,20306.0,20331.0,,,,,verb.communication,405,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+204,1,said,26.0,30.0,20301.0,20305.0,117,31.0,56.0,20306.0,20331.0,,,,,verb.communication,405,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+205,1,told,30.0,34.0,20412.0,20416.0,239,35.0,43.0,20417.0,20425.0,,,,,verb.communication,408,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+205,1,told,30.0,34.0,20412.0,20416.0,117,35.0,43.0,20417.0,20425.0,,,,,verb.communication,408,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+206,2,get,14.0,17.0,20498.0,20501.0,8,18.0,43.0,20502.0,20527.0,44.0,61.0,20528.0,20545.0,verb.possession,409,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+206,2,get,14.0,17.0,20498.0,20501.0,7,18.0,43.0,20502.0,20527.0,44.0,61.0,20528.0,20545.0,verb.possession,409,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+206,4,sighed,64.0,70.0,20548.0,20554.0,117,71.0,74.0,20555.0,20558.0,,,,,verb.communication,411,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+207,1,answered,22.0,30.0,20582.0,20590.0,239,31.0,33.0,20591.0,20593.0,,,,,verb.communication,412,direct_object,the shoemaker,12.0,23.0,35.0,male,1.0,tertiary
+208,2,let,49.0,52.0,20643.0,20646.0,393,53.0,138.0,20647.0,20732.0,,,,,verb.social,414,direct_object,all the company,1.0,0.0,1.0,unknown,0.0,tertiary
+208,2,let,49.0,52.0,20643.0,20646.0,8,53.0,138.0,20647.0,20732.0,,,,,verb.social,414,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+208,2,let,49.0,52.0,20643.0,20646.0,117,53.0,138.0,20647.0,20732.0,,,,,verb.social,414,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+208,2,let,49.0,52.0,20643.0,20646.0,7,53.0,138.0,20647.0,20732.0,,,,,verb.social,414,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+208,3,stand,57.0,62.0,20651.0,20656.0,8,63.0,113.0,20657.0,20707.0,,,,,verb.contact,413,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+208,3,stand,57.0,62.0,20651.0,20656.0,7,63.0,113.0,20657.0,20707.0,,,,,verb.contact,413,direct_object,the king,28.0,9.0,37.0,male,1.0,tertiary
+209,1,saw,51.0,54.0,20786.0,20789.0,286,55.0,78.0,20790.0,20813.0,,,,,verb.perception,415,direct_object,the girl standing there,1.0,0.0,1.0,female,1.0,tertiary
+209,3,led,85.0,88.0,20820.0,20823.0,117,89.0,92.0,20824.0,20827.0,,,,,verb.motion,417,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+209,6,poured,142.0,148.0,20877.0,20883.0,117,149.0,152.0,20884.0,20887.0,153.0,156.0,20888.0,20891.0,verb.possession,418,direct_object,the girl,19.0,40.0,59.0,female,1.0,secondary
+212,0,remembered,15.0,25.0,21211.0,21221.0,290,26.0,48.0,21222.0,21244.0,,,,,verb.cognition,421,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+212,0,remembered,15.0,25.0,21211.0,21221.0,130,26.0,48.0,21222.0,21244.0,,,,,verb.cognition,421,direct_object,the byre,3.0,0.0,3.0,unknown,0.0,tertiary
+212,1,cleaned,32.0,39.0,21228.0,21235.0,130,40.0,48.0,21236.0,21244.0,,,,,verb.body,420,direct_object,the byre,3.0,0.0,3.0,unknown,0.0,tertiary
+212,3,given,68.0,73.0,21264.0,21269.0,290,74.0,76.0,21270.0,21272.0,,,,,verb.possession,422,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+212,4,cooed,88.0,93.0,21284.0,21289.0,290,94.0,111.0,21290.0,21307.0,,,,,verb.communication,423,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+213,0,remembered,15.0,25.0,21406.0,21416.0,290,26.0,49.0,21417.0,21440.0,,,,,verb.cognition,425,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+213,0,remembered,15.0,25.0,21406.0,21416.0,130,26.0,49.0,21417.0,21440.0,,,,,verb.cognition,425,direct_object,the byre,3.0,0.0,3.0,unknown,0.0,tertiary
+213,1,thatched,32.0,40.0,21423.0,21431.0,130,41.0,49.0,21432.0,21440.0,,,,,verb.change,424,direct_object,the byre,3.0,0.0,3.0,unknown,0.0,tertiary
+213,3,given,69.0,74.0,21460.0,21465.0,290,75.0,77.0,21466.0,21468.0,,,,,verb.possession,427,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+213,4,cooed,89.0,94.0,21480.0,21485.0,290,95.0,112.0,21486.0,21503.0,113.0,118.0,21504.0,21509.0,verb.communication,428,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+215,0,remembered,15.0,25.0,21627.0,21637.0,290,26.0,53.0,21638.0,21665.0,,,,,verb.cognition,430,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+215,3,given,73.0,78.0,21685.0,21690.0,290,79.0,81.0,21691.0,21693.0,,,,,verb.possession,432,direct_object,the golden pigeon,2.0,11.0,13.0,male,1.0,tertiary
+216,0,understood,20.0,30.0,21750.0,21760.0,8,31.0,119.0,21761.0,21849.0,,,,,verb.cognition,434,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+216,3,remind,53.0,59.0,21783.0,21789.0,8,60.0,63.0,21790.0,21793.0,,,,,verb.cognition,436,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+216,7,knew,128.0,132.0,21858.0,21862.0,73,133.0,141.0,21863.0,21871.0,,,,,verb.cognition,437,direct_object,the king's wife,2.0,1.0,3.0,female,1.0,tertiary
+216,7,knew,128.0,132.0,21858.0,21862.0,8,133.0,141.0,21863.0,21871.0,,,,,verb.cognition,437,direct_object,The king 's son,24.0,122.0,146.0,male,1.0,primary
+216,8,kissed,147.0,153.0,21877.0,21883.0,73,154.0,157.0,21884.0,21887.0,,,,,verb.contact,438,direct_object,the king's wife,2.0,1.0,3.0,female,1.0,tertiary

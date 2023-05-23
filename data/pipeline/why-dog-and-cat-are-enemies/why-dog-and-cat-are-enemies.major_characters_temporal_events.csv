@@ -1,0 +1,15 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+5,2,restore,64,71,479,486,3.0,53.0,57.0,468.0,472.0,,,,,verb.possession,True,0,subject,the two animals,1,3,4,group/nonbinary,1.0,secondary
+22,0,said,16,20,1810,1814,16.0,5.0,15.0,1799.0,1809.0,,,,,verb.communication,True,3,subject,her master,2,8,10,male,1.0,primary
+5,2,restore,64,71,479,486,4.0,72.0,87.0,487.0,502.0,,,,,verb.possession,True,0,direct_object,the two animals's owners,1,0,1,unknown,0.0,tertiary
+5,2,restore,64,71,479,486,3.0,72.0,87.0,487.0,502.0,,,,,verb.possession,True,0,direct_object,the two animals,1,3,4,group/nonbinary,1.0,secondary
+18,1,bring,53,58,1503,1508,13.0,59.0,73.0,1509.0,1523.0,,,,,verb.contact,True,1,direct_object,mistress,1,0,1,unknown,0.0,tertiary
+18,1,bring,53,58,1503,1508,12.0,59.0,73.0,1509.0,1523.0,,,,,verb.contact,True,1,direct_object,their master,1,0,1,unknown,0.0,tertiary
+21,2,brought,98,105,1762,1769,16.0,106.0,114.0,1770.0,1778.0,,,,,verb.contact,True,2,direct_object,her master,2,8,10,male,1.0,primary
+22,0,said,16,20,1810,1814,1.0,21.0,32.0,1815.0,1826.0,,,,,verb.communication,True,3,direct_object,a man's wife,2,0,2,female,1.0,tertiary
+22,0,said,16,20,1810,1814,16.0,21.0,32.0,1815.0,1826.0,,,,,verb.communication,True,3,direct_object,her master,2,8,10,male,1.0,primary
+22,0,said,16,20,1810,1814,24.0,21.0,32.0,1815.0,1826.0,,,,,verb.communication,True,3,direct_object,a good creature,1,0,1,unknown,0.0,tertiary
+22,0,said,16,20,1810,1814,25.0,21.0,32.0,1815.0,1826.0,,,,,verb.communication,True,3,direct_object,the cat,1,3,4,female,1.0,secondary
+23,3,care,42,46,1904,1908,25.0,47.0,54.0,1909.0,1916.0,55.0,87.0,1917.0,1949.0,verb.emotion,True,4,direct_object,the cat,1,3,4,female,1.0,secondary
+24,2,scolded,45,52,1997,2004,16.0,53.0,56.0,2005.0,2008.0,58.0,112.0,2010.0,2064.0,verb.communication,True,6,direct_object,her master,2,8,10,male,1.0,primary
+26,2,robbed,52,58,2182,2188,16.0,59.0,76.0,2189.0,2206.0,,,,,verb.possession,True,5,direct_object,her master,2,8,10,male,1.0,primary

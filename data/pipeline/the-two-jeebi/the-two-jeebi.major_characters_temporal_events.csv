@@ -1,0 +1,92 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+3,2,killing,53,60,303,310,2,27.0,29.0,277.0,279.0,,,,,verb.contact,True,2,subject,"a hunter in the North , who had a wife and one child",1,12,13,female,1.0,tertiary
+7,1,heard,38,43,605,610,8,0.0,3.0,567.0,570.0,,,,,verb.perception,True,4,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+8,3,beheld,63,69,710,716,8,38.0,41.0,685.0,688.0,,,,,verb.perception,True,5,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+9,1,enter,14,19,752,757,8,0.0,13.0,738.0,751.0,,,,,verb.motion,True,6,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+9,1,enter,14,19,752,757,12,0.0,13.0,738.0,751.0,,,,,verb.motion,True,6,subject,two strange females,1,12,13,group/nonbinary,1.0,tertiary
+10,0,observed,4,12,791,799,8,0.0,3.0,787.0,790.0,,,,,verb.cognition,True,7,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+11,2,disturbed,77,86,924,933,8,69.0,72.0,916.0,919.0,,,,,verb.emotion,True,8,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+14,1,judge,20,25,1152,1157,8,10.0,13.0,1142.0,1145.0,,,,,verb.cognition,True,10,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+19,6,speak,151,156,1712,1717,64,135.0,142.0,1696.0,1703.0,,,,,verb.communication,True,12,subject,The boy,1,0,1,male,1.0,tertiary
+21,2,sink,31,35,1790,1794,8,0.0,3.0,1759.0,1762.0,,,,,verb.motion,True,13,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+22,1,relieved,56,64,1865,1873,11,0.0,11.0,1809.0,1820.0,,,,,verb.cognition,True,14,subject,"a hunter in the North , who had a wife and one child's wife's husband",2,1,3,female,0.5,tertiary
+22,1,relieved,56,64,1865,1873,8,0.0,11.0,1809.0,1820.0,,,,,verb.cognition,True,14,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+26,2,devoured,88,96,2086,2094,24,51.0,66.0,2049.0,2064.0,,,,,verb.consumption,True,16,subject,the mysterious females,1,8,9,group/nonbinary,1.0,tertiary
+27,0,looked,24,30,2120,2126,8,0.0,23.0,2096.0,2119.0,,,,,verb.perception,True,18,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+27,0,looked,24,30,2120,2126,19,0.0,23.0,2096.0,2119.0,,,,,verb.perception,True,18,subject,The hunter,9,35,44,male,1.0,primary
+28,4,stricken,48,56,2218,2226,24,19.0,31.0,2189.0,2201.0,,,,,verb.emotion,True,17,subject,the mysterious females,1,8,9,group/nonbinary,1.0,tertiary
+28,4,stricken,48,56,2218,2226,27,19.0,31.0,2189.0,2201.0,,,,,verb.emotion,True,17,subject,the mysterious females's guests,2,1,3,group/nonbinary,1.0,tertiary
+30,1,devoured,47,55,2349,2357,28,0.0,19.0,2302.0,2321.0,59.0,73.0,2361.0,2375.0,verb.consumption,True,19,subject,The strange females,1,3,4,group/nonbinary,1.0,tertiary
+31,2,anticipate,48,58,2425,2435,19,39.0,41.0,2416.0,2418.0,71.0,146.0,2448.0,2523.0,verb.cognition,True,20,subject,The hunter,9,35,44,male,1.0,primary
+32,0,accepted,5,13,2530,2538,28,0.0,4.0,2525.0,2529.0,,,,,verb.possession,True,22,subject,The strange females,1,3,4,group/nonbinary,1.0,tertiary
+36,0,uttered,11,18,3024,3031,36,0.0,4.0,3013.0,3017.0,26.0,40.0,3039.0,3053.0,verb.communication,True,23,subject,the females,1,9,10,group/nonbinary,1.0,tertiary
+39,1,jested,22,28,3325,3331,36,0.0,4.0,3303.0,3307.0,,,,,verb.social,True,25,subject,the females,1,9,10,group/nonbinary,1.0,tertiary
+42,0,constrained,4,15,3640,3651,8,0.0,3.0,3636.0,3639.0,25.0,50.0,3661.0,3686.0,verb.communication,True,27,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+43,0,observed,19,27,3775,3783,41,0.0,18.0,3756.0,3774.0,,,,,verb.perception,True,29,subject,The strange guests,1,1,2,group/nonbinary,1.0,tertiary
+45,0,denied,14,20,4019,4025,8,5.0,13.0,4010.0,4018.0,,,,,verb.communication,True,30,subject,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+45,0,denied,14,20,4019,4025,19,5.0,13.0,4010.0,4018.0,,,,,verb.communication,True,30,subject,The hunter,9,35,44,male,1.0,primary
+46,2,compose,55,62,4131,4138,19,35.0,45.0,4111.0,4121.0,71.0,79.0,4147.0,4155.0,verb.creation,True,33,subject,The hunter,9,35,44,male,1.0,primary
+47,8,bemoan,131,137,4361,4367,40,124.0,127.0,4354.0,4357.0,,,,,verb.communication,True,32,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+48,2,trespassed,34,44,4422,4432,65,4.0,11.0,4392.0,4399.0,,,,,verb.social,True,31,subject,The hunter's wife,1,0,1,female,1.0,tertiary
+48,2,trespassed,34,44,4422,4432,19,4.0,11.0,4392.0,4399.0,,,,,verb.social,True,31,subject,The hunter,9,35,44,male,1.0,primary
+49,0,replied,5,12,4471,4478,40,0.0,4.0,4466.0,4470.0,,,,,verb.communication,True,35,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+50,2,treated,14,21,4510,4517,40,1.0,3.0,4497.0,4499.0,29.0,56.0,4525.0,4552.0,verb.social,True,34,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+51,3,weep,50,54,4604,4608,40,47.0,49.0,4601.0,4603.0,,,,,verb.body,True,36,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+53,1,test,31,35,4673,4677,40,0.0,2.0,4642.0,4644.0,,,,,verb.social,True,37,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+54,8,devote,93,99,4820,4826,69,82.0,86.0,4809.0,4813.0,112.0,130.0,4839.0,4857.0,verb.communication,True,38,subject,the bereaved by death,1,3,4,group/nonbinary,1.0,tertiary
+55,8,make,109,113,4968,4972,40,0.0,2.0,4859.0,4861.0,,,,,verb.cognition,True,40,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+58,3,indicated,91,100,5219,5228,75,59.0,90.0,5187.0,5218.0,,,,,verb.communication,True,41,subject,The hunter's wife,2,2,4,female,1.0,tertiary
+58,3,indicated,91,100,5219,5228,19,59.0,90.0,5187.0,5218.0,,,,,verb.communication,True,41,subject,The hunter,9,35,44,male,1.0,primary
+60,3,speak,55,60,5501,5506,40,44.0,46.0,5490.0,5492.0,,,,,verb.communication,True,44,subject,the two females,2,29,31,group/nonbinary,1.0,primary
+64,0,love,4,8,5714,5718,19,0.0,3.0,5710.0,5713.0,,,,,verb.emotion,True,46,subject,The hunter,9,35,44,male,1.0,primary
+66,3,complying,67,76,5943,5952,19,55.0,58.0,5931.0,5934.0,,,,,verb.social,True,48,subject,The hunter,9,35,44,male,1.0,primary
+68,1,sent,29,33,6021,6025,19,7.0,24.0,5999.0,6016.0,,,,,verb.motion,True,49,subject,The hunter,9,35,44,male,1.0,primary
+73,0,heard,12,17,6153,6158,53,0.0,11.0,6141.0,6152.0,,,,,verb.perception,True,52,subject,The inmates,1,2,3,group/nonbinary,1.0,tertiary
+74,2,promised,44,52,6277,6285,53,17.0,28.0,6250.0,6261.0,,,,,verb.communication,True,51,subject,The inmates,1,2,3,group/nonbinary,1.0,tertiary
+75,2,wanted,45,51,6332,6338,19,0.0,2.0,6287.0,6289.0,,,,,verb.emotion,True,55,subject,The hunter,9,35,44,male,1.0,primary
+76,0,had,3,6,6357,6360,19,0.0,2.0,6354.0,6356.0,,,,,verb.possession,True,54,subject,The hunter,9,35,44,male,1.0,primary
+77,1,lain,16,20,6423,6427,19,5.0,7.0,6412.0,6414.0,,,,,verb.contact,True,53,subject,The hunter,9,35,44,male,1.0,primary
+0,1,had,39,42,39,42,5,43.0,63.0,43.0,63.0,,,,,verb.possession,True,1,direct_object,one child,1,0,1,unknown,0.0,tertiary
+0,1,had,39,42,39,42,4,43.0,63.0,43.0,63.0,,,,,verb.possession,True,1,direct_object,a wife,1,0,1,female,1.0,tertiary
+2,3,befallen,94,102,236,244,2,103.0,106.0,245.0,248.0,,,,,verb.possession,True,0,direct_object,"a hunter in the North , who had a wife and one child",1,12,13,female,1.0,tertiary
+5,5,befallen,139,147,532,540,2,148.0,151.0,541.0,544.0,,,,,verb.possession,True,3,direct_object,"a hunter in the North , who had a wife and one child",1,12,13,female,1.0,tertiary
+8,3,beheld,63,69,710,716,12,70.0,89.0,717.0,736.0,,,,,verb.perception,True,5,direct_object,two strange females,1,12,13,group/nonbinary,1.0,tertiary
+10,0,observed,4,12,791,799,13,13.0,58.0,800.0,845.0,,,,,verb.cognition,True,7,direct_object,total strangers in the country,1,0,1,unknown,0.0,tertiary
+10,0,observed,4,12,791,799,12,13.0,58.0,800.0,845.0,,,,,verb.cognition,True,7,direct_object,two strange females,1,12,13,group/nonbinary,1.0,tertiary
+11,2,disturbed,77,86,924,933,12,87.0,104.0,934.0,951.0,,,,,verb.emotion,True,8,direct_object,two strange females,1,12,13,group/nonbinary,1.0,tertiary
+13,2,hide,123,127,1114,1118,12,128.0,139.0,1119.0,1130.0,,,,,verb.perception,True,9,direct_object,two strange females,1,12,13,group/nonbinary,1.0,tertiary
+15,6,dispel,195,201,1426,1432,8,202.0,211.0,1433.0,1442.0,,,,,verb.communication,True,11,direct_object,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+22,1,relieved,56,64,1865,1873,8,65.0,74.0,1874.0,1883.0,,,,,verb.cognition,True,14,direct_object,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+25,0,cried,0,5,1969,1974,24,6.0,28.0,1975.0,1997.0,,,,,verb.communication,True,15,direct_object,the mysterious females,1,8,9,group/nonbinary,1.0,tertiary
+31,2,anticipate,48,58,2425,2435,28,59.0,70.0,2436.0,2447.0,71.0,146.0,2448.0,2523.0,verb.cognition,True,20,direct_object,The strange females,1,3,4,group/nonbinary,1.0,tertiary
+33,5,observed,146,154,2772,2780,24,155.0,267.0,2781.0,2893.0,,,,,verb.perception,True,21,direct_object,the mysterious females,1,8,9,group/nonbinary,1.0,tertiary
+33,5,observed,146,154,2772,2780,34,155.0,267.0,2781.0,2893.0,,,,,verb.perception,True,21,direct_object,these mysterious visitors,1,0,1,unknown,0.0,tertiary
+33,5,observed,146,154,2772,2780,27,155.0,267.0,2781.0,2893.0,,,,,verb.perception,True,21,direct_object,the mysterious females's guests,2,1,3,group/nonbinary,1.0,tertiary
+37,4,restoring,100,109,3155,3164,36,110.0,124.0,3165.0,3179.0,,,,,verb.change,True,24,direct_object,the females,1,9,10,group/nonbinary,1.0,tertiary
+41,4,began,129,134,3556,3561,8,135.0,207.0,3562.0,3634.0,,,,,verb.change,True,26,direct_object,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+42,0,constrained,4,15,3640,3651,8,16.0,23.0,3652.0,3659.0,25.0,50.0,3661.0,3686.0,verb.communication,True,27,direct_object,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+43,0,observed,19,27,3775,3783,8,28.0,49.0,3784.0,3805.0,,,,,verb.perception,True,29,direct_object,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+44,2,darkening,41,50,3935,3944,19,51.0,73.0,3945.0,3967.0,,,,,verb.change,True,28,direct_object,The hunter,9,35,44,male,1.0,primary
+46,2,compose,55,62,4131,4138,19,63.0,70.0,4139.0,4146.0,71.0,79.0,4147.0,4155.0,verb.creation,True,33,direct_object,The hunter,9,35,44,male,1.0,primary
+47,8,bemoan,131,137,4361,4367,40,138.0,156.0,4368.0,4386.0,,,,,verb.communication,True,32,direct_object,the two females,2,29,31,group/nonbinary,1.0,primary
+50,2,treated,14,21,4510,4517,19,22.0,28.0,4518.0,4524.0,29.0,56.0,4525.0,4552.0,verb.social,True,34,direct_object,The hunter,9,35,44,male,1.0,primary
+53,1,test,31,35,4673,4677,67,36.0,43.0,4678.0,4685.0,,,,,verb.social,True,37,direct_object,mankind,1,0,1,unknown,0.0,tertiary
+54,8,devote,93,99,4820,4826,69,100.0,111.0,4827.0,4838.0,112.0,130.0,4839.0,4857.0,verb.communication,True,38,direct_object,the bereaved by death,1,3,4,group/nonbinary,1.0,tertiary
+55,8,make,109,113,4968,4972,71,114.0,167.0,4973.0,5026.0,,,,,verb.cognition,True,40,direct_object,those who have lost friends,1,0,1,unknown,0.0,tertiary
+55,8,make,109,113,4968,4972,72,114.0,167.0,4973.0,5026.0,,,,,verb.cognition,True,40,direct_object,friends,1,0,1,unknown,0.0,tertiary
+57,1,allotted,17,25,5075,5083,74,26.0,28.0,5084.0,5086.0,51.0,68.0,5109.0,5126.0,verb.possession,True,39,direct_object,the Master of Life,1,0,1,unknown,0.0,tertiary
+57,1,allotted,17,25,5075,5083,40,26.0,28.0,5084.0,5086.0,51.0,68.0,5109.0,5126.0,verb.possession,True,39,direct_object,the two females,2,29,31,group/nonbinary,1.0,primary
+58,3,indicated,91,100,5219,5228,19,101.0,141.0,5229.0,5269.0,,,,,verb.communication,True,41,direct_object,The hunter,9,35,44,male,1.0,primary
+58,3,indicated,91,100,5219,5228,40,101.0,141.0,5229.0,5269.0,,,,,verb.communication,True,41,direct_object,the two females,2,29,31,group/nonbinary,1.0,primary
+59,1,talk,18,22,5332,5336,8,23.0,49.0,5337.0,5363.0,,,,,verb.communication,True,42,direct_object,"a hunter in the North , who had a wife and one child's wife",7,21,28,female,1.0,secondary
+59,1,talk,18,22,5332,5336,19,23.0,49.0,5337.0,5363.0,,,,,verb.communication,True,42,direct_object,The hunter,9,35,44,male,1.0,primary
+61,2,possessing,54,64,5562,5572,19,65.0,74.0,5573.0,5582.0,,,,,verb.possession,True,43,direct_object,The hunter,9,35,44,male,1.0,primary
+61,2,possessing,54,64,5562,5572,40,65.0,74.0,5573.0,5582.0,,,,,verb.possession,True,43,direct_object,the two females,2,29,31,group/nonbinary,1.0,primary
+62,1,selected,30,38,5649,5657,19,39.0,52.0,5658.0,5671.0,,,,,verb.cognition,True,45,direct_object,The hunter,9,35,44,male,1.0,primary
+64,0,love,4,8,5714,5718,75,9.0,18.0,5719.0,5728.0,,,,,verb.emotion,True,46,direct_object,The hunter's wife,2,2,4,female,1.0,tertiary
+64,0,love,4,8,5714,5718,19,9.0,18.0,5719.0,5728.0,,,,,verb.emotion,True,46,direct_object,The hunter,9,35,44,male,1.0,primary
+65,0,usurp,15,20,5745,5750,75,21.0,40.0,5751.0,5770.0,,,,,verb.communication,True,47,direct_object,The hunter's wife,2,2,4,female,1.0,tertiary
+67,0,pardon,0,6,5981,5987,40,7.0,9.0,5988.0,5990.0,,,,,verb.communication,True,50,direct_object,the two females,2,29,31,group/nonbinary,1.0,primary
+68,1,sent,29,33,6021,6025,40,34.0,36.0,6026.0,6028.0,,,,,verb.motion,True,49,direct_object,the two females,2,29,31,group/nonbinary,1.0,primary
+76,0,had,3,6,6357,6360,57,7.0,52.0,6361.0,6406.0,,,,,verb.possession,True,54,direct_object,many children,1,0,1,unknown,0.0,tertiary
+76,0,had,3,6,6357,6360,58,7.0,52.0,6361.0,6406.0,,,,,verb.possession,True,54,direct_object,all of whom grew up to manhood,1,0,1,unknown,0.0,tertiary

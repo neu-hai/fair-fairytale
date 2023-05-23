@@ -1,0 +1,130 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,1,asked,54,59,155,160,4,41.0,53.0,142.0,154.0,,,,,verb.communication,True,0,subject,a young man named Farquhar MacNeill's Mistress,2.0,3.0,5.0,male,1.0,tertiary
+2,1,asked,54,59,155,160,3,41.0,53.0,142.0,154.0,,,,,verb.communication,True,0,subject,a young man named Farquhar MacNeill,1.0,5.0,6.0,male,1.0,tertiary
+4,1,sift,14,18,282,286,4,0.0,3.0,268.0,271.0,,,,,verb.contact,True,1,subject,a young man named Farquhar MacNeill's Mistress,2.0,3.0,5.0,male,1.0,tertiary
+5,0,agreed,9,15,307,313,0,0.0,8.0,298.0,306.0,,,,,verb.communication,True,2,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+7,4,follow,107,113,453,459,0,83.0,91.0,429.0,437.0,,,,,verb.social,True,3,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+8,0,told,4,8,465,469,4,0.0,3.0,461.0,464.0,,,,,verb.communication,True,4,subject,a young man named Farquhar MacNeill's Mistress,2.0,3.0,5.0,male,1.0,tertiary
+9,2,see,20,23,584,587,0,0.0,2.0,564.0,566.0,,,,,verb.perception,True,6,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+10,1,gone,11,15,624,628,0,0.0,2.0,613.0,615.0,25.0,240.0,638.0,853.0,verb.motion,True,5,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+11,0,left,3,7,858,862,0,0.0,2.0,855.0,857.0,,,,,verb.motion,True,7,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+12,3,tripped,61,68,958,965,0,52.0,60.0,949.0,957.0,,,,,verb.motion,True,9,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+17,3,toasting,51,59,1484,1492,18,41.0,45.0,1474.0,1478.0,,,,,verb.consumption,True,8,subject,"two little elderly women , in black aprons and white mutches",1.0,2.0,3.0,female,1.0,tertiary
+19,1,dancing,87,94,1645,1652,24,54.0,81.0,1612.0,1639.0,101.0,161.0,1659.0,1719.0,verb.motion,True,10,subject,Elves,1.0,0.0,1.0,unknown,0.0,tertiary
+19,1,dancing,87,94,1645,1652,1,54.0,81.0,1612.0,1639.0,101.0,161.0,1659.0,1719.0,verb.motion,True,10,subject,Sprites,1.0,0.0,1.0,unknown,0.0,tertiary
+20,2,played,16,22,1737,1743,23,0.0,4.0,1721.0,1725.0,,,,,verb.creation,True,11,subject,a great troop of Fairies,1.0,12.0,13.0,group/nonbinary,1.0,tertiary
+21,1,came,57,61,1875,1879,0,48.0,56.0,1866.0,1874.0,,,,,verb.motion,True,12,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+22,0,looked,5,11,1915,1921,23,0.0,4.0,1910.0,1914.0,19.0,27.0,1929.0,1937.0,verb.perception,True,13,subject,a great troop of Fairies,1.0,12.0,13.0,group/nonbinary,1.0,tertiary
+23,0,saw,10,13,1949,1952,23,5.0,9.0,1944.0,1948.0,,,,,verb.cognition,True,14,subject,a great troop of Fairies,1.0,12.0,13.0,group/nonbinary,1.0,tertiary
+25,4,thought,85,92,2185,2192,0,4.0,51.0,2104.0,2151.0,,,,,verb.cognition,True,15,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+26,0,asked,3,8,2237,2242,0,0.0,2.0,2234.0,2236.0,21.0,42.0,2255.0,2276.0,verb.communication,True,16,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+27,0,looked,24,30,2302,2308,26,19.0,23.0,2297.0,2301.0,,,,,verb.perception,True,17,subject,the Fairies,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+28,1,dancing,35,42,2392,2399,27,17.0,30.0,2374.0,2387.0,,,,,verb.body,True,18,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+29,0,danced,10,16,2440,2446,27,7.0,9.0,2437.0,2439.0,,,,,verb.creation,True,19,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+30,0,forgot,3,9,2482,2488,27,0.0,2.0,2479.0,2481.0,,,,,verb.cognition,True,20,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+31,1,wanted,21,27,2598,2604,27,18.0,20.0,2595.0,2597.0,,,,,verb.emotion,True,21,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+33,3,became,45,51,2732,2738,27,42.0,44.0,2729.0,2731.0,,,,,verb.change,True,22,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+34,1,come,9,13,2772,2776,27,0.0,2.0,2763.0,2765.0,,,,,verb.motion,True,23,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+35,1,sip,9,12,2823,2826,27,0.0,2.0,2814.0,2816.0,63.0,121.0,2877.0,2935.0,verb.consumption,True,24,subject,the young man,1.0,18.0,19.0,male,1.0,tertiary
+37,0,started,5,12,3050,3057,32,0.0,4.0,3045.0,3049.0,,,,,verb.change,True,25,subject,a band of merry companions,1.0,2.0,3.0,unknown,0.0,tertiary
+38,0,intended,5,13,3070,3078,32,0.0,4.0,3065.0,3069.0,,,,,verb.cognition,True,26,subject,a band of merry companions,1.0,2.0,3.0,unknown,0.0,tertiary
+39,4,looked,46,52,3199,3205,0,28.0,36.0,3181.0,3189.0,,,,,verb.perception,True,27,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+40,4,saw,97,100,3323,3326,0,88.0,90.0,3314.0,3316.0,,,,,verb.perception,True,28,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+41,1,stuck,34,39,3407,3412,0,0.0,2.0,3373.0,3375.0,,,,,verb.motion,True,29,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+42,0,sped,15,19,3448,3452,0,0.0,14.0,3433.0,3447.0,,,,,verb.motion,True,30,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+42,0,sped,15,19,3448,3452,36,0.0,14.0,3433.0,3447.0,,,,,verb.motion,True,30,subject,Farquhar's companions,1.0,0.0,1.0,unknown,0.0,tertiary
+43,2,disentangle,15,26,3516,3527,0,0.0,2.0,3501.0,3503.0,35.0,51.0,3536.0,3552.0,verb.contact,True,31,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+44,2,chanced,22,29,3576,3583,0,19.0,21.0,3573.0,3575.0,,,,,verb.creation,True,32,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+45,0,saw,26,29,3643,3646,0,23.0,25.0,3640.0,3642.0,,,,,verb.perception,True,33,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+48,2,looked,33,39,3852,3858,0,30.0,32.0,3849.0,3851.0,,,,,verb.perception,True,37,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+49,5,broken,92,98,4031,4037,0,51.0,79.0,3990.0,4018.0,,,,,verb.change,True,36,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+51,2,left,88,92,4160,4164,0,59.0,75.0,4131.0,4147.0,,,,,verb.cognition,True,35,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+52,0,felt,3,7,4191,4195,0,0.0,2.0,4188.0,4190.0,,,,,verb.emotion,True,38,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+53,0,made,6,10,4271,4275,0,3.0,5.0,4268.0,4270.0,17.0,34.0,4282.0,4299.0,verb.social,True,39,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+54,0,arrived,8,15,4309,4316,0,5.0,7.0,4306.0,4308.0,,,,,verb.motion,True,40,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+56,1,find,31,35,4477,4481,0,18.0,20.0,4464.0,4466.0,,,,,verb.possession,True,42,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+57,0,expected,36,44,4539,4547,0,33.0,35.0,4536.0,4538.0,,,,,verb.cognition,True,41,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+58,0,looked,21,27,4647,4653,0,18.0,20.0,4644.0,4646.0,,,,,verb.perception,True,43,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+59,1,thatching,28,37,4731,4740,52,17.0,27.0,4720.0,4730.0,,,,,verb.contact,True,44,subject,an old man,1.0,0.0,1.0,male,1.0,tertiary
+60,2,took,57,61,4821,4825,0,48.0,56.0,4812.0,4820.0,66.0,85.0,4830.0,4849.0,verb.motion,True,45,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+61,1,saw,21,24,4872,4875,0,18.0,20.0,4869.0,4871.0,,,,,verb.cognition,True,46,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+62,0,felt,3,7,4971,4975,0,0.0,2.0,4968.0,4970.0,,,,,verb.emotion,True,47,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+63,2,tell,25,29,5046,5050,54,16.0,18.0,5037.0,5039.0,,,,,verb.communication,True,48,subject,This old man,1.0,8.0,9.0,male,1.0,tertiary
+64,1,shook,30,35,5164,5169,61,27.0,29.0,5161.0,5163.0,,,,,verb.motion,True,49,subject,The old man,3.0,7.0,10.0,male,1.0,tertiary
+65,1,answered,27,35,5207,5215,61,24.0,26.0,5204.0,5206.0,,,,,verb.communication,True,50,subject,The old man,3.0,7.0,10.0,male,1.0,tertiary
+66,2,tell,41,45,5264,5268,61,14.0,23.0,5237.0,5246.0,,,,,verb.communication,True,51,subject,The old man,3.0,7.0,10.0,male,1.0,tertiary
+66,2,tell,41,45,5264,5268,72,14.0,23.0,5237.0,5246.0,,,,,verb.communication,True,51,subject,The old man's father,5.0,0.0,5.0,male,1.0,tertiary
+70,1,answered,13,21,5381,5389,73,1.0,10.0,5369.0,5378.0,35.0,54.0,5403.0,5422.0,verb.communication,True,54,subject,Farquhar's father,3.0,3.0,6.0,male,1.0,tertiary
+71,3,sitting,42,49,5466,5473,73,38.0,41.0,5462.0,5465.0,67.0,78.0,5491.0,5502.0,verb.contact,True,53,subject,Farquhar's father,3.0,3.0,6.0,male,1.0,tertiary
+73,3,looked,97,103,5630,5636,64,94.0,96.0,5627.0,5629.0,,,,,verb.perception,True,55,subject,"another old man , who was so thin and withered and bent",1.0,3.0,4.0,male,1.0,tertiary
+74,2,bind,32,36,5716,5720,64,0.0,2.0,5684.0,5686.0,48.0,59.0,5732.0,5743.0,verb.contact,True,56,subject,"another old man , who was so thin and withered and bent",1.0,3.0,4.0,male,1.0,tertiary
+75,1,tell,9,13,5754,5758,0,5.0,8.0,5750.0,5753.0,,,,,verb.communication,True,57,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+77,0,expected,10,18,5852,5860,0,0.0,2.0,5842.0,5844.0,,,,,verb.cognition,True,58,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+78,1,mumbled,12,19,5927,5934,66,1.0,2.0,5916.0,5917.0,,,,,verb.communication,True,60,subject,this ancient person,1.0,2.0,3.0,unknown,0.0,tertiary
+79,1,tell,28,32,5983,5987,66,14.0,23.0,5969.0,5978.0,,,,,verb.communication,True,62,subject,this ancient person,1.0,2.0,3.0,unknown,0.0,tertiary
+79,1,tell,28,32,5983,5987,72,14.0,23.0,5969.0,5978.0,,,,,verb.communication,True,62,subject,The old man's father,5.0,0.0,5.0,male,1.0,tertiary
+83,0,shook,12,17,6107,6112,61,0.0,11.0,6095.0,6106.0,27.0,47.0,6122.0,6142.0,verb.contact,True,61,subject,The old man,3.0,7.0,10.0,male,1.0,tertiary
+84,2,pointed,27,34,6171,6178,61,14.0,16.0,6158.0,6160.0,,,,,verb.communication,True,63,subject,The old man,3.0,7.0,10.0,male,1.0,tertiary
+85,0,approached,9,19,6318,6328,0,0.0,8.0,6309.0,6317.0,,,,,verb.motion,True,64,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+89,0,took,12,16,6552,6556,0,3.0,11.0,6543.0,6551.0,41.0,69.0,6581.0,6609.0,verb.contact,True,66,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+90,0,set,3,6,6624,6627,0,0.0,2.0,6621.0,6623.0,,,,,verb.contact,True,67,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+94,0,expected,29,37,6848,6856,0,20.0,28.0,6839.0,6847.0,,,,,verb.cognition,True,71,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+96,0,saw,9,12,6956,6959,71,1.0,2.0,6948.0,6949.0,,,,,verb.perception,True,70,subject,the tiny figure,1.0,4.0,5.0,unknown,0.0,tertiary
+99,1,dissolved,63,72,7145,7154,0,44.0,53.0,7126.0,7135.0,,,,,verb.change,True,72,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+100,0,fell,3,7,7169,7173,0,0.0,2.0,7166.0,7168.0,,,,,verb.motion,True,73,subject,Farquhar,15.0,102.0,117.0,male,1.0,primary
+2,1,asked,54,59,155,160,7,60.0,63.0,161.0,164.0,,,,,verb.communication,True,0,direct_object,a neighbour,1.0,0.0,1.0,unknown,0.0,tertiary
+2,1,asked,54,59,155,160,3,60.0,63.0,161.0,164.0,,,,,verb.communication,True,0,direct_object,a young man named Farquhar MacNeill,1.0,5.0,6.0,male,1.0,tertiary
+8,0,told,4,8,465,469,0,9.0,12.0,470.0,473.0,,,,,verb.communication,True,4,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+20,2,played,16,22,1737,1743,23,23.0,95.0,1744.0,1816.0,,,,,verb.creation,True,11,direct_object,a great troop of Fairies,1.0,12.0,13.0,group/nonbinary,1.0,tertiary
+20,2,played,16,22,1737,1743,25,23.0,95.0,1744.0,1816.0,,,,,verb.creation,True,11,direct_object,"a great troop of Fairies's brown - faced Gnome , who sat on a ledge of rock far above their heads",1.0,0.0,1.0,unknown,0.0,tertiary
+22,0,looked,5,11,1915,1921,0,12.0,18.0,1922.0,1928.0,19.0,27.0,1929.0,1937.0,verb.perception,True,13,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+23,0,saw,10,13,1949,1952,0,14.0,34.0,1953.0,1973.0,,,,,verb.cognition,True,14,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+25,4,thought,85,92,2185,2192,0,93.0,132.0,2193.0,2232.0,,,,,verb.cognition,True,15,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+26,0,asked,3,8,2237,2242,26,9.0,20.0,2243.0,2254.0,21.0,42.0,2255.0,2276.0,verb.communication,True,16,direct_object,the Fairies,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+27,0,looked,24,30,2302,2308,0,31.0,55.0,2309.0,2333.0,,,,,verb.perception,True,17,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+30,0,forgot,3,9,2482,2488,27,10.0,20.0,2489.0,2499.0,,,,,verb.cognition,True,20,direct_object,the young man,1.0,18.0,19.0,male,1.0,tertiary
+31,1,wanted,21,27,2598,2604,26,28.0,79.0,2605.0,2656.0,,,,,verb.emotion,True,21,direct_object,the Fairies,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+31,1,wanted,21,27,2598,2604,27,28.0,79.0,2605.0,2656.0,,,,,verb.emotion,True,21,direct_object,the young man,1.0,18.0,19.0,male,1.0,tertiary
+33,3,became,45,51,2732,2738,26,52.0,74.0,2739.0,2761.0,,,,,verb.change,True,22,direct_object,the Fairies,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+33,3,became,45,51,2732,2738,30,52.0,74.0,2739.0,2761.0,,,,,verb.change,True,22,direct_object,the Fairies's of themselves,1.0,0.0,1.0,unknown,0.0,tertiary
+39,4,looked,46,52,3199,3205,0,53.0,71.0,3206.0,3224.0,,,,,verb.perception,True,27,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+40,4,saw,97,100,3323,3326,0,101.0,145.0,3327.0,3371.0,,,,,verb.perception,True,28,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+43,2,disentangle,15,26,3516,3527,0,27.0,34.0,3528.0,3535.0,35.0,51.0,3536.0,3552.0,verb.contact,True,31,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+45,0,saw,26,29,3643,3646,38,30.0,79.0,3647.0,3696.0,,,,,verb.perception,True,33,direct_object,a comely young woman,1.0,1.0,2.0,female,1.0,tertiary
+45,0,saw,26,29,3643,3646,39,30.0,79.0,3647.0,3696.0,,,,,verb.perception,True,33,direct_object,a rosy - cheeked baby,1.0,0.0,1.0,unknown,0.0,tertiary
+47,0,rose,19,23,3801,3805,0,24.0,35.0,3806.0,3817.0,,,,,verb.motion,True,34,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+48,2,looked,33,39,3852,3858,42,40.0,63.0,3859.0,3882.0,,,,,verb.perception,True,37,direct_object,child,1.0,0.0,1.0,unknown,0.0,tertiary
+48,2,looked,33,39,3852,3858,41,40.0,63.0,3859.0,3882.0,,,,,verb.perception,True,37,direct_object,the mother,1.0,0.0,1.0,female,1.0,tertiary
+51,2,left,88,92,4160,4164,45,93.0,100.0,4165.0,4172.0,,,,,verb.cognition,True,35,direct_object,Farquhar's new Mistress whom he had left waiting for her sieve,1.0,1.0,2.0,female,1.0,tertiary
+52,0,felt,3,7,4191,4195,0,8.0,75.0,4196.0,4263.0,,,,,verb.emotion,True,38,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+56,1,find,31,35,4477,4481,0,36.0,55.0,4482.0,4501.0,,,,,verb.possession,True,42,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+57,0,expected,36,44,4539,4547,49,45.0,71.0,4548.0,4574.0,,,,,verb.cognition,True,41,direct_object,Farquhar's father,2.0,1.0,3.0,male,1.0,tertiary
+57,0,expected,36,44,4539,4547,0,45.0,71.0,4548.0,4574.0,,,,,verb.cognition,True,41,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+58,0,looked,21,27,4647,4653,51,28.0,75.0,4654.0,4701.0,,,,,verb.perception,True,43,direct_object,,,,,,,
+58,0,looked,21,27,4647,4653,0,28.0,75.0,4654.0,4701.0,,,,,verb.perception,True,43,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+60,2,took,57,61,4821,4825,54,62.0,65.0,4826.0,4829.0,66.0,85.0,4830.0,4849.0,verb.motion,True,45,direct_object,This old man,1.0,8.0,9.0,male,1.0,tertiary
+61,1,saw,21,24,4872,4875,54,25.0,50.0,4876.0,4901.0,,,,,verb.cognition,True,46,direct_object,This old man,1.0,8.0,9.0,male,1.0,tertiary
+61,1,saw,21,24,4872,4875,56,25.0,50.0,4876.0,4901.0,,,,,verb.cognition,True,46,direct_object,a human being,1.0,0.0,1.0,unknown,0.0,tertiary
+62,0,felt,3,7,4971,4975,57,8.0,51.0,4976.0,5019.0,,,,,verb.emotion,True,47,direct_object,such an ancient man,1.0,0.0,1.0,male,1.0,tertiary
+63,2,tell,25,29,5046,5050,54,30.0,33.0,5051.0,5054.0,,,,,verb.communication,True,48,direct_object,This old man,1.0,8.0,9.0,male,1.0,tertiary
+63,2,tell,25,29,5046,5050,43,30.0,33.0,5051.0,5054.0,,,,,verb.communication,True,48,direct_object,Farquhar's friends,2.0,0.0,2.0,unknown,0.0,tertiary
+64,1,shook,30,35,5164,5169,61,36.0,44.0,5170.0,5178.0,,,,,verb.motion,True,49,direct_object,The old man,3.0,7.0,10.0,male,1.0,tertiary
+66,2,tell,41,45,5264,5268,0,46.0,49.0,5269.0,5272.0,,,,,verb.communication,True,51,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+68,0,said,0,4,5290,5294,0,5.0,13.0,5295.0,5303.0,15.0,32.0,,,verb.communication,True,52,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+70,1,answered,13,21,5381,5389,61,22.0,33.0,5390.0,5401.0,35.0,54.0,5403.0,5422.0,verb.communication,True,54,direct_object,The old man,3.0,7.0,10.0,male,1.0,tertiary
+73,3,looked,97,103,5630,5636,64,104.0,149.0,5637.0,5682.0,,,,,verb.perception,True,55,direct_object,"another old man , who was so thin and withered and bent",1.0,3.0,4.0,male,1.0,tertiary
+75,1,tell,9,13,5754,5758,72,14.0,16.0,5759.0,5761.0,,,,,verb.communication,True,57,direct_object,The old man's father,5.0,0.0,5.0,male,1.0,tertiary
+75,1,tell,9,13,5754,5758,0,14.0,16.0,5759.0,5761.0,,,,,verb.communication,True,57,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+75,1,tell,9,13,5754,5758,76,14.0,16.0,5759.0,5761.0,,,,,verb.communication,True,57,direct_object,Farquhar's friends,2.0,3.0,5.0,group/nonbinary,1.0,tertiary
+76,0,asked,0,5,5820,5825,0,6.0,14.0,5826.0,5834.0,15.0,20.0,,,verb.communication,True,59,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+77,0,expected,10,18,5852,5860,65,19.0,71.0,5861.0,5913.0,,,,,verb.cognition,True,58,direct_object,this second old man,1.0,0.0,1.0,male,1.0,tertiary
+77,0,expected,10,18,5852,5860,0,19.0,71.0,5861.0,5913.0,,,,,verb.cognition,True,58,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+79,1,tell,28,32,5983,5987,0,33.0,36.0,5988.0,5991.0,,,,,verb.communication,True,62,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+83,0,shook,12,17,6107,6112,61,18.0,26.0,6113.0,6121.0,27.0,47.0,6122.0,6142.0,verb.contact,True,61,direct_object,The old man,3.0,7.0,10.0,male,1.0,tertiary
+88,1,touch,10,15,6494,6499,0,16.0,19.0,6500.0,6503.0,,,,,verb.contact,True,65,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+90,0,set,3,6,6624,6627,0,7.0,10.0,6628.0,6631.0,,,,,verb.contact,True,67,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+92,0,know,6,10,6732,6736,72,11.0,74.0,6737.0,6800.0,,,,,verb.cognition,True,68,direct_object,The old man's father,5.0,0.0,5.0,male,1.0,tertiary
+92,0,know,6,10,6732,6736,0,11.0,74.0,6737.0,6800.0,,,,,verb.cognition,True,68,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+92,0,know,6,10,6732,6736,76,11.0,74.0,6737.0,6800.0,,,,,verb.cognition,True,68,direct_object,Farquhar's friends,2.0,3.0,5.0,group/nonbinary,1.0,tertiary
+93,0,asked,0,5,6803,6808,0,6.0,14.0,6809.0,6817.0,,,,,verb.communication,True,69,direct_object,Farquhar,15.0,102.0,117.0,male,1.0,primary
+96,0,saw,9,12,6956,6959,76,13.0,24.0,6960.0,6971.0,,,,,verb.perception,True,70,direct_object,Farquhar's friends,2.0,3.0,5.0,group/nonbinary,1.0,tertiary

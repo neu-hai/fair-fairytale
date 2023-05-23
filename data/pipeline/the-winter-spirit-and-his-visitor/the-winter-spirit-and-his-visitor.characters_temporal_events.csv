@@ -1,0 +1,69 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,sitting,15,22,15,22,2,0.0,10.0,0.0,10.0,,,,,verb.contact,0,subject,An old man,1,15,16,male,1.0,primary
+2,0,appeared,3,11,134,142,2,0.0,2.0,131.0,133.0,,,,,verb.perception,1,subject,An old man,1,15,16,male,1.0,primary
+3,1,trembled,38,46,209,217,2,35.0,37.0,206.0,208.0,,,,,verb.body,2,subject,An old man,1,15,16,male,1.0,primary
+4,1,heard,41,46,275,280,2,38.0,40.0,272.0,274.0,,,,,verb.perception,3,subject,An old man,1,15,16,male,1.0,primary
+5,1,dying,29,34,389,394,2,11.0,19.0,371.0,379.0,,,,,verb.change,4,subject,An old man,1,15,16,male,1.0,primary
+5,2,approached,57,67,417,427,6,36.0,56.0,396.0,416.0,,,,,verb.motion,5,subject,a handsome young man,1,0,1,male,1.0,tertiary
+5,3,entered,72,79,432,439,6,36.0,56.0,396.0,416.0,,,,,verb.motion,6,subject,a handsome young man,1,0,1,male,1.0,tertiary
+7,0,sparkled,10,18,508,516,2,1.0,9.0,499.0,507.0,,,,,verb.perception,7,subject,An old man,1,15,16,male,1.0,primary
+8,0,walked,3,9,565,571,2,0.0,2.0,562.0,564.0,,,,,verb.motion,9,subject,An old man,1,15,16,male,1.0,primary
+9,1,bound,17,22,618,623,2,0.0,12.0,601.0,613.0,,,,,verb.contact,8,subject,An old man,1,15,16,male,1.0,primary
+11,0,said,9,13,751,755,9,0.0,6.0,742.0,748.0,,,,,verb.communication,11,subject,the old man,4,18,22,male,1.0,primary
+11,0,said,9,13,751,755,26,0.0,6.0,742.0,748.0,,,,,verb.communication,11,subject,the old man's son,1,5,6,unknown,0.0,tertiary
+11,2,see,42,45,784,787,9,28.0,29.0,770.0,771.0,,,,,verb.perception,10,subject,the old man,4,18,22,male,1.0,primary
+13,4,see,74,77,876,879,26,38.0,56.0,840.0,858.0,,,,,verb.perception,12,subject,the old man's son,1,5,6,unknown,0.0,tertiary
+15,1,tell,7,11,920,924,9,0.0,1.0,913.0,914.0,,,,,verb.communication,15,subject,the old man,4,18,22,male,1.0,primary
+15,3,perform,59,66,972,979,9,48.0,52.0,961.0,965.0,,,,,verb.creation,14,subject,the old man,4,18,22,male,1.0,primary
+16,1,do,10,12,991,993,26,0.0,3.0,981.0,984.0,,,,,verb.social,17,subject,the old man's son,1,5,6,unknown,0.0,tertiary
+17,0,drew,8,12,1042,1046,9,0.0,2.0,1034.0,1036.0,,,,,verb.contact,16,subject,the old man,4,18,22,male,1.0,primary
+17,3,filled,72,78,1106,1112,9,0.0,2.0,1034.0,1036.0,,,,,verb.change,19,subject,the old man,4,18,22,male,1.0,primary
+17,4,rendered,96,104,1130,1138,9,0.0,2.0,1034.0,1036.0,,,,,verb.change,18,subject,the old man,4,18,22,male,1.0,primary
+17,5,handed,154,160,1188,1194,9,151.0,153.0,1185.0,1187.0,,,,,verb.communication,21,subject,the old man,4,18,22,male,1.0,primary
+19,0,blow,3,7,1272,1276,9,1.0,2.0,1270.0,1271.0,,,,,verb.body,20,subject,the old man,4,18,22,male,1.0,primary
+21,0,breathe,3,10,1390,1397,13,1.0,2.0,1388.0,1389.0,,,,,verb.consumption,22,subject,the young man,3,17,20,male,1.0,primary
+22,0,shake,3,8,1468,1473,9,1.0,2.0,1466.0,1467.0,,,,,verb.contact,24,subject,the old man,4,18,22,male,1.0,primary
+23,1,blows,60,65,1594,1599,9,50.0,59.0,1584.0,1593.0,,,,,verb.change,28,subject,the old man,4,18,22,male,1.0,primary
+25,1,walk,83,87,1751,1755,9,81.0,82.0,1749.0,1750.0,,,,,verb.motion,29,subject,the old man,4,18,22,male,1.0,primary
+26,0,shake,3,8,1786,1791,13,1.0,2.0,1784.0,1785.0,,,,,verb.contact,31,subject,the young man,3,17,20,male,1.0,primary
+28,0,recalls,9,16,1991,1998,13,0.0,8.0,1982.0,1990.0,,,,,verb.communication,33,subject,the young man,3,17,20,male,1.0,primary
+29,0,unlocks,24,31,2034,2041,13,0.0,23.0,2010.0,2033.0,,,,,verb.contact,35,subject,the young man,3,17,20,male,1.0,primary
+30,1,walk,34,38,2089,2093,13,32.0,33.0,2087.0,2088.0,,,,,verb.motion,34,subject,the young man,3,17,20,male,1.0,primary
+33,0,became,26,32,2229,2235,9,0.0,25.0,2203.0,2228.0,,,,,verb.change,37,subject,the old man,4,18,22,male,1.0,primary
+37,0,looked,8,14,2515,2521,13,5.0,7.0,2512.0,2514.0,,,,,verb.perception,39,subject,the young man,3,17,20,male,1.0,primary
+39,1,grew,24,28,2648,2652,13,21.0,23.0,2645.0,2647.0,,,,,verb.change,41,subject,the young man,3,17,20,male,1.0,primary
+39,3,melted,76,82,2700,2706,13,69.0,71.0,2693.0,2695.0,,,,,verb.change,42,subject,the young man,3,17,20,male,1.0,primary
+40,1,placed,165,171,2889,2895,1,52.0,107.0,2776.0,2831.0,201.0,233.0,2925.0,2957.0,verb.contact,44,subject,Seegwun,1,0,1,unknown,0.0,tertiary
+40,1,placed,165,171,2889,2895,23,52.0,107.0,2776.0,2831.0,201.0,233.0,2925.0,2957.0,verb.contact,44,subject,the young visitor,1,0,1,unknown,0.0,tertiary
+40,1,placed,165,171,2889,2895,24,52.0,107.0,2776.0,2831.0,201.0,233.0,2925.0,2957.0,verb.contact,44,subject,the Spirit of Spring,1,0,1,unknown,0.0,tertiary
+0,1,sitting,15,22,15,22,2,29.0,41.0,29.0,41.0,,,,,verb.contact,0,direct_object,An old man,1,15,16,male,1.0,primary
+5,3,entered,72,79,432,439,2,80.0,92.0,440.0,452.0,,,,,verb.motion,6,direct_object,An old man,1,15,16,male,1.0,primary
+11,0,said,9,13,751,755,9,14.0,25.0,756.0,767.0,,,,,verb.communication,11,direct_object,the old man,4,18,22,male,1.0,primary
+11,0,said,9,13,751,755,26,14.0,25.0,756.0,767.0,,,,,verb.communication,11,direct_object,the old man's son,1,5,6,unknown,0.0,tertiary
+11,2,see,42,45,784,787,26,46.0,49.0,788.0,791.0,,,,,verb.perception,10,direct_object,the old man's son,1,5,6,unknown,0.0,tertiary
+13,1,tell,6,10,808,812,9,11.0,13.0,813.0,815.0,,,,,verb.communication,13,direct_object,the old man,4,18,22,male,1.0,primary
+13,1,tell,6,10,808,812,26,11.0,13.0,813.0,815.0,,,,,verb.communication,13,direct_object,the old man's son,1,5,6,unknown,0.0,tertiary
+15,1,tell,7,11,920,924,26,12.0,15.0,925.0,928.0,,,,,verb.communication,15,direct_object,the old man's son,1,5,6,unknown,0.0,tertiary
+15,1,tell,7,11,920,924,9,12.0,15.0,925.0,928.0,,,,,verb.communication,15,direct_object,the old man,4,18,22,male,1.0,primary
+17,0,drew,8,12,1042,1046,9,13.0,26.0,1047.0,1060.0,,,,,verb.contact,16,direct_object,the old man,4,18,22,male,1.0,primary
+17,3,filled,72,78,1106,1112,9,79.0,81.0,1113.0,1115.0,,,,,verb.change,19,direct_object,the old man,4,18,22,male,1.0,primary
+17,5,handed,154,160,1188,1194,9,161.0,163.0,1195.0,1197.0,,,,,verb.communication,21,direct_object,the old man,4,18,22,male,1.0,primary
+17,5,handed,154,160,1188,1194,10,161.0,163.0,1195.0,1197.0,,,,,verb.communication,21,direct_object,the old man's guest,1,0,1,unknown,0.0,tertiary
+19,0,blow,3,7,1272,1276,9,8.0,17.0,1277.0,1286.0,,,,,verb.body,20,direct_object,the old man,4,18,22,male,1.0,primary
+19,1,said,20,24,1289,1293,9,25.0,36.0,1294.0,1305.0,,,,,verb.communication,23,direct_object,the old man,4,18,22,male,1.0,primary
+21,1,said,13,17,1400,1404,13,18.0,31.0,1405.0,1418.0,,,,,verb.communication,25,direct_object,the young man,3,17,20,male,1.0,primary
+22,0,shake,3,8,1468,1473,9,9.0,17.0,1474.0,1482.0,,,,,verb.contact,24,direct_object,the old man,4,18,22,male,1.0,primary
+22,1,retorted,20,28,1485,1493,9,29.0,40.0,1494.0,1505.0,,,,,verb.communication,26,direct_object,the old man,4,18,22,male,1.0,primary
+23,0,fall,11,15,1545,1549,9,16.0,44.0,1550.0,1578.0,,,,,verb.motion,27,direct_object,the old man,4,18,22,male,1.0,primary
+25,0,hide,12,16,1680,1684,9,17.0,27.0,1685.0,1695.0,,,,,verb.contact,30,direct_object,the old man,4,18,22,male,1.0,primary
+26,0,shake,3,8,1786,1791,13,9.0,20.0,1792.0,1803.0,,,,,verb.contact,31,direct_object,the young man,3,17,20,male,1.0,primary
+26,1,rejoined,23,31,1806,1814,13,32.0,45.0,1815.0,1828.0,,,,,verb.communication,32,direct_object,the young man,3,17,20,male,1.0,primary
+30,2,welcomes,55,63,2110,2118,13,64.0,75.0,2119.0,2130.0,,,,,verb.emotion,36,direct_object,the young man,3,17,20,male,1.0,primary
+36,0,revealed,15,23,2447,2455,13,24.0,40.0,2456.0,2472.0,,,,,verb.communication,38,direct_object,the young man,3,17,20,male,1.0,primary
+37,0,looked,8,14,2515,2521,13,15.0,23.0,2522.0,2530.0,,,,,verb.perception,39,direct_object,the young man,3,17,20,male,1.0,primary
+38,0,began,8,13,2595,2600,13,14.0,35.0,2601.0,2622.0,,,,,verb.change,40,direct_object,the young man,3,17,20,male,1.0,primary
+40,0,remained,8,16,2732,2740,13,17.0,233.0,2741.0,2957.0,,,,,verb.change,43,direct_object,the young man,3,17,20,male,1.0,primary
+40,0,remained,8,16,2732,2740,23,17.0,233.0,2741.0,2957.0,,,,,verb.change,43,direct_object,the young visitor,1,0,1,unknown,0.0,tertiary
+40,0,remained,8,16,2732,2740,24,17.0,233.0,2741.0,2957.0,,,,,verb.change,43,direct_object,the Spirit of Spring,1,0,1,unknown,0.0,tertiary
+40,0,remained,8,16,2732,2740,1,17.0,233.0,2741.0,2957.0,,,,,verb.change,43,direct_object,Seegwun,1,0,1,unknown,0.0,tertiary
+40,1,placed,165,171,2889,2895,13,172.0,185.0,2896.0,2909.0,201.0,233.0,2925.0,2957.0,verb.contact,44,direct_object,the young man,3,17,20,male,1.0,primary

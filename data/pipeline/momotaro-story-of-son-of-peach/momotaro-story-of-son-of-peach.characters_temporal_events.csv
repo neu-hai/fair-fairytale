@@ -1,0 +1,660 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,1,go,20,22,144,146,13,0.0,11.0,124.0,135.0,,,,,verb.motion,1,subject,The old man,15,37,52,male,1.0,tertiary
+2,2,cut,27,30,151,154,13,0.0,11.0,124.0,135.0,,,,,verb.contact,0,subject,The old man,15,37,52,male,1.0,tertiary
+2,5,did,108,111,232,235,13,83.0,106.0,207.0,230.0,,,,,verb.social,2,subject,The old man,15,37,52,male,1.0,tertiary
+2,5,did,108,111,232,235,16,83.0,106.0,207.0,230.0,,,,,verb.social,2,subject,The old man's wife,3,0,3,female,1.0,tertiary
+2,5,did,108,111,232,235,15,83.0,106.0,207.0,230.0,,,,,verb.social,2,subject,The old woman,11,54,65,female,1.0,tertiary
+2,6,worked,138,144,262,268,13,83.0,106.0,207.0,230.0,,,,,verb.social,4,subject,The old man,15,37,52,male,1.0,tertiary
+2,6,worked,138,144,262,268,16,83.0,106.0,207.0,230.0,,,,,verb.social,4,subject,The old man's wife,3,0,3,female,1.0,tertiary
+2,6,worked,138,144,262,268,15,83.0,106.0,207.0,230.0,,,,,verb.social,4,subject,The old woman,11,54,65,female,1.0,tertiary
+3,1,cut,50,53,351,354,13,8.0,19.0,309.0,320.0,,,,,verb.contact,3,subject,The old man,15,37,52,male,1.0,tertiary
+3,2,took,78,82,379,383,15,64.0,77.0,365.0,378.0,96.0,116.0,397.0,417.0,verb.contact,5,subject,The old woman,11,54,65,female,1.0,tertiary
+3,3,wash,112,116,413,417,15,64.0,77.0,365.0,378.0,,,,,verb.contact,6,subject,The old woman,11,54,65,female,1.0,tertiary
+4,3,went,109,113,528,532,24,90.0,108.0,509.0,527.0,,,,,verb.motion,7,subject,the two old people,2,4,6,group/nonbinary,1.0,tertiary
+4,4,work,130,134,549,553,24,90.0,108.0,509.0,527.0,,,,,verb.social,8,subject,the two old people,2,4,6,group/nonbinary,1.0,tertiary
+6,5,explain,164,171,870,877,29,149.0,153.0,855.0,859.0,,,,,verb.communication,12,subject,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+6,6,felt,173,177,879,883,29,99.0,127.0,805.0,833.0,189.0,201.0,895.0,907.0,verb.emotion,11,subject,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+7,0,found,22,27,931,936,15,0.0,13.0,909.0,922.0,,,,,verb.possession,13,subject,The old woman,11,54,65,female,1.0,tertiary
+7,1,put,62,65,971,974,15,0.0,21.0,909.0,930.0,,,,,verb.contact,14,subject,The old woman,11,54,65,female,1.0,tertiary
+8,0,set,9,12,1001,1004,15,5.0,8.0,997.0,1000.0,16.0,40.0,1008.0,1032.0,verb.contact,15,subject,The old woman,11,54,65,female,1.0,tertiary
+8,1,work,16,20,1008,1012,15,5.0,8.0,997.0,1000.0,,,,,verb.social,16,subject,The old woman,11,54,65,female,1.0,tertiary
+8,2,wash,24,28,1016,1020,15,5.0,8.0,997.0,1000.0,,,,,verb.contact,17,subject,The old woman,11,54,65,female,1.0,tertiary
+9,0,took,5,9,1038,1042,15,1.0,4.0,1034.0,1037.0,15.0,25.0,1048.0,1058.0,verb.contact,18,subject,The old woman,11,54,65,female,1.0,tertiary
+9,1,washed,48,54,1081,1087,15,1.0,4.0,1034.0,1037.0,60.0,72.0,1093.0,1105.0,verb.contact,19,subject,The old woman,11,54,65,female,1.0,tertiary
+9,2,rubbed,77,83,1110,1116,15,1.0,4.0,1034.0,1037.0,,,,,verb.contact,20,subject,The old woman,11,54,65,female,1.0,tertiary
+10,2,see,49,52,1186,1189,15,39.0,42.0,1176.0,1179.0,,,,,verb.perception,22,subject,The old woman,11,54,65,female,1.0,tertiary
+11,1,washing,16,23,1272,1279,15,3.0,6.0,1259.0,1262.0,,,,,verb.contact,21,subject,The old woman,11,54,65,female,1.0,tertiary
+12,0,looked,14,20,1350,1356,15,0.0,13.0,1336.0,1349.0,,,,,verb.perception,23,subject,The old woman,11,54,65,female,1.0,tertiary
+12,1,saw,42,45,1378,1381,15,0.0,13.0,1336.0,1349.0,,,,,verb.perception,25,subject,The old woman,11,54,65,female,1.0,tertiary
+13,2,seen,62,66,1462,1466,15,48.0,51.0,1448.0,1451.0,,,,,verb.perception,24,subject,The old woman,11,54,65,female,1.0,tertiary
+15,0,said,4,8,1533,1537,15,0.0,3.0,1529.0,1532.0,,,,,verb.communication,26,subject,The old woman,11,54,65,female,1.0,tertiary
+16,1,get,18,21,1568,1571,15,1.0,2.0,1551.0,1552.0,,,,,verb.contact,27,subject,The old woman,11,54,65,female,1.0,tertiary
+16,2,take,29,33,1579,1583,15,1.0,2.0,1551.0,1552.0,37.0,41.0,1587.0,1591.0,verb.contact,29,subject,The old woman,11,54,65,female,1.0,tertiary
+17,1,try,29,32,1637,1640,15,0.0,3.0,1608.0,1611.0,,,,,verb.social,28,subject,The old woman,11,54,65,female,1.0,tertiary
+17,2,get,37,40,1645,1648,15,0.0,3.0,1608.0,1611.0,,,,,verb.contact,30,subject,The old woman,11,54,65,female,1.0,tertiary
+18,0,looked,4,10,1692,1698,15,0.0,3.0,1688.0,1691.0,17.0,28.0,1705.0,1716.0,verb.perception,31,subject,The old woman,11,54,65,female,1.0,tertiary
+18,7,lose,106,110,1794,1798,15,96.0,99.0,1784.0,1787.0,,,,,verb.possession,32,subject,The old woman,11,54,65,female,1.0,tertiary
+19,3,do,42,44,1852,1854,15,27.0,31.0,1837.0,1841.0,,,,,verb.social,35,subject,The old woman,11,54,65,female,1.0,tertiary
+19,4,remembered,50,60,1860,1870,15,46.0,49.0,1856.0,1859.0,,,,,verb.cognition,34,subject,The old woman,11,54,65,female,1.0,tertiary
+20,0,began,8,13,1899,1904,15,4.0,7.0,1895.0,1898.0,,,,,verb.change,36,subject,The old woman,11,54,65,female,1.0,tertiary
+20,1,clap,17,21,1908,1912,15,4.0,7.0,1895.0,1898.0,32.0,84.0,1923.0,1975.0,verb.contact,37,subject,The old woman,11,54,65,female,1.0,tertiary
+20,2,keep,35,39,1926,1930,15,4.0,7.0,1895.0,1898.0,,,,,verb.social,38,subject,The old woman,11,54,65,female,1.0,tertiary
+20,3,clapped,100,107,1991,1998,15,96.0,99.0,1987.0,1990.0,,,,,verb.contact,39,subject,The old woman,11,54,65,female,1.0,tertiary
+20,4,sang,112,116,2003,2007,15,108.0,111.0,1999.0,2002.0,,,,,verb.creation,40,subject,The old woman,11,54,65,female,1.0,tertiary
+22,1,began,31,36,2153,2158,15,27.0,30.0,2149.0,2152.0,,,,,verb.change,41,subject,The old woman,11,54,65,female,1.0,tertiary
+22,2,repeat,40,46,2162,2168,15,27.0,30.0,2149.0,2152.0,,,,,verb.communication,42,subject,The old woman,11,54,65,female,1.0,tertiary
+22,6,standing,139,147,2261,2269,15,106.0,114.0,2228.0,2236.0,,,,,verb.contact,44,subject,The old woman,11,54,65,female,1.0,tertiary
+22,9,take,218,222,2340,2344,15,202.0,205.0,2324.0,2327.0,,,,,verb.cognition,46,subject,The old woman,11,54,65,female,1.0,tertiary
+24,3,put,72,75,2466,2469,15,68.0,71.0,2462.0,2465.0,,,,,verb.contact,47,subject,The old woman,11,54,65,female,1.0,tertiary
+24,4,hurried,181,188,2575,2582,15,177.0,180.0,2571.0,2574.0,,,,,verb.motion,48,subject,The old woman,11,54,65,female,1.0,tertiary
+25,2,returned,59,67,2653,2661,37,47.0,58.0,2641.0,2652.0,,,,,verb.motion,50,subject,The old woman's husband,1,0,1,male,1.0,tertiary
+25,2,returned,59,67,2653,2661,15,47.0,58.0,2641.0,2652.0,,,,,verb.motion,50,subject,The old woman,11,54,65,female,1.0,tertiary
+26,6,see,148,151,2811,2814,15,131.0,134.0,2794.0,2797.0,,,,,verb.perception,51,subject,The old woman,11,54,65,female,1.0,tertiary
+27,1,used,25,29,2845,2849,13,0.0,2.0,2820.0,2822.0,62.0,94.0,2882.0,2914.0,verb.consumption,52,subject,The old man,15,37,52,male,1.0,tertiary
+27,3,leaning,62,69,2882,2889,13,0.0,2.0,2820.0,2822.0,76.0,94.0,2896.0,2914.0,verb.contact,53,subject,The old man,15,37,52,male,1.0,tertiary
+27,4,walked,82,88,2902,2908,13,79.0,81.0,2899.0,2901.0,,,,,verb.motion,54,subject,The old man,15,37,52,male,1.0,tertiary
+28,0,saw,25,28,2941,2944,15,11.0,24.0,2927.0,2940.0,,,,,verb.perception,55,subject,The old woman,11,54,65,female,1.0,tertiary
+29,3,come,41,45,3018,3022,13,34.0,37.0,3011.0,3014.0,51.0,78.0,3028.0,3055.0,verb.motion,56,subject,The old man,15,37,52,male,1.0,tertiary
+32,1,wondering,19,28,3125,3134,13,6.0,17.0,3112.0,3123.0,,,,,verb.cognition,58,subject,The old man,15,37,52,male,1.0,tertiary
+35,4,found,59,64,3278,3283,15,47.0,51.0,3266.0,3270.0,80.0,87.0,3299.0,3306.0,verb.possession,59,subject,The old woman,11,54,65,female,1.0,tertiary
+37,0,washed,8,14,3351,3357,13,0.0,2.0,3343.0,3345.0,24.0,43.0,3367.0,3386.0,verb.contact,61,subject,The old man,15,37,52,male,1.0,tertiary
+37,1,stepped,48,55,3391,3398,13,0.0,2.0,3343.0,3345.0,,,,,verb.motion,63,subject,The old man,15,37,52,male,1.0,tertiary
+40,0,held,4,8,3548,3552,15,0.0,3.0,3544.0,3547.0,23.0,49.0,3567.0,3593.0,verb.contact,64,subject,The old woman,11,54,65,female,1.0,tertiary
+40,1,saying,23,29,3567,3573,15,0.0,3.0,3544.0,3547.0,,,,,verb.communication,66,subject,The old woman,11,54,65,female,1.0,tertiary
+41,1,see,13,16,3608,3611,13,4.0,7.0,3599.0,3602.0,36.0,52.0,3631.0,3647.0,verb.perception,65,subject,The old man,15,37,52,male,1.0,tertiary
+42,0,looked,17,23,3667,3673,13,5.0,16.0,3655.0,3666.0,,,,,verb.perception,67,subject,The old man,15,37,52,male,1.0,tertiary
+42,3,said,67,71,3717,3721,13,37.0,39.0,3687.0,3689.0,,,,,verb.communication,70,subject,The old man,15,37,52,male,1.0,tertiary
+42,6,seen,119,123,3769,3773,13,89.0,106.0,3739.0,3756.0,,,,,verb.perception,69,subject,The old man,15,37,52,male,1.0,tertiary
+43,1,buy,17,20,3792,3795,13,13.0,16.0,3788.0,3791.0,,,,,verb.possession,68,subject,The old man,15,37,52,male,1.0,tertiary
+44,1,buy,11,14,3812,3815,15,1.0,2.0,3802.0,3803.0,,,,,verb.possession,71,subject,The old woman,11,54,65,female,1.0,tertiary
+44,2,answered,20,28,3821,3829,15,1.0,17.0,3802.0,3818.0,,,,,verb.communication,74,subject,The old woman,11,54,65,female,1.0,tertiary
+45,0,found,3,8,3848,3853,15,1.0,2.0,3846.0,3847.0,12.0,44.0,3857.0,3889.0,verb.possession,73,subject,The old woman,11,54,65,female,1.0,tertiary
+45,2,washing,37,44,3882,3889,15,31.0,32.0,3876.0,3877.0,,,,,verb.contact,72,subject,The old woman,11,54,65,female,1.0,tertiary
+46,0,told,8,12,3900,3904,15,4.0,7.0,3896.0,3899.0,,,,,verb.communication,75,subject,The old woman,11,54,65,female,1.0,tertiary
+47,2,found,30,35,3956,3961,13,21.0,24.0,3947.0,3950.0,,,,,verb.possession,76,subject,The old man,15,37,52,male,1.0,tertiary
+48,3,said,37,41,4003,4007,15,0.0,34.0,3966.0,4000.0,,,,,verb.communication,78,subject,The old woman,11,54,65,female,1.0,tertiary
+49,1,placing,39,46,4062,4069,13,0.0,2.0,4023.0,4025.0,,,,,verb.contact,79,subject,The old man,15,37,52,male,1.0,tertiary
+49,3,cut,82,85,4105,4108,13,0.0,2.0,4023.0,4025.0,89.0,191.0,4112.0,4214.0,verb.contact,80,subject,The old man,15,37,52,male,1.0,tertiary
+52,0,spoke,10,15,4365,4370,52,0.0,9.0,4355.0,4364.0,,,,,verb.communication,83,subject,The child,3,12,15,male,1.0,tertiary
+54,1,tell,7,11,4427,4431,52,0.0,1.0,4420.0,4421.0,,,,,verb.communication,87,subject,The child,3,12,15,male,1.0,tertiary
+55,1,had,11,14,4458,4461,5,0.0,6.0,4447.0,4453.0,,,,,verb.perception,86,subject,Heaven,2,0,2,unknown,0.0,tertiary
+56,1,lamented,35,43,4516,4524,13,26.0,29.0,4507.0,4510.0,,,,,verb.communication,85,subject,The old man,15,37,52,male,1.0,tertiary
+56,2,had,53,56,4534,4537,13,49.0,52.0,4530.0,4533.0,,,,,verb.possession,84,subject,The old man,15,37,52,male,1.0,tertiary
+57,2,heard,18,23,4566,4571,13,0.0,8.0,4548.0,4556.0,,,,,verb.perception,88,subject,The old man,15,37,52,male,1.0,tertiary
+57,4,sent,33,37,4581,4585,52,28.0,29.0,4576.0,4577.0,,,,,verb.communication,89,subject,The child,3,12,15,male,1.0,tertiary
+59,3,help,62,66,4738,4742,205,50.0,58.0,4726.0,4734.0,,,,,verb.social,93,subject,no child,2,0,2,unknown,0.0,tertiary
+60,0,took,18,22,4920,4924,13,6.0,17.0,4908.0,4919.0,,,,,verb.contact,94,subject,The old man,15,37,52,male,1.0,tertiary
+60,1,did,72,75,4974,4977,15,58.0,71.0,4960.0,4973.0,,,,,verb.creation,95,subject,The old woman,11,54,65,female,1.0,tertiary
+62,1,grew,42,46,5114,5118,52,0.0,41.0,5072.0,5113.0,,,,,verb.change,97,subject,The child,3,12,15,male,1.0,tertiary
+64,1,looked,51,57,5353,5359,29,46.0,50.0,5348.0,5352.0,,,,,verb.perception,99,subject,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+64,3,thought,92,99,5394,5401,29,87.0,91.0,5389.0,5393.0,,,,,verb.cognition,98,subject,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+65,0,came,17,21,5444,5448,6,4.0,16.0,5431.0,5443.0,,,,,verb.motion,100,subject,Momotaro,58,186,244,male,1.0,primary
+65,1,said,47,51,5474,5478,6,8.0,16.0,5435.0,5443.0,,,,,verb.communication,102,subject,Momotaro,58,186,244,male,1.0,primary
+66,3,cut,94,97,5643,5646,207,75.0,90.0,5624.0,5639.0,,,,,verb.contact,101,subject,Father,2,20,22,male,1.0,tertiary
+66,4,washes,141,147,5690,5696,211,131.0,140.0,5680.0,5689.0,,,,,verb.contact,103,subject,Momotaro's mother,1,0,1,female,1.0,tertiary
+66,4,washes,141,147,5690,5696,6,131.0,140.0,5680.0,5689.0,,,,,verb.contact,103,subject,Momotaro,58,186,244,male,1.0,primary
+67,1,know,9,13,5719,5723,6,0.0,1.0,5710.0,5711.0,,,,,verb.cognition,104,subject,Momotaro,58,186,244,male,1.0,primary
+70,2,thank,46,51,6026,6031,207,35.0,38.0,6015.0,6018.0,55.0,66.0,6035.0,6046.0,verb.communication,106,subject,Father,2,20,22,male,1.0,tertiary
+71,0,looked,16,22,6065,6071,13,4.0,15.0,6053.0,6064.0,,,,,verb.body,108,subject,The old man,15,37,52,male,1.0,tertiary
+72,0,hope,3,7,6085,6089,6,1.0,2.0,6083.0,6084.0,,,,,verb.emotion,109,subject,Momotaro,58,186,244,male,1.0,primary
+72,3,said,38,42,6120,6124,207,1.0,35.0,6083.0,6117.0,,,,,verb.communication,110,subject,Father,2,20,22,male,1.0,tertiary
+72,3,said,38,42,6120,6124,6,1.0,35.0,6083.0,6117.0,,,,,verb.communication,110,subject,Momotaro,58,186,244,male,1.0,primary
+73,0,begin,15,20,6149,6154,6,13.0,14.0,6147.0,6148.0,,,,,verb.change,112,subject,Momotaro,58,186,244,male,1.0,primary
+73,2,have,55,59,6189,6193,6,53.0,54.0,6187.0,6188.0,,,,,verb.possession,111,subject,Momotaro,58,186,244,male,1.0,primary
+73,4,hope,86,90,6220,6224,6,84.0,85.0,6218.0,6219.0,,,,,verb.emotion,114,subject,Momotaro,58,186,244,male,1.0,primary
+73,6,grant,100,105,6234,6239,207,91.0,94.0,6225.0,6228.0,,,,,verb.communication,115,subject,Father,2,20,22,male,1.0,tertiary
+74,1,let,8,11,6275,6278,6,1.0,2.0,6268.0,6269.0,38.0,83.0,6305.0,6350.0,verb.social,116,subject,Momotaro,58,186,244,male,1.0,primary
+74,2,do,16,18,6283,6285,207,12.0,15.0,6279.0,6282.0,,,,,verb.social,117,subject,Father,2,20,22,male,1.0,tertiary
+74,3,wish,32,36,6299,6303,207,19.0,27.0,6286.0,6294.0,,,,,verb.emotion,118,subject,Father,2,20,22,male,1.0,tertiary
+76,1,say,13,16,6397,6400,207,1.0,5.0,6385.0,6389.0,,,,,verb.communication,120,subject,Father,2,20,22,male,1.0,tertiary
+77,2,leave,15,20,6417,6422,207,3.0,6.0,6405.0,6408.0,,,,,verb.motion,121,subject,Father,2,20,22,male,1.0,tertiary
+78,2,let,39,42,6522,6525,207,35.0,38.0,6518.0,6521.0,,,,,verb.social,122,subject,Father,2,20,22,male,1.0,tertiary
+78,3,go,46,48,6529,6531,6,43.0,45.0,6526.0,6528.0,,,,,verb.motion,123,subject,Momotaro,58,186,244,male,1.0,primary
+79,1,going,15,20,6553,6558,207,1.0,6.0,6539.0,6544.0,,,,,verb.motion,124,subject,Father,2,20,22,male,1.0,tertiary
+80,1,think,10,15,6571,6576,207,1.0,4.0,6562.0,6565.0,68.0,109.0,6629.0,6670.0,verb.cognition,126,subject,Father,2,20,22,male,1.0,tertiary
+80,2,want,34,38,6595,6599,6,32.0,33.0,6593.0,6594.0,,,,,verb.emotion,125,subject,Momotaro,58,186,244,male,1.0,primary
+80,6,told,91,95,6652,6656,6,76.0,77.0,6637.0,6638.0,,,,,verb.communication,129,subject,Momotaro,58,186,244,male,1.0,primary
+83,1,heard,13,18,6812,6817,6,0.0,1.0,6799.0,6800.0,,,,,verb.perception,128,subject,Momotaro,58,186,244,male,1.0,primary
+83,2,invade,28,34,6827,6833,223,23.0,27.0,6822.0,6826.0,,,,,verb.competition,127,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+83,3,kill,46,50,6845,6849,223,23.0,27.0,6822.0,6826.0,,,,,verb.contact,132,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+83,4,rob,55,58,6854,6857,223,23.0,27.0,6822.0,6826.0,,,,,verb.possession,131,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+83,7,find,98,102,6897,6901,223,85.0,88.0,6884.0,6887.0,,,,,verb.possession,133,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+84,2,disobey,71,78,6974,6981,223,34.0,38.0,6937.0,6941.0,,,,,verb.social,135,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+85,1,kill,34,38,7026,7030,223,29.0,33.0,7021.0,7025.0,,,,,verb.contact,134,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+85,2,eat,43,46,7035,7038,223,29.0,33.0,7021.0,7025.0,,,,,verb.consumption,137,subject,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+87,1,go,7,9,7160,7162,6,0.0,1.0,7153.0,7154.0,,,,,verb.motion,138,subject,Momotaro,58,186,244,male,1.0,primary
+87,2,conquer,14,21,7167,7174,6,0.0,1.0,7153.0,7154.0,,,,,verb.change,140,subject,Momotaro,58,186,244,male,1.0,primary
+87,5,robbed,77,83,7230,7236,231,67.0,71.0,7220.0,7224.0,,,,,verb.possession,139,subject,These devils,1,2,3,group/nonbinary,1.0,tertiary
+88,1,want,29,33,7277,7281,6,27.0,28.0,7275.0,7276.0,,,,,verb.emotion,141,subject,Momotaro,58,186,244,male,1.0,primary
+89,1,hearing,34,41,7346,7353,13,0.0,11.0,7312.0,7323.0,,,,,verb.perception,142,subject,The old man,15,37,52,male,1.0,tertiary
+90,0,thought,3,10,7394,7401,13,0.0,2.0,7391.0,7393.0,,,,,verb.cognition,143,subject,The old man,15,37,52,male,1.0,tertiary
+90,2,go,34,36,7425,7427,69,26.0,33.0,7417.0,7424.0,,,,,verb.motion,147,subject,the boy,1,4,5,male,1.0,tertiary
+91,1,knew,62,66,7491,7495,13,50.0,61.0,7479.0,7490.0,,,,,verb.cognition,146,subject,The old man,15,37,52,male,1.0,tertiary
+91,5,sent,107,111,7536,7540,69,95.0,97.0,7524.0,7526.0,120.0,141.0,7549.0,7570.0,verb.communication,145,subject,the boy,1,4,5,male,1.0,tertiary
+91,6,felt,150,154,7579,7583,13,147.0,149.0,7576.0,7578.0,,,,,verb.emotion,148,subject,The old man,15,37,52,male,1.0,tertiary
+91,9,harm,204,208,7633,7637,73,171.0,181.0,7600.0,7610.0,,,,,verb.social,149,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+92,0,say,9,12,7652,7655,6,5.0,8.0,7648.0,7651.0,,,,,verb.communication,150,subject,Momotaro,58,186,244,male,1.0,primary
+92,2,said,45,49,7688,7692,6,1.0,42.0,7644.0,7685.0,,,,,verb.communication,151,subject,Momotaro,58,186,244,male,1.0,primary
+93,1,hinder,12,18,7718,7724,13,1.0,2.0,7707.0,7708.0,23.0,44.0,7729.0,7750.0,verb.social,152,subject,The old man,15,37,52,male,1.0,tertiary
+94,1,go,8,10,7760,7762,6,0.0,3.0,7752.0,7755.0,,,,,verb.motion,153,subject,Momotaro,58,186,244,male,1.0,primary
+94,2,wish,18,22,7770,7774,6,14.0,17.0,7766.0,7769.0,,,,,verb.emotion,154,subject,Momotaro,58,186,244,male,1.0,primary
+95,1,like,37,41,7813,7817,6,33.0,36.0,7809.0,7812.0,,,,,verb.emotion,155,subject,Momotaro,58,186,244,male,1.0,primary
+95,3,bring,69,74,7845,7850,6,33.0,36.0,7809.0,7812.0,,,,,verb.contact,156,subject,Momotaro,58,186,244,male,1.0,primary
+96,1,said,36,40,7907,7911,13,1.0,33.0,7872.0,7904.0,,,,,verb.communication,158,subject,The old man,15,37,52,male,1.0,tertiary
+96,2,began,55,60,7926,7931,6,41.0,49.0,7912.0,7920.0,,,,,verb.change,157,subject,Momotaro,58,186,244,male,1.0,primary
+97,2,know,35,39,8001,8005,6,0.0,2.0,7966.0,7968.0,,,,,verb.cognition,159,subject,Momotaro,58,186,244,male,1.0,primary
+98,0,set,30,33,8051,8054,13,0.0,21.0,8021.0,8042.0,78.0,136.0,8099.0,8157.0,verb.creation,160,subject,The old man,15,37,52,male,1.0,tertiary
+98,0,set,30,33,8051,8054,76,0.0,21.0,8021.0,8042.0,78.0,136.0,8099.0,8157.0,verb.creation,160,subject,woman,1,0,1,female,1.0,tertiary
+98,1,work,37,41,8058,8062,13,0.0,21.0,8021.0,8042.0,78.0,136.0,8099.0,8157.0,verb.social,162,subject,The old man,15,37,52,male,1.0,tertiary
+98,1,work,37,41,8058,8062,76,0.0,21.0,8021.0,8042.0,78.0,136.0,8099.0,8157.0,verb.social,162,subject,woman,1,0,1,female,1.0,tertiary
+98,2,pound,45,50,8066,8071,13,0.0,15.0,8021.0,8036.0,,,,,verb.contact,161,subject,The old man,15,37,52,male,1.0,tertiary
+98,3,make,81,85,8102,8106,13,0.0,21.0,8021.0,8042.0,,,,,verb.creation,163,subject,The old man,15,37,52,male,1.0,tertiary
+98,3,make,81,85,8102,8106,76,0.0,21.0,8021.0,8042.0,,,,,verb.creation,163,subject,woman,1,0,1,female,1.0,tertiary
+98,4,take,108,112,8129,8133,6,96.0,104.0,8117.0,8125.0,,,,,verb.motion,164,subject,Momotaro,58,186,244,male,1.0,primary
+99,3,start,54,59,8213,8218,6,32.0,40.0,8191.0,8199.0,,,,,verb.change,165,subject,Momotaro,58,186,244,male,1.0,primary
+102,2,trembled,71,79,8349,8357,24,58.0,70.0,8336.0,8348.0,,,,,verb.motion,166,subject,the two old people,2,4,6,group/nonbinary,1.0,tertiary
+102,3,said,88,92,8366,8370,24,83.0,87.0,8361.0,8365.0,,,,,verb.communication,167,subject,the two old people,2,4,6,group/nonbinary,1.0,tertiary
+103,0,expect,3,9,8404,8410,24,0.0,2.0,8401.0,8403.0,,,,,verb.cognition,170,subject,the two old people,2,4,6,group/nonbinary,1.0,tertiary
+104,2,knew,60,64,8493,8497,6,57.0,59.0,8490.0,8492.0,,,,,verb.cognition,168,subject,Momotaro,58,186,244,male,1.0,primary
+105,0,said,7,11,8608,8612,6,4.0,6.0,8605.0,8607.0,,,,,verb.communication,171,subject,Momotaro,58,186,244,male,1.0,primary
+107,1,going,6,11,8645,8650,6,1.0,2.0,8640.0,8641.0,,,,,verb.motion,172,subject,Momotaro,58,186,244,male,1.0,primary
+110,0,stepped,7,14,8719,8726,6,4.0,6.0,8716.0,8718.0,,,,,verb.motion,175,subject,Momotaro,58,186,244,male,1.0,primary
+111,0,met,48,51,8801,8804,80,11.0,47.0,8764.0,8800.0,,,,,verb.social,174,subject,Momotaro's parents,1,0,1,unknown,0.0,tertiary
+111,0,met,48,51,8801,8804,6,11.0,47.0,8764.0,8800.0,,,,,verb.social,174,subject,Momotaro,58,186,244,male,1.0,primary
+112,0,hurried,13,20,8831,8838,6,0.0,8.0,8818.0,8826.0,32.0,50.0,8850.0,8868.0,verb.motion,176,subject,Momotaro,58,186,244,male,1.0,primary
+113,0,began,3,8,8873,8878,6,0.0,2.0,8870.0,8872.0,,,,,verb.change,177,subject,Momotaro,58,186,244,male,1.0,primary
+113,1,feel,12,16,8882,8886,6,0.0,2.0,8870.0,8872.0,,,,,verb.emotion,178,subject,Momotaro,58,186,244,male,1.0,primary
+113,2,opened,31,37,8901,8907,6,28.0,30.0,8898.0,8900.0,,,,,verb.contact,179,subject,Momotaro,58,186,244,male,1.0,primary
+113,5,eat,134,137,9004,9007,6,28.0,30.0,8898.0,8900.0,,,,,verb.consumption,180,subject,Momotaro,58,186,244,male,1.0,primary
+114,1,having,18,24,9030,9036,6,6.0,8.0,9018.0,9020.0,,,,,verb.consumption,181,subject,Momotaro,58,186,244,male,1.0,primary
+115,4,pass,99,103,9216,9220,236,85.0,95.0,9202.0,9212.0,113.0,144.0,9230.0,9261.0,verb.motion,183,subject,a rude man,1,0,1,male,1.0,tertiary
+116,0,leave,7,12,9270,9275,6,3.0,6.0,9266.0,9269.0,,,,,verb.possession,186,subject,Momotaro,58,186,244,male,1.0,primary
+116,1,have,34,38,9297,9301,6,16.0,29.0,9279.0,9292.0,,,,,verb.possession,185,subject,Momotaro,58,186,244,male,1.0,primary
+116,3,go,59,61,9322,9324,6,51.0,54.0,9314.0,9317.0,,,,,verb.motion,188,subject,Momotaro,58,186,244,male,1.0,primary
+118,0,laughed,14,21,9384,9391,6,0.0,8.0,9370.0,9378.0,,,,,verb.body,190,subject,Momotaro,58,186,244,male,1.0,primary
+118,3,saying,56,62,9426,9432,6,35.0,39.0,9405.0,9409.0,,,,,verb.communication,192,subject,Momotaro,58,186,244,male,1.0,primary
+119,1,know,7,11,9441,9445,6,3.0,6.0,9437.0,9440.0,,,,,verb.cognition,191,subject,Momotaro,58,186,244,male,1.0,primary
+120,2,subdue,37,43,9493,9499,6,19.0,20.0,9475.0,9476.0,,,,,verb.social,193,subject,Momotaro,58,186,244,male,1.0,primary
+121,0,try,7,10,9572,9575,6,3.0,6.0,9568.0,9571.0,,,,,verb.social,194,subject,Momotaro,58,186,244,male,1.0,primary
+121,1,stop,14,18,9579,9583,6,3.0,6.0,9568.0,9571.0,22.0,37.0,9587.0,9602.0,verb.social,195,subject,Momotaro,58,186,244,male,1.0,primary
+121,3,cut,45,48,9610,9613,6,38.0,39.0,9603.0,9604.0,,,,,verb.contact,198,subject,Momotaro,58,186,244,male,1.0,primary
+122,0,changed,25,32,9676,9683,83,0.0,16.0,9651.0,9667.0,,,,,verb.change,197,subject,the dog,4,14,18,male,1.0,tertiary
+123,0,dropped,9,16,9694,9701,83,0.0,8.0,9685.0,9693.0,,,,,verb.motion,196,subject,the dog,4,14,18,male,1.0,tertiary
+123,2,bowed,54,59,9739,9744,83,51.0,53.0,9736.0,9738.0,,,,,verb.motion,199,subject,the dog,4,14,18,male,1.0,tertiary
+123,3,touched,85,92,9770,9777,83,72.0,84.0,9757.0,9769.0,,,,,verb.contact,200,subject,the dog,4,14,18,male,1.0,tertiary
+124,1,hear,11,15,9801,9805,83,1.0,5.0,9791.0,9795.0,,,,,verb.perception,202,subject,the dog,4,14,18,male,1.0,tertiary
+128,3,behaved,32,39,9929,9936,83,25.0,26.0,9922.0,9923.0,,,,,verb.body,203,subject,the dog,4,14,18,male,1.0,tertiary
+129,1,pardon,16,22,9975,9981,6,5.0,8.0,9964.0,9967.0,,,,,verb.communication,205,subject,Momotaro,58,186,244,male,1.0,primary
+130,1,invade,30,36,10025,10031,6,4.0,7.0,9999.0,10002.0,,,,,verb.social,204,subject,Momotaro,58,186,244,male,1.0,primary
+131,1,take,12,16,10066,10070,6,3.0,6.0,10057.0,10060.0,36.0,69.0,10090.0,10123.0,verb.cognition,207,subject,Momotaro,58,186,244,male,1.0,primary
+132,0,think,3,8,10162,10167,6,1.0,2.0,10160.0,10161.0,,,,,verb.cognition,206,subject,Momotaro,58,186,244,male,1.0,primary
+132,2,take,15,19,10174,10178,6,9.0,10.0,10168.0,10169.0,32.0,49.0,10191.0,10208.0,verb.social,208,subject,Momotaro,58,186,244,male,1.0,primary
+132,4,go,47,49,10206,10208,6,35.0,38.0,10194.0,10197.0,,,,,verb.motion,209,subject,Momotaro,58,186,244,male,1.0,primary
+132,5,said,52,56,10211,10215,6,1.0,49.0,10160.0,10208.0,,,,,verb.communication,210,subject,Momotaro,58,186,244,male,1.0,primary
+136,1,give,9,13,10298,10302,6,5.0,8.0,10294.0,10297.0,,,,,verb.possession,211,subject,Momotaro,58,186,244,male,1.0,primary
+138,1,spare,10,15,10418,10423,6,1.0,2.0,10409.0,10410.0,,,,,verb.possession,212,subject,Momotaro,58,186,244,male,1.0,primary
+139,1,give,8,12,10448,10452,6,1.0,2.0,10441.0,10442.0,,,,,verb.possession,214,subject,Momotaro,58,186,244,male,1.0,primary
+140,1,said,23,27,10494,10498,6,1.0,20.0,10472.0,10491.0,37.0,67.0,10508.0,10538.0,verb.communication,215,subject,Momotaro,58,186,244,male,1.0,primary
+144,1,said,42,46,10774,10778,88,0.0,12.0,10732.0,10744.0,,,,,verb.communication,218,subject,The creature,1,1,2,unknown,0.0,tertiary
+146,1,allow,9,14,10859,10864,6,5.0,8.0,10855.0,10858.0,,,,,verb.social,219,subject,Momotaro,58,186,244,male,1.0,primary
+146,2,go,21,23,10871,10873,88,15.0,17.0,10865.0,10867.0,,,,,verb.motion,222,subject,The creature,1,1,2,unknown,0.0,tertiary
+147,0,answered,8,16,10893,10901,83,0.0,7.0,10885.0,10892.0,,,,,verb.communication,221,subject,the dog,4,14,18,male,1.0,tertiary
+147,1,has,46,49,10931,10934,6,29.0,37.0,10914.0,10922.0,,,,,verb.possession,220,subject,Momotaro,58,186,244,male,1.0,primary
+155,1,have,39,43,11277,11281,6,32.0,35.0,11270.0,11273.0,,,,,verb.possession,225,subject,Momotaro,58,186,244,male,1.0,primary
+157,1,know,13,17,11349,11353,83,1.0,5.0,11337.0,11341.0,,,,,verb.cognition,228,subject,the dog,4,14,18,male,1.0,tertiary
+159,1,spoke,31,36,11411,11416,6,28.0,30.0,11408.0,11410.0,,,,,verb.communication,231,subject,Momotaro,58,186,244,male,1.0,primary
+160,2,replied,39,46,11486,11493,90,1.0,36.0,11448.0,11483.0,,,,,verb.communication,233,subject,the monkey,8,7,15,unknown,0.0,tertiary
+161,0,heard,3,8,11509,11514,6,1.0,2.0,11507.0,11508.0,,,,,verb.cognition,232,subject,Momotaro,58,186,244,male,1.0,primary
+161,2,come,64,68,11570,11574,6,57.0,58.0,11563.0,11564.0,,,,,verb.motion,234,subject,Momotaro,58,186,244,male,1.0,primary
+161,3,go,72,74,11578,11580,6,57.0,58.0,11563.0,11564.0,,,,,verb.motion,235,subject,Momotaro,58,186,244,male,1.0,primary
+163,1,wish,15,19,11655,11659,90,4.0,7.0,11644.0,11647.0,,,,,verb.emotion,237,subject,the monkey,8,7,15,unknown,0.0,tertiary
+163,3,fight,54,59,11694,11699,90,4.0,7.0,11644.0,11647.0,,,,,verb.competition,239,subject,the monkey,8,7,15,unknown,0.0,tertiary
+165,0,admire,3,9,11745,11751,6,1.0,2.0,11743.0,11744.0,,,,,verb.emotion,241,subject,Momotaro,58,186,244,male,1.0,primary
+165,1,said,25,29,11767,11771,90,1.0,22.0,11743.0,11764.0,,,,,verb.communication,242,subject,the monkey,8,7,15,unknown,0.0,tertiary
+165,1,said,25,29,11767,11771,6,1.0,22.0,11743.0,11764.0,,,,,verb.communication,242,subject,Momotaro,58,186,244,male,1.0,primary
+168,0,joined,14,20,11856,11862,90,3.0,13.0,11845.0,11855.0,,,,,verb.contact,243,subject,the monkey,8,7,15,unknown,0.0,tertiary
+171,1,sent,46,50,12068,12072,6,43.0,45.0,12065.0,12067.0,68.0,79.0,12090.0,12101.0,verb.motion,245,subject,Momotaro,58,186,244,male,1.0,primary
+171,2,put,84,87,12106,12109,6,43.0,45.0,12065.0,12067.0,,,,,verb.contact,246,subject,Momotaro,58,186,244,male,1.0,primary
+171,3,placed,127,133,12149,12155,6,124.0,126.0,12146.0,12148.0,,,,,verb.contact,248,subject,Momotaro,58,186,244,male,1.0,primary
+174,2,seen,49,53,12387,12391,6,7.0,30.0,12345.0,12368.0,,,,,verb.perception,247,subject,Momotaro,58,186,244,male,1.0,primary
+178,0,looked,16,22,12665,12671,6,13.0,15.0,12662.0,12664.0,,,,,verb.perception,249,subject,Momotaro,58,186,244,male,1.0,primary
+178,2,help,37,41,12686,12690,6,0.0,8.0,12649.0,12657.0,,,,,verb.social,250,subject,Momotaro,58,186,244,male,1.0,primary
+178,3,admiring,42,50,12691,12699,6,0.0,8.0,12649.0,12657.0,,,,,verb.perception,251,subject,Momotaro,58,186,244,male,1.0,primary
+181,0,went,9,13,12798,12802,6,0.0,8.0,12789.0,12797.0,,,,,verb.motion,252,subject,Momotaro,58,186,244,male,1.0,primary
+181,1,holding,44,51,12833,12840,6,0.0,8.0,12789.0,12797.0,60.0,64.0,12849.0,12853.0,verb.contact,253,subject,Momotaro,58,186,244,male,1.0,primary
+181,2,said,66,70,12855,12859,6,0.0,8.0,12789.0,12797.0,,,,,verb.communication,255,subject,Momotaro,58,186,244,male,1.0,primary
+182,1,hindering,8,17,12894,12903,102,0.0,3.0,12886.0,12889.0,,,,,verb.social,254,subject,the bird,2,14,16,male,1.0,tertiary
+183,2,take,30,34,12946,12950,6,23.0,24.0,12939.0,12940.0,,,,,verb.motion,256,subject,Momotaro,58,186,244,male,1.0,primary
+184,2,set,20,23,12984,12987,6,13.0,14.0,12977.0,12978.0,33.0,54.0,12997.0,13018.0,verb.contact,257,subject,Momotaro,58,186,244,male,1.0,primary
+184,3,bite,36,40,13000,13004,6,13.0,14.0,12977.0,12978.0,51.0,54.0,13015.0,13018.0,verb.contact,258,subject,Momotaro,58,186,244,male,1.0,primary
+185,0,surrendered,14,25,13035,13046,102,5.0,13.0,13026.0,13034.0,,,,,verb.communication,259,subject,the bird,2,14,16,male,1.0,tertiary
+185,1,begged,39,45,13060,13066,102,5.0,13.0,13026.0,13034.0,,,,,verb.communication,260,subject,the bird,2,14,16,male,1.0,tertiary
+185,3,taken,52,57,13073,13078,102,5.0,13.0,13026.0,13034.0,,,,,verb.motion,261,subject,the bird,2,14,16,male,1.0,tertiary
+186,1,know,10,14,13114,13118,6,1.0,2.0,13105.0,13106.0,,,,,verb.cognition,263,subject,Momotaro,58,186,244,male,1.0,primary
+186,5,see,93,96,13197,13200,6,83.0,84.0,13187.0,13188.0,,,,,verb.perception,262,subject,Momotaro,58,186,244,male,1.0,primary
+189,1,follow,19,25,13340,13346,6,13.0,15.0,13334.0,13336.0,,,,,verb.motion,267,subject,Momotaro,58,186,244,male,1.0,primary
+190,0,congratulate,3,15,13386,13398,6,1.0,2.0,13384.0,13385.0,36.0,43.0,13419.0,13426.0,verb.communication,268,subject,Momotaro,58,186,244,male,1.0,primary
+190,2,said,46,50,13429,13433,102,1.0,43.0,13384.0,13426.0,61.0,68.0,13444.0,13451.0,verb.communication,269,subject,the bird,2,14,16,male,1.0,tertiary
+190,2,said,46,50,13429,13433,6,1.0,43.0,13384.0,13426.0,61.0,68.0,13444.0,13451.0,verb.communication,269,subject,Momotaro,58,186,244,male,1.0,primary
+192,2,take,18,22,13517,13521,6,5.0,8.0,13504.0,13507.0,33.0,46.0,13532.0,13545.0,verb.motion,272,subject,Momotaro,58,186,244,male,1.0,primary
+194,1,ask,12,15,13589,13592,6,8.0,11.0,13585.0,13588.0,,,,,verb.communication,271,subject,Momotaro,58,186,244,male,1.0,primary
+195,1,hear,11,15,13634,13638,102,7.0,10.0,13630.0,13633.0,,,,,verb.cognition,270,subject,the bird,2,14,16,male,1.0,tertiary
+195,2,said,23,27,13646,13650,6,16.0,20.0,13639.0,13643.0,,,,,verb.communication,274,subject,Momotaro,58,186,244,male,1.0,primary
+196,0,take,2,6,13654,13658,6,0.0,1.0,13652.0,13653.0,24.0,41.0,13676.0,13693.0,verb.possession,273,subject,Momotaro,58,186,244,male,1.0,primary
+196,1,wish,34,38,13686,13690,6,32.0,33.0,13684.0,13685.0,,,,,verb.emotion,275,subject,Momotaro,58,186,244,male,1.0,primary
+199,0,stood,14,19,13733,13738,6,5.0,13.0,13724.0,13732.0,,,,,verb.motion,276,subject,Momotaro,58,186,244,male,1.0,primary
+199,1,gave,24,28,13743,13747,6,5.0,13.0,13724.0,13732.0,,,,,verb.possession,277,subject,Momotaro,58,186,244,male,1.0,primary
+199,3,listen,62,68,13781,13787,255,46.0,56.0,13765.0,13775.0,,,,,verb.perception,279,subject,all of you's of you,1,2,3,unknown,0.0,tertiary
+205,3,discharged,43,53,14210,14220,262,0.0,34.0,14167.0,14201.0,,,,,verb.social,282,subject,The one who first begins a quarrel,1,0,1,unknown,0.0,tertiary
+206,0,promised,14,22,14249,14257,104,0.0,13.0,14235.0,14248.0,,,,,verb.communication,281,subject,All the three,1,0,1,unknown,0.0,tertiary
+206,1,quarrel,30,37,14265,14272,104,0.0,22.0,14235.0,14257.0,,,,,verb.social,280,subject,All the three,1,0,1,unknown,0.0,tertiary
+208,2,hurried,74,81,14430,14437,6,0.0,20.0,14356.0,14376.0,,,,,verb.motion,285,subject,Momotaro,58,186,244,male,1.0,primary
+212,3,seen,143,147,14856,14860,107,128.0,132.0,14841.0,14845.0,156.0,162.0,14869.0,14875.0,verb.perception,284,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+212,7,gazed,231,236,14944,14949,107,206.0,210.0,14919.0,14923.0,251.0,261.0,14964.0,14974.0,verb.perception,286,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+213,1,cross,17,22,14993,14998,107,9.0,13.0,14985.0,14989.0,,,,,verb.motion,287,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+213,2,get,37,40,15013,15016,107,9.0,13.0,14985.0,14989.0,,,,,verb.motion,288,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+214,0,saw,14,17,15056,15059,6,0.0,8.0,15042.0,15050.0,,,,,verb.cognition,290,subject,Momotaro,58,186,244,male,1.0,primary
+214,2,daunted,33,40,15075,15082,107,23.0,27.0,15065.0,15069.0,,,,,verb.emotion,289,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+214,4,spoke,85,90,15127,15132,6,82.0,84.0,15124.0,15126.0,,,,,verb.communication,292,subject,Momotaro,58,186,244,male,1.0,primary
+219,2,go,32,34,15341,15343,6,26.0,28.0,15335.0,15337.0,,,,,verb.motion,294,subject,Momotaro,58,186,244,male,1.0,primary
+220,0,discharge,2,11,15353,15362,6,0.0,1.0,15351.0,15352.0,20.0,27.0,15371.0,15378.0,verb.social,293,subject,Momotaro,58,186,244,male,1.0,primary
+221,3,send,109,113,15490,15494,6,98.0,101.0,15479.0,15482.0,119.0,123.0,15500.0,15504.0,verb.motion,297,subject,Momotaro,58,186,244,male,1.0,primary
+224,1,come,9,13,15549,15553,107,1.0,3.0,15541.0,15543.0,,,,,verb.motion,296,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+228,1,said,39,43,15674,15678,107,1.0,36.0,15636.0,15671.0,55.0,60.0,15690.0,15695.0,verb.communication,300,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+229,2,said,30,34,15727,15731,107,0.0,1.0,15697.0,15698.0,,,,,verb.communication,303,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+229,2,said,30,34,15727,15731,6,0.0,1.0,15697.0,15698.0,,,,,verb.communication,303,subject,Momotaro,58,186,244,male,1.0,primary
+231,1,gained,13,19,15786,15792,107,0.0,4.0,15773.0,15777.0,38.0,100.0,15811.0,15873.0,verb.body,302,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+231,2,said,50,54,15823,15827,6,41.0,49.0,15814.0,15822.0,,,,,verb.communication,304,subject,Momotaro,58,186,244,male,1.0,primary
+231,4,take,76,80,15849,15853,6,69.0,70.0,15842.0,15843.0,,,,,verb.motion,306,subject,Momotaro,58,186,244,male,1.0,primary
+232,0,got,13,16,15897,15900,6,0.0,8.0,15884.0,15892.0,,,,,verb.possession,305,subject,Momotaro,58,186,244,male,1.0,primary
+234,4,frightened,113,123,16133,16143,90,80.0,107.0,16100.0,16127.0,,,,,verb.emotion,307,subject,the monkey,8,7,15,unknown,0.0,tertiary
+234,5,grew,188,192,16208,16212,107,183.0,187.0,16203.0,16207.0,,,,,verb.change,308,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+235,0,paced,15,20,16280,16285,107,10.0,14.0,16275.0,16279.0,52.0,94.0,16317.0,16359.0,verb.motion,309,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+236,0,grew,10,14,16371,16375,107,5.0,9.0,16366.0,16370.0,,,,,verb.change,310,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+236,1,told,35,39,16396,16400,107,30.0,34.0,16391.0,16395.0,,,,,verb.communication,311,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+236,3,played,116,122,16477,16483,107,30.0,34.0,16391.0,16395.0,129.0,137.0,16490.0,16498.0,verb.competition,312,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+237,0,found,14,19,16513,16518,6,5.0,13.0,16504.0,16512.0,,,,,verb.cognition,313,subject,Momotaro,58,186,244,male,1.0,primary
+237,1,amuse,28,33,16527,16532,6,5.0,13.0,16504.0,16512.0,,,,,verb.emotion,314,subject,Momotaro,58,186,244,male,1.0,primary
+237,4,forgot,118,124,16617,16623,6,115.0,117.0,16614.0,16616.0,,,,,verb.cognition,317,subject,Momotaro,58,186,244,male,1.0,primary
+237,7,doing,190,195,16689,16694,6,156.0,158.0,16655.0,16657.0,,,,,verb.social,316,subject,Momotaro,58,186,244,male,1.0,primary
+238,0,longed,3,9,16707,16713,6,0.0,2.0,16704.0,16706.0,,,,,verb.emotion,318,subject,Momotaro,58,186,244,male,1.0,primary
+238,2,killing,24,31,16728,16735,6,0.0,2.0,16704.0,16706.0,,,,,verb.contact,319,subject,Momotaro,58,186,244,male,1.0,primary
+239,1,met,41,44,16832,16835,107,36.0,40.0,16827.0,16831.0,,,,,verb.perception,320,subject,the three,1,32,33,group/nonbinary,1.0,tertiary
+240,0,knew,9,13,16986,16990,6,0.0,8.0,16977.0,16985.0,,,,,verb.cognition,323,subject,Momotaro,58,186,244,male,1.0,primary
+240,1,saw,37,40,17014,17017,136,27.0,31.0,17004.0,17008.0,,,,,verb.perception,322,subject,the four watchers at the bow,1,4,5,group/nonbinary,1.0,tertiary
+242,2,leaning,80,87,17203,17210,6,71.0,79.0,17194.0,17202.0,,,,,verb.motion,324,subject,Momotaro,58,186,244,male,1.0,primary
+242,3,wondering,102,111,17225,17234,6,43.0,45.0,17166.0,17168.0,,,,,verb.cognition,325,subject,Momotaro,58,186,244,male,1.0,primary
+242,5,begin,126,131,17249,17254,6,116.0,118.0,17239.0,17241.0,,,,,verb.change,327,subject,Momotaro,58,186,244,male,1.0,primary
+243,0,watched,20,27,17287,17294,142,0.0,19.0,17267.0,17286.0,33.0,51.0,17300.0,17318.0,verb.social,326,subject,Momotaro's three followers,1,0,1,unknown,0.0,tertiary
+243,0,watched,20,27,17287,17294,6,0.0,19.0,17267.0,17286.0,33.0,51.0,17300.0,17318.0,verb.social,326,subject,Momotaro,58,186,244,male,1.0,primary
+244,0,called,11,17,17331,17337,6,8.0,10.0,17328.0,17330.0,,,,,verb.communication,329,subject,Momotaro,58,186,244,male,1.0,primary
+244,2,have,70,74,17390,17394,136,64.0,66.0,17384.0,17386.0,79.0,86.0,17399.0,17406.0,verb.possession,328,subject,the four watchers at the bow,1,4,5,group/nonbinary,1.0,tertiary
+245,1,have,36,40,17445,17449,122,32.0,35.0,17441.0,17444.0,,,,,verb.possession,330,subject,the pheasant,2,5,7,male,1.0,tertiary
+247,1,follow,8,14,17528,17534,136,0.0,2.0,17520.0,17522.0,,,,,verb.motion,333,subject,the four watchers at the bow,1,4,5,group/nonbinary,1.0,tertiary
+250,0,reached,14,21,17649,17656,102,0.0,8.0,17635.0,17643.0,,,,,verb.motion,332,subject,the bird,2,14,16,male,1.0,tertiary
+250,3,listen,135,141,17770,17776,266,120.0,134.0,17755.0,17769.0,,,,,verb.perception,335,subject,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+251,1,come,40,44,17824,17828,267,0.0,35.0,17784.0,17819.0,,,,,verb.motion,334,subject,The great Japanese general Momotaro,1,0,1,unknown,0.0,tertiary
+251,2,fight,48,53,17832,17837,267,0.0,35.0,17784.0,17819.0,,,,,verb.competition,336,subject,The great Japanese general Momotaro,1,0,1,unknown,0.0,tertiary
+251,3,take,65,69,17849,17853,267,0.0,35.0,17784.0,17819.0,,,,,verb.possession,337,subject,The great Japanese general Momotaro,1,0,1,unknown,0.0,tertiary
+252,0,wish,7,11,17887,17891,266,3.0,6.0,17883.0,17886.0,,,,,verb.emotion,338,subject,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+252,1,save,15,19,17895,17899,266,3.0,6.0,17883.0,17886.0,41.0,48.0,17921.0,17928.0,verb.possession,339,subject,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+253,1,surrender,14,23,18033,18042,266,3.0,6.0,18022.0,18025.0,27.0,31.0,18046.0,18050.0,verb.competition,340,subject,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+254,3,said,69,73,18250,18254,148,0.0,55.0,18181.0,18236.0,,,,,verb.communication,344,subject,The horned demons looking up and only seeing a pheasant,1,0,1,unknown,0.0,tertiary
+256,1,get,14,17,18360,18363,266,10.0,13.0,18356.0,18359.0,,,,,verb.possession,346,subject,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+258,0,shook,5,10,18441,18446,73,0.0,4.0,18436.0,18440.0,52.0,60.0,18488.0,18496.0,verb.contact,345,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+258,1,rushed,66,72,18502,18508,73,0.0,4.0,18436.0,18440.0,103.0,140.0,18539.0,18576.0,verb.communication,347,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+258,3,make,106,110,18542,18546,73,0.0,4.0,18436.0,18440.0,,,,,verb.change,348,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+258,4,look,122,126,18558,18562,73,111.0,121.0,18547.0,18557.0,,,,,verb.perception,349,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+259,1,ran,42,45,18620,18623,73,0.0,4.0,18578.0,18582.0,,,,,verb.motion,351,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+259,3,tried,98,103,18676,18681,73,0.0,4.0,18578.0,18582.0,,,,,verb.social,352,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+259,4,knock,107,112,18685,18690,73,0.0,4.0,18578.0,18582.0,,,,,verb.contact,353,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+261,3,began,106,111,18921,18926,73,95.0,105.0,18910.0,18920.0,,,,,verb.change,355,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+261,4,wonder,115,121,18930,18936,73,95.0,105.0,18910.0,18920.0,,,,,verb.communication,357,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+261,6,fight,142,147,18957,18962,73,130.0,134.0,18945.0,18949.0,,,,,verb.competition,356,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+262,1,brought,30,37,19017,19024,6,17.0,25.0,19004.0,19012.0,,,,,verb.motion,358,subject,Momotaro,58,186,244,male,1.0,primary
+263,1,approached,12,22,19055,19065,73,3.0,7.0,19046.0,19050.0,,,,,verb.motion,359,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+263,2,saw,27,30,19070,19073,6,24.0,26.0,19067.0,19069.0,,,,,verb.perception,360,subject,Momotaro,58,186,244,male,1.0,primary
+264,0,landed,9,15,19224,19230,6,0.0,8.0,19215.0,19223.0,,,,,verb.motion,361,subject,Momotaro,58,186,244,male,1.0,primary
+264,2,walked,68,74,19283,19289,6,0.0,8.0,19215.0,19223.0,,,,,verb.motion,362,subject,Momotaro,58,186,244,male,1.0,primary
+266,0,saw,9,12,19435,19438,6,0.0,8.0,19426.0,19434.0,,,,,verb.cognition,365,subject,Momotaro,58,186,244,male,1.0,primary
+266,3,washed,78,84,19504,19510,157,62.0,77.0,19488.0,19503.0,,,,,verb.contact,364,subject,the two maidens,1,4,5,female,1.0,tertiary
+267,0,stopped,3,10,19562,19569,6,0.0,2.0,19559.0,19561.0,,,,,verb.motion,366,subject,Momotaro,58,186,244,male,1.0,primary
+267,1,spoke,15,20,19574,19579,6,0.0,2.0,19559.0,19561.0,,,,,verb.communication,369,subject,Momotaro,58,186,244,male,1.0,primary
+267,4,weep,59,63,19618,19622,157,55.0,58.0,19614.0,19617.0,,,,,verb.body,368,subject,the two maidens,1,4,5,female,1.0,tertiary
+269,1,carried,8,15,19669,19676,73,0.0,2.0,19661.0,19663.0,,,,,verb.contact,367,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+269,4,obliged,111,118,19772,19779,73,104.0,106.0,19765.0,19767.0,,,,,verb.communication,370,subject,the devils,4,19,23,group/nonbinary,1.0,tertiary
+269,7,kill,159,163,19820,19824,273,151.0,153.0,19812.0,19814.0,,,,,verb.contact,371,subject,the Demon King,1,2,3,male,1.0,tertiary
+271,1,rescue,8,14,19994,20000,6,1.0,2.0,19987.0,19988.0,,,,,verb.social,374,subject,Momotaro,58,186,244,male,1.0,primary
+271,2,said,21,25,20007,20011,158,1.0,18.0,19987.0,20004.0,,,,,verb.communication,375,subject,the maidens,1,2,3,female,1.0,tertiary
+271,2,said,21,25,20007,20011,6,1.0,18.0,19987.0,20004.0,,,,,verb.communication,375,subject,Momotaro,58,186,244,male,1.0,primary
+273,0,led,20,23,20110,20113,159,5.0,19.0,20095.0,20109.0,,,,,verb.motion,377,subject,the two ladies,1,0,1,female,1.0,tertiary
+273,1,showed,36,42,20126,20132,159,5.0,19.0,20095.0,20109.0,,,,,verb.perception,378,subject,the two ladies,1,0,1,female,1.0,tertiary
+276,3,arrived,110,117,20542,20549,6,70.0,105.0,20502.0,20537.0,,,,,verb.motion,381,subject,Momotaro,58,186,244,male,1.0,primary
+276,6,fought,161,167,20593,20599,163,144.0,160.0,20576.0,20592.0,,,,,verb.competition,380,subject,the four enemies,1,1,2,group/nonbinary,1.0,tertiary
+277,0,fell,19,23,20656,20660,164,0.0,18.0,20637.0,20655.0,,,,,verb.motion,382,subject,Some of the devils,1,0,1,unknown,0.0,tertiary
+277,2,dashed,63,69,20700,20706,164,0.0,18.0,20637.0,20655.0,,,,,verb.motion,383,subject,Some of the devils,1,0,1,unknown,0.0,tertiary
+279,1,beaten,11,17,20792,20798,168,1.0,5.0,20782.0,20786.0,,,,,verb.contact,384,subject,many,1,0,1,unknown,0.0,tertiary
+281,2,knew,41,45,20926,20930,6,38.0,40.0,20923.0,20925.0,,,,,verb.cognition,385,subject,Momotaro,58,186,244,male,1.0,primary
+283,1,said,25,29,21208,21212,6,1.0,19.0,21184.0,21202.0,,,,,verb.communication,387,subject,Momotaro,58,186,244,male,1.0,primary
+284,1,stand,10,15,21231,21236,6,1.0,2.0,21222.0,21223.0,,,,,verb.contact,386,subject,Momotaro,58,186,244,male,1.0,primary
+285,1,give,7,11,21257,21261,6,0.0,1.0,21250.0,21251.0,55.0,80.0,21305.0,21330.0,verb.possession,389,subject,Momotaro,58,186,244,male,1.0,primary
+285,4,spare,67,72,21317,21322,6,58.0,61.0,21308.0,21311.0,,,,,verb.social,388,subject,Momotaro,58,186,244,male,1.0,primary
+286,0,laughed,9,16,21342,21349,6,0.0,8.0,21333.0,21341.0,,,,,verb.body,390,subject,Momotaro,58,186,244,male,1.0,primary
+287,1,beg,35,38,21386,21389,282,16.0,30.0,21367.0,21381.0,,,,,verb.communication,391,subject,big devil,1,0,1,unknown,0.0,tertiary
+287,1,beg,35,38,21386,21389,6,16.0,30.0,21367.0,21381.0,,,,,verb.communication,391,subject,Momotaro,58,186,244,male,1.0,primary
+288,1,spare,9,14,21417,21422,6,0.0,1.0,21408.0,21409.0,55.0,137.0,21463.0,21545.0,verb.social,392,subject,Momotaro,58,186,244,male,1.0,primary
+288,2,beg,50,53,21458,21461,6,33.0,45.0,21441.0,21453.0,,,,,verb.communication,394,subject,Momotaro,58,186,244,male,1.0,primary
+288,4,killed,68,74,21476,21482,6,59.0,62.0,21467.0,21470.0,,,,,verb.contact,393,subject,Momotaro,58,186,244,male,1.0,primary
+288,5,tortured,79,87,21487,21495,6,59.0,62.0,21467.0,21470.0,,,,,verb.social,396,subject,Momotaro,58,186,244,male,1.0,primary
+288,6,robbed,104,110,21512,21518,6,0.0,1.0,21408.0,21409.0,123.0,137.0,21531.0,21545.0,verb.social,395,subject,Momotaro,58,186,244,male,1.0,primary
+289,0,tied,14,18,21562,21566,6,5.0,13.0,21553.0,21561.0,,,,,verb.contact,397,subject,Momotaro,58,186,244,male,1.0,primary
+289,1,gave,42,46,21590,21594,6,5.0,13.0,21553.0,21561.0,,,,,verb.possession,398,subject,Momotaro,58,186,244,male,1.0,primary
+290,3,set,63,66,21688,21691,6,18.0,20.0,21643.0,21645.0,,,,,verb.contact,401,subject,Momotaro,58,186,244,male,1.0,primary
+290,5,found,128,133,21753,21758,6,108.0,124.0,21733.0,21749.0,,,,,verb.possession,400,subject,Momotaro,58,186,244,male,1.0,primary
+291,1,returned,69,77,21829,21837,6,60.0,68.0,21820.0,21828.0,104.0,148.0,21864.0,21908.0,verb.motion,402,subject,Momotaro,58,186,244,male,1.0,primary
+291,2,taking,104,110,21864,21870,6,60.0,68.0,21820.0,21828.0,136.0,148.0,21896.0,21908.0,verb.social,403,subject,Momotaro,58,186,244,male,1.0,primary
+292,4,taken,116,121,22026,22031,185,0.0,109.0,21910.0,22019.0,,,,,verb.motion,404,subject,the wicked demon's slaves,1,0,1,unknown,0.0,tertiary
+292,4,taken,116,121,22026,22031,184,0.0,109.0,21910.0,22019.0,,,,,verb.motion,404,subject,the wicked demon,1,1,2,male,1.0,tertiary
+292,4,taken,116,121,22026,22031,8,0.0,109.0,21910.0,22019.0,,,,,verb.motion,404,subject,Daimios,2,0,2,unknown,0.0,tertiary
+292,4,taken,116,121,22026,22031,181,0.0,109.0,21910.0,22019.0,,,,,verb.motion,404,subject,The two poor damsels,1,2,3,group/nonbinary,1.0,tertiary
+292,4,taken,116,121,22026,22031,182,0.0,109.0,21910.0,22019.0,,,,,verb.motion,404,subject,daughters of Daimios,1,0,1,unknown,0.0,tertiary
+292,4,taken,116,121,22026,22031,183,0.0,109.0,21910.0,22019.0,,,,,verb.motion,404,subject,others whom the wicked demon had carried off to be his slaves,1,0,1,unknown,0.0,tertiary
+292,5,delivered,152,161,22062,22071,185,0.0,109.0,21910.0,22019.0,,,,,verb.motion,405,subject,the wicked demon's slaves,1,0,1,unknown,0.0,tertiary
+292,5,delivered,152,161,22062,22071,184,0.0,109.0,21910.0,22019.0,,,,,verb.motion,405,subject,the wicked demon,1,1,2,male,1.0,tertiary
+292,5,delivered,152,161,22062,22071,8,0.0,109.0,21910.0,22019.0,,,,,verb.motion,405,subject,Daimios,2,0,2,unknown,0.0,tertiary
+292,5,delivered,152,161,22062,22071,181,0.0,109.0,21910.0,22019.0,,,,,verb.motion,405,subject,The two poor damsels,1,2,3,group/nonbinary,1.0,tertiary
+292,5,delivered,152,161,22062,22071,182,0.0,109.0,21910.0,22019.0,,,,,verb.motion,405,subject,daughters of Daimios,1,0,1,unknown,0.0,tertiary
+292,5,delivered,152,161,22062,22071,183,0.0,109.0,21910.0,22019.0,,,,,verb.motion,405,subject,others whom the wicked demon had carried off to be his slaves,1,0,1,unknown,0.0,tertiary
+294,2,brought,74,81,22350,22357,6,48.0,60.0,22324.0,22336.0,,,,,verb.contact,409,subject,Momotaro,58,186,244,male,1.0,primary
+294,3,enabled,96,103,22372,22379,6,48.0,95.0,22324.0,22371.0,,,,,verb.social,410,subject,Momotaro,58,186,244,male,1.0,primary
+2,2,cut,27,30,151,154,14,31.0,52.0,155.0,176.0,,,,,verb.contact,0,direct_object,the farmers,1,0,1,unknown,0.0,tertiary
+4,3,went,109,113,528,532,24,114.0,134.0,533.0,553.0,,,,,verb.motion,7,direct_object,the two old people,2,4,6,group/nonbinary,1.0,tertiary
+6,2,passing,80,87,786,793,29,88.0,201.0,794.0,907.0,,,,,verb.motion,9,direct_object,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+6,3,touched,91,98,797,804,29,99.0,127.0,805.0,833.0,,,,,verb.contact,10,direct_object,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+7,1,put,62,65,971,974,15,66.0,76.0,975.0,985.0,,,,,verb.contact,14,direct_object,The old woman,11,54,65,female,1.0,tertiary
+11,1,washing,16,23,1272,1279,15,24.0,35.0,1280.0,1291.0,,,,,verb.contact,21,direct_object,The old woman,11,54,65,female,1.0,tertiary
+12,0,looked,14,20,1350,1356,15,24.0,37.0,1360.0,1373.0,,,,,verb.perception,23,direct_object,The old woman,11,54,65,female,1.0,tertiary
+15,0,said,4,8,1533,1537,15,9.0,19.0,1538.0,1548.0,,,,,verb.communication,26,direct_object,The old woman,11,54,65,female,1.0,tertiary
+16,2,take,29,33,1579,1583,15,34.0,36.0,1584.0,1586.0,37.0,41.0,1587.0,1591.0,verb.contact,29,direct_object,The old woman,11,54,65,female,1.0,tertiary
+16,2,take,29,33,1579,1583,196,34.0,36.0,1584.0,1586.0,37.0,41.0,1587.0,1591.0,verb.contact,29,direct_object,The old woman's old man,1,0,1,male,1.0,tertiary
+19,1,think,21,26,1831,1836,15,27.0,44.0,1837.0,1854.0,,,,,verb.cognition,33,direct_object,The old woman,11,54,65,female,1.0,tertiary
+20,0,began,8,13,1899,1904,15,14.0,84.0,1905.0,1975.0,,,,,verb.change,36,direct_object,The old woman,11,54,65,female,1.0,tertiary
+20,1,clap,17,21,1908,1912,15,22.0,31.0,1913.0,1922.0,32.0,84.0,1923.0,1975.0,verb.contact,37,direct_object,The old woman,11,54,65,female,1.0,tertiary
+22,3,began,74,79,2196,2201,15,80.0,241.0,2202.0,2363.0,,,,,verb.change,43,direct_object,The old woman,11,54,65,female,1.0,tertiary
+22,4,come,83,87,2205,2209,15,121.0,147.0,2243.0,2269.0,149.0,153.0,2271.0,2275.0,verb.motion,45,direct_object,The old woman,11,54,65,female,1.0,tertiary
+22,9,take,218,222,2340,2344,15,223.0,225.0,2345.0,2347.0,,,,,verb.cognition,46,direct_object,The old woman,11,54,65,female,1.0,tertiary
+24,3,put,72,75,2466,2469,15,76.0,91.0,2470.0,2485.0,,,,,verb.contact,47,direct_object,The old woman,11,54,65,female,1.0,tertiary
+25,0,seemed,3,9,2597,2603,37,10.0,67.0,2604.0,2661.0,,,,,verb.perception,49,direct_object,The old woman's husband,1,0,1,male,1.0,tertiary
+25,0,seemed,3,9,2597,2603,15,10.0,67.0,2604.0,2661.0,,,,,verb.perception,49,direct_object,The old woman,11,54,65,female,1.0,tertiary
+26,6,see,148,151,2811,2814,13,152.0,155.0,2815.0,2818.0,,,,,verb.perception,51,direct_object,The old man,15,37,52,male,1.0,tertiary
+28,0,saw,25,28,2941,2944,13,29.0,47.0,2945.0,2963.0,,,,,verb.perception,55,direct_object,The old man,15,37,52,male,1.0,tertiary
+28,0,saw,25,28,2941,2944,15,29.0,47.0,2945.0,2963.0,,,,,verb.perception,55,direct_object,The old woman,11,54,65,female,1.0,tertiary
+32,0,asked,0,5,3106,3111,13,6.0,17.0,3112.0,3123.0,,,,,verb.communication,57,direct_object,The old man,15,37,52,male,1.0,tertiary
+32,0,asked,0,5,3106,3111,15,6.0,17.0,3112.0,3123.0,,,,,verb.communication,57,direct_object,The old woman,11,54,65,female,1.0,tertiary
+35,0,answered,0,8,3219,3227,13,9.0,22.0,3228.0,3241.0,,,,,verb.communication,60,direct_object,The old man,15,37,52,male,1.0,tertiary
+35,0,answered,0,8,3219,3227,15,9.0,22.0,3228.0,3241.0,,,,,verb.communication,60,direct_object,The old woman,11,54,65,female,1.0,tertiary
+36,1,said,16,20,3325,3329,13,21.0,32.0,3330.0,3341.0,,,,,verb.communication,62,direct_object,The old man,15,37,52,male,1.0,tertiary
+37,0,washed,8,14,3351,3357,13,15.0,23.0,3358.0,3366.0,24.0,43.0,3367.0,3386.0,verb.contact,61,direct_object,The old man,15,37,52,male,1.0,tertiary
+40,0,held,4,8,3548,3552,13,9.0,11.0,3553.0,3555.0,23.0,49.0,3567.0,3593.0,verb.contact,64,direct_object,The old man,15,37,52,male,1.0,tertiary
+42,3,said,67,71,3717,3721,13,74.0,123.0,3724.0,3773.0,,,,,verb.communication,70,direct_object,The old man,15,37,52,male,1.0,tertiary
+44,2,answered,20,28,3821,3829,15,29.0,42.0,3830.0,3843.0,,,,,verb.communication,74,direct_object,The old woman,11,54,65,female,1.0,tertiary
+46,0,told,8,12,3900,3904,13,13.0,16.0,3905.0,3908.0,,,,,verb.communication,75,direct_object,The old man,15,37,52,male,1.0,tertiary
+48,0,let,0,3,3966,3969,15,4.0,34.0,3970.0,4000.0,,,,,verb.social,77,direct_object,The old woman,11,54,65,female,1.0,tertiary
+48,3,said,37,41,4003,4007,4,42.0,55.0,4008.0,4021.0,,,,,verb.communication,78,direct_object,the O Fii San,2,0,2,unknown,0.0,tertiary
+49,6,said,165,169,4188,4192,199,172.0,191.0,4195.0,4214.0,,,,,verb.communication,81,direct_object,old man,2,0,2,male,1.0,tertiary
+50,0,stepped,8,15,4225,4232,48,16.0,40.0,4233.0,4257.0,,,,,verb.motion,82,direct_object,a beautiful little child,1,0,1,unknown,0.0,tertiary
+54,1,tell,7,11,4427,4431,13,12.0,15.0,4432.0,4435.0,,,,,verb.communication,87,direct_object,The old man,15,37,52,male,1.0,tertiary
+55,1,had,11,14,4458,4461,13,15.0,32.0,4462.0,4479.0,,,,,verb.perception,86,direct_object,The old man,15,37,52,male,1.0,tertiary
+56,1,lamented,35,43,4516,4524,13,44.0,65.0,4525.0,4546.0,,,,,verb.communication,85,direct_object,The old man,15,37,52,male,1.0,tertiary
+56,1,lamented,35,43,4516,4524,205,44.0,65.0,4525.0,4546.0,,,,,verb.communication,85,direct_object,no child,2,0,2,unknown,0.0,tertiary
+56,2,had,53,56,4534,4537,205,57.0,65.0,4538.0,4546.0,,,,,verb.possession,84,direct_object,no child,2,0,2,unknown,0.0,tertiary
+57,4,sent,33,37,4581,4585,13,38.0,67.0,4586.0,4615.0,,,,,verb.communication,89,direct_object,The old man,15,37,52,male,1.0,tertiary
+57,4,sent,33,37,4581,4585,206,38.0,67.0,4586.0,4615.0,,,,,verb.communication,89,direct_object,The old man's son of your old age,1,0,1,unknown,0.0,tertiary
+58,0,hearing,3,10,4621,4628,13,11.0,40.0,4629.0,4658.0,,,,,verb.perception,92,direct_object,The old man,15,37,52,male,1.0,tertiary
+58,0,hearing,3,10,4621,4628,16,11.0,40.0,4629.0,4658.0,,,,,verb.perception,92,direct_object,The old man's wife,3,0,3,female,1.0,tertiary
+59,1,cried,9,14,4685,4690,205,29.0,95.0,4705.0,4771.0,,,,,verb.communication,91,direct_object,no child,2,0,2,unknown,0.0,tertiary
+59,2,having,43,49,4719,4725,205,50.0,95.0,4726.0,4771.0,,,,,verb.social,90,direct_object,no child,2,0,2,unknown,0.0,tertiary
+60,0,took,18,22,4920,4924,13,23.0,32.0,4925.0,4934.0,,,,,verb.contact,94,direct_object,The old man,15,37,52,male,1.0,tertiary
+60,0,took,18,22,4920,4924,52,23.0,32.0,4925.0,4934.0,,,,,verb.contact,94,direct_object,The child,3,12,15,male,1.0,tertiary
+61,0,named,10,15,4997,5002,52,16.0,19.0,5003.0,5006.0,30.0,83.0,5017.0,5070.0,verb.communication,96,direct_object,The child,3,12,15,male,1.0,tertiary
+61,0,named,10,15,4997,5002,6,16.0,19.0,5003.0,5006.0,30.0,83.0,5017.0,5070.0,verb.communication,96,direct_object,Momotaro,58,186,244,male,1.0,primary
+64,1,looked,51,57,5353,5359,52,58.0,64.0,5360.0,5366.0,,,,,verb.perception,99,direct_object,The child,3,12,15,male,1.0,tertiary
+64,3,thought,92,99,5394,5401,63,100.0,123.0,5402.0,5425.0,,,,,verb.cognition,98,direct_object,a hero,1,0,1,unknown,0.0,tertiary
+65,0,came,17,21,5444,5448,64,22.0,42.0,5449.0,5469.0,,,,,verb.motion,100,direct_object,Momotaro's foster - father,1,0,1,male,1.0,tertiary
+65,0,came,17,21,5444,5448,6,22.0,42.0,5449.0,5469.0,,,,,verb.motion,100,direct_object,Momotaro,58,186,244,male,1.0,primary
+65,1,said,47,51,5474,5478,209,63.0,120.0,5490.0,5547.0,,,,,verb.communication,102,direct_object,son,1,0,1,unknown,0.0,tertiary
+65,1,said,47,51,5474,5478,29,63.0,120.0,5490.0,5547.0,,,,,verb.communication,102,direct_object,The old couple,3,8,11,group/nonbinary,1.0,tertiary
+65,1,said,47,51,5474,5478,207,63.0,120.0,5490.0,5547.0,,,,,verb.communication,102,direct_object,Father,2,20,22,male,1.0,tertiary
+67,1,know,9,13,5719,5723,207,14.0,37.0,5724.0,5747.0,,,,,verb.cognition,104,direct_object,Father,2,20,22,male,1.0,tertiary
+67,2,thank,21,26,5731,5736,207,27.0,30.0,5737.0,5740.0,31.0,37.0,,,verb.communication,105,direct_object,Father,2,20,22,male,1.0,tertiary
+68,0,answered,7,15,5757,5765,13,16.0,27.0,5766.0,5777.0,,,,,verb.communication,107,direct_object,The old man,15,37,52,male,1.0,tertiary
+70,2,thank,46,51,6026,6031,13,52.0,54.0,6032.0,6034.0,55.0,66.0,6035.0,6046.0,verb.communication,106,direct_object,The old man,15,37,52,male,1.0,tertiary
+72,0,hope,3,7,6085,6089,207,8.0,35.0,6090.0,6117.0,,,,,verb.emotion,109,direct_object,Father,2,20,22,male,1.0,tertiary
+72,0,hope,3,7,6085,6089,6,8.0,35.0,6090.0,6117.0,,,,,verb.emotion,109,direct_object,Momotaro,58,186,244,male,1.0,primary
+72,3,said,38,42,6120,6124,6,43.0,51.0,6125.0,6133.0,,,,,verb.communication,110,direct_object,Momotaro,58,186,244,male,1.0,primary
+73,0,begin,15,20,6149,6154,207,21.0,52.0,6155.0,6186.0,,,,,verb.change,112,direct_object,Father,2,20,22,male,1.0,tertiary
+73,0,begin,15,20,6149,6154,6,21.0,52.0,6155.0,6186.0,,,,,verb.change,112,direct_object,Momotaro,58,186,244,male,1.0,primary
+73,2,have,55,59,6189,6193,207,60.0,130.0,6194.0,6264.0,,,,,verb.possession,111,direct_object,Father,2,20,22,male,1.0,tertiary
+73,2,have,55,59,6189,6193,6,60.0,130.0,6194.0,6264.0,,,,,verb.possession,111,direct_object,Momotaro,58,186,244,male,1.0,primary
+73,3,make,73,77,6207,6211,207,78.0,130.0,6212.0,6264.0,,,,,verb.social,113,direct_object,Father,2,20,22,male,1.0,tertiary
+73,3,make,73,77,6207,6211,6,78.0,130.0,6212.0,6264.0,,,,,verb.social,113,direct_object,Momotaro,58,186,244,male,1.0,primary
+73,4,hope,86,90,6220,6224,207,91.0,130.0,6225.0,6264.0,,,,,verb.emotion,114,direct_object,Father,2,20,22,male,1.0,tertiary
+73,4,hope,86,90,6220,6224,6,91.0,130.0,6225.0,6264.0,,,,,verb.emotion,114,direct_object,Momotaro,58,186,244,male,1.0,primary
+73,6,grant,100,105,6234,6239,6,106.0,108.0,6240.0,6242.0,,,,,verb.communication,115,direct_object,Momotaro,58,186,244,male,1.0,primary
+74,1,let,8,11,6275,6278,207,12.0,36.0,6279.0,6303.0,38.0,83.0,6305.0,6350.0,verb.social,116,direct_object,Father,2,20,22,male,1.0,tertiary
+74,2,do,16,18,6283,6285,207,19.0,36.0,6286.0,6303.0,,,,,verb.social,117,direct_object,Father,2,20,22,male,1.0,tertiary
+75,0,let,6,9,6359,6362,6,10.0,28.0,6363.0,6381.0,,,,,verb.social,119,direct_object,Momotaro,58,186,244,male,1.0,primary
+77,2,leave,15,20,6417,6422,216,21.0,47.0,6423.0,6449.0,,,,,verb.motion,121,direct_object,mother,1,0,1,female,1.0,tertiary
+77,2,leave,15,20,6417,6422,215,21.0,47.0,6423.0,6449.0,,,,,verb.motion,121,direct_object,Father's old father,1,0,1,male,1.0,tertiary
+77,2,leave,15,20,6417,6422,207,21.0,47.0,6423.0,6449.0,,,,,verb.motion,121,direct_object,Father,2,20,22,male,1.0,tertiary
+78,2,let,39,42,6522,6525,6,43.0,52.0,6526.0,6535.0,,,,,verb.social,122,direct_object,Momotaro,58,186,244,male,1.0,primary
+80,1,think,10,15,6571,6576,6,16.0,49.0,6577.0,6610.0,68.0,109.0,6629.0,6670.0,verb.cognition,126,direct_object,Momotaro,58,186,244,male,1.0,primary
+80,4,said,52,56,6613,6617,6,57.0,65.0,6618.0,6626.0,,,,,verb.communication,130,direct_object,Momotaro,58,186,244,male,1.0,primary
+80,6,told,91,95,6652,6656,207,96.0,99.0,6657.0,6660.0,,,,,verb.communication,129,direct_object,Father,2,20,22,male,1.0,tertiary
+80,6,told,91,95,6652,6656,6,96.0,99.0,6657.0,6660.0,,,,,verb.communication,129,direct_object,Momotaro,58,186,244,male,1.0,primary
+83,1,heard,13,18,6812,6817,223,19.0,102.0,6818.0,6901.0,,,,,verb.perception,128,direct_object,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+83,1,heard,13,18,6812,6817,225,19.0,102.0,6818.0,6901.0,,,,,verb.perception,128,direct_object,the people,1,0,1,unknown,0.0,tertiary
+83,3,kill,46,50,6845,6849,225,59.0,69.0,6858.0,6868.0,,,,,verb.contact,132,direct_object,the people,1,0,1,unknown,0.0,tertiary
+83,4,rob,55,58,6854,6857,225,59.0,69.0,6858.0,6868.0,,,,,verb.possession,131,direct_object,the people,1,0,1,unknown,0.0,tertiary
+84,2,disobey,71,78,6974,6981,227,79.0,87.0,6982.0,6990.0,,,,,verb.social,135,direct_object,our Emperor,1,1,2,male,1.0,tertiary
+85,1,kill,34,38,7026,7030,223,47.0,121.0,7039.0,7113.0,,,,,verb.contact,134,direct_object,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+85,1,kill,34,38,7026,7030,230,47.0,121.0,7039.0,7113.0,,,,,verb.contact,134,direct_object,the poor people who are so unfortunate as to fall into,1,0,1,unknown,0.0,tertiary
+85,1,kill,34,38,7026,7030,229,47.0,121.0,7039.0,7113.0,,,,,verb.contact,134,direct_object,some of the poor people who are so unfortunate as to fall into their hands,1,0,1,unknown,0.0,tertiary
+85,2,eat,43,46,7035,7038,223,47.0,121.0,7039.0,7113.0,,,,,verb.consumption,137,direct_object,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+85,2,eat,43,46,7035,7038,230,47.0,121.0,7039.0,7113.0,,,,,verb.consumption,137,direct_object,the poor people who are so unfortunate as to fall into,1,0,1,unknown,0.0,tertiary
+85,2,eat,43,46,7035,7038,229,47.0,121.0,7039.0,7113.0,,,,,verb.consumption,137,direct_object,some of the poor people who are so unfortunate as to fall into their hands,1,0,1,unknown,0.0,tertiary
+85,4,fall,100,104,7092,7096,223,105.0,121.0,7097.0,7113.0,,,,,verb.motion,136,direct_object,a band of devils,1,7,8,group/nonbinary,1.0,tertiary
+87,2,conquer,14,21,7167,7174,231,22.0,26.0,7175.0,7179.0,,,,,verb.change,140,direct_object,These devils,1,2,3,group/nonbinary,1.0,tertiary
+89,1,hearing,34,41,7346,7353,68,42.0,50.0,7354.0,7362.0,,,,,verb.perception,142,direct_object,a mere boy of fifteen,1,0,1,male,1.0,tertiary
+90,0,thought,3,10,7394,7401,69,11.0,36.0,7402.0,7427.0,,,,,verb.cognition,143,direct_object,the boy,1,4,5,male,1.0,tertiary
+90,1,let,22,25,7413,7416,69,26.0,36.0,7417.0,7427.0,,,,,verb.social,144,direct_object,the boy,1,4,5,male,1.0,tertiary
+91,1,knew,62,66,7491,7495,71,67.0,141.0,7496.0,7570.0,,,,,verb.cognition,146,direct_object,no common child,1,0,1,unknown,0.0,tertiary
+91,1,knew,62,66,7491,7495,5,67.0,141.0,7496.0,7570.0,,,,,verb.cognition,146,direct_object,Heaven,2,0,2,unknown,0.0,tertiary
+91,1,knew,62,66,7491,7495,69,67.0,141.0,7496.0,7570.0,,,,,verb.cognition,146,direct_object,the boy,1,4,5,male,1.0,tertiary
+91,6,felt,150,154,7579,7583,73,155.0,212.0,7584.0,7641.0,,,,,verb.emotion,148,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+91,6,felt,150,154,7579,7583,69,155.0,212.0,7584.0,7641.0,,,,,verb.emotion,148,direct_object,the boy,1,4,5,male,1.0,tertiary
+91,9,harm,204,208,7633,7637,69,209.0,212.0,7638.0,7641.0,,,,,verb.social,149,direct_object,the boy,1,4,5,male,1.0,tertiary
+92,2,said,45,49,7688,7692,13,50.0,61.0,7693.0,7704.0,,,,,verb.communication,151,direct_object,The old man,15,37,52,male,1.0,tertiary
+93,1,hinder,12,18,7718,7724,6,19.0,22.0,7725.0,7728.0,23.0,44.0,7729.0,7750.0,verb.social,152,direct_object,Momotaro,58,186,244,male,1.0,primary
+96,1,said,36,40,7907,7911,6,41.0,93.0,7912.0,7964.0,,,,,verb.communication,158,direct_object,Momotaro,58,186,244,male,1.0,primary
+98,3,make,81,85,8102,8106,6,86.0,136.0,8107.0,8157.0,,,,,verb.creation,163,direct_object,Momotaro,58,186,244,male,1.0,primary
+98,4,take,108,112,8129,8133,6,122.0,136.0,8143.0,8157.0,,,,,verb.motion,164,direct_object,Momotaro,58,186,244,male,1.0,primary
+103,0,expect,3,9,8404,8410,6,10.0,29.0,8411.0,8430.0,,,,,verb.cognition,170,direct_object,Momotaro,58,186,244,male,1.0,primary
+104,1,leave,27,32,8460,8465,78,33.0,48.0,8466.0,8481.0,49.0,109.0,,,verb.motion,169,direct_object,Momotaro's old parents,1,2,3,group/nonbinary,1.0,tertiary
+104,1,leave,27,32,8460,8465,6,33.0,48.0,8466.0,8481.0,49.0,109.0,,,verb.motion,169,direct_object,Momotaro,58,186,244,male,1.0,primary
+104,2,knew,60,64,8493,8497,6,65.0,104.0,8498.0,8537.0,,,,,verb.cognition,168,direct_object,Momotaro,58,186,244,male,1.0,primary
+108,0,take,0,4,8656,8660,78,5.0,28.0,8661.0,8684.0,29.0,44.0,,,verb.social,173,direct_object,Momotaro's old parents,1,2,3,group/nonbinary,1.0,tertiary
+112,0,hurried,13,20,8831,8838,6,21.0,31.0,8839.0,8849.0,32.0,50.0,8850.0,8868.0,verb.motion,176,direct_object,Momotaro,58,186,244,male,1.0,primary
+113,2,opened,31,37,8901,8907,6,38.0,45.0,8908.0,8915.0,,,,,verb.contact,179,direct_object,Momotaro,58,186,244,male,1.0,primary
+114,1,having,18,24,9030,9036,6,25.0,66.0,9037.0,9078.0,,,,,verb.consumption,181,direct_object,Momotaro,58,186,244,male,1.0,primary
+115,0,made,3,7,9120,9124,6,8.0,16.0,9125.0,9133.0,,,,,verb.creation,182,direct_object,Momotaro,58,186,244,male,1.0,primary
+115,2,said,54,58,9171,9175,236,77.0,144.0,9194.0,9261.0,,,,,verb.communication,184,direct_object,a rude man,1,0,1,male,1.0,tertiary
+115,2,said,54,58,9171,9175,6,77.0,144.0,9194.0,9261.0,,,,,verb.communication,184,direct_object,Momotaro,58,186,244,male,1.0,primary
+116,0,leave,7,12,9270,9275,6,13.0,15.0,9276.0,9278.0,,,,,verb.possession,186,direct_object,Momotaro,58,186,244,male,1.0,primary
+117,1,bite,18,22,9343,9347,6,23.0,26.0,9348.0,9351.0,27.0,42.0,9352.0,9367.0,verb.contact,187,direct_object,Momotaro,58,186,244,male,1.0,primary
+117,2,kill,34,38,9359,9363,6,39.0,42.0,9364.0,9367.0,,,,,verb.contact,189,direct_object,Momotaro,58,186,244,male,1.0,primary
+118,0,laughed,14,21,9384,9391,6,22.0,32.0,9392.0,9402.0,,,,,verb.body,190,direct_object,Momotaro,58,186,244,male,1.0,primary
+119,1,know,7,11,9441,9445,6,12.0,20.0,9446.0,9454.0,,,,,verb.cognition,191,direct_object,Momotaro,58,186,244,male,1.0,primary
+121,0,try,7,10,9572,9575,6,11.0,37.0,9576.0,9602.0,,,,,verb.social,194,direct_object,Momotaro,58,186,244,male,1.0,primary
+121,1,stop,14,18,9579,9583,6,19.0,21.0,9584.0,9586.0,22.0,37.0,9587.0,9602.0,verb.social,195,direct_object,Momotaro,58,186,244,male,1.0,primary
+121,3,cut,45,48,9610,9613,6,49.0,52.0,9614.0,9617.0,,,,,verb.contact,198,direct_object,Momotaro,58,186,244,male,1.0,primary
+123,0,dropped,9,16,9694,9701,83,17.0,33.0,9702.0,9718.0,,,,,verb.motion,196,direct_object,the dog,4,14,18,male,1.0,tertiary
+128,0,knowing,4,11,9901,9908,83,12.0,60.0,9909.0,9957.0,,,,,verb.cognition,201,direct_object,the dog,4,14,18,male,1.0,tertiary
+129,1,pardon,16,22,9975,9981,83,23.0,34.0,9982.0,9993.0,,,,,verb.communication,205,direct_object,the dog,4,14,18,male,1.0,tertiary
+131,1,take,12,16,10066,10070,243,17.0,35.0,10071.0,10089.0,36.0,69.0,10090.0,10123.0,verb.cognition,207,direct_object,a rude fellow,1,0,1,unknown,0.0,tertiary
+132,0,think,3,8,10162,10167,6,9.0,49.0,10168.0,10208.0,,,,,verb.cognition,206,direct_object,Momotaro,58,186,244,male,1.0,primary
+132,2,take,15,19,10174,10178,6,20.0,23.0,10179.0,10182.0,32.0,49.0,10191.0,10208.0,verb.social,208,direct_object,Momotaro,58,186,244,male,1.0,primary
+132,5,said,52,56,10211,10215,6,57.0,65.0,10216.0,10224.0,,,,,verb.communication,210,direct_object,Momotaro,58,186,244,male,1.0,primary
+136,1,give,9,13,10298,10302,6,14.0,16.0,10303.0,10305.0,,,,,verb.possession,211,direct_object,Momotaro,58,186,244,male,1.0,primary
+137,2,said,51,55,10393,10397,6,56.0,64.0,10398.0,10406.0,,,,,verb.communication,213,direct_object,Momotaro,58,186,244,male,1.0,primary
+138,1,spare,10,15,10418,10423,6,16.0,19.0,10424.0,10427.0,,,,,verb.possession,212,direct_object,Momotaro,58,186,244,male,1.0,primary
+139,1,give,8,12,10448,10452,6,13.0,16.0,10453.0,10456.0,,,,,verb.possession,214,direct_object,Momotaro,58,186,244,male,1.0,primary
+140,1,said,23,27,10494,10498,83,28.0,35.0,10499.0,10506.0,37.0,67.0,10508.0,10538.0,verb.communication,215,direct_object,the dog,4,14,18,male,1.0,tertiary
+140,2,taking,37,43,10508,10514,83,44.0,67.0,10515.0,10538.0,,,,,verb.possession,217,direct_object,the dog,4,14,18,male,1.0,tertiary
+140,3,thrown,54,60,10525,10531,83,61.0,67.0,10532.0,10538.0,,,,,verb.contact,216,direct_object,the dog,4,14,18,male,1.0,tertiary
+144,1,said,42,46,10774,10778,6,49.0,71.0,10781.0,10803.0,,,,,verb.communication,218,direct_object,Momotaro,58,186,244,male,1.0,primary
+146,1,allow,9,14,10859,10864,88,15.0,32.0,10865.0,10882.0,,,,,verb.social,219,direct_object,The creature,1,1,2,unknown,0.0,tertiary
+146,1,allow,9,14,10859,10864,6,15.0,32.0,10865.0,10882.0,,,,,verb.social,219,direct_object,Momotaro,58,186,244,male,1.0,primary
+147,0,answered,8,16,10893,10901,6,29.0,72.0,10914.0,10957.0,,,,,verb.communication,221,direct_object,Momotaro,58,186,244,male,1.0,primary
+147,1,has,46,49,10931,10934,6,50.0,72.0,10935.0,10957.0,,,,,verb.possession,220,direct_object,Momotaro,58,186,244,male,1.0,primary
+147,2,accompany,59,68,10944,10953,6,69.0,72.0,10954.0,10957.0,,,,,verb.motion,223,direct_object,Momotaro,58,186,244,male,1.0,primary
+153,0,said,0,4,11171,11175,6,5.0,13.0,11176.0,11184.0,15.0,43.0,,,verb.communication,227,direct_object,Momotaro,58,186,244,male,1.0,primary
+153,1,putting,15,22,11186,11193,6,23.0,30.0,11194.0,11201.0,,,,,verb.contact,226,direct_object,Momotaro,58,186,244,male,1.0,primary
+155,1,have,39,43,11277,11281,6,44.0,81.0,11282.0,11319.0,,,,,verb.possession,225,direct_object,Momotaro,58,186,244,male,1.0,primary
+155,2,following,68,77,11306,11315,6,78.0,81.0,11316.0,11319.0,,,,,verb.motion,224,direct_object,Momotaro,58,186,244,male,1.0,primary
+158,0,asked,0,5,11365,11370,6,6.0,14.0,11371.0,11379.0,,,,,verb.communication,229,direct_object,Momotaro,58,186,244,male,1.0,primary
+159,0,pushing,5,12,11385,11392,6,13.0,18.0,11393.0,11398.0,,,,,verb.motion,230,direct_object,Momotaro,58,186,244,male,1.0,primary
+159,1,spoke,31,36,11411,11416,90,37.0,50.0,11417.0,11430.0,,,,,verb.communication,231,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+160,2,replied,39,46,11486,11493,90,47.0,57.0,11494.0,11504.0,,,,,verb.communication,233,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+161,0,heard,3,8,11509,11514,90,9.0,27.0,11515.0,11533.0,,,,,verb.cognition,232,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+162,1,please,13,19,11604,11610,6,20.0,22.0,11611.0,11613.0,23.0,46.0,11614.0,11637.0,verb.emotion,236,direct_object,Momotaro,58,186,244,male,1.0,primary
+162,2,follow,36,42,11627,11633,90,43.0,46.0,11634.0,11637.0,,,,,verb.motion,238,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+163,1,wish,15,19,11655,11659,6,20.0,67.0,11660.0,11707.0,,,,,verb.emotion,237,direct_object,Momotaro,58,186,244,male,1.0,primary
+163,3,fight,54,59,11694,11699,6,60.0,67.0,11700.0,11707.0,,,,,verb.competition,239,direct_object,Momotaro,58,186,244,male,1.0,primary
+164,0,replied,12,19,11722,11729,90,20.0,30.0,11730.0,11740.0,,,,,verb.communication,240,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+165,0,admire,3,9,11745,11751,90,10.0,22.0,11752.0,11764.0,,,,,verb.emotion,241,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+165,1,said,25,29,11767,11771,6,30.0,38.0,11772.0,11780.0,,,,,verb.communication,242,direct_object,Momotaro,58,186,244,male,1.0,primary
+168,0,joined,14,20,11856,11862,6,21.0,29.0,11863.0,11871.0,,,,,verb.contact,243,direct_object,Momotaro,58,186,244,male,1.0,primary
+171,0,made,5,9,12027,12031,6,10.0,29.0,12032.0,12051.0,,,,,verb.change,244,direct_object,Momotaro,58,186,244,male,1.0,primary
+171,3,placed,127,133,12149,12155,6,134.0,141.0,12156.0,12163.0,,,,,verb.contact,248,direct_object,Momotaro,58,186,244,male,1.0,primary
+181,0,went,9,13,12798,12802,101,17.0,38.0,12806.0,12827.0,,,,,verb.motion,252,direct_object,the two combatants,1,0,1,unknown,0.0,tertiary
+181,2,said,66,70,12855,12859,102,71.0,82.0,12860.0,12871.0,,,,,verb.communication,255,direct_object,the bird,2,14,16,male,1.0,tertiary
+181,2,said,66,70,12855,12859,252,71.0,82.0,12860.0,12871.0,,,,,verb.communication,255,direct_object,the bird's rascal,1,0,1,unknown,0.0,tertiary
+182,1,hindering,8,17,12894,12903,6,18.0,28.0,12904.0,12914.0,,,,,verb.social,254,direct_object,Momotaro,58,186,244,male,1.0,primary
+183,2,take,30,34,12946,12950,102,35.0,38.0,12951.0,12954.0,,,,,verb.motion,256,direct_object,the bird,2,14,16,male,1.0,tertiary
+183,2,take,30,34,12946,12950,6,35.0,38.0,12951.0,12954.0,,,,,verb.motion,256,direct_object,Momotaro,58,186,244,male,1.0,primary
+184,3,bite,36,40,13000,13004,102,41.0,50.0,13005.0,13014.0,51.0,54.0,13015.0,13018.0,verb.contact,258,direct_object,the bird,2,14,16,male,1.0,tertiary
+185,1,begged,39,45,13060,13066,6,46.0,81.0,13067.0,13102.0,,,,,verb.communication,260,direct_object,Momotaro,58,186,244,male,1.0,primary
+185,3,taken,52,57,13073,13078,6,58.0,81.0,13079.0,13102.0,,,,,verb.motion,261,direct_object,Momotaro,58,186,244,male,1.0,primary
+186,1,know,10,14,13114,13118,102,15.0,77.0,13119.0,13181.0,,,,,verb.cognition,263,direct_object,the bird,2,14,16,male,1.0,tertiary
+186,1,know,10,14,13114,13118,253,15.0,77.0,13119.0,13181.0,,,,,verb.cognition,263,direct_object,the bird's servant,1,0,1,unknown,0.0,tertiary
+186,5,see,93,96,13197,13200,102,97.0,100.0,13201.0,13204.0,,,,,verb.perception,262,direct_object,the bird,2,14,16,male,1.0,tertiary
+188,1,pardon,30,36,13277,13283,6,37.0,48.0,13284.0,13295.0,,,,,verb.communication,264,direct_object,Momotaro,58,186,244,male,1.0,primary
+188,2,take,56,60,13303,13307,6,61.0,63.0,13308.0,13310.0,64.0,72.0,,,verb.motion,265,direct_object,Momotaro,58,186,244,male,1.0,primary
+189,0,allow,7,12,13328,13333,102,13.0,59.0,13334.0,13380.0,,,,,verb.social,266,direct_object,the bird,2,14,16,male,1.0,tertiary
+189,0,allow,7,12,13328,13333,6,13.0,59.0,13334.0,13380.0,,,,,verb.social,266,direct_object,Momotaro,58,186,244,male,1.0,primary
+189,1,follow,19,25,13340,13346,102,26.0,29.0,13347.0,13350.0,,,,,verb.motion,267,direct_object,the bird,2,14,16,male,1.0,tertiary
+190,0,congratulate,3,15,13386,13398,102,16.0,19.0,13399.0,13402.0,36.0,43.0,13419.0,13426.0,verb.communication,268,direct_object,the bird,2,14,16,male,1.0,tertiary
+190,2,said,46,50,13429,13433,6,51.0,59.0,13434.0,13442.0,61.0,68.0,13444.0,13451.0,verb.communication,269,direct_object,Momotaro,58,186,244,male,1.0,primary
+195,1,hear,11,15,13634,13638,6,16.0,27.0,13639.0,13650.0,,,,,verb.cognition,270,direct_object,Momotaro,58,186,244,male,1.0,primary
+196,0,take,2,6,13654,13658,6,7.0,15.0,13659.0,13667.0,24.0,41.0,13676.0,13693.0,verb.possession,273,direct_object,Momotaro,58,186,244,male,1.0,primary
+199,3,listen,62,68,13781,13787,6,69.0,74.0,13788.0,13793.0,,,,,verb.perception,279,direct_object,Momotaro,58,186,244,male,1.0,primary
+203,2,subdue,66,72,14060,14066,259,73.0,81.0,14067.0,14075.0,,,,,verb.social,278,direct_object,an enemy,1,0,1,unknown,0.0,tertiary
+207,1,made,21,25,14295,14299,105,26.0,54.0,14300.0,14328.0,,,,,verb.change,283,direct_object,a member of Momotaro 's suite,1,0,1,unknown,0.0,tertiary
+207,1,made,21,25,14295,14299,6,26.0,54.0,14300.0,14328.0,,,,,verb.change,283,direct_object,Momotaro,58,186,244,male,1.0,primary
+208,2,hurried,74,81,14430,14437,107,90.0,98.0,14446.0,14454.0,,,,,verb.motion,285,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+208,2,hurried,74,81,14430,14437,109,90.0,98.0,14446.0,14454.0,,,,,verb.motion,285,direct_object,the three's leader,1,0,1,unknown,0.0,tertiary
+208,2,hurried,74,81,14430,14437,6,90.0,98.0,14446.0,14454.0,,,,,verb.motion,285,direct_object,Momotaro,58,186,244,male,1.0,primary
+212,7,gazed,231,236,14944,14949,116,237.0,250.0,14950.0,14963.0,251.0,261.0,14964.0,14974.0,verb.perception,286,direct_object,each other,2,0,2,unknown,0.0,tertiary
+213,2,get,37,40,15013,15016,1,41.0,64.0,15017.0,15040.0,,,,,verb.motion,288,direct_object,Devils,1,0,1,unknown,0.0,tertiary
+214,0,saw,14,17,15056,15059,107,18.0,131.0,15060.0,15173.0,,,,,verb.cognition,290,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+214,0,saw,14,17,15056,15059,6,18.0,131.0,15060.0,15173.0,,,,,verb.cognition,290,direct_object,Momotaro,58,186,244,male,1.0,primary
+214,3,try,73,76,15115,15118,107,77.0,109.0,15119.0,15151.0,,,,,verb.social,291,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+214,3,try,73,76,15115,15118,6,77.0,109.0,15119.0,15151.0,,,,,verb.social,291,direct_object,Momotaro,58,186,244,male,1.0,primary
+220,0,discharge,2,11,15353,15362,107,12.0,19.0,15363.0,15370.0,20.0,27.0,15371.0,15378.0,verb.social,293,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+221,2,begging,90,97,15471,15478,107,98.0,101.0,15479.0,15482.0,,,,,verb.communication,295,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+221,2,begging,90,97,15471,15478,6,98.0,101.0,15479.0,15482.0,,,,,verb.communication,295,direct_object,Momotaro,58,186,244,male,1.0,primary
+221,3,send,109,113,15490,15494,107,114.0,118.0,15495.0,15499.0,119.0,123.0,15500.0,15504.0,verb.motion,297,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+225,0,said,0,4,15565,15569,90,5.0,15.0,15570.0,15580.0,,,,,verb.communication,299,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+226,1,leave,18,23,15600,15605,107,24.0,26.0,15606.0,15608.0,27.0,31.0,,,verb.motion,298,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+228,1,said,39,43,15674,15678,90,44.0,54.0,15679.0,15689.0,55.0,60.0,15690.0,15695.0,verb.communication,300,direct_object,the monkey,8,7,15,unknown,0.0,tertiary
+229,1,take,11,15,15708,15712,107,16.0,18.0,15713.0,15715.0,19.0,27.0,,,verb.motion,301,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+229,2,said,30,34,15727,15731,122,35.0,47.0,15732.0,15744.0,,,,,verb.communication,303,direct_object,the pheasant,2,5,7,male,1.0,tertiary
+231,2,said,50,54,15823,15827,107,57.0,108.0,15830.0,15881.0,,,,,verb.communication,304,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+231,2,said,50,54,15823,15827,6,57.0,108.0,15830.0,15881.0,,,,,verb.communication,304,direct_object,Momotaro,58,186,244,male,1.0,primary
+231,4,take,76,80,15849,15853,107,81.0,84.0,15854.0,15857.0,,,,,verb.motion,306,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+231,4,take,76,80,15849,15853,6,81.0,84.0,15854.0,15857.0,,,,,verb.motion,306,direct_object,Momotaro,58,186,244,male,1.0,primary
+235,0,paced,15,20,16280,16285,107,21.0,50.0,16286.0,16315.0,52.0,94.0,16317.0,16359.0,verb.motion,309,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+236,1,told,35,39,16396,16400,107,40.0,50.0,16401.0,16411.0,,,,,verb.communication,311,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+236,1,told,35,39,16396,16400,116,40.0,50.0,16401.0,16411.0,,,,,verb.communication,311,direct_object,each other,2,0,2,unknown,0.0,tertiary
+237,0,found,14,19,16513,16518,107,20.0,97.0,16519.0,16596.0,,,,,verb.cognition,313,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+237,0,found,14,19,16513,16518,6,20.0,97.0,16519.0,16596.0,,,,,verb.cognition,313,direct_object,Momotaro,58,186,244,male,1.0,primary
+237,1,amuse,28,33,16527,16532,6,34.0,37.0,16533.0,16536.0,,,,,verb.emotion,314,direct_object,Momotaro,58,186,244,male,1.0,primary
+237,3,watching,76,84,16575,16583,107,85.0,97.0,16584.0,16596.0,,,,,verb.perception,315,direct_object,the three,1,32,33,group/nonbinary,1.0,tertiary
+237,4,forgot,118,124,16617,16623,6,125.0,203.0,16624.0,16702.0,,,,,verb.cognition,317,direct_object,Momotaro,58,186,244,male,1.0,primary
+238,0,longed,3,9,16707,16713,133,10.0,85.0,16714.0,16789.0,,,,,verb.emotion,318,direct_object,Momotaro's monsters who had done so much harm in his country,1,0,1,unknown,0.0,tertiary
+238,0,longed,3,9,16707,16713,6,10.0,85.0,16714.0,16789.0,,,,,verb.emotion,318,direct_object,Momotaro,58,186,244,male,1.0,primary
+238,2,killing,24,31,16728,16735,133,32.0,85.0,16736.0,16789.0,,,,,verb.contact,319,direct_object,Momotaro's monsters who had done so much harm in his country,1,0,1,unknown,0.0,tertiary
+238,2,killing,24,31,16728,16735,6,32.0,85.0,16736.0,16789.0,,,,,verb.contact,319,direct_object,Momotaro,58,186,244,male,1.0,primary
+239,5,rewarded,147,155,16938,16946,136,156.0,184.0,16947.0,16975.0,,,,,verb.communication,321,direct_object,the four watchers at the bow,1,4,5,group/nonbinary,1.0,tertiary
+240,0,knew,9,13,16986,16990,136,22.0,67.0,16999.0,17044.0,,,,,verb.cognition,323,direct_object,the four watchers at the bow,1,4,5,group/nonbinary,1.0,tertiary
+242,2,leaning,80,87,17203,17210,6,88.0,100.0,17211.0,17223.0,,,,,verb.motion,324,direct_object,Momotaro,58,186,244,male,1.0,primary
+242,3,wondering,102,111,17225,17234,6,112.0,142.0,17235.0,17265.0,,,,,verb.cognition,325,direct_object,Momotaro,58,186,244,male,1.0,primary
+243,0,watched,20,27,17287,17294,6,28.0,31.0,17295.0,17298.0,33.0,51.0,17300.0,17318.0,verb.social,326,direct_object,Momotaro,58,186,244,male,1.0,primary
+244,0,called,11,17,17331,17337,122,18.0,33.0,17338.0,17353.0,,,,,verb.communication,329,direct_object,the pheasant,2,5,7,male,1.0,tertiary
+244,2,have,70,74,17390,17394,122,75.0,78.0,17395.0,17398.0,79.0,86.0,17399.0,17406.0,verb.possession,328,direct_object,the pheasant,2,5,7,male,1.0,tertiary
+245,0,said,0,4,17409,17413,6,5.0,13.0,17414.0,17422.0,41.0,51.0,,,verb.communication,331,direct_object,Momotaro,58,186,244,male,1.0,primary
+247,1,follow,8,14,17528,17534,122,15.0,18.0,17535.0,17538.0,,,,,verb.motion,333,direct_object,the pheasant,2,5,7,male,1.0,tertiary
+250,3,listen,135,141,17770,17776,102,142.0,147.0,17777.0,17782.0,,,,,verb.perception,335,direct_object,the bird,2,14,16,male,1.0,tertiary
+251,2,fight,48,53,17832,17837,266,54.0,57.0,17838.0,17841.0,,,,,verb.competition,336,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+251,3,take,65,69,17849,17853,266,70.0,85.0,17854.0,17869.0,,,,,verb.possession,337,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+252,0,wish,7,11,17887,17891,266,12.0,48.0,17892.0,17928.0,,,,,verb.emotion,338,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+252,1,save,15,19,17895,17899,266,20.0,40.0,17900.0,17920.0,41.0,48.0,17921.0,17928.0,verb.possession,339,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+253,5,kill,112,116,18131,18135,266,117.0,124.0,18136.0,18143.0,125.0,159.0,18144.0,18178.0,verb.contact,341,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+253,7,tearing,139,146,18158,18165,266,147.0,150.0,18166.0,18169.0,151.0,159.0,18170.0,18178.0,verb.contact,342,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+254,3,said,69,73,18250,18254,270,76.0,99.0,18257.0,18280.0,,,,,verb.communication,344,direct_object,A wild pheasant,1,0,1,unknown,0.0,tertiary
+255,1,hear,20,24,18302,18306,271,25.0,62.0,18307.0,18344.0,,,,,verb.perception,343,direct_object,All you devils's you devils's mean thing like you,1,0,1,unknown,0.0,tertiary
+255,1,hear,20,24,18302,18306,266,25.0,62.0,18307.0,18344.0,,,,,verb.perception,343,direct_object,All you devils's you devils,1,15,16,unknown,0.0,tertiary
+258,0,shook,5,10,18441,18446,73,11.0,51.0,18447.0,18487.0,52.0,60.0,18488.0,18496.0,verb.contact,345,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+258,3,make,106,110,18542,18546,73,111.0,140.0,18547.0,18576.0,,,,,verb.change,348,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+259,2,perched,68,75,18646,18653,73,76.0,92.0,18654.0,18670.0,,,,,verb.contact,350,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+260,2,attacked,59,67,18760,18768,151,68.0,112.0,18769.0,18813.0,,,,,verb.competition,354,direct_object,another demon,1,0,1,unknown,0.0,tertiary
+261,3,began,106,111,18921,18926,73,112.0,170.0,18927.0,18985.0,,,,,verb.change,355,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+261,4,wonder,115,121,18930,18936,73,122.0,170.0,18937.0,18985.0,,,,,verb.communication,357,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+262,1,brought,30,37,19017,19024,6,38.0,46.0,19025.0,19033.0,,,,,verb.motion,358,direct_object,Momotaro,58,186,244,male,1.0,primary
+266,0,saw,9,12,19435,19438,157,13.0,131.0,19439.0,19557.0,,,,,verb.cognition,365,direct_object,the two maidens,1,4,5,female,1.0,tertiary
+266,5,falling,101,108,19527,19534,157,114.0,131.0,19540.0,19557.0,,,,,verb.motion,363,direct_object,the two maidens,1,4,5,female,1.0,tertiary
+267,1,spoke,15,20,19574,19579,157,21.0,28.0,19580.0,19587.0,,,,,verb.communication,369,direct_object,the two maidens,1,4,5,female,1.0,tertiary
+269,4,obliged,111,118,19772,19779,278,119.0,137.0,19780.0,19798.0,,,,,verb.communication,370,direct_object,the Demon King's servants,1,0,1,unknown,0.0,tertiary
+269,4,obliged,111,118,19772,19779,273,119.0,137.0,19780.0,19798.0,,,,,verb.communication,370,direct_object,the Demon King,1,2,3,male,1.0,tertiary
+269,10,eat,225,228,19886,19889,73,229.0,231.0,19890.0,19892.0,,,,,verb.consumption,372,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+269,12,help,256,260,19917,19921,73,261.0,263.0,19922.0,19924.0,,,,,verb.social,373,direct_object,the devils,4,19,23,group/nonbinary,1.0,tertiary
+271,1,rescue,8,14,19994,20000,158,15.0,18.0,20001.0,20004.0,,,,,verb.social,374,direct_object,the maidens,1,2,3,female,1.0,tertiary
+271,2,said,21,25,20007,20011,6,26.0,34.0,20012.0,20020.0,,,,,verb.communication,375,direct_object,Momotaro,58,186,244,male,1.0,primary
+272,2,show,28,32,20050,20054,6,33.0,35.0,20055.0,20057.0,,,,,verb.communication,376,direct_object,Momotaro,58,186,244,male,1.0,primary
+273,1,showed,36,42,20126,20132,6,43.0,51.0,20133.0,20141.0,,,,,verb.perception,378,direct_object,Momotaro,58,186,244,male,1.0,primary
+274,2,saw,51,54,20297,20300,160,55.0,103.0,20301.0,20349.0,,,,,verb.perception,379,direct_object,Momotaro's little band,1,0,1,unknown,0.0,tertiary
+274,2,saw,51,54,20297,20300,6,55.0,103.0,20301.0,20349.0,,,,,verb.perception,379,direct_object,Momotaro,58,186,244,male,1.0,primary
+281,2,knew,41,45,20926,20930,171,46.0,89.0,20931.0,20974.0,,,,,verb.cognition,385,direct_object,Momotaro's enemy,1,0,1,unknown,0.0,tertiary
+281,2,knew,41,45,20926,20930,172,46.0,89.0,20931.0,20974.0,,,,,verb.cognition,385,direct_object,mortal man,1,0,1,male,1.0,tertiary
+281,2,knew,41,45,20926,20930,6,46.0,89.0,20931.0,20974.0,,,,,verb.cognition,385,direct_object,Momotaro,58,186,244,male,1.0,primary
+284,1,stand,10,15,21231,21236,6,16.0,27.0,21237.0,21248.0,,,,,verb.contact,386,direct_object,Momotaro,58,186,244,male,1.0,primary
+285,1,give,7,11,21257,21261,6,12.0,15.0,21262.0,21265.0,55.0,80.0,21305.0,21330.0,verb.possession,389,direct_object,Momotaro,58,186,244,male,1.0,primary
+285,4,spare,67,72,21317,21322,6,73.0,80.0,21323.0,21330.0,,,,,verb.social,388,direct_object,Momotaro,58,186,244,male,1.0,primary
+288,1,spare,9,14,21417,21422,6,15.0,31.0,21423.0,21439.0,55.0,137.0,21463.0,21545.0,verb.social,392,direct_object,Momotaro,58,186,244,male,1.0,primary
+288,4,killed,68,74,21476,21482,283,88.0,99.0,21496.0,21507.0,,,,,verb.contact,393,direct_object,many people,1,0,1,unknown,0.0,tertiary
+288,5,tortured,79,87,21487,21495,283,88.0,99.0,21496.0,21507.0,,,,,verb.social,396,direct_object,many people,1,0,1,unknown,0.0,tertiary
+289,0,tied,14,18,21562,21566,174,19.0,34.0,21567.0,21582.0,,,,,verb.contact,397,direct_object,the devil chief,2,1,3,male,1.0,tertiary
+289,1,gave,42,46,21590,21594,174,47.0,50.0,21595.0,21598.0,,,,,verb.possession,398,direct_object,the devil chief,2,1,3,male,1.0,tertiary
+290,1,done,7,11,21632,21636,6,12.0,16.0,21637.0,21641.0,,,,,verb.social,399,direct_object,Momotaro,58,186,244,male,1.0,primary
+290,3,set,63,66,21688,21691,177,67.0,80.0,21692.0,21705.0,,,,,verb.contact,401,direct_object,the prisoners,1,0,1,unknown,0.0,tertiary
+291,1,returned,69,77,21829,21837,6,91.0,102.0,21851.0,21862.0,104.0,148.0,21864.0,21908.0,verb.motion,402,direct_object,Momotaro,58,186,244,male,1.0,primary
+291,2,taking,104,110,21864,21870,174,120.0,135.0,21880.0,21895.0,136.0,148.0,21896.0,21908.0,verb.social,403,direct_object,the devil chief,2,1,3,male,1.0,tertiary
+292,4,taken,116,121,22026,22031,181,129.0,147.0,22039.0,22057.0,,,,,verb.motion,404,direct_object,The two poor damsels,1,2,3,group/nonbinary,1.0,tertiary
+292,5,delivered,152,161,22062,22071,181,162.0,178.0,22072.0,22088.0,,,,,verb.motion,405,direct_object,The two poor damsels,1,2,3,group/nonbinary,1.0,tertiary
+292,5,delivered,152,161,22062,22071,187,162.0,178.0,22072.0,22088.0,,,,,verb.motion,405,direct_object,The two poor damsels's parents,1,0,1,unknown,0.0,tertiary
+293,0,made,18,22,22108,22112,189,23.0,41.0,22113.0,22131.0,42.0,66.0,22132.0,22156.0,verb.creation,406,direct_object,a hero of Momotaro,1,0,1,unknown,0.0,tertiary
+293,0,made,18,22,22108,22112,6,23.0,41.0,22113.0,22131.0,42.0,66.0,22132.0,22156.0,verb.creation,406,direct_object,Momotaro,58,186,244,male,1.0,primary
+293,1,rejoiced,72,80,22162,22170,191,81.0,184.0,22171.0,22274.0,,,,,verb.emotion,408,direct_object,the robber devils who had been a terror of the land,1,0,1,unknown,0.0,tertiary
+293,3,freed,106,111,22196,22201,191,112.0,184.0,22202.0,22274.0,,,,,verb.social,407,direct_object,the robber devils who had been a terror of the land,1,0,1,unknown,0.0,tertiary
+294,3,enabled,96,103,22372,22379,29,104.0,108.0,22380.0,22384.0,,,,,verb.social,410,direct_object,The old couple,3,8,11,group/nonbinary,1.0,tertiary

@@ -1,0 +1,101 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,found,12,17,175,180,3.0,4.0,11.0,167.0,174.0,,,,,verb.possession,0,subject,the hen,3.0,9.0,12.0,female,1.0,secondary
+1,1,said,39,43,202,206,3.0,4.0,11.0,167.0,174.0,,,,,verb.communication,1,subject,the hen,3.0,9.0,12.0,female,1.0,secondary
+1,4,eat,79,82,242,245,3.0,4.0,11.0,167.0,174.0,86.0,95.0,249.0,258.0,verb.consumption,2,subject,the hen,3.0,9.0,12.0,female,1.0,secondary
+1,7,swallow,150,157,313,320,3.0,136.0,139.0,299.0,302.0,,,,,verb.consumption,3,subject,the hen,3.0,9.0,12.0,female,1.0,secondary
+1,11,choke,229,234,392,397,3.0,218.0,221.0,381.0,384.0,,,,,verb.body,5,subject,the hen,3.0,9.0,12.0,female,1.0,secondary
+3,5,choke,71,76,478,483,3.0,63.0,64.0,470.0,471.0,,,,,verb.body,8,subject,the hen,3.0,9.0,12.0,female,1.0,secondary
+4,0,ran,12,15,498,501,7.0,3.0,11.0,489.0,497.0,39.0,48.0,525.0,534.0,verb.motion,9,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+4,2,said,54,58,540,544,7.0,3.0,11.0,489.0,497.0,,,,,verb.communication,10,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+4,3,give,68,72,554,558,1.0,61.0,66.0,547.0,552.0,,,,,verb.possession,12,subject,Brook,1.0,0.0,1.0,unknown,0.0,tertiary
+5,0,answered,14,22,654,662,8.0,4.0,13.0,644.0,653.0,,,,,verb.communication,13,subject,the brook,1.0,2.0,3.0,male,1.0,tertiary
+6,1,said,33,37,753,757,7.0,3.0,11.0,723.0,731.0,,,,,verb.communication,16,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+6,2,give,47,51,767,771,2.0,40.0,45.0,760.0,765.0,,,,,verb.possession,18,subject,Bride,1.0,0.0,1.0,unknown,0.0,tertiary
+7,1,give,23,27,812,816,7.0,17.0,19.0,806.0,808.0,,,,,verb.possession,19,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+8,0,want,3,7,838,842,7.0,1.0,2.0,836.0,837.0,,,,,verb.emotion,20,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+8,1,give,15,19,850,854,8.0,8.0,11.0,843.0,846.0,,,,,verb.possession,23,subject,the brook,1.0,2.0,3.0,male,1.0,tertiary
+9,0,answered,14,22,953,961,38.0,4.0,13.0,943.0,952.0,,,,,verb.communication,24,subject,the bride,5.0,4.0,9.0,female,1.0,tertiary
+10,0,ran,13,16,1035,1038,7.0,4.0,12.0,1026.0,1034.0,,,,,verb.motion,26,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+10,1,pulled,35,41,1057,1063,7.0,4.0,12.0,1026.0,1034.0,,,,,verb.contact,27,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+10,2,brought,73,80,1095,1102,7.0,4.0,12.0,1026.0,1034.0,,,,,verb.contact,28,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+10,3,gave,112,116,1134,1138,38.0,102.0,111.0,1124.0,1133.0,,,,,verb.possession,29,subject,the bride,5.0,4.0,9.0,female,1.0,tertiary
+10,4,brought,138,145,1160,1167,7.0,135.0,137.0,1157.0,1159.0,,,,,verb.contact,30,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+11,0,brought,17,24,1232,1239,7.0,8.0,16.0,1223.0,1231.0,,,,,verb.motion,32,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+13,1,cried,36,41,1382,1387,7.0,33.0,35.0,1379.0,1381.0,,,,,verb.communication,33,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+14,0,built,14,19,1458,1463,21.0,5.0,13.0,1449.0,1457.0,,,,,verb.creation,34,subject,six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+14,3,harnessed,109,118,1553,1562,21.0,104.0,108.0,1548.0,1552.0,130.0,135.0,1574.0,1579.0,verb.consumption,35,subject,six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+15,0,met,16,19,1617,1620,21.0,11.0,15.0,1612.0,1616.0,,,,,verb.motion,36,subject,six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+16,0,cried,16,21,1646,1651,40.0,1.0,13.0,1631.0,1643.0,,,,,verb.communication,37,subject,cock,1.0,1.0,2.0,unknown,0.0,tertiary
+17,1,answered,18,26,1698,1706,7.0,1.0,3.0,1681.0,1683.0,,,,,verb.communication,38,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+18,1,come,7,11,1724,1728,24.0,5.0,6.0,1722.0,1723.0,,,,,verb.motion,40,subject,the fox,2.0,2.0,4.0,unknown,0.0,tertiary
+20,0,follow,13,19,1762,1768,24.0,9.0,12.0,1758.0,1761.0,,,,,verb.motion,41,subject,the fox,2.0,2.0,4.0,unknown,0.0,tertiary
+20,1,said,29,33,1778,1782,24.0,1.0,26.0,1750.0,1775.0,,,,,verb.communication,43,subject,the fox,2.0,2.0,4.0,unknown,0.0,tertiary
+22,1,came,37,41,1955,1959,21.0,32.0,36.0,1950.0,1954.0,,,,,verb.motion,44,subject,six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+25,1,said,43,47,2055,2059,7.0,40.0,42.0,2052.0,2054.0,,,,,verb.communication,45,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+25,3,lay,57,60,2069,2072,7.0,50.0,51.0,2062.0,2063.0,68.0,107.0,2080.0,2119.0,verb.contact,46,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+26,1,got,26,29,2148,2151,32.0,9.0,21.0,2131.0,2143.0,,,,,verb.motion,47,subject,the six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+26,4,tumbled,103,110,2225,2232,32.0,94.0,102.0,2216.0,2224.0,,,,,verb.motion,48,subject,the six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+26,6,drowned,123,130,2245,2252,32.0,94.0,102.0,2216.0,2224.0,,,,,verb.contact,49,subject,the six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+27,4,lay,73,76,2327,2330,7.0,64.0,66.0,2318.0,2320.0,85.0,91.0,2339.0,2345.0,verb.contact,51,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+28,1,touched,22,29,2397,2404,7.0,19.0,21.0,2394.0,2396.0,,,,,verb.contact,52,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+28,2,hissed,48,54,2423,2429,7.0,45.0,47.0,2420.0,2422.0,,,,,verb.communication,53,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+29,5,laid,77,81,2532,2536,7.0,74.0,76.0,2529.0,2531.0,,,,,verb.contact,55,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+30,0,drew,13,17,2577,2581,7.0,4.0,12.0,2568.0,2576.0,47.0,59.0,2611.0,2623.0,verb.contact,56,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+30,1,began,88,93,2652,2657,7.0,4.0,12.0,2568.0,2576.0,,,,,verb.change,57,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+30,2,draw,97,101,2661,2665,7.0,4.0,12.0,2568.0,2576.0,,,,,verb.communication,58,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+30,6,tumbled,206,213,2770,2777,36.0,174.0,177.0,2738.0,2741.0,229.0,254.0,2793.0,2818.0,verb.motion,59,subject,,,,,,,
+30,8,drowned,265,272,2829,2836,36.0,174.0,177.0,2738.0,2741.0,,,,,verb.social,60,subject,,,,,,,
+31,2,digged,57,63,2895,2901,7.0,54.0,56.0,2892.0,2894.0,,,,,verb.contact,61,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+31,3,laid,76,80,2914,2918,7.0,54.0,56.0,2892.0,2894.0,,,,,verb.contact,62,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+31,4,raised,99,105,2937,2943,7.0,96.0,98.0,2934.0,2936.0,,,,,verb.contact,63,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+31,5,sat,129,132,2967,2970,7.0,96.0,98.0,2934.0,2936.0,,,,,verb.contact,64,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+31,6,lamented,150,158,2988,2996,7.0,96.0,98.0,2934.0,2936.0,,,,,verb.communication,65,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+31,7,died,183,187,3021,3025,7.0,180.0,182.0,3018.0,3020.0,,,,,verb.change,66,subject,the cock,9.0,29.0,38.0,male,1.0,primary
+1,8,stuck,174,179,337,342,3.0,180.0,193.0,343.0,356.0,195.0,234.0,358.0,397.0,verb.contact,4,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+3,0,cried,0,5,407,412,3.0,6.0,9.0,413.0,416.0,,,,,verb.communication,6,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+3,3,fetch,39,44,446,451,3.0,45.0,47.0,452.0,454.0,,,,,verb.contact,7,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+4,2,said,54,58,540,544,7.0,61.0,151.0,547.0,637.0,,,,,verb.communication,10,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+4,2,said,54,58,540,544,1.0,61.0,151.0,547.0,637.0,,,,,verb.communication,10,direct_object,Brook,1.0,0.0,1.0,unknown,0.0,tertiary
+4,2,said,54,58,540,544,3.0,61.0,151.0,547.0,637.0,,,,,verb.communication,10,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+4,3,give,68,72,554,558,7.0,73.0,75.0,559.0,561.0,,,,,verb.possession,12,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+4,6,stuck,132,137,618,623,3.0,138.0,151.0,624.0,637.0,,,,,verb.change,11,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+5,0,answered,14,22,654,662,38.0,25.0,77.0,665.0,717.0,,,,,verb.communication,13,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+5,1,run,31,34,671,674,38.0,35.0,47.0,675.0,687.0,,,,,verb.motion,14,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+5,2,ask,52,55,692,695,38.0,56.0,59.0,696.0,699.0,,,,,verb.communication,15,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+6,1,said,33,37,753,757,2.0,40.0,68.0,760.0,788.0,,,,,verb.communication,16,direct_object,Bride,1.0,0.0,1.0,unknown,0.0,tertiary
+6,1,said,33,37,753,757,7.0,40.0,68.0,760.0,788.0,,,,,verb.communication,16,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+6,2,give,47,51,767,771,7.0,52.0,54.0,772.0,774.0,,,,,verb.possession,18,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+7,0,wants,11,16,800,805,8.0,17.0,45.0,806.0,834.0,,,,,verb.emotion,17,direct_object,the brook,1.0,2.0,3.0,male,1.0,tertiary
+7,0,wants,11,16,800,805,7.0,17.0,45.0,806.0,834.0,,,,,verb.emotion,17,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+7,1,give,23,27,812,816,8.0,28.0,31.0,817.0,820.0,,,,,verb.possession,19,direct_object,the brook,1.0,2.0,3.0,male,1.0,tertiary
+8,0,want,3,7,838,842,38.0,8.0,101.0,843.0,936.0,,,,,verb.emotion,20,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+8,0,want,3,7,838,842,8.0,8.0,101.0,843.0,936.0,,,,,verb.emotion,20,direct_object,the brook,1.0,2.0,3.0,male,1.0,tertiary
+8,0,want,3,7,838,842,7.0,8.0,101.0,843.0,936.0,,,,,verb.emotion,20,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+8,1,give,15,19,850,854,7.0,20.0,22.0,855.0,857.0,,,,,verb.possession,23,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+8,4,choking,59,66,894,901,38.0,67.0,101.0,902.0,936.0,,,,,verb.contact,22,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+8,5,stuck,82,87,917,922,38.0,88.0,101.0,923.0,936.0,,,,,verb.contact,21,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+9,0,answered,14,22,953,961,38.0,25.0,80.0,964.0,1019.0,,,,,verb.communication,24,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+9,2,fetch,38,43,977,982,38.0,44.0,46.0,983.0,985.0,,,,,verb.possession,25,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+10,2,brought,73,80,1095,1102,38.0,81.0,83.0,1103.0,1105.0,,,,,verb.contact,28,direct_object,the bride,5.0,4.0,9.0,female,1.0,tertiary
+10,3,gave,112,116,1134,1138,7.0,117.0,120.0,1139.0,1142.0,,,,,verb.possession,29,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+10,5,gave,177,181,1199,1203,7.0,182.0,185.0,1204.0,1207.0,,,,,verb.possession,31,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+11,0,brought,17,24,1232,1239,3.0,25.0,34.0,1240.0,1249.0,,,,,verb.motion,32,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+14,0,built,14,19,1458,1463,21.0,20.0,155.0,1464.0,1599.0,,,,,verb.creation,34,direct_object,six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+14,0,built,14,19,1458,1463,3.0,20.0,155.0,1464.0,1599.0,,,,,verb.creation,34,direct_object,the hen,3.0,9.0,12.0,female,1.0,secondary
+14,3,harnessed,109,118,1553,1562,21.0,119.0,129.0,1563.0,1573.0,130.0,135.0,1574.0,1579.0,verb.consumption,35,direct_object,six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+16,0,cried,16,21,1646,1651,7.0,22.0,24.0,1652.0,1654.0,,,,,verb.communication,37,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+17,0,bury,4,8,1684,1688,7.0,9.0,15.0,1689.0,1695.0,,,,,verb.contact,39,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+17,1,answered,18,26,1698,1706,7.0,27.0,35.0,1707.0,1715.0,,,,,verb.communication,38,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+19,0,said,0,4,1735,1739,24.0,5.0,12.0,1740.0,1747.0,,,,,verb.communication,42,direct_object,the fox,2.0,2.0,4.0,unknown,0.0,tertiary
+20,1,said,29,33,1778,1782,7.0,34.0,42.0,1783.0,1791.0,,,,,verb.communication,43,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+25,1,said,43,47,2055,2059,32.0,50.0,107.0,2062.0,2119.0,,,,,verb.communication,45,direct_object,the six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+25,1,said,43,47,2055,2059,7.0,50.0,107.0,2062.0,2119.0,,,,,verb.communication,45,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+25,3,lay,57,60,2069,2072,7.0,61.0,67.0,2073.0,2079.0,68.0,107.0,2080.0,2119.0,verb.contact,46,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+27,2,said,59,63,2313,2317,32.0,64.0,120.0,2318.0,2374.0,,,,,verb.communication,50,direct_object,the six mice,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+27,2,said,59,63,2313,2317,7.0,64.0,120.0,2318.0,2374.0,,,,,verb.communication,50,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+27,4,lay,73,76,2327,2330,7.0,77.0,84.0,2331.0,2338.0,85.0,91.0,2339.0,2345.0,verb.contact,51,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+28,1,touched,22,29,2397,2404,7.0,30.0,54.0,2405.0,2429.0,,,,,verb.contact,52,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+29,3,wishing,48,55,2503,2510,7.0,56.0,72.0,2511.0,2527.0,,,,,verb.cognition,54,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+29,5,laid,77,81,2532,2536,7.0,82.0,89.0,2537.0,2544.0,,,,,verb.contact,55,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+31,5,sat,129,132,2967,2970,7.0,133.0,140.0,2971.0,2978.0,,,,,verb.contact,64,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary
+31,6,lamented,150,158,2988,2996,7.0,167.0,187.0,3005.0,3025.0,,,,,verb.communication,65,direct_object,the cock,9.0,29.0,38.0,male,1.0,primary

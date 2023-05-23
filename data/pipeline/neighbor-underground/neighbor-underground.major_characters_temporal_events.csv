@@ -1,0 +1,60 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,lost,62,66,143,147,0,5.0,7.0,86.0,88.0,,,,,verb.possession,True,0,subject,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+2,3,bought,62,68,233,239,0,59.0,61.0,230.0,232.0,,,,,verb.possession,True,1,subject,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+3,2,met,53,56,393,396,0,50.0,52.0,390.0,392.0,,,,,verb.motion,True,2,subject,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+6,1,thought,33,40,473,480,9,31.0,32.0,471.0,472.0,,,,,verb.cognition,True,3,subject,the peasant,8,59,67,male,1.0,primary
+8,2,said,40,44,572,576,9,1.0,37.0,533.0,569.0,,,,,verb.communication,True,6,subject,the peasant,8,59,67,male,1.0,primary
+8,2,said,40,44,572,576,8,1.0,37.0,533.0,569.0,,,,,verb.communication,True,6,subject,the man,3,5,8,male,1.0,tertiary
+11,0,knew,8,12,736,740,0,5.0,7.0,733.0,735.0,,,,,verb.cognition,True,7,subject,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+12,1,invited,25,32,824,831,0,5.0,7.0,804.0,806.0,46.0,48.0,845.0,847.0,verb.communication,True,8,subject,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+14,3,said,32,36,1025,1029,9,1.0,29.0,994.0,1022.0,,,,,verb.communication,True,10,subject,the peasant,8,59,67,male,1.0,primary
+15,1,shift,10,15,1053,1058,8,1.0,4.0,1044.0,1047.0,33.0,56.0,1076.0,1099.0,verb.motion,True,11,subject,the man,3,5,8,male,1.0,tertiary
+16,2,said,24,28,1162,1166,9,1.0,21.0,1139.0,1159.0,,,,,verb.communication,True,13,subject,the peasant,8,59,67,male,1.0,primary
+17,0,put,3,6,1183,1186,9,1.0,2.0,1181.0,1182.0,13.0,29.0,1193.0,1209.0,verb.contact,True,12,subject,the peasant,8,59,67,male,1.0,primary
+18,1,do,13,15,1253,1255,9,0.0,4.0,1240.0,1244.0,31.0,35.0,1271.0,1275.0,verb.social,True,15,subject,the peasant,8,59,67,male,1.0,primary
+19,1,choose,17,23,1295,1301,9,13.0,16.0,1291.0,1294.0,,,,,verb.cognition,True,14,subject,the peasant,8,59,67,male,1.0,primary
+20,5,said,62,66,1364,1368,9,1.0,59.0,1303.0,1361.0,,,,,verb.communication,True,16,subject,the peasant,8,59,67,male,1.0,primary
+21,0,went,17,21,1400,1404,9,14.0,16.0,1397.0,1399.0,,,,,verb.motion,True,17,subject,the peasant,8,59,67,male,1.0,primary
+22,2,know,47,51,1461,1465,9,0.0,11.0,1414.0,1425.0,,,,,verb.cognition,True,18,subject,the peasant,8,59,67,male,1.0,primary
+24,2,sank,45,49,1675,1679,9,42.0,44.0,1672.0,1674.0,,,,,verb.motion,True,21,subject,the peasant,8,59,67,male,1.0,primary
+25,1,come,41,45,1741,1745,9,15.0,24.0,1715.0,1724.0,,,,,verb.motion,True,20,subject,the peasant,8,59,67,male,1.0,primary
+27,3,bade,65,69,1903,1907,9,5.0,48.0,1843.0,1886.0,,,,,verb.communication,True,22,subject,the peasant,8,59,67,male,1.0,primary
+27,3,bade,65,69,1903,1907,14,5.0,48.0,1843.0,1886.0,,,,,verb.communication,True,22,subject,a peasant who lived in Telemarken's neighbor,5,0,5,unknown,0.0,tertiary
+27,3,bade,65,69,1903,1907,25,5.0,48.0,1843.0,1886.0,,,,,verb.communication,True,22,subject,the man who had called himself his neighbor's man who had called himself his neighbor,1,1,2,male,1.0,tertiary
+28,5,eat,137,140,2059,2062,9,105.0,108.0,2027.0,2030.0,,,,,verb.consumption,True,24,subject,the peasant,8,59,67,male,1.0,primary
+29,2,refuse,25,31,2089,2095,9,0.0,11.0,2064.0,2075.0,,,,,verb.possession,True,23,subject,the peasant,8,59,67,male,1.0,primary
+30,1,dip,29,32,2152,2155,9,13.0,15.0,2136.0,2138.0,,,,,verb.contact,True,25,subject,the peasant,8,59,67,male,1.0,primary
+33,6,grow,143,147,2639,2643,9,135.0,138.0,2631.0,2634.0,,,,,verb.change,True,27,subject,the peasant,8,59,67,male,1.0,primary
+34,2,know,28,32,2679,2683,9,18.0,21.0,2669.0,2672.0,,,,,verb.cognition,True,28,subject,the peasant,8,59,67,male,1.0,primary
+35,1,went,32,36,2759,2763,9,29.0,31.0,2756.0,2758.0,51.0,111.0,2778.0,2838.0,verb.motion,True,29,subject,the peasant,8,59,67,male,1.0,primary
+36,2,worked,22,28,2862,2868,9,4.0,6.0,2844.0,2846.0,,,,,verb.social,True,30,subject,the peasant,8,59,67,male,1.0,primary
+37,1,regret,11,17,3031,3037,9,8.0,10.0,3028.0,3030.0,21.0,62.0,3041.0,3082.0,verb.emotion,True,31,subject,the peasant,8,59,67,male,1.0,primary
+38,5,slaughtering,92,104,3202,3214,9,62.0,64.0,3172.0,3174.0,,,,,verb.social,True,32,subject,the peasant,8,59,67,male,1.0,primary
+40,2,told,21,25,3369,3373,34,0.0,3.0,3348.0,3351.0,,,,,verb.communication,True,33,subject,the milk - maid,1,1,2,unknown,0.0,tertiary
+41,0,thought,7,14,3394,3401,9,4.0,6.0,3391.0,3393.0,,,,,verb.cognition,True,34,subject,the peasant,8,59,67,male,1.0,primary
+43,4,followed,136,144,3658,3666,9,132.0,135.0,3654.0,3657.0,,,,,verb.motion,True,35,subject,the peasant,8,59,67,male,1.0,primary
+1,1,lost,62,66,143,147,0,67.0,88.0,148.0,169.0,,,,,verb.possession,True,0,direct_object,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+3,2,met,53,56,393,396,7,57.0,62.0,397.0,402.0,,,,,verb.motion,True,2,direct_object,a man,1,1,2,male,1.0,tertiary
+5,0,said,0,4,426,430,8,5.0,12.0,431.0,438.0,,,,,verb.communication,True,4,direct_object,the man,3,5,8,male,1.0,tertiary
+6,1,thought,33,40,473,480,9,41.0,61.0,481.0,501.0,,,,,verb.cognition,True,3,direct_object,the peasant,8,59,67,male,1.0,primary
+8,2,said,40,44,572,576,8,45.0,52.0,577.0,584.0,,,,,verb.communication,True,6,direct_object,the man,3,5,8,male,1.0,tertiary
+10,0,lay,10,13,627,630,0,14.0,109.0,631.0,726.0,,,,,verb.contact,True,5,direct_object,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+11,0,knew,8,12,736,740,13,23.0,70.0,751.0,798.0,,,,,verb.cognition,True,7,direct_object,the underground people,1,0,1,unknown,0.0,tertiary
+11,0,knew,8,12,736,740,12,23.0,70.0,751.0,798.0,,,,,verb.cognition,True,7,direct_object,one of the underground people,1,0,1,unknown,0.0,tertiary
+12,1,invited,25,32,824,831,0,33.0,45.0,832.0,844.0,46.0,48.0,845.0,847.0,verb.communication,True,8,direct_object,a peasant who lived in Telemarken,1,14,15,male,1.0,tertiary
+12,1,invited,25,32,824,831,14,33.0,45.0,832.0,844.0,46.0,48.0,845.0,847.0,verb.communication,True,8,direct_object,a peasant who lived in Telemarken's neighbor,5,0,5,unknown,0.0,tertiary
+13,1,said,10,14,922,926,15,15.0,27.0,927.0,939.0,,,,,verb.communication,True,9,direct_object,the neighbor,3,1,4,unknown,0.0,tertiary
+14,3,said,32,36,1025,1029,9,37.0,48.0,1030.0,1041.0,,,,,verb.communication,True,10,direct_object,the peasant,8,59,67,male,1.0,primary
+15,1,shift,10,15,1053,1058,9,16.0,31.0,1059.0,1074.0,33.0,56.0,1076.0,1099.0,verb.motion,True,11,direct_object,the peasant,8,59,67,male,1.0,primary
+16,2,said,24,28,1162,1166,9,29.0,40.0,1167.0,1178.0,,,,,verb.communication,True,13,direct_object,the peasant,8,59,67,male,1.0,primary
+18,1,do,13,15,1253,1255,9,16.0,30.0,1256.0,1270.0,31.0,35.0,1271.0,1275.0,verb.social,True,15,direct_object,the peasant,8,59,67,male,1.0,primary
+20,5,said,62,66,1364,1368,9,67.0,79.0,1369.0,1381.0,,,,,verb.communication,True,16,direct_object,the peasant,8,59,67,male,1.0,primary
+20,5,said,62,66,1364,1368,14,67.0,79.0,1369.0,1381.0,,,,,verb.communication,True,16,direct_object,a peasant who lived in Telemarken's neighbor,5,0,5,unknown,0.0,tertiary
+23,1,start,34,39,1512,1517,9,43.0,66.0,1521.0,1544.0,67.0,80.0,,,verb.change,True,19,direct_object,the peasant,8,59,67,male,1.0,primary
+27,3,bade,65,69,1903,1907,9,70.0,73.0,1908.0,1911.0,,,,,verb.communication,True,22,direct_object,the peasant,8,59,67,male,1.0,primary
+30,1,dip,29,32,2152,2155,9,33.0,42.0,2156.0,2165.0,,,,,verb.contact,True,25,direct_object,the peasant,8,59,67,male,1.0,primary
+31,4,like,56,60,2313,2317,9,61.0,72.0,2318.0,2329.0,,,,,verb.emotion,True,26,direct_object,the peasant,8,59,67,male,1.0,primary
+38,5,slaughtering,92,104,3202,3214,9,105.0,118.0,3215.0,3228.0,,,,,verb.social,True,32,direct_object,the peasant,8,59,67,male,1.0,primary
+40,2,told,21,25,3369,3373,9,26.0,37.0,3374.0,3385.0,,,,,verb.communication,True,33,direct_object,the peasant,8,59,67,male,1.0,primary
+41,0,thought,7,14,3394,3401,9,27.0,106.0,3414.0,3493.0,,,,,verb.cognition,True,34,direct_object,the peasant,8,59,67,male,1.0,primary
+41,0,thought,7,14,3394,3401,14,27.0,106.0,3414.0,3493.0,,,,,verb.cognition,True,34,direct_object,a peasant who lived in Telemarken's neighbor,5,0,5,unknown,0.0,tertiary

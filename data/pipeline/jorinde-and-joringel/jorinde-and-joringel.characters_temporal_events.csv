@@ -1,0 +1,128 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,changed,20,27,152,159,5,16.0,19.0,148.0,151.0,,,,,verb.change,0,subject,an old woman quite alone,1,8,9,female,1.0,tertiary
+1,1,became,86,92,218,224,5,82.0,85.0,214.0,217.0,116.0,121.0,248.0,253.0,verb.change,1,subject,an old woman quite alone,1,8,9,female,1.0,tertiary
+2,1,entice,10,16,265,271,5,0.0,3.0,255.0,258.0,,,,,verb.emotion,2,subject,an old woman quite alone,1,8,9,female,1.0,tertiary
+2,4,kill,70,74,325,329,5,60.0,63.0,315.0,318.0,,,,,verb.contact,4,subject,an old woman quite alone,1,8,9,female,1.0,tertiary
+2,5,cook,79,83,334,338,5,60.0,63.0,315.0,318.0,,,,,verb.contact,6,subject,an old woman quite alone,1,8,9,female,1.0,tertiary
+3,0,came,13,17,358,362,9,3.0,12.0,348.0,357.0,,,,,verb.motion,5,subject,any youth,1,2,3,male,1.0,tertiary
+3,2,obliged,63,70,408,415,9,56.0,58.0,401.0,403.0,,,,,verb.communication,7,subject,any youth,1,2,3,male,1.0,tertiary
+3,5,stir,101,105,446,450,9,56.0,58.0,401.0,403.0,120.0,141.0,465.0,486.0,verb.body,8,subject,any youth,1,2,3,male,1.0,tertiary
+3,6,set,129,132,474,477,5,125.0,128.0,470.0,473.0,137.0,141.0,482.0,486.0,verb.contact,10,subject,an old woman quite alone,1,8,9,female,1.0,tertiary
+4,0,came,22,26,509,513,11,8.0,21.0,495.0,508.0,,,,,verb.motion,9,subject,a pretty girl,1,2,3,female,1.0,tertiary
+4,1,changed,69,76,556,563,12,49.0,68.0,536.0,555.0,81.0,92.0,568.0,579.0,verb.change,11,subject,the old enchantress,1,2,3,female,1.0,tertiary
+4,2,shut,98,102,585,589,12,49.0,68.0,536.0,555.0,,,,,verb.contact,13,subject,the old enchantress,1,2,3,female,1.0,tertiary
+5,0,had,4,7,668,671,12,0.0,3.0,664.0,667.0,,,,,verb.possession,12,subject,the old enchantress,1,2,3,female,1.0,tertiary
+7,5,betrothed,78,87,917,926,1,0.0,71.0,839.0,910.0,,,,,verb.social,15,subject,Joringel,9,52,61,male,1.0,primary
+7,5,betrothed,78,87,917,926,18,0.0,71.0,839.0,910.0,,,,,verb.social,15,subject,"a youth named Joringel , who was just as good - looking as she was",1,0,1,unknown,0.0,tertiary
+7,5,betrothed,78,87,917,926,0,0.0,71.0,839.0,910.0,,,,,verb.social,15,subject,Jorinde,6,8,14,female,1.0,tertiary
+12,0,wept,8,12,1332,1336,0,0.0,7.0,1324.0,1331.0,,,,,verb.body,17,subject,Jorinde,6,8,14,female,1.0,tertiary
+12,1,sat,40,43,1364,1367,0,36.0,39.0,1360.0,1363.0,57.0,85.0,1381.0,1409.0,verb.body,18,subject,Jorinde,6,8,14,female,1.0,tertiary
+12,2,lamented,77,85,1401,1409,0,36.0,39.0,1360.0,1363.0,,,,,verb.communication,19,subject,Jorinde,6,8,14,female,1.0,tertiary
+12,3,lamented,100,108,1424,1432,1,91.0,99.0,1415.0,1423.0,,,,,verb.communication,20,subject,Joringel,9,52,61,male,1.0,primary
+15,2,looked,79,85,1661,1667,1,70.0,78.0,1652.0,1660.0,,,,,verb.perception,21,subject,Joringel,9,52,61,male,1.0,primary
+15,3,saw,108,111,1690,1693,1,70.0,78.0,1652.0,1660.0,,,,,verb.perception,22,subject,Joringel,9,52,61,male,1.0,primary
+17,0,sang,8,12,1790,1794,0,0.0,7.0,1782.0,1789.0,,,,,verb.communication,23,subject,Jorinde,6,8,14,female,1.0,tertiary
+18,0,sings,4,9,1864,1869,1,1.0,3.0,1861.0,1863.0,,,,,verb.communication,24,subject,Joringel,9,52,61,male,1.0,primary
+19,0,looked,9,15,1946,1952,1,0.0,8.0,1937.0,1945.0,,,,,verb.perception,26,subject,Joringel,9,52,61,male,1.0,primary
+20,2,changed,13,20,1981,1988,0,0.0,3.0,1968.0,1971.0,,,,,verb.change,25,subject,Jorinde,6,8,14,female,1.0,tertiary
+21,1,flew,30,34,2067,2071,26,0.0,29.0,2037.0,2066.0,,,,,verb.motion,28,subject,A night - owl with glowing eyes,1,0,1,unknown,0.0,tertiary
+21,3,screeched,62,71,2099,2108,26,0.0,29.0,2037.0,2066.0,,,,,verb.communication,29,subject,A night - owl with glowing eyes,1,0,1,unknown,0.0,tertiary
+22,1,stir,19,23,2169,2173,1,0.0,8.0,2150.0,2158.0,,,,,verb.motion,31,subject,Joringel,9,52,61,male,1.0,primary
+23,0,stood,4,9,2178,2183,1,1.0,3.0,2175.0,2177.0,16.0,28.0,2190.0,2202.0,verb.contact,30,subject,Joringel,9,52,61,male,1.0,primary
+24,1,weep,14,18,2217,2221,1,1.0,3.0,2204.0,2206.0,,,,,verb.body,32,subject,Joringel,9,52,61,male,1.0,primary
+24,2,speak,23,28,2226,2231,1,1.0,3.0,2204.0,2206.0,,,,,verb.communication,33,subject,Joringel,9,52,61,male,1.0,primary
+24,3,move,33,37,2236,2240,1,1.0,3.0,2204.0,2206.0,,,,,verb.motion,34,subject,Joringel,9,52,61,male,1.0,primary
+28,0,muttered,4,12,2448,2456,27,0.0,3.0,2444.0,2447.0,,,,,verb.communication,36,subject,"an old , bent woman",1,5,6,female,1.0,tertiary
+28,1,caught,25,31,2469,2475,27,0.0,3.0,2444.0,2447.0,,,,,verb.contact,37,subject,"an old , bent woman",1,5,6,female,1.0,tertiary
+28,2,carried,53,60,2497,2504,27,0.0,3.0,2444.0,2447.0,65.0,81.0,2509.0,2525.0,verb.contact,38,subject,"an old , bent woman",1,5,6,female,1.0,tertiary
+29,1,say,15,18,2542,2545,1,0.0,8.0,2527.0,2535.0,,,,,verb.communication,40,subject,Joringel,9,52,61,male,1.0,primary
+30,1,move,14,18,2568,2572,1,1.0,3.0,2555.0,2557.0,,,,,verb.motion,39,subject,Joringel,9,52,61,male,1.0,primary
+31,1,said,39,43,2657,2661,30,8.0,17.0,2626.0,2635.0,,,,,verb.communication,42,subject,the woman,1,0,1,female,1.0,tertiary
+32,2,freed,51,56,2754,2759,2,43.0,46.0,2746.0,2749.0,,,,,verb.social,41,subject,Zachiel,2,1,3,unknown,0.0,tertiary
+34,0,fell,3,7,2804,2808,1,0.0,2.0,2801.0,2803.0,,,,,verb.contact,43,subject,Joringel,9,52,61,male,1.0,primary
+34,1,implored,46,54,2847,2855,1,0.0,2.0,2801.0,2803.0,,,,,verb.communication,44,subject,Joringel,9,52,61,male,1.0,primary
+34,2,give,62,66,2863,2867,31,55.0,58.0,2856.0,2859.0,71.0,87.0,2872.0,2888.0,verb.possession,46,subject,the old woman,2,4,6,female,1.0,tertiary
+34,3,said,97,101,2898,2902,31,93.0,96.0,2894.0,2897.0,,,,,verb.communication,45,subject,the old woman,2,4,6,female,1.0,tertiary
+34,5,have,118,122,2919,2923,1,102.0,104.0,2903.0,2905.0,127.0,132.0,2928.0,2933.0,verb.possession,47,subject,Joringel,9,52,61,male,1.0,primary
+35,0,called,3,9,2958,2964,1,0.0,2.0,2955.0,2957.0,,,,,verb.communication,48,subject,Joringel,9,52,61,male,1.0,primary
+35,1,wept,24,28,2979,2983,1,21.0,23.0,2976.0,2978.0,,,,,verb.communication,49,subject,Joringel,9,52,61,male,1.0,primary
+35,2,lamented,33,41,2988,2996,1,21.0,23.0,2976.0,2978.0,,,,,verb.communication,50,subject,Joringel,9,52,61,male,1.0,primary
+37,0,thought,3,10,3045,3052,1,0.0,2.0,3042.0,3044.0,,,,,verb.cognition,51,subject,Joringel,9,52,61,male,1.0,primary
+38,1,came,23,27,3077,3081,1,5.0,7.0,3059.0,3061.0,,,,,verb.motion,53,subject,Joringel,9,52,61,male,1.0,primary
+39,0,went,9,13,3158,3162,1,0.0,2.0,3149.0,3151.0,31.0,49.0,3180.0,3198.0,verb.motion,52,subject,Joringel,9,52,61,male,1.0,primary
+40,0,dreamt,11,17,3232,3238,1,8.0,10.0,3229.0,3231.0,,,,,verb.cognition,55,subject,Joringel,9,52,61,male,1.0,primary
+40,2,found,40,45,3261,3266,1,33.0,35.0,3254.0,3256.0,,,,,verb.possession,54,subject,Joringel,9,52,61,male,1.0,primary
+41,0,plucked,3,10,3339,3346,1,0.0,2.0,3336.0,3338.0,,,,,verb.contact,56,subject,Joringel,9,52,61,male,1.0,primary
+41,1,went,27,31,3363,3367,1,0.0,2.0,3336.0,3338.0,,,,,verb.motion,58,subject,Joringel,9,52,61,male,1.0,primary
+42,0,touched,31,38,3421,3428,1,28.0,30.0,3418.0,3420.0,,,,,verb.contact,57,subject,Joringel,9,52,61,male,1.0,primary
+42,3,got,94,97,3484,3487,1,91.0,93.0,3481.0,3483.0,110.0,131.0,3500.0,3521.0,verb.possession,59,subject,Joringel,9,52,61,male,1.0,primary
+43,0,awoke,8,13,3531,3536,1,5.0,7.0,3528.0,3530.0,,,,,verb.body,60,subject,Joringel,9,52,61,male,1.0,primary
+43,1,began,32,37,3555,3560,1,29.0,31.0,3552.0,3554.0,,,,,verb.change,61,subject,Joringel,9,52,61,male,1.0,primary
+43,2,seek,41,45,3564,3568,1,29.0,31.0,3552.0,3554.0,66.0,87.0,3589.0,3610.0,verb.contact,62,subject,Joringel,9,52,61,male,1.0,primary
+43,3,find,69,73,3592,3596,1,29.0,31.0,3552.0,3554.0,,,,,verb.possession,63,subject,Joringel,9,52,61,male,1.0,primary
+44,0,sought,3,9,3615,3621,1,0.0,2.0,3612.0,3614.0,13.0,27.0,3625.0,3639.0,verb.contact,64,subject,Joringel,9,52,61,male,1.0,primary
+44,1,found,70,75,3682,3687,1,67.0,69.0,3679.0,3681.0,,,,,verb.perception,65,subject,Joringel,9,52,61,male,1.0,primary
+46,0,travelled,3,12,3782,3791,1,0.0,2.0,3779.0,3781.0,44.0,73.0,3823.0,3852.0,verb.motion,66,subject,Joringel,9,52,61,male,1.0,primary
+46,1,arrived,52,59,3831,3838,1,49.0,51.0,3828.0,3830.0,,,,,verb.motion,67,subject,Joringel,9,52,61,male,1.0,primary
+47,0,came,8,12,3862,3866,1,5.0,7.0,3859.0,3861.0,,,,,verb.motion,68,subject,Joringel,9,52,61,male,1.0,primary
+47,4,move,73,77,3927,3931,1,42.0,44.0,3896.0,3898.0,,,,,verb.motion,69,subject,Joringel,9,52,61,male,1.0,primary
+47,6,reached,102,109,3956,3963,1,99.0,101.0,3953.0,3955.0,,,,,verb.motion,70,subject,Joringel,9,52,61,male,1.0,primary
+48,1,touched,33,40,4007,4014,1,0.0,2.0,3974.0,3976.0,,,,,verb.contact,71,subject,Joringel,9,52,61,male,1.0,primary
+49,0,entered,3,10,4070,4077,1,0.0,2.0,4067.0,4069.0,,,,,verb.motion,72,subject,Joringel,9,52,61,male,1.0,primary
+49,3,listen,62,68,4129,4135,1,0.0,2.0,4067.0,4069.0,,,,,verb.perception,73,subject,Joringel,9,52,61,male,1.0,primary
+50,0,heard,12,17,4177,4182,1,9.0,11.0,4174.0,4176.0,,,,,verb.perception,74,subject,Joringel,9,52,61,male,1.0,primary
+51,1,found,15,20,4202,4207,1,0.0,2.0,4187.0,4189.0,,,,,verb.possession,75,subject,Joringel,9,52,61,male,1.0,primary
+52,0,saw,9,12,4313,4316,41,5.0,8.0,4309.0,4312.0,,,,,verb.perception,76,subject,the enchantress,1,5,6,female,1.0,tertiary
+52,4,move,98,102,4402,4406,41,84.0,87.0,4388.0,4391.0,,,,,verb.motion,77,subject,the enchantress,1,5,6,female,1.0,tertiary
+53,0,took,3,7,4430,4434,1,0.0,2.0,4427.0,4429.0,,,,,verb.perception,78,subject,Joringel,9,52,61,male,1.0,primary
+53,1,went,30,34,4457,4461,1,0.0,2.0,4427.0,4429.0,,,,,verb.motion,79,subject,Joringel,9,52,61,male,1.0,primary
+54,2,find,61,65,4558,4562,1,55.0,57.0,4552.0,4554.0,78.0,93.0,4575.0,4590.0,verb.possession,80,subject,Joringel,9,52,61,male,1.0,primary
+55,1,considering,14,25,4606,4617,1,7.0,9.0,4599.0,4601.0,,,,,verb.cognition,81,subject,Joringel,9,52,61,male,1.0,primary
+55,2,observed,30,38,4622,4630,1,27.0,29.0,4619.0,4621.0,,,,,verb.perception,82,subject,Joringel,9,52,61,male,1.0,primary
+56,0,sprang,13,19,4715,4721,1,0.0,9.0,4702.0,4711.0,,,,,verb.motion,83,subject,Joringel,9,52,61,male,1.0,primary
+56,1,touched,31,38,4733,4740,1,0.0,12.0,4702.0,4714.0,,,,,verb.contact,85,subject,Joringel,9,52,61,male,1.0,primary
+57,1,work,24,28,4818,4822,44,4.0,7.0,4798.0,4801.0,,,,,verb.social,84,subject,the old witch,1,2,3,female,1.0,tertiary
+58,0,turned,8,14,4941,4947,1,5.0,7.0,4938.0,4940.0,35.0,53.0,4968.0,4986.0,verb.motion,87,subject,Joringel,9,52,61,male,1.0,primary
+1,0,changed,20,27,152,159,5,28.0,35.0,160.0,167.0,,,,,verb.change,0,direct_object,an old woman quite alone,1,8,9,female,1.0,tertiary
+1,1,became,86,92,218,224,7,93.0,115.0,225.0,247.0,116.0,121.0,248.0,253.0,verb.change,1,direct_object,an ordinary woman,1,0,1,female,1.0,tertiary
+2,1,entice,10,16,265,271,5,17.0,34.0,272.0,289.0,,,,,verb.emotion,2,direct_object,an old woman quite alone,1,8,9,female,1.0,tertiary
+2,2,come,38,42,293,297,5,43.0,49.0,298.0,304.0,,,,,verb.motion,3,direct_object,an old woman quite alone,1,8,9,female,1.0,tertiary
+3,6,set,129,132,474,477,9,133.0,136.0,478.0,481.0,137.0,141.0,482.0,486.0,verb.contact,10,direct_object,any youth,1,2,3,male,1.0,tertiary
+4,1,changed,69,76,556,563,11,77.0,80.0,564.0,567.0,81.0,92.0,568.0,579.0,verb.change,11,direct_object,a pretty girl,1,2,3,female,1.0,tertiary
+4,2,shut,98,102,585,589,11,103.0,106.0,590.0,593.0,,,,,verb.contact,13,direct_object,a pretty girl,1,2,3,female,1.0,tertiary
+4,2,shut,98,102,585,589,12,103.0,106.0,590.0,593.0,,,,,verb.contact,13,direct_object,the old enchantress,1,2,3,female,1.0,tertiary
+6,1,called,29,35,780,786,0,36.0,43.0,787.0,794.0,,,,,verb.communication,14,direct_object,Jorinde,6,8,14,female,1.0,tertiary
+7,0,named,16,21,855,860,1,22.0,30.0,861.0,869.0,,,,,verb.communication,16,direct_object,Joringel,9,52,61,male,1.0,primary
+7,5,betrothed,78,87,917,926,19,88.0,102.0,927.0,941.0,,,,,verb.social,15,direct_object,one another,1,0,1,unknown,0.0,tertiary
+12,1,sat,40,43,1364,1367,0,44.0,51.0,1368.0,1375.0,57.0,85.0,1381.0,1409.0,verb.body,18,direct_object,Jorinde,6,8,14,female,1.0,tertiary
+17,0,sang,8,12,1790,1794,0,15.0,77.0,1797.0,1859.0,,,,,verb.communication,23,direct_object,Jorinde,6,8,14,female,1.0,tertiary
+19,0,looked,9,15,1946,1952,0,19.0,29.0,1956.0,1966.0,,,,,verb.perception,26,direct_object,Jorinde,6,8,14,female,1.0,tertiary
+20,2,changed,13,20,1981,1988,51,21.0,66.0,1989.0,2034.0,,,,,verb.change,25,direct_object,jug,1,0,1,unknown,0.0,tertiary
+20,4,singing,49,56,2017,2024,51,58.0,66.0,2026.0,2034.0,,,,,verb.communication,27,direct_object,jug,1,0,1,unknown,0.0,tertiary
+27,2,met,82,85,2430,2433,27,86.0,94.0,2434.0,2442.0,,,,,verb.motion,35,direct_object,"an old , bent woman",1,5,6,female,1.0,tertiary
+28,1,caught,25,31,2469,2475,28,32.0,47.0,2476.0,2491.0,,,,,verb.contact,37,direct_object,the nightingale,2,1,3,female,1.0,tertiary
+28,2,carried,53,60,2497,2504,28,61.0,64.0,2505.0,2508.0,65.0,81.0,2509.0,2525.0,verb.contact,38,direct_object,the nightingale,2,1,3,female,1.0,tertiary
+31,1,said,39,43,2657,2661,2,63.0,84.0,2681.0,2702.0,,,,,verb.communication,42,direct_object,Zachiel,2,1,3,unknown,0.0,tertiary
+34,1,implored,46,54,2847,2855,1,55.0,58.0,2856.0,2859.0,,,,,verb.communication,44,direct_object,Joringel,9,52,61,male,1.0,primary
+34,1,implored,46,54,2847,2855,31,55.0,58.0,2856.0,2859.0,,,,,verb.communication,44,direct_object,the old woman,2,4,6,female,1.0,tertiary
+34,2,give,62,66,2863,2867,1,67.0,70.0,2868.0,2871.0,71.0,87.0,2872.0,2888.0,verb.possession,46,direct_object,Joringel,9,52,61,male,1.0,primary
+34,3,said,97,101,2898,2902,1,102.0,132.0,2903.0,2933.0,,,,,verb.communication,45,direct_object,Joringel,9,52,61,male,1.0,primary
+34,3,said,97,101,2898,2902,31,102.0,132.0,2903.0,2933.0,,,,,verb.communication,45,direct_object,the old woman,2,4,6,female,1.0,tertiary
+34,5,have,118,122,2919,2923,31,123.0,126.0,2924.0,2927.0,127.0,132.0,2928.0,2933.0,verb.possession,47,direct_object,the old woman,2,4,6,female,1.0,tertiary
+35,0,called,3,9,2958,2964,1,10.0,19.0,2965.0,2974.0,,,,,verb.communication,48,direct_object,Joringel,9,52,61,male,1.0,primary
+35,0,called,3,9,2958,2964,31,10.0,19.0,2965.0,2974.0,,,,,verb.communication,48,direct_object,the old woman,2,4,6,female,1.0,tertiary
+38,1,came,23,27,3077,3081,1,36.0,93.0,3090.0,3147.0,,,,,verb.motion,53,direct_object,Joringel,9,52,61,male,1.0,primary
+40,0,dreamt,11,17,3232,3238,1,28.0,113.0,3249.0,3334.0,,,,,verb.cognition,55,direct_object,Joringel,9,52,61,male,1.0,primary
+42,3,got,94,97,3484,3487,1,98.0,109.0,3488.0,3499.0,110.0,131.0,3500.0,3521.0,verb.possession,59,direct_object,Joringel,9,52,61,male,1.0,primary
+42,3,got,94,97,3484,3487,0,98.0,109.0,3488.0,3499.0,110.0,131.0,3500.0,3521.0,verb.possession,59,direct_object,Jorinde,6,8,14,female,1.0,tertiary
+51,1,found,15,20,4202,4207,41,21.0,115.0,4208.0,4302.0,,,,,verb.possession,75,direct_object,the enchantress,1,5,6,female,1.0,tertiary
+52,0,saw,9,12,4313,4316,1,13.0,21.0,4317.0,4325.0,,,,,verb.perception,76,direct_object,Joringel,9,52,61,male,1.0,primary
+52,4,move,98,102,4402,4406,1,103.0,121.0,4407.0,4425.0,,,,,verb.motion,77,direct_object,Joringel,9,52,61,male,1.0,primary
+53,0,took,3,7,4430,4434,41,8.0,24.0,4435.0,4451.0,,,,,verb.perception,78,direct_object,the enchantress,1,5,6,female,1.0,tertiary
+54,2,find,61,65,4558,4562,1,66.0,77.0,4563.0,4574.0,78.0,93.0,4575.0,4590.0,verb.possession,80,direct_object,Joringel,9,52,61,male,1.0,primary
+54,2,find,61,65,4558,4562,43,66.0,77.0,4563.0,4574.0,78.0,93.0,4575.0,4590.0,verb.possession,80,direct_object,Joringel's Jorinde,2,0,2,unknown,0.0,tertiary
+55,1,considering,14,25,4606,4617,1,27.0,83.0,4619.0,4675.0,,,,,verb.cognition,81,direct_object,Joringel,9,52,61,male,1.0,primary
+55,1,considering,14,25,4606,4617,44,27.0,83.0,4619.0,4675.0,,,,,verb.cognition,81,direct_object,the old witch,1,2,3,female,1.0,tertiary
+55,2,observed,30,38,4622,4630,44,39.0,108.0,4631.0,4700.0,,,,,verb.perception,82,direct_object,the old witch,1,2,3,female,1.0,tertiary
+56,0,sprang,13,19,4715,4721,44,20.0,29.0,4722.0,4731.0,,,,,verb.motion,83,direct_object,the old witch,1,2,3,female,1.0,tertiary
+57,2,stood,53,58,4847,4852,0,59.0,66.0,4853.0,4860.0,67.0,137.0,,,verb.contact,86,direct_object,Jorinde,6,8,14,female,1.0,tertiary

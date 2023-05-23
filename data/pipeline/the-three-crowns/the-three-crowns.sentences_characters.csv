@@ -1,0 +1,489 @@
+coref_id,character_name,character_token,sentence_id,start_byte_in_sentence,end_byte_in_sentence,overlap
+5,a king,a king,0,15,21,0
+6,three daughters,three daughters,0,30,45,0
+7,the two eldest,the two eldest,91,53,67,0
+7,the two eldest,their,91,72,77,1
+7,the two eldest,they,92,10,14,0
+7,the two eldest,The two eldest,1,0,14,0
+8,the youngest,the youngest,15,17,29,0
+8,the youngest,her,135,97,100,0
+8,the youngest,her,135,112,115,1
+8,the youngest,her,136,71,74,1
+8,the youngest,her,145,80,83,0
+8,the youngest,the youngest,145,62,74,0
+8,the youngest,your,14,24,28,1
+8,the youngest,you,15,97,100,0
+8,the youngest,the youngest,135,64,76,0
+8,the youngest,The youngest,139,0,12,0
+8,the youngest,You,15,0,3,0
+8,the youngest,the youngest,2,124,136,0
+8,the youngest,your,14,5,9,1
+8,the youngest,the youngest,109,86,98,0
+8,the youngest,her,10,78,81,0
+8,the youngest,I,9,25,26,0
+8,the youngest,the youngest,1,52,64,0
+8,the youngest,they,1,80,84,0
+8,the youngest,the youngest,9,10,22,0
+8,the youngest,I,9,68,69,0
+8,the youngest,you,15,46,49,0
+8,the youngest,her,10,43,46,1
+8,the youngest,them,2,34,38,0
+8,the youngest,your,15,61,65,1
+8,the youngest,her,10,25,28,0
+9,three princes,three princes,2,6,19,0
+9,three princes,they,3,8,12,0
+9,three princes,they,6,47,51,0
+9,three princes,they,6,5,9,0
+9,three princes,they,3,85,89,0
+9,three princes,them,2,51,55,1
+10,two of them,two of them,2,44,55,0
+11,the eldest ladies,the eldest ladies,137,34,51,1
+11,the eldest ladies,the eldest ladies,2,74,91,0
+14,a poor beggar,him,4,23,26,0
+14,a poor beggar,him,4,77,80,0
+14,a poor beggar,a poor beggar,3,94,107,0
+14,a poor beggar,him,5,54,57,0
+15,the king,the king,180,1,9,0
+15,the king,I,181,0,1,0
+15,the king,he,182,71,73,0
+15,the king,his,182,138,141,0
+15,the king,he,183,13,15,0
+15,the king,the king,187,37,45,0
+15,the king,himself,187,46,53,0
+15,the king,his,187,95,98,1
+15,the king,he,179,13,15,0
+15,the king,his,188,87,90,0
+15,the king,he,188,11,13,0
+15,the king,his,188,66,69,0
+15,the king,he,177,27,29,0
+15,the king,the king,189,46,54,0
+15,the king,he,176,26,28,0
+15,the king,he,176,5,7,0
+15,the king,he,175,49,51,0
+15,the king,he,175,28,30,0
+15,the king,He,175,0,2,0
+15,the king,my,174,89,91,0
+15,the king,the king,174,13,21,0
+15,the king,your,168,8,12,1
+15,the king,he,165,35,37,0
+15,the king,the king,165,12,20,0
+15,the king,the king,144,3,11,0
+15,the king,he,188,111,113,0
+15,the king,the king,137,100,108,0
+15,the king,him,176,79,82,0
+15,the king,he,189,62,64,0
+15,the king,I,190,21,22,0
+15,the king,he,194,19,21,0
+15,the king,himself,198,116,123,0
+15,the king,he,198,55,57,0
+15,the king,himself,198,38,45,0
+15,the king,his,198,14,17,0
+15,the king,he,198,3,5,0
+15,the king,he,196,23,25,0
+15,the king,he,200,15,17,0
+15,the king,him,195,223,226,0
+15,the king,the king,195,137,145,0
+15,the king,his,199,100,103,0
+15,the king,he,193,10,12,0
+15,the king,I,191,0,1,0
+15,the king,I,200,20,21,0
+15,the king,he,190,16,18,0
+15,the king,my,200,60,62,0
+15,the king,The king,4,0,8,0
+15,the king,My,190,1,3,1
+15,the king,his,189,86,89,0
+15,the king,he,199,90,92,0
+16,the eldest princesses,the eldest princesses,4,41,62,0
+16,the eldest princesses,their,4,95,100,1
+17,their sweethearts,their sweethearts,4,95,112,0
+18,the youngest daughter,the youngest daughter,5,5,26,0
+18,the youngest daughter,her,5,31,34,1
+19,her true love,her true love,5,31,44,0
+24,the eldest,him,28,20,23,0
+24,the eldest,the eldest,7,10,20,0
+24,the eldest,I,7,23,24,0
+24,the eldest,the eldest,27,26,36,0
+24,the eldest,him,28,74,77,0
+24,the eldest,he,28,32,34,0
+24,the eldest,him,29,25,28,0
+25,the second eldest,the second eldest,8,10,27,0
+25,the second eldest,I,8,30,31,0
+27,the others,the others,145,118,128,0
+27,the others,the others,10,4,14,0
+28,her father,him,10,159,162,0
+28,her father,her father,10,43,53,0
+28,her father,he,13,121,123,0
+28,her father,he,15,11,13,0
+30,a little man only seven inches high,a little man only seven inches high,10,110,145,0
+31,all the men,their,11,37,42,0
+31,all the men,they,12,46,50,0
+31,all the men,all the men,11,6,17,0
+31,all the men,their,11,22,27,0
+31,all the men,their,12,109,114,0
+34,the four men,them,19,129,133,0
+34,the four men,They,20,0,4,0
+34,the four men,them,13,127,131,0
+34,the four men,they,19,6,10,0
+34,the four men,they,18,5,9,0
+34,the four men,the four men,13,102,114,0
+148,your daughters,your daughters,14,5,19,0
+149,your brides,your brides,14,24,35,0
+150,your princess,your princess,15,61,74,0
+150,your princess,her,19,66,69,0
+150,your princess,she,15,105,108,0
+151,Bad people,they,16,15,19,0
+151,Bad people,Bad people,16,0,10,0
+36,the ladies,the ladies,141,20,30,0
+36,the ladies,their,18,47,52,0
+36,the ladies,the ladies,18,22,32,0
+152,the poor men,the poor men,19,79,91,0
+153,the three princesses,the three princesses,20,30,50,0
+153,the three princesses,them,20,80,84,0
+155,king,king,20,124,128,0
+156,princes,princes,20,133,140,0
+158,the last lady,the last lady,21,5,18,0
+159,the men,they,22,50,54,0
+159,the men,they,22,15,19,0
+159,the men,their,21,67,72,0
+159,the men,the men,21,37,44,0
+159,the men,they,28,3,7,0
+159,the men,they,30,32,36,0
+159,the men,they,28,65,69,0
+159,the men,they,29,6,10,0
+159,the men,they,29,112,116,0
+159,the men,They,30,0,4,0
+161,the youngest prince,the youngest prince,24,20,39,0
+161,the youngest prince,He,112,0,2,0
+161,the youngest prince,he,111,89,91,0
+161,the youngest prince,the youngest prince,111,31,50,0
+162,the second daughter,the second daughter,26,11,30,1
+163,the second daughter 's sweetheart,the second daughter's sweetheart,26,11,43,0
+164,the other,the other,27,9,18,0
+164,the other,my,184,52,54,0
+164,the other,me,184,38,40,0
+164,the other,the other,184,15,24,0
+164,the other,the other,178,12,21,0
+164,the other,my,123,53,55,0
+164,the other,I,121,76,77,0
+164,the other,the other,121,5,14,0
+164,the other,my,119,62,64,0
+164,the other,I,121,20,21,0
+164,the other,my,121,26,28,1
+165,Guards,Guards,31,0,6,0
+166,the second prince,the second prince,31,54,71,0
+167,the youngest of all,himself,31,114,121,0
+167,the youngest of all,he,40,66,68,0
+167,the youngest of all,he,38,3,5,0
+167,the youngest of all,him,38,67,70,0
+167,the youngest of all,he,36,34,36,0
+167,the youngest of all,he,34,4,6,0
+167,the youngest of all,He,32,0,2,0
+167,the youngest of all,He,40,0,2,0
+167,the youngest of all,him,32,61,64,0
+167,the youngest of all,the youngest of all,98,29,48,0
+167,the youngest of all,the youngest of all,31,90,109,0
+167,the youngest of all,he,32,71,73,0
+167,the youngest of all,he,33,8,10,0
+167,the youngest of all,he,33,55,57,0
+167,the youngest of all,him,38,82,85,0
+40,people,people,37,24,30,0
+178,the prince,you,106,87,90,0
+178,the prince,the prince,45,21,31,0
+178,the prince,The prince,50,0,10,0
+178,the prince,him,58,43,46,0
+178,the prince,your,107,24,28,0
+178,the prince,him,59,32,35,0
+178,the prince,you,205,37,40,0
+178,the prince,his,82,13,16,0
+178,the prince,the prince,207,62,72,0
+178,the prince,the prince,106,26,36,0
+178,the prince,his,207,152,155,1
+178,the prince,the prince,150,40,50,0
+178,the prince,the prince,60,49,59,0
+178,the prince,you,107,43,46,0
+178,the prince,his,82,60,63,0
+178,the prince,he,207,126,128,0
+178,the prince,the prince,158,189,199,0
+178,the prince,his,186,26,29,0
+178,the prince,The prince,186,0,10,0
+178,the prince,he,90,178,180,0
+178,the prince,the prince,90,43,53,0
+178,the prince,him,88,65,68,0
+178,the prince,the prince,81,4,14,0
+178,the prince,the prince,88,5,15,0
+178,the prince,him,207,101,104,0
+178,the prince,he,43,27,29,0
+178,the prince,he,57,34,36,0
+178,the prince,He,82,0,2,0
+178,the prince,he,43,53,55,0
+178,the prince,his,127,89,92,0
+178,the prince,his,127,67,70,0
+178,the prince,he,127,60,62,0
+178,the prince,him,127,22,25,0
+178,the prince,he,127,12,14,0
+178,the prince,the prince,78,57,67,0
+178,the prince,he,43,3,5,0
+178,the prince,his,126,137,140,1
+178,the prince,the prince,76,52,62,0
+178,the prince,he,126,38,40,0
+178,the prince,his,126,18,21,0
+178,the prince,he,126,8,10,0
+178,the prince,he,125,108,110,0
+178,the prince,his,125,80,83,0
+178,the prince,The prince,125,0,10,0
+178,the prince,he,126,76,78,0
+178,the prince,he,42,34,36,0
+178,the prince,the prince,131,26,36,0
+178,the prince,he,133,3,5,0
+178,the prince,he,57,22,24,0
+178,the prince,the prince,56,10,20,0
+178,the prince,your,204,6,10,1
+178,the prince,him,50,84,87,0
+178,the prince,you,203,29,32,0
+178,the prince,you,202,18,21,0
+178,the prince,You,201,1,4,0
+178,the prince,he,50,31,33,0
+178,the prince,himself,50,115,122,0
+178,the prince,him,198,94,97,0
+178,the prince,his,50,127,130,1
+178,the prince,the prince,198,65,75,0
+178,the prince,the prince,176,33,43,0
+178,the prince,he,51,5,7,0
+178,the prince,The prince,42,0,10,0
+178,the prince,him,52,69,72,0
+178,the prince,The prince,199,0,10,0
+1,Seven Inches,him,102,22,25,0
+1,Seven Inches,I,202,9,10,0
+1,Seven Inches,Seven Inches,201,26,38,0
+1,Seven Inches,Seven Inches,43,81,93,0
+1,Seven Inches,Seven Inches,50,66,78,0
+1,Seven Inches,Seven Inches,52,53,65,0
+1,Seven Inches,I,205,27,28,0
+1,Seven Inches,Seven Inches,206,3,15,0
+1,Seven Inches,he,99,10,12,0
+1,Seven Inches,He,96,0,2,0
+1,Seven Inches,he,94,25,27,0
+1,Seven Inches,Seven Inches,93,127,139,0
+1,Seven Inches,his,92,89,92,0
+1,Seven Inches,Seven Inches,92,45,57,0
+1,Seven Inches,I,101,103,104,0
+179,the youngest sister,the youngest sister,43,99,118,0
+180,prince,prince,44,6,12,0
+180,prince,you,124,52,55,0
+180,prince,you,123,44,47,0
+180,prince,prince,119,10,16,0
+180,prince,you,119,29,32,0
+180,prince,you,121,58,61,0
+180,prince,you,122,7,10,0
+180,prince,you,122,40,43,0
+180,prince,your,123,5,9,1
+181,princess,princess,44,17,25,0
+182,one another,one another,161,47,58,0
+182,one another,one another,44,36,47,0
+183,the little man,the little man,44,65,79,0
+183,the little man,he,44,86,88,0
+43,sir,sir,45,10,13,0
+44,The other princes,The other princes,46,1,18,0
+44,The other princes,them,47,9,13,1
+44,The other princes,they,47,87,91,0
+44,The other princes,they,48,20,24,0
+44,The other princes,they,49,6,10,0
+44,The other princes,them,47,82,86,0
+45,Each of them,Each of them,47,1,13,0
+187,his bride,his bride,207,152,161,0
+187,his bride,her,207,174,177,0
+187,his bride,his bride,50,127,136,0
+188,the stone men in the corner,the stone men in the corner,51,64,91,0
+47,the second princess,the second princess,58,11,30,0
+47,the second princess,the second princess,109,48,67,0
+47,the second princess,the second princess,52,152,171,0
+47,the second princess,she,59,23,26,0
+49,the eldest princess,the eldest princess,96,45,64,0
+49,the eldest princess,she,108,113,116,0
+49,the eldest princess,she,110,11,14,0
+49,the eldest princess,her,110,19,22,0
+49,the eldest princess,her,110,34,37,1
+49,the eldest princess,the eldest princess,108,55,74,0
+49,the eldest princess,the eldest princess,52,243,262,0
+51,their masters,their masters,54,26,39,0
+53,poor people,poor people,55,52,63,0
+55,the princess,she,64,14,17,0
+55,the princess,You,71,1,4,0
+55,the princess,she,67,28,31,0
+55,the princess,the princess,62,11,23,0
+55,the princess,you,69,11,14,0
+55,the princess,she,60,41,44,0
+55,the princess,she,60,4,7,0
+55,the princess,the princess,181,7,19,0
+55,the princess,I,62,45,46,0
+55,the princess,she,73,18,21,0
+55,the princess,she,76,43,46,0
+55,the princess,the princess,78,33,45,0
+55,the princess,I,106,39,40,0
+55,the princess,the princess,106,10,22,0
+192,the giant,the giant,70,5,14,0
+192,the giant,the giant,78,10,19,0
+192,the giant,the giant,79,69,78,0
+192,the giant,He,80,0,2,0
+192,the giant,he,80,14,16,0
+192,the giant,he,80,39,41,0
+192,the giant,he,80,111,113,0
+192,the giant,the giant,82,109,118,0
+192,the giant,the giant,86,4,13,0
+192,the giant,the giant,60,14,23,0
+192,the giant,me,69,21,23,0
+3,Eve,Eve,73,7,10,0
+197,the eldest sister,the eldest sister,76,83,100,0
+63,the other sister,she,85,11,14,0
+63,the other sister,the other sister,84,40,56,0
+63,the other sister,her,85,80,83,0
+65,the other giant,the other giant,86,66,81,0
+66,the giants,the giants,87,39,49,0
+66,the giants,the giants,90,12,22,0
+72,princesses,princesses,90,58,68,0
+75,the three sisters,they,108,43,47,0
+75,the three sisters,they,108,11,15,0
+75,the three sisters,them,94,33,37,0
+75,the three sisters,they,102,3,7,0
+75,the three sisters,them,103,31,35,0
+75,the three sisters,you,99,157,160,0
+75,the three sisters,you,100,22,25,0
+75,the three sisters,they,93,3,7,0
+75,the three sisters,they,103,112,116,0
+75,the three sisters,your,100,38,42,1
+75,the three sisters,them,103,90,94,0
+75,the three sisters,you,101,36,39,0
+75,the three sisters,your,101,59,63,0
+75,the three sisters,you,99,19,22,0
+75,the three sisters,you,99,64,67,0
+75,the three sisters,you,101,3,6,0
+75,the three sisters,them,92,39,43,0
+75,the three sisters,them,92,79,83,0
+75,the three sisters,the three sisters,91,29,46,0
+77,their lovers,their lovers,91,72,84,0
+77,their lovers,their lovers,137,83,95,0
+78,all,all,93,96,99,0
+81,the second youngest princess,the second youngest princess,97,33,61,0
+204,the people that are watching above,the people that are watching above,99,112,146,0
+205,ladies,ladies,100,14,20,0
+206,your crows,your crows,100,38,48,0
+206,your crows,them,100,73,77,0
+83,the youngest pair,they,210,112,116,0
+83,the youngest pair,the youngest pair,210,64,81,0
+83,the youngest pair,The youngest pair,105,0,17,0
+86,the two princes,the two princes,174,38,53,1
+86,the two princes,the two princes,143,61,76,0
+86,the two princes,their,143,78,83,0
+86,the two princes,the two princes,106,48,63,0
+211,her prince,her prince,110,34,44,0
+211,her prince,him,110,64,67,0
+213,the poor prince,he,114,193,195,0
+213,the poor prince,He,115,0,2,0
+213,the poor prince,He,118,0,2,0
+213,the poor prince,he,115,36,38,0
+213,the poor prince,his,115,59,62,0
+213,the poor prince,the poor prince,113,6,21,0
+213,the poor prince,he,114,136,138,0
+213,the poor prince,he,117,103,105,0
+213,the poor prince,he,114,78,80,0
+213,the poor prince,he,114,29,31,0
+213,the poor prince,he,116,27,29,0
+213,the poor prince,himself,116,58,65,0
+213,the poor prince,he,117,12,14,0
+213,the poor prince,his,118,14,17,0
+219,my princess,my princess,121,26,37,0
+220,your bride,your bride,123,5,15,0
+224,a smith,a smith,126,56,63,0
+226,his betrothed princess,his betrothed princess,126,137,159,0
+228,the smith,he,128,34,36,0
+228,the smith,the smith,128,5,14,0
+228,the smith,the smith,133,64,73,0
+228,the smith,the smith,174,65,74,0
+228,the smith,the smith,148,15,24,0
+228,the smith,he,162,44,46,0
+228,the smith,the smith,154,5,14,0
+228,the smith,he,160,24,26,0
+228,the smith,The smith,163,0,9,0
+228,the smith,him,163,16,19,0
+228,the smith,him,159,97,100,0
+228,the smith,he,162,97,99,0
+228,the smith,him,163,37,40,0
+228,the smith,he,163,60,62,0
+228,the smith,the smith,164,12,21,0
+228,the smith,him,164,51,54,0
+228,the smith,the smith,158,28,37,0
+228,the smith,he,166,13,15,0
+228,the smith,the smith,166,19,28,0
+228,the smith,He,159,0,2,0
+228,the smith,his,162,109,112,0
+89,"a strong , big fellow like you","a strong, big fellow like you",128,56,85,0
+232,a tailor,a tailor,134,35,43,0
+232,a tailor,he,134,57,59,0
+233,the two princess,the two princess,135,18,34,0
+235,her sweetheart,her sweetheart,135,112,126,0
+236,her bridegroom,her bridegroom,136,71,85,0
+237,the princes that were courting the eldest ladies,the princes that were courting the eldest ladies,137,3,51,0
+237,the princes that were courting the eldest ladies,their,137,83,88,1
+237,the princes that were courting the eldest ladies,they,137,114,118,0
+241,the two brides,the two brides,138,93,107,0
+241,the two brides,their,138,133,138,0
+243,The two bridegrooms,their,140,151,156,0
+243,The two bridegrooms,they,144,17,21,0
+243,The two bridegrooms,they,140,172,176,0
+243,The two bridegrooms,they,140,69,73,0
+243,The two bridegrooms,The two bridegrooms,140,0,19,0
+244,the dead men,the dead men,140,188,200,0
+247,the clerk,the clerk,143,4,13,0
+93,my youngest daughter,my youngest daughter,146,10,30,0
+94,a wife to whoever brings three crowns to me like the others,a wife to whoever brings three crowns to me like the others,146,35,94,0
+96,some other one,some other one,147,39,53,0
+97,the princesses,the princesses,149,39,53,0
+97,the princesses,them,149,159,163,0
+99,a white smith on the face of the earth,a white smith on the face of the earth,149,101,139,0
+100,fair lady,fair lady,150,23,32,0
+100,fair lady,you,157,0,3,0
+100,fair lady,you,152,65,68,0
+4,Faith,Faith,155,1,6,0
+256,the neighbours,the neighbours,159,41,55,0
+256,the neighbours,they,159,86,90,0
+258,the idlers,the idlers,161,5,15,0
+261,the workman,the workman,161,92,103,0
+265,the whole townland,the whole townland,164,27,45,0
+268,a married man,a married man,166,38,51,0
+269,your majesty,your majesty,168,8,20,0
+270,a big fellow,a big fellow,169,7,19,0
+271,daughter,you,170,22,25,0
+271,daughter,daughter,170,7,15,0
+272,the fellow that made these crowns,the fellow that made these crowns,170,32,65,0
+273,father,father,171,24,30,0
+274,the man that these crowns,the man that these crowns,173,14,39,0
+106,the elder of the two princes,you,183,37,40,0
+106,the elder of the two princes,yourself,179,35,43,0
+106,the elder of the two princes,you,179,24,27,0
+106,the elder of the two princes,you,177,5,8,0
+106,the elder of the two princes,the elder of the two princes,174,25,53,0
+106,the elder of the two princes,you,180,23,26,0
+278,the bridegroom,the bridegroom,174,121,135,0
+279,the fellow,the fellow,177,9,19,0
+112,The young prince,The young prince,182,0,16,0
+283,Master,Master,200,1,7,0
+283,Master,Master,184,1,7,0
+121,his new son - in - law,his new son-in-law,187,95,113,0
+123,the eldest prince,the eldest prince,189,121,138,0
+286,My lord,My lord,190,1,8,0
+287,the young smith,him,192,26,29,0
+287,the young smith,the young smith,191,6,21,0
+287,the young smith,the young smith,193,45,60,0
+124,the other prince,the other prince,193,16,32,0
+124,the other prince,you,192,14,17,0
+126,the new messenger,the new messenger,195,96,113,0
+292,The fox,The fox,197,0,7,0
+292,The fox,himself,197,42,49,0
+293,a better messenger,a better messenger,197,18,36,0
+295,your wife,your wife,204,6,15,0
+136,Every one,Every one,208,0,9,0
+137,the two other princes,the two other princes,208,30,51,0
+139,the two elder couples,the two elder couples,210,12,33,0
+139,the two elder couples,their,210,42,47,0
+142,the old king,the old king,210,94,106,0
+143,the happiest married couple you ever heard of in a story,the happiest married couple you ever heard of in a story,210,134,190,0

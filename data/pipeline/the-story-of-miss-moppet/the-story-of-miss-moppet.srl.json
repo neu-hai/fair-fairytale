@@ -1,0 +1,1212 @@
+[
+    {
+        "verbs": [
+            {
+                "verb": "is",
+                "description": "[ARG1: THIS] [V: is] [ARG2: a Pussy called Miss Moppet] , she thinks she has heard a mouse !",
+                "tags": [
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "called",
+                "description": "THIS is [ARG1: a Pussy] [V: called] [ARG2: Miss Moppet] , she thinks she has heard a mouse !",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "thinks",
+                "description": "THIS is a Pussy called Miss Moppet , [ARG0: she] [V: thinks] [ARG1: she has heard a mouse] !",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "has",
+                "description": "THIS is a Pussy called Miss Moppet , she thinks she [V: has] heard a mouse !",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "heard",
+                "description": "THIS is a Pussy called Miss Moppet , she thinks [ARG0: she] has [V: heard] [ARG1: a mouse] !",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "THIS",
+            "is",
+            "a",
+            "Pussy",
+            "called",
+            "Miss",
+            "Moppet",
+            ",",
+            "she",
+            "thinks",
+            "she",
+            "has",
+            "heard",
+            "a",
+            "mouse",
+            "!"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "is",
+                "description": "[ARG1: THIS] [V: is] [ARG2: the Mouse peeping out behind the cupboard , and making fun of Miss Moppet] .",
+                "tags": [
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            },
+            {
+                "verb": "peeping",
+                "description": "THIS is [ARG0: the Mouse] [V: peeping] [ARGM-DIR: out] [ARG1: behind the cupboard] , and making fun of Miss Moppet .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARGM-DIR",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "making",
+                "description": "THIS is the Mouse peeping out behind the cupboard , and [V: making] [ARG1: fun] [ARG2: of] [ARG1: Miss Moppet] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "B-ARG2",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "THIS",
+            "is",
+            "the",
+            "Mouse",
+            "peeping",
+            "out",
+            "behind",
+            "the",
+            "cupboard",
+            ",",
+            "and",
+            "making",
+            "fun",
+            "of",
+            "Miss",
+            "Moppet",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "is",
+                "description": "[ARG1: He] [V: is] [ARGM-NEG: not] [ARG2: afraid of a kitten] .",
+                "tags": [
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARGM-NEG",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "He",
+            "is",
+            "not",
+            "afraid",
+            "of",
+            "a",
+            "kitten",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "is",
+                "description": "[ARG1: THIS] [V: is] [ARG2: Miss Moppet jumping just too late] ;",
+                "tags": [
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            },
+            {
+                "verb": "jumping",
+                "description": "THIS is [ARG0: Miss Moppet] [V: jumping] [ARGM-TMP: just too late] ;",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "THIS",
+            "is",
+            "Miss",
+            "Moppet",
+            "jumping",
+            "just",
+            "too",
+            "late",
+            ";"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "misses",
+                "description": "[ARG0: she] [V: misses] [ARG1: the Mouse] and hits her own head .",
+                "tags": [
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "hits",
+                "description": "[ARG0: she] misses the Mouse and [V: hits] [ARG1: her own head] .",
+                "tags": [
+                    "B-ARG0",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "she",
+            "misses",
+            "the",
+            "Mouse",
+            "and",
+            "hits",
+            "her",
+            "own",
+            "head",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "thinks",
+                "description": "[ARG0: SHE] [V: thinks] [ARG1: it is a very hard cupboard] !",
+                "tags": [
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "is",
+                "description": "SHE thinks [ARG1: it] [V: is] [ARG2: a very hard cupboard] !",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "SHE",
+            "thinks",
+            "it",
+            "is",
+            "a",
+            "very",
+            "hard",
+            "cupboard",
+            "!"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "watches",
+                "description": "[ARG0: THE Mouse] [V: watches] [ARG1: Miss Moppet] [ARGM-DIR: from the top of the cupboard] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-DIR",
+                    "I-ARGM-DIR",
+                    "I-ARGM-DIR",
+                    "I-ARGM-DIR",
+                    "I-ARGM-DIR",
+                    "I-ARGM-DIR",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "THE",
+            "Mouse",
+            "watches",
+            "Miss",
+            "Moppet",
+            "from",
+            "the",
+            "top",
+            "of",
+            "the",
+            "cupboard",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "sits",
+                "description": "[ARG1: MISS MOPPET] ties up her head in a duster , and [V: sits] [ARG2: before the fire] .",
+                "tags": [
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "MISS",
+            "MOPPET",
+            "ties",
+            "up",
+            "her",
+            "head",
+            "in",
+            "a",
+            "duster",
+            ",",
+            "and",
+            "sits",
+            "before",
+            "the",
+            "fire",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "thinks",
+                "description": "[ARG0: THE Mouse] [V: thinks] [ARG1: she is looking very ill] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "is",
+                "description": "THE Mouse thinks she [V: is] looking very ill .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "looking",
+                "description": "THE Mouse thinks [ARG0: she] is [V: looking] [ARG1: very ill] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "THE",
+            "Mouse",
+            "thinks",
+            "she",
+            "is",
+            "looking",
+            "very",
+            "ill",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "comes",
+                "description": "[ARG1: He] [V: comes] [ARGM-DIR: sliding] [ARGM-MNR: down the bell - pull] .",
+                "tags": [
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARGM-DIR",
+                    "B-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "O"
+                ]
+            },
+            {
+                "verb": "sliding",
+                "description": "[ARG0: He] comes [V: sliding] [ARGM-DIR: down] [ARG1: the bell - pull] .",
+                "tags": [
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARGM-DIR",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "He",
+            "comes",
+            "sliding",
+            "down",
+            "the",
+            "bell",
+            "-",
+            "pull",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "looks",
+                "description": "[ARG0: MISS MOPPET] [V: looks] [ARG1: worse and worse] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "MISS",
+            "MOPPET",
+            "looks",
+            "worse",
+            "and",
+            "worse",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "comes",
+                "description": "[ARG1: The Mouse] [V: comes] [ARG2: a little nearer] .",
+                "tags": [
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "Mouse",
+            "comes",
+            "a",
+            "little",
+            "nearer",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "holds",
+                "description": "[ARG0: MISS MOPPET] [V: holds] [ARG1: her poor head in her paws] , and looks at him through a hole in the duster .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "looks",
+                "description": "[ARG0: MISS MOPPET] holds her poor head in her paws , and [V: looks] [ARG1: at him] [ARGM-MNR: through a hole in the duster] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "MISS",
+            "MOPPET",
+            "holds",
+            "her",
+            "poor",
+            "head",
+            "in",
+            "her",
+            "paws",
+            ",",
+            "and",
+            "looks",
+            "at",
+            "him",
+            "through",
+            "a",
+            "hole",
+            "in",
+            "the",
+            "duster",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "comes",
+                "description": "[ARG1: The Mouse] [V: comes] [ARG2: VERY] [ARGM-TMP: close] .",
+                "tags": [
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-V",
+                    "B-ARG2",
+                    "B-ARGM-TMP",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "Mouse",
+            "comes",
+            "VERY",
+            "close",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "jumps",
+                "description": "AND then all of a sudden -- [ARGM-MOD: Miss] [ARG0: Moppet] [V: jumps] [ARG1: upon the Mouse] !",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARGM-MOD",
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "AND",
+            "then",
+            "all",
+            "of",
+            "a",
+            "sudden",
+            "--",
+            "Miss",
+            "Moppet",
+            "jumps",
+            "upon",
+            "the",
+            "Mouse",
+            "!"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "has",
+                "description": "AND because the Mouse [V: has] teased Miss Moppet -- Miss Moppet thinks she will tease the Mouse ;",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "teased",
+                "description": "AND because [ARG0: the Mouse] has [V: teased] [ARG1: Miss Moppet] -- Miss Moppet thinks she will tease the Mouse ;",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "thinks",
+                "description": "AND [ARGM-CAU: because the Mouse has teased Miss Moppet] -- [ARG0: Miss Moppet] [V: thinks] [ARG1: she will tease the Mouse] ;",
+                "tags": [
+                    "O",
+                    "B-ARGM-CAU",
+                    "I-ARGM-CAU",
+                    "I-ARGM-CAU",
+                    "I-ARGM-CAU",
+                    "I-ARGM-CAU",
+                    "I-ARGM-CAU",
+                    "I-ARGM-CAU",
+                    "O",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "will",
+                "description": "AND because the Mouse has teased Miss Moppet -- Miss Moppet thinks she [V: will] [ARG1: tease the Mouse] ;",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "tease",
+                "description": "AND because the Mouse has teased Miss Moppet -- Miss Moppet thinks [ARG0: she] [ARGM-MOD: will] [V: tease] [ARG1: the Mouse] ;",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "AND",
+            "because",
+            "the",
+            "Mouse",
+            "has",
+            "teased",
+            "Miss",
+            "Moppet",
+            "--",
+            "Miss",
+            "Moppet",
+            "thinks",
+            "she",
+            "will",
+            "tease",
+            "the",
+            "Mouse",
+            ";"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "is",
+                "description": "[ARG1: which] [V: is] [ARGM-NEG: not] [ARG2: at all nice of Miss Moppet] .",
+                "tags": [
+                    "B-ARG1",
+                    "B-V",
+                    "B-ARGM-NEG",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "which",
+            "is",
+            "not",
+            "at",
+            "all",
+            "nice",
+            "of",
+            "Miss",
+            "Moppet",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "ties",
+                "description": "[ARG0: SHE] [V: ties] [ARG1: him] up [ARGM-ADV: in the duster] , and tosses it about like a ball .",
+                "tags": [
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "O",
+                    "B-ARGM-ADV",
+                    "I-ARGM-ADV",
+                    "I-ARGM-ADV",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "tosses",
+                "description": "[ARG0: SHE] ties him up in the duster , and [V: tosses] [ARG1: it] [ARGM-MNR: about like a ball] .",
+                "tags": [
+                    "B-ARG0",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "B-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "SHE",
+            "ties",
+            "him",
+            "up",
+            "in",
+            "the",
+            "duster",
+            ",",
+            "and",
+            "tosses",
+            "it",
+            "about",
+            "like",
+            "a",
+            "ball",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "forgot",
+                "description": "[ARGM-MNR: BUT] [ARG0: she] [V: forgot] [ARG1: about that hole in the duster] ;",
+                "tags": [
+                    "B-ARGM-MNR",
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "BUT",
+            "she",
+            "forgot",
+            "about",
+            "that",
+            "hole",
+            "in",
+            "the",
+            "duster",
+            ";"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "untied",
+                "description": "and [ARGM-TMP: when] [ARG0: she] [V: untied] [ARG1: it] -- there was no Mouse !",
+                "tags": [
+                    "O",
+                    "B-ARGM-TMP",
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "was",
+                "description": "[ARGM-DIS: and] [ARGM-TMP: when she untied it] -- there [V: was] [ARG1: no Mouse] !",
+                "tags": [
+                    "B-ARGM-DIS",
+                    "B-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "and",
+            "when",
+            "she",
+            "untied",
+            "it",
+            "--",
+            "there",
+            "was",
+            "no",
+            "Mouse",
+            "!"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "has",
+                "description": "[ARG0: HE] [V: has] [ARG1: wriggled] out and run away ;",
+                "tags": [
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "wriggled",
+                "description": "[ARG0: HE] has [V: wriggled] out and run away ;",
+                "tags": [
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "run",
+                "description": "[ARG0: HE] has wriggled out and [V: run] [ARG1: away] ;",
+                "tags": [
+                    "B-ARG0",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "HE",
+            "has",
+            "wriggled",
+            "out",
+            "and",
+            "run",
+            "away",
+            ";"
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "is",
+                "description": "and he [V: is] dancing a jig on the top of the cupboard !",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "dancing",
+                "description": "and [ARG0: he] is [V: dancing] [ARG1: a jig] [ARGM-LOC: on the top of the cupboard] !",
+                "tags": [
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-LOC",
+                    "I-ARGM-LOC",
+                    "I-ARGM-LOC",
+                    "I-ARGM-LOC",
+                    "I-ARGM-LOC",
+                    "I-ARGM-LOC",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "and",
+            "he",
+            "is",
+            "dancing",
+            "a",
+            "jig",
+            "on",
+            "the",
+            "top",
+            "of",
+            "the",
+            "cupboard",
+            "!"
+        ]
+    }
+]

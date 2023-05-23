@@ -1,0 +1,131 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,died,58,62,58,62,8,18.0,53.0,18.0,53.0,,,,,verb.change,True,0,subject,all the people of a certain country,1,0,1,unknown,0.0,tertiary
+1,0,died,19,23,146,150,13,5.0,18.0,132.0,145.0,,,,,verb.change,True,1,subject,two helpless children's parents,1,0,1,unknown,0.0,tertiary
+1,0,died,19,23,146,150,10,5.0,18.0,132.0,145.0,,,,,verb.change,True,1,subject,two helpless children,1,1,2,group/nonbinary,1.0,tertiary
+4,1,opening,50,57,418,425,15,23.0,34.0,391.0,402.0,,,,,verb.body,True,3,subject,The little girl,1,6,7,female,1.0,tertiary
+4,1,opening,50,57,418,425,19,23.0,34.0,391.0,402.0,,,,,verb.body,True,3,subject,The little girl's brother,1,12,13,male,1.0,tertiary
+5,0,changed,31,38,467,474,19,28.0,30.0,464.0,466.0,53.0,76.0,489.0,512.0,verb.change,True,4,subject,The little girl's brother,1,12,13,male,1.0,tertiary
+6,6,beamed,164,170,730,736,21,105.0,156.0,671.0,722.0,,,,,verb.perception,True,5,subject,a little heaven of smiles and flashing lights,1,0,1,unknown,0.0,tertiary
+7,2,increased,46,55,844,853,25,38.0,45.0,836.0,843.0,,,,,verb.change,True,6,subject,the boy,1,30,31,male,1.0,secondary
+8,2,creep,40,45,918,923,25,26.0,28.0,904.0,906.0,,,,,verb.body,True,7,subject,the boy,1,30,31,male,1.0,secondary
+9,1,walk,20,24,1008,1012,25,5.0,7.0,993.0,995.0,,,,,verb.motion,True,8,subject,the boy,1,30,31,male,1.0,secondary
+10,2,shooting,47,55,1214,1222,25,10.0,12.0,1177.0,1179.0,,,,,verb.competition,True,9,subject,the boy,1,30,31,male,1.0,secondary
+11,0,killed,18,24,1261,1267,25,0.0,14.0,1243.0,1257.0,,,,,verb.contact,True,10,subject,the boy,1,30,31,male,1.0,secondary
+12,1,took,38,42,1321,1325,25,35.0,37.0,1318.0,1320.0,46.0,52.0,1329.0,1335.0,verb.contact,True,11,subject,the boy,1,30,31,male,1.0,secondary
+13,1,stuffed,27,34,1364,1371,26,0.0,3.0,1337.0,1340.0,,,,,verb.contact,True,12,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+14,0,killed,16,22,1417,1423,25,13.0,15.0,1414.0,1416.0,,,,,verb.contact,True,15,subject,the boy,1,30,31,male,1.0,secondary
+15,0,preserved,11,20,1451,1460,26,0.0,10.0,1440.0,1450.0,27.0,30.0,1467.0,1470.0,verb.consumption,True,14,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+15,0,preserved,11,20,1451,1460,19,0.0,10.0,1440.0,1450.0,27.0,30.0,1467.0,1470.0,verb.consumption,True,14,subject,The little girl's brother,1,12,13,male,1.0,tertiary
+16,0,killed,17,23,1489,1495,25,14.0,16.0,1486.0,1488.0,,,,,verb.contact,True,13,subject,the boy,1,30,31,male,1.0,secondary
+17,0,acquired,14,22,1565,1573,25,11.0,13.0,1562.0,1564.0,,,,,verb.possession,True,16,subject,the boy,1,30,31,male,1.0,secondary
+18,1,killed,58,64,1689,1695,25,55.0,57.0,1686.0,1688.0,,,,,verb.contact,True,17,subject,the boy,1,30,31,male,1.0,secondary
+19,1,shot,86,90,1852,1856,25,74.0,82.0,1840.0,1848.0,,,,,verb.social,True,18,subject,the boy,1,30,31,male,1.0,secondary
+20,0,entered,17,24,1917,1924,25,14.0,16.0,1914.0,1916.0,,,,,verb.motion,True,19,subject,the boy,1,30,31,male,1.0,secondary
+21,1,arrived,11,18,2023,2030,25,0.0,2.0,2012.0,2014.0,,,,,verb.motion,True,20,subject,the boy,1,30,31,male,1.0,secondary
+22,1,came,44,48,2148,2152,25,41.0,43.0,2145.0,2147.0,,,,,verb.motion,True,21,subject,the boy,1,30,31,male,1.0,secondary
+24,0,saw,33,36,2231,2234,25,30.0,32.0,2228.0,2230.0,,,,,verb.perception,True,22,subject,the boy,1,30,31,male,1.0,secondary
+26,0,seated,3,9,2372,2378,25,0.0,2.0,2369.0,2371.0,18.0,30.0,2387.0,2399.0,verb.contact,True,25,subject,the boy,1,30,31,male,1.0,secondary
+27,1,killed,23,29,2450,2456,44,5.0,18.0,2432.0,2445.0,,,,,verb.contact,True,24,subject,the large man,1,5,6,male,1.0,tertiary
+28,2,followed,41,49,2579,2587,47,24.0,40.0,2562.0,2578.0,,,,,verb.motion,True,26,subject,the dwarf hunter,1,2,3,male,1.0,tertiary
+29,0,reaching,14,22,2706,2714,49,0.0,9.0,2692.0,2701.0,33.0,62.0,2725.0,2754.0,verb.motion,True,27,subject,the giant,10,39,49,male,1.0,primary
+31,5,commenced,82,91,2956,2965,49,0.0,49.0,2874.0,2923.0,,,,,verb.communication,True,28,subject,the giant,10,39,49,male,1.0,primary
+33,2,reaching,31,39,3110,3118,49,17.0,26.0,3096.0,3105.0,,,,,verb.motion,True,30,subject,the giant,10,39,49,male,1.0,primary
+34,3,make,26,30,3226,3230,49,18.0,19.0,3218.0,3219.0,,,,,verb.communication,True,32,subject,the giant,10,39,49,male,1.0,primary
+35,0,forgot,10,16,3287,3293,49,0.0,9.0,3277.0,3286.0,,,,,verb.cognition,True,31,subject,the giant,10,39,49,male,1.0,primary
+36,0,pursued,16,23,3442,3449,49,13.0,15.0,3439.0,3441.0,54.0,67.0,3480.0,3493.0,verb.social,True,33,subject,the giant,10,39,49,male,1.0,primary
+37,6,overtake,137,145,3692,3700,49,56.0,58.0,3611.0,3613.0,,,,,verb.competition,True,35,subject,the giant,10,39,49,male,1.0,primary
+42,2,looked,70,76,4204,4210,49,0.0,9.0,4134.0,4143.0,92.0,135.0,4226.0,4269.0,verb.perception,True,38,subject,the giant,10,39,49,male,1.0,primary
+43,1,find,9,13,4280,4284,49,0.0,2.0,4271.0,4273.0,,,,,verb.perception,True,40,subject,the giant,10,39,49,male,1.0,primary
+44,1,stepped,16,23,4307,4314,71,0.0,11.0,4291.0,4302.0,,,,,verb.motion,True,39,subject,The unknown,1,0,1,unknown,0.0,tertiary
+45,1,disappoint,35,45,4398,4408,49,13.0,22.0,4376.0,4385.0,70.0,107.0,4433.0,4470.0,verb.emotion,True,41,subject,the giant,10,39,49,male,1.0,primary
+46,0,came,44,48,4515,4519,75,23.0,43.0,4494.0,4514.0,,,,,verb.motion,True,42,subject,the little shell man,1,4,5,male,1.0,tertiary
+47,2,overtake,51,59,4660,4668,49,38.0,40.0,4647.0,4649.0,,,,,verb.competition,True,44,subject,the giant,10,39,49,male,1.0,primary
+48,3,skinning,101,109,4775,4783,80,56.0,68.0,4730.0,4742.0,,,,,verb.body,True,43,subject,the stranger,1,18,19,male,1.0,secondary
+49,1,looking,19,26,4816,4823,3,3.0,12.0,4800.0,4809.0,,,,,verb.perception,True,45,subject,little Dais,10,14,24,male,1.0,secondary
+50,3,looked,94,100,5015,5021,82,0.0,17.0,4921.0,4938.0,,,,,verb.perception,True,46,subject,the man,1,0,1,male,1.0,tertiary
+50,3,looked,94,100,5015,5021,83,0.0,17.0,4921.0,4938.0,,,,,verb.perception,True,46,subject,the celebrated giant,1,0,1,unknown,0.0,tertiary
+54,3,kill,61,65,5207,5211,80,42.0,45.0,5188.0,5191.0,,,,,verb.contact,True,50,subject,the stranger,1,18,19,male,1.0,secondary
+55,0,grabbed,46,53,5283,5290,5,36.0,45.0,5273.0,5282.0,,,,,verb.contact,True,51,subject,Manabozho,8,9,17,male,1.0,secondary
+56,0,thought,13,20,5311,5318,5,10.0,12.0,5308.0,5310.0,,,,,verb.cognition,True,52,subject,Manabozho,8,9,17,male,1.0,secondary
+61,2,disappointed,36,48,5596,5608,5,29.0,31.0,5589.0,5591.0,,,,,verb.emotion,True,55,subject,Manabozho,8,9,17,male,1.0,secondary
+63,0,cried,3,8,5672,5677,5,0.0,2.0,5669.0,5671.0,,,,,verb.communication,True,56,subject,Manabozho,8,9,17,male,1.0,secondary
+65,0,replied,10,17,5749,5756,88,0.0,9.0,5739.0,5748.0,,,,,verb.communication,True,57,subject,the dwarf,2,0,2,unknown,0.0,tertiary
+67,0,heard,23,28,5892,5897,89,8.0,10.0,5877.0,5879.0,52.0,81.0,5921.0,5950.0,verb.perception,True,59,subject,the giant Manabozho,1,13,14,male,1.0,tertiary
+68,0,said,22,26,6043,6047,5,1.0,19.0,6022.0,6040.0,,,,,verb.communication,True,62,subject,Manabozho,8,9,17,male,1.0,secondary
+69,4,taken,56,61,6138,6143,91,49.0,50.0,6131.0,6132.0,70.0,83.0,6152.0,6165.0,verb.cognition,True,61,subject,the invisible dwarf,1,2,3,unknown,0.0,tertiary
+73,2,understand,108,118,6538,6548,5,1.0,21.0,6431.0,6451.0,,,,,verb.cognition,True,64,subject,Manabozho,8,9,17,male,1.0,secondary
+74,0,returned,15,23,6565,6573,3,5.0,14.0,6555.0,6564.0,,,,,verb.motion,True,65,subject,little Dais,10,14,24,male,1.0,secondary
+75,2,said,18,22,6666,6670,3,1.0,15.0,6649.0,6663.0,,,,,verb.communication,True,66,subject,little Dais,10,14,24,male,1.0,secondary
+76,0,added,14,19,6712,6717,26,0.0,8.0,6698.0,6706.0,,,,,verb.communication,True,67,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+76,0,added,14,19,6712,6717,3,0.0,8.0,6698.0,6706.0,,,,,verb.communication,True,67,subject,little Dais,10,14,24,male,1.0,secondary
+77,2,wish,24,28,6763,6767,26,14.0,17.0,6753.0,6756.0,,,,,verb.emotion,True,68,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+78,0,said,4,8,6783,6787,26,0.0,3.0,6779.0,6782.0,,,,,verb.communication,True,70,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+79,1,loved,14,19,6865,6870,26,0.0,1.0,6851.0,6852.0,,,,,verb.emotion,True,69,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+81,5,painting,132,140,7128,7136,126,117.0,128.0,7113.0,7124.0,,,,,verb.body,True,71,subject,The little girl's brother's sister's brother's sister,1,1,2,female,1.0,tertiary
+81,5,painting,132,140,7128,7136,125,117.0,128.0,7113.0,7124.0,,,,,verb.body,True,71,subject,The little girl's brother's sister's brother,1,3,4,male,1.0,tertiary
+90,5,regarded,129,137,7959,7967,103,0.0,127.0,7830.0,7957.0,,,,,verb.perception,True,76,subject,his kinsman,1,0,1,unknown,0.0,tertiary
+90,5,regarded,129,137,7959,7967,3,0.0,127.0,7830.0,7957.0,,,,,verb.perception,True,76,subject,little Dais,10,14,24,male,1.0,secondary
+90,5,regarded,129,137,7959,7967,5,0.0,127.0,7830.0,7957.0,,,,,verb.perception,True,76,subject,Manabozho,8,9,17,male,1.0,secondary
+90,5,regarded,129,137,7959,7967,101,0.0,127.0,7830.0,7957.0,,,,,verb.perception,True,76,subject,"The giant , who was a first cousin to Manabozho , and had already heard of the tricks which Dais - Imid had played upon his kinsman",1,0,1,unknown,0.0,tertiary
+90,5,regarded,129,137,7959,7967,102,0.0,127.0,7830.0,7957.0,,,,,verb.perception,True,76,subject,a first cousin to Manabozho,1,0,1,unknown,0.0,tertiary
+92,1,bailed,103,109,8232,8238,3,60.0,71.0,8189.0,8200.0,,,,,verb.contact,True,78,subject,little Dais,10,14,24,male,1.0,secondary
+99,2,go,70,72,8852,8854,26,56.0,59.0,8838.0,8841.0,,,,,verb.motion,True,83,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+100,2,wish,37,41,8893,8897,26,23.0,32.0,8879.0,8888.0,,,,,verb.emotion,True,82,subject,The little girl's brother's sister,10,17,27,female,1.0,secondary
+101,2,delight,60,67,8959,8966,143,39.0,49.0,8938.0,8948.0,,,,,verb.emotion,True,84,subject,my kindred,1,0,1,unknown,0.0,tertiary
+102,1,commenced,39,48,9017,9026,3,0.0,9.0,8978.0,8987.0,,,,,verb.change,True,85,subject,little Dais,10,14,24,male,1.0,secondary
+106,2,predicted,48,57,9588,9597,3,34.0,43.0,9574.0,9583.0,,,,,verb.communication,True,86,subject,little Dais,10,14,24,male,1.0,secondary
+3,4,resumed,111,118,351,358,15,119.0,126.0,359.0,366.0,,,,,verb.change,True,2,direct_object,The little girl,1,6,7,female,1.0,tertiary
+4,1,opening,50,57,418,425,18,58.0,66.0,426.0,434.0,,,,,verb.body,True,3,direct_object,The little girl's little brother,1,2,3,male,1.0,tertiary
+5,0,changed,31,38,467,474,19,39.0,51.0,475.0,487.0,53.0,76.0,489.0,512.0,verb.change,True,4,direct_object,The little girl's brother,1,12,13,male,1.0,tertiary
+6,6,beamed,164,170,730,736,19,171.0,185.0,737.0,751.0,,,,,verb.perception,True,5,direct_object,The little girl's brother,1,12,13,male,1.0,tertiary
+25,0,comparing,0,9,2284,2293,42,10.0,17.0,2294.0,2301.0,,,,,verb.cognition,True,23,direct_object,this great man,1,2,3,male,1.0,tertiary
+25,0,comparing,0,9,2284,2293,25,10.0,17.0,2294.0,2301.0,,,,,verb.cognition,True,23,direct_object,the boy,1,30,31,male,1.0,secondary
+26,0,seated,3,9,2372,2378,25,10.0,17.0,2379.0,2386.0,18.0,30.0,2387.0,2399.0,verb.contact,True,25,direct_object,the boy,1,30,31,male,1.0,secondary
+29,0,reaching,14,22,2706,2714,49,23.0,32.0,2715.0,2724.0,33.0,62.0,2725.0,2754.0,verb.motion,True,27,direct_object,the giant,10,39,49,male,1.0,primary
+31,5,commenced,82,91,2956,2965,49,92.0,102.0,2966.0,2976.0,,,,,verb.communication,True,28,direct_object,the giant,10,39,49,male,1.0,primary
+32,1,overtaking,32,42,3009,3019,49,43.0,46.0,3020.0,3023.0,,,,,verb.motion,True,29,direct_object,the giant,10,39,49,male,1.0,primary
+33,2,reaching,31,39,3110,3118,49,40.0,49.0,3119.0,3128.0,,,,,verb.motion,True,30,direct_object,the giant,10,39,49,male,1.0,primary
+34,3,make,26,30,3226,3230,49,31.0,74.0,3231.0,3274.0,,,,,verb.communication,True,32,direct_object,the giant,10,39,49,male,1.0,primary
+34,3,make,26,30,3226,3230,58,31.0,74.0,3231.0,3274.0,,,,,verb.communication,True,32,direct_object,the little shell - man,1,3,4,male,1.0,tertiary
+35,0,forgot,10,16,3287,3293,26,17.0,147.0,3294.0,3424.0,,,,,verb.cognition,True,31,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary
+35,0,forgot,10,16,3287,3293,49,17.0,147.0,3294.0,3424.0,,,,,verb.cognition,True,31,direct_object,the giant,10,39,49,male,1.0,primary
+35,0,forgot,10,16,3287,3293,58,17.0,147.0,3294.0,3424.0,,,,,verb.cognition,True,31,direct_object,the little shell - man,1,3,4,male,1.0,tertiary
+36,0,pursued,16,23,3442,3449,49,24.0,53.0,3450.0,3479.0,54.0,67.0,3480.0,3493.0,verb.social,True,33,direct_object,the giant,10,39,49,male,1.0,primary
+37,6,overtake,137,145,3692,3700,49,146.0,149.0,3701.0,3704.0,,,,,verb.competition,True,35,direct_object,the giant,10,39,49,male,1.0,primary
+39,5,played,110,116,3910,3916,49,117.0,125.0,3917.0,3925.0,,,,,verb.social,True,34,direct_object,the giant,10,39,49,male,1.0,primary
+40,0,vexed,5,10,3932,3937,49,11.0,14.0,3938.0,3941.0,15.0,19.0,,,verb.emotion,True,37,direct_object,the giant,10,39,49,male,1.0,primary
+41,5,making,93,99,4090,4096,49,100.0,117.0,4097.0,4114.0,118.0,135.0,,,verb.change,True,36,direct_object,the giant,10,39,49,male,1.0,primary
+45,1,disappoint,35,45,4398,4408,73,46.0,69.0,4409.0,4432.0,70.0,107.0,4433.0,4470.0,verb.emotion,True,41,direct_object,the giant's mysterious follower,1,0,1,unknown,0.0,tertiary
+45,1,disappoint,35,45,4398,4408,49,46.0,69.0,4409.0,4432.0,70.0,107.0,4433.0,4470.0,verb.emotion,True,41,direct_object,the giant,10,39,49,male,1.0,primary
+46,0,came,44,48,4515,4519,75,49.0,64.0,4520.0,4535.0,,,,,verb.motion,True,42,direct_object,the little shell man,1,4,5,male,1.0,tertiary
+47,2,overtake,51,59,4660,4668,75,60.0,63.0,4669.0,4672.0,,,,,verb.competition,True,44,direct_object,the little shell man,1,4,5,male,1.0,tertiary
+48,3,skinning,101,109,4775,4783,80,110.0,121.0,4784.0,4795.0,,,,,verb.body,True,43,direct_object,the stranger,1,18,19,male,1.0,secondary
+49,1,looking,19,26,4816,4823,80,27.0,33.0,4824.0,4830.0,,,,,verb.perception,True,45,direct_object,the stranger,1,18,19,male,1.0,secondary
+51,0,regarding,6,15,5044,5053,80,16.0,19.0,5054.0,5057.0,20.0,34.0,,,verb.communication,True,47,direct_object,the stranger,1,18,19,male,1.0,secondary
+52,0,said,0,4,5101,5105,5,5.0,14.0,5106.0,5115.0,,,,,verb.communication,True,49,direct_object,Manabozho,8,9,17,male,1.0,secondary
+53,1,kill,18,22,5135,5139,80,23.0,26.0,5140.0,5143.0,,,,,verb.contact,True,48,direct_object,the stranger,1,18,19,male,1.0,secondary
+54,3,kill,61,65,5207,5211,51,66.0,68.0,5212.0,5214.0,,,,,verb.contact,True,50,direct_object,the little hero of the shell,2,1,3,unknown,0.0,tertiary
+55,0,grabbed,46,53,5283,5290,80,54.0,60.0,5291.0,5297.0,,,,,verb.contact,True,51,direct_object,the stranger,1,18,19,male,1.0,secondary
+56,0,thought,13,20,5311,5318,5,21.0,48.0,5319.0,5346.0,,,,,verb.cognition,True,52,direct_object,Manabozho,8,9,17,male,1.0,secondary
+56,0,thought,13,20,5311,5318,80,21.0,48.0,5319.0,5346.0,,,,,verb.cognition,True,52,direct_object,the stranger,1,18,19,male,1.0,secondary
+59,0,answered,27,35,5438,5446,86,36.0,51.0,5447.0,5462.0,,,,,verb.communication,True,53,direct_object,the shell - dwarf,1,1,2,male,1.0,tertiary
+60,1,crush,39,44,5502,5507,86,45.0,48.0,5508.0,5511.0,,,,,verb.contact,True,54,direct_object,the shell - dwarf,1,1,2,male,1.0,tertiary
+61,2,disappointed,36,48,5596,5608,87,49.0,74.0,5609.0,5634.0,,,,,verb.emotion,True,55,direct_object,no dwarf there,1,0,1,unknown,0.0,tertiary
+66,0,seized,31,37,5788,5794,89,38.0,45.0,5795.0,5802.0,70.0,76.0,5827.0,5833.0,verb.contact,True,58,direct_object,the giant Manabozho,1,13,14,male,1.0,tertiary
+67,0,heard,23,28,5892,5897,88,29.0,51.0,5898.0,5920.0,52.0,81.0,5921.0,5950.0,verb.perception,True,59,direct_object,the dwarf,2,0,2,unknown,0.0,tertiary
+68,0,said,22,26,6043,6047,91,27.0,59.0,6048.0,6080.0,,,,,verb.communication,True,62,direct_object,the invisible dwarf,1,2,3,unknown,0.0,tertiary
+70,0,forgot,67,73,6233,6239,26,74.0,99.0,6240.0,6265.0,,,,,verb.cognition,True,60,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary
+70,0,forgot,67,73,6233,6239,89,74.0,99.0,6240.0,6265.0,,,,,verb.cognition,True,60,direct_object,the giant Manabozho,1,13,14,male,1.0,tertiary
+72,3,lit,93,96,6383,6386,89,97.0,115.0,6387.0,6405.0,116.0,139.0,6406.0,6429.0,verb.weather,True,63,direct_object,the giant Manabozho,1,13,14,male,1.0,tertiary
+75,2,said,18,22,6666,6670,3,23.0,32.0,6671.0,6680.0,,,,,verb.communication,True,66,direct_object,little Dais,10,14,24,male,1.0,secondary
+78,0,said,4,8,6783,6787,26,11.0,70.0,6790.0,6849.0,,,,,verb.communication,True,70,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary
+81,5,painting,132,140,7128,7136,126,141.0,149.0,7137.0,7145.0,,,,,verb.body,True,71,direct_object,The little girl's brother's sister's brother's sister,1,1,2,female,1.0,tertiary
+82,0,said,9,13,7157,7161,119,14.0,16.0,7162.0,7164.0,,,,,verb.communication,True,73,direct_object,the invisible dwarf's sister,4,7,11,female,1.0,tertiary
+83,1,see,12,15,7232,7235,119,16.0,19.0,7236.0,7239.0,20.0,40.0,7240.0,7260.0,verb.perception,True,72,direct_object,the invisible dwarf's sister,4,7,11,female,1.0,tertiary
+85,5,called,92,98,7391,7397,130,99.0,152.0,7398.0,7451.0,,,,,verb.communication,True,75,direct_object,the Little Wild Man of the Mountains,1,0,1,male,1.0,tertiary
+85,5,called,92,98,7391,7397,7,99.0,152.0,7398.0,7451.0,,,,,verb.communication,True,75,direct_object,Puck - Ininee,1,0,1,unknown,0.0,tertiary
+87,0,left,3,7,7603,7607,26,8.0,18.0,7608.0,7618.0,,,,,verb.motion,True,74,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary
+91,1,drown,42,47,8113,8118,3,48.0,57.0,8119.0,8128.0,,,,,verb.body,True,77,direct_object,little Dais,10,14,24,male,1.0,secondary
+93,0,returned,3,11,8314,8322,26,12.0,25.0,8323.0,8336.0,,,,,verb.motion,True,79,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary
+94,1,addressing,25,35,8402,8412,26,36.0,39.0,8413.0,8416.0,40.0,44.0,8417.0,8421.0,verb.communication,True,80,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary
+95,1,assigns,64,71,8558,8565,26,72.0,78.0,8566.0,8572.0,,,,,verb.communication,True,81,direct_object,The little girl's brother's sister,10,17,27,female,1.0,secondary

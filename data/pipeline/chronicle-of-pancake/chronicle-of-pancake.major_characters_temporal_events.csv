@@ -1,0 +1,69 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,3,baking,78,84,78,84,16,70.0,73.0,70.0,73.0,,,,,verb.consumption,True,0,subject,a woman who had seven hungry children,1,1,2,female,1.0,tertiary
+2,1,sat,52,55,294,297,18,34.0,51.0,276.0,293.0,,,,,verb.contact,True,1,subject,The children,3,8,11,group/nonbinary,1.0,tertiary
+2,1,sat,52,55,294,297,19,34.0,51.0,276.0,293.0,,,,,verb.contact,True,1,subject,The children's grandfather,2,0,2,male,1.0,tertiary
+16,1,begged,34,40,708,714,18,25.0,33.0,699.0,707.0,61.0,141.0,735.0,815.0,verb.communication,True,9,subject,The children,3,8,11,group/nonbinary,1.0,tertiary
+23,4,hobbling,172,180,1544,1552,18,149.0,166.0,1521.0,1538.0,,,,,verb.motion,True,10,subject,The children,3,8,11,group/nonbinary,1.0,tertiary
+23,4,hobbling,172,180,1544,1552,19,149.0,166.0,1521.0,1538.0,,,,,verb.motion,True,10,subject,The children's grandfather,2,0,2,male,1.0,tertiary
+28,3,grab,60,64,1662,1666,18,0.0,8.0,1602.0,1610.0,,,,,verb.contact,True,12,subject,The children,3,8,11,group/nonbinary,1.0,tertiary
+32,0,said,21,25,1936,1940,7,1.0,18.0,1916.0,1933.0,,,,,verb.communication,True,15,subject,Man Tan,6,0,6,male,1.0,tertiary
+34,2,eat,30,33,2024,2027,36,27.0,29.0,2021.0,2023.0,,,,,verb.consumption,True,16,subject,the man,2,1,3,male,1.0,tertiary
+36,6,leave,103,108,2151,2156,37,97.0,98.0,2145.0,2146.0,113.0,129.0,2161.0,2177.0,verb.cognition,True,17,subject,The pancake,15,25,40,unknown,0.0,primary
+40,1,roll,27,31,2342,2346,79,1.0,19.0,2316.0,2334.0,,,,,verb.contact,True,20,subject,Dear,1,0,1,unknown,0.0,tertiary
+40,1,roll,27,31,2342,2346,80,1.0,19.0,2316.0,2334.0,,,,,verb.contact,True,20,subject,good pancake,3,13,16,unknown,0.0,secondary
+42,6,leave,116,121,2524,2529,37,110.0,111.0,2518.0,2519.0,126.0,143.0,2534.0,2551.0,verb.cognition,True,22,subject,The pancake,15,25,40,unknown,0.0,primary
+47,1,roll,27,31,2748,2752,80,1.0,19.0,2722.0,2740.0,,,,,verb.motion,True,25,subject,good pancake,3,13,16,unknown,0.0,secondary
+48,2,eat,25,28,2787,2790,46,18.0,19.0,2780.0,2781.0,33.0,35.0,2795.0,2797.0,verb.consumption,True,28,subject,the rooster,2,1,3,unknown,0.0,tertiary
+50,8,rolled,192,198,3010,3016,37,127.0,128.0,2945.0,2946.0,,,,,verb.motion,True,27,subject,The pancake,15,25,40,unknown,0.0,primary
+52,0,said,21,25,3126,3130,87,1.0,18.0,3106.0,3123.0,,,,,verb.communication,True,29,subject,pancake,1,0,1,unknown,0.0,tertiary
+53,0,said,23,27,3164,3168,10,1.0,20.0,3142.0,3161.0,,,,,verb.communication,True,30,subject,Duck Tuck,3,0,3,unknown,0.0,tertiary
+57,8,rolled,192,198,3468,3474,37,144.0,145.0,3420.0,3421.0,,,,,verb.motion,True,31,subject,The pancake,15,25,40,unknown,0.0,primary
+60,0,said,25,29,3621,3625,11,1.0,22.0,3597.0,3618.0,,,,,verb.communication,True,32,subject,Goose Loose,2,0,2,unknown,0.0,tertiary
+64,7,said,197,201,3931,3935,78,1.0,139.0,3735.0,3873.0,,,,,verb.communication,True,33,subject,the seven squallers,5,0,5,unknown,0.0,tertiary
+64,7,said,197,201,3931,3935,7,1.0,139.0,3735.0,3873.0,,,,,verb.communication,True,33,subject,Man Tan,6,0,6,male,1.0,tertiary
+64,7,said,197,201,3931,3935,37,1.0,139.0,3735.0,3873.0,,,,,verb.communication,True,33,subject,The pancake,15,25,40,unknown,0.0,primary
+64,7,said,197,201,3931,3935,80,1.0,139.0,3735.0,3873.0,,,,,verb.communication,True,33,subject,good pancake,3,13,16,unknown,0.0,secondary
+64,7,said,197,201,3931,3935,8,1.0,139.0,3735.0,3873.0,,,,,verb.communication,True,33,subject,Mother Gray,6,0,6,female,1.0,tertiary
+64,7,said,197,201,3931,3935,81,1.0,139.0,3735.0,3873.0,,,,,verb.communication,True,33,subject,grandpa,5,0,5,unknown,0.0,tertiary
+67,0,said,28,32,4098,4102,12,1.0,25.0,4071.0,4095.0,,,,,verb.communication,True,35,subject,Gander Meander,1,0,1,unknown,0.0,tertiary
+71,9,roll,247,251,4459,4463,37,174.0,175.0,4386.0,4387.0,,,,,verb.motion,True,36,subject,The pancake,15,25,40,unknown,0.0,primary
+74,0,said,22,26,4600,4604,15,1.0,19.0,4579.0,4597.0,,,,,verb.communication,True,38,subject,Pig Snig,1,0,1,unknown,0.0,tertiary
+76,1,hurry,14,19,4711,4716,80,1.0,4.0,4698.0,4701.0,24.0,101.0,4721.0,4798.0,verb.motion,True,39,subject,good pancake,3,13,16,unknown,0.0,secondary
+77,0,thought,12,19,4843,4850,37,0.0,11.0,4831.0,4842.0,,,,,verb.cognition,True,41,subject,The pancake,15,25,40,unknown,0.0,primary
+81,3,carry,50,55,5119,5124,60,43.0,44.0,5112.0,5113.0,60.0,73.0,5129.0,5142.0,verb.contact,True,42,subject,the pig,5,4,9,male,1.0,tertiary
+85,1,comes,67,72,5301,5306,98,45.0,66.0,5279.0,5300.0,,,,,verb.change,True,44,subject,This little chronicle,1,0,1,unknown,0.0,tertiary
+0,3,baking,78,84,78,84,17,85.0,93.0,85.0,93.0,,,,,verb.consumption,True,0,direct_object,seven hungry children,1,1,2,group/nonbinary,1.0,tertiary
+3,0,give,1,5,314,318,20,6.0,8.0,319.0,321.0,,,,,verb.possession,True,2,direct_object,one of the children,1,2,3,unknown,0.0,tertiary
+4,0,said,0,4,371,375,18,5.0,24.0,376.0,395.0,,,,,verb.communication,True,3,direct_object,The children,3,8,11,group/nonbinary,1.0,tertiary
+4,0,said,0,4,371,375,20,5.0,24.0,376.0,395.0,,,,,verb.communication,True,3,direct_object,one of the children,1,2,3,unknown,0.0,tertiary
+6,0,said,0,4,412,416,22,5.0,15.0,417.0,427.0,,,,,verb.communication,True,4,direct_object,the second,1,0,1,unknown,0.0,tertiary
+8,0,said,0,4,451,455,23,5.0,14.0,456.0,465.0,,,,,verb.communication,True,5,direct_object,the third,1,0,1,unknown,0.0,tertiary
+10,0,said,0,4,495,499,24,5.0,15.0,500.0,510.0,,,,,verb.communication,True,6,direct_object,the fourth,1,0,1,unknown,0.0,tertiary
+12,0,said,0,4,546,550,25,5.0,14.0,551.0,560.0,,,,,verb.communication,True,7,direct_object,the fifth,1,0,1,unknown,0.0,tertiary
+14,0,said,0,4,605,609,26,5.0,14.0,610.0,619.0,,,,,verb.communication,True,8,direct_object,the sixth,1,0,1,unknown,0.0,tertiary
+29,2,got,56,59,1737,1740,18,60.0,80.0,1741.0,1761.0,,,,,verb.motion,True,11,direct_object,The children,3,8,11,group/nonbinary,1.0,tertiary
+29,2,got,56,59,1737,1740,34,60.0,80.0,1741.0,1761.0,,,,,verb.motion,True,11,direct_object,The children's of them,1,0,1,unknown,0.0,tertiary
+30,2,met,31,34,1869,1872,35,35.0,40.0,1873.0,1878.0,,,,,verb.motion,True,13,direct_object,a man,1,0,1,male,1.0,tertiary
+31,0,said,21,25,1901,1905,36,26.0,33.0,1906.0,1913.0,,,,,verb.communication,True,14,direct_object,the man,2,1,3,male,1.0,tertiary
+32,0,said,21,25,1936,1940,37,26.0,37.0,1941.0,1952.0,,,,,verb.communication,True,15,direct_object,The pancake,15,25,40,unknown,0.0,primary
+34,2,eat,30,33,2024,2027,37,34.0,37.0,2028.0,2031.0,,,,,verb.consumption,True,16,direct_object,The pancake,15,25,40,unknown,0.0,primary
+36,6,leave,103,108,2151,2156,37,109.0,112.0,2157.0,2160.0,113.0,129.0,2161.0,2177.0,verb.cognition,True,17,direct_object,The pancake,15,25,40,unknown,0.0,primary
+37,0,said,0,4,2180,2184,37,5.0,58.0,2185.0,2238.0,,,,,verb.communication,True,18,direct_object,The pancake,15,25,40,unknown,0.0,primary
+38,0,said,21,25,2261,2265,40,26.0,33.0,2266.0,2273.0,,,,,verb.communication,True,19,direct_object,the hen,2,1,3,unknown,0.0,tertiary
+39,0,said,22,26,2297,2301,37,27.0,38.0,2302.0,2313.0,,,,,verb.communication,True,21,direct_object,The pancake,15,25,40,unknown,0.0,primary
+42,6,leave,116,121,2524,2529,37,122.0,125.0,2530.0,2533.0,126.0,143.0,2534.0,2551.0,verb.cognition,True,22,direct_object,The pancake,15,25,40,unknown,0.0,primary
+43,0,said,0,4,2554,2558,37,5.0,16.0,2559.0,2570.0,,,,,verb.communication,True,23,direct_object,The pancake,15,25,40,unknown,0.0,primary
+45,0,said,21,25,2656,2660,46,26.0,37.0,2661.0,2672.0,,,,,verb.communication,True,24,direct_object,the rooster,2,1,3,unknown,0.0,tertiary
+46,0,said,29,33,2703,2707,37,34.0,45.0,2708.0,2719.0,,,,,verb.communication,True,26,direct_object,The pancake,15,25,40,unknown,0.0,primary
+48,2,eat,25,28,2787,2790,80,29.0,32.0,2791.0,2794.0,33.0,35.0,2795.0,2797.0,verb.consumption,True,28,direct_object,good pancake,3,13,16,unknown,0.0,secondary
+52,0,said,21,25,3126,3130,50,26.0,34.0,3131.0,3139.0,,,,,verb.communication,True,29,direct_object,the duck,1,0,1,unknown,0.0,tertiary
+53,0,said,23,27,3164,3168,37,28.0,39.0,3169.0,3180.0,,,,,verb.communication,True,30,direct_object,The pancake,15,25,40,unknown,0.0,primary
+60,0,said,25,29,3621,3625,37,30.0,41.0,3626.0,3637.0,,,,,verb.communication,True,32,direct_object,The pancake,15,25,40,unknown,0.0,primary
+64,7,said,197,201,3931,3935,37,202.0,213.0,3936.0,3947.0,,,,,verb.communication,True,33,direct_object,The pancake,15,25,40,unknown,0.0,primary
+66,0,said,21,25,4053,4057,56,26.0,36.0,4058.0,4068.0,,,,,verb.communication,True,34,direct_object,the gander,2,1,3,unknown,0.0,tertiary
+67,0,said,28,32,4098,4102,37,33.0,44.0,4103.0,4114.0,,,,,verb.communication,True,35,direct_object,The pancake,15,25,40,unknown,0.0,primary
+73,0,said,21,25,4564,4568,60,26.0,33.0,4569.0,4576.0,,,,,verb.communication,True,37,direct_object,the pig,5,4,9,male,1.0,tertiary
+74,0,said,22,26,4600,4604,37,27.0,38.0,4605.0,4616.0,,,,,verb.communication,True,38,direct_object,The pancake,15,25,40,unknown,0.0,primary
+75,1,said,21,25,4683,4687,60,26.0,33.0,4688.0,4695.0,,,,,verb.communication,True,40,direct_object,the pig,5,4,9,male,1.0,tertiary
+81,3,carry,50,55,5119,5124,60,56.0,59.0,5125.0,5128.0,60.0,73.0,5129.0,5142.0,verb.contact,True,42,direct_object,the pig,5,4,9,male,1.0,tertiary
+84,0,said,0,4,5177,5181,60,5.0,12.0,5182.0,5189.0,,,,,verb.communication,True,43,direct_object,the pig,5,4,9,male,1.0,tertiary

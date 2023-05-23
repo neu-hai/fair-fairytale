@@ -1,0 +1,213 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,5,informed,66,74,236,244,7,54.0,56.0,224.0,226.0,,,,,verb.communication,True,1,subject,The child,2,12,14,male,1.0,tertiary
+3,5,lost,122,126,428,432,14,0.0,32.0,306.0,338.0,,,,,verb.possession,True,0,subject,The child's band to whom he had belonged,1,1,2,group/nonbinary,1.0,tertiary
+3,5,lost,122,126,428,432,7,0.0,32.0,306.0,338.0,,,,,verb.possession,True,0,subject,The child,2,12,14,male,1.0,tertiary
+5,2,gave,56,60,681,685,18,0.0,15.0,625.0,640.0,,,,,verb.possession,True,2,subject,The grandfather,1,6,7,male,1.0,tertiary
+6,1,saw,48,51,778,781,7,0.0,2.0,730.0,732.0,,,,,verb.perception,True,4,subject,The child,2,12,14,male,1.0,tertiary
+8,7,kill,125,129,995,999,18,116.0,118.0,986.0,988.0,,,,,verb.contact,True,6,subject,The grandfather,1,6,7,male,1.0,tertiary
+9,2,asked,68,73,1072,1077,24,65.0,67.0,1069.0,1071.0,,,,,verb.communication,True,7,subject,the boy,2,13,15,male,1.0,tertiary
+10,5,kill,113,117,1245,1249,24,104.0,106.0,1236.0,1238.0,,,,,verb.contact,True,8,subject,the boy,2,13,15,male,1.0,tertiary
+13,0,came,11,15,1476,1480,24,8.0,10.0,1473.0,1475.0,,,,,verb.motion,True,9,subject,the boy,2,13,15,male,1.0,tertiary
+14,0,returned,3,11,1599,1607,24,0.0,2.0,1596.0,1598.0,,,,,verb.motion,True,10,subject,the boy,2,13,15,male,1.0,tertiary
+15,1,answered,7,15,1693,1701,24,0.0,2.0,1686.0,1688.0,,,,,verb.communication,True,12,subject,the boy,2,13,15,male,1.0,tertiary
+16,3,seen,31,35,1738,1742,24,24.0,26.0,1731.0,1733.0,,,,,verb.perception,True,11,subject,the boy,2,13,15,male,1.0,tertiary
+17,2,lost,13,17,1779,1783,24,0.0,2.0,1766.0,1768.0,29.0,57.0,1795.0,1823.0,verb.possession,True,13,subject,the boy,2,13,15,male,1.0,tertiary
+18,1,see,38,41,1863,1866,36,12.0,25.0,1837.0,1850.0,,,,,verb.communication,True,14,subject,the young man,5,54,59,male,1.0,secondary
+19,1,heard,30,35,1951,1956,36,27.0,29.0,1948.0,1950.0,,,,,verb.perception,True,16,subject,the young man,5,54,59,male,1.0,secondary
+20,1,wear,11,15,2050,2054,36,0.0,3.0,2039.0,2042.0,,,,,verb.body,True,15,subject,the young man,5,54,59,male,1.0,secondary
+22,6,smoke,67,72,2191,2196,36,51.0,54.0,2175.0,2178.0,,,,,verb.consumption,True,17,subject,the young man,5,54,59,male,1.0,secondary
+23,1,see,9,12,2207,2210,36,0.0,3.0,2198.0,2201.0,,,,,verb.perception,True,18,subject,the young man,5,54,59,male,1.0,secondary
+24,0,awake,9,14,2285,2290,36,5.0,8.0,2281.0,2284.0,,,,,verb.body,True,19,subject,the young man,5,54,59,male,1.0,secondary
+26,3,smoke,58,63,2501,2506,36,54.0,57.0,2497.0,2500.0,,,,,verb.consumption,True,21,subject,the young man,5,54,59,male,1.0,secondary
+27,0,informed,15,23,2558,2566,38,0.0,9.0,2543.0,2552.0,,,,,verb.communication,True,22,subject,The voice,2,0,2,unknown,0.0,tertiary
+29,3,run,56,59,2883,2886,36,47.0,50.0,2874.0,2877.0,,,,,verb.motion,True,24,subject,the young man,5,54,59,male,1.0,secondary
+30,1,see,12,15,2916,2919,214,0.0,2.0,2904.0,2906.0,26.0,49.0,2930.0,2953.0,verb.perception,True,26,subject,the young man's enemy,1,4,5,male,1.0,tertiary
+31,1,running,14,21,2969,2976,36,6.0,9.0,2961.0,2964.0,,,,,verb.motion,True,25,subject,the young man,5,54,59,male,1.0,secondary
+32,3,turned,52,58,3112,3118,36,34.0,47.0,3094.0,3107.0,,,,,verb.motion,True,28,subject,the young man,5,54,59,male,1.0,secondary
+33,1,seen,25,29,3229,3233,36,12.0,14.0,3216.0,3218.0,,,,,verb.perception,True,27,subject,the young man,5,54,59,male,1.0,secondary
+34,1,saw,29,32,3303,3306,36,26.0,28.0,3300.0,3302.0,,,,,verb.cognition,True,30,subject,the young man,5,54,59,male,1.0,secondary
+40,3,find,90,94,3823,3827,13,0.0,15.0,3733.0,3748.0,105.0,141.0,3838.0,3874.0,verb.perception,True,32,subject,The child's grandfather,9,8,17,male,1.0,tertiary
+40,3,find,90,94,3823,3827,36,0.0,15.0,3733.0,3748.0,105.0,141.0,3838.0,3874.0,verb.perception,True,32,subject,the young man,5,54,59,male,1.0,secondary
+41,1,knowing,42,49,3972,3979,13,0.0,2.0,3930.0,3932.0,,,,,verb.cognition,True,33,subject,The child's grandfather,9,8,17,male,1.0,tertiary
+42,3,demand,105,111,4186,4192,36,36.0,49.0,4117.0,4130.0,,,,,verb.communication,True,34,subject,the young man,5,54,59,male,1.0,secondary
+44,1,reached,39,46,4308,4315,36,36.0,38.0,4305.0,4307.0,,,,,verb.motion,True,35,subject,the young man,5,54,59,male,1.0,secondary
+45,1,gave,29,33,4450,4454,61,0.0,10.0,4421.0,4431.0,47.0,75.0,4468.0,4496.0,verb.communication,True,36,subject,The giants,1,14,15,group/nonbinary,1.0,tertiary
+47,3,saying,63,69,4728,4734,61,42.0,46.0,4707.0,4711.0,,,,,verb.communication,True,38,subject,The giants,1,14,15,group/nonbinary,1.0,tertiary
+48,1,encourage,20,29,4801,4810,61,0.0,12.0,4781.0,4793.0,,,,,verb.emotion,True,39,subject,The giants,1,14,15,group/nonbinary,1.0,tertiary
+49,1,went,63,67,4952,4956,0,49.0,62.0,4938.0,4951.0,,,,,verb.motion,True,40,subject,White Feather,15,77,92,male,1.0,primary
+50,1,challenged,40,50,5025,5035,0,37.0,39.0,5022.0,5024.0,,,,,verb.communication,True,41,subject,White Feather,15,77,92,male,1.0,primary
+51,0,agreed,5,11,5063,5069,61,0.0,4.0,5058.0,5062.0,,,,,verb.communication,True,42,subject,The giants,1,14,15,group/nonbinary,1.0,tertiary
+52,2,told,56,60,5126,5130,61,51.0,55.0,5121.0,5125.0,,,,,verb.communication,True,43,subject,The giants,1,14,15,group/nonbinary,1.0,tertiary
+53,1,run,32,35,5220,5223,61,0.0,9.0,5188.0,5197.0,,,,,verb.motion,True,44,subject,The giants,1,14,15,group/nonbinary,1.0,tertiary
+55,1,overcome,24,32,5442,5450,0,3.0,16.0,5421.0,5434.0,,,,,verb.competition,True,47,subject,White Feather,15,77,92,male,1.0,primary
+56,0,gained,35,41,5584,5590,0,32.0,34.0,5581.0,5583.0,,,,,verb.possession,True,46,subject,White Feather,15,77,92,male,1.0,primary
+57,2,killed,68,74,5725,5731,67,29.0,45.0,5686.0,5702.0,,,,,verb.contact,True,48,subject,the second giant,1,0,1,unknown,0.0,tertiary
+58,1,conquering,53,63,5799,5809,0,0.0,2.0,5746.0,5748.0,,,,,verb.competition,True,49,subject,White Feather,15,77,92,male,1.0,primary
+59,3,prepared,79,87,5965,5973,0,0.0,50.0,5886.0,5936.0,,,,,verb.cognition,True,50,subject,White Feather,15,77,92,male,1.0,primary
+59,3,prepared,79,87,5965,5973,69,0.0,50.0,5886.0,5936.0,,,,,verb.cognition,True,50,subject,White Feather's last of the giants who was yet to run with him,1,0,1,unknown,0.0,tertiary
+60,2,leave,56,61,6055,6060,0,35.0,48.0,6034.0,6047.0,72.0,80.0,6071.0,6079.0,verb.cognition,True,51,subject,White Feather,15,77,92,male,1.0,primary
+61,0,declined,19,27,6154,6162,0,0.0,18.0,6135.0,6153.0,,,,,verb.communication,True,53,subject,White Feather,15,77,92,male,1.0,primary
+62,1,met,60,63,6286,6289,0,57.0,59.0,6283.0,6285.0,82.0,135.0,6308.0,6361.0,verb.motion,True,52,subject,White Feather,15,77,92,male,1.0,primary
+63,0,told,3,7,6366,6370,72,0.0,2.0,6363.0,6365.0,,,,,verb.communication,True,54,subject,White Feather's old counselor,1,1,2,unknown,0.0,tertiary
+64,2,went,67,71,6485,6489,0,64.0,66.0,6482.0,6484.0,,,,,verb.motion,True,55,subject,White Feather,15,77,92,male,1.0,primary
+65,5,changed,87,94,6654,6661,0,79.0,86.0,6646.0,6653.0,,,,,verb.change,True,56,subject,White Feather,15,77,92,male,1.0,primary
+67,1,turned,52,58,6821,6827,0,49.0,51.0,6818.0,6820.0,,,,,verb.motion,True,57,subject,White Feather,15,77,92,male,1.0,primary
+68,5,became,79,85,6948,6954,0,0.0,2.0,6869.0,6871.0,,,,,verb.change,True,58,subject,White Feather,15,77,92,male,1.0,primary
+69,0,reproached,4,14,6967,6977,75,0.0,3.0,6963.0,6966.0,,,,,verb.communication,True,59,subject,the most beautiful woman in the world,1,8,9,female,1.0,tertiary
+70,2,added,40,45,7088,7093,75,1.0,33.0,7049.0,7081.0,,,,,verb.communication,True,62,subject,the most beautiful woman in the world,1,8,9,female,1.0,tertiary
+71,1,heard,12,17,7143,7148,75,5.0,6.0,7136.0,7137.0,,,,,verb.cognition,True,61,subject,the most beautiful woman in the world,1,8,9,female,1.0,tertiary
+72,2,assumed,44,51,7248,7255,83,19.0,34.0,7223.0,7238.0,,,,,verb.cognition,True,60,subject,The sixth giant,4,1,5,unknown,0.0,tertiary
+73,0,affected,73,81,7368,7376,82,43.0,72.0,7338.0,7367.0,86.0,130.0,7381.0,7425.0,verb.emotion,True,63,subject,this woman,1,13,14,female,1.0,tertiary
+74,2,caress,40,46,7509,7515,0,28.0,30.0,7497.0,7499.0,,,,,verb.contact,True,64,subject,White Feather,15,77,92,male,1.0,primary
+76,4,feigned,90,97,7770,7777,0,67.0,76.0,7747.0,7756.0,,,,,verb.cognition,True,66,subject,White Feather,15,77,92,male,1.0,primary
+79,1,engage,28,34,8433,8439,90,0.0,9.0,8405.0,8414.0,,,,,verb.social,True,69,subject,two sisters,1,4,5,female,1.0,tertiary
+80,4,went,72,76,8596,8600,70,0.0,70.0,8524.0,8594.0,,,,,verb.motion,True,70,subject,the giant,13,40,53,male,1.0,secondary
+81,0,approached,6,16,8634,8644,70,3.0,5.0,8631.0,8633.0,,,,,verb.motion,True,72,subject,the giant,13,40,53,male,1.0,secondary
+82,1,prepared,22,30,8763,8771,102,0.0,17.0,8741.0,8758.0,41.0,120.0,8782.0,8861.0,verb.change,True,71,subject,The eldest sister,2,3,5,female,1.0,tertiary
+83,0,touched,13,20,8876,8883,104,0.0,12.0,8863.0,8875.0,29.0,41.0,8892.0,8904.0,verb.contact,True,73,subject,The youngest,1,1,2,female,1.0,tertiary
+84,2,invited,43,50,8984,8991,106,0.0,10.0,8941.0,8951.0,55.0,57.0,8996.0,8998.0,verb.social,True,74,subject,the eldest,2,2,4,female,1.0,tertiary
+85,0,accepted,3,11,9003,9011,70,0.0,2.0,9000.0,9002.0,,,,,verb.possession,True,75,subject,the giant,13,40,53,male,1.0,secondary
+86,0,invited,20,27,9071,9078,109,0.0,19.0,9051.0,9070.0,,,,,verb.emotion,True,76,subject,the youngest sister,2,3,5,female,1.0,tertiary
+87,5,hallooing,129,138,9322,9331,113,0.0,9.0,9193.0,9202.0,157.0,178.0,9350.0,9371.0,verb.communication,True,77,subject,whoever possessed the white feather,1,0,1,unknown,0.0,tertiary
+87,5,hallooing,129,138,9322,9331,70,0.0,9.0,9193.0,9202.0,157.0,178.0,9350.0,9371.0,verb.communication,True,77,subject,the giant,13,40,53,male,1.0,secondary
+88,2,returned,58,66,9430,9438,70,55.0,57.0,9427.0,9429.0,,,,,verb.motion,True,79,subject,the giant,13,40,53,male,1.0,secondary
+89,1,shouted,12,19,9485,9492,70,5.0,7.0,9478.0,9480.0,,,,,verb.communication,True,78,subject,the giant,13,40,53,male,1.0,secondary
+91,0,stole,3,8,9678,9683,70,0.0,2.0,9675.0,9677.0,58.0,107.0,9733.0,9782.0,verb.motion,True,80,subject,the giant,13,40,53,male,1.0,secondary
+92,0,followed,23,31,9816,9824,70,13.0,22.0,9806.0,9815.0,,,,,verb.motion,True,81,subject,the giant,13,40,53,male,1.0,secondary
+94,2,catch,35,40,10026,10031,70,28.0,29.0,10019.0,10020.0,53.0,63.0,10044.0,10054.0,verb.cognition,True,82,subject,the giant,13,40,53,male,1.0,secondary
+95,3,imitating,77,86,10134,10143,70,43.0,52.0,10100.0,10109.0,,,,,verb.creation,True,83,subject,the giant,13,40,53,male,1.0,secondary
+96,1,hastened,24,32,10290,10298,70,21.0,23.0,10287.0,10289.0,39.0,177.0,10305.0,10443.0,verb.motion,True,84,subject,the giant,13,40,53,male,1.0,secondary
+97,0,reached,8,15,10453,10460,70,5.0,7.0,10450.0,10452.0,,,,,verb.motion,True,85,subject,the giant,13,40,53,male,1.0,secondary
+98,2,gave,36,40,10582,10586,70,33.0,35.0,10579.0,10581.0,,,,,verb.communication,True,86,subject,the giant,13,40,53,male,1.0,secondary
+99,2,returned,45,53,10692,10700,108,0.0,3.0,10647.0,10650.0,,,,,verb.motion,True,88,subject,the giant's wife,4,14,18,female,1.0,tertiary
+100,4,discovered,75,85,10830,10840,70,35.0,65.0,10790.0,10820.0,,,,,verb.possession,True,87,subject,the giant,13,40,53,male,1.0,secondary
+101,0,appeared,15,23,10970,10978,70,0.0,9.0,10955.0,10964.0,,,,,verb.perception,True,89,subject,the giant,13,40,53,male,1.0,secondary
+105,0,attempted,20,29,11293,11302,70,1.0,9.0,11274.0,11282.0,,,,,verb.social,True,92,subject,the giant,13,40,53,male,1.0,secondary
+106,3,asked,82,87,11394,11399,109,61.0,73.0,11373.0,11385.0,,,,,verb.communication,True,91,subject,the youngest sister,2,3,5,female,1.0,tertiary
+107,3,make,72,76,11670,11674,108,41.0,44.0,11639.0,11642.0,,,,,verb.creation,True,93,subject,the giant's wife,4,14,18,female,1.0,tertiary
+110,3,oblige,54,60,12157,12163,108,35.0,38.0,12138.0,12141.0,,,,,verb.social,True,96,subject,the giant's wife,4,14,18,female,1.0,tertiary
+111,0,made,16,20,12185,12189,108,0.0,15.0,12169.0,12184.0,,,,,verb.creation,True,95,subject,the giant's wife,4,14,18,female,1.0,tertiary
+112,1,poured,35,41,12272,12278,108,0.0,3.0,12237.0,12240.0,59.0,176.0,12296.0,12413.0,verb.motion,True,97,subject,the giant's wife,4,14,18,female,1.0,tertiary
+115,3,told,106,110,12846,12850,152,9.0,25.0,12749.0,12765.0,,,,,verb.communication,True,98,subject,the elder sister,1,9,10,female,1.0,tertiary
+116,3,bringing,80,88,13020,13028,108,54.0,71.0,12994.0,13011.0,,,,,verb.communication,True,99,subject,the giant's wife,4,14,18,female,1.0,tertiary
+117,4,come,134,138,13298,13302,161,109.0,130.0,13273.0,13294.0,,,,,verb.motion,True,100,subject,The old man,1,2,3,male,1.0,tertiary
+117,4,come,134,138,13298,13302,166,109.0,130.0,13273.0,13294.0,,,,,verb.motion,True,100,subject,The old man's youngest daughter,1,0,1,unknown,0.0,tertiary
+118,0,reached,20,27,13368,13375,167,5.0,19.0,13353.0,13367.0,,,,,verb.motion,True,101,subject,the deputation,1,6,7,group/nonbinary,1.0,tertiary
+119,1,returned,43,51,13501,13509,167,34.0,42.0,13492.0,13500.0,,,,,verb.motion,True,102,subject,the deputation,1,6,7,group/nonbinary,1.0,tertiary
+120,1,come,69,73,13638,13642,171,25.0,65.0,13594.0,13634.0,,,,,verb.motion,True,103,subject,all the old and wise heads of the nation,1,0,1,unknown,0.0,tertiary
+121,0,thrust,58,64,13790,13796,83,0.0,15.0,13732.0,13747.0,,,,,verb.motion,True,104,subject,The sixth giant,4,1,5,unknown,0.0,tertiary
+122,9,smoked,176,182,14022,14028,178,171.0,175.0,14017.0,14021.0,,,,,verb.consumption,True,105,subject,the Indians around,1,1,2,group/nonbinary,1.0,tertiary
+123,0,passed,5,11,14035,14041,167,0.0,4.0,14030.0,14034.0,15.0,126.0,14045.0,14156.0,verb.motion,True,106,subject,the deputation,1,6,7,group/nonbinary,1.0,tertiary
+124,2,swelled,88,95,14246,14253,70,4.0,13.0,14162.0,14171.0,,,,,verb.change,True,107,subject,the giant,13,40,53,male,1.0,secondary
+126,0,took,13,17,14332,14336,181,0.0,7.0,14319.0,14326.0,21.0,28.0,14340.0,14347.0,verb.possession,True,108,subject,The Dog,1,1,2,unknown,0.0,tertiary
+127,0,made,3,7,14352,14356,170,0.0,2.0,14349.0,14351.0,23.0,61.0,14372.0,14410.0,verb.social,True,109,subject,the old chief,5,5,10,male,1.0,tertiary
+128,2,recovered,33,42,14445,14454,170,30.0,32.0,14442.0,14444.0,,,,,verb.possession,True,110,subject,the old chief,5,5,10,male,1.0,tertiary
+129,10,turned,299,305,14895,14901,70,251.0,260.0,14847.0,14856.0,,,,,verb.motion,True,112,subject,the giant,13,40,53,male,1.0,secondary
+130,3,troubled,66,74,15051,15059,191,19.0,39.0,15004.0,15024.0,93.0,113.0,15078.0,15098.0,verb.social,True,111,subject,the whole six giants,1,0,1,unknown,0.0,tertiary
+131,2,employ,98,104,15198,15204,194,73.0,90.0,15173.0,15190.0,,,,,verb.consumption,True,113,subject,the young men,1,8,9,male,1.0,tertiary
+132,0,asked,19,24,15263,15268,0,0.0,13.0,15244.0,15257.0,,,,,verb.communication,True,114,subject,White Feather,15,77,92,male,1.0,primary
+133,2,went,75,79,15364,15368,0,72.0,74.0,15361.0,15363.0,,,,,verb.motion,True,115,subject,White Feather,15,77,92,male,1.0,primary
+134,0,invited,32,39,15454,15461,0,29.0,31.0,15451.0,15453.0,,,,,verb.communication,True,116,subject,White Feather,15,77,92,male,1.0,primary
+135,1,found,41,46,15588,15593,194,36.0,40.0,15583.0,15587.0,,,,,verb.cognition,True,117,subject,the young men,1,8,9,male,1.0,tertiary
+136,0,killed,14,20,15651,15657,194,3.0,8.0,15640.0,15645.0,,,,,verb.contact,True,118,subject,the young men,1,8,9,male,1.0,tertiary
+137,2,ask,62,65,15840,15843,108,50.0,58.0,15828.0,15836.0,,,,,verb.communication,True,119,subject,the giant's wife,4,14,18,female,1.0,tertiary
+137,2,ask,62,65,15840,15843,0,50.0,58.0,15828.0,15836.0,,,,,verb.communication,True,119,subject,White Feather,15,77,92,male,1.0,primary
+138,2,follow,61,67,15975,15981,203,48.0,55.0,15962.0,15969.0,,,,,verb.motion,True,120,subject,a woman,1,1,2,female,1.0,tertiary
+139,1,placed,51,57,16101,16107,0,37.0,50.0,16087.0,16100.0,,,,,verb.contact,True,121,subject,White Feather,15,77,92,male,1.0,primary
+2,5,informed,66,74,236,244,13,75.0,134.0,245.0,304.0,,,,,verb.communication,True,1,direct_object,The child's grandfather,9,8,17,male,1.0,tertiary
+2,5,informed,66,74,236,244,12,75.0,134.0,245.0,304.0,,,,,verb.communication,True,1,direct_object,The child's other relative living beside his grandfather,1,0,1,male,1.0,tertiary
+2,5,informed,66,74,236,244,7,75.0,134.0,245.0,304.0,,,,,verb.communication,True,1,direct_object,The child,2,12,14,male,1.0,tertiary
+3,5,lost,122,126,428,432,15,127.0,131.0,433.0,437.0,,,,,verb.possession,True,0,direct_object,The child's band to whom he had belonged's children,1,1,2,group/nonbinary,1.0,tertiary
+4,2,produce,65,72,504,511,17,73.0,184.0,512.0,623.0,,,,,verb.creation,True,3,direct_object,"a great man , who would wear a white feather , and who would astonish every one",1,1,2,male,1.0,tertiary
+5,2,gave,56,60,681,685,7,61.0,64.0,686.0,689.0,,,,,verb.possession,True,2,direct_object,The child,2,12,14,male,1.0,tertiary
+7,0,knowing,9,16,800,807,7,17.0,28.0,808.0,819.0,,,,,verb.cognition,True,5,direct_object,The child,2,12,14,male,1.0,tertiary
+9,2,asked,68,73,1072,1077,13,74.0,89.0,1078.0,1093.0,,,,,verb.communication,True,7,direct_object,The child's grandfather,9,8,17,male,1.0,tertiary
+9,2,asked,68,73,1072,1077,7,74.0,89.0,1078.0,1093.0,,,,,verb.communication,True,7,direct_object,The child,2,12,14,male,1.0,tertiary
+13,0,came,11,15,1476,1480,13,16.0,129.0,1481.0,1594.0,,,,,verb.motion,True,9,direct_object,The child's grandfather,9,8,17,male,1.0,tertiary
+13,0,came,11,15,1476,1480,24,16.0,129.0,1481.0,1594.0,,,,,verb.motion,True,9,direct_object,the boy,2,13,15,male,1.0,tertiary
+13,0,came,11,15,1476,1480,7,16.0,129.0,1481.0,1594.0,,,,,verb.motion,True,9,direct_object,The child,2,12,14,male,1.0,tertiary
+17,2,lost,13,17,1779,1783,24,18.0,28.0,1784.0,1794.0,29.0,57.0,1795.0,1823.0,verb.possession,True,13,direct_object,the boy,2,13,15,male,1.0,tertiary
+19,1,heard,30,35,1951,1956,36,36.0,116.0,1957.0,2037.0,,,,,verb.perception,True,16,direct_object,the young man,5,54,59,male,1.0,secondary
+25,0,put,0,3,2321,2324,36,4.0,15.0,2325.0,2336.0,,,,,verb.contact,True,20,direct_object,the young man,5,54,59,male,1.0,secondary
+27,0,informed,15,23,2558,2566,36,24.0,48.0,2567.0,2591.0,,,,,verb.communication,True,22,direct_object,the young man,5,54,59,male,1.0,secondary
+28,3,told,64,68,2755,2759,41,69.0,72.0,2760.0,2763.0,,,,,verb.communication,True,23,direct_object,the young man's kindred,1,0,1,unknown,0.0,tertiary
+28,3,told,64,68,2755,2759,36,69.0,72.0,2760.0,2763.0,,,,,verb.communication,True,23,direct_object,the young man,5,54,59,male,1.0,secondary
+29,3,run,56,59,2883,2886,214,60.0,75.0,2887.0,2902.0,,,,,verb.motion,True,24,direct_object,the young man's enemy,1,4,5,male,1.0,tertiary
+33,1,seen,25,29,3229,3233,13,30.0,68.0,3234.0,3272.0,,,,,verb.perception,True,27,direct_object,The child's grandfather,9,8,17,male,1.0,tertiary
+33,1,seen,25,29,3229,3233,45,30.0,68.0,3234.0,3272.0,,,,,verb.perception,True,27,direct_object,any human being,1,0,1,unknown,0.0,tertiary
+33,1,seen,25,29,3229,3233,36,30.0,68.0,3234.0,3272.0,,,,,verb.perception,True,27,direct_object,the young man,5,54,59,male,1.0,secondary
+34,1,saw,29,32,3303,3306,47,33.0,160.0,3307.0,3434.0,,,,,verb.cognition,True,30,direct_object,"this man , who had the looks of great age",1,1,2,male,1.0,tertiary
+35,3,addressed,128,137,3564,3573,36,138.0,141.0,3574.0,3577.0,,,,,verb.communication,True,29,direct_object,the young man,5,54,59,male,1.0,secondary
+38,0,heard,62,67,3678,3683,38,68.0,77.0,3684.0,3693.0,,,,,verb.perception,True,31,direct_object,The voice,2,0,2,unknown,0.0,tertiary
+40,3,find,90,94,3823,3827,52,95.0,104.0,3828.0,3837.0,105.0,141.0,3838.0,3874.0,verb.perception,True,32,direct_object,the youth,1,2,3,male,1.0,tertiary
+41,1,knowing,42,49,3972,3979,13,50.0,149.0,3980.0,4079.0,,,,,verb.cognition,True,33,direct_object,The child's grandfather,9,8,17,male,1.0,tertiary
+44,1,reached,39,46,4308,4315,60,47.0,150.0,4316.0,4419.0,,,,,verb.motion,True,35,direct_object,the little spirits who carry the news,1,0,1,unknown,0.0,tertiary
+44,1,reached,39,46,4308,4315,36,47.0,150.0,4316.0,4419.0,,,,,verb.motion,True,35,direct_object,the young man,5,54,59,male,1.0,secondary
+46,4,comes,79,84,4577,4582,215,85.0,164.0,4583.0,4662.0,,,,,verb.motion,True,37,direct_object,"the little man with the white feather , who is to achieve such wonderful wonders",1,0,1,male,1.0,tertiary
+47,3,saying,63,69,4728,4734,62,70.0,114.0,4735.0,4779.0,,,,,verb.communication,True,38,direct_object,a brave man,1,0,1,male,1.0,tertiary
+47,3,saying,63,69,4728,4734,36,70.0,114.0,4735.0,4779.0,,,,,verb.communication,True,38,direct_object,the young man,5,54,59,male,1.0,secondary
+48,1,encourage,20,29,4801,4810,36,30.0,33.0,4811.0,4814.0,,,,,verb.emotion,True,39,direct_object,the young man,5,54,59,male,1.0,secondary
+49,1,went,63,67,4952,4956,61,68.0,78.0,4957.0,4967.0,,,,,verb.motion,True,40,direct_object,The giants,1,14,15,group/nonbinary,1.0,tertiary
+50,1,challenged,40,50,5025,5035,61,51.0,55.0,5036.0,5040.0,,,,,verb.communication,True,41,direct_object,The giants,1,14,15,group/nonbinary,1.0,tertiary
+52,2,told,56,60,5126,5130,61,61.0,64.0,5131.0,5134.0,,,,,verb.communication,True,43,direct_object,The giants,1,14,15,group/nonbinary,1.0,tertiary
+52,2,told,56,60,5126,5130,36,61.0,64.0,5131.0,5134.0,,,,,verb.communication,True,43,direct_object,the young man,5,54,59,male,1.0,secondary
+54,4,dispatching,51,62,5383,5394,64,63.0,84.0,5395.0,5416.0,,,,,verb.contact,True,45,direct_object,the defeated champion,1,0,1,unknown,0.0,tertiary
+55,1,overcome,24,32,5442,5450,65,33.0,48.0,5451.0,5466.0,,,,,verb.competition,True,47,direct_object,the first giant,1,0,1,unknown,0.0,tertiary
+58,1,conquering,53,63,5799,5809,0,64.0,86.0,5810.0,5832.0,,,,,verb.competition,True,49,direct_object,White Feather,15,77,92,male,1.0,primary
+59,3,prepared,79,87,5965,5973,0,97.0,111.0,5983.0,5997.0,,,,,verb.cognition,True,50,direct_object,White Feather,15,77,92,male,1.0,primary
+62,1,met,60,63,6286,6289,72,64.0,81.0,6290.0,6307.0,82.0,135.0,6308.0,6361.0,verb.motion,True,52,direct_object,White Feather's old counselor,1,1,2,unknown,0.0,tertiary
+62,1,met,60,63,6286,6289,0,64.0,81.0,6290.0,6307.0,82.0,135.0,6308.0,6361.0,verb.motion,True,52,direct_object,White Feather,15,77,92,male,1.0,primary
+63,0,told,3,7,6366,6370,0,8.0,21.0,6371.0,6384.0,,,,,verb.communication,True,54,direct_object,White Feather,15,77,92,male,1.0,primary
+64,2,went,67,71,6485,6489,0,72.0,82.0,6490.0,6500.0,,,,,verb.motion,True,55,direct_object,White Feather,15,77,92,male,1.0,primary
+68,5,became,79,85,6948,6954,80,86.0,92.0,6955.0,6961.0,,,,,verb.change,True,58,direct_object,an elk,1,0,1,unknown,0.0,tertiary
+69,0,reproached,4,14,6967,6977,75,15.0,18.0,6978.0,6981.0,,,,,verb.communication,True,59,direct_object,the most beautiful woman in the world,1,8,9,female,1.0,tertiary
+69,0,reproached,4,14,6967,6977,81,15.0,18.0,6978.0,6981.0,,,,,verb.communication,True,59,direct_object,White Feather's man that he might avoid her,1,0,1,male,1.0,tertiary
+69,0,reproached,4,14,6967,6977,0,15.0,18.0,6978.0,6981.0,,,,,verb.communication,True,59,direct_object,White Feather,15,77,92,male,1.0,primary
+71,1,heard,12,17,7143,7148,0,18.0,44.0,7149.0,7175.0,,,,,verb.cognition,True,61,direct_object,White Feather,15,77,92,male,1.0,primary
+72,2,assumed,44,51,7248,7255,0,52.0,89.0,7256.0,7293.0,,,,,verb.cognition,True,60,direct_object,White Feather,15,77,92,male,1.0,primary
+73,0,affected,73,81,7368,7376,0,82.0,85.0,7377.0,7380.0,86.0,130.0,7381.0,7425.0,verb.emotion,True,63,direct_object,White Feather,15,77,92,male,1.0,primary
+75,0,soothed,0,7,7541,7548,82,11.0,46.0,7552.0,7587.0,,,,,verb.emotion,True,65,direct_object,this woman,1,13,14,female,1.0,tertiary
+75,0,soothed,0,7,7541,7548,0,11.0,46.0,7552.0,7587.0,,,,,verb.emotion,True,65,direct_object,White Feather,15,77,92,male,1.0,primary
+77,7,changed,257,264,8036,8043,0,265.0,268.0,8044.0,8047.0,,,,,verb.change,True,67,direct_object,White Feather,15,77,92,male,1.0,primary
+77,7,changed,257,264,8036,8043,87,265.0,268.0,8044.0,8047.0,,,,,verb.change,True,67,direct_object,White Feather's enemy,1,0,1,unknown,0.0,tertiary
+78,9,visit,267,272,8386,8391,90,273.0,284.0,8392.0,8403.0,,,,,verb.social,True,68,direct_object,two sisters,1,4,5,female,1.0,tertiary
+79,1,engage,28,34,8433,8439,0,35.0,49.0,8440.0,8454.0,,,,,verb.social,True,69,direct_object,White Feather,15,77,92,male,1.0,primary
+82,1,prepared,22,30,8763,8771,102,31.0,40.0,8772.0,8781.0,41.0,120.0,8782.0,8861.0,verb.change,True,71,direct_object,The eldest sister,2,3,5,female,1.0,tertiary
+84,2,invited,43,50,8984,8991,70,51.0,54.0,8992.0,8995.0,55.0,57.0,8996.0,8998.0,verb.social,True,74,direct_object,the giant,13,40,53,male,1.0,secondary
+85,0,accepted,3,11,9003,9011,106,12.0,26.0,9012.0,9026.0,,,,,verb.possession,True,75,direct_object,the eldest,2,2,4,female,1.0,tertiary
+86,0,invited,20,27,9071,9078,109,28.0,45.0,9079.0,9096.0,,,,,verb.emotion,True,76,direct_object,the youngest sister,2,3,5,female,1.0,tertiary
+89,1,shouted,12,19,9485,9492,70,44.0,135.0,9517.0,9608.0,,,,,verb.communication,True,78,direct_object,the giant,13,40,53,male,1.0,secondary
+95,3,imitating,77,86,10134,10143,70,87.0,94.0,10144.0,10151.0,,,,,verb.creation,True,83,direct_object,the giant,13,40,53,male,1.0,secondary
+102,3,tied,79,83,11180,11184,70,84.0,95.0,11185.0,11196.0,,,,,verb.contact,True,90,direct_object,the giant,13,40,53,male,1.0,secondary
+106,3,asked,82,87,11394,11399,109,88.0,102.0,11400.0,11414.0,,,,,verb.communication,True,91,direct_object,the youngest sister,2,3,5,female,1.0,tertiary
+107,3,make,72,76,11670,11674,140,77.0,121.0,11675.0,11719.0,,,,,verb.creation,True,93,direct_object,the giant's wife's father,3,11,14,male,1.0,tertiary
+107,3,make,72,76,11670,11674,141,77.0,121.0,11675.0,11719.0,,,,,verb.creation,True,93,direct_object,the giant's wife's valuable husband she had,1,0,1,male,1.0,tertiary
+107,3,make,72,76,11670,11674,108,77.0,121.0,11675.0,11719.0,,,,,verb.creation,True,93,direct_object,the giant's wife,4,14,18,female,1.0,tertiary
+109,3,sweat,96,101,12060,12065,140,102.0,105.0,12066.0,12069.0,106.0,137.0,12070.0,12101.0,verb.body,True,94,direct_object,the giant's wife's father,3,11,14,male,1.0,tertiary
+110,3,oblige,54,60,12157,12163,140,61.0,64.0,12164.0,12167.0,,,,,verb.social,True,96,direct_object,the giant's wife's father,3,11,14,male,1.0,tertiary
+111,0,made,16,20,12185,12189,140,21.0,66.0,12190.0,12235.0,,,,,verb.creation,True,95,direct_object,the giant's wife's father,3,11,14,male,1.0,tertiary
+115,3,told,106,110,12846,12850,140,111.0,114.0,12851.0,12854.0,,,,,verb.communication,True,98,direct_object,the giant's wife's father,3,11,14,male,1.0,tertiary
+115,3,told,106,110,12846,12850,154,111.0,114.0,12851.0,12854.0,,,,,verb.communication,True,98,direct_object,the elder sister's sister,2,0,2,female,1.0,tertiary
+115,3,told,106,110,12846,12850,143,111.0,114.0,12851.0,12854.0,,,,,verb.communication,True,98,direct_object,the giant's wife's husband,3,1,4,male,1.0,tertiary
+115,3,told,106,110,12846,12850,152,111.0,114.0,12851.0,12854.0,,,,,verb.communication,True,98,direct_object,the elder sister,1,9,10,female,1.0,tertiary
+116,3,bringing,80,88,13020,13028,157,89.0,93.0,13029.0,13033.0,,,,,verb.communication,True,99,direct_object,the family,1,0,1,unknown,0.0,tertiary
+117,4,come,134,138,13298,13302,161,139.0,145.0,13303.0,13309.0,,,,,verb.motion,True,100,direct_object,The old man,1,2,3,male,1.0,tertiary
+119,1,returned,43,51,13501,13509,170,52.0,109.0,13510.0,13567.0,,,,,verb.motion,True,102,direct_object,the old chief,5,5,10,male,1.0,tertiary
+121,0,thrust,58,64,13790,13796,175,65.0,72.0,13797.0,13804.0,,,,,verb.motion,True,104,direct_object,the relations of the old chief,1,0,1,unknown,0.0,tertiary
+121,0,thrust,58,64,13790,13796,170,65.0,72.0,13797.0,13804.0,,,,,verb.motion,True,104,direct_object,the old chief,5,5,10,male,1.0,tertiary
+121,0,thrust,58,64,13790,13796,83,65.0,72.0,13797.0,13804.0,,,,,verb.motion,True,104,direct_object,The sixth giant,4,1,5,unknown,0.0,tertiary
+124,2,swelled,88,95,14246,14253,70,96.0,105.0,14254.0,14263.0,,,,,verb.change,True,107,direct_object,the giant,13,40,53,male,1.0,secondary
+127,0,made,3,7,14352,14356,167,8.0,22.0,14357.0,14371.0,23.0,61.0,14372.0,14410.0,verb.social,True,109,direct_object,the deputation,1,6,7,group/nonbinary,1.0,tertiary
+128,2,recovered,33,42,14445,14454,170,43.0,53.0,14455.0,14465.0,,,,,verb.possession,True,110,direct_object,the old chief,5,5,10,male,1.0,tertiary
+129,10,turned,299,305,14895,14901,190,306.0,388.0,14902.0,14984.0,,,,,verb.motion,True,112,direct_object,the boys,1,0,1,male,1.0,tertiary
+129,10,turned,299,305,14895,14901,70,306.0,388.0,14902.0,14984.0,,,,,verb.motion,True,112,direct_object,the giant,13,40,53,male,1.0,secondary
+131,2,employ,98,104,15198,15204,194,105.0,115.0,15205.0,15215.0,,,,,verb.consumption,True,113,direct_object,the young men,1,8,9,male,1.0,tertiary
+134,0,invited,32,39,15454,15461,194,40.0,44.0,15462.0,15466.0,,,,,verb.communication,True,116,direct_object,the young men,1,8,9,male,1.0,tertiary
+134,0,invited,32,39,15454,15461,0,40.0,44.0,15462.0,15466.0,,,,,verb.communication,True,116,direct_object,White Feather,15,77,92,male,1.0,primary
+137,2,ask,62,65,15840,15843,140,66.0,78.0,15844.0,15856.0,,,,,verb.communication,True,119,direct_object,the giant's wife's father,3,11,14,male,1.0,tertiary
+137,2,ask,62,65,15840,15843,0,66.0,78.0,15844.0,15856.0,,,,,verb.communication,True,119,direct_object,White Feather,15,77,92,male,1.0,primary
+137,2,ask,62,65,15840,15843,108,66.0,78.0,15844.0,15856.0,,,,,verb.communication,True,119,direct_object,the giant's wife,4,14,18,female,1.0,tertiary
+137,2,ask,62,65,15840,15843,13,66.0,78.0,15844.0,15856.0,,,,,verb.communication,True,119,direct_object,The child's grandfather,9,8,17,male,1.0,tertiary
+138,2,follow,61,67,15975,15981,143,68.0,79.0,15982.0,15993.0,,,,,verb.motion,True,120,direct_object,the giant's wife's husband,3,1,4,male,1.0,tertiary
+138,2,follow,61,67,15975,15981,203,68.0,79.0,15982.0,15993.0,,,,,verb.motion,True,120,direct_object,a woman,1,1,2,female,1.0,tertiary
+139,1,placed,51,57,16101,16107,0,58.0,67.0,16108.0,16117.0,,,,,verb.contact,True,121,direct_object,White Feather,15,77,92,male,1.0,primary

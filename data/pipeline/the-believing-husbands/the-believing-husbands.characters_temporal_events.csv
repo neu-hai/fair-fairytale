@@ -1,0 +1,188 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+7,2,sent,46,50,586,590,15,26.0,41.0,566.0,581.0,56.0,116.0,596.0,656.0,verb.motion,2,subject,the young woman,1,8,9,female,1.0,secondary
+7,3,bring,59,64,599,604,15,26.0,41.0,566.0,581.0,,,,,verb.contact,3,subject,the young woman,1,8,9,female,1.0,secondary
+7,4,give,88,92,628,632,15,26.0,41.0,566.0,581.0,,,,,verb.possession,4,subject,the young woman,1,8,9,female,1.0,secondary
+8,1,saw,45,48,703,706,15,32.0,35.0,690.0,693.0,,,,,verb.perception,5,subject,the young woman,1,8,9,female,1.0,secondary
+9,0,jumped,4,10,774,780,15,0.0,3.0,770.0,773.0,,,,,verb.motion,6,subject,the young woman,1,8,9,female,1.0,secondary
+9,1,said,15,19,785,789,15,0.0,3.0,770.0,773.0,,,,,verb.communication,7,subject,the young woman,1,8,9,female,1.0,secondary
+10,2,began,75,80,956,961,15,4.0,7.0,885.0,888.0,,,,,verb.change,10,subject,the young woman,1,8,9,female,1.0,secondary
+11,0,grew,31,35,1001,1005,19,4.0,30.0,974.0,1000.0,,,,,verb.change,11,subject,the others out on the moor,1,1,2,group/nonbinary,1.0,tertiary
+14,0,declared,21,29,1093,1101,21,10.0,20.0,1082.0,1092.0,,,,,verb.communication,14,subject,the mother,1,1,2,female,1.0,tertiary
+14,5,see,77,80,1149,1152,21,35.0,38.0,1107.0,1110.0,,,,,verb.social,15,subject,the mother,1,1,2,female,1.0,tertiary
+16,0,found,4,9,1266,1271,25,0.0,3.0,1262.0,1265.0,,,,,verb.perception,17,subject,The old woman,3,9,12,female,1.0,secondary
+16,1,weeping,23,30,1285,1292,27,10.0,22.0,1272.0,1284.0,,,,,verb.body,16,subject,The old woman's daughter,2,0,2,unknown,0.0,tertiary
+16,1,weeping,23,30,1285,1292,25,10.0,22.0,1272.0,1284.0,,,,,verb.body,16,subject,The old woman,3,9,12,female,1.0,secondary
+18,0,answered,13,21,1347,1355,6,4.0,12.0,1338.0,1346.0,,,,,verb.communication,20,subject,The girl,3,8,11,female,1.0,secondary
+18,2,saw,61,64,1395,1398,6,47.0,48.0,1381.0,1382.0,,,,,verb.perception,18,subject,The girl,3,8,11,female,1.0,secondary
+18,4,thought,97,104,1431,1438,6,95.0,96.0,1429.0,1430.0,,,,,verb.cognition,21,subject,The girl,3,8,11,female,1.0,secondary
+19,0,cried,4,9,1495,1500,6,0.0,3.0,1491.0,1494.0,,,,,verb.communication,22,subject,The girl,3,8,11,female,1.0,secondary
+20,0,struck,14,20,1535,1541,25,0.0,13.0,1521.0,1534.0,31.0,60.0,1552.0,1581.0,verb.contact,23,subject,The old woman,3,9,12,female,1.0,secondary
+21,3,do,34,36,1617,1619,25,20.0,24.0,1603.0,1607.0,,,,,verb.social,25,subject,The old woman,3,9,12,female,1.0,secondary
+26,0,went,7,11,1864,1868,32,4.0,6.0,1861.0,1863.0,,,,,verb.motion,26,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+26,1,found,16,21,1873,1878,32,4.0,6.0,1861.0,1863.0,27.0,40.0,1884.0,1897.0,verb.possession,27,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+30,3,see,60,63,1997,2000,77,52.0,55.0,1989.0,1992.0,,,,,verb.perception,29,subject,our daughter,1,4,5,female,1.0,tertiary
+31,0,thought,4,11,2036,2043,77,0.0,3.0,2032.0,2035.0,,,,,verb.cognition,31,subject,our daughter,1,4,5,female,1.0,tertiary
+33,1,striking,14,22,2139,2147,32,10.0,12.0,2135.0,2137.0,,,,,verb.contact,34,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+34,1,wept,28,32,2196,2200,32,0.0,2.0,2168.0,2170.0,,,,,verb.body,35,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+35,1,returned,36,44,2242,2250,36,22.0,35.0,2228.0,2241.0,,,,,verb.motion,36,subject,the young man,2,0,2,male,1.0,tertiary
+39,2,saw,53,56,2404,2407,79,49.0,52.0,2400.0,2403.0,,,,,verb.perception,37,subject,the farmer's wife,1,4,5,female,1.0,tertiary
+42,1,get,30,33,2591,2594,32,0.0,2.0,2561.0,2563.0,,,,,verb.possession,40,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+43,1,said,45,49,2696,2700,32,17.0,19.0,2668.0,2670.0,,,,,verb.communication,41,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+43,4,return,132,138,2783,2789,32,114.0,121.0,2765.0,2772.0,152.0,204.0,2803.0,2855.0,verb.motion,43,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+43,6,found,164,169,2815,2820,32,157.0,158.0,2808.0,2809.0,,,,,verb.possession,42,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+44,1,came,23,27,2881,2885,32,20.0,22.0,2878.0,2880.0,,,,,verb.motion,44,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+45,0,entered,3,10,2955,2962,32,0.0,2.0,2952.0,2954.0,,,,,verb.motion,46,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+46,1,spinning,40,48,3004,3012,47,24.0,39.0,2988.0,3003.0,,,,,verb.motion,45,subject,some women,1,5,6,female,1.0,tertiary
+47,2,said,34,38,3064,3068,25,0.0,31.0,3030.0,3061.0,,,,,verb.communication,48,subject,The old woman,3,9,12,female,1.0,secondary
+48,0,speak,5,10,3078,3083,25,1.0,4.0,3074.0,3077.0,,,,,verb.communication,47,subject,The old woman,3,9,12,female,1.0,secondary
+48,1,answered,24,32,3097,3105,47,19.0,23.0,3092.0,3096.0,,,,,verb.communication,49,subject,some women,1,5,6,female,1.0,tertiary
+50,0,looked,10,16,3196,3202,48,0.0,9.0,3186.0,3195.0,,,,,verb.perception,51,subject,The women,1,0,1,female,1.0,tertiary
+51,2,make,46,50,3264,3268,84,39.0,41.0,3257.0,3259.0,,,,,verb.communication,52,subject,The men of the town,1,3,4,male,1.0,tertiary
+51,3,believe,56,63,3274,3281,84,51.0,55.0,3269.0,3273.0,,,,,verb.cognition,53,subject,The men of the town,1,3,4,male,1.0,tertiary
+51,4,please,76,82,3294,3300,84,64.0,72.0,3282.0,3290.0,,,,,verb.emotion,54,subject,The men of the town,1,3,4,male,1.0,tertiary
+51,5,said,85,89,3303,3307,84,1.0,82.0,3219.0,3300.0,,,,,verb.communication,55,subject,The men of the town,1,3,4,male,1.0,tertiary
+52,3,give,53,57,3367,3371,32,46.0,47.0,3360.0,3361.0,,,,,verb.possession,57,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+52,5,make,92,96,3406,3410,47,64.0,83.0,3378.0,3397.0,,,,,verb.change,58,subject,some women,1,5,6,female,1.0,tertiary
+52,6,believe,109,116,3423,3430,11,97.0,108.0,3411.0,3422.0,,,,,verb.cognition,59,subject,The girl's husband,2,0,2,male,1.0,tertiary
+52,6,believe,109,116,3423,3430,13,97.0,108.0,3411.0,3422.0,,,,,verb.cognition,59,subject,the father's wife,9,6,15,female,1.0,primary
+53,0,left,3,7,3462,3466,32,0.0,2.0,3459.0,3461.0,,,,,verb.motion,60,subject,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+54,1,said,48,52,3521,3525,13,39.0,47.0,3512.0,3520.0,,,,,verb.communication,61,subject,the father's wife,9,6,15,female,1.0,primary
+54,1,said,48,52,3521,3525,50,39.0,47.0,3512.0,3520.0,,,,,verb.communication,61,subject,the first husband,1,23,24,male,1.0,primary
+57,0,answered,21,29,3590,3598,13,0.0,14.0,3569.0,3583.0,,,,,verb.communication,62,subject,the father's wife,9,6,15,female,1.0,primary
+57,0,answered,21,29,3590,3598,50,0.0,14.0,3569.0,3583.0,,,,,verb.communication,62,subject,the first husband,1,23,24,male,1.0,primary
+60,2,said,48,52,3696,3700,13,23.0,31.0,3671.0,3679.0,,,,,verb.communication,63,subject,the father's wife,9,6,15,female,1.0,primary
+60,2,said,48,52,3696,3700,50,23.0,31.0,3671.0,3679.0,,,,,verb.communication,63,subject,the first husband,1,23,24,male,1.0,primary
+63,0,said,12,16,3753,3757,50,0.0,9.0,3741.0,3750.0,,,,,verb.communication,65,subject,the first husband,1,23,24,male,1.0,primary
+65,0,felt,12,16,3825,3829,50,9.0,11.0,3822.0,3824.0,,,,,verb.cognition,64,subject,the first husband,1,23,24,male,1.0,primary
+67,0,said,9,13,3883,3887,13,0.0,8.0,3874.0,3882.0,,,,,verb.communication,66,subject,the father's wife,9,6,15,female,1.0,primary
+67,0,said,9,13,3883,3887,54,0.0,8.0,3874.0,3882.0,,,,,verb.communication,66,subject,the second man,1,12,13,male,1.0,secondary
+70,1,answered,21,29,3969,3977,50,1.0,18.0,3949.0,3966.0,,,,,verb.communication,67,subject,the first husband,1,23,24,male,1.0,primary
+71,1,slept,17,22,4000,4005,54,0.0,2.0,3983.0,3985.0,,,,,verb.body,68,subject,the second man,1,12,13,male,1.0,secondary
+72,0,arrived,19,26,4038,4045,57,5.0,18.0,4024.0,4037.0,,,,,verb.motion,69,subject,the third man,1,0,1,male,1.0,tertiary
+72,1,gave,36,40,4055,4059,13,27.0,35.0,4046.0,4054.0,,,,,verb.possession,70,subject,the father's wife,9,6,15,female,1.0,primary
+72,1,gave,36,40,4055,4059,54,27.0,35.0,4046.0,4054.0,,,,,verb.possession,70,subject,the second man,1,12,13,male,1.0,secondary
+74,0,knocked,23,30,4141,4148,59,17.0,22.0,4135.0,4140.0,44.0,97.0,4162.0,4215.0,verb.contact,71,subject,a boy,1,0,1,male,1.0,tertiary
+74,1,bidding,44,51,4162,4169,59,17.0,22.0,4135.0,4140.0,,,,,verb.communication,72,subject,a boy,1,0,1,male,1.0,tertiary
+75,3,stopped,42,49,4259,4266,13,33.0,41.0,4250.0,4258.0,,,,,verb.competition,73,subject,the father's wife,9,6,15,female,1.0,primary
+75,3,stopped,42,49,4259,4266,54,33.0,41.0,4250.0,4258.0,,,,,verb.competition,73,subject,the second man,1,12,13,male,1.0,secondary
+77,0,lay,3,6,4300,4303,54,0.0,2.0,4297.0,4299.0,,,,,verb.contact,74,subject,the second man,1,12,13,male,1.0,secondary
+77,1,heard,21,26,4318,4323,54,18.0,20.0,4315.0,4317.0,,,,,verb.perception,76,subject,the second man,1,12,13,male,1.0,secondary
+79,0,jumped,8,14,4407,4413,63,0.0,7.0,4399.0,4406.0,,,,,verb.motion,78,subject,The man,1,8,9,male,1.0,secondary
+79,1,began,48,53,4447,4452,63,0.0,7.0,4399.0,4406.0,,,,,verb.change,79,subject,The man,1,8,9,male,1.0,secondary
+79,2,look,57,61,4456,4460,63,0.0,7.0,4399.0,4406.0,,,,,verb.perception,80,subject,The man,1,8,9,male,1.0,secondary
+82,2,answered,56,64,4567,4575,63,0.0,19.0,4511.0,4530.0,,,,,verb.communication,81,subject,The man,1,8,9,male,1.0,secondary
+85,5,get,75,78,4683,4686,63,71.0,74.0,4679.0,4682.0,,,,,verb.motion,83,subject,The man,1,8,9,male,1.0,secondary
+86,0,went,12,16,4707,4711,63,9.0,11.0,4704.0,4706.0,,,,,verb.motion,84,subject,The man,1,8,9,male,1.0,secondary
+86,1,running,18,25,4713,4720,63,9.0,11.0,4704.0,4706.0,,,,,verb.motion,85,subject,The man,1,8,9,male,1.0,secondary
+87,0,saw,18,21,4745,4748,65,5.0,17.0,4732.0,4744.0,,,,,verb.perception,86,subject,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+87,1,coming,28,34,4755,4761,66,22.0,27.0,4749.0,4754.0,,,,,verb.motion,87,subject,a man,2,5,7,male,1.0,secondary
+87,2,forgot,89,95,4816,4822,65,84.0,88.0,4811.0,4815.0,,,,,verb.cognition,88,subject,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+87,4,fled,142,146,4869,4873,65,84.0,88.0,4811.0,4815.0,,,,,verb.motion,89,subject,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+87,5,hide,150,154,4877,4881,65,84.0,88.0,4811.0,4815.0,,,,,verb.perception,90,subject,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+88,0,stood,18,23,4912,4917,67,4.0,17.0,4898.0,4911.0,,,,,verb.contact,91,subject,the naked man,2,2,4,male,1.0,tertiary
+89,1,spoke,41,46,4992,4997,66,10.0,15.0,4961.0,4966.0,,,,,verb.communication,92,subject,a man,2,5,7,male,1.0,secondary
+90,1,know,8,12,5014,5018,66,4.0,7.0,5010.0,5013.0,,,,,verb.cognition,93,subject,a man,2,5,7,male,1.0,secondary
+91,0,answered,9,17,5033,5041,67,0.0,6.0,5024.0,5030.0,,,,,verb.communication,95,subject,the naked man,2,2,4,male,1.0,tertiary
+92,1,know,10,14,5067,5071,66,1.0,2.0,5058.0,5059.0,,,,,verb.cognition,94,subject,a man,2,5,7,male,1.0,secondary
+96,0,told,8,12,5145,5149,91,0.0,7.0,5137.0,5144.0,,,,,verb.communication,98,subject,the first man's wife,2,0,2,female,1.0,tertiary
+96,0,told,8,12,5145,5149,70,0.0,7.0,5137.0,5144.0,,,,,verb.communication,98,subject,the first man,1,7,8,male,1.0,secondary
+96,1,had,23,26,5160,5163,70,21.0,22.0,5158.0,5159.0,,,,,verb.possession,97,subject,the first man,1,7,8,male,1.0,secondary
+96,2,answered,47,55,5184,5192,91,0.0,7.0,5137.0,5144.0,,,,,verb.communication,99,subject,the first man's wife,2,0,2,female,1.0,tertiary
+96,2,answered,47,55,5184,5192,70,0.0,7.0,5137.0,5144.0,,,,,verb.communication,99,subject,the first man,1,7,8,male,1.0,secondary
+97,0,told,13,17,5210,5214,71,5.0,12.0,5202.0,5209.0,,,,,verb.communication,100,subject,The man in the coffin,2,7,9,male,1.0,secondary
+97,0,told,13,17,5210,5214,91,5.0,12.0,5202.0,5209.0,,,,,verb.communication,100,subject,the first man's wife,2,0,2,female,1.0,tertiary
+97,2,said,46,50,5243,5247,71,1.0,43.0,5198.0,5240.0,,,,,verb.communication,102,subject,The man in the coffin,2,7,9,male,1.0,secondary
+97,2,said,46,50,5243,5247,91,1.0,43.0,5198.0,5240.0,,,,,verb.communication,102,subject,the first man's wife,2,0,2,female,1.0,tertiary
+98,1,ran,70,73,5341,5344,72,65.0,69.0,5336.0,5340.0,,,,,verb.motion,101,subject,the two men,1,2,3,male,1.0,tertiary
+99,1,followed,33,41,5393,5401,71,0.0,21.0,5360.0,5381.0,,,,,verb.motion,104,subject,The man in the coffin,2,7,9,male,1.0,secondary
+100,1,gained,21,27,5429,5435,13,7.0,15.0,5415.0,5423.0,43.0,84.0,5451.0,5492.0,verb.possession,103,subject,the father's wife,9,6,15,female,1.0,primary
+100,1,gained,21,27,5429,5435,71,7.0,15.0,5415.0,5423.0,43.0,84.0,5451.0,5492.0,verb.possession,103,subject,The man in the coffin,2,7,9,male,1.0,secondary
+0,1,seeking,69,76,69,76,3,77.0,83.0,77.0,83.0,,,,,verb.possession,0,direct_object,a wife,1,0,1,female,1.0,tertiary
+1,0,pleased,36,43,121,128,2,44.0,47.0,129.0,132.0,,,,,verb.emotion,1,direct_object,a young man who was seeking a wife,1,1,2,male,0.6,tertiary
+1,0,pleased,36,43,121,128,5,44.0,47.0,129.0,132.0,,,,,verb.emotion,1,direct_object,a farmer,1,0,1,unknown,0.0,tertiary
+1,0,pleased,36,43,121,128,4,44.0,47.0,129.0,132.0,,,,,verb.emotion,1,direct_object,the only daughter of a farmer,1,0,1,unknown,0.0,tertiary
+7,4,give,88,92,628,632,17,93.0,103.0,633.0,643.0,,,,,verb.possession,4,direct_object,the horses,1,0,1,unknown,0.0,tertiary
+8,1,saw,45,48,703,706,15,49.0,110.0,707.0,768.0,,,,,verb.perception,5,direct_object,the young woman,1,8,9,female,1.0,secondary
+9,1,said,15,19,785,789,15,20.0,30.0,790.0,800.0,,,,,verb.communication,7,direct_object,the young woman,1,8,9,female,1.0,secondary
+9,2,suppose,33,40,803,810,15,41.0,108.0,811.0,878.0,,,,,verb.communication,8,direct_object,the young woman,1,8,9,female,1.0,secondary
+9,5,kill,75,79,845,849,15,80.0,82.0,850.0,852.0,,,,,verb.contact,9,direct_object,the young woman,1,8,9,female,1.0,secondary
+12,2,become,15,21,1044,1050,22,22.0,28.0,1051.0,1057.0,,,,,verb.change,12,direct_object,the bride,1,1,2,female,1.0,tertiary
+13,0,asked,0,5,1060,1065,19,6.0,10.0,1066.0,1070.0,,,,,verb.communication,13,direct_object,the others out on the moor,1,1,2,group/nonbinary,1.0,tertiary
+14,0,declared,21,29,1093,1101,21,30.0,98.0,1102.0,1170.0,,,,,verb.communication,14,direct_object,the mother,1,1,2,female,1.0,tertiary
+16,0,found,4,9,1266,1271,27,10.0,39.0,1272.0,1301.0,,,,,verb.perception,17,direct_object,The old woman's daughter,2,0,2,unknown,0.0,tertiary
+16,0,found,4,9,1266,1271,25,10.0,39.0,1272.0,1301.0,,,,,verb.perception,17,direct_object,The old woman,3,9,12,female,1.0,secondary
+18,0,answered,13,21,1347,1355,6,42.0,85.0,1376.0,1419.0,,,,,verb.communication,20,direct_object,The girl,3,8,11,female,1.0,secondary
+18,2,saw,61,64,1395,1398,6,65.0,93.0,1399.0,1427.0,,,,,verb.perception,18,direct_object,The girl,3,8,11,female,1.0,secondary
+18,4,thought,97,104,1431,1438,6,105.0,154.0,1439.0,1488.0,,,,,verb.cognition,21,direct_object,The girl,3,8,11,female,1.0,secondary
+18,8,killed,145,151,1479,1485,6,152.0,154.0,1486.0,1488.0,,,,,verb.contact,19,direct_object,The girl,3,8,11,female,1.0,secondary
+20,0,struck,14,20,1535,1541,25,21.0,30.0,1542.0,1551.0,31.0,60.0,1552.0,1581.0,verb.contact,23,direct_object,The old woman,3,9,12,female,1.0,secondary
+24,3,exclaimed,40,49,1746,1755,32,50.0,125.0,1756.0,1831.0,,,,,verb.communication,24,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+28,0,asked,0,5,1921,1926,32,6.0,8.0,1927.0,1929.0,,,,,verb.communication,28,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+30,0,replied,0,7,1937,1944,13,8.0,16.0,1945.0,1953.0,,,,,verb.communication,30,direct_object,the father's wife,9,6,15,female,1.0,primary
+30,0,replied,0,7,1937,1944,32,8.0,16.0,1945.0,1953.0,,,,,verb.communication,30,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+30,0,replied,0,7,1937,1944,77,8.0,16.0,1945.0,1953.0,,,,,verb.communication,30,direct_object,our daughter,1,4,5,female,1.0,tertiary
+30,3,see,60,63,1997,2000,77,64.0,93.0,2001.0,2030.0,,,,,verb.perception,29,direct_object,our daughter,1,4,5,female,1.0,tertiary
+31,0,thought,4,11,2036,2043,77,12.0,68.0,2044.0,2100.0,,,,,verb.cognition,31,direct_object,our daughter,1,4,5,female,1.0,tertiary
+31,5,kill,60,64,2092,2096,77,65.0,68.0,2097.0,2100.0,,,,,verb.contact,32,direct_object,our daughter,1,4,5,female,1.0,tertiary
+33,0,exclaimed,0,9,2125,2134,32,10.0,12.0,2135.0,2137.0,14.0,41.0,,,verb.communication,33,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+33,1,striking,14,22,2139,2147,32,23.0,32.0,2148.0,2157.0,,,,,verb.contact,34,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+39,1,answered,27,35,2378,2386,38,36.0,46.0,2387.0,2397.0,,,,,verb.communication,38,direct_object,the farmer,1,1,2,unknown,0.0,tertiary
+39,1,answered,27,35,2378,2386,79,36.0,46.0,2387.0,2397.0,,,,,verb.communication,38,direct_object,the farmer's wife,1,4,5,female,1.0,tertiary
+39,2,saw,53,56,2404,2407,79,57.0,86.0,2408.0,2437.0,,,,,verb.perception,37,direct_object,the farmer's wife,1,4,5,female,1.0,tertiary
+41,2,replied,28,35,2538,2545,36,36.0,49.0,2546.0,2559.0,,,,,verb.communication,39,direct_object,the young man,2,0,2,male,1.0,tertiary
+43,1,said,45,49,2696,2700,32,50.0,101.0,2701.0,2752.0,,,,,verb.communication,41,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+43,1,said,45,49,2696,2700,41,50.0,101.0,2701.0,2752.0,,,,,verb.communication,41,direct_object,the old man,1,0,1,male,1.0,tertiary
+43,1,said,45,49,2696,2700,25,50.0,101.0,2701.0,2752.0,,,,,verb.communication,41,direct_object,The old woman,3,9,12,female,1.0,secondary
+43,1,said,45,49,2696,2700,82,50.0,101.0,2701.0,2752.0,,,,,verb.communication,41,direct_object,other three people,1,0,1,unknown,0.0,tertiary
+43,1,said,45,49,2696,2700,13,50.0,101.0,2701.0,2752.0,,,,,verb.communication,41,direct_object,the father's wife,9,6,15,female,1.0,primary
+43,6,found,164,169,2815,2820,82,170.0,204.0,2821.0,2855.0,,,,,verb.possession,42,direct_object,other three people,1,0,1,unknown,0.0,tertiary
+43,6,found,164,169,2815,2820,25,170.0,204.0,2821.0,2855.0,,,,,verb.possession,42,direct_object,The old woman,3,9,12,female,1.0,secondary
+47,2,said,34,38,3064,3068,32,39.0,41.0,3069.0,3071.0,,,,,verb.communication,48,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+48,1,answered,24,32,3097,3105,32,35.0,49.0,3108.0,3122.0,,,,,verb.communication,49,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+49,1,replied,12,19,3137,3144,32,20.0,22.0,3145.0,3147.0,,,,,verb.communication,50,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+50,0,looked,10,16,3196,3202,49,17.0,30.0,3203.0,3216.0,,,,,verb.perception,51,direct_object,each other,1,0,1,unknown,0.0,tertiary
+51,2,make,46,50,3264,3268,84,51.0,82.0,3269.0,3300.0,,,,,verb.communication,52,direct_object,The men of the town,1,3,4,male,1.0,tertiary
+51,3,believe,56,63,3274,3281,84,64.0,82.0,3282.0,3300.0,,,,,verb.cognition,53,direct_object,The men of the town,1,3,4,male,1.0,tertiary
+51,5,said,85,89,3303,3307,47,90.0,94.0,3308.0,3312.0,,,,,verb.communication,55,direct_object,some women,1,5,6,female,1.0,tertiary
+52,1,replied,29,36,3343,3350,32,37.0,39.0,3351.0,3353.0,,,,,verb.communication,56,direct_object,"the old farmer on the moor , who by this time was not only hungry , but cross",1,23,24,male,1.0,primary
+52,1,replied,29,36,3343,3350,47,37.0,39.0,3351.0,3353.0,,,,,verb.communication,56,direct_object,some women,1,5,6,female,1.0,tertiary
+52,1,replied,29,36,3343,3350,11,37.0,39.0,3351.0,3353.0,,,,,verb.communication,56,direct_object,The girl's husband,2,0,2,male,1.0,tertiary
+52,1,replied,29,36,3343,3350,13,37.0,39.0,3351.0,3353.0,,,,,verb.communication,56,direct_object,the father's wife,9,6,15,female,1.0,primary
+52,3,give,53,57,3367,3371,11,58.0,60.0,3372.0,3374.0,,,,,verb.possession,57,direct_object,The girl's husband,2,0,2,male,1.0,tertiary
+52,3,give,53,57,3367,3371,47,58.0,60.0,3372.0,3374.0,,,,,verb.possession,57,direct_object,some women,1,5,6,female,1.0,tertiary
+52,3,give,53,57,3367,3371,13,58.0,60.0,3372.0,3374.0,,,,,verb.possession,57,direct_object,the father's wife,9,6,15,female,1.0,primary
+52,5,make,92,96,3406,3410,11,97.0,142.0,3411.0,3456.0,,,,,verb.change,58,direct_object,The girl's husband,2,0,2,male,1.0,tertiary
+52,5,make,92,96,3406,3410,13,97.0,142.0,3411.0,3456.0,,,,,verb.change,58,direct_object,the father's wife,9,6,15,female,1.0,primary
+53,0,left,3,7,3462,3466,47,8.0,12.0,3467.0,3471.0,,,,,verb.motion,60,direct_object,some women,1,5,6,female,1.0,tertiary
+54,1,said,48,52,3521,3525,50,53.0,59.0,3526.0,3532.0,,,,,verb.communication,61,direct_object,the first husband,1,23,24,male,1.0,primary
+60,2,said,48,52,3696,3700,50,55.0,68.0,3703.0,3716.0,,,,,verb.communication,63,direct_object,the first husband,1,23,24,male,1.0,primary
+63,0,said,12,16,3753,3757,13,17.0,20.0,3758.0,3761.0,,,,,verb.communication,65,direct_object,the father's wife,9,6,15,female,1.0,primary
+65,0,felt,12,16,3825,3829,50,17.0,28.0,3830.0,3841.0,,,,,verb.cognition,64,direct_object,the first husband,1,23,24,male,1.0,primary
+67,0,said,9,13,3883,3887,13,14.0,20.0,3888.0,3894.0,,,,,verb.communication,66,direct_object,the father's wife,9,6,15,female,1.0,primary
+67,0,said,9,13,3883,3887,50,14.0,20.0,3888.0,3894.0,,,,,verb.communication,66,direct_object,the first husband,1,23,24,male,1.0,primary
+67,0,said,9,13,3883,3887,88,14.0,20.0,3888.0,3894.0,,,,,verb.communication,66,direct_object,the father's wife's husband,1,0,1,male,1.0,tertiary
+70,1,answered,21,29,3969,3977,13,30.0,33.0,3978.0,3981.0,,,,,verb.communication,67,direct_object,the father's wife,9,6,15,female,1.0,primary
+72,1,gave,36,40,4055,4059,54,41.0,44.0,4060.0,4063.0,,,,,verb.possession,70,direct_object,the second man,1,12,13,male,1.0,secondary
+74,1,bidding,44,51,4162,4169,54,52.0,55.0,4170.0,4173.0,,,,,verb.communication,72,direct_object,the second man,1,12,13,male,1.0,secondary
+75,3,stopped,42,49,4259,4266,54,50.0,53.0,4267.0,4270.0,,,,,verb.competition,73,direct_object,the second man,1,12,13,male,1.0,secondary
+76,0,said,15,19,4287,4291,13,20.0,23.0,4292.0,4295.0,,,,,verb.communication,75,direct_object,the father's wife,9,6,15,female,1.0,primary
+78,2,called,26,32,4382,4388,62,33.0,41.0,4389.0,4397.0,,,,,verb.communication,77,direct_object,the wife,1,0,1,female,1.0,tertiary
+79,1,began,48,53,4447,4452,63,54.0,71.0,4453.0,4470.0,,,,,verb.change,79,direct_object,The man,1,8,9,male,1.0,secondary
+79,2,look,57,61,4456,4460,63,62.0,71.0,4461.0,4470.0,,,,,verb.perception,80,direct_object,The man,1,8,9,male,1.0,secondary
+82,2,answered,56,64,4567,4575,64,65.0,74.0,4576.0,4585.0,,,,,verb.communication,81,direct_object,the woman,1,1,2,female,1.0,tertiary
+85,1,said,12,16,4620,4624,64,17.0,20.0,4625.0,4628.0,,,,,verb.communication,82,direct_object,the woman,1,1,2,female,1.0,tertiary
+87,0,saw,18,21,4745,4748,66,22.0,82.0,4749.0,4809.0,,,,,verb.perception,86,direct_object,a man,2,5,7,male,1.0,secondary
+87,0,saw,18,21,4745,4748,65,22.0,82.0,4749.0,4809.0,,,,,verb.perception,86,direct_object,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+87,2,forgot,89,95,4816,4822,65,112.0,136.0,4839.0,4863.0,,,,,verb.cognition,88,direct_object,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+87,5,hide,150,154,4877,4881,65,155.0,165.0,4882.0,4892.0,,,,,verb.perception,90,direct_object,the mourners,1,5,6,group/nonbinary,1.0,tertiary
+89,1,spoke,41,46,4992,4997,67,47.0,53.0,4998.0,5004.0,,,,,verb.communication,92,direct_object,the naked man,2,2,4,male,1.0,tertiary
+90,1,know,8,12,5014,5018,66,13.0,15.0,5019.0,5021.0,,,,,verb.cognition,93,direct_object,a man,2,5,7,male,1.0,secondary
+91,0,answered,9,17,5033,5041,67,18.0,31.0,5042.0,5055.0,,,,,verb.communication,95,direct_object,the naked man,2,2,4,male,1.0,tertiary
+92,1,know,10,14,5067,5071,66,15.0,18.0,5072.0,5075.0,,,,,verb.cognition,94,direct_object,a man,2,5,7,male,1.0,secondary
+94,0,asked,0,5,5103,5108,70,6.0,19.0,5109.0,5122.0,,,,,verb.communication,96,direct_object,the first man,1,7,8,male,1.0,secondary
+96,0,told,8,12,5145,5149,70,13.0,15.0,5150.0,5152.0,,,,,verb.communication,98,direct_object,the first man,1,7,8,male,1.0,secondary
+96,1,had,23,26,5160,5163,70,27.0,44.0,5164.0,5181.0,,,,,verb.possession,97,direct_object,the first man,1,7,8,male,1.0,secondary
+96,2,answered,47,55,5184,5192,70,56.0,58.0,5193.0,5195.0,,,,,verb.communication,99,direct_object,the first man,1,7,8,male,1.0,secondary
+97,0,told,13,17,5210,5214,71,18.0,20.0,5215.0,5217.0,,,,,verb.communication,100,direct_object,The man in the coffin,2,7,9,male,1.0,secondary
+97,2,said,46,50,5243,5247,71,51.0,72.0,5248.0,5269.0,,,,,verb.communication,102,direct_object,The man in the coffin,2,7,9,male,1.0,secondary
+99,1,followed,33,41,5393,5401,72,42.0,46.0,5402.0,5406.0,,,,,verb.motion,104,direct_object,the two men,1,2,3,male,1.0,tertiary

@@ -1,0 +1,275 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+3,1,remarked,39,47,288,296,20,1.0,36.0,250.0,285.0,,,,,verb.communication,True,2,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+4,3,think,66,71,450,455,23,52.0,58.0,436.0,442.0,89.0,112.0,473.0,496.0,verb.cognition,True,4,subject,people,1.0,0.0,1.0,unknown,0.0,tertiary
+6,2,crying,50,56,590,596,24,6.0,41.0,546.0,581.0,,,,,verb.body,True,3,subject,a sensible mother of her little boy who was crying for the moon's sensible mother of her little boy who was crying for the moon,1.0,1.0,2.0,female,0.6,tertiary
+6,2,crying,50,56,590,596,25,6.0,41.0,546.0,581.0,,,,,verb.body,True,3,subject,a sensible mother of her little boy who was crying for the moon's sensible mother of her little boy who was crying for the moon's little boy,2.0,4.0,6.0,male,0.625,tertiary
+7,0,dreams,24,30,635,641,9,1.0,17.0,612.0,628.0,,,,,verb.cognition,True,5,subject,the Prince,2.0,0.0,2.0,male,1.0,tertiary
+9,1,said,31,35,826,830,178,1.0,28.0,796.0,823.0,60.0,153.0,855.0,948.0,verb.communication,True,9,subject,an angel,1.0,0.0,1.0,unknown,0.0,tertiary
+9,1,said,31,35,826,830,20,1.0,28.0,796.0,823.0,60.0,153.0,855.0,948.0,verb.communication,True,9,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+10,1,know,12,16,962,966,29,8.0,11.0,958.0,961.0,,,,,verb.cognition,True,8,subject,the Mathematical Master,2.0,3.0,5.0,male,1.0,tertiary
+11,2,seen,46,50,1015,1019,29,31.0,34.0,1000.0,1003.0,,,,,verb.perception,True,7,subject,the Mathematical Master,2.0,3.0,5.0,male,1.0,tertiary
+14,1,looked,41,47,1123,1129,29,5.0,28.0,1087.0,1110.0,61.0,104.0,1143.0,1186.0,verb.perception,True,13,subject,the Mathematical Master,2.0,3.0,5.0,male,1.0,tertiary
+16,3,stayed,64,70,1305,1311,10,57.0,59.0,1298.0,1300.0,79.0,126.0,1320.0,1367.0,verb.motion,True,12,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+17,3,flying,45,51,1414,1420,10,38.0,40.0,1407.0,1409.0,,,,,verb.motion,True,11,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+18,1,love,9,13,1553,1557,11,7.0,8.0,1551.0,1552.0,,,,,verb.emotion,True,14,subject,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+20,0,flew,6,10,1661,1665,10,3.0,5.0,1658.0,1660.0,,,,,verb.motion,True,16,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+23,0,has,6,9,1879,1882,11,2.0,5.0,1875.0,1878.0,,,,,verb.possession,True,15,subject,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+26,3,began,40,45,2055,2060,10,20.0,22.0,2035.0,2037.0,,,,,verb.change,True,18,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+27,1,said,30,34,2117,2121,11,1.0,24.0,2088.0,2111.0,,,,,verb.communication,True,20,subject,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+27,1,said,30,34,2117,2121,10,1.0,24.0,2088.0,2111.0,,,,,verb.communication,True,20,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+28,1,made,48,52,2255,2259,11,39.0,47.0,2246.0,2254.0,,,,,verb.creation,True,19,subject,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+29,3,love,53,57,2341,2345,10,51.0,52.0,2339.0,2340.0,,,,,verb.emotion,True,21,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+31,0,said,3,7,2448,2452,10,0.0,2.0,2445.0,2447.0,,,,,verb.communication,True,23,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+32,0,shook,14,19,2482,2487,11,5.0,13.0,2473.0,2481.0,,,,,verb.body,True,22,subject,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+33,3,cried,37,42,2568,2573,10,34.0,36.0,2565.0,2567.0,,,,,verb.communication,True,25,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+37,0,flew,16,20,2647,2651,10,13.0,15.0,2644.0,2646.0,,,,,verb.motion,True,24,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+39,0,said,3,7,2722,2726,10,0.0,2.0,2719.0,2721.0,,,,,verb.communication,True,27,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+40,0,hope,4,8,2731,2735,10,2.0,3.0,2729.0,2730.0,,,,,verb.emotion,True,26,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+41,0,saw,8,11,2777,2780,10,5.0,7.0,2774.0,2776.0,,,,,verb.perception,True,28,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+42,2,cried,26,31,2838,2843,10,23.0,25.0,2835.0,2837.0,,,,,verb.communication,True,29,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+44,0,alighted,6,14,2902,2910,10,3.0,5.0,2899.0,2901.0,,,,,verb.motion,True,30,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+45,2,looked,59,65,3013,3019,10,56.0,58.0,3010.0,3012.0,,,,,verb.perception,True,31,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+51,1,like,17,21,3353,3357,11,0.0,8.0,3336.0,3344.0,,,,,verb.emotion,True,32,subject,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+55,2,determined,46,56,3546,3556,10,43.0,45.0,3543.0,3545.0,,,,,verb.cognition,True,34,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+56,3,looked,62,68,3632,3638,10,59.0,61.0,3629.0,3631.0,,,,,verb.perception,True,35,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+57,1,see,12,15,3667,3670,10,0.0,4.0,3655.0,3659.0,,,,,verb.perception,True,36,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+59,2,filled,71,77,3843,3849,44,48.0,66.0,3820.0,3838.0,,,,,verb.cognition,True,38,subject,the little Swallow,2.0,5.0,7.0,male,1.0,tertiary
+61,0,said,3,7,3879,3883,44,0.0,2.0,3876.0,3878.0,,,,,verb.communication,True,40,subject,the little Swallow,2.0,5.0,7.0,male,1.0,tertiary
+63,1,weeping,13,20,3923,3930,46,9.0,12.0,3919.0,3922.0,,,,,verb.body,True,39,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+65,1,drenched,17,25,3973,3981,46,2.0,5.0,3958.0,3961.0,,,,,verb.body,True,41,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+67,0,played,17,23,4179,4185,46,15.0,16.0,4177.0,4178.0,,,,,verb.body,True,43,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+68,3,ask,61,64,4335,4338,46,44.0,45.0,4318.0,4319.0,,,,,verb.communication,True,45,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+69,0,called,13,19,4410,4416,46,0.0,12.0,4397.0,4409.0,,,,,verb.communication,True,46,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+69,0,called,13,19,4410,4416,189,0.0,12.0,4397.0,4409.0,,,,,verb.communication,True,46,subject,the statue's courtiers,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+70,1,died,21,25,4509,4513,46,19.0,20.0,4507.0,4508.0,,,,,verb.change,True,47,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+71,9,weep,178,182,4693,4697,46,159.0,160.0,4674.0,4675.0,,,,,verb.body,True,48,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+77,3,seated,61,67,4986,4992,195,53.0,60.0,4978.0,4985.0,,,,,verb.contact,True,50,subject,a woman,1.0,6.0,7.0,female,1.0,tertiary
+79,1,embroidering,7,19,5122,5134,195,0.0,3.0,5115.0,5118.0,36.0,131.0,5151.0,5246.0,verb.creation,True,53,subject,a woman,1.0,6.0,7.0,female,1.0,tertiary
+80,1,lying,53,58,5301,5306,195,35.0,49.0,5283.0,5297.0,,,,,verb.body,True,52,subject,a woman,1.0,6.0,7.0,female,1.0,tertiary
+80,1,lying,53,58,5301,5306,25,35.0,49.0,5283.0,5297.0,,,,,verb.body,True,52,subject,a sensible mother of her little boy who was crying for the moon's sensible mother of her little boy who was crying for the moon's little boy,2.0,4.0,6.0,male,0.625,tertiary
+81,0,has,3,6,5315,5318,25,0.0,2.0,5312.0,5314.0,,,,,verb.body,True,54,subject,a sensible mother of her little boy who was crying for the moon's sensible mother of her little boy who was crying for the moon's little boy,2.0,4.0,6.0,male,0.625,tertiary
+82,3,crying,61,67,5416,5422,25,55.0,57.0,5410.0,5412.0,,,,,verb.communication,True,55,subject,a sensible mother of her little boy who was crying for the moon's sensible mother of her little boy who was crying for the moon's little boy,2.0,4.0,6.0,male,0.625,tertiary
+83,1,bring,47,52,5471,5476,10,39.0,42.0,5463.0,5466.0,,,,,verb.motion,True,57,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+84,1,fastened,12,20,5524,5532,46,0.0,7.0,5512.0,5519.0,,,,,verb.contact,True,56,subject,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+85,2,said,28,32,5598,5602,45,1.0,25.0,5571.0,5595.0,,,,,verb.communication,True,59,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+86,1,flying,16,22,5632,5638,45,1.0,11.0,5617.0,5627.0,,,,,verb.motion,True,58,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+86,1,flying,16,22,5632,5638,203,1.0,11.0,5617.0,5627.0,,,,,verb.motion,True,58,subject,the Swallow's friends,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+87,2,sleep,21,26,5722,5727,203,5.0,9.0,5706.0,5710.0,,,,,verb.body,True,61,subject,the Swallow's friends,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+89,1,wrapped,6,13,5814,5821,206,0.0,2.0,5808.0,5810.0,,,,,verb.contact,True,60,subject,The King,1.0,5.0,6.0,male,1.0,tertiary
+91,0,said,36,40,5988,5992,10,1.0,33.0,5953.0,5985.0,,,,,verb.communication,True,64,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+93,2,like,17,21,6132,6136,45,15.0,16.0,6130.0,6131.0,,,,,verb.emotion,True,63,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+94,1,staying,25,32,6191,6198,45,19.0,20.0,6185.0,6186.0,,,,,verb.motion,True,62,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+95,0,hit,11,14,6308,6311,212,0.0,4.0,6297.0,6301.0,19.0,28.0,6316.0,6325.0,verb.contact,True,65,subject,two rude boys,1.0,1.0,2.0,male,1.0,tertiary
+98,0,looked,21,27,6484,6490,20,4.0,20.0,6467.0,6483.0,,,,,verb.perception,True,66,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+99,1,said,27,31,6560,6564,20,1.0,21.0,6534.0,6554.0,,,,,verb.communication,True,67,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+100,2,be,46,48,6611,6613,20,6.0,7.0,6571.0,6572.0,,,,,verb.social,True,68,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+101,1,said,29,33,6660,6664,10,1.0,26.0,6632.0,6657.0,,,,,verb.communication,True,70,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+104,1,heard,28,33,6914,6919,10,0.0,2.0,6886.0,6888.0,,,,,verb.perception,True,69,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+106,1,said,34,38,7033,7037,10,1.0,28.0,7000.0,7027.0,,,,,verb.communication,True,71,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+107,3,answered,64,72,7152,7160,58,1.0,57.0,7089.0,7145.0,,,,,verb.communication,True,73,subject,A beautiful girl,1.0,6.0,7.0,female,1.0,tertiary
+108,1,ordered,9,16,7170,7177,58,2.0,3.0,7163.0,7164.0,,,,,verb.communication,True,72,subject,A beautiful girl,1.0,6.0,7.0,female,1.0,tertiary
+110,1,saw,30,33,7284,7287,10,0.0,2.0,7254.0,7256.0,,,,,verb.perception,True,74,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+111,1,saw,31,34,7367,7370,10,0.0,2.0,7336.0,7338.0,,,,,verb.perception,True,75,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+112,1,looked,38,44,7491,7497,10,8.0,10.0,7461.0,7463.0,,,,,verb.perception,True,77,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+113,1,tossing,12,19,7514,7521,208,0.0,7.0,7502.0,7509.0,,,,,verb.body,True,76,subject,the boy,4.0,3.0,7.0,male,1.0,tertiary
+114,0,hopped,6,12,7603,7609,10,3.0,5.0,7600.0,7602.0,,,,,verb.motion,True,78,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+115,0,flew,8,12,7684,7688,10,5.0,7.0,7681.0,7683.0,,,,,verb.motion,True,79,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+117,0,sank,8,12,7822,7826,208,5.0,7.0,7819.0,7821.0,,,,,verb.motion,True,81,subject,the boy,4.0,3.0,7.0,male,1.0,tertiary
+118,1,told,52,56,7905,7909,10,5.0,16.0,7858.0,7869.0,,,,,verb.communication,True,82,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+119,1,remarked,20,28,7952,7960,10,1.0,14.0,7933.0,7946.0,,,,,verb.communication,True,83,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+120,3,said,47,51,8062,8066,10,1.0,44.0,8016.0,8059.0,,,,,verb.communication,True,84,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+121,1,think,32,37,8111,8116,44,4.0,22.0,8083.0,8101.0,,,,,verb.cognition,True,86,subject,the little Swallow,2.0,5.0,7.0,male,1.0,tertiary
+123,1,flew,18,22,8194,8198,44,15.0,17.0,8191.0,8193.0,,,,,verb.motion,True,87,subject,the little Swallow,2.0,5.0,7.0,male,1.0,tertiary
+126,0,wrote,7,12,8364,8369,76,4.0,6.0,8361.0,8363.0,,,,,verb.communication,True,89,subject,the Professor of Ornithology,1.0,2.0,3.0,male,1.0,tertiary
+127,0,quoted,10,16,8427,8433,78,0.0,9.0,8417.0,8426.0,,,,,verb.communication,True,90,subject,Every one,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+128,1,said,26,30,8525,8529,10,1.0,23.0,8500.0,8522.0,,,,,verb.communication,True,92,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+129,1,sat,41,44,8628,8631,10,0.0,2.0,8587.0,8589.0,,,,,verb.contact,True,91,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+130,2,said,45,49,8719,8723,10,9.0,11.0,8683.0,8685.0,,,,,verb.communication,True,94,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+131,0,enjoyed,6,13,8778,8785,10,3.0,5.0,8775.0,8777.0,22.0,31.0,8794.0,8803.0,verb.emotion,True,93,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+135,1,starting,12,20,8917,8925,10,2.0,3.0,8907.0,8908.0,,,,,verb.change,True,95,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+136,0,said,36,40,8964,8968,10,1.0,33.0,8929.0,8961.0,,,,,verb.communication,True,96,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+137,2,answered,28,36,9055,9063,10,1.0,25.0,9028.0,9052.0,,,,,verb.communication,True,99,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+140,0,watches,18,25,9255,9262,10,15.0,17.0,9252.0,9254.0,,,,,verb.perception,True,97,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+144,1,leaning,6,13,9628,9635,224,0.0,2.0,9622.0,9624.0,,,,,verb.contact,True,100,subject,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+145,2,has,75,78,9811,9814,224,72.0,74.0,9808.0,9810.0,,,,,verb.perception,True,102,subject,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+146,2,finish,16,22,9854,9860,224,0.0,2.0,9838.0,9840.0,,,,,verb.creation,True,103,subject,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+148,2,said,41,45,10043,10047,50,1.0,38.0,10003.0,10040.0,,,,,verb.communication,True,105,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+148,2,said,41,45,10043,10047,45,1.0,38.0,10003.0,10040.0,,,,,verb.communication,True,105,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+149,1,take,9,13,10099,10103,45,7.0,8.0,10097.0,10098.0,,,,,verb.contact,True,106,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+151,1,said,21,25,10151,10155,50,0.0,18.0,10130.0,10148.0,,,,,verb.communication,True,107,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+155,3,finish,64,70,10396,10402,224,0.0,2.0,10332.0,10334.0,,,,,verb.change,True,109,subject,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+156,0,said,15,19,10429,10433,15,1.0,12.0,10415.0,10426.0,,,,,verb.communication,True,108,subject,Dear Prince,2.0,4.0,6.0,male,1.0,tertiary
+157,1,weep,17,21,10483,10487,50,5.0,7.0,10471.0,10473.0,,,,,verb.body,True,110,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+158,2,command,62,69,10551,10558,50,60.0,61.0,10549.0,10550.0,,,,,verb.communication,True,111,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+159,0,plucked,15,22,10580,10587,10,3.0,14.0,10568.0,10579.0,,,,,verb.contact,True,112,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+161,1,came,28,32,10740,10744,10,13.0,15.0,10725.0,10727.0,,,,,verb.motion,True,113,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+162,4,looked,112,118,10872,10878,92,109.0,111.0,10869.0,10871.0,,,,,verb.perception,True,114,subject,The young man,1.0,10.0,11.0,male,1.0,tertiary
+163,4,cried,39,44,10984,10989,92,1.0,21.0,10946.0,10966.0,,,,,verb.communication,True,115,subject,The young man,1.0,10.0,11.0,male,1.0,tertiary
+165,2,looked,34,40,11059,11065,92,31.0,33.0,11056.0,11058.0,,,,,verb.perception,True,116,subject,The young man,1.0,10.0,11.0,male,1.0,tertiary
+166,0,flew,25,29,11104,11108,10,13.0,24.0,11092.0,11103.0,,,,,verb.motion,True,117,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+167,1,watched,41,48,11171,11178,10,0.0,2.0,11130.0,11132.0,,,,,verb.perception,True,118,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+169,0,shouted,5,12,11258,11265,95,0.0,4.0,11253.0,11257.0,,,,,verb.communication,True,119,subject,the sailors hauling big chests out of the hold with ropes,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+172,3,cried,36,41,11443,11448,45,1.0,30.0,11408.0,11437.0,,,,,verb.communication,True,121,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+172,3,cried,36,41,11443,11448,20,1.0,30.0,11408.0,11437.0,,,,,verb.communication,True,121,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+177,1,leave,20,25,11892,11897,45,13.0,14.0,11885.0,11886.0,,,,,verb.motion,True,126,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+180,1,let,8,11,12214,12217,235,0.0,3.0,12206.0,12209.0,,,,,verb.social,True,124,subject,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+181,5,crying,75,81,12351,12357,235,68.0,71.0,12344.0,12347.0,,,,,verb.body,True,128,subject,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+182,0,has,4,7,12363,12366,235,0.0,3.0,12359.0,12362.0,,,,,verb.possession,True,127,subject,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+183,2,beat,68,72,12487,12491,236,48.0,58.0,12467.0,12477.0,,,,,verb.contact,True,129,subject,a little match - girl's father,2.0,0.0,2.0,male,1.0,tertiary
+183,2,beat,68,72,12487,12491,235,48.0,58.0,12467.0,12477.0,,,,,verb.contact,True,129,subject,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+184,4,pluck,73,78,12571,12576,45,64.0,65.0,12562.0,12563.0,,,,,verb.perception,True,130,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+187,0,plucked,6,13,12705,12712,45,3.0,5.0,12702.0,12704.0,,,,,verb.contact,True,131,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+188,0,swooped,3,10,12769,12776,45,0.0,2.0,12766.0,12768.0,,,,,verb.motion,True,132,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+190,1,laughing,19,27,12918,12926,106,5.0,8.0,12904.0,12907.0,,,,,verb.body,True,134,subject,the little girl,1.0,1.0,2.0,female,1.0,tertiary
+192,3,stay,41,45,13011,13015,45,34.0,35.0,13004.0,13005.0,55.0,61.0,13025.0,13031.0,verb.motion,True,135,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+193,0,said,22,26,13056,13060,10,1.0,19.0,13035.0,13053.0,,,,,verb.communication,True,136,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+194,3,slept,56,61,13163,13168,45,53.0,55.0,13160.0,13162.0,,,,,verb.body,True,137,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+195,1,told,54,58,13245,13249,45,17.0,19.0,13208.0,13210.0,,,,,verb.communication,True,138,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+196,0,told,3,7,13303,13307,45,0.0,2.0,13300.0,13302.0,,,,,verb.communication,True,141,subject,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+198,0,walk,23,27,13535,13539,119,4.0,17.0,13516.0,13529.0,,,,,verb.motion,True,140,subject,the merchants,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+199,1,worships,73,81,13686,13694,120,4.0,41.0,13617.0,13654.0,,,,,verb.emotion,True,139,subject,the King of the Mountains of the Moon,1.0,0.0,1.0,male,1.0,tertiary
+202,1,tell,45,49,13972,13976,10,41.0,44.0,13968.0,13971.0,,,,,verb.communication,True,142,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+205,0,flew,15,19,14196,14200,10,3.0,14.0,14184.0,14195.0,,,,,verb.motion,True,143,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+206,0,flew,3,7,14327,14331,10,0.0,2.0,14324.0,14326.0,,,,,verb.motion,True,146,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+207,1,lying,51,56,14490,14495,132,30.0,45.0,14469.0,14484.0,79.0,110.0,14518.0,14549.0,verb.contact,True,145,subject,two little boys,1.0,5.0,6.0,male,1.0,tertiary
+209,0,said,5,9,14577,14581,132,0.0,4.0,14572.0,14576.0,,,,,verb.communication,True,148,subject,two little boys,1.0,5.0,6.0,male,1.0,tertiary
+211,0,flew,8,12,14675,14679,134,5.0,7.0,14672.0,14674.0,,,,,verb.motion,True,149,subject,the Watchman,1.0,2.0,3.0,male,1.0,tertiary
+212,2,said,31,35,14754,14758,50,1.0,5.0,14724.0,14728.0,,,,,verb.communication,True,151,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+213,0,think,19,24,14850,14855,244,1.0,11.0,14832.0,14842.0,,,,,verb.cognition,True,150,subject,the living,1.0,0.0,1.0,unknown,0.0,tertiary
+214,1,looked,79,85,14967,14973,20,62.0,78.0,14950.0,14966.0,,,,,verb.perception,True,152,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+215,3,played,116,122,15111,15117,30,99.0,103.0,15094.0,15098.0,129.0,142.0,15124.0,15137.0,verb.creation,True,153,subject,the children,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+216,0,have,4,8,15143,15147,30,1.0,3.0,15140.0,15142.0,15.0,18.0,15154.0,15157.0,verb.possession,True,154,subject,the children,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+217,0,cried,5,10,15165,15170,30,0.0,4.0,15160.0,15164.0,,,,,verb.communication,True,155,subject,the children,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+220,3,skated,147,153,15460,15466,145,109.0,124.0,15422.0,15437.0,,,,,verb.motion,True,156,subject,the little boys,1.0,0.0,1.0,male,1.0,tertiary
+221,3,loved,86,91,15565,15570,146,83.0,85.0,15562.0,15564.0,96.0,104.0,15575.0,15583.0,verb.emotion,True,157,subject,The poor little Swallow,1.0,10.0,11.0,male,1.0,tertiary
+222,2,looking,68,75,15653,15660,148,50.0,59.0,15635.0,15644.0,,,,,verb.perception,True,158,subject,the baker,2.0,0.0,2.0,unknown,0.0,tertiary
+223,3,die,41,44,15756,15759,146,25.0,27.0,15740.0,15742.0,,,,,verb.change,True,160,subject,The poor little Swallow,1.0,10.0,11.0,male,1.0,tertiary
+224,1,fly,24,27,15785,15788,146,0.0,2.0,15761.0,15763.0,,,,,verb.motion,True,159,subject,The poor little Swallow,1.0,10.0,11.0,male,1.0,tertiary
+226,3,kiss,30,34,15883,15887,146,27.0,29.0,15880.0,15882.0,,,,,verb.contact,True,162,subject,The poor little Swallow,1.0,10.0,11.0,male,1.0,tertiary
+227,5,stayed,92,98,15992,15998,245,83.0,86.0,15983.0,15986.0,,,,,verb.motion,True,161,subject,dear Prince,1.0,6.0,7.0,male,1.0,tertiary
+228,2,love,41,45,16054,16058,50,39.0,40.0,16052.0,16053.0,,,,,verb.emotion,True,163,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+229,3,said,38,42,16103,16107,10,1.0,35.0,16066.0,16100.0,,,,,verb.communication,True,165,subject,Swallow,37.0,96.0,133.0,male,1.0,primary
+232,0,kissed,7,13,16206,16212,50,4.0,6.0,16203.0,16205.0,31.0,42.0,16230.0,16241.0,verb.contact,True,164,subject,the Prince,20.0,31.0,51.0,male,1.0,secondary
+236,1,walking,37,44,16500,16507,153,23.0,32.0,16486.0,16495.0,,,,,verb.motion,True,166,subject,the Mayor,5.0,5.0,10.0,male,1.0,tertiary
+237,1,looked,29,35,16595,16601,153,26.0,28.0,16592.0,16594.0,,,,,verb.perception,True,168,subject,the Mayor,5.0,5.0,10.0,male,1.0,tertiary
+238,0,looks,28,33,16658,16663,20,11.0,27.0,16641.0,16657.0,,,,,verb.perception,True,167,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+243,5,said,87,91,16877,16881,20,1.0,84.0,16791.0,16874.0,102.0,109.0,16892.0,16899.0,verb.communication,True,170,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+244,0,said,31,35,16970,16974,250,1.0,28.0,16940.0,16967.0,,,,,verb.communication,True,171,subject,a beggar,2.0,0.0,2.0,unknown,0.0,tertiary
+247,1,issue,16,21,17082,17087,155,1.0,3.0,17067.0,17069.0,,,,,verb.communication,True,173,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+248,0,made,19,23,17169,17173,163,4.0,18.0,17154.0,17168.0,,,,,verb.social,True,174,subject,the Town Clerk,1.0,0.0,1.0,unknown,0.0,tertiary
+250,2,said,55,59,17307,17311,20,1.0,52.0,17253.0,17304.0,,,,,verb.communication,True,176,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+251,0,melted,10,16,17359,17365,155,5.0,9.0,17354.0,17358.0,,,,,verb.change,True,175,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+252,2,said,45,49,17530,17534,153,1.0,39.0,17486.0,17524.0,,,,,verb.communication,True,177,subject,the Mayor,5.0,5.0,10.0,male,1.0,tertiary
+252,2,said,45,49,17530,17534,155,1.0,39.0,17486.0,17524.0,,,,,verb.communication,True,177,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+253,1,quarrelled,57,67,17631,17641,155,52.0,56.0,17626.0,17630.0,,,,,verb.communication,True,179,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+254,2,quarrelling,36,47,17679,17690,155,26.0,30.0,17669.0,17673.0,,,,,verb.competition,True,178,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+258,1,throw,8,13,17833,17838,155,0.0,2.0,17825.0,17827.0,,,,,verb.contact,True,181,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+259,0,threw,8,13,17857,17862,155,3.0,7.0,17852.0,17856.0,,,,,verb.contact,True,182,subject,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+260,1,said,53,57,17973,17977,14,1.0,50.0,17921.0,17970.0,,,,,verb.communication,True,183,subject,God,3.0,6.0,9.0,unknown,0.0,tertiary
+261,0,brought,15,22,18018,18025,175,5.0,14.0,18008.0,18017.0,,,,,verb.contact,True,184,subject,the Angel,1.0,0.0,1.0,unknown,0.0,tertiary
+262,6,praise,155,161,18221,18227,20,132.0,148.0,18198.0,18214.0,,,,,verb.communication,True,185,subject,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+0,0,stood,39,44,39,44,20,45.0,75.0,45.0,75.0,,,,,verb.contact,True,0,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+1,3,glowed,113,119,190,196,20,120.0,137.0,197.0,214.0,,,,,verb.perception,True,1,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+3,1,remarked,39,47,288,296,21,48.0,134.0,297.0,383.0,,,,,verb.communication,True,2,direct_object,the Town Councillors who wished to gain a reputation for having artistic tastes,1.0,0.0,1.0,unknown,0.0,tertiary
+4,3,think,66,71,450,455,20,72.0,87.0,456.0,471.0,89.0,112.0,473.0,496.0,verb.cognition,True,4,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+8,3,muttered,63,71,730,738,26,72.0,90.0,739.0,757.0,91.0,126.0,758.0,793.0,verb.communication,True,6,direct_object,a disappointed man,1.0,2.0,3.0,male,1.0,tertiary
+9,1,said,31,35,826,830,27,36.0,56.0,831.0,851.0,60.0,153.0,855.0,948.0,verb.communication,True,9,direct_object,the Charity Children,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+13,1,answered,29,37,1060,1068,30,38.0,50.0,1069.0,1081.0,,,,,verb.communication,True,10,direct_object,the children,2.0,5.0,7.0,group/nonbinary,1.0,tertiary
+18,1,love,9,13,1553,1557,11,14.0,17.0,1558.0,1561.0,,,,,verb.emotion,True,14,direct_object,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+19,0,said,0,4,1564,1568,11,5.0,89.0,1569.0,1653.0,,,,,verb.communication,True,17,direct_object,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+19,0,said,0,4,1564,1568,10,5.0,89.0,1569.0,1653.0,,,,,verb.communication,True,17,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+26,3,began,40,45,2055,2060,39,46.0,70.0,2061.0,2085.0,,,,,verb.change,True,18,direct_object,Swallow's lady,1.0,3.0,4.0,female,1.0,tertiary
+26,3,began,40,45,2055,2060,10,46.0,70.0,2061.0,2085.0,,,,,verb.change,True,18,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+31,0,said,3,7,2448,2452,39,8.0,15.0,2453.0,2460.0,,,,,verb.communication,True,23,direct_object,Swallow's lady,1.0,3.0,4.0,female,1.0,tertiary
+32,0,shook,14,19,2482,2487,11,20.0,28.0,2488.0,2496.0,,,,,verb.body,True,22,direct_object,the most beautiful Reed,5.0,15.0,20.0,female,1.0,tertiary
+46,2,fell,74,78,3132,3136,10,79.0,85.0,3137.0,3143.0,,,,,verb.motion,True,33,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+58,3,running,68,75,3740,3747,20,81.0,98.0,3753.0,3770.0,,,,,verb.motion,True,37,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+64,0,asked,0,5,3938,3943,45,6.0,17.0,3944.0,3955.0,,,,,verb.communication,True,42,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+65,1,drenched,17,25,3973,3981,45,26.0,28.0,3982.0,3984.0,,,,,verb.body,True,41,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+66,2,answered,42,50,4029,4037,46,51.0,61.0,4038.0,4048.0,,,,,verb.communication,True,44,direct_object,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+69,0,called,13,19,4410,4416,46,20.0,22.0,4417.0,4419.0,,,,,verb.communication,True,46,direct_object,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+69,0,called,13,19,4410,4416,20,20.0,22.0,4417.0,4419.0,,,,,verb.communication,True,46,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+74,0,said,0,4,4730,4734,45,5.0,16.0,4735.0,4746.0,,,,,verb.communication,True,49,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+76,0,continued,12,21,4828,4837,46,22.0,32.0,4838.0,4848.0,33.0,55.0,,,verb.communication,True,51,direct_object,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+83,1,bring,47,52,5471,5476,195,53.0,56.0,5477.0,5480.0,,,,,verb.motion,True,57,direct_object,a woman,1.0,6.0,7.0,female,1.0,tertiary
+83,1,bring,47,52,5471,5476,46,53.0,56.0,5477.0,5480.0,,,,,verb.motion,True,57,direct_object,the statue,2.0,26.0,28.0,unknown,0.0,tertiary
+85,2,said,28,32,5598,5602,45,33.0,44.0,5603.0,5614.0,,,,,verb.communication,True,59,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+91,0,said,36,40,5988,5992,50,41.0,51.0,5993.0,6003.0,,,,,verb.communication,True,64,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+93,2,like,17,21,6132,6136,210,22.0,26.0,6137.0,6141.0,,,,,verb.emotion,True,63,direct_object,boys,1.0,0.0,1.0,male,1.0,tertiary
+95,0,hit,11,14,6308,6311,45,15.0,17.0,6312.0,6314.0,19.0,28.0,6316.0,6325.0,verb.contact,True,65,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+98,0,looked,21,27,6484,6490,10,28.0,68.0,6491.0,6531.0,,,,,verb.perception,True,66,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+100,2,be,46,48,6611,6613,217,49.0,63.0,6614.0,6628.0,,,,,verb.social,True,68,direct_object,Swallow's messenger,1.0,0.0,1.0,unknown,0.0,tertiary
+100,2,be,46,48,6611,6613,10,49.0,63.0,6614.0,6628.0,,,,,verb.social,True,68,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+101,1,said,29,33,6660,6664,50,34.0,44.0,6665.0,6675.0,,,,,verb.communication,True,70,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+106,1,said,34,38,7033,7037,58,39.0,45.0,7038.0,7044.0,,,,,verb.communication,True,71,direct_object,A beautiful girl,1.0,6.0,7.0,female,1.0,tertiary
+111,1,saw,31,34,7367,7370,65,35.0,74.0,7371.0,7410.0,,,,,verb.perception,True,75,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+111,1,saw,31,34,7367,7370,64,35.0,74.0,7371.0,7410.0,,,,,verb.perception,True,75,direct_object,the old Jews,1.0,0.0,1.0,unknown,0.0,tertiary
+113,1,tossing,12,19,7514,7521,208,20.0,30.0,7522.0,7532.0,,,,,verb.body,True,76,direct_object,the boy,4.0,3.0,7.0,male,1.0,tertiary
+116,1,said,19,23,7773,7777,208,24.0,31.0,7778.0,7785.0,,,,,verb.communication,True,80,direct_object,the boy,4.0,3.0,7.0,male,1.0,tertiary
+118,1,told,52,56,7905,7909,10,57.0,60.0,7910.0,7913.0,,,,,verb.communication,True,82,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+118,1,told,52,56,7905,7909,20,57.0,60.0,7910.0,7913.0,,,,,verb.communication,True,82,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+120,3,said,47,51,8062,8066,50,52.0,62.0,8067.0,8077.0,,,,,verb.communication,True,84,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+122,1,made,16,20,8159,8163,44,21.0,31.0,8164.0,8174.0,,,,,verb.change,True,85,direct_object,the little Swallow,2.0,5.0,7.0,male,1.0,tertiary
+124,0,said,32,36,8265,8269,76,37.0,65.0,8270.0,8298.0,66.0,99.0,8299.0,8332.0,verb.communication,True,88,direct_object,the Professor of Ornithology,1.0,2.0,3.0,male,1.0,tertiary
+128,1,said,26,30,8525,8529,10,31.0,42.0,8530.0,8541.0,,,,,verb.communication,True,92,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+130,2,said,45,49,8719,8723,219,50.0,63.0,8724.0,8737.0,,,,,verb.communication,True,94,direct_object,a distinguished stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+130,2,said,45,49,8719,8723,65,50.0,63.0,8724.0,8737.0,,,,,verb.communication,True,94,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+131,0,enjoyed,6,13,8778,8785,10,14.0,21.0,8786.0,8793.0,22.0,31.0,8794.0,8803.0,verb.emotion,True,93,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+136,0,said,36,40,8964,8968,50,41.0,51.0,8969.0,8979.0,,,,,verb.communication,True,96,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+137,2,answered,28,36,9055,9063,10,37.0,48.0,9064.0,9075.0,,,,,verb.communication,True,99,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+139,0,sits,81,85,9216,9220,14,86.0,100.0,9221.0,9235.0,,,,,verb.contact,True,98,direct_object,God,3.0,6.0,9.0,unknown,0.0,tertiary
+143,0,said,36,40,9548,9552,50,41.0,51.0,9553.0,9563.0,,,,,verb.communication,True,101,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+146,2,finish,16,22,9854,9860,225,23.0,61.0,9861.0,9899.0,,,,,verb.creation,True,103,direct_object,the Director of the Theatre,1.0,0.0,1.0,unknown,0.0,tertiary
+147,2,made,46,50,9985,9989,224,51.0,60.0,9990.0,9999.0,,,,,verb.change,True,104,direct_object,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+148,2,said,41,45,10043,10047,45,46.0,86.0,10048.0,10088.0,,,,,verb.communication,True,105,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+149,1,take,9,13,10099,10103,224,14.0,17.0,10104.0,10107.0,,,,,verb.contact,True,106,direct_object,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+151,1,said,21,25,10151,10155,50,26.0,36.0,10156.0,10166.0,,,,,verb.communication,True,107,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+155,3,finish,64,70,10396,10402,224,71.0,79.0,10403.0,10411.0,,,,,verb.change,True,109,direct_object,a young man in a garret,1.0,12.0,13.0,male,1.0,tertiary
+156,0,said,15,19,10429,10433,10,20.0,31.0,10434.0,10445.0,,,,,verb.communication,True,108,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+158,2,command,62,69,10551,10558,10,70.0,73.0,10559.0,10562.0,,,,,verb.communication,True,111,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+159,0,plucked,15,22,10580,10587,50,23.0,26.0,10588.0,10591.0,,,,,verb.contact,True,112,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+167,1,watched,41,48,11171,11178,95,49.0,106.0,11179.0,11236.0,,,,,verb.perception,True,118,direct_object,the sailors hauling big chests out of the hold with ropes,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+171,0,cried,0,5,11312,11317,45,6.0,17.0,11318.0,11329.0,,,,,verb.communication,True,120,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+171,0,cried,0,5,11312,11317,97,6.0,17.0,11318.0,11329.0,,,,,verb.communication,True,120,direct_object,,,,,,,
+174,1,answered,16,24,11565,11573,45,25.0,36.0,11574.0,11585.0,,,,,verb.communication,True,123,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+176,3,watching,93,101,11831,11839,185,102.0,106.0,11840.0,11844.0,,,,,verb.perception,True,122,direct_object,the statue's companions,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+177,1,leave,20,25,11892,11897,15,26.0,29.0,11898.0,11901.0,,,,,verb.motion,True,126,direct_object,Dear Prince,2.0,4.0,6.0,male,1.0,tertiary
+179,1,stands,53,59,12178,12184,235,60.0,79.0,12185.0,12204.0,,,,,verb.contact,True,125,direct_object,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+180,1,let,8,11,12214,12217,235,12.0,42.0,12218.0,12248.0,,,,,verb.social,True,124,direct_object,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+183,2,beat,68,72,12487,12491,235,73.0,76.0,12492.0,12495.0,,,,,verb.contact,True,129,direct_object,a little match - girl,1.0,11.0,12.0,female,1.0,tertiary
+184,4,pluck,73,78,12571,12576,50,83.0,91.0,12581.0,12589.0,,,,,verb.perception,True,130,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+187,0,plucked,6,13,12705,12712,50,14.0,17.0,12713.0,12716.0,,,,,verb.contact,True,131,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+188,0,swooped,3,10,12769,12776,105,11.0,15.0,12777.0,12781.0,,,,,verb.motion,True,132,direct_object,the match - girl,1.0,1.0,2.0,female,1.0,tertiary
+189,0,cried,30,35,12877,12882,106,36.0,51.0,12883.0,12898.0,,,,,verb.communication,True,133,direct_object,the little girl,1.0,1.0,2.0,female,1.0,tertiary
+192,3,stay,41,45,13011,13015,50,46.0,54.0,13016.0,13024.0,55.0,61.0,13025.0,13031.0,verb.motion,True,135,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+193,0,said,22,26,13056,13060,110,27.0,42.0,13061.0,13076.0,,,,,verb.communication,True,136,direct_object,the poor Prince,1.0,0.0,1.0,male,1.0,tertiary
+195,1,told,54,58,13245,13249,50,59.0,62.0,13250.0,13253.0,,,,,verb.communication,True,138,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+195,1,told,54,58,13245,13249,45,59.0,62.0,13250.0,13253.0,,,,,verb.communication,True,138,direct_object,the Swallow,11.0,33.0,44.0,male,1.0,secondary
+196,0,told,3,7,13303,13307,50,8.0,11.0,13308.0,13311.0,,,,,verb.communication,True,141,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+202,1,tell,45,49,13972,13976,50,50.0,52.0,13977.0,13979.0,,,,,verb.communication,True,142,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+202,1,tell,45,49,13972,13976,241,50.0,52.0,13977.0,13979.0,,,,,verb.communication,True,142,direct_object,women,1.0,0.0,1.0,female,1.0,tertiary
+202,1,tell,45,49,13972,13976,240,50.0,52.0,13977.0,13979.0,,,,,verb.communication,True,142,direct_object,men,1.0,0.0,1.0,male,1.0,tertiary
+204,1,tell,38,42,14152,14156,50,43.0,45.0,14157.0,14159.0,,,,,verb.communication,True,144,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+204,1,tell,38,42,14152,14156,10,43.0,45.0,14157.0,14159.0,,,,,verb.communication,True,144,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+207,1,lying,51,56,14490,14495,133,57.0,78.0,14496.0,14517.0,79.0,110.0,14518.0,14549.0,verb.contact,True,145,direct_object,one another,1.0,0.0,1.0,unknown,0.0,tertiary
+210,2,shouted,25,32,14608,14615,134,33.0,45.0,14616.0,14628.0,,,,,verb.communication,True,147,direct_object,the Watchman,1.0,2.0,3.0,male,1.0,tertiary
+212,2,said,31,35,14754,14758,50,36.0,46.0,14759.0,14769.0,,,,,verb.communication,True,151,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+213,0,think,19,24,14850,14855,243,25.0,54.0,14856.0,14885.0,,,,,verb.cognition,True,150,direct_object,the Prince's poor,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+221,3,loved,86,91,15565,15570,50,92.0,95.0,15571.0,15574.0,96.0,104.0,15575.0,15583.0,verb.emotion,True,157,direct_object,the Prince,20.0,31.0,51.0,male,1.0,secondary
+226,3,kiss,30,34,15883,15887,245,35.0,44.0,15888.0,15897.0,,,,,verb.contact,True,162,direct_object,dear Prince,1.0,6.0,7.0,male,1.0,tertiary
+228,2,love,41,45,16054,16058,245,46.0,49.0,16059.0,16062.0,,,,,verb.emotion,True,163,direct_object,dear Prince,1.0,6.0,7.0,male,1.0,tertiary
+229,3,said,38,42,16103,16107,10,43.0,54.0,16108.0,16119.0,,,,,verb.communication,True,165,direct_object,Swallow,37.0,96.0,133.0,male,1.0,primary
+232,0,kissed,7,13,16206,16212,20,14.0,30.0,16213.0,16229.0,31.0,42.0,16230.0,16241.0,verb.contact,True,164,direct_object,the Happy Prince,16.0,24.0,40.0,male,1.0,tertiary
+241,0,cried,0,5,16696,16701,153,6.0,60.0,16702.0,16756.0,,,,,verb.communication,True,169,direct_object,the Mayor,5.0,5.0,10.0,male,1.0,tertiary
+241,0,cried,0,5,16696,16701,155,6.0,60.0,16702.0,16756.0,,,,,verb.communication,True,169,direct_object,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+243,5,said,87,91,16877,16881,153,92.0,101.0,16882.0,16891.0,102.0,109.0,16892.0,16899.0,verb.communication,True,170,direct_object,the Mayor,5.0,5.0,10.0,male,1.0,tertiary
+244,0,said,31,35,16970,16974,155,36.0,56.0,16975.0,16995.0,,,,,verb.communication,True,171,direct_object,the Town Councillors,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+246,0,continued,0,9,17045,17054,153,10.0,19.0,17055.0,17064.0,,,,,verb.communication,True,172,direct_object,the Mayor,5.0,5.0,10.0,male,1.0,tertiary
+250,2,said,55,59,17307,17311,165,60.0,95.0,17312.0,17347.0,,,,,verb.communication,True,176,direct_object,the Art Professor at the University,1.0,0.0,1.0,unknown,0.0,tertiary
+256,0,said,0,4,17722,17726,171,5.0,47.0,17727.0,17769.0,,,,,verb.communication,True,180,direct_object,the overseer of the workmen at the foundry,1.0,0.0,1.0,unknown,0.0,tertiary
+256,0,said,0,4,17722,17726,172,5.0,47.0,17727.0,17769.0,,,,,verb.communication,True,180,direct_object,the workmen at the foundry,1.0,0.0,1.0,unknown,0.0,tertiary
+259,0,threw,8,13,17857,17862,173,14.0,16.0,17863.0,17865.0,,,,,verb.contact,True,182,direct_object,the dead Swallow,1.0,0.0,1.0,unknown,0.0,tertiary
+260,1,said,53,57,17973,17977,174,58.0,61.0,17978.0,17981.0,,,,,verb.communication,True,183,direct_object,God's Angels,1.0,0.0,1.0,unknown,0.0,tertiary
+260,1,said,53,57,17973,17977,14,58.0,61.0,17978.0,17981.0,,,,,verb.communication,True,183,direct_object,God,3.0,6.0,9.0,unknown,0.0,tertiary
+261,0,brought,15,22,18018,18025,14,23.0,26.0,18026.0,18029.0,,,,,verb.contact,True,184,direct_object,God,3.0,6.0,9.0,unknown,0.0,tertiary
+262,6,praise,155,161,18221,18227,14,162.0,164.0,18228.0,18230.0,,,,,verb.communication,True,185,direct_object,God,3.0,6.0,9.0,unknown,0.0,tertiary

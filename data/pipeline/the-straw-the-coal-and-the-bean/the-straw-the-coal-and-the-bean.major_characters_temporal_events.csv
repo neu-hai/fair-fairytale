@@ -1,0 +1,33 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,made,7,11,120,124,1.0,3.0,6.0,116.0,119.0,,,,,verb.creation,True,0,subject,"a poor old woman who had collected a mess of beans , and was going to cook them",1,3,4,female,1.0,secondary
+5,3,come,59,63,460,464,20.0,55.0,58.0,456.0,459.0,,,,,verb.motion,True,3,subject,Dear friends,1,1,2,unknown,0.0,tertiary
+6,4,met,92,95,564,567,4.0,68.0,69.0,540.0,541.0,,,,,verb.social,True,4,subject,The coal,1,7,8,unknown,0.0,primary
+7,3,burned,19,25,602,608,4.0,0.0,1.0,583.0,584.0,,,,,verb.contact,True,5,subject,The coal,1,7,8,unknown,0.0,primary
+8,0,said,9,13,629,633,5.0,0.0,8.0,620.0,628.0,,,,,verb.communication,True,7,subject,The bean,3,5,8,unknown,0.0,primary
+9,5,cooked,59,65,740,746,5.0,40.0,41.0,721.0,722.0,,,,,verb.change,True,6,subject,The bean,3,5,8,unknown,0.0,primary
+10,3,said,44,48,827,831,4.0,1.0,41.0,784.0,824.0,,,,,verb.communication,True,9,subject,The coal,1,7,8,unknown,0.0,primary
+11,3,deprived,97,105,940,948,21.0,73.0,76.0,916.0,919.0,,,,,verb.consumption,True,8,subject,The old woman,2,2,4,female,1.0,secondary
+12,1,slip,26,30,984,988,4.0,13.0,14.0,971.0,972.0,,,,,verb.motion,True,10,subject,The coal,1,7,8,unknown,0.0,primary
+15,6,join,98,102,1153,1157,7.0,90.0,92.0,1145.0,1147.0,122.0,130.0,1177.0,1185.0,verb.social,True,11,subject,the two others,1,11,12,group/nonbinary,1.0,primary
+17,1,started,56,63,1334,1341,7.0,51.0,55.0,1329.0,1333.0,,,,,verb.motion,True,13,subject,the two others,1,11,12,group/nonbinary,1.0,primary
+18,3,tell,100,104,1460,1464,7.0,85.0,89.0,1445.0,1449.0,,,,,verb.cognition,True,14,subject,the two others,1,11,12,group/nonbinary,1.0,primary
+19,4,lay,57,60,1562,1565,11.0,50.0,51.0,1555.0,1556.0,68.0,124.0,1573.0,1629.0,verb.contact,True,15,subject,The straw,1,5,6,unknown,0.0,secondary
+21,4,struck,93,99,1878,1884,12.0,85.0,88.0,1870.0,1873.0,,,,,verb.emotion,True,16,subject,"the coal , who was of an ardent nature",1,5,6,female,1.0,secondary
+23,2,touched,38,45,2052,2059,12.0,34.0,37.0,2048.0,2051.0,,,,,verb.motion,True,17,subject,"the coal , who was of an ardent nature",1,5,6,female,1.0,secondary
+24,4,laughing,72,80,2166,2174,15.0,0.0,56.0,2094.0,2150.0,,,,,verb.body,True,18,subject,"The bean , who had prudently remained behind on the bank",1,6,7,female,1.0,primary
+25,3,laughing,47,55,2236,2244,15.0,35.0,38.0,2224.0,2227.0,,,,,verb.body,True,19,subject,"The bean , who had prudently remained behind on the bank",1,6,7,female,1.0,primary
+26,5,stopped,103,110,2379,2386,17.0,58.0,81.0,2334.0,2357.0,,,,,verb.motion,True,20,subject,a tailor on his travels's tailor on his travels,1,6,7,male,1.0,primary
+27,2,stitched,67,75,2484,2492,17.0,33.0,35.0,2450.0,2452.0,80.0,94.0,2497.0,2511.0,verb.contact,True,22,subject,a tailor on his travels's tailor on his travels,1,6,7,male,1.0,primary
+28,2,sewn,63,67,2576,2580,17.0,56.0,58.0,2569.0,2571.0,,,,,verb.change,True,21,subject,a tailor on his travels's tailor on his travels,1,6,7,male,1.0,primary
+1,0,made,7,11,120,124,1.0,12.0,32.0,125.0,145.0,,,,,verb.creation,True,0,direct_object,"a poor old woman who had collected a mess of beans , and was going to cook them",1,3,4,female,1.0,secondary
+2,0,make,12,16,159,163,1.0,17.0,31.0,164.0,178.0,,,,,verb.change,True,1,direct_object,"a poor old woman who had collected a mess of beans , and was going to cook them",1,3,4,female,1.0,secondary
+4,1,joined,47,53,384,390,3.0,54.0,62.0,391.0,399.0,,,,,verb.contact,True,2,direct_object,the pair,1,0,1,unknown,0.0,tertiary
+6,4,met,92,95,564,567,4.0,96.0,109.0,568.0,581.0,,,,,verb.social,True,4,direct_object,The coal,1,7,8,unknown,0.0,primary
+8,0,said,9,13,629,633,5.0,15.0,59.0,635.0,679.0,,,,,verb.communication,True,7,direct_object,The bean,3,5,8,unknown,0.0,primary
+9,5,cooked,59,65,740,746,5.0,66.0,99.0,747.0,780.0,,,,,verb.change,True,6,direct_object,The bean,3,5,8,unknown,0.0,primary
+9,5,cooked,59,65,740,746,22.0,66.0,99.0,747.0,780.0,,,,,verb.change,True,6,direct_object,The bean's comrades,1,0,1,unknown,0.0,tertiary
+16,1,happen,33,39,1220,1226,7.0,40.0,45.0,1227.0,1232.0,46.0,50.0,1233.0,1237.0,verb.change,True,12,direct_object,the two others,1,11,12,group/nonbinary,1.0,primary
+18,3,tell,100,104,1460,1464,7.0,105.0,143.0,1465.0,1503.0,,,,,verb.cognition,True,14,direct_object,the two others,1,11,12,group/nonbinary,1.0,primary
+19,4,lay,57,60,1562,1565,11.0,61.0,67.0,1566.0,1572.0,68.0,124.0,1573.0,1629.0,verb.contact,True,15,direct_object,The straw,1,5,6,unknown,0.0,secondary
+27,2,stitched,67,75,2484,2492,15.0,76.0,79.0,2493.0,2496.0,80.0,94.0,2497.0,2511.0,verb.contact,True,22,direct_object,"The bean , who had prudently remained behind on the bank",1,6,7,female,1.0,primary
+28,2,sewn,63,67,2576,2580,15.0,68.0,71.0,2581.0,2584.0,,,,,verb.change,True,21,direct_object,"The bean , who had prudently remained behind on the bank",1,6,7,female,1.0,primary

@@ -1,0 +1,301 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,returned,16,24,110,118,11,13.0,15.0,107.0,109.0,37.0,89.0,131.0,183.0,verb.motion,0,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+2,0,waded,13,18,198,203,11,10.0,12.0,195.0,197.0,,,,,verb.motion,1,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+2,3,lit,92,95,277,280,11,67.0,69.0,252.0,254.0,,,,,verb.contact,2,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+3,0,looked,8,14,320,326,11,5.0,7.0,317.0,319.0,,,,,verb.perception,3,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+3,1,saw,31,34,343,346,11,19.0,21.0,331.0,333.0,,,,,verb.perception,5,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+4,0,inquired,15,23,426,434,11,12.0,14.0,423.0,425.0,,,,,verb.communication,9,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+5,0,indicate,13,21,463,471,14,0.0,12.0,450.0,462.0,,,,,verb.communication,8,subject,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+5,3,seen,84,88,534,538,11,67.0,68.0,517.0,518.0,93.0,125.0,543.0,575.0,verb.perception,7,subject,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+6,1,come,26,30,603,607,14,22.0,25.0,599.0,602.0,,,,,verb.motion,10,subject,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+7,0,answered,10,18,620,628,15,0.0,9.0,610.0,619.0,,,,,verb.communication,13,subject,The other,5,10,15,male,1.0,tertiary
+7,3,come,40,44,650,654,15,21.0,22.0,631.0,632.0,,,,,verb.motion,12,subject,The other,5,10,15,male,1.0,tertiary
+7,6,enjoy,79,84,689,694,15,21.0,22.0,631.0,632.0,,,,,verb.emotion,14,subject,The other,5,10,15,male,1.0,tertiary
+8,2,object,23,29,756,762,6,10.0,13.0,743.0,746.0,,,,,verb.communication,16,subject,Master Dung,14,60,74,male,1.0,primary
+9,0,handed,5,11,778,784,6,0.0,4.0,773.0,777.0,,,,,verb.possession,15,subject,Master Dung,14,60,74,male,1.0,primary
+10,0,said,24,28,833,837,16,4.0,23.0,813.0,832.0,,,,,verb.communication,19,subject,the other constable,1,2,3,unknown,0.0,tertiary
+10,2,need,40,44,849,853,16,31.0,32.0,840.0,841.0,,,,,verb.consumption,18,subject,the other constable,1,2,3,unknown,0.0,tertiary
+12,1,enjoy,23,28,909,914,16,17.0,19.0,903.0,905.0,,,,,verb.emotion,17,subject,the other constable,1,2,3,unknown,0.0,tertiary
+14,1,said,62,66,1060,1064,19,49.0,61.0,1047.0,1059.0,,,,,verb.communication,21,subject,the stranger,1,5,6,unknown,0.0,tertiary
+17,1,standing,33,41,1295,1303,19,26.0,27.0,1288.0,1289.0,,,,,verb.social,20,subject,the stranger,1,5,6,unknown,0.0,tertiary
+19,1,asked,23,28,1451,1456,6,0.0,4.0,1428.0,1432.0,,,,,verb.communication,23,subject,Master Dung,14,60,74,male,1.0,primary
+20,3,caused,129,135,1622,1628,94,46.0,110.0,1539.0,1603.0,,,,,verb.creation,24,subject,a certain Wang,1,0,1,unknown,0.0,tertiary
+20,3,caused,129,135,1622,1628,95,46.0,110.0,1539.0,1603.0,,,,,verb.creation,24,subject,superintendent of the granaries,1,0,1,unknown,0.0,tertiary
+21,1,accused,17,24,1671,1678,98,0.0,8.0,1654.0,1662.0,,,,,verb.communication,27,subject,This man,2,5,7,male,1.0,tertiary
+22,1,come,36,40,1740,1744,99,0.0,28.0,1704.0,1732.0,,,,,verb.change,28,subject,The King of the Nether World,1,0,1,male,1.0,tertiary
+22,3,asked,86,91,1790,1795,99,0.0,28.0,1704.0,1732.0,,,,,verb.communication,29,subject,The King of the Nether World,1,0,1,male,1.0,tertiary
+22,4,settle,126,132,1830,1836,88,92.0,122.0,1796.0,1826.0,,,,,verb.communication,30,subject,the Lord of the Great Mountain,3,0,3,unknown,0.0,tertiary
+23,1,ordered,35,42,1876,1883,88,0.0,30.0,1841.0,1871.0,,,,,verb.communication,31,subject,the Lord of the Great Mountain,3,0,3,unknown,0.0,tertiary
+23,3,shortened,76,85,1917,1926,7,48.0,72.0,1889.0,1913.0,,,,,verb.change,32,subject,Sir Wang,9,20,29,male,1.0,secondary
+24,2,sequestered,28,39,1956,1967,98,6.0,18.0,1934.0,1946.0,,,,,verb.possession,33,subject,This man,2,5,7,male,1.0,tertiary
+24,5,dragged,92,99,2020,2027,98,74.0,82.0,2002.0,2010.0,,,,,verb.contact,34,subject,This man,2,5,7,male,1.0,tertiary
+25,3,fetch,49,54,2096,2101,15,0.0,1.0,2047.0,2048.0,,,,,verb.contact,35,subject,The other,5,10,15,male,1.0,tertiary
+26,5,report,90,96,2197,2203,106,63.0,76.0,2170.0,2183.0,,,,,verb.communication,36,subject,the constable,1,0,1,unknown,0.0,tertiary
+27,0,issues,25,31,2253,2259,107,0.0,19.0,2228.0,2247.0,,,,,verb.communication,37,subject,The god of the city,2,1,3,male,1.0,tertiary
+27,1,sends,47,52,2275,2280,107,0.0,19.0,2228.0,2247.0,,,,,verb.motion,38,subject,The god of the city,2,1,3,male,1.0,tertiary
+27,2,seize,89,94,2317,2322,107,53.0,85.0,2281.0,2313.0,,,,,verb.possession,39,subject,The god of the city,2,1,3,male,1.0,tertiary
+27,2,seize,89,94,2317,2322,111,53.0,85.0,2281.0,2313.0,,,,,verb.possession,39,subject,The god of the city's own spirit constables,1,0,1,unknown,0.0,tertiary
+27,3,deliver,108,115,2336,2343,107,53.0,85.0,2281.0,2313.0,,,,,verb.communication,40,subject,The god of the city,2,1,3,male,1.0,tertiary
+27,3,deliver,108,115,2336,2343,111,53.0,85.0,2281.0,2313.0,,,,,verb.communication,40,subject,The god of the city's own spirit constables,1,0,1,unknown,0.0,tertiary
+28,1,take,16,20,2375,2379,15,14.0,15.0,2373.0,2374.0,29.0,36.0,2388.0,2395.0,verb.possession,42,subject,The other,5,10,15,male,1.0,tertiary
+29,0,asked,5,10,2403,2408,6,0.0,4.0,2398.0,2402.0,,,,,verb.communication,41,subject,Master Dung,14,60,74,male,1.0,primary
+30,0,said,22,26,2455,2459,15,5.0,14.0,2438.0,2447.0,,,,,verb.communication,43,subject,The other,5,10,15,male,1.0,tertiary
+30,2,see,47,50,2480,2483,6,38.0,41.0,2471.0,2474.0,54.0,70.0,2487.0,2503.0,verb.cognition,45,subject,Master Dung,14,60,74,male,1.0,primary
+31,1,invited,32,39,2538,2545,6,27.0,31.0,2533.0,2537.0,,,,,verb.communication,44,subject,Master Dung,14,60,74,male,1.0,primary
+31,3,entertained,79,90,2585,2596,6,27.0,31.0,2533.0,2537.0,,,,,verb.consumption,46,subject,Master Dung,14,60,74,male,1.0,primary
+32,0,talked,19,25,2640,2646,15,4.0,13.0,2625.0,2634.0,,,,,verb.communication,47,subject,The other,5,10,15,male,1.0,tertiary
+32,1,touched,30,37,2651,2658,15,4.0,13.0,2625.0,2634.0,,,,,verb.contact,48,subject,The other,5,10,15,male,1.0,tertiary
+33,1,find,36,40,2735,2739,6,24.0,25.0,2723.0,2724.0,,,,,verb.possession,49,subject,Master Dung,14,60,74,male,1.0,primary
+35,0,replied,14,21,2815,2822,28,4.0,13.0,2805.0,2814.0,,,,,verb.communication,51,subject,Master Dung's guest,1,1,2,unknown,0.0,tertiary
+35,0,replied,14,21,2815,2822,6,4.0,13.0,2805.0,2814.0,,,,,verb.communication,51,subject,Master Dung,14,60,74,male,1.0,primary
+38,2,visit,42,47,2981,2986,6,28.0,30.0,2967.0,2969.0,,,,,verb.social,50,subject,Master Dung,14,60,74,male,1.0,primary
+39,1,reappeared,35,45,3050,3060,6,32.0,34.0,3047.0,3049.0,,,,,verb.motion,52,subject,Master Dung,14,60,74,male,1.0,primary
+39,2,take,49,53,3064,3068,6,32.0,34.0,3047.0,3049.0,,,,,verb.motion,53,subject,Master Dung,14,60,74,male,1.0,primary
+39,3,said,67,71,3082,3086,6,32.0,34.0,3047.0,3049.0,,,,,verb.communication,55,subject,Master Dung,14,60,74,male,1.0,primary
+41,0,began,5,10,3233,3238,6,0.0,4.0,3228.0,3232.0,,,,,verb.change,54,subject,Master Dung,14,60,74,male,1.0,primary
+41,1,feel,14,18,3242,3246,6,0.0,4.0,3228.0,3232.0,,,,,verb.emotion,56,subject,Master Dung,14,60,74,male,1.0,primary
+42,2,died,55,59,3315,3319,7,46.0,50.0,3306.0,3310.0,,,,,verb.change,57,subject,Sir Wang,9,20,29,male,1.0,secondary
+43,1,express,76,83,3397,3404,31,0.0,21.0,3321.0,3342.0,,,,,verb.communication,60,subject,The district mandarin,1,2,3,male,1.0,tertiary
+46,0,asked,5,10,3499,3504,6,0.0,4.0,3494.0,3498.0,,,,,verb.communication,62,subject,Master Dung,14,60,74,male,1.0,primary
+46,2,died,71,75,3565,3569,7,62.0,70.0,3556.0,3564.0,,,,,verb.change,61,subject,Sir Wang,9,20,29,male,1.0,secondary
+47,5,fell,118,122,3690,3694,118,57.0,102.0,3629.0,3674.0,,,,,verb.body,63,subject,my mother who had been very busy in his house,1,0,1,female,1.0,tertiary
+47,5,fell,118,122,3690,3694,117,57.0,102.0,3629.0,3674.0,,,,,verb.body,63,subject,my mother,3,4,7,female,1.0,tertiary
+47,5,fell,118,122,3690,3694,7,57.0,102.0,3629.0,3674.0,,,,,verb.body,63,subject,Sir Wang,9,20,29,male,1.0,secondary
+48,2,breathe,60,67,3777,3784,117,0.0,3.0,3717.0,3720.0,,,,,verb.body,65,subject,my mother,3,4,7,female,1.0,tertiary
+50,2,dragging,53,61,3983,3991,40,33.0,47.0,3963.0,3977.0,66.0,71.0,3996.0,4001.0,verb.contact,66,subject,several devils,1,0,1,unknown,0.0,tertiary
+51,2,done,24,28,4027,4031,7,12.0,16.0,4015.0,4019.0,,,,,verb.social,69,subject,Sir Wang,9,20,29,male,1.0,secondary
+51,3,said,37,41,4040,4044,7,34.0,36.0,4037.0,4039.0,,,,,verb.communication,72,subject,Sir Wang,9,20,29,male,1.0,secondary
+51,4,have,46,50,4049,4053,7,44.0,45.0,4047.0,4048.0,,,,,verb.possession,71,subject,Sir Wang,9,20,29,male,1.0,secondary
+52,3,tell,41,45,4120,4124,121,32.0,35.0,4111.0,4114.0,,,,,verb.communication,75,subject,Sir Wang's wife,1,1,2,female,1.0,tertiary
+53,0,went,24,28,4160,4164,117,14.0,23.0,4150.0,4159.0,,,,,verb.motion,74,subject,my mother,3,4,7,female,1.0,tertiary
+53,1,asked,39,44,4175,4180,117,14.0,23.0,4150.0,4159.0,,,,,verb.communication,76,subject,my mother,3,4,7,female,1.0,tertiary
+54,0,told,16,20,4202,4206,7,4.0,15.0,4190.0,4201.0,25.0,35.0,4211.0,4221.0,verb.communication,78,subject,Sir Wang,9,20,29,male,1.0,secondary
+54,3,make,96,100,4282,4286,44,85.0,87.0,4271.0,4273.0,,,,,verb.social,77,subject,My master,4,2,6,male,1.0,tertiary
+55,2,became,112,118,4413,4419,44,102.0,111.0,4403.0,4412.0,,,,,verb.change,79,subject,My master,4,2,6,male,1.0,tertiary
+56,0,came,10,14,4446,4450,7,0.0,2.0,4436.0,4438.0,,,,,verb.motion,80,subject,Sir Wang,9,20,29,male,1.0,secondary
+56,1,visit,18,23,4454,4459,7,0.0,2.0,4436.0,4438.0,,,,,verb.social,81,subject,Sir Wang,9,20,29,male,1.0,secondary
+56,3,talk,64,68,4500,4504,44,41.0,57.0,4477.0,4493.0,,,,,verb.communication,82,subject,My master,4,2,6,male,1.0,tertiary
+56,3,talk,64,68,4500,4504,7,41.0,57.0,4477.0,4493.0,,,,,verb.communication,82,subject,Sir Wang,9,20,29,male,1.0,secondary
+56,4,drink,73,78,4509,4514,44,41.0,57.0,4477.0,4493.0,,,,,verb.consumption,83,subject,My master,4,2,6,male,1.0,tertiary
+56,4,drink,73,78,4509,4514,7,41.0,57.0,4477.0,4493.0,,,,,verb.consumption,83,subject,Sir Wang,9,20,29,male,1.0,secondary
+57,0,said,18,22,4543,4547,44,8.0,17.0,4533.0,4542.0,,,,,verb.communication,85,subject,My master,4,2,6,male,1.0,tertiary
+57,1,have,60,64,4585,4589,122,32.0,59.0,4557.0,4584.0,,,,,verb.possession,84,subject,We administrative mandarins,1,0,1,unknown,0.0,tertiary
+57,1,have,60,64,4585,4589,123,32.0,59.0,4557.0,4584.0,,,,,verb.possession,84,subject,mandarins,1,0,1,unknown,0.0,tertiary
+58,2,reached,34,41,4666,4673,7,0.0,3.0,4632.0,4635.0,,,,,verb.motion,86,subject,Sir Wang,9,20,29,male,1.0,secondary
+58,5,make,120,124,4752,4756,7,100.0,103.0,4732.0,4735.0,,,,,verb.social,88,subject,Sir Wang,9,20,29,male,1.0,secondary
+60,0,replied,12,19,4818,4825,55,0.0,11.0,4806.0,4817.0,,,,,verb.communication,90,subject,the officer,3,2,5,unknown,0.0,tertiary
+60,2,know,54,58,4860,4864,55,52.0,53.0,4858.0,4859.0,,,,,verb.cognition,89,subject,the officer,3,2,5,unknown,0.0,tertiary
+60,4,speak,65,70,4871,4876,55,59.0,60.0,4865.0,4866.0,,,,,verb.communication,92,subject,the officer,3,2,5,unknown,0.0,tertiary
+61,1,compelled,16,25,4908,4917,126,0.0,11.0,4892.0,4903.0,,,,,verb.communication,91,subject,We officers,1,0,1,unknown,0.0,tertiary
+61,1,compelled,16,25,4908,4917,127,0.0,11.0,4892.0,4903.0,,,,,verb.communication,91,subject,officers,1,0,1,unknown,0.0,tertiary
+61,2,find,29,33,4921,4925,126,0.0,11.0,4892.0,4903.0,69.0,122.0,4961.0,5014.0,verb.possession,94,subject,We officers,1,0,1,unknown,0.0,tertiary
+61,2,find,29,33,4921,4925,127,0.0,11.0,4892.0,4903.0,69.0,122.0,4961.0,5014.0,verb.possession,94,subject,officers,1,0,1,unknown,0.0,tertiary
+65,0,heard,16,21,5244,5249,56,5.0,15.0,5233.0,5243.0,,,,,verb.perception,95,subject,my husband,2,18,20,male,1.0,tertiary
+66,0,reflected,22,31,5460,5469,56,19.0,21.0,5457.0,5459.0,,,,,verb.cognition,98,subject,my husband,2,18,20,male,1.0,tertiary
+67,0,retired,32,39,5563,5570,56,29.0,31.0,5560.0,5562.0,,,,,verb.motion,100,subject,my husband,2,18,20,male,1.0,tertiary
+69,1,crossed,26,33,5658,5665,56,23.0,25.0,5655.0,5657.0,44.0,59.0,5676.0,5691.0,verb.motion,102,subject,my husband,2,18,20,male,1.0,tertiary
+69,2,walked,81,87,5713,5719,56,23.0,25.0,5655.0,5657.0,,,,,verb.motion,103,subject,my husband,2,18,20,male,1.0,tertiary
+70,0,said,11,15,5761,5765,56,8.0,10.0,5758.0,5760.0,,,,,verb.communication,104,subject,my husband,2,18,20,male,1.0,tertiary
+71,1,sacrifice,8,17,5811,5820,56,1.0,2.0,5804.0,5805.0,,,,,verb.possession,106,subject,my husband,2,18,20,male,1.0,tertiary
+72,2,indicted,53,61,5886,5894,55,37.0,48.0,5870.0,5881.0,,,,,verb.social,105,subject,the officer,3,2,5,unknown,0.0,tertiary
+73,5,condemned,79,88,5975,5984,55,63.0,74.0,5959.0,5970.0,,,,,verb.communication,108,subject,the officer,3,2,5,unknown,0.0,tertiary
+74,1,increased,33,42,6028,6037,56,0.0,10.0,5995.0,6005.0,,,,,verb.change,107,subject,my husband,2,18,20,male,1.0,tertiary
+76,0,told,15,19,6176,6180,117,5.0,14.0,6166.0,6175.0,,,,,verb.communication,109,subject,my mother,3,4,7,female,1.0,tertiary
+76,1,burst,90,95,6251,6256,69,73.0,89.0,6234.0,6250.0,,,,,verb.change,110,subject,the whole family,1,0,1,unknown,0.0,tertiary
+77,3,read,77,81,6353,6357,71,0.0,46.0,6276.0,6322.0,89.0,147.0,6365.0,6423.0,verb.cognition,111,subject,Buddhist and Taoist priests,1,0,1,unknown,0.0,tertiary
+77,6,delivered,138,147,6414,6423,7,124.0,128.0,6400.0,6404.0,,,,,verb.contact,112,subject,Sir Wang,9,20,29,male,1.0,secondary
+79,0,heard,10,15,6554,6559,6,5.0,9.0,6549.0,6553.0,,,,,verb.perception,113,subject,Master Dung,14,60,74,male,1.0,primary
+80,0,received,19,27,6613,6621,6,16.0,18.0,6610.0,6612.0,,,,,verb.possession,114,subject,Master Dung,14,60,74,male,1.0,primary
+81,0,thought,3,10,6695,6702,6,0.0,2.0,6692.0,6694.0,,,,,verb.cognition,116,subject,Master Dung,14,60,74,male,1.0,primary
+82,1,inquire,7,14,6825,6832,6,0.0,1.0,6818.0,6819.0,,,,,verb.communication,117,subject,Master Dung,14,60,74,male,1.0,primary
+83,1,see,15,18,6857,6860,6,8.0,9.0,6850.0,6851.0,23.0,28.0,6865.0,6870.0,verb.social,119,subject,Master Dung,14,60,74,male,1.0,primary
+84,0,reached,8,15,6881,6888,6,5.0,7.0,6878.0,6880.0,,,,,verb.motion,118,subject,Master Dung,14,60,74,male,1.0,primary
+85,0,received,15,23,6934,6942,35,0.0,14.0,6919.0,6933.0,28.0,110.0,6947.0,7029.0,verb.possession,121,subject,The inn - keeper,6,23,29,male,1.0,secondary
+85,3,come,79,83,6998,7002,6,75.0,78.0,6994.0,6997.0,,,,,verb.motion,120,subject,Master Dung,14,60,74,male,1.0,primary
+86,1,answered,16,24,7048,7056,133,1.0,5.0,7033.0,7037.0,,,,,verb.communication,123,subject,the man,1,0,1,male,1.0,tertiary
+86,1,answered,16,24,7048,7056,6,1.0,5.0,7033.0,7037.0,,,,,verb.communication,123,subject,Master Dung,14,60,74,male,1.0,primary
+86,5,know,62,66,7094,7098,35,48.0,51.0,7080.0,7083.0,,,,,verb.cognition,122,subject,The inn - keeper,6,23,29,male,1.0,secondary
+87,0,replied,15,22,7119,7126,35,0.0,14.0,7104.0,7118.0,,,,,verb.communication,125,subject,The inn - keeper,6,23,29,male,1.0,secondary
+87,1,appeared,75,83,7179,7187,134,25.0,74.0,7129.0,7178.0,90.0,100.0,7194.0,7204.0,verb.perception,124,subject,The constable of the temple of the Great Mountain,1,2,3,male,1.0,tertiary
+87,2,said,105,109,7209,7213,134,25.0,74.0,7129.0,7178.0,,,,,verb.communication,126,subject,The constable of the temple of the Great Mountain,1,2,3,male,1.0,tertiary
+87,6,coming,180,186,7284,7290,136,112.0,176.0,7216.0,7280.0,,,,,verb.motion,127,subject,The inn - keeper's man by the name of Dung who is a good friend of mine,1,0,1,male,1.0,tertiary
+87,6,coming,180,186,7284,7290,35,112.0,176.0,7216.0,7280.0,,,,,verb.motion,127,subject,The inn - keeper,6,23,29,male,1.0,secondary
+88,0,described,12,21,7332,7341,134,9.0,11.0,7329.0,7331.0,55.0,68.0,7375.0,7388.0,verb.communication,128,subject,The constable of the temple of the Great Mountain,1,2,3,male,1.0,tertiary
+88,1,told,74,78,7394,7398,134,9.0,11.0,7329.0,7331.0,,,,,verb.communication,129,subject,The constable of the temple of the Great Mountain,1,2,3,male,1.0,tertiary
+88,2,make,85,89,7405,7409,35,79.0,81.0,7399.0,7401.0,,,,,verb.cognition,130,subject,The inn - keeper,6,23,29,male,1.0,secondary
+88,3,came,125,129,7445,7449,6,121.0,124.0,7441.0,7444.0,,,,,verb.change,131,subject,Master Dung,14,60,74,male,1.0,primary
+88,4,treat,133,138,7453,7458,6,121.0,124.0,7441.0,7444.0,,,,,verb.social,132,subject,Master Dung,14,60,74,male,1.0,primary
+88,5,take,183,187,7503,7507,6,121.0,124.0,7441.0,7444.0,,,,,verb.possession,133,subject,Master Dung,14,60,74,male,1.0,primary
+88,7,repay,220,225,7540,7545,134,211.0,213.0,7531.0,7533.0,229.0,237.0,7549.0,7557.0,verb.possession,134,subject,The constable of the temple of the Great Mountain,1,2,3,male,1.0,tertiary
+89,0,saw,10,13,7569,7572,35,8.0,9.0,7567.0,7568.0,,,,,verb.perception,135,subject,The inn - keeper,6,23,29,male,1.0,secondary
+89,1,coming,18,24,7577,7583,6,14.0,17.0,7573.0,7576.0,,,,,verb.motion,136,subject,Master Dung,14,60,74,male,1.0,primary
+89,4,knew,81,85,7640,7644,35,79.0,80.0,7638.0,7639.0,90.0,97.0,7649.0,7656.0,verb.cognition,137,subject,The inn - keeper,6,23,29,male,1.0,secondary
+90,1,prepared,15,23,7673,7681,35,0.0,1.0,7658.0,7659.0,,,,,verb.change,138,subject,The inn - keeper,6,23,29,male,1.0,secondary
+90,2,beg,50,53,7708,7711,35,0.0,1.0,7658.0,7659.0,,,,,verb.communication,139,subject,The inn - keeper,6,23,29,male,1.0,secondary
+90,4,condescend,68,78,7726,7736,6,59.0,62.0,7717.0,7720.0,,,,,verb.emotion,140,subject,Master Dung,14,60,74,male,1.0,primary
+90,5,make,82,86,7740,7744,6,59.0,62.0,7717.0,7720.0,96.0,103.0,7754.0,7761.0,verb.change,142,subject,Master Dung,14,60,74,male,1.0,primary
+91,0,followed,14,22,7778,7786,6,0.0,13.0,7764.0,7777.0,,,,,verb.motion,141,subject,Master Dung,14,60,74,male,1.0,primary
+91,1,waited,47,53,7811,7817,35,32.0,46.0,7796.0,7810.0,,,,,verb.cognition,143,subject,The inn - keeper,6,23,29,male,1.0,secondary
+91,2,saw,98,101,7862,7865,35,32.0,46.0,7796.0,7810.0,,,,,verb.cognition,145,subject,The inn - keeper,6,23,29,male,1.0,secondary
+91,3,had,110,113,7874,7877,6,107.0,109.0,7871.0,7873.0,,,,,verb.possession,144,subject,Master Dung,14,60,74,male,1.0,primary
+93,2,stood,35,40,7979,7984,35,32.0,34.0,7976.0,7978.0,,,,,verb.contact,147,subject,The inn - keeper,6,23,29,male,1.0,secondary
+93,3,gave,60,64,8004,8008,35,32.0,34.0,7976.0,7978.0,,,,,verb.possession,148,subject,The inn - keeper,6,23,29,male,1.0,secondary
+93,4,asked,83,88,8027,8032,35,32.0,34.0,7976.0,7978.0,,,,,verb.communication,150,subject,The inn - keeper,6,23,29,male,1.0,secondary
+93,8,seen,136,140,8080,8084,35,124.0,126.0,8068.0,8070.0,,,,,verb.social,149,subject,The inn - keeper,6,23,29,male,1.0,secondary
+94,0,answered,5,13,8095,8103,6,0.0,4.0,8090.0,8094.0,,,,,verb.cognition,151,subject,Master Dung,14,60,74,male,1.0,primary
+94,1,thanked,36,43,8126,8133,6,0.0,4.0,8090.0,8094.0,,,,,verb.communication,153,subject,Master Dung,14,60,74,male,1.0,primary
+94,2,appearing,69,78,8159,8168,35,44.0,47.0,8134.0,8137.0,97.0,107.0,8187.0,8197.0,verb.perception,152,subject,The inn - keeper,6,23,29,male,1.0,secondary
+96,0,went,18,22,8264,8268,6,15.0,17.0,8261.0,8263.0,,,,,verb.motion,155,subject,Master Dung,14,60,74,male,1.0,primary
+96,1,walking,23,30,8269,8276,6,15.0,17.0,8261.0,8263.0,,,,,verb.motion,154,subject,Master Dung,14,60,74,male,1.0,primary
+96,2,came,77,81,8323,8327,58,66.0,76.0,8312.0,8322.0,,,,,verb.motion,156,subject,my husband's friend,3,0,3,unknown,0.0,tertiary
+96,2,came,77,81,8323,8327,6,66.0,76.0,8312.0,8322.0,,,,,verb.motion,156,subject,Master Dung,14,60,74,male,1.0,primary
+96,3,visit,85,90,8331,8336,58,66.0,76.0,8312.0,8322.0,,,,,verb.social,157,subject,my husband's friend,3,0,3,unknown,0.0,tertiary
+96,3,visit,85,90,8331,8336,6,66.0,76.0,8312.0,8322.0,,,,,verb.social,157,subject,Master Dung,14,60,74,male,1.0,primary
+96,4,talked,99,105,8345,8351,58,66.0,76.0,8312.0,8322.0,,,,,verb.communication,158,subject,my husband's friend,3,0,3,unknown,0.0,tertiary
+96,4,talked,99,105,8345,8351,6,66.0,76.0,8312.0,8322.0,,,,,verb.communication,158,subject,Master Dung,14,60,74,male,1.0,primary
+96,5,asked,137,142,8383,8388,58,66.0,76.0,8312.0,8322.0,,,,,verb.communication,161,subject,my husband's friend,3,0,3,unknown,0.0,tertiary
+96,5,asked,137,142,8383,8388,6,66.0,76.0,8312.0,8322.0,,,,,verb.communication,161,subject,Master Dung,14,60,74,male,1.0,primary
+97,2,spoken,31,37,8455,8461,7,1.0,13.0,8425.0,8437.0,,,,,verb.communication,159,subject,Sir Wang,9,20,29,male,1.0,secondary
+97,3,answered,40,48,8464,8472,7,1.0,37.0,8425.0,8461.0,,,,,verb.communication,163,subject,Sir Wang,9,20,29,male,1.0,secondary
+98,0,pretended,10,19,8494,8503,98,1.0,9.0,8485.0,8493.0,,,,,verb.communication,162,subject,This man,2,5,7,male,1.0,tertiary
+101,0,added,8,13,8710,8715,35,5.0,7.0,8707.0,8709.0,,,,,verb.communication,165,subject,The inn - keeper,6,23,29,male,1.0,secondary
+101,1,reach,25,30,8727,8732,6,21.0,24.0,8723.0,8726.0,,,,,verb.motion,164,subject,Master Dung,14,60,74,male,1.0,primary
+101,3,take,45,49,8747,8751,6,36.0,39.0,8738.0,8741.0,,,,,verb.social,167,subject,Master Dung,14,60,74,male,1.0,primary
+102,1,allowed,9,16,8791,8798,8,0.0,4.0,8782.0,8786.0,,,,,verb.social,166,subject,Fate,1,0,1,unknown,0.0,tertiary
+103,2,come,28,32,8867,8871,35,21.0,22.0,8860.0,8861.0,,,,,verb.motion,168,subject,The inn - keeper,6,23,29,male,1.0,secondary
+103,3,fetch,36,41,8875,8880,35,21.0,22.0,8860.0,8861.0,46.0,52.0,8885.0,8891.0,verb.contact,169,subject,The inn - keeper,6,23,29,male,1.0,secondary
+104,1,see,12,15,8905,8908,35,5.0,6.0,8898.0,8899.0,,,,,verb.cognition,171,subject,The inn - keeper,6,23,29,male,1.0,secondary
+104,2,obtain,25,31,8918,8924,6,21.0,24.0,8914.0,8917.0,53.0,105.0,8946.0,8998.0,verb.possession,170,subject,Master Dung,14,60,74,male,1.0,primary
+105,1,said,12,16,9013,9017,35,5.0,7.0,9006.0,9008.0,,,,,verb.communication,172,subject,The inn - keeper,6,23,29,male,1.0,secondary
+105,2,disappeared,26,37,9027,9038,35,23.0,25.0,9024.0,9026.0,,,,,verb.change,173,subject,The inn - keeper,6,23,29,male,1.0,secondary
+3,1,saw,31,34,343,346,11,35.0,97.0,347.0,409.0,,,,,verb.perception,5,direct_object,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+3,1,saw,31,34,343,346,14,35.0,97.0,347.0,409.0,,,,,verb.perception,5,direct_object,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+3,2,dressed,54,61,366,373,11,62.0,97.0,374.0,409.0,,,,,verb.body,4,direct_object,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+3,3,crouching,77,86,389,398,11,87.0,97.0,399.0,409.0,,,,,verb.contact,6,direct_object,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+4,0,inquired,15,23,426,434,14,26.0,37.0,437.0,448.0,,,,,verb.communication,9,direct_object,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+5,0,indicate,13,21,463,471,14,22.0,61.0,472.0,511.0,,,,,verb.communication,8,direct_object,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+5,0,indicate,13,21,463,471,83,22.0,61.0,472.0,511.0,,,,,verb.communication,8,direct_object,a member of our profession,1,0,1,unknown,0.0,tertiary
+5,3,seen,84,88,534,538,14,89.0,92.0,539.0,542.0,93.0,125.0,543.0,575.0,verb.perception,7,direct_object,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+6,0,tell,0,4,577,581,11,5.0,7.0,582.0,584.0,,,,,verb.communication,11,direct_object,a constable by the name of Dung,1,10,11,male,1.0,tertiary
+6,0,tell,0,4,577,581,14,5.0,7.0,582.0,584.0,,,,,verb.communication,11,direct_object,a man in a red hat dressed as a constable,1,5,6,male,1.0,tertiary
+7,0,answered,10,18,620,628,15,21.0,121.0,631.0,731.0,,,,,verb.communication,13,direct_object,The other,5,10,15,male,1.0,tertiary
+7,0,answered,10,18,620,628,6,21.0,121.0,631.0,731.0,,,,,verb.communication,13,direct_object,Master Dung,14,60,74,male,1.0,primary
+7,6,enjoy,79,84,689,694,6,85.0,121.0,695.0,731.0,,,,,verb.emotion,14,direct_object,Master Dung,14,60,74,male,1.0,primary
+9,0,handed,5,11,778,784,15,12.0,15.0,785.0,788.0,,,,,verb.possession,15,direct_object,The other,5,10,15,male,1.0,tertiary
+10,0,said,24,28,833,837,16,31.0,49.0,840.0,858.0,,,,,verb.communication,19,direct_object,the other constable,1,2,3,unknown,0.0,tertiary
+14,1,said,62,66,1060,1064,19,69.0,99.0,1067.0,1097.0,,,,,verb.communication,21,direct_object,the stranger,1,5,6,unknown,0.0,tertiary
+14,1,said,62,66,1060,1064,6,69.0,99.0,1067.0,1097.0,,,,,verb.communication,21,direct_object,Master Dung,14,60,74,male,1.0,primary
+19,1,asked,23,28,1451,1456,15,31.0,62.0,1459.0,1490.0,,,,,verb.communication,23,direct_object,The other,5,10,15,male,1.0,tertiary
+19,2,brings,47,53,1475,1481,15,54.0,57.0,1482.0,1485.0,58.0,62.0,1486.0,1490.0,verb.motion,22,direct_object,The other,5,10,15,male,1.0,tertiary
+20,0,said,0,4,1493,1497,15,5.0,14.0,1498.0,1507.0,,,,,verb.communication,26,direct_object,The other,5,10,15,male,1.0,tertiary
+20,0,said,0,4,1493,1497,95,5.0,14.0,1498.0,1507.0,,,,,verb.communication,26,direct_object,superintendent of the granaries,1,0,1,unknown,0.0,tertiary
+20,0,said,0,4,1493,1497,6,5.0,14.0,1498.0,1507.0,,,,,verb.communication,26,direct_object,Master Dung,14,60,74,male,1.0,primary
+20,0,said,0,4,1493,1497,94,5.0,14.0,1498.0,1507.0,,,,,verb.communication,26,direct_object,a certain Wang,1,0,1,unknown,0.0,tertiary
+20,0,said,0,4,1493,1497,97,5.0,14.0,1498.0,1507.0,,,,,verb.communication,26,direct_object,an officer,2,0,2,unknown,0.0,tertiary
+20,1,lives,40,45,1533,1538,94,46.0,110.0,1539.0,1603.0,,,,,verb.motion,25,direct_object,a certain Wang,1,0,1,unknown,0.0,tertiary
+20,1,lives,40,45,1533,1538,95,46.0,110.0,1539.0,1603.0,,,,,verb.motion,25,direct_object,superintendent of the granaries,1,0,1,unknown,0.0,tertiary
+20,3,caused,129,135,1622,1628,97,136.0,159.0,1629.0,1652.0,,,,,verb.creation,24,direct_object,an officer,2,0,2,unknown,0.0,tertiary
+21,1,accused,17,24,1671,1678,98,25.0,28.0,1679.0,1682.0,,,,,verb.communication,27,direct_object,This man,2,5,7,male,1.0,tertiary
+22,3,asked,86,91,1790,1795,88,92.0,122.0,1796.0,1826.0,,,,,verb.communication,29,direct_object,the Lord of the Great Mountain,3,0,3,unknown,0.0,tertiary
+23,1,ordered,35,42,1876,1883,7,43.0,85.0,1884.0,1926.0,,,,,verb.communication,31,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+25,3,fetch,49,54,2096,2101,98,55.0,58.0,2102.0,2105.0,,,,,verb.contact,35,direct_object,This man,2,5,7,male,1.0,tertiary
+26,5,report,90,96,2197,2203,107,97.0,119.0,2204.0,2226.0,,,,,verb.communication,36,direct_object,The god of the city,2,1,3,male,1.0,tertiary
+27,1,sends,47,52,2275,2280,107,53.0,85.0,2281.0,2313.0,,,,,verb.motion,38,direct_object,The god of the city,2,1,3,male,1.0,tertiary
+27,1,sends,47,52,2275,2280,111,53.0,85.0,2281.0,2313.0,,,,,verb.motion,38,direct_object,The god of the city's own spirit constables,1,0,1,unknown,0.0,tertiary
+27,1,sends,47,52,2275,2280,15,53.0,85.0,2281.0,2313.0,,,,,verb.motion,38,direct_object,The other,5,10,15,male,1.0,tertiary
+27,3,deliver,108,115,2336,2343,15,116.0,118.0,2344.0,2346.0,,,,,verb.communication,40,direct_object,The other,5,10,15,male,1.0,tertiary
+30,0,said,22,26,2455,2459,6,29.0,70.0,2462.0,2503.0,,,,,verb.communication,43,direct_object,Master Dung,14,60,74,male,1.0,primary
+31,1,invited,32,39,2538,2545,25,40.0,53.0,2546.0,2559.0,,,,,verb.communication,44,direct_object,Master Dung's colleague,1,1,2,male,1.0,tertiary
+31,1,invited,32,39,2538,2545,6,40.0,53.0,2546.0,2559.0,,,,,verb.communication,44,direct_object,Master Dung,14,60,74,male,1.0,primary
+31,3,entertained,79,90,2585,2596,25,91.0,94.0,2597.0,2600.0,,,,,verb.consumption,46,direct_object,Master Dung's colleague,1,1,2,male,1.0,tertiary
+33,1,find,36,40,2735,2739,15,41.0,64.0,2740.0,2763.0,,,,,verb.possession,49,direct_object,The other,5,10,15,male,1.0,tertiary
+35,0,replied,14,21,2815,2822,28,23.0,67.0,2824.0,2868.0,,,,,verb.communication,51,direct_object,Master Dung's guest,1,1,2,unknown,0.0,tertiary
+38,2,visit,42,47,2981,2986,30,48.0,74.0,2987.0,3013.0,,,,,verb.social,50,direct_object,the city god,1,0,1,unknown,0.0,tertiary
+39,3,said,67,71,3082,3086,6,73.0,103.0,3088.0,3118.0,,,,,verb.communication,55,direct_object,Master Dung,14,60,74,male,1.0,primary
+42,0,came,27,31,3287,3291,7,32.0,59.0,3292.0,3319.0,,,,,verb.motion,58,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+43,0,journeyed,22,31,3343,3352,32,32.0,63.0,3353.0,3384.0,64.0,96.0,3385.0,3417.0,verb.motion,59,direct_object,the dead man,1,0,1,male,1.0,tertiary
+43,1,express,76,83,3397,3404,31,84.0,96.0,3405.0,3417.0,,,,,verb.communication,60,direct_object,The district mandarin,1,2,3,male,1.0,tertiary
+46,0,asked,5,10,3499,3504,35,11.0,14.0,3505.0,3508.0,,,,,verb.communication,62,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+46,0,asked,5,10,3499,3504,7,11.0,14.0,3505.0,3508.0,,,,,verb.communication,62,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+47,1,answered,27,35,3599,3607,35,36.0,50.0,3608.0,3622.0,,,,,verb.communication,64,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+49,3,said,83,87,3870,3874,7,90.0,141.0,3877.0,3928.0,,,,,verb.communication,68,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+49,6,met,128,131,3915,3918,7,132.0,135.0,3919.0,3922.0,136.0,141.0,3923.0,3928.0,verb.motion,67,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+50,2,dragging,53,61,3983,3991,7,62.0,65.0,3992.0,3995.0,66.0,71.0,3996.0,4001.0,verb.contact,66,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+51,0,asked,2,7,4005,4010,7,8.0,11.0,4011.0,4014.0,,,,,verb.communication,70,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+51,3,said,37,41,4040,4044,7,44.0,74.0,4047.0,4077.0,,,,,verb.communication,72,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+52,1,ask,16,19,4095,4098,7,20.0,27.0,4099.0,4106.0,,,,,verb.communication,73,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+52,1,ask,16,19,4095,4098,121,20.0,27.0,4099.0,4106.0,,,,,verb.communication,73,direct_object,Sir Wang's wife,1,1,2,female,1.0,tertiary
+53,1,asked,39,44,4175,4180,117,45.0,48.0,4181.0,4184.0,,,,,verb.communication,76,direct_object,my mother,3,4,7,female,1.0,tertiary
+54,0,told,16,20,4202,4206,44,21.0,24.0,4207.0,4210.0,25.0,35.0,4211.0,4221.0,verb.communication,78,direct_object,My master,4,2,6,male,1.0,tertiary
+54,0,told,16,20,4202,4206,45,21.0,24.0,4207.0,4210.0,25.0,35.0,4211.0,4221.0,verb.communication,78,direct_object,an official,1,0,1,unknown,0.0,tertiary
+54,0,told,16,20,4202,4206,117,21.0,24.0,4207.0,4210.0,25.0,35.0,4211.0,4221.0,verb.communication,78,direct_object,my mother,3,4,7,female,1.0,tertiary
+57,0,said,18,22,4543,4547,7,23.0,29.0,4548.0,4554.0,,,,,verb.communication,85,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+59,0,have,0,4,4764,4768,7,5.0,8.0,4769.0,4772.0,,,,,verb.possession,87,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+60,0,replied,12,19,4818,4825,55,21.0,84.0,4827.0,4890.0,,,,,verb.communication,90,direct_object,the officer,3,2,5,unknown,0.0,tertiary
+60,0,replied,12,19,4818,4825,7,21.0,84.0,4827.0,4890.0,,,,,verb.communication,90,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+60,0,replied,12,19,4818,4825,125,21.0,84.0,4827.0,4890.0,,,,,verb.communication,90,direct_object,good friends,1,0,1,unknown,0.0,tertiary
+60,2,know,54,58,4860,4864,55,59.0,84.0,4865.0,4890.0,,,,,verb.cognition,89,direct_object,the officer,3,2,5,unknown,0.0,tertiary
+60,2,know,54,58,4860,4864,7,59.0,84.0,4865.0,4890.0,,,,,verb.cognition,89,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+60,4,speak,65,70,4871,4876,7,78.0,84.0,4884.0,4890.0,,,,,verb.communication,92,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+62,0,pay,8,11,5024,5027,128,12.0,19.0,5028.0,5035.0,,,,,verb.possession,93,direct_object,our men,1,0,1,male,1.0,tertiary
+65,0,heard,16,21,5244,5249,56,22.0,34.0,5250.0,5262.0,,,,,verb.perception,95,direct_object,my husband,2,18,20,male,1.0,tertiary
+65,1,say,26,29,5254,5257,56,30.0,208.0,5258.0,5436.0,,,,,verb.communication,96,direct_object,my husband,2,18,20,male,1.0,tertiary
+65,4,disclosing,80,90,5308,5318,56,91.0,152.0,5319.0,5380.0,,,,,verb.communication,97,direct_object,my husband,2,18,20,male,1.0,tertiary
+66,0,reflected,22,31,5460,5469,58,32.0,91.0,5470.0,5529.0,,,,,verb.cognition,98,direct_object,my husband's friend,3,0,3,unknown,0.0,tertiary
+66,0,reflected,22,31,5460,5469,56,32.0,91.0,5470.0,5529.0,,,,,verb.cognition,98,direct_object,my husband,2,18,20,male,1.0,tertiary
+66,3,abuse,62,67,5500,5505,58,68.0,91.0,5506.0,5529.0,,,,,verb.change,99,direct_object,my husband's friend,3,0,3,unknown,0.0,tertiary
+66,3,abuse,62,67,5500,5505,56,68.0,91.0,5506.0,5529.0,,,,,verb.change,99,direct_object,my husband,2,18,20,male,1.0,tertiary
+67,0,retired,32,39,5563,5570,56,40.0,58.0,5571.0,5589.0,,,,,verb.motion,100,direct_object,my husband,2,18,20,male,1.0,tertiary
+69,0,lost,0,4,5632,5636,56,5.0,21.0,5637.0,5653.0,,,,,verb.contact,101,direct_object,my husband,2,18,20,male,1.0,tertiary
+69,1,crossed,26,33,5658,5665,56,34.0,43.0,5666.0,5675.0,44.0,59.0,5676.0,5691.0,verb.motion,102,direct_object,my husband,2,18,20,male,1.0,tertiary
+71,1,sacrifice,8,17,5811,5820,130,18.0,27.0,5821.0,5830.0,,,,,verb.possession,106,direct_object,my husband's friend,2,2,4,male,1.0,tertiary
+71,1,sacrifice,8,17,5811,5820,56,18.0,27.0,5821.0,5830.0,,,,,verb.possession,106,direct_object,my husband,2,18,20,male,1.0,tertiary
+76,0,told,15,19,6176,6180,117,20.0,24.0,6181.0,6185.0,,,,,verb.communication,109,direct_object,my mother,3,4,7,female,1.0,tertiary
+76,0,told,15,19,6176,6180,7,20.0,24.0,6181.0,6185.0,,,,,verb.communication,109,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+80,0,received,19,27,6613,6621,72,28.0,96.0,6622.0,6690.0,,,,,verb.possession,114,direct_object,some robbers there,1,0,1,unknown,0.0,tertiary
+80,2,arrest,71,77,6665,6671,72,78.0,96.0,6672.0,6690.0,,,,,verb.social,115,direct_object,some robbers there,1,0,1,unknown,0.0,tertiary
+81,0,thought,3,10,6695,6702,130,24.0,124.0,6716.0,6816.0,,,,,verb.cognition,116,direct_object,my husband's friend,2,2,4,male,1.0,tertiary
+81,0,thought,3,10,6695,6702,6,24.0,124.0,6716.0,6816.0,,,,,verb.cognition,116,direct_object,Master Dung,14,60,74,male,1.0,primary
+82,1,inquire,7,14,6825,6832,130,15.0,22.0,6833.0,6840.0,,,,,verb.communication,117,direct_object,my husband's friend,2,2,4,male,1.0,tertiary
+83,1,see,15,18,6857,6860,130,19.0,22.0,6861.0,6864.0,23.0,28.0,6865.0,6870.0,verb.social,119,direct_object,my husband's friend,2,2,4,male,1.0,tertiary
+85,0,received,15,23,6934,6942,6,24.0,27.0,6943.0,6946.0,28.0,110.0,6947.0,7029.0,verb.possession,121,direct_object,Master Dung,14,60,74,male,1.0,primary
+86,1,answered,16,24,7048,7056,35,41.0,69.0,7073.0,7101.0,,,,,verb.communication,123,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+86,5,know,62,66,7094,7098,35,67.0,69.0,7099.0,7101.0,,,,,verb.cognition,122,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+87,0,replied,15,22,7119,7126,136,24.0,213.0,7128.0,7317.0,,,,,verb.communication,125,direct_object,The inn - keeper's man by the name of Dung who is a good friend of mine,1,0,1,male,1.0,tertiary
+87,0,replied,15,22,7119,7126,35,24.0,213.0,7128.0,7317.0,,,,,verb.communication,125,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+87,0,replied,15,22,7119,7126,134,24.0,213.0,7128.0,7317.0,,,,,verb.communication,125,direct_object,The constable of the temple of the Great Mountain,1,2,3,male,1.0,tertiary
+87,1,appeared,75,83,7179,7187,35,84.0,89.0,7188.0,7193.0,90.0,100.0,7194.0,7204.0,verb.perception,124,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+87,2,said,105,109,7209,7213,136,112.0,213.0,7216.0,7317.0,,,,,verb.communication,126,direct_object,The inn - keeper's man by the name of Dung who is a good friend of mine,1,0,1,male,1.0,tertiary
+87,2,said,105,109,7209,7213,35,112.0,213.0,7216.0,7317.0,,,,,verb.communication,126,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+88,0,described,12,21,7332,7341,6,22.0,54.0,7342.0,7374.0,55.0,68.0,7375.0,7388.0,verb.communication,128,direct_object,Master Dung,14,60,74,male,1.0,primary
+88,1,told,74,78,7394,7398,35,79.0,81.0,7399.0,7401.0,,,,,verb.communication,129,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+88,4,treat,133,138,7453,7458,6,139.0,142.0,7459.0,7462.0,,,,,verb.social,132,direct_object,Master Dung,14,60,74,male,1.0,primary
+88,5,take,183,187,7503,7507,6,188.0,194.0,7508.0,7514.0,,,,,verb.possession,133,direct_object,Master Dung,14,60,74,male,1.0,primary
+88,7,repay,220,225,7540,7545,35,226.0,228.0,7546.0,7548.0,229.0,237.0,7549.0,7557.0,verb.possession,134,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+89,0,saw,10,13,7569,7572,6,14.0,24.0,7573.0,7583.0,,,,,verb.perception,135,direct_object,Master Dung,14,60,74,male,1.0,primary
+89,4,knew,81,85,7640,7644,6,86.0,89.0,7645.0,7648.0,90.0,97.0,7649.0,7656.0,verb.cognition,137,direct_object,Master Dung,14,60,74,male,1.0,primary
+90,1,prepared,15,23,7673,7681,6,24.0,36.0,7682.0,7694.0,,,,,verb.change,138,direct_object,Master Dung,14,60,74,male,1.0,primary
+90,2,beg,50,53,7708,7711,6,54.0,103.0,7712.0,7761.0,,,,,verb.communication,139,direct_object,Master Dung,14,60,74,male,1.0,primary
+90,5,make,82,86,7740,7744,6,87.0,95.0,7745.0,7753.0,96.0,103.0,7754.0,7761.0,verb.change,142,direct_object,Master Dung,14,60,74,male,1.0,primary
+91,2,saw,98,101,7862,7865,6,102.0,146.0,7866.0,7910.0,,,,,verb.cognition,145,direct_object,Master Dung,14,60,74,male,1.0,primary
+93,1,opened,15,21,7959,7965,35,22.0,30.0,7966.0,7974.0,,,,,verb.contact,146,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+93,2,stood,35,40,7979,7984,6,41.0,58.0,7985.0,8002.0,,,,,verb.contact,147,direct_object,Master Dung,14,60,74,male,1.0,primary
+93,3,gave,60,64,8004,8008,35,65.0,68.0,8009.0,8012.0,,,,,verb.possession,148,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+93,3,gave,60,64,8004,8008,6,65.0,68.0,8009.0,8012.0,,,,,verb.possession,148,direct_object,Master Dung,14,60,74,male,1.0,primary
+93,4,asked,83,88,8027,8032,35,89.0,144.0,8033.0,8088.0,,,,,verb.communication,150,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+93,4,asked,83,88,8027,8032,6,89.0,144.0,8033.0,8088.0,,,,,verb.communication,150,direct_object,Master Dung,14,60,74,male,1.0,primary
+93,8,seen,136,140,8080,8084,6,141.0,144.0,8085.0,8088.0,,,,,verb.social,149,direct_object,Master Dung,14,60,74,male,1.0,primary
+94,0,answered,5,13,8095,8103,35,14.0,31.0,8104.0,8121.0,,,,,verb.cognition,151,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+94,1,thanked,36,43,8126,8133,35,44.0,47.0,8134.0,8137.0,,,,,verb.communication,153,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+94,2,appearing,69,78,8159,8168,35,79.0,96.0,8169.0,8186.0,97.0,107.0,8187.0,8197.0,verb.perception,152,direct_object,The inn - keeper,6,23,29,male,1.0,secondary
+96,3,visit,85,90,8331,8336,6,91.0,94.0,8337.0,8340.0,,,,,verb.social,157,direct_object,Master Dung,14,60,74,male,1.0,primary
+96,4,talked,99,105,8345,8351,6,106.0,114.0,8352.0,8360.0,,,,,verb.communication,158,direct_object,Master Dung,14,60,74,male,1.0,primary
+96,5,asked,137,142,8383,8388,7,143.0,146.0,8389.0,8392.0,,,,,verb.communication,161,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+96,5,asked,137,142,8383,8388,6,143.0,146.0,8389.0,8392.0,,,,,verb.communication,161,direct_object,Master Dung,14,60,74,male,1.0,primary
+96,7,happened,156,164,8402,8410,7,165.0,176.0,8411.0,8422.0,,,,,verb.change,160,direct_object,Sir Wang,9,20,29,male,1.0,secondary
+97,3,answered,40,48,8464,8472,15,49.0,58.0,8473.0,8482.0,,,,,verb.communication,163,direct_object,The other,5,10,15,male,1.0,tertiary
+101,0,added,8,13,8710,8715,6,16.0,78.0,8718.0,8780.0,,,,,verb.communication,165,direct_object,Master Dung,14,60,74,male,1.0,primary
+101,3,take,45,49,8747,8751,6,50.0,78.0,8752.0,8780.0,,,,,verb.social,167,direct_object,Master Dung,14,60,74,male,1.0,primary
+102,1,allowed,9,16,8791,8798,6,17.0,20.0,8799.0,8802.0,,,,,verb.social,166,direct_object,Master Dung,14,60,74,male,1.0,primary
+103,3,fetch,36,41,8875,8880,6,42.0,45.0,8881.0,8884.0,46.0,52.0,8885.0,8891.0,verb.contact,169,direct_object,Master Dung,14,60,74,male,1.0,primary
+104,1,see,12,15,8905,8908,6,16.0,105.0,8909.0,8998.0,,,,,verb.cognition,171,direct_object,Master Dung,14,60,74,male,1.0,primary

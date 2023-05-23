@@ -1,0 +1,128 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,4,gather,89,95,185,191,0,57.0,60.0,153.0,156.0,,,,,verb.contact,True,0,subject,"a poor woman , who lived in a wretched hut far away from the village",1.0,3.0,4.0,female,1.0,tertiary
+2,10,slap,186,190,384,388,3,176.0,178.0,374.0,376.0,200.0,221.0,398.0,419.0,verb.contact,True,1,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+3,4,crossed,62,69,567,574,3,59.0,61.0,564.0,566.0,,,,,verb.motion,True,2,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+4,0,saw,9,12,604,607,3,6.0,8.0,601.0,603.0,,,,,verb.perception,True,4,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+6,2,freezing,12,20,700,708,3,0.0,3.0,688.0,691.0,,,,,verb.change,True,3,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+9,1,asked,53,58,836,841,9,42.0,52.0,825.0,835.0,,,,,verb.communication,True,6,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy's mother",3.0,2.0,5.0,female,1.0,tertiary
+9,1,asked,53,58,836,841,3,42.0,52.0,825.0,835.0,,,,,verb.communication,True,6,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+10,0,told,3,7,926,930,3,0.0,2.0,923.0,925.0,,,,,verb.communication,True,7,subject,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+11,3,think,36,41,1082,1087,6,32.0,35.0,1078.0,1081.0,,,,,verb.cognition,True,9,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+13,3,hang,55,59,1235,1239,6,45.0,48.0,1225.0,1228.0,65.0,89.0,1245.0,1269.0,verb.contact,True,8,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+14,1,fetch,47,52,1324,1329,11,16.0,19.0,1293.0,1296.0,,,,,verb.contact,True,10,subject,the woman,4.0,4.0,8.0,female,1.0,tertiary
+15,0,came,8,12,1350,1354,6,5.0,7.0,1347.0,1349.0,,,,,verb.motion,True,12,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+16,2,have,37,41,1486,1490,6,33.0,36.0,1482.0,1485.0,,,,,verb.possession,True,11,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+18,0,looked,12,18,1543,1549,6,9.0,11.0,1540.0,1542.0,24.0,31.0,1555.0,1562.0,verb.perception,True,14,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+20,0,took,7,11,1746,1750,6,4.0,6.0,1743.0,1745.0,,,,,verb.contact,True,16,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+22,4,said,63,67,1972,1976,103,1.0,60.0,1910.0,1969.0,,,,,verb.communication,True,18,subject,this one,1.0,0.0,1.0,unknown,0.0,tertiary
+23,0,took,7,11,1993,1997,6,4.0,6.0,1990.0,1992.0,,,,,verb.motion,True,17,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+24,0,told,3,7,2055,2059,6,0.0,2.0,2052.0,2054.0,,,,,verb.communication,True,19,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+25,3,said,83,87,2327,2331,6,1.0,4.0,2245.0,2248.0,,,,,verb.communication,True,20,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+26,1,said,18,22,2359,2363,104,1.0,15.0,2342.0,2356.0,,,,,verb.communication,True,22,subject,a fool,1.0,0.0,1.0,unknown,0.0,tertiary
+26,1,said,18,22,2359,2363,6,1.0,15.0,2342.0,2356.0,,,,,verb.communication,True,22,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+27,4,found,63,68,2580,2585,6,55.0,58.0,2572.0,2575.0,,,,,verb.possession,True,21,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+28,1,kept,11,15,2629,2633,6,3.0,6.0,2621.0,2624.0,,,,,verb.possession,True,23,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+29,5,tormented,68,77,2778,2787,11,57.0,58.0,2767.0,2768.0,,,,,verb.emotion,True,24,subject,the woman,4.0,4.0,8.0,female,1.0,tertiary
+30,2,earn,25,29,2847,2851,6,4.0,7.0,2826.0,2829.0,,,,,verb.possession,True,25,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+31,2,wandered,50,58,2920,2928,6,3.0,10.0,2873.0,2880.0,78.0,97.0,2948.0,2967.0,verb.motion,True,26,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+32,4,make,86,90,3055,3059,25,75.0,79.0,3044.0,3048.0,,,,,verb.social,True,27,subject,people,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+33,0,came,11,15,3086,3090,6,8.0,10.0,3083.0,3085.0,,,,,verb.motion,True,28,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+34,1,work,23,27,3129,3133,6,16.0,19.0,3122.0,3125.0,,,,,verb.social,True,29,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+35,6,buy,130,133,3329,3332,30,115.0,119.0,3314.0,3318.0,,,,,verb.possession,True,30,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+37,0,handed,3,9,3486,3492,30,0.0,2.0,3483.0,3485.0,,,,,verb.possession,True,32,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+38,1,buy,24,27,3546,3549,30,11.0,15.0,3533.0,3537.0,,,,,verb.possession,True,33,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+41,5,said,63,67,3677,3681,6,1.0,60.0,3615.0,3674.0,,,,,verb.communication,True,35,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+42,0,promised,11,19,3702,3710,38,0.0,10.0,3691.0,3701.0,,,,,verb.communication,True,36,subject,the boy's master,1.0,0.0,1.0,unknown,0.0,tertiary
+42,0,promised,11,19,3702,3710,6,0.0,10.0,3691.0,3701.0,,,,,verb.communication,True,36,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+43,10,shove,171,176,3909,3914,30,128.0,130.0,3866.0,3868.0,,,,,verb.motion,True,38,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+46,1,thought,63,70,4171,4178,112,0.0,60.0,4108.0,4168.0,,,,,verb.cognition,True,39,subject,,,,,,,
+51,6,said,95,99,4415,4419,44,0.0,92.0,4320.0,4412.0,,,,,verb.communication,True,42,subject,a woman with a bag on her back's woman with a bag on her back,1.0,6.0,7.0,female,1.0,tertiary
+51,6,said,95,99,4415,4419,46,0.0,92.0,4320.0,4412.0,,,,,verb.communication,True,42,subject,the old woman,1.0,2.0,3.0,female,1.0,tertiary
+52,5,asked,109,114,4544,4549,6,1.0,8.0,4436.0,4443.0,,,,,verb.communication,True,43,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+53,0,agreed,10,16,4620,4626,11,0.0,9.0,4610.0,4619.0,,,,,verb.communication,True,44,subject,the woman,4.0,4.0,8.0,female,1.0,tertiary
+54,3,drifted,119,126,4789,4796,30,116.0,118.0,4786.0,4788.0,,,,,verb.motion,True,45,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+55,0,came,11,15,4856,4860,30,8.0,10.0,4853.0,4855.0,,,,,verb.motion,True,47,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+57,2,understand,54,64,5084,5094,30,41.0,43.0,5071.0,5073.0,,,,,verb.cognition,True,48,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+58,1,thought,20,27,5158,5165,30,4.0,6.0,5142.0,5144.0,,,,,verb.cognition,True,49,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+59,7,work,173,177,5436,5440,58,132.0,165.0,5395.0,5428.0,,,,,verb.social,True,50,subject,all who were sitting at the table,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+62,1,have,25,29,5759,5763,119,11.0,24.0,5745.0,5758.0,,,,,verb.possession,True,54,subject,the folk,1.0,0.0,1.0,unknown,0.0,tertiary
+64,2,know,30,34,5812,5816,61,17.0,21.0,5799.0,5803.0,,,,,verb.cognition,True,53,subject,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+65,2,bought,42,48,5875,5881,30,22.0,29.0,5855.0,5862.0,,,,,verb.possession,True,52,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+66,2,sell,46,50,6110,6114,30,30.0,42.0,6094.0,6106.0,,,,,verb.possession,True,56,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+67,2,let,25,28,6154,6157,30,16.0,18.0,6145.0,6147.0,,,,,verb.social,True,57,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+68,2,thanked,66,73,6238,6245,30,5.0,7.0,6177.0,6179.0,78.0,84.0,6250.0,6256.0,verb.communication,True,58,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+69,0,sailed,18,24,6293,6299,30,5.0,17.0,6280.0,6292.0,,,,,verb.motion,True,59,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+70,1,drifted,92,99,6496,6503,30,89.0,91.0,6493.0,6495.0,,,,,verb.motion,True,61,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+74,3,seen,90,94,6854,6858,30,71.0,76.0,6835.0,6840.0,,,,,verb.perception,True,60,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+75,0,sold,14,18,6874,6878,30,5.0,7.0,6865.0,6867.0,,,,,verb.possession,True,62,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+76,1,sailed,16,22,6990,6996,30,9.0,11.0,6983.0,6985.0,,,,,verb.motion,True,63,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+77,2,driven,60,66,7121,7127,30,47.0,49.0,7108.0,7110.0,,,,,verb.motion,True,64,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+79,1,told,92,96,7341,7345,61,81.0,91.0,7330.0,7340.0,,,,,verb.communication,True,65,subject,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+81,3,eat,71,74,7697,7700,61,54.0,64.0,7680.0,7690.0,,,,,verb.consumption,True,66,subject,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+82,2,sell,42,46,7753,7757,30,29.0,41.0,7740.0,7752.0,,,,,verb.possession,True,67,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+83,0,refused,24,31,7795,7802,30,21.0,23.0,7792.0,7794.0,,,,,verb.communication,True,68,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+84,0,promised,16,24,7819,7827,30,13.0,15.0,7816.0,7818.0,,,,,verb.communication,True,69,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+85,1,thanked,23,30,7904,7911,61,4.0,8.0,7885.0,7889.0,,,,,verb.communication,True,71,subject,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+86,5,given,122,127,8073,8078,30,91.0,114.0,8042.0,8065.0,,,,,verb.possession,True,70,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+87,2,said,41,45,8125,8129,6,1.0,38.0,8085.0,8122.0,,,,,verb.communication,True,73,subject,the boy,11.0,39.0,50.0,male,1.0,secondary
+88,2,bought,44,50,8219,8225,30,27.0,34.0,8202.0,8209.0,,,,,verb.possession,True,72,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+89,3,thought,92,99,8356,8363,88,88.0,91.0,8352.0,8355.0,,,,,verb.cognition,True,74,subject,,,,,,,
+91,1,made,17,21,8526,8530,30,14.0,16.0,8523.0,8525.0,,,,,verb.social,True,76,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+92,0,landed,12,18,8631,8637,30,9.0,11.0,8628.0,8630.0,,,,,verb.motion,True,77,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+94,1,treated,30,37,8857,8864,30,4.0,6.0,8831.0,8833.0,,,,,verb.body,True,78,subject,the merchant,19.0,71.0,90.0,male,1.0,primary
+95,3,said,52,56,8929,8933,93,1.0,49.0,8878.0,8926.0,,,,,verb.communication,True,79,subject,the youth,2.0,1.0,3.0,unknown,0.0,tertiary
+2,10,slap,186,190,384,388,3,191.0,199.0,389.0,397.0,200.0,221.0,398.0,419.0,verb.contact,True,1,direct_object,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+7,0,said,0,4,720,724,6,5.0,12.0,725.0,732.0,,,,,verb.communication,True,5,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+9,1,asked,53,58,836,841,3,59.0,62.0,842.0,845.0,,,,,verb.communication,True,6,direct_object,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+10,0,told,3,7,926,930,9,8.0,11.0,931.0,934.0,,,,,verb.communication,True,7,direct_object,"a poor woman , who lived in a wretched hut far away from the village's little boy's mother",3.0,2.0,5.0,female,1.0,tertiary
+10,0,told,3,7,926,930,3,8.0,11.0,931.0,934.0,,,,,verb.communication,True,7,direct_object,"a poor woman , who lived in a wretched hut far away from the village's little boy",1.0,25.0,26.0,male,0.6612903225806451,tertiary
+14,1,fetch,47,52,1324,1329,6,53.0,63.0,1330.0,1340.0,,,,,verb.contact,True,10,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+16,2,have,37,41,1486,1490,101,42.0,65.0,1491.0,1514.0,,,,,verb.possession,True,11,direct_object,poor fellow,1.0,0.0,1.0,unknown,0.0,tertiary
+17,0,said,0,4,1517,1521,6,5.0,12.0,1522.0,1529.0,,,,,verb.communication,True,13,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+19,3,thought,29,36,1656,1663,6,37.0,44.0,1664.0,1671.0,,,,,verb.cognition,True,15,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+22,4,said,63,67,1972,1976,6,68.0,75.0,1977.0,1984.0,,,,,verb.communication,True,18,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+23,0,took,7,11,1993,1997,6,12.0,50.0,1998.0,2036.0,,,,,verb.motion,True,17,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+24,0,told,3,7,2055,2059,9,8.0,18.0,2060.0,2070.0,,,,,verb.communication,True,19,direct_object,"a poor woman , who lived in a wretched hut far away from the village's little boy's mother",3.0,2.0,5.0,female,1.0,tertiary
+24,0,told,3,7,2055,2059,6,8.0,18.0,2060.0,2070.0,,,,,verb.communication,True,19,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+25,3,said,83,87,2327,2331,6,88.0,95.0,2332.0,2339.0,,,,,verb.communication,True,20,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+26,1,said,18,22,2359,2363,11,23.0,32.0,2364.0,2373.0,,,,,verb.communication,True,22,direct_object,the woman,4.0,4.0,8.0,female,1.0,tertiary
+30,2,earn,25,29,2847,2851,6,30.0,45.0,2852.0,2867.0,,,,,verb.possession,True,25,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+32,4,make,86,90,3055,3059,6,91.0,97.0,3060.0,3066.0,,,,,verb.social,True,27,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+33,0,came,11,15,3086,3090,26,16.0,29.0,3091.0,3104.0,,,,,verb.motion,True,28,direct_object,a merchant,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+36,3,came,41,45,3404,3408,34,46.0,118.0,3409.0,3481.0,,,,,verb.motion,True,31,direct_object,the little fellow who carried wood and water,1.0,0.0,1.0,unknown,0.0,tertiary
+37,0,handed,3,9,3486,3492,30,10.0,13.0,3493.0,3496.0,,,,,verb.possession,True,32,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+39,0,asked,0,5,3559,3564,30,6.0,18.0,3565.0,3577.0,,,,,verb.communication,True,34,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+41,5,said,63,67,3677,3681,6,68.0,75.0,3682.0,3689.0,,,,,verb.communication,True,35,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+44,4,buy,100,103,4020,4023,30,104.0,107.0,4024.0,4027.0,,,,,verb.possession,True,37,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+46,1,thought,63,70,4171,4178,30,71.0,83.0,4179.0,4191.0,,,,,verb.cognition,True,39,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+47,0,came,11,15,4204,4208,44,16.0,46.0,4209.0,4239.0,,,,,verb.motion,True,41,direct_object,a woman with a bag on her back's woman with a bag on her back,1.0,6.0,7.0,female,1.0,tertiary
+48,0,have,6,10,4247,4251,44,11.0,14.0,4252.0,4255.0,15.0,26.0,4256.0,4267.0,verb.possession,True,40,direct_object,a woman with a bag on her back's woman with a bag on her back,1.0,6.0,7.0,female,1.0,tertiary
+51,6,said,95,99,4415,4419,46,100.0,113.0,4420.0,4433.0,,,,,verb.communication,True,42,direct_object,the old woman,1.0,2.0,3.0,female,1.0,tertiary
+52,5,asked,109,114,4544,4549,11,115.0,124.0,4550.0,4559.0,,,,,verb.communication,True,43,direct_object,the woman,4.0,4.0,8.0,female,1.0,tertiary
+52,5,asked,109,114,4544,4549,30,115.0,124.0,4550.0,4559.0,,,,,verb.communication,True,43,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+55,0,came,11,15,4856,4860,30,16.0,53.0,4861.0,4898.0,,,,,verb.motion,True,47,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+56,3,lay,69,72,4996,4999,55,73.0,101.0,5000.0,5028.0,,,,,verb.contact,True,46,direct_object,each guest,1.0,0.0,1.0,unknown,0.0,tertiary
+58,1,thought,20,27,5158,5165,30,30.0,122.0,5168.0,5260.0,,,,,verb.cognition,True,49,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+58,1,thought,20,27,5158,5165,58,30.0,122.0,5168.0,5260.0,,,,,verb.cognition,True,49,direct_object,all who were sitting at the table,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+60,4,excuse,85,91,5664,5670,25,92.0,94.0,5671.0,5673.0,,,,,verb.communication,True,51,direct_object,people,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+61,1,said,39,43,5715,5719,30,44.0,56.0,5720.0,5732.0,,,,,verb.communication,True,55,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+64,2,know,30,34,5812,5816,25,35.0,49.0,5817.0,5831.0,,,,,verb.cognition,True,53,direct_object,people,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+66,2,sell,46,50,6110,6114,30,51.0,55.0,6115.0,6119.0,,,,,verb.possession,True,56,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+66,2,sell,46,50,6110,6114,61,51.0,55.0,6115.0,6119.0,,,,,verb.possession,True,56,direct_object,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+67,2,let,25,28,6154,6157,61,29.0,42.0,6158.0,6171.0,,,,,verb.social,True,57,direct_object,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+68,2,thanked,66,73,6238,6245,30,74.0,77.0,6246.0,6249.0,78.0,84.0,6250.0,6256.0,verb.communication,True,58,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+75,0,sold,14,18,6874,6878,30,19.0,26.0,6879.0,6886.0,,,,,verb.possession,True,62,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+77,2,driven,60,66,7121,7127,30,67.0,103.0,7128.0,7164.0,,,,,verb.motion,True,64,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+79,1,told,92,96,7341,7345,30,97.0,100.0,7346.0,7349.0,,,,,verb.communication,True,65,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+79,1,told,92,96,7341,7345,61,97.0,100.0,7346.0,7349.0,,,,,verb.communication,True,65,direct_object,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+82,2,sell,42,46,7753,7757,30,47.0,51.0,7758.0,7762.0,,,,,verb.possession,True,67,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+82,2,sell,42,46,7753,7757,61,47.0,51.0,7758.0,7762.0,,,,,verb.possession,True,67,direct_object,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+84,0,promised,16,24,7819,7827,61,25.0,76.0,7828.0,7879.0,,,,,verb.communication,True,69,direct_object,the people,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+85,1,thanked,23,30,7904,7911,30,31.0,34.0,7912.0,7915.0,,,,,verb.communication,True,71,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+86,5,given,122,127,8073,8078,6,128.0,131.0,8079.0,8082.0,,,,,verb.possession,True,70,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+87,2,said,41,45,8125,8129,30,46.0,58.0,8130.0,8142.0,,,,,verb.communication,True,73,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+88,2,bought,44,50,8219,8225,6,51.0,58.0,8226.0,8233.0,,,,,verb.possession,True,72,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+90,4,promise,76,83,8461,8468,6,84.0,122.0,8469.0,8507.0,,,,,verb.communication,True,75,direct_object,the boy,11.0,39.0,50.0,male,1.0,secondary
+91,1,made,17,21,8526,8530,30,22.0,59.0,8531.0,8568.0,,,,,verb.social,True,76,direct_object,the merchant,19.0,71.0,90.0,male,1.0,primary
+94,1,treated,30,37,8857,8864,9,38.0,41.0,8865.0,8868.0,,,,,verb.body,True,78,direct_object,"a poor woman , who lived in a wretched hut far away from the village's little boy's mother",3.0,2.0,5.0,female,1.0,tertiary
+95,3,said,52,56,8929,8933,93,57.0,66.0,8934.0,8943.0,,,,,verb.communication,True,79,direct_object,the youth,2.0,1.0,3.0,unknown,0.0,tertiary

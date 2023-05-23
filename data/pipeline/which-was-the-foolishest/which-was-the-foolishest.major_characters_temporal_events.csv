@@ -1,0 +1,112 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,worked,13,19,173,179,6,0.0,7.0,160.0,167.0,,,,,verb.social,True,0,subject,The men,2.0,5.0,7.0,male,1.0,tertiary
+2,0,think,23,28,382,387,12,7.0,17.0,366.0,376.0,,,,,verb.cognition,True,1,subject,most women,1.0,1.0,2.0,female,1.0,tertiary
+3,1,see,17,20,543,546,18,1.0,4.0,527.0,530.0,,,,,verb.cognition,True,2,subject,her neighbour,1.0,1.0,2.0,unknown,0.0,tertiary
+4,0,said,4,8,566,570,17,0.0,3.0,562.0,565.0,,,,,verb.communication,True,4,subject,,,,,,,
+9,1,ask,22,25,1091,1094,19,20.0,21.0,1089.0,1090.0,,,,,verb.communication,True,7,subject,the other,2.0,12.0,14.0,unknown,0.0,tertiary
+11,6,induced,149,156,1557,1564,90,137.0,144.0,1545.0,1552.0,,,,,verb.communication,True,8,subject,,,,,,,
+12,3,replied,33,40,1643,1650,20,1.0,30.0,1611.0,1640.0,,,,,verb.communication,True,10,subject,the first,1.0,13.0,14.0,female,1.0,tertiary
+14,5,look,148,152,1889,1893,20,65.0,68.0,1806.0,1809.0,170.0,190.0,1911.0,1931.0,verb.perception,True,12,subject,the first,1.0,13.0,14.0,female,1.0,tertiary
+15,7,spinning,150,158,2083,2091,20,142.0,145.0,2075.0,2078.0,,,,,verb.motion,True,11,subject,the first,1.0,13.0,14.0,female,1.0,tertiary
+16,3,answered,45,53,2169,2177,15,1.0,14.0,2125.0,2138.0,,,,,verb.communication,True,13,subject,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+18,2,got,39,42,2366,2369,94,13.0,31.0,2340.0,2358.0,,,,,verb.possession,True,14,subject,a clever wife,1.0,0.0,1.0,female,1.0,tertiary
+18,2,got,39,42,2366,2369,15,13.0,31.0,2340.0,2358.0,,,,,verb.possession,True,14,subject,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+19,4,known,43,48,2414,2419,15,23.0,24.0,2394.0,2395.0,,,,,verb.cognition,True,15,subject,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+20,2,see,28,31,2493,2496,15,8.0,9.0,2473.0,2474.0,,,,,verb.perception,True,17,subject,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+21,2,spinning,43,51,2552,2560,24,0.0,9.0,2509.0,2518.0,,,,,verb.motion,True,16,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+22,1,said,24,28,2678,2682,24,8.0,11.0,2662.0,2665.0,,,,,verb.communication,True,19,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+23,3,fed,79,82,2905,2908,24,48.0,51.0,2874.0,2877.0,,,,,verb.consumption,True,18,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+26,1,see,22,25,3100,3103,24,0.0,11.0,3078.0,3089.0,,,,,verb.perception,True,20,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+26,1,see,22,25,3100,3103,15,0.0,11.0,3078.0,3089.0,,,,,verb.perception,True,20,subject,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+29,0,patted,10,16,3221,3227,24,0.0,9.0,3211.0,3220.0,,,,,verb.contact,True,21,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+30,3,patted,84,90,3422,3428,24,80.0,83.0,3418.0,3421.0,,,,,verb.contact,True,23,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+31,4,borne,68,73,3582,3587,23,61.0,63.0,3575.0,3577.0,83.0,108.0,3597.0,3622.0,verb.body,True,22,subject,the man,9.0,70.0,79.0,male,1.0,primary
+33,3,wear,61,65,3731,3735,23,39.0,56.0,3709.0,3726.0,,,,,verb.body,True,24,subject,the man,9.0,70.0,79.0,male,1.0,primary
+34,3,answered,44,52,3792,3800,23,0.0,2.0,3748.0,3750.0,,,,,verb.communication,True,26,subject,the man,9.0,70.0,79.0,male,1.0,primary
+39,1,looked,35,41,4108,4114,33,31.0,34.0,4104.0,4107.0,49.0,75.0,4122.0,4148.0,verb.perception,True,29,subject,the other wife,1.0,5.0,6.0,female,1.0,tertiary
+40,1,stare,12,17,4201,4206,33,8.0,11.0,4197.0,4200.0,24.0,26.0,4213.0,4215.0,verb.perception,True,30,subject,the other wife,1.0,5.0,6.0,female,1.0,tertiary
+44,1,cried,24,29,4287,4292,33,20.0,23.0,4283.0,4286.0,,,,,verb.communication,True,33,subject,the other wife,1.0,5.0,6.0,female,1.0,tertiary
+46,1,felt,45,49,4388,4392,23,42.0,44.0,4385.0,4387.0,,,,,verb.cognition,True,32,subject,the man,9.0,70.0,79.0,male,1.0,primary
+47,0,spoke,25,30,4449,4454,37,16.0,24.0,4440.0,4448.0,,,,,verb.communication,True,34,subject,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+47,0,spoke,25,30,4449,4454,23,16.0,24.0,4440.0,4448.0,,,,,verb.communication,True,34,subject,the man,9.0,70.0,79.0,male,1.0,primary
+48,4,answered,51,59,4603,4611,23,1.0,23.0,4553.0,4575.0,,,,,verb.communication,True,35,subject,the man,9.0,70.0,79.0,male,1.0,primary
+49,0,suffered,8,16,4631,4639,23,5.0,7.0,4628.0,4630.0,26.0,84.0,4649.0,4707.0,verb.motion,True,36,subject,the man,9.0,70.0,79.0,male,1.0,primary
+50,4,shaking,78,85,4787,4794,37,73.0,76.0,4782.0,4785.0,96.0,123.0,4805.0,4832.0,verb.body,True,37,subject,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+51,0,closed,49,55,4882,4888,35,30.0,42.0,4863.0,4875.0,63.0,80.0,4896.0,4913.0,verb.contact,True,38,subject,the poor man,2.0,0.0,2.0,male,1.0,tertiary
+52,1,feel,12,16,4927,4931,23,1.0,4.0,4916.0,4919.0,,,,,verb.emotion,True,39,subject,the man,9.0,70.0,79.0,male,1.0,primary
+56,1,slept,13,18,5072,5077,23,2.0,3.0,5061.0,5062.0,,,,,verb.body,True,41,subject,the man,9.0,70.0,79.0,male,1.0,primary
+58,5,wish,82,86,5219,5223,42,47.0,55.0,5184.0,5192.0,,,,,verb.emotion,True,43,subject,the wife,2.0,6.0,8.0,female,1.0,tertiary
+59,3,make,33,37,5349,5353,23,1.0,2.0,5317.0,5318.0,,,,,verb.change,True,46,subject,the man,9.0,70.0,79.0,male,1.0,primary
+60,1,tell,16,20,5430,5434,24,8.0,11.0,5422.0,5425.0,24.0,30.0,5438.0,5444.0,verb.communication,True,45,subject,The woman,4.0,29.0,33.0,female,1.0,secondary
+61,0,thought,3,10,5450,5457,23,1.0,2.0,5448.0,5449.0,,,,,verb.cognition,True,47,subject,the man,9.0,70.0,79.0,male,1.0,primary
+63,5,spoken,70,76,5740,5746,42,56.0,57.0,5726.0,5727.0,80.0,84.0,5750.0,5754.0,verb.communication,True,48,subject,the wife,2.0,6.0,8.0,female,1.0,tertiary
+64,5,said,43,47,5800,5804,42,1.0,40.0,5758.0,5797.0,,,,,verb.communication,True,50,subject,the wife,2.0,6.0,8.0,female,1.0,tertiary
+66,4,replied,136,143,6021,6028,23,126.0,128.0,6011.0,6013.0,,,,,verb.communication,True,51,subject,the man,9.0,70.0,79.0,male,1.0,primary
+67,0,burst,29,34,6085,6090,37,25.0,28.0,6081.0,6084.0,,,,,verb.change,True,52,subject,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+68,2,order,24,29,6234,6239,37,0.0,1.0,6210.0,6211.0,,,,,verb.communication,True,54,subject,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+69,0,heard,18,23,6272,6277,23,10.0,17.0,6264.0,6271.0,,,,,verb.perception,True,53,subject,the man,9.0,70.0,79.0,male,1.0,primary
+71,1,feel,13,17,6424,6428,23,11.0,12.0,6422.0,6423.0,,,,,verb.emotion,True,55,subject,the man,9.0,70.0,79.0,male,1.0,primary
+72,3,work,34,38,6480,6484,23,16.0,17.0,6462.0,6463.0,,,,,verb.social,True,56,subject,the man,9.0,70.0,79.0,male,1.0,primary
+73,2,replied,29,36,6516,6523,23,0.0,1.0,6487.0,6488.0,,,,,verb.communication,True,57,subject,the man,9.0,70.0,79.0,male,1.0,primary
+75,2,came,88,92,6696,6700,55,73.0,87.0,6681.0,6695.0,,,,,verb.motion,True,58,subject,the undertaker,2.0,0.0,2.0,unknown,0.0,tertiary
+76,0,gave,14,18,6747,6751,37,5.0,13.0,6738.0,6746.0,,,,,verb.possession,True,59,subject,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+76,0,gave,14,18,6747,6751,23,5.0,13.0,6738.0,6746.0,,,,,verb.possession,True,59,subject,the man,9.0,70.0,79.0,male,1.0,primary
+78,3,came,74,78,7117,7121,66,48.0,73.0,7091.0,7116.0,,,,,verb.motion,True,61,subject,the other woman 's husband,1.0,0.0,1.0,female,0.5,tertiary
+78,3,came,74,78,7117,7121,65,48.0,73.0,7091.0,7116.0,,,,,verb.motion,True,61,subject,the other woman,1.0,0.0,1.0,female,1.0,tertiary
+79,2,laughed,98,105,7291,7298,6,65.0,72.0,7258.0,7265.0,,,,,verb.body,True,62,subject,The men,2.0,5.0,7.0,male,1.0,tertiary
+80,4,laugh,140,145,7475,7480,70,131.0,132.0,7466.0,7467.0,,,,,verb.body,True,64,subject,The dead man,1.0,3.0,4.0,male,1.0,tertiary
+81,3,laughing,83,91,7616,7624,72,49.0,65.0,7582.0,7598.0,,,,,verb.body,True,63,subject,the other people,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+82,1,lifted,52,58,7727,7733,6,5.0,9.0,7680.0,7684.0,67.0,110.0,7742.0,7785.0,verb.contact,True,65,subject,The men,2.0,5.0,7.0,male,1.0,tertiary
+85,3,buried,41,47,7878,7884,23,13.0,16.0,7850.0,7853.0,,,,,verb.social,True,66,subject,the man,9.0,70.0,79.0,male,1.0,primary
+86,0,confessed,23,32,7910,7919,9,8.0,22.0,7895.0,7909.0,,,,,verb.communication,True,69,subject,the wives,2.0,3.0,5.0,female,1.0,tertiary
+87,13,buried,221,227,8222,8228,78,194.0,201.0,8195.0,8202.0,,,,,verb.social,True,68,subject,the man who allowed himself to be persuaded that he was wearing fine clothes when he was dressed in nothing's man who allowed himself to be persuaded that he was wearing fine clothes when he was dressed in nothing,1.0,5.0,6.0,male,1.0,tertiary
+88,0,quarrelled,13,23,8270,8280,80,3.0,12.0,8260.0,8269.0,,,,,verb.social,True,70,subject,the women,1.0,1.0,2.0,female,1.0,tertiary
+2,0,think,23,28,382,387,13,29.0,111.0,388.0,470.0,,,,,verb.cognition,True,1,direct_object,,,,,,,
+2,0,think,23,28,382,387,12,29.0,111.0,388.0,470.0,,,,,verb.cognition,True,1,direct_object,most women,1.0,1.0,2.0,female,1.0,tertiary
+4,0,said,4,8,566,570,17,9.0,25.0,571.0,587.0,,,,,verb.communication,True,4,direct_object,,,,,,,
+4,0,said,4,8,566,570,18,9.0,25.0,571.0,587.0,,,,,verb.communication,True,4,direct_object,her neighbour,1.0,1.0,2.0,unknown,0.0,tertiary
+5,2,trying,68,74,657,663,82,75.0,104.0,664.0,693.0,,,,,verb.social,True,3,direct_object,the baby,1.0,2.0,3.0,female,1.0,tertiary
+7,1,answered,33,41,971,979,19,42.0,51.0,980.0,989.0,,,,,verb.communication,True,6,direct_object,the other,2.0,12.0,14.0,unknown,0.0,tertiary
+8,2,endure,45,51,1035,1041,19,52.0,61.0,1042.0,1051.0,,,,,verb.cognition,True,5,direct_object,the other,2.0,12.0,14.0,unknown,0.0,tertiary
+8,2,endure,45,51,1035,1041,85,52.0,61.0,1042.0,1051.0,,,,,verb.cognition,True,5,direct_object,the other's husband,1.0,0.0,1.0,male,1.0,tertiary
+10,7,lay,133,136,1391,1394,88,137.0,145.0,1395.0,1403.0,146.0,148.0,1404.0,1406.0,verb.contact,True,9,direct_object,the other's sick mother,1.0,1.0,2.0,female,1.0,tertiary
+12,3,replied,33,40,1643,1650,20,41.0,50.0,1651.0,1660.0,,,,,verb.communication,True,10,direct_object,the first,1.0,13.0,14.0,female,1.0,tertiary
+14,5,look,148,152,1889,1893,20,156.0,169.0,1897.0,1910.0,170.0,190.0,1911.0,1931.0,verb.perception,True,12,direct_object,the first,1.0,13.0,14.0,female,1.0,tertiary
+16,3,answered,45,53,2169,2177,20,54.0,57.0,2178.0,2181.0,,,,,verb.communication,True,13,direct_object,the first,1.0,13.0,14.0,female,1.0,tertiary
+21,2,spinning,43,51,2552,2560,24,77.0,80.0,2586.0,2589.0,,,,,verb.motion,True,16,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+22,1,said,24,28,2678,2682,24,29.0,43.0,2683.0,2697.0,,,,,verb.communication,True,19,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+22,1,said,24,28,2678,2682,15,29.0,43.0,2683.0,2697.0,,,,,verb.communication,True,19,direct_object,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+23,3,fed,79,82,2905,2908,24,83.0,95.0,2909.0,2921.0,,,,,verb.consumption,True,18,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+32,2,answered,33,41,3657,3665,24,42.0,45.0,3666.0,3669.0,,,,,verb.communication,True,25,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+34,3,answered,44,52,3792,3800,24,55.0,165.0,3803.0,3913.0,,,,,verb.communication,True,26,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+34,3,answered,44,52,3792,3800,33,55.0,165.0,3803.0,3913.0,,,,,verb.communication,True,26,direct_object,the other wife,1.0,5.0,6.0,female,1.0,tertiary
+34,3,answered,44,52,3792,3800,95,55.0,165.0,3803.0,3913.0,,,,,verb.communication,True,26,direct_object,anyone in the whole village,1.0,0.0,1.0,unknown,0.0,tertiary
+36,2,see,28,31,3967,3970,24,32.0,34.0,3971.0,3973.0,,,,,verb.perception,True,28,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+37,1,has,28,31,4003,4006,24,32.0,56.0,4007.0,4031.0,,,,,verb.possession,True,27,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+37,1,has,28,31,4003,4006,98,32.0,56.0,4007.0,4031.0,,,,,verb.possession,True,27,direct_object,a wife,1.0,0.0,1.0,female,1.0,tertiary
+39,1,looked,35,41,4108,4114,23,42.0,48.0,4115.0,4121.0,49.0,75.0,4122.0,4148.0,verb.perception,True,29,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+40,1,stare,12,17,4201,4206,23,18.0,23.0,4207.0,4212.0,24.0,26.0,4213.0,4215.0,verb.perception,True,30,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+42,0,asked,0,5,4248,4253,23,6.0,8.0,4254.0,4256.0,,,,,verb.communication,True,31,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+49,0,suffered,8,16,4631,4639,37,17.0,25.0,4640.0,4648.0,26.0,84.0,4649.0,4707.0,verb.motion,True,36,direct_object,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+49,0,suffered,8,16,4631,4639,23,17.0,25.0,4640.0,4648.0,26.0,84.0,4649.0,4707.0,verb.motion,True,36,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+50,4,shaking,78,85,4787,4794,37,86.0,94.0,4795.0,4803.0,96.0,123.0,4805.0,4832.0,verb.body,True,37,direct_object,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+53,0,asked,0,5,4947,4952,24,6.0,15.0,4953.0,4962.0,,,,,verb.communication,True,40,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+55,0,answered,19,27,5047,5055,23,28.0,30.0,5056.0,5058.0,,,,,verb.communication,True,42,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+57,2,make,28,32,5120,5124,23,33.0,42.0,5125.0,5134.0,,,,,verb.change,True,44,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+58,5,wish,82,86,5219,5223,42,87.0,105.0,5224.0,5242.0,,,,,verb.emotion,True,43,direct_object,the wife,2.0,6.0,8.0,female,1.0,tertiary
+58,5,wish,82,86,5219,5223,15,87.0,105.0,5224.0,5242.0,,,,,verb.emotion,True,43,direct_object,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+59,3,make,33,37,5349,5353,24,38.0,49.0,5354.0,5365.0,,,,,verb.change,True,46,direct_object,The woman,4.0,29.0,33.0,female,1.0,secondary
+60,1,tell,16,20,5430,5434,23,21.0,23.0,5435.0,5437.0,24.0,30.0,5438.0,5444.0,verb.communication,True,45,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+62,3,answered,52,60,5556,5564,47,61.0,164.0,5565.0,5668.0,,,,,verb.communication,True,49,direct_object,a hero,1.0,0.0,1.0,unknown,0.0,tertiary
+62,3,answered,52,60,5556,5564,23,61.0,164.0,5565.0,5668.0,,,,,verb.communication,True,49,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+64,5,said,43,47,5800,5804,42,48.0,56.0,5805.0,5813.0,,,,,verb.communication,True,50,direct_object,the wife,2.0,6.0,8.0,female,1.0,tertiary
+66,4,replied,136,143,6021,6028,23,144.0,169.0,6029.0,6054.0,,,,,verb.communication,True,51,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+68,2,order,24,29,6234,6239,23,30.0,41.0,6240.0,6251.0,,,,,verb.communication,True,54,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+73,2,replied,29,36,6516,6523,37,37.0,45.0,6524.0,6532.0,,,,,verb.communication,True,57,direct_object,the man's wife,5.0,8.0,13.0,female,1.0,tertiary
+73,2,replied,29,36,6516,6523,23,37.0,45.0,6524.0,6532.0,,,,,verb.communication,True,57,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+76,0,gave,14,18,6747,6751,57,19.0,25.0,6752.0,6758.0,,,,,verb.possession,True,59,direct_object,the gravedigger,1.0,0.0,1.0,unknown,0.0,tertiary
+77,5,carry,181,186,6976,6981,23,187.0,190.0,6982.0,6985.0,191.0,246.0,6986.0,7041.0,verb.contact,True,60,direct_object,the man,9.0,70.0,79.0,male,1.0,primary
+84,0,asked,0,5,7825,7830,6,6.0,10.0,7831.0,7835.0,,,,,verb.communication,True,67,direct_object,The men,2.0,5.0,7.0,male,1.0,tertiary
+86,0,confessed,23,32,7910,7919,9,33.0,112.0,7920.0,7999.0,,,,,verb.communication,True,69,direct_object,the wives,2.0,3.0,5.0,female,1.0,tertiary
+86,0,confessed,23,32,7910,7919,15,33.0,112.0,7920.0,7999.0,,,,,verb.communication,True,69,direct_object,each's husband,7.0,13.0,20.0,male,1.0,tertiary
+86,0,confessed,23,32,7910,7919,19,33.0,112.0,7920.0,7999.0,,,,,verb.communication,True,69,direct_object,the other,2.0,12.0,14.0,unknown,0.0,tertiary

@@ -1,0 +1,251 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,had,68.0,71.0,68.0,71.0,13,48.0,63.0,48.0,63.0,,,,,verb.possession,True,0,subject,a widowed Queen,1,0,1,female,1.0,tertiary
+1,5,get,121.0,124.0,210.0,213.0,16,77.0,98.0,166.0,187.0,,,,,verb.possession,True,1,subject,this widowed Queen's daughters,1,0,1,unknown,0.0,tertiary
+1,5,get,121.0,124.0,210.0,213.0,15,77.0,98.0,166.0,187.0,,,,,verb.possession,True,1,subject,this widowed Queen,1,2,3,female,1.0,tertiary
+2,3,seek,75.0,79.0,304.0,308.0,17,39.0,42.0,268.0,271.0,,,,,verb.possession,True,2,subject,the eldest Princess,1,4,5,female,1.0,tertiary
+5,9,ask,205.0,208.0,654.0,657.0,23,174.0,177.0,623.0,626.0,257.0,290.0,706.0,739.0,verb.communication,True,5,subject,the Queen,2,5,7,female,1.0,tertiary
+7,1,peeped,72.0,78.0,1002.0,1008.0,24,3.0,15.0,933.0,945.0,,,,,verb.motion,True,6,subject,The Princess,26,161,187,female,1.0,primary
+8,1,told,76.0,80.0,1208.0,1212.0,24,39.0,42.0,1171.0,1174.0,,,,,verb.communication,True,7,subject,The Princess,26,161,187,female,1.0,primary
+9,2,said,41.0,45.0,1286.0,1290.0,24,1.0,38.0,1246.0,1283.0,61.0,86.0,1306.0,1331.0,verb.communication,True,8,subject,The Princess,26,161,187,female,1.0,primary
+9,2,said,41.0,45.0,1286.0,1290.0,6,1.0,38.0,1246.0,1283.0,61.0,86.0,1306.0,1331.0,verb.communication,True,8,subject,Aweel,1,0,1,unknown,0.0,tertiary
+10,1,came,90.0,94.0,1468.0,1472.0,40,70.0,89.0,1448.0,1467.0,,,,,verb.motion,True,10,subject,the second Princess,2,0,2,female,1.0,tertiary
+14,6,tell,137.0,141.0,2033.0,2037.0,40,24.0,43.0,1920.0,1939.0,,,,,verb.communication,True,13,subject,the second Princess,2,0,2,female,1.0,tertiary
+15,0,hoped,43.0,48.0,2150.0,2155.0,24,39.0,42.0,2146.0,2149.0,,,,,verb.emotion,True,12,subject,The Princess,26,161,187,female,1.0,primary
+17,2,went,68.0,72.0,2316.0,2320.0,24,64.0,67.0,2312.0,2315.0,,,,,verb.motion,True,14,subject,The Princess,26,161,187,female,1.0,primary
+19,0,went,13.0,17.0,2404.0,2408.0,24,9.0,12.0,2400.0,2403.0,,,,,verb.motion,True,15,subject,The Princess,26,161,187,female,1.0,primary
+22,0,tripped,45.0,52.0,2802.0,2809.0,63,41.0,44.0,2798.0,2801.0,,,,,verb.motion,True,17,subject,the youngest Princess,1,15,16,female,1.0,tertiary
+23,1,told,14.0,18.0,2862.0,2866.0,63,0.0,3.0,2848.0,2851.0,,,,,verb.communication,True,19,subject,the youngest Princess,1,15,16,female,1.0,tertiary
+26,3,tell,136.0,140.0,3208.0,3212.0,63,104.0,107.0,3176.0,3179.0,,,,,verb.communication,True,20,subject,the youngest Princess,1,15,16,female,1.0,tertiary
+27,4,said,73.0,77.0,3294.0,3298.0,63,18.0,66.0,3239.0,3287.0,,,,,verb.communication,True,21,subject,the youngest Princess,1,15,16,female,1.0,tertiary
+29,1,disappointed,22.0,34.0,3480.0,3492.0,63,9.0,17.0,3467.0,3475.0,,,,,verb.emotion,True,22,subject,the youngest Princess,1,15,16,female,1.0,tertiary
+30,1,see,43.0,46.0,3658.0,3661.0,63,27.0,31.0,3642.0,3646.0,,,,,verb.perception,True,23,subject,the youngest Princess,1,15,16,female,1.0,tertiary
+31,2,tell,78.0,82.0,3858.0,3862.0,71,16.0,35.0,3796.0,3815.0,,,,,verb.communication,True,24,subject,the little Princess,6,49,55,female,1.0,tertiary
+33,0,grew,37.0,41.0,4098.0,4102.0,82,14.0,36.0,4075.0,4097.0,,,,,verb.change,True,27,subject,the poor little maiden,1,7,8,female,1.0,tertiary
+34,2,seek,20.0,24.0,4129.0,4133.0,82,0.0,3.0,4109.0,4112.0,,,,,verb.possession,True,26,subject,the poor little maiden,1,7,8,female,1.0,tertiary
+35,2,cried,41.0,46.0,4277.0,4282.0,82,37.0,40.0,4273.0,4276.0,,,,,verb.communication,True,28,subject,the poor little maiden,1,7,8,female,1.0,tertiary
+39,1,come,27.0,31.0,4475.0,4479.0,71,10.0,22.0,4458.0,4470.0,,,,,verb.change,True,31,subject,the little Princess,6,49,55,female,1.0,tertiary
+40,0,ran,27.0,30.0,4540.0,4543.0,84,9.0,26.0,4522.0,4539.0,54.0,90.0,4567.0,4603.0,verb.motion,True,32,subject,the poor Princess,2,12,14,female,1.0,tertiary
+41,1,allow,19.0,24.0,4680.0,4685.0,84,8.0,11.0,4669.0,4672.0,,,,,verb.social,True,33,subject,the poor Princess,2,12,14,female,1.0,tertiary
+42,3,sobbed,73.0,79.0,4912.0,4918.0,84,69.0,72.0,4908.0,4911.0,,,,,verb.body,True,34,subject,the poor Princess,2,12,14,female,1.0,tertiary
+44,1,losing,16.0,22.0,5126.0,5132.0,84,8.0,11.0,5118.0,5121.0,,,,,verb.possession,True,35,subject,the poor Princess,2,12,14,female,1.0,tertiary
+45,3,swallow,145.0,152.0,5573.0,5580.0,24,129.0,132.0,5557.0,5560.0,,,,,verb.consumption,True,36,subject,The Princess,26,161,187,female,1.0,primary
+46,3,returned,123.0,131.0,5704.0,5712.0,24,110.0,122.0,5691.0,5703.0,139.0,157.0,5720.0,5738.0,verb.motion,True,37,subject,The Princess,26,161,187,female,1.0,primary
+50,1,wonder,39.0,45.0,6117.0,6123.0,24,18.0,21.0,6096.0,6099.0,,,,,verb.cognition,True,39,subject,The Princess,26,161,187,female,1.0,primary
+52,0,ushered,8.0,15.0,6456.0,6463.0,251,5.0,7.0,6453.0,6455.0,,,,,verb.motion,True,41,subject,the Bull,3,7,10,male,1.0,tertiary
+53,0,trotted,22.0,29.0,6604.0,6611.0,7,7.0,21.0,6589.0,6603.0,52.0,109.0,6634.0,6691.0,verb.motion,True,42,subject,the Bull,11,2,13,unknown,0.0,tertiary
+54,6,rest,174.0,178.0,6893.0,6897.0,24,167.0,170.0,6886.0,6889.0,,,,,verb.contact,True,43,subject,The Princess,26,161,187,female,1.0,primary
+55,0,came,44.0,48.0,6948.0,6952.0,7,29.0,43.0,6933.0,6947.0,,,,,verb.motion,True,44,subject,the Bull,11,2,13,unknown,0.0,tertiary
+56,1,break,16.0,21.0,7166.0,7171.0,24,5.0,8.0,7155.0,7158.0,,,,,verb.change,True,45,subject,The Princess,26,161,187,female,1.0,primary
+60,0,rested,22.0,28.0,7663.0,7669.0,24,9.0,21.0,7650.0,7662.0,,,,,verb.body,True,47,subject,The Princess,26,161,187,female,1.0,primary
+61,2,make,70.0,74.0,7815.0,7819.0,122,5.0,36.0,7750.0,7781.0,,,,,verb.change,True,49,subject,Lady of the Castle,1,0,1,female,1.0,tertiary
+61,2,make,70.0,74.0,7815.0,7819.0,110,5.0,36.0,7750.0,7781.0,,,,,verb.change,True,49,subject,the Lord,2,0,2,unknown,0.0,tertiary
+62,6,break,135.0,140.0,7972.0,7977.0,24,122.0,125.0,7959.0,7962.0,144.0,204.0,7981.0,8041.0,verb.change,True,50,subject,The Princess,26,161,187,female,1.0,primary
+64,0,rode,44.0,48.0,8198.0,8202.0,24,0.0,43.0,8154.0,8197.0,,,,,verb.motion,True,51,subject,The Princess,26,161,187,female,1.0,primary
+64,0,rode,44.0,48.0,8198.0,8202.0,126,0.0,43.0,8154.0,8197.0,,,,,verb.motion,True,51,subject,the Black Bull of Norroway,1,0,1,unknown,0.0,tertiary
+67,1,received,48.0,56.0,8504.0,8512.0,24,35.0,47.0,8491.0,8503.0,77.0,169.0,8533.0,8625.0,verb.perception,True,52,subject,The Princess,26,161,187,female,1.0,primary
+68,1,break,16.0,21.0,8643.0,8648.0,24,5.0,8.0,8632.0,8635.0,,,,,verb.change,True,54,subject,The Princess,26,161,187,female,1.0,primary
+72,0,stopped,31.0,38.0,9032.0,9039.0,7,16.0,30.0,9017.0,9031.0,,,,,verb.motion,True,55,subject,the Bull,11,2,13,unknown,0.0,tertiary
+73,0,said,28.0,32.0,9069.0,9073.0,258,0.0,22.0,9041.0,9063.0,,,,,verb.communication,True,57,subject,Lady,1,11,12,female,1.0,tertiary
+77,1,seat,23.0,27.0,9413.0,9417.0,258,13.0,17.0,9403.0,9407.0,36.0,49.0,9426.0,9439.0,verb.contact,True,56,subject,Lady,1,11,12,female,1.0,tertiary
+78,1,have,72.0,76.0,9572.0,9576.0,264,39.0,66.0,9539.0,9566.0,82.0,94.0,9582.0,9594.0,verb.possession,True,58,subject,the Evil Spirit of the Glen,1,0,1,unknown,0.0,tertiary
+79,1,know,17.0,21.0,9614.0,9618.0,24,15.0,16.0,9612.0,9613.0,,,,,verb.cognition,True,60,subject,The Princess,26,161,187,female,1.0,primary
+81,0,know,11.0,15.0,9873.0,9877.0,258,1.0,10.0,9863.0,9872.0,,,,,verb.cognition,True,62,subject,Lady,1,11,12,female,1.0,tertiary
+82,2,vanquished,73.0,83.0,9997.0,10007.0,251,66.0,67.0,9990.0,9991.0,,,,,verb.communication,True,61,subject,the Bull,3,7,10,male,1.0,tertiary
+83,0,vanquished,66.0,76.0,10090.0,10100.0,265,45.0,65.0,10069.0,10089.0,,,,,verb.communication,True,63,subject,the Evil Spirit,2,0,2,unknown,0.0,tertiary
+84,2,lost,43.0,47.0,10149.0,10153.0,251,17.0,19.0,10123.0,10125.0,91.0,236.0,10197.0,10342.0,verb.possession,True,65,subject,the Bull,3,7,10,male,1.0,tertiary
+85,1,sat,22.0,25.0,10366.0,10369.0,71,14.0,17.0,10358.0,10361.0,32.0,53.0,10376.0,10397.0,verb.contact,True,64,subject,the little Princess,6,49,55,female,1.0,tertiary
+87,1,thought,27.0,34.0,10579.0,10586.0,267,1.0,24.0,10553.0,10576.0,,,,,verb.cognition,True,66,subject,The Bull hath conquered,1,0,1,unknown,0.0,tertiary
+90,1,crossed,57.0,64.0,10691.0,10698.0,71,30.0,33.0,10664.0,10667.0,73.0,87.0,10707.0,10721.0,verb.motion,True,67,subject,the little Princess,6,49,55,female,1.0,tertiary
+92,14,hoped,397.0,402.0,11135.0,11140.0,8,394.0,396.0,11132.0,11134.0,,,,,verb.emotion,True,69,subject,"the Prince of Norroway , who , having vanquished the Evil Spirit",2,12,14,male,1.0,tertiary
+93,4,sitting,76.0,83.0,11239.0,11246.0,71,68.0,71.0,11231.0,11234.0,,,,,verb.contact,True,68,subject,the little Princess,6,49,55,female,1.0,tertiary
+94,2,seeing,54.0,60.0,11332.0,11338.0,71,50.0,53.0,11328.0,11331.0,,,,,verb.perception,True,70,subject,the little Princess,6,49,55,female,1.0,tertiary
+95,4,cried,117.0,122.0,11492.0,11497.0,71,91.0,94.0,11466.0,11469.0,131.0,139.0,11506.0,11514.0,verb.body,True,71,subject,the little Princess,6,49,55,female,1.0,tertiary
+96,1,felt,38.0,42.0,11553.0,11557.0,71,34.0,37.0,11549.0,11552.0,,,,,verb.cognition,True,72,subject,the little Princess,6,49,55,female,1.0,tertiary
+97,2,came,45.0,49.0,11716.0,11720.0,71,41.0,44.0,11712.0,11715.0,,,,,verb.motion,True,73,subject,the little Princess,6,49,55,female,1.0,tertiary
+98,0,tried,4.0,9.0,11819.0,11824.0,71,0.0,3.0,11815.0,11818.0,,,,,verb.social,True,74,subject,the little Princess,6,49,55,female,1.0,tertiary
+100,0,went,11.0,15.0,12263.0,12267.0,71,7.0,10.0,12259.0,12262.0,,,,,verb.motion,True,75,subject,the little Princess,6,49,55,female,1.0,tertiary
+101,0,came,28.0,32.0,12399.0,12403.0,71,24.0,27.0,12395.0,12398.0,,,,,verb.motion,True,77,subject,the little Princess,6,49,55,female,1.0,tertiary
+102,3,tell,39.0,43.0,12552.0,12556.0,159,30.0,32.0,12543.0,12545.0,,,,,verb.communication,True,78,subject,an old smith,1,3,4,male,1.0,tertiary
+103,1,looked,37.0,43.0,12649.0,12655.0,161,0.0,11.0,12612.0,12623.0,52.0,88.0,12664.0,12700.0,verb.perception,True,79,subject,The old man,3,8,11,male,1.0,tertiary
+104,1,said,21.0,25.0,12723.0,12727.0,161,0.0,15.0,12702.0,12717.0,,,,,verb.communication,True,81,subject,The old man,3,8,11,male,1.0,tertiary
+104,1,said,21.0,25.0,12723.0,12727.0,269,0.0,15.0,12702.0,12717.0,,,,,verb.communication,True,81,subject,na,1,0,1,unknown,0.0,tertiary
+104,1,said,21.0,25.0,12723.0,12727.0,270,0.0,15.0,12702.0,12717.0,,,,,verb.communication,True,81,subject,lassie,1,0,1,unknown,0.0,tertiary
+105,0,walk,17.0,21.0,12797.0,12801.0,272,0.0,9.0,12780.0,12789.0,,,,,verb.motion,True,80,subject,Folk maun,1,4,5,unknown,0.0,tertiary
+106,1,walk,14.0,18.0,12980.0,12984.0,273,4.0,13.0,12970.0,12979.0,,,,,verb.motion,True,82,subject,the folk who try to do so,1,2,3,group/nonbinary,1.0,tertiary
+107,1,get,17.0,20.0,13088.0,13091.0,24,12.0,13.0,13083.0,13084.0,,,,,verb.possession,True,83,subject,The Princess,26,161,187,female,1.0,primary
+110,1,pay,15.0,18.0,13197.0,13200.0,24,0.0,1.0,13182.0,13183.0,,,,,verb.possession,True,85,subject,The Princess,26,161,187,female,1.0,primary
+111,0,stopped,9.0,16.0,13226.0,13233.0,24,5.0,8.0,13222.0,13225.0,,,,,verb.motion,True,84,subject,The Princess,26,161,187,female,1.0,primary
+115,1,serve,21.0,26.0,13491.0,13496.0,24,19.0,20.0,13489.0,13490.0,53.0,59.0,13523.0,13529.0,verb.social,True,88,subject,The Princess,26,161,187,female,1.0,primary
+119,1,climbed,78.0,85.0,13904.0,13911.0,24,74.0,77.0,13900.0,13903.0,108.0,173.0,13934.0,13999.0,verb.motion,True,92,subject,The Princess,26,161,187,female,1.0,primary
+120,3,came,91.0,95.0,14092.0,14096.0,24,87.0,90.0,14088.0,14091.0,,,,,verb.motion,True,93,subject,The Princess,26,161,187,female,1.0,primary
+121,3,asked,82.0,87.0,14259.0,14264.0,24,40.0,43.0,14217.0,14220.0,,,,,verb.communication,True,94,subject,The Princess,26,161,187,female,1.0,primary
+122,6,wash,140.0,144.0,14458.0,14462.0,24,122.0,125.0,14440.0,14443.0,,,,,verb.body,True,96,subject,The Princess,26,161,187,female,1.0,primary
+123,1,washing,35.0,42.0,14619.0,14626.0,70,10.0,11.0,14594.0,14595.0,,,,,verb.contact,True,95,subject,the old Dame,2,4,6,unknown,0.0,tertiary
+124,0,took,21.0,25.0,14726.0,14730.0,70,19.0,20.0,14724.0,14725.0,,,,,verb.motion,True,97,subject,the old Dame,2,4,6,unknown,0.0,tertiary
+126,1,disappoint,17.0,27.0,14904.0,14914.0,70,4.0,5.0,14891.0,14892.0,,,,,verb.communication,True,98,subject,the old Dame,2,4,6,unknown,0.0,tertiary
+129,7,lost,122.0,126.0,15196.0,15200.0,24,95.0,108.0,15169.0,15182.0,,,,,verb.possession,True,99,subject,The Princess,26,161,187,female,1.0,primary
+129,7,lost,122.0,126.0,15196.0,15200.0,178,95.0,108.0,15169.0,15182.0,,,,,verb.possession,True,99,subject,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+130,0,looked,14.0,20.0,15216.0,15222.0,37,0.0,13.0,15202.0,15215.0,,,,,verb.perception,True,101,subject,The old woman,8,12,20,female,1.0,tertiary
+131,1,answered,23.0,31.0,15267.0,15275.0,24,1.0,16.0,15245.0,15260.0,,,,,verb.communication,True,103,subject,The Princess,26,161,187,female,1.0,primary
+132,3,turned,70.0,76.0,15346.0,15352.0,178,39.0,46.0,15315.0,15322.0,,,,,verb.change,True,102,subject,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+133,0,fought,3.0,9.0,15500.0,15506.0,178,0.0,2.0,15497.0,15499.0,,,,,verb.competition,True,104,subject,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+134,7,wedded,117.0,123.0,15694.0,15700.0,178,84.0,92.0,15661.0,15669.0,,,,,verb.social,True,105,subject,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+135,2,kens,46.0,50.0,15771.0,15775.0,283,15.0,23.0,15740.0,15748.0,,,,,verb.communication,True,106,subject,"the Black Knight of Norroway's maiden whom he would fain have wedded , and whom he hath lost",1,1,2,female,1.0,tertiary
+135,2,kens,46.0,50.0,15771.0,15775.0,284,15.0,23.0,15740.0,15748.0,,,,,verb.communication,True,106,subject,no living person,1,0,1,unknown,0.0,tertiary
+136,5,said,112.0,116.0,15889.0,15893.0,24,86.0,89.0,15863.0,15866.0,,,,,verb.communication,True,107,subject,The Princess,26,161,187,female,1.0,primary
+137,1,waste,24.0,29.0,15927.0,15932.0,24,1.0,2.0,15904.0,15905.0,,,,,verb.consumption,True,108,subject,The Princess,26,161,187,female,1.0,primary
+138,0,try,17.0,20.0,15962.0,15965.0,178,7.0,11.0,15952.0,15956.0,,,,,verb.social,True,109,subject,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+139,1,ask,20.0,23.0,16045.0,16048.0,24,13.0,14.0,16038.0,16039.0,,,,,verb.communication,True,111,subject,The Princess,26,161,187,female,1.0,primary
+140,4,wash,57.0,61.0,16130.0,16134.0,24,40.0,43.0,16113.0,16116.0,,,,,verb.body,True,110,subject,The Princess,26,161,187,female,1.0,primary
+142,6,washed,218.0,224.0,16538.0,16544.0,24,214.0,217.0,16534.0,16537.0,229.0,343.0,16549.0,16663.0,verb.contact,True,112,subject,The Princess,26,161,187,female,1.0,primary
+143,5,washing,134.0,141.0,16799.0,16806.0,24,100.0,112.0,16765.0,16777.0,,,,,verb.contact,True,114,subject,The Princess,26,161,187,female,1.0,primary
+143,5,washing,134.0,141.0,16799.0,16806.0,186,100.0,112.0,16765.0,16777.0,,,,,verb.contact,True,114,subject,The Princess's daughter,2,0,2,unknown,0.0,tertiary
+145,4,trying,168.0,174.0,17300.0,17306.0,195,27.0,36.0,17159.0,17168.0,,,,,verb.social,True,115,subject,the young man,1,12,13,male,1.0,tertiary
+145,4,trying,168.0,174.0,17300.0,17306.0,10,27.0,36.0,17159.0,17168.0,,,,,verb.social,True,115,subject,the Evil Spirit of the Glen,1,0,1,unknown,0.0,tertiary
+146,4,make,67.0,71.0,17439.0,17443.0,197,53.0,56.0,17425.0,17428.0,,,,,verb.change,True,117,subject,a wise woman,1,3,4,female,1.0,tertiary
+148,9,marry,218.0,223.0,17826.0,17831.0,195,209.0,211.0,17817.0,17819.0,,,,,verb.social,True,119,subject,the young man,1,12,13,male,1.0,tertiary
+149,5,come,101.0,105.0,17966.0,17970.0,279,80.0,96.0,17945.0,17961.0,121.0,141.0,17986.0,18006.0,verb.motion,True,118,subject,the Black Knight,4,6,10,male,1.0,tertiary
+150,4,telling,77.0,84.0,18211.0,18218.0,24,22.0,25.0,18156.0,18159.0,,,,,verb.communication,True,121,subject,The Princess,26,161,187,female,1.0,primary
+151,2,received,83.0,91.0,18326.0,18334.0,24,49.0,68.0,18292.0,18311.0,,,,,verb.possession,True,120,subject,The Princess,26,161,187,female,1.0,primary
+152,3,said,62.0,66.0,18484.0,18488.0,24,1.0,55.0,18423.0,18477.0,,,,,verb.communication,True,122,subject,The Princess,26,161,187,female,1.0,primary
+153,1,broke,32.0,37.0,18532.0,18537.0,24,5.0,8.0,18505.0,18508.0,,,,,verb.contact,True,124,subject,The Princess,26,161,187,female,1.0,primary
+155,3,seen,72.0,76.0,18634.0,18638.0,24,19.0,53.0,18581.0,18615.0,,,,,verb.perception,True,123,subject,The Princess,26,161,187,female,1.0,primary
+157,2,carried,96.0,103.0,18797.0,18804.0,24,0.0,3.0,18701.0,18704.0,109.0,127.0,18810.0,18828.0,verb.contact,True,126,subject,The Princess,26,161,187,female,1.0,primary
+162,1,replied,51.0,58.0,19185.0,19192.0,286,1.0,44.0,19135.0,19178.0,,,,,verb.communication,True,129,subject,The old woman's daughter,1,0,1,unknown,0.0,tertiary
+162,1,replied,51.0,58.0,19185.0,19192.0,37,1.0,44.0,19135.0,19178.0,,,,,verb.communication,True,129,subject,The old woman,8,12,20,female,1.0,tertiary
+163,1,watch,12.0,17.0,19219.0,19224.0,24,9.0,11.0,19216.0,19218.0,,,,,verb.perception,True,130,subject,The Princess,26,161,187,female,1.0,primary
+164,0,agreed,36.0,42.0,19358.0,19364.0,200,20.0,35.0,19342.0,19357.0,,,,,verb.communication,True,131,subject,the washerwoman,8,11,19,female,1.0,tertiary
+167,12,clamb,361.0,366.0,20082.0,20087.0,214,343.0,358.0,20064.0,20079.0,,,,,verb.motion,True,133,subject,the wily old woman,1,26,27,female,1.0,tertiary
+168,0,washed,19.0,25.0,20117.0,20123.0,214,17.0,18.0,20115.0,20116.0,,,,,verb.contact,True,132,subject,the wily old woman,1,26,27,female,1.0,tertiary
+169,4,stirred,99.0,106.0,20274.0,20281.0,279,75.0,77.0,20250.0,20252.0,,,,,verb.body,True,136,subject,the Black Knight,4,6,10,male,1.0,tertiary
+171,0,found,14.0,19.0,20518.0,20523.0,214,10.0,13.0,20514.0,20517.0,,,,,verb.possession,True,138,subject,the wily old woman,1,26,27,female,1.0,tertiary
+173,6,watch,150.0,155.0,20799.0,20804.0,37,143.0,146.0,20792.0,20795.0,167.0,201.0,20816.0,20850.0,verb.perception,True,139,subject,The old woman,8,12,20,female,1.0,tertiary
+174,0,did,20.0,23.0,20872.0,20875.0,200,4.0,19.0,20856.0,20871.0,,,,,verb.social,True,140,subject,the washerwoman,8,11,19,female,1.0,tertiary
+175,3,grow,63.0,67.0,20942.0,20946.0,214,50.0,51.0,20929.0,20930.0,,,,,verb.change,True,143,subject,the wily old woman,1,26,27,female,1.0,tertiary
+177,6,washed,176.0,182.0,21160.0,21166.0,214,157.0,173.0,21141.0,21157.0,,,,,verb.body,True,142,subject,the wily old woman,1,26,27,female,1.0,tertiary
+178,0,watched,30.0,37.0,21248.0,21255.0,24,4.0,20.0,21222.0,21238.0,,,,,verb.perception,True,141,subject,The Princess,26,161,187,female,1.0,primary
+179,1,lost,30.0,34.0,21340.0,21344.0,24,15.0,18.0,21325.0,21328.0,41.0,82.0,21351.0,21392.0,verb.possession,True,144,subject,The Princess,26,161,187,female,1.0,primary
+180,1,broke,27.0,32.0,21466.0,21471.0,24,23.0,26.0,21462.0,21465.0,,,,,verb.contact,True,145,subject,The Princess,26,161,187,female,1.0,primary
+181,0,ran,4.0,7.0,21579.0,21582.0,24,0.0,3.0,21575.0,21578.0,,,,,verb.motion,True,146,subject,The Princess,26,161,187,female,1.0,primary
+184,0,rode,20.0,24.0,21994.0,21998.0,231,7.0,19.0,21981.0,21993.0,,,,,verb.motion,True,149,subject,the servants,1,3,4,group/nonbinary,1.0,tertiary
+185,0,rode,24.0,28.0,22115.0,22119.0,232,8.0,23.0,22099.0,22114.0,47.0,76.0,22138.0,22167.0,verb.motion,True,151,subject,an old huntsman,1,4,5,male,1.0,tertiary
+186,4,singeth,66.0,73.0,22235.0,22242.0,289,29.0,37.0,22198.0,22206.0,,,,,verb.creation,True,150,subject,the sweet singer,1,0,1,unknown,0.0,tertiary
+188,0,repeated,3.0,11.0,22291.0,22299.0,232,0.0,2.0,22288.0,22290.0,,,,,verb.communication,True,153,subject,an old huntsman,1,4,5,male,1.0,tertiary
+190,3,came,92.0,96.0,22414.0,22418.0,234,90.0,91.0,22412.0,22413.0,,,,,verb.motion,True,152,subject,The old huntsman,1,5,6,male,1.0,tertiary
+191,0,shook,17.0,22.0,22461.0,22466.0,234,0.0,16.0,22444.0,22460.0,,,,,verb.motion,True,154,subject,The old huntsman,1,5,6,male,1.0,tertiary
+192,1,said,58.0,62.0,22535.0,22539.0,288,1.0,52.0,22478.0,22529.0,,,,,verb.communication,True,155,subject,Master,2,0,2,unknown,0.0,tertiary
+192,1,said,58.0,62.0,22535.0,22539.0,73,1.0,52.0,22478.0,22529.0,,,,,verb.communication,True,155,subject,the old wife,2,0,2,female,1.0,tertiary
+192,1,said,58.0,62.0,22535.0,22539.0,232,1.0,52.0,22478.0,22529.0,,,,,verb.communication,True,155,subject,an old huntsman,1,4,5,male,1.0,tertiary
+194,5,listen,134.0,140.0,22735.0,22741.0,236,117.0,119.0,22718.0,22720.0,,,,,verb.perception,True,156,subject,the man,1,19,20,male,1.0,tertiary
+195,3,told,118.0,122.0,22869.0,22873.0,236,115.0,117.0,22866.0,22868.0,,,,,verb.communication,True,157,subject,the man,1,19,20,male,1.0,tertiary
+196,0,turned,13.0,19.0,22936.0,22942.0,200,9.0,12.0,22932.0,22935.0,,,,,verb.motion,True,159,subject,the washerwoman,8,11,19,female,1.0,tertiary
+197,10,washed,259.0,265.0,23377.0,23383.0,24,240.0,256.0,23358.0,23374.0,,,,,verb.body,True,158,subject,The Princess,26,161,187,female,1.0,primary
+198,0,heard,12.0,17.0,23447.0,23452.0,236,9.0,11.0,23444.0,23446.0,,,,,verb.perception,True,160,subject,the man,1,19,20,male,1.0,tertiary
+199,4,tell,76.0,80.0,23554.0,23558.0,24,69.0,72.0,23547.0,23550.0,,,,,verb.communication,True,161,subject,The Princess,26,161,187,female,1.0,primary
+200,0,heard,12.0,17.0,23592.0,23597.0,236,9.0,11.0,23589.0,23591.0,,,,,verb.perception,True,162,subject,the man,1,19,20,male,1.0,tertiary
+201,0,married,8.0,15.0,23728.0,23735.0,236,5.0,7.0,23725.0,23727.0,,,,,verb.social,True,163,subject,the man,1,19,20,male,1.0,tertiary
+0,2,had,68.0,71.0,68.0,71.0,14,72.0,87.0,72.0,87.0,,,,,verb.possession,True,0,direct_object,three daughters,1,0,1,unknown,0.0,tertiary
+2,3,seek,75.0,79.0,304.0,308.0,17,80.0,91.0,309.0,320.0,,,,,verb.possession,True,2,direct_object,the eldest Princess,1,4,5,female,1.0,tertiary
+4,0,said,7.0,11.0,385.0,389.0,19,12.0,15.0,390.0,393.0,,,,,verb.communication,True,3,direct_object,the eldest Princess's mother,4,1,5,female,1.0,tertiary
+5,9,ask,205.0,208.0,654.0,657.0,24,209.0,215.0,658.0,664.0,257.0,290.0,706.0,739.0,verb.communication,True,5,direct_object,The Princess,26,161,187,female,1.0,primary
+5,9,ask,205.0,208.0,654.0,657.0,23,209.0,215.0,658.0,664.0,257.0,290.0,706.0,739.0,verb.communication,True,5,direct_object,the Queen,2,5,7,female,1.0,tertiary
+6,2,felt,96.0,100.0,837.0,841.0,23,101.0,150.0,842.0,891.0,,,,,verb.emotion,True,4,direct_object,the Queen,2,5,7,female,1.0,tertiary
+6,2,felt,96.0,100.0,837.0,841.0,28,101.0,150.0,842.0,891.0,,,,,verb.emotion,True,4,direct_object,the Queen's pretty daughters,1,0,1,unknown,0.0,tertiary
+8,1,told,76.0,80.0,1208.0,1212.0,32,81.0,93.0,1213.0,1225.0,,,,,verb.communication,True,7,direct_object,the hen - wife,6,4,10,female,1.0,tertiary
+8,1,told,76.0,80.0,1208.0,1212.0,24,81.0,93.0,1213.0,1225.0,,,,,verb.communication,True,7,direct_object,The Princess,26,161,187,female,1.0,primary
+9,2,said,41.0,45.0,1286.0,1290.0,37,46.0,59.0,1291.0,1304.0,61.0,86.0,1306.0,1331.0,verb.communication,True,8,direct_object,The old woman,8,12,20,female,1.0,tertiary
+11,1,come,56.0,60.0,1623.0,1627.0,24,61.0,67.0,1628.0,1634.0,,,,,verb.change,True,9,direct_object,The Princess,26,161,187,female,1.0,primary
+12,2,tell,15.0,19.0,1780.0,1784.0,24,20.0,99.0,1785.0,1864.0,,,,,verb.communication,True,11,direct_object,The Princess,26,161,187,female,1.0,primary
+12,2,tell,15.0,19.0,1780.0,1784.0,48,20.0,99.0,1785.0,1864.0,,,,,verb.communication,True,11,direct_object,"The Princess's great and wealthy Prince , who married her",1,0,1,male,1.0,tertiary
+14,6,tell,137.0,141.0,2033.0,2037.0,32,142.0,145.0,2038.0,2041.0,,,,,verb.communication,True,13,direct_object,the hen - wife,6,4,10,female,1.0,tertiary
+14,6,tell,137.0,141.0,2033.0,2037.0,24,142.0,145.0,2038.0,2041.0,,,,,verb.communication,True,13,direct_object,The Princess,26,161,187,female,1.0,primary
+15,0,hoped,43.0,48.0,2150.0,2155.0,24,49.0,110.0,2156.0,2217.0,,,,,verb.emotion,True,12,direct_object,The Princess,26,161,187,female,1.0,primary
+15,0,hoped,43.0,48.0,2150.0,2155.0,42,49.0,110.0,2156.0,2217.0,,,,,verb.emotion,True,12,direct_object,The Princess's sister,3,0,3,female,1.0,tertiary
+21,1,try,87.0,90.0,2727.0,2730.0,63,91.0,116.0,2731.0,2756.0,,,,,verb.social,True,16,direct_object,the youngest Princess,1,15,16,female,1.0,tertiary
+22,0,tripped,45.0,52.0,2802.0,2809.0,64,63.0,89.0,2820.0,2846.0,,,,,verb.motion,True,17,direct_object,the old witch,1,0,1,unknown,0.0,tertiary
+24,0,expected,15.0,23.0,2947.0,2955.0,66,24.0,117.0,2956.0,3049.0,,,,,verb.cognition,True,18,direct_object,a third coach - and - six,1,0,1,unknown,0.0,tertiary
+26,3,tell,136.0,140.0,3208.0,3212.0,32,141.0,144.0,3213.0,3216.0,,,,,verb.communication,True,20,direct_object,the hen - wife,6,4,10,female,1.0,tertiary
+27,4,said,73.0,77.0,3294.0,3298.0,70,78.0,90.0,3299.0,3311.0,,,,,verb.communication,True,21,direct_object,the old Dame,2,4,6,unknown,0.0,tertiary
+31,2,tell,78.0,82.0,3858.0,3862.0,32,83.0,86.0,3863.0,3866.0,,,,,verb.communication,True,24,direct_object,the hen - wife,6,4,10,female,1.0,tertiary
+32,0,cried,16.0,21.0,3930.0,3935.0,37,22.0,35.0,3936.0,3949.0,37.0,67.0,3951.0,3981.0,verb.communication,True,25,direct_object,The old woman,8,12,20,female,1.0,tertiary
+34,2,seek,20.0,24.0,4129.0,4133.0,82,25.0,36.0,4134.0,4145.0,,,,,verb.possession,True,26,direct_object,the poor little maiden,1,7,8,female,1.0,tertiary
+37,1,replied,22.0,29.0,4348.0,4355.0,32,30.0,42.0,4356.0,4368.0,43.0,49.0,4369.0,4375.0,verb.communication,True,29,direct_object,the hen - wife,6,4,10,female,1.0,tertiary
+38,0,meeting,50.0,57.0,4427.0,4434.0,71,58.0,70.0,4435.0,4447.0,,,,,verb.social,True,30,direct_object,the little Princess,6,49,55,female,1.0,tertiary
+39,1,come,27.0,31.0,4475.0,4479.0,71,32.0,38.0,4480.0,4486.0,,,,,verb.change,True,31,direct_object,the little Princess,6,49,55,female,1.0,tertiary
+40,0,ran,27.0,30.0,4540.0,4543.0,19,31.0,52.0,4544.0,4565.0,54.0,90.0,4567.0,4603.0,verb.motion,True,32,direct_object,the eldest Princess's mother,4,1,5,female,1.0,tertiary
+40,0,ran,27.0,30.0,4540.0,4543.0,84,31.0,52.0,4544.0,4565.0,54.0,90.0,4567.0,4603.0,verb.motion,True,32,direct_object,the poor Princess,2,12,14,female,1.0,tertiary
+41,1,allow,19.0,24.0,4680.0,4685.0,84,25.0,133.0,4686.0,4794.0,,,,,verb.social,True,33,direct_object,the poor Princess,2,12,14,female,1.0,tertiary
+44,1,losing,16.0,22.0,5126.0,5132.0,84,23.0,58.0,5133.0,5168.0,,,,,verb.possession,True,35,direct_object,the poor Princess,2,12,14,female,1.0,tertiary
+46,3,returned,123.0,131.0,5704.0,5712.0,24,132.0,138.0,5713.0,5719.0,139.0,157.0,5720.0,5738.0,verb.motion,True,37,direct_object,The Princess,26,161,187,female,1.0,primary
+48,2,said,40.0,44.0,5948.0,5952.0,7,45.0,71.0,5953.0,5979.0,,,,,verb.communication,True,38,direct_object,the Bull,11,2,13,unknown,0.0,tertiary
+51,3,helped,107.0,113.0,6403.0,6409.0,24,114.0,150.0,6410.0,6446.0,,,,,verb.social,True,40,direct_object,The Princess,26,161,187,female,1.0,primary
+51,3,helped,107.0,113.0,6403.0,6409.0,251,114.0,150.0,6410.0,6446.0,,,,,verb.social,True,40,direct_object,the Bull,3,7,10,male,1.0,tertiary
+52,0,ushered,8.0,15.0,6456.0,6463.0,24,16.0,19.0,6464.0,6467.0,,,,,verb.motion,True,41,direct_object,The Princess,26,161,187,female,1.0,primary
+52,0,ushered,8.0,15.0,6456.0,6463.0,107,16.0,19.0,6464.0,6467.0,,,,,verb.motion,True,41,direct_object,a great and noble company,1,0,1,unknown,0.0,tertiary
+52,0,ushered,8.0,15.0,6456.0,6463.0,106,16.0,19.0,6464.0,6467.0,,,,,verb.motion,True,41,direct_object,the Lord of the Castle's Lady,2,0,2,female,1.0,tertiary
+52,0,ushered,8.0,15.0,6456.0,6463.0,104,16.0,19.0,6464.0,6467.0,,,,,verb.motion,True,41,direct_object,the Lord of the Castle,1,2,3,male,1.0,tertiary
+57,1,lifted,45.0,51.0,7255.0,7261.0,24,52.0,65.0,7262.0,7275.0,,,,,verb.contact,True,46,direct_object,The Princess,26,161,187,female,1.0,primary
+59,2,said,40.0,44.0,7570.0,7574.0,7,45.0,59.0,7575.0,7589.0,,,,,verb.communication,True,48,direct_object,the Bull,11,2,13,unknown,0.0,tertiary
+61,2,make,70.0,74.0,7815.0,7819.0,24,75.0,90.0,7820.0,7835.0,,,,,verb.change,True,49,direct_object,The Princess,26,161,187,female,1.0,primary
+71,2,came,57.0,61.0,8860.0,8864.0,84,62.0,196.0,8865.0,8999.0,,,,,verb.motion,True,53,direct_object,the poor Princess,2,12,14,female,1.0,tertiary
+77,1,seat,23.0,27.0,9413.0,9417.0,258,28.0,35.0,9418.0,9425.0,36.0,49.0,9426.0,9439.0,verb.contact,True,56,direct_object,Lady,1,11,12,female,1.0,tertiary
+78,1,have,72.0,76.0,9572.0,9576.0,258,77.0,81.0,9577.0,9581.0,82.0,94.0,9582.0,9594.0,verb.possession,True,58,direct_object,Lady,1,11,12,female,1.0,tertiary
+79,1,know,17.0,21.0,9614.0,9618.0,258,22.0,47.0,9619.0,9644.0,,,,,verb.cognition,True,60,direct_object,Lady,1,11,12,female,1.0,tertiary
+80,0,asked,0.0,5.0,9647.0,9652.0,24,6.0,18.0,9653.0,9665.0,19.0,28.0,,,verb.communication,True,59,direct_object,The Princess,26,161,187,female,1.0,primary
+82,2,vanquished,73.0,83.0,9997.0,10007.0,265,84.0,99.0,10008.0,10023.0,,,,,verb.communication,True,61,direct_object,the Evil Spirit,2,0,2,unknown,0.0,tertiary
+83,0,vanquished,66.0,76.0,10090.0,10100.0,251,77.0,79.0,10101.0,10103.0,,,,,verb.communication,True,63,direct_object,the Bull,3,7,10,male,1.0,tertiary
+87,1,thought,27.0,34.0,10579.0,10586.0,24,35.0,47.0,10587.0,10599.0,,,,,verb.cognition,True,66,direct_object,The Princess,26,161,187,female,1.0,primary
+92,14,hoped,397.0,402.0,11135.0,11140.0,150,403.0,423.0,11141.0,11161.0,,,,,verb.emotion,True,69,direct_object,"the Prince of Norroway , who , having vanquished the Evil Spirit's bride",1,0,1,male,1.0,tertiary
+92,14,hoped,397.0,402.0,11135.0,11140.0,8,403.0,423.0,11141.0,11161.0,,,,,verb.emotion,True,69,direct_object,"the Prince of Norroway , who , having vanquished the Evil Spirit",2,12,14,male,1.0,tertiary
+94,2,seeing,54.0,60.0,11332.0,11338.0,8,61.0,64.0,11339.0,11342.0,,,,,verb.perception,True,70,direct_object,"the Prince of Norroway , who , having vanquished the Evil Spirit",2,12,14,male,1.0,tertiary
+95,4,cried,117.0,122.0,11492.0,11497.0,71,123.0,130.0,11498.0,11505.0,131.0,139.0,11506.0,11514.0,verb.body,True,71,direct_object,the little Princess,6,49,55,female,1.0,tertiary
+99,4,lead,95.0,99.0,12104.0,12108.0,71,100.0,103.0,12109.0,12112.0,,,,,verb.motion,True,76,direct_object,the little Princess,6,49,55,female,1.0,tertiary
+102,3,tell,39.0,43.0,12552.0,12556.0,71,44.0,47.0,12557.0,12560.0,,,,,verb.communication,True,78,direct_object,the little Princess,6,49,55,female,1.0,tertiary
+103,1,looked,37.0,43.0,12649.0,12655.0,71,44.0,50.0,12656.0,12662.0,52.0,88.0,12664.0,12700.0,verb.perception,True,79,direct_object,the little Princess,6,49,55,female,1.0,tertiary
+110,1,pay,15.0,18.0,13197.0,13200.0,272,19.0,23.0,13201.0,13205.0,,,,,verb.possession,True,85,direct_object,Folk maun,1,4,5,unknown,0.0,tertiary
+112,3,said,41.0,45.0,13327.0,13331.0,161,46.0,57.0,13332.0,13343.0,58.0,66.0,13344.0,13352.0,verb.communication,True,86,direct_object,The old man,3,8,11,male,1.0,tertiary
+114,4,serve,68.0,73.0,13459.0,13464.0,161,74.0,76.0,13465.0,13467.0,,,,,verb.social,True,87,direct_object,The old man,3,8,11,male,1.0,tertiary
+115,1,serve,21.0,26.0,13491.0,13496.0,272,27.0,52.0,13497.0,13522.0,53.0,59.0,13523.0,13529.0,verb.social,True,88,direct_object,Folk maun,1,4,5,unknown,0.0,tertiary
+116,0,asked,0.0,5.0,13532.0,13537.0,24,6.0,26.0,13538.0,13558.0,,,,,verb.communication,True,89,direct_object,The Princess,26,161,187,female,1.0,primary
+117,0,replied,15.0,22.0,13575.0,13582.0,161,23.0,34.0,13583.0,13594.0,,,,,verb.communication,True,91,direct_object,The old man,3,8,11,male,1.0,tertiary
+117,0,replied,15.0,22.0,13575.0,13582.0,274,23.0,34.0,13583.0,13594.0,,,,,verb.communication,True,91,direct_object,those who are shod with iron shoon,1,2,3,group/nonbinary,1.0,tertiary
+118,2,clean,106.0,111.0,13759.0,13764.0,167,112.0,121.0,13765.0,13774.0,,,,,verb.contact,True,90,direct_object,the smith,1,3,4,male,1.0,tertiary
+121,3,asked,82.0,87.0,14259.0,14264.0,24,88.0,139.0,14265.0,14316.0,,,,,verb.communication,True,94,direct_object,The Princess,26,161,187,female,1.0,primary
+122,6,wash,140.0,144.0,14458.0,14462.0,24,145.0,220.0,14463.0,14538.0,,,,,verb.body,True,96,direct_object,The Princess,26,161,187,female,1.0,primary
+122,6,wash,140.0,144.0,14458.0,14462.0,178,145.0,220.0,14463.0,14538.0,,,,,verb.body,True,96,direct_object,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+126,1,disappoint,17.0,27.0,14904.0,14914.0,9,28.0,103.0,14915.0,14990.0,,,,,verb.communication,True,98,direct_object,the Black Knight,2,2,4,male,1.0,tertiary
+126,1,disappoint,17.0,27.0,14904.0,14914.0,278,28.0,103.0,14915.0,14990.0,,,,,verb.communication,True,98,direct_object,an exceeding great and powerful Prince,1,0,1,male,1.0,tertiary
+128,0,asked,0.0,5.0,15055.0,15060.0,24,6.0,18.0,15061.0,15073.0,,,,,verb.communication,True,100,direct_object,The Princess,26,161,187,female,1.0,primary
+130,0,looked,14.0,20.0,15216.0,15222.0,24,21.0,40.0,15223.0,15242.0,,,,,verb.perception,True,101,direct_object,The Princess,26,161,187,female,1.0,primary
+132,3,turned,70.0,76.0,15346.0,15352.0,178,77.0,80.0,15353.0,15356.0,,,,,verb.change,True,102,direct_object,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+132,3,turned,70.0,76.0,15346.0,15352.0,7,77.0,80.0,15353.0,15356.0,,,,,verb.change,True,102,direct_object,the Bull,11,2,13,unknown,0.0,tertiary
+133,0,fought,3.0,9.0,15500.0,15506.0,282,10.0,25.0,15507.0,15522.0,,,,,verb.competition,True,104,direct_object,the Spirit,1,0,1,unknown,0.0,tertiary
+139,1,ask,20.0,23.0,16045.0,16048.0,178,24.0,28.0,16049.0,16053.0,,,,,verb.communication,True,111,direct_object,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+141,0,seemed,8.0,14.0,16154.0,16160.0,24,15.0,172.0,16161.0,16318.0,,,,,verb.perception,True,113,direct_object,The Princess,26,161,187,female,1.0,primary
+144,1,came,50.0,54.0,16965.0,16969.0,24,55.0,215.0,16970.0,17130.0,,,,,verb.change,True,116,direct_object,The Princess,26,161,187,female,1.0,primary
+144,1,came,50.0,54.0,16965.0,16969.0,178,55.0,215.0,16970.0,17130.0,,,,,verb.change,True,116,direct_object,the Black Knight of Norroway,2,17,19,male,1.0,tertiary
+144,1,came,50.0,54.0,16965.0,16969.0,185,55.0,215.0,16970.0,17130.0,,,,,verb.change,True,116,direct_object,the Knight,2,3,5,male,1.0,tertiary
+145,4,trying,168.0,174.0,17300.0,17306.0,195,175.0,216.0,17307.0,17348.0,,,,,verb.social,True,115,direct_object,the young man,1,12,13,male,1.0,tertiary
+145,4,trying,168.0,174.0,17300.0,17306.0,196,175.0,216.0,17307.0,17348.0,,,,,verb.social,True,115,direct_object,someone who could wash it,1,0,1,unknown,0.0,tertiary
+148,9,marry,218.0,223.0,17826.0,17831.0,203,224.0,227.0,17832.0,17835.0,,,,,verb.social,True,119,direct_object,the washerwoman 's daughter,2,1,3,female,1.0,tertiary
+150,4,telling,77.0,84.0,18211.0,18218.0,24,85.0,88.0,18219.0,18222.0,,,,,verb.communication,True,121,direct_object,The Princess,26,161,187,female,1.0,primary
+150,4,telling,77.0,84.0,18211.0,18218.0,195,85.0,88.0,18219.0,18222.0,,,,,verb.communication,True,121,direct_object,the young man,1,12,13,male,1.0,tertiary
+152,3,said,62.0,66.0,18484.0,18488.0,24,67.0,77.0,18489.0,18499.0,,,,,verb.communication,True,122,direct_object,The Princess,26,161,187,female,1.0,primary
+156,0,came,33.0,37.0,18672.0,18676.0,24,47.0,60.0,18686.0,18699.0,,,,,verb.change,True,125,direct_object,The Princess,26,161,187,female,1.0,primary
+158,1,said,7.0,11.0,18837.0,18841.0,24,12.0,15.0,18842.0,18845.0,,,,,verb.communication,True,127,direct_object,The Princess,26,161,187,female,1.0,primary
+158,1,said,7.0,11.0,18837.0,18841.0,200,12.0,15.0,18842.0,18845.0,,,,,verb.communication,True,127,direct_object,the washerwoman,8,11,19,female,1.0,tertiary
+161,0,asked,0.0,5.0,18978.0,18983.0,37,6.0,19.0,18984.0,18997.0,20.0,27.0,,,verb.communication,True,128,direct_object,The old woman,8,12,20,female,1.0,tertiary
+162,1,replied,51.0,58.0,19185.0,19192.0,24,59.0,71.0,19193.0,19205.0,,,,,verb.communication,True,129,direct_object,The Princess,26,161,187,female,1.0,primary
+165,3,make,72.0,76.0,19453.0,19457.0,214,77.0,85.0,19458.0,19466.0,,,,,verb.change,True,135,direct_object,the wily old woman,1,26,27,female,1.0,tertiary
+166,6,speaking,134.0,142.0,19688.0,19696.0,217,143.0,165.0,19697.0,19719.0,,,,,verb.communication,True,134,direct_object,this strange maiden,1,4,5,female,1.0,tertiary
+167,12,clamb,361.0,366.0,20082.0,20087.0,217,367.0,375.0,20088.0,20096.0,,,,,verb.motion,True,133,direct_object,this strange maiden,1,4,5,female,1.0,tertiary
+170,1,hoping,77.0,83.0,20416.0,20422.0,214,84.0,163.0,20423.0,20502.0,,,,,verb.emotion,True,137,direct_object,the wily old woman,1,26,27,female,1.0,tertiary
+171,0,found,14.0,19.0,20518.0,20523.0,214,20.0,77.0,20524.0,20581.0,,,,,verb.possession,True,138,direct_object,the wily old woman,1,26,27,female,1.0,tertiary
+182,0,wondering,13.0,22.0,21802.0,21811.0,37,24.0,37.0,21813.0,21826.0,,,,,verb.cognition,True,147,direct_object,The old woman,8,12,20,female,1.0,tertiary
+183,0,chanced,7.0,14.0,21845.0,21852.0,11,15.0,72.0,21853.0,21910.0,,,,,verb.cognition,True,148,direct_object,the Black Knight,2,3,5,male,1.0,tertiary
+185,0,rode,24.0,28.0,22115.0,22119.0,185,29.0,45.0,22120.0,22136.0,47.0,76.0,22138.0,22167.0,verb.motion,True,151,direct_object,the Knight,2,3,5,male,1.0,tertiary
+191,0,shook,17.0,22.0,22461.0,22466.0,234,23.0,31.0,22467.0,22475.0,,,,,verb.motion,True,154,direct_object,The old huntsman,1,5,6,male,1.0,tertiary
+195,3,told,118.0,122.0,22869.0,22873.0,236,123.0,126.0,22874.0,22877.0,,,,,verb.communication,True,157,direct_object,the man,1,19,20,male,1.0,tertiary
+195,3,told,118.0,122.0,22869.0,22873.0,200,123.0,126.0,22874.0,22877.0,,,,,verb.communication,True,157,direct_object,the washerwoman,8,11,19,female,1.0,tertiary
+199,4,tell,76.0,80.0,23554.0,23558.0,236,81.0,84.0,23559.0,23562.0,,,,,verb.communication,True,161,direct_object,the man,1,19,20,male,1.0,tertiary
+201,0,married,8.0,15.0,23728.0,23735.0,71,16.0,35.0,23736.0,23755.0,,,,,verb.social,True,163,direct_object,the little Princess,6,49,55,female,1.0,tertiary

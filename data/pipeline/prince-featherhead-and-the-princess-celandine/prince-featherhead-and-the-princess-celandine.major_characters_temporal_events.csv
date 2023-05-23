@@ -1,0 +1,275 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,5,want,156,160,156,160,13,29.0,113.0,29.0,113.0,,,,,verb.emotion,True,0,subject,a King,1.0,5.0,6.0,male,1.0,tertiary
+0,5,want,156,160,156,160,14,29.0,113.0,29.0,113.0,,,,,verb.emotion,True,0,subject,Queen,7.0,0.0,7.0,female,1.0,tertiary
+0,5,want,156,160,156,160,17,29.0,113.0,29.0,113.0,,,,,verb.emotion,True,0,subject,their subjects,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+5,4,catch,92,97,1029,1034,30,78.0,82.0,1015.0,1019.0,,,,,verb.contact,True,5,subject,the King,16.0,12.0,28.0,male,1.0,secondary
+6,1,loved,24,29,1061,1066,30,4.0,12.0,1041.0,1049.0,,,,,verb.emotion,True,4,subject,the King,16.0,12.0,28.0,male,1.0,secondary
+8,4,declared,68,76,1664,1672,25,64.0,67.0,1660.0,1663.0,,,,,verb.cognition,True,7,subject,the Queen,8.0,5.0,13.0,female,1.0,tertiary
+10,2,teach,51,56,2002,2007,30,42.0,44.0,1993.0,1995.0,,,,,verb.communication,True,8,subject,the King,16.0,12.0,28.0,male,1.0,secondary
+11,1,carry,22,27,2079,2084,30,5.0,7.0,2062.0,2064.0,,,,,verb.contact,True,9,subject,the King,16.0,12.0,28.0,male,1.0,secondary
+12,2,flocked,61,68,2192,2199,40,50.0,60.0,2181.0,2191.0,79.0,86.0,2210.0,2217.0,verb.emotion,True,10,subject,the people,1.0,0.0,1.0,unknown,0.0,tertiary
+13,2,buy,58,61,2565,2568,30,51.0,54.0,2558.0,2561.0,160.0,212.0,2667.0,2719.0,verb.possession,True,11,subject,the King,16.0,12.0,28.0,male,1.0,secondary
+14,6,sent,182,186,2903,2907,47,132.0,135.0,2853.0,2856.0,,,,,verb.communication,True,13,subject,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+15,2,loved,48,53,3043,3048,47,44.0,47.0,3039.0,3042.0,,,,,verb.emotion,True,12,subject,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+19,1,quitted,83,90,3713,3720,55,80.0,82.0,3710.0,3712.0,117.0,127.0,3747.0,3757.0,verb.social,True,17,subject,the precious Prince,1.0,10.0,11.0,male,1.0,tertiary
+20,2,know,78,82,3985,3989,30,0.0,18.0,3907.0,3925.0,104.0,156.0,4011.0,4063.0,verb.cognition,True,18,subject,the King,16.0,12.0,28.0,male,1.0,secondary
+20,2,know,78,82,3985,3989,14,0.0,18.0,3907.0,3925.0,104.0,156.0,4011.0,4063.0,verb.cognition,True,18,subject,Queen,7.0,0.0,7.0,female,1.0,tertiary
+21,0,received,47,55,4112,4120,47,18.0,46.0,4083.0,4111.0,,,,,verb.possession,True,19,subject,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+27,1,hear,16,20,4378,4382,158,1.0,4.0,4363.0,4366.0,,,,,verb.perception,True,22,subject,dear,1.0,2.0,3.0,unknown,0.0,tertiary
+28,4,make,120,124,4517,4521,159,100.0,103.0,4497.0,4500.0,,,,,verb.change,True,21,subject,Celandine,1.0,4.0,5.0,female,1.0,tertiary
+29,2,come,30,34,4617,4621,159,19.0,22.0,4606.0,4609.0,41.0,99.0,4628.0,4686.0,verb.change,True,23,subject,Celandine,1.0,4.0,5.0,female,1.0,tertiary
+35,3,come,73,77,5361,5365,9,69.0,70.0,5357.0,5358.0,85.0,117.0,5373.0,5405.0,verb.motion,True,30,subject,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+37,2,given,43,48,5538,5543,10,0.0,6.0,5495.0,5501.0,,,,,verb.possession,True,28,subject,Nature,1.0,0.0,1.0,unknown,0.0,tertiary
+46,0,consented,19,28,6163,6172,9,0.0,8.0,6144.0,6152.0,,,,,verb.communication,True,35,subject,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+47,3,won,185,188,6621,6624,162,53.0,174.0,6489.0,6610.0,,,,,verb.possession,True,38,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+50,2,thought,54,61,6923,6930,25,44.0,53.0,6913.0,6922.0,,,,,verb.cognition,True,41,subject,the Queen,8.0,5.0,13.0,female,1.0,tertiary
+52,7,did,259,262,7422,7425,8,222.0,224.0,7385.0,7387.0,,,,,verb.social,True,42,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+55,2,visit,71,76,7816,7821,184,64.0,67.0,7809.0,7812.0,95.0,176.0,7840.0,7921.0,verb.social,True,46,subject,Celandine,1.0,2.0,3.0,female,1.0,tertiary
+57,2,thinking,29,37,8072,8080,188,4.0,13.0,8047.0,8056.0,,,,,verb.cognition,True,49,subject,Celandine,1.0,1.0,2.0,female,1.0,tertiary
+58,4,thought,112,119,8489,8496,9,108.0,111.0,8485.0,8488.0,,,,,verb.cognition,True,48,subject,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+60,7,loved,186,191,8827,8832,8,169.0,182.0,8810.0,8823.0,,,,,verb.emotion,True,50,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+61,6,coming,171,177,9145,9151,8,164.0,166.0,9138.0,9140.0,,,,,verb.motion,True,53,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+62,0,thought,14,21,9321,9328,9,0.0,13.0,9307.0,9320.0,,,,,verb.cognition,True,52,subject,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+63,9,say,256,259,9806,9809,201,195.0,208.0,9745.0,9758.0,,,,,verb.communication,True,55,subject,the old Fairy,1.0,0.0,1.0,unknown,0.0,tertiary
+64,5,observe,130,137,9941,9948,8,95.0,100.0,9906.0,9911.0,,,,,verb.perception,True,54,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+65,1,amuse,62,67,10012,10017,9,24.0,27.0,9974.0,9977.0,,,,,verb.emotion,True,57,subject,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+66,2,pleased,62,69,10278,10285,204,51.0,61.0,10267.0,10277.0,74.0,83.0,10290.0,10299.0,verb.emotion,True,56,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+67,2,heard,58,63,10457,10462,8,51.0,53.0,10450.0,10452.0,,,,,verb.cognition,True,58,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+68,4,thought,105,112,10783,10790,8,0.0,2.0,10678.0,10680.0,,,,,verb.cognition,True,59,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+70,0,sent,4,8,10976,10980,175,0.0,3.0,10972.0,10975.0,92.0,244.0,11064.0,11216.0,verb.contact,True,61,subject,the Fairy,5.0,1.0,6.0,unknown,0.0,tertiary
+72,1,tear,24,28,11330,11334,204,0.0,2.0,11306.0,11308.0,38.0,50.0,11344.0,11356.0,verb.contact,True,63,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+73,1,think,17,22,11461,11466,204,5.0,7.0,11449.0,11451.0,,,,,verb.cognition,True,65,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+76,0,pleased,23,30,11714,11721,219,0.0,12.0,11691.0,11703.0,,,,,verb.emotion,True,64,subject,The beauties,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+77,2,declared,110,118,11878,11886,204,107.0,109.0,11875.0,11877.0,,,,,verb.communication,True,66,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+78,5,reappeared,143,153,12114,12124,8,131.0,142.0,12102.0,12113.0,,,,,verb.change,True,67,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+79,0,noticed,12,19,12138,12145,221,0.0,3.0,12126.0,12129.0,,,,,verb.perception,True,68,subject,the Princess Celandine,1.0,8.0,9.0,female,1.0,tertiary
+80,11,loved,258,263,12472,12477,8,245.0,247.0,12459.0,12461.0,,,,,verb.emotion,True,69,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+81,0,wandering,26,35,12513,12522,162,12.0,24.0,12499.0,12511.0,,,,,verb.motion,True,70,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+82,0,saw,35,38,12716,12719,162,31.0,34.0,12712.0,12715.0,,,,,verb.perception,True,72,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+84,1,cherish,11,18,12863,12870,8,8.0,10.0,12860.0,12862.0,32.0,78.0,12884.0,12930.0,verb.emotion,True,71,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+96,6,remarking,134,143,13502,13511,162,26.0,38.0,13394.0,13406.0,,,,,verb.communication,True,77,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+104,1,see,10,13,14045,14048,79,6.0,9.0,14041.0,14044.0,,,,,verb.cognition,True,83,subject,Celandine,1.0,10.0,11.0,female,1.0,tertiary
+106,6,suppose,109,116,14201,14208,79,76.0,79.0,14168.0,14171.0,,,,,verb.cognition,True,82,subject,Celandine,1.0,10.0,11.0,female,1.0,tertiary
+109,3,caring,118,124,14669,14675,162,57.0,60.0,14608.0,14611.0,,,,,verb.communication,True,85,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+110,2,saw,39,42,14724,14727,162,35.0,38.0,14720.0,14723.0,,,,,verb.perception,True,86,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+118,6,think,87,92,15532,15537,83,83.0,86.0,15528.0,15531.0,,,,,verb.cognition,True,92,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+120,1,has,34,37,15668,15671,89,13.0,33.0,15647.0,15667.0,,,,,verb.possession,True,91,subject,a fine lady,1.0,1.0,2.0,female,1.0,tertiary
+120,1,has,34,37,15668,15671,83,13.0,33.0,15647.0,15667.0,,,,,verb.possession,True,91,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+130,2,want,27,31,16212,16216,83,4.0,8.0,16189.0,16193.0,,,,,verb.emotion,True,97,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+137,0,answered,20,28,16454,16462,83,0.0,17.0,16434.0,16451.0,,,,,verb.communication,True,100,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+139,6,said,69,73,16591,16595,83,0.0,66.0,16522.0,16588.0,,,,,verb.communication,True,101,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+140,4,muttered,101,109,16722,16730,249,97.0,100.0,16718.0,16721.0,116.0,122.0,16737.0,16743.0,verb.communication,True,102,subject,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+143,3,paid,24,28,16954,16958,83,6.0,10.0,16936.0,16940.0,,,,,verb.possession,True,103,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+146,1,know,13,17,17089,17093,83,1.0,5.0,17077.0,17081.0,,,,,verb.cognition,True,105,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+151,1,pay,12,15,17305,17308,95,1.0,4.0,17294.0,17297.0,,,,,verb.possession,True,107,subject,,,,,,,
+152,2,said,39,43,17401,17405,83,0.0,36.0,17362.0,17398.0,,,,,verb.communication,True,110,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+153,2,please,24,30,17493,17499,83,20.0,23.0,17489.0,17492.0,,,,,verb.emotion,True,111,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+157,6,dressed,80,87,17694,17701,83,51.0,54.0,17665.0,17668.0,,,,,verb.body,True,112,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+167,1,take,13,17,18625,18629,83,9.0,12.0,18621.0,18624.0,,,,,verb.social,True,120,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+171,2,have,40,44,19038,19042,83,30.0,33.0,19028.0,19031.0,,,,,verb.possession,True,125,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+172,2,swallow,36,43,19113,19120,83,26.0,29.0,19103.0,19106.0,,,,,verb.consumption,True,124,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+173,0,take,9,13,19219,19223,83,5.0,8.0,19215.0,19218.0,,,,,verb.communication,True,128,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+177,0,throw,17,22,19862,19867,107,5.0,16.0,19850.0,19861.0,,,,,verb.possession,True,126,subject,most people,1.0,0.0,1.0,unknown,0.0,tertiary
+178,1,find,22,26,20002,20006,269,4.0,13.0,19984.0,19993.0,,,,,verb.perception,True,129,subject,Celandine,1.0,6.0,7.0,female,1.0,tertiary
+179,0,sent,23,27,20097,20101,249,4.0,17.0,20078.0,20091.0,40.0,62.0,20114.0,20136.0,verb.motion,True,130,subject,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+180,0,passed,4,10,20169,20175,269,0.0,3.0,20165.0,20168.0,,,,,verb.motion,True,131,subject,Celandine,1.0,6.0,7.0,female,1.0,tertiary
+181,0,remarked,33,41,20227,20235,255,20.0,32.0,20214.0,20226.0,,,,,verb.communication,True,132,subject,the old dame,4.0,0.0,4.0,unknown,0.0,tertiary
+182,1,want,30,34,20296,20300,83,19.0,22.0,20285.0,20288.0,,,,,verb.consumption,True,133,subject,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+185,2,hear,52,56,20574,20578,272,29.0,43.0,20551.0,20565.0,,,,,verb.perception,True,134,subject,Celandine,1.0,2.0,3.0,female,1.0,tertiary
+186,1,think,47,52,20638,20643,272,1.0,4.0,20592.0,20595.0,,,,,verb.cognition,True,135,subject,Celandine,1.0,2.0,3.0,female,1.0,tertiary
+187,1,want,51,55,20714,20718,274,9.0,42.0,20672.0,20705.0,,,,,verb.emotion,True,136,subject,the good Fairy of the Beech - Woods,1.0,1.0,2.0,female,1.0,tertiary
+188,0,saw,19,22,20878,20881,249,5.0,18.0,20864.0,20877.0,,,,,verb.perception,True,137,subject,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+195,1,thinking,42,50,21248,21256,277,15.0,18.0,21221.0,21224.0,,,,,verb.cognition,True,140,subject,Celandine,1.0,7.0,8.0,female,1.0,tertiary
+196,4,recognised,137,147,21492,21502,8,130.0,132.0,21485.0,21487.0,153.0,194.0,21508.0,21549.0,verb.cognition,True,142,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+198,2,stay,65,69,21968,21972,162,58.0,61.0,21961.0,21964.0,,,,,verb.motion,True,143,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+200,3,love,51,55,22245,22249,283,38.0,47.0,22232.0,22241.0,,,,,verb.emotion,True,145,subject,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+201,10,love,198,202,22561,22565,111,113.0,131.0,22476.0,22494.0,,,,,verb.emotion,True,146,subject,"a Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me's Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me",1.0,6.0,7.0,male,1.0,tertiary
+209,3,parted,49,55,23166,23172,8,21.0,39.0,23138.0,23156.0,,,,,verb.social,True,150,subject,Featherhead,18.0,63.0,81.0,male,1.0,primary
+210,2,answered,55,63,23238,23246,111,0.0,28.0,23183.0,23211.0,,,,,verb.communication,True,152,subject,"a Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me's Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me",1.0,6.0,7.0,male,1.0,tertiary
+210,2,answered,55,63,23238,23246,114,0.0,28.0,23183.0,23211.0,,,,,verb.communication,True,152,subject,lovely Princess,1.0,0.0,1.0,female,1.0,tertiary
+212,1,recognised,98,108,23406,23416,288,79.0,97.0,23387.0,23405.0,,,,,verb.cognition,True,155,subject,the happy Princess,1.0,2.0,3.0,female,1.0,tertiary
+214,5,wearing,153,160,23813,23820,294,121.0,144.0,23781.0,23804.0,,,,,verb.body,True,154,subject,Celandine,1.0,3.0,4.0,female,1.0,tertiary
+215,0,declared,15,23,23882,23890,204,4.0,14.0,23871.0,23881.0,,,,,verb.communication,True,156,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+216,1,received,42,50,24001,24009,249,28.0,41.0,23987.0,24000.0,,,,,verb.perception,True,157,subject,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+219,9,dressed,244,251,24508,24515,118,217.0,220.0,24481.0,24484.0,,,,,verb.body,True,160,subject,Celandine,1.0,19.0,20.0,female,1.0,tertiary
+220,6,make,175,179,24692,24696,204,158.0,168.0,24675.0,24685.0,,,,,verb.change,True,161,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+224,0,cried,4,9,25284,25289,118,0.0,3.0,25280.0,25283.0,,,,,verb.communication,True,164,subject,Celandine,1.0,19.0,20.0,female,1.0,tertiary
+226,1,look,27,31,25391,25395,204,7.0,17.0,25371.0,25381.0,,,,,verb.perception,True,166,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+227,5,wandered,98,106,25735,25743,204,91.0,93.0,25728.0,25730.0,,,,,verb.motion,True,165,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+228,6,recognised,90,100,25951,25961,204,35.0,37.0,25896.0,25898.0,,,,,verb.perception,True,167,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+229,2,love,42,46,26090,26094,118,40.0,41.0,26088.0,26089.0,,,,,verb.emotion,True,168,subject,Celandine,1.0,19.0,20.0,female,1.0,tertiary
+230,2,added,30,35,26163,26168,118,26.0,29.0,26159.0,26162.0,,,,,verb.communication,True,170,subject,Celandine,1.0,19.0,20.0,female,1.0,tertiary
+232,0,thought,11,18,26202,26209,204,0.0,10.0,26191.0,26201.0,,,,,verb.cognition,True,169,subject,The Prince,15.0,22.0,37.0,male,1.0,secondary
+236,1,welcome,36,43,27039,27046,47,0.0,28.0,27003.0,27031.0,84.0,199.0,27087.0,27202.0,verb.emotion,True,174,subject,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+238,0,implored,19,27,27304,27312,148,0.0,18.0,27285.0,27303.0,,,,,verb.communication,True,176,subject,Princess Celandine,1.0,6.0,7.0,female,1.0,tertiary
+239,2,refuse,47,53,27398,27404,162,37.0,40.0,27388.0,27391.0,,,,,verb.possession,True,177,subject,The Princess,27.0,35.0,62.0,female,1.0,primary
+240,1,promised,49,57,27467,27475,148,0.0,3.0,27418.0,27421.0,73.0,86.0,27491.0,27504.0,verb.communication,True,178,subject,Princess Celandine,1.0,6.0,7.0,female,1.0,tertiary
+241,5,welcome,141,148,27647,27654,17,67.0,81.0,27573.0,27587.0,154.0,164.0,27660.0,27670.0,verb.contact,True,179,subject,their subjects,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+242,5,undertook,150,159,27821,27830,153,138.0,149.0,27809.0,27820.0,,,,,verb.communication,True,180,subject,the Fairies,1.0,0.0,1.0,unknown,0.0,tertiary
+2,0,coming,10,16,307,313,18,17.0,59.0,314.0,356.0,,,,,verb.motion,True,1,direct_object,their neighbour,1.0,0.0,1.0,unknown,0.0,tertiary
+2,0,coming,10,16,307,313,6,17.0,59.0,314.0,356.0,,,,,verb.motion,True,1,direct_object,King Bruin,3.0,1.0,4.0,male,1.0,tertiary
+3,7,make,217,221,639,643,13,222.0,230.0,644.0,652.0,,,,,verb.change,True,2,direct_object,a King,1.0,5.0,6.0,male,1.0,tertiary
+4,1,escape,26,32,713,719,27,33.0,59.0,720.0,746.0,,,,,verb.motion,True,3,direct_object,the soldiers of King Bruin,1.0,0.0,1.0,male,1.0,tertiary
+4,1,escape,26,32,713,719,6,33.0,59.0,720.0,746.0,,,,,verb.motion,True,3,direct_object,King Bruin,3.0,1.0,4.0,male,1.0,tertiary
+7,0,thought,5,12,1429,1436,30,13.0,171.0,1437.0,1595.0,,,,,verb.cognition,True,6,direct_object,the King,16.0,12.0,28.0,male,1.0,secondary
+8,4,declared,68,76,1664,1672,25,77.0,122.0,1673.0,1718.0,,,,,verb.cognition,True,7,direct_object,the Queen,8.0,5.0,13.0,female,1.0,tertiary
+12,2,flocked,61,68,2192,2199,30,69.0,78.0,2200.0,2209.0,79.0,86.0,2210.0,2217.0,verb.emotion,True,10,direct_object,the King,16.0,12.0,28.0,male,1.0,secondary
+13,2,buy,58,61,2565,2568,25,62.0,158.0,2569.0,2665.0,160.0,212.0,2667.0,2719.0,verb.possession,True,11,direct_object,the Queen,8.0,5.0,13.0,female,1.0,tertiary
+14,6,sent,182,186,2903,2907,30,187.0,195.0,2908.0,2916.0,,,,,verb.communication,True,13,direct_object,the King,16.0,12.0,28.0,male,1.0,secondary
+15,2,loved,48,53,3043,3048,51,54.0,62.0,3049.0,3057.0,,,,,verb.emotion,True,12,direct_object,children,1.0,0.0,1.0,unknown,0.0,tertiary
+16,2,know,82,86,3239,3243,47,87.0,107.0,3244.0,3264.0,,,,,verb.cognition,True,14,direct_object,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+16,2,know,82,86,3239,3243,54,87.0,107.0,3244.0,3264.0,,,,,verb.cognition,True,14,direct_object,a fairy,1.0,0.0,1.0,unknown,0.0,tertiary
+17,2,making,30,36,3491,3497,47,37.0,52.0,3498.0,3513.0,,,,,verb.change,True,15,direct_object,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+17,2,making,30,36,3491,3497,55,37.0,52.0,3498.0,3513.0,,,,,verb.change,True,15,direct_object,the precious Prince,1.0,10.0,11.0,male,1.0,tertiary
+18,3,training,72,80,3586,3594,55,81.0,84.0,3595.0,3598.0,85.0,96.0,,,verb.social,True,16,direct_object,the precious Prince,1.0,10.0,11.0,male,1.0,tertiary
+19,1,quitted,83,90,3713,3720,55,91.0,116.0,3721.0,3746.0,117.0,127.0,3747.0,3757.0,verb.social,True,17,direct_object,the precious Prince,1.0,10.0,11.0,male,1.0,tertiary
+21,0,received,47,55,4112,4120,9,56.0,185.0,4121.0,4250.0,,,,,verb.possession,True,19,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+21,0,received,47,55,4112,4120,47,56.0,185.0,4121.0,4250.0,,,,,verb.possession,True,19,direct_object,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+21,0,received,47,55,4112,4120,64,56.0,185.0,4121.0,4250.0,,,,,verb.possession,True,19,direct_object,"The Fairy of the Beech - Woods's old friend of hers called Saradine , who rushed into her house so breathless with rage that she could hardly speak",1.0,0.0,1.0,unknown,0.0,tertiary
+24,0,said,0,4,4286,4290,47,5.0,44.0,4291.0,4330.0,,,,,verb.communication,True,20,direct_object,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+28,4,make,120,124,4517,4521,159,125.0,137.0,4522.0,4534.0,,,,,verb.change,True,21,direct_object,Celandine,1.0,4.0,5.0,female,1.0,tertiary
+29,2,come,30,34,4617,4621,9,35.0,40.0,4622.0,4627.0,41.0,99.0,4628.0,4686.0,verb.change,True,23,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+30,1,suppose,16,23,4704,4711,9,24.0,104.0,4712.0,4792.0,,,,,verb.cognition,True,24,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+31,2,says,82,86,4877,4881,67,87.0,101.0,4882.0,4896.0,,,,,verb.communication,True,25,direct_object,my young madam,1.0,0.0,1.0,unknown,0.0,tertiary
+32,3,meet,55,59,5042,5046,69,60.0,67.0,5047.0,5054.0,,,,,verb.motion,True,27,direct_object,,,,,,,
+34,3,make,45,49,5247,5251,70,50.0,72.0,5252.0,5274.0,,,,,verb.change,True,26,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+36,1,taken,27,32,5434,5439,70,33.0,56.0,5440.0,5463.0,,,,,verb.change,True,29,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+37,2,given,43,48,5538,5543,70,49.0,52.0,5544.0,5547.0,,,,,verb.possession,True,28,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+38,0,thought,11,18,5632,5639,70,19.0,124.0,5640.0,5745.0,,,,,verb.cognition,True,31,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+41,0,cried,0,5,5803,5808,161,6.0,32.0,5809.0,5835.0,,,,,verb.communication,True,32,direct_object,the kind - hearted old Fairy,1.0,0.0,1.0,unknown,0.0,tertiary
+42,1,hand,16,20,5853,5857,70,21.0,24.0,5858.0,5861.0,,,,,verb.possession,True,34,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+43,1,think,8,13,5882,5887,70,14.0,44.0,5888.0,5918.0,,,,,verb.cognition,True,33,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+44,2,making,29,35,5949,5955,72,36.0,72.0,5956.0,5992.0,,,,,verb.creation,True,37,direct_object,,,,,,,
+44,2,making,29,35,5949,5955,70,36.0,72.0,5956.0,5992.0,,,,,verb.creation,True,37,direct_object,Celandine,1.0,13.0,14.0,female,1.0,tertiary
+45,2,declare,41,48,6035,6042,73,49.0,147.0,6043.0,6141.0,,,,,verb.communication,True,36,direct_object,the little minx,1.0,0.0,1.0,unknown,0.0,tertiary
+45,2,declare,41,48,6035,6042,74,49.0,147.0,6043.0,6141.0,,,,,verb.communication,True,36,direct_object,a princess,1.0,0.0,1.0,female,1.0,tertiary
+48,0,recognised,6,16,6648,6658,162,17.0,20.0,6659.0,6662.0,21.0,49.0,6663.0,6691.0,verb.cognition,True,40,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+49,3,happened,77,85,6852,6860,168,86.0,92.0,6861.0,6867.0,,,,,verb.change,True,39,direct_object,Celandine,1.0,1.0,2.0,female,1.0,tertiary
+50,2,thought,54,61,6923,6930,9,62.0,126.0,6931.0,6995.0,,,,,verb.cognition,True,41,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+50,2,thought,54,61,6923,6930,162,62.0,126.0,6931.0,6995.0,,,,,verb.cognition,True,41,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+51,2,said,40,44,7037,7041,162,45.0,57.0,7042.0,7054.0,,,,,verb.communication,True,43,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+53,3,loved,76,81,7551,7556,178,82.0,92.0,7557.0,7567.0,,,,,verb.emotion,True,44,direct_object,Celandine,1.0,1.0,2.0,female,1.0,tertiary
+54,1,presented,53,62,7622,7631,47,63.0,75.0,7632.0,7644.0,,,,,verb.possession,True,45,direct_object,The Fairy of the Beech - Woods,8.0,21.0,29.0,female,1.0,secondary
+54,1,presented,53,62,7622,7631,162,63.0,75.0,7632.0,7644.0,,,,,verb.possession,True,45,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+55,2,visit,71,76,7816,7821,9,77.0,93.0,7822.0,7838.0,95.0,176.0,7840.0,7921.0,verb.social,True,46,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+56,2,showing,42,49,7965,7972,162,50.0,53.0,7973.0,7976.0,,,,,verb.communication,True,47,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+57,2,thinking,29,37,8072,8080,175,38.0,332.0,8081.0,8375.0,,,,,verb.cognition,True,49,direct_object,the Fairy,5.0,1.0,6.0,unknown,0.0,tertiary
+57,2,thinking,29,37,8072,8080,188,38.0,332.0,8081.0,8375.0,,,,,verb.cognition,True,49,direct_object,Celandine,1.0,1.0,2.0,female,1.0,tertiary
+58,4,thought,112,119,8489,8496,9,120.0,165.0,8497.0,8542.0,,,,,verb.cognition,True,48,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+59,1,curing,42,48,8586,8592,9,49.0,58.0,8593.0,8602.0,,,,,verb.contact,True,51,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+59,1,curing,42,48,8586,8592,193,49.0,58.0,8593.0,8602.0,,,,,verb.contact,True,51,direct_object,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+65,1,amuse,62,67,10012,10017,8,68.0,71.0,10018.0,10021.0,,,,,verb.emotion,True,57,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+66,2,pleased,62,69,10278,10285,203,70.0,73.0,10286.0,10289.0,74.0,83.0,10290.0,10299.0,verb.emotion,True,56,direct_object,Celandine,1.0,4.0,5.0,female,1.0,tertiary
+67,2,heard,58,63,10457,10462,30,64.0,71.0,10463.0,10470.0,,,,,verb.cognition,True,58,direct_object,the King,16.0,12.0,28.0,male,1.0,secondary
+67,2,heard,58,63,10457,10462,174,64.0,71.0,10463.0,10470.0,,,,,verb.cognition,True,58,direct_object,this charming Princess,2.0,1.0,3.0,female,1.0,tertiary
+67,2,heard,58,63,10457,10462,14,64.0,71.0,10463.0,10470.0,,,,,verb.cognition,True,58,direct_object,Queen,7.0,0.0,7.0,female,1.0,tertiary
+67,2,heard,58,63,10457,10462,8,64.0,71.0,10463.0,10470.0,,,,,verb.cognition,True,58,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+68,4,thought,105,112,10783,10790,8,113.0,202.0,10791.0,10880.0,,,,,verb.cognition,True,59,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+68,4,thought,105,112,10783,10790,213,113.0,202.0,10791.0,10880.0,,,,,verb.cognition,True,59,direct_object,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+69,2,curing,72,78,10954,10960,8,79.0,82.0,10961.0,10964.0,,,,,verb.communication,True,60,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+70,0,sent,4,8,10976,10980,215,9.0,15.0,10981.0,10987.0,92.0,244.0,11064.0,11216.0,verb.contact,True,61,direct_object,an unknown messenger,1.0,0.0,1.0,unknown,0.0,tertiary
+70,0,sent,4,8,10976,10980,216,9.0,15.0,10981.0,10987.0,92.0,244.0,11064.0,11216.0,verb.contact,True,61,direct_object,Princess Celandine,1.0,1.0,2.0,female,1.0,tertiary
+70,0,sent,4,8,10976,10980,8,9.0,15.0,10981.0,10987.0,92.0,244.0,11064.0,11216.0,verb.contact,True,61,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+71,0,made,13,17,11232,11236,204,18.0,85.0,11237.0,11304.0,,,,,verb.creation,True,62,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+72,1,tear,24,28,11330,11334,204,29.0,37.0,11335.0,11343.0,38.0,50.0,11344.0,11356.0,verb.contact,True,63,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+73,1,think,17,22,11461,11466,8,23.0,119.0,11467.0,11563.0,,,,,verb.cognition,True,65,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+73,1,think,17,22,11461,11466,204,23.0,119.0,11467.0,11563.0,,,,,verb.cognition,True,65,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+76,0,pleased,23,30,11714,11721,204,31.0,34.0,11722.0,11725.0,,,,,verb.emotion,True,64,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+77,2,declared,110,118,11878,11886,204,119.0,201.0,11887.0,11969.0,,,,,verb.communication,True,66,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+79,0,noticed,12,19,12138,12145,8,20.0,37.0,12146.0,12163.0,,,,,verb.perception,True,68,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+80,11,loved,258,263,12472,12477,72,264.0,271.0,12478.0,12485.0,,,,,verb.emotion,True,69,direct_object,,,,,,,
+82,0,saw,35,38,12716,12719,8,39.0,92.0,12720.0,12773.0,,,,,verb.perception,True,72,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+82,0,saw,35,38,12716,12719,221,39.0,92.0,12720.0,12773.0,,,,,verb.perception,True,72,direct_object,the Princess Celandine,1.0,8.0,9.0,female,1.0,tertiary
+84,1,cherish,11,18,12863,12870,221,19.0,31.0,12871.0,12883.0,32.0,78.0,12884.0,12930.0,verb.emotion,True,71,direct_object,the Princess Celandine,1.0,8.0,9.0,female,1.0,tertiary
+85,1,asking,36,42,12968,12974,228,43.0,46.0,12975.0,12978.0,,,,,verb.communication,True,73,direct_object,Featherhead's Princess whose picture he carried about with him always,1.0,0.0,1.0,female,1.0,tertiary
+85,1,asking,36,42,12968,12974,8,43.0,46.0,12975.0,12978.0,,,,,verb.communication,True,73,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+88,0,replied,0,7,13080,13087,8,8.0,10.0,13088.0,13090.0,,,,,verb.communication,True,74,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+90,0,said,0,4,13114,13118,162,5.0,25.0,13119.0,13139.0,,,,,verb.communication,True,76,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+93,0,repeated,0,8,13208,13216,8,9.0,11.0,13217.0,13219.0,,,,,verb.communication,True,75,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+96,6,remarking,134,143,13502,13511,231,150.0,216.0,13518.0,13584.0,,,,,verb.communication,True,77,direct_object,the original,1.0,0.0,1.0,unknown,0.0,tertiary
+97,3,said,45,49,13631,13635,204,50.0,69.0,13636.0,13655.0,,,,,verb.communication,True,79,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+98,0,thought,22,29,13679,13686,79,30.0,36.0,13687.0,13693.0,,,,,verb.cognition,True,78,direct_object,Celandine,1.0,10.0,11.0,female,1.0,tertiary
+100,2,said,52,56,13849,13853,162,57.0,76.0,13854.0,13873.0,,,,,verb.communication,True,80,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+101,1,cried,30,35,13905,13910,204,36.0,46.0,13911.0,13921.0,48.0,88.0,,,verb.communication,True,81,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+106,6,suppose,109,116,14201,14208,79,117.0,179.0,14209.0,14271.0,,,,,verb.cognition,True,82,direct_object,Celandine,1.0,10.0,11.0,female,1.0,tertiary
+107,0,gazing,11,17,14283,14289,79,18.0,24.0,14290.0,14296.0,25.0,57.0,,,verb.perception,True,84,direct_object,Celandine,1.0,10.0,11.0,female,1.0,tertiary
+111,5,comes,150,155,14941,14946,81,156.0,239.0,14947.0,15030.0,,,,,verb.motion,True,87,direct_object,these fine beggars who are too idle to do anything but run about the country,1.0,0.0,1.0,unknown,0.0,tertiary
+113,2,ask,80,83,15120,15123,83,84.0,87.0,15124.0,15127.0,,,,,verb.communication,True,88,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+114,1,tell,10,14,15152,15156,83,15.0,18.0,15157.0,15160.0,,,,,verb.communication,True,89,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+115,0,growled,0,7,15180,15187,246,8.0,19.0,15188.0,15199.0,,,,,verb.communication,True,90,direct_object,the old hag,1.0,0.0,1.0,unknown,0.0,tertiary
+118,6,think,87,92,15532,15537,88,93.0,175.0,15538.0,15620.0,,,,,verb.cognition,True,92,direct_object,the first passer - by who chooses to ask for it,1.0,0.0,1.0,unknown,0.0,tertiary
+121,5,hobbling,56,64,15752,15760,247,65.0,82.0,15761.0,15778.0,83.0,108.0,15779.0,15804.0,verb.motion,True,93,direct_object,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+123,0,replied,8,15,15821,15828,162,16.0,28.0,15829.0,15841.0,,,,,verb.communication,True,94,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+124,1,give,8,12,15871,15875,83,13.0,15.0,15876.0,15878.0,23.0,52.0,15886.0,15915.0,verb.possession,True,95,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+125,3,continued,66,75,15984,15993,249,76.0,89.0,15994.0,16007.0,,,,,verb.communication,True,96,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+127,0,cried,0,5,16017,16022,162,6.0,18.0,16023.0,16035.0,,,,,verb.communication,True,98,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+136,3,suppose,38,45,16407,16414,83,46.0,62.0,16415.0,16431.0,,,,,verb.cognition,True,99,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+137,0,answered,20,28,16454,16462,251,29.0,46.0,16463.0,16480.0,,,,,verb.communication,True,100,direct_object,the poor Princess,1.0,0.0,1.0,female,1.0,tertiary
+139,6,said,69,73,16591,16595,249,74.0,97.0,16596.0,16619.0,,,,,verb.communication,True,101,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+142,4,feed,44,48,16846,16850,83,49.0,57.0,16851.0,16859.0,,,,,verb.consumption,True,104,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+145,0,answered,8,16,16999,17007,162,17.0,29.0,17008.0,17020.0,,,,,verb.communication,True,106,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+147,0,said,0,4,17110,17114,255,5.0,17.0,17115.0,17127.0,,,,,verb.communication,True,109,direct_object,the old dame,4.0,0.0,4.0,unknown,0.0,tertiary
+150,0,interrupted,0,11,17264,17275,257,12.0,27.0,17276.0,17291.0,,,,,verb.communication,True,108,direct_object,the hag,1.0,0.0,1.0,unknown,0.0,tertiary
+152,2,said,39,43,17401,17405,258,44.0,105.0,17406.0,17467.0,,,,,verb.communication,True,110,direct_object,"the poor Princess , whose spirits were sinking lower and lower",1.0,0.0,1.0,female,1.0,tertiary
+156,0,know,2,6,17560,17564,83,7.0,40.0,17565.0,17598.0,,,,,verb.cognition,True,113,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+158,5,provide,71,78,17779,17786,83,79.0,82.0,17787.0,17790.0,,,,,verb.possession,True,114,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+159,4,want,41,45,17838,17842,72,46.0,81.0,17843.0,17878.0,,,,,verb.emotion,True,115,direct_object,,,,,,,
+161,2,cried,54,59,17940,17945,259,60.0,74.0,17946.0,17960.0,75.0,84.0,17961.0,17970.0,verb.communication,True,116,direct_object,poor Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+162,6,helping,183,190,18155,18162,249,191.0,236.0,18163.0,18208.0,,,,,verb.social,True,117,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+165,0,wonder,14,20,18348,18354,83,21.0,55.0,18355.0,18389.0,,,,,verb.cognition,True,118,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+166,3,remarked,76,84,18537,18545,262,85.0,97.0,18546.0,18558.0,,,,,verb.communication,True,119,direct_object,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+166,3,remarked,76,84,18537,18545,83,85.0,97.0,18546.0,18558.0,,,,,verb.communication,True,119,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+168,2,declining,47,56,18696,18705,162,57.0,96.0,18706.0,18745.0,,,,,verb.communication,True,121,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+169,0,handed,14,20,18841,18847,265,21.0,30.0,18848.0,18857.0,,,,,verb.possession,True,122,direct_object,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+170,2,continued,31,40,18975,18984,255,41.0,53.0,18985.0,18997.0,,,,,verb.communication,True,123,direct_object,the old dame,4.0,0.0,4.0,unknown,0.0,tertiary
+173,0,take,9,13,19219,19223,83,14.0,54.0,19224.0,19264.0,,,,,verb.communication,True,128,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+174,4,delighted,138,147,19494,19503,249,148.0,204.0,19504.0,19560.0,,,,,verb.emotion,True,127,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+179,0,sent,23,27,20097,20101,269,28.0,31.0,20102.0,20105.0,40.0,62.0,20114.0,20136.0,verb.motion,True,130,direct_object,Celandine,1.0,6.0,7.0,female,1.0,tertiary
+181,0,remarked,33,41,20227,20235,83,44.0,70.0,20238.0,20264.0,,,,,verb.communication,True,132,direct_object,Madam,5.0,47.0,52.0,unknown,0.0,secondary
+185,2,hear,52,56,20574,20578,249,65.0,68.0,20587.0,20590.0,,,,,verb.perception,True,134,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+186,1,think,47,52,20638,20643,272,53.0,70.0,20644.0,20661.0,,,,,verb.cognition,True,135,direct_object,Celandine,1.0,2.0,3.0,female,1.0,tertiary
+187,1,want,51,55,20714,20718,269,56.0,73.0,20719.0,20736.0,,,,,verb.emotion,True,136,direct_object,Celandine,1.0,6.0,7.0,female,1.0,tertiary
+188,0,saw,19,22,20878,20881,249,23.0,33.0,20882.0,20892.0,,,,,verb.perception,True,137,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+190,0,cried,0,5,20955,20960,249,6.0,9.0,20961.0,20964.0,,,,,verb.communication,True,138,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+194,2,followed,97,105,21129,21137,249,116.0,172.0,21148.0,21204.0,,,,,verb.motion,True,139,direct_object,the old woman,8.0,11.0,19.0,female,1.0,tertiary
+195,1,thinking,42,50,21248,21256,277,58.0,147.0,21264.0,21353.0,,,,,verb.cognition,True,140,direct_object,Celandine,1.0,7.0,8.0,female,1.0,tertiary
+195,1,thinking,42,50,21248,21256,279,58.0,147.0,21264.0,21353.0,,,,,verb.cognition,True,140,direct_object,a young stranger,1.0,1.0,2.0,male,1.0,tertiary
+196,4,recognised,137,147,21492,21502,277,148.0,151.0,21503.0,21506.0,153.0,194.0,21508.0,21549.0,verb.cognition,True,142,direct_object,Celandine,1.0,7.0,8.0,female,1.0,tertiary
+197,11,making,247,253,21864,21870,8,254.0,284.0,21871.0,21901.0,,,,,verb.change,True,141,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+199,1,meeting,44,51,22124,22131,162,52.0,55.0,22132.0,22135.0,56.0,61.0,,,verb.social,True,144,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+200,3,love,51,55,22245,22249,8,56.0,59.0,22250.0,22253.0,,,,,verb.emotion,True,145,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+202,0,cried,7,12,22578,22583,8,13.0,31.0,22584.0,22602.0,,,,,verb.communication,True,147,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+204,2,answered,16,24,22706,22714,162,25.0,38.0,22715.0,22728.0,,,,,verb.communication,True,149,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+205,3,makes,64,69,22802,22807,111,70.0,92.0,22808.0,22830.0,,,,,verb.change,True,148,direct_object,"a Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me's Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me",1.0,6.0,7.0,male,1.0,tertiary
+208,0,cried,0,5,23079,23084,286,6.0,15.0,23085.0,23094.0,16.0,36.0,,,verb.communication,True,151,direct_object,Celandine,1.0,0.0,1.0,unknown,0.0,tertiary
+210,2,answered,55,63,23238,23246,111,64.0,66.0,23247.0,23249.0,,,,,verb.communication,True,152,direct_object,"a Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me's Prince who is fickle , frivolous , proud , incapable of caring for anyone but himself , who has been spoilt by flattery , and , to crown all , who does not love me",1.0,6.0,7.0,male,1.0,tertiary
+211,1,assure,8,14,23258,23264,8,15.0,18.0,23265.0,23268.0,,,,,verb.communication,True,153,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+212,1,recognised,98,108,23406,23416,288,109.0,118.0,23417.0,23426.0,,,,,verb.cognition,True,155,direct_object,the happy Princess,1.0,2.0,3.0,female,1.0,tertiary
+212,1,recognised,98,108,23406,23416,289,109.0,118.0,23417.0,23426.0,,,,,verb.cognition,True,155,direct_object,the happy Princess's lover,1.0,0.0,1.0,unknown,0.0,tertiary
+215,0,declared,15,23,23882,23890,294,24.0,90.0,23891.0,23957.0,,,,,verb.communication,True,156,direct_object,Celandine,1.0,3.0,4.0,female,1.0,tertiary
+215,0,declared,15,23,23882,23890,204,24.0,90.0,23891.0,23957.0,,,,,verb.communication,True,156,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+217,0,declare,3,10,24032,24039,115,24.0,131.0,24053.0,24160.0,,,,,verb.communication,True,158,direct_object,a girl,1.0,0.0,1.0,female,1.0,tertiary
+217,0,declare,3,10,24032,24039,117,24.0,131.0,24053.0,24160.0,,,,,verb.communication,True,158,direct_object,a young man,1.0,0.0,1.0,male,1.0,tertiary
+218,1,imagine,10,17,24172,24179,298,18.0,99.0,24180.0,24261.0,,,,,verb.creation,True,159,direct_object,Featherhead's fine fellow,1.0,0.0,1.0,unknown,0.0,tertiary
+218,1,imagine,10,17,24172,24179,8,18.0,99.0,24180.0,24261.0,,,,,verb.creation,True,159,direct_object,Featherhead,18.0,63.0,81.0,male,1.0,primary
+220,6,make,175,179,24692,24696,204,180.0,240.0,24697.0,24757.0,,,,,verb.change,True,161,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+221,7,make,284,288,25043,25047,162,289.0,304.0,25048.0,25063.0,,,,,verb.change,True,162,direct_object,The Princess,27.0,35.0,62.0,female,1.0,primary
+222,0,found,16,21,25124,25129,95,22.0,95.0,25130.0,25203.0,,,,,verb.cognition,True,163,direct_object,,,,,,,
+224,0,cried,4,9,25284,25289,299,12.0,53.0,25292.0,25333.0,,,,,verb.communication,True,164,direct_object,people who were as happy as all that,1.0,0.0,1.0,unknown,0.0,tertiary
+228,6,recognised,90,100,25951,25961,118,101.0,104.0,25962.0,25965.0,,,,,verb.perception,True,167,direct_object,Celandine,1.0,19.0,20.0,female,1.0,tertiary
+229,2,love,42,46,26090,26094,204,47.0,50.0,26095.0,26098.0,,,,,verb.emotion,True,168,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+233,1,heard,53,58,26572,26577,140,59.0,112.0,26578.0,26631.0,119.0,228.0,26638.0,26747.0,verb.perception,True,171,direct_object,the miserly old dame,1.0,8.0,9.0,female,1.0,tertiary
+234,0,heard,20,25,26769,26774,140,26.0,146.0,26775.0,26895.0,,,,,verb.cognition,True,173,direct_object,the miserly old dame,1.0,8.0,9.0,female,1.0,tertiary
+234,0,heard,20,25,26769,26774,204,26.0,146.0,26775.0,26895.0,,,,,verb.cognition,True,173,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+235,0,caused,48,54,26945,26951,140,55.0,104.0,26952.0,27001.0,,,,,verb.creation,True,172,direct_object,the miserly old dame,1.0,8.0,9.0,female,1.0,tertiary
+236,1,welcome,36,43,27039,27046,145,44.0,67.0,27047.0,27070.0,84.0,199.0,27087.0,27202.0,verb.emotion,True,174,direct_object,Princess,1.0,0.0,1.0,female,1.0,tertiary
+236,1,welcome,36,43,27039,27046,204,44.0,67.0,27047.0,27070.0,84.0,199.0,27087.0,27202.0,verb.emotion,True,174,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary
+237,1,bringing,43,51,27247,27255,9,52.0,70.0,27256.0,27274.0,,,,,verb.contact,True,175,direct_object,the Fairy Saradine,11.0,30.0,41.0,female,1.0,secondary
+237,1,bringing,43,51,27247,27255,30,52.0,70.0,27256.0,27274.0,,,,,verb.contact,True,175,direct_object,the King,16.0,12.0,28.0,male,1.0,secondary
+237,1,bringing,43,51,27247,27255,14,52.0,70.0,27256.0,27274.0,,,,,verb.contact,True,175,direct_object,Queen,7.0,0.0,7.0,female,1.0,tertiary
+238,0,implored,19,27,27304,27312,148,28.0,65.0,27313.0,27350.0,,,,,verb.communication,True,176,direct_object,Princess Celandine,1.0,6.0,7.0,female,1.0,tertiary
+239,2,refuse,47,53,27398,27404,148,54.0,65.0,27405.0,27416.0,,,,,verb.possession,True,177,direct_object,Princess Celandine,1.0,6.0,7.0,female,1.0,tertiary
+240,1,promised,49,57,27467,27475,148,58.0,72.0,27476.0,27490.0,73.0,86.0,27491.0,27504.0,verb.communication,True,178,direct_object,Princess Celandine,1.0,6.0,7.0,female,1.0,tertiary
+241,5,welcome,141,148,27647,27654,17,149.0,153.0,27655.0,27659.0,154.0,164.0,27660.0,27670.0,verb.contact,True,179,direct_object,their subjects,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+242,5,undertook,150,159,27821,27830,155,160.0,230.0,27831.0,27901.0,,,,,verb.communication,True,180,direct_object,Princess,1.0,0.0,1.0,female,1.0,tertiary
+242,5,undertook,150,159,27821,27830,204,160.0,230.0,27831.0,27901.0,,,,,verb.communication,True,180,direct_object,The Prince,15.0,22.0,37.0,male,1.0,secondary

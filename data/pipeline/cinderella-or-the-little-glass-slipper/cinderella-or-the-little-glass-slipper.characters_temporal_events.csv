@@ -1,0 +1,476 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+3,1,began,72,77,479,484,12,54.0,71.0,461.0,478.0,,,,,verb.change,0,subject,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+3,2,show,81,85,488,492,12,54.0,71.0,461.0,478.0,94.0,112.0,501.0,519.0,verb.perception,3,subject,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+4,1,bear,14,18,535,539,12,0.0,3.0,521.0,524.0,85.0,130.0,606.0,651.0,verb.consumption,2,subject,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+5,0,employed,4,12,657,665,12,0.0,3.0,653.0,656.0,,,,,verb.consumption,4,subject,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+5,1,scoured,55,62,708,715,12,51.0,54.0,704.0,707.0,,,,,verb.contact,5,subject,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+5,2,scrubbed,93,101,746,754,12,51.0,54.0,704.0,707.0,,,,,verb.contact,7,subject,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+6,3,had,172,175,979,982,21,167.0,171.0,974.0,978.0,,,,,verb.possession,6,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+6,6,see,217,220,1024,1027,21,206.0,210.0,1013.0,1017.0,232.0,270.0,1039.0,1077.0,verb.perception,8,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+7,1,tell,48,52,1127,1131,23,0.0,13.0,1079.0,1092.0,,,,,verb.communication,9,subject,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+7,4,rattled,80,87,1159,1166,24,53.0,63.0,1132.0,1142.0,,,,,verb.communication,12,subject,The poor girl's father,1.0,2.0,3.0,male,1.0,tertiary
+7,4,rattled,80,87,1159,1166,23,53.0,63.0,1132.0,1142.0,,,,,verb.communication,12,subject,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+8,0,governed,14,22,1189,1197,24,5.0,13.0,1180.0,1188.0,27.0,35.0,1202.0,1210.0,verb.social,11,subject,The poor girl's father,1.0,2.0,3.0,male,1.0,tertiary
+8,0,governed,14,22,1189,1197,25,5.0,13.0,1180.0,1188.0,27.0,35.0,1202.0,1210.0,verb.social,11,subject,The poor girl's father's wife,1.0,0.0,1.0,female,1.0,tertiary
+9,1,done,13,17,1225,1229,23,5.0,8.0,1217.0,1220.0,,,,,verb.social,10,subject,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+9,7,called,133,139,1345,1351,23,117.0,120.0,1329.0,1332.0,,,,,verb.communication,14,subject,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+10,1,called,66,72,1430,1436,26,5.0,64.0,1369.0,1428.0,,,,,verb.communication,16,subject,the youngest,2.0,6.0,8.0,female,1.0,tertiary
+10,1,called,66,72,1430,1436,27,5.0,64.0,1369.0,1428.0,,,,,verb.communication,16,subject,the eldest,2.0,3.0,5.0,unknown,0.0,tertiary
+11,2,dressed,127,134,1580,1587,21,110.0,114.0,1563.0,1567.0,,,,,verb.body,15,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+12,1,gave,32,36,1633,1637,30,17.0,31.0,1618.0,1632.0,,,,,verb.creation,17,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+12,1,gave,32,36,1633,1637,29,17.0,31.0,1618.0,1632.0,,,,,verb.creation,17,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+12,2,invited,49,56,1650,1657,30,17.0,31.0,1618.0,1632.0,,,,,verb.social,19,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+12,2,invited,49,56,1650,1657,29,17.0,31.0,1618.0,1632.0,,,,,verb.social,19,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+13,1,invited,27,34,1715,1722,32,0.0,16.0,1688.0,1704.0,,,,,verb.communication,21,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+13,2,cut,45,48,1733,1736,32,40.0,44.0,1728.0,1732.0,,,,,verb.contact,20,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+14,1,choosing,73,81,1849,1857,32,0.0,4.0,1776.0,1780.0,127.0,147.0,1903.0,1923.0,verb.cognition,23,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+16,1,ironed,20,26,1982,1988,1,12.0,15.0,1974.0,1977.0,,,,,verb.body,22,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+16,2,plaited,51,58,2013,2020,1,12.0,15.0,1974.0,1977.0,,,,,verb.contact,24,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+17,0,talked,6,12,2041,2047,32,1.0,5.0,2036.0,2040.0,,,,,verb.communication,26,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+17,3,dressed,60,67,2095,2102,32,45.0,49.0,2080.0,2084.0,,,,,verb.body,25,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+18,2,wear,40,44,2144,2148,27,33.0,34.0,2137.0,2138.0,64.0,84.0,2168.0,2188.0,verb.body,28,subject,the eldest,2.0,3.0,5.0,unknown,0.0,tertiary
+19,2,have,35,39,2226,2230,26,14.0,26.0,2205.0,2217.0,49.0,58.0,2240.0,2249.0,verb.possession,30,subject,the youngest,2.0,6.0,8.0,female,1.0,tertiary
+21,0,sent,5,9,2418,2422,32,0.0,4.0,2413.0,2417.0,,,,,verb.contact,31,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+21,4,adjust,83,89,2496,2502,32,34.0,38.0,2447.0,2451.0,,,,,verb.change,35,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+21,5,had,121,124,2534,2537,32,116.0,120.0,2529.0,2533.0,,,,,verb.possession,34,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+22,4,had,88,91,2687,2690,1,84.0,87.0,2683.0,2686.0,,,,,verb.possession,33,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+22,7,dress,182,187,2781,2786,1,166.0,178.0,2765.0,2777.0,201.0,243.0,2800.0,2842.0,verb.body,38,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+22,10,do,241,243,2840,2842,1,230.0,233.0,2829.0,2832.0,,,,,verb.social,40,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+23,1,doing,11,16,2855,2860,1,3.0,6.0,2847.0,2850.0,,,,,verb.social,39,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+23,2,said,28,32,2872,2876,32,23.0,27.0,2867.0,2871.0,,,,,verb.communication,41,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+25,1,jeer,20,24,2968,2972,32,11.0,14.0,2959.0,2962.0,,,,,verb.communication,42,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+26,2,go,31,33,3007,3009,1,23.0,24.0,2999.0,3000.0,,,,,verb.motion,44,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+27,1,replied,30,37,3048,3055,1,1.0,11.0,3019.0,3029.0,,,,,verb.communication,45,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+28,2,laugh,27,32,3088,3093,137,16.0,26.0,3077.0,3087.0,,,,,verb.body,47,subject,the people,1.0,0.0,1.0,unknown,0.0,tertiary
+28,3,see,36,39,3097,3100,137,16.0,26.0,3077.0,3087.0,54.0,63.0,3115.0,3124.0,verb.perception,48,subject,the people,1.0,0.0,1.0,unknown,0.0,tertiary
+29,2,dressed,33,40,3160,3167,1,0.0,21.0,3127.0,3148.0,,,,,verb.body,50,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+29,4,dressed,86,93,3213,3220,1,63.0,66.0,3190.0,3193.0,99.0,113.0,3226.0,3240.0,verb.body,51,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+29,8,transported,174,185,3301,3312,32,169.0,173.0,3296.0,3300.0,,,,,verb.perception,49,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+30,0,broke,5,10,3328,3333,32,0.0,4.0,3323.0,3327.0,,,,,verb.contact,52,subject,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+32,1,followed,36,44,3542,3550,1,25.0,35.0,3531.0,3541.0,50.0,84.0,3556.0,3590.0,verb.motion,53,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+32,4,lost,103,107,3609,3613,1,95.0,98.0,3601.0,3604.0,,,,,verb.possession,54,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+32,5,fell,127,131,3633,3637,1,123.0,126.0,3629.0,3632.0,,,,,verb.motion,55,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+33,0,saw,19,22,3667,3670,1,0.0,13.0,3648.0,3661.0,27.0,39.0,3675.0,3687.0,verb.perception,56,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+33,0,saw,19,22,3667,3670,38,0.0,13.0,3648.0,3661.0,27.0,39.0,3675.0,3687.0,verb.perception,56,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+33,1,asked,41,46,3689,3694,1,0.0,39.0,3648.0,3687.0,,,,,verb.communication,57,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+33,1,asked,41,46,3689,3694,38,0.0,39.0,3648.0,3687.0,,,,,verb.communication,57,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+34,0,wish,3,7,3723,3727,38,1.0,2.0,3721.0,3722.0,,,,,verb.communication,58,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+34,2,wish,18,22,3738,3742,38,16.0,17.0,3736.0,3737.0,,,,,verb.emotion,59,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+35,1,speak,21,26,3774,3779,1,1.0,4.0,3754.0,3757.0,37.0,79.0,3790.0,3832.0,verb.communication,60,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+36,1,said,41,45,3875,3879,1,0.0,39.0,3834.0,3873.0,,,,,verb.communication,62,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+36,1,said,41,45,3875,3879,40,0.0,39.0,3834.0,3873.0,,,,,verb.communication,62,subject,a fairy,1.0,0.0,1.0,unknown,0.0,tertiary
+36,1,said,41,45,3875,3879,39,0.0,39.0,3834.0,3873.0,,,,,verb.communication,62,subject,Cinderella's godmother of hers,1.0,0.0,1.0,unknown,0.0,tertiary
+36,2,wish,59,63,3893,3897,1,55.0,58.0,3889.0,3892.0,,,,,verb.emotion,61,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+39,3,contrive,60,68,4044,4052,38,53.0,54.0,4037.0,4038.0,,,,,verb.communication,65,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+39,5,go,84,86,4068,4070,1,74.0,77.0,4058.0,4061.0,,,,,verb.motion,67,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+40,0,took,9,13,4082,4086,38,5.0,8.0,4078.0,4081.0,18.0,34.0,4091.0,4107.0,verb.motion,66,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+40,1,said,40,44,4113,4117,38,5.0,8.0,4078.0,4081.0,,,,,verb.communication,68,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+41,1,gather,31,37,4204,4210,1,0.0,10.0,4173.0,4183.0,,,,,verb.contact,69,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+41,3,get,59,62,4232,4235,1,38.0,48.0,4211.0,4221.0,,,,,verb.possession,71,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+41,4,brought,68,75,4241,4248,1,0.0,10.0,4173.0,4183.0,97.0,169.0,4270.0,4342.0,verb.contact,72,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+41,6,imagine,115,122,4288,4295,1,0.0,10.0,4173.0,4183.0,,,,,verb.creation,73,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+42,0,scooped,14,21,4358,4365,1,0.0,13.0,4344.0,4357.0,48.0,80.0,4392.0,4424.0,verb.contact,76,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+42,0,scooped,14,21,4358,4365,38,0.0,13.0,4344.0,4357.0,48.0,80.0,4392.0,4424.0,verb.contact,76,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+42,2,left,55,59,4399,4403,1,0.0,13.0,4344.0,4357.0,,,,,verb.cognition,75,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+42,2,left,55,59,4399,4403,38,0.0,13.0,4344.0,4357.0,,,,,verb.cognition,75,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+43,1,struck,17,23,4442,4448,38,13.0,16.0,4438.0,4441.0,,,,,verb.contact,77,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,0,went,9,13,4559,4563,38,0.0,3.0,4550.0,4553.0,53.0,78.0,4603.0,4628.0,verb.motion,78,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,1,look,17,21,4567,4571,38,0.0,3.0,4550.0,4553.0,,,,,verb.perception,79,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,2,found,53,58,4603,4608,38,49.0,52.0,4599.0,4602.0,,,,,verb.possession,80,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,3,ordered,84,91,4634,4641,38,0.0,3.0,4550.0,4553.0,,,,,verb.communication,81,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+45,3,see,47,50,4949,4952,1,33.0,34.0,4935.0,4936.0,,,,,verb.communication,83,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+45,4,says,53,57,4955,4959,1,0.0,50.0,4902.0,4952.0,,,,,verb.communication,82,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+45,4,says,53,57,4955,4959,45,0.0,50.0,4902.0,4952.0,,,,,verb.communication,82,subject,a coachman,1.0,0.0,1.0,unknown,0.0,tertiary
+48,0,brought,11,18,5118,5125,1,0.0,10.0,5107.0,5117.0,,,,,verb.contact,84,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+49,3,touched,83,90,5264,5271,47,0.0,9.0,5181.0,5190.0,,,,,verb.contact,86,subject,The fairy,2.0,0.0,2.0,unknown,0.0,tertiary
+50,0,said,16,20,5397,5401,38,12.0,15.0,5393.0,5396.0,,,,,verb.communication,87,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+50,3,find,69,73,5450,5454,38,60.0,63.0,5441.0,5444.0,86.0,109.0,5467.0,5490.0,verb.possession,88,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+51,2,turned,44,50,5555,5561,1,30.0,43.0,5541.0,5554.0,56.0,261.0,5567.0,5772.0,verb.motion,89,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+51,2,turned,44,50,5555,5561,38,30.0,43.0,5541.0,5554.0,56.0,261.0,5567.0,5772.0,verb.motion,89,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+52,0,said,15,19,5789,5793,47,0.0,9.0,5774.0,5783.0,,,,,verb.communication,92,subject,The fairy,2.0,0.0,2.0,unknown,0.0,tertiary
+52,1,see,46,49,5820,5823,1,42.0,45.0,5816.0,5819.0,,,,,verb.perception,91,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+56,1,go,13,15,5933,5935,1,11.0,12.0,5931.0,5932.0,22.0,50.0,5942.0,5970.0,verb.motion,95,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+57,0,touched,24,31,5997,6004,1,0.0,13.0,5973.0,5986.0,,,,,verb.contact,94,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+57,0,touched,24,31,5997,6004,38,0.0,13.0,5973.0,5986.0,,,,,verb.contact,94,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+57,2,turned,94,100,6067,6073,1,77.0,88.0,6050.0,6061.0,132.0,153.0,6105.0,6126.0,verb.change,96,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+58,1,gave,15,19,6143,6147,38,11.0,14.0,6139.0,6142.0,,,,,verb.possession,97,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+60,0,commanded,38,47,6299,6308,1,5.0,19.0,6266.0,6280.0,,,,,verb.communication,98,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+60,0,commanded,38,47,6299,6308,38,5.0,19.0,6266.0,6280.0,,,,,verb.communication,98,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+60,2,telling,85,92,6346,6353,1,5.0,18.0,6266.0,6279.0,98.0,114.0,6359.0,6375.0,verb.communication,99,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+60,2,telling,85,92,6346,6353,38,5.0,18.0,6266.0,6279.0,98.0,114.0,6359.0,6375.0,verb.communication,99,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+60,6,become,264,270,6525,6531,1,252.0,263.0,6513.0,6524.0,,,,,verb.change,101,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+61,0,promised,4,12,6562,6570,1,0.0,3.0,6558.0,6561.0,,,,,verb.communication,100,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+61,2,fail,41,45,6599,6603,1,27.0,30.0,6585.0,6588.0,,,,,verb.social,102,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+61,3,leaving,49,56,6607,6614,1,27.0,30.0,6585.0,6588.0,66.0,81.0,6624.0,6639.0,verb.social,103,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+62,0,drives,19,25,6659,6665,1,15.0,18.0,6655.0,6658.0,,,,,verb.motion,105,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+63,1,told,23,27,6730,6734,29,0.0,14.0,6707.0,6721.0,,,,,verb.communication,107,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+63,2,knew,63,67,6770,6774,64,33.0,49.0,6740.0,6756.0,,,,,verb.cognition,106,subject,a great princess,1.0,0.0,1.0,female,1.0,tertiary
+63,4,come,73,77,6780,6784,65,33.0,67.0,6740.0,6774.0,,,,,verb.motion,108,subject,nobody knew,1.0,0.0,1.0,unknown,0.0,tertiary
+63,4,come,73,77,6780,6784,64,33.0,67.0,6740.0,6774.0,,,,,verb.motion,108,subject,a great princess,1.0,0.0,1.0,female,1.0,tertiary
+63,6,receive,90,97,6797,6804,29,0.0,77.0,6707.0,6784.0,,,,,verb.possession,109,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+63,6,receive,90,97,6797,6804,65,0.0,77.0,6707.0,6784.0,,,,,verb.possession,109,subject,nobody knew,1.0,0.0,1.0,unknown,0.0,tertiary
+63,6,receive,90,97,6797,6804,63,0.0,77.0,6707.0,6784.0,,,,,verb.possession,109,subject,"The King 's son who was told that a great princess , whom nobody knew",1.0,2.0,3.0,male,0.625,tertiary
+63,6,receive,90,97,6797,6804,64,0.0,77.0,6707.0,6784.0,,,,,verb.possession,109,subject,a great princess,1.0,0.0,1.0,female,1.0,tertiary
+64,0,gave,4,8,6813,6817,63,1.0,3.0,6810.0,6812.0,22.0,54.0,6831.0,6863.0,verb.communication,111,subject,"The King 's son who was told that a great princess , whom nobody knew",1.0,2.0,3.0,male,0.625,tertiary
+64,1,alighted,29,37,6838,6846,1,25.0,28.0,6834.0,6837.0,,,,,verb.motion,110,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+64,2,led,60,63,6869,6872,63,1.0,3.0,6810.0,6812.0,83.0,88.0,6892.0,6897.0,verb.motion,112,subject,"The King 's son who was told that a great princess , whom nobody knew",1.0,2.0,3.0,male,0.625,tertiary
+70,2,help,43,47,7244,7248,71,0.0,31.0,7201.0,7232.0,,,,,verb.social,114,subject,"The King himself , old as he was's King himself , old as he was",1.0,3.0,4.0,male,1.0,tertiary
+70,3,watching,48,56,7249,7257,71,0.0,16.0,7201.0,7217.0,,,,,verb.perception,115,subject,"The King himself , old as he was's King himself , old as he was",1.0,3.0,4.0,male,1.0,tertiary
+70,4,telling,66,73,7267,7274,71,0.0,31.0,7201.0,7232.0,84.0,90.0,7285.0,7291.0,verb.communication,117,subject,"The King himself , old as he was's King himself , old as he was",1.0,3.0,4.0,male,1.0,tertiary
+70,7,seen,128,132,7329,7333,71,121.0,123.0,7322.0,7324.0,,,,,verb.perception,116,subject,"The King himself , old as he was's King himself , old as he was",1.0,3.0,4.0,male,1.0,tertiary
+71,2,considering,30,41,7400,7411,74,0.0,14.0,7370.0,7384.0,,,,,verb.communication,118,subject,All the ladies,1.0,3.0,4.0,female,1.0,tertiary
+71,10,make,203,207,7573,7577,74,142.0,146.0,7512.0,7516.0,,,,,verb.creation,120,subject,All the ladies,1.0,3.0,4.0,female,1.0,tertiary
+72,0,conducted,15,24,7599,7608,30,0.0,14.0,7584.0,7598.0,29.0,55.0,7613.0,7639.0,verb.creation,119,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+72,0,conducted,15,24,7599,7608,29,0.0,14.0,7584.0,7598.0,29.0,55.0,7613.0,7639.0,verb.creation,119,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+72,1,took,71,75,7655,7659,30,0.0,14.0,7584.0,7598.0,84.0,101.0,7668.0,7685.0,verb.motion,121,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+72,1,took,71,75,7655,7659,29,0.0,14.0,7584.0,7598.0,84.0,101.0,7668.0,7685.0,verb.motion,121,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+73,0,danced,5,11,7691,7697,1,1.0,4.0,7687.0,7690.0,,,,,verb.creation,122,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+73,1,admired,59,66,7745,7752,74,36.0,53.0,7722.0,7739.0,,,,,verb.cognition,123,subject,All the ladies,1.0,3.0,4.0,female,1.0,tertiary
+74,3,ate,57,60,7815,7818,78,32.0,56.0,7790.0,7814.0,,,,,verb.consumption,125,subject,the young prince,2.0,2.0,4.0,male,1.0,tertiary
+74,5,busied,94,100,7852,7858,78,91.0,93.0,7849.0,7851.0,,,,,verb.social,124,subject,the young prince,2.0,2.0,4.0,male,1.0,tertiary
+75,0,went,4,8,7881,7885,1,0.0,3.0,7877.0,7880.0,,,,,verb.motion,127,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+75,2,showing,38,45,7915,7922,1,0.0,3.0,7877.0,7880.0,74.0,216.0,7951.0,8093.0,verb.perception,128,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+75,5,presented,139,148,8016,8025,80,124.0,134.0,8001.0,8011.0,,,,,verb.possession,129,subject,The Prince,3.0,0.0,3.0,male,1.0,tertiary
+75,8,know,208,212,8085,8089,21,195.0,199.0,8072.0,8076.0,,,,,verb.cognition,131,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+76,1,amusing,26,33,8121,8128,1,6.0,16.0,8101.0,8111.0,,,,,verb.emotion,133,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+76,2,heard,51,56,8146,8151,1,47.0,50.0,8142.0,8145.0,,,,,verb.perception,134,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+76,4,made,127,131,8222,8226,1,111.0,114.0,8206.0,8209.0,174.0,194.0,8269.0,8289.0,verb.social,135,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,0,got,9,12,8300,8303,1,5.0,8.0,8296.0,8299.0,,,,,verb.motion,136,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,1,ran,22,25,8313,8316,1,18.0,21.0,8309.0,8312.0,,,,,verb.motion,137,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,5,said,88,92,8379,8383,1,84.0,87.0,8375.0,8378.0,,,,,verb.communication,140,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,7,wish,120,124,8411,8415,1,93.0,96.0,8384.0,8387.0,160.0,198.0,8451.0,8489.0,verb.emotion,139,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,9,go,135,137,8426,8428,1,125.0,128.0,8416.0,8419.0,,,,,verb.motion,142,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,11,desired,187,194,8478,8485,30,168.0,182.0,8459.0,8473.0,,,,,verb.emotion,141,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+77,11,desired,187,194,8478,8485,29,168.0,182.0,8459.0,8473.0,,,,,verb.emotion,141,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+78,1,telling,19,26,8510,8517,1,3.0,6.0,8494.0,8497.0,,,,,verb.communication,144,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+78,4,knocked,90,97,8581,8588,1,74.0,89.0,8565.0,8580.0,111.0,142.0,8602.0,8633.0,verb.social,143,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+78,4,knocked,90,97,8581,8588,88,74.0,89.0,8565.0,8580.0,111.0,142.0,8602.0,8633.0,verb.social,143,subject,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+78,5,ran,128,131,8619,8622,1,101.0,109.0,8592.0,8600.0,,,,,verb.motion,145,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+78,6,opened,136,142,8627,8633,1,101.0,109.0,8592.0,8600.0,,,,,verb.contact,146,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+80,2,rubbing,19,26,8682,8689,1,6.0,9.0,8669.0,8672.0,,,,,verb.body,148,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+80,3,stretching,40,50,8703,8713,1,6.0,9.0,8669.0,8672.0,59.0,105.0,8722.0,8768.0,verb.body,150,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+80,6,waked,83,88,8746,8751,1,65.0,68.0,8728.0,8731.0,,,,,verb.body,149,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+81,1,sleep,52,57,8821,8826,1,1.0,4.0,8770.0,8773.0,,,,,verb.body,152,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+81,2,went,69,73,8838,8842,88,64.0,68.0,8833.0,8837.0,,,,,verb.motion,151,subject,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+82,2,said,31,35,8885,8889,1,1.0,28.0,8855.0,8882.0,,,,,verb.communication,154,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+84,0,showed,5,11,9043,9049,144,1.0,4.0,9039.0,9042.0,,,,,verb.perception,155,subject,the finest princess,1.0,1.0,2.0,female,1.0,tertiary
+84,1,gave,42,46,9080,9084,144,1.0,4.0,9039.0,9042.0,,,,,verb.possession,156,subject,the finest princess,1.0,1.0,2.0,female,1.0,tertiary
+86,0,asked,13,18,9172,9177,1,9.0,12.0,9168.0,9171.0,,,,,verb.communication,157,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+87,0,told,10,14,9219,9223,21,5.0,9.0,9214.0,9218.0,,,,,verb.communication,159,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+87,2,know,32,36,9241,9245,21,19.0,23.0,9228.0,9232.0,,,,,verb.cognition,158,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+87,5,give,106,110,9315,9319,30,50.0,64.0,9259.0,9273.0,,,,,verb.communication,160,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+87,5,give,106,110,9315,9319,29,50.0,64.0,9259.0,9273.0,,,,,verb.communication,160,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+88,1,replied,29,36,9384,9391,1,8.0,18.0,9363.0,9373.0,,,,,verb.communication,163,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+90,1,see,12,15,9473,9476,1,10.0,11.0,9471.0,9472.0,,,,,verb.perception,162,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+92,2,wear,70,74,9556,9560,2,32.0,59.0,9518.0,9545.0,,,,,verb.body,164,subject,Miss Charlotte,2.0,5.0,7.0,unknown,0.0,tertiary
+97,0,expected,20,28,9711,9719,1,0.0,10.0,9691.0,9701.0,,,,,verb.cognition,167,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+98,5,lent,59,63,9830,9834,1,44.0,54.0,9815.0,9825.0,,,,,verb.possession,170,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+98,5,lent,59,63,9830,9834,96,44.0,54.0,9815.0,9825.0,,,,,verb.possession,170,subject,Cinderella's sister,1.0,0.0,1.0,female,1.0,tertiary
+98,6,asked,77,82,9848,9853,1,68.0,72.0,9839.0,9843.0,,,,,verb.communication,169,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+99,2,dressed,74,81,9943,9950,97,13.0,28.0,9882.0,9897.0,,,,,verb.body,171,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+100,1,ceased,44,50,10027,10033,30,0.0,14.0,9983.0,9997.0,,,,,verb.change,172,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+100,1,ceased,44,50,10027,10033,29,0.0,14.0,9983.0,9997.0,,,,,verb.change,172,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+101,2,forgot,64,70,10139,10145,1,54.0,57.0,10129.0,10132.0,,,,,verb.cognition,174,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+101,4,recommended,94,105,10169,10180,1,71.0,75.0,10146.0,10150.0,,,,,verb.communication,173,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+101,4,recommended,94,105,10169,10180,38,71.0,75.0,10146.0,10150.0,,,,,verb.communication,173,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+102,0,counted,23,30,10211,10218,1,9.0,12.0,10197.0,10200.0,57.0,99.0,10245.0,10287.0,verb.cognition,176,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+102,2,took,66,70,10254,10258,1,62.0,65.0,10250.0,10253.0,,,,,verb.cognition,175,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+103,1,fled,22,26,10310,10314,1,1.0,4.0,10289.0,10292.0,,,,,verb.motion,177,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+104,0,followed,11,19,10348,10356,80,0.0,10.0,10337.0,10347.0,,,,,verb.motion,178,subject,The Prince,3.0,0.0,3.0,male,1.0,tertiary
+104,2,overtake,35,43,10372,10380,80,0.0,10.0,10337.0,10347.0,,,,,verb.competition,180,subject,The Prince,3.0,0.0,3.0,male,1.0,tertiary
+105,0,left,4,8,10390,10394,1,0.0,3.0,10386.0,10389.0,,,,,verb.possession,179,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+106,1,having,68,74,10538,10544,1,0.0,3.0,10470.0,10473.0,,,,,verb.possession,183,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+106,3,dropped,161,168,10631,10638,1,157.0,160.0,10627.0,10630.0,,,,,verb.motion,181,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+107,1,asked,35,40,10675,10680,104,0.0,29.0,10640.0,10669.0,,,,,verb.communication,185,subject,The guards at the palace gate,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+107,3,seen,58,62,10698,10702,104,45.0,49.0,10685.0,10689.0,,,,,verb.perception,184,subject,The guards at the palace gate,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+108,2,seen,19,23,10741,10745,104,10.0,14.0,10732.0,10736.0,,,,,verb.perception,186,subject,The guards at the palace gate,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+109,0,returned,21,29,10889,10897,97,5.0,20.0,10873.0,10888.0,,,,,verb.motion,188,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+110,0,told,5,9,11009,11013,97,0.0,4.0,11004.0,11008.0,,,,,verb.communication,193,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+110,3,dropped,113,120,11117,11124,1,109.0,112.0,11113.0,11116.0,,,,,verb.motion,192,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+111,1,done,13,17,11234,11238,30,6.0,8.0,11227.0,11229.0,,,,,verb.social,191,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+111,2,look,30,34,11251,11255,30,6.0,8.0,11227.0,11229.0,42.0,66.0,11263.0,11287.0,verb.perception,190,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+112,0,said,10,14,11403,11407,97,0.0,4.0,11393.0,11397.0,,,,,verb.communication,195,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+113,0,caused,37,43,11459,11465,30,22.0,36.0,11444.0,11458.0,,,,,verb.communication,194,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+113,0,caused,37,43,11459,11465,29,22.0,36.0,11444.0,11458.0,,,,,verb.communication,194,subject,the King,8.0,0.0,8.0,male,1.0,tertiary
+113,4,marry,100,105,11522,11527,30,91.0,93.0,11513.0,11515.0,,,,,verb.social,197,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+114,0,employed,13,21,11584,11592,30,5.0,9.0,11576.0,11580.0,,,,,verb.social,196,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+114,1,began,22,27,11593,11598,30,10.0,21.0,11581.0,11592.0,,,,,verb.change,198,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+114,2,try,31,34,11602,11605,30,0.0,21.0,11571.0,11592.0,,,,,verb.social,199,subject,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+114,2,try,31,34,11602,11605,119,0.0,21.0,11571.0,11592.0,,,,,verb.social,199,subject,the two sisters's whom he employed,1.0,0.0,1.0,unknown,0.0,tertiary
+114,2,try,31,34,11602,11605,97,0.0,21.0,11571.0,11592.0,,,,,verb.social,199,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+115,2,did,40,43,11720,11723,97,19.0,34.0,11699.0,11714.0,,,,,verb.social,200,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+115,6,effect,126,132,11806,11812,97,111.0,115.0,11791.0,11795.0,,,,,verb.creation,205,subject,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+116,0,saw,16,19,11833,11836,1,0.0,10.0,11817.0,11827.0,,,,,verb.perception,204,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,1,knew,34,38,11851,11855,1,0.0,10.0,11817.0,11827.0,,,,,verb.cognition,203,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,2,said,52,56,11869,11873,1,0.0,50.0,11817.0,11867.0,66.0,74.0,11883.0,11891.0,verb.communication,206,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,3,laughing,66,74,11883,11891,1,0.0,50.0,11817.0,11867.0,,,,,verb.body,207,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,5,see,84,87,11901,11904,1,81.0,83.0,11898.0,11900.0,,,,,verb.cognition,209,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+117,2,began,38,43,11967,11972,1,0.0,11.0,11929.0,11940.0,,,,,verb.change,210,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+117,2,began,38,43,11967,11972,21,0.0,11.0,11929.0,11940.0,,,,,verb.change,210,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+117,3,banter,47,53,11976,11982,1,0.0,11.0,11929.0,11940.0,,,,,verb.communication,211,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+117,3,banter,47,53,11976,11982,21,0.0,11.0,11929.0,11940.0,,,,,verb.communication,211,subject,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+118,3,looked,46,52,12034,12040,125,0.0,45.0,11988.0,12033.0,,,,,verb.perception,212,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+118,4,finding,83,90,12071,12078,125,0.0,45.0,11988.0,12033.0,,,,,verb.perception,213,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+118,5,said,110,114,12098,12102,1,0.0,45.0,11988.0,12033.0,,,,,verb.communication,216,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+118,5,said,110,114,12098,12102,125,0.0,45.0,11988.0,12033.0,,,,,verb.communication,216,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+118,8,try,148,151,12136,12139,1,137.0,140.0,12125.0,12128.0,,,,,verb.social,215,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+118,9,had,165,168,12153,12156,125,162.0,164.0,12150.0,12152.0,,,,,verb.possession,214,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+119,0,obliged,3,10,12195,12202,125,0.0,2.0,12192.0,12194.0,,,,,verb.communication,217,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+119,2,putting,40,47,12232,12239,125,0.0,2.0,12192.0,12194.0,,,,,verb.contact,218,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+119,3,found,76,81,12268,12273,125,73.0,75.0,12265.0,12267.0,,,,,verb.perception,220,subject,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+120,3,put,157,160,12501,12504,1,98.0,108.0,12442.0,12452.0,,,,,verb.contact,221,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+121,2,touched,46,53,12567,12574,1,19.0,32.0,12540.0,12553.0,,,,,verb.contact,222,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+121,2,touched,46,53,12567,12574,38,19.0,32.0,12540.0,12553.0,,,,,verb.contact,222,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+121,3,made,90,94,12611,12615,1,19.0,32.0,12540.0,12553.0,,,,,verb.change,224,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+121,3,made,90,94,12611,12615,38,19.0,32.0,12540.0,12553.0,,,,,verb.change,224,subject,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+122,0,found,24,29,12707,12712,1,8.0,23.0,12691.0,12706.0,,,,,verb.cognition,226,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+122,0,found,24,29,12707,12712,88,8.0,23.0,12691.0,12706.0,,,,,verb.cognition,226,subject,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+122,3,seen,80,84,12763,12767,88,40.0,65.0,12723.0,12748.0,,,,,verb.perception,225,subject,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+123,0,threw,5,10,12786,12791,88,0.0,4.0,12781.0,12785.0,34.0,99.0,12815.0,12880.0,verb.contact,227,subject,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+123,3,made,83,87,12864,12868,88,74.0,78.0,12855.0,12859.0,,,,,verb.social,228,subject,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+124,1,embraced,37,45,12919,12927,1,33.0,36.0,12915.0,12918.0,,,,,verb.body,231,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+124,2,cried,52,57,12934,12939,1,33.0,36.0,12915.0,12918.0,,,,,verb.communication,233,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+124,3,forgave,68,75,12950,12957,1,64.0,67.0,12946.0,12949.0,81.0,99.0,12963.0,12981.0,verb.social,232,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+124,4,desired,105,112,12987,12994,1,64.0,67.0,12946.0,12949.0,,,,,verb.emotion,234,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+125,1,conducted,8,17,13028,13037,1,0.0,3.0,13020.0,13023.0,,,,,verb.motion,237,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+126,0,thought,4,11,13082,13089,78,1.0,3.0,13079.0,13081.0,,,,,verb.cognition,238,subject,the young prince,2.0,2.0,4.0,male,1.0,tertiary
+127,1,gave,49,53,13204,13208,1,0.0,48.0,13155.0,13203.0,79.0,92.0,13234.0,13247.0,verb.possession,239,subject,Cinderella,27.0,162.0,189.0,female,1.0,primary
+3,1,began,72,77,479,484,12,78.0,112.0,485.0,519.0,,,,,verb.change,0,direct_object,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+3,2,show,81,85,488,492,12,86.0,93.0,493.0,500.0,94.0,112.0,501.0,519.0,verb.perception,3,direct_object,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+4,1,bear,14,18,535,539,13,19.0,57.0,540.0,578.0,85.0,130.0,606.0,651.0,verb.consumption,2,direct_object,this pretty girl,1.0,0.0,1.0,female,1.0,tertiary
+4,2,made,85,89,606,610,15,90.0,130.0,611.0,651.0,,,,,verb.change,1,direct_object,the mother - in - law's own daughters,1.0,0.0,1.0,female,1.0,tertiary
+4,2,made,85,89,606,610,12,90.0,130.0,611.0,651.0,,,,,verb.change,1,direct_object,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+5,0,employed,4,12,657,665,12,13.0,16.0,666.0,669.0,,,,,verb.consumption,4,direct_object,the mother - in - law,1.0,10.0,11.0,female,1.0,tertiary
+5,2,scrubbed,93,101,746,754,17,102.0,117.0,755.0,770.0,,,,,verb.contact,7,direct_object,madam,1.0,0.0,1.0,unknown,0.0,tertiary
+6,3,had,172,175,979,982,21,176.0,270.0,983.0,1077.0,,,,,verb.possession,6,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+6,6,see,217,220,1024,1027,21,221.0,231.0,1028.0,1038.0,232.0,270.0,1039.0,1077.0,verb.perception,8,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+7,1,tell,48,52,1127,1131,24,53.0,95.0,1132.0,1174.0,,,,,verb.communication,9,direct_object,The poor girl's father,1.0,2.0,3.0,male,1.0,tertiary
+7,1,tell,48,52,1127,1131,23,53.0,95.0,1132.0,1174.0,,,,,verb.communication,9,direct_object,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+7,4,rattled,80,87,1159,1166,23,88.0,91.0,1167.0,1170.0,,,,,verb.communication,12,direct_object,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+8,0,governed,14,22,1189,1197,24,23.0,26.0,1198.0,1201.0,27.0,35.0,1202.0,1210.0,verb.social,11,direct_object,The poor girl's father,1.0,2.0,3.0,male,1.0,tertiary
+9,1,done,13,17,1225,1229,23,18.0,26.0,1230.0,1238.0,,,,,verb.social,10,direct_object,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+9,5,made,112,116,1324,1328,23,117.0,151.0,1329.0,1363.0,,,,,verb.change,13,direct_object,The poor girl,1.0,6.0,7.0,female,1.0,tertiary
+9,5,made,112,116,1324,1328,0,117.0,151.0,1329.0,1363.0,,,,,verb.change,13,direct_object,Cinderwench,1.0,0.0,1.0,unknown,0.0,tertiary
+9,7,called,133,139,1345,1351,0,140.0,151.0,1352.0,1363.0,,,,,verb.communication,14,direct_object,Cinderwench,1.0,0.0,1.0,unknown,0.0,tertiary
+10,1,called,66,72,1430,1436,26,73.0,76.0,1437.0,1440.0,,,,,verb.communication,16,direct_object,the youngest,2.0,6.0,8.0,female,1.0,tertiary
+12,0,happened,3,11,1604,1612,30,12.0,85.0,1613.0,1686.0,,,,,verb.change,18,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+12,0,happened,3,11,1604,1612,29,12.0,85.0,1613.0,1686.0,,,,,verb.change,18,direct_object,the King,8.0,0.0,8.0,male,1.0,tertiary
+12,0,happened,3,11,1604,1612,31,12.0,85.0,1613.0,1686.0,,,,,verb.change,18,direct_object,all persons of fashion,1.0,0.0,1.0,unknown,0.0,tertiary
+12,2,invited,49,56,1650,1657,31,57.0,79.0,1658.0,1680.0,,,,,verb.social,19,direct_object,all persons of fashion,1.0,0.0,1.0,unknown,0.0,tertiary
+13,2,cut,45,48,1733,1736,33,49.0,86.0,1737.0,1774.0,,,,,verb.contact,20,direct_object,a very grand figure among the quality,1.0,0.0,1.0,unknown,0.0,tertiary
+16,1,ironed,20,26,1982,1988,1,27.0,45.0,1989.0,2007.0,,,,,verb.body,22,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+16,1,ironed,20,26,1982,1988,21,27.0,45.0,1989.0,2007.0,,,,,verb.body,22,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+16,2,plaited,51,58,2013,2020,21,59.0,72.0,2021.0,2034.0,,,,,verb.contact,24,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+17,0,talked,6,12,2041,2047,32,29.0,67.0,2064.0,2102.0,,,,,verb.communication,26,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+18,0,said,15,19,2119,2123,27,20.0,30.0,2124.0,2134.0,,,,,verb.communication,27,direct_object,the eldest,2.0,3.0,5.0,unknown,0.0,tertiary
+18,2,wear,40,44,2144,2148,27,45.0,63.0,2149.0,2167.0,64.0,84.0,2168.0,2188.0,verb.body,28,direct_object,the eldest,2.0,3.0,5.0,unknown,0.0,tertiary
+19,0,said,9,13,2200,2204,26,14.0,26.0,2205.0,2217.0,,,,,verb.communication,29,direct_object,the youngest,2.0,6.0,8.0,female,1.0,tertiary
+19,2,have,35,39,2226,2230,26,40.0,48.0,2231.0,2239.0,49.0,58.0,2240.0,2249.0,verb.possession,30,direct_object,the youngest,2.0,6.0,8.0,female,1.0,tertiary
+20,0,make,14,18,2264,2268,26,19.0,34.0,2269.0,2284.0,,,,,verb.social,32,direct_object,the youngest,2.0,6.0,8.0,female,1.0,tertiary
+21,0,sent,5,9,2418,2422,32,10.0,110.0,2423.0,2523.0,,,,,verb.contact,31,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+21,4,adjust,83,89,2496,2502,32,90.0,110.0,2503.0,2523.0,,,,,verb.change,35,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+21,5,had,121,124,2534,2537,32,125.0,184.0,2538.0,2597.0,,,,,verb.possession,34,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+22,5,advised,115,122,2714,2721,32,123.0,127.0,2722.0,2726.0,128.0,134.0,,,verb.communication,36,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+22,6,offered,158,165,2757,2764,1,166.0,199.0,2765.0,2798.0,201.0,243.0,,,verb.possession,37,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+22,6,offered,158,165,2757,2764,32,166.0,199.0,2765.0,2798.0,201.0,243.0,,,verb.possession,37,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+22,7,dress,182,187,2781,2786,32,188.0,199.0,2787.0,2798.0,201.0,243.0,2800.0,2842.0,verb.body,38,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+23,2,said,28,32,2872,2876,1,33.0,39.0,2877.0,2883.0,,,,,verb.communication,41,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+25,0,said,0,4,2948,2952,1,5.0,8.0,2953.0,2956.0,,,,,verb.communication,43,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+25,0,said,0,4,2948,2952,32,5.0,8.0,2953.0,2956.0,,,,,verb.communication,43,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+25,1,jeer,20,24,2968,2972,1,25.0,27.0,2973.0,2975.0,,,,,verb.communication,42,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+27,1,replied,30,37,3048,3055,32,38.0,42.0,3056.0,3060.0,,,,,verb.communication,45,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+28,1,make,11,15,3072,3076,138,16.0,63.0,3077.0,3124.0,,,,,verb.communication,46,direct_object,a Cinderwench,1.0,0.0,1.0,unknown,0.0,tertiary
+28,1,make,11,15,3072,3076,137,16.0,63.0,3077.0,3124.0,,,,,verb.communication,46,direct_object,the people,1.0,0.0,1.0,unknown,0.0,tertiary
+28,3,see,36,39,3097,3100,138,40.0,53.0,3101.0,3114.0,54.0,63.0,3115.0,3124.0,verb.perception,48,direct_object,a Cinderwench,1.0,0.0,1.0,unknown,0.0,tertiary
+29,2,dressed,33,40,3160,3167,32,41.0,52.0,3168.0,3179.0,,,,,verb.body,50,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+29,4,dressed,86,93,3213,3220,32,94.0,98.0,3221.0,3225.0,99.0,113.0,3226.0,3240.0,verb.body,51,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+32,1,followed,36,44,3542,3550,32,45.0,49.0,3551.0,3555.0,50.0,84.0,3556.0,3590.0,verb.motion,53,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+32,4,lost,103,107,3609,3613,32,108.0,121.0,3614.0,3627.0,,,,,verb.possession,54,direct_object,Our young misses,1.0,28.0,29.0,group/nonbinary,1.0,tertiary
+33,0,saw,19,22,3667,3670,1,23.0,26.0,3671.0,3674.0,27.0,39.0,3675.0,3687.0,verb.perception,56,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+33,1,asked,41,46,3689,3694,1,47.0,50.0,3695.0,3698.0,,,,,verb.communication,57,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+34,0,wish,3,7,3723,3727,38,8.0,15.0,3728.0,3735.0,,,,,verb.communication,58,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+34,2,wish,18,22,3738,3742,38,23.0,32.0,3743.0,3752.0,,,,,verb.emotion,59,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+36,1,said,41,45,3875,3879,1,46.0,52.0,3880.0,3886.0,,,,,verb.communication,62,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+36,2,wish,59,63,3893,3897,1,64.0,88.0,3898.0,3922.0,,,,,verb.emotion,61,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+38,0,cried,8,13,3947,3952,1,14.0,24.0,3953.0,3963.0,26.0,43.0,3965.0,3982.0,verb.communication,63,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+39,0,said,8,12,3992,3996,1,13.0,26.0,3997.0,4010.0,,,,,verb.communication,64,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+39,0,said,8,12,3992,3996,38,13.0,26.0,3997.0,4010.0,,,,,verb.communication,64,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+39,3,contrive,60,68,4044,4052,1,69.0,86.0,4053.0,4070.0,,,,,verb.communication,65,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+40,0,took,9,13,4082,4086,1,14.0,17.0,4087.0,4090.0,18.0,34.0,4091.0,4107.0,verb.motion,66,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+40,1,said,40,44,4113,4117,1,45.0,51.0,4118.0,4124.0,,,,,verb.communication,68,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+40,1,said,40,44,4113,4117,38,45.0,51.0,4118.0,4124.0,,,,,verb.communication,68,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+40,3,bring,79,84,4152,4157,38,85.0,87.0,4158.0,4160.0,,,,,verb.motion,70,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+41,1,gather,31,37,4204,4210,1,38.0,62.0,4211.0,4235.0,,,,,verb.contact,69,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+41,4,brought,68,75,4241,4248,1,76.0,78.0,4249.0,4251.0,97.0,169.0,4270.0,4342.0,verb.contact,72,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+41,4,brought,68,75,4241,4248,38,76.0,78.0,4249.0,4251.0,97.0,169.0,4270.0,4342.0,verb.contact,72,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+41,6,imagine,115,122,4288,4295,1,123.0,169.0,4296.0,4342.0,,,,,verb.creation,73,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+41,8,make,146,150,4319,4323,1,151.0,169.0,4324.0,4342.0,,,,,verb.change,74,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+43,1,struck,17,23,4442,4448,38,24.0,26.0,4449.0,4451.0,,,,,verb.contact,77,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,0,went,9,13,4559,4563,38,14.0,52.0,4564.0,4602.0,53.0,78.0,4603.0,4628.0,verb.motion,78,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,1,look,17,21,4567,4571,38,22.0,79.0,4572.0,4629.0,,,,,verb.perception,79,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+44,3,ordered,84,91,4634,4641,1,92.0,102.0,4642.0,4652.0,,,,,verb.communication,81,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+44,3,ordered,84,91,4634,4641,38,92.0,102.0,4642.0,4652.0,,,,,verb.communication,81,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+45,4,says,53,57,4955,4959,1,58.0,68.0,4960.0,4970.0,,,,,verb.communication,82,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+46,1,replied,24,31,5069,5076,1,32.0,45.0,5077.0,5090.0,,,,,verb.communication,85,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+46,1,replied,24,31,5069,5076,38,32.0,45.0,5077.0,5090.0,,,,,verb.communication,85,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+48,0,brought,11,18,5118,5125,38,19.0,27.0,5126.0,5134.0,,,,,verb.contact,84,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+49,3,touched,83,90,5264,5271,38,91.0,94.0,5272.0,5275.0,,,,,verb.contact,86,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+50,0,said,16,20,5397,5401,38,21.0,27.0,5402.0,5408.0,,,,,verb.communication,87,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+50,4,bring,111,116,5492,5497,38,117.0,121.0,5498.0,5502.0,,,,,verb.motion,90,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+52,0,said,15,19,5789,5793,1,20.0,33.0,5794.0,5807.0,,,,,verb.communication,92,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+55,0,cried,6,11,5910,5915,1,12.0,15.0,5916.0,5919.0,,,,,verb.communication,93,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+57,0,touched,24,31,5997,6004,1,32.0,35.0,6005.0,6008.0,,,,,verb.contact,94,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+57,0,touched,24,31,5997,6004,38,32.0,35.0,6005.0,6008.0,,,,,verb.contact,94,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+58,1,gave,15,19,6143,6147,1,20.0,23.0,6148.0,6151.0,,,,,verb.possession,97,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+60,0,commanded,38,47,6299,6308,1,48.0,51.0,6309.0,6312.0,,,,,verb.communication,98,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+60,0,commanded,38,47,6299,6308,60,48.0,51.0,6309.0,6312.0,,,,,verb.communication,98,direct_object,Cinderella's coachman,1.0,0.0,1.0,unknown,0.0,tertiary
+60,2,telling,85,92,6346,6353,1,93.0,96.0,6354.0,6357.0,98.0,114.0,6359.0,6375.0,verb.communication,99,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+60,2,telling,85,92,6346,6353,60,93.0,96.0,6354.0,6357.0,98.0,114.0,6359.0,6375.0,verb.communication,99,direct_object,Cinderella's coachman,1.0,0.0,1.0,unknown,0.0,tertiary
+61,0,promised,4,12,6562,6570,1,13.0,26.0,6571.0,6584.0,,,,,verb.communication,100,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+61,0,promised,4,12,6562,6570,38,13.0,26.0,6571.0,6584.0,,,,,verb.communication,100,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+62,1,contain,42,49,6682,6689,1,50.0,57.0,6690.0,6697.0,,,,,verb.social,104,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+63,1,told,23,27,6730,6734,65,28.0,77.0,6735.0,6784.0,,,,,verb.communication,107,direct_object,nobody knew,1.0,0.0,1.0,unknown,0.0,tertiary
+63,1,told,23,27,6730,6734,64,28.0,77.0,6735.0,6784.0,,,,,verb.communication,107,direct_object,a great princess,1.0,0.0,1.0,female,1.0,tertiary
+63,6,receive,90,97,6797,6804,1,98.0,101.0,6805.0,6808.0,,,,,verb.possession,109,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+64,0,gave,4,8,6813,6817,1,9.0,12.0,6818.0,6821.0,22.0,54.0,6831.0,6863.0,verb.communication,111,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+64,0,gave,4,8,6813,6817,63,9.0,12.0,6818.0,6821.0,22.0,54.0,6831.0,6863.0,verb.communication,111,direct_object,"The King 's son who was told that a great princess , whom nobody knew",1.0,2.0,3.0,male,0.625,tertiary
+64,2,led,60,63,6869,6872,1,64.0,67.0,6873.0,6876.0,83.0,88.0,6892.0,6897.0,verb.motion,112,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+64,2,led,60,63,6869,6872,67,64.0,67.0,6873.0,6876.0,83.0,88.0,6892.0,6897.0,verb.motion,112,direct_object,all the company,1.0,0.0,1.0,unknown,0.0,tertiary
+65,5,contemplate,126,137,7041,7052,70,138.0,184.0,7053.0,7099.0,,,,,verb.perception,113,direct_object,the unknown new - comer,1.0,0.0,1.0,unknown,0.0,tertiary
+70,2,help,43,47,7244,7248,1,48.0,60.0,7249.0,7261.0,,,,,verb.social,114,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+70,3,watching,48,56,7249,7257,1,57.0,60.0,7258.0,7261.0,,,,,verb.perception,115,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+70,4,telling,66,73,7267,7274,71,74.0,83.0,7275.0,7284.0,84.0,90.0,7285.0,7291.0,verb.communication,117,direct_object,"The King himself , old as he was's King himself , old as he was",1.0,3.0,4.0,male,1.0,tertiary
+70,4,telling,66,73,7267,7274,73,74.0,83.0,7275.0,7284.0,84.0,90.0,7285.0,7291.0,verb.communication,117,direct_object,so beautiful and lovely a creature,1.0,0.0,1.0,unknown,0.0,tertiary
+70,4,telling,66,73,7267,7274,72,74.0,83.0,7275.0,7284.0,84.0,90.0,7285.0,7291.0,verb.communication,117,direct_object,the Queen,1.0,0.0,1.0,female,1.0,tertiary
+70,7,seen,128,132,7329,7333,73,133.0,167.0,7334.0,7368.0,,,,,verb.perception,116,direct_object,so beautiful and lovely a creature,1.0,0.0,1.0,unknown,0.0,tertiary
+71,2,considering,30,41,7400,7411,1,42.0,67.0,7412.0,7437.0,,,,,verb.communication,118,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+72,0,conducted,15,24,7599,7608,1,25.0,28.0,7609.0,7612.0,29.0,55.0,7613.0,7639.0,verb.creation,119,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+72,1,took,71,75,7655,7659,1,76.0,79.0,7660.0,7663.0,84.0,101.0,7668.0,7685.0,verb.motion,121,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+73,1,admired,59,66,7745,7752,1,67.0,70.0,7753.0,7756.0,,,,,verb.cognition,123,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+74,6,gazing,104,110,7862,7868,1,111.0,117.0,7869.0,7875.0,,,,,verb.perception,126,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+75,2,showing,38,45,7915,7922,21,46.0,50.0,7923.0,7927.0,74.0,216.0,7951.0,8093.0,verb.perception,128,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+75,3,giving,74,80,7951,7957,1,81.0,85.0,7958.0,7962.0,,,,,verb.possession,130,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+75,3,giving,74,80,7951,7957,80,81.0,85.0,7958.0,7962.0,,,,,verb.possession,130,direct_object,The Prince,3.0,0.0,3.0,male,1.0,tertiary
+75,3,giving,74,80,7951,7957,21,81.0,85.0,7958.0,7962.0,,,,,verb.possession,130,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+75,5,presented,139,148,8016,8025,1,149.0,152.0,8026.0,8029.0,,,,,verb.possession,129,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+75,6,surprised,175,184,8052,8061,21,185.0,189.0,8062.0,8066.0,191.0,216.0,,,verb.emotion,132,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+75,8,know,208,212,8085,8089,1,213.0,216.0,8090.0,8093.0,,,,,verb.cognition,131,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+76,1,amusing,26,33,8121,8128,1,34.0,45.0,8129.0,8140.0,,,,,verb.emotion,133,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+76,1,amusing,26,33,8121,8128,21,34.0,45.0,8129.0,8140.0,,,,,verb.emotion,133,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+76,4,made,127,131,8222,8226,82,132.0,173.0,8227.0,8268.0,174.0,194.0,8269.0,8289.0,verb.social,135,direct_object,the company,1.0,0.0,1.0,unknown,0.0,tertiary
+77,4,thanked,71,78,8362,8369,38,79.0,82.0,8370.0,8373.0,,,,,verb.communication,138,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+77,5,said,88,92,8379,8383,1,93.0,198.0,8384.0,8489.0,,,,,verb.communication,140,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,5,said,88,92,8379,8383,29,93.0,198.0,8384.0,8489.0,,,,,verb.communication,140,direct_object,the King,8.0,0.0,8.0,male,1.0,tertiary
+77,5,said,88,92,8379,8383,30,93.0,198.0,8384.0,8489.0,,,,,verb.communication,140,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+77,7,wish,120,124,8411,8415,1,125.0,158.0,8416.0,8449.0,160.0,198.0,8451.0,8489.0,verb.emotion,139,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+77,11,desired,187,194,8478,8485,1,195.0,198.0,8486.0,8489.0,,,,,verb.emotion,141,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+78,1,telling,19,26,8510,8517,1,27.0,40.0,8518.0,8531.0,,,,,verb.communication,144,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+78,1,telling,19,26,8510,8517,38,27.0,40.0,8518.0,8531.0,,,,,verb.communication,144,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+80,0,cried,0,5,8663,8668,1,6.0,9.0,8669.0,8672.0,11.0,105.0,,,verb.communication,147,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+80,2,rubbing,19,26,8682,8689,1,27.0,35.0,8690.0,8698.0,,,,,verb.body,148,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+80,3,stretching,40,50,8703,8713,1,51.0,58.0,8714.0,8721.0,59.0,105.0,8722.0,8768.0,verb.body,150,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+82,2,said,31,35,8885,8889,1,36.0,54.0,8890.0,8908.0,,,,,verb.communication,154,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+82,2,said,31,35,8885,8889,90,36.0,54.0,8890.0,8908.0,,,,,verb.communication,154,direct_object,Cinderella's of her sisters,1.0,0.0,1.0,female,1.0,tertiary
+82,2,said,31,35,8885,8889,21,36.0,54.0,8890.0,8908.0,,,,,verb.communication,154,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+83,0,came,6,10,8956,8960,144,11.0,16.0,8961.0,8966.0,,,,,verb.change,153,direct_object,the finest princess,1.0,1.0,2.0,female,1.0,tertiary
+83,0,came,6,10,8956,8960,145,11.0,16.0,8961.0,8966.0,,,,,verb.change,153,direct_object,the most beautiful ever was seen with mortal eyes,1.0,0.0,1.0,unknown,0.0,tertiary
+84,0,showed,5,11,9043,9049,88,12.0,14.0,9050.0,9052.0,,,,,verb.perception,155,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+84,1,gave,42,46,9080,9084,88,47.0,49.0,9085.0,9087.0,,,,,verb.possession,156,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+86,0,asked,13,18,9172,9177,21,19.0,23.0,9178.0,9182.0,,,,,verb.communication,157,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+86,0,asked,13,18,9172,9177,92,19.0,23.0,9178.0,9182.0,,,,,verb.communication,157,direct_object,that princess,1.0,2.0,3.0,female,1.0,tertiary
+87,0,told,10,14,9219,9223,1,15.0,18.0,9224.0,9227.0,,,,,verb.communication,159,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+87,0,told,10,14,9219,9223,29,15.0,18.0,9224.0,9227.0,,,,,verb.communication,159,direct_object,the King,8.0,0.0,8.0,male,1.0,tertiary
+87,0,told,10,14,9219,9223,30,15.0,18.0,9224.0,9227.0,,,,,verb.communication,159,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+87,0,told,10,14,9219,9223,21,15.0,18.0,9224.0,9227.0,,,,,verb.communication,159,direct_object,the mother - in - law's sisters,7.0,14.0,21.0,female,1.0,tertiary
+87,5,give,106,110,9315,9319,1,111.0,144.0,9320.0,9353.0,,,,,verb.communication,160,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+87,6,know,128,132,9337,9341,1,133.0,144.0,9342.0,9353.0,,,,,verb.cognition,161,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+88,1,replied,29,36,9384,9391,92,39.0,79.0,9394.0,9434.0,,,,,verb.communication,163,direct_object,that princess,1.0,2.0,3.0,female,1.0,tertiary
+90,1,see,12,15,9473,9476,92,16.0,19.0,9477.0,9480.0,,,,,verb.perception,162,direct_object,that princess,1.0,2.0,3.0,female,1.0,tertiary
+92,1,lend,24,28,9510,9514,1,29.0,31.0,9515.0,9517.0,,,,,verb.possession,165,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+92,1,lend,24,28,9510,9514,2,29.0,31.0,9515.0,9517.0,,,,,verb.possession,165,direct_object,Miss Charlotte,2.0,5.0,7.0,unknown,0.0,tertiary
+94,0,cried,0,5,9591,9596,2,6.0,20.0,9597.0,9611.0,,,,,verb.communication,166,direct_object,Miss Charlotte,2.0,5.0,7.0,unknown,0.0,tertiary
+95,0,lend,2,6,9614,9618,2,7.0,17.0,9619.0,9629.0,46.0,56.0,,,verb.possession,168,direct_object,Miss Charlotte,2.0,5.0,7.0,unknown,0.0,tertiary
+95,0,lend,2,6,9614,9618,146,7.0,17.0,9619.0,9629.0,46.0,56.0,,,verb.possession,168,direct_object,a dirty Cinderwench,1.0,0.0,1.0,unknown,0.0,tertiary
+98,5,lent,59,63,9830,9834,1,64.0,67.0,9835.0,9838.0,,,,,verb.possession,170,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+100,1,ceased,44,50,10027,10033,1,51.0,91.0,10034.0,10074.0,,,,,verb.change,172,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+100,1,ceased,44,50,10027,10033,30,51.0,91.0,10034.0,10074.0,,,,,verb.change,172,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+101,2,forgot,64,70,10139,10145,1,71.0,112.0,10146.0,10187.0,,,,,verb.cognition,174,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+101,2,forgot,64,70,10139,10145,38,71.0,112.0,10146.0,10187.0,,,,,verb.cognition,174,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+101,4,recommended,94,105,10169,10180,1,106.0,112.0,10181.0,10187.0,,,,,verb.communication,173,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+104,2,overtake,35,43,10372,10380,1,44.0,47.0,10381.0,10384.0,,,,,verb.competition,180,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+105,0,left,4,8,10390,10394,1,16.0,82.0,10402.0,10468.0,,,,,verb.possession,179,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+105,0,left,4,8,10390,10394,80,16.0,82.0,10402.0,10468.0,,,,,verb.possession,179,direct_object,The Prince,3.0,0.0,3.0,male,1.0,tertiary
+106,1,having,68,74,10538,10544,1,75.0,82.0,10545.0,10552.0,,,,,verb.possession,183,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+106,2,left,83,87,10553,10557,1,88.0,91.0,10558.0,10561.0,,,,,verb.cognition,182,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+107,1,asked,35,40,10675,10680,106,42.0,80.0,10682.0,10720.0,,,,,verb.communication,185,direct_object,a princess,1.0,0.0,1.0,female,1.0,tertiary
+107,1,asked,35,40,10675,10680,104,42.0,80.0,10682.0,10720.0,,,,,verb.communication,185,direct_object,The guards at the palace gate,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+107,3,seen,58,62,10698,10702,106,63.0,80.0,10703.0,10720.0,,,,,verb.perception,184,direct_object,a princess,1.0,0.0,1.0,female,1.0,tertiary
+108,0,said,4,8,10726,10730,108,10.0,144.0,10732.0,10866.0,,,,,verb.communication,187,direct_object,a young girl,1.0,0.0,1.0,female,1.0,tertiary
+108,0,said,4,8,10726,10730,110,10.0,144.0,10732.0,10866.0,,,,,verb.communication,187,direct_object,a gentlewoman,1.0,0.0,1.0,unknown,0.0,tertiary
+108,0,said,4,8,10726,10730,104,10.0,144.0,10732.0,10866.0,,,,,verb.communication,187,direct_object,The guards at the palace gate,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+108,0,said,4,8,10726,10730,107,10.0,144.0,10732.0,10866.0,,,,,verb.communication,187,direct_object,,,,,,,
+108,0,said,4,8,10726,10730,109,10.0,144.0,10732.0,10866.0,,,,,verb.communication,187,direct_object,a poor country wench,1.0,0.0,1.0,unknown,0.0,tertiary
+108,2,seen,19,23,10741,10745,107,24.0,144.0,10746.0,10866.0,,,,,verb.perception,186,direct_object,,,,,,,
+108,2,seen,19,23,10741,10745,110,24.0,144.0,10746.0,10866.0,,,,,verb.perception,186,direct_object,a gentlewoman,1.0,0.0,1.0,unknown,0.0,tertiary
+108,2,seen,19,23,10741,10745,108,24.0,144.0,10746.0,10866.0,,,,,verb.perception,186,direct_object,a young girl,1.0,0.0,1.0,female,1.0,tertiary
+108,2,seen,19,23,10741,10745,109,24.0,144.0,10746.0,10866.0,,,,,verb.perception,186,direct_object,a poor country wench,1.0,0.0,1.0,unknown,0.0,tertiary
+109,0,returned,21,29,10889,10897,1,30.0,54.0,10898.0,10922.0,,,,,verb.motion,188,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+109,1,asked,55,60,10923,10928,112,61.0,65.0,10929.0,10933.0,,,,,verb.communication,189,direct_object,the fine lady,1.0,0.0,1.0,female,1.0,tertiary
+109,1,asked,55,60,10923,10928,97,61.0,65.0,10929.0,10933.0,,,,,verb.communication,189,direct_object,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+110,0,told,5,9,11009,11013,1,10.0,13.0,11014.0,11017.0,,,,,verb.communication,193,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+110,0,told,5,9,11009,11013,29,10.0,13.0,11014.0,11017.0,,,,,verb.communication,193,direct_object,the King,8.0,0.0,8.0,male,1.0,tertiary
+110,0,told,5,9,11009,11013,30,10.0,13.0,11014.0,11017.0,,,,,verb.communication,193,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+110,3,dropped,113,120,11117,11124,1,121.0,216.0,11125.0,11220.0,,,,,verb.motion,192,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+110,3,dropped,113,120,11117,11124,29,121.0,216.0,11125.0,11220.0,,,,,verb.motion,192,direct_object,the King,8.0,0.0,8.0,male,1.0,tertiary
+110,3,dropped,113,120,11117,11124,30,121.0,216.0,11125.0,11220.0,,,,,verb.motion,192,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+111,2,look,30,34,11251,11255,1,35.0,41.0,11256.0,11262.0,42.0,66.0,11263.0,11287.0,verb.perception,190,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+113,0,caused,37,43,11459,11465,1,44.0,115.0,11466.0,11537.0,,,,,verb.communication,194,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+113,0,caused,37,43,11459,11465,30,44.0,115.0,11466.0,11537.0,,,,,verb.communication,194,direct_object,the King 's son,7.0,6.0,13.0,male,1.0,tertiary
+113,4,marry,100,105,11522,11527,1,106.0,147.0,11528.0,11569.0,,,,,verb.social,197,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+114,1,began,22,27,11593,11598,122,28.0,108.0,11599.0,11679.0,,,,,verb.change,198,direct_object,all the Court,1.0,0.0,1.0,unknown,0.0,tertiary
+114,1,began,22,27,11593,11598,120,28.0,108.0,11599.0,11679.0,,,,,verb.change,198,direct_object,the princesses,1.0,0.0,1.0,female,1.0,tertiary
+114,1,began,22,27,11593,11598,121,28.0,108.0,11599.0,11679.0,,,,,verb.change,198,direct_object,the duchesses,1.0,0.0,1.0,unknown,0.0,tertiary
+114,2,try,31,34,11602,11605,120,35.0,37.0,11606.0,11608.0,,,,,verb.social,199,direct_object,the princesses,1.0,0.0,1.0,female,1.0,tertiary
+115,1,brought,8,15,11688,11695,97,16.0,105.0,11696.0,11785.0,,,,,verb.motion,201,direct_object,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+115,4,thrust,71,77,11751,11757,97,78.0,88.0,11758.0,11768.0,,,,,verb.motion,202,direct_object,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+116,1,knew,34,38,11851,11855,1,39.0,50.0,11856.0,11867.0,,,,,verb.cognition,203,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,2,said,52,56,11869,11873,1,57.0,64.0,11874.0,11881.0,66.0,74.0,11883.0,11891.0,verb.communication,206,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,2,said,52,56,11869,11873,97,57.0,64.0,11874.0,11881.0,66.0,74.0,11883.0,11891.0,verb.communication,206,direct_object,the two sisters,3.0,9.0,12.0,female,1.0,tertiary
+116,3,laughing,66,74,11883,11891,1,77.0,109.0,11894.0,11926.0,,,,,verb.body,207,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,4,let,77,80,11894,11897,1,81.0,109.0,11898.0,11926.0,,,,,verb.social,208,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+116,5,see,84,87,11901,11904,1,88.0,109.0,11905.0,11926.0,,,,,verb.cognition,209,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+117,2,began,38,43,11967,11972,1,44.0,57.0,11973.0,11986.0,,,,,verb.change,210,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+117,3,banter,47,53,11976,11982,1,54.0,57.0,11983.0,11986.0,,,,,verb.communication,211,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+118,3,looked,46,52,12034,12040,1,63.0,76.0,12051.0,12064.0,,,,,verb.perception,212,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+118,4,finding,83,90,12071,12078,1,91.0,108.0,12079.0,12096.0,,,,,verb.perception,213,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+118,5,said,110,114,12098,12102,1,116.0,202.0,12104.0,12190.0,,,,,verb.communication,216,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+118,5,said,110,114,12098,12102,125,116.0,202.0,12104.0,12190.0,,,,,verb.communication,216,direct_object,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+119,0,obliged,3,10,12195,12202,1,11.0,21.0,12203.0,12213.0,,,,,verb.communication,217,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+119,2,putting,40,47,12232,12239,1,48.0,59.0,12240.0,12251.0,,,,,verb.contact,218,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+119,2,putting,40,47,12232,12239,125,48.0,59.0,12240.0,12251.0,,,,,verb.contact,218,direct_object,The gentleman who was sent to try the slipper,1.0,3.0,4.0,male,1.0,tertiary
+119,3,found,76,81,12268,12273,1,82.0,150.0,12274.0,12342.0,,,,,verb.perception,220,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+119,5,fitted,110,116,12302,12308,1,117.0,120.0,12309.0,12312.0,121.0,150.0,,,verb.change,219,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+120,3,put,157,160,12501,12504,1,161.0,163.0,12505.0,12507.0,,,,,verb.contact,221,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+121,0,came,14,18,12535,12539,1,19.0,160.0,12540.0,12681.0,,,,,verb.motion,223,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+121,0,came,14,18,12535,12539,38,19.0,160.0,12540.0,12681.0,,,,,verb.motion,223,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+121,2,touched,46,53,12567,12574,1,68.0,88.0,12589.0,12609.0,,,,,verb.contact,222,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+121,3,made,90,94,12611,12615,38,95.0,160.0,12616.0,12681.0,,,,,verb.change,224,direct_object,Cinderella's godmother,13.0,26.0,39.0,female,1.0,tertiary
+122,0,found,24,29,12707,12712,1,30.0,96.0,12713.0,12779.0,,,,,verb.cognition,226,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+122,0,found,24,29,12707,12712,130,30.0,96.0,12713.0,12779.0,,,,,verb.cognition,226,direct_object,"Cinderella's two sisters's fine , beautiful lady whom they had seen at the ball",1.0,0.0,1.0,female,1.0,tertiary
+122,0,found,24,29,12707,12712,88,30.0,96.0,12713.0,12779.0,,,,,verb.cognition,226,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+123,0,threw,5,10,12786,12791,1,11.0,21.0,12792.0,12802.0,34.0,99.0,12815.0,12880.0,verb.contact,227,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+123,0,threw,5,10,12786,12791,88,11.0,21.0,12792.0,12802.0,34.0,99.0,12815.0,12880.0,verb.contact,227,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+123,1,beg,37,40,12818,12821,1,41.0,47.0,12822.0,12828.0,,,,,verb.communication,229,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+123,1,beg,37,40,12818,12821,88,41.0,47.0,12822.0,12828.0,,,,,verb.communication,229,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+123,3,made,83,87,12864,12868,1,88.0,99.0,12869.0,12880.0,,,,,verb.social,228,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+124,0,took,11,15,12893,12897,88,16.0,20.0,12898.0,12902.0,,,,,verb.motion,230,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+124,1,embraced,37,45,12919,12927,88,46.0,50.0,12928.0,12932.0,,,,,verb.body,231,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+124,3,forgave,68,75,12950,12957,88,76.0,80.0,12958.0,12962.0,81.0,99.0,12963.0,12981.0,verb.social,232,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+124,4,desired,105,112,12987,12994,1,113.0,136.0,12995.0,13018.0,,,,,verb.emotion,234,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+124,4,desired,105,112,12987,12994,88,113.0,136.0,12995.0,13018.0,,,,,verb.emotion,234,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary
+124,5,love,128,132,13010,13014,1,133.0,136.0,13015.0,13018.0,,,,,verb.emotion,235,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+125,2,dressed,39,46,13059,13066,1,47.0,57.0,13067.0,13077.0,,,,,verb.body,236,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+126,0,thought,4,11,13082,13089,1,12.0,39.0,13090.0,13117.0,,,,,verb.cognition,238,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+126,1,married,64,71,13142,13149,1,72.0,75.0,13150.0,13153.0,,,,,verb.social,240,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+127,1,gave,49,53,13204,13208,1,54.0,78.0,13209.0,13233.0,79.0,92.0,13234.0,13247.0,verb.possession,239,direct_object,Cinderella,27.0,162.0,189.0,female,1.0,primary
+127,1,gave,49,53,13204,13208,88,54.0,78.0,13209.0,13233.0,79.0,92.0,13234.0,13247.0,verb.possession,239,direct_object,Cinderella's two sisters,4.0,13.0,17.0,female,1.0,tertiary

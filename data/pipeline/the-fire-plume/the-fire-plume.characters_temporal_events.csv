@@ -1,0 +1,874 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,3,said,84,88,176,180,2,62.0,83.0,154.0,175.0,,,,,verb.communication,2,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+1,3,said,84,88,176,180,15,62.0,83.0,154.0,175.0,,,,,verb.communication,2,subject,the mother of Wassamo,2.0,2.0,4.0,female,1.0,tertiary
+1,4,wish,108,112,200,204,2,106.0,107.0,198.0,199.0,,,,,verb.emotion,3,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+1,8,see,146,149,238,241,2,113.0,116.0,205.0,208.0,,,,,verb.communication,1,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+1,10,procure,165,172,257,264,2,153.0,156.0,245.0,248.0,,,,,verb.possession,0,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+2,1,accompany,24,33,302,311,2,9.0,20.0,287.0,298.0,,,,,verb.motion,6,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+2,1,accompany,24,33,302,311,291,9.0,20.0,287.0,298.0,,,,,verb.motion,6,subject,Wassamo's cousin,1.0,0.0,1.0,unknown,0.0,tertiary
+9,0,looked,8,14,740,746,2,0.0,7.0,732.0,739.0,,,,,verb.perception,7,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+9,1,saw,58,61,790,793,2,55.0,57.0,787.0,789.0,,,,,verb.perception,8,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+10,0,said,13,17,908,912,2,1.0,7.0,896.0,902.0,,,,,verb.communication,9,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+10,0,said,13,17,908,912,3,1.0,7.0,896.0,902.0,,,,,verb.communication,9,subject,Cousin,3.0,0.0,3.0,unknown,0.0,tertiary
+14,0,said,11,15,1171,1175,2,1.0,8.0,1161.0,1168.0,,,,,verb.communication,11,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+14,1,cook,33,37,1193,1197,2,29.0,32.0,1189.0,1192.0,,,,,verb.creation,10,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+15,2,swung,66,71,1282,1287,2,49.0,65.0,1265.0,1281.0,,,,,verb.contact,12,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+17,1,sung,23,27,1464,1468,18,0.0,10.0,1441.0,1451.0,,,,,verb.creation,14,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+18,2,begin,72,77,1561,1566,18,4.0,6.0,1493.0,1495.0,,,,,verb.change,15,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+18,3,recite,81,87,1570,1576,18,4.0,6.0,1493.0,1495.0,,,,,verb.communication,16,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+18,5,return,159,165,1648,1654,18,150.0,152.0,1639.0,1641.0,,,,,verb.change,18,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+20,0,ran,37,40,1896,1899,18,26.0,36.0,1885.0,1895.0,,,,,verb.motion,19,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+20,2,murmuring,76,85,1935,1944,18,62.0,64.0,1921.0,1923.0,,,,,verb.communication,20,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+22,1,lost,30,34,2090,2094,2,0.0,19.0,2060.0,2079.0,,,,,verb.possession,21,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+23,4,lifted,101,107,2261,2267,2,98.0,100.0,2258.0,2260.0,,,,,verb.motion,24,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+24,0,spoke,3,8,2297,2302,2,0.0,2.0,2294.0,2296.0,,,,,verb.communication,25,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+24,1,received,31,39,2325,2333,2,28.0,30.0,2322.0,2324.0,,,,,verb.perception,26,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+25,1,took,44,48,2389,2393,2,0.0,2.0,2345.0,2347.0,89.0,133.0,2434.0,2478.0,verb.contact,27,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+25,2,skimmed,70,77,2415,2422,2,0.0,2.0,2345.0,2347.0,89.0,95.0,2434.0,2440.0,verb.contact,29,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+26,0,had,8,11,2488,2491,2,0.0,7.0,2480.0,2487.0,,,,,verb.possession,28,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+26,1,give,51,55,2531,2535,2,0.0,7.0,2480.0,2487.0,,,,,verb.creation,30,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+26,2,came,75,79,2555,2559,2,72.0,74.0,2552.0,2554.0,,,,,verb.motion,32,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+27,3,had,139,142,2767,2770,2,131.0,138.0,2759.0,2766.0,,,,,verb.possession,33,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+28,1,thrust,45,51,2846,2852,2,42.0,44.0,2843.0,2845.0,,,,,verb.motion,36,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+29,0,spoke,9,14,2995,3000,2,0.0,2.0,2986.0,2988.0,30.0,81.0,3016.0,3067.0,verb.communication,37,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+29,1,learn,45,50,3031,3036,2,0.0,2.0,2986.0,2988.0,,,,,verb.cognition,38,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+30,0,murmured,11,19,3080,3088,18,0.0,10.0,3069.0,3079.0,,,,,verb.communication,39,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+31,0,stepped,13,20,3121,3128,2,5.0,12.0,3113.0,3120.0,,,,,verb.motion,40,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+31,1,made,115,119,3223,3227,2,101.0,111.0,3209.0,3219.0,,,,,verb.social,41,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+32,0,heard,12,17,3241,3246,2,9.0,11.0,3238.0,3240.0,,,,,verb.perception,42,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+35,0,hear,2,6,3437,3441,2,0.0,1.0,3435.0,3436.0,,,,,verb.perception,44,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+36,1,look,18,22,3468,3472,41,15.0,17.0,3465.0,3467.0,,,,,verb.perception,47,subject,two persons at no great distance,1.0,2.0,3.0,unknown,0.0,tertiary
+37,0,made,11,15,3490,3494,18,0.0,10.0,3479.0,3489.0,,,,,verb.social,46,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+38,0,heard,14,19,3520,3525,2,6.0,13.0,3512.0,3519.0,57.0,130.0,3563.0,3636.0,verb.perception,48,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+39,2,beheld,79,85,3717,3723,2,76.0,78.0,3714.0,3716.0,,,,,verb.perception,51,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+39,3,smiling,114,121,3752,3759,2,76.0,113.0,3714.0,3751.0,,,,,verb.body,50,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+39,3,smiling,114,121,3752,3759,44,76.0,113.0,3714.0,3751.0,,,,,verb.body,50,subject,two beautiful young females,1.0,1.0,2.0,unknown,0.0,tertiary
+41,1,pushed,21,27,3861,3867,2,0.0,2.0,3840.0,3842.0,40.0,62.0,3880.0,3902.0,verb.contact,52,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+41,2,saying,40,46,3880,3886,2,0.0,2.0,3840.0,3842.0,,,,,verb.communication,53,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+44,0,received,7,15,3953,3961,2,4.0,6.0,3950.0,3952.0,,,,,verb.perception,56,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+45,0,seemed,11,17,3984,3990,2,0.0,10.0,3973.0,3983.0,,,,,verb.perception,55,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+45,0,seemed,11,17,3984,3990,33,0.0,10.0,3973.0,3983.0,,,,,verb.perception,55,subject,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+46,0,lay,8,11,4035,4038,33,5.0,7.0,4032.0,4034.0,21.0,59.0,4048.0,4086.0,verb.contact,54,subject,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+46,1,smiling,21,28,4048,4055,33,5.0,7.0,4032.0,4034.0,,,,,verb.body,57,subject,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+47,1,glided,30,36,4118,4124,2,0.0,7.0,4088.0,4095.0,,,,,verb.motion,58,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+48,0,approached,6,16,4159,4169,2,3.0,5.0,4156.0,4158.0,,,,,verb.motion,59,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+49,1,speak,29,34,4254,4259,2,13.0,15.0,4238.0,4240.0,,,,,verb.communication,61,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+49,2,fell,56,60,4281,4285,2,44.0,46.0,4269.0,4271.0,,,,,verb.motion,60,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+49,3,vanished,94,102,4319,4327,47,79.0,93.0,4304.0,4318.0,,,,,verb.motion,63,subject,the strange females,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+50,2,stood,35,40,4373,4378,47,21.0,25.0,4359.0,4363.0,,,,,verb.contact,62,subject,the strange females,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+50,3,saw,50,53,4388,4391,33,46.0,49.0,4384.0,4387.0,,,,,verb.perception,64,subject,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+52,0,opened,6,12,4506,4512,2,3.0,5.0,4503.0,4505.0,23.0,34.0,4523.0,4534.0,verb.contact,67,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+52,1,saw,43,46,4543,4546,2,40.0,42.0,4540.0,4542.0,,,,,verb.perception,69,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+53,0,observed,20,28,4588,4596,2,8.0,16.0,4576.0,4584.0,,,,,verb.perception,68,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+56,3,appear,67,73,4765,4771,2,53.0,60.0,4751.0,4758.0,,,,,verb.change,70,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+57,3,visit,56,61,4829,4834,2,32.0,34.0,4805.0,4807.0,,,,,verb.social,71,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+58,0,looked,3,9,4849,4855,2,0.0,2.0,4846.0,4848.0,,,,,verb.perception,73,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+59,0,searched,3,11,4929,4937,2,0.0,2.0,4926.0,4928.0,,,,,verb.contact,74,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+59,1,found,16,21,4942,4947,2,0.0,2.0,4926.0,4928.0,,,,,verb.possession,75,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+60,2,called,46,52,5104,5110,2,43.0,45.0,5101.0,5103.0,,,,,verb.communication,76,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+64,0,called,3,9,5185,5191,2,0.0,2.0,5182.0,5184.0,,,,,verb.communication,77,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+70,0,started,3,10,5337,5344,2,0.0,2.0,5334.0,5336.0,,,,,verb.motion,79,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+70,1,crying,38,44,5372,5378,2,0.0,2.0,5334.0,5336.0,,,,,verb.body,80,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+70,2,ran,51,54,5385,5388,2,48.0,50.0,5382.0,5384.0,,,,,verb.motion,81,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+72,1,sped,41,45,5465,5469,2,38.0,40.0,5462.0,5464.0,,,,,verb.motion,82,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+73,0,found,21,26,5546,5551,2,18.0,20.0,5543.0,5545.0,,,,,verb.cognition,83,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+73,3,burst,62,67,5587,5592,2,59.0,61.0,5584.0,5586.0,,,,,verb.change,85,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+73,4,sobbed,84,90,5609,5615,2,59.0,61.0,5584.0,5586.0,,,,,verb.body,86,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+74,0,returned,3,11,5626,5634,2,0.0,2.0,5623.0,5625.0,,,,,verb.motion,87,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+75,0,mused,3,8,5665,5670,2,0.0,2.0,5662.0,5664.0,,,,,verb.cognition,89,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+76,3,playing,18,25,5747,5754,2,1.0,3.0,5730.0,5732.0,,,,,verb.social,88,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+76,4,thought,42,49,5771,5778,2,1.0,36.0,5730.0,5765.0,,,,,verb.cognition,90,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+77,3,returned,70,78,5849,5857,2,62.0,69.0,5841.0,5848.0,,,,,verb.possession,92,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+78,0,cherished,11,20,5874,5883,18,0.0,10.0,5863.0,5873.0,,,,,verb.emotion,91,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+78,2,found,87,92,5950,5955,18,84.0,86.0,5947.0,5949.0,,,,,verb.perception,93,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+79,1,answer,13,19,6004,6010,18,11.0,12.0,6002.0,6003.0,,,,,verb.communication,95,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+81,0,said,15,19,6075,6079,18,12.0,14.0,6072.0,6074.0,,,,,verb.communication,96,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+81,5,receive,132,139,6192,6199,11,127.0,131.0,6187.0,6191.0,,,,,verb.possession,97,subject,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+83,1,say,11,14,6263,6266,11,1.0,5.0,6253.0,6257.0,,,,,verb.communication,99,subject,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+83,3,slain,27,32,6279,6284,18,20.0,21.0,6272.0,6273.0,,,,,verb.contact,98,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+83,5,require,52,59,6304,6311,11,42.0,46.0,6294.0,6298.0,,,,,verb.cognition,100,subject,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+86,3,restore,24,31,6391,6398,18,0.0,2.0,6367.0,6369.0,,,,,verb.change,102,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+86,5,sleep,72,77,6439,6444,18,59.0,61.0,6426.0,6428.0,,,,,verb.body,101,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+87,1,running,74,81,6519,6526,18,46.0,48.0,6491.0,6493.0,,,,,verb.motion,103,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+88,1,approaching,16,27,6556,6567,18,12.0,15.0,6552.0,6555.0,,,,,verb.motion,105,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+89,1,come,12,16,6646,6650,18,5.0,7.0,6639.0,6641.0,,,,,verb.motion,104,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+89,2,told,38,42,6672,6676,18,35.0,37.0,6669.0,6671.0,,,,,verb.communication,108,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+89,4,disappeared,64,75,6698,6709,2,52.0,59.0,6686.0,6693.0,,,,,verb.change,107,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+90,0,stated,3,9,6714,6720,18,0.0,2.0,6711.0,6713.0,,,,,verb.communication,109,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+92,0,declared,3,11,6775,6783,18,0.0,2.0,6772.0,6774.0,,,,,verb.communication,111,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+92,1,knew,24,28,6796,6800,18,12.0,15.0,6784.0,6787.0,,,,,verb.cognition,110,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+93,0,said,5,9,6807,6811,63,0.0,4.0,6802.0,6806.0,,,,,verb.communication,113,subject,,,,,,,
+93,2,killed,19,25,6821,6827,2,12.0,14.0,6814.0,6816.0,30.0,41.0,6832.0,6843.0,verb.contact,112,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+94,0,said,7,11,6853,6857,64,0.0,6.0,6846.0,6852.0,,,,,verb.communication,115,subject,Others,1.0,0.0,1.0,unknown,0.0,tertiary
+98,0,visited,41,48,6999,7006,66,25.0,40.0,6983.0,6998.0,,,,,verb.motion,114,subject,many of the men,1.0,0.0,1.0,male,1.0,tertiary
+98,0,visited,41,48,6999,7006,67,25.0,40.0,6983.0,6998.0,,,,,verb.motion,114,subject,the men,1.0,0.0,1.0,male,1.0,tertiary
+102,2,stopped,73,80,7245,7252,2,46.0,72.0,7218.0,7244.0,94.0,142.0,7266.0,7314.0,verb.motion,117,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+102,4,gone,107,111,7279,7283,2,100.0,102.0,7272.0,7274.0,,,,,verb.motion,116,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+104,0,looked,10,16,7458,7464,72,0.0,4.0,7448.0,7452.0,,,,,verb.perception,119,subject,None,1.0,0.0,1.0,unknown,0.0,tertiary
+104,1,see,20,23,7468,7471,72,0.0,4.0,7448.0,7452.0,28.0,32.0,7476.0,7480.0,verb.perception,122,subject,None,1.0,0.0,1.0,unknown,0.0,tertiary
+105,0,hoped,29,34,7510,7515,73,1.0,17.0,7482.0,7498.0,,,,,verb.emotion,121,subject,the parents,2.0,0.0,2.0,unknown,0.0,tertiary
+105,1,awaited,39,46,7520,7527,73,1.0,17.0,7482.0,7498.0,,,,,verb.cognition,120,subject,the parents,2.0,0.0,2.0,unknown,0.0,tertiary
+107,0,assembled,13,22,7637,7646,74,1.0,12.0,7625.0,7636.0,,,,,verb.social,123,subject,the Indians,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+110,1,changed,25,32,7835,7842,76,0.0,20.0,7810.0,7830.0,,,,,verb.change,125,subject,the sad cousin of Wassamo,1.0,6.0,7.0,male,1.0,tertiary
+110,2,turned,63,69,7873,7879,76,60.0,62.0,7870.0,7872.0,,,,,verb.motion,128,subject,the sad cousin of Wassamo,1.0,6.0,7.0,male,1.0,tertiary
+111,1,watching,60,68,8015,8023,2,0.0,22.0,7955.0,7977.0,,,,,verb.perception,127,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+111,1,watching,60,68,8015,8023,78,0.0,22.0,7955.0,7977.0,,,,,verb.perception,127,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+111,2,demanded,89,97,8044,8052,2,0.0,22.0,7955.0,7977.0,,,,,verb.communication,129,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+111,2,demanded,89,97,8044,8052,78,0.0,22.0,7955.0,7977.0,,,,,verb.communication,129,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+113,0,decided,37,44,8178,8185,78,32.0,36.0,8173.0,8177.0,,,,,verb.cognition,131,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+113,1,give,48,52,8189,8193,78,32.0,36.0,8173.0,8177.0,,,,,verb.communication,132,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+114,0,said,5,9,8236,8240,78,0.0,4.0,8231.0,8235.0,,,,,verb.communication,134,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+116,1,bound,31,36,8386,8391,78,26.0,30.0,8381.0,8385.0,41.0,91.0,8396.0,8446.0,verb.contact,136,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+117,0,said,3,7,8451,8455,80,0.0,2.0,8448.0,8450.0,,,,,verb.communication,139,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+117,2,die,34,37,8482,8485,80,13.0,15.0,8461.0,8463.0,,,,,verb.change,138,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+118,1,laid,45,49,8531,8535,78,24.0,39.0,8510.0,8525.0,,,,,verb.contact,137,subject,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+119,2,wandered,54,62,8605,8613,80,51.0,53.0,8602.0,8604.0,,,,,verb.motion,140,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+120,0,looked,3,9,8652,8658,80,0.0,2.0,8649.0,8651.0,,,,,verb.perception,142,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+120,6,turn,211,215,8860,8864,80,196.0,198.0,8845.0,8847.0,226.0,246.0,8875.0,8895.0,verb.motion,145,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+121,1,say,25,28,8922,8925,80,0.0,19.0,8897.0,8916.0,,,,,verb.communication,147,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+121,3,take,52,56,8949,8953,80,50.0,51.0,8947.0,8948.0,,,,,verb.social,146,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+123,1,give,7,11,8978,8982,80,0.0,1.0,8971.0,8972.0,26.0,47.0,8997.0,9018.0,verb.possession,149,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+124,0,walked,3,9,9024,9030,80,0.0,2.0,9021.0,9023.0,,,,,verb.motion,148,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+124,1,found,38,43,9059,9064,80,35.0,37.0,9056.0,9058.0,,,,,verb.perception,150,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+124,2,turn,56,60,9077,9081,80,35.0,37.0,9056.0,9058.0,,,,,verb.motion,152,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+127,0,trode,33,38,9225,9230,80,30.0,32.0,9222.0,9224.0,,,,,verb.motion,154,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+129,1,saying,8,14,9337,9343,80,0.0,2.0,9329.0,9331.0,,,,,verb.communication,157,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+130,0,fell,24,28,9380,9384,2,16.0,23.0,9372.0,9379.0,,,,,verb.contact,156,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+130,1,lost,82,86,9438,9442,80,79.0,81.0,9435.0,9437.0,112.0,147.0,9468.0,9503.0,verb.possession,158,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+130,2,wakened,121,128,9477,9484,80,118.0,120.0,9474.0,9476.0,,,,,verb.body,159,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+131,0,heard,3,8,9508,9513,80,0.0,2.0,9505.0,9507.0,,,,,verb.perception,161,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+131,1,conversing,17,27,9522,9532,90,9.0,16.0,9514.0,9521.0,,,,,verb.contact,160,subject,persons,1.0,0.0,1.0,unknown,0.0,tertiary
+132,0,spoke,4,9,9538,9543,91,0.0,3.0,9534.0,9537.0,,,,,verb.communication,162,subject,,,,,,,
+132,1,saying,32,38,9566,9572,91,0.0,3.0,9534.0,9537.0,,,,,verb.communication,164,subject,,,,,,,
+132,3,rove,85,89,9619,9623,89,81.0,84.0,9615.0,9618.0,96.0,127.0,9630.0,9661.0,verb.motion,163,subject,the two young women in the wood,1.0,4.0,5.0,female,1.0,tertiary
+133,2,brought,25,32,9688,9695,89,0.0,15.0,9663.0,9678.0,,,,,verb.contact,165,subject,the two young women in the wood,1.0,4.0,5.0,female,1.0,tertiary
+133,5,lie,76,79,9739,9742,313,72.0,75.0,9735.0,9738.0,,,,,verb.contact,170,subject,the two young women in the wood's person you have brought on that couch of yours,1.0,1.0,2.0,female,1.0,tertiary
+134,0,felt,8,12,9769,9773,2,0.0,7.0,9761.0,9768.0,,,,,verb.perception,169,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+134,1,moved,21,26,9782,9787,80,13.0,20.0,9774.0,9781.0,,,,,verb.motion,168,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+134,2,knew,31,35,9792,9796,80,28.0,30.0,9789.0,9791.0,,,,,verb.cognition,171,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+134,3,placed,49,55,9810,9816,2,0.0,7.0,9761.0,9768.0,,,,,verb.contact,172,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+135,4,find,105,109,9936,9940,80,85.0,87.0,9916.0,9918.0,,,,,verb.perception,175,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+135,6,lying,122,127,9953,9958,80,115.0,117.0,9946.0,9948.0,161.0,200.0,9992.0,10031.0,verb.contact,174,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+136,0,spoke,4,9,10037,10042,91,0.0,3.0,10033.0,10036.0,,,,,verb.communication,176,subject,,,,,,,
+136,1,said,21,25,10054,10058,91,0.0,3.0,10033.0,10036.0,,,,,verb.communication,177,subject,,,,,,,
+137,0,obeyed,3,9,10132,10138,80,0.0,2.0,10129.0,10131.0,,,,,verb.communication,180,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+139,1,see,23,26,10264,10267,80,14.0,16.0,10255.0,10257.0,,,,,verb.perception,182,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+140,2,spoke,60,65,10456,10461,98,0.0,58.0,10396.0,10454.0,,,,,verb.communication,184,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+140,2,spoke,60,65,10456,10461,96,0.0,58.0,10396.0,10454.0,,,,,verb.communication,184,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them",1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+140,2,spoke,60,65,10456,10461,80,0.0,58.0,10396.0,10454.0,,,,,verb.communication,184,subject,the young man,1.0,47.0,48.0,male,1.0,tertiary
+140,2,spoke,60,65,10456,10461,99,0.0,58.0,10396.0,10454.0,,,,,verb.communication,184,subject,the Old Spirit - man,1.0,0.0,1.0,male,1.0,tertiary
+141,0,said,10,14,10484,10488,98,1.0,7.0,10475.0,10481.0,,,,,verb.communication,187,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+141,0,said,10,14,10484,10488,289,1.0,7.0,10475.0,10481.0,,,,,verb.communication,187,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+141,3,brought,56,63,10530,10537,316,32.0,51.0,10506.0,10525.0,68.0,74.0,10542.0,10548.0,verb.contact,185,subject,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+142,0,saw,5,8,10555,10558,316,0.0,4.0,10550.0,10554.0,13.0,34.0,10563.0,10584.0,verb.perception,188,subject,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+143,0,attempted,9,18,10595,10604,289,5.0,8.0,10591.0,10594.0,,,,,verb.social,189,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+143,1,approach,22,30,10608,10616,289,5.0,8.0,10591.0,10594.0,,,,,verb.motion,190,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+143,2,fell,40,44,10626,10630,289,36.0,39.0,10622.0,10625.0,,,,,verb.contact,191,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+143,3,transported,84,95,10670,10681,316,79.0,83.0,10665.0,10669.0,,,,,verb.motion,192,subject,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+149,0,pile,2,6,10852,10856,98,0.0,1.0,10850.0,10851.0,,,,,verb.contact,193,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+149,1,blow,20,24,10870,10874,98,0.0,1.0,10850.0,10851.0,,,,,verb.contact,195,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+149,2,do,41,43,10891,10893,98,0.0,1.0,10850.0,10851.0,,,,,verb.social,196,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+150,2,love,55,59,10976,10980,98,53.0,54.0,10974.0,10975.0,,,,,verb.emotion,198,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+150,4,employed,66,74,10987,10995,98,53.0,54.0,10974.0,10975.0,,,,,verb.social,197,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+151,1,wished,13,19,11010,11016,98,0.0,1.0,10997.0,10998.0,,,,,verb.emotion,199,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+151,2,get,23,26,11020,11023,98,0.0,1.0,10997.0,10998.0,,,,,verb.change,200,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+151,3,marry,47,52,11044,11049,323,27.0,43.0,11024.0,11040.0,,,,,verb.social,201,subject,Wassamo's son's race,1.0,0.0,1.0,unknown,0.0,tertiary
+151,3,marry,47,52,11044,11049,289,27.0,43.0,11024.0,11040.0,,,,,verb.social,201,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,98,40.0,41.0,11100.0,11101.0,,,,,verb.possession,203,subject,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+153,0,dropped,8,15,11242,11249,2,0.0,7.0,11234.0,11241.0,,,,,verb.motion,204,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+153,1,made,29,33,11263,11267,2,0.0,7.0,11234.0,11241.0,,,,,verb.social,206,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+154,1,behold,27,33,11306,11312,2,17.0,19.0,11296.0,11298.0,46.0,53.0,11325.0,11332.0,verb.perception,205,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+154,2,made,55,59,11334,11338,2,0.0,53.0,11279.0,11332.0,,,,,verb.change,207,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+154,2,made,55,59,11334,11338,100,0.0,53.0,11279.0,11332.0,,,,,verb.change,207,subject,Wassamo's kindred,1.0,0.0,1.0,unknown,0.0,tertiary
+155,1,continued,34,43,11382,11391,101,19.0,33.0,11367.0,11381.0,,,,,verb.communication,208,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+155,4,supplied,69,77,11417,11425,289,46.0,56.0,11394.0,11404.0,,,,,verb.possession,209,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+156,2,stray,32,37,11458,11463,289,5.0,8.0,11431.0,11434.0,,,,,verb.motion,211,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+158,2,refused,34,41,11587,11594,6,27.0,28.0,11580.0,11581.0,,,,,verb.possession,210,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+159,0,learns,13,19,11636,11642,101,10.0,12.0,11633.0,11635.0,,,,,verb.cognition,212,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+159,3,seek,64,68,11687,11691,101,56.0,58.0,11679.0,11681.0,,,,,verb.contact,213,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+159,4,harm,72,76,11695,11699,101,56.0,58.0,11679.0,11681.0,,,,,verb.social,214,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+160,2,pointing,45,53,11750,11758,6,29.0,43.0,11734.0,11748.0,,,,,verb.communication,215,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+163,0,sat,48,51,11855,11858,2,0.0,47.0,11807.0,11854.0,,,,,verb.contact,218,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+163,0,sat,48,51,11855,11858,104,0.0,47.0,11807.0,11854.0,,,,,verb.contact,218,subject,the Old Spirit 's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+163,0,sat,48,51,11855,11858,101,0.0,47.0,11807.0,11854.0,,,,,verb.contact,218,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+164,3,strewn,173,179,12090,12096,101,108.0,110.0,12025.0,12027.0,191.0,215.0,12108.0,12132.0,verb.contact,217,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+164,4,brought,221,228,12138,12145,101,108.0,110.0,12025.0,12027.0,,,,,verb.motion,220,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+164,5,piled,243,248,12160,12165,101,108.0,110.0,12025.0,12027.0,,,,,verb.contact,221,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+165,1,said,87,91,12294,12298,101,84.0,86.0,12291.0,12293.0,,,,,verb.communication,222,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+167,1,return,10,16,12400,12406,337,0.0,3.0,12390.0,12393.0,,,,,verb.motion,223,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+167,2,procure,36,43,12426,12433,337,0.0,3.0,12390.0,12393.0,,,,,verb.possession,225,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+168,2,offer,52,57,12499,12504,340,18.0,51.0,12465.0,12498.0,,,,,verb.possession,224,subject,the few who pass these sand - hills,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+169,0,added,13,18,12624,12629,101,0.0,7.0,12611.0,12618.0,,,,,verb.communication,228,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+169,1,putting,20,27,12631,12638,101,10.0,12.0,12621.0,12623.0,,,,,verb.contact,227,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+169,4,offered,145,152,12756,12763,113,81.0,106.0,12692.0,12717.0,,,,,verb.possession,230,subject,some one passing,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+172,10,supplied,272,280,13382,13390,7,251.0,266.0,13361.0,13376.0,,,,,verb.consumption,231,subject,the Sand - Spirits,2.0,8.0,10.0,group/nonbinary,1.0,tertiary
+173,2,said,86,90,13478,13482,6,66.0,85.0,13458.0,13477.0,,,,,verb.communication,232,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+173,6,see,155,158,13547,13550,2,141.0,145.0,13533.0,13537.0,,,,,verb.perception,234,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+174,3,known,48,53,13604,13609,2,33.0,36.0,13589.0,13592.0,,,,,verb.cognition,233,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+176,0,call,18,22,13710,13714,2,9.0,13.0,13701.0,13705.0,,,,,verb.communication,235,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+177,1,see,14,17,13751,13754,2,0.0,3.0,13737.0,13740.0,,,,,verb.perception,236,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+180,0,have,2,6,13855,13859,6,0.0,1.0,13853.0,13854.0,,,,,verb.possession,238,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+180,2,has,81,84,13934,13937,345,78.0,80.0,13931.0,13933.0,,,,,verb.possession,237,subject,that knavish Island Spirit,1.0,3.0,4.0,male,1.0,tertiary
+180,4,waits,165,170,14018,14023,345,157.0,159.0,14010.0,14012.0,,,,,verb.cognition,240,subject,that knavish Island Spirit,1.0,3.0,4.0,male,1.0,tertiary
+180,5,catch,190,195,14043,14048,345,157.0,159.0,14010.0,14012.0,,,,,verb.contact,241,subject,that knavish Island Spirit,1.0,3.0,4.0,male,1.0,tertiary
+180,6,do,211,213,14064,14066,345,157.0,159.0,14010.0,14012.0,,,,,verb.creation,242,subject,that knavish Island Spirit,1.0,3.0,4.0,male,1.0,tertiary
+184,3,utter,60,65,14309,14314,121,34.0,53.0,14283.0,14302.0,,,,,verb.communication,244,subject,the old Sand - Spirit,5.0,1.0,6.0,male,1.0,tertiary
+184,6,vanished,186,194,14435,14443,124,133.0,184.0,14382.0,14433.0,,,,,verb.change,245,subject,the Old Spirit's family,2.0,0.0,2.0,unknown,0.0,tertiary
+184,6,vanished,186,194,14435,14443,123,133.0,184.0,14382.0,14433.0,,,,,verb.change,245,subject,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+184,6,vanished,186,194,14435,14443,101,133.0,184.0,14382.0,14433.0,,,,,verb.change,245,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+185,2,reappeared,39,49,14497,14507,123,30.0,38.0,14488.0,14496.0,,,,,verb.change,246,subject,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+187,1,said,21,25,14609,14613,2,1.0,18.0,14589.0,14606.0,43.0,79.0,14631.0,14667.0,verb.communication,249,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+187,3,disappear,53,62,14641,14650,123,50.0,52.0,14638.0,14640.0,,,,,verb.change,247,subject,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+189,2,escape,32,38,14832,14838,123,25.0,27.0,14825.0,14827.0,,,,,verb.communication,251,subject,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+189,5,share,82,87,14882,14887,101,63.0,66.0,14863.0,14866.0,,,,,verb.possession,252,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+191,1,observed,51,59,15002,15010,2,43.0,50.0,14994.0,15001.0,,,,,verb.perception,254,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+191,2,made,83,87,15034,15038,2,65.0,82.0,15016.0,15033.0,131.0,207.0,15082.0,15158.0,verb.cognition,253,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+191,2,made,83,87,15034,15038,126,65.0,82.0,15016.0,15033.0,131.0,207.0,15082.0,15158.0,verb.cognition,253,subject,Wassamo's father - in - law,2.0,0.0,2.0,male,1.0,tertiary
+191,3,conceal,114,121,15065,15072,2,65.0,82.0,15016.0,15033.0,,,,,verb.perception,255,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+191,3,conceal,114,121,15065,15072,126,65.0,82.0,15016.0,15033.0,,,,,verb.perception,255,subject,Wassamo's father - in - law,2.0,0.0,2.0,male,1.0,tertiary
+194,0,yielded,16,23,15330,15337,6,13.0,15.0,15327.0,15329.0,,,,,verb.communication,256,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+194,3,tossed,93,99,15407,15413,6,87.0,89.0,15401.0,15403.0,,,,,verb.contact,257,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+194,4,vexed,104,109,15418,15423,6,87.0,89.0,15401.0,15403.0,,,,,verb.contact,258,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+194,5,scattered,130,139,15444,15453,6,87.0,89.0,15401.0,15403.0,,,,,verb.contact,259,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+194,7,whirled,161,168,15475,15482,6,87.0,89.0,15401.0,15403.0,174.0,210.0,15488.0,15524.0,verb.motion,260,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+195,1,enjoying,25,33,15637,15645,132,6.0,19.0,15618.0,15631.0,,,,,verb.emotion,261,subject,the old Sand - Spirit's relations,1.0,0.0,1.0,unknown,0.0,tertiary
+195,1,enjoying,25,33,15637,15645,6,6.0,19.0,15618.0,15631.0,,,,,verb.emotion,261,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+195,2,amused,59,65,15671,15677,2,51.0,58.0,15663.0,15670.0,74.0,90.0,15686.0,15702.0,verb.emotion,262,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+196,3,found,74,79,15778,15783,6,64.0,66.0,15768.0,15770.0,,,,,verb.possession,265,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+196,4,desired,143,150,15847,15854,6,108.0,119.0,15812.0,15823.0,,,,,verb.emotion,264,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+197,3,made,128,132,15984,15988,133,123.0,127.0,15979.0,15983.0,,,,,verb.social,266,subject,the travelers who passed by the window at the side of the lodge where they made their requests for comfortable weather and an easy journey,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+205,1,arose,86,91,16423,16428,137,69.0,85.0,16406.0,16422.0,,,,,verb.motion,270,subject,the whole family,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+206,0,seemed,27,33,16554,16560,6,0.0,26.0,16527.0,16553.0,,,,,verb.perception,272,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+206,2,done,42,46,16569,16573,6,0.0,26.0,16527.0,16553.0,,,,,verb.social,271,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+207,2,said,122,126,16736,16740,6,119.0,121.0,16733.0,16735.0,,,,,verb.communication,274,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+207,7,rewarded,237,245,16851,16859,337,224.0,227.0,16838.0,16841.0,,,,,verb.social,275,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+208,1,start,22,27,16883,16888,337,14.0,17.0,16875.0,16878.0,43.0,66.0,16904.0,16927.0,verb.change,276,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+208,2,visit,46,51,16907,16912,337,14.0,17.0,16875.0,16878.0,,,,,verb.social,277,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+209,3,return,65,71,16994,17000,337,56.0,59.0,16985.0,16988.0,,,,,verb.motion,279,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+210,0,get,9,12,17011,17014,337,5.0,8.0,17007.0,17010.0,,,,,verb.motion,278,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+212,2,disappears,41,51,17203,17213,336,37.0,40.0,17199.0,17202.0,,,,,verb.motion,282,subject,the old Sand - Spirit's wife,4.0,4.0,8.0,female,1.0,tertiary
+212,3,hear,65,69,17227,17231,337,61.0,64.0,17223.0,17226.0,,,,,verb.perception,281,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+214,1,prosper,9,16,17353,17360,337,0.0,3.0,17344.0,17347.0,,,,,verb.change,286,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+215,0,pass,22,26,17432,17436,337,18.0,21.0,17428.0,17431.0,,,,,verb.motion,285,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+217,1,get,42,45,17549,17552,337,38.0,41.0,17545.0,17548.0,,,,,verb.motion,287,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+218,0,promised,8,16,17619,17627,2,0.0,7.0,17611.0,17618.0,,,,,verb.communication,290,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+219,1,leading,45,52,17766,17773,2,36.0,44.0,17757.0,17765.0,62.0,96.0,17783.0,17817.0,verb.motion,291,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+219,1,leading,45,52,17766,17773,139,36.0,44.0,17757.0,17765.0,62.0,96.0,17783.0,17817.0,verb.motion,291,subject,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+220,0,said,41,45,17860,17864,139,37.0,40.0,17856.0,17859.0,,,,,verb.communication,293,subject,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+222,3,set,151,154,18113,18116,2,139.0,146.0,18101.0,18108.0,164.0,231.0,18126.0,18193.0,verb.contact,292,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+223,0,left,7,11,18202,18206,2,0.0,2.0,18195.0,18197.0,54.0,96.0,18249.0,18291.0,verb.cognition,295,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+223,1,sheltered,21,30,18216,18225,2,12.0,20.0,18207.0,18215.0,,,,,verb.contact,294,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+223,1,sheltered,21,30,18216,18225,139,12.0,20.0,18207.0,18215.0,,,,,verb.contact,294,subject,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+223,2,advanced,63,71,18258,18266,2,60.0,62.0,18255.0,18257.0,,,,,verb.motion,297,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+224,1,walked,76,82,18369,18375,2,73.0,75.0,18366.0,18368.0,,,,,verb.motion,296,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+224,3,turned,138,144,18431,18437,2,135.0,137.0,18428.0,18430.0,,,,,verb.motion,298,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+225,0,rushed,39,45,18514,18520,18,28.0,38.0,18503.0,18513.0,,,,,verb.motion,299,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+228,0,cried,3,8,18553,18558,18,0.0,2.0,18550.0,18552.0,,,,,verb.communication,301,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+229,1,come,16,20,18595,18599,5,12.0,15.0,18591.0,18594.0,,,,,verb.motion,300,subject,Netawis,4.0,2.0,6.0,unknown,0.0,tertiary
+232,0,seemed,3,9,18776,18782,18,0.0,2.0,18773.0,18775.0,,,,,verb.perception,304,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+232,1,sped,49,53,18822,18826,18,46.0,48.0,18819.0,18821.0,,,,,verb.motion,303,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+233,0,entered,3,10,18839,18846,18,0.0,2.0,18836.0,18838.0,,,,,verb.motion,306,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+234,1,said,11,15,18925,18929,18,1.0,8.0,18915.0,18922.0,,,,,verb.communication,311,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+235,1,seen,8,12,18950,18954,18,1.0,2.0,18943.0,18944.0,,,,,verb.perception,310,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+235,2,accuse,26,32,18968,18974,15,22.0,25.0,18964.0,18967.0,,,,,verb.communication,309,subject,the mother of Wassamo,2.0,2.0,4.0,female,1.0,tertiary
+237,1,uttered,16,23,19050,19057,18,0.0,2.0,19034.0,19036.0,36.0,82.0,19070.0,19116.0,verb.communication,308,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+238,1,strained,16,24,19134,19142,165,0.0,3.0,19118.0,19121.0,36.0,93.0,19154.0,19211.0,verb.motion,312,subject,,,,,,,
+238,2,catch,39,44,19157,19162,165,0.0,3.0,19118.0,19121.0,,,,,verb.perception,314,subject,,,,,,,
+238,4,thought,81,88,19199,19206,165,72.0,76.0,19190.0,19194.0,,,,,verb.cognition,313,subject,,,,,,,
+239,1,fell,45,49,19258,19262,165,31.0,35.0,19244.0,19248.0,59.0,123.0,19272.0,19336.0,verb.motion,315,subject,,,,,,,
+240,0,entered,3,10,19341,19348,2,0.0,2.0,19338.0,19340.0,,,,,verb.motion,316,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+241,0,saw,5,8,19380,19383,165,0.0,4.0,19375.0,19379.0,,,,,verb.cognition,318,subject,,,,,,,
+241,3,known,69,74,19444,19449,165,55.0,59.0,19430.0,19434.0,,,,,verb.cognition,317,subject,,,,,,,
+243,0,related,3,10,19569,19576,2,0.0,2.0,19566.0,19568.0,,,,,verb.communication,320,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+243,3,leaving,63,70,19629,19636,2,59.0,62.0,19625.0,19628.0,97.0,105.0,19663.0,19671.0,verb.motion,321,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+244,0,told,3,7,19694,19698,2,0.0,2.0,19691.0,19693.0,,,,,verb.communication,322,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+245,0,added,3,8,19773,19778,2,0.0,2.0,19770.0,19772.0,24.0,46.0,19794.0,19816.0,verb.communication,324,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+245,4,left,85,89,19855,19859,2,78.0,80.0,19848.0,19850.0,99.0,135.0,19869.0,19905.0,verb.cognition,323,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+247,0,found,11,16,19960,19965,165,1.0,5.0,19950.0,19954.0,21.0,32.0,19970.0,19981.0,verb.possession,325,subject,,,,,,,
+247,1,conducted,67,76,20016,20025,178,38.0,66.0,19987.0,20015.0,81.0,123.0,20030.0,20072.0,verb.social,326,subject,all the women in the village,1.0,0.0,1.0,female,1.0,tertiary
+248,1,astonished,23,33,20097,20107,182,0.0,17.0,20074.0,20091.0,,,,,verb.emotion,327,subject,the Indian people,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+248,3,talk,116,120,20190,20194,139,100.0,103.0,20174.0,20177.0,131.0,152.0,20205.0,20226.0,verb.communication,328,subject,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+250,1,make,22,26,20327,20331,165,0.0,3.0,20305.0,20308.0,,,,,verb.social,331,subject,,,,,,,
+251,1,heard,17,22,20400,20405,165,8.0,12.0,20391.0,20395.0,,,,,verb.cognition,330,subject,,,,,,,
+252,0,passed,39,45,20599,20605,2,0.0,19.0,20560.0,20579.0,,,,,verb.motion,329,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+253,1,sang,43,47,20732,20736,2,0.0,21.0,20689.0,20710.0,86.0,116.0,20775.0,20805.0,verb.creation,332,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+253,1,sang,43,47,20732,20736,192,0.0,21.0,20689.0,20710.0,86.0,116.0,20775.0,20805.0,verb.creation,332,subject,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+254,1,watched,35,42,20841,20848,192,5.0,7.0,20811.0,20813.0,47.0,67.0,20853.0,20873.0,verb.perception,333,subject,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+255,0,made,3,7,20878,20882,192,0.0,2.0,20875.0,20877.0,,,,,verb.change,334,subject,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+255,1,ask,22,25,20897,20900,192,0.0,2.0,20875.0,20877.0,,,,,verb.communication,336,subject,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+255,2,came,59,63,20934,20938,192,56.0,58.0,20931.0,20933.0,,,,,verb.motion,335,subject,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+256,0,replied,26,33,20970,20977,192,15.0,25.0,20959.0,20969.0,,,,,verb.communication,338,subject,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+256,0,replied,26,33,20970,20977,33,15.0,25.0,20959.0,20969.0,,,,,verb.communication,338,subject,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+257,1,foreboded,51,60,21076,21085,121,27.0,46.0,21052.0,21071.0,,,,,verb.emotion,337,subject,the old Sand - Spirit,5.0,1.0,6.0,male,1.0,tertiary
+257,2,disappeared,82,93,21107,21118,2,62.0,81.0,21087.0,21106.0,,,,,verb.change,339,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+257,2,disappeared,82,93,21107,21118,196,62.0,81.0,21087.0,21106.0,,,,,verb.change,339,subject,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+258,1,prepared,33,41,21266,21274,2,25.0,32.0,21258.0,21265.0,,,,,verb.change,340,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+258,2,withdrew,84,92,21317,21325,196,50.0,69.0,21283.0,21302.0,,,,,verb.motion,341,subject,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+259,0,gave,8,12,21353,21357,2,5.0,7.0,21350.0,21352.0,,,,,verb.communication,342,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+259,2,disturb,54,61,21399,21406,300,40.0,44.0,21385.0,21389.0,67.0,128.0,21412.0,21473.0,verb.emotion,343,subject,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+260,1,said,23,27,21498,21502,196,19.0,22.0,21494.0,21497.0,,,,,verb.communication,344,subject,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+262,2,wakened,66,73,21714,21721,2,46.0,65.0,21694.0,21713.0,,,,,verb.body,345,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+262,2,wakened,66,73,21714,21721,196,46.0,65.0,21694.0,21713.0,,,,,verb.body,345,subject,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+263,0,helped,4,10,21773,21779,196,0.0,3.0,21769.0,21772.0,,,,,verb.social,346,subject,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+266,0,brought,13,20,22024,22031,205,8.0,12.0,22019.0,22023.0,,,,,verb.motion,347,subject,each,2.0,3.0,5.0,male,1.0,tertiary
+266,1,asked,60,65,22071,22076,205,57.0,59.0,22068.0,22070.0,,,,,verb.communication,348,subject,each,2.0,3.0,5.0,male,1.0,tertiary
+268,0,replied,8,15,22327,22334,2,0.0,7.0,22319.0,22326.0,,,,,verb.communication,349,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+268,2,mention,30,37,22349,22356,2,21.0,23.0,22340.0,22342.0,,,,,verb.communication,352,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+270,1,read,32,36,22679,22683,121,0.0,25.0,22647.0,22672.0,,,,,verb.cognition,353,subject,the old Sand - Spirit,5.0,1.0,6.0,male,1.0,tertiary
+270,2,do,57,59,22704,22706,121,0.0,25.0,22647.0,22672.0,,,,,verb.social,354,subject,the old Sand - Spirit,5.0,1.0,6.0,male,1.0,tertiary
+270,3,thought,68,75,22715,22722,2,65.0,67.0,22712.0,22714.0,,,,,verb.cognition,355,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+271,0,arrived,29,36,22794,22801,2,5.0,28.0,22770.0,22793.0,,,,,verb.motion,356,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+271,1,warned,46,52,22811,22817,2,38.0,45.0,22803.0,22810.0,,,,,verb.communication,357,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+271,3,follow,85,91,22850,22856,217,69.0,73.0,22834.0,22838.0,,,,,verb.motion,358,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+271,4,attempt,100,107,22865,22872,2,69.0,73.0,22834.0,22838.0,,,,,verb.social,360,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+271,4,attempt,100,107,22865,22872,217,69.0,73.0,22834.0,22838.0,,,,,verb.social,360,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+271,6,disappeared,128,139,22893,22904,2,125.0,127.0,22890.0,22892.0,,,,,verb.change,359,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+272,0,took,8,12,22914,22918,2,0.0,2.0,22906.0,22908.0,,,,,verb.contact,361,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+272,2,bade,59,63,22965,22969,2,0.0,2.0,22906.0,22908.0,73.0,91.0,22979.0,22997.0,verb.communication,362,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+273,0,insisted,3,11,23002,23010,2,0.0,2.0,22999.0,23001.0,,,,,verb.communication,364,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+273,2,reached,93,100,23092,23099,217,88.0,92.0,23087.0,23091.0,,,,,verb.motion,365,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+273,3,expressed,119,128,23118,23127,2,116.0,118.0,23115.0,23117.0,,,,,verb.communication,366,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+274,0,told,8,12,23194,23198,2,0.0,7.0,23186.0,23193.0,,,,,verb.communication,369,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+275,1,exert,25,30,23249,23254,220,6.0,18.0,23230.0,23242.0,,,,,verb.consumption,368,subject,spirits,1.0,0.0,1.0,unknown,0.0,tertiary
+276,0,took,10,14,23331,23335,217,0.0,4.0,23321.0,23325.0,52.0,162.0,23373.0,23483.0,verb.social,370,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+276,1,enjoining,60,69,23381,23390,2,52.0,59.0,23373.0,23380.0,73.0,162.0,23394.0,23483.0,verb.cognition,372,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+276,5,return,156,162,23477,23483,2,133.0,135.0,23454.0,23456.0,,,,,verb.motion,371,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+277,2,parted,52,58,23537,23543,18,0.0,10.0,23485.0,23495.0,,,,,verb.social,374,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+277,3,walked,80,86,23565,23571,18,77.0,79.0,23562.0,23564.0,,,,,verb.motion,375,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+277,4,heard,102,107,23587,23592,18,99.0,101.0,23584.0,23586.0,,,,,verb.perception,376,subject,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+278,1,told,22,26,23676,23680,2,0.0,2.0,23654.0,23656.0,,,,,verb.communication,378,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+278,3,disappeared,69,80,23723,23734,2,44.0,64.0,23698.0,23718.0,,,,,verb.change,377,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+278,3,disappeared,69,80,23723,23734,139,44.0,64.0,23698.0,23718.0,,,,,verb.change,377,subject,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+278,4,knew,94,98,23748,23752,2,91.0,93.0,23745.0,23747.0,,,,,verb.cognition,379,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+279,0,doubted,7,14,23769,23776,368,0.0,6.0,23762.0,23768.0,37.0,40.0,23799.0,23802.0,verb.communication,380,subject,,,,,,,
+280,0,reached,27,34,23831,23838,2,0.0,21.0,23804.0,23825.0,,,,,verb.motion,381,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+280,0,reached,27,34,23831,23838,139,0.0,21.0,23804.0,23825.0,,,,,verb.motion,381,subject,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+281,1,delighted,49,58,23913,23922,6,0.0,19.0,23864.0,23883.0,,,,,verb.emotion,382,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+281,2,see,62,65,23926,23929,6,0.0,19.0,23864.0,23883.0,,,,,verb.social,383,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+282,0,hailed,3,9,23939,23945,6,0.0,2.0,23936.0,23938.0,,,,,verb.communication,384,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+283,0,opened,8,14,23982,23988,6,5.0,7.0,23979.0,23981.0,,,,,verb.contact,385,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+283,1,closed,51,57,24025,24031,6,48.0,50.0,24022.0,24024.0,,,,,verb.contact,386,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+283,2,embraced,75,83,24049,24057,6,63.0,65.0,24037.0,24039.0,,,,,verb.body,388,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+283,4,brought,150,157,24124,24131,217,117.0,134.0,24091.0,24108.0,,,,,verb.contact,387,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+285,0,replied,4,11,24204,24211,6,1.0,3.0,24201.0,24203.0,,,,,verb.communication,390,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+285,2,attend,26,32,24226,24232,6,17.0,19.0,24217.0,24219.0,,,,,verb.social,393,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+285,4,invite,64,70,24264,24270,6,50.0,52.0,24250.0,24252.0,,,,,verb.emotion,392,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+285,5,smoke,86,91,24286,24291,300,71.0,82.0,24271.0,24282.0,,,,,verb.consumption,391,subject,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+285,5,smoke,86,91,24286,24291,6,71.0,82.0,24271.0,24282.0,,,,,verb.consumption,391,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,0,dispatched,23,33,24325,24335,6,12.0,14.0,24314.0,24316.0,71.0,116.0,24373.0,24418.0,verb.motion,394,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,1,summon,74,80,24376,24382,6,12.0,14.0,24314.0,24316.0,,,,,verb.communication,395,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,2,set,122,125,24424,24427,6,12.0,14.0,24314.0,24316.0,,,,,verb.communication,396,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,3,come,147,151,24449,24453,236,139.0,143.0,24441.0,24445.0,,,,,verb.motion,398,subject,the old Sand - Spirit's Spirits of his acquaintance,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+287,0,had,13,16,24468,24471,6,10.0,12.0,24465.0,24467.0,,,,,verb.possession,397,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,0,said,10,14,24527,24531,289,1.0,7.0,24518.0,24524.0,,,,,verb.communication,400,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+288,0,said,10,14,24527,24531,6,1.0,7.0,24518.0,24524.0,,,,,verb.communication,400,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,2,asked,55,60,24572,24577,6,48.0,49.0,24565.0,24566.0,,,,,verb.communication,399,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,5,warn,109,113,24626,24630,6,107.0,108.0,24624.0,24625.0,118.0,136.0,24635.0,24653.0,verb.communication,402,subject,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+290,1,find,39,43,24804,24808,289,0.0,23.0,24765.0,24788.0,,,,,verb.communication,406,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+294,1,save,13,17,24945,24949,336,0.0,3.0,24932.0,24935.0,,,,,verb.social,407,subject,the old Sand - Spirit's wife,4.0,4.0,8.0,female,1.0,tertiary
+296,1,observe,17,24,25133,25140,289,0.0,3.0,25116.0,25119.0,,,,,verb.perception,410,subject,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+297,1,said,41,45,25214,25218,101,21.0,25.0,25194.0,25198.0,,,,,verb.communication,411,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+297,2,answered,51,59,25224,25232,2,0.0,7.0,25173.0,25180.0,,,,,verb.communication,412,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+297,4,obey,74,78,25247,25251,2,65.0,67.0,25238.0,25240.0,,,,,verb.social,413,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+298,1,assemble,35,43,25288,25296,239,14.0,25.0,25267.0,25278.0,,,,,verb.contact,415,subject,the company,3.0,0.0,3.0,unknown,0.0,tertiary
+299,1,looked,38,44,25335,25341,2,5.0,27.0,25302.0,25324.0,,,,,verb.perception,414,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+303,1,informed,18,26,25521,25529,2,6.0,13.0,25509.0,25516.0,,,,,verb.communication,417,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+304,0,heard,20,25,25688,25693,2,12.0,19.0,25680.0,25687.0,,,,,verb.perception,418,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+310,3,shook,96,101,26571,26576,255,93.0,95.0,26568.0,26570.0,,,,,verb.motion,422,subject,The last to appear,1.0,4.0,5.0,male,1.0,tertiary
+311,2,cling,51,56,26675,26680,2,36.0,38.0,26660.0,26662.0,,,,,verb.motion,424,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+312,5,rejected,116,124,26810,26818,2,92.0,106.0,26786.0,26800.0,130.0,145.0,26824.0,26839.0,verb.cognition,425,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+312,5,rejected,116,124,26810,26818,259,92.0,106.0,26786.0,26800.0,130.0,145.0,26824.0,26839.0,verb.cognition,425,subject,Wassamo 's wife,1.0,0.0,1.0,female,1.0,tertiary
+313,2,addressed,73,82,26914,26923,260,12.0,61.0,26853.0,26902.0,,,,,verb.communication,428,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+314,0,said,15,19,26953,26957,260,1.0,9.0,26939.0,26947.0,,,,,verb.communication,430,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+314,0,said,15,19,26953,26957,10,1.0,9.0,26939.0,26947.0,,,,,verb.communication,430,subject,Brothers,2.0,2.0,4.0,male,1.0,tertiary
+314,2,invited,29,36,26967,26974,260,22.0,23.0,26960.0,26961.0,,,,,verb.communication,429,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+314,3,partake,44,51,26982,26989,10,37.0,40.0,26975.0,26978.0,,,,,verb.social,432,subject,Brothers,2.0,2.0,4.0,male,1.0,tertiary
+315,0,see,15,18,27123,27126,10,11.0,14.0,27119.0,27122.0,,,,,verb.cognition,433,subject,Brothers,2.0,2.0,4.0,male,1.0,tertiary
+317,0,see,12,15,27281,27284,260,10.0,11.0,27279.0,27280.0,,,,,verb.cognition,435,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+322,1,say,23,26,27563,27566,260,0.0,14.0,27540.0,27554.0,,,,,verb.communication,440,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+325,0,wish,2,6,27630,27634,260,0.0,1.0,27628.0,27629.0,,,,,verb.cognition,439,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+325,1,detain,10,16,27638,27644,260,0.0,1.0,27628.0,27629.0,,,,,verb.social,441,subject,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+330,0,cried,5,10,27787,27792,262,0.0,4.0,27782.0,27786.0,,,,,verb.communication,442,subject,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+331,3,have,51,55,27851,27855,263,27.0,42.0,27827.0,27842.0,,,,,verb.possession,446,subject,the petitioners,1.0,0.0,1.0,unknown,0.0,tertiary
+331,4,asked,65,70,27865,27870,262,56.0,59.0,27856.0,27859.0,,,,,verb.communication,445,subject,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+332,0,asked,34,39,28001,28006,101,19.0,33.0,27986.0,28000.0,,,,,verb.communication,448,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+332,1,make,58,62,28025,28029,187,40.0,54.0,28007.0,28021.0,,,,,verb.social,449,subject,the old Sand - Spirit's son - in - law,3.0,0.0,3.0,unknown,0.0,tertiary
+332,1,make,58,62,28025,28029,101,40.0,54.0,28007.0,28021.0,,,,,verb.social,449,subject,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+333,2,come,75,79,28152,28156,2,14.0,54.0,28091.0,28131.0,,,,,verb.change,451,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+333,2,come,75,79,28152,28156,390,14.0,54.0,28091.0,28131.0,,,,,verb.change,451,subject,my father 's people,1.0,0.0,1.0,male,1.0,tertiary
+333,2,come,75,79,28152,28156,389,14.0,54.0,28091.0,28131.0,,,,,verb.change,451,subject,Wassamo's father,1.0,0.0,1.0,male,1.0,tertiary
+333,3,said,82,86,28159,28163,2,0.0,79.0,28077.0,28156.0,,,,,verb.communication,452,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+333,3,said,82,86,28159,28163,390,0.0,79.0,28077.0,28156.0,,,,,verb.communication,452,subject,my father 's people,1.0,0.0,1.0,male,1.0,tertiary
+333,3,said,82,86,28159,28163,389,0.0,79.0,28077.0,28156.0,,,,,verb.communication,452,subject,Wassamo's father,1.0,0.0,1.0,male,1.0,tertiary
+336,0,filled,5,11,28289,28295,262,0.0,4.0,28284.0,28288.0,,,,,verb.change,453,subject,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+336,2,blew,72,76,28356,28360,262,55.0,66.0,28339.0,28350.0,,,,,verb.weather,455,subject,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+337,3,went,96,100,28583,28587,7,91.0,95.0,28578.0,28582.0,,,,,verb.motion,457,subject,the Sand - Spirits,2.0,8.0,10.0,group/nonbinary,1.0,tertiary
+337,5,losing,134,140,28621,28627,7,91.0,95.0,28578.0,28582.0,152.0,278.0,28639.0,28765.0,verb.possession,459,subject,the Sand - Spirits,2.0,8.0,10.0,group/nonbinary,1.0,tertiary
+337,8,departed,250,258,28737,28745,205,245.0,249.0,28732.0,28736.0,,,,,verb.motion,456,subject,each,2.0,3.0,5.0,male,1.0,tertiary
+338,3,addressed,119,128,28886,28895,121,18.0,117.0,28785.0,28884.0,,,,,verb.communication,460,subject,the old Sand - Spirit,5.0,1.0,6.0,male,1.0,tertiary
+338,6,allow,177,182,28944,28949,2,151.0,152.0,28918.0,28919.0,,,,,verb.social,462,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+338,7,acquitted,260,269,29027,29036,337,256.0,259.0,29023.0,29026.0,,,,,verb.social,461,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+339,1,visit,8,13,29071,29076,337,0.0,3.0,29063.0,29066.0,41.0,134.0,29104.0,29197.0,verb.social,463,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+339,2,tell,55,59,29118,29122,337,0.0,3.0,29063.0,29066.0,,,,,verb.communication,465,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+339,4,granted,87,94,29150,29157,327,70.0,82.0,29133.0,29145.0,,,,,verb.possession,464,subject,Wassamo's son's parents,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+339,5,take,103,107,29166,29170,337,0.0,3.0,29063.0,29066.0,127.0,134.0,29190.0,29197.0,verb.possession,466,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+340,1,visit,22,27,29221,29226,337,0.0,3.0,29199.0,29202.0,33.0,38.0,29232.0,29237.0,verb.social,467,subject,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+341,1,reached,25,32,29265,29272,2,0.0,15.0,29240.0,29255.0,,,,,verb.motion,468,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+341,3,welcomed,62,70,29302,29310,2,0.0,19.0,29240.0,29259.0,,,,,verb.emotion,469,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+342,0,asked,5,10,29317,29322,217,0.0,4.0,29312.0,29316.0,,,,,verb.communication,470,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+342,1,informed,37,45,29349,29357,2,29.0,36.0,29341.0,29348.0,,,,,verb.communication,472,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+342,7,born,141,145,29453,29457,277,94.0,126.0,29406.0,29438.0,,,,,verb.body,471,subject,a son,1.0,0.0,1.0,unknown,0.0,tertiary
+343,3,said,70,74,29554,29558,2,62.0,69.0,29546.0,29553.0,,,,,verb.communication,475,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+343,5,bid,88,91,29572,29575,2,77.0,78.0,29561.0,29562.0,109.0,116.0,29593.0,29600.0,verb.communication,474,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+344,0,raised,24,30,29627,29633,2,0.0,23.0,29603.0,29626.0,44.0,63.0,29647.0,29666.0,verb.communication,476,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+344,0,raised,24,30,29627,29633,328,0.0,23.0,29603.0,29626.0,44.0,63.0,29647.0,29666.0,verb.communication,476,subject,friends,2.0,0.0,2.0,unknown,0.0,tertiary
+344,0,raised,24,30,29627,29633,11,0.0,23.0,29603.0,29626.0,44.0,63.0,29647.0,29666.0,verb.communication,476,subject,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+345,1,grant,63,68,29730,29735,2,27.0,42.0,29694.0,29709.0,,,,,verb.possession,478,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+345,3,allowed,97,104,29764,29771,2,94.0,96.0,29761.0,29763.0,,,,,verb.communication,477,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+345,4,accompany,113,122,29780,29789,217,105.0,109.0,29772.0,29776.0,,,,,verb.motion,479,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+346,0,seated,9,15,29822,29828,217,0.0,8.0,29813.0,29821.0,27.0,53.0,29840.0,29866.0,verb.motion,480,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+346,1,watch,30,35,29843,29848,217,0.0,4.0,29813.0,29817.0,,,,,verb.perception,481,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+350,0,gazed,5,10,30041,30046,217,0.0,4.0,30036.0,30040.0,,,,,verb.perception,484,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+350,2,waded,54,59,30090,30095,2,51.0,53.0,30087.0,30089.0,,,,,verb.motion,485,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+350,3,waving,80,86,30116,30122,2,51.0,53.0,30087.0,30089.0,,,,,verb.motion,486,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+351,0,saw,5,8,30139,30142,217,0.0,4.0,30134.0,30138.0,,,,,verb.perception,488,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+351,1,descend,13,20,30147,30154,2,9.0,12.0,30143.0,30146.0,,,,,verb.motion,487,subject,Wassamo,70.0,187.0,257.0,male,1.0,primary
+352,0,beheld,5,11,30193,30199,217,0.0,4.0,30188.0,30192.0,,,,,verb.perception,489,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+353,0,looked,5,11,30293,30299,217,0.0,4.0,30288.0,30292.0,,,,,verb.perception,491,subject,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+355,1,disappeared,59,70,30450,30461,287,5.0,53.0,30396.0,30444.0,,,,,verb.change,490,subject,Wassamo of the Fire - Plume,1.0,0.0,1.0,unknown,0.0,tertiary
+1,3,said,84,88,176,180,2,89.0,95.0,181.0,187.0,,,,,verb.communication,2,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+1,3,said,84,88,176,180,289,89.0,95.0,181.0,187.0,,,,,verb.communication,2,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+1,4,wish,108,112,200,204,2,113.0,185.0,205.0,277.0,,,,,verb.emotion,3,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+1,8,see,146,149,238,241,2,150.0,185.0,242.0,277.0,,,,,verb.communication,1,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+1,10,procure,165,172,257,264,2,173.0,175.0,265.0,267.0,,,,,verb.possession,0,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+2,0,ask,5,8,283,286,2,9.0,20.0,287.0,298.0,,,,,verb.communication,4,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+2,0,ask,5,8,283,286,291,9.0,20.0,287.0,298.0,,,,,verb.communication,4,direct_object,Wassamo's cousin,1.0,0.0,1.0,unknown,0.0,tertiary
+2,1,accompany,24,33,302,311,2,34.0,37.0,312.0,315.0,,,,,verb.motion,6,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+6,2,conversing,36,46,603,613,21,47.0,62.0,614.0,629.0,,,,,verb.contact,5,direct_object,each other,4.0,0.0,4.0,unknown,0.0,tertiary
+14,0,said,11,15,1171,1175,18,16.0,26.0,1176.0,1186.0,,,,,verb.communication,11,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+16,1,tell,25,29,1396,1400,2,30.0,32.0,1401.0,1403.0,,,,,verb.communication,13,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+17,1,sung,23,27,1464,1468,18,28.0,47.0,1469.0,1488.0,,,,,verb.creation,14,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+19,1,shifted,39,46,1746,1753,18,47.0,56.0,1754.0,1763.0,57.0,150.0,,,verb.motion,17,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+20,0,ran,37,40,1896,1899,18,41.0,51.0,1900.0,1910.0,,,,,verb.motion,19,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+20,2,murmuring,76,85,1935,1944,18,86.0,112.0,1945.0,1971.0,,,,,verb.communication,20,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+21,1,gilding,48,55,2042,2049,18,56.0,64.0,2050.0,2058.0,,,,,verb.change,22,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+22,1,lost,30,34,2090,2094,2,35.0,99.0,2095.0,2159.0,,,,,verb.possession,21,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+22,1,lost,30,34,2090,2094,33,35.0,99.0,2095.0,2159.0,,,,,verb.possession,21,direct_object,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+23,0,pleased,20,27,2180,2187,2,28.0,35.0,2188.0,2195.0,36.0,44.0,2196.0,2204.0,verb.emotion,23,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+24,0,spoke,3,8,2297,2302,2,9.0,22.0,2303.0,2316.0,,,,,verb.communication,25,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+24,0,spoke,3,8,2297,2302,33,9.0,22.0,2303.0,2316.0,,,,,verb.communication,25,direct_object,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+27,1,kissing,59,66,2687,2694,18,67.0,77.0,2695.0,2705.0,,,,,verb.contact,31,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+27,3,had,139,142,2767,2770,18,143.0,146.0,2771.0,2774.0,,,,,verb.possession,33,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+27,4,call,160,164,2788,2792,18,165.0,168.0,2793.0,2796.0,,,,,verb.communication,34,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+28,0,binding,0,7,2801,2808,18,8.0,18.0,2809.0,2819.0,34.0,44.0,,,verb.contact,35,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+29,0,spoke,9,14,2995,3000,2,15.0,28.0,3001.0,3014.0,30.0,81.0,3016.0,3067.0,verb.communication,37,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+29,0,spoke,9,14,2995,3000,33,15.0,28.0,3001.0,3014.0,30.0,81.0,3016.0,3067.0,verb.communication,37,direct_object,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+29,1,learn,45,50,3031,3036,33,51.0,81.0,3037.0,3067.0,,,,,verb.cognition,38,direct_object,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+31,0,stepped,13,20,3121,3128,2,28.0,119.0,3136.0,3227.0,,,,,verb.motion,40,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+33,0,appeared,17,25,3337,3345,41,26.0,64.0,3346.0,3384.0,,,,,verb.perception,43,direct_object,two persons at no great distance,1.0,2.0,3.0,unknown,0.0,tertiary
+36,0,let,11,14,3461,3464,41,15.0,26.0,3465.0,3476.0,,,,,verb.social,45,direct_object,two persons at no great distance,1.0,2.0,3.0,unknown,0.0,tertiary
+39,0,peering,0,7,3638,3645,2,12.0,74.0,3650.0,3712.0,,,,,verb.motion,49,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+39,2,beheld,79,85,3717,3723,2,86.0,128.0,3724.0,3766.0,,,,,verb.perception,51,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+39,2,beheld,79,85,3717,3723,44,86.0,128.0,3724.0,3766.0,,,,,verb.perception,51,direct_object,two beautiful young females,1.0,1.0,2.0,unknown,0.0,tertiary
+41,1,pushed,21,27,3861,3867,2,28.0,38.0,3868.0,3878.0,40.0,62.0,3880.0,3902.0,verb.contact,52,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+41,1,pushed,21,27,3861,3867,33,28.0,38.0,3868.0,3878.0,40.0,62.0,3880.0,3902.0,verb.contact,52,direct_object,Wassamo's cousin,8.0,4.0,12.0,female,0.5,tertiary
+48,0,approached,6,16,4159,4169,47,17.0,21.0,4170.0,4174.0,,,,,verb.motion,59,direct_object,the strange females,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+49,1,speak,29,34,4254,4259,47,35.0,42.0,4260.0,4267.0,,,,,verb.communication,61,direct_object,the strange females,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+50,3,saw,50,53,4388,4391,47,54.0,62.0,4392.0,4400.0,,,,,verb.perception,64,direct_object,the strange females,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+51,0,accompanied,40,51,4442,4453,47,52.0,67.0,4454.0,4469.0,,,,,verb.communication,65,direct_object,the strange females,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+51,1,wakened,78,85,4480,4487,18,86.0,96.0,4488.0,4498.0,,,,,verb.body,66,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+52,0,opened,6,12,4506,4512,2,13.0,21.0,4513.0,4521.0,23.0,34.0,4523.0,4534.0,verb.contact,67,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+52,1,saw,43,46,4543,4546,2,47.0,66.0,4547.0,4566.0,,,,,verb.perception,69,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+57,0,thought,11,18,4784,4791,18,19.0,29.0,4792.0,4802.0,,,,,verb.cognition,72,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+59,1,found,16,21,4942,4947,2,22.0,48.0,4948.0,4974.0,,,,,verb.possession,75,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+69,0,came,14,18,5304,5308,2,19.0,42.0,5309.0,5332.0,,,,,verb.motion,78,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+73,0,found,21,26,5546,5551,2,27.0,57.0,5552.0,5582.0,,,,,verb.cognition,83,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+73,2,answer,47,53,5572,5578,2,54.0,57.0,5579.0,5582.0,,,,,verb.cognition,84,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+75,0,mused,3,8,5665,5670,2,9.0,65.0,5671.0,5727.0,,,,,verb.cognition,89,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+76,3,playing,18,25,5747,5754,2,26.0,28.0,5755.0,5757.0,,,,,verb.social,88,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+78,2,found,87,92,5950,5955,18,93.0,126.0,5956.0,5989.0,,,,,verb.perception,93,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+79,1,answer,13,19,6004,6010,2,20.0,34.0,6011.0,6025.0,,,,,verb.communication,95,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+79,1,answer,13,19,6004,6010,300,20.0,34.0,6011.0,6025.0,,,,,verb.communication,95,direct_object,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+80,0,thought,0,7,6040,6047,18,8.0,18.0,6048.0,6058.0,,,,,verb.cognition,94,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+81,0,said,15,19,6075,6079,2,20.0,30.0,6080.0,6090.0,,,,,verb.communication,96,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+81,0,said,15,19,6075,6079,302,20.0,30.0,6080.0,6090.0,,,,,verb.communication,96,direct_object,The cousin's kindred,1.0,0.0,1.0,unknown,0.0,tertiary
+81,0,said,15,19,6075,6079,18,20.0,30.0,6080.0,6090.0,,,,,verb.communication,96,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+81,0,said,15,19,6075,6079,11,20.0,30.0,6080.0,6090.0,,,,,verb.communication,96,direct_object,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+81,5,receive,132,139,6192,6199,2,140.0,183.0,6200.0,6243.0,,,,,verb.possession,97,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+83,1,say,11,14,6263,6266,2,15.0,75.0,6267.0,6327.0,,,,,verb.communication,99,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+83,1,say,11,14,6263,6266,18,15.0,75.0,6267.0,6327.0,,,,,verb.communication,99,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+83,1,say,11,14,6263,6266,11,15.0,75.0,6267.0,6327.0,,,,,verb.communication,99,direct_object,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+83,3,slain,27,32,6279,6284,2,33.0,36.0,6285.0,6288.0,,,,,verb.contact,98,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+86,3,restore,24,31,6391,6398,18,32.0,40.0,6399.0,6407.0,,,,,verb.change,102,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+88,0,saw,8,11,6548,6551,18,12.0,51.0,6552.0,6591.0,,,,,verb.perception,106,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+89,2,told,38,42,6672,6676,2,43.0,47.0,6677.0,6681.0,,,,,verb.communication,108,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+92,0,declared,3,11,6775,6783,18,12.0,28.0,6784.0,6800.0,,,,,verb.communication,111,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+93,0,said,5,9,6807,6811,2,12.0,41.0,6814.0,6843.0,,,,,verb.communication,113,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+93,2,killed,19,25,6821,6827,2,26.0,29.0,6828.0,6831.0,30.0,41.0,6832.0,6843.0,verb.contact,112,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+102,0,saw,10,13,7182,7185,2,41.0,168.0,7213.0,7340.0,,,,,verb.perception,118,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+104,0,looked,10,16,7458,7464,2,17.0,32.0,7465.0,7480.0,,,,,verb.perception,119,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+104,1,see,20,23,7468,7471,2,24.0,27.0,7472.0,7475.0,28.0,32.0,7476.0,7480.0,verb.perception,122,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+105,0,hoped,29,34,7510,7515,2,47.0,57.0,7528.0,7538.0,,,,,verb.emotion,121,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+105,1,awaited,39,46,7520,7527,2,47.0,57.0,7528.0,7538.0,,,,,verb.cognition,120,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+107,1,celebrate,26,35,7650,7659,74,36.0,54.0,7660.0,7678.0,55.0,81.0,,,verb.social,124,direct_object,the Indians,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+108,0,came,11,15,7718,7722,2,16.0,41.0,7723.0,7748.0,,,,,verb.motion,126,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+108,0,came,11,15,7718,7722,76,16.0,41.0,7723.0,7748.0,,,,,verb.motion,126,direct_object,the sad cousin of Wassamo,1.0,6.0,7.0,male,1.0,tertiary
+110,1,changed,25,32,7835,7842,76,33.0,45.0,7843.0,7855.0,,,,,verb.change,125,direct_object,the sad cousin of Wassamo,1.0,6.0,7.0,male,1.0,tertiary
+110,2,turned,63,69,7873,7879,76,70.0,78.0,7880.0,7888.0,,,,,verb.motion,128,direct_object,the sad cousin of Wassamo,1.0,6.0,7.0,male,1.0,tertiary
+111,1,watching,60,68,8015,8023,2,69.0,83.0,8024.0,8038.0,,,,,verb.perception,127,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+111,2,demanded,89,97,8044,8052,5,98.0,117.0,8053.0,8072.0,,,,,verb.communication,129,direct_object,Netawis,4.0,2.0,6.0,unknown,0.0,tertiary
+112,1,stirred,16,23,8090,8097,78,24.0,41.0,8098.0,8115.0,,,,,verb.emotion,130,direct_object,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+113,0,decided,37,44,8178,8185,73,45.0,88.0,8186.0,8229.0,,,,,verb.cognition,131,direct_object,the parents,2.0,0.0,2.0,unknown,0.0,tertiary
+113,0,decided,37,44,8178,8185,80,45.0,88.0,8186.0,8229.0,,,,,verb.cognition,131,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+113,1,give,48,52,8189,8193,73,53.0,73.0,8194.0,8214.0,,,,,verb.communication,132,direct_object,the parents,2.0,0.0,2.0,unknown,0.0,tertiary
+113,1,give,48,52,8189,8193,80,53.0,73.0,8194.0,8214.0,,,,,verb.communication,132,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+114,0,said,5,9,8236,8240,78,10.0,42.0,8241.0,8273.0,,,,,verb.communication,134,direct_object,The parents of Wassamo,1.0,6.0,7.0,group/nonbinary,1.0,tertiary
+115,1,appointed,10,19,8285,8294,18,20.0,78.0,8295.0,8353.0,,,,,verb.social,133,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+115,1,appointed,10,19,8285,8294,77,20.0,78.0,8295.0,8353.0,,,,,verb.social,133,direct_object,the sad cousin of Wassamo's friend,2.0,0.0,2.0,unknown,0.0,tertiary
+115,3,yield,47,52,8322,8327,18,53.0,61.0,8328.0,8336.0,62.0,78.0,8337.0,8353.0,verb.possession,135,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+116,1,bound,31,36,8386,8391,80,37.0,40.0,8392.0,8395.0,41.0,91.0,8396.0,8446.0,verb.contact,136,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+117,0,said,3,7,8451,8455,80,8.0,37.0,8456.0,8485.0,,,,,verb.communication,139,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+118,1,laid,45,49,8531,8535,80,50.0,63.0,8536.0,8549.0,,,,,verb.contact,137,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+119,1,take,36,40,8587,8591,80,41.0,49.0,8592.0,8600.0,,,,,verb.social,141,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+120,1,end,65,68,8714,8717,80,69.0,79.0,8718.0,8728.0,,,,,verb.change,144,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+120,2,casting,83,90,8732,8739,80,91.0,98.0,8740.0,8747.0,99.0,112.0,,,verb.creation,143,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+120,6,turn,211,215,8860,8864,80,216.0,225.0,8865.0,8874.0,226.0,246.0,8875.0,8895.0,verb.motion,145,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+121,1,say,25,28,8922,8925,80,29.0,68.0,8926.0,8965.0,,,,,verb.communication,147,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+121,3,take,52,56,8949,8953,80,57.0,68.0,8954.0,8965.0,,,,,verb.social,146,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+123,1,give,7,11,8978,8982,80,12.0,16.0,8983.0,8987.0,26.0,47.0,8997.0,9018.0,verb.possession,149,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+125,0,jarred,30,36,9127,9133,80,37.0,49.0,9134.0,9146.0,,,,,verb.contact,151,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+126,0,pained,28,34,9175,9181,80,35.0,44.0,9182.0,9191.0,,,,,verb.change,153,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+127,1,seemed,48,54,9240,9246,80,55.0,72.0,9247.0,9264.0,,,,,verb.perception,155,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+129,1,saying,8,14,9337,9343,80,15.0,25.0,9344.0,9354.0,,,,,verb.communication,157,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+130,1,lost,82,86,9438,9442,80,87.0,111.0,9443.0,9467.0,112.0,147.0,9468.0,9503.0,verb.possession,158,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+131,0,heard,3,8,9508,9513,90,9.0,27.0,9514.0,9532.0,,,,,verb.perception,161,direct_object,persons,1.0,0.0,1.0,unknown,0.0,tertiary
+132,1,saying,32,38,9566,9572,89,41.0,127.0,9575.0,9661.0,,,,,verb.communication,164,direct_object,the two young women in the wood,1.0,4.0,5.0,female,1.0,tertiary
+132,1,saying,32,38,9566,9572,311,41.0,127.0,9575.0,9661.0,,,,,verb.communication,164,direct_object,the two young women in the wood's foolish girls,1.0,0.0,1.0,female,1.0,tertiary
+133,0,put,0,3,9663,9666,89,4.0,55.0,9667.0,9718.0,,,,,verb.contact,166,direct_object,the two young women in the wood,1.0,4.0,5.0,female,1.0,tertiary
+133,0,put,0,3,9663,9666,313,4.0,55.0,9667.0,9718.0,,,,,verb.contact,166,direct_object,the two young women in the wood's person you have brought on that couch of yours,1.0,1.0,2.0,female,1.0,tertiary
+133,4,let,68,71,9731,9734,313,72.0,95.0,9735.0,9758.0,,,,,verb.social,167,direct_object,the two young women in the wood's person you have brought on that couch of yours,1.0,1.0,2.0,female,1.0,tertiary
+134,0,felt,8,12,9769,9773,80,13.0,26.0,9774.0,9787.0,,,,,verb.perception,169,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+135,2,opening,67,74,9898,9905,80,75.0,83.0,9906.0,9914.0,,,,,verb.body,173,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+135,4,find,105,109,9936,9940,80,110.0,200.0,9941.0,10031.0,,,,,verb.perception,175,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+136,0,spoke,4,9,10037,10042,80,10.0,16.0,10043.0,10049.0,,,,,verb.communication,176,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+136,1,said,21,25,10054,10058,80,27.0,28.0,10060.0,10061.0,,,,,verb.communication,177,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+136,1,said,21,25,10054,10058,314,27.0,28.0,10060.0,10061.0,,,,,verb.communication,177,direct_object,Stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+136,2,take,49,53,10082,10086,80,54.0,93.0,10087.0,10126.0,,,,,verb.possession,178,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+136,3,refresh,77,84,10110,10117,80,85.0,93.0,10118.0,10126.0,,,,,verb.body,179,direct_object,the young man,1.0,47.0,48.0,male,1.0,tertiary
+139,1,see,23,26,10264,10267,96,27.0,153.0,10268.0,10394.0,,,,,verb.perception,182,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them",1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+139,1,see,23,26,10264,10267,97,27.0,153.0,10268.0,10394.0,,,,,verb.perception,182,direct_object,,,,,,,
+139,3,appeared,105,113,10346,10354,96,114.0,153.0,10355.0,10394.0,,,,,verb.perception,181,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them",1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+140,0,heard,21,26,10417,10422,99,37.0,58.0,10433.0,10454.0,,,,,verb.perception,183,direct_object,the Old Spirit - man,1.0,0.0,1.0,male,1.0,tertiary
+140,2,spoke,60,65,10456,10461,2,66.0,76.0,10462.0,10472.0,,,,,verb.communication,184,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+141,0,said,10,14,10484,10488,98,15.0,17.0,10489.0,10491.0,,,,,verb.communication,187,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+141,0,said,10,14,10484,10488,316,15.0,17.0,10489.0,10491.0,,,,,verb.communication,187,direct_object,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+141,0,said,10,14,10484,10488,289,15.0,17.0,10489.0,10491.0,,,,,verb.communication,187,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+141,1,know,20,24,10494,10498,316,25.0,74.0,10499.0,10548.0,,,,,verb.cognition,186,direct_object,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+141,1,know,20,24,10494,10498,289,25.0,74.0,10499.0,10548.0,,,,,verb.cognition,186,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+141,3,brought,56,63,10530,10537,289,64.0,67.0,10538.0,10541.0,68.0,74.0,10542.0,10548.0,verb.contact,185,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+142,0,saw,5,8,10555,10558,289,9.0,12.0,10559.0,10562.0,13.0,34.0,10563.0,10584.0,verb.perception,188,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+143,0,attempted,9,18,10595,10604,316,19.0,35.0,10605.0,10621.0,,,,,verb.social,189,direct_object,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+143,1,approach,22,30,10608,10616,316,31.0,35.0,10617.0,10621.0,,,,,verb.motion,190,direct_object,those foolish girls,1.0,3.0,4.0,female,1.0,tertiary
+143,3,transported,84,95,10670,10681,289,96.0,99.0,10682.0,10685.0,,,,,verb.motion,192,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+146,1,make,8,12,10749,10753,289,13.0,39.0,10754.0,10780.0,,,,,verb.change,194,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+149,2,do,41,43,10891,10893,98,44.0,69.0,10894.0,10919.0,,,,,verb.social,196,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+151,1,wished,13,19,11010,11016,323,20.0,61.0,11017.0,11058.0,,,,,verb.emotion,199,direct_object,Wassamo's son's race,1.0,0.0,1.0,unknown,0.0,tertiary
+151,1,wished,13,19,11010,11016,289,20.0,61.0,11017.0,11058.0,,,,,verb.emotion,199,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+151,2,get,23,26,11020,11023,323,27.0,61.0,11024.0,11058.0,,,,,verb.change,200,direct_object,Wassamo's son's race,1.0,0.0,1.0,unknown,0.0,tertiary
+151,2,get,23,26,11020,11023,289,27.0,61.0,11024.0,11058.0,,,,,verb.change,200,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,328,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,friends,2.0,0.0,2.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,325,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man's daughters",1.0,0.0,1.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,324,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man's of my daughters",1.0,0.0,1.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,289,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,98,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,"two stately persons , who looked rather more in years than the others , and who appeared to exact obedience from all around them's of them , whom he heard addressed as the Old Spirit - man",1.0,13.0,14.0,male,1.0,tertiary
+152,4,give,47,51,11107,11111,326,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,"Wassamo's son's one who smiled on you first , the night you were brought away from your parents and friends",1.0,0.0,1.0,unknown,0.0,tertiary
+152,4,give,47,51,11107,11111,327,52.0,55.0,11112.0,11115.0,,,,,verb.possession,203,direct_object,Wassamo's son's parents,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+152,5,smiled,89,95,11149,11155,289,96.0,102.0,11156.0,11162.0,103.0,108.0,11163.0,11168.0,verb.body,202,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+153,0,dropped,8,15,11242,11249,2,16.0,24.0,11250.0,11258.0,,,,,verb.motion,204,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+154,1,behold,27,33,11306,11312,2,34.0,45.0,11313.0,11324.0,46.0,53.0,11325.0,11332.0,verb.perception,205,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+154,1,behold,27,33,11306,11312,100,34.0,45.0,11313.0,11324.0,46.0,53.0,11325.0,11332.0,verb.perception,205,direct_object,Wassamo's kindred,1.0,0.0,1.0,unknown,0.0,tertiary
+154,2,made,55,59,11334,11338,2,60.0,67.0,11339.0,11346.0,,,,,verb.change,207,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+158,2,refused,34,41,11587,11594,332,42.0,45.0,11595.0,11598.0,,,,,verb.possession,210,direct_object,the old Sand - Spirit's daughter,4.0,2.0,6.0,female,1.0,tertiary
+158,2,refused,34,41,11587,11594,6,42.0,45.0,11595.0,11598.0,,,,,verb.possession,210,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+158,2,refused,34,41,11587,11594,101,42.0,45.0,11595.0,11598.0,,,,,verb.possession,210,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+159,0,learns,13,19,11636,11642,334,20.0,54.0,11643.0,11677.0,,,,,verb.cognition,212,direct_object,the old Sand - Spirit's family,1.0,0.0,1.0,unknown,0.0,tertiary
+159,0,learns,13,19,11636,11642,333,20.0,54.0,11643.0,11677.0,,,,,verb.cognition,212,direct_object,the old Sand - Spirit's member of my family,1.0,0.0,1.0,unknown,0.0,tertiary
+159,0,learns,13,19,11636,11642,289,20.0,54.0,11643.0,11677.0,,,,,verb.cognition,212,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+159,0,learns,13,19,11636,11642,6,20.0,54.0,11643.0,11677.0,,,,,verb.cognition,212,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+159,3,seek,64,68,11687,11691,289,69.0,80.0,11692.0,11703.0,,,,,verb.contact,213,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+159,4,harm,72,76,11695,11699,289,77.0,80.0,11700.0,11703.0,,,,,verb.social,214,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+160,1,added,23,28,11728,11733,6,29.0,43.0,11734.0,11748.0,45.0,64.0,,,verb.communication,216,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+161,0,take,1,5,11772,11776,332,6.0,9.0,11777.0,11780.0,,,,,verb.social,219,direct_object,the old Sand - Spirit's daughter,4.0,2.0,6.0,female,1.0,tertiary
+165,1,said,87,91,12294,12298,2,92.0,102.0,12299.0,12309.0,,,,,verb.communication,222,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+165,1,said,87,91,12294,12298,337,92.0,102.0,12299.0,12309.0,,,,,verb.communication,222,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+165,1,said,87,91,12294,12298,101,92.0,102.0,12299.0,12309.0,,,,,verb.communication,222,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+167,1,return,10,16,12400,12406,339,17.0,31.0,12407.0,12421.0,,,,,verb.motion,223,direct_object,Son - in - law's people,1.0,0.0,1.0,unknown,0.0,tertiary
+167,1,return,10,16,12400,12406,337,17.0,31.0,12407.0,12421.0,,,,,verb.motion,223,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+167,2,procure,36,43,12426,12433,101,44.0,46.0,12434.0,12436.0,,,,,verb.possession,225,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+168,2,offer,52,57,12499,12504,101,58.0,60.0,12505.0,12507.0,,,,,verb.possession,224,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+168,5,comes,151,156,12598,12603,101,157.0,162.0,12604.0,12609.0,,,,,verb.change,226,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+169,1,putting,20,27,12631,12638,101,28.0,36.0,12639.0,12647.0,,,,,verb.contact,227,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+169,4,offered,145,152,12756,12763,101,153.0,179.0,12764.0,12790.0,,,,,verb.possession,230,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+171,2,clothe,45,51,13092,13098,7,52.0,62.0,13099.0,13109.0,,,,,verb.body,229,direct_object,the Sand - Spirits,2.0,8.0,10.0,group/nonbinary,1.0,tertiary
+173,2,said,86,90,13478,13482,2,91.0,97.0,13483.0,13489.0,,,,,verb.communication,232,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+173,2,said,86,90,13478,13482,337,91.0,97.0,13483.0,13489.0,,,,,verb.communication,232,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+178,0,take,0,4,13813,13817,6,5.0,14.0,13818.0,13827.0,,,,,verb.cognition,239,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+180,0,have,2,6,13855,13859,345,7.0,69.0,13860.0,13922.0,,,,,verb.possession,238,direct_object,that knavish Island Spirit,1.0,3.0,4.0,male,1.0,tertiary
+180,4,waits,165,170,14018,14023,2,171.0,228.0,14024.0,14081.0,,,,,verb.cognition,240,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+180,4,waits,165,170,14018,14023,345,171.0,228.0,14024.0,14081.0,,,,,verb.cognition,240,direct_object,that knavish Island Spirit,1.0,3.0,4.0,male,1.0,tertiary
+180,5,catch,190,195,14043,14048,2,196.0,206.0,14049.0,14059.0,,,,,verb.contact,241,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+180,6,do,211,213,14064,14066,2,214.0,217.0,14067.0,14070.0,,,,,verb.creation,242,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+181,1,amuse,8,13,14091,14096,2,14.0,22.0,14097.0,14105.0,,,,,verb.emotion,243,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+187,1,said,21,25,14609,14613,6,26.0,40.0,14614.0,14628.0,43.0,79.0,14631.0,14667.0,verb.communication,249,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+187,2,see,46,49,14634,14637,123,50.0,79.0,14638.0,14667.0,,,,,verb.perception,248,direct_object,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+189,2,escape,32,38,14832,14838,123,39.0,104.0,14839.0,14904.0,,,,,verb.communication,251,direct_object,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+189,2,escape,32,38,14832,14838,101,39.0,104.0,14839.0,14904.0,,,,,verb.communication,251,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+189,3,asking,56,62,14856,14862,123,63.0,66.0,14863.0,14866.0,,,,,verb.communication,250,direct_object,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+189,3,asking,56,62,14856,14862,101,63.0,66.0,14863.0,14866.0,,,,,verb.communication,250,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+189,5,share,82,87,14882,14887,123,88.0,104.0,14888.0,14904.0,,,,,verb.possession,252,direct_object,the Old Spirit's one of his family,1.0,8.0,9.0,group/nonbinary,1.0,tertiary
+191,1,observed,51,59,15002,15010,2,60.0,212.0,15011.0,15163.0,,,,,verb.perception,254,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+191,1,observed,51,59,15002,15010,126,60.0,212.0,15011.0,15163.0,,,,,verb.perception,254,direct_object,Wassamo's father - in - law,2.0,0.0,2.0,male,1.0,tertiary
+191,1,observed,51,59,15002,15010,8,60.0,212.0,15011.0,15163.0,,,,,verb.perception,254,direct_object,the Island Spirit,1.0,0.0,1.0,unknown,0.0,tertiary
+191,1,observed,51,59,15002,15010,127,60.0,212.0,15011.0,15163.0,,,,,verb.perception,254,direct_object,no stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+191,2,made,83,87,15034,15038,2,88.0,129.0,15039.0,15080.0,131.0,207.0,15082.0,15158.0,verb.cognition,253,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+191,3,conceal,114,121,15065,15072,2,122.0,129.0,15073.0,15080.0,,,,,verb.perception,255,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+195,2,amused,59,65,15671,15677,6,66.0,73.0,15678.0,15685.0,74.0,90.0,15686.0,15702.0,verb.emotion,262,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+196,0,failed,19,25,15723,15729,6,26.0,29.0,15730.0,15733.0,30.0,34.0,15734.0,15738.0,verb.social,263,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+196,3,found,74,79,15778,15783,6,80.0,150.0,15784.0,15854.0,,,,,verb.possession,265,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+197,1,listen,29,35,15885,15891,133,36.0,191.0,15892.0,16047.0,,,,,verb.perception,267,direct_object,the travelers who passed by the window at the side of the lodge where they made their requests for comfortable weather and an easy journey,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+197,3,made,128,132,15984,15988,133,133.0,191.0,15989.0,16047.0,,,,,verb.social,266,direct_object,the travelers who passed by the window at the side of the lodge where they made their requests for comfortable weather and an easy journey,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+204,0,indicated,20,29,16243,16252,133,30.0,112.0,16253.0,16335.0,,,,,verb.communication,269,direct_object,the travelers who passed by the window at the side of the lodge where they made their requests for comfortable weather and an easy journey,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+204,3,had,77,80,16300,16303,133,81.0,112.0,16304.0,16335.0,,,,,verb.possession,268,direct_object,the travelers who passed by the window at the side of the lodge where they made their requests for comfortable weather and an easy journey,1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+206,2,done,42,46,16569,16573,6,47.0,50.0,16574.0,16577.0,,,,,verb.social,271,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+207,0,putting,12,19,16626,16633,6,20.0,28.0,16634.0,16642.0,51.0,117.0,,,verb.contact,273,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+207,2,said,122,126,16736,16740,2,127.0,137.0,16741.0,16751.0,,,,,verb.communication,274,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+207,2,said,122,126,16736,16740,352,127.0,137.0,16741.0,16751.0,,,,,verb.communication,274,direct_object,Son - in - law's company,1.0,0.0,1.0,unknown,0.0,tertiary
+207,2,said,122,126,16736,16740,337,127.0,137.0,16741.0,16751.0,,,,,verb.communication,274,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+208,1,start,22,27,16883,16888,336,28.0,42.0,16889.0,16903.0,43.0,66.0,16904.0,16927.0,verb.change,276,direct_object,the old Sand - Spirit's wife,4.0,4.0,8.0,female,1.0,tertiary
+208,1,start,22,27,16883,16888,337,28.0,42.0,16889.0,16903.0,43.0,66.0,16904.0,16927.0,verb.change,276,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+208,2,visit,46,51,16907,16912,354,52.0,66.0,16913.0,16927.0,,,,,verb.social,277,direct_object,Son - in - law's relations,1.0,0.0,1.0,unknown,0.0,tertiary
+208,2,visit,46,51,16907,16912,337,52.0,66.0,16913.0,16927.0,,,,,verb.social,277,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+210,0,get,9,12,17011,17014,337,13.0,33.0,17015.0,17035.0,,,,,verb.motion,278,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+211,0,leave,0,5,17065,17070,336,6.0,15.0,17071.0,17080.0,16.0,50.0,,,verb.social,280,direct_object,the old Sand - Spirit's wife,4.0,4.0,8.0,female,1.0,tertiary
+211,0,leave,0,5,17065,17070,337,6.0,15.0,17071.0,17080.0,16.0,50.0,,,verb.social,280,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+213,0,added,3,8,17248,17253,359,28.0,97.0,17273.0,17342.0,,,,,verb.communication,284,direct_object,a brother,1.0,0.0,1.0,male,1.0,tertiary
+213,0,added,3,8,17248,17253,358,28.0,97.0,17273.0,17342.0,,,,,verb.communication,284,direct_object,That old Island Spirit has a brother down in that part of the country,1.0,0.0,1.0,male,1.0,tertiary
+213,1,has,51,54,17296,17299,359,55.0,64.0,17300.0,17309.0,65.0,97.0,17310.0,17342.0,verb.possession,283,direct_object,a brother,1.0,0.0,1.0,male,1.0,tertiary
+217,3,forget,60,66,17567,17573,337,67.0,101.0,17574.0,17608.0,,,,,verb.cognition,289,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+217,4,stated,81,87,17588,17594,337,88.0,94.0,17595.0,17601.0,95.0,101.0,17602.0,17608.0,verb.communication,288,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+220,0,said,41,45,17860,17864,2,48.0,80.0,17867.0,17899.0,,,,,verb.communication,293,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+222,3,set,151,154,18113,18116,2,155.0,163.0,18117.0,18125.0,164.0,231.0,18126.0,18193.0,verb.contact,292,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+223,0,left,7,11,18202,18206,2,12.0,52.0,18207.0,18247.0,54.0,96.0,18249.0,18291.0,verb.cognition,295,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+223,0,left,7,11,18202,18206,139,12.0,52.0,18207.0,18247.0,54.0,96.0,18249.0,18291.0,verb.cognition,295,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+230,0,fell,5,9,18622,18626,21,10.0,33.0,18627.0,18650.0,,,,,verb.motion,302,direct_object,each other,4.0,0.0,4.0,unknown,0.0,tertiary
+233,0,entered,3,10,18839,18846,2,11.0,76.0,18847.0,18912.0,,,,,verb.motion,306,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+233,0,entered,3,10,18839,18846,15,11.0,76.0,18847.0,18912.0,,,,,verb.motion,306,direct_object,the mother of Wassamo,2.0,2.0,4.0,female,1.0,tertiary
+233,0,entered,3,10,18839,18846,162,11.0,76.0,18847.0,18912.0,,,,,verb.motion,306,direct_object,the mother of Wassamo's son,1.0,0.0,1.0,female,1.0,tertiary
+233,1,sat,27,30,18863,18866,2,31.0,52.0,18867.0,18888.0,,,,,verb.body,305,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+233,1,sat,27,30,18863,18866,15,31.0,52.0,18867.0,18888.0,,,,,verb.body,305,direct_object,the mother of Wassamo,2.0,2.0,4.0,female,1.0,tertiary
+233,1,sat,27,30,18863,18866,162,31.0,52.0,18867.0,18888.0,,,,,verb.body,305,direct_object,the mother of Wassamo's son,1.0,0.0,1.0,female,1.0,tertiary
+234,0,hear,1,5,18915,18919,18,6.0,8.0,18920.0,18922.0,,,,,verb.perception,307,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+234,1,said,11,15,18925,18929,18,16.0,26.0,18930.0,18940.0,,,,,verb.communication,311,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+235,1,seen,8,12,18950,18954,18,13.0,52.0,18955.0,18994.0,,,,,verb.perception,310,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+235,1,seen,8,12,18950,18954,15,13.0,52.0,18955.0,18994.0,,,,,verb.perception,310,direct_object,the mother of Wassamo,2.0,2.0,4.0,female,1.0,tertiary
+235,2,accuse,26,32,18968,18974,18,33.0,35.0,18975.0,18977.0,,,,,verb.communication,309,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+238,1,strained,16,24,19134,19142,165,25.0,35.0,19143.0,19153.0,36.0,93.0,19154.0,19211.0,verb.motion,312,direct_object,,,,,,,
+238,2,catch,39,44,19157,19162,18,45.0,93.0,19163.0,19211.0,,,,,verb.perception,314,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+238,2,catch,39,44,19157,19162,165,45.0,93.0,19163.0,19211.0,,,,,verb.perception,314,direct_object,,,,,,,
+239,1,fell,45,49,19258,19262,2,50.0,58.0,19263.0,19271.0,59.0,123.0,19272.0,19336.0,verb.motion,315,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+240,0,entered,3,10,19341,19348,2,11.0,35.0,19349.0,19373.0,,,,,verb.motion,316,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+240,0,entered,3,10,19341,19348,11,11.0,35.0,19349.0,19373.0,,,,,verb.motion,316,direct_object,Wassamo's parents,5.0,5.0,10.0,group/nonbinary,1.0,tertiary
+241,0,saw,5,8,19380,19383,2,9.0,78.0,19384.0,19453.0,,,,,verb.cognition,318,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+241,0,saw,5,8,19380,19383,165,9.0,78.0,19384.0,19453.0,,,,,verb.cognition,318,direct_object,,,,,,,
+241,3,known,69,74,19444,19449,2,75.0,78.0,19450.0,19453.0,,,,,verb.cognition,317,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+243,0,related,3,10,19569,19576,2,11.0,123.0,19577.0,19689.0,,,,,verb.communication,320,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+243,2,happened,24,32,19590,19598,2,33.0,39.0,19599.0,19605.0,40.0,123.0,19606.0,19689.0,verb.change,319,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+244,0,told,3,7,19694,19698,2,8.0,12.0,19699.0,19703.0,,,,,verb.communication,322,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+244,0,told,3,7,19694,19698,165,8.0,12.0,19699.0,19703.0,,,,,verb.communication,322,direct_object,,,,,,,
+245,0,added,3,8,19773,19778,2,9.0,22.0,19779.0,19792.0,24.0,46.0,19794.0,19816.0,verb.communication,324,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+245,0,added,3,8,19773,19778,139,9.0,22.0,19779.0,19792.0,24.0,46.0,19794.0,19816.0,verb.communication,324,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+245,0,added,3,8,19773,19778,173,9.0,22.0,19779.0,19792.0,24.0,46.0,19794.0,19816.0,verb.communication,324,direct_object,Wassamo's mother,1.0,0.0,1.0,female,1.0,tertiary
+245,4,left,85,89,19855,19859,2,90.0,98.0,19860.0,19868.0,99.0,135.0,19869.0,19905.0,verb.cognition,323,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+245,4,left,85,89,19855,19859,139,90.0,98.0,19860.0,19868.0,99.0,135.0,19869.0,19905.0,verb.cognition,323,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+247,0,found,11,16,19960,19965,139,17.0,20.0,19966.0,19969.0,21.0,32.0,19970.0,19981.0,verb.possession,325,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+247,1,conducted,67,76,20016,20025,139,77.0,80.0,20026.0,20029.0,81.0,123.0,20030.0,20072.0,verb.social,326,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+248,3,talk,116,120,20190,20194,182,121.0,130.0,20195.0,20204.0,131.0,152.0,20205.0,20226.0,verb.communication,328,direct_object,the Indian people,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+250,1,make,22,26,20327,20331,185,27.0,77.0,20332.0,20382.0,,,,,verb.social,331,direct_object,the old Sand - Spirit 's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+250,1,make,22,26,20327,20331,6,27.0,77.0,20332.0,20382.0,,,,,verb.social,331,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+251,1,heard,17,22,20400,20405,186,23.0,73.0,20406.0,20456.0,,,,,verb.cognition,330,direct_object,a magician and guardian of great power,1.0,0.0,1.0,unknown,0.0,tertiary
+251,1,heard,17,22,20400,20405,6,23.0,73.0,20406.0,20456.0,,,,,verb.cognition,330,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+253,1,sang,43,47,20732,20736,192,48.0,84.0,20737.0,20773.0,86.0,116.0,20775.0,20805.0,verb.creation,332,direct_object,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+254,1,watched,35,42,20841,20848,192,43.0,46.0,20849.0,20852.0,47.0,67.0,20853.0,20873.0,verb.perception,333,direct_object,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+255,0,made,3,7,20878,20882,192,8.0,68.0,20883.0,20943.0,,,,,verb.change,334,direct_object,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+255,1,ask,22,25,20897,20900,192,26.0,68.0,20901.0,20943.0,,,,,verb.communication,336,direct_object,The cousin of Wassamo,1.0,8.0,9.0,male,1.0,tertiary
+258,1,prepared,33,41,21266,21274,196,42.0,49.0,21275.0,21282.0,,,,,verb.change,340,direct_object,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+259,0,gave,8,12,21353,21357,2,13.0,19.0,21358.0,21364.0,,,,,verb.communication,342,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+259,0,gave,8,12,21353,21357,300,13.0,19.0,21358.0,21364.0,,,,,verb.communication,342,direct_object,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+259,2,disturb,54,61,21399,21406,196,62.0,65.0,21407.0,21410.0,67.0,128.0,21412.0,21473.0,verb.emotion,343,direct_object,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+260,1,said,23,27,21498,21502,200,28.0,42.0,21503.0,21517.0,,,,,verb.communication,344,direct_object,the wife of Wassamo's husband,1.0,1.0,2.0,female,0.5,tertiary
+260,1,said,23,27,21498,21502,368,28.0,42.0,21503.0,21517.0,,,,,verb.communication,344,direct_object,,,,,,,
+260,1,said,23,27,21498,21502,196,28.0,42.0,21503.0,21517.0,,,,,verb.communication,344,direct_object,the wife of Wassamo,2.0,12.0,14.0,female,1.0,tertiary
+266,0,brought,13,20,22024,22031,205,21.0,31.0,22032.0,22042.0,,,,,verb.motion,347,direct_object,each,2.0,3.0,5.0,male,1.0,tertiary
+266,1,asked,60,65,22071,22076,207,66.0,155.0,22077.0,22166.0,,,,,verb.communication,348,direct_object,a hunter,1.0,0.0,1.0,unknown,0.0,tertiary
+268,0,replied,8,15,22327,22334,2,16.0,81.0,22335.0,22400.0,,,,,verb.communication,349,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+268,0,replied,8,15,22327,22334,126,16.0,81.0,22335.0,22400.0,,,,,verb.communication,349,direct_object,Wassamo's father - in - law,2.0,0.0,2.0,male,1.0,tertiary
+268,2,mention,30,37,22349,22356,2,38.0,81.0,22357.0,22400.0,,,,,verb.communication,352,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+268,2,mention,30,37,22349,22356,126,38.0,81.0,22357.0,22400.0,,,,,verb.communication,352,direct_object,Wassamo's father - in - law,2.0,0.0,2.0,male,1.0,tertiary
+269,7,painted,151,158,22553,22560,2,193.0,243.0,22595.0,22645.0,,,,,verb.contact,350,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+269,7,painted,151,158,22553,22560,124,193.0,243.0,22595.0,22645.0,,,,,verb.contact,350,direct_object,the Old Spirit's family,2.0,0.0,2.0,unknown,0.0,tertiary
+269,7,painted,151,158,22553,22560,213,193.0,243.0,22595.0,22645.0,,,,,verb.contact,350,direct_object,tribe,1.0,0.0,1.0,unknown,0.0,tertiary
+269,8,marked,163,169,22565,22571,2,193.0,243.0,22595.0,22645.0,,,,,verb.contact,351,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+269,8,marked,163,169,22565,22571,124,193.0,243.0,22595.0,22645.0,,,,,verb.contact,351,direct_object,the Old Spirit's family,2.0,0.0,2.0,unknown,0.0,tertiary
+269,8,marked,163,169,22565,22571,213,193.0,243.0,22595.0,22645.0,,,,,verb.contact,351,direct_object,tribe,1.0,0.0,1.0,unknown,0.0,tertiary
+270,1,read,32,36,22679,22683,2,37.0,51.0,22684.0,22698.0,,,,,verb.cognition,353,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+270,2,do,57,59,22704,22706,2,60.0,80.0,22707.0,22727.0,,,,,verb.social,354,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+270,2,do,57,59,22704,22706,216,60.0,80.0,22707.0,22727.0,,,,,verb.social,354,direct_object,Wassamo's various petitioners,1.0,0.0,1.0,unknown,0.0,tertiary
+270,2,do,57,59,22704,22706,215,60.0,80.0,22707.0,22727.0,,,,,verb.social,354,direct_object,Wassamo's of his various petitioners,1.0,0.0,1.0,unknown,0.0,tertiary
+270,3,thought,68,75,22715,22722,2,76.0,80.0,22723.0,22727.0,,,,,verb.cognition,355,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+270,3,thought,68,75,22715,22722,216,76.0,80.0,22723.0,22727.0,,,,,verb.cognition,355,direct_object,Wassamo's various petitioners,1.0,0.0,1.0,unknown,0.0,tertiary
+270,3,thought,68,75,22715,22722,215,76.0,80.0,22723.0,22727.0,,,,,verb.cognition,355,direct_object,Wassamo's of his various petitioners,1.0,0.0,1.0,unknown,0.0,tertiary
+271,1,warned,46,52,22811,22817,2,53.0,63.0,22818.0,22828.0,,,,,verb.communication,357,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+271,1,warned,46,52,22811,22817,217,53.0,63.0,22818.0,22828.0,,,,,verb.communication,357,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+271,3,follow,85,91,22850,22856,2,92.0,95.0,22857.0,22860.0,,,,,verb.motion,358,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+271,4,attempt,100,107,22865,22872,2,108.0,139.0,22873.0,22904.0,,,,,verb.social,360,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+272,0,took,8,12,22914,22918,5,13.0,91.0,22919.0,22997.0,,,,,verb.contact,361,direct_object,Netawis,4.0,2.0,6.0,unknown,0.0,tertiary
+273,0,insisted,3,11,23002,23010,2,12.0,77.0,23011.0,23076.0,,,,,verb.communication,364,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+273,0,insisted,3,11,23002,23010,139,12.0,77.0,23011.0,23076.0,,,,,verb.communication,364,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+273,1,attending,32,41,23031,23040,2,42.0,62.0,23041.0,23061.0,63.0,77.0,,,verb.communication,363,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+273,1,attending,32,41,23031,23040,139,42.0,62.0,23041.0,23061.0,63.0,77.0,,,verb.communication,363,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+273,2,reached,93,100,23092,23099,2,101.0,185.0,23100.0,23184.0,,,,,verb.motion,365,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+273,2,reached,93,100,23092,23099,217,101.0,185.0,23100.0,23184.0,,,,,verb.motion,365,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+273,3,expressed,119,128,23118,23127,217,129.0,185.0,23128.0,23184.0,,,,,verb.communication,366,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+273,4,proceed,151,158,23150,23157,217,159.0,168.0,23158.0,23167.0,,,,,verb.motion,367,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+274,0,told,8,12,23194,23198,2,13.0,16.0,23199.0,23202.0,,,,,verb.communication,369,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+276,0,took,10,14,23331,23335,21,15.0,50.0,23336.0,23371.0,52.0,162.0,23373.0,23483.0,verb.social,370,direct_object,each other,4.0,0.0,4.0,unknown,0.0,tertiary
+277,1,obey,46,50,23531,23535,18,99.0,101.0,23584.0,23586.0,,,,,verb.social,373,direct_object,The cousin,20.0,53.0,73.0,male,1.0,tertiary
+278,1,told,22,26,23676,23680,2,27.0,38.0,23681.0,23692.0,,,,,verb.communication,378,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+278,1,told,22,26,23676,23680,300,27.0,38.0,23681.0,23692.0,,,,,verb.communication,378,direct_object,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+278,1,told,22,26,23676,23680,139,27.0,38.0,23681.0,23692.0,,,,,verb.communication,378,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+279,0,doubted,7,14,23769,23776,2,15.0,36.0,23777.0,23798.0,37.0,40.0,23799.0,23802.0,verb.communication,380,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+280,0,reached,27,34,23831,23838,217,35.0,58.0,23839.0,23862.0,,,,,verb.motion,381,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+281,1,delighted,49,58,23913,23922,217,59.0,70.0,23923.0,23934.0,,,,,verb.emotion,382,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+281,2,see,62,65,23926,23929,217,66.0,70.0,23930.0,23934.0,,,,,verb.social,383,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+282,0,hailed,3,9,23939,23945,217,10.0,22.0,23946.0,23958.0,,,,,verb.communication,384,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+283,0,opened,8,14,23982,23988,6,15.0,23.0,23989.0,23997.0,,,,,verb.contact,385,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+283,2,embraced,75,83,24049,24057,2,84.0,167.0,24058.0,24141.0,,,,,verb.body,388,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+283,2,embraced,75,83,24049,24057,217,84.0,167.0,24058.0,24141.0,,,,,verb.body,388,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+283,2,embraced,75,83,24049,24057,139,84.0,167.0,24058.0,24141.0,,,,,verb.body,388,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+284,1,made,39,43,24182,24186,6,44.0,56.0,24187.0,24199.0,,,,,verb.change,389,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+285,0,replied,4,11,24204,24211,300,12.0,100.0,24212.0,24300.0,,,,,verb.communication,390,direct_object,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+285,0,replied,4,11,24204,24211,6,12.0,100.0,24212.0,24300.0,,,,,verb.communication,390,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+285,4,invite,64,70,24264,24270,300,71.0,82.0,24271.0,24282.0,,,,,verb.emotion,392,direct_object,Wassamo's friends,5.0,2.0,7.0,group/nonbinary,1.0,tertiary
+285,4,invite,64,70,24264,24270,6,71.0,82.0,24271.0,24282.0,,,,,verb.emotion,392,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,0,dispatched,23,33,24325,24335,235,34.0,70.0,24336.0,24372.0,71.0,116.0,24373.0,24418.0,verb.motion,394,direct_object,the old Sand - Spirit's pipe - bearer,1.0,0.0,1.0,unknown,0.0,tertiary
+286,0,dispatched,23,33,24325,24335,6,34.0,70.0,24336.0,24372.0,71.0,116.0,24373.0,24418.0,verb.motion,394,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,1,summon,74,80,24376,24382,236,81.0,116.0,24383.0,24418.0,,,,,verb.communication,395,direct_object,the old Sand - Spirit's Spirits of his acquaintance,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+286,1,summon,74,80,24376,24382,6,81.0,116.0,24383.0,24418.0,,,,,verb.communication,395,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+286,2,set,122,125,24424,24427,236,126.0,151.0,24428.0,24453.0,,,,,verb.communication,396,direct_object,the old Sand - Spirit's Spirits of his acquaintance,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+287,0,had,13,16,24468,24471,2,17.0,60.0,24472.0,24515.0,,,,,verb.possession,397,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+287,0,had,13,16,24468,24471,187,17.0,60.0,24472.0,24515.0,,,,,verb.possession,397,direct_object,the old Sand - Spirit's son - in - law,3.0,0.0,3.0,unknown,0.0,tertiary
+287,0,had,13,16,24468,24471,6,17.0,60.0,24472.0,24515.0,,,,,verb.possession,397,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,0,said,10,14,24527,24531,371,15.0,17.0,24532.0,24534.0,,,,,verb.communication,400,direct_object,the old Sand - Spirit's Manitoes that I have asked to come here,1.0,0.0,1.0,unknown,0.0,tertiary
+288,0,said,10,14,24527,24531,6,15.0,17.0,24532.0,24534.0,,,,,verb.communication,400,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,5,warn,109,113,24626,24630,332,114.0,117.0,24631.0,24634.0,118.0,136.0,24635.0,24653.0,verb.communication,402,direct_object,the old Sand - Spirit's daughter,4.0,2.0,6.0,female,1.0,tertiary
+288,5,warn,109,113,24626,24630,289,114.0,117.0,24631.0,24634.0,118.0,136.0,24635.0,24653.0,verb.communication,402,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+288,5,warn,109,113,24626,24630,6,114.0,117.0,24631.0,24634.0,118.0,136.0,24635.0,24653.0,verb.communication,402,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,6,wished,155,161,24672,24678,332,162.0,182.0,24679.0,24699.0,,,,,verb.cognition,401,direct_object,the old Sand - Spirit's daughter,4.0,2.0,6.0,female,1.0,tertiary
+288,6,wished,155,161,24672,24678,6,162.0,182.0,24679.0,24699.0,,,,,verb.cognition,401,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+288,7,marry,165,170,24682,24687,332,171.0,182.0,24688.0,24699.0,,,,,verb.social,403,direct_object,the old Sand - Spirit's daughter,4.0,2.0,6.0,female,1.0,tertiary
+288,7,marry,165,170,24682,24687,6,171.0,182.0,24688.0,24699.0,,,,,verb.social,403,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+289,2,like,43,47,24744,24748,289,48.0,62.0,24749.0,24763.0,,,,,verb.emotion,404,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+289,3,do,51,53,24752,24754,289,54.0,57.0,24755.0,24758.0,,,,,verb.social,405,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+294,1,save,13,17,24945,24949,289,18.0,21.0,24950.0,24953.0,,,,,verb.social,407,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+295,5,draw,77,81,25031,25035,289,82.0,85.0,25036.0,25039.0,,,,,verb.contact,408,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+295,6,toss,106,110,25060,25064,289,111.0,114.0,25065.0,25068.0,115.0,160.0,25069.0,25114.0,verb.contact,409,direct_object,Wassamo's son,3.0,31.0,34.0,unknown,0.0,tertiary
+296,1,observe,17,24,25133,25140,6,25.0,33.0,25141.0,25149.0,,,,,verb.perception,410,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+297,2,answered,51,59,25224,25232,2,60.0,78.0,25233.0,25251.0,,,,,verb.communication,412,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+302,1,smiled,16,22,25488,25494,2,23.0,29.0,25495.0,25501.0,,,,,verb.body,416,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+305,2,rolled,132,138,25889,25895,248,139.0,242.0,25896.0,25999.0,,,,,verb.body,419,direct_object,the Guardian Spirit and special director of a great cataract or water - fall,1.0,0.0,1.0,unknown,0.0,tertiary
+307,0,following,4,13,26136,26145,251,14.0,22.0,26146.0,26154.0,,,,,verb.motion,421,direct_object,this one,1.0,0.0,1.0,unknown,0.0,tertiary
+307,4,understood,86,96,26218,26228,254,97.0,248.0,26229.0,26380.0,,,,,verb.cognition,420,direct_object,young lovers,1.0,0.0,1.0,unknown,0.0,tertiary
+310,2,raised,35,41,26510,26516,255,42.0,87.0,26517.0,26562.0,88.0,148.0,,,verb.motion,423,direct_object,The last to appear,1.0,4.0,5.0,male,1.0,tertiary
+311,2,cling,51,56,26675,26680,2,57.0,68.0,26681.0,26692.0,,,,,verb.motion,424,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+311,2,cling,51,56,26675,26680,139,57.0,68.0,26681.0,26692.0,,,,,verb.motion,424,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+312,3,looked,70,76,26764,26770,2,77.0,145.0,26771.0,26839.0,,,,,verb.perception,426,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+312,3,looked,70,76,26764,26770,259,77.0,145.0,26771.0,26839.0,,,,,verb.perception,426,direct_object,Wassamo 's wife,1.0,0.0,1.0,female,1.0,tertiary
+312,5,rejected,116,124,26810,26818,2,125.0,128.0,26819.0,26822.0,130.0,145.0,26824.0,26839.0,verb.cognition,425,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+313,1,arose,63,68,26904,26909,261,83.0,95.0,26924.0,26936.0,,,,,verb.motion,427,direct_object,the assembly,1.0,0.0,1.0,unknown,0.0,tertiary
+313,2,addressed,73,82,26914,26923,261,83.0,95.0,26924.0,26936.0,,,,,verb.communication,428,direct_object,the assembly,1.0,0.0,1.0,unknown,0.0,tertiary
+314,0,said,15,19,26953,26957,260,22.0,133.0,26960.0,27071.0,,,,,verb.communication,430,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+314,0,said,15,19,26953,26957,10,22.0,133.0,26960.0,27071.0,,,,,verb.communication,430,direct_object,Brothers,2.0,2.0,4.0,male,1.0,tertiary
+314,2,invited,29,36,26967,26974,381,37.0,40.0,26975.0,26978.0,,,,,verb.communication,429,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+314,2,invited,29,36,26967,26974,2,37.0,40.0,26975.0,26978.0,,,,,verb.communication,429,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+314,2,invited,29,36,26967,26974,260,37.0,40.0,26975.0,26978.0,,,,,verb.communication,429,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+314,2,invited,29,36,26967,26974,384,37.0,40.0,26975.0,26978.0,,,,,verb.communication,429,direct_object,our relation,1.0,0.0,1.0,unknown,0.0,tertiary
+314,2,invited,29,36,26967,26974,10,37.0,40.0,26975.0,26978.0,,,,,verb.communication,429,direct_object,Brothers,2.0,2.0,4.0,male,1.0,tertiary
+314,3,partake,44,51,26982,26989,384,60.0,146.0,26998.0,27084.0,,,,,verb.social,432,direct_object,our relation,1.0,0.0,1.0,unknown,0.0,tertiary
+314,3,partake,44,51,26982,26989,381,60.0,146.0,26998.0,27084.0,,,,,verb.social,432,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+314,7,brought,123,130,27061,27068,384,131.0,146.0,27069.0,27084.0,,,,,verb.motion,431,direct_object,our relation,1.0,0.0,1.0,unknown,0.0,tertiary
+315,0,see,15,18,27123,27126,260,19.0,113.0,27127.0,27221.0,,,,,verb.cognition,433,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+315,0,see,15,18,27123,27126,381,19.0,113.0,27127.0,27221.0,,,,,verb.cognition,433,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+315,2,laying,69,75,27177,27183,260,76.0,84.0,27184.0,27192.0,85.0,113.0,,,verb.contact,434,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+317,0,see,12,15,27281,27284,260,16.0,72.0,27285.0,27341.0,,,,,verb.cognition,435,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+317,0,see,12,15,27281,27284,381,16.0,72.0,27285.0,27341.0,,,,,verb.cognition,435,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+317,1,hinder,38,44,27307,27313,381,45.0,72.0,27314.0,27341.0,,,,,verb.social,436,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+317,2,granting,49,57,27318,27326,381,58.0,72.0,27327.0,27341.0,,,,,verb.possession,437,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+321,1,grant,9,14,27518,27523,381,15.0,29.0,27524.0,27538.0,,,,,verb.possession,438,direct_object,"the mortals on earth , which have been brought by our relation",1.0,4.0,5.0,group/nonbinary,1.0,tertiary
+325,0,wish,2,6,27630,27634,260,7.0,28.0,27635.0,27656.0,,,,,verb.cognition,439,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+325,0,wish,2,6,27630,27634,388,7.0,28.0,27635.0,27656.0,,,,,verb.cognition,439,direct_object,"the old Sand - Spirit , who was a great speech - maker's son - in law",1.0,3.0,4.0,male,1.0,tertiary
+325,1,detain,10,16,27638,27644,260,17.0,20.0,27645.0,27648.0,,,,,verb.social,441,direct_object,"the old Sand - Spirit , who was a great speech - maker",1.0,10.0,11.0,male,1.0,tertiary
+325,1,detain,10,16,27638,27644,388,17.0,20.0,27645.0,27648.0,,,,,verb.social,441,direct_object,"the old Sand - Spirit , who was a great speech - maker's son - in law",1.0,3.0,4.0,male,1.0,tertiary
+325,3,make,59,63,27687,27691,388,64.0,77.0,27692.0,27705.0,,,,,verb.change,443,direct_object,"the old Sand - Spirit , who was a great speech - maker's son - in law",1.0,3.0,4.0,male,1.0,tertiary
+331,1,understood,11,21,27811,27821,264,22.0,165.0,27822.0,27965.0,,,,,verb.cognition,444,direct_object,a member of the great family of Spirits,1.0,0.0,1.0,unknown,0.0,tertiary
+331,1,understood,11,21,27811,27821,262,22.0,165.0,27822.0,27965.0,,,,,verb.cognition,444,direct_object,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+331,1,understood,11,21,27811,27821,263,22.0,165.0,27822.0,27965.0,,,,,verb.cognition,444,direct_object,the petitioners,1.0,0.0,1.0,unknown,0.0,tertiary
+331,1,understood,11,21,27811,27821,2,22.0,165.0,27822.0,27965.0,,,,,verb.cognition,444,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+331,1,understood,11,21,27811,27821,265,22.0,165.0,27822.0,27965.0,,,,,verb.cognition,444,direct_object,the great family of Spirits,1.0,0.0,1.0,unknown,0.0,tertiary
+331,3,have,51,55,27851,27855,262,56.0,70.0,27856.0,27870.0,,,,,verb.possession,446,direct_object,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+331,6,accepted,114,122,27914,27922,265,123.0,165.0,27923.0,27965.0,,,,,verb.possession,447,direct_object,the great family of Spirits,1.0,0.0,1.0,unknown,0.0,tertiary
+331,6,accepted,114,122,27914,27922,264,123.0,165.0,27923.0,27965.0,,,,,verb.possession,447,direct_object,a member of the great family of Spirits,1.0,0.0,1.0,unknown,0.0,tertiary
+332,0,asked,34,39,28001,28006,187,40.0,54.0,28007.0,28021.0,,,,,verb.communication,448,direct_object,the old Sand - Spirit's son - in - law,3.0,0.0,3.0,unknown,0.0,tertiary
+332,0,asked,34,39,28001,28006,101,40.0,54.0,28007.0,28021.0,,,,,verb.communication,448,direct_object,the Old Spirit,8.0,19.0,27.0,male,1.0,tertiary
+333,0,let,1,4,28078,28081,2,5.0,79.0,28082.0,28156.0,,,,,verb.social,450,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+333,0,let,1,4,28078,28081,390,5.0,79.0,28082.0,28156.0,,,,,verb.social,450,direct_object,my father 's people,1.0,0.0,1.0,male,1.0,tertiary
+333,0,let,1,4,28078,28081,389,5.0,79.0,28082.0,28156.0,,,,,verb.social,450,direct_object,Wassamo's father,1.0,0.0,1.0,male,1.0,tertiary
+333,3,said,82,86,28159,28163,2,87.0,94.0,28164.0,28171.0,,,,,verb.communication,452,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+334,2,answered,18,26,28191,28199,6,27.0,46.0,28200.0,28219.0,,,,,verb.communication,454,direct_object,the old Sand - Spirit,9.0,52.0,61.0,male,1.0,tertiary
+336,0,filled,5,11,28289,28295,262,12.0,201.0,28296.0,28485.0,,,,,verb.change,453,direct_object,the whole company of Spirits,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+337,5,losing,134,140,28621,28627,7,141.0,151.0,28628.0,28638.0,152.0,278.0,28639.0,28765.0,verb.possession,459,direct_object,the Sand - Spirits,2.0,8.0,10.0,group/nonbinary,1.0,tertiary
+337,8,departed,250,258,28737,28745,205,262.0,278.0,28749.0,28765.0,,,,,verb.motion,456,direct_object,each,2.0,3.0,5.0,male,1.0,tertiary
+338,2,taken,91,96,28858,28863,121,97.0,117.0,28864.0,28884.0,,,,,verb.social,458,direct_object,the old Sand - Spirit,5.0,1.0,6.0,male,1.0,tertiary
+338,3,addressed,119,128,28886,28895,2,129.0,136.0,28896.0,28903.0,,,,,verb.communication,460,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+338,6,allow,177,182,28944,28949,337,183.0,186.0,28950.0,28953.0,,,,,verb.social,462,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+338,7,acquitted,260,269,29027,29036,337,270.0,278.0,29037.0,29045.0,,,,,verb.social,461,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+339,1,visit,8,13,29071,29076,327,14.0,40.0,29077.0,29103.0,41.0,134.0,29104.0,29197.0,verb.social,463,direct_object,Wassamo's son's parents,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+339,1,visit,8,13,29071,29076,394,14.0,40.0,29077.0,29103.0,41.0,134.0,29104.0,29197.0,verb.social,463,direct_object,relatives,1.0,0.0,1.0,unknown,0.0,tertiary
+339,1,visit,8,13,29071,29076,337,14.0,40.0,29077.0,29103.0,41.0,134.0,29104.0,29197.0,verb.social,463,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+339,2,tell,55,59,29118,29122,327,60.0,64.0,29123.0,29127.0,,,,,verb.communication,465,direct_object,Wassamo's son's parents,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+339,5,take,103,107,29166,29170,327,108.0,126.0,29171.0,29189.0,127.0,134.0,29190.0,29197.0,verb.possession,466,direct_object,Wassamo's son's parents,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+339,5,take,103,107,29166,29170,337,108.0,126.0,29171.0,29189.0,127.0,134.0,29190.0,29197.0,verb.possession,466,direct_object,Son - in - law,4.0,29.0,33.0,unknown,0.0,tertiary
+340,1,visit,22,27,29221,29226,327,28.0,32.0,29227.0,29231.0,33.0,38.0,29232.0,29237.0,verb.social,467,direct_object,Wassamo's son's parents,2.0,4.0,6.0,group/nonbinary,1.0,tertiary
+341,1,reached,25,32,29265,29272,2,33.0,43.0,29273.0,29283.0,,,,,verb.motion,468,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+341,1,reached,25,32,29265,29272,217,33.0,43.0,29273.0,29283.0,,,,,verb.motion,468,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+342,0,asked,5,10,29317,29322,2,11.0,23.0,29323.0,29335.0,,,,,verb.communication,470,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+342,0,asked,5,10,29317,29322,139,11.0,23.0,29323.0,29335.0,,,,,verb.communication,470,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+342,1,informed,37,45,29349,29357,277,46.0,50.0,29358.0,29362.0,,,,,verb.communication,472,direct_object,a son,1.0,0.0,1.0,unknown,0.0,tertiary
+342,1,informed,37,45,29349,29357,139,46.0,50.0,29358.0,29362.0,,,,,verb.communication,472,direct_object,Wassamo's wife,10.0,10.0,20.0,female,1.0,tertiary
+342,1,informed,37,45,29349,29357,278,46.0,50.0,29358.0,29362.0,,,,,verb.communication,472,direct_object,"Wassamo's people's fine little Sand - Spirit , who had been born to them since his return",1.0,0.0,1.0,unknown,0.0,tertiary
+342,1,informed,37,45,29349,29357,2,46.0,50.0,29358.0,29362.0,,,,,verb.communication,472,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+342,1,informed,37,45,29349,29357,217,46.0,50.0,29358.0,29362.0,,,,,verb.communication,472,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+343,1,delivered,7,16,29491,29500,2,17.0,36.0,29501.0,29520.0,,,,,verb.communication,473,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+343,3,said,70,74,29554,29558,2,77.0,116.0,29561.0,29600.0,,,,,verb.communication,475,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+343,3,said,70,74,29554,29558,217,77.0,116.0,29561.0,29600.0,,,,,verb.communication,475,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+343,5,bid,88,91,29572,29575,217,92.0,95.0,29576.0,29579.0,109.0,116.0,29593.0,29600.0,verb.communication,474,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+344,0,raised,24,30,29627,29633,217,31.0,43.0,29634.0,29646.0,44.0,63.0,29647.0,29666.0,verb.communication,476,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+345,3,allowed,97,104,29764,29771,2,105.0,144.0,29772.0,29811.0,,,,,verb.communication,477,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+345,3,allowed,97,104,29764,29771,217,105.0,144.0,29772.0,29811.0,,,,,verb.communication,477,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+345,4,accompany,113,122,29780,29789,2,123.0,126.0,29790.0,29793.0,,,,,verb.motion,479,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+346,0,seated,9,15,29822,29828,217,16.0,26.0,29829.0,29839.0,27.0,53.0,29840.0,29866.0,verb.motion,480,direct_object,Wassamo's people,2.0,24.0,26.0,group/nonbinary,1.0,tertiary
+346,1,watch,30,35,29843,29848,2,36.0,53.0,29849.0,29866.0,,,,,verb.perception,481,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+349,0,fell,18,22,30013,30017,239,23.0,39.0,30018.0,30034.0,,,,,verb.change,482,direct_object,the company,3.0,0.0,3.0,unknown,0.0,tertiary
+350,1,fastened,27,35,30063,30071,2,36.0,46.0,30072.0,30082.0,,,,,verb.contact,483,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+350,3,waving,80,86,30116,30122,2,87.0,96.0,30123.0,30132.0,,,,,verb.motion,486,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+351,0,saw,5,8,30139,30142,2,9.0,52.0,30143.0,30186.0,,,,,verb.perception,488,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary
+352,0,beheld,5,11,30193,30199,2,12.0,41.0,30200.0,30229.0,,,,,verb.perception,489,direct_object,Wassamo,70.0,187.0,257.0,male,1.0,primary

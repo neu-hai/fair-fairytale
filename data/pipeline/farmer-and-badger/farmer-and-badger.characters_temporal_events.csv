@@ -1,0 +1,386 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,made,63,67,63,67,1,28.0,54.0,28.0,54.0,,,,,verb.creation,0,subject,an old farmer,1.0,2.0,3.0,male,1.0,tertiary
+0,2,made,63,67,63,67,2,28.0,54.0,28.0,54.0,,,,,verb.creation,0,subject,an old farmer's wife,5.0,1.0,6.0,female,1.0,tertiary
+2,2,run,45,48,213,216,7,0.0,11.0,168.0,179.0,,,,,verb.motion,1,subject,This badger,1.0,0.0,1.0,unknown,0.0,tertiary
+2,3,spoil,82,87,250,255,7,0.0,11.0,168.0,179.0,,,,,verb.possession,3,subject,This badger,1.0,0.0,1.0,unknown,0.0,tertiary
+2,5,cultivating,161,172,329,340,8,122.0,132.0,290.0,300.0,,,,,verb.creation,2,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+3,0,grew,19,23,361,365,11,0.0,18.0,342.0,360.0,36.0,59.0,378.0,401.0,verb.change,4,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+3,1,did,65,68,407,410,11,0.0,18.0,342.0,360.0,82.0,104.0,424.0,446.0,verb.social,5,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+3,3,stand,145,150,487,492,13,111.0,134.0,453.0,476.0,154.0,164.0,496.0,506.0,verb.emotion,6,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+3,4,determined,170,180,512,522,13,111.0,134.0,453.0,476.0,,,,,verb.cognition,7,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+3,5,put,184,187,526,529,13,111.0,134.0,453.0,476.0,,,,,verb.contact,8,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+4,1,hoping,72,78,616,622,13,3.0,5.0,547.0,549.0,,,,,verb.emotion,9,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+5,0,laid,8,12,669,673,13,5.0,7.0,666.0,668.0,,,,,verb.contact,10,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+6,1,rewarded,38,46,741,749,8,0.0,33.0,703.0,736.0,,,,,verb.possession,11,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+6,3,found,88,93,791,796,13,85.0,87.0,788.0,790.0,,,,,verb.perception,15,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+6,6,dug,129,132,832,835,13,115.0,121.0,818.0,824.0,,,,,verb.creation,13,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+7,2,caught,35,41,889,895,8,0.0,10.0,854.0,864.0,,,,,verb.cognition,16,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+7,3,carried,57,64,911,918,8,0.0,10.0,854.0,864.0,69.0,98.0,923.0,952.0,verb.contact,17,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+8,0,reached,8,15,962,969,13,5.0,7.0,959.0,961.0,,,,,verb.motion,18,subject,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+8,1,said,37,41,991,995,8,26.0,36.0,980.0,990.0,,,,,verb.communication,20,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+8,3,caught,71,77,1025,1031,8,56.0,57.0,1010.0,1011.0,,,,,verb.cognition,19,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+9,3,let,59,62,1107,1110,2,0.0,3.0,1048.0,1051.0,,,,,verb.communication,22,subject,an old farmer's wife,5.0,1.0,6.0,female,1.0,tertiary
+9,4,escape,67,73,1115,1121,16,63.0,66.0,1111.0,1114.0,,,,,verb.motion,21,subject,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+9,5,want,85,89,1133,1137,8,83.0,84.0,1131.0,1132.0,,,,,verb.emotion,23,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+9,6,make,93,97,1141,1145,8,83.0,84.0,1131.0,1132.0,112.0,120.0,1160.0,1168.0,verb.change,24,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+10,1,hung,16,20,1187,1191,8,13.0,15.0,1184.0,1186.0,,,,,verb.contact,26,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+11,4,thought,113,120,1392,1399,11,110.0,112.0,1389.0,1391.0,,,,,verb.cognition,27,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+11,5,thought,125,132,1404,1411,11,110.0,112.0,1389.0,1391.0,,,,,verb.cognition,28,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+11,9,escape,197,203,1476,1482,11,188.0,190.0,1467.0,1469.0,,,,,verb.motion,33,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+12,4,hung,76,80,1560,1564,11,64.0,66.0,1548.0,1550.0,,,,,verb.contact,31,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+13,2,pounding,156,164,1734,1742,8,134.0,155.0,1712.0,1733.0,,,,,verb.contact,35,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+13,2,pounding,156,164,1734,1742,27,134.0,155.0,1712.0,1733.0,,,,,verb.contact,35,subject,the farmer 's old wife,1.0,4.0,5.0,female,1.0,tertiary
+14,0,looked,4,10,1755,1761,27,0.0,3.0,1751.0,1754.0,,,,,verb.body,37,subject,the farmer 's old wife,1.0,4.0,5.0,female,1.0,tertiary
+15,1,seamed,13,19,1790,1796,27,0.0,8.0,1777.0,1785.0,,,,,verb.contact,36,subject,the farmer 's old wife,1.0,4.0,5.0,female,1.0,tertiary
+15,4,wipe,107,111,1884,1888,27,92.0,95.0,1869.0,1872.0,,,,,verb.contact,38,subject,the farmer 's old wife,1.0,4.0,5.0,female,1.0,tertiary
+16,0,said,13,17,1947,1951,174,1.0,10.0,1935.0,1944.0,,,,,verb.communication,40,subject,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+16,3,doing,59,64,1993,1998,174,36.0,39.0,1970.0,1973.0,81.0,96.0,2015.0,2030.0,verb.social,39,subject,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+17,1,let,10,13,2042,2045,174,6.0,9.0,2038.0,2041.0,,,,,verb.social,41,subject,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+17,2,do,17,19,2049,2051,28,14.0,16.0,2046.0,2048.0,,,,,verb.social,42,subject,the wily badger,1.0,3.0,4.0,unknown,0.0,tertiary
+18,2,relieve,37,44,2103,2110,28,29.0,30.0,2095.0,2096.0,49.0,67.0,2115.0,2133.0,verb.body,43,subject,the wily badger,1.0,3.0,4.0,unknown,0.0,tertiary
+19,1,said,31,35,2167,2171,11,1.0,28.0,2137.0,2164.0,,,,,verb.communication,45,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+19,3,let,65,68,2201,2204,29,56.0,57.0,2192.0,2193.0,93.0,182.0,2229.0,2318.0,verb.social,44,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+19,4,do,73,75,2209,2211,11,69.0,72.0,2205.0,2208.0,,,,,verb.social,46,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+19,6,untie,112,117,2248,2253,29,101.0,102.0,2237.0,2238.0,,,,,verb.contact,47,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+19,8,escape,137,143,2273,2279,11,127.0,130.0,2263.0,2266.0,,,,,verb.motion,48,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+19,13,found,209,214,2345,2350,175,192.0,194.0,2328.0,2330.0,,,,,verb.perception,49,subject,The old woman's husband,1.0,2.0,3.0,male,1.0,tertiary
+21,1,untie,10,15,2497,2502,174,0.0,3.0,2487.0,2490.0,20.0,54.0,2507.0,2541.0,verb.contact,50,subject,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+22,3,bind,50,54,2593,2597,174,46.0,49.0,2589.0,2592.0,58.0,122.0,2601.0,2665.0,verb.contact,51,subject,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+24,1,let,18,21,2727,2730,174,3.0,6.0,2712.0,2715.0,30.0,47.0,2739.0,2756.0,verb.social,53,subject,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+25,2,think,58,63,2844,2849,29,0.0,13.0,2786.0,2799.0,,,,,verb.cognition,54,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+26,1,think,18,23,2886,2891,29,14.0,17.0,2882.0,2885.0,,,,,verb.cognition,56,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+26,3,deceiving,49,58,2917,2926,11,29.0,39.0,2897.0,2907.0,63.0,83.0,2931.0,2951.0,verb.social,55,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+27,0,felt,4,8,2957,2961,29,0.0,3.0,2953.0,2956.0,36.0,64.0,2989.0,3017.0,verb.emotion,57,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+27,1,turned,43,49,2996,3002,29,39.0,42.0,2992.0,2995.0,,,,,verb.motion,58,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+27,2,look,53,57,3006,3010,29,39.0,42.0,2992.0,2995.0,,,,,verb.perception,61,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+28,0,looked,3,9,3022,3028,11,0.0,2.0,3019.0,3021.0,,,,,verb.perception,60,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+29,3,untied,102,108,3296,3302,29,98.0,101.0,3292.0,3295.0,,,,,verb.contact,63,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+29,4,let,122,125,3316,3319,29,98.0,101.0,3292.0,3295.0,130.0,134.0,3324.0,3328.0,verb.social,64,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+30,0,gave,19,23,3349,3353,29,0.0,13.0,3330.0,3343.0,,,,,verb.possession,65,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+30,1,told,50,54,3380,3384,29,0.0,13.0,3330.0,3343.0,,,,,verb.communication,66,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+30,2,do,62,64,3392,3394,11,55.0,58.0,3385.0,3388.0,74.0,107.0,3404.0,3437.0,verb.social,67,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+30,3,rested,101,107,3431,3437,29,97.0,100.0,3427.0,3430.0,,,,,verb.body,68,subject,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+31,0,took,3,7,3442,3446,11,0.0,2.0,3439.0,3441.0,,,,,verb.possession,69,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+31,3,told,60,64,3499,3503,11,53.0,55.0,3492.0,3494.0,,,,,verb.communication,70,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+31,5,knocked,115,122,3554,3561,11,66.0,76.0,3505.0,3515.0,132.0,140.0,3571.0,3579.0,verb.contact,72,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+32,0,killed,8,14,3609,3615,11,0.0,2.0,3601.0,3603.0,,,,,verb.contact,73,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+32,1,cut,23,26,3624,3627,11,0.0,2.0,3601.0,3603.0,,,,,verb.contact,74,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+32,2,made,38,42,3639,3643,11,0.0,2.0,3601.0,3603.0,,,,,verb.creation,76,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+33,0,worked,12,18,3714,3720,39,0.0,11.0,3702.0,3713.0,,,,,verb.social,75,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+33,1,worked,57,63,3759,3765,39,54.0,56.0,3756.0,3758.0,,,,,verb.social,77,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+33,2,thought,67,74,3769,3776,39,64.0,66.0,3766.0,3768.0,,,,,verb.cognition,78,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+33,5,spoiled,125,132,3827,3834,39,112.0,121.0,3814.0,3823.0,,,,,verb.social,79,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+34,0,left,18,22,3880,3884,39,15.0,17.0,3877.0,3879.0,,,,,verb.social,80,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+34,1,turned,36,42,3898,3904,39,15.0,17.0,3877.0,3879.0,,,,,verb.motion,81,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+35,2,cheered,93,100,4010,4017,39,23.0,92.0,3940.0,4009.0,,,,,verb.emotion,83,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+36,1,get,34,37,4057,4060,11,17.0,27.0,4040.0,4050.0,,,,,verb.change,85,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+36,3,came,93,97,4116,4120,11,0.0,81.0,4023.0,4104.0,,,,,verb.change,84,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+36,3,came,93,97,4116,4120,44,0.0,81.0,4023.0,4104.0,,,,,verb.change,84,subject,the poor old woman,1.0,0.0,1.0,female,1.0,tertiary
+37,0,assumed,21,28,4157,4164,11,0.0,10.0,4136.0,4146.0,,,,,verb.cognition,86,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+37,1,saw,69,72,4205,4208,11,66.0,68.0,4202.0,4204.0,,,,,verb.perception,88,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+37,2,approaching,88,99,4224,4235,38,73.0,87.0,4209.0,4223.0,,,,,verb.motion,87,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+37,4,greet,112,117,4248,4253,38,73.0,99.0,4209.0,4235.0,122.0,156.0,4258.0,4292.0,verb.communication,89,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+37,5,saying,158,164,4294,4300,38,73.0,99.0,4209.0,4235.0,,,,,verb.communication,91,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+38,1,made,7,11,4341,4345,11,0.0,1.0,4334.0,4335.0,,,,,verb.creation,90,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+38,4,waiting,42,49,4376,4383,11,0.0,1.0,4334.0,4335.0,58.0,73.0,4392.0,4407.0,verb.cognition,92,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+40,0,dreamed,28,35,4530,4537,51,0.0,16.0,4502.0,4518.0,,,,,verb.cognition,94,subject,The innocent man,1.0,2.0,3.0,male,1.0,tertiary
+41,0,transformed,25,36,4661,4672,11,5.0,15.0,4641.0,4651.0,,,,,verb.change,95,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+43,1,escaped,34,41,4821,4828,11,31.0,33.0,4818.0,4820.0,,,,,verb.motion,96,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+45,1,believe,16,23,4935,4942,39,0.0,2.0,4919.0,4921.0,,,,,verb.cognition,98,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+45,3,seen,36,40,4955,4959,39,24.0,28.0,4943.0,4947.0,,,,,verb.perception,97,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+45,4,heard,45,50,4964,4969,39,24.0,28.0,4943.0,4947.0,,,,,verb.perception,99,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+46,0,understood,13,23,4984,4994,39,10.0,12.0,4981.0,4983.0,,,,,verb.cognition,100,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+46,3,fainted,79,86,5050,5057,39,76.0,78.0,5047.0,5049.0,,,,,verb.body,101,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+47,0,came,17,21,5087,5091,39,14.0,16.0,5084.0,5086.0,,,,,verb.motion,102,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+47,1,burst,32,37,5102,5107,39,14.0,16.0,5084.0,5086.0,,,,,verb.change,103,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+48,0,cried,3,8,5123,5128,39,0.0,2.0,5120.0,5122.0,,,,,verb.communication,104,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+49,0,rocked,3,9,5153,5159,39,0.0,2.0,5150.0,5152.0,29.0,50.0,5179.0,5200.0,verb.motion,105,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+49,1,fro,25,28,5175,5178,39,0.0,2.0,5150.0,5152.0,,,,,verb.motion,106,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+50,4,killed,70,76,5272,5278,39,39.0,60.0,5241.0,5262.0,102.0,144.0,5304.0,5346.0,verb.contact,107,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+50,4,killed,70,76,5272,5278,58,39.0,60.0,5241.0,5262.0,102.0,144.0,5304.0,5346.0,verb.contact,107,subject,The old man's faithful old wife,1.0,0.0,1.0,female,1.0,tertiary
+50,5,cooked,81,87,5283,5289,39,39.0,60.0,5241.0,5262.0,102.0,144.0,5304.0,5346.0,verb.creation,110,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+50,5,cooked,81,87,5283,5289,58,39.0,60.0,5241.0,5262.0,102.0,144.0,5304.0,5346.0,verb.creation,110,subject,The old man's faithful old wife,1.0,0.0,1.0,female,1.0,tertiary
+50,7,working,115,122,5317,5324,39,108.0,110.0,5310.0,5312.0,,,,,verb.social,109,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+55,0,wailed,3,9,5657,5663,39,0.0,2.0,5654.0,5656.0,,,,,verb.communication,114,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,0,heard,3,8,5758,5763,39,0.0,2.0,5755.0,5757.0,,,,,verb.perception,116,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,1,crying,21,27,5776,5782,39,9.0,20.0,5764.0,5775.0,,,,,verb.communication,115,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,2,sobbing,32,39,5787,5794,39,9.0,20.0,5764.0,5775.0,,,,,verb.body,117,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,4,see,63,66,5818,5821,39,9.0,20.0,5764.0,5775.0,,,,,verb.communication,118,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,8,do,123,125,5878,5880,39,105.0,113.0,5860.0,5868.0,,,,,verb.social,119,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,9,help,129,133,5884,5888,39,114.0,116.0,5869.0,5871.0,,,,,verb.social,120,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+58,0,told,12,16,5915,5919,39,0.0,11.0,5903.0,5914.0,,,,,verb.communication,121,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+59,0,heard,16,21,5963,5968,67,5.0,15.0,5952.0,5962.0,,,,,verb.cognition,122,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+59,2,told,90,94,6037,6041,67,32.0,34.0,5979.0,5981.0,,,,,verb.communication,123,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+59,3,leave,110,115,6057,6062,39,95.0,106.0,6042.0,6053.0,,,,,verb.cognition,124,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+59,5,avenge,147,153,6094,6100,39,138.0,140.0,6085.0,6087.0,,,,,verb.communication,126,subject,The old man,6.0,35.0,41.0,male,1.0,secondary
+60,1,comforted,23,32,6142,6151,8,0.0,10.0,6119.0,6129.0,,,,,verb.emotion,125,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+60,3,thanked,62,69,6181,6188,8,0.0,10.0,6119.0,6129.0,,,,,verb.communication,128,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+61,2,growing,39,46,6290,6297,8,24.0,34.0,6275.0,6285.0,,,,,verb.change,129,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+61,4,lay,80,83,6331,6334,67,0.0,10.0,6251.0,6261.0,,,,,verb.contact,131,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+62,2,find,62,66,6441,6445,67,39.0,49.0,6418.0,6428.0,,,,,verb.possession,133,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+63,2,seen,17,21,6475,6479,67,0.0,2.0,6458.0,6460.0,,,,,verb.perception,132,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+63,4,found,115,120,6573,6578,67,84.0,94.0,6542.0,6552.0,132.0,144.0,6590.0,6602.0,verb.possession,135,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+63,5,hiding,132,138,6590,6596,11,121.0,131.0,6579.0,6589.0,,,,,verb.perception,134,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+63,10,escaped,211,218,6669,6676,11,204.0,206.0,6662.0,6664.0,,,,,verb.motion,136,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+66,2,consented,73,82,6948,6957,11,0.0,10.0,6875.0,6885.0,103.0,192.0,6978.0,7067.0,verb.communication,138,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+67,0,led,11,14,7080,7083,67,0.0,10.0,7069.0,7079.0,29.0,114.0,7098.0,7183.0,verb.motion,141,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+70,0,made,21,25,7457,7461,67,10.0,20.0,7446.0,7456.0,,,,,verb.creation,142,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+70,1,go,37,39,7473,7475,11,26.0,36.0,7462.0,7472.0,,,,,verb.motion,143,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+71,3,striking,76,84,7559,7567,67,32.0,42.0,7515.0,7525.0,111.0,139.0,7594.0,7622.0,verb.contact,145,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+71,4,stepped,117,124,7600,7607,67,114.0,116.0,7597.0,7599.0,,,,,verb.motion,144,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+71,5,set,141,144,7624,7627,67,32.0,35.0,7515.0,7518.0,,,,,verb.contact,146,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+72,0,heard,11,16,7668,7673,11,0.0,10.0,7657.0,7667.0,,,,,verb.perception,147,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+72,1,asked,41,46,7698,7703,11,0.0,10.0,7657.0,7667.0,,,,,verb.communication,148,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+76,0,said,9,13,7794,7798,67,2.0,3.0,7787.0,7788.0,,,,,verb.communication,149,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+78,2,asked,54,59,7991,7996,11,0.0,10.0,7937.0,7947.0,,,,,verb.communication,151,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+81,0,knew,7,11,8190,8194,67,0.0,2.0,8183.0,8185.0,,,,,verb.cognition,153,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+82,1,ran,31,34,8292,8295,11,0.0,30.0,8261.0,8291.0,,,,,verb.motion,155,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+83,0,followed,11,19,8340,8348,67,0.0,10.0,8329.0,8339.0,,,,,verb.motion,156,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+83,1,found,24,29,8353,8358,67,0.0,10.0,8329.0,8339.0,,,,,verb.creation,158,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+83,2,lying,34,39,8363,8368,11,30.0,33.0,8359.0,8362.0,51.0,69.0,8380.0,8398.0,verb.contact,157,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+83,3,groaning,51,59,8380,8388,11,30.0,33.0,8359.0,8362.0,,,,,verb.body,159,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+86,1,imagine,9,16,8460,8467,67,1.0,2.0,8452.0,8453.0,,,,,verb.creation,160,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+87,1,bring,7,12,8494,8499,67,0.0,1.0,8487.0,8488.0,,,,,verb.contact,162,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+88,1,smiling,30,37,8584,8591,67,0.0,10.0,8554.0,8564.0,,,,,verb.body,163,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+88,2,think,41,46,8595,8600,67,0.0,10.0,8554.0,8564.0,,,,,verb.cognition,166,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+88,4,begun,95,100,8649,8654,11,52.0,82.0,8606.0,8636.0,,,,,verb.change,165,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+89,0,hoped,3,8,8659,8664,67,0.0,2.0,8656.0,8658.0,,,,,verb.emotion,167,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+89,2,die,31,34,8687,8690,11,14.0,24.0,8670.0,8680.0,,,,,verb.change,171,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+89,3,felt,56,60,8712,8716,67,53.0,55.0,8709.0,8711.0,,,,,verb.cognition,170,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+90,1,made,17,21,8855,8859,67,0.0,2.0,8838.0,8840.0,34.0,78.0,8872.0,8916.0,verb.creation,173,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+90,2,mixing,37,43,8875,8881,67,0.0,2.0,8838.0,8840.0,70.0,78.0,8908.0,8916.0,verb.contact,172,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+91,0,carried,3,10,8921,8928,67,0.0,2.0,8918.0,8920.0,,,,,verb.contact,174,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+91,2,told,59,63,8977,8981,67,56.0,58.0,8974.0,8976.0,,,,,verb.communication,175,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+91,6,bear,121,125,9039,9043,11,113.0,115.0,9031.0,9033.0,129.0,217.0,9047.0,9135.0,verb.body,176,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+92,0,thanked,11,18,9148,9155,11,0.0,10.0,9137.0,9147.0,,,,,verb.communication,178,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+92,1,begged,27,33,9164,9170,11,0.0,10.0,9137.0,9147.0,,,,,verb.communication,179,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+92,2,apply,41,46,9178,9183,67,34.0,37.0,9171.0,9174.0,50.0,57.0,9187.0,9194.0,verb.consumption,180,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+94,1,howled,28,34,9343,9349,11,0.0,2.0,9315.0,9317.0,,,,,verb.body,181,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+95,1,felt,24,28,9382,9386,67,0.0,10.0,9358.0,9368.0,,,,,verb.cognition,184,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+95,5,avenged,72,79,9430,9437,8,34.0,51.0,9392.0,9409.0,,,,,verb.emotion,183,subject,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+95,5,avenged,72,79,9430,9437,123,34.0,51.0,9392.0,9409.0,,,,,verb.emotion,183,subject,the farmer 's wife,1.0,0.0,1.0,female,1.0,tertiary
+97,0,healed,64,70,9543,9549,11,54.0,63.0,9533.0,9542.0,,,,,verb.change,185,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+97,1,got,78,81,9557,9560,11,75.0,77.0,9554.0,9556.0,,,,,verb.body,186,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+98,0,saw,16,19,9583,9586,67,5.0,15.0,9572.0,9582.0,,,,,verb.cognition,188,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+98,2,getting,40,47,9607,9614,11,25.0,35.0,9592.0,9602.0,,,,,verb.change,187,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+98,5,compass,99,106,9666,9673,67,90.0,92.0,9657.0,9659.0,,,,,verb.social,189,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+99,0,went,6,10,9702,9706,67,3.0,5.0,9699.0,9701.0,,,,,verb.motion,190,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+99,1,pay,22,25,9718,9721,67,3.0,5.0,9699.0,9701.0,,,,,verb.communication,191,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+100,0,mentioned,35,44,9817,9826,67,24.0,34.0,9806.0,9816.0,,,,,verb.communication,193,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+100,4,described,76,85,9858,9867,67,24.0,34.0,9806.0,9816.0,,,,,verb.communication,194,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+101,0,listened,11,19,9950,9958,11,0.0,10.0,9939.0,9949.0,,,,,verb.perception,196,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+101,1,passed,72,78,10011,10017,67,69.0,71.0,10008.0,10010.0,,,,,verb.possession,195,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+101,2,forgot,97,103,10036,10042,67,69.0,71.0,10008.0,10010.0,,,,,verb.cognition,197,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+101,3,thought,147,154,10086,10093,11,0.0,10.0,9939.0,9949.0,,,,,verb.cognition,198,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+101,7,go,188,190,10127,10129,67,179.0,181.0,10118.0,10120.0,199.0,202.0,10138.0,10141.0,verb.motion,199,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+102,0,asked,7,12,10149,10154,11,4.0,6.0,10146.0,10148.0,24.0,78.0,10166.0,10220.0,verb.communication,200,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+102,2,take,36,40,10178,10182,67,27.0,29.0,10169.0,10171.0,45.0,78.0,10187.0,10220.0,verb.motion,202,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+103,1,wanted,30,36,10252,10258,67,9.0,13.0,10231.0,10235.0,,,,,verb.emotion,201,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+103,2,agreed,44,50,10266,10272,11,41.0,43.0,10263.0,10265.0,,,,,verb.communication,203,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+104,1,built,22,27,10296,10301,11,5.0,7.0,10279.0,10281.0,,,,,verb.creation,204,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+105,2,stood,51,56,10399,10404,67,40.0,50.0,10388.0,10398.0,,,,,verb.contact,205,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,3,looked,61,67,10409,10415,67,40.0,50.0,10388.0,10398.0,,,,,verb.perception,206,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,4,felt,83,87,10431,10435,67,80.0,82.0,10428.0,10430.0,,,,,verb.cognition,207,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,8,succeeded,144,153,10492,10501,67,135.0,143.0,10483.0,10491.0,,,,,verb.social,208,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,10,manage,168,174,10516,10522,67,159.0,161.0,10507.0,10509.0,,,,,verb.social,209,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,11,kill,178,182,10526,10530,67,159.0,161.0,10507.0,10509.0,201.0,204.0,10549.0,10552.0,verb.contact,211,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+106,2,arranged,33,41,10587,10595,67,18.0,28.0,10572.0,10582.0,,,,,verb.cognition,210,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+106,3,take,45,49,10599,10603,67,18.0,28.0,10572.0,10582.0,,,,,verb.motion,212,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+107,1,gave,36,40,10660,10664,67,0.0,2.0,10624.0,10626.0,,,,,verb.possession,214,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+108,0,knew,16,20,10707,10711,11,0.0,10.0,10691.0,10701.0,,,,,verb.cognition,213,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+108,2,thought,78,85,10769,10776,11,0.0,41.0,10691.0,10732.0,,,,,verb.cognition,216,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+110,1,proposed,52,60,10922,10930,67,41.0,51.0,10911.0,10921.0,,,,,verb.communication,218,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+112,0,found,37,42,11150,11155,11,26.0,36.0,11139.0,11149.0,,,,,verb.perception,219,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+114,0,answered,15,23,11295,11303,67,4.0,14.0,11284.0,11294.0,,,,,verb.communication,222,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+114,2,avenging,36,44,11316,11324,67,29.0,31.0,11309.0,11311.0,,,,,verb.social,221,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+114,6,think,142,147,11422,11427,67,126.0,128.0,11406.0,11408.0,,,,,verb.cognition,224,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+114,8,met,176,179,11456,11459,11,153.0,163.0,11433.0,11443.0,192.0,215.0,11472.0,11495.0,verb.social,223,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+114,10,drown,228,233,11508,11513,11,153.0,163.0,11433.0,11443.0,,,,,verb.contact,225,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+115,0,raised,8,14,11547,11553,67,5.0,7.0,11544.0,11546.0,,,,,verb.motion,226,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+115,1,struck,27,33,11566,11572,67,5.0,7.0,11544.0,11546.0,,,,,verb.contact,228,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+115,2,fell,78,82,11617,11621,67,75.0,77.0,11614.0,11616.0,,,,,verb.motion,229,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,0,turned,15,21,11738,11744,67,0.0,10.0,11723.0,11733.0,,,,,verb.motion,230,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,1,rowed,26,31,11749,11754,67,0.0,10.0,11723.0,11733.0,,,,,verb.motion,231,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,4,pulled,66,72,11789,11795,67,0.0,10.0,11723.0,11733.0,,,,,verb.contact,232,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,6,tell,114,118,11837,11841,67,0.0,10.0,11723.0,11733.0,,,,,verb.communication,234,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,9,killed,186,192,11909,11915,11,154.0,175.0,11877.0,11898.0,,,,,verb.contact,233,subject,The badger,34.0,64.0,98.0,male,1.0,primary
+117,9,killed,186,192,11909,11915,16,154.0,175.0,11877.0,11898.0,,,,,verb.contact,233,subject,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+117,9,killed,186,192,11909,11915,67,154.0,175.0,11877.0,11898.0,,,,,verb.contact,233,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+118,0,thanked,15,22,11932,11939,38,0.0,14.0,11917.0,11931.0,,,,,verb.communication,235,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+119,0,said,3,7,11971,11975,38,0.0,2.0,11968.0,11970.0,,,,,verb.communication,236,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+119,2,sleep,37,42,12005,12010,38,22.0,24.0,11990.0,11992.0,,,,,verb.body,237,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+119,9,sleep,170,175,12138,12143,38,150.0,152.0,12118.0,12120.0,,,,,verb.body,238,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+119,10,eat,180,183,12148,12151,38,150.0,152.0,12118.0,12120.0,,,,,verb.consumption,239,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+120,0,begged,3,9,12166,12172,38,0.0,2.0,12163.0,12165.0,58.0,188.0,12221.0,12351.0,verb.communication,240,subject,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+120,2,share,42,47,12205,12210,67,10.0,20.0,12173.0,12183.0,,,,,verb.possession,241,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+120,4,stay,94,98,12257,12261,67,75.0,85.0,12238.0,12248.0,,,,,verb.motion,242,subject,The rabbit,30.0,56.0,86.0,male,1.0,primary
+2,2,run,45,48,213,216,8,56.0,77.0,224.0,245.0,,,,,verb.motion,1,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+2,3,spoil,82,87,250,255,1,88.0,172.0,256.0,340.0,,,,,verb.possession,3,direct_object,an old farmer,1.0,2.0,3.0,male,1.0,tertiary
+2,3,spoil,82,87,250,255,8,88.0,172.0,256.0,340.0,,,,,verb.possession,3,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+6,2,going,68,73,771,776,13,74.0,84.0,777.0,787.0,,,,,verb.motion,12,direct_object,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+6,3,found,88,93,791,796,13,94.0,149.0,797.0,852.0,,,,,verb.perception,15,direct_object,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+6,4,caught,105,111,808,814,13,112.0,149.0,815.0,852.0,,,,,verb.contact,14,direct_object,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+7,2,caught,35,41,889,895,13,42.0,51.0,896.0,905.0,,,,,verb.cognition,16,direct_object,the good - natured farmer,1.0,7.0,8.0,male,1.0,tertiary
+7,2,caught,35,41,889,895,16,42.0,51.0,896.0,905.0,,,,,verb.cognition,16,direct_object,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+7,3,carried,57,64,911,918,16,65.0,68.0,919.0,922.0,69.0,98.0,923.0,952.0,verb.contact,17,direct_object,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+8,1,said,37,41,991,995,2,42.0,53.0,996.0,1007.0,,,,,verb.communication,20,direct_object,an old farmer's wife,5.0,1.0,6.0,female,1.0,tertiary
+8,1,said,37,41,991,995,8,42.0,53.0,996.0,1007.0,,,,,verb.communication,20,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+9,3,let,59,62,1107,1110,16,63.0,73.0,1111.0,1121.0,,,,,verb.communication,22,direct_object,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+9,5,want,85,89,1133,1137,16,90.0,120.0,1138.0,1168.0,,,,,verb.emotion,23,direct_object,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+9,6,make,93,97,1141,1145,16,98.0,101.0,1146.0,1149.0,112.0,120.0,1160.0,1168.0,verb.change,24,direct_object,the good - natured farmer's enemy,2.0,4.0,6.0,male,1.0,tertiary
+10,0,saying,0,6,1171,1177,8,7.0,11.0,1178.0,1182.0,,,,,verb.communication,25,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+10,1,hung,16,20,1187,1191,8,21.0,31.0,1192.0,1202.0,,,,,verb.contact,26,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+11,6,trying,150,156,1429,1435,11,157.0,203.0,1436.0,1482.0,,,,,verb.social,29,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+11,7,hit,160,163,1439,1442,11,169.0,203.0,1448.0,1482.0,,,,,verb.communication,30,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+12,1,think,15,20,1499,1504,11,60.0,92.0,1544.0,1576.0,,,,,verb.cognition,32,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+13,1,stood,128,133,1706,1711,8,134.0,171.0,1712.0,1749.0,,,,,verb.contact,34,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+13,1,stood,128,133,1706,1711,27,134.0,171.0,1712.0,1749.0,,,,,verb.contact,34,direct_object,the farmer 's old wife,1.0,4.0,5.0,female,1.0,tertiary
+15,4,wipe,107,111,1884,1888,27,112.0,155.0,1889.0,1932.0,,,,,verb.contact,38,direct_object,the farmer 's old wife,1.0,4.0,5.0,female,1.0,tertiary
+16,0,said,13,17,1947,1951,28,18.0,33.0,1952.0,1967.0,,,,,verb.communication,40,direct_object,the wily badger,1.0,3.0,4.0,unknown,0.0,tertiary
+17,1,let,10,13,2042,2045,174,14.0,32.0,2046.0,2064.0,,,,,verb.social,41,direct_object,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+17,1,let,10,13,2042,2045,28,14.0,32.0,2046.0,2064.0,,,,,verb.social,41,direct_object,the wily badger,1.0,3.0,4.0,unknown,0.0,tertiary
+17,2,do,17,19,2049,2051,174,20.0,24.0,2052.0,2056.0,,,,,verb.social,42,direct_object,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+18,2,relieve,37,44,2103,2110,174,45.0,48.0,2111.0,2114.0,49.0,67.0,2115.0,2133.0,verb.body,43,direct_object,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+19,1,said,31,35,2167,2171,29,36.0,49.0,2172.0,2185.0,,,,,verb.communication,45,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+19,3,let,65,68,2201,2204,11,69.0,92.0,2205.0,2228.0,93.0,182.0,2229.0,2318.0,verb.social,44,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+19,3,let,65,68,2201,2204,29,69.0,92.0,2205.0,2228.0,93.0,182.0,2229.0,2318.0,verb.social,44,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+19,4,do,73,75,2209,2211,29,76.0,85.0,2212.0,2221.0,,,,,verb.social,46,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+19,6,untie,112,117,2248,2253,11,118.0,121.0,2254.0,2257.0,,,,,verb.contact,47,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+19,13,found,209,214,2345,2350,11,215.0,223.0,2351.0,2359.0,,,,,verb.perception,49,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+22,2,let,42,45,2585,2588,174,46.0,122.0,2589.0,2665.0,,,,,verb.social,52,direct_object,Dear lady,1.0,11.0,12.0,female,1.0,tertiary
+22,2,let,42,45,2585,2588,175,46.0,122.0,2589.0,2665.0,,,,,verb.social,52,direct_object,The old woman's husband,1.0,2.0,3.0,male,1.0,tertiary
+25,2,think,58,63,2844,2849,32,70.0,80.0,2856.0,2866.0,,,,,verb.cognition,54,direct_object,,,,,,,
+26,1,think,18,23,2886,2891,11,24.0,83.0,2892.0,2951.0,,,,,verb.cognition,56,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+26,1,think,18,23,2886,2891,29,24.0,83.0,2892.0,2951.0,,,,,verb.cognition,56,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+26,3,deceiving,49,58,2917,2926,29,59.0,62.0,2927.0,2930.0,63.0,83.0,2931.0,2951.0,verb.social,55,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+27,2,look,53,57,3006,3010,11,58.0,64.0,3011.0,3017.0,,,,,verb.perception,61,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+28,0,looked,3,9,3022,3028,11,10.0,173.0,3029.0,3192.0,,,,,verb.perception,60,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+28,1,hanging,31,38,3050,3057,11,49.0,77.0,3068.0,3096.0,,,,,verb.contact,59,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+29,0,believing,37,46,3231,3240,11,47.0,96.0,3241.0,3290.0,,,,,verb.cognition,62,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+29,0,believing,37,46,3231,3240,29,47.0,96.0,3241.0,3290.0,,,,,verb.cognition,62,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+29,0,believing,37,46,3231,3240,34,47.0,96.0,3241.0,3290.0,,,,,verb.cognition,62,direct_object,the creature,1.0,0.0,1.0,unknown,0.0,tertiary
+29,4,let,122,125,3316,3319,11,126.0,129.0,3320.0,3323.0,130.0,134.0,3324.0,3328.0,verb.social,64,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+30,0,gave,19,23,3349,3353,11,24.0,27.0,3354.0,3357.0,,,,,verb.possession,65,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+30,1,told,50,54,3380,3384,11,55.0,58.0,3385.0,3388.0,,,,,verb.communication,66,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+30,1,told,50,54,3380,3384,29,55.0,58.0,3385.0,3388.0,,,,,verb.communication,66,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+31,1,doing,35,40,3474,3479,11,41.0,49.0,3480.0,3488.0,50.0,64.0,,,verb.creation,71,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+31,5,knocked,115,122,3554,3561,29,123.0,126.0,3562.0,3565.0,132.0,140.0,3571.0,3579.0,verb.contact,72,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+32,0,killed,8,14,3609,3615,29,15.0,18.0,3616.0,3619.0,,,,,verb.contact,73,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+32,1,cut,23,26,3624,3627,29,27.0,30.0,3628.0,3631.0,,,,,verb.contact,74,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+32,2,made,38,42,3639,3643,29,43.0,47.0,3644.0,3648.0,,,,,verb.creation,76,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+33,2,thought,67,74,3769,3776,41,89.0,158.0,3791.0,3860.0,,,,,verb.cognition,78,direct_object,the destructive badger,1.0,0.0,1.0,unknown,0.0,tertiary
+33,2,thought,67,74,3769,3776,39,89.0,158.0,3791.0,3860.0,,,,,verb.cognition,78,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+33,5,spoiled,125,132,3827,3834,41,133.0,158.0,3835.0,3860.0,,,,,verb.social,79,direct_object,the destructive badger,1.0,0.0,1.0,unknown,0.0,tertiary
+34,0,left,18,22,3880,3884,39,23.0,31.0,3885.0,3893.0,,,,,verb.social,80,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+35,1,awaiting,73,81,3990,3998,39,82.0,104.0,3999.0,4021.0,,,,,verb.cognition,82,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+35,2,cheered,93,100,4010,4017,39,101.0,104.0,4018.0,4021.0,,,,,verb.emotion,83,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+36,3,came,93,97,4116,4120,39,98.0,111.0,4121.0,4134.0,,,,,verb.change,84,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+37,0,assumed,21,28,4157,4164,29,29.0,49.0,4165.0,4185.0,,,,,verb.cognition,86,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+37,1,saw,69,72,4205,4208,11,73.0,99.0,4209.0,4235.0,,,,,verb.perception,88,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+37,1,saw,69,72,4205,4208,38,73.0,99.0,4209.0,4235.0,,,,,verb.perception,88,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+37,4,greet,112,117,4248,4253,11,118.0,121.0,4254.0,4257.0,122.0,156.0,4258.0,4292.0,verb.communication,89,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+37,5,saying,158,164,4294,4300,11,166.0,167.0,4302.0,4303.0,,,,,verb.communication,91,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+38,4,waiting,42,49,4376,4383,11,50.0,57.0,4384.0,4391.0,58.0,73.0,4392.0,4407.0,verb.cognition,92,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+40,0,dreamed,28,35,4530,4537,2,36.0,132.0,4538.0,4634.0,,,,,verb.cognition,94,direct_object,an old farmer's wife,5.0,1.0,6.0,female,1.0,tertiary
+40,0,dreamed,28,35,4530,4537,51,36.0,132.0,4538.0,4634.0,,,,,verb.cognition,94,direct_object,The innocent man,1.0,2.0,3.0,male,1.0,tertiary
+40,3,waiting,84,91,4586,4593,51,92.0,100.0,4594.0,4602.0,,,,,verb.cognition,93,direct_object,The innocent man,1.0,2.0,3.0,male,1.0,tertiary
+41,0,transformed,25,36,4661,4672,11,37.0,44.0,4673.0,4680.0,,,,,verb.change,95,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+45,1,believe,16,23,4935,4942,39,24.0,50.0,4943.0,4969.0,,,,,verb.cognition,98,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+49,0,rocked,3,9,5153,5159,39,10.0,28.0,5160.0,5178.0,29.0,50.0,5179.0,5200.0,verb.motion,105,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+49,1,fro,25,28,5175,5178,39,29.0,50.0,5179.0,5200.0,,,,,verb.motion,106,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+50,0,seemed,3,9,5205,5211,39,10.0,22.0,5212.0,5224.0,,,,,verb.perception,108,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+50,0,seemed,3,9,5205,5211,58,10.0,22.0,5212.0,5224.0,,,,,verb.perception,108,direct_object,The old man's faithful old wife,1.0,0.0,1.0,female,1.0,tertiary
+50,11,congratulating,196,210,5398,5412,39,211.0,218.0,5413.0,5420.0,,,,,verb.communication,112,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+50,16,spoiled,288,295,5490,5497,39,296.0,306.0,5498.0,5508.0,,,,,verb.social,111,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+53,2,made,58,62,5597,5601,62,63.0,84.0,5602.0,5623.0,,,,,verb.creation,113,direct_object,The old man's poor old woman,1.0,0.0,1.0,female,1.0,tertiary
+53,2,made,58,62,5597,5601,39,63.0,84.0,5602.0,5623.0,,,,,verb.creation,113,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,0,heard,3,8,5758,5763,65,9.0,146.0,5764.0,5901.0,,,,,verb.perception,116,direct_object,The old man's neighbor,1.0,0.0,1.0,unknown,0.0,tertiary
+57,0,heard,3,8,5758,5763,39,9.0,146.0,5764.0,5901.0,,,,,verb.perception,116,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+57,9,help,129,133,5884,5888,65,134.0,146.0,5889.0,5901.0,,,,,verb.social,120,direct_object,The old man's neighbor,1.0,0.0,1.0,unknown,0.0,tertiary
+57,9,help,129,133,5884,5888,39,134.0,146.0,5889.0,5901.0,,,,,verb.social,120,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+58,0,told,12,16,5915,5919,39,17.0,20.0,5920.0,5923.0,,,,,verb.communication,121,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+59,2,told,90,94,6037,6041,39,95.0,106.0,6042.0,6053.0,,,,,verb.communication,123,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+59,3,leave,110,115,6057,6062,39,116.0,126.0,6063.0,6073.0,,,,,verb.cognition,124,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+59,5,avenge,147,153,6094,6100,2,154.0,170.0,6101.0,6117.0,,,,,verb.communication,126,direct_object,an old farmer's wife,5.0,1.0,6.0,female,1.0,tertiary
+59,5,avenge,147,153,6094,6100,39,154.0,170.0,6101.0,6117.0,,,,,verb.communication,126,direct_object,The old man,6.0,35.0,41.0,male,1.0,secondary
+60,3,thanked,62,69,6181,6188,8,70.0,80.0,6189.0,6199.0,,,,,verb.communication,128,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+60,3,thanked,62,69,6181,6188,67,70.0,80.0,6189.0,6199.0,,,,,verb.communication,128,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+60,4,coming,101,107,6220,6226,8,108.0,114.0,6227.0,6233.0,115.0,130.0,6234.0,6249.0,verb.motion,127,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+61,0,seeing,12,18,6263,6269,8,19.0,53.0,6270.0,6304.0,,,,,verb.perception,130,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+61,4,lay,80,83,6331,6334,11,84.0,126.0,6335.0,6377.0,,,,,verb.contact,131,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+61,4,lay,80,83,6331,6334,67,84.0,126.0,6335.0,6377.0,,,,,verb.contact,131,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+62,2,find,62,66,6441,6445,11,67.0,77.0,6446.0,6456.0,,,,,verb.possession,133,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+63,4,found,115,120,6573,6578,11,121.0,131.0,6579.0,6589.0,132.0,144.0,6590.0,6602.0,verb.possession,135,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+63,8,show,180,184,6638,6642,11,185.0,192.0,6643.0,6650.0,193.0,242.0,6651.0,6700.0,verb.perception,137,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+63,10,escaped,211,218,6669,6676,8,219.0,242.0,6677.0,6700.0,,,,,verb.motion,136,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+65,0,come,0,4,6804,6808,67,9.0,16.0,6813.0,6820.0,,,,,verb.motion,139,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+66,2,consented,73,82,6948,6957,67,83.0,101.0,6958.0,6976.0,103.0,192.0,6978.0,7067.0,verb.communication,138,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+66,5,meeting,181,188,7056,7063,67,189.0,192.0,7064.0,7067.0,,,,,verb.social,140,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+70,0,made,21,25,7457,7461,11,26.0,45.0,7462.0,7481.0,,,,,verb.creation,142,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+71,3,striking,76,84,7559,7567,11,85.0,87.0,7568.0,7570.0,111.0,139.0,7594.0,7622.0,verb.contact,145,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+71,5,set,141,144,7624,7627,67,145.0,164.0,7628.0,7647.0,,,,,verb.contact,146,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+75,0,replied,0,7,7766,7773,67,8.0,18.0,7774.0,7784.0,,,,,verb.communication,150,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+79,2,answered,46,54,8060,8068,67,55.0,65.0,8069.0,8079.0,,,,,verb.communication,152,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+82,0,screaming,0,9,8261,8270,11,10.0,19.0,8271.0,8280.0,,,,,verb.communication,154,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+83,1,found,24,29,8353,8358,11,30.0,69.0,8359.0,8398.0,,,,,verb.creation,158,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+83,1,found,24,29,8353,8358,67,30.0,69.0,8359.0,8398.0,,,,,verb.creation,158,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+83,2,lying,34,39,8363,8368,67,40.0,50.0,8369.0,8379.0,51.0,69.0,8380.0,8398.0,verb.contact,157,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+85,0,said,0,4,8434,8438,67,5.0,15.0,8439.0,8449.0,,,,,verb.communication,161,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+87,1,bring,7,12,8494,8499,11,13.0,16.0,8500.0,8503.0,,,,,verb.contact,162,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+87,3,heal,42,46,8529,8533,11,47.0,51.0,8534.0,8538.0,52.0,64.0,8539.0,8551.0,verb.change,164,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+88,2,think,41,46,8595,8600,11,47.0,100.0,8601.0,8654.0,,,,,verb.cognition,166,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+89,0,hoped,3,8,8659,8664,11,9.0,47.0,8665.0,8703.0,,,,,verb.emotion,167,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+89,3,felt,56,60,8712,8716,11,61.0,180.0,8717.0,8836.0,,,,,verb.cognition,170,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+89,3,felt,56,60,8712,8716,116,61.0,180.0,8717.0,8836.0,,,,,verb.cognition,170,direct_object,The badger's poor helpless old woman who had trusted him,1.0,0.0,1.0,female,1.0,tertiary
+89,7,murdering,125,134,8781,8790,11,135.0,180.0,8791.0,8836.0,,,,,verb.social,169,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+89,7,murdering,125,134,8781,8790,116,135.0,180.0,8791.0,8836.0,,,,,verb.social,169,direct_object,The badger's poor helpless old woman who had trusted him,1.0,0.0,1.0,female,1.0,tertiary
+89,9,trusted,169,176,8825,8832,11,177.0,180.0,8833.0,8836.0,,,,,verb.social,168,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+91,0,carried,3,10,8921,8928,11,11.0,15.0,8929.0,8933.0,,,,,verb.contact,174,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+91,2,told,59,63,8977,8981,11,64.0,67.0,8982.0,8985.0,,,,,verb.communication,175,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+91,4,cause,82,87,9000,9005,11,88.0,102.0,9006.0,9020.0,,,,,verb.creation,177,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+92,0,thanked,11,18,9148,9155,67,19.0,22.0,9156.0,9159.0,,,,,verb.communication,178,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+92,1,begged,27,33,9164,9170,67,34.0,37.0,9171.0,9174.0,,,,,verb.communication,179,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+93,1,describe,20,28,9216,9224,11,29.0,52.0,9225.0,9248.0,53.0,117.0,9249.0,9313.0,verb.communication,182,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+95,1,felt,24,28,9382,9386,8,29.0,79.0,9387.0,9437.0,,,,,verb.cognition,184,direct_object,the farmer,11.0,10.0,21.0,male,1.0,tertiary
+95,1,felt,24,28,9382,9386,123,29.0,79.0,9387.0,9437.0,,,,,verb.cognition,184,direct_object,the farmer 's wife,1.0,0.0,1.0,female,1.0,tertiary
+98,0,saw,16,19,9583,9586,11,20.0,52.0,9587.0,9619.0,,,,,verb.cognition,188,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+99,1,pay,22,25,9718,9721,11,26.0,36.0,9722.0,9732.0,,,,,verb.communication,191,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+99,2,congratulate,52,64,9748,9760,11,65.0,68.0,9761.0,9764.0,69.0,84.0,,,verb.communication,192,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+100,0,mentioned,35,44,9817,9826,67,45.0,70.0,9827.0,9852.0,,,,,verb.communication,193,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+101,0,listened,11,19,9950,9958,67,34.0,91.0,9973.0,10030.0,,,,,verb.perception,196,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+101,2,forgot,97,103,10036,10042,67,104.0,141.0,10043.0,10080.0,,,,,verb.cognition,197,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+101,3,thought,147,154,10086,10093,67,155.0,202.0,10094.0,10141.0,,,,,verb.cognition,198,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+102,0,asked,7,12,10149,10154,67,13.0,23.0,10155.0,10165.0,24.0,78.0,10166.0,10220.0,verb.communication,200,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+102,2,take,36,40,10178,10182,67,41.0,44.0,10183.0,10186.0,45.0,78.0,10187.0,10220.0,verb.motion,202,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,3,looked,61,67,10409,10415,67,68.0,79.0,10416.0,10427.0,,,,,verb.perception,206,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,4,felt,83,87,10431,10435,67,88.0,204.0,10436.0,10552.0,,,,,verb.cognition,207,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+105,4,felt,83,87,10431,10435,137,88.0,204.0,10436.0,10552.0,,,,,verb.cognition,207,direct_object,the wicked badger,1.0,0.0,1.0,unknown,0.0,tertiary
+105,10,manage,168,174,10516,10522,137,175.0,204.0,10523.0,10552.0,,,,,verb.social,209,direct_object,the wicked badger,1.0,0.0,1.0,unknown,0.0,tertiary
+105,11,kill,178,182,10526,10530,137,183.0,200.0,10531.0,10548.0,201.0,204.0,10549.0,10552.0,verb.contact,211,direct_object,the wicked badger,1.0,0.0,1.0,unknown,0.0,tertiary
+106,2,arranged,33,41,10587,10595,11,42.0,68.0,10596.0,10622.0,,,,,verb.cognition,210,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+106,3,take,45,49,10599,10603,11,50.0,68.0,10604.0,10622.0,,,,,verb.motion,212,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+107,1,gave,36,40,10660,10664,11,41.0,65.0,10665.0,10689.0,,,,,verb.possession,214,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+108,2,thought,78,85,10769,10776,11,86.0,133.0,10777.0,10824.0,,,,,verb.cognition,216,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+108,2,thought,78,85,10769,10776,67,86.0,133.0,10777.0,10824.0,,,,,verb.cognition,216,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+108,4,give,119,123,10810,10814,11,124.0,126.0,10815.0,10817.0,,,,,verb.possession,215,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+110,0,going,6,11,10876,10881,67,12.0,51.0,10882.0,10921.0,,,,,verb.motion,217,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+112,0,found,37,42,11150,11155,11,43.0,67.0,11156.0,11180.0,,,,,verb.perception,219,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+113,1,help,44,48,11270,11274,11,49.0,52.0,11275.0,11278.0,,,,,verb.social,220,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+114,0,answered,15,23,11295,11303,11,24.0,257.0,11304.0,11537.0,,,,,verb.communication,222,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+114,0,answered,15,23,11295,11303,29,24.0,257.0,11304.0,11537.0,,,,,verb.communication,222,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+114,0,answered,15,23,11295,11303,67,24.0,257.0,11304.0,11537.0,,,,,verb.communication,222,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+114,2,avenging,36,44,11316,11324,29,45.0,67.0,11325.0,11347.0,,,,,verb.social,221,direct_object,The old woman,6.0,16.0,22.0,female,1.0,tertiary
+114,6,think,142,147,11422,11427,11,148.0,257.0,11428.0,11537.0,,,,,verb.cognition,224,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+114,8,met,176,179,11456,11459,11,180.0,191.0,11460.0,11471.0,192.0,215.0,11472.0,11495.0,verb.social,223,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+114,11,help,249,253,11529,11533,11,254.0,257.0,11534.0,11537.0,,,,,verb.social,227,direct_object,The badger,34.0,64.0,98.0,male,1.0,primary
+115,0,raised,8,14,11547,11553,67,15.0,22.0,11554.0,11561.0,,,,,verb.motion,226,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,4,pulled,66,72,11789,11795,67,73.0,81.0,11796.0,11804.0,,,,,verb.contact,232,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+117,6,tell,114,118,11837,11841,38,119.0,133.0,11842.0,11856.0,,,,,verb.communication,234,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+118,0,thanked,15,22,11932,11939,38,23.0,26.0,11940.0,11943.0,,,,,verb.communication,235,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+118,0,thanked,15,22,11932,11939,67,23.0,26.0,11940.0,11943.0,,,,,verb.communication,235,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+119,0,said,3,7,11971,11975,2,8.0,129.0,11976.0,12097.0,,,,,verb.communication,236,direct_object,an old farmer's wife,5.0,1.0,6.0,female,1.0,tertiary
+119,0,said,3,7,11971,11975,38,8.0,129.0,11976.0,12097.0,,,,,verb.communication,236,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+120,0,begged,3,9,12166,12172,38,10.0,20.0,12173.0,12183.0,58.0,188.0,12221.0,12351.0,verb.communication,240,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+120,0,begged,3,9,12166,12172,67,10.0,20.0,12173.0,12183.0,58.0,188.0,12221.0,12351.0,verb.communication,240,direct_object,The rabbit,30.0,56.0,86.0,male,1.0,primary
+120,2,share,42,47,12205,12210,38,48.0,56.0,12211.0,12219.0,,,,,verb.possession,241,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary
+120,4,stay,94,98,12257,12261,38,99.0,118.0,12262.0,12281.0,,,,,verb.motion,242,direct_object,the old farmer,7.0,10.0,17.0,male,1.0,tertiary

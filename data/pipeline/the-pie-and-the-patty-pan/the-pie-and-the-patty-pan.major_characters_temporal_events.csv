@@ -1,0 +1,241 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+4,0,thank,3,8,169,174,16,1.0,2.0,167.0,168.0,,,,,verb.communication,True,2,subject,the little dog,1,7,8,unknown,0.0,tertiary
+6,2,invited,57,64,291,298,4,27.0,51.0,261.0,285.0,,,,,verb.communication,True,1,subject,Ribby,68,73,141,female,1.0,primary
+7,1,said,38,42,373,377,5,20.0,35.0,355.0,370.0,,,,,verb.communication,True,5,subject,Duchess,60,139,199,female,1.0,primary
+7,1,said,38,42,373,377,4,20.0,35.0,355.0,370.0,,,,,verb.communication,True,5,subject,Ribby,68,73,141,female,1.0,primary
+7,1,said,38,42,373,377,63,20.0,35.0,355.0,370.0,,,,,verb.communication,True,5,subject,Ribby's dear,16,0,16,unknown,0.0,tertiary
+8,1,baking,5,11,441,447,4,0.0,1.0,436.0,437.0,15.0,56.0,451.0,492.0,verb.change,True,4,subject,Ribby,68,73,141,female,1.0,primary
+9,0,tasted,10,16,504,510,5,0.0,3.0,494.0,497.0,,,,,verb.perception,True,3,subject,Duchess,60,139,199,female,1.0,primary
+10,1,eat,14,17,543,546,5,4.0,7.0,533.0,536.0,,,,,verb.consumption,True,6,subject,Duchess,60,139,199,female,1.0,primary
+11,1,eat,9,12,564,567,4,0.0,3.0,555.0,558.0,,,,,verb.consumption,True,8,subject,Ribby,68,73,141,female,1.0,primary
+13,1,wrote,28,33,636,641,5,0.0,7.0,608.0,615.0,,,,,verb.communication,True,7,subject,Duchess,60,139,199,female,1.0,primary
+15,3,come,36,40,770,774,4,29.0,32.0,763.0,766.0,,,,,verb.motion,True,9,subject,Ribby,68,73,141,female,1.0,primary
+16,2,wrote,46,51,887,892,5,1.0,43.0,842.0,884.0,,,,,verb.communication,True,10,subject,Duchess,60,139,199,female,1.0,primary
+16,2,wrote,46,51,887,892,4,1.0,43.0,842.0,884.0,,,,,verb.communication,True,10,subject,Ribby,68,73,141,female,1.0,primary
+16,2,wrote,46,51,887,892,63,1.0,43.0,842.0,884.0,,,,,verb.communication,True,10,subject,Ribby's dear,16,0,16,unknown,0.0,tertiary
+17,0,hope,35,39,936,940,5,21.0,34.0,922.0,935.0,,,,,verb.emotion,True,11,subject,Duchess,60,139,199,female,1.0,primary
+18,0,thought,13,20,971,978,5,9.0,12.0,967.0,970.0,,,,,verb.cognition,True,12,subject,Duchess,60,139,199,female,1.0,primary
+19,3,hope,57,61,1067,1071,5,55.0,56.0,1065.0,1066.0,,,,,verb.emotion,True,13,subject,Duchess,60,139,199,female,1.0,primary
+20,1,read,56,60,1186,1190,5,52.0,55.0,1182.0,1185.0,76.0,95.0,1206.0,1225.0,verb.cognition,True,14,subject,Duchess,60,139,199,female,1.0,primary
+23,2,eat,20,23,1359,1362,5,4.0,5.0,1343.0,1344.0,,,,,verb.consumption,True,17,subject,Duchess,60,139,199,female,1.0,primary
+29,2,looked,62,68,1608,1614,5,0.0,7.0,1546.0,1553.0,,,,,verb.perception,True,16,subject,Duchess,60,139,199,female,1.0,primary
+33,5,eat,88,91,1829,1832,5,80.0,81.0,1821.0,1822.0,,,,,verb.consumption,True,18,subject,Duchess,60,139,199,female,1.0,primary
+34,4,eat,107,110,1985,1988,5,0.0,100.0,1878.0,1978.0,,,,,verb.consumption,True,19,subject,Duchess,60,139,199,female,1.0,primary
+34,4,eat,107,110,1985,1988,4,0.0,100.0,1878.0,1978.0,,,,,verb.consumption,True,19,subject,Ribby,68,73,141,female,1.0,primary
+35,3,taste,48,53,2045,2050,4,21.0,26.0,2018.0,2023.0,62.0,69.0,2059.0,2066.0,verb.perception,True,20,subject,Ribby,68,73,141,female,1.0,primary
+37,2,buy,27,30,2122,2125,4,0.0,5.0,2095.0,2100.0,,,,,verb.possession,True,21,subject,Ribby,68,73,141,female,1.0,primary
+38,1,rush,16,20,2180,2184,5,14.0,15.0,2178.0,2179.0,,,,,verb.motion,True,22,subject,Duchess,60,139,199,female,1.0,primary
+40,5,popped,117,123,2419,2425,4,113.0,116.0,2415.0,2418.0,,,,,verb.contact,True,23,subject,Ribby,68,73,141,female,1.0,primary
+43,0,put,6,9,2574,2577,4,0.0,5.0,2568.0,2573.0,,,,,verb.contact,True,24,subject,Ribby,68,73,141,female,1.0,primary
+48,1,choke,28,33,2825,2830,5,9.0,16.0,2806.0,2813.0,42.0,83.0,2839.0,2880.0,verb.body,True,25,subject,Duchess,60,139,199,female,1.0,primary
+49,0,eats,4,8,2886,2890,5,0.0,3.0,2882.0,2885.0,,,,,verb.consumption,True,27,subject,Duchess,60,139,199,female,1.0,primary
+51,0,put,6,9,3033,3036,4,0.0,5.0,3027.0,3032.0,,,,,verb.contact,True,28,subject,Ribby,68,73,141,female,1.0,primary
+53,1,set,18,21,3168,3171,4,5.0,8.0,3155.0,3158.0,,,,,verb.contact,True,29,subject,Ribby,68,73,141,female,1.0,primary
+54,0,shook,4,9,3247,3252,4,0.0,3.0,3243.0,3246.0,23.0,40.0,3266.0,3283.0,verb.contact,True,30,subject,Ribby,68,73,141,female,1.0,primary
+56,1,polished,67,75,3408,3416,4,63.0,66.0,3404.0,3407.0,,,,,verb.contact,True,31,subject,Ribby,68,73,141,female,1.0,primary
+57,0,spread,9,15,3460,3466,4,5.0,8.0,3456.0,3459.0,,,,,verb.contact,True,32,subject,Ribby,68,73,141,female,1.0,primary
+60,4,fetch,116,121,3806,3811,4,30.0,33.0,3720.0,3723.0,,,,,verb.contact,True,33,subject,Ribby,68,73,141,female,1.0,primary
+65,0,met,6,9,4171,4174,4,0.0,5.0,4165.0,4170.0,43.0,87.0,4208.0,4252.0,verb.motion,True,34,subject,Ribby,68,73,141,female,1.0,primary
+68,2,ran,69,72,4416,4419,5,58.0,61.0,4405.0,4408.0,,,,,verb.motion,True,36,subject,Duchess,60,139,199,female,1.0,primary
+70,1,bought,29,35,4482,4488,4,0.0,5.0,4453.0,4458.0,69.0,121.0,4522.0,4574.0,verb.possession,True,37,subject,Ribby,68,73,141,female,1.0,primary
+76,1,bought,37,43,4810,4816,4,0.0,5.0,4773.0,4778.0,,,,,verb.possession,True,38,subject,Ribby,68,73,141,female,1.0,primary
+79,4,said,67,71,5023,5027,4,1.0,64.0,4957.0,5020.0,,,,,verb.communication,True,43,subject,Ribby,68,73,141,female,1.0,primary
+81,0,opened,6,12,5069,5075,4,0.0,5.0,5063.0,5068.0,34.0,54.0,5097.0,5117.0,verb.contact,True,42,subject,Ribby,68,73,141,female,1.0,primary
+84,2,put,68,71,5317,5320,5,66.0,67.0,5315.0,5316.0,,,,,verb.contact,True,41,subject,Duchess,60,139,199,female,1.0,primary
+86,1,looked,8,14,5367,5373,5,1.0,2.0,5360.0,5361.0,,,,,verb.perception,True,44,subject,Duchess,60,139,199,female,1.0,primary
+87,0,put,2,5,5396,5399,5,0.0,1.0,5394.0,5395.0,34.0,44.0,5428.0,5438.0,verb.contact,True,45,subject,Duchess,60,139,199,female,1.0,primary
+88,1,turn,12,16,5452,5456,5,0.0,1.0,5440.0,5441.0,,,,,verb.contact,True,46,subject,Duchess,60,139,199,female,1.0,primary
+89,0,think,3,8,5485,5490,5,1.0,2.0,5483.0,5484.0,,,,,verb.cognition,True,47,subject,Duchess,60,139,199,female,1.0,primary
+90,1,think,9,14,5596,5601,5,0.0,1.0,5587.0,5588.0,,,,,verb.cognition,True,49,subject,Duchess,60,139,199,female,1.0,primary
+91,1,coming,14,20,5643,5649,4,8.0,13.0,5637.0,5642.0,,,,,verb.motion,True,48,subject,Ribby,68,73,141,female,1.0,primary
+92,1,brushed,22,29,5712,5719,5,0.0,7.0,5690.0,5697.0,,,,,verb.contact,True,50,subject,Duchess,60,139,199,female,1.0,primary
+93,0,picked,14,20,5759,5765,5,10.0,13.0,5755.0,5758.0,40.0,76.0,5785.0,5821.0,verb.contact,True,51,subject,Duchess,60,139,199,female,1.0,primary
+97,3,think,45,50,6159,6164,4,35.0,36.0,6149.0,6150.0,,,,,verb.cognition,True,53,subject,Ribby,68,73,141,female,1.0,primary
+98,2,trying,19,25,6214,6220,73,5.0,13.0,6200.0,6208.0,,,,,verb.social,True,52,subject,somebody,1,0,1,unknown,0.0,tertiary
+99,0,came,4,8,6241,6245,4,0.0,3.0,6237.0,6240.0,20.0,25.0,6257.0,6262.0,verb.motion,True,55,subject,Ribby,68,73,141,female,1.0,primary
+100,0,peeped,4,10,6317,6323,4,0.0,3.0,6313.0,6316.0,,,,,verb.motion,True,56,subject,Ribby,68,73,141,female,1.0,primary
+102,2,said,36,40,6505,6509,4,1.0,33.0,6470.0,6502.0,,,,,verb.communication,True,57,subject,Ribby,68,73,141,female,1.0,primary
+103,0,wonder,2,8,6577,6583,4,0.0,1.0,6575.0,6576.0,,,,,verb.cognition,True,59,subject,Ribby,68,73,141,female,1.0,primary
+105,0,started,41,48,6709,6716,5,33.0,40.0,6701.0,6708.0,,,,,verb.change,True,58,subject,Duchess,60,139,199,female,1.0,primary
+106,0,ran,4,7,6741,6744,5,0.0,3.0,6737.0,6740.0,,,,,verb.motion,True,60,subject,Duchess,60,139,199,female,1.0,primary
+107,0,wonder,3,9,6881,6887,5,1.0,2.0,6879.0,6880.0,,,,,verb.cognition,True,61,subject,Duchess,60,139,199,female,1.0,primary
+115,0,hope,3,7,7218,7222,4,1.0,2.0,7216.0,7217.0,,,,,verb.emotion,True,63,subject,Ribby,68,73,141,female,1.0,primary
+116,0,thank,15,20,7255,7260,5,13.0,14.0,7253.0,7254.0,,,,,verb.communication,True,64,subject,Duchess,60,139,199,female,1.0,primary
+118,1,brought,6,13,7321,7328,5,1.0,2.0,7316.0,7317.0,,,,,verb.contact,True,65,subject,Duchess,60,139,199,female,1.0,primary
+122,2,said,41,45,7475,7479,5,1.0,27.0,7435.0,7461.0,,,,,verb.communication,True,67,subject,Duchess,60,139,199,female,1.0,primary
+122,2,said,41,45,7475,7479,4,1.0,27.0,7435.0,7461.0,,,,,verb.communication,True,67,subject,Ribby,68,73,141,female,1.0,primary
+126,2,said,41,45,7614,7618,4,1.0,38.0,7574.0,7611.0,,,,,verb.communication,True,69,subject,Ribby,68,73,141,female,1.0,primary
+129,1,take,7,11,7695,7699,5,3.0,6.0,7691.0,7694.0,,,,,verb.contact,True,68,subject,Duchess,60,139,199,female,1.0,primary
+132,1,have,11,15,7767,7771,5,9.0,10.0,7765.0,7766.0,,,,,verb.possession,True,70,subject,Duchess,60,139,199,female,1.0,primary
+134,0,beg,21,24,7847,7850,5,1.0,16.0,7827.0,7842.0,,,,,verb.communication,True,72,subject,Duchess,60,139,199,female,1.0,primary
+137,1,love,5,9,7965,7969,5,0.0,1.0,7960.0,7961.0,,,,,verb.emotion,True,71,subject,Duchess,60,139,199,female,1.0,primary
+138,0,set,6,9,8172,8175,4,0.0,5.0,8166.0,8171.0,,,,,verb.contact,True,73,subject,Ribby,68,73,141,female,1.0,primary
+141,1,cut,14,17,8329,8332,4,1.0,2.0,8316.0,8317.0,,,,,verb.contact,True,74,subject,Ribby,68,73,141,female,1.0,primary
+142,3,said,43,47,8392,8396,4,1.0,40.0,8350.0,8389.0,,,,,verb.communication,True,76,subject,Ribby,68,73,141,female,1.0,primary
+143,1,prefer,15,21,8419,8425,5,4.0,7.0,8408.0,8411.0,,,,,verb.emotion,True,75,subject,Duchess,60,139,199,female,1.0,primary
+145,0,beg,3,6,8458,8461,4,1.0,2.0,8456.0,8457.0,,,,,verb.communication,True,77,subject,Ribby,68,73,141,female,1.0,primary
+147,1,pass,7,11,8495,8499,5,5.0,6.0,8493.0,8494.0,,,,,verb.possession,True,78,subject,Duchess,60,139,199,female,1.0,primary
+151,0,"think""--(thought",3,19,8660,8676,43,1.0,2.0,8658.0,8659.0,,,,,verb.cognition,True,81,subject,the Duchess,1,7,8,unknown,0.0,tertiary
+152,4,cutting,59,66,8814,8821,4,51.0,54.0,8806.0,8809.0,,,,,verb.contact,True,80,subject,Ribby,68,73,141,female,1.0,primary
+154,3,minced,30,36,8904,8910,43,24.0,25.0,8898.0,8899.0,43.0,50.0,8917.0,8924.0,verb.contact,True,79,subject,the Duchess,1,7,8,unknown,0.0,tertiary
+155,0,suppose,3,10,8928,8935,43,1.0,2.0,8926.0,8927.0,,,,,verb.cognition,True,84,subject,the Duchess,1,7,8,unknown,0.0,tertiary
+156,1,eating,21,27,8994,9000,5,1.0,9.0,8974.0,8982.0,,,,,verb.consumption,True,83,subject,Duchess,60,139,199,female,1.0,primary
+157,1,buttered,33,41,9036,9044,4,29.0,32.0,9032.0,9035.0,,,,,verb.contact,True,85,subject,Ribby,68,73,141,female,1.0,primary
+159,3,fumbling,44,52,9142,9150,5,0.0,7.0,9098.0,9105.0,,,,,verb.contact,True,86,subject,Duchess,60,139,199,female,1.0,primary
+163,1,feeling,12,19,9257,9264,4,1.0,2.0,9246.0,9247.0,,,,,verb.perception,True,87,subject,Ribby,68,73,141,female,1.0,primary
+166,2,blushing,58,66,9377,9385,5,49.0,56.0,9368.0,9375.0,,,,,verb.body,True,88,subject,Duchess,60,139,199,female,1.0,primary
+167,2,said,44,48,9452,9456,5,1.0,41.0,9409.0,9449.0,,,,,verb.communication,True,90,subject,Duchess,60,139,199,female,1.0,primary
+167,2,said,44,48,9452,9456,4,1.0,41.0,9409.0,9449.0,,,,,verb.communication,True,90,subject,Ribby,68,73,141,female,1.0,primary
+167,2,said,44,48,9452,9456,65,1.0,41.0,9409.0,9449.0,,,,,verb.communication,True,90,subject,Ribby's dear Duchess,6,0,6,unknown,0.0,tertiary
+168,1,think,10,15,9473,9478,5,2.0,3.0,9465.0,9466.0,,,,,verb.cognition,True,89,subject,Duchess,60,139,199,female,1.0,primary
+169,0,fumbled,8,15,9532,9539,5,0.0,7.0,9524.0,9531.0,,,,,verb.contact,True,91,subject,Duchess,60,139,199,female,1.0,primary
+170,0,said,4,8,9579,9583,5,0.0,3.0,9575.0,9578.0,,,,,verb.communication,True,92,subject,Duchess,60,139,199,female,1.0,primary
+176,0,disapprove,2,12,9777,9787,5,0.0,1.0,9775.0,9776.0,,,,,verb.cognition,True,94,subject,Duchess,60,139,199,female,1.0,primary
+177,1,swallow,48,55,9874,9881,87,41.0,47.0,9867.0,9873.0,,,,,verb.consumption,True,93,subject,people,1,0,1,unknown,0.0,tertiary
+178,0,added,4,9,9898,9903,5,0.0,3.0,9894.0,9897.0,,,,,verb.communication,True,96,subject,Duchess,60,139,199,female,1.0,primary
+179,0,looked,8,14,9930,9936,5,0.0,7.0,9922.0,9929.0,,,,,verb.body,True,98,subject,Duchess,60,139,199,female,1.0,primary
+181,0,put,10,13,10131,10134,5,0.0,3.0,10121.0,10124.0,,,,,verb.contact,True,97,subject,Duchess,60,139,199,female,1.0,primary
+182,0,looked,8,14,10189,10195,5,0.0,7.0,10181.0,10188.0,,,,,verb.body,True,100,subject,Duchess,60,139,199,female,1.0,primary
+183,0,have,3,7,10235,10239,5,1.0,2.0,10233.0,10234.0,,,,,verb.possession,True,99,subject,Duchess,60,139,199,female,1.0,primary
+185,1,die,9,12,10329,10332,5,1.0,2.0,10321.0,10322.0,,,,,verb.change,True,102,subject,Duchess,60,139,199,female,1.0,primary
+187,1,swallowed,7,16,10354,10363,5,0.0,1.0,10347.0,10348.0,,,,,verb.consumption,True,101,subject,Duchess,60,139,199,female,1.0,primary
+188,1,feel,24,28,10401,10405,5,19.0,20.0,10396.0,10397.0,,,,,verb.body,True,103,subject,Duchess,60,139,199,female,1.0,primary
+191,0,moaned,8,14,10487,10493,5,0.0,7.0,10479.0,10486.0,,,,,verb.communication,True,104,subject,Duchess,60,139,199,female,1.0,primary
+192,0,feel,6,10,10537,10541,5,4.0,5.0,10535.0,10536.0,,,,,verb.emotion,True,106,subject,Duchess,60,139,199,female,1.0,primary
+193,1,swallowed,7,16,10562,10571,5,0.0,1.0,10555.0,10556.0,,,,,verb.consumption,True,105,subject,Duchess,60,139,199,female,1.0,primary
+195,3,swallowed,48,57,10687,10696,4,41.0,42.0,10680.0,10681.0,,,,,verb.consumption,True,107,subject,Ribby,68,73,141,female,1.0,primary
+196,1,prop,8,12,10710,10714,5,5.0,7.0,10707.0,10709.0,20.0,50.0,10722.0,10752.0,verb.contact,True,110,subject,Duchess,60,139,199,female,1.0,primary
+197,2,feel,24,28,10777,10781,5,20.0,23.0,10773.0,10776.0,,,,,verb.cognition,True,109,subject,Duchess,60,139,199,female,1.0,primary
+198,1,feel,9,13,10796,10800,5,4.0,5.0,10791.0,10792.0,37.0,47.0,10824.0,10834.0,verb.emotion,True,112,subject,Duchess,60,139,199,female,1.0,primary
+199,1,swallowed,8,17,10843,10852,5,1.0,2.0,10836.0,10837.0,,,,,verb.consumption,True,111,subject,Duchess,60,139,199,female,1.0,primary
+200,1,run,9,12,10914,10917,4,7.0,8.0,10912.0,10913.0,,,,,verb.motion,True,113,subject,Ribby,68,73,141,female,1.0,primary
+204,0,settled,6,13,11074,11081,4,0.0,5.0,11068.0,11073.0,,,,,verb.contact,True,114,subject,Ribby,68,73,141,female,1.0,primary
+205,0,found,4,9,11190,11195,5,0.0,3.0,11186.0,11189.0,14.0,27.0,11200.0,11213.0,verb.possession,True,117,subject,Duchess,60,139,199,female,1.0,primary
+206,1,occupied,7,15,11222,11230,92,0.0,2.0,11215.0,11217.0,,,,,verb.social,True,116,subject,the doctor,7,9,16,male,1.0,tertiary
+211,2,swallowed,35,44,11407,11416,5,21.0,30.0,11393.0,11402.0,,,,,verb.consumption,True,118,subject,Duchess,60,139,199,female,1.0,primary
+211,2,swallowed,35,44,11407,11416,48,21.0,30.0,11393.0,11402.0,,,,,verb.consumption,True,118,subject,Duchess's guest,1,0,1,unknown,0.0,tertiary
+216,0,hopped,3,9,11496,11502,92,0.0,2.0,11493.0,11495.0,,,,,verb.motion,True,121,subject,the doctor,7,9,16,male,1.0,tertiary
+218,3,fetching,41,49,11601,11609,4,31.0,36.0,11591.0,11596.0,,,,,verb.communication,True,122,subject,Ribby,68,73,141,female,1.0,primary
+219,0,knew,3,7,11625,11629,6,1.0,2.0,11623.0,11624.0,,,,,verb.cognition,True,124,subject,Cousin Tabitha,7,1,8,unknown,0.0,tertiary
+221,2,hunting,25,32,11718,11725,4,10.0,15.0,11703.0,11708.0,,,,,verb.competition,True,123,subject,Ribby,68,73,141,female,1.0,primary
+222,2,swallowed,18,27,11903,11912,5,11.0,12.0,11896.0,11897.0,,,,,verb.consumption,True,125,subject,Duchess,60,139,199,female,1.0,primary
+224,1,went,15,19,11968,11972,5,0.0,3.0,11953.0,11956.0,,,,,verb.motion,True,126,subject,Duchess,60,139,199,female,1.0,primary
+226,1,put,30,33,12070,12073,5,28.0,29.0,12068.0,12069.0,38.0,40.0,12078.0,12080.0,verb.contact,True,127,subject,Duchess,60,139,199,female,1.0,primary
+227,4,swallowed,52,61,12133,12142,5,40.0,41.0,12121.0,12122.0,,,,,verb.consumption,True,128,subject,Duchess,60,139,199,female,1.0,primary
+228,1,stared,24,30,12172,12178,5,0.0,3.0,12148.0,12151.0,,,,,verb.perception,True,130,subject,Duchess,60,139,199,female,1.0,primary
+230,0,started,8,15,12269,12276,5,0.0,7.0,12261.0,12268.0,,,,,verb.change,True,129,subject,Duchess,60,139,199,female,1.0,primary
+231,0,opened,4,10,12282,12288,5,0.0,3.0,12278.0,12281.0,,,,,verb.contact,True,132,subject,Duchess,60,139,199,female,1.0,primary
+233,4,eating,52,58,12545,12551,5,35.0,36.0,12528.0,12529.0,,,,,verb.consumption,True,131,subject,Duchess,60,139,199,female,1.0,primary
+234,0,feel,12,16,12574,12578,5,10.0,11.0,12572.0,12573.0,,,,,verb.cognition,True,133,subject,Duchess,60,139,199,female,1.0,primary
+235,1,feel,21,25,12608,12612,5,12.0,13.0,12599.0,12600.0,32.0,69.0,12619.0,12656.0,verb.emotion,True,134,subject,Duchess,60,139,199,female,1.0,primary
+237,0,think,2,7,12736,12741,5,0.0,1.0,12734.0,12735.0,,,,,verb.cognition,True,136,subject,Duchess,60,139,199,female,1.0,primary
+238,2,run,23,26,12826,12829,5,16.0,17.0,12819.0,12820.0,,,,,verb.motion,True,138,subject,Duchess,60,139,199,female,1.0,primary
+239,2,shut,70,74,12925,12929,5,0.0,3.0,12855.0,12858.0,,,,,verb.body,True,137,subject,Duchess,60,139,199,female,1.0,primary
+240,0,arrived,12,19,12951,12958,4,6.0,11.0,12945.0,12950.0,,,,,verb.motion,True,139,subject,Ribby,68,73,141,female,1.0,primary
+243,2,said,33,37,13068,13072,5,1.0,30.0,13036.0,13065.0,47.0,68.0,13082.0,13103.0,verb.communication,True,143,subject,Duchess,60,139,199,female,1.0,primary
+244,1,hear,20,24,13125,13129,5,1.0,2.0,13106.0,13107.0,,,,,verb.perception,True,142,subject,Duchess,60,139,199,female,1.0,primary
+245,1,brought,7,14,13142,13149,92,0.0,2.0,13135.0,13137.0,,,,,verb.motion,True,141,subject,the doctor,7,9,16,male,1.0,tertiary
+246,4,said,61,65,13241,13245,92,1.0,58.0,13181.0,13238.0,75.0,145.0,13255.0,13325.0,verb.communication,True,144,subject,the doctor,7,9,16,male,1.0,tertiary
+247,2,take,46,50,13373,13377,5,26.0,29.0,13353.0,13356.0,,,,,verb.consumption,True,145,subject,Duchess,60,139,199,female,1.0,primary
+251,2,choked,43,49,13482,13488,5,23.0,30.0,13462.0,13469.0,,,,,verb.communication,True,146,subject,Duchess,60,139,199,female,1.0,primary
+257,2,said,48,52,13742,13746,4,1.0,45.0,13695.0,13739.0,,,,,verb.communication,True,150,subject,Ribby,68,73,141,female,1.0,primary
+257,2,said,48,52,13742,13746,63,1.0,45.0,13695.0,13739.0,,,,,verb.communication,True,150,subject,Ribby's dear,16,0,16,unknown,0.0,tertiary
+258,1,think,12,17,13768,13773,4,4.0,7.0,13760.0,13763.0,,,,,verb.cognition,True,149,subject,Ribby,68,73,141,female,1.0,primary
+264,4,slept,57,62,14146,14151,5,48.0,51.0,14137.0,14140.0,,,,,verb.body,True,152,subject,Duchess,60,139,199,female,1.0,primary
+265,0,said,18,22,14172,14176,5,0.0,17.0,14154.0,14171.0,,,,,verb.communication,True,154,subject,Duchess,60,139,199,female,1.0,primary
+265,0,said,18,22,14172,14176,4,0.0,17.0,14154.0,14171.0,,,,,verb.communication,True,154,subject,Ribby,68,73,141,female,1.0,primary
+266,0,stopped,25,32,14253,14260,5,12.0,20.0,14240.0,14248.0,,,,,verb.motion,True,155,subject,Duchess,60,139,199,female,1.0,primary
+267,2,shut,23,27,14300,14304,4,1.0,6.0,14278.0,14283.0,,,,,verb.contact,True,156,subject,Ribby,68,73,141,female,1.0,primary
+268,2,peeped,83,89,14398,14404,5,0.0,7.0,14315.0,14322.0,,,,,verb.motion,True,158,subject,Duchess,60,139,199,female,1.0,primary
+270,1,eating,18,24,14505,14511,106,0.0,12.0,14487.0,14499.0,,,,,verb.consumption,True,159,subject,The jackdaws,1,0,1,unknown,0.0,tertiary
+272,2,peeping,51,58,14646,14653,5,23.0,50.0,14618.0,14645.0,,,,,verb.motion,True,160,subject,Duchess,60,139,199,female,1.0,primary
+273,1,feeling,17,24,14689,14696,5,0.0,7.0,14672.0,14679.0,,,,,verb.emotion,True,161,subject,Duchess,60,139,199,female,1.0,primary
+274,2,found,74,79,14789,14794,5,70.0,73.0,14785.0,14788.0,,,,,verb.possession,True,163,subject,Duchess,60,139,199,female,1.0,primary
+275,2,left,70,74,14932,14936,14,40.0,51.0,14902.0,14913.0,,,,,verb.cognition,True,162,subject,Dr Maggotty,1,0,1,unknown,0.0,tertiary
+276,0,stared,6,12,14947,14953,4,0.0,5.0,14941.0,14946.0,,,,,verb.perception,True,164,subject,Ribby,68,73,141,female,1.0,primary
+1,1,says,25,29,77,81,16,31.0,50.0,83.0,102.0,,,,,verb.communication,True,0,direct_object,the little dog,1,7,8,unknown,0.0,tertiary
+1,1,says,25,29,77,81,3,31.0,50.0,83.0,102.0,,,,,verb.communication,True,0,direct_object,Pussy,2,0,2,unknown,0.0,tertiary
+4,0,thank,3,8,169,174,16,9.0,12.0,175.0,178.0,,,,,verb.communication,True,2,direct_object,the little dog,1,7,8,unknown,0.0,tertiary
+4,0,thank,3,8,169,174,62,9.0,12.0,175.0,178.0,,,,,verb.communication,True,2,direct_object,little dog,1,0,1,unknown,0.0,tertiary
+6,2,invited,57,64,291,298,5,65.0,92.0,299.0,326.0,,,,,verb.communication,True,1,direct_object,Duchess,60,139,199,female,1.0,primary
+7,1,said,38,42,373,377,4,43.0,57.0,378.0,392.0,,,,,verb.communication,True,5,direct_object,Ribby,68,73,141,female,1.0,primary
+11,1,eat,9,12,564,567,5,13.0,37.0,568.0,592.0,,,,,verb.consumption,True,8,direct_object,Duchess,60,139,199,female,1.0,primary
+11,1,eat,9,12,564,567,4,13.0,37.0,568.0,592.0,,,,,verb.consumption,True,8,direct_object,Ribby,68,73,141,female,1.0,primary
+11,1,eat,9,12,564,567,65,13.0,37.0,568.0,592.0,,,,,verb.consumption,True,8,direct_object,Ribby's dear Duchess,6,0,6,unknown,0.0,tertiary
+16,2,wrote,46,51,887,892,5,52.0,59.0,893.0,900.0,,,,,verb.communication,True,10,direct_object,Duchess,60,139,199,female,1.0,primary
+20,1,read,56,60,1186,1190,4,61.0,75.0,1191.0,1205.0,76.0,95.0,1206.0,1225.0,verb.cognition,True,14,direct_object,Ribby,68,73,141,female,1.0,primary
+22,0,said,0,4,1270,1274,5,5.0,27.0,1275.0,1297.0,,,,,verb.communication,True,15,direct_object,Duchess,60,139,199,female,1.0,primary
+33,5,eat,88,91,1829,1832,5,92.0,102.0,1833.0,1843.0,,,,,verb.consumption,True,18,direct_object,Duchess,60,139,199,female,1.0,primary
+40,5,popped,117,123,2419,2425,4,124.0,131.0,2426.0,2433.0,,,,,verb.contact,True,23,direct_object,Ribby,68,73,141,female,1.0,primary
+45,1,said,34,38,2666,2670,4,39.0,44.0,2671.0,2676.0,,,,,verb.communication,True,26,direct_object,Ribby,68,73,141,female,1.0,primary
+48,1,choke,28,33,2825,2830,5,34.0,41.0,2831.0,2838.0,42.0,83.0,2839.0,2880.0,verb.body,True,25,direct_object,Duchess,60,139,199,female,1.0,primary
+65,0,met,6,9,4171,4174,5,10.0,41.0,4175.0,4206.0,43.0,87.0,4208.0,4252.0,verb.motion,True,34,direct_object,Duchess,60,139,199,female,1.0,primary
+66,0,bowed,10,15,4264,4269,29,16.0,30.0,4270.0,4284.0,,,,,verb.communication,True,35,direct_object,one another,1,0,1,unknown,0.0,tertiary
+70,1,bought,29,35,4482,4488,4,36.0,53.0,4489.0,4506.0,69.0,121.0,4522.0,4574.0,verb.possession,True,37,direct_object,Ribby,68,73,141,female,1.0,primary
+75,0,said,0,4,4743,4747,6,5.0,28.0,4748.0,4771.0,,,,,verb.communication,True,39,direct_object,Cousin Tabitha,7,1,8,unknown,0.0,tertiary
+78,0,seemed,6,12,4856,4862,4,13.0,104.0,4863.0,4954.0,,,,,verb.perception,True,40,direct_object,Ribby,68,73,141,female,1.0,primary
+79,4,said,67,71,5023,5027,4,72.0,77.0,5028.0,5033.0,,,,,verb.communication,True,43,direct_object,Ribby,68,73,141,female,1.0,primary
+84,2,put,68,71,5317,5320,5,72.0,76.0,5321.0,5325.0,,,,,verb.contact,True,41,direct_object,Duchess,60,139,199,female,1.0,primary
+87,0,put,2,5,5396,5399,5,6.0,12.0,5400.0,5406.0,34.0,44.0,5428.0,5438.0,verb.contact,True,45,direct_object,Duchess,60,139,199,female,1.0,primary
+90,1,think,9,14,5596,5601,4,15.0,40.0,5602.0,5627.0,,,,,verb.cognition,True,49,direct_object,Ribby,68,73,141,female,1.0,primary
+92,1,brushed,22,29,5712,5719,5,30.0,54.0,5720.0,5744.0,,,,,verb.contact,True,50,direct_object,Duchess,60,139,199,female,1.0,primary
+95,5,change,135,141,6007,6013,4,142.0,151.0,6014.0,6023.0,,,,,verb.change,True,54,direct_object,Ribby,68,73,141,female,1.0,primary
+98,2,trying,19,25,6214,6220,4,26.0,39.0,6221.0,6234.0,,,,,verb.social,True,52,direct_object,Ribby,68,73,141,female,1.0,primary
+106,0,ran,4,7,6741,6744,5,16.0,58.0,6753.0,6795.0,,,,,verb.motion,True,60,direct_object,Duchess,60,139,199,female,1.0,primary
+107,0,wonder,3,9,6881,6887,5,10.0,55.0,6888.0,6933.0,,,,,verb.cognition,True,61,direct_object,Duchess,60,139,199,female,1.0,primary
+107,0,wonder,3,9,6881,6887,4,10.0,55.0,6888.0,6933.0,,,,,verb.cognition,True,61,direct_object,Ribby,68,73,141,female,1.0,primary
+108,0,said,0,4,6936,6940,5,5.0,12.0,6941.0,6948.0,,,,,verb.communication,True,62,direct_object,Duchess,60,139,199,female,1.0,primary
+115,0,hope,3,7,7218,7222,5,8.0,22.0,7223.0,7237.0,,,,,verb.emotion,True,63,direct_object,Duchess,60,139,199,female,1.0,primary
+115,0,hope,3,7,7218,7222,4,8.0,22.0,7223.0,7237.0,,,,,verb.emotion,True,63,direct_object,Ribby,68,73,141,female,1.0,primary
+116,0,thank,15,20,7255,7260,4,21.0,24.0,7261.0,7264.0,,,,,verb.communication,True,64,direct_object,Ribby,68,73,141,female,1.0,primary
+117,0,said,0,4,7301,7305,5,5.0,12.0,7306.0,7313.0,,,,,verb.communication,True,66,direct_object,Duchess,60,139,199,female,1.0,primary
+118,1,brought,6,13,7321,7328,4,14.0,17.0,7329.0,7332.0,,,,,verb.contact,True,65,direct_object,Ribby,68,73,141,female,1.0,primary
+122,2,said,41,45,7475,7479,5,46.0,53.0,7480.0,7487.0,,,,,verb.communication,True,67,direct_object,Duchess,60,139,199,female,1.0,primary
+126,2,said,41,45,7614,7618,4,46.0,51.0,7619.0,7624.0,,,,,verb.communication,True,69,direct_object,Ribby,68,73,141,female,1.0,primary
+129,1,take,7,11,7695,7699,5,12.0,34.0,7700.0,7722.0,,,,,verb.contact,True,68,direct_object,Duchess,60,139,199,female,1.0,primary
+129,1,take,7,11,7695,7699,4,12.0,34.0,7700.0,7722.0,,,,,verb.contact,True,68,direct_object,Ribby,68,73,141,female,1.0,primary
+129,1,take,7,11,7695,7699,65,12.0,34.0,7700.0,7722.0,,,,,verb.contact,True,68,direct_object,Ribby's dear Duchess,6,0,6,unknown,0.0,tertiary
+132,1,have,11,15,7767,7771,5,16.0,35.0,7772.0,7791.0,,,,,verb.possession,True,70,direct_object,Duchess,60,139,199,female,1.0,primary
+141,1,cut,14,17,8329,8332,5,18.0,33.0,8333.0,8348.0,,,,,verb.contact,True,74,direct_object,Duchess,60,139,199,female,1.0,primary
+142,3,said,43,47,8392,8396,4,48.0,53.0,8397.0,8402.0,,,,,verb.communication,True,76,direct_object,Ribby,68,73,141,female,1.0,primary
+145,0,beg,3,6,8458,8461,5,7.0,18.0,8462.0,8473.0,,,,,verb.communication,True,77,direct_object,Duchess,60,139,199,female,1.0,primary
+147,1,pass,7,11,8495,8499,4,12.0,15.0,8500.0,8503.0,,,,,verb.possession,True,78,direct_object,Ribby,68,73,141,female,1.0,primary
+148,0,said,0,4,8520,8524,5,5.0,12.0,8525.0,8532.0,13.0,22.0,,,verb.communication,True,82,direct_object,Duchess,60,139,199,female,1.0,primary
+151,0,"think""--(thought",3,19,8660,8676,43,20.0,31.0,8677.0,8688.0,,,,,verb.cognition,True,81,direct_object,the Duchess,1,7,8,unknown,0.0,tertiary
+155,0,suppose,3,10,8928,8935,43,11.0,45.0,8936.0,8970.0,,,,,verb.cognition,True,84,direct_object,the Duchess,1,7,8,unknown,0.0,tertiary
+157,1,buttered,33,41,9036,9044,4,42.0,58.0,9045.0,9061.0,,,,,verb.contact,True,85,direct_object,Ribby,68,73,141,female,1.0,primary
+166,2,blushing,58,66,9377,9385,5,67.0,87.0,9386.0,9406.0,,,,,verb.body,True,88,direct_object,Duchess,60,139,199,female,1.0,primary
+167,2,said,44,48,9452,9456,4,49.0,54.0,9457.0,9462.0,,,,,verb.communication,True,90,direct_object,Ribby,68,73,141,female,1.0,primary
+171,1,said,27,31,9622,9626,4,32.0,37.0,9627.0,9632.0,39.0,56.0,9634.0,9651.0,verb.communication,True,95,direct_object,Ribby,68,73,141,female,1.0,primary
+181,0,put,10,13,10131,10134,5,14.0,34.0,10135.0,10155.0,,,,,verb.contact,True,97,direct_object,Duchess,60,139,199,female,1.0,primary
+194,1,said,32,36,10618,10622,4,37.0,51.0,10623.0,10637.0,,,,,verb.communication,True,108,direct_object,Ribby,68,73,141,female,1.0,primary
+196,1,prop,8,12,10710,10714,5,13.0,16.0,10715.0,10718.0,20.0,50.0,10722.0,10752.0,verb.contact,True,110,direct_object,Duchess,60,139,199,female,1.0,primary
+198,1,feel,9,13,10796,10800,5,14.0,36.0,10801.0,10823.0,37.0,47.0,10824.0,10834.0,verb.emotion,True,112,direct_object,Duchess,60,139,199,female,1.0,primary
+203,0,fetch,0,5,10981,10986,5,6.0,9.0,10987.0,10990.0,,,,,verb.contact,True,115,direct_object,Duchess,60,139,199,female,1.0,primary
+203,0,fetch,0,5,10981,10986,4,6.0,9.0,10987.0,10990.0,,,,,verb.contact,True,115,direct_object,Ribby,68,73,141,female,1.0,primary
+203,0,fetch,0,5,10981,10986,63,6.0,9.0,10987.0,10990.0,,,,,verb.contact,True,115,direct_object,Ribby's dear,16,0,16,unknown,0.0,tertiary
+205,0,found,4,9,11190,11195,92,10.0,13.0,11196.0,11199.0,14.0,27.0,11200.0,11213.0,verb.possession,True,117,direct_object,the doctor,7,9,16,male,1.0,tertiary
+206,1,occupied,7,15,11222,11230,92,56.0,101.0,11271.0,11316.0,,,,,verb.social,True,116,direct_object,the doctor,7,9,16,male,1.0,tertiary
+210,0,said,0,4,11336,11340,92,5.0,34.0,11341.0,11370.0,,,,,verb.communication,True,119,direct_object,the doctor,7,9,16,male,1.0,tertiary
+215,1,accompanied,13,24,11462,11473,5,25.0,28.0,11474.0,11477.0,29.0,42.0,,,verb.motion,True,120,direct_object,Duchess,60,139,199,female,1.0,primary
+218,3,fetching,41,49,11601,11609,92,50.0,60.0,11610.0,11620.0,,,,,verb.communication,True,122,direct_object,the doctor,7,9,16,male,1.0,tertiary
+221,2,hunting,25,32,11718,11725,92,33.0,47.0,11726.0,11740.0,,,,,verb.competition,True,123,direct_object,the doctor,7,9,16,male,1.0,tertiary
+233,4,eating,52,58,12545,12551,11,59.0,64.0,12552.0,12557.0,,,,,verb.consumption,True,131,direct_object,MOUSE,1,0,1,unknown,0.0,tertiary
+236,1,explain,57,64,12716,12723,4,65.0,73.0,12724.0,12732.0,,,,,verb.communication,True,135,direct_object,Ribby,68,73,141,female,1.0,primary
+237,0,think,2,7,12736,12741,5,8.0,67.0,12742.0,12801.0,,,,,verb.cognition,True,136,direct_object,Duchess,60,139,199,female,1.0,primary
+239,2,shut,70,74,12925,12929,5,75.0,83.0,12930.0,12938.0,,,,,verb.body,True,137,direct_object,Duchess,60,139,199,female,1.0,primary
+242,0,said,0,4,13018,13022,92,5.0,15.0,13023.0,13033.0,,,,,verb.communication,True,140,direct_object,the doctor,7,9,16,male,1.0,tertiary
+243,2,said,33,37,13068,13072,5,38.0,45.0,13073.0,13080.0,47.0,68.0,13082.0,13103.0,verb.communication,True,143,direct_object,Duchess,60,139,199,female,1.0,primary
+245,1,brought,7,14,13142,13149,5,15.0,18.0,13150.0,13153.0,,,,,verb.motion,True,141,direct_object,Duchess,60,139,199,female,1.0,primary
+245,1,brought,7,14,13142,13149,65,15.0,18.0,13150.0,13153.0,,,,,verb.motion,True,141,direct_object,Ribby's dear Duchess,6,0,6,unknown,0.0,tertiary
+246,4,said,61,65,13241,13245,5,66.0,73.0,13246.0,13253.0,75.0,145.0,13255.0,13325.0,verb.communication,True,144,direct_object,Duchess,60,139,199,female,1.0,primary
+248,0,drink,1,6,13382,13387,5,7.0,37.0,13388.0,13418.0,,,,,verb.consumption,True,147,direct_object,Duchess,60,139,199,female,1.0,primary
+248,0,drink,1,6,13382,13387,65,7.0,37.0,13388.0,13418.0,,,,,verb.consumption,True,147,direct_object,Ribby's dear Duchess,6,0,6,unknown,0.0,tertiary
+253,1,losing,12,18,13526,13532,4,19.0,36.0,13533.0,13550.0,,,,,verb.possession,True,148,direct_object,Ribby,68,73,141,female,1.0,primary
+257,2,said,48,52,13742,13746,5,53.0,60.0,13747.0,13754.0,,,,,verb.communication,True,150,direct_object,Duchess,60,139,199,female,1.0,primary
+260,1,lend,7,11,13873,13877,5,12.0,15.0,13878.0,13881.0,,,,,verb.possession,True,151,direct_object,Duchess,60,139,199,female,1.0,primary
+261,1,trouble,13,20,13942,13949,4,21.0,24.0,13950.0,13953.0,25.0,35.0,13954.0,13964.0,verb.emotion,True,153,direct_object,Ribby,68,73,141,female,1.0,primary
+267,2,shut,23,27,14300,14304,5,28.0,36.0,14305.0,14313.0,,,,,verb.contact,True,156,direct_object,Duchess,60,139,199,female,1.0,primary
+269,0,sat,30,33,14450,14453,105,34.0,65.0,14454.0,14485.0,,,,,verb.contact,True,157,direct_object,three jackdaws,1,0,1,unknown,0.0,tertiary
+269,0,sat,30,33,14450,14453,10,34.0,65.0,14454.0,14485.0,,,,,verb.contact,True,157,direct_object,Dr. Maggotty,3,5,8,male,1.0,tertiary
+280,3,invite,41,47,15149,15155,6,48.0,71.0,15156.0,15179.0,,,,,verb.contact,True,165,direct_object,Cousin Tabitha,7,1,8,unknown,0.0,tertiary

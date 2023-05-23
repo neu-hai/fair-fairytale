@@ -1,0 +1,103 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,tirled,45,51,45,51,122,40.0,44.0,40.0,44.0,57.0,71.0,,,verb.communication,True,0,subject,,,,,,,
+6,0,thought,45,52,677,684,13,31.0,44.0,663.0,676.0,,,,,verb.cognition,True,1,subject,the old woman,4.0,15.0,19.0,female,1.0,primary
+7,4,take,77,81,989,993,13,26.0,37.0,938.0,949.0,89.0,111.0,1001.0,1023.0,verb.body,True,2,subject,the old woman,4.0,15.0,19.0,female,1.0,primary
+7,4,take,77,81,989,993,16,26.0,37.0,938.0,949.0,89.0,111.0,1001.0,1023.0,verb.body,True,2,subject,the old woman's husband,4.0,4.0,8.0,male,1.0,secondary
+8,0,fell,19,23,1044,1048,16,10.0,18.0,1035.0,1043.0,,,,,verb.motion,True,3,subject,the old woman's husband,4.0,4.0,8.0,male,1.0,secondary
+9,0,saw,23,26,1173,1176,18,5.0,22.0,1155.0,1172.0,,,,,verb.perception,True,4,subject,the other bannock,1.0,6.0,7.0,unknown,0.0,tertiary
+10,0,saw,23,26,1328,1331,13,9.0,22.0,1314.0,1327.0,,,,,verb.cognition,True,5,subject,the old woman,4.0,15.0,19.0,female,1.0,primary
+12,0,ran,3,6,1588,1591,18,0.0,2.0,1585.0,1587.0,,,,,verb.motion,True,7,subject,the other bannock,1.0,6.0,7.0,unknown,0.0,tertiary
+13,3,sitting,90,97,1909,1916,26,58.0,84.0,1877.0,1903.0,152.0,250.0,1971.0,2069.0,verb.contact,True,6,subject,a tailor,1.0,2.0,3.0,male,1.0,tertiary
+13,3,sitting,90,97,1909,1916,27,58.0,84.0,1877.0,1903.0,152.0,250.0,1971.0,2069.0,verb.contact,True,6,subject,a tailor's two apprentices,1.0,0.0,1.0,unknown,0.0,tertiary
+14,0,came,21,25,2092,2096,31,5.0,20.0,2076.0,2091.0,36.0,52.0,2107.0,2123.0,verb.motion,True,8,subject,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+15,0,said,12,16,2251,2255,34,1.0,5.0,2240.0,2244.0,,,,,verb.communication,True,9,subject,the Master Tailor 's wife,1.0,5.0,6.0,female,1.0,tertiary
+17,3,fetch,51,56,2368,2373,34,46.0,47.0,2363.0,2364.0,,,,,verb.contact,True,11,subject,the Master Tailor 's wife,1.0,5.0,6.0,female,1.0,tertiary
+18,2,grasped,118,125,2518,2525,36,103.0,117.0,2503.0,2517.0,144.0,189.0,2544.0,2589.0,verb.contact,True,10,subject,one apprentice,1.0,0.0,1.0,unknown,0.0,tertiary
+19,1,catch,23,28,2613,2618,32,5.0,13.0,2595.0,2603.0,,,,,verb.contact,True,12,subject,all three tailors,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+21,1,stopped,52,59,2881,2888,29,49.0,51.0,2878.0,2880.0,,,,,verb.motion,True,14,subject,the tailor,2.0,4.0,6.0,male,1.0,tertiary
+22,0,trundled,3,11,2998,3006,31,0.0,2.0,2995.0,2997.0,,,,,verb.motion,True,15,subject,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+27,0,wonder,2,8,3276,3282,5,0.0,1.0,3274.0,3275.0,,,,,verb.cognition,True,18,subject,an old man's wife,5.0,6.0,11.0,female,1.0,secondary
+28,1,said,44,48,3348,3352,0,36.0,41.0,3340.0,3345.0,,,,,verb.communication,True,20,subject,Tibby,2.0,1.0,3.0,unknown,0.0,tertiary
+30,3,chase,85,90,3536,3541,50,64.0,75.0,3515.0,3526.0,94.0,107.0,3545.0,3558.0,verb.motion,True,19,subject,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+31,5,said,170,174,3765,3769,13,156.0,169.0,3751.0,3764.0,,,,,verb.communication,True,23,subject,the old woman,4.0,15.0,19.0,female,1.0,primary
+34,1,cried,33,38,4029,4034,49,1.0,26.0,3997.0,4022.0,,,,,verb.communication,True,25,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+34,1,cried,33,38,4029,4034,132,1.0,26.0,3997.0,4022.0,,,,,verb.communication,True,25,subject,little bannock,1.0,0.0,1.0,unknown,0.0,tertiary
+35,2,beginning,50,59,4102,4111,49,45.0,46.0,4097.0,4098.0,,,,,verb.change,True,24,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+36,0,hopped,20,26,4194,4200,31,4.0,19.0,4178.0,4193.0,,,,,verb.motion,True,26,subject,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+37,1,upset,44,49,4309,4314,49,33.0,36.0,4298.0,4301.0,,,,,verb.emotion,True,27,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+38,1,put,30,33,4354,4357,49,22.0,25.0,4346.0,4349.0,,,,,verb.contact,True,28,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+39,4,saw,81,84,4531,4534,61,78.0,80.0,4528.0,4530.0,,,,,verb.perception,True,29,subject,The miller,3.0,8.0,11.0,male,1.0,secondary
+40,4,said,91,95,4643,4647,61,1.0,85.0,4553.0,4637.0,,,,,verb.communication,True,31,subject,The miller,3.0,8.0,11.0,male,1.0,secondary
+40,4,said,91,95,4643,4647,134,1.0,85.0,4553.0,4637.0,,,,,verb.communication,True,31,subject,bannocks,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+41,0,like,8,12,4656,4660,61,6.0,7.0,4654.0,4655.0,,,,,verb.emotion,True,30,subject,The miller,3.0,8.0,11.0,male,1.0,secondary
+42,8,run,165,168,4905,4908,61,154.0,161.0,4894.0,4901.0,,,,,verb.motion,True,32,subject,The miller,3.0,8.0,11.0,male,1.0,secondary
+44,2,looked,64,70,5098,5104,67,61.0,63.0,5095.0,5097.0,74.0,100.0,5108.0,5134.0,verb.perception,True,34,subject,The smith,1.0,3.0,4.0,male,1.0,tertiary
+45,4,cried,87,92,5223,5228,67,1.0,81.0,5137.0,5217.0,,,,,verb.communication,True,35,subject,The smith,1.0,3.0,4.0,male,1.0,tertiary
+47,5,ran,161,164,5434,5437,71,113.0,135.0,5386.0,5408.0,,,,,verb.motion,True,36,subject,the disappointed smith,1.0,7.0,8.0,male,1.0,secondary
+48,2,catch,34,39,5482,5487,71,21.0,23.0,5469.0,5471.0,,,,,verb.cognition,True,37,subject,the disappointed smith,1.0,7.0,8.0,male,1.0,secondary
+49,0,came,23,27,5634,5638,73,11.0,22.0,5622.0,5633.0,44.0,98.0,5655.0,5709.0,verb.motion,True,38,subject,the bannock,3.0,2.0,5.0,unknown,0.0,tertiary
+51,5,heckling,127,135,5875,5883,79,110.0,122.0,5858.0,5870.0,,,,,verb.consumption,True,39,subject,the mistress,1.0,0.0,1.0,unknown,0.0,tertiary
+52,0,cried,13,18,5925,5930,1,1.0,10.0,5913.0,5922.0,31.0,42.0,5943.0,5954.0,verb.communication,True,40,subject,Janet,2.0,5.0,7.0,female,1.0,tertiary
+54,1,have,5,9,6025,6029,50,0.0,1.0,6020.0,6021.0,,,,,verb.possession,True,42,subject,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+55,2,cried,32,37,6079,6084,49,1.0,29.0,6048.0,6076.0,,,,,verb.communication,True,41,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+58,0,played,16,22,6233,6239,73,4.0,15.0,6221.0,6232.0,,,,,verb.creation,True,44,subject,the bannock,3.0,2.0,5.0,unknown,0.0,tertiary
+61,0,missed,15,21,6423,6429,84,4.0,14.0,6412.0,6422.0,26.0,102.0,6434.0,6510.0,verb.perception,True,45,subject,the heckle,1.0,0.0,1.0,unknown,0.0,tertiary
+62,0,ran,13,16,6552,6555,73,10.0,12.0,6549.0,6551.0,31.0,90.0,6570.0,6629.0,verb.motion,True,47,subject,the bannock,3.0,2.0,5.0,unknown,0.0,tertiary
+63,3,sitting,97,104,6728,6735,16,81.0,92.0,6712.0,6723.0,,,,,verb.contact,True,48,subject,the old woman's husband,4.0,4.0,8.0,male,1.0,secondary
+63,3,sitting,97,104,6728,6735,49,81.0,92.0,6712.0,6723.0,,,,,verb.contact,True,48,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+66,1,crying,9,15,6865,6871,3,1.0,4.0,6857.0,6860.0,,,,,verb.communication,True,49,subject,Jock,3.0,7.0,10.0,male,1.0,secondary
+67,2,catch,42,47,6951,6956,49,36.0,38.0,6945.0,6947.0,,,,,verb.contact,True,51,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+68,0,jumping,25,32,6987,6994,3,5.0,23.0,6967.0,6985.0,,,,,verb.motion,True,52,subject,Jock,3.0,7.0,10.0,male,1.0,secondary
+70,1,see,9,12,7071,7074,3,0.0,1.0,7062.0,7063.0,,,,,verb.perception,True,53,subject,Jock,3.0,7.0,10.0,male,1.0,secondary
+71,0,cried,21,26,7101,7106,138,0.0,18.0,7080.0,7098.0,38.0,54.0,7118.0,7134.0,verb.communication,True,54,subject,man,1.0,0.0,1.0,male,1.0,tertiary
+74,0,ran,8,11,7189,7192,3,3.0,7.0,7184.0,7188.0,,,,,verb.motion,True,55,subject,Jock,3.0,7.0,10.0,male,1.0,secondary
+75,2,jumped,61,67,7292,7298,31,45.0,60.0,7276.0,7291.0,,,,,verb.motion,True,56,subject,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+76,0,ran,41,44,7384,7387,31,38.0,40.0,7381.0,7383.0,,,,,verb.motion,True,57,subject,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+77,3,scraping,75,83,7537,7545,49,58.0,70.0,7520.0,7532.0,,,,,verb.contact,True,58,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+78,3,stopping,38,46,7593,7601,49,23.0,26.0,7578.0,7581.0,,,,,verb.motion,True,60,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+83,1,ran,14,17,7884,7887,73,0.0,2.0,7870.0,7872.0,,,,,verb.motion,True,62,subject,the bannock,3.0,2.0,5.0,unknown,0.0,tertiary
+84,0,saw,22,25,8053,8056,103,9.0,21.0,8040.0,8052.0,,,,,verb.cognition,True,63,subject,the shepherd,2.0,9.0,11.0,male,1.0,secondary
+86,3,raking,53,59,8309,8315,49,36.0,48.0,8292.0,8304.0,72.0,97.0,8328.0,8353.0,verb.contact,True,65,subject,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+93,0,threw,15,20,8584,8589,50,3.0,14.0,8572.0,8583.0,,,,,verb.contact,True,68,subject,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+96,0,chased,3,9,8876,8882,103,0.0,2.0,8873.0,8875.0,,,,,verb.contact,True,70,subject,the shepherd,2.0,9.0,11.0,male,1.0,secondary
+97,0,lost,8,12,8988,8992,103,5.0,7.0,8985.0,8987.0,,,,,verb.possession,True,71,subject,the shepherd,2.0,9.0,11.0,male,1.0,secondary
+98,1,feeling,16,23,9012,9019,103,9.0,11.0,9005.0,9007.0,29.0,45.0,9025.0,9041.0,verb.emotion,True,72,subject,the shepherd,2.0,9.0,11.0,male,1.0,secondary
+100,2,see,61,64,9299,9302,118,36.0,43.0,9274.0,9281.0,,,,,verb.perception,True,73,subject,the fox,1.0,4.0,5.0,male,1.0,tertiary
+101,0,cried,27,32,9371,9376,118,1.0,21.0,9345.0,9365.0,,,,,verb.communication,True,74,subject,the fox,1.0,4.0,5.0,male,1.0,tertiary
+102,0,snapped,8,15,9385,9392,118,5.0,7.0,9382.0,9384.0,19.0,52.0,9396.0,9429.0,verb.contact,True,76,subject,the fox,1.0,4.0,5.0,male,1.0,tertiary
+103,6,thought,160,167,9637,9644,120,52.0,63.0,9529.0,9540.0,,,,,verb.cognition,True,75,subject,people,1.0,0.0,1.0,unknown,0.0,tertiary
+103,6,thought,160,167,9637,9644,121,52.0,63.0,9529.0,9540.0,,,,,verb.cognition,True,75,subject,all the good folk in the story,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+0,1,tirled,45,51,45,51,123,52.0,56.0,52.0,56.0,57.0,71.0,,,verb.communication,True,0,direct_object,their sweethearts,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+6,0,thought,45,52,677,684,13,53.0,127.0,685.0,759.0,,,,,verb.cognition,True,1,direct_object,the old woman,4.0,15.0,19.0,female,1.0,primary
+19,1,catch,23,28,2613,2618,31,29.0,44.0,2619.0,2634.0,,,,,verb.contact,True,12,direct_object,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+20,0,dodged,7,13,2643,2649,32,14.0,18.0,2650.0,2654.0,,,,,verb.contact,True,13,direct_object,all three tailors,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+24,0,said,0,4,3139,3143,44,5.0,62.0,3144.0,3201.0,,,,,verb.communication,True,16,direct_object,a weaver,1.0,4.0,5.0,male,1.0,tertiary
+24,0,said,0,4,3139,3143,46,5.0,62.0,3144.0,3201.0,,,,,verb.communication,True,16,direct_object,the weaver,1.0,0.0,1.0,unknown,0.0,tertiary
+26,0,cried,0,5,3209,3214,5,6.0,9.0,3215.0,3218.0,10.0,41.0,,,verb.communication,True,17,direct_object,an old man's wife,5.0,6.0,11.0,female,1.0,secondary
+28,1,said,44,48,3348,3352,5,49.0,56.0,3353.0,3360.0,,,,,verb.communication,True,20,direct_object,an old man's wife,5.0,6.0,11.0,female,1.0,secondary
+28,1,said,44,48,3348,3352,47,49.0,56.0,3353.0,3360.0,,,,,verb.communication,True,20,direct_object,an old man's wife's man,1.0,1.0,2.0,male,1.0,tertiary
+32,0,came,26,30,3839,3843,31,31.0,36.0,3844.0,3849.0,,,,,verb.motion,True,22,direct_object,the wee bannock,8.0,5.0,13.0,unknown,0.0,secondary
+33,3,standing,61,69,3955,3963,49,70.0,100.0,3964.0,3994.0,,,,,verb.contact,True,21,direct_object,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+36,0,hopped,20,26,4194,4200,49,27.0,89.0,4201.0,4263.0,,,,,verb.motion,True,26,direct_object,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+42,8,run,165,168,4905,4908,62,169.0,177.0,4909.0,4917.0,,,,,verb.motion,True,32,direct_object,the little bannock,2.0,3.0,5.0,unknown,0.0,tertiary
+43,3,see,92,95,5011,5014,62,96.0,113.0,5015.0,5032.0,,,,,verb.communication,True,33,direct_object,the little bannock,2.0,3.0,5.0,unknown,0.0,tertiary
+51,5,heckling,127,135,5875,5883,77,136.0,162.0,5884.0,5910.0,,,,,verb.consumption,True,39,direct_object,the master,1.0,1.0,2.0,male,1.0,tertiary
+52,0,cried,13,18,5925,5930,50,19.0,30.0,5931.0,5942.0,31.0,42.0,5943.0,5954.0,verb.communication,True,40,direct_object,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+55,2,cried,32,37,6079,6084,49,38.0,50.0,6085.0,6097.0,,,,,verb.communication,True,41,direct_object,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+56,0,hit,1,4,6100,6103,50,5.0,7.0,6104.0,6106.0,,,,,verb.contact,True,43,direct_object,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+56,0,hit,1,4,6100,6103,2,5.0,7.0,6104.0,6106.0,,,,,verb.contact,True,43,direct_object,Sandy,1.0,0.0,1.0,unknown,0.0,tertiary
+60,0,cried,0,5,6289,6294,1,6.0,26.0,6295.0,6315.0,28.0,117.0,,,verb.communication,True,46,direct_object,Janet,2.0,5.0,7.0,female,1.0,tertiary
+65,2,cried,23,28,6836,6841,49,29.0,41.0,6842.0,6854.0,,,,,verb.communication,True,50,direct_object,the Goodwife,8.0,17.0,25.0,female,1.0,primary
+71,0,cried,21,26,7101,7106,16,27.0,35.0,7107.0,7115.0,38.0,54.0,7118.0,7134.0,verb.communication,True,54,direct_object,the old woman's husband,4.0,4.0,8.0,male,1.0,secondary
+71,0,cried,21,26,7101,7106,5,27.0,35.0,7107.0,7115.0,38.0,54.0,7118.0,7134.0,verb.communication,True,54,direct_object,an old man's wife,5.0,6.0,11.0,female,1.0,secondary
+75,2,jumped,61,67,7292,7298,3,68.0,76.0,7299.0,7307.0,,,,,verb.motion,True,56,direct_object,Jock,3.0,7.0,10.0,male,1.0,secondary
+79,2,warm,34,38,7674,7678,99,39.0,45.0,7679.0,7685.0,,,,,verb.change,True,59,direct_object,The inmates,1.0,8.0,9.0,group/nonbinary,1.0,secondary
+80,1,cried,18,23,7722,7727,101,24.0,35.0,7728.0,7739.0,,,,,verb.communication,True,61,direct_object,the husband,1.0,0.0,1.0,male,1.0,tertiary
+84,0,saw,22,25,8053,8056,99,26.0,66.0,8057.0,8097.0,,,,,verb.cognition,True,63,direct_object,The inmates,1.0,8.0,9.0,group/nonbinary,1.0,secondary
+85,1,came,47,51,8194,8198,108,52.0,107.0,8199.0,8254.0,,,,,verb.motion,True,64,direct_object,the folk,1.0,0.0,1.0,unknown,0.0,tertiary
+88,0,said,0,4,8370,8374,50,5.0,73.0,8375.0,8443.0,,,,,verb.communication,True,66,direct_object,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+89,1,answered,18,26,8464,8472,5,27.0,35.0,8473.0,8481.0,,,,,verb.communication,True,67,direct_object,an old man's wife,5.0,6.0,11.0,female,1.0,secondary
+89,1,answered,18,26,8464,8472,103,27.0,35.0,8473.0,8481.0,,,,,verb.communication,True,67,direct_object,the shepherd,2.0,9.0,11.0,male,1.0,secondary
+92,0,throw,0,5,8524,8529,50,6.0,15.0,8530.0,8539.0,,,,,verb.contact,True,69,direct_object,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+93,0,threw,15,20,8584,8589,50,21.0,29.0,8590.0,8598.0,,,,,verb.contact,True,68,direct_object,the Goodman,5.0,8.0,13.0,male,1.0,secondary
+103,6,thought,160,167,9637,9644,121,168.0,227.0,9645.0,9704.0,,,,,verb.cognition,True,75,direct_object,all the good folk in the story,1.0,1.0,2.0,group/nonbinary,1.0,tertiary

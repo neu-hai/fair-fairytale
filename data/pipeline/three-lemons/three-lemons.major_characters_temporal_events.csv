@@ -1,0 +1,129 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,lost,51,55,51,55,2,28.0,42.0,28.0,42.0,,,,,verb.possession,True,0,subject,three brothers,1,0,1,male,1.0,tertiary
+1,0,prepared,23,31,226,234,8,0.0,22.0,203.0,225.0,51.0,73.0,254.0,276.0,verb.change,True,2,subject,The two older brothers,1,16,17,male,1.0,tertiary
+2,2,sitting,79,86,356,363,9,65.0,67.0,342.0,344.0,104.0,113.0,381.0,390.0,verb.contact,True,1,subject,the youngest,1,1,2,male,1.0,tertiary
+5,1,asked,26,31,577,582,8,21.0,25.0,572.0,576.0,,,,,verb.communication,True,4,subject,The two older brothers,1,16,17,male,1.0,tertiary
+7,2,see,39,42,717,720,10,30.0,32.0,708.0,710.0,,,,,verb.cognition,True,6,subject,the king,18,27,45,male,1.0,secondary
+8,6,pull,149,153,895,899,8,138.0,142.0,884.0,888.0,163.0,168.0,909.0,914.0,verb.contact,True,7,subject,The two older brothers,1,16,17,male,1.0,tertiary
+9,3,carry,35,40,951,956,8,24.0,28.0,940.0,944.0,56.0,72.0,972.0,988.0,verb.contact,True,10,subject,The two older brothers,1,16,17,male,1.0,tertiary
+10,5,carrying,129,137,1119,1127,0,99.0,101.0,1089.0,1091.0,,,,,verb.contact,True,9,subject,Mike,16,84,100,male,1.0,primary
+11,7,died,163,167,1311,1315,22,143.0,158.0,1291.0,1306.0,,,,,verb.change,True,8,subject,the king 's wife,1,0,1,female,0.5,tertiary
+11,7,died,163,167,1311,1315,10,143.0,158.0,1291.0,1306.0,,,,,verb.change,True,8,subject,the king,18,27,45,male,1.0,secondary
+12,8,brought,108,115,1446,1453,0,104.0,107.0,1442.0,1445.0,,,,,verb.motion,True,12,subject,Mike,16,84,100,male,1.0,primary
+13,3,thought,55,62,1549,1556,0,31.0,33.0,1525.0,1527.0,,,,,verb.cognition,True,11,subject,Mike,16,84,100,male,1.0,primary
+14,3,try,50,53,1628,1631,0,41.0,43.0,1619.0,1621.0,,,,,verb.social,True,14,subject,Mike,16,84,100,male,1.0,primary
+15,0,took,6,10,1642,1646,0,3.0,5.0,1639.0,1641.0,,,,,verb.contact,True,13,subject,Mike,16,84,100,male,1.0,primary
+16,3,thought,77,84,1761,1768,0,4.0,6.0,1688.0,1690.0,,,,,verb.cognition,True,15,subject,Mike,16,84,100,male,1.0,primary
+17,3,limping,107,114,1948,1955,31,89.0,101.0,1930.0,1942.0,,,,,verb.motion,True,16,subject,an old woman,1,3,4,female,1.0,tertiary
+18,0,said,26,30,2032,2036,109,1.0,23.0,2007.0,2029.0,,,,,verb.communication,True,17,subject,granny,1,0,1,unknown,0.0,tertiary
+20,2,telling,48,55,2141,2148,31,0.0,3.0,2093.0,2096.0,,,,,verb.communication,True,19,subject,an old woman,1,3,4,female,1.0,tertiary
+21,2,slung,46,51,2259,2264,0,43.0,45.0,2256.0,2258.0,65.0,94.0,2278.0,2307.0,verb.contact,True,20,subject,Mike,16,84,100,male,1.0,primary
+22,1,gone,17,21,2343,2347,0,5.0,7.0,2331.0,2333.0,39.0,64.0,2365.0,2390.0,verb.motion,True,21,subject,Mike,16,84,100,male,1.0,primary
+24,1,asking,61,67,2617,2623,35,49.0,60.0,2605.0,2616.0,,,,,verb.communication,True,24,subject,dwarfs,1,3,4,group/nonbinary,1.0,tertiary
+26,2,know,34,38,2734,2738,0,23.0,25.0,2723.0,2725.0,,,,,verb.cognition,True,23,subject,Mike,16,84,100,male,1.0,primary
+27,3,ask,45,48,2802,2805,0,36.0,38.0,2793.0,2795.0,,,,,verb.communication,True,25,subject,Mike,16,84,100,male,1.0,primary
+29,0,knew,6,10,2914,2918,39,1.0,5.0,2909.0,2913.0,,,,,verb.cognition,True,26,subject,the dwarfs,2,3,5,group/nonbinary,1.0,tertiary
+30,2,fetch,30,35,3002,3007,0,6.0,16.0,2978.0,2988.0,41.0,85.0,3013.0,3057.0,verb.contact,True,29,subject,Mike,16,84,100,male,1.0,primary
+33,3,lost,70,74,3306,3310,44,61.0,65.0,3297.0,3301.0,,,,,verb.possession,True,30,subject,three beautiful princesses,1,3,4,female,1.0,tertiary
+34,2,know,70,74,3494,3498,0,59.0,61.0,3483.0,3485.0,,,,,verb.cognition,True,31,subject,Mike,16,84,100,male,1.0,primary
+35,1,reflected,17,26,3528,3537,0,10.0,12.0,3521.0,3523.0,,,,,verb.cognition,True,32,subject,Mike,16,84,100,male,1.0,primary
+37,2,grew,32,36,3769,3773,0,29.0,31.0,3766.0,3768.0,,,,,verb.change,True,34,subject,Mike,16,84,100,male,1.0,primary
+38,6,refresh,66,73,3863,3870,0,56.0,58.0,3853.0,3855.0,,,,,verb.body,True,35,subject,Mike,16,84,100,male,1.0,primary
+39,1,took,40,44,3920,3924,0,37.0,39.0,3917.0,3919.0,,,,,verb.contact,True,37,subject,Mike,16,84,100,male,1.0,primary
+41,4,die,53,56,4076,4079,45,44.0,47.0,4067.0,4070.0,,,,,verb.change,True,39,subject,a princess,3,19,22,female,1.0,tertiary
+42,0,ran,10,13,4091,4094,32,0.0,9.0,4081.0,4090.0,31.0,58.0,4112.0,4139.0,verb.motion,True,38,subject,the youth,2,1,3,unknown,0.0,tertiary
+43,3,returned,65,73,4205,4213,0,62.0,64.0,4202.0,4204.0,,,,,verb.motion,True,40,subject,Mike,16,84,100,male,1.0,primary
+44,2,grew,39,43,4267,4271,0,36.0,38.0,4264.0,4266.0,,,,,verb.change,True,41,subject,Mike,16,84,100,male,1.0,primary
+45,0,looked,21,27,4410,4416,47,4.0,20.0,4393.0,4409.0,,,,,verb.perception,True,42,subject,another princess,1,5,6,female,1.0,tertiary
+46,5,die,77,80,4568,4571,47,68.0,71.0,4559.0,4562.0,,,,,verb.change,True,43,subject,another princess,1,5,6,female,1.0,tertiary
+47,1,looked,32,38,4617,4623,0,0.0,17.0,4585.0,4602.0,,,,,verb.perception,True,44,subject,Mike,16,84,100,male,1.0,primary
+47,1,looked,32,38,4617,4623,25,0.0,17.0,4585.0,4602.0,,,,,verb.perception,True,44,subject,the Stove,4,0,4,unknown,0.0,tertiary
+48,1,died,46,50,4692,4696,49,27.0,40.0,4673.0,4686.0,,,,,verb.change,True,45,subject,this princess,1,0,1,female,1.0,tertiary
+49,0,thought,18,25,4716,4723,0,0.0,17.0,4698.0,4715.0,,,,,verb.cognition,True,47,subject,Mike,16,84,100,male,1.0,primary
+50,1,traveling,40,49,4876,4885,0,33.0,35.0,4869.0,4871.0,,,,,verb.motion,True,46,subject,Mike,16,84,100,male,1.0,primary
+53,8,die,154,157,5252,5255,45,145.0,148.0,5243.0,5246.0,,,,,verb.change,True,48,subject,a princess,3,19,22,female,1.0,tertiary
+54,1,looked,32,38,5301,5307,1,0.0,17.0,5269.0,5286.0,,,,,verb.perception,True,49,subject,the Stove,10,0,10,unknown,0.0,tertiary
+54,1,looked,32,38,5301,5307,0,0.0,17.0,5269.0,5286.0,,,,,verb.perception,True,49,subject,Mike,16,84,100,male,1.0,primary
+55,1,come,12,16,5412,5416,0,5.0,7.0,5405.0,5407.0,,,,,verb.motion,True,50,subject,Mike,16,84,100,male,1.0,primary
+56,0,had,8,11,5515,5518,45,4.0,7.0,5511.0,5514.0,,,,,verb.possession,True,51,subject,a princess,3,19,22,female,1.0,tertiary
+57,1,hid,19,22,5604,5607,45,0.0,3.0,5585.0,5588.0,,,,,verb.contact,True,52,subject,a princess,3,19,22,female,1.0,tertiary
+59,2,fetch,48,53,5788,5793,60,10.0,18.0,5750.0,5758.0,,,,,verb.contact,True,53,subject,the cook,3,19,22,female,1.0,tertiary
+60,3,thought,65,72,5866,5873,60,61.0,64.0,5862.0,5865.0,,,,,verb.cognition,True,55,subject,the cook,3,19,22,female,1.0,tertiary
+61,1,fetch,15,20,6001,6006,112,5.0,14.0,5991.0,6000.0,,,,,verb.contact,True,56,subject,the devil,1,0,1,unknown,0.0,tertiary
+63,0,noticed,22,29,6122,6129,60,9.0,12.0,6109.0,6112.0,,,,,verb.perception,True,58,subject,the cook,3,19,22,female,1.0,tertiary
+64,1,pulled,32,38,6235,6241,60,28.0,31.0,6231.0,6234.0,,,,,verb.contact,True,59,subject,the cook,3,19,22,female,1.0,tertiary
+65,1,climbed,55,62,6350,6357,60,5.0,8.0,6300.0,6303.0,,,,,verb.motion,True,60,subject,the cook,3,19,22,female,1.0,tertiary
+66,2,grew,66,70,6439,6443,10,63.0,65.0,6436.0,6438.0,,,,,verb.change,True,61,subject,the king,18,27,45,male,1.0,secondary
+67,7,want,161,165,6627,6631,10,150.0,152.0,6616.0,6618.0,,,,,verb.emotion,True,62,subject,the king,18,27,45,male,1.0,secondary
+69,2,adorned,60,67,6917,6924,60,52.0,55.0,6909.0,6912.0,,,,,verb.possession,True,64,subject,the cook,3,19,22,female,1.0,tertiary
+71,2,fetch,62,67,7089,7094,76,20.0,36.0,7047.0,7063.0,,,,,verb.contact,True,65,subject,the kitchen - maid,1,3,4,female,1.0,tertiary
+72,2,thought,49,56,7195,7202,10,35.0,43.0,7181.0,7189.0,,,,,verb.cognition,True,66,subject,the king,18,27,45,male,1.0,secondary
+73,0,declared,25,33,7244,7252,79,5.0,24.0,7224.0,7243.0,,,,,verb.communication,True,67,subject,the homely princess,1,1,2,female,1.0,tertiary
+75,2,thought,48,55,7495,7502,10,45.0,47.0,7492.0,7494.0,,,,,verb.cognition,True,68,subject,the king,18,27,45,male,1.0,secondary
+76,0,said,18,22,7537,7541,83,5.0,17.0,7524.0,7536.0,,,,,verb.communication,True,69,subject,the princess,5,4,9,female,1.0,tertiary
+77,4,said,84,88,7722,7726,83,30.0,33.0,7668.0,7671.0,,,,,verb.communication,True,70,subject,the princess,5,4,9,female,1.0,tertiary
+79,1,thought,27,34,7933,7940,10,24.0,26.0,7930.0,7932.0,,,,,verb.cognition,True,71,subject,the king,18,27,45,male,1.0,secondary
+80,0,said,18,22,7973,7977,83,5.0,17.0,7960.0,7972.0,,,,,verb.communication,True,73,subject,the princess,5,4,9,female,1.0,tertiary
+81,1,wish,22,26,8084,8088,10,0.0,13.0,8062.0,8075.0,,,,,verb.emotion,True,72,subject,the king,18,27,45,male,1.0,secondary
+82,0,tormented,18,27,8119,8128,83,5.0,17.0,8106.0,8118.0,32.0,74.0,8133.0,8175.0,verb.emotion,True,74,subject,the princess,5,4,9,female,1.0,tertiary
+83,1,brought,28,35,8205,8212,89,5.0,14.0,8182.0,8191.0,,,,,verb.motion,True,75,subject,the maids,2,8,10,group/nonbinary,1.0,tertiary
+84,2,said,64,68,8337,8341,83,1.0,61.0,8274.0,8334.0,,,,,verb.communication,True,77,subject,the princess,5,4,9,female,1.0,tertiary
+84,2,said,64,68,8337,8341,10,1.0,61.0,8274.0,8334.0,,,,,verb.communication,True,77,subject,the king,18,27,45,male,1.0,secondary
+87,2,carried,50,57,8583,8590,89,41.0,45.0,8574.0,8578.0,67.0,74.0,8600.0,8607.0,verb.contact,True,76,subject,the maids,2,8,10,group/nonbinary,1.0,tertiary
+88,0,looked,14,20,8647,8653,89,9.0,13.0,8642.0,8646.0,,,,,verb.perception,True,78,subject,the maids,2,8,10,group/nonbinary,1.0,tertiary
+89,4,fetch,85,90,8882,8887,89,0.0,9.0,8797.0,8806.0,,,,,verb.contact,True,79,subject,the maids,2,8,10,group/nonbinary,1.0,tertiary
+90,0,arrived,27,34,9025,9032,0,9.0,26.0,9007.0,9024.0,,,,,verb.motion,True,80,subject,Mike,16,84,100,male,1.0,primary
+90,0,arrived,27,34,9025,9032,25,9.0,26.0,9007.0,9024.0,,,,,verb.motion,True,80,subject,the Stove,4,0,4,unknown,0.0,tertiary
+92,1,tell,29,33,9393,9397,89,13.0,17.0,9377.0,9381.0,,,,,verb.communication,True,81,subject,the maids,2,8,10,group/nonbinary,1.0,tertiary
+93,2,wanted,79,85,9569,9575,10,76.0,78.0,9566.0,9568.0,,,,,verb.emotion,True,82,subject,the king,18,27,45,male,1.0,secondary
+94,0,held,10,14,9714,9718,89,5.0,9.0,9709.0,9713.0,,,,,verb.creation,True,83,subject,the maids,2,8,10,group/nonbinary,1.0,tertiary
+0,2,lost,51,55,51,55,4,56.0,69.0,56.0,69.0,,,,,verb.possession,True,0,direct_object,three brothers who had lost their parents's parents,1,0,1,male,1.0,tertiary
+0,2,lost,51,55,51,55,3,56.0,69.0,56.0,69.0,,,,,verb.possession,True,0,direct_object,three brothers who had lost their parents,1,1,2,male,1.0,tertiary
+4,0,reached,46,53,505,512,10,54.0,70.0,513.0,529.0,71.0,90.0,,,verb.motion,True,3,direct_object,the king,18,27,45,male,1.0,secondary
+5,1,asked,26,31,577,582,10,32.0,67.0,583.0,618.0,,,,,verb.communication,True,4,direct_object,the king,18,27,45,male,1.0,secondary
+6,0,said,6,10,626,630,8,11.0,57.0,631.0,677.0,,,,,verb.communication,True,5,direct_object,The two older brothers,1,16,17,male,1.0,tertiary
+6,0,said,6,10,626,630,10,11.0,57.0,631.0,677.0,,,,,verb.communication,True,5,direct_object,the king,18,27,45,male,1.0,secondary
+7,2,see,39,42,717,720,8,43.0,67.0,721.0,745.0,,,,,verb.cognition,True,6,direct_object,The two older brothers,1,16,17,male,1.0,tertiary
+10,5,carrying,129,137,1119,1127,0,138.0,156.0,1128.0,1146.0,,,,,verb.contact,True,9,direct_object,Mike,16,84,100,male,1.0,primary
+16,3,thought,77,84,1761,1768,0,85.0,155.0,1769.0,1839.0,,,,,verb.cognition,True,15,direct_object,Mike,16,84,100,male,1.0,primary
+16,3,thought,77,84,1761,1768,10,85.0,155.0,1769.0,1839.0,,,,,verb.cognition,True,15,direct_object,the king,18,27,45,male,1.0,secondary
+18,0,said,26,30,2032,2036,32,31.0,40.0,2037.0,2046.0,,,,,verb.communication,True,17,direct_object,the youth,2,1,3,unknown,0.0,tertiary
+19,2,share,29,34,2077,2082,32,35.0,42.0,2083.0,2090.0,,,,,verb.possession,True,18,direct_object,the youth,2,1,3,unknown,0.0,tertiary
+20,2,telling,48,55,2141,2148,31,56.0,59.0,2149.0,2152.0,,,,,verb.communication,True,19,direct_object,an old woman,1,3,4,female,1.0,tertiary
+20,2,telling,48,55,2141,2148,0,56.0,59.0,2149.0,2152.0,,,,,verb.communication,True,19,direct_object,Mike,16,84,100,male,1.0,primary
+21,2,slung,46,51,2259,2264,0,52.0,64.0,2265.0,2277.0,65.0,94.0,2278.0,2307.0,verb.contact,True,20,direct_object,Mike,16,84,100,male,1.0,primary
+23,2,thought,20,27,2412,2419,0,28.0,30.0,2420.0,2422.0,,,,,verb.cognition,True,22,direct_object,Mike,16,84,100,male,1.0,primary
+26,2,know,34,38,2734,2738,35,39.0,56.0,2739.0,2756.0,,,,,verb.cognition,True,23,direct_object,dwarfs,1,3,4,group/nonbinary,1.0,tertiary
+26,2,know,34,38,2734,2738,0,39.0,56.0,2739.0,2756.0,,,,,verb.cognition,True,23,direct_object,Mike,16,84,100,male,1.0,primary
+26,2,know,34,38,2734,2738,36,39.0,56.0,2739.0,2756.0,,,,,verb.cognition,True,23,direct_object,dwarfs's lord,1,0,1,unknown,0.0,tertiary
+27,3,ask,45,48,2802,2805,37,49.0,53.0,2806.0,2810.0,,,,,verb.communication,True,25,direct_object,the fairest princess in twelve kingdoms,1,3,4,female,1.0,tertiary
+27,3,ask,45,48,2802,2805,35,49.0,53.0,2806.0,2810.0,,,,,verb.communication,True,25,direct_object,dwarfs,1,3,4,group/nonbinary,1.0,tertiary
+27,3,ask,45,48,2802,2805,0,49.0,53.0,2806.0,2810.0,,,,,verb.communication,True,25,direct_object,Mike,16,84,100,male,1.0,primary
+28,2,said,27,31,2892,2896,39,32.0,42.0,2897.0,2907.0,,,,,verb.communication,True,27,direct_object,the dwarfs,2,3,5,group/nonbinary,1.0,tertiary
+29,0,knew,6,10,2914,2918,37,11.0,30.0,2919.0,2938.0,,,,,verb.cognition,True,26,direct_object,the fairest princess in twelve kingdoms,1,3,4,female,1.0,tertiary
+30,2,fetch,30,35,3002,3007,37,36.0,39.0,3008.0,3011.0,41.0,85.0,3013.0,3057.0,verb.contact,True,29,direct_object,the fairest princess in twelve kingdoms,1,3,4,female,1.0,tertiary
+31,2,interfered,89,99,3148,3158,0,100.0,108.0,3159.0,3167.0,,,,,verb.social,True,28,direct_object,Mike,16,84,100,male,1.0,primary
+33,3,lost,70,74,3306,3310,44,75.0,85.0,3311.0,3321.0,,,,,verb.possession,True,30,direct_object,three beautiful princesses,1,3,4,female,1.0,tertiary
+36,0,thought,10,17,3610,3617,0,18.0,95.0,3618.0,3695.0,,,,,verb.cognition,True,33,direct_object,Mike,16,84,100,male,1.0,primary
+38,6,refresh,66,73,3863,3870,0,74.0,81.0,3871.0,3878.0,,,,,verb.body,True,35,direct_object,Mike,16,84,100,male,1.0,primary
+40,0,sat,10,13,3956,3959,45,14.0,24.0,3960.0,3970.0,,,,,verb.motion,True,36,direct_object,a princess,3,19,22,female,1.0,tertiary
+45,0,looked,21,27,4410,4416,47,33.0,52.0,4422.0,4441.0,,,,,verb.perception,True,42,direct_object,another princess,1,5,6,female,1.0,tertiary
+58,3,tell,61,65,5679,5683,45,66.0,74.0,5684.0,5692.0,,,,,verb.communication,True,54,direct_object,a princess,3,19,22,female,1.0,tertiary
+58,3,tell,61,65,5679,5683,0,66.0,74.0,5684.0,5692.0,,,,,verb.communication,True,54,direct_object,Mike,16,84,100,male,1.0,primary
+58,3,tell,61,65,5679,5683,10,66.0,74.0,5684.0,5692.0,,,,,verb.communication,True,54,direct_object,the king,18,27,45,male,1.0,secondary
+60,3,thought,65,72,5866,5873,60,73.0,87.0,5874.0,5888.0,,,,,verb.cognition,True,55,direct_object,the cook,3,19,22,female,1.0,tertiary
+62,0,said,0,4,6059,6063,60,5.0,8.0,6064.0,6067.0,,,,,verb.communication,True,57,direct_object,the cook,3,19,22,female,1.0,tertiary
+63,0,noticed,22,29,6122,6129,63,30.0,101.0,6130.0,6201.0,,,,,verb.perception,True,58,direct_object,the princess who sat in the tree,1,0,1,female,1.0,tertiary
+64,1,pulled,32,38,6235,6241,45,39.0,42.0,6242.0,6245.0,,,,,verb.contact,True,59,direct_object,a princess,3,19,22,female,1.0,tertiary
+67,7,want,161,165,6627,6631,60,166.0,242.0,6632.0,6708.0,,,,,verb.emotion,True,62,direct_object,the cook,3,19,22,female,1.0,tertiary
+67,7,want,161,165,6627,6631,0,166.0,242.0,6632.0,6708.0,,,,,verb.emotion,True,62,direct_object,Mike,16,84,100,male,1.0,primary
+67,7,want,161,165,6627,6631,25,166.0,242.0,6632.0,6708.0,,,,,verb.emotion,True,62,direct_object,the Stove,4,0,4,unknown,0.0,tertiary
+68,2,thought,39,46,6749,6756,10,47.0,49.0,6757.0,6759.0,,,,,verb.cognition,True,63,direct_object,the king,18,27,45,male,1.0,secondary
+73,0,declared,25,33,7244,7252,80,34.0,62.0,7253.0,7281.0,,,,,verb.communication,True,67,direct_object,witches,1,0,1,unknown,0.0,tertiary
+82,0,tormented,18,27,8119,8128,10,28.0,31.0,8129.0,8132.0,32.0,74.0,8133.0,8175.0,verb.emotion,True,74,direct_object,the king,18,27,45,male,1.0,secondary
+84,2,said,64,68,8337,8341,89,69.0,80.0,8342.0,8353.0,,,,,verb.communication,True,77,direct_object,the maids,2,8,10,group/nonbinary,1.0,tertiary
+89,4,fetch,85,90,8882,8887,94,91.0,173.0,8888.0,8970.0,,,,,verb.contact,True,79,direct_object,the youth who had been sent to find the most beautiful princess in twelve kingdoms,1,1,2,female,1.0,tertiary
+89,4,fetch,85,90,8882,8887,95,91.0,173.0,8888.0,8970.0,,,,,verb.contact,True,79,direct_object,the most beautiful princess in twelve kingdoms,1,0,1,female,1.0,tertiary
+92,1,tell,29,33,9393,9397,104,34.0,37.0,9398.0,9401.0,,,,,verb.communication,True,81,direct_object,a neighboring monarch,1,0,1,unknown,0.0,tertiary
+92,1,tell,29,33,9393,9397,10,34.0,37.0,9398.0,9401.0,,,,,verb.communication,True,81,direct_object,the king,18,27,45,male,1.0,secondary
+93,2,wanted,79,85,9569,9575,105,86.0,110.0,9576.0,9600.0,,,,,verb.emotion,True,82,direct_object,the beautiful princess,1,3,4,female,1.0,tertiary

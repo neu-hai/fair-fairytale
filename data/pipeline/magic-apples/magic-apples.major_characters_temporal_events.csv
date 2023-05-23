@@ -1,0 +1,96 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,had,36,39,109,112,4,33.0,35.0,106.0,108.0,,,,,verb.possession,True,0,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+2,2,spread,77,83,221,227,4,74.0,76.0,218.0,220.0,,,,,verb.contact,True,2,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+3,0,had,17,20,290,293,4,14.0,16.0,287.0,289.0,,,,,verb.possession,True,1,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+4,2,wish,27,31,342,346,4,18.0,20.0,333.0,335.0,40.0,58.0,355.0,373.0,verb.emotion,True,4,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+5,1,lacked,33,39,448,454,4,10.0,24.0,425.0,439.0,,,,,verb.possession,True,3,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+8,2,seen,41,45,797,801,4,11.0,17.0,767.0,773.0,,,,,verb.perception,True,5,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+9,3,wanted,87,93,933,939,4,84.0,86.0,930.0,932.0,,,,,verb.emotion,True,7,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+10,1,have,14,18,979,983,11,4.0,7.0,969.0,972.0,,,,,verb.possession,True,8,subject,a daughter,1.0,8.0,9.0,female,1.0,tertiary
+11,0,despaired,11,20,1041,1050,4,8.0,10.0,1038.0,1040.0,,,,,verb.emotion,True,9,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+12,1,wished,29,35,1164,1170,4,3.0,5.0,1138.0,1140.0,44.0,59.0,1179.0,1194.0,verb.emotion,True,10,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+13,2,said,32,36,1228,1232,4,29.0,31.0,1225.0,1227.0,,,,,verb.communication,True,11,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+14,0,laid,8,12,1242,1246,11,4.0,7.0,1238.0,1241.0,,,,,verb.contact,True,12,subject,a daughter,1.0,8.0,9.0,female,1.0,tertiary
+15,0,wish,3,7,1267,1271,13,1.0,2.0,1265.0,1266.0,,,,,verb.emotion,True,13,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+17,0,wept,24,28,1375,1379,16,4.0,23.0,1355.0,1374.0,,,,,verb.body,True,14,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+17,0,wept,24,28,1375,1379,10,4.0,23.0,1355.0,1374.0,,,,,verb.body,True,14,subject,the king,11.0,2.0,13.0,male,1.0,tertiary
+18,1,have,9,13,1433,1437,4,0.0,2.0,1424.0,1426.0,38.0,61.0,1462.0,1485.0,verb.possession,True,17,subject,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+19,2,shook,57,62,1544,1549,13,54.0,56.0,1541.0,1543.0,73.0,104.0,1560.0,1591.0,verb.motion,True,16,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+20,4,said,90,94,1683,1687,13,0.0,2.0,1593.0,1595.0,,,,,verb.communication,True,18,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+21,3,said,41,45,1734,1738,13,1.0,38.0,1694.0,1731.0,,,,,verb.communication,True,19,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+22,4,spread,62,68,1812,1818,13,59.0,61.0,1809.0,1811.0,,,,,verb.contact,True,20,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+23,3,wish,56,60,1892,1896,21,46.0,49.0,1882.0,1885.0,,,,,verb.cognition,True,21,subject,,,,,,,
+24,0,ate,22,25,1919,1922,10,5.0,21.0,1902.0,1918.0,,,,,verb.consumption,True,22,subject,the king,11.0,2.0,13.0,male,1.0,tertiary
+25,2,said,42,46,1976,1980,16,22.0,41.0,1956.0,1975.0,,,,,verb.communication,True,23,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+25,2,said,42,46,1976,1980,10,22.0,41.0,1956.0,1975.0,,,,,verb.communication,True,23,subject,the king,11.0,2.0,13.0,male,1.0,tertiary
+26,2,fetch,35,40,2074,2079,13,25.0,28.0,2064.0,2067.0,,,,,verb.contact,True,24,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+27,1,climbed,28,35,2135,2142,13,0.0,9.0,2107.0,2116.0,,,,,verb.motion,True,26,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+28,1,forgotten,11,20,2158,2167,13,4.0,6.0,2151.0,2153.0,,,,,verb.cognition,True,25,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+30,1,wished,26,32,2304,2310,16,0.0,3.0,2278.0,2281.0,,,,,verb.emotion,True,27,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+31,4,hurried,58,65,2430,2437,16,1.0,4.0,2373.0,2376.0,,,,,verb.motion,True,28,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+32,1,cry,12,15,2465,2468,13,0.0,2.0,2453.0,2455.0,,,,,verb.body,True,29,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+33,2,sampled,32,39,2530,2537,13,29.0,31.0,2527.0,2529.0,,,,,verb.possession,True,31,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+34,1,tried,17,22,2592,2597,13,14.0,16.0,2589.0,2591.0,,,,,verb.social,True,30,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+35,2,said,39,43,2741,2745,13,1.0,36.0,2703.0,2738.0,,,,,verb.communication,True,32,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+39,0,put,17,20,2898,2901,13,14.0,16.0,2895.0,2897.0,,,,,verb.contact,True,33,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+40,0,went,3,7,2978,2982,13,0.0,2.0,2975.0,2977.0,,,,,verb.motion,True,34,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+42,0,got,15,18,3126,3129,13,12.0,14.0,3123.0,3125.0,25.0,34.0,3136.0,3145.0,verb.motion,True,35,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+44,1,pretended,69,78,3290,3299,13,5.0,7.0,3226.0,3228.0,,,,,verb.creation,True,36,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+47,0,cried,3,8,3362,3367,13,0.0,2.0,3359.0,3361.0,,,,,verb.communication,True,37,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+48,0,came,37,41,3406,3410,16,17.0,36.0,3386.0,3405.0,,,,,verb.motion,True,39,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+48,0,came,37,41,3406,3410,10,17.0,36.0,3386.0,3405.0,,,,,verb.motion,True,39,subject,the king,11.0,2.0,13.0,male,1.0,tertiary
+49,0,had,8,11,3522,3525,44,5.0,7.0,3519.0,3521.0,,,,,verb.possession,True,38,subject,the peddler from abroad,1.0,1.0,2.0,male,1.0,tertiary
+53,1,bought,33,39,3649,3655,45,22.0,32.0,3638.0,3648.0,,,,,verb.possession,True,42,subject,the maiden,2.0,0.0,2.0,female,1.0,tertiary
+54,1,eaten,29,34,3686,3691,16,5.0,24.0,3662.0,3681.0,,,,,verb.consumption,True,41,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+54,1,eaten,29,34,3686,3691,10,5.0,24.0,3662.0,3681.0,,,,,verb.consumption,True,41,subject,the king,11.0,2.0,13.0,male,1.0,tertiary
+58,1,help,23,27,4099,4103,58,4.0,16.0,4080.0,4092.0,,,,,verb.social,True,44,subject,the best physicians in the country's of them,1.0,0.0,1.0,unknown,0.0,tertiary
+58,1,help,23,27,4099,4103,56,4.0,16.0,4080.0,4092.0,,,,,verb.social,True,44,subject,the best physicians in the country,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+59,0,came,39,43,4157,4161,60,12.0,38.0,4130.0,4156.0,,,,,verb.motion,True,45,subject,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+60,4,try,83,86,4255,4258,60,0.0,2.0,4172.0,4174.0,96.0,100.0,4268.0,4272.0,verb.social,True,46,subject,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+62,0,recognized,20,30,4378,4388,16,0.0,19.0,4358.0,4377.0,,,,,verb.perception,True,48,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+62,0,recognized,20,30,4378,4388,10,0.0,19.0,4358.0,4377.0,,,,,verb.perception,True,48,subject,the king,11.0,2.0,13.0,male,1.0,tertiary
+63,0,help,6,10,4431,4435,13,4.0,5.0,4429.0,4430.0,15.0,18.0,4440.0,4443.0,verb.social,True,49,subject,the youth,7.0,44.0,51.0,male,1.0,primary
+66,0,gave,8,12,4513,4517,60,5.0,7.0,4510.0,4512.0,,,,,verb.possession,True,51,subject,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+67,3,said,89,93,4685,4689,60,1.0,86.0,4597.0,4682.0,,,,,verb.communication,True,53,subject,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+68,0,went,7,11,4701,4705,16,3.0,6.0,4697.0,4700.0,,,,,verb.motion,True,52,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+69,0,gave,8,12,4742,4746,60,5.0,7.0,4739.0,4741.0,17.0,22.0,4751.0,4756.0,verb.possession,True,54,subject,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+70,6,said,75,79,4904,4908,16,1.0,72.0,4830.0,4901.0,,,,,verb.communication,True,55,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+70,6,said,75,79,4904,4908,60,1.0,72.0,4830.0,4901.0,,,,,verb.communication,True,55,subject,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+71,0,swore,8,13,4921,4926,16,4.0,7.0,4917.0,4920.0,,,,,verb.communication,True,56,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+72,1,eaten,18,23,4961,4966,16,10.0,13.0,4953.0,4956.0,,,,,verb.consumption,True,57,subject,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+4,2,wish,27,31,342,346,4,32.0,39.0,347.0,354.0,40.0,58.0,355.0,373.0,verb.emotion,True,4,direct_object,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+6,3,wish,66,70,631,635,4,71.0,78.0,636.0,643.0,,,,,verb.emotion,True,6,direct_object,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+9,3,wanted,87,93,933,939,11,94.0,117.0,940.0,963.0,,,,,verb.emotion,True,7,direct_object,a daughter,1.0,8.0,9.0,female,1.0,tertiary
+10,1,have,14,18,979,983,4,19.0,41.0,984.0,1006.0,,,,,verb.possession,True,8,direct_object,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+12,1,wished,29,35,1164,1170,4,36.0,43.0,1171.0,1178.0,44.0,59.0,1179.0,1194.0,verb.emotion,True,10,direct_object,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+14,0,laid,8,12,1242,1246,11,13.0,21.0,1247.0,1255.0,,,,,verb.contact,True,12,direct_object,a daughter,1.0,8.0,9.0,female,1.0,tertiary
+14,0,laid,8,12,1242,1246,4,13.0,21.0,1247.0,1255.0,,,,,verb.contact,True,12,direct_object,a lad who was better off than all the others,1.0,38.0,39.0,male,1.0,primary
+16,0,said,0,4,1314,1318,13,5.0,14.0,1319.0,1328.0,,,,,verb.communication,True,15,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+19,2,shook,57,62,1544,1549,13,63.0,72.0,1550.0,1559.0,73.0,104.0,1560.0,1591.0,verb.motion,True,16,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+20,4,said,90,94,1683,1687,11,95.0,98.0,1688.0,1691.0,,,,,verb.communication,True,18,direct_object,a daughter,1.0,8.0,9.0,female,1.0,tertiary
+21,3,said,41,45,1734,1738,13,46.0,55.0,1739.0,1748.0,,,,,verb.communication,True,19,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+22,4,spread,62,68,1812,1818,13,69.0,84.0,1819.0,1834.0,,,,,verb.contact,True,20,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+26,2,fetch,35,40,2074,2079,10,41.0,43.0,2080.0,2082.0,,,,,verb.contact,True,24,direct_object,the king,11.0,2.0,13.0,male,1.0,tertiary
+28,1,forgotten,11,20,2158,2167,13,21.0,70.0,2168.0,2217.0,,,,,verb.cognition,True,25,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+28,1,forgotten,11,20,2158,2167,16,21.0,70.0,2168.0,2217.0,,,,,verb.cognition,True,25,direct_object,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+30,1,wished,26,32,2304,2310,16,33.0,61.0,2311.0,2339.0,,,,,verb.emotion,True,27,direct_object,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+33,2,sampled,32,39,2530,2537,13,40.0,75.0,2538.0,2573.0,,,,,verb.possession,True,31,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+34,1,tried,17,22,2592,2597,13,39.0,68.0,2614.0,2643.0,,,,,verb.social,True,30,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+35,2,said,39,43,2741,2745,13,44.0,46.0,2746.0,2748.0,,,,,verb.communication,True,32,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+39,0,put,17,20,2898,2901,13,21.0,31.0,2902.0,2912.0,,,,,verb.contact,True,33,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+44,1,pretended,69,78,3290,3299,40,79.0,94.0,3300.0,3315.0,,,,,verb.creation,True,36,direct_object,a peddler,1.0,0.0,1.0,unknown,0.0,tertiary
+51,0,asked,0,5,3577,3582,45,6.0,16.0,3583.0,3593.0,,,,,verb.communication,True,40,direct_object,the maiden,2.0,0.0,2.0,female,1.0,tertiary
+56,5,help,119,123,3928,3932,16,124.0,143.0,3933.0,3952.0,,,,,verb.social,True,43,direct_object,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+56,5,help,119,123,3928,3932,10,124.0,143.0,3933.0,3952.0,,,,,verb.social,True,43,direct_object,the king,11.0,2.0,13.0,male,1.0,tertiary
+58,1,help,23,27,4099,4103,59,28.0,40.0,4104.0,4116.0,,,,,verb.social,True,44,direct_object,the princess,1.0,0.0,1.0,female,1.0,tertiary
+60,4,try,83,86,4255,4258,60,87.0,95.0,4259.0,4267.0,96.0,100.0,4268.0,4272.0,verb.social,True,46,direct_object,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+61,4,granted,71,78,4345,4352,60,79.0,82.0,4353.0,4356.0,,,,,verb.possession,True,47,direct_object,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+62,0,recognized,20,30,4378,4388,60,31.0,34.0,4389.0,4392.0,,,,,verb.perception,True,48,direct_object,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+63,0,help,6,10,4431,4435,13,11.0,14.0,4436.0,4439.0,15.0,18.0,4440.0,4443.0,verb.social,True,49,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+64,0,asked,0,5,4465,4470,13,6.0,15.0,4471.0,4480.0,,,,,verb.communication,True,50,direct_object,the youth,7.0,44.0,51.0,male,1.0,primary
+66,0,gave,8,12,4513,4517,16,13.0,16.0,4518.0,4521.0,,,,,verb.possession,True,51,direct_object,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+67,3,said,89,93,4685,4689,60,94.0,96.0,4690.0,4692.0,,,,,verb.communication,True,53,direct_object,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+69,0,gave,8,12,4742,4746,16,13.0,16.0,4747.0,4750.0,17.0,22.0,4751.0,4756.0,verb.possession,True,54,direct_object,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+70,6,said,75,79,4904,4908,60,80.0,82.0,4909.0,4911.0,,,,,verb.communication,True,55,direct_object,a foreign doctor from afar,1.0,19.0,20.0,male,1.0,secondary
+71,0,swore,8,13,4921,4926,16,14.0,28.0,4927.0,4941.0,,,,,verb.communication,True,56,direct_object,The king 's daughter,9.0,21.0,30.0,male,1.0,secondary
+74,1,invited,59,66,5174,5181,70,67.0,92.0,5182.0,5207.0,,,,,verb.social,True,58,direct_object,people from East and West,1.0,0.0,1.0,unknown,0.0,tertiary

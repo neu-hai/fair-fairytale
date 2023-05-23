@@ -1,0 +1,393 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,said,17,21,145,149,6,8.0,16.0,136.0,144.0,,,,,verb.communication,1,subject,the King,8.0,23.0,31.0,male,1.0,primary
+1,3,die,100,103,228,231,103,71.0,94.0,199.0,222.0,,,,,verb.change,2,subject,a girl,3.0,3.0,6.0,female,1.0,tertiary
+1,3,die,100,103,228,231,104,71.0,94.0,199.0,222.0,,,,,verb.change,2,subject,a girl's her twelve brothers,1.0,0.0,1.0,male,1.0,tertiary
+2,0,ordered,8,15,299,306,6,5.0,7.0,296.0,298.0,,,,,verb.communication,3,subject,the King,8.0,23.0,31.0,male,1.0,primary
+2,3,filled,47,53,338,344,6,5.0,7.0,296.0,298.0,,,,,verb.consumption,4,subject,the King,8.0,23.0,31.0,male,1.0,primary
+2,4,placed,78,84,369,375,6,5.0,7.0,296.0,298.0,,,,,verb.contact,5,subject,the King,8.0,23.0,31.0,male,1.0,primary
+3,2,bade,72,76,473,477,6,69.0,71.0,470.0,472.0,,,,,verb.communication,7,subject,the King,8.0,23.0,31.0,male,1.0,primary
+3,3,tell,81,85,482,486,7,69.0,80.0,470.0,481.0,,,,,verb.communication,9,subject,the King's wife,4.0,1.0,5.0,female,1.0,tertiary
+3,3,tell,81,85,482,486,6,69.0,80.0,470.0,481.0,,,,,verb.communication,9,subject,the King,8.0,23.0,31.0,male,1.0,primary
+4,0,grieved,10,17,511,518,11,0.0,9.0,501.0,510.0,,,,,verb.emotion,8,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,1,refused,52,59,553,560,11,0.0,9.0,501.0,510.0,77.0,227.0,578.0,728.0,verb.communication,10,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,3,comforted,66,75,567,576,11,0.0,9.0,501.0,510.0,,,,,verb.emotion,12,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,6,christened,153,163,654,664,11,145.0,148.0,646.0,649.0,,,,,verb.communication,11,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,7,said,174,178,675,679,11,93.0,172.0,594.0,673.0,186.0,193.0,687.0,694.0,verb.communication,13,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,7,said,174,178,675,679,0,93.0,172.0,594.0,673.0,186.0,193.0,687.0,694.0,verb.communication,13,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+4,7,said,174,178,675,679,13,93.0,172.0,594.0,673.0,186.0,193.0,687.0,694.0,verb.communication,13,subject,the youngest boy,1.0,0.0,1.0,male,1.0,tertiary
+5,0,answered,16,24,747,755,11,1.0,9.0,732.0,740.0,,,,,verb.communication,14,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+5,0,answered,16,24,747,755,107,1.0,9.0,732.0,740.0,,,,,verb.communication,14,subject,the Queen's child,2.0,0.0,2.0,unknown,0.0,tertiary
+5,2,tell,37,41,768,772,11,27.0,28.0,758.0,759.0,,,,,verb.communication,16,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+6,0,left,7,11,797,801,6,4.0,6.0,794.0,796.0,26.0,157.0,816.0,947.0,verb.possession,15,subject,the King,8.0,23.0,31.0,male,1.0,primary
+6,1,went,35,39,825,829,11,31.0,34.0,821.0,824.0,,,,,verb.motion,17,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+6,2,unlocked,44,52,834,842,11,31.0,34.0,821.0,824.0,,,,,verb.contact,18,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+6,3,showed,66,72,856,862,11,31.0,34.0,821.0,824.0,,,,,verb.perception,19,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+7,0,said,9,13,958,962,11,5.0,8.0,954.0,957.0,,,,,verb.communication,21,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+7,4,bring,123,128,1072,1077,11,121.0,122.0,1070.0,1071.0,,,,,verb.motion,22,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+7,7,killed,169,175,1118,1124,0,151.0,154.0,1100.0,1103.0,,,,,verb.contact,23,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+7,8,buried,180,186,1129,1135,0,151.0,154.0,1100.0,1103.0,,,,,verb.social,25,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+8,0,wept,4,8,1150,1154,11,0.0,3.0,1146.0,1149.0,,,,,verb.body,24,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+8,1,spoke,25,30,1171,1176,11,21.0,24.0,1167.0,1170.0,,,,,verb.communication,26,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+8,2,comforted,44,53,1190,1199,11,36.0,43.0,1182.0,1189.0,,,,,verb.emotion,27,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+8,2,comforted,44,53,1190,1199,15,36.0,43.0,1182.0,1189.0,,,,,verb.emotion,27,subject,the Queen's son,1.0,1.0,2.0,male,1.0,tertiary
+8,3,said,62,66,1208,1212,11,36.0,43.0,1182.0,1189.0,,,,,verb.communication,28,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+8,3,said,62,66,1208,1212,15,36.0,43.0,1182.0,1189.0,,,,,verb.communication,28,subject,the Queen's son,1.0,1.0,2.0,male,1.0,tertiary
+10,3,do,50,52,1350,1352,0,36.0,40.0,1336.0,1340.0,,,,,verb.social,30,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+10,4,go,53,55,1353,1355,0,41.0,44.0,1341.0,1344.0,82.0,85.0,1382.0,1385.0,verb.motion,31,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+10,6,sit,127,130,1427,1430,0,109.0,119.0,1409.0,1419.0,,,,,verb.contact,33,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+10,8,find,159,163,1459,1463,0,134.0,150.0,1434.0,1450.0,,,,,verb.possession,34,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+11,2,wave,39,43,1546,1550,16,32.0,33.0,1539.0,1540.0,,,,,verb.communication,35,subject,the Queen's son's mother,1.0,5.0,6.0,female,1.0,tertiary
+11,4,return,82,88,1589,1595,0,67.0,70.0,1574.0,1577.0,,,,,verb.motion,36,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+12,2,wave,49,53,1645,1649,16,42.0,43.0,1638.0,1639.0,,,,,verb.communication,37,subject,the Queen's son's mother,1.0,5.0,6.0,female,1.0,tertiary
+12,8,have,145,149,1741,1745,121,129.0,144.0,1725.0,1740.0,,,,,verb.possession,38,subject,the kind Heaven,1.0,0.0,1.0,unknown,0.0,tertiary
+13,2,pray,30,34,1789,1793,16,12.0,13.0,1771.0,1772.0,,,,,verb.communication,41,subject,the Queen's son's mother,1.0,5.0,6.0,female,1.0,tertiary
+13,4,have,74,78,1833,1837,0,59.0,62.0,1818.0,1821.0,,,,,verb.consumption,40,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+16,1,noticed,55,62,2153,2160,0,52.0,54.0,2150.0,2152.0,,,,,verb.perception,45,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+18,0,heard,18,23,2292,2297,22,5.0,17.0,2279.0,2291.0,,,,,verb.perception,46,subject,the brothers,2.0,1.0,3.0,male,1.0,tertiary
+18,2,said,55,59,2329,2333,22,29.0,33.0,2303.0,2307.0,,,,,verb.communication,47,subject,the brothers,2.0,1.0,3.0,male,1.0,tertiary
+19,6,die,99,102,2499,2502,122,89.0,92.0,2489.0,2492.0,,,,,verb.change,50,subject,a wretched girl,1.0,2.0,3.0,female,1.0,tertiary
+22,2,fetch,27,32,2855,2860,127,1.0,10.0,2829.0,2838.0,,,,,verb.contact,52,subject,others,1.0,0.0,1.0,unknown,0.0,tertiary
+24,1,learnt,60,66,3052,3058,0,41.0,49.0,3033.0,3041.0,,,,,verb.cognition,54,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+27,1,had,56,59,3301,3304,28,52.0,55.0,3297.0,3300.0,72.0,107.0,3317.0,3352.0,verb.possession,53,subject,their little sister,1.0,3.0,4.0,female,1.0,tertiary
+28,2,looking,63,70,3417,3424,31,54.0,62.0,3408.0,3416.0,,,,,verb.perception,55,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+28,3,saw,92,95,3446,3449,31,54.0,91.0,3408.0,3445.0,,,,,verb.perception,57,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+28,5,dry,130,133,3484,3487,32,96.0,115.0,3450.0,3469.0,,,,,verb.change,56,subject,twelve men,1.0,0.0,1.0,male,1.0,tertiary
+28,6,asked,139,144,3493,3498,31,54.0,91.0,3408.0,3445.0,,,,,verb.communication,58,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+30,0,answered,14,22,3616,3624,11,4.0,13.0,3606.0,3615.0,,,,,verb.communication,59,subject,the Queen,2.0,17.0,19.0,female,1.0,secondary
+33,1,heard,19,24,3753,3758,31,1.0,2.0,3735.0,3736.0,,,,,verb.perception,61,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+34,2,wandering,60,69,3829,3838,132,51.0,55.0,3820.0,3824.0,,,,,verb.motion,60,subject,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+34,3,replied,72,79,3841,3848,132,1.0,69.0,3770.0,3838.0,,,,,verb.communication,63,subject,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+35,0,took,9,13,3870,3874,33,5.0,8.0,3866.0,3869.0,,,,,verb.possession,64,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+35,1,opened,27,33,3888,3894,33,5.0,8.0,3866.0,3869.0,,,,,verb.contact,65,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+36,0,showed,5,11,3919,3925,33,1.0,4.0,3915.0,3918.0,,,,,verb.perception,66,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+37,0,said,21,25,4033,4037,33,0.0,1.0,4012.0,4013.0,,,,,verb.communication,68,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+37,3,stole,70,75,4082,4087,132,65.0,69.0,4077.0,4081.0,,,,,verb.possession,69,subject,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+38,0,tell,12,16,4137,4141,33,5.0,8.0,4130.0,4133.0,,,,,verb.communication,70,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+38,4,finished,61,69,4186,4194,33,53.0,56.0,4178.0,4181.0,,,,,verb.change,71,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+38,5,said,83,87,4208,4212,33,70.0,82.0,4195.0,4207.0,,,,,verb.communication,72,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+38,5,said,83,87,4208,4212,39,70.0,82.0,4195.0,4207.0,,,,,verb.communication,72,subject,The girl's mother's daughter,1.0,3.0,4.0,unknown,0.0,tertiary
+39,1,go,8,10,4250,4252,39,1.0,2.0,4243.0,4244.0,,,,,verb.motion,73,subject,The girl's mother's daughter,1.0,3.0,4.0,unknown,0.0,tertiary
+39,2,seek,15,19,4257,4261,39,1.0,2.0,4243.0,4244.0,32.0,48.0,4274.0,4290.0,verb.contact,74,subject,The girl's mother's daughter,1.0,3.0,4.0,unknown,0.0,tertiary
+39,3,find,39,43,4281,4285,39,37.0,38.0,4279.0,4280.0,,,,,verb.possession,76,subject,The girl's mother's daughter,1.0,3.0,4.0,unknown,0.0,tertiary
+40,0,took,7,11,4300,4304,33,3.0,6.0,4296.0,4299.0,,,,,verb.contact,75,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+41,0,walked,4,10,4381,4387,33,0.0,3.0,4377.0,4380.0,,,,,verb.motion,77,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+41,1,came,29,33,4406,4410,33,0.0,3.0,4377.0,4380.0,,,,,verb.motion,78,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,0,stepped,4,11,4461,4468,33,0.0,3.0,4457.0,4460.0,,,,,verb.motion,79,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,1,found,19,24,4476,4481,33,0.0,3.0,4457.0,4460.0,,,,,verb.perception,80,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,3,wore,87,91,4544,4548,33,67.0,82.0,4524.0,4539.0,,,,,verb.body,81,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,4,asked,133,138,4590,4595,33,25.0,96.0,4482.0,4553.0,,,,,verb.communication,84,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,5,came,153,157,4610,4614,33,149.0,152.0,4606.0,4609.0,,,,,verb.motion,83,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,7,going,183,188,4640,4645,33,175.0,178.0,4632.0,4635.0,,,,,verb.motion,85,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+43,1,answered,23,31,4670,4678,33,1.0,16.0,4648.0,4663.0,,,,,verb.communication,86,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+43,1,answered,23,31,4670,4678,137,1.0,16.0,4648.0,4663.0,,,,,verb.communication,86,subject,a Princess,1.0,0.0,1.0,female,1.0,tertiary
+44,0,mean,2,6,4722,4726,33,0.0,1.0,4720.0,4721.0,,,,,verb.communication,88,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+44,3,find,72,76,4792,4796,33,70.0,71.0,4790.0,4791.0,,,,,verb.possession,91,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+45,0,showed,9,15,4813,4819,33,5.0,8.0,4809.0,4812.0,,,,,verb.communication,90,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+45,2,taken,52,57,4856,4861,33,20.0,37.0,4824.0,4841.0,,,,,verb.possession,89,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+45,3,saw,81,84,4885,4888,0,72.0,80.0,4876.0,4884.0,,,,,verb.cognition,92,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+47,0,said,22,26,5061,5065,0,13.0,21.0,5052.0,5060.0,,,,,verb.communication,97,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+47,6,die,128,131,5167,5170,142,105.0,120.0,5144.0,5159.0,,,,,verb.change,98,subject,any girl we met,1.0,0.0,1.0,female,1.0,tertiary
+48,0,replied,11,18,5269,5276,33,7.0,10.0,5265.0,5268.0,,,,,verb.communication,99,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+48,2,die,35,38,5293,5296,33,21.0,22.0,5279.0,5280.0,,,,,verb.change,100,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+48,5,restore,62,69,5320,5327,33,56.0,57.0,5314.0,5315.0,,,,,verb.change,101,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+49,0,answered,9,17,5371,5379,0,1.0,3.0,5363.0,5365.0,,,,,verb.communication,102,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+50,4,make,81,85,5489,5493,0,71.0,72.0,5479.0,5480.0,,,,,verb.change,104,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+51,2,bid,19,22,5539,5542,33,11.0,14.0,5531.0,5534.0,,,,,verb.communication,103,subject,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+53,0,asked,5,10,5653,5658,47,0.0,4.0,5648.0,5652.0,,,,,verb.communication,105,subject,,,,,,,
+54,0,replied,7,14,5667,5674,0,4.0,6.0,5664.0,5666.0,,,,,verb.communication,107,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+54,1,like,19,23,5679,5683,0,17.0,18.0,5677.0,5678.0,,,,,verb.emotion,106,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+56,0,answered,11,19,5731,5739,47,1.0,3.0,5721.0,5723.0,,,,,verb.communication,110,subject,,,,,,,
+57,0,said,8,12,5749,5753,0,5.0,7.0,5746.0,5748.0,,,,,verb.communication,112,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+57,5,know,118,122,5859,5863,0,103.0,115.0,5844.0,5856.0,,,,,verb.cognition,111,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+58,1,cried,21,26,5904,5909,47,16.0,20.0,5899.0,5903.0,,,,,verb.communication,114,subject,,,,,,,
+59,0,answered,7,15,5918,5926,0,4.0,6.0,5915.0,5917.0,,,,,verb.communication,115,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+59,1,promise,45,52,5956,5963,47,41.0,44.0,5952.0,5955.0,,,,,verb.communication,117,subject,,,,,,,
+59,2,meet,87,91,5998,6002,47,69.0,83.0,5980.0,5994.0,,,,,verb.motion,116,subject,,,,,,,
+59,5,killed,105,111,6016,6022,150,69.0,91.0,5980.0,6002.0,,,,,verb.social,118,subject,the first girl we meet,1.0,1.0,2.0,female,1.0,tertiary
+59,5,killed,105,111,6016,6022,47,69.0,91.0,5980.0,6002.0,,,,,verb.social,118,subject,,,,,,,
+60,3,promised,28,36,6053,6061,47,23.0,27.0,6048.0,6052.0,,,,,verb.communication,119,subject,,,,,,,
+60,4,tell,44,48,6069,6073,150,1.0,10.0,6026.0,6035.0,,,,,verb.communication,120,subject,the first girl we meet,1.0,1.0,2.0,female,1.0,tertiary
+61,0,said,14,18,6102,6106,0,5.0,13.0,6093.0,6101.0,,,,,verb.communication,121,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+62,1,stepped,42,49,6172,6179,50,29.0,41.0,6159.0,6171.0,,,,,verb.motion,122,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+63,0,arranged,5,13,6347,6355,47,0.0,4.0,6342.0,6346.0,,,,,verb.communication,124,subject,,,,,,,
+63,3,help,61,65,6403,6407,50,19.0,22.0,6361.0,6364.0,89.0,194.0,6431.0,6536.0,verb.social,126,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+63,5,shot,147,151,6489,6493,53,95.0,119.0,6437.0,6461.0,,,,,verb.social,125,subject,the rest of the brothers,1.0,0.0,1.0,male,1.0,tertiary
+63,5,shot,147,151,6489,6493,22,95.0,119.0,6437.0,6461.0,,,,,verb.social,125,subject,the brothers,2.0,1.0,3.0,male,1.0,tertiary
+64,0,cooked,28,34,6566,6572,44,4.0,27.0,6542.0,6565.0,,,,,verb.creation,127,subject,Benjamin's sister,2.0,0.0,2.0,female,1.0,tertiary
+64,0,cooked,28,34,6566,6572,0,4.0,27.0,6542.0,6565.0,,,,,verb.creation,127,subject,Benjamin,12.0,31.0,43.0,male,1.0,primary
+65,0,gathered,4,12,6599,6607,50,0.0,3.0,6595.0,6598.0,,,,,verb.contact,128,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+65,2,fetched,46,53,6641,6648,50,0.0,3.0,6595.0,6598.0,,,,,verb.contact,129,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+65,3,watched,68,75,6663,6670,50,0.0,3.0,6595.0,6598.0,85.0,96.0,6680.0,6691.0,verb.perception,130,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+65,4,returned,134,142,6729,6737,50,114.0,133.0,6709.0,6728.0,,,,,verb.motion,131,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+65,4,returned,134,142,6729,6737,57,114.0,133.0,6709.0,6728.0,,,,,verb.motion,131,subject,the Princess's eleven brothers,1.0,2.0,3.0,male,1.0,tertiary
+66,1,tidied,43,49,6818,6824,50,14.0,17.0,6789.0,6792.0,,,,,verb.contact,132,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+66,2,made,69,73,6844,6848,50,14.0,17.0,6789.0,6792.0,,,,,verb.change,133,subject,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+67,0,prepared,24,32,6972,6980,61,8.0,23.0,6956.0,6971.0,,,,,verb.creation,134,subject,the two,1.0,0.0,1.0,unknown,0.0,tertiary
+67,4,ate,98,101,7046,7049,60,80.0,84.0,7028.0,7032.0,,,,,verb.consumption,135,subject,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+67,5,drank,106,111,7054,7059,60,80.0,84.0,7028.0,7032.0,,,,,verb.consumption,136,subject,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+67,6,made,116,120,7064,7068,60,80.0,84.0,7028.0,7032.0,,,,,verb.change,137,subject,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+69,0,wishing,10,17,7177,7184,31,0.0,8.0,7167.0,7175.0,,,,,verb.cognition,138,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+69,1,please,21,27,7188,7194,31,0.0,8.0,7167.0,7175.0,,,,,verb.emotion,140,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+69,2,plucked,42,49,7209,7216,31,0.0,8.0,7167.0,7175.0,70.0,130.0,7237.0,7297.0,verb.contact,139,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+70,1,plucked,19,26,7318,7325,31,15.0,18.0,7314.0,7317.0,39.0,160.0,7338.0,7459.0,verb.contact,142,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+71,0,found,17,22,7478,7483,69,3.0,16.0,7464.0,7477.0,,,,,verb.perception,144,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,2,looked,70,76,7531,7537,69,66.0,69.0,7527.0,7530.0,,,,,verb.perception,145,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,3,noticed,91,98,7552,7559,69,87.0,90.0,7548.0,7551.0,,,,,verb.perception,147,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,4,standing,112,120,7573,7581,71,99.0,111.0,7560.0,7572.0,,,,,verb.contact,146,subject,an old woman,1.0,1.0,2.0,female,1.0,tertiary
+71,5,said,143,147,7604,7608,71,99.0,137.0,7560.0,7598.0,,,,,verb.communication,150,subject,an old woman,1.0,1.0,2.0,female,1.0,tertiary
+71,5,said,143,147,7604,7608,69,99.0,137.0,7560.0,7598.0,,,,,verb.communication,150,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,7,done,174,178,7635,7639,69,160.0,164.0,7621.0,7625.0,,,,,verb.social,149,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+72,1,leave,15,20,7656,7661,69,11.0,14.0,7652.0,7655.0,,,,,verb.change,148,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+74,1,changed,13,20,7726,7733,60,4.0,8.0,7717.0,7721.0,,,,,verb.change,151,subject,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+75,0,asked,9,14,7766,7771,31,0.0,8.0,7757.0,7765.0,,,,,verb.communication,152,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+75,1,sobbing,16,23,7773,7780,31,0.0,8.0,7757.0,7765.0,,,,,verb.body,153,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+76,4,free,109,113,7933,7937,69,99.0,102.0,7923.0,7926.0,,,,,verb.social,155,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+76,8,laugh,164,169,7988,7993,69,130.0,133.0,7954.0,7957.0,,,,,verb.body,157,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+76,9,spoke,198,203,8022,8027,69,194.0,197.0,8018.0,8021.0,,,,,verb.communication,158,subject,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+77,0,said,14,18,8189,8193,31,5.0,13.0,8180.0,8188.0,,,,,verb.communication,160,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+77,4,free,69,73,8244,8248,31,63.0,64.0,8238.0,8239.0,,,,,verb.social,162,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+78,2,found,50,55,8313,8318,31,42.0,45.0,8305.0,8308.0,,,,,verb.possession,161,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+78,3,climbed,64,71,8327,8334,31,60.0,63.0,8323.0,8326.0,87.0,136.0,8350.0,8399.0,verb.motion,163,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+78,4,spun,82,86,8345,8349,31,56.0,59.0,8319.0,8322.0,,,,,verb.motion,164,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+78,5,laughing,107,115,8370,8378,31,60.0,63.0,8323.0,8326.0,,,,,verb.body,165,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+78,6,speaking,119,127,8382,8390,31,60.0,63.0,8323.0,8326.0,,,,,verb.communication,166,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+79,3,had,64,67,8465,8468,75,29.0,63.0,8430.0,8464.0,,,,,verb.possession,167,subject,a King who was hunting in the wood,1.0,0.0,1.0,male,1.0,tertiary
+79,6,sat,134,137,8535,8538,31,107.0,115.0,8508.0,8516.0,,,,,verb.contact,169,subject,The girl,7.0,18.0,25.0,female,1.0,secondary
+80,1,attracted,25,34,8617,8626,6,0.0,20.0,8592.0,8612.0,,,,,verb.emotion,171,subject,the King,8.0,23.0,31.0,male,1.0,primary
+80,2,looked,48,54,8640,8646,6,45.0,47.0,8637.0,8639.0,,,,,verb.perception,172,subject,the King,8.0,23.0,31.0,male,1.0,primary
+80,3,beheld,62,68,8654,8660,6,45.0,47.0,8637.0,8639.0,,,,,verb.perception,173,subject,the King,8.0,23.0,31.0,male,1.0,primary
+80,6,asked,172,177,8764,8769,6,169.0,171.0,8761.0,8763.0,182.0,193.0,8774.0,8785.0,verb.communication,174,subject,the King,8.0,23.0,31.0,male,1.0,primary
+81,0,gave,4,8,8806,8810,78,0.0,3.0,8802.0,8805.0,,,,,verb.communication,175,subject,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+81,1,nodded,24,30,8826,8832,78,0.0,3.0,8802.0,8805.0,,,,,verb.communication,176,subject,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+82,0,climbed,8,15,8865,8872,6,5.0,7.0,8862.0,8864.0,,,,,verb.motion,177,subject,the King,8.0,23.0,31.0,male,1.0,primary
+82,1,lifted,37,43,8894,8900,6,5.0,7.0,8862.0,8864.0,48.0,52.0,8905.0,8909.0,verb.contact,178,subject,the King,8.0,23.0,31.0,male,1.0,primary
+82,2,put,54,57,8911,8914,6,5.0,7.0,8862.0,8864.0,,,,,verb.contact,179,subject,the King,8.0,23.0,31.0,male,1.0,primary
+82,3,bore,79,83,8936,8940,6,5.0,7.0,8862.0,8864.0,88.0,106.0,8945.0,8963.0,verb.contact,180,subject,the King,8.0,23.0,31.0,male,1.0,primary
+83,2,spoke,79,84,9044,9049,81,61.0,70.0,9026.0,9035.0,,,,,verb.communication,181,subject,the bride,1.0,0.0,1.0,unknown,0.0,tertiary
+83,3,laughed,89,96,9054,9061,81,61.0,84.0,9026.0,9049.0,,,,,verb.body,183,subject,the bride,1.0,0.0,1.0,unknown,0.0,tertiary
+84,3,began,97,102,9160,9165,84,50.0,95.0,9113.0,9158.0,,,,,verb.change,184,subject,the King 's mother,1.0,0.0,1.0,female,0.5,tertiary
+84,3,began,97,102,9160,9165,85,50.0,95.0,9113.0,9158.0,,,,,verb.change,184,subject,a wicked old woman,1.0,0.0,1.0,female,1.0,tertiary
+84,3,began,97,102,9160,9165,6,50.0,95.0,9113.0,9158.0,,,,,verb.change,184,subject,the King,8.0,23.0,31.0,male,1.0,primary
+84,4,slander,106,113,9169,9176,84,50.0,95.0,9113.0,9158.0,,,,,verb.communication,185,subject,the King 's mother,1.0,0.0,1.0,female,0.5,tertiary
+84,4,slander,106,113,9169,9176,85,50.0,95.0,9113.0,9158.0,,,,,verb.communication,185,subject,a wicked old woman,1.0,0.0,1.0,female,1.0,tertiary
+84,4,slander,106,113,9169,9176,6,50.0,95.0,9113.0,9158.0,,,,,verb.communication,185,subject,the King,8.0,23.0,31.0,male,1.0,primary
+84,5,said,135,139,9198,9202,84,50.0,95.0,9113.0,9158.0,,,,,verb.communication,188,subject,the King 's mother,1.0,0.0,1.0,female,0.5,tertiary
+84,5,said,135,139,9198,9202,85,50.0,95.0,9113.0,9158.0,,,,,verb.communication,188,subject,a wicked old woman,1.0,0.0,1.0,female,1.0,tertiary
+84,5,said,135,139,9198,9202,6,50.0,95.0,9113.0,9158.0,,,,,verb.communication,188,subject,the King,8.0,23.0,31.0,male,1.0,primary
+84,10,married,203,210,9266,9273,6,161.0,188.0,9224.0,9251.0,,,,,verb.social,182,subject,the King,8.0,23.0,31.0,male,1.0,primary
+86,2,speak,25,30,9338,9343,86,3.0,6.0,9316.0,9319.0,,,,,verb.communication,186,subject,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+86,4,laugh,51,56,9364,9369,86,32.0,35.0,9345.0,9348.0,,,,,verb.body,189,subject,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+87,3,have,39,43,9409,9413,158,17.0,38.0,9387.0,9408.0,,,,,verb.perception,191,subject,those who do n't laugh,1.0,0.0,1.0,unknown,0.0,tertiary
+88,0,paid,18,22,9451,9455,6,9.0,17.0,9442.0,9450.0,,,,,verb.cognition,190,subject,the King,8.0,23.0,31.0,male,1.0,primary
+88,1,harped,63,69,9496,9502,73,49.0,62.0,9482.0,9495.0,,,,,verb.communication,192,subject,the old woman,2.0,0.0,2.0,female,1.0,tertiary
+88,2,accused,98,105,9531,9538,73,49.0,62.0,9482.0,9495.0,,,,,verb.communication,193,subject,the old woman,2.0,0.0,2.0,female,1.0,tertiary
+88,3,let,161,164,9594,9597,6,158.0,160.0,9591.0,9593.0,,,,,verb.social,194,subject,the King,8.0,23.0,31.0,male,1.0,primary
+88,6,condemned,193,202,9626,9635,6,158.0,160.0,9591.0,9593.0,222.0,230.0,9655.0,9663.0,verb.communication,195,subject,the King,8.0,23.0,31.0,male,1.0,primary
+89,4,burnt,76,81,9741,9746,91,62.0,65.0,9727.0,9730.0,,,,,verb.contact,196,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+89,5,watched,96,103,9761,9768,6,87.0,95.0,9752.0,9760.0,142.0,203.0,9807.0,9868.0,verb.perception,197,subject,the King,8.0,23.0,31.0,male,1.0,primary
+89,6,crying,142,148,9807,9813,6,87.0,95.0,9752.0,9760.0,,,,,verb.communication,200,subject,the King,8.0,23.0,31.0,male,1.0,primary
+89,7,loved,182,187,9847,9852,6,173.0,175.0,9838.0,9840.0,,,,,verb.emotion,199,subject,the King,8.0,23.0,31.0,male,1.0,primary
+90,2,bound,25,30,9895,9900,91,12.0,15.0,9882.0,9885.0,,,,,verb.contact,198,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+92,3,knew,109,113,10234,10238,91,105.0,108.0,10230.0,10233.0,,,,,verb.cognition,203,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+92,5,freed,127,132,10252,10257,91,119.0,122.0,10244.0,10247.0,,,,,verb.consumption,202,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+93,0,quenched,5,13,10269,10277,98,0.0,4.0,10264.0,10268.0,,,,,verb.change,204,subject,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+93,2,unbinding,52,61,10316,10325,98,0.0,4.0,10264.0,10268.0,80.0,94.0,10344.0,10358.0,verb.change,205,subject,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+93,3,kissed,101,107,10365,10371,98,96.0,100.0,10360.0,10364.0,,,,,verb.contact,206,subject,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+93,4,hugged,112,118,10376,10382,98,0.0,4.0,10264.0,10268.0,123.0,138.0,10387.0,10402.0,verb.contact,207,subject,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+94,1,open,29,33,10433,10437,91,13.0,16.0,10417.0,10420.0,,,,,verb.contact,208,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+94,2,speak,48,53,10452,10457,91,13.0,16.0,10417.0,10420.0,,,,,verb.communication,209,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+94,3,told,59,63,10463,10467,91,55.0,58.0,10459.0,10462.0,,,,,verb.communication,211,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+94,6,laugh,111,116,10515,10520,91,77.0,80.0,10481.0,10484.0,,,,,verb.body,210,subject,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+95,0,rejoiced,9,17,10531,10539,6,0.0,8.0,10522.0,10530.0,,,,,verb.emotion,212,subject,the King,8.0,23.0,31.0,male,1.0,primary
+95,1,heard,34,39,10556,10561,6,31.0,33.0,10553.0,10555.0,,,,,verb.cognition,213,subject,the King,8.0,23.0,31.0,male,1.0,primary
+0,2,had,84,87,84,87,5,88.0,126.0,88.0,126.0,,,,,verb.possession,0,direct_object,boys,1.0,0.0,1.0,male,1.0,tertiary
+0,2,had,84,87,84,87,4,88.0,126.0,88.0,126.0,,,,,verb.possession,0,direct_object,twelve children,1.0,0.0,1.0,unknown,0.0,tertiary
+1,0,said,17,21,145,149,103,22.0,33.0,150.0,161.0,,,,,verb.communication,1,direct_object,a girl,3.0,3.0,6.0,female,1.0,tertiary
+1,0,said,17,21,145,149,7,22.0,33.0,150.0,161.0,,,,,verb.communication,1,direct_object,the King's wife,4.0,1.0,5.0,female,1.0,tertiary
+1,0,said,17,21,145,149,104,22.0,33.0,150.0,161.0,,,,,verb.communication,1,direct_object,a girl's her twelve brothers,1.0,0.0,1.0,male,1.0,tertiary
+1,0,said,17,21,145,149,6,22.0,33.0,150.0,161.0,,,,,verb.communication,1,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+1,0,said,17,21,145,149,102,22.0,33.0,150.0,161.0,,,,,verb.communication,1,direct_object,our thirteenth child,1.0,0.0,1.0,unknown,0.0,tertiary
+3,1,giving,41,47,442,448,7,48.0,55.0,449.0,456.0,,,,,verb.possession,6,direct_object,the King's wife,4.0,1.0,5.0,female,1.0,tertiary
+3,1,giving,41,47,442,448,6,48.0,55.0,449.0,456.0,,,,,verb.possession,6,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+3,2,bade,72,76,473,477,7,77.0,85.0,478.0,486.0,,,,,verb.communication,7,direct_object,the King's wife,4.0,1.0,5.0,female,1.0,tertiary
+4,0,grieved,10,17,511,518,11,18.0,35.0,519.0,536.0,,,,,verb.emotion,8,direct_object,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,0,grieved,10,17,511,518,12,18.0,35.0,519.0,536.0,,,,,verb.emotion,8,direct_object,the Queen's sons,2.0,0.0,2.0,unknown,0.0,tertiary
+4,6,christened,153,163,654,664,0,164.0,172.0,665.0,673.0,,,,,verb.communication,11,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+4,7,said,174,178,675,679,11,179.0,185.0,680.0,686.0,186.0,193.0,687.0,694.0,verb.communication,13,direct_object,the Queen,2.0,17.0,19.0,female,1.0,secondary
+4,7,said,174,178,675,679,106,179.0,185.0,680.0,686.0,186.0,193.0,687.0,694.0,verb.communication,13,direct_object,Dear mother,2.0,0.0,2.0,female,1.0,tertiary
+5,0,answered,16,24,747,755,11,27.0,56.0,758.0,787.0,,,,,verb.communication,14,direct_object,the Queen,2.0,17.0,19.0,female,1.0,secondary
+5,0,answered,16,24,747,755,6,27.0,56.0,758.0,787.0,,,,,verb.communication,14,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+5,2,tell,37,41,768,772,6,42.0,45.0,773.0,776.0,,,,,verb.communication,16,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+6,0,left,7,11,797,801,11,12.0,15.0,802.0,805.0,26.0,157.0,816.0,947.0,verb.possession,15,direct_object,the Queen,2.0,17.0,19.0,female,1.0,secondary
+6,3,showed,66,72,856,862,6,73.0,76.0,863.0,866.0,,,,,verb.perception,19,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+7,0,said,9,13,958,962,103,16.0,194.0,965.0,1143.0,,,,,verb.communication,21,direct_object,a girl,3.0,3.0,6.0,female,1.0,tertiary
+7,0,said,9,13,958,962,11,16.0,194.0,965.0,1143.0,,,,,verb.communication,21,direct_object,the Queen,2.0,17.0,19.0,female,1.0,secondary
+7,0,said,9,13,958,962,108,16.0,194.0,965.0,1143.0,,,,,verb.communication,21,direct_object,the Queen's dearest,1.0,0.0,1.0,unknown,0.0,tertiary
+7,0,said,9,13,958,962,110,16.0,194.0,965.0,1143.0,,,,,verb.communication,21,direct_object,Benjamin's eleven brothers,2.0,1.0,3.0,male,1.0,tertiary
+7,0,said,9,13,958,962,0,16.0,194.0,965.0,1143.0,,,,,verb.communication,21,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+7,0,said,9,13,958,962,109,16.0,194.0,965.0,1143.0,,,,,verb.communication,21,direct_object,Benjamin's father,1.0,0.0,1.0,male,1.0,tertiary
+7,3,made,71,75,1020,1024,0,76.0,108.0,1025.0,1057.0,,,,,verb.creation,20,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+7,3,made,71,75,1020,1024,110,76.0,108.0,1025.0,1057.0,,,,,verb.creation,20,direct_object,Benjamin's eleven brothers,2.0,1.0,3.0,male,1.0,tertiary
+7,4,bring,123,128,1072,1077,103,129.0,135.0,1078.0,1084.0,,,,,verb.motion,22,direct_object,a girl,3.0,3.0,6.0,female,1.0,tertiary
+7,8,buried,180,186,1129,1135,110,187.0,194.0,1136.0,1143.0,,,,,verb.social,25,direct_object,Benjamin's eleven brothers,2.0,1.0,3.0,male,1.0,tertiary
+8,2,comforted,44,53,1190,1199,11,54.0,57.0,1200.0,1203.0,,,,,verb.emotion,27,direct_object,the Queen,2.0,17.0,19.0,female,1.0,secondary
+8,3,said,62,66,1208,1212,106,69.0,91.0,1215.0,1237.0,,,,,verb.communication,28,direct_object,Dear mother,2.0,0.0,2.0,female,1.0,tertiary
+10,0,replied,7,14,1307,1314,16,15.0,25.0,1315.0,1325.0,,,,,verb.communication,29,direct_object,the Queen's son's mother,1.0,5.0,6.0,female,1.0,tertiary
+10,0,replied,7,14,1307,1314,15,15.0,25.0,1315.0,1325.0,,,,,verb.communication,29,direct_object,the Queen's son,1.0,1.0,2.0,male,1.0,tertiary
+10,0,replied,7,14,1307,1314,0,15.0,25.0,1315.0,1325.0,,,,,verb.communication,29,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+10,0,replied,7,14,1307,1314,110,15.0,25.0,1315.0,1325.0,,,,,verb.communication,29,direct_object,Benjamin's eleven brothers,2.0,1.0,3.0,male,1.0,tertiary
+10,4,go,53,55,1353,1355,0,56.0,81.0,1356.0,1381.0,82.0,85.0,1382.0,1385.0,verb.motion,31,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+10,4,go,53,55,1353,1355,110,56.0,81.0,1356.0,1381.0,82.0,85.0,1382.0,1385.0,verb.motion,31,direct_object,Benjamin's eleven brothers,2.0,1.0,3.0,male,1.0,tertiary
+10,5,let,105,108,1405,1408,0,109.0,163.0,1409.0,1463.0,165.0,172.0,,,verb.social,32,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+10,6,sit,127,130,1427,1430,0,131.0,163.0,1431.0,1463.0,,,,,verb.contact,33,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+12,2,wave,49,53,1645,1649,0,54.0,119.0,1650.0,1715.0,,,,,verb.communication,37,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+12,4,warn,77,81,1673,1677,0,82.0,85.0,1678.0,1681.0,,,,,verb.communication,39,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+12,8,have,145,149,1741,1745,0,150.0,161.0,1746.0,1757.0,,,,,verb.possession,38,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+13,2,pray,30,34,1789,1793,0,54.0,88.0,1813.0,1847.0,,,,,verb.communication,41,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+13,4,have,74,78,1833,1837,0,79.0,107.0,1838.0,1866.0,,,,,verb.consumption,40,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+13,5,warm,89,93,1848,1852,0,94.0,104.0,1853.0,1863.0,,,,,verb.change,42,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+14,0,blessed,9,16,1931,1938,12,17.0,25.0,1939.0,1947.0,,,,,verb.communication,43,direct_object,the Queen's sons,2.0,0.0,2.0,unknown,0.0,tertiary
+16,0,came,34,38,2132,2136,0,39.0,50.0,2137.0,2148.0,,,,,verb.change,44,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+18,2,said,55,59,2329,2333,122,62.0,124.0,2336.0,2398.0,,,,,verb.communication,47,direct_object,a wretched girl,1.0,2.0,3.0,female,1.0,tertiary
+19,2,vow,28,31,2428,2431,122,32.0,115.0,2432.0,2515.0,,,,,verb.communication,48,direct_object,a wretched girl,1.0,2.0,3.0,female,1.0,tertiary
+19,2,vow,28,31,2428,2431,123,32.0,115.0,2432.0,2515.0,,,,,verb.communication,48,direct_object,a wretched girl's of her sex,1.0,0.0,1.0,unknown,0.0,tertiary
+19,4,meet,68,72,2468,2472,122,73.0,87.0,2473.0,2487.0,,,,,verb.social,49,direct_object,a wretched girl,1.0,2.0,3.0,female,1.0,tertiary
+19,4,meet,68,72,2468,2472,123,73.0,87.0,2473.0,2487.0,,,,,verb.social,49,direct_object,a wretched girl's of her sex,1.0,0.0,1.0,unknown,0.0,tertiary
+24,0,brought,12,19,3004,3011,0,20.0,32.0,3012.0,3024.0,,,,,verb.motion,51,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+28,2,looking,63,70,3417,3424,31,76.0,91.0,3430.0,3445.0,,,,,verb.perception,55,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+28,3,saw,92,95,3446,3449,32,96.0,133.0,3450.0,3487.0,,,,,verb.perception,57,direct_object,twelve men,1.0,0.0,1.0,male,1.0,tertiary
+28,6,asked,139,144,3493,3498,33,145.0,155.0,3499.0,3509.0,,,,,verb.communication,58,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+28,6,asked,139,144,3493,3498,31,145.0,155.0,3499.0,3509.0,,,,,verb.communication,58,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+30,0,answered,14,22,3616,3624,131,31.0,78.0,3633.0,3680.0,,,,,verb.communication,59,direct_object,Dear child's twelve brothers,2.0,0.0,2.0,male,1.0,tertiary
+30,0,answered,14,22,3616,3624,130,31.0,78.0,3633.0,3680.0,,,,,verb.communication,59,direct_object,Dear child,1.0,1.0,2.0,unknown,0.0,tertiary
+32,0,said,0,4,3719,3723,31,5.0,13.0,3724.0,3732.0,,,,,verb.communication,62,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+33,1,heard,19,24,3753,3758,132,25.0,32.0,3759.0,3766.0,,,,,verb.perception,61,direct_object,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+34,3,replied,72,79,3841,3848,33,80.0,90.0,3849.0,3859.0,,,,,verb.communication,63,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+34,3,replied,72,79,3841,3848,31,80.0,90.0,3849.0,3859.0,,,,,verb.communication,63,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+35,0,took,9,13,3870,3874,31,14.0,22.0,3875.0,3883.0,,,,,verb.possession,64,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+36,0,showed,5,11,3919,3925,31,12.0,15.0,3926.0,3929.0,,,,,verb.perception,66,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+37,2,intended,33,41,4045,4053,31,42.0,59.0,4054.0,4071.0,,,,,verb.cognition,67,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+37,2,intended,33,41,4045,4053,134,42.0,59.0,4054.0,4071.0,,,,,verb.cognition,67,direct_object,The girl's brothers,2.0,0.0,2.0,male,1.0,tertiary
+38,0,tell,12,16,4137,4141,33,17.0,20.0,4142.0,4145.0,,,,,verb.communication,70,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+38,4,finished,61,69,4186,4194,33,70.0,82.0,4195.0,4207.0,,,,,verb.change,71,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+38,4,finished,61,69,4186,4194,39,70.0,82.0,4195.0,4207.0,,,,,verb.change,71,direct_object,The girl's mother's daughter,1.0,3.0,4.0,unknown,0.0,tertiary
+38,5,said,83,87,4208,4212,135,90.0,116.0,4215.0,4241.0,,,,,verb.communication,72,direct_object,dearest mother,1.0,0.0,1.0,female,1.0,tertiary
+39,2,seek,15,19,4257,4261,136,20.0,31.0,4262.0,4273.0,32.0,48.0,4274.0,4290.0,verb.contact,74,direct_object,The girl's mother's daughter's brothers,2.0,1.0,3.0,male,1.0,tertiary
+39,2,seek,15,19,4257,4261,39,20.0,31.0,4262.0,4273.0,32.0,48.0,4274.0,4290.0,verb.contact,74,direct_object,The girl's mother's daughter,1.0,3.0,4.0,unknown,0.0,tertiary
+39,3,find,39,43,4281,4285,136,44.0,48.0,4286.0,4290.0,,,,,verb.possession,76,direct_object,The girl's mother's daughter's brothers,2.0,1.0,3.0,male,1.0,tertiary
+42,1,found,19,24,4476,4481,42,25.0,188.0,4482.0,4645.0,,,,,verb.perception,80,direct_object,"The girl's mother's youth who , marvelling at her beauty , at the royal robes she wore , and at the golden star on her forehead",1.0,0.0,1.0,unknown,0.0,tertiary
+42,1,found,19,24,4476,4481,33,25.0,188.0,4482.0,4645.0,,,,,verb.perception,80,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,2,marvelling,38,48,4495,4505,33,49.0,62.0,4506.0,4519.0,64.0,91.0,4521.0,4548.0,verb.cognition,82,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+42,4,asked,133,138,4590,4595,33,139.0,142.0,4596.0,4599.0,,,,,verb.communication,84,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+43,1,answered,23,31,4670,4678,132,34.0,71.0,4681.0,4718.0,,,,,verb.communication,86,direct_object,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+43,1,answered,23,31,4670,4678,33,34.0,71.0,4681.0,4718.0,,,,,verb.communication,86,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+43,3,seeking,41,48,4688,4695,132,53.0,71.0,4700.0,4718.0,,,,,verb.contact,87,direct_object,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+43,3,seeking,41,48,4688,4695,33,53.0,71.0,4700.0,4718.0,,,,,verb.contact,87,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+44,3,find,72,76,4792,4796,132,77.0,81.0,4797.0,4801.0,,,,,verb.possession,91,direct_object,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+45,0,showed,9,15,4813,4819,33,16.0,19.0,4820.0,4823.0,,,,,verb.communication,90,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+45,3,saw,81,84,4885,4888,44,85.0,111.0,4889.0,4915.0,,,,,verb.cognition,92,direct_object,Benjamin's sister,2.0,0.0,2.0,female,1.0,tertiary
+45,3,saw,81,84,4885,4888,0,85.0,111.0,4889.0,4915.0,,,,,verb.cognition,92,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+45,6,said,117,121,4921,4925,140,124.0,160.0,4928.0,4964.0,,,,,verb.communication,93,direct_object,The girl's mother's youngest brother,1.0,0.0,1.0,male,1.0,tertiary
+45,6,said,117,121,4921,4925,33,124.0,160.0,4928.0,4964.0,,,,,verb.communication,93,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+45,6,said,117,121,4921,4925,0,124.0,160.0,4928.0,4964.0,,,,,verb.communication,93,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+46,1,kissed,26,32,4993,4999,46,44.0,54.0,5011.0,5021.0,55.0,70.0,5022.0,5037.0,verb.contact,94,direct_object,each other,1.0,0.0,1.0,unknown,0.0,tertiary
+46,2,hugged,37,43,5004,5010,46,44.0,54.0,5011.0,5021.0,55.0,70.0,5022.0,5037.0,verb.contact,95,direct_object,each other,1.0,0.0,1.0,unknown,0.0,tertiary
+47,0,said,22,26,5061,5065,103,29.0,216.0,5068.0,5255.0,,,,,verb.communication,97,direct_object,a girl,3.0,3.0,6.0,female,1.0,tertiary
+47,0,said,22,26,5061,5065,141,29.0,216.0,5068.0,5255.0,,,,,verb.communication,97,direct_object,Dear sister,1.0,0.0,1.0,female,1.0,tertiary
+47,0,said,22,26,5061,5065,142,29.0,216.0,5068.0,5255.0,,,,,verb.communication,97,direct_object,any girl we met,1.0,0.0,1.0,female,1.0,tertiary
+47,3,agreed,93,99,5132,5138,103,100.0,216.0,5139.0,5255.0,,,,,verb.communication,96,direct_object,a girl,3.0,3.0,6.0,female,1.0,tertiary
+47,3,agreed,93,99,5132,5138,142,100.0,216.0,5139.0,5255.0,,,,,verb.communication,96,direct_object,any girl we met,1.0,0.0,1.0,female,1.0,tertiary
+48,0,replied,11,18,5269,5276,132,21.0,101.0,5279.0,5359.0,,,,,verb.communication,99,direct_object,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+48,0,replied,11,18,5269,5276,33,21.0,101.0,5279.0,5359.0,,,,,verb.communication,99,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+48,5,restore,62,69,5320,5327,132,70.0,88.0,5328.0,5346.0,,,,,verb.change,101,direct_object,The girl's twelve brothers,3.0,5.0,8.0,male,1.0,tertiary
+48,5,restore,62,69,5320,5327,33,70.0,88.0,5328.0,5346.0,,,,,verb.change,101,direct_object,The girl's mother,2.0,32.0,34.0,female,1.0,primary
+50,4,make,81,85,5489,5493,147,86.0,109.0,5494.0,5517.0,,,,,verb.change,104,direct_object,our eleven brothers,1.0,1.0,2.0,male,1.0,tertiary
+54,0,replied,7,14,5667,5674,0,17.0,28.0,5677.0,5688.0,,,,,verb.communication,107,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+55,0,have,1,5,5690,5694,0,10.0,28.0,5699.0,5717.0,,,,,verb.possession,108,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+55,1,tell,21,25,5710,5714,0,26.0,28.0,5715.0,5717.0,,,,,verb.communication,109,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+57,0,said,8,12,5749,5753,47,15.0,139.0,5756.0,5880.0,,,,,verb.communication,112,direct_object,,,,,,,
+57,0,said,8,12,5749,5753,0,15.0,139.0,5756.0,5880.0,,,,,verb.communication,112,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+58,0,tell,6,10,5889,5893,47,11.0,13.0,5894.0,5896.0,,,,,verb.communication,113,direct_object,,,,,,,
+59,0,answered,7,15,5918,5926,150,18.0,111.0,5929.0,6022.0,,,,,verb.communication,115,direct_object,the first girl we meet,1.0,1.0,2.0,female,1.0,tertiary
+59,0,answered,7,15,5918,5926,47,18.0,111.0,5929.0,6022.0,,,,,verb.communication,115,direct_object,,,,,,,
+59,1,promise,45,52,5956,5963,150,64.0,111.0,5975.0,6022.0,,,,,verb.communication,117,direct_object,the first girl we meet,1.0,1.0,2.0,female,1.0,tertiary
+59,1,promise,45,52,5956,5963,47,64.0,111.0,5975.0,6022.0,,,,,verb.communication,117,direct_object,,,,,,,
+60,3,promised,28,36,6053,6061,47,39.0,60.0,6064.0,6085.0,,,,,verb.communication,119,direct_object,,,,,,,
+60,4,tell,44,48,6069,6073,47,49.0,51.0,6074.0,6076.0,,,,,verb.communication,120,direct_object,,,,,,,
+61,0,said,14,18,6102,6106,47,21.0,39.0,6109.0,6127.0,,,,,verb.communication,121,direct_object,,,,,,,
+61,0,said,14,18,6102,6106,151,21.0,39.0,6109.0,6127.0,,,,,verb.communication,121,direct_object,Our sister,1.0,0.0,1.0,female,1.0,tertiary
+62,2,looking,122,129,6252,6259,47,130.0,210.0,6260.0,6340.0,,,,,verb.perception,123,direct_object,,,,,,,
+62,2,looking,122,129,6252,6259,50,130.0,210.0,6260.0,6340.0,,,,,verb.perception,123,direct_object,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+63,0,arranged,5,13,6347,6355,50,14.0,194.0,6356.0,6536.0,,,,,verb.communication,124,direct_object,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+63,0,arranged,5,13,6347,6355,53,14.0,194.0,6356.0,6536.0,,,,,verb.communication,124,direct_object,the rest of the brothers,1.0,0.0,1.0,male,1.0,tertiary
+63,0,arranged,5,13,6347,6355,0,14.0,194.0,6356.0,6536.0,,,,,verb.communication,124,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+63,0,arranged,5,13,6347,6355,22,14.0,194.0,6356.0,6536.0,,,,,verb.communication,124,direct_object,the brothers,2.0,1.0,3.0,male,1.0,tertiary
+63,3,help,61,65,6403,6407,0,66.0,69.0,6408.0,6411.0,89.0,194.0,6431.0,6536.0,verb.social,126,direct_object,Benjamin,12.0,31.0,43.0,male,1.0,primary
+64,0,cooked,28,34,6566,6572,47,35.0,55.0,6573.0,6593.0,,,,,verb.creation,127,direct_object,,,,,,,
+66,2,made,69,73,6844,6848,50,74.0,134.0,6849.0,6909.0,,,,,verb.change,133,direct_object,the Princess,1.0,10.0,11.0,female,1.0,tertiary
+66,2,made,69,73,6844,6848,60,74.0,134.0,6849.0,6909.0,,,,,verb.change,133,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+69,0,wishing,10,17,7177,7184,60,18.0,40.0,7185.0,7207.0,,,,,verb.cognition,138,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+69,0,wishing,10,17,7177,7184,31,18.0,40.0,7185.0,7207.0,,,,,verb.cognition,138,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+69,1,please,21,27,7188,7194,60,28.0,40.0,7195.0,7207.0,,,,,verb.emotion,140,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+69,1,please,21,27,7188,7194,31,28.0,40.0,7195.0,7207.0,,,,,verb.emotion,140,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+69,3,meaning,70,77,7237,7244,60,78.0,130.0,7245.0,7297.0,,,,,verb.cognition,141,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+69,4,present,81,88,7248,7255,60,89.0,92.0,7256.0,7259.0,109.0,130.0,,,verb.communication,143,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+71,0,found,17,22,7478,7483,69,23.0,57.0,7484.0,7518.0,,,,,verb.perception,144,direct_object,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,3,noticed,91,98,7552,7559,107,99.0,178.0,7560.0,7639.0,,,,,verb.perception,147,direct_object,the Queen's child,2.0,0.0,2.0,unknown,0.0,tertiary
+71,3,noticed,91,98,7552,7559,71,99.0,178.0,7560.0,7639.0,,,,,verb.perception,147,direct_object,an old woman,1.0,1.0,2.0,female,1.0,tertiary
+71,3,noticed,91,98,7552,7559,69,99.0,178.0,7560.0,7639.0,,,,,verb.perception,147,direct_object,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,4,standing,112,120,7573,7581,69,121.0,137.0,7582.0,7598.0,,,,,verb.contact,146,direct_object,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+71,5,said,143,147,7604,7608,107,150.0,178.0,7611.0,7639.0,,,,,verb.communication,150,direct_object,the Queen's child,2.0,0.0,2.0,unknown,0.0,tertiary
+71,5,said,143,147,7604,7608,71,150.0,178.0,7611.0,7639.0,,,,,verb.communication,150,direct_object,an old woman,1.0,1.0,2.0,female,1.0,tertiary
+71,5,said,143,147,7604,7608,69,150.0,178.0,7611.0,7639.0,,,,,verb.communication,150,direct_object,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+75,0,asked,9,14,7766,7771,60,26.0,64.0,7783.0,7821.0,,,,,verb.communication,152,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+75,1,sobbing,16,23,7773,7780,60,26.0,64.0,7783.0,7821.0,,,,,verb.body,153,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+75,3,setting,47,54,7804,7811,60,55.0,59.0,7812.0,7816.0,,,,,verb.cognition,154,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+76,0,said,6,10,7830,7834,73,11.0,24.0,7835.0,7848.0,,,,,verb.communication,156,direct_object,the old woman,2.0,0.0,2.0,female,1.0,tertiary
+76,0,said,6,10,7830,7834,60,11.0,24.0,7835.0,7848.0,,,,,verb.communication,156,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+76,0,said,6,10,7830,7834,69,11.0,24.0,7835.0,7848.0,,,,,verb.communication,156,direct_object,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+76,4,free,109,113,7933,7937,60,114.0,118.0,7938.0,7942.0,,,,,verb.social,155,direct_object,the Princess's brothers,3.0,9.0,12.0,male,1.0,tertiary
+76,16,slay,330,334,8154,8158,69,335.0,348.0,8159.0,8172.0,,,,,verb.contact,159,direct_object,the poor girl,1.0,13.0,14.0,female,1.0,secondary
+76,16,slay,330,334,8154,8158,134,335.0,348.0,8159.0,8172.0,,,,,verb.contact,159,direct_object,The girl's brothers,2.0,0.0,2.0,male,1.0,tertiary
+77,0,said,14,18,8189,8193,136,19.0,29.0,8194.0,8204.0,,,,,verb.communication,160,direct_object,The girl's mother's daughter's brothers,2.0,1.0,3.0,male,1.0,tertiary
+77,0,said,14,18,8189,8193,31,19.0,29.0,8194.0,8204.0,,,,,verb.communication,160,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+77,4,free,69,73,8244,8248,136,74.0,85.0,8249.0,8260.0,,,,,verb.social,162,direct_object,The girl's mother's daughter's brothers,2.0,1.0,3.0,male,1.0,tertiary
+77,4,free,69,73,8244,8248,31,74.0,85.0,8249.0,8260.0,,,,,verb.social,162,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+78,2,found,50,55,8313,8318,31,56.0,99.0,8319.0,8362.0,,,,,verb.possession,161,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+79,0,happened,7,15,8408,8416,75,24.0,189.0,8425.0,8590.0,,,,,verb.change,168,direct_object,a King who was hunting in the wood,1.0,0.0,1.0,male,1.0,tertiary
+79,0,happened,7,15,8408,8416,31,24.0,189.0,8425.0,8590.0,,,,,verb.change,168,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+79,4,ran,91,94,8492,8495,31,95.0,137.0,8496.0,8538.0,,,,,verb.motion,170,direct_object,The girl,7.0,18.0,25.0,female,1.0,secondary
+80,3,beheld,62,68,8654,8660,78,69.0,128.0,8661.0,8720.0,,,,,verb.perception,173,direct_object,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+80,6,asked,172,177,8764,8769,78,178.0,181.0,8770.0,8773.0,182.0,193.0,8774.0,8785.0,verb.communication,174,direct_object,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+80,6,asked,172,177,8764,8769,7,178.0,181.0,8770.0,8773.0,182.0,193.0,8774.0,8785.0,verb.communication,174,direct_object,the King's wife,4.0,1.0,5.0,female,1.0,tertiary
+80,6,asked,172,177,8764,8769,6,178.0,181.0,8770.0,8773.0,182.0,193.0,8774.0,8785.0,verb.communication,174,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+82,0,climbed,8,15,8865,8872,6,19.0,35.0,8876.0,8892.0,,,,,verb.motion,177,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+82,1,lifted,37,43,8894,8900,78,44.0,47.0,8901.0,8904.0,48.0,52.0,8905.0,8909.0,verb.contact,178,direct_object,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+82,2,put,54,57,8911,8914,78,58.0,61.0,8915.0,8918.0,,,,,verb.contact,179,direct_object,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+82,2,put,54,57,8911,8914,6,58.0,61.0,8915.0,8918.0,,,,,verb.contact,179,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+82,3,bore,79,83,8936,8940,78,84.0,87.0,8941.0,8944.0,88.0,106.0,8945.0,8963.0,verb.contact,180,direct_object,the beautiful Princess,1.0,8.0,9.0,female,1.0,tertiary
+84,3,began,97,102,9160,9165,86,103.0,129.0,9166.0,9192.0,,,,,verb.change,184,direct_object,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+84,4,slander,106,113,9169,9176,86,114.0,129.0,9177.0,9192.0,,,,,verb.communication,185,direct_object,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+84,5,said,135,139,9198,9202,157,140.0,151.0,9203.0,9214.0,,,,,verb.communication,188,direct_object,the King's low - born beggar maid that you have married,1.0,0.0,1.0,unknown,0.0,tertiary
+84,5,said,135,139,9198,9202,86,140.0,151.0,9203.0,9214.0,,,,,verb.communication,188,direct_object,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+84,5,said,135,139,9198,9202,6,140.0,151.0,9203.0,9214.0,,,,,verb.communication,188,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+85,0,knows,5,10,9279,9284,86,11.0,37.0,9285.0,9311.0,,,,,verb.cognition,187,direct_object,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+88,0,paid,18,22,9451,9455,86,23.0,30.0,9456.0,9463.0,,,,,verb.cognition,190,direct_object,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+88,2,accused,98,105,9531,9538,91,106.0,121.0,9539.0,9554.0,,,,,verb.communication,193,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+88,2,accused,98,105,9531,9538,86,106.0,121.0,9539.0,9554.0,,,,,verb.communication,193,direct_object,the young Queen,2.0,5.0,7.0,female,1.0,tertiary
+88,2,accused,98,105,9531,9538,6,106.0,121.0,9539.0,9554.0,,,,,verb.communication,193,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+88,3,let,161,164,9594,9597,6,165.0,187.0,9598.0,9620.0,,,,,verb.social,194,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+88,6,condemned,193,202,9626,9635,91,203.0,221.0,9636.0,9654.0,222.0,230.0,9655.0,9663.0,verb.communication,195,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+88,6,condemned,193,202,9626,9635,6,203.0,221.0,9636.0,9654.0,222.0,230.0,9655.0,9663.0,verb.communication,195,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+89,7,loved,182,187,9847,9852,7,188.0,203.0,9853.0,9868.0,,,,,verb.emotion,199,direct_object,the King's wife,4.0,1.0,5.0,female,1.0,tertiary
+89,7,loved,182,187,9847,9852,6,188.0,203.0,9853.0,9868.0,,,,,verb.emotion,199,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+90,4,licking,65,72,9935,9942,91,73.0,85.0,9943.0,9955.0,,,,,verb.contact,201,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+92,3,knew,109,113,10234,10238,91,114.0,137.0,10239.0,10262.0,,,,,verb.cognition,203,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+92,3,knew,109,113,10234,10238,98,114.0,137.0,10239.0,10262.0,,,,,verb.cognition,203,direct_object,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+92,5,freed,127,132,10252,10257,98,133.0,137.0,10258.0,10262.0,,,,,verb.consumption,202,direct_object,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+93,2,unbinding,52,61,10316,10325,98,62.0,67.0,10326.0,10331.0,80.0,94.0,10344.0,10358.0,verb.change,205,direct_object,the King's beautiful wife's twelve brothers,1.0,5.0,6.0,male,1.0,tertiary
+93,4,hugged,112,118,10376,10382,91,119.0,122.0,10383.0,10386.0,123.0,138.0,10387.0,10402.0,verb.contact,207,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+94,1,open,29,33,10433,10437,91,34.0,43.0,10438.0,10447.0,,,,,verb.contact,208,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+94,3,told,59,63,10463,10467,91,64.0,72.0,10468.0,10476.0,,,,,verb.communication,211,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary
+94,3,told,59,63,10463,10467,6,64.0,72.0,10468.0,10476.0,,,,,verb.communication,211,direct_object,the King,8.0,23.0,31.0,male,1.0,primary
+95,1,heard,34,39,10556,10561,91,40.0,56.0,10562.0,10578.0,,,,,verb.cognition,213,direct_object,the King's beautiful wife,1.0,12.0,13.0,female,1.0,tertiary

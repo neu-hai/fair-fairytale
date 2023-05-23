@@ -1,0 +1,109 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,4,want,89,93,89,93,1,78.0,80.0,78.0,80.0,,,,,verb.emotion,True,0,subject,a man who had a cat,1,3,4,male,1.0,tertiary
+1,0,decided,6,13,124,131,1,3.0,5.0,121.0,123.0,,,,,verb.cognition,True,1,subject,a man who had a cat,1,3,4,male,1.0,tertiary
+3,0,offered,10,17,274,281,4,0.0,9.0,264.0,273.0,,,,,verb.possession,True,2,subject,The woman,7,13,20,female,1.0,tertiary
+6,0,said,30,34,459,463,83,0.0,27.0,429.0,456.0,,,,,verb.communication,True,4,subject,man,1,0,1,male,1.0,tertiary
+8,1,had,10,13,514,517,6,6.0,9.0,510.0,513.0,,,,,verb.consumption,True,5,subject,the cat,26,98,124,female,1.0,primary
+9,3,said,56,60,603,607,6,1.0,53.0,548.0,600.0,,,,,verb.communication,True,7,subject,the cat,26,98,124,female,1.0,primary
+10,8,ate,169,172,786,789,4,146.0,149.0,763.0,766.0,,,,,verb.consumption,True,8,subject,The woman,7,13,20,female,1.0,tertiary
+16,1,eaten,10,15,962,967,86,6.0,9.0,958.0,961.0,,,,,verb.consumption,True,11,subject,cat,6,8,14,unknown,0.0,tertiary
+17,0,asked,4,9,984,989,4,0.0,3.0,980.0,983.0,,,,,verb.communication,True,13,subject,The woman,7,13,20,female,1.0,tertiary
+19,3,said,33,37,1050,1054,6,0.0,30.0,1017.0,1047.0,,,,,verb.communication,True,14,subject,the cat,26,98,124,female,1.0,primary
+20,8,ate,195,198,1259,1262,4,170.0,173.0,1234.0,1237.0,,,,,verb.consumption,True,15,subject,The woman,7,13,20,female,1.0,tertiary
+34,0,came,9,13,2274,2278,6,5.0,8.0,2270.0,2273.0,,,,,verb.motion,True,23,subject,the cat,26,98,124,female,1.0,primary
+37,0,said,17,21,2408,2412,86,1.0,14.0,2392.0,2405.0,,,,,verb.communication,True,25,subject,cat,6,8,14,unknown,0.0,tertiary
+42,1,gone,14,18,2851,2855,6,6.0,9.0,2843.0,2846.0,,,,,verb.motion,True,27,subject,the cat,26,98,124,female,1.0,primary
+46,1,had,17,20,3012,3015,6,5.0,8.0,3000.0,3003.0,,,,,verb.possession,True,28,subject,the cat,26,98,124,female,1.0,primary
+51,2,met,46,49,3513,3516,6,42.0,45.0,3509.0,3512.0,,,,,verb.motion,True,31,subject,the cat,26,98,124,female,1.0,primary
+52,0,said,32,36,3613,3617,115,1.0,29.0,3582.0,3610.0,,,,,verb.communication,True,32,subject,fox,1,1,2,unknown,0.0,tertiary
+59,2,met,40,43,4173,4176,6,36.0,39.0,4169.0,4172.0,,,,,verb.motion,True,35,subject,the cat,26,98,124,female,1.0,primary
+60,1,said,30,34,4215,4219,36,1.0,27.0,4186.0,4212.0,,,,,verb.communication,True,37,subject,the fox,1,6,7,male,1.0,tertiary
+67,2,met,40,43,4803,4806,6,36.0,39.0,4799.0,4802.0,,,,,verb.motion,True,38,subject,the cat,26,98,124,female,1.0,primary
+68,0,said,27,31,4842,4846,36,1.0,14.0,4816.0,4829.0,,,,,verb.communication,True,39,subject,the fox,1,6,7,male,1.0,tertiary
+75,3,met,101,104,5518,5521,6,97.0,100.0,5514.0,5517.0,,,,,verb.motion,True,42,subject,the cat,26,98,124,female,1.0,primary
+83,2,met,41,44,6205,6208,6,37.0,40.0,6201.0,6204.0,,,,,verb.motion,True,46,subject,the cat,26,98,124,female,1.0,primary
+84,1,said,36,40,6365,6369,49,1.0,33.0,6330.0,6362.0,,,,,verb.communication,True,47,subject,the little bear,1,3,4,male,1.0,tertiary
+84,1,said,36,40,6365,6369,144,1.0,33.0,6330.0,6362.0,,,,,verb.communication,True,47,subject,mother bear,1,0,1,female,1.0,tertiary
+91,2,met,47,50,7044,7047,6,43.0,46.0,7040.0,7043.0,60.0,67.0,7057.0,7064.0,verb.motion,True,50,subject,the cat,26,98,124,female,1.0,primary
+92,0,said,31,35,7097,7101,153,1.0,28.0,7067.0,7094.0,,,,,verb.communication,True,52,subject,Bruin Good - fellow,1,0,1,unknown,0.0,tertiary
+98,10,ate,486,489,7733,7736,6,462.0,465.0,7709.0,7712.0,494.0,501.0,7741.0,7748.0,verb.consumption,True,53,subject,the cat,26,98,124,female,1.0,primary
+99,1,came,54,58,7804,7808,6,50.0,53.0,7800.0,7803.0,,,,,verb.motion,True,54,subject,the cat,26,98,124,female,1.0,primary
+100,0,met,14,17,7840,7843,6,10.0,13.0,7836.0,7839.0,33.0,44.0,7859.0,7870.0,verb.motion,True,55,subject,the cat,26,98,124,female,1.0,primary
+105,2,said,27,31,8028,8032,6,0.0,24.0,8001.0,8025.0,,,,,verb.communication,True,58,subject,the cat,26,98,124,female,1.0,primary
+106,11,pounced,485,492,8527,8534,6,481.0,484.0,8523.0,8526.0,,,,,verb.cognition,True,57,subject,the cat,26,98,124,female,1.0,primary
+107,1,gone,13,17,8640,8644,6,5.0,8.0,8632.0,8635.0,,,,,verb.motion,True,59,subject,the cat,26,98,124,female,1.0,primary
+108,0,met,14,17,8698,8701,6,10.0,13.0,8694.0,8697.0,,,,,verb.motion,True,60,subject,the cat,26,98,124,female,1.0,primary
+115,10,said,502,506,9439,9443,91,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the woman in the stable,11,0,11,female,1.0,tertiary
+115,10,said,502,506,9439,9443,179,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the leaf - sweeper in the orchard,1,0,1,unknown,0.0,tertiary
+115,10,said,502,506,9439,9443,7,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the man,18,5,23,male,1.0,tertiary
+115,10,said,502,506,9439,9443,114,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the weasel on the stone - pile,8,0,8,unknown,0.0,tertiary
+115,10,said,502,506,9439,9443,104,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the manger,11,0,11,unknown,0.0,tertiary
+115,10,said,502,506,9439,9443,182,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the sly - boots,2,0,2,unknown,0.0,tertiary
+115,10,said,502,506,9439,9443,6,1.0,499.0,8938.0,9436.0,,,,,verb.communication,True,62,subject,the cat,26,98,124,female,1.0,primary
+116,5,met,123,126,9645,9648,6,119.0,122.0,9641.0,9644.0,136.0,146.0,9658.0,9668.0,verb.motion,True,63,subject,the cat,26,98,124,female,1.0,primary
+137,9,said,585,589,12137,12141,91,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the woman in the stable,11,0,11,female,1.0,tertiary
+137,9,said,585,589,12137,12141,7,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the man,18,5,23,male,1.0,tertiary
+137,9,said,585,589,12137,12141,105,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the leaf - sweeper,6,0,6,unknown,0.0,tertiary
+137,9,said,585,589,12137,12141,114,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the weasel on the stone - pile,8,0,8,unknown,0.0,tertiary
+137,9,said,585,589,12137,12141,68,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the goat,2,3,5,male,1.0,tertiary
+137,9,said,585,589,12137,12141,104,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the manger,11,0,11,unknown,0.0,tertiary
+137,9,said,585,589,12137,12141,171,1.0,582.0,11553.0,12134.0,,,,,verb.communication,True,69,subject,the biting mother bear and bruin good - fellow,3,0,3,female,1.0,tertiary
+139,1,went,36,40,12352,12356,71,31.0,35.0,12347.0,12351.0,,,,,verb.motion,True,71,subject,each,1,1,2,male,1.0,tertiary
+5,0,stood,6,11,391,396,5,12.0,42.0,397.0,427.0,,,,,verb.contact,True,3,direct_object,the man on the threshing - floor,1,0,1,male,1.0,tertiary
+6,0,said,30,34,459,463,6,35.0,42.0,464.0,471.0,,,,,verb.communication,True,4,direct_object,the cat,26,98,124,female,1.0,primary
+7,0,said,17,21,490,494,7,22.0,29.0,495.0,502.0,,,,,verb.communication,True,6,direct_object,the man,18,5,23,male,1.0,tertiary
+9,3,said,56,60,603,607,6,61.0,68.0,608.0,615.0,,,,,verb.communication,True,7,direct_object,the cat,26,98,124,female,1.0,primary
+10,8,ate,169,172,786,789,7,173.0,176.0,790.0,793.0,,,,,verb.consumption,True,8,direct_object,the man,18,5,23,male,1.0,tertiary
+12,0,sat,6,9,835,838,4,10.0,28.0,839.0,857.0,,,,,verb.contact,True,9,direct_object,The woman,7,13,20,female,1.0,tertiary
+13,0,said,33,37,892,896,6,38.0,45.0,897.0,904.0,,,,,verb.communication,True,10,direct_object,the cat,26,98,124,female,1.0,primary
+15,0,said,0,4,936,940,4,5.0,14.0,941.0,950.0,,,,,verb.communication,True,12,direct_object,The woman,7,13,20,female,1.0,tertiary
+16,1,eaten,10,15,962,967,86,16.0,25.0,968.0,977.0,,,,,verb.consumption,True,11,direct_object,cat,6,8,14,unknown,0.0,tertiary
+19,3,said,33,37,1050,1054,6,38.0,45.0,1055.0,1062.0,,,,,verb.communication,True,14,direct_object,the cat,26,98,124,female,1.0,primary
+20,8,ate,195,198,1259,1262,4,199.0,202.0,1263.0,1266.0,,,,,verb.consumption,True,15,direct_object,The woman,7,13,20,female,1.0,tertiary
+21,0,said,31,35,1302,1306,16,36.0,39.0,1307.0,1310.0,,,,,verb.communication,True,16,direct_object,the bell - cow,3,1,4,female,1.0,tertiary
+22,0,said,17,21,1349,1353,16,22.0,34.0,1354.0,1366.0,,,,,verb.communication,True,17,direct_object,the bell - cow,3,1,4,female,1.0,tertiary
+26,8,ate,226,229,1703,1706,16,230.0,233.0,1707.0,1710.0,,,,,verb.consumption,True,19,direct_object,the bell - cow,3,1,4,female,1.0,tertiary
+27,1,stood,43,48,1758,1763,22,49.0,81.0,1764.0,1796.0,,,,,verb.contact,True,18,direct_object,a man who was sweeping up leaves,1,1,2,male,1.0,tertiary
+28,0,said,41,45,1839,1843,6,46.0,53.0,1844.0,1851.0,,,,,verb.communication,True,20,direct_object,the cat,26,98,124,female,1.0,primary
+33,8,ate,260,263,2253,2256,22,264.0,267.0,2257.0,2260.0,,,,,verb.consumption,True,21,direct_object,a man who was sweeping up leaves,1,1,2,male,1.0,tertiary
+35,0,stood,6,11,2302,2307,26,12.0,22.0,2308.0,2318.0,24.0,41.0,,,verb.contact,True,22,direct_object,the weasel,3,5,8,male,1.0,tertiary
+36,0,said,38,42,2377,2381,6,43.0,50.0,2382.0,2389.0,,,,,verb.communication,True,24,direct_object,the cat,26,98,124,female,1.0,primary
+37,0,said,17,21,2408,2412,26,22.0,32.0,2413.0,2423.0,,,,,verb.communication,True,25,direct_object,the weasel,3,5,8,male,1.0,tertiary
+41,8,ate,291,294,2825,2828,26,295.0,298.0,2829.0,2832.0,299.0,301.0,,,verb.consumption,True,26,direct_object,the weasel,3,5,8,male,1.0,tertiary
+44,0,said,34,38,2965,2969,6,39.0,46.0,2970.0,2977.0,,,,,verb.communication,True,29,direct_object,the cat,26,98,124,female,1.0,primary
+50,8,ate,325,328,3455,3458,26,329.0,332.0,3459.0,3462.0,,,,,verb.consumption,True,30,direct_object,the weasel,3,5,8,male,1.0,tertiary
+51,2,met,46,49,3513,3516,0,50.0,112.0,3517.0,3579.0,,,,,verb.motion,True,31,direct_object,Reynard,1,0,1,unknown,0.0,tertiary
+52,0,said,32,36,3613,3617,6,37.0,44.0,3618.0,3625.0,,,,,verb.communication,True,32,direct_object,the cat,26,98,124,female,1.0,primary
+55,0,said,0,4,3685,3689,36,5.0,12.0,3690.0,3697.0,,,,,verb.communication,True,33,direct_object,the fox,1,6,7,male,1.0,tertiary
+58,8,ate,352,355,4117,4120,36,356.0,359.0,4121.0,4124.0,360.0,366.0,,,verb.consumption,True,34,direct_object,the fox,1,6,7,male,1.0,tertiary
+60,1,said,30,34,4215,4219,6,35.0,42.0,4220.0,4227.0,,,,,verb.communication,True,37,direct_object,the cat,26,98,124,female,1.0,primary
+66,8,ate,383,386,4751,4754,36,387.0,390.0,4755.0,4758.0,,,,,verb.consumption,True,36,direct_object,the fox,1,6,7,male,1.0,tertiary
+68,0,said,27,31,4842,4846,6,32.0,39.0,4847.0,4854.0,,,,,verb.communication,True,39,direct_object,the cat,26,98,124,female,1.0,primary
+71,0,said,0,4,4914,4918,41,5.0,13.0,4919.0,4927.0,,,,,verb.communication,True,41,direct_object,the wolf,1,1,2,male,1.0,tertiary
+74,9,ate,405,408,5400,5403,41,409.0,412.0,5404.0,5407.0,413.0,420.0,,,verb.consumption,True,40,direct_object,the wolf,1,1,2,male,1.0,tertiary
+75,3,met,101,104,5518,5521,45,105.0,117.0,5522.0,5534.0,,,,,verb.motion,True,42,direct_object,a young bear,1,1,2,unknown,0.0,tertiary
+76,0,said,36,40,5572,5576,6,41.0,48.0,5577.0,5584.0,,,,,verb.communication,True,43,direct_object,the cat,26,98,124,female,1.0,primary
+79,0,said,0,4,5644,5648,47,5.0,13.0,5649.0,5657.0,,,,,verb.communication,True,45,direct_object,the bear,3,5,8,male,1.0,tertiary
+82,9,ate,427,430,6152,6155,49,431.0,434.0,6156.0,6159.0,,,,,verb.consumption,True,44,direct_object,the little bear,1,3,4,male,1.0,tertiary
+83,2,met,41,44,6205,6208,6,45.0,163.0,6209.0,6327.0,,,,,verb.motion,True,46,direct_object,the cat,26,98,124,female,1.0,primary
+84,1,said,36,40,6365,6369,6,41.0,48.0,6370.0,6377.0,,,,,verb.communication,True,47,direct_object,the cat,26,98,124,female,1.0,primary
+87,0,said,0,4,6437,6441,51,5.0,20.0,6442.0,6457.0,,,,,verb.communication,True,49,direct_object,the mother bear,2,2,4,female,1.0,tertiary
+90,10,ate,458,461,6983,6986,51,462.0,465.0,6987.0,6990.0,467.0,470.0,,,verb.consumption,True,48,direct_object,the mother bear,2,2,4,female,1.0,tertiary
+91,2,met,47,50,7044,7047,47,51.0,59.0,7048.0,7056.0,60.0,67.0,7057.0,7064.0,verb.motion,True,50,direct_object,the bear,3,5,8,male,1.0,tertiary
+92,0,said,31,35,7097,7101,6,36.0,39.0,7102.0,7105.0,,,,,verb.communication,True,52,direct_object,the cat,26,98,124,female,1.0,primary
+95,0,asked,0,5,7165,7170,47,6.0,14.0,7171.0,7179.0,,,,,verb.communication,True,51,direct_object,the bear,3,5,8,male,1.0,tertiary
+98,10,ate,486,489,7733,7736,47,490.0,493.0,7737.0,7740.0,494.0,501.0,7741.0,7748.0,verb.consumption,True,53,direct_object,the bear,3,5,8,male,1.0,tertiary
+101,0,said,38,42,7910,7914,6,43.0,50.0,7915.0,7922.0,,,,,verb.communication,True,56,direct_object,the cat,26,98,124,female,1.0,primary
+112,0,said,0,4,8842,8846,62,5.0,27.0,8847.0,8869.0,,,,,verb.communication,True,61,direct_object,the funeral procession,1,0,1,unknown,0.0,tertiary
+115,10,said,502,506,9439,9443,6,507.0,510.0,9444.0,9447.0,,,,,verb.communication,True,62,direct_object,the cat,26,98,124,female,1.0,primary
+117,0,said,29,33,9699,9703,6,34.0,41.0,9704.0,9711.0,,,,,verb.communication,True,64,direct_object,the cat,26,98,124,female,1.0,primary
+120,0,said,0,4,9771,9775,65,5.0,13.0,9776.0,9784.0,,,,,verb.communication,True,66,direct_object,the moon,1,4,5,male,1.0,tertiary
+123,11,ate,560,563,10412,10415,65,564.0,567.0,10416.0,10419.0,568.0,585.0,,,verb.consumption,True,65,direct_object,the moon,1,4,5,male,1.0,tertiary
+129,12,ate,615,618,11225,11228,65,619.0,622.0,11229.0,11232.0,623.0,625.0,,,verb.consumption,True,67,direct_object,the moon,1,4,5,male,1.0,tertiary
+134,0,said,0,4,11471,11475,68,5.0,13.0,11476.0,11484.0,,,,,verb.communication,True,68,direct_object,the goat,2,3,5,male,1.0,tertiary
+138,2,said,39,43,12186,12190,68,44.0,52.0,12191.0,12199.0,,,,,verb.communication,True,70,direct_object,the goat,2,3,5,male,1.0,tertiary
+139,1,went,36,40,12352,12356,4,41.0,271.0,12357.0,12587.0,,,,,verb.motion,True,71,direct_object,The woman,7,13,20,female,1.0,tertiary
+139,1,went,36,40,12352,12356,104,41.0,271.0,12357.0,12587.0,,,,,verb.motion,True,71,direct_object,the manger,11,0,11,unknown,0.0,tertiary
+139,1,went,36,40,12352,12356,77,41.0,271.0,12357.0,12587.0,,,,,verb.motion,True,71,direct_object,the bell - cow at the manger and the leaf - sweeper in the orchard,1,0,1,unknown,0.0,tertiary
+139,1,went,36,40,12352,12356,71,41.0,271.0,12357.0,12587.0,,,,,verb.motion,True,71,direct_object,each,1,1,2,male,1.0,tertiary
+139,1,went,36,40,12352,12356,73,41.0,271.0,12357.0,12587.0,,,,,verb.motion,True,71,direct_object,the man in the house and the woman in the stable,1,0,1,female,0.5,tertiary

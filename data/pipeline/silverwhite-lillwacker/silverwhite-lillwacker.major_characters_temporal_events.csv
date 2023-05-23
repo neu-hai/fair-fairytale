@@ -1,0 +1,383 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,loved,59,64,59,64,4,43.0,50.0,43.0,50.0,,,,,verb.emotion,True,0,subject,a king,2.0,2.0,4.0,male,1.0,tertiary
+1,0,died,27,31,111,115,6,17.0,26.0,101.0,110.0,,,,,verb.change,True,1,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+3,0,cherished,3,12,248,257,8,0.0,2.0,245.0,247.0,,,,,verb.emotion,True,3,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+5,1,seen,22,26,387,391,14,5.0,17.0,370.0,382.0,,,,,verb.perception,True,2,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+6,1,march,18,23,480,485,15,0.0,10.0,462.0,472.0,,,,,verb.motion,True,4,subject,The princess's father,3.0,0.0,3.0,male,1.0,tertiary
+6,1,march,18,23,480,485,14,0.0,10.0,462.0,472.0,,,,,verb.motion,True,4,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+7,2,entrust,44,51,547,554,8,21.0,28.0,524.0,531.0,65.0,89.0,568.0,592.0,verb.cognition,True,5,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+8,2,provided,49,57,643,651,8,3.0,5.0,597.0,599.0,,,,,verb.possession,True,6,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+11,0,thought,13,20,921,928,8,4.0,12.0,912.0,920.0,,,,,verb.cognition,True,9,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+12,0,sat,42,45,1047,1050,31,16.0,41.0,1021.0,1046.0,,,,,verb.contact,True,8,subject,The princess's maid,5.0,0.0,5.0,unknown,0.0,tertiary
+12,0,sat,42,45,1047,1050,14,16.0,41.0,1021.0,1046.0,,,,,verb.contact,True,8,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+16,3,come,90,94,1480,1484,44,51.0,83.0,1441.0,1473.0,111.0,154.0,1501.0,1544.0,verb.change,True,12,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+16,3,come,90,94,1480,1484,8,51.0,83.0,1441.0,1473.0,111.0,154.0,1501.0,1544.0,verb.change,True,12,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+16,3,come,90,94,1480,1484,31,51.0,83.0,1441.0,1473.0,111.0,154.0,1501.0,1544.0,verb.change,True,12,subject,The princess's maid,5.0,0.0,5.0,unknown,0.0,tertiary
+16,3,come,90,94,1480,1484,14,51.0,83.0,1441.0,1473.0,111.0,154.0,1501.0,1544.0,verb.change,True,12,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+17,0,promised,12,20,1558,1566,46,0.0,11.0,1546.0,1557.0,,,,,verb.communication,True,13,subject,The old hag,1.0,0.0,1.0,unknown,0.0,tertiary
+18,0,saw,38,41,1722,1725,44,5.0,37.0,1689.0,1721.0,,,,,verb.perception,True,14,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+18,0,saw,38,41,1722,1725,8,5.0,37.0,1689.0,1721.0,,,,,verb.perception,True,14,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+18,0,saw,38,41,1722,1725,31,5.0,37.0,1689.0,1721.0,,,,,verb.perception,True,14,subject,The princess's maid,5.0,0.0,5.0,unknown,0.0,tertiary
+18,0,saw,38,41,1722,1725,14,5.0,37.0,1689.0,1721.0,,,,,verb.perception,True,14,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+20,0,said,14,18,1920,1924,52,0.0,13.0,1906.0,1919.0,,,,,verb.communication,True,16,subject,The old woman,3.0,4.0,7.0,female,1.0,tertiary
+21,4,make,73,77,2022,2026,52,63.0,66.0,2012.0,2015.0,,,,,verb.creation,True,17,subject,The old woman,3.0,4.0,7.0,female,1.0,tertiary
+23,1,told,68,72,2187,2191,59,52.0,67.0,2171.0,2186.0,,,,,verb.communication,True,18,subject,the troll - woman,1.0,0.0,1.0,female,1.0,tertiary
+25,1,received,72,80,2401,2409,44,52.0,71.0,2381.0,2400.0,,,,,verb.possession,True,20,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+25,1,received,72,80,2401,2409,65,52.0,71.0,2381.0,2400.0,,,,,verb.possession,True,20,subject,The king 's daughter's son of her maid,1.0,0.0,1.0,male,1.0,tertiary
+25,1,received,72,80,2401,2409,31,52.0,71.0,2381.0,2400.0,,,,,verb.possession,True,20,subject,The princess's maid,5.0,0.0,5.0,unknown,0.0,tertiary
+27,0,looked,5,11,2533,2539,67,0.0,4.0,2528.0,2532.0,,,,,verb.perception,True,21,subject,The two boys,1.0,9.0,10.0,male,1.0,tertiary
+28,1,see,17,20,2606,2609,69,0.0,3.0,2589.0,2592.0,,,,,verb.cognition,True,22,subject,,,,,,,
+30,2,took,41,45,2744,2748,67,36.0,40.0,2739.0,2743.0,63.0,103.0,2766.0,2806.0,verb.cognition,True,23,subject,The two boys,1.0,9.0,10.0,male,1.0,tertiary
+31,2,bade,89,93,2897,2901,67,67.0,88.0,2875.0,2896.0,,,,,verb.communication,True,24,subject,The two boys,1.0,9.0,10.0,male,1.0,tertiary
+32,1,seek,47,51,2974,2978,73,9.0,13.0,2936.0,2940.0,66.0,89.0,2993.0,3016.0,verb.possession,True,27,subject,The two boys's children,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+33,1,gave,31,35,3049,3053,44,11.0,30.0,3029.0,3048.0,,,,,verb.possession,True,26,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+33,1,gave,31,35,3049,3053,8,11.0,30.0,3029.0,3048.0,,,,,verb.possession,True,26,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+34,0,had,9,12,3091,3094,27,0.0,8.0,3082.0,3090.0,,,,,verb.possession,True,25,subject,the maid,2.0,1.0,3.0,female,1.0,tertiary
+36,2,came,34,38,3211,3215,81,29.0,33.0,3206.0,3210.0,,,,,verb.motion,True,28,subject,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+37,0,met,24,27,3258,3261,81,19.0,23.0,3253.0,3257.0,,,,,verb.motion,True,30,subject,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+38,0,wore,3,7,3303,3307,85,0.0,2.0,3300.0,3302.0,19.0,30.0,3319.0,3330.0,verb.body,True,29,subject,a man,1.0,4.0,5.0,male,1.0,tertiary
+39,2,come,79,83,3450,3454,81,66.0,71.0,3437.0,3442.0,,,,,verb.motion,True,31,subject,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+40,0,told,9,13,3489,3493,86,0.0,8.0,3480.0,3488.0,,,,,verb.communication,True,32,subject,The boys,2.0,10.0,12.0,male,1.0,tertiary
+41,2,know,41,45,3625,3629,89,39.0,40.0,3623.0,3624.0,,,,,verb.cognition,True,33,subject,The man,2.0,6.0,8.0,male,1.0,tertiary
+43,1,promise,13,20,3799,3806,81,4.0,7.0,3790.0,3793.0,,,,,verb.communication,True,35,subject,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+45,1,promised,49,57,3952,3960,86,0.0,8.0,3903.0,3911.0,,,,,verb.communication,True,37,subject,The boys,2.0,10.0,12.0,male,1.0,tertiary
+46,2,went,32,36,4020,4024,86,5.0,9.0,3993.0,3997.0,,,,,verb.motion,True,38,subject,The boys,2.0,10.0,12.0,male,1.0,tertiary
+47,2,reached,42,49,4078,4085,86,37.0,41.0,4073.0,4077.0,,,,,verb.motion,True,39,subject,The boys,2.0,10.0,12.0,male,1.0,tertiary
+48,4,try,75,78,4175,4178,86,69.0,71.0,4169.0,4171.0,88.0,94.0,4188.0,4194.0,verb.social,True,40,subject,The boys,2.0,10.0,12.0,male,1.0,tertiary
+49,3,know,59,63,4272,4276,1,54.0,55.0,4267.0,4268.0,,,,,verb.cognition,True,41,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+50,7,know,124,128,4454,4458,1,115.0,118.0,4445.0,4448.0,,,,,verb.cognition,True,42,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+52,1,said,56,60,4590,4594,0,0.0,11.0,4534.0,4545.0,,,,,verb.communication,True,43,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+53,1,took,44,48,4696,4700,1,0.0,10.0,4652.0,4662.0,,,,,verb.contact,True,44,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+54,2,reached,61,68,4851,4858,0,58.0,60.0,4848.0,4850.0,,,,,verb.motion,True,47,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+56,2,saw,88,91,5133,5136,0,65.0,84.0,5110.0,5129.0,,,,,verb.perception,True,46,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+57,3,come,30,34,5168,5172,0,16.0,19.0,5154.0,5157.0,50.0,134.0,5188.0,5272.0,verb.motion,True,45,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+58,1,promise,10,17,5284,5291,8,0.0,2.0,5274.0,5276.0,,,,,verb.communication,True,48,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+59,1,coming,35,41,5380,5386,371,18.0,31.0,5363.0,5376.0,,,,,verb.motion,True,49,subject,the sea - troll,9.0,1.0,10.0,male,1.0,tertiary
+60,1,saw,38,41,5460,5463,0,35.0,37.0,5457.0,5459.0,,,,,verb.perception,True,50,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+61,0,hung,29,33,5558,5562,0,17.0,28.0,5546.0,5557.0,57.0,79.0,5586.0,5608.0,verb.body,True,51,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+62,1,saw,31,34,5683,5686,0,28.0,30.0,5680.0,5682.0,,,,,verb.creation,True,53,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+64,1,cried,34,39,5820,5825,14,4.0,16.0,5790.0,5802.0,,,,,verb.communication,True,54,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+66,0,saw,40,43,5935,5938,44,5.0,39.0,5900.0,5934.0,,,,,verb.perception,True,55,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+66,0,saw,40,43,5935,5938,116,5.0,39.0,5900.0,5934.0,,,,,verb.perception,True,55,subject,The princess's escort,3.0,0.0,3.0,unknown,0.0,tertiary
+66,0,saw,40,43,5935,5938,8,5.0,39.0,5900.0,5934.0,,,,,verb.perception,True,55,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+66,0,saw,40,43,5935,5938,14,5.0,39.0,5900.0,5934.0,,,,,verb.perception,True,55,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+69,0,answered,20,28,6244,6252,44,0.0,19.0,6224.0,6243.0,,,,,verb.communication,True,57,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+69,0,answered,20,28,6244,6252,8,0.0,19.0,6224.0,6243.0,,,,,verb.communication,True,57,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+70,3,rescue,40,46,6346,6352,0,25.0,26.0,6331.0,6332.0,,,,,verb.social,True,58,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+71,1,think,30,35,6389,6394,14,5.0,17.0,6364.0,6376.0,,,,,verb.cognition,True,59,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+72,1,comb,59,63,6538,6542,44,36.0,55.0,6515.0,6534.0,,,,,verb.contact,True,60,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+72,1,comb,59,63,6538,6542,8,36.0,55.0,6515.0,6534.0,,,,,verb.contact,True,60,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+73,1,laid,47,51,6600,6604,0,35.0,46.0,6588.0,6599.0,61.0,71.0,6614.0,6624.0,verb.contact,True,61,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+74,1,drew,28,32,6654,6658,14,15.0,27.0,6641.0,6653.0,,,,,verb.contact,True,62,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+75,0,rose,23,27,6760,6764,371,9.0,22.0,6746.0,6759.0,44.0,95.0,6781.0,6832.0,verb.motion,True,64,subject,the sea - troll,9.0,1.0,10.0,male,1.0,tertiary
+76,4,sit,68,71,6902,6905,0,64.0,67.0,6898.0,6901.0,78.0,96.0,6912.0,6930.0,verb.contact,True,63,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+77,0,replied,10,17,6943,6950,133,0.0,9.0,6933.0,6942.0,,,,,verb.communication,True,65,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+78,0,answered,14,22,7019,7027,371,0.0,13.0,7005.0,7018.0,,,,,verb.communication,True,66,subject,the sea - troll,9.0,1.0,10.0,male,1.0,tertiary
+80,1,set,35,38,7139,7142,0,0.0,11.0,7104.0,7115.0,,,,,verb.contact,True,67,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+82,0,got,29,32,7236,7239,133,12.0,28.0,7219.0,7235.0,,,,,verb.body,True,68,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+83,0,drew,17,21,7316,7320,0,5.0,16.0,7304.0,7315.0,32.0,50.0,7331.0,7349.0,verb.competition,True,69,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+84,1,flung,35,40,7493,7498,132,0.0,9.0,7458.0,7467.0,49.0,111.0,7507.0,7569.0,verb.contact,True,70,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+85,3,put,84,87,7655,7658,133,0.0,19.0,7571.0,7590.0,,,,,verb.contact,True,71,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+86,0,saluted,8,15,7687,7694,133,5.0,7.0,7684.0,7686.0,,,,,verb.body,True,73,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+87,9,rescued,207,214,7937,7944,120,163.0,201.0,7893.0,7931.0,,,,,verb.social,True,72,subject,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+87,9,rescued,207,214,7937,7944,149,163.0,201.0,7893.0,7931.0,,,,,verb.social,True,72,subject,none other,2.0,0.0,2.0,unknown,0.0,tertiary
+87,9,rescued,207,214,7937,7944,148,163.0,201.0,7893.0,7931.0,,,,,verb.social,True,72,subject,the people,1.0,0.0,1.0,unknown,0.0,tertiary
+88,3,feared,51,57,8001,8007,44,47.0,50.0,7997.0,8000.0,,,,,verb.emotion,True,74,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+89,0,returned,7,15,8029,8037,44,3.0,6.0,8025.0,8028.0,39.0,56.0,8061.0,8078.0,verb.motion,True,76,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+90,4,rescued,91,98,8220,8227,372,62.0,81.0,8191.0,8210.0,,,,,verb.body,True,75,subject,the oldest princess,2.0,0.0,2.0,female,1.0,tertiary
+92,0,went,12,16,8305,8309,0,0.0,11.0,8293.0,8304.0,65.0,109.0,8358.0,8402.0,verb.motion,True,77,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+93,0,saw,44,47,8448,8451,44,9.0,43.0,8413.0,8447.0,,,,,verb.perception,True,78,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+93,0,saw,44,47,8448,8451,116,9.0,43.0,8413.0,8447.0,,,,,verb.perception,True,78,subject,The princess's escort,3.0,0.0,3.0,unknown,0.0,tertiary
+93,0,saw,44,47,8448,8451,8,9.0,43.0,8413.0,8447.0,,,,,verb.perception,True,78,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+93,0,saw,44,47,8448,8451,160,9.0,43.0,8413.0,8447.0,,,,,verb.perception,True,78,subject,the second princess,2.0,2.0,4.0,female,1.0,tertiary
+94,0,climbed,17,24,8537,8544,120,4.0,16.0,8524.0,8536.0,33.0,54.0,8553.0,8574.0,verb.motion,True,79,subject,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+95,4,wound,92,97,8668,8673,14,0.0,12.0,8576.0,8588.0,,,,,verb.body,True,81,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+97,0,had,3,6,8799,8802,0,0.0,2.0,8796.0,8798.0,,,,,verb.possession,True,80,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+98,1,killed,66,72,8897,8903,133,56.0,65.0,8887.0,8896.0,91.0,105.0,8922.0,8936.0,verb.contact,True,82,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+99,3,went,78,82,9016,9020,133,10.0,12.0,8948.0,8950.0,,,,,verb.motion,True,83,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+100,0,lost,17,21,9047,9051,120,4.0,16.0,9034.0,9046.0,,,,,verb.possession,True,85,subject,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+101,5,rescued,101,108,9162,9169,120,77.0,95.0,9138.0,9156.0,,,,,verb.social,True,84,subject,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+101,5,rescued,101,108,9162,9169,149,77.0,95.0,9138.0,9156.0,,,,,verb.social,True,84,subject,none other,2.0,0.0,2.0,unknown,0.0,tertiary
+103,0,hung,29,33,9298,9302,0,17.0,28.0,9286.0,9297.0,57.0,85.0,9326.0,9354.0,verb.body,True,88,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+106,1,greeted,32,39,9637,9644,0,5.0,16.0,9610.0,9621.0,58.0,66.0,9663.0,9671.0,verb.communication,True,89,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+107,0,saw,44,47,9717,9720,44,9.0,43.0,9682.0,9716.0,,,,,verb.perception,True,90,subject,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+107,0,saw,44,47,9717,9720,116,9.0,43.0,9682.0,9716.0,,,,,verb.perception,True,90,subject,The princess's escort,3.0,0.0,3.0,unknown,0.0,tertiary
+107,0,saw,44,47,9717,9720,8,9.0,43.0,9682.0,9716.0,,,,,verb.perception,True,90,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+107,0,saw,44,47,9717,9720,14,9.0,43.0,9682.0,9716.0,,,,,verb.perception,True,90,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+108,1,hid,26,29,9842,9845,120,0.0,12.0,9816.0,9828.0,,,,,verb.contact,True,91,subject,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+113,2,comb,76,80,10339,10343,189,36.0,53.0,10299.0,10316.0,,,,,verb.contact,True,93,subject,the lovely maiden,2.0,0.0,2.0,female,1.0,tertiary
+114,2,laid,65,69,10419,10423,0,53.0,64.0,10407.0,10418.0,79.0,89.0,10433.0,10443.0,verb.contact,True,94,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+115,0,saw,22,25,10467,10470,14,9.0,21.0,10454.0,10466.0,,,,,verb.perception,True,95,subject,The princess,14.0,23.0,37.0,female,1.0,tertiary
+117,0,had,22,25,10730,10733,139,10.0,21.0,10718.0,10729.0,,,,,verb.possession,True,96,subject,The monster,3.0,0.0,3.0,unknown,0.0,tertiary
+118,0,saw,15,18,10774,10777,132,5.0,14.0,10764.0,10773.0,,,,,verb.perception,True,97,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+119,0,answered,10,18,10904,10912,133,0.0,9.0,10894.0,10903.0,,,,,verb.communication,True,98,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+120,0,said,20,24,10994,10998,132,0.0,19.0,10974.0,10993.0,,,,,verb.communication,True,100,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+122,2,set,31,34,11117,11120,0,0.0,11.0,11086.0,11097.0,44.0,59.0,11130.0,11145.0,verb.contact,True,99,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+124,1,flung,45,50,11315,11320,0,0.0,19.0,11270.0,11289.0,,,,,verb.contact,True,101,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+125,0,uttered,12,19,11428,11435,139,0.0,11.0,11416.0,11427.0,,,,,verb.communication,True,102,subject,The monster,3.0,0.0,3.0,unknown,0.0,tertiary
+126,0,drew,15,19,11538,11542,133,5.0,14.0,11528.0,11537.0,,,,,verb.contact,True,104,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+127,10,rescued,192,199,11859,11866,120,185.0,187.0,11852.0,11854.0,220.0,241.0,11887.0,11908.0,verb.social,True,103,subject,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+129,1,saw,60,63,12042,12045,8,51.0,59.0,12033.0,12041.0,,,,,verb.cognition,True,106,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+131,0,had,9,12,12291,12294,8,0.0,8.0,12282.0,12290.0,,,,,verb.creation,True,105,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+132,0,bestowed,3,11,12397,12405,8,0.0,2.0,12394.0,12396.0,,,,,verb.possession,True,108,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+133,1,seated,80,86,12562,12568,245,46.0,74.0,12528.0,12556.0,,,,,verb.contact,True,107,subject,the king's whole court,1.0,0.0,1.0,unknown,0.0,tertiary
+133,1,seated,80,86,12562,12568,8,46.0,74.0,12528.0,12556.0,,,,,verb.contact,True,107,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+134,1,greeted,52,59,12687,12694,133,0.0,9.0,12635.0,12644.0,,,,,verb.social,True,109,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+135,0,saw,30,33,12735,12738,249,9.0,29.0,12714.0,12734.0,,,,,verb.cognition,True,112,subject,the three princesses,1.0,3.0,4.0,female,1.0,tertiary
+136,5,rescued,107,114,12989,12996,0,86.0,102.0,12968.0,12984.0,121.0,153.0,13003.0,13035.0,verb.social,True,111,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+137,3,wound,104,109,13141,13146,184,87.0,95.0,13124.0,13132.0,,,,,verb.body,True,110,subject,the youngest princess,2.0,4.0,6.0,female,1.0,tertiary
+138,3,said,81,85,13252,13256,0,69.0,80.0,13240.0,13251.0,,,,,verb.communication,True,114,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+139,3,told,58,62,13331,13335,8,33.0,37.0,13306.0,13310.0,,,,,verb.communication,True,113,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+139,3,told,58,62,13331,13335,384,33.0,37.0,13306.0,13310.0,,,,,verb.communication,True,113,subject,the king's daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+140,0,saw,31,34,13429,13432,259,5.0,30.0,13403.0,13428.0,,,,,verb.cognition,True,115,subject,all the rest,1.0,0.0,1.0,unknown,0.0,tertiary
+140,0,saw,31,34,13429,13432,8,5.0,30.0,13403.0,13428.0,,,,,verb.cognition,True,115,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+141,0,received,24,32,13497,13505,261,0.0,23.0,13473.0,13496.0,,,,,verb.possession,True,117,subject,The traitorous courtier,1.0,1.0,2.0,male,1.0,tertiary
+142,1,paid,16,20,13543,13547,0,0.0,11.0,13527.0,13538.0,,,,,verb.possession,True,116,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+143,7,talk,140,144,13771,13775,8,130.0,131.0,13761.0,13762.0,,,,,verb.communication,True,118,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+144,3,rose,51,55,13836,13840,8,0.0,49.0,13785.0,13834.0,,,,,verb.motion,True,119,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+144,3,rose,51,55,13836,13840,265,0.0,49.0,13785.0,13834.0,,,,,verb.motion,True,119,subject,the king's young wife,1.0,0.0,1.0,female,1.0,tertiary
+145,0,reached,8,15,13909,13916,8,5.0,7.0,13906.0,13908.0,,,,,verb.motion,True,120,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+146,4,come,75,79,14051,14055,132,68.0,69.0,14044.0,14045.0,,,,,verb.motion,True,121,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+149,0,set,20,23,14317,14320,0,0.0,11.0,14297.0,14308.0,,,,,verb.contact,True,124,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+151,0,drew,15,19,14413,14417,274,0.0,14.0,14398.0,14412.0,,,,,verb.motion,True,125,subject,The young king,2.0,6.0,8.0,male,1.0,tertiary
+153,4,ran,87,90,14605,14608,132,59.0,61.0,14577.0,14579.0,,,,,verb.motion,True,126,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+156,0,bade,9,13,14891,14895,8,0.0,8.0,14882.0,14890.0,,,,,verb.communication,True,128,subject,the king,36.0,30.0,66.0,male,1.0,secondary
+157,2,said,78,82,15040,15044,132,5.0,14.0,14967.0,14976.0,,,,,verb.communication,True,129,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+159,0,realized,16,24,15252,15260,0,4.0,15.0,15240.0,15251.0,,,,,verb.cognition,True,130,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+161,2,drew,55,59,15364,15368,0,52.0,54.0,15361.0,15363.0,,,,,verb.contact,True,131,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+162,3,lay,97,100,15502,15505,0,56.0,67.0,15461.0,15472.0,114.0,132.0,15519.0,15537.0,verb.contact,True,132,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+164,1,found,61,66,15639,15644,1,17.0,19.0,15595.0,15597.0,70.0,84.0,15648.0,15662.0,verb.cognition,True,133,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+165,0,knew,8,12,15672,15676,1,5.0,7.0,15669.0,15671.0,,,,,verb.cognition,True,135,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+166,1,hung,20,24,15724,15728,1,0.0,2.0,15704.0,15706.0,,,,,verb.contact,True,137,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+168,8,come,140,144,16071,16075,391,122.0,135.0,16053.0,16066.0,150.0,176.0,16081.0,16107.0,verb.motion,True,136,subject,a famous hero,1.0,1.0,2.0,unknown,0.0,tertiary
+169,1,rescued,7,14,16116,16123,391,0.0,2.0,16109.0,16111.0,,,,,verb.contact,True,138,subject,a famous hero,1.0,1.0,2.0,unknown,0.0,tertiary
+170,3,went,61,65,16242,16246,1,0.0,10.0,16181.0,16191.0,,,,,verb.motion,True,139,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+171,1,greeted,45,52,16395,16402,295,41.0,44.0,16391.0,16394.0,57.0,87.0,16407.0,16437.0,verb.social,True,141,subject,,,,,,,
+172,2,tell,63,67,16502,16506,298,52.0,56.0,16491.0,16495.0,72.0,86.0,16511.0,16525.0,verb.cognition,True,140,subject,none,1.0,0.0,1.0,unknown,0.0,tertiary
+173,1,took,50,54,16577,16581,6,41.0,44.0,16568.0,16571.0,,,,,verb.motion,True,142,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+174,1,said,23,27,16626,16630,6,0.0,3.0,16603.0,16606.0,,,,,verb.communication,True,144,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+175,2,awaiting,12,20,16688,16696,6,0.0,1.0,16676.0,16677.0,,,,,verb.perception,True,143,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+176,0,said,11,15,16733,16737,1,0.0,10.0,16722.0,16732.0,,,,,verb.communication,True,145,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+178,1,know,24,28,16854,16858,304,0.0,15.0,16830.0,16845.0,,,,,verb.cognition,True,147,subject,The young woman,1.0,2.0,3.0,female,1.0,tertiary
+179,1,act,20,23,16909,16912,305,0.0,11.0,16889.0,16900.0,32.0,46.0,16921.0,16935.0,verb.body,True,146,subject,The young woman's husband,1.0,0.0,1.0,male,1.0,tertiary
+179,1,act,20,23,16909,16912,304,0.0,11.0,16889.0,16900.0,32.0,46.0,16921.0,16935.0,verb.body,True,146,subject,The young woman,1.0,2.0,3.0,female,1.0,tertiary
+180,0,thought,8,15,16945,16952,304,4.0,7.0,16941.0,16944.0,,,,,verb.cognition,True,148,subject,The young woman,1.0,2.0,3.0,female,1.0,tertiary
+181,6,talk,122,126,17150,17154,133,112.0,113.0,17140.0,17141.0,,,,,verb.communication,True,149,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+182,3,went,65,69,17229,17233,133,0.0,9.0,17164.0,17173.0,,,,,verb.motion,True,150,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+183,0,reached,8,15,17243,17250,1,5.0,7.0,17240.0,17242.0,,,,,verb.motion,True,151,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+184,0,said,3,7,17322,17326,308,0.0,2.0,17319.0,17321.0,,,,,verb.communication,True,152,subject,the same troll who had slain Silverwhite,1.0,2.0,3.0,unknown,0.0,tertiary
+185,1,led,49,52,17449,17452,132,39.0,48.0,17439.0,17448.0,,,,,verb.motion,True,154,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+186,3,brought,83,90,17545,17552,132,43.0,63.0,17505.0,17525.0,,,,,verb.motion,True,153,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+188,0,saw,16,19,17755,17758,1,5.0,15.0,17744.0,17754.0,,,,,verb.cognition,True,156,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+189,0,set,11,14,17911,17914,1,0.0,2.0,17900.0,17902.0,24.0,41.0,17924.0,17941.0,verb.contact,True,157,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+190,0,drew,15,19,18032,18036,133,5.0,14.0,18022.0,18031.0,,,,,verb.contact,True,158,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+191,0,saw,19,22,18109,18112,132,9.0,18.0,18099.0,18108.0,,,,,verb.cognition,True,159,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+192,0,ran,24,27,18206,18209,1,0.0,23.0,18182.0,18205.0,,,,,verb.motion,True,160,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+192,0,ran,24,27,18206,18209,318,0.0,23.0,18182.0,18205.0,,,,,verb.motion,True,160,subject,this Lillwacker's dogs,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+195,0,saw,15,18,18583,18586,1,4.0,14.0,18572.0,18582.0,,,,,verb.cognition,True,163,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+196,8,leave,158,163,18879,18884,1,144.0,147.0,18865.0,18868.0,,,,,verb.change,True,164,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+197,0,answered,14,22,18910,18918,133,4.0,13.0,18900.0,18909.0,,,,,verb.communication,True,165,subject,the youth,17.0,19.0,36.0,male,1.0,tertiary
+198,0,replied,10,17,19006,19013,132,0.0,9.0,18996.0,19005.0,,,,,verb.communication,True,166,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+199,1,anoint,33,39,19070,19076,1,29.0,32.0,19066.0,19069.0,,,,,verb.contact,True,168,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+200,0,moisten,44,51,19170,19177,1,40.0,43.0,19166.0,19169.0,,,,,verb.change,True,167,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+201,0,think,2,7,19290,19295,132,0.0,1.0,19288.0,19289.0,,,,,verb.cognition,True,170,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+202,1,suits,32,37,19410,19415,1,18.0,31.0,19396.0,19409.0,,,,,verb.emotion,True,169,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+203,2,promise,37,44,19479,19486,1,28.0,31.0,19470.0,19473.0,,,,,verb.communication,True,171,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+204,0,agreed,10,16,19546,19552,132,0.0,9.0,19536.0,19545.0,,,,,verb.communication,True,172,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+205,0,took,16,20,19640,19644,1,5.0,15.0,19629.0,19639.0,,,,,verb.contact,True,173,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+207,1,moistened,38,47,19832,19841,1,0.0,10.0,19794.0,19804.0,51.0,84.0,19845.0,19878.0,verb.change,True,174,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+208,2,set,46,49,19926,19929,1,26.0,36.0,19906.0,19916.0,,,,,verb.contact,True,175,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+209,0,stuck,9,14,20013,20018,1,6.0,8.0,20010.0,20012.0,,,,,verb.contact,True,176,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+211,0,saw,19,22,20134,20137,132,9.0,18.0,20124.0,20133.0,,,,,verb.perception,True,177,subject,The troll,32.0,27.0,59.0,male,1.0,secondary
+212,1,sprinkled,43,52,20230,20239,1,0.0,10.0,20187.0,20197.0,57.0,122.0,20244.0,20309.0,verb.contact,True,178,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+213,0,returned,29,37,20396,20404,332,0.0,23.0,20367.0,20390.0,53.0,120.0,20420.0,20487.0,verb.motion,True,179,subject,The two foster - brothers,1.0,1.0,2.0,male,1.0,tertiary
+214,0,told,11,15,20500,20504,1,0.0,10.0,20489.0,20499.0,,,,,verb.communication,True,181,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+215,4,suspected,107,116,20651,20660,6,93.0,96.0,20637.0,20640.0,,,,,verb.cognition,True,180,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+216,6,drew,154,158,20853,20857,1,151.0,153.0,20850.0,20852.0,,,,,verb.motion,True,182,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+217,0,fell,11,15,20921,20925,1,0.0,10.0,20910.0,20920.0,,,,,verb.motion,True,183,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+218,2,lay,56,59,21044,21047,1,4.0,21.0,20992.0,21009.0,72.0,101.0,21060.0,21089.0,verb.contact,True,184,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+218,2,lay,56,59,21044,21047,342,4.0,21.0,20992.0,21009.0,72.0,101.0,21060.0,21089.0,verb.contact,True,184,subject,Lillwacker 's dogs,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+219,1,asked,68,73,21159,21164,6,58.0,67.0,21149.0,21158.0,,,,,verb.communication,True,185,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+220,2,know,43,47,21272,21276,6,22.0,23.0,21251.0,21252.0,,,,,verb.cognition,True,187,subject,the queen,7.0,9.0,16.0,female,1.0,tertiary
+221,2,slain,56,61,21496,21501,348,37.0,48.0,21477.0,21488.0,,,,,verb.contact,True,186,subject,the brother,1.0,0.0,1.0,male,1.0,tertiary
+221,2,slain,56,61,21496,21501,0,37.0,48.0,21477.0,21488.0,,,,,verb.contact,True,186,subject,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+222,0,rose,28,32,21629,21633,3,3.0,19.0,21604.0,21620.0,,,,,verb.motion,True,188,subject,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary
+223,1,anointed,47,55,21732,21740,3,0.0,2.0,21685.0,21687.0,,,,,verb.contact,True,189,subject,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary
+224,1,went,62,66,21824,21828,351,44.0,61.0,21806.0,21823.0,,,,,verb.motion,True,191,subject,the two brother,1.0,3.0,4.0,male,1.0,tertiary
+225,3,rescued,67,74,21925,21932,1,52.0,62.0,21910.0,21920.0,,,,,verb.body,True,190,subject,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+226,0,paid,5,9,22031,22035,351,0.0,4.0,22026.0,22030.0,,,,,verb.possession,True,192,subject,the two brother,1.0,3.0,4.0,male,1.0,tertiary
+227,2,sued,36,40,22119,22123,3,26.0,32.0,22109.0,22115.0,,,,,verb.communication,True,193,subject,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary
+228,2,divided,70,77,22247,22254,3,58.0,69.0,22235.0,22246.0,,,,,verb.social,True,194,subject,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary
+229,3,died,85,89,22389,22393,362,71.0,75.0,22375.0,22379.0,,,,,verb.change,True,195,subject,The two brothers,1.0,2.0,3.0,male,1.0,tertiary
+3,0,cherished,3,12,248,257,8,13.0,16.0,258.0,261.0,,,,,verb.emotion,True,3,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+3,0,cherished,3,12,248,257,10,13.0,16.0,258.0,261.0,,,,,verb.emotion,True,3,direct_object,the little princess,1.0,1.0,2.0,female,1.0,tertiary
+7,2,entrust,44,51,547,554,8,52.0,64.0,555.0,567.0,65.0,89.0,568.0,592.0,verb.cognition,True,5,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+7,2,entrust,44,51,547,554,19,52.0,64.0,555.0,567.0,65.0,89.0,568.0,592.0,verb.cognition,True,5,direct_object,the king's daughter,4.0,0.0,4.0,unknown,0.0,tertiary
+10,5,forbidden,72,81,805,814,24,82.0,173.0,815.0,906.0,,,,,verb.communication,True,7,direct_object,every man,1.0,3.0,4.0,male,1.0,tertiary
+10,5,forbidden,72,81,805,814,19,82.0,173.0,815.0,906.0,,,,,verb.communication,True,7,direct_object,the king's daughter,4.0,0.0,4.0,unknown,0.0,tertiary
+10,5,forbidden,72,81,805,814,27,82.0,173.0,815.0,906.0,,,,,verb.communication,True,7,direct_object,the maid,2.0,1.0,3.0,female,1.0,tertiary
+11,0,thought,13,20,921,928,8,21.0,95.0,929.0,1003.0,,,,,verb.cognition,True,9,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+11,0,thought,13,20,921,928,19,21.0,95.0,929.0,1003.0,,,,,verb.cognition,True,9,direct_object,the king's daughter,4.0,0.0,4.0,unknown,0.0,tertiary
+13,5,talked,123,129,1188,1194,38,130.0,153.0,1195.0,1218.0,,,,,verb.communication,True,10,direct_object,the beautiful maiden,1.0,0.0,1.0,female,1.0,tertiary
+14,3,conceived,55,64,1275,1284,8,65.0,92.0,1285.0,1312.0,,,,,verb.creation,True,11,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+18,0,saw,38,41,1722,1725,52,42.0,91.0,1726.0,1775.0,,,,,verb.perception,True,14,direct_object,The old woman,3.0,4.0,7.0,female,1.0,tertiary
+19,1,asked,23,28,1855,1860,52,29.0,72.0,1861.0,1904.0,,,,,verb.communication,True,15,direct_object,The old woman,3.0,4.0,7.0,female,1.0,tertiary
+24,1,sent,79,83,2305,2309,61,84.0,88.0,2310.0,2314.0,,,,,verb.motion,True,19,direct_object,a child,1.0,0.0,1.0,unknown,0.0,tertiary
+25,1,received,72,80,2401,2409,1,81.0,103.0,2410.0,2432.0,,,,,verb.possession,True,20,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+28,1,see,17,20,2606,2609,67,21.0,43.0,2610.0,2632.0,,,,,verb.cognition,True,22,direct_object,The two boys,1.0,9.0,10.0,male,1.0,tertiary
+31,2,bade,89,93,2897,2901,73,94.0,117.0,2902.0,2925.0,,,,,verb.communication,True,24,direct_object,The two boys's children,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+31,2,bade,89,93,2897,2901,67,94.0,117.0,2902.0,2925.0,,,,,verb.communication,True,24,direct_object,The two boys,1.0,9.0,10.0,male,1.0,tertiary
+32,1,seek,47,51,2974,2978,73,52.0,65.0,2979.0,2992.0,66.0,89.0,2993.0,3016.0,verb.possession,True,27,direct_object,The two boys's children,2.0,2.0,4.0,group/nonbinary,1.0,tertiary
+33,1,gave,31,35,3049,3053,0,36.0,47.0,3054.0,3065.0,,,,,verb.possession,True,26,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+34,0,had,9,12,3091,3094,64,13.0,36.0,3095.0,3118.0,,,,,verb.possession,True,25,direct_object,The king 's daughter's son,2.0,0.0,2.0,male,1.0,tertiary
+34,0,had,9,12,3091,3094,27,13.0,36.0,3095.0,3118.0,,,,,verb.possession,True,25,direct_object,the maid,2.0,1.0,3.0,female,1.0,tertiary
+37,0,met,24,27,3258,3261,85,28.0,64.0,3262.0,3298.0,,,,,verb.motion,True,30,direct_object,a man,1.0,4.0,5.0,male,1.0,tertiary
+40,0,told,9,13,3489,3493,86,14.0,17.0,3494.0,3497.0,,,,,verb.communication,True,32,direct_object,The boys,2.0,10.0,12.0,male,1.0,tertiary
+40,0,told,9,13,3489,3493,85,14.0,17.0,3494.0,3497.0,,,,,verb.communication,True,32,direct_object,a man,1.0,4.0,5.0,male,1.0,tertiary
+41,2,know,41,45,3625,3629,81,46.0,86.0,3630.0,3670.0,,,,,verb.cognition,True,33,direct_object,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+42,2,remember,44,52,3716,3724,364,53.0,64.0,3725.0,3736.0,,,,,verb.cognition,True,34,direct_object,The two foster - brethren's father,1.0,0.0,1.0,male,1.0,tertiary
+42,2,remember,44,52,3716,3724,81,53.0,64.0,3725.0,3736.0,,,,,verb.cognition,True,34,direct_object,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+43,1,promise,13,20,3799,3806,89,21.0,23.0,3807.0,3809.0,,,,,verb.communication,True,35,direct_object,The man,2.0,6.0,8.0,male,1.0,tertiary
+43,1,promise,13,20,3799,3806,81,21.0,23.0,3807.0,3809.0,,,,,verb.communication,True,35,direct_object,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+44,0,take,5,9,3866,3870,81,10.0,14.0,3871.0,3875.0,24.0,39.0,,,verb.contact,True,36,direct_object,The two foster - brethren,1.0,15.0,16.0,male,1.0,tertiary
+45,1,promised,49,57,3952,3960,89,58.0,83.0,3961.0,3986.0,,,,,verb.communication,True,37,direct_object,The man,2.0,6.0,8.0,male,1.0,tertiary
+45,1,promised,49,57,3952,3960,86,58.0,83.0,3961.0,3986.0,,,,,verb.communication,True,37,direct_object,The boys,2.0,10.0,12.0,male,1.0,tertiary
+46,2,went,32,36,4020,4024,86,37.0,46.0,4025.0,4034.0,,,,,verb.motion,True,38,direct_object,The boys,2.0,10.0,12.0,male,1.0,tertiary
+48,4,try,75,78,4175,4178,86,79.0,87.0,4179.0,4187.0,88.0,94.0,4188.0,4194.0,verb.social,True,40,direct_object,The boys,2.0,10.0,12.0,male,1.0,tertiary
+49,3,know,59,63,4272,4276,0,64.0,114.0,4277.0,4327.0,,,,,verb.cognition,True,41,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+50,7,know,124,128,4454,4458,0,129.0,144.0,4459.0,4474.0,,,,,verb.cognition,True,42,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+52,1,said,56,60,4590,4594,94,61.0,69.0,4595.0,4603.0,,,,,verb.communication,True,43,direct_object,Silverwhite's brother,8.0,2.0,10.0,male,1.0,tertiary
+52,1,said,56,60,4590,4594,0,61.0,69.0,4595.0,4603.0,,,,,verb.communication,True,43,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+58,1,promise,10,17,5284,5291,370,18.0,69.0,5292.0,5343.0,,,,,verb.communication,True,48,direct_object,their three daughters,1.0,0.0,1.0,unknown,0.0,tertiary
+61,0,hung,29,33,5558,5562,0,34.0,43.0,5563.0,5572.0,57.0,79.0,5586.0,5608.0,verb.body,True,51,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+62,1,saw,31,34,5683,5686,44,35.0,74.0,5687.0,5726.0,,,,,verb.creation,True,53,direct_object,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+62,1,saw,31,34,5683,5686,8,35.0,74.0,5687.0,5726.0,,,,,verb.creation,True,53,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+63,3,rescue,46,52,5774,5780,44,53.0,56.0,5781.0,5784.0,,,,,verb.social,True,52,direct_object,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+66,0,saw,40,43,5935,5938,117,44.0,62.0,5939.0,5957.0,,,,,verb.perception,True,55,direct_object,the fearless youth,1.0,2.0,3.0,male,1.0,tertiary
+68,5,fear,86,90,6187,6191,0,91.0,93.0,6192.0,6194.0,,,,,verb.emotion,True,56,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+69,0,answered,20,28,6244,6252,8,31.0,79.0,6255.0,6303.0,,,,,verb.communication,True,57,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+69,0,answered,20,28,6244,6252,374,31.0,79.0,6255.0,6303.0,,,,,verb.communication,True,57,direct_object,the king's troll who is coming to carry me away,2.0,0.0,2.0,unknown,0.0,tertiary
+69,0,answered,20,28,6244,6252,0,31.0,79.0,6255.0,6303.0,,,,,verb.communication,True,57,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+70,3,rescue,40,46,6346,6352,373,47.0,50.0,6353.0,6356.0,,,,,verb.social,True,58,direct_object,Lovely maiden,2.0,4.0,6.0,female,1.0,tertiary
+71,1,think,30,35,6389,6394,14,36.0,82.0,6395.0,6441.0,,,,,verb.cognition,True,59,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+71,1,think,30,35,6389,6394,125,36.0,82.0,6395.0,6441.0,,,,,verb.cognition,True,59,direct_object,such a brave hero,2.0,0.0,2.0,unknown,0.0,tertiary
+72,1,comb,59,63,6538,6542,0,64.0,72.0,6543.0,6551.0,,,,,verb.contact,True,60,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+73,1,laid,47,51,6600,6604,0,52.0,60.0,6605.0,6613.0,61.0,71.0,6614.0,6624.0,verb.contact,True,61,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+74,1,drew,28,32,6654,6658,14,33.0,46.0,6659.0,6672.0,,,,,verb.contact,True,62,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+77,0,replied,10,17,6943,6950,375,19.0,69.0,6952.0,7002.0,,,,,verb.communication,True,65,direct_object,The troll's princess,4.0,1.0,5.0,female,1.0,tertiary
+77,0,replied,10,17,6943,6950,133,19.0,69.0,6952.0,7002.0,,,,,verb.communication,True,65,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+77,0,replied,10,17,6943,6950,0,19.0,69.0,6952.0,7002.0,,,,,verb.communication,True,65,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+77,0,replied,10,17,6943,6950,14,19.0,69.0,6952.0,7002.0,,,,,verb.communication,True,65,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+80,1,set,35,38,7139,7142,132,39.0,47.0,7143.0,7151.0,,,,,verb.contact,True,67,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+80,1,set,35,38,7139,7142,0,39.0,47.0,7143.0,7151.0,,,,,verb.contact,True,67,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+82,0,got,29,32,7236,7239,371,33.0,90.0,7240.0,7297.0,,,,,verb.body,True,68,direct_object,the sea - troll,9.0,1.0,10.0,male,1.0,tertiary
+83,0,drew,17,21,7316,7320,0,22.0,31.0,7321.0,7330.0,32.0,50.0,7331.0,7349.0,verb.competition,True,69,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+84,1,flung,35,40,7493,7498,132,41.0,48.0,7499.0,7506.0,49.0,111.0,7507.0,7569.0,verb.contact,True,70,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+85,3,put,84,87,7655,7658,0,88.0,92.0,7659.0,7663.0,,,,,verb.contact,True,71,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+86,0,saluted,8,15,7687,7694,144,16.0,35.0,7695.0,7714.0,,,,,verb.body,True,73,direct_object,the lovely princess,1.0,0.0,1.0,female,1.0,tertiary
+87,9,rescued,207,214,7937,7944,14,215.0,218.0,7945.0,7948.0,,,,,verb.social,True,72,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+88,3,feared,51,57,8001,8007,44,58.0,70.0,8008.0,8020.0,,,,,verb.emotion,True,74,direct_object,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+89,0,returned,7,15,8029,8037,44,16.0,38.0,8038.0,8060.0,39.0,56.0,8061.0,8078.0,verb.motion,True,76,direct_object,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+89,0,returned,7,15,8029,8037,15,16.0,38.0,8038.0,8060.0,39.0,56.0,8061.0,8078.0,verb.motion,True,76,direct_object,The princess's father,3.0,0.0,3.0,male,1.0,tertiary
+90,4,rescued,91,98,8220,8227,132,99.0,113.0,8228.0,8242.0,,,,,verb.body,True,75,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+93,0,saw,44,47,8448,8451,0,48.0,51.0,8452.0,8455.0,,,,,verb.perception,True,78,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+95,4,wound,92,97,8668,8673,0,98.0,111.0,8674.0,8687.0,,,,,verb.body,True,81,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+95,4,wound,92,97,8668,8673,14,98.0,111.0,8674.0,8687.0,,,,,verb.body,True,81,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+98,1,killed,66,72,8897,8903,132,73.0,90.0,8904.0,8921.0,91.0,105.0,8922.0,8936.0,verb.contact,True,82,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+98,1,killed,66,72,8897,8903,133,73.0,90.0,8904.0,8921.0,91.0,105.0,8922.0,8936.0,verb.contact,True,82,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+99,3,went,78,82,9016,9020,133,83.0,90.0,9021.0,9028.0,,,,,verb.motion,True,83,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+101,5,rescued,101,108,9162,9169,14,109.0,112.0,9170.0,9173.0,,,,,verb.social,True,84,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+102,0,returned,10,18,9185,9193,120,19.0,92.0,9194.0,9267.0,,,,,verb.motion,True,86,direct_object,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+102,0,returned,10,18,9185,9193,181,19.0,92.0,9194.0,9267.0,,,,,verb.motion,True,86,direct_object,heroes,1.0,0.0,1.0,unknown,0.0,tertiary
+103,0,hung,29,33,9298,9302,0,34.0,43.0,9303.0,9312.0,57.0,85.0,9326.0,9354.0,verb.body,True,88,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+104,6,rescued,136,143,9534,9541,187,144.0,155.0,9542.0,9553.0,,,,,verb.social,True,87,direct_object,the youngest princess's sisters,3.0,0.0,3.0,female,1.0,tertiary
+104,6,rescued,136,143,9534,9541,184,144.0,155.0,9542.0,9553.0,,,,,verb.social,True,87,direct_object,the youngest princess,2.0,4.0,6.0,female,1.0,tertiary
+106,1,greeted,32,39,9637,9644,189,40.0,57.0,9645.0,9662.0,58.0,66.0,9663.0,9671.0,verb.communication,True,89,direct_object,the lovely maiden,2.0,0.0,2.0,female,1.0,tertiary
+107,0,saw,44,47,9717,9720,193,48.0,66.0,9721.0,9739.0,,,,,verb.perception,True,90,direct_object,the handsome youth,1.0,1.0,2.0,male,1.0,tertiary
+109,3,fear,78,82,9966,9970,0,83.0,85.0,9971.0,9973.0,,,,,verb.emotion,True,92,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+113,2,comb,76,80,10339,10343,0,81.0,89.0,10344.0,10352.0,,,,,verb.contact,True,93,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+114,2,laid,65,69,10419,10423,0,70.0,78.0,10424.0,10432.0,79.0,89.0,10433.0,10443.0,verb.contact,True,94,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+115,0,saw,22,25,10467,10470,187,26.0,75.0,10471.0,10520.0,,,,,verb.perception,True,95,direct_object,the youngest princess's sisters,3.0,0.0,3.0,female,1.0,tertiary
+115,0,saw,22,25,10467,10470,0,26.0,75.0,10471.0,10520.0,,,,,verb.perception,True,95,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+115,0,saw,22,25,10467,10470,14,26.0,75.0,10471.0,10520.0,,,,,verb.perception,True,95,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+118,0,saw,15,18,10774,10777,44,19.0,63.0,10778.0,10822.0,,,,,verb.perception,True,97,direct_object,The king 's daughter,15.0,13.0,28.0,male,1.0,tertiary
+118,0,saw,15,18,10774,10777,8,19.0,63.0,10778.0,10822.0,,,,,verb.perception,True,97,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+118,0,saw,15,18,10774,10777,0,19.0,63.0,10778.0,10822.0,,,,,verb.perception,True,97,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+119,0,answered,10,18,10904,10912,375,21.0,77.0,10915.0,10971.0,,,,,verb.communication,True,98,direct_object,The troll's princess,4.0,1.0,5.0,female,1.0,tertiary
+119,0,answered,10,18,10904,10912,133,21.0,77.0,10915.0,10971.0,,,,,verb.communication,True,98,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+119,0,answered,10,18,10904,10912,0,21.0,77.0,10915.0,10971.0,,,,,verb.communication,True,98,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+122,2,set,31,34,11117,11120,0,35.0,43.0,11121.0,11129.0,44.0,59.0,11130.0,11145.0,verb.contact,True,99,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+124,1,flung,45,50,11315,11320,371,51.0,58.0,11321.0,11328.0,,,,,verb.contact,True,101,direct_object,the sea - troll,9.0,1.0,10.0,male,1.0,tertiary
+124,1,flung,45,50,11315,11320,0,51.0,58.0,11321.0,11328.0,,,,,verb.contact,True,101,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+126,0,drew,15,19,11538,11542,133,20.0,30.0,11543.0,11553.0,,,,,verb.contact,True,104,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+127,10,rescued,192,199,11859,11866,132,200.0,203.0,11867.0,11870.0,220.0,241.0,11887.0,11908.0,verb.social,True,103,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+127,10,rescued,192,199,11859,11866,14,200.0,203.0,11867.0,11870.0,220.0,241.0,11887.0,11908.0,verb.social,True,103,direct_object,The princess,14.0,23.0,37.0,female,1.0,tertiary
+132,0,bestowed,3,11,12397,12405,242,12.0,86.0,12406.0,12480.0,,,,,verb.possession,True,108,direct_object,the king's youngest daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+132,0,bestowed,3,11,12397,12405,8,12.0,86.0,12406.0,12480.0,,,,,verb.possession,True,108,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+132,0,bestowed,3,11,12397,12405,120,12.0,86.0,12406.0,12480.0,,,,,verb.possession,True,108,direct_object,the courtier,11.0,11.0,22.0,male,1.0,tertiary
+134,1,greeted,52,59,12687,12694,8,60.0,68.0,12695.0,12703.0,,,,,verb.social,True,109,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+136,5,rescued,107,114,12989,12996,249,115.0,119.0,12997.0,13001.0,121.0,153.0,13003.0,13035.0,verb.social,True,111,direct_object,the three princesses,1.0,3.0,4.0,female,1.0,tertiary
+138,3,said,81,85,13252,13256,383,88.0,100.0,13259.0,13271.0,,,,,verb.communication,True,114,direct_object,Silverwhite's lord king,2.0,0.0,2.0,male,1.0,tertiary
+138,3,said,81,85,13252,13256,0,88.0,100.0,13259.0,13271.0,,,,,verb.communication,True,114,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+139,3,told,58,62,13331,13335,8,63.0,66.0,13336.0,13339.0,,,,,verb.communication,True,113,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+140,0,saw,31,34,13429,13432,260,35.0,73.0,13433.0,13471.0,,,,,verb.cognition,True,115,direct_object,the princesses,1.0,0.0,1.0,female,1.0,tertiary
+141,0,received,24,32,13497,13505,261,33.0,52.0,13506.0,13525.0,,,,,verb.possession,True,117,direct_object,The traitorous courtier,1.0,1.0,2.0,male,1.0,tertiary
+143,7,talk,140,144,13771,13775,0,145.0,151.0,13776.0,13782.0,,,,,verb.communication,True,118,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+147,0,suited,14,20,14152,14158,133,21.0,30.0,14159.0,14168.0,,,,,verb.emotion,True,122,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+148,1,lay,39,42,14252,14255,132,43.0,82.0,14256.0,14295.0,,,,,verb.contact,True,123,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+149,0,set,20,23,14317,14320,0,24.0,32.0,14321.0,14329.0,,,,,verb.contact,True,124,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+151,0,drew,15,19,14413,14417,274,20.0,29.0,14418.0,14427.0,,,,,verb.motion,True,125,direct_object,The young king,2.0,6.0,8.0,male,1.0,tertiary
+155,4,bid,106,109,14836,14839,0,110.0,119.0,14840.0,14849.0,,,,,verb.communication,True,127,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+156,0,bade,9,13,14891,14895,8,14.0,22.0,14896.0,14904.0,,,,,verb.communication,True,128,direct_object,the king,36.0,30.0,66.0,male,1.0,secondary
+159,0,realized,16,24,15252,15260,0,25.0,50.0,15261.0,15286.0,,,,,verb.cognition,True,130,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+161,2,drew,55,59,15364,15368,0,60.0,69.0,15369.0,15378.0,,,,,verb.contact,True,131,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+163,1,tell,16,20,15555,15559,1,21.0,37.0,15560.0,15576.0,,,,,verb.communication,True,134,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+165,0,knew,8,12,15672,15676,0,13.0,38.0,15677.0,15702.0,,,,,verb.cognition,True,135,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+166,1,hung,20,24,15724,15728,1,25.0,34.0,15729.0,15738.0,,,,,verb.contact,True,137,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+169,1,rescued,7,14,16116,16123,292,15.0,35.0,16124.0,16144.0,,,,,verb.contact,True,138,direct_object,everybody,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+169,1,rescued,7,14,16116,16123,392,15.0,35.0,16124.0,16144.0,,,,,verb.contact,True,138,direct_object,everybody's three princesses,1.0,0.0,1.0,female,1.0,tertiary
+171,1,greeted,45,52,16395,16402,1,53.0,56.0,16403.0,16406.0,57.0,87.0,16407.0,16437.0,verb.social,True,141,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+173,1,took,50,54,16577,16581,133,55.0,58.0,16582.0,16585.0,,,,,verb.motion,True,142,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+173,1,took,50,54,16577,16581,0,55.0,58.0,16582.0,16585.0,,,,,verb.motion,True,142,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+174,1,said,23,27,16626,16630,1,29.0,30.0,16632.0,16633.0,,,,,verb.communication,True,144,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+174,1,said,23,27,16626,16630,383,29.0,30.0,16632.0,16633.0,,,,,verb.communication,True,144,direct_object,Silverwhite's lord king,2.0,0.0,2.0,male,1.0,tertiary
+174,1,said,23,27,16626,16630,6,29.0,30.0,16632.0,16633.0,,,,,verb.communication,True,144,direct_object,the queen,7.0,9.0,16.0,female,1.0,tertiary
+175,2,awaiting,12,20,16688,16696,1,21.0,24.0,16697.0,16700.0,,,,,verb.perception,True,143,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+178,1,know,24,28,16854,16858,1,29.0,57.0,16859.0,16887.0,,,,,verb.cognition,True,147,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+180,0,thought,8,15,16945,16952,397,18.0,70.0,16955.0,17007.0,,,,,verb.cognition,True,148,direct_object,others,1.0,0.0,1.0,unknown,0.0,tertiary
+180,0,thought,8,15,16945,16952,69,18.0,70.0,16955.0,17007.0,,,,,verb.cognition,True,148,direct_object,,,,,,,
+181,6,talk,122,126,17150,17154,1,127.0,133.0,17155.0,17161.0,,,,,verb.communication,True,149,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+184,0,said,3,7,17322,17326,1,9.0,78.0,17328.0,17397.0,,,,,verb.communication,True,152,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+184,0,said,3,7,17322,17326,308,9.0,78.0,17328.0,17397.0,,,,,verb.communication,True,152,direct_object,the same troll who had slain Silverwhite,1.0,2.0,3.0,unknown,0.0,tertiary
+184,0,said,3,7,17322,17326,398,9.0,78.0,17328.0,17397.0,,,,,verb.communication,True,152,direct_object,this Lillwacker's foster - brother,1.0,0.0,1.0,male,1.0,tertiary
+187,2,lay,46,49,17609,17612,0,50.0,61.0,17613.0,17624.0,,,,,verb.contact,True,155,direct_object,Silverwhite,50.0,82.0,132.0,male,1.0,primary
+189,0,set,11,14,17911,17914,1,15.0,23.0,17915.0,17923.0,24.0,41.0,17924.0,17941.0,verb.contact,True,157,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+190,0,drew,15,19,18032,18036,133,20.0,29.0,18037.0,18046.0,,,,,verb.contact,True,158,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+191,0,saw,19,22,18109,18112,132,23.0,58.0,18113.0,18148.0,,,,,verb.cognition,True,159,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+193,4,bid,118,121,18366,18369,1,122.0,131.0,18370.0,18379.0,,,,,verb.communication,True,161,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+194,2,lay,76,79,18488,18491,1,80.0,98.0,18492.0,18510.0,,,,,verb.contact,True,162,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+196,8,leave,158,163,18879,18884,132,164.0,166.0,18885.0,18887.0,,,,,verb.change,True,164,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+197,0,answered,14,22,18910,18918,132,25.0,97.0,18921.0,18993.0,,,,,verb.communication,True,165,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+197,0,answered,14,22,18910,18918,133,25.0,97.0,18921.0,18993.0,,,,,verb.communication,True,165,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+197,0,answered,14,22,18910,18918,402,25.0,97.0,18921.0,18993.0,,,,,verb.communication,True,165,direct_object,the youth's brother,2.0,0.0,2.0,male,1.0,tertiary
+199,1,anoint,33,39,19070,19076,403,40.0,58.0,19077.0,19095.0,,,,,verb.contact,True,168,direct_object,a dead man,1.0,2.0,3.0,male,1.0,tertiary
+202,1,suits,32,37,19410,19415,1,38.0,40.0,19416.0,19418.0,,,,,verb.emotion,True,169,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+208,2,set,46,49,19926,19929,1,50.0,69.0,19930.0,19949.0,,,,,verb.contact,True,175,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+211,0,saw,19,22,20134,20137,132,23.0,39.0,20138.0,20154.0,,,,,verb.perception,True,177,direct_object,The troll,32.0,27.0,59.0,male,1.0,secondary
+212,1,sprinkled,43,52,20230,20239,94,53.0,56.0,20240.0,20243.0,57.0,122.0,20244.0,20309.0,verb.contact,True,178,direct_object,Silverwhite's brother,8.0,2.0,10.0,male,1.0,tertiary
+214,0,told,11,15,20500,20504,1,16.0,53.0,20505.0,20542.0,,,,,verb.communication,True,181,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+214,0,told,11,15,20500,20504,94,16.0,53.0,20505.0,20542.0,,,,,verb.communication,True,181,direct_object,Silverwhite's brother,8.0,2.0,10.0,male,1.0,tertiary
+215,4,suspected,107,116,20651,20660,1,117.0,153.0,20661.0,20697.0,,,,,verb.cognition,True,180,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+215,4,suspected,107,116,20651,20660,337,117.0,153.0,20661.0,20697.0,,,,,verb.cognition,True,180,direct_object,the queen's rightful husband,1.0,0.0,1.0,male,1.0,tertiary
+215,4,suspected,107,116,20651,20660,6,117.0,153.0,20661.0,20697.0,,,,,verb.cognition,True,180,direct_object,the queen,7.0,9.0,16.0,female,1.0,tertiary
+216,6,drew,154,158,20853,20857,1,159.0,168.0,20858.0,20867.0,,,,,verb.motion,True,182,direct_object,this Lillwacker,28.0,70.0,98.0,male,1.0,primary
+218,2,lay,56,59,21044,21047,343,60.0,70.0,21048.0,21058.0,72.0,101.0,21060.0,21089.0,verb.contact,True,184,direct_object,Lillwacker 's dogs's master,1.0,2.0,3.0,male,1.0,tertiary
+219,1,asked,68,73,21159,21164,274,74.0,77.0,21165.0,21168.0,,,,,verb.communication,True,185,direct_object,The young king,2.0,6.0,8.0,male,1.0,tertiary
+220,2,know,43,47,21272,21276,274,48.0,94.0,21277.0,21323.0,,,,,verb.cognition,True,187,direct_object,The young king,2.0,6.0,8.0,male,1.0,tertiary
+223,1,anointed,47,55,21732,21740,94,56.0,75.0,21741.0,21760.0,,,,,verb.contact,True,189,direct_object,Silverwhite's brother,8.0,2.0,10.0,male,1.0,tertiary
+223,1,anointed,47,55,21732,21740,3,56.0,75.0,21741.0,21760.0,,,,,verb.contact,True,189,direct_object,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary
+225,3,rescued,67,74,21925,21932,3,75.0,78.0,21933.0,21936.0,,,,,verb.body,True,190,direct_object,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary
+226,0,paid,5,9,22031,22035,133,10.0,19.0,22036.0,22045.0,,,,,verb.possession,True,192,direct_object,the youth,17.0,19.0,36.0,male,1.0,tertiary
+227,2,sued,36,40,22119,22123,160,41.0,76.0,22124.0,22159.0,,,,,verb.communication,True,193,direct_object,the second princess,2.0,2.0,4.0,female,1.0,tertiary
+228,2,divided,70,77,22247,22254,297,78.0,101.0,22255.0,22278.0,,,,,verb.social,True,194,direct_object,this Lillwacker's foster - brother,2.0,0.0,2.0,male,1.0,tertiary
+228,2,divided,70,77,22247,22254,3,78.0,101.0,22255.0,22278.0,,,,,verb.social,True,194,direct_object,Silverwhite,3.0,10.0,13.0,male,1.0,tertiary

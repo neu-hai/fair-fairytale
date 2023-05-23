@@ -1,0 +1,639 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,2,seen,32.0,36.0,211.0,215.0,15,15.0,22.0,194.0,201.0,,,,,verb.perception,3,subject,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+2,2,worked,53.0,59.0,343.0,349.0,18,36.0,40.0,326.0,330.0,,,,,verb.social,2,subject,others,4.0,0.0,4.0,unknown,0.0,tertiary
+3,4,left,57.0,61.0,412.0,416.0,4,49.0,52.0,404.0,407.0,,,,,verb.change,5,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,5,rest,87.0,91.0,442.0,446.0,4,62.0,69.0,417.0,424.0,,,,,verb.body,4,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,7,grew,138.0,142.0,493.0,497.0,4,134.0,137.0,489.0,492.0,,,,,verb.change,6,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,8,love,146.0,150.0,501.0,505.0,4,134.0,137.0,489.0,492.0,157.0,173.0,512.0,528.0,verb.emotion,7,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,9,gave,184.0,188.0,539.0,543.0,4,134.0,137.0,489.0,492.0,,,,,verb.possession,9,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,10,needed,246.0,252.0,601.0,607.0,15,209.0,229.0,564.0,584.0,,,,,verb.consumption,8,subject,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+4,0,hated,38.0,43.0,647.0,652.0,4,23.0,26.0,632.0,635.0,,,,,verb.emotion,10,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+4,1,declared,54.0,62.0,663.0,671.0,4,23.0,26.0,632.0,635.0,,,,,verb.communication,12,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+4,2,had,88.0,91.0,697.0,700.0,20,68.0,87.0,677.0,696.0,104.0,116.0,713.0,725.0,verb.possession,11,subject,such lazy creatures,1.0,0.0,1.0,unknown,0.0,tertiary
+5,4,found,99.0,104.0,826.0,831.0,4,95.0,98.0,822.0,825.0,,,,,verb.perception,14,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+6,1,pulled,34.0,40.0,988.0,994.0,4,30.0,33.0,984.0,987.0,59.0,259.0,1013.0,1213.0,verb.contact,16,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+6,2,exclaiming,59.0,69.0,1013.0,1023.0,4,30.0,33.0,984.0,987.0,,,,,verb.communication,18,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+6,4,waste,102.0,107.0,1056.0,1061.0,14,76.0,79.0,1030.0,1033.0,154.0,259.0,1108.0,1213.0,verb.consumption,17,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+6,11,let,251.0,254.0,1205.0,1208.0,14,241.0,244.0,1195.0,1198.0,,,,,verb.social,21,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+7,1,know,33.0,37.0,1249.0,1253.0,14,29.0,32.0,1245.0,1248.0,,,,,verb.cognition,20,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+7,6,take,139.0,143.0,1355.0,1359.0,6,120.0,122.0,1336.0,1338.0,151.0,162.0,1367.0,1378.0,verb.social,23,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+8,2,save,42.0,46.0,1423.0,1427.0,6,28.0,30.0,1409.0,1411.0,65.0,85.0,1446.0,1466.0,verb.possession,25,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+9,1,see,15.0,18.0,1483.0,1486.0,4,0.0,1.0,1468.0,1469.0,23.0,101.0,1491.0,1569.0,verb.perception,27,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+11,2,let,64.0,67.0,1693.0,1696.0,5,19.0,50.0,1648.0,1679.0,,,,,verb.social,28,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+11,2,let,64.0,67.0,1693.0,1696.0,27,19.0,50.0,1648.0,1679.0,,,,,verb.social,28,subject,Tephany's aunt,5.0,4.0,9.0,female,1.0,tertiary
+14,2,despise,53.0,60.0,1828.0,1835.0,14,21.0,24.0,1796.0,1799.0,,,,,verb.emotion,29,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+15,1,learn,20.0,25.0,1863.0,1868.0,14,11.0,15.0,1854.0,1858.0,,,,,verb.cognition,31,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+15,2,forbid,40.0,46.0,1883.0,1889.0,4,38.0,39.0,1881.0,1882.0,,,,,verb.communication,32,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+15,3,speak,54.0,59.0,1897.0,1902.0,14,47.0,50.0,1890.0,1893.0,,,,,verb.communication,33,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+15,5,have,79.0,83.0,1922.0,1926.0,4,72.0,73.0,1915.0,1916.0,111.0,150.0,1954.0,1993.0,verb.change,35,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+15,8,show,126.0,130.0,1969.0,1973.0,6,114.0,116.0,1957.0,1959.0,140.0,150.0,1983.0,1993.0,verb.perception,34,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+17,2,disobey,24.0,31.0,2076.0,2083.0,5,0.0,7.0,2052.0,2059.0,,,,,verb.communication,36,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+17,3,went,56.0,60.0,2108.0,2112.0,5,0.0,7.0,2052.0,2059.0,,,,,verb.motion,37,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+18,1,said,34.0,38.0,2175.0,2179.0,27,1.0,31.0,2142.0,2172.0,,,,,verb.communication,38,subject,Tephany's aunt,5.0,4.0,9.0,female,1.0,tertiary
+19,3,cry,69.0,72.0,2301.0,2304.0,14,59.0,62.0,2291.0,2294.0,,,,,verb.communication,39,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+19,5,care,103.0,107.0,2335.0,2339.0,27,87.0,90.0,2319.0,2322.0,,,,,verb.emotion,42,subject,Tephany's aunt,5.0,4.0,9.0,female,1.0,tertiary
+20,2,have,40.0,44.0,2381.0,2385.0,29,20.0,37.0,2361.0,2378.0,,,,,verb.possession,40,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+20,4,see,65.0,68.0,2406.0,2409.0,29,53.0,54.0,2394.0,2395.0,,,,,verb.perception,43,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+20,6,enter,87.0,92.0,2428.0,2433.0,29,73.0,74.0,2414.0,2415.0,,,,,verb.motion,44,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+21,1,reached,28.0,35.0,2474.0,2481.0,29,24.0,27.0,2470.0,2473.0,,,,,verb.motion,46,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+21,3,unfold,59.0,65.0,2505.0,2511.0,29,24.0,27.0,2470.0,2473.0,,,,,verb.contact,47,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+22,1,look,28.0,32.0,2589.0,2593.0,29,24.0,27.0,2585.0,2588.0,,,,,verb.perception,50,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+22,3,saw,65.0,68.0,2626.0,2629.0,29,61.0,64.0,2622.0,2625.0,,,,,verb.perception,51,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+23,1,like,11.0,15.0,2692.0,2696.0,31,1.0,4.0,2682.0,2685.0,,,,,verb.emotion,52,subject,a little old woman,1.0,1.0,2.0,female,1.0,tertiary
+23,3,rest,32.0,36.0,2713.0,2717.0,31,1.0,4.0,2682.0,2685.0,,,,,verb.body,53,subject,a little old woman,1.0,1.0,2.0,female,1.0,tertiary
+25,1,have,34.0,38.0,2803.0,2807.0,29,17.0,29.0,2786.0,2798.0,,,,,verb.possession,54,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+25,2,rest,44.0,48.0,2813.0,2817.0,29,40.0,43.0,2809.0,2812.0,,,,,verb.body,57,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+25,4,replied,66.0,73.0,2835.0,2842.0,29,1.0,63.0,2770.0,2832.0,88.0,106.0,2857.0,2875.0,verb.communication,56,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+29,0,shook,14.0,19.0,3013.0,3018.0,32,0.0,13.0,2999.0,3012.0,,,,,verb.communication,61,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+30,0,died,10.0,14.0,3039.0,3043.0,145,1.0,5.0,3030.0,3034.0,,,,,verb.change,60,subject,The old woman's friends who would welcome you into their houses,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+30,1,answered,36.0,44.0,3065.0,3073.0,32,32.0,35.0,3061.0,3064.0,,,,,verb.communication,63,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+30,2,have,70.0,74.0,3099.0,3103.0,32,51.0,67.0,3080.0,3096.0,,,,,verb.possession,62,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+31,1,speak,17.0,22.0,3154.0,3159.0,29,0.0,8.0,3137.0,3145.0,,,,,verb.communication,65,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+32,1,said,17.0,21.0,3260.0,3264.0,29,1.0,10.0,3244.0,3253.0,,,,,verb.communication,66,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+33,2,dine,31.0,35.0,3296.0,3300.0,29,21.0,24.0,3286.0,3289.0,,,,,verb.consumption,68,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+33,3,took,61.0,65.0,3326.0,3330.0,32,47.0,60.0,3312.0,3325.0,70.0,97.0,3335.0,3362.0,verb.contact,67,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+33,4,gazing,70.0,76.0,3335.0,3341.0,32,47.0,60.0,3312.0,3325.0,88.0,97.0,3353.0,3362.0,verb.perception,70,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+34,3,helped,37.0,43.0,3401.0,3407.0,18,1.0,22.0,3365.0,3386.0,,,,,verb.social,71,subject,others,4.0,0.0,4.0,unknown,0.0,tertiary
+34,3,helped,37.0,43.0,3401.0,3407.0,149,1.0,22.0,3365.0,3386.0,,,,,verb.social,71,subject,Those who help others,1.0,0.0,1.0,unknown,0.0,tertiary
+34,4,answered,50.0,58.0,3414.0,3422.0,32,1.0,43.0,3365.0,3407.0,,,,,verb.communication,73,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+34,4,answered,50.0,58.0,3414.0,3422.0,18,1.0,43.0,3365.0,3407.0,,,,,verb.communication,73,subject,others,4.0,0.0,4.0,unknown,0.0,tertiary
+34,4,answered,50.0,58.0,3414.0,3422.0,149,1.0,43.0,3365.0,3407.0,,,,,verb.communication,73,subject,Those who help others,1.0,0.0,1.0,unknown,0.0,tertiary
+36,3,give,46.0,50.0,3579.0,3583.0,32,39.0,40.0,3572.0,3573.0,,,,,verb.possession,74,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+36,6,see,89.0,92.0,3622.0,3625.0,29,82.0,85.0,3615.0,3618.0,97.0,111.0,3630.0,3644.0,verb.social,76,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+38,3,knew,56.0,60.0,3710.0,3714.0,36,45.0,55.0,3699.0,3709.0,,,,,verb.cognition,78,subject,the beggar,1.0,0.0,1.0,unknown,0.0,tertiary
+38,5,hear,110.0,114.0,3764.0,3768.0,32,88.0,101.0,3742.0,3755.0,,,,,verb.perception,80,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+39,2,stick,62.0,67.0,3836.0,3841.0,29,58.0,61.0,3832.0,3835.0,,,,,verb.contact,82,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+40,6,put,102.0,105.0,4050.0,4053.0,29,93.0,96.0,4041.0,4044.0,121.0,126.0,4069.0,4074.0,verb.contact,85,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+41,1,nodded,18.0,24.0,4095.0,4101.0,32,14.0,17.0,4091.0,4094.0,,,,,verb.communication,86,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+41,2,vanished,40.0,48.0,4117.0,4125.0,32,14.0,17.0,4091.0,4094.0,,,,,verb.motion,87,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+42,0,stood,9.0,14.0,4136.0,4141.0,29,0.0,8.0,4127.0,4135.0,,,,,verb.contact,88,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+43,4,thought,59.0,66.0,4237.0,4244.0,29,44.0,47.0,4222.0,4225.0,,,,,verb.cognition,90,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+43,6,dreaming,75.0,83.0,4253.0,4261.0,29,67.0,70.0,4245.0,4248.0,,,,,verb.creation,89,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+44,0,knew,22.0,26.0,4285.0,4289.0,29,18.0,21.0,4281.0,4284.0,,,,,verb.cognition,92,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+45,0,fell,29.0,33.0,4439.0,4443.0,5,14.0,28.0,4424.0,4438.0,,,,,verb.motion,93,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+45,2,began,83.0,88.0,4493.0,4498.0,29,79.0,82.0,4489.0,4492.0,,,,,verb.change,94,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+45,3,wash,92.0,96.0,4502.0,4506.0,29,79.0,82.0,4489.0,4492.0,102.0,119.0,4512.0,4529.0,verb.contact,95,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+46,2,stuck,109.0,114.0,4640.0,4645.0,5,101.0,108.0,4632.0,4639.0,,,,,verb.contact,96,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+47,0,ran,49.0,52.0,4879.0,4882.0,29,40.0,48.0,4870.0,4878.0,,,,,verb.motion,97,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+49,0,began,23.0,28.0,5004.0,5009.0,5,15.0,22.0,4996.0,5003.0,,,,,verb.change,99,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+49,1,notice,32.0,38.0,5013.0,5019.0,5,15.0,22.0,4996.0,5003.0,,,,,verb.perception,98,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+50,1,find,26.0,30.0,5094.0,5098.0,6,10.0,15.0,5078.0,5083.0,,,,,verb.perception,102,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,6,taught,108.0,114.0,5176.0,5182.0,6,101.0,103.0,5169.0,5171.0,,,,,verb.communication,104,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,7,knew,136.0,140.0,5204.0,5208.0,6,119.0,132.0,5187.0,5200.0,,,,,verb.cognition,103,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,10,made,176.0,180.0,5244.0,5248.0,6,155.0,168.0,5223.0,5236.0,,,,,verb.social,105,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,12,had,218.0,221.0,5286.0,5289.0,6,215.0,217.0,5283.0,5285.0,,,,,verb.possession,107,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,0,came,28.0,32.0,5453.0,5457.0,6,19.0,21.0,5444.0,5446.0,,,,,verb.motion,111,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,2,tell,71.0,75.0,5496.0,5500.0,6,62.0,64.0,5487.0,5489.0,,,,,verb.communication,113,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,5,forced,101.0,107.0,5526.0,5532.0,6,89.0,91.0,5514.0,5516.0,,,,,verb.social,112,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,7,reproached,162.0,172.0,5587.0,5597.0,5,152.0,155.0,5577.0,5580.0,,,,,verb.emotion,115,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+51,9,deceived,189.0,197.0,5614.0,5622.0,5,177.0,180.0,5602.0,5605.0,,,,,verb.emotion,114,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+51,11,cared,232.0,237.0,5657.0,5662.0,6,219.0,221.0,5644.0,5646.0,,,,,verb.emotion,116,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+52,0,grew,21.0,25.0,5710.0,5714.0,29,11.0,20.0,5700.0,5709.0,,,,,verb.change,119,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+52,2,waited,86.0,92.0,5775.0,5781.0,29,78.0,81.0,5767.0,5770.0,101.0,108.0,5790.0,5797.0,verb.cognition,118,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+52,3,put,114.0,117.0,5803.0,5806.0,29,110.0,113.0,5799.0,5802.0,,,,,verb.contact,120,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+52,4,went,152.0,156.0,5841.0,5845.0,29,110.0,113.0,5799.0,5802.0,,,,,verb.motion,123,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,3,glanced,82.0,89.0,5955.0,5962.0,29,78.0,81.0,5951.0,5954.0,,,,,verb.perception,124,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,4,gave,105.0,109.0,5978.0,5982.0,29,101.0,104.0,5974.0,5977.0,,,,,verb.communication,125,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,5,said,141.0,145.0,6014.0,6018.0,29,101.0,104.0,5974.0,5977.0,,,,,verb.communication,128,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,6,looks,177.0,182.0,6050.0,6055.0,156,153.0,169.0,6026.0,6042.0,212.0,262.0,6085.0,6135.0,verb.body,127,subject,The girl's pretty maiden,1.0,3.0,4.0,female,1.0,tertiary
+53,6,looks,177.0,182.0,6050.0,6055.0,29,153.0,169.0,6026.0,6042.0,212.0,262.0,6085.0,6135.0,verb.body,127,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,9,pleases,255.0,262.0,6128.0,6135.0,156,251.0,254.0,6124.0,6127.0,,,,,verb.emotion,129,subject,The girl's pretty maiden,1.0,3.0,4.0,female,1.0,tertiary
+54,1,grown,8.0,13.0,6146.0,6151.0,6,0.0,3.0,6138.0,6141.0,,,,,verb.change,130,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+54,3,makes,75.0,80.0,6213.0,6218.0,6,72.0,74.0,6210.0,6212.0,89.0,101.0,6227.0,6239.0,verb.creation,131,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+56,5,amuse,71.0,76.0,6316.0,6321.0,29,53.0,54.0,6298.0,6299.0,,,,,verb.emotion,134,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+57,1,know,21.0,25.0,6372.0,6376.0,158,17.0,20.0,6368.0,6371.0,,,,,verb.cognition,135,subject,granny dear,1.0,4.0,5.0,unknown,0.0,tertiary
+59,1,want,18.0,22.0,6423.0,6427.0,158,9.0,13.0,6414.0,6418.0,,,,,verb.emotion,137,subject,granny dear,1.0,4.0,5.0,unknown,0.0,tertiary
+62,2,stuck,45.0,50.0,6593.0,6598.0,5,0.0,30.0,6548.0,6578.0,,,,,verb.contact,142,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+62,3,wear,103.0,107.0,6651.0,6655.0,55,68.0,83.0,6616.0,6631.0,,,,,verb.body,141,subject,girls,1.0,0.0,1.0,female,1.0,tertiary
+63,0,heard,16.0,21.0,6701.0,6706.0,5,12.0,15.0,6697.0,6700.0,,,,,verb.perception,145,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+63,1,whistling,28.0,37.0,6713.0,6722.0,6,22.0,27.0,6707.0,6712.0,,,,,verb.communication,144,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+63,3,counting,72.0,80.0,6757.0,6765.0,5,52.0,60.0,6737.0,6745.0,,,,,verb.motion,143,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+63,3,counting,72.0,80.0,6757.0,6765.0,27,52.0,60.0,6737.0,6745.0,,,,,verb.motion,143,subject,Tephany's aunt,5.0,4.0,9.0,female,1.0,tertiary
+63,5,meet,114.0,118.0,6799.0,6803.0,5,95.0,98.0,6780.0,6783.0,,,,,verb.social,146,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+64,1,struck,18.0,24.0,6827.0,6833.0,59,0.0,13.0,6809.0,6822.0,,,,,verb.emotion,148,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+65,3,know,43.0,47.0,6895.0,6899.0,5,18.0,22.0,6870.0,6874.0,,,,,verb.cognition,147,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+65,5,sing,85.0,89.0,6937.0,6941.0,5,66.0,69.0,6918.0,6921.0,96.0,123.0,6948.0,6975.0,verb.creation,149,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+65,7,compose,135.0,142.0,6987.0,6994.0,5,66.0,69.0,6918.0,6921.0,148.0,155.0,7000.0,7007.0,verb.creation,152,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+66,5,teach,77.0,82.0,7086.0,7091.0,6,68.0,70.0,7077.0,7079.0,,,,,verb.communication,150,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+67,1,gone,16.0,20.0,7138.0,7142.0,5,8.0,11.0,7130.0,7133.0,,,,,verb.change,153,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+68,1,find,57.0,61.0,7255.0,7259.0,59,35.0,37.0,7233.0,7235.0,,,,,verb.perception,155,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+68,2,growing,66.0,73.0,7264.0,7271.0,5,62.0,65.0,7260.0,7263.0,,,,,verb.change,154,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+69,0,whispered,20.0,29.0,7309.0,7318.0,63,5.0,19.0,7294.0,7308.0,,,,,verb.communication,157,subject,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+69,3,resist,96.0,102.0,7385.0,7391.0,5,67.0,74.0,7356.0,7363.0,,,,,verb.competition,156,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+69,7,made,241.0,245.0,7530.0,7534.0,5,227.0,236.0,7516.0,7525.0,,,,,verb.social,160,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+70,0,heard,15.0,20.0,7562.0,7567.0,63,10.0,14.0,7557.0,7561.0,,,,,verb.cognition,161,subject,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+70,1,shook,39.0,44.0,7586.0,7591.0,63,10.0,14.0,7557.0,7561.0,57.0,197.0,7604.0,7744.0,verb.communication,162,subject,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+70,2,saying,57.0,63.0,7604.0,7610.0,63,10.0,14.0,7557.0,7561.0,,,,,verb.communication,163,subject,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+70,6,find,134.0,138.0,7681.0,7685.0,5,104.0,128.0,7651.0,7675.0,,,,,verb.cognition,165,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+70,6,find,134.0,138.0,7681.0,7685.0,159,104.0,128.0,7651.0,7675.0,,,,,verb.cognition,165,subject,Tephany's man that marries her,1.0,0.0,1.0,male,1.0,tertiary
+70,10,drive,182.0,187.0,7729.0,7734.0,5,150.0,153.0,7697.0,7700.0,,,,,verb.motion,166,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+71,1,began,29.0,34.0,7776.0,7781.0,6,23.0,28.0,7770.0,7775.0,,,,,verb.change,167,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,2,agree,38.0,43.0,7785.0,7790.0,6,23.0,28.0,7770.0,7775.0,,,,,verb.communication,169,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,3,liked,72.0,77.0,7819.0,7824.0,6,62.0,64.0,7809.0,7811.0,91.0,107.0,7838.0,7854.0,verb.emotion,168,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,5,went,103.0,107.0,7850.0,7854.0,6,91.0,99.0,7838.0,7846.0,,,,,verb.motion,170,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,6,became,112.0,118.0,7859.0,7865.0,6,109.0,111.0,7856.0,7858.0,,,,,verb.change,171,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,9,grew,224.0,228.0,7971.0,7975.0,6,221.0,223.0,7968.0,7970.0,252.0,290.0,7999.0,8037.0,verb.change,173,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,10,thinking,252.0,260.0,7999.0,8007.0,6,221.0,223.0,7968.0,7970.0,,,,,verb.cognition,174,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,12,come,281.0,285.0,8028.0,8032.0,6,266.0,274.0,8013.0,8021.0,,,,,verb.change,175,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+72,1,told,42.0,46.0,8081.0,8085.0,6,24.0,41.0,8063.0,8080.0,,,,,verb.communication,177,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+72,5,promised,105.0,113.0,8144.0,8152.0,6,98.0,100.0,8137.0,8139.0,,,,,verb.communication,176,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+73,0,fell,15.0,19.0,8226.0,8230.0,5,0.0,14.0,8211.0,8225.0,,,,,verb.motion,179,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+74,1,worked,9.0,15.0,8240.0,8246.0,5,1.0,4.0,8232.0,8235.0,,,,,verb.social,178,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+74,4,counting,43.0,51.0,8274.0,8282.0,5,1.0,4.0,8232.0,8235.0,,,,,verb.cognition,180,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+75,0,did,4.0,7.0,8315.0,8318.0,5,0.0,3.0,8311.0,8314.0,17.0,51.0,8328.0,8362.0,verb.social,181,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+75,1,persuade,20.0,28.0,8331.0,8339.0,5,0.0,3.0,8311.0,8314.0,,,,,verb.social,182,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+75,4,listen,70.0,76.0,8381.0,8387.0,6,57.0,59.0,8368.0,8370.0,,,,,verb.perception,183,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+75,5,grew,94.0,98.0,8405.0,8409.0,5,90.0,93.0,8401.0,8404.0,,,,,verb.change,184,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+76,0,know,7.0,11.0,8424.0,8428.0,5,5.0,6.0,8422.0,8423.0,,,,,verb.cognition,185,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+76,3,said,63.0,67.0,8480.0,8484.0,5,1.0,56.0,8418.0,8473.0,,,,,verb.communication,187,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+76,3,said,63.0,67.0,8480.0,8484.0,6,1.0,56.0,8418.0,8473.0,,,,,verb.communication,187,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+78,2,known,74.0,79.0,8611.0,8616.0,9,56.0,69.0,8593.0,8606.0,,,,,verb.cognition,186,subject,Aziliez,4.0,2.0,6.0,female,1.0,tertiary
+78,2,known,74.0,79.0,8611.0,8616.0,6,56.0,69.0,8593.0,8606.0,,,,,verb.cognition,186,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+81,2,slammed,42.0,49.0,8848.0,8855.0,5,38.0,41.0,8844.0,8847.0,,,,,verb.contact,193,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+82,1,stared,50.0,56.0,8927.0,8933.0,5,21.0,24.0,8898.0,8901.0,,,,,verb.perception,194,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+83,1,put,46.0,49.0,9001.0,9004.0,5,42.0,45.0,8997.0,9000.0,,,,,verb.contact,196,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+83,2,sobbed,77.0,83.0,9032.0,9038.0,5,42.0,45.0,8997.0,9000.0,,,,,verb.body,198,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+84,3,want,60.0,64.0,9113.0,9117.0,164,44.0,50.0,9097.0,9103.0,,,,,verb.emotion,197,subject,men,1.0,0.0,1.0,male,1.0,tertiary
+85,3,asked,29.0,34.0,9148.0,9153.0,5,13.0,14.0,9132.0,9133.0,,,,,verb.communication,199,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,0,wish,11.0,15.0,9219.0,9223.0,5,7.0,10.0,9215.0,9218.0,19.0,26.0,9227.0,9234.0,verb.emotion,200,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,2,have,37.0,41.0,9245.0,9249.0,5,27.0,30.0,9235.0,9238.0,,,,,verb.possession,202,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,3,said,51.0,55.0,9259.0,9263.0,5,1.0,48.0,9209.0,9256.0,,,,,verb.communication,201,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,5,beheld,99.0,105.0,9307.0,9313.0,5,95.0,98.0,9303.0,9306.0,,,,,verb.perception,204,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,6,leaning,120.0,127.0,9328.0,9335.0,32,95.0,98.0,9303.0,9306.0,,,,,verb.contact,203,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+87,6,leaning,120.0,127.0,9328.0,9335.0,5,95.0,98.0,9303.0,9306.0,,,,,verb.contact,203,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+88,2,wear,58.0,62.0,9408.0,9412.0,5,54.0,57.0,9404.0,9407.0,,,,,verb.body,205,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+89,0,took,36.0,40.0,9525.0,9529.0,5,28.0,35.0,9517.0,9524.0,,,,,verb.contact,207,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+92,0,met,15.0,18.0,9887.0,9890.0,5,11.0,14.0,9883.0,9886.0,,,,,verb.motion,210,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+92,1,seated,57.0,63.0,9929.0,9935.0,74,45.0,56.0,9917.0,9928.0,,,,,verb.contact,209,subject,a young man,1.0,3.0,4.0,male,1.0,tertiary
+94,0,exclaimed,3.0,12.0,9970.0,9979.0,74,0.0,2.0,9967.0,9969.0,,,,,verb.communication,213,subject,a young man,1.0,3.0,4.0,male,1.0,tertiary
+94,1,approached,25.0,35.0,9992.0,10002.0,5,17.0,24.0,9984.0,9991.0,,,,,verb.motion,212,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+95,3,compared,56.0,64.0,10060.0,10068.0,74,19.0,43.0,10023.0,10047.0,,,,,verb.cognition,211,subject,a young man,1.0,3.0,4.0,male,1.0,tertiary
+97,3,forced,66.0,72.0,10182.0,10188.0,5,54.0,61.0,10170.0,10177.0,,,,,verb.social,214,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+98,0,looked,8.0,14.0,10246.0,10252.0,5,4.0,7.0,10242.0,10245.0,,,,,verb.perception,215,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+98,1,answered,53.0,61.0,10291.0,10299.0,5,49.0,52.0,10287.0,10290.0,,,,,verb.communication,216,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+98,4,go,100.0,102.0,10338.0,10340.0,5,97.0,99.0,10335.0,10337.0,,,,,verb.motion,220,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+99,2,make,55.0,59.0,10402.0,10406.0,5,0.0,1.0,10347.0,10348.0,,,,,verb.creation,219,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+100,3,make,32.0,36.0,10454.0,10458.0,59,25.0,26.0,10447.0,10448.0,,,,,verb.change,223,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+100,4,said,56.0,60.0,10478.0,10482.0,5,1.0,53.0,10423.0,10475.0,65.0,119.0,10487.0,10541.0,verb.communication,222,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+100,4,said,56.0,60.0,10478.0,10482.0,59,1.0,53.0,10423.0,10475.0,65.0,119.0,10487.0,10541.0,verb.communication,222,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+100,4,said,56.0,60.0,10478.0,10482.0,174,1.0,53.0,10423.0,10475.0,65.0,119.0,10487.0,10541.0,verb.communication,222,subject,Peasant,1.0,0.0,1.0,unknown,0.0,tertiary
+100,4,said,56.0,60.0,10478.0,10482.0,175,1.0,53.0,10423.0,10475.0,65.0,119.0,10487.0,10541.0,verb.communication,222,subject,a great lady,2.0,0.0,2.0,female,1.0,tertiary
+100,5,taking,65.0,71.0,10487.0,10493.0,59,61.0,63.0,10483.0,10485.0,,,,,verb.contact,221,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+100,6,trying,85.0,91.0,10507.0,10513.0,59,61.0,63.0,10483.0,10485.0,,,,,verb.social,224,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+100,7,lead,95.0,99.0,10517.0,10521.0,59,61.0,63.0,10483.0,10485.0,,,,,verb.motion,225,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+101,1,want,9.0,13.0,10552.0,10556.0,5,1.0,2.0,10544.0,10545.0,,,,,verb.emotion,226,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+101,3,want,41.0,45.0,10584.0,10588.0,5,34.0,35.0,10577.0,10578.0,,,,,verb.emotion,227,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+101,5,replied,76.0,83.0,10619.0,10626.0,5,72.0,75.0,10615.0,10618.0,,,,,verb.communication,228,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+101,7,running,111.0,118.0,10654.0,10661.0,5,72.0,75.0,10615.0,10618.0,,,,,verb.motion,231,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+101,9,hoped,184.0,189.0,10727.0,10732.0,59,181.0,183.0,10724.0,10726.0,,,,,verb.emotion,230,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+101,10,hide,193.0,197.0,10736.0,10740.0,59,181.0,183.0,10724.0,10726.0,,,,,verb.perception,229,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+102,0,guessed,24.0,31.0,10766.0,10773.0,59,0.0,23.0,10742.0,10765.0,,,,,verb.cognition,233,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+102,2,doing,45.0,50.0,10787.0,10792.0,5,32.0,36.0,10774.0,10778.0,,,,,verb.social,232,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+102,4,seized,86.0,92.0,10828.0,10834.0,59,66.0,80.0,10808.0,10822.0,,,,,verb.contact,234,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+102,4,seized,86.0,92.0,10828.0,10834.0,81,66.0,80.0,10808.0,10822.0,,,,,verb.contact,234,subject,the young man's attendants,1.0,0.0,1.0,unknown,0.0,tertiary
+102,5,put,101.0,104.0,10843.0,10846.0,59,66.0,80.0,10808.0,10822.0,,,,,verb.contact,235,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+102,5,put,101.0,104.0,10843.0,10846.0,81,66.0,80.0,10808.0,10822.0,,,,,verb.contact,235,subject,the young man's attendants,1.0,0.0,1.0,unknown,0.0,tertiary
+104,2,move,84.0,88.0,11011.0,11015.0,5,38.0,68.0,10965.0,10995.0,,,,,verb.motion,237,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+104,4,lifted,94.0,100.0,11021.0,11027.0,5,61.0,88.0,10988.0,11015.0,,,,,verb.motion,238,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+104,5,carried,109.0,116.0,11036.0,11043.0,5,57.0,88.0,10984.0,11015.0,,,,,verb.motion,239,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+104,8,perform,163.0,170.0,11090.0,11097.0,86,138.0,146.0,11065.0,11073.0,,,,,verb.creation,240,subject,a priest,1.0,0.0,1.0,unknown,0.0,tertiary
+105,0,tried,14.0,19.0,11135.0,11140.0,59,0.0,13.0,11121.0,11134.0,,,,,verb.social,241,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+105,1,win,23.0,26.0,11144.0,11147.0,59,0.0,13.0,11121.0,11134.0,44.0,110.0,11165.0,11231.0,verb.emotion,242,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+105,2,telling,47.0,54.0,11168.0,11175.0,59,0.0,13.0,11121.0,11134.0,,,,,verb.communication,244,subject,the young man,4.0,9.0,13.0,male,1.0,tertiary
+105,4,have,94.0,98.0,11215.0,11219.0,5,58.0,82.0,11179.0,11203.0,,,,,verb.possession,243,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,6,listen,132.0,138.0,11253.0,11259.0,5,116.0,123.0,11237.0,11244.0,,,,,verb.perception,245,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,7,looked,151.0,157.0,11272.0,11278.0,5,116.0,123.0,11237.0,11244.0,164.0,219.0,11285.0,11340.0,verb.perception,246,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,8,see,167.0,170.0,11288.0,11291.0,5,116.0,123.0,11237.0,11244.0,,,,,verb.communication,247,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,11,escape,213.0,219.0,11334.0,11340.0,5,203.0,206.0,11324.0,11327.0,,,,,verb.motion,249,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+107,3,entered,77.0,84.0,11441.0,11448.0,5,69.0,72.0,11433.0,11436.0,90.0,103.0,11454.0,11467.0,verb.motion,248,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+107,5,detected,163.0,171.0,11527.0,11535.0,5,159.0,162.0,11523.0,11526.0,,,,,verb.perception,250,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+108,2,sent,59.0,63.0,11681.0,11685.0,29,50.0,58.0,11672.0,11680.0,109.0,192.0,11731.0,11814.0,verb.motion,253,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+108,5,knowing,163.0,170.0,11785.0,11792.0,5,115.0,126.0,11737.0,11748.0,,,,,verb.cognition,254,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+108,7,going,187.0,192.0,11809.0,11814.0,5,171.0,178.0,11793.0,11800.0,,,,,verb.motion,255,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+110,0,found,15.0,20.0,11890.0,11895.0,5,11.0,14.0,11886.0,11889.0,29.0,53.0,11904.0,11928.0,verb.perception,256,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+110,1,asked,59.0,64.0,11934.0,11939.0,5,11.0,14.0,11886.0,11889.0,,,,,verb.communication,257,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+111,0,answered,17.0,25.0,11995.0,12003.0,93,4.0,16.0,11982.0,11994.0,,,,,verb.communication,258,subject,the portress,1.0,0.0,1.0,unknown,0.0,tertiary
+111,3,dragged,106.0,113.0,12084.0,12091.0,95,92.0,105.0,12070.0,12083.0,122.0,213.0,12100.0,12191.0,verb.contact,260,subject,the poor girl,1.0,3.0,4.0,female,1.0,tertiary
+114,0,heard,18.0,23.0,12303.0,12308.0,99,5.0,17.0,12290.0,12302.0,,,,,verb.perception,262,subject,a group of people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+114,0,heard,18.0,23.0,12303.0,12308.0,104,5.0,17.0,12290.0,12302.0,,,,,verb.perception,262,subject,a group of people's mother,1.0,1.0,2.0,female,1.0,tertiary
+114,3,softened,82.0,90.0,12367.0,12375.0,105,60.0,81.0,12345.0,12366.0,,,,,verb.change,264,subject,the good wife,1.0,0.0,1.0,female,1.0,tertiary
+114,6,invite,118.0,124.0,12403.0,12409.0,104,96.0,99.0,12381.0,12384.0,155.0,194.0,12440.0,12479.0,verb.emotion,266,subject,a group of people's mother,1.0,1.0,2.0,female,1.0,tertiary
+114,8,turned,174.0,180.0,12459.0,12465.0,106,142.0,155.0,12427.0,12440.0,,,,,verb.motion,265,subject,the young men,1.0,3.0,4.0,male,1.0,tertiary
+114,9,began,203.0,208.0,12488.0,12493.0,29,142.0,201.0,12427.0,12486.0,,,,,verb.change,267,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+114,9,began,203.0,208.0,12488.0,12493.0,106,142.0,201.0,12427.0,12486.0,,,,,verb.change,267,subject,the young men,1.0,3.0,4.0,male,1.0,tertiary
+114,10,quarrel,212.0,219.0,12497.0,12504.0,29,142.0,201.0,12427.0,12486.0,,,,,verb.communication,268,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+114,10,quarrel,212.0,219.0,12497.0,12504.0,106,142.0,201.0,12427.0,12486.0,,,,,verb.communication,268,subject,the young men,1.0,3.0,4.0,male,1.0,tertiary
+116,0,ran,12.0,15.0,12667.0,12670.0,5,0.0,3.0,12655.0,12658.0,39.0,89.0,12694.0,12744.0,verb.motion,270,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+116,1,hoping,39.0,45.0,12694.0,12700.0,5,0.0,3.0,12655.0,12658.0,,,,,verb.emotion,271,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+116,2,escape,49.0,55.0,12704.0,12710.0,5,0.0,3.0,12655.0,12658.0,61.0,89.0,12716.0,12744.0,verb.motion,272,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+116,3,heard,113.0,118.0,12768.0,12773.0,5,109.0,112.0,12764.0,12767.0,,,,,verb.perception,273,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+117,0,trembled,24.0,32.0,12826.0,12834.0,5,15.0,23.0,12817.0,12825.0,,,,,verb.body,274,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+117,1,bethought,62.0,71.0,12864.0,12873.0,5,58.0,61.0,12860.0,12863.0,,,,,verb.creation,275,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+118,0,burst,26.0,31.0,12925.0,12930.0,5,22.0,25.0,12921.0,12924.0,,,,,verb.change,276,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+118,1,flung,46.0,51.0,12945.0,12950.0,5,22.0,25.0,12921.0,12924.0,,,,,verb.contact,277,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+118,6,heard,132.0,137.0,13031.0,13036.0,5,128.0,131.0,13027.0,13030.0,,,,,verb.perception,278,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+118,10,vanished,217.0,225.0,13116.0,13124.0,5,203.0,212.0,13102.0,13111.0,,,,,verb.change,280,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+119,0,went,7.0,11.0,13133.0,13137.0,5,3.0,6.0,13129.0,13132.0,,,,,verb.motion,281,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+119,1,knowing,22.0,29.0,13148.0,13155.0,5,3.0,6.0,13129.0,13132.0,,,,,verb.cognition,282,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+119,3,going,44.0,49.0,13170.0,13175.0,5,30.0,35.0,13156.0,13161.0,,,,,verb.motion,283,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+119,4,found,60.0,65.0,13186.0,13191.0,5,56.0,59.0,13182.0,13185.0,,,,,verb.perception,285,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,0,felt,21.0,25.0,13274.0,13278.0,5,17.0,20.0,13270.0,13273.0,,,,,verb.body,284,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,2,get,69.0,72.0,13322.0,13325.0,5,52.0,55.0,13305.0,13308.0,,,,,verb.perception,286,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,3,make,98.0,102.0,13351.0,13355.0,5,52.0,55.0,13305.0,13308.0,,,,,verb.change,287,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+121,1,said,22.0,26.0,13427.0,13431.0,6,19.0,21.0,13424.0,13426.0,,,,,verb.communication,289,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+122,2,noticed,65.0,72.0,13578.0,13585.0,112,55.0,64.0,13568.0,13577.0,76.0,91.0,13589.0,13604.0,verb.perception,288,subject,everybody,1.0,0.0,1.0,unknown,0.0,tertiary
+123,1,carried,76.0,83.0,13682.0,13689.0,5,72.0,75.0,13678.0,13681.0,87.0,173.0,13693.0,13779.0,verb.contact,290,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+124,3,whispered,40.0,49.0,13821.0,13830.0,5,36.0,39.0,13817.0,13820.0,62.0,99.0,13843.0,13880.0,verb.communication,293,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+125,4,asked,52.0,57.0,13934.0,13939.0,5,38.0,39.0,13920.0,13921.0,,,,,verb.communication,295,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+127,1,beg,19.0,22.0,14156.0,14159.0,5,3.0,4.0,14140.0,14141.0,,,,,verb.communication,297,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+127,4,know,83.0,87.0,14220.0,14224.0,5,49.0,50.0,14186.0,14187.0,,,,,verb.cognition,298,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+129,0,look,8.0,12.0,14358.0,14362.0,5,4.0,7.0,14354.0,14357.0,39.0,55.0,14389.0,14405.0,verb.perception,302,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+129,3,find,65.0,69.0,14415.0,14419.0,5,56.0,59.0,14406.0,14409.0,,,,,verb.possession,303,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+130,3,see,58.0,61.0,14491.0,14494.0,5,49.0,52.0,14482.0,14485.0,,,,,verb.cognition,307,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+131,1,understand,29.0,39.0,14573.0,14583.0,5,0.0,7.0,14544.0,14551.0,,,,,verb.cognition,306,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+131,2,meant,49.0,54.0,14593.0,14598.0,32,40.0,44.0,14584.0,14588.0,,,,,verb.communication,305,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+131,5,began,107.0,112.0,14651.0,14656.0,5,0.0,7.0,14544.0,14551.0,,,,,verb.change,308,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+131,6,fumble,116.0,122.0,14660.0,14666.0,5,0.0,7.0,14544.0,14551.0,132.0,156.0,14676.0,14700.0,verb.contact,309,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+133,1,rubbing,22.0,29.0,14790.0,14797.0,5,0.0,3.0,14768.0,14771.0,39.0,84.0,14807.0,14852.0,verb.contact,310,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+133,2,entered,68.0,75.0,14836.0,14843.0,4,52.0,67.0,14820.0,14835.0,,,,,verb.motion,312,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+134,2,obliged,24.0,31.0,14878.0,14885.0,5,11.0,14.0,14865.0,14868.0,,,,,verb.communication,311,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,3,leave,35.0,40.0,14889.0,14894.0,5,11.0,14.0,14865.0,14868.0,,,,,verb.social,313,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,4,pass,54.0,58.0,14908.0,14912.0,5,11.0,14.0,14865.0,14868.0,,,,,verb.possession,314,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,6,know,81.0,85.0,14935.0,14939.0,5,69.0,72.0,14923.0,14926.0,,,,,verb.cognition,315,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,11,get,158.0,161.0,15012.0,15015.0,5,144.0,147.0,14998.0,15001.0,173.0,215.0,15027.0,15069.0,verb.change,316,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+135,0,saw,21.0,24.0,15092.0,15095.0,5,17.0,20.0,15088.0,15091.0,,,,,verb.perception,318,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+135,1,standing,35.0,43.0,15106.0,15114.0,5,25.0,34.0,15096.0,15105.0,,,,,verb.contact,317,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+135,1,standing,35.0,43.0,15106.0,15114.0,14,25.0,34.0,15096.0,15105.0,,,,,verb.contact,317,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+135,4,do,111.0,113.0,15182.0,15184.0,14,102.0,106.0,15173.0,15177.0,,,,,verb.creation,319,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+138,1,behave,30.0,36.0,15287.0,15293.0,14,4.0,7.0,15261.0,15264.0,,,,,verb.body,320,subject,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+139,0,tried,8.0,13.0,15307.0,15312.0,5,0.0,7.0,15299.0,15306.0,,,,,verb.social,321,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+139,1,stammer,17.0,24.0,15316.0,15323.0,5,0.0,7.0,15299.0,15306.0,,,,,verb.communication,322,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+141,1,saw,35.0,38.0,15567.0,15570.0,5,31.0,34.0,15563.0,15566.0,,,,,verb.perception,325,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+142,0,beheld,18.0,24.0,15640.0,15646.0,4,0.0,7.0,15622.0,15629.0,,,,,verb.cognition,324,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+142,1,uttered,38.0,45.0,15660.0,15667.0,4,0.0,36.0,15622.0,15658.0,,,,,verb.communication,326,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+142,2,threw,73.0,78.0,15695.0,15700.0,4,0.0,36.0,15622.0,15658.0,100.0,130.0,15722.0,15752.0,verb.contact,327,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+142,3,pick,103.0,107.0,15725.0,15729.0,4,0.0,36.0,15622.0,15658.0,,,,,verb.contact,328,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+143,1,gathering,14.0,23.0,15768.0,15777.0,5,0.0,3.0,15754.0,15757.0,29.0,67.0,15783.0,15821.0,verb.contact,329,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+146,0,asked,3.0,8.0,15860.0,15865.0,6,0.0,2.0,15857.0,15859.0,,,,,verb.communication,331,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+146,1,falling,10.0,17.0,15867.0,15874.0,6,0.0,2.0,15857.0,15859.0,31.0,35.0,15888.0,15892.0,verb.motion,332,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+146,3,perceived,66.0,75.0,15923.0,15932.0,6,63.0,65.0,15920.0,15922.0,,,,,verb.perception,334,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+147,2,hear,44.0,48.0,16037.0,16041.0,186,22.0,43.0,16015.0,16036.0,,,,,verb.cognition,337,subject,any of the neighbours,1.0,0.0,1.0,unknown,0.0,tertiary
+147,2,hear,44.0,48.0,16037.0,16041.0,63,22.0,43.0,16015.0,16036.0,,,,,verb.cognition,337,subject,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+147,3,said,64.0,68.0,16057.0,16061.0,186,1.0,61.0,15994.0,16054.0,,,,,verb.communication,338,subject,any of the neighbours,1.0,0.0,1.0,unknown,0.0,tertiary
+147,3,said,64.0,68.0,16057.0,16061.0,63,1.0,61.0,15994.0,16054.0,,,,,verb.communication,338,subject,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+147,3,said,64.0,68.0,16057.0,16061.0,6,1.0,61.0,15994.0,16054.0,,,,,verb.communication,338,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+148,1,have,21.0,25.0,16092.0,16096.0,6,11.0,14.0,16082.0,16085.0,,,,,verb.possession,339,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+148,3,get,60.0,63.0,16131.0,16134.0,188,42.0,53.0,16113.0,16124.0,,,,,verb.possession,340,subject,,,,,,,
+149,2,continued,30.0,39.0,16179.0,16188.0,5,26.0,29.0,16175.0,16178.0,,,,,verb.communication,341,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+150,2,catch,69.0,74.0,16270.0,16275.0,5,43.0,46.0,16244.0,16247.0,,,,,verb.contact,342,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+151,1,bear,25.0,29.0,16326.0,16330.0,5,4.0,11.0,16305.0,16312.0,,,,,verb.communication,344,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,0,felt,4.0,8.0,16345.0,16349.0,5,0.0,3.0,16341.0,16344.0,,,,,verb.emotion,343,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,3,rush,69.0,73.0,16410.0,16414.0,5,0.0,3.0,16341.0,16344.0,,,,,verb.motion,345,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,4,caught,108.0,114.0,16449.0,16455.0,4,100.0,107.0,16441.0,16448.0,123.0,138.0,16464.0,16479.0,verb.contact,346,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+152,6,said,144.0,148.0,16485.0,16489.0,5,0.0,3.0,16341.0,16344.0,,,,,verb.communication,347,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,7,thought,185.0,192.0,16526.0,16533.0,4,181.0,184.0,16522.0,16525.0,,,,,verb.cognition,348,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+152,10,weep,213.0,217.0,16554.0,16558.0,29,204.0,212.0,16545.0,16553.0,,,,,verb.body,350,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+153,1,finished,8.0,16.0,16650.0,16658.0,29,4.0,7.0,16646.0,16649.0,,,,,verb.change,352,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+156,1,think,7.0,12.0,16745.0,16750.0,6,3.0,6.0,16741.0,16744.0,,,,,verb.cognition,354,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+157,0,added,4.0,9.0,16799.0,16804.0,4,0.0,3.0,16795.0,16798.0,,,,,verb.communication,356,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+157,1,shook,24.0,29.0,16819.0,16824.0,6,13.0,18.0,16808.0,16813.0,,,,,verb.body,357,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+160,2,said,27.0,31.0,16961.0,16965.0,4,1.0,24.0,16935.0,16958.0,,,,,verb.communication,359,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+160,2,said,27.0,31.0,16961.0,16965.0,6,1.0,24.0,16935.0,16958.0,,,,,verb.communication,359,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+160,3,trusted,51.0,58.0,16985.0,16992.0,4,32.0,39.0,16966.0,16973.0,,,,,verb.social,358,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+162,0,sat,4.0,7.0,17087.0,17090.0,4,0.0,3.0,17083.0,17086.0,34.0,106.0,17117.0,17189.0,verb.contact,362,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+162,1,clasped,44.0,51.0,17127.0,17134.0,4,34.0,43.0,17117.0,17126.0,,,,,verb.contact,361,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+162,3,forcing,84.0,91.0,17167.0,17174.0,4,76.0,79.0,17159.0,17162.0,102.0,106.0,17185.0,17189.0,verb.possession,363,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+163,0,raised,12.0,18.0,17203.0,17209.0,4,8.0,11.0,17199.0,17202.0,,,,,verb.motion,365,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+163,3,fixed,44.0,49.0,17235.0,17240.0,4,19.0,27.0,17210.0,17218.0,,,,,verb.contact,364,subject,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+163,4,standing,86.0,94.0,17277.0,17285.0,70,69.0,85.0,17260.0,17276.0,,,,,verb.contact,366,subject,the fairy,4.0,0.0,4.0,unknown,0.0,tertiary
+164,0,trembled,9.0,17.0,17362.0,17370.0,29,0.0,8.0,17353.0,17361.0,,,,,verb.body,368,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+164,2,taking,39.0,45.0,17392.0,17398.0,29,0.0,8.0,17353.0,17361.0,,,,,verb.contact,369,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+164,3,held,85.0,89.0,17438.0,17442.0,29,81.0,84.0,17434.0,17437.0,95.0,98.0,17448.0,17451.0,verb.contact,370,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+165,1,cried,34.0,39.0,17504.0,17509.0,29,30.0,33.0,17500.0,17503.0,,,,,verb.communication,371,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+167,1,see,13.0,16.0,17545.0,17548.0,29,4.0,6.0,17536.0,17538.0,22.0,27.0,17554.0,17559.0,verb.perception,375,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+167,3,learned,40.0,47.0,17572.0,17579.0,29,33.0,34.0,17565.0,17566.0,,,,,verb.cognition,374,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+167,4,taught,69.0,75.0,17601.0,17607.0,15,48.0,58.0,17580.0,17590.0,,,,,verb.communication,373,subject,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+168,1,have,11.0,15.0,17623.0,17627.0,18,0.0,6.0,17612.0,17618.0,,,,,verb.possession,376,subject,others,4.0,0.0,4.0,unknown,0.0,tertiary
+168,2,desire,56.0,62.0,17668.0,17674.0,29,54.0,55.0,17666.0,17667.0,,,,,verb.emotion,377,subject,The girl,9.0,68.0,77.0,female,1.0,secondary
+169,1,learned,15.0,22.0,17779.0,17786.0,6,6.0,9.0,17770.0,17773.0,,,,,verb.cognition,378,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+169,4,lead,76.0,80.0,17840.0,17844.0,6,66.0,69.0,17830.0,17833.0,,,,,verb.social,380,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+169,5,marry,101.0,106.0,17865.0,17870.0,6,66.0,69.0,17830.0,17833.0,,,,,verb.social,382,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+169,6,love,119.0,123.0,17883.0,17887.0,6,107.0,114.0,17871.0,17878.0,,,,,verb.emotion,381,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+171,1,see,24.0,27.0,17972.0,17975.0,5,16.0,23.0,17964.0,17971.0,,,,,verb.perception,383,subject,Tephany,42.0,167.0,209.0,female,1.0,primary
+171,2,forgave,51.0,58.0,17999.0,18006.0,32,47.0,50.0,17995.0,17998.0,,,,,verb.cognition,385,subject,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+171,4,grew,103.0,107.0,18051.0,18055.0,6,100.0,102.0,18048.0,18050.0,,,,,verb.change,386,subject,Denis,21.0,66.0,87.0,male,1.0,secondary
+171,6,did,134.0,137.0,18082.0,18085.0,131,114.0,128.0,18062.0,18076.0,,,,,verb.social,387,subject,a good husband,1.0,0.0,1.0,male,1.0,tertiary
+0,2,named,71.0,76.0,71.0,76.0,4,77.0,92.0,77.0,92.0,,,,,verb.communication,0,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+0,4,looking,120.0,127.0,120.0,127.0,12,134.0,142.0,134.0,142.0,143.0,177.0,,,verb.perception,1,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany",1.0,3.0,4.0,female,1.0,tertiary
+3,4,left,57.0,61.0,412.0,416.0,4,62.0,69.0,417.0,424.0,,,,,verb.change,5,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,9,gave,184.0,188.0,539.0,543.0,4,189.0,196.0,544.0,551.0,,,,,verb.possession,9,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+3,9,gave,184.0,188.0,539.0,543.0,15,189.0,196.0,544.0,551.0,,,,,verb.possession,9,direct_object,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+4,0,hated,38.0,43.0,647.0,652.0,19,44.0,48.0,653.0,657.0,,,,,verb.emotion,10,direct_object,poor people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+4,1,declared,54.0,62.0,663.0,671.0,20,63.0,116.0,672.0,725.0,,,,,verb.communication,12,direct_object,such lazy creatures,1.0,0.0,1.0,unknown,0.0,tertiary
+5,4,found,99.0,104.0,826.0,831.0,24,105.0,225.0,832.0,952.0,,,,,verb.perception,14,direct_object,a day labourer from the village of Plover,1.0,0.0,1.0,unknown,0.0,tertiary
+5,4,found,99.0,104.0,826.0,831.0,5,105.0,225.0,832.0,952.0,,,,,verb.perception,14,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+5,4,found,99.0,104.0,826.0,831.0,23,105.0,225.0,832.0,952.0,,,,,verb.perception,14,direct_object,"young Denis , who was nothing more than a day labourer from the village of Plover",1.0,0.0,1.0,unknown,0.0,tertiary
+5,5,talking,113.0,120.0,840.0,847.0,24,142.0,225.0,869.0,952.0,,,,,verb.communication,13,direct_object,a day labourer from the village of Plover,1.0,0.0,1.0,unknown,0.0,tertiary
+5,5,talking,113.0,120.0,840.0,847.0,23,142.0,225.0,869.0,952.0,,,,,verb.communication,13,direct_object,"young Denis , who was nothing more than a day labourer from the village of Plover",1.0,0.0,1.0,unknown,0.0,tertiary
+6,0,seizing,0.0,7.0,954.0,961.0,4,8.0,17.0,962.0,971.0,18.0,28.0,,,verb.contact,15,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+6,0,seizing,0.0,7.0,954.0,961.0,14,8.0,17.0,962.0,971.0,18.0,28.0,,,verb.contact,15,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+6,1,pulled,34.0,40.0,988.0,994.0,14,41.0,44.0,995.0,998.0,59.0,259.0,1013.0,1213.0,verb.contact,16,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+6,2,exclaiming,59.0,69.0,1013.0,1023.0,132,71.0,72.0,1025.0,1026.0,,,,,verb.communication,18,direct_object,girl,2.0,0.0,2.0,female,1.0,tertiary
+6,2,exclaiming,59.0,69.0,1013.0,1023.0,133,71.0,72.0,1025.0,1026.0,,,,,verb.communication,18,direct_object,a man who is as poor as a rat,1.0,0.0,1.0,male,1.0,tertiary
+6,2,exclaiming,59.0,69.0,1013.0,1023.0,14,71.0,72.0,1025.0,1026.0,,,,,verb.communication,18,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+6,4,waste,102.0,107.0,1056.0,1061.0,133,108.0,117.0,1062.0,1071.0,154.0,259.0,1108.0,1213.0,verb.consumption,17,direct_object,a man who is as poor as a rat,1.0,0.0,1.0,male,1.0,tertiary
+6,4,waste,102.0,107.0,1056.0,1061.0,14,108.0,117.0,1062.0,1071.0,154.0,259.0,1108.0,1213.0,verb.consumption,17,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+6,9,buy,213.0,216.0,1167.0,1170.0,14,217.0,236.0,1171.0,1190.0,,,,,verb.possession,19,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+7,2,answered,50.0,58.0,1266.0,1274.0,5,59.0,71.0,1275.0,1287.0,72.0,82.0,,,verb.communication,22,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+8,0,cried,12.0,17.0,1393.0,1398.0,4,18.0,25.0,1399.0,1406.0,,,,,verb.communication,24,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+9,1,see,15.0,18.0,1483.0,1486.0,14,19.0,22.0,1487.0,1490.0,23.0,101.0,1491.0,1569.0,verb.perception,27,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+11,0,asked,0.0,5.0,1629.0,1634.0,5,6.0,13.0,1635.0,1642.0,,,,,verb.communication,26,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+11,2,let,64.0,67.0,1693.0,1696.0,5,68.0,78.0,1697.0,1707.0,,,,,verb.social,28,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+13,0,repeated,0.0,8.0,1737.0,1745.0,4,9.0,16.0,1746.0,1753.0,18.0,36.0,,,verb.communication,30,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+15,1,learn,20.0,25.0,1863.0,1868.0,6,26.0,36.0,1869.0,1879.0,,,,,verb.cognition,31,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+15,2,forbid,40.0,46.0,1883.0,1889.0,14,47.0,50.0,1890.0,1893.0,,,,,verb.communication,32,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+15,2,forbid,40.0,46.0,1883.0,1889.0,6,47.0,50.0,1890.0,1893.0,,,,,verb.communication,32,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+15,3,speak,54.0,59.0,1897.0,1902.0,6,60.0,66.0,1903.0,1909.0,,,,,verb.communication,33,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+15,5,have,79.0,83.0,1922.0,1926.0,6,84.0,110.0,1927.0,1953.0,111.0,150.0,1954.0,1993.0,verb.change,35,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+15,8,show,126.0,130.0,1969.0,1973.0,6,131.0,139.0,1974.0,1982.0,140.0,150.0,1983.0,1993.0,verb.perception,34,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+18,1,said,34.0,38.0,2175.0,2179.0,29,39.0,58.0,2180.0,2199.0,,,,,verb.communication,38,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+20,0,talking,0.0,7.0,2341.0,2348.0,6,8.0,16.0,2349.0,2357.0,,,,,verb.communication,41,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+20,4,see,65.0,68.0,2406.0,2409.0,6,69.0,72.0,2410.0,2413.0,,,,,verb.perception,43,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+21,0,thinking,0.0,8.0,2446.0,2454.0,29,9.0,23.0,2455.0,2469.0,,,,,verb.cognition,45,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+22,0,made,19.0,23.0,2580.0,2584.0,29,24.0,35.0,2585.0,2596.0,,,,,verb.communication,48,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+22,2,standing,41.0,49.0,2602.0,2610.0,29,50.0,118.0,2611.0,2679.0,,,,,verb.contact,49,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+22,2,standing,41.0,49.0,2602.0,2610.0,31,50.0,118.0,2611.0,2679.0,,,,,verb.contact,49,direct_object,a little old woman,1.0,1.0,2.0,female,1.0,tertiary
+22,3,saw,65.0,68.0,2626.0,2629.0,29,69.0,118.0,2630.0,2679.0,,,,,verb.perception,51,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+22,3,saw,65.0,68.0,2626.0,2629.0,31,69.0,118.0,2630.0,2679.0,,,,,verb.perception,51,direct_object,a little old woman,1.0,1.0,2.0,female,1.0,tertiary
+24,0,asked,0.0,5.0,2728.0,2733.0,5,6.0,13.0,2734.0,2741.0,15.0,39.0,,,verb.communication,55,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+25,2,rest,44.0,48.0,2813.0,2817.0,29,49.0,63.0,2818.0,2832.0,,,,,verb.body,57,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+25,4,replied,66.0,73.0,2835.0,2842.0,32,74.0,87.0,2843.0,2856.0,88.0,106.0,2857.0,2875.0,verb.communication,56,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+27,0,inquired,0.0,8.0,2904.0,2912.0,5,9.0,16.0,2913.0,2920.0,18.0,30.0,,,verb.communication,58,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+28,2,welcome,31.0,38.0,2967.0,2974.0,32,39.0,42.0,2975.0,2978.0,,,,,verb.contact,59,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+28,2,welcome,31.0,38.0,2967.0,2974.0,145,39.0,42.0,2975.0,2978.0,,,,,verb.contact,59,direct_object,The old woman's friends who would welcome you into their houses,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+29,0,shook,14.0,19.0,3013.0,3018.0,32,20.0,28.0,3019.0,3027.0,,,,,verb.communication,61,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+30,1,answered,36.0,44.0,3065.0,3073.0,32,68.0,105.0,3097.0,3134.0,,,,,verb.communication,63,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+30,1,answered,36.0,44.0,3065.0,3073.0,148,68.0,105.0,3097.0,3134.0,,,,,verb.communication,63,direct_object,strangers with kind hearts,1.0,0.0,1.0,unknown,0.0,tertiary
+31,3,intended,81.0,89.0,3218.0,3226.0,29,90.0,104.0,3227.0,3241.0,,,,,verb.cognition,64,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+33,4,gazing,70.0,76.0,3335.0,3341.0,5,77.0,87.0,3342.0,3352.0,88.0,97.0,3353.0,3362.0,verb.perception,70,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+34,0,help,11.0,15.0,3375.0,3379.0,18,16.0,22.0,3380.0,3386.0,,,,,verb.social,69,direct_object,others,4.0,0.0,4.0,unknown,0.0,tertiary
+35,2,forbidden,57.0,66.0,3480.0,3489.0,29,67.0,70.0,3490.0,3493.0,71.0,108.0,3494.0,3531.0,verb.communication,72,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+36,3,give,46.0,50.0,3579.0,3583.0,29,51.0,54.0,3584.0,3587.0,,,,,verb.possession,74,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+36,3,give,46.0,50.0,3579.0,3583.0,152,51.0,54.0,3584.0,3587.0,,,,,verb.possession,74,direct_object,the young man from Plover,1.0,1.0,2.0,male,1.0,tertiary
+36,5,enable,75.0,81.0,3608.0,3614.0,29,82.0,85.0,3615.0,3618.0,,,,,verb.social,77,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+36,5,enable,75.0,81.0,3608.0,3614.0,152,82.0,85.0,3615.0,3618.0,,,,,verb.social,77,direct_object,the young man from Plover,1.0,1.0,2.0,male,1.0,tertiary
+36,6,see,89.0,92.0,3622.0,3625.0,152,93.0,96.0,3626.0,3629.0,97.0,111.0,3630.0,3644.0,verb.social,76,direct_object,the young man from Plover,1.0,1.0,2.0,male,1.0,tertiary
+38,1,stupefied,15.0,24.0,3669.0,3678.0,5,25.0,82.0,3679.0,3736.0,,,,,verb.communication,75,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+38,1,stupefied,15.0,24.0,3669.0,3678.0,36,25.0,82.0,3679.0,3736.0,,,,,verb.communication,75,direct_object,the beggar,1.0,0.0,1.0,unknown,0.0,tertiary
+38,2,discovering,28.0,39.0,3682.0,3693.0,5,40.0,82.0,3694.0,3736.0,,,,,verb.cognition,79,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+38,2,discovering,28.0,39.0,3682.0,3693.0,36,40.0,82.0,3694.0,3736.0,,,,,verb.cognition,79,direct_object,the beggar,1.0,0.0,1.0,unknown,0.0,tertiary
+38,3,knew,56.0,60.0,3710.0,3714.0,5,61.0,82.0,3715.0,3736.0,,,,,verb.cognition,78,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+38,5,hear,110.0,114.0,3764.0,3768.0,5,115.0,118.0,3769.0,3772.0,,,,,verb.perception,80,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+39,2,stick,62.0,67.0,3836.0,3841.0,29,68.0,70.0,3842.0,3844.0,,,,,verb.contact,82,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+39,5,obliged,108.0,115.0,3882.0,3889.0,7,116.0,172.0,3890.0,3946.0,,,,,verb.communication,83,direct_object,Mother Bourhis,1.0,1.0,2.0,female,1.0,tertiary
+39,7,go,147.0,149.0,3921.0,3923.0,7,160.0,163.0,3934.0,3937.0,,,,,verb.motion,84,direct_object,Mother Bourhis,1.0,1.0,2.0,female,1.0,tertiary
+39,8,count,154.0,159.0,3928.0,3933.0,7,160.0,172.0,3934.0,3946.0,,,,,verb.communication,81,direct_object,Mother Bourhis,1.0,1.0,2.0,female,1.0,tertiary
+41,1,nodded,18.0,24.0,4095.0,4101.0,5,25.0,35.0,4102.0,4112.0,,,,,verb.communication,86,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+42,0,stood,9.0,14.0,4136.0,4141.0,29,15.0,49.0,4142.0,4176.0,,,,,verb.contact,88,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+43,4,thought,59.0,66.0,4237.0,4244.0,29,67.0,83.0,4245.0,4261.0,,,,,verb.cognition,90,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+44,0,knew,22.0,26.0,4285.0,4289.0,29,27.0,82.0,4290.0,4345.0,,,,,verb.cognition,92,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+44,0,knew,22.0,26.0,4285.0,4289.0,39,27.0,82.0,4290.0,4345.0,,,,,verb.cognition,92,direct_object,The girl's common old woman who had given it to her,1.0,0.0,1.0,female,1.0,tertiary
+44,3,given,62.0,67.0,4325.0,4330.0,29,68.0,70.0,4331.0,4333.0,,,,,verb.possession,91,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+46,2,stuck,109.0,114.0,4640.0,4645.0,29,115.0,122.0,4646.0,4653.0,,,,,verb.contact,96,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+49,0,began,23.0,28.0,5004.0,5009.0,5,29.0,85.0,5010.0,5066.0,,,,,verb.change,99,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+49,2,made,68.0,72.0,5049.0,5053.0,5,73.0,85.0,5054.0,5066.0,,,,,verb.change,101,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+50,0,seemed,16.0,22.0,5084.0,5090.0,29,23.0,90.0,5091.0,5158.0,,,,,verb.perception,100,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+50,1,find,26.0,30.0,5094.0,5098.0,29,31.0,90.0,5099.0,5158.0,,,,,verb.perception,102,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+50,6,taught,108.0,114.0,5176.0,5182.0,29,115.0,118.0,5183.0,5186.0,,,,,verb.communication,104,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+50,6,taught,108.0,114.0,5176.0,5182.0,6,115.0,118.0,5183.0,5186.0,,,,,verb.communication,104,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,8,told,146.0,150.0,5214.0,5218.0,47,151.0,154.0,5219.0,5222.0,,,,,verb.communication,106,direct_object,a great man,1.0,0.0,1.0,male,1.0,tertiary
+50,8,told,146.0,150.0,5214.0,5218.0,29,151.0,154.0,5219.0,5222.0,,,,,verb.communication,106,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+50,8,told,146.0,150.0,5214.0,5218.0,6,151.0,154.0,5219.0,5222.0,,,,,verb.communication,106,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,12,had,218.0,221.0,5286.0,5289.0,29,222.0,248.0,5290.0,5316.0,,,,,verb.possession,107,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+50,13,say,238.0,241.0,5306.0,5309.0,29,242.0,248.0,5310.0,5316.0,,,,,verb.communication,109,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+50,15,talking,302.0,309.0,5370.0,5377.0,6,310.0,317.0,5378.0,5385.0,,,,,verb.communication,108,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+50,16,listening,330.0,339.0,5398.0,5407.0,49,340.0,355.0,5408.0,5423.0,,,,,verb.perception,110,direct_object,any one else,1.0,0.0,1.0,unknown,0.0,tertiary
+51,2,tell,71.0,75.0,5496.0,5500.0,5,76.0,83.0,5501.0,5508.0,,,,,verb.communication,113,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+51,2,tell,71.0,75.0,5496.0,5500.0,6,76.0,83.0,5501.0,5508.0,,,,,verb.communication,113,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,7,reproached,162.0,172.0,5587.0,5597.0,6,173.0,176.0,5598.0,5601.0,,,,,verb.emotion,115,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,10,saw,202.0,205.0,5627.0,5630.0,29,214.0,262.0,5639.0,5687.0,,,,,verb.cognition,117,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+51,10,saw,202.0,205.0,5627.0,5630.0,6,214.0,262.0,5639.0,5687.0,,,,,verb.cognition,117,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+51,11,cared,232.0,237.0,5657.0,5662.0,29,238.0,245.0,5663.0,5670.0,,,,,verb.emotion,116,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+51,11,cared,232.0,237.0,5657.0,5662.0,6,238.0,245.0,5663.0,5670.0,,,,,verb.emotion,116,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+52,2,waited,86.0,92.0,5775.0,5781.0,6,93.0,100.0,5782.0,5789.0,101.0,108.0,5790.0,5797.0,verb.cognition,118,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+52,3,put,114.0,117.0,5803.0,5806.0,29,118.0,131.0,5807.0,5820.0,,,,,verb.contact,120,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,0,stood,28.0,33.0,5901.0,5906.0,29,34.0,69.0,5907.0,5942.0,,,,,verb.contact,122,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,2,given,52.0,57.0,5925.0,5930.0,29,58.0,61.0,5931.0,5934.0,,,,,verb.possession,121,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,5,said,141.0,145.0,6014.0,6018.0,156,148.0,262.0,6021.0,6135.0,,,,,verb.communication,128,direct_object,The girl's pretty maiden,1.0,3.0,4.0,female,1.0,tertiary
+53,5,said,141.0,145.0,6014.0,6018.0,29,148.0,262.0,6021.0,6135.0,,,,,verb.communication,128,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+53,5,said,141.0,145.0,6014.0,6018.0,157,148.0,262.0,6021.0,6135.0,,,,,verb.communication,128,direct_object,The girl's pretty maiden's lover,1.0,0.0,1.0,unknown,0.0,tertiary
+53,6,looks,177.0,182.0,6050.0,6055.0,156,183.0,210.0,6056.0,6083.0,212.0,262.0,6085.0,6135.0,verb.body,127,direct_object,The girl's pretty maiden,1.0,3.0,4.0,female,1.0,tertiary
+53,8,meeting,224.0,231.0,6097.0,6104.0,157,232.0,241.0,6105.0,6114.0,242.0,262.0,,,verb.social,126,direct_object,The girl's pretty maiden's lover,1.0,0.0,1.0,unknown,0.0,tertiary
+53,8,meeting,224.0,231.0,6097.0,6104.0,156,232.0,241.0,6105.0,6114.0,242.0,262.0,,,verb.social,126,direct_object,The girl's pretty maiden,1.0,3.0,4.0,female,1.0,tertiary
+54,1,grown,8.0,13.0,6146.0,6151.0,5,14.0,25.0,6152.0,6163.0,,,,,verb.change,130,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+54,2,answered,28.0,36.0,6166.0,6174.0,5,37.0,44.0,6175.0,6182.0,45.0,65.0,,,verb.communication,132,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+56,2,see,44.0,47.0,6289.0,6292.0,6,48.0,51.0,6293.0,6296.0,,,,,verb.perception,133,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+56,5,amuse,71.0,76.0,6316.0,6321.0,6,77.0,80.0,6322.0,6325.0,,,,,verb.emotion,134,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+58,0,help,0.0,4.0,6378.0,6382.0,29,5.0,7.0,6383.0,6385.0,21.0,24.0,,,verb.social,136,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+60,0,cried,0.0,5.0,6430.0,6435.0,32,6.0,19.0,6436.0,6449.0,,,,,verb.communication,138,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+61,1,stick,29.0,34.0,6480.0,6485.0,158,35.0,37.0,6486.0,6488.0,,,,,verb.contact,139,direct_object,granny dear,1.0,4.0,5.0,unknown,0.0,tertiary
+62,0,blushing,0.0,8.0,6548.0,6556.0,5,9.0,22.0,6557.0,6570.0,,,,,verb.creation,140,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+62,2,stuck,45.0,50.0,6593.0,6598.0,55,51.0,62.0,6599.0,6610.0,,,,,verb.contact,142,direct_object,girls,1.0,0.0,1.0,female,1.0,tertiary
+63,0,heard,16.0,21.0,6701.0,6706.0,6,22.0,43.0,6707.0,6728.0,,,,,verb.perception,145,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+63,3,counting,72.0,80.0,6757.0,6765.0,27,81.0,93.0,6766.0,6778.0,,,,,verb.motion,143,direct_object,Tephany's aunt,5.0,4.0,9.0,female,1.0,tertiary
+63,5,meet,114.0,118.0,6799.0,6803.0,6,119.0,122.0,6804.0,6807.0,,,,,verb.social,146,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+64,1,struck,18.0,24.0,6827.0,6833.0,5,25.0,29.0,6834.0,6838.0,,,,,verb.emotion,148,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+66,3,learn,58.0,63.0,7067.0,7072.0,5,64.0,86.0,7073.0,7095.0,,,,,verb.cognition,151,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+66,3,learn,58.0,63.0,7067.0,7072.0,6,64.0,86.0,7073.0,7095.0,,,,,verb.cognition,151,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+66,5,teach,77.0,82.0,7086.0,7091.0,5,83.0,86.0,7092.0,7095.0,,,,,verb.communication,150,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+68,1,find,57.0,61.0,7255.0,7259.0,5,62.0,89.0,7260.0,7287.0,,,,,verb.perception,155,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+69,0,whispered,20.0,29.0,7309.0,7318.0,63,30.0,61.0,7319.0,7350.0,,,,,verb.communication,157,direct_object,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+69,3,resist,96.0,102.0,7385.0,7391.0,5,103.0,211.0,7392.0,7500.0,,,,,verb.competition,156,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+69,3,resist,96.0,102.0,7385.0,7391.0,64,103.0,211.0,7392.0,7500.0,,,,,verb.competition,156,direct_object,Tephany's people who despised her for her poor clothes,1.0,0.0,1.0,unknown,0.0,tertiary
+69,4,putting,119.0,126.0,7408.0,7415.0,5,127.0,138.0,7416.0,7427.0,,,,,verb.contact,159,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+69,5,despised,178.0,186.0,7467.0,7475.0,5,187.0,190.0,7476.0,7479.0,,,,,verb.emotion,158,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+69,7,made,241.0,245.0,7530.0,7534.0,63,246.0,256.0,7535.0,7545.0,,,,,verb.social,160,direct_object,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+70,0,heard,15.0,20.0,7562.0,7567.0,5,21.0,33.0,7568.0,7580.0,,,,,verb.cognition,161,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+70,1,shook,39.0,44.0,7586.0,7591.0,63,45.0,56.0,7592.0,7603.0,57.0,197.0,7604.0,7744.0,verb.communication,162,direct_object,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+70,2,saying,57.0,63.0,7604.0,7610.0,5,66.0,197.0,7613.0,7744.0,,,,,verb.communication,163,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+70,2,saying,57.0,63.0,7604.0,7610.0,160,66.0,197.0,7613.0,7744.0,,,,,verb.communication,163,direct_object,who will hold the reins and drive the horse,1.0,0.0,1.0,unknown,0.0,tertiary
+70,2,saying,57.0,63.0,7604.0,7610.0,159,66.0,197.0,7613.0,7744.0,,,,,verb.communication,163,direct_object,Tephany's man that marries her,1.0,0.0,1.0,male,1.0,tertiary
+70,4,marries,117.0,124.0,7664.0,7671.0,5,125.0,128.0,7672.0,7675.0,,,,,verb.communication,164,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+70,6,find,134.0,138.0,7681.0,7685.0,5,139.0,197.0,7686.0,7744.0,,,,,verb.cognition,165,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+70,6,find,134.0,138.0,7681.0,7685.0,160,139.0,197.0,7686.0,7744.0,,,,,verb.cognition,165,direct_object,who will hold the reins and drive the horse,1.0,0.0,1.0,unknown,0.0,tertiary
+71,1,began,29.0,34.0,7776.0,7781.0,63,35.0,53.0,7782.0,7800.0,,,,,verb.change,167,direct_object,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+71,2,agree,38.0,43.0,7785.0,7790.0,63,44.0,53.0,7791.0,7800.0,,,,,verb.communication,169,direct_object,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+71,6,became,112.0,118.0,7859.0,7865.0,5,119.0,151.0,7866.0,7898.0,,,,,verb.change,171,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+71,7,laughing,168.0,176.0,7915.0,7923.0,6,221.0,250.0,7968.0,7997.0,,,,,verb.body,172,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+71,10,thinking,252.0,260.0,7999.0,8007.0,6,261.0,290.0,8008.0,8037.0,,,,,verb.cognition,174,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+72,1,told,42.0,46.0,8081.0,8085.0,5,47.0,54.0,8086.0,8093.0,,,,,verb.communication,177,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+72,1,told,42.0,46.0,8081.0,8085.0,6,47.0,54.0,8086.0,8093.0,,,,,verb.communication,177,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+74,4,counting,43.0,51.0,8274.0,8282.0,6,68.0,78.0,8299.0,8309.0,,,,,verb.cognition,180,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+75,0,did,4.0,7.0,8315.0,8318.0,5,8.0,16.0,8319.0,8327.0,17.0,51.0,8328.0,8362.0,verb.social,181,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+75,1,persuade,20.0,28.0,8331.0,8339.0,5,29.0,32.0,8340.0,8343.0,,,,,verb.social,182,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+75,1,persuade,20.0,28.0,8331.0,8339.0,6,29.0,32.0,8340.0,8343.0,,,,,verb.social,182,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+76,0,know,7.0,11.0,8424.0,8428.0,6,12.0,56.0,8429.0,8473.0,,,,,verb.cognition,185,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+78,2,known,74.0,79.0,8611.0,8616.0,67,80.0,105.0,8617.0,8642.0,,,,,verb.cognition,186,direct_object,each other,1.0,0.0,1.0,unknown,0.0,tertiary
+79,2,answered,33.0,41.0,8677.0,8685.0,5,42.0,89.0,8686.0,8733.0,,,,,verb.communication,189,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+79,2,answered,33.0,41.0,8677.0,8685.0,6,42.0,89.0,8686.0,8733.0,,,,,verb.communication,189,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+79,4,see,74.0,77.0,8718.0,8721.0,5,78.0,89.0,8722.0,8733.0,,,,,verb.perception,188,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+79,7,watch,133.0,138.0,8777.0,8782.0,9,139.0,148.0,8783.0,8792.0,,,,,verb.perception,190,direct_object,Aziliez,4.0,2.0,6.0,female,1.0,tertiary
+81,0,cried,0.0,5.0,8806.0,8811.0,5,6.0,13.0,8812.0,8819.0,,,,,verb.communication,191,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+81,1,entering,19.0,27.0,8825.0,8833.0,5,28.0,37.0,8834.0,8843.0,,,,,verb.motion,192,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+81,2,slammed,42.0,49.0,8848.0,8855.0,5,50.0,69.0,8856.0,8875.0,,,,,verb.contact,193,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+83,0,flinging,6.0,14.0,8961.0,8969.0,5,15.0,26.0,8970.0,8981.0,27.0,40.0,,,verb.contact,195,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+83,1,put,46.0,49.0,9001.0,9004.0,5,50.0,58.0,9005.0,9013.0,,,,,verb.contact,196,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,3,said,51.0,55.0,9259.0,9263.0,5,56.0,63.0,9264.0,9271.0,,,,,verb.communication,201,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+87,5,beheld,99.0,105.0,9307.0,9313.0,32,106.0,127.0,9314.0,9335.0,,,,,verb.perception,204,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+87,6,leaning,120.0,127.0,9328.0,9335.0,32,128.0,140.0,9336.0,9348.0,,,,,verb.contact,203,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+88,5,continued,118.0,127.0,9468.0,9477.0,70,128.0,137.0,9478.0,9487.0,,,,,verb.communication,206,direct_object,the fairy,4.0,0.0,4.0,unknown,0.0,tertiary
+91,0,came,41.0,45.0,9769.0,9773.0,5,46.0,52.0,9774.0,9780.0,,,,,verb.perception,208,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+92,0,met,15.0,18.0,9887.0,9890.0,74,19.0,69.0,9891.0,9941.0,,,,,verb.motion,210,direct_object,a young man,1.0,3.0,4.0,male,1.0,tertiary
+95,3,compared,56.0,64.0,10060.0,10068.0,167,65.0,71.0,10069.0,10075.0,,,,,verb.cognition,211,direct_object,a lovely maiden,1.0,2.0,3.0,female,1.0,tertiary
+98,0,looked,8.0,14.0,10246.0,10252.0,5,15.0,107.0,10253.0,10345.0,,,,,verb.perception,215,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+98,0,looked,8.0,14.0,10246.0,10252.0,59,15.0,107.0,10253.0,10345.0,,,,,verb.perception,215,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+98,0,looked,8.0,14.0,10246.0,10252.0,172,15.0,107.0,10253.0,10345.0,,,,,verb.perception,215,direct_object,noble lord,1.0,0.0,1.0,unknown,0.0,tertiary
+98,1,answered,53.0,61.0,10291.0,10299.0,5,64.0,107.0,10302.0,10345.0,,,,,verb.communication,216,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+98,1,answered,53.0,61.0,10291.0,10299.0,59,64.0,107.0,10302.0,10345.0,,,,,verb.communication,216,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+98,1,answered,53.0,61.0,10291.0,10299.0,172,64.0,107.0,10302.0,10345.0,,,,,verb.communication,216,direct_object,noble lord,1.0,0.0,1.0,unknown,0.0,tertiary
+98,2,go,64.0,66.0,10302.0,10304.0,59,67.0,87.0,10305.0,10325.0,,,,,verb.motion,217,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+98,2,go,64.0,66.0,10302.0,10304.0,172,67.0,87.0,10305.0,10325.0,,,,,verb.motion,217,direct_object,noble lord,1.0,0.0,1.0,unknown,0.0,tertiary
+98,3,let,93.0,96.0,10331.0,10334.0,5,97.0,107.0,10335.0,10345.0,,,,,verb.social,218,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+98,4,go,100.0,102.0,10338.0,10340.0,5,103.0,107.0,10341.0,10345.0,,,,,verb.motion,220,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+100,3,make,32.0,36.0,10454.0,10458.0,5,37.0,53.0,10459.0,10475.0,,,,,verb.change,223,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+100,3,make,32.0,36.0,10454.0,10458.0,175,37.0,53.0,10459.0,10475.0,,,,,verb.change,223,direct_object,a great lady,2.0,0.0,2.0,female,1.0,tertiary
+100,4,said,56.0,60.0,10478.0,10482.0,59,61.0,63.0,10483.0,10485.0,65.0,119.0,10487.0,10541.0,verb.communication,222,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+100,5,taking,65.0,71.0,10487.0,10493.0,5,72.0,80.0,10494.0,10502.0,,,,,verb.contact,221,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+100,6,trying,85.0,91.0,10507.0,10513.0,5,92.0,119.0,10514.0,10541.0,,,,,verb.social,224,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+100,7,lead,95.0,99.0,10517.0,10521.0,5,100.0,103.0,10522.0,10525.0,,,,,verb.motion,225,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+101,1,want,9.0,13.0,10552.0,10556.0,175,14.0,32.0,10557.0,10575.0,,,,,verb.emotion,226,direct_object,a great lady,2.0,0.0,2.0,female,1.0,tertiary
+101,3,want,41.0,45.0,10584.0,10588.0,177,46.0,69.0,10589.0,10612.0,,,,,verb.emotion,227,direct_object,the wife of Denis,1.0,0.0,1.0,female,1.0,tertiary
+101,3,want,41.0,45.0,10584.0,10588.0,6,46.0,69.0,10589.0,10612.0,,,,,verb.emotion,227,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+101,5,replied,76.0,83.0,10619.0,10626.0,59,85.0,197.0,10628.0,10740.0,,,,,verb.communication,228,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+101,7,running,111.0,118.0,10654.0,10661.0,59,119.0,197.0,10662.0,10740.0,,,,,verb.motion,231,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+102,0,guessed,24.0,31.0,10766.0,10773.0,5,32.0,50.0,10774.0,10792.0,,,,,verb.cognition,233,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+102,4,seized,86.0,92.0,10828.0,10834.0,5,93.0,96.0,10835.0,10838.0,,,,,verb.contact,234,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+102,5,put,101.0,104.0,10843.0,10846.0,5,105.0,108.0,10847.0,10850.0,,,,,verb.contact,235,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+104,0,arrived,27.0,34.0,10954.0,10961.0,5,35.0,192.0,10962.0,11119.0,,,,,verb.motion,236,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+104,0,arrived,27.0,34.0,10954.0,10961.0,86,35.0,192.0,10962.0,11119.0,,,,,verb.motion,236,direct_object,a priest,1.0,0.0,1.0,unknown,0.0,tertiary
+105,0,tried,14.0,19.0,11135.0,11140.0,5,20.0,110.0,11141.0,11231.0,,,,,verb.social,241,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,0,tried,14.0,19.0,11135.0,11140.0,59,20.0,110.0,11141.0,11231.0,,,,,verb.social,241,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+105,0,tried,14.0,19.0,11135.0,11140.0,88,20.0,110.0,11141.0,11231.0,,,,,verb.social,241,direct_object,the young man's wife,1.0,0.0,1.0,female,1.0,tertiary
+105,1,win,23.0,26.0,11144.0,11147.0,5,27.0,43.0,11148.0,11164.0,44.0,110.0,11165.0,11231.0,verb.emotion,242,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,2,telling,47.0,54.0,11168.0,11175.0,5,55.0,110.0,11176.0,11231.0,,,,,verb.communication,244,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+105,2,telling,47.0,54.0,11168.0,11175.0,59,55.0,110.0,11176.0,11231.0,,,,,verb.communication,244,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+105,2,telling,47.0,54.0,11168.0,11175.0,88,55.0,110.0,11176.0,11231.0,,,,,verb.communication,244,direct_object,the young man's wife,1.0,0.0,1.0,female,1.0,tertiary
+105,6,listen,132.0,138.0,11253.0,11259.0,59,139.0,145.0,11260.0,11266.0,,,,,verb.perception,245,direct_object,the young man,4.0,9.0,13.0,male,1.0,tertiary
+105,8,see,167.0,170.0,11288.0,11291.0,5,171.0,219.0,11292.0,11340.0,,,,,verb.communication,247,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+108,0,touching,0.0,8.0,11622.0,11630.0,5,9.0,48.0,11631.0,11670.0,,,,,verb.contact,252,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+108,0,touching,0.0,8.0,11622.0,11630.0,29,9.0,48.0,11631.0,11670.0,,,,,verb.contact,252,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+108,1,fastened,30.0,38.0,11652.0,11660.0,5,39.0,48.0,11661.0,11670.0,,,,,verb.contact,251,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+108,5,knowing,163.0,170.0,11785.0,11792.0,5,171.0,192.0,11793.0,11814.0,,,,,verb.cognition,254,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+110,0,found,15.0,20.0,11890.0,11895.0,5,21.0,28.0,11896.0,11903.0,29.0,53.0,11904.0,11928.0,verb.perception,256,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+110,1,asked,59.0,64.0,11934.0,11939.0,5,65.0,101.0,11940.0,11976.0,,,,,verb.communication,257,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+111,0,answered,17.0,25.0,11995.0,12003.0,5,26.0,87.0,12004.0,12065.0,,,,,verb.communication,258,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+111,0,answered,17.0,25.0,11995.0,12003.0,94,26.0,87.0,12004.0,12065.0,,,,,verb.communication,258,direct_object,beggars,1.0,0.0,1.0,unknown,0.0,tertiary
+111,2,bade,72.0,76.0,12050.0,12054.0,5,77.0,87.0,12055.0,12065.0,,,,,verb.communication,259,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+111,3,dragged,106.0,113.0,12084.0,12091.0,95,114.0,121.0,12092.0,12099.0,122.0,213.0,12100.0,12191.0,verb.contact,260,direct_object,the poor girl,1.0,3.0,4.0,female,1.0,tertiary
+111,4,told,180.0,184.0,12158.0,12162.0,95,185.0,188.0,12163.0,12166.0,,,,,verb.communication,261,direct_object,the poor girl,1.0,3.0,4.0,female,1.0,tertiary
+114,0,heard,18.0,23.0,12303.0,12308.0,105,24.0,90.0,12309.0,12375.0,,,,,verb.perception,262,direct_object,the good wife,1.0,0.0,1.0,female,1.0,tertiary
+114,0,heard,18.0,23.0,12303.0,12308.0,5,24.0,90.0,12309.0,12375.0,,,,,verb.perception,262,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+114,2,given,48.0,53.0,12333.0,12338.0,105,54.0,90.0,12339.0,12375.0,,,,,verb.possession,263,direct_object,the good wife,1.0,0.0,1.0,female,1.0,tertiary
+114,6,invite,118.0,124.0,12403.0,12409.0,5,125.0,135.0,12410.0,12420.0,155.0,194.0,12440.0,12479.0,verb.emotion,266,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+114,8,turned,174.0,180.0,12459.0,12465.0,29,181.0,201.0,12466.0,12486.0,,,,,verb.motion,265,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+114,9,began,203.0,208.0,12488.0,12493.0,29,209.0,254.0,12494.0,12539.0,,,,,verb.change,267,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+115,2,pelted,77.0,83.0,12618.0,12624.0,5,84.0,91.0,12625.0,12632.0,92.0,112.0,12633.0,12653.0,verb.communication,269,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+116,1,hoping,39.0,45.0,12694.0,12700.0,106,46.0,89.0,12701.0,12744.0,,,,,verb.emotion,271,direct_object,the young men,1.0,3.0,4.0,male,1.0,tertiary
+116,2,escape,49.0,55.0,12704.0,12710.0,106,56.0,60.0,12711.0,12715.0,61.0,89.0,12716.0,12744.0,verb.motion,272,direct_object,the young men,1.0,3.0,4.0,male,1.0,tertiary
+116,3,heard,113.0,118.0,12768.0,12773.0,5,119.0,145.0,12774.0,12800.0,,,,,verb.perception,273,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+116,3,heard,113.0,118.0,12768.0,12773.0,106,119.0,145.0,12774.0,12800.0,,,,,verb.perception,273,direct_object,the young men,1.0,3.0,4.0,male,1.0,tertiary
+117,1,bethought,62.0,71.0,12864.0,12873.0,5,72.0,79.0,12874.0,12881.0,,,,,verb.creation,275,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+118,6,heard,132.0,137.0,13031.0,13036.0,5,138.0,197.0,13037.0,13096.0,,,,,verb.perception,278,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+118,7,pursuing,163.0,171.0,13062.0,13070.0,5,172.0,175.0,13071.0,13074.0,,,,,verb.motion,279,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+119,1,knowing,22.0,29.0,13148.0,13155.0,5,30.0,49.0,13156.0,13175.0,,,,,verb.cognition,282,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,0,felt,21.0,25.0,13274.0,13278.0,5,26.0,150.0,13279.0,13403.0,,,,,verb.body,284,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,0,felt,21.0,25.0,13274.0,13278.0,6,26.0,150.0,13279.0,13403.0,,,,,verb.body,284,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+120,2,get,69.0,72.0,13322.0,13325.0,5,81.0,89.0,13334.0,13342.0,,,,,verb.perception,286,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,3,make,98.0,102.0,13351.0,13355.0,5,103.0,150.0,13356.0,13403.0,,,,,verb.change,287,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+120,3,make,98.0,102.0,13351.0,13355.0,6,103.0,150.0,13356.0,13403.0,,,,,verb.change,287,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+123,2,lift,123.0,127.0,13729.0,13733.0,5,128.0,130.0,13734.0,13736.0,,,,,verb.contact,291,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+124,3,whispered,40.0,49.0,13821.0,13830.0,5,50.0,60.0,13831.0,13841.0,62.0,99.0,13843.0,13880.0,verb.communication,293,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+125,1,see,23.0,26.0,13905.0,13908.0,5,27.0,61.0,13909.0,13943.0,,,,,verb.perception,294,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+125,1,see,23.0,26.0,13905.0,13908.0,6,27.0,61.0,13909.0,13943.0,,,,,verb.perception,294,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+125,7,brought,158.0,165.0,14040.0,14047.0,5,166.0,168.0,14048.0,14050.0,,,,,verb.creation,296,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+125,7,brought,158.0,165.0,14040.0,14047.0,18,166.0,168.0,14048.0,14050.0,,,,,verb.creation,296,direct_object,others,4.0,0.0,4.0,unknown,0.0,tertiary
+125,8,make,207.0,211.0,14089.0,14093.0,18,212.0,249.0,14094.0,14131.0,,,,,verb.change,292,direct_object,others,4.0,0.0,4.0,unknown,0.0,tertiary
+127,1,beg,19.0,22.0,14156.0,14159.0,70,23.0,32.0,14160.0,14169.0,,,,,verb.communication,297,direct_object,the fairy,4.0,0.0,4.0,unknown,0.0,tertiary
+128,1,said,16.0,20.0,14264.0,14268.0,32,21.0,100.0,14269.0,14348.0,,,,,verb.communication,301,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+128,1,said,16.0,20.0,14264.0,14268.0,5,21.0,100.0,14269.0,14348.0,,,,,verb.communication,301,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+128,2,seemed,53.0,59.0,14301.0,14307.0,5,60.0,100.0,14308.0,14348.0,,,,,verb.perception,300,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+128,4,standing,66.0,74.0,14314.0,14322.0,5,75.0,81.0,14323.0,14329.0,,,,,verb.contact,299,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+129,0,look,8.0,12.0,14358.0,14362.0,5,13.0,38.0,14363.0,14388.0,39.0,55.0,14389.0,14405.0,verb.perception,302,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+130,0,rub,0.0,3.0,14433.0,14436.0,5,4.0,13.0,14437.0,14446.0,14.0,43.0,,,verb.contact,304,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+130,3,see,58.0,61.0,14491.0,14494.0,5,62.0,108.0,14495.0,14541.0,,,,,verb.cognition,307,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+131,1,understand,29.0,39.0,14573.0,14583.0,32,40.0,54.0,14584.0,14598.0,,,,,verb.cognition,306,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+131,5,began,107.0,112.0,14651.0,14656.0,5,113.0,156.0,14657.0,14700.0,,,,,verb.change,308,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+133,1,rubbing,22.0,29.0,14790.0,14797.0,5,30.0,38.0,14798.0,14806.0,39.0,84.0,14807.0,14852.0,verb.contact,310,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,2,obliged,24.0,31.0,14878.0,14885.0,5,32.0,67.0,14886.0,14921.0,,,,,verb.communication,311,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,3,leave,35.0,40.0,14889.0,14894.0,5,41.0,49.0,14895.0,14903.0,,,,,verb.social,313,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,4,pass,54.0,58.0,14908.0,14912.0,5,59.0,67.0,14913.0,14921.0,,,,,verb.possession,314,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,6,know,81.0,85.0,14935.0,14939.0,5,86.0,215.0,14940.0,15069.0,,,,,verb.cognition,315,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+134,6,know,81.0,85.0,14935.0,14939.0,117,86.0,215.0,14940.0,15069.0,,,,,verb.cognition,315,direct_object,a labourer,1.0,0.0,1.0,unknown,0.0,tertiary
+134,11,get,158.0,161.0,15012.0,15015.0,117,162.0,172.0,15016.0,15026.0,173.0,215.0,15027.0,15069.0,verb.change,316,direct_object,a labourer,1.0,0.0,1.0,unknown,0.0,tertiary
+135,0,saw,21.0,24.0,15092.0,15095.0,5,25.0,69.0,15096.0,15140.0,,,,,verb.perception,318,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+135,0,saw,21.0,24.0,15092.0,15095.0,14,25.0,69.0,15096.0,15140.0,,,,,verb.perception,318,direct_object,"a woman named Barbaik Bourhis , who spent all her days in looking after her farm with the help of her niece Tephany's niece",3.0,14.0,17.0,female,1.0,tertiary
+135,1,standing,35.0,43.0,15106.0,15114.0,5,52.0,69.0,15123.0,15140.0,,,,,verb.contact,317,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+140,1,control,53.0,60.0,15470.0,15477.0,5,61.0,68.0,15478.0,15485.0,69.0,78.0,,,verb.social,323,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+142,2,threw,73.0,78.0,15695.0,15700.0,5,79.0,86.0,15701.0,15708.0,100.0,130.0,15722.0,15752.0,verb.contact,327,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+143,3,came,57.0,61.0,15811.0,15815.0,6,62.0,67.0,15816.0,15821.0,,,,,verb.motion,330,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+146,0,asked,3.0,8.0,15860.0,15865.0,5,10.0,134.0,15867.0,15991.0,,,,,verb.communication,331,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+146,0,asked,3.0,8.0,15860.0,15865.0,29,10.0,134.0,15867.0,15991.0,,,,,verb.communication,331,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+146,0,asked,3.0,8.0,15860.0,15865.0,6,10.0,134.0,15867.0,15991.0,,,,,verb.communication,331,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+146,1,falling,10.0,17.0,15867.0,15874.0,6,18.0,20.0,15875.0,15877.0,31.0,35.0,15888.0,15892.0,verb.motion,332,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+146,2,looking,41.0,48.0,15898.0,15905.0,5,49.0,62.0,15906.0,15919.0,,,,,verb.perception,335,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+146,2,looking,41.0,48.0,15898.0,15905.0,6,49.0,62.0,15906.0,15919.0,,,,,verb.perception,335,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+146,3,perceived,66.0,75.0,15923.0,15932.0,29,76.0,82.0,15933.0,15939.0,,,,,verb.perception,334,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+146,4,rolling,104.0,111.0,15961.0,15968.0,29,117.0,134.0,15974.0,15991.0,,,,,verb.motion,333,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+147,1,let,18.0,21.0,16011.0,16014.0,186,22.0,54.0,16015.0,16047.0,,,,,verb.communication,336,direct_object,any of the neighbours,1.0,0.0,1.0,unknown,0.0,tertiary
+147,1,let,18.0,21.0,16011.0,16014.0,63,22.0,54.0,16015.0,16047.0,,,,,verb.communication,336,direct_object,the neighbours,2.0,6.0,8.0,group/nonbinary,1.0,tertiary
+147,3,said,64.0,68.0,16057.0,16061.0,4,69.0,76.0,16062.0,16069.0,,,,,verb.communication,338,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+148,1,have,21.0,25.0,16092.0,16096.0,6,26.0,36.0,16097.0,16107.0,,,,,verb.possession,339,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+149,2,continued,30.0,39.0,16179.0,16188.0,5,40.0,50.0,16189.0,16199.0,,,,,verb.communication,341,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,4,caught,108.0,114.0,16449.0,16455.0,5,115.0,122.0,16456.0,16463.0,123.0,138.0,16464.0,16479.0,verb.contact,346,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,6,said,144.0,148.0,16485.0,16489.0,5,149.0,299.0,16490.0,16640.0,,,,,verb.communication,347,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,6,said,144.0,148.0,16485.0,16489.0,29,149.0,299.0,16490.0,16640.0,,,,,verb.communication,347,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+152,6,said,144.0,148.0,16485.0,16489.0,4,149.0,299.0,16490.0,16640.0,,,,,verb.communication,347,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+152,7,thought,185.0,192.0,16526.0,16533.0,29,193.0,226.0,16534.0,16567.0,,,,,verb.cognition,348,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+152,9,make,199.0,203.0,16540.0,16544.0,29,204.0,226.0,16545.0,16567.0,,,,,verb.change,349,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+152,11,forced,258.0,264.0,16599.0,16605.0,5,265.0,279.0,16606.0,16620.0,,,,,verb.motion,351,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+152,12,wiped,285.0,290.0,16626.0,16631.0,5,291.0,299.0,16632.0,16640.0,,,,,verb.contact,353,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+156,1,think,7.0,12.0,16745.0,16750.0,29,13.0,54.0,16751.0,16792.0,,,,,verb.cognition,354,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+156,4,beat,37.0,41.0,16775.0,16779.0,29,42.0,45.0,16780.0,16783.0,46.0,54.0,,,verb.social,355,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+157,0,added,4.0,9.0,16799.0,16804.0,6,10.0,38.0,16805.0,16833.0,,,,,verb.communication,356,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+157,1,shook,24.0,29.0,16819.0,16824.0,6,30.0,38.0,16825.0,16833.0,,,,,verb.body,357,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+160,2,said,27.0,31.0,16961.0,16965.0,4,32.0,97.0,16966.0,17031.0,,,,,verb.communication,359,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+161,1,leaving,21.0,28.0,17054.0,17061.0,5,29.0,36.0,17062.0,17069.0,,,,,verb.motion,360,direct_object,Tephany,42.0,167.0,209.0,female,1.0,primary
+161,1,leaving,21.0,28.0,17054.0,17061.0,15,29.0,36.0,17062.0,17069.0,,,,,verb.motion,360,direct_object,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+162,0,sat,4.0,7.0,17087.0,17090.0,4,20.0,32.0,17103.0,17115.0,34.0,106.0,17117.0,17189.0,verb.contact,362,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+163,0,raised,12.0,18.0,17203.0,17209.0,4,19.0,160.0,17210.0,17351.0,,,,,verb.motion,365,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+163,0,raised,12.0,18.0,17203.0,17209.0,70,19.0,160.0,17210.0,17351.0,,,,,verb.motion,365,direct_object,the fairy,4.0,0.0,4.0,unknown,0.0,tertiary
+163,5,observing,127.0,136.0,17318.0,17327.0,4,137.0,140.0,17328.0,17331.0,141.0,160.0,,,verb.perception,367,direct_object,Barbaik Bourhis,13.0,26.0,39.0,female,1.0,tertiary
+164,2,taking,39.0,45.0,17392.0,17398.0,29,46.0,79.0,17399.0,17432.0,,,,,verb.contact,369,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+164,3,held,85.0,89.0,17438.0,17442.0,32,90.0,94.0,17443.0,17447.0,95.0,98.0,17448.0,17451.0,verb.contact,370,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+167,0,let,0.0,3.0,17532.0,17535.0,29,4.0,27.0,17536.0,17559.0,,,,,verb.social,372,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+167,0,let,0.0,3.0,17532.0,17535.0,15,4.0,27.0,17536.0,17559.0,,,,,verb.social,372,direct_object,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+167,1,see,13.0,16.0,17545.0,17548.0,15,17.0,21.0,17549.0,17553.0,22.0,27.0,17554.0,17559.0,verb.perception,375,direct_object,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+167,3,learned,40.0,47.0,17572.0,17579.0,29,48.0,78.0,17580.0,17610.0,,,,,verb.cognition,374,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+167,3,learned,40.0,47.0,17572.0,17579.0,15,48.0,78.0,17580.0,17610.0,,,,,verb.cognition,374,direct_object,the two,2.0,7.0,9.0,group/nonbinary,1.0,tertiary
+167,4,taught,69.0,75.0,17601.0,17607.0,29,76.0,78.0,17608.0,17610.0,,,,,verb.communication,373,direct_object,The girl,9.0,68.0,77.0,female,1.0,secondary
+169,1,learned,15.0,22.0,17779.0,17786.0,6,23.0,34.0,17787.0,17798.0,,,,,verb.cognition,378,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+169,2,answered,37.0,45.0,17801.0,17809.0,70,46.0,55.0,17810.0,17819.0,,,,,verb.communication,379,direct_object,the fairy,4.0,0.0,4.0,unknown,0.0,tertiary
+169,5,marry,101.0,106.0,17865.0,17870.0,194,107.0,123.0,17871.0,17887.0,,,,,verb.social,382,direct_object,Denis's man you love,1.0,1.0,2.0,male,1.0,tertiary
+169,5,marry,101.0,106.0,17865.0,17870.0,6,107.0,123.0,17871.0,17887.0,,,,,verb.social,382,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+171,1,see,24.0,27.0,17972.0,17975.0,32,28.0,41.0,17976.0,17989.0,,,,,verb.perception,383,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+171,2,forgave,51.0,58.0,17999.0,18006.0,32,59.0,64.0,18007.0,18012.0,,,,,verb.cognition,385,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+171,2,forgave,51.0,58.0,17999.0,18006.0,6,59.0,64.0,18007.0,18012.0,,,,,verb.cognition,385,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+171,3,selling,69.0,76.0,18017.0,18024.0,32,77.0,86.0,18025.0,18034.0,,,,,verb.possession,384,direct_object,The old woman,9.0,15.0,24.0,female,1.0,tertiary
+171,4,grew,103.0,107.0,18051.0,18055.0,131,108.0,159.0,18056.0,18107.0,,,,,verb.change,386,direct_object,a good husband,1.0,0.0,1.0,male,1.0,tertiary
+171,4,grew,103.0,107.0,18051.0,18055.0,6,108.0,159.0,18056.0,18107.0,,,,,verb.change,386,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary
+171,6,did,134.0,137.0,18082.0,18085.0,6,138.0,159.0,18086.0,18107.0,,,,,verb.social,387,direct_object,Denis,21.0,66.0,87.0,male,1.0,secondary

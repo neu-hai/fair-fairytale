@@ -1,0 +1,33 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,loved,53,58,53,58,4.0,27.0,47.0,27.0,47.0,,,,,verb.emotion,True,0,subject,an old Buddhist monk,1.0,7.0,8.0,male,1.0,secondary
+1,1,saw,75,78,162,165,4.0,72.0,74.0,159.0,161.0,,,,,verb.perception,True,1,subject,an old Buddhist monk,1.0,7.0,8.0,male,1.0,secondary
+2,2,see,35,38,266,269,6.0,25.0,28.0,256.0,259.0,,,,,verb.perception,True,2,subject,,,,,,,
+3,2,saw,36,39,347,350,4.0,33.0,35.0,344.0,346.0,,,,,verb.perception,True,3,subject,an old Buddhist monk,1.0,7.0,8.0,male,1.0,secondary
+4,0,stood,16,21,475,480,8.0,12.0,15.0,471.0,474.0,,,,,verb.contact,True,4,subject,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+7,4,pursuing,69,77,615,623,24.0,60.0,65.0,606.0,611.0,,,,,verb.motion,True,7,subject,A man,1.0,1.0,2.0,male,1.0,tertiary
+8,3,seen,34,38,662,666,9.0,21.0,24.0,649.0,652.0,,,,,verb.perception,True,6,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+9,0,ran,14,17,730,733,8.0,10.0,13.0,726.0,729.0,,,,,verb.motion,True,9,subject,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+10,1,gone,18,22,795,799,9.0,5.0,13.0,782.0,790.0,,,,,verb.motion,True,10,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+14,1,seen,10,14,1119,1123,9.0,6.0,9.0,1115.0,1118.0,,,,,verb.perception,True,11,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+16,2,seen,38,42,1209,1213,9.0,31.0,33.0,1202.0,1204.0,,,,,verb.perception,True,13,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+19,1,slain,15,20,1425,1430,16.0,0.0,1.0,1410.0,1411.0,,,,,verb.competition,True,12,subject,the other,1.0,3.0,4.0,unknown,0.0,secondary
+21,0,gave,35,39,1570,1574,31.0,11.0,34.0,1546.0,1569.0,,,,,verb.possession,True,15,subject,the Lord of the Heavens,1.0,0.0,1.0,unknown,0.0,tertiary
+23,3,sinning,49,56,1786,1793,9.0,41.0,44.0,1778.0,1781.0,,,,,verb.social,True,17,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+24,2,deceive,32,39,1850,1857,9.0,10.0,18.0,1828.0,1836.0,,,,,verb.social,True,18,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+25,0,dismounted,27,37,1922,1932,19.0,0.0,26.0,1895.0,1921.0,,,,,verb.motion,True,19,subject,The messenger of the skies,1.0,0.0,1.0,unknown,0.0,tertiary
+27,0,looked,9,15,2094,2100,9.0,0.0,8.0,2085.0,2093.0,,,,,verb.perception,True,21,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+31,3,captured,46,54,2341,2349,21.0,0.0,8.0,2295.0,2303.0,,,,,verb.competition,True,20,subject,The ogre,1.0,0.0,1.0,unknown,0.0,tertiary
+32,0,told,19,23,2370,2374,9.0,10.0,18.0,2361.0,2369.0,,,,,verb.communication,True,22,subject,the monk,6.0,8.0,14.0,male,1.0,primary
+3,2,saw,36,39,347,350,8.0,56.0,146.0,367.0,457.0,,,,,verb.perception,True,3,direct_object,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+4,0,stood,16,21,475,480,4.0,22.0,32.0,481.0,491.0,,,,,verb.contact,True,4,direct_object,an old Buddhist monk,1.0,7.0,8.0,male,1.0,secondary
+5,1,save,21,25,514,518,8.0,26.0,33.0,519.0,526.0,,,,,verb.possession,True,5,direct_object,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+6,0,said,0,4,529,533,4.0,5.0,8.0,534.0,537.0,,,,,verb.communication,True,8,direct_object,an old Buddhist monk,1.0,7.0,8.0,male,1.0,secondary
+6,0,said,0,4,529,533,8.0,5.0,8.0,534.0,537.0,,,,,verb.communication,True,8,direct_object,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+7,4,pursuing,69,77,615,623,8.0,78.0,80.0,624.0,626.0,,,,,verb.motion,True,7,direct_object,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+8,3,seen,34,38,662,666,8.0,39.0,41.0,667.0,669.0,,,,,verb.perception,True,6,direct_object,"a girl in a red coat , barefoot , and with unbound hair , who was running as fast as the wind",1.0,11.0,12.0,female,1.0,primary
+14,1,seen,10,14,1119,1123,25.0,15.0,39.0,1124.0,1148.0,,,,,verb.perception,True,11,direct_object,the girl in the red coat,1.0,0.0,1.0,female,1.0,tertiary
+15,0,asked,0,5,1151,1156,14.0,6.0,18.0,1157.0,1169.0,,,,,verb.communication,True,14,direct_object,the stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+19,1,slain,15,20,1425,1430,29.0,21.0,47.0,1431.0,1457.0,,,,,verb.competition,True,12,direct_object,flying ogres,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+21,0,gave,35,39,1570,1574,16.0,40.0,42.0,1575.0,1577.0,,,,,verb.possession,True,15,direct_object,the other,1.0,3.0,4.0,unknown,0.0,secondary
+22,1,catch,62,67,1717,1722,33.0,68.0,80.0,1723.0,1735.0,,,,,verb.contact,True,16,direct_object,this monster,1.0,0.0,1.0,unknown,0.0,tertiary
+32,0,told,19,23,2370,2374,23.0,24.0,32.0,2375.0,2383.0,,,,,verb.communication,True,22,direct_object,the scholar who wrote it down,1.0,0.0,1.0,unknown,0.0,tertiary

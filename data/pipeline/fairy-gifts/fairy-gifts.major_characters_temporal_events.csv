@@ -1,0 +1,126 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,reflect,48,55,48,55,7,26.0,47.0,26.0,47.0,,,,,verb.perception,True,0,subject,people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+3,1,loved,62,67,371,376,10,52.0,61.0,361.0,370.0,,,,,verb.emotion,True,1,subject,everybody,1.0,0.0,1.0,unknown,0.0,tertiary
+5,2,left,54,58,565,569,11,0.0,4.0,511.0,515.0,63.0,127.0,574.0,638.0,verb.possession,True,2,subject,All the young princes,1.0,4.0,5.0,male,1.0,tertiary
+8,0,loved,10,15,791,796,16,0.0,9.0,781.0,790.0,20.0,79.0,801.0,860.0,verb.emotion,True,6,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+9,1,reached,15,22,877,884,16,0.0,3.0,862.0,865.0,,,,,verb.motion,True,5,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+11,3,send,63,67,1117,1121,16,47.0,50.0,1101.0,1104.0,,,,,verb.motion,True,7,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+12,6,send,105,109,1248,1252,16,91.0,92.0,1234.0,1235.0,,,,,verb.motion,True,8,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+13,1,receive,9,16,1288,1295,3,0.0,3.0,1279.0,1282.0,35.0,70.0,1314.0,1349.0,verb.possession,True,9,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+14,4,tell,71,75,1422,1426,2,64.0,67.0,1415.0,1418.0,,,,,verb.communication,True,11,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+15,3,said,69,73,1523,1527,2,65.0,68.0,1519.0,1522.0,,,,,verb.communication,True,10,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+16,1,stepped,39,46,1576,1583,2,35.0,38.0,1572.0,1575.0,56.0,82.0,1593.0,1619.0,verb.motion,True,12,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+18,3,received,58,66,1797,1805,44,33.0,48.0,1772.0,1787.0,,,,,verb.possession,True,13,subject,child,2.0,7.0,9.0,unknown,0.0,tertiary
+19,0,sent,5,9,1813,1817,1,1.0,4.0,1809.0,1812.0,,,,,verb.motion,True,15,subject,the Flower - Fairy,4.0,14.0,18.0,female,1.0,tertiary
+20,0,tells,10,15,1925,1930,3,0.0,3.0,1915.0,1918.0,24.0,107.0,1939.0,2022.0,verb.communication,True,17,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+21,3,deprived,86,94,2110,2118,2,21.0,69.0,2045.0,2093.0,,,,,verb.consumption,True,16,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+21,3,deprived,86,94,2110,2118,3,21.0,69.0,2045.0,2093.0,,,,,verb.consumption,True,16,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+23,1,became,51,57,2339,2345,3,47.0,50.0,2335.0,2338.0,,,,,verb.change,True,19,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+24,0,recovered,21,30,2382,2391,3,7.0,10.0,2368.0,2371.0,,,,,verb.body,True,20,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+25,1,tell,20,24,2506,2510,3,0.0,3.0,2486.0,2489.0,,,,,verb.communication,True,21,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+26,1,need,22,26,2613,2617,3,13.0,16.0,2604.0,2607.0,30.0,85.0,2621.0,2676.0,verb.consumption,True,22,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+27,4,think,97,102,2857,2862,2,82.0,83.0,2842.0,2843.0,,,,,verb.cognition,True,23,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+28,4,begs,101,105,2986,2990,3,97.0,100.0,2982.0,2985.0,,,,,verb.communication,True,25,subject,Iris,1.0,33.0,34.0,female,1.0,secondary
+29,1,told,10,14,3016,3020,16,1.0,4.0,3007.0,3010.0,,,,,verb.communication,True,24,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+30,1,help,9,13,3085,3089,16,0.0,1.0,3076.0,3077.0,,,,,verb.social,True,27,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+31,2,given,16,21,3111,3116,16,0.0,8.0,3095.0,3103.0,,,,,verb.possession,True,26,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+32,1,sent,86,90,3214,3218,16,82.0,85.0,3210.0,3213.0,102.0,107.0,3230.0,3235.0,verb.motion,True,28,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+33,0,told,4,8,3241,3245,16,0.0,3.0,3237.0,3240.0,,,,,verb.communication,True,29,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+34,0,whisked,28,35,3339,3346,5,0.0,27.0,3311.0,3338.0,,,,,verb.motion,True,30,subject,Accordingly,1.0,0.0,1.0,unknown,0.0,tertiary
+35,6,sent,139,143,3540,3544,2,126.0,129.0,3527.0,3530.0,,,,,verb.motion,True,31,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+36,2,return,36,42,3606,3612,2,17.0,20.0,3587.0,3590.0,,,,,verb.motion,True,33,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+38,1,sent,37,41,3656,3660,16,33.0,36.0,3652.0,3655.0,48.0,57.0,3667.0,3676.0,verb.motion,True,32,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+41,2,remember,76,84,3800,3808,16,74.0,75.0,3798.0,3799.0,,,,,verb.cognition,True,35,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+43,1,speaks,21,27,3937,3943,2,17.0,20.0,3933.0,3936.0,,,,,verb.communication,True,36,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+44,4,amused,70,76,4057,4063,51,59.0,62.0,4046.0,4049.0,,,,,verb.emotion,True,38,subject,,,,,,,
+45,0,loves,21,26,4122,4127,2,17.0,20.0,4118.0,4121.0,,,,,verb.emotion,True,39,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+46,1,talk,27,31,4209,4213,2,19.0,22.0,4201.0,4204.0,,,,,verb.communication,True,40,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+47,2,begin,49,54,4302,4307,2,33.0,36.0,4286.0,4289.0,88.0,106.0,4341.0,4359.0,verb.change,True,41,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+49,3,tell,37,41,4402,4406,16,0.0,27.0,4365.0,4392.0,,,,,verb.communication,True,43,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+50,0,smiled,10,16,4423,4429,16,0.0,9.0,4413.0,4422.0,,,,,verb.body,True,42,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+51,2,sent,48,52,4532,4536,16,44.0,47.0,4528.0,4531.0,,,,,verb.motion,True,44,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+52,1,feels,90,95,4706,4711,51,86.0,89.0,4702.0,4705.0,,,,,verb.cognition,True,45,subject,,,,,,,
+53,1,hear,36,40,4789,4793,16,0.0,9.0,4753.0,4762.0,,,,,verb.perception,True,46,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+56,3,ask,42,45,5127,5130,2,34.0,35.0,5119.0,5120.0,,,,,verb.communication,True,50,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+57,1,altered,10,17,5158,5165,2,6.0,9.0,5154.0,5157.0,29.0,33.0,5177.0,5181.0,verb.change,True,49,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+59,0,replied,22,29,5229,5236,45,0.0,21.0,5207.0,5228.0,,,,,verb.communication,True,52,subject,madam,3.0,1.0,4.0,unknown,0.0,tertiary
+60,1,tell,12,16,5257,5261,2,5.0,6.0,5250.0,5251.0,,,,,verb.communication,True,55,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+61,1,saw,31,34,5302,5305,2,29.0,30.0,5300.0,5301.0,,,,,verb.cognition,True,54,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+62,1,ceased,37,43,5378,5384,6,24.0,32.0,5365.0,5373.0,,,,,verb.change,True,53,subject,Cynthia,2.0,7.0,9.0,female,1.0,tertiary
+63,5,ceased,163,169,5601,5607,60,158.0,162.0,5596.0,5600.0,,,,,verb.change,True,56,subject,Cynthia's lovers,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+64,1,said,32,36,5687,5691,2,0.0,29.0,5655.0,5684.0,,,,,verb.communication,True,58,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+64,1,said,32,36,5687,5691,16,0.0,29.0,5655.0,5684.0,,,,,verb.communication,True,58,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+64,1,said,32,36,5687,5691,44,0.0,29.0,5655.0,5684.0,,,,,verb.communication,True,58,subject,child,2.0,7.0,9.0,unknown,0.0,tertiary
+66,6,ask,100,103,5876,5879,2,84.0,88.0,5860.0,5864.0,,,,,verb.communication,True,59,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+67,0,sent,36,40,5965,5969,16,26.0,35.0,5955.0,5964.0,,,,,verb.communication,True,61,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+68,6,bestowed,159,167,6196,6204,16,126.0,144.0,6163.0,6181.0,,,,,verb.communication,True,60,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+69,2,fascinated,21,31,6236,6246,2,15.0,16.0,6230.0,6231.0,,,,,verb.emotion,True,62,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+71,1,ceasing,15,22,6397,6404,2,4.0,5.0,6386.0,6387.0,,,,,verb.communication,True,64,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+74,2,receive,40,47,6995,7002,2,30.0,36.0,6985.0,6991.0,,,,,verb.possession,True,66,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+75,1,asked,53,58,7105,7110,16,0.0,9.0,7052.0,7061.0,,,,,verb.communication,True,67,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+76,0,paused,7,13,7169,7175,2,0.0,6.0,7162.0,7168.0,,,,,verb.communication,True,68,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+77,0,granted,14,21,7241,7248,16,4.0,13.0,7231.0,7240.0,,,,,verb.possession,True,69,subject,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+80,2,said,113,117,7564,7568,51,98.0,112.0,7549.0,7563.0,,,,,verb.communication,True,71,subject,,,,,,,
+82,1,rejoices,79,87,7719,7727,2,50.0,78.0,7690.0,7718.0,,,,,verb.emotion,True,73,subject,Sylvia,17.0,77.0,94.0,female,1.0,primary
+0,1,reflect,48,55,48,55,7,69.0,108.0,69.0,108.0,,,,,verb.perception,True,0,direct_object,people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+3,1,loved,62,67,371,376,1,68.0,71.0,377.0,380.0,,,,,verb.emotion,True,1,direct_object,the Flower - Fairy,4.0,14.0,18.0,female,1.0,tertiary
+5,2,left,54,58,565,569,1,59.0,62.0,570.0,573.0,63.0,127.0,574.0,638.0,verb.possession,True,2,direct_object,the Flower - Fairy,4.0,14.0,18.0,female,1.0,tertiary
+6,2,asked,54,59,694,699,1,60.0,66.0,700.0,706.0,,,,,verb.communication,True,3,direct_object,the Flower - Fairy,4.0,14.0,18.0,female,1.0,tertiary
+8,0,loved,10,15,791,796,2,16.0,19.0,797.0,800.0,20.0,79.0,801.0,860.0,verb.emotion,True,6,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+10,4,left,90,94,1027,1031,1,95.0,98.0,1032.0,1035.0,,,,,verb.cognition,True,4,direct_object,the Flower - Fairy,4.0,14.0,18.0,female,1.0,tertiary
+11,3,send,63,67,1117,1121,2,68.0,71.0,1122.0,1125.0,,,,,verb.motion,True,7,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+11,3,send,63,67,1117,1121,18,68.0,71.0,1122.0,1125.0,,,,,verb.motion,True,7,direct_object,the Flower - Fairy's other princesses who had grown up and left her,1.0,1.0,2.0,female,1.0,tertiary
+12,6,send,105,109,1248,1252,2,110.0,113.0,1253.0,1256.0,,,,,verb.motion,True,8,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+12,6,send,105,109,1248,1252,3,110.0,113.0,1253.0,1256.0,,,,,verb.motion,True,8,direct_object,Iris,1.0,33.0,34.0,female,1.0,secondary
+13,1,receive,9,16,1288,1295,2,17.0,20.0,1296.0,1299.0,35.0,70.0,1314.0,1349.0,verb.possession,True,9,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+14,4,tell,71,75,1422,1426,16,76.0,78.0,1427.0,1429.0,,,,,verb.communication,True,11,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+14,4,tell,71,75,1422,1426,2,76.0,78.0,1427.0,1429.0,,,,,verb.communication,True,11,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+14,4,tell,71,75,1422,1426,3,76.0,78.0,1427.0,1429.0,,,,,verb.communication,True,11,direct_object,Iris,1.0,33.0,34.0,female,1.0,secondary
+17,3,see,103,106,1724,1727,2,107.0,110.0,1728.0,1731.0,111.0,116.0,1732.0,1737.0,verb.perception,True,14,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+19,0,sent,5,9,1813,1817,2,10.0,12.0,1818.0,1820.0,,,,,verb.motion,True,15,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+20,0,tells,10,15,1925,1930,44,16.0,22.0,1931.0,1937.0,24.0,107.0,1939.0,2022.0,verb.communication,True,17,direct_object,child,2.0,7.0,9.0,unknown,0.0,tertiary
+21,3,deprived,86,94,2110,2118,3,95.0,98.0,2119.0,2122.0,,,,,verb.consumption,True,16,direct_object,Iris,1.0,33.0,34.0,female,1.0,secondary
+22,0,allowing,3,11,2174,2182,3,12.0,30.0,2183.0,2201.0,,,,,verb.social,True,18,direct_object,Iris,1.0,33.0,34.0,female,1.0,secondary
+25,1,tell,20,24,2506,2510,44,25.0,28.0,2511.0,2514.0,,,,,verb.communication,True,21,direct_object,child,2.0,7.0,9.0,unknown,0.0,tertiary
+27,4,think,97,102,2857,2862,3,103.0,123.0,2863.0,2883.0,,,,,verb.cognition,True,23,direct_object,Iris,1.0,33.0,34.0,female,1.0,secondary
+29,1,told,10,14,3016,3020,16,15.0,17.0,3021.0,3023.0,,,,,verb.communication,True,24,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+30,1,help,9,13,3085,3089,3,14.0,17.0,3090.0,3093.0,,,,,verb.social,True,27,direct_object,Iris,1.0,33.0,34.0,female,1.0,secondary
+32,1,sent,86,90,3214,3218,2,91.0,101.0,3219.0,3229.0,102.0,107.0,3230.0,3235.0,verb.motion,True,28,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+33,0,told,4,8,3241,3245,2,9.0,12.0,3246.0,3249.0,,,,,verb.communication,True,29,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+33,0,told,4,8,3241,3245,4,9.0,12.0,3246.0,3249.0,,,,,verb.communication,True,29,direct_object,Daphne,2.0,0.0,2.0,unknown,0.0,tertiary
+34,0,whisked,28,35,3339,3346,2,36.0,39.0,3347.0,3350.0,,,,,verb.motion,True,30,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+38,1,sent,37,41,3656,3660,16,42.0,44.0,3661.0,3663.0,48.0,57.0,3667.0,3676.0,verb.motion,True,32,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+40,0,asked,0,5,3707,3712,16,6.0,15.0,3713.0,3722.0,,,,,verb.communication,True,34,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+42,1,replied,54,61,3873,3880,2,62.0,68.0,3881.0,3887.0,,,,,verb.communication,True,37,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+45,0,loves,21,26,4122,4127,2,27.0,79.0,4128.0,4180.0,,,,,verb.emotion,True,39,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+49,3,tell,37,41,4402,4406,2,42.0,45.0,4407.0,4410.0,,,,,verb.communication,True,43,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+50,0,smiled,10,16,4423,4429,2,17.0,69.0,4430.0,4482.0,,,,,verb.body,True,42,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+51,2,sent,48,52,4532,4536,2,53.0,56.0,4537.0,4540.0,,,,,verb.motion,True,44,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+51,2,sent,48,52,4532,4536,16,53.0,56.0,4537.0,4540.0,,,,,verb.motion,True,44,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+51,2,sent,48,52,4532,4536,29,53.0,56.0,4537.0,4540.0,,,,,verb.motion,True,44,direct_object,the Princess Cynthia,1.0,2.0,3.0,female,1.0,tertiary
+52,1,feels,90,95,4706,4711,31,96.0,135.0,4712.0,4751.0,,,,,verb.cognition,True,45,direct_object,a dear friend,1.0,0.0,1.0,unknown,0.0,tertiary
+53,1,hear,36,40,4789,4793,16,41.0,145.0,4794.0,4898.0,,,,,verb.perception,True,46,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+53,1,hear,36,40,4789,4793,29,41.0,145.0,4794.0,4898.0,,,,,verb.perception,True,46,direct_object,the Princess Cynthia,1.0,2.0,3.0,female,1.0,tertiary
+53,1,hear,36,40,4789,4793,6,41.0,145.0,4794.0,4898.0,,,,,verb.perception,True,46,direct_object,Cynthia,2.0,7.0,9.0,female,1.0,tertiary
+54,1,said,22,26,4922,4926,2,27.0,33.0,4927.0,4933.0,,,,,verb.communication,True,48,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+54,1,said,22,26,4922,4926,53,27.0,33.0,4927.0,4933.0,,,,,verb.communication,True,48,direct_object,the happiest Princess in the world,1.0,0.0,1.0,female,1.0,tertiary
+54,1,said,22,26,4922,4926,6,27.0,33.0,4927.0,4933.0,,,,,verb.communication,True,48,direct_object,Cynthia,2.0,7.0,9.0,female,1.0,tertiary
+55,2,please,72,78,5061,5067,6,91.0,94.0,5080.0,5083.0,,,,,verb.emotion,True,47,direct_object,Cynthia,2.0,7.0,9.0,female,1.0,tertiary
+57,1,altered,10,17,5158,5165,2,18.0,27.0,5166.0,5175.0,29.0,33.0,5177.0,5181.0,verb.change,True,49,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+58,0,interrupted,0,11,5184,5195,16,12.0,21.0,5196.0,5205.0,,,,,verb.communication,True,51,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+59,0,replied,22,29,5229,5236,2,30.0,36.0,5237.0,5243.0,,,,,verb.communication,True,52,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+60,1,tell,12,16,5257,5261,45,17.0,20.0,5262.0,5265.0,,,,,verb.communication,True,55,direct_object,madam,3.0,1.0,4.0,unknown,0.0,tertiary
+61,1,saw,31,34,5302,5305,6,35.0,68.0,5306.0,5339.0,,,,,verb.cognition,True,54,direct_object,Cynthia,2.0,7.0,9.0,female,1.0,tertiary
+64,1,said,32,36,5687,5691,16,37.0,46.0,5692.0,5701.0,,,,,verb.communication,True,58,direct_object,the Fairy,13.0,30.0,43.0,female,1.0,secondary
+65,0,enjoy,2,7,5704,5709,2,8.0,16.0,5710.0,5718.0,17.0,32.0,,,verb.consumption,True,57,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+66,6,ask,100,103,5876,5879,2,104.0,115.0,5880.0,5891.0,,,,,verb.communication,True,59,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+67,0,sent,36,40,5965,5969,2,41.0,44.0,5970.0,5973.0,,,,,verb.communication,True,61,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+72,2,delighted,36,45,6569,6578,2,46.0,48.0,6579.0,6581.0,49.0,297.0,,,verb.emotion,True,63,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+73,3,brought,98,105,6931,6938,2,106.0,109.0,6939.0,6942.0,113.0,120.0,,,verb.social,True,65,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+74,2,receive,40,47,6995,7002,2,48.0,56.0,7003.0,7011.0,,,,,verb.possession,True,66,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+75,1,asked,53,58,7105,7110,2,59.0,108.0,7111.0,7160.0,,,,,verb.communication,True,67,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+77,0,granted,14,21,7241,7248,2,22.0,33.0,7249.0,7260.0,,,,,verb.possession,True,69,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+78,2,brought,86,93,7348,7355,2,94.0,115.0,7356.0,7377.0,,,,,verb.contact,True,70,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+81,0,grieves,3,10,7612,7619,2,11.0,14.0,7620.0,7623.0,,,,,verb.emotion,True,72,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary
+81,0,grieves,3,10,7612,7619,51,11.0,14.0,7620.0,7623.0,,,,,verb.emotion,True,72,direct_object,,,,,,,
+82,1,rejoices,79,87,7719,7727,2,88.0,132.0,7728.0,7772.0,,,,,verb.emotion,True,73,direct_object,Sylvia,17.0,77.0,94.0,female,1.0,primary

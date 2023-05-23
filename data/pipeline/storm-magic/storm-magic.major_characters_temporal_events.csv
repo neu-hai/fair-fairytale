@@ -1,0 +1,95 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,5,want,86,90,159,163,0,57.0,59.0,130.0,132.0,,,,,verb.emotion,True,0,subject,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+2,5,mind,124,128,301,305,0,61.0,63.0,238.0,240.0,144.0,159.0,321.0,336.0,verb.consumption,True,1,subject,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+3,0,did,15,18,352,355,0,12.0,14.0,349.0,351.0,,,,,verb.social,True,2,subject,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+4,1,like,27,31,481,485,3,7.0,18.0,461.0,472.0,,,,,verb.emotion,True,3,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+9,1,had,28,31,1022,1025,11,25.0,27.0,1019.0,1021.0,,,,,verb.possession,True,5,subject,the youth,3.0,9.0,12.0,male,1.0,tertiary
+10,1,see,9,12,1053,1056,11,0.0,2.0,1044.0,1046.0,,,,,verb.perception,True,7,subject,the youth,3.0,9.0,12.0,male,1.0,tertiary
+11,2,heard,53,58,1163,1168,11,50.0,52.0,1160.0,1162.0,66.0,81.0,1176.0,1191.0,verb.perception,True,8,subject,the youth,3.0,9.0,12.0,male,1.0,tertiary
+12,0,peered,3,9,1196,1202,11,0.0,2.0,1193.0,1195.0,,,,,verb.perception,True,9,subject,the youth,3.0,9.0,12.0,male,1.0,tertiary
+13,2,planning,39,47,1372,1380,28,0.0,9.0,1333.0,1342.0,,,,,verb.creation,True,10,subject,All three,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+14,1,see,10,13,1404,1407,29,0.0,3.0,1394.0,1397.0,,,,,verb.cognition,True,11,subject,,,,,,,
+18,3,said,31,35,1663,1667,0,1.0,28.0,1633.0,1660.0,,,,,verb.communication,True,12,subject,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+20,7,hopped,119,125,1879,1885,3,12.0,13.0,1772.0,1773.0,,,,,verb.motion,True,13,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+22,2,discussing,56,66,2075,2085,39,29.0,33.0,2048.0,2052.0,,,,,verb.cognition,True,14,subject,the two others,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+25,2,said,34,38,2230,2234,33,1.0,31.0,2197.0,2227.0,,,,,verb.communication,True,17,subject,the captain 's wife,3.0,2.0,5.0,female,1.0,tertiary
+27,1,asked,37,42,2438,2443,111,1.0,34.0,2402.0,2435.0,,,,,verb.communication,True,19,subject,sister,2.0,0.0,2.0,female,1.0,tertiary
+29,2,smoking,40,47,2566,2573,113,26.0,34.0,2552.0,2560.0,,,,,verb.consumption,True,18,subject,,,,,,,
+30,0,know,9,13,2606,2610,33,5.0,8.0,2602.0,2605.0,,,,,verb.cognition,True,20,subject,the captain 's wife,3.0,2.0,5.0,female,1.0,tertiary
+31,5,said,88,92,2726,2730,49,0.0,85.0,2638.0,2723.0,,,,,verb.communication,True,21,subject,the quartermasters,3.0,9.0,12.0,group/nonbinary,1.0,tertiary
+32,6,throw,126,131,2899,2904,49,92.0,96.0,2865.0,2869.0,181.0,353.0,2954.0,3126.0,verb.contact,True,22,subject,the quartermasters,3.0,9.0,12.0,group/nonbinary,1.0,tertiary
+36,3,laughed,53,60,3328,3335,48,37.0,41.0,3312.0,3316.0,,,,,verb.body,True,23,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+39,5,hide,98,102,3707,3711,3,82.0,84.0,3691.0,3693.0,,,,,verb.perception,True,27,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+40,5,seen,81,85,3846,3850,48,67.0,71.0,3832.0,3836.0,,,,,verb.perception,True,26,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+41,1,prove,23,28,3926,3931,3,5.0,7.0,3908.0,3910.0,,,,,verb.cognition,True,29,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+42,4,heard,79,84,4246,4251,3,67.0,69.0,4234.0,4236.0,,,,,verb.perception,True,28,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+43,0,answered,12,20,4325,4333,59,4.0,11.0,4317.0,4324.0,,,,,verb.communication,True,30,subject,the boy,8.0,7.0,15.0,male,1.0,secondary
+44,6,know,160,164,4518,4522,62,132.0,152.0,4490.0,4510.0,,,,,verb.cognition,True,31,subject,crew,2.0,0.0,2.0,unknown,0.0,tertiary
+44,6,know,160,164,4518,4522,3,132.0,152.0,4490.0,4510.0,,,,,verb.cognition,True,31,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+45,2,wanted,82,88,4760,4766,3,79.0,81.0,4757.0,4759.0,,,,,verb.emotion,True,32,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+47,6,said,90,94,5032,5036,48,1.0,87.0,4943.0,5029.0,,,,,verb.communication,True,33,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+47,6,said,90,94,5032,5036,0,1.0,87.0,4943.0,5029.0,,,,,verb.communication,True,33,subject,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+51,1,said,41,45,5371,5375,62,0.0,20.0,5330.0,5350.0,,,,,verb.communication,True,35,subject,crew,2.0,0.0,2.0,unknown,0.0,tertiary
+51,1,said,41,45,5371,5375,3,0.0,20.0,5330.0,5350.0,,,,,verb.communication,True,35,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+52,1,want,10,14,5434,5438,0,6.0,9.0,5430.0,5433.0,,,,,verb.emotion,True,34,subject,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+54,6,reefed,109,115,5654,5660,48,100.0,104.0,5645.0,5649.0,,,,,verb.contact,True,36,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+55,1,throw,24,29,5783,5788,48,16.0,20.0,5775.0,5779.0,88.0,115.0,5847.0,5874.0,verb.contact,True,38,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+56,0,obeyed,9,15,5936,5942,48,4.0,8.0,5931.0,5935.0,,,,,verb.communication,True,39,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+58,1,heard,31,36,6058,6063,48,26.0,30.0,6053.0,6057.0,49.0,93.0,6076.0,6120.0,verb.perception,True,40,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+60,5,know,69,73,6244,6248,117,57.0,68.0,6232.0,6243.0,,,,,verb.cognition,True,41,subject,the company,1.0,0.0,1.0,unknown,0.0,tertiary
+61,5,told,99,103,6380,6384,59,96.0,98.0,6377.0,6379.0,,,,,verb.communication,True,42,subject,the boy,8.0,7.0,15.0,male,1.0,secondary
+63,2,throw,48,53,6643,6648,48,40.0,44.0,6635.0,6639.0,,,,,verb.contact,True,44,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+64,0,threw,10,15,6685,6690,48,5.0,9.0,6680.0,6684.0,,,,,verb.contact,True,45,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+65,1,heard,38,43,6806,6811,48,27.0,31.0,6795.0,6799.0,,,,,verb.perception,True,46,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+69,1,throw,25,30,7241,7246,48,17.0,21.0,7233.0,7237.0,101.0,108.0,7317.0,7324.0,verb.contact,True,49,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+70,1,heard,44,49,7370,7375,48,39.0,43.0,7365.0,7369.0,67.0,101.0,7393.0,7427.0,verb.perception,True,50,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+74,0,have,3,7,7783,7787,48,0.0,2.0,7780.0,7782.0,,,,,verb.possession,True,52,subject,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+78,4,heard,89,94,7980,7985,59,77.0,81.0,7968.0,7972.0,,,,,verb.perception,True,56,subject,the boy,8.0,7.0,15.0,male,1.0,secondary
+79,2,buying,48,54,8098,8104,3,32.0,43.0,8082.0,8093.0,,,,,verb.possession,True,58,subject,the captain,16.0,30.0,46.0,male,1.0,primary
+80,0,sailed,14,20,8141,8147,49,9.0,13.0,8136.0,8140.0,,,,,verb.motion,True,59,subject,the quartermasters,3.0,9.0,12.0,group/nonbinary,1.0,tertiary
+3,0,did,15,18,352,355,8,19.0,49.0,356.0,386.0,,,,,verb.social,True,2,direct_object,an able seaman,1.0,0.0,1.0,unknown,0.0,tertiary
+4,1,like,27,31,481,485,0,32.0,43.0,486.0,497.0,,,,,verb.emotion,True,3,direct_object,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+7,3,bargain,111,118,785,792,3,119.0,148.0,793.0,822.0,150.0,196.0,,,verb.possession,True,4,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary
+8,1,know,13,17,928,932,11,18.0,78.0,933.0,993.0,,,,,verb.cognition,True,6,direct_object,the youth,3.0,9.0,12.0,male,1.0,tertiary
+8,1,know,13,17,928,932,22,18.0,78.0,933.0,993.0,,,,,verb.cognition,True,6,direct_object,a Sunday child,1.0,0.0,1.0,unknown,0.0,tertiary
+10,1,see,9,12,1053,1056,23,13.0,36.0,1057.0,1080.0,,,,,verb.perception,True,7,direct_object,those who are invisible,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+13,2,planning,39,47,1372,1380,28,48.0,59.0,1381.0,1392.0,,,,,verb.creation,True,10,direct_object,All three,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+18,3,said,31,35,1663,1667,34,36.0,96.0,1668.0,1728.0,,,,,verb.communication,True,12,direct_object,,,,,,,
+18,3,said,31,35,1663,1667,35,36.0,96.0,1668.0,1728.0,,,,,verb.communication,True,12,direct_object,the wives of the first and second quartermasters,1.0,0.0,1.0,female,1.0,tertiary
+18,3,said,31,35,1663,1667,36,36.0,96.0,1668.0,1728.0,,,,,verb.communication,True,12,direct_object,the first and second quartermasters,1.0,0.0,1.0,unknown,0.0,tertiary
+20,7,hopped,119,125,1879,1885,39,133.0,150.0,1893.0,1910.0,,,,,verb.motion,True,13,direct_object,the two others,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+21,2,wash,39,43,1951,1955,106,44.0,48.0,1956.0,1960.0,49.0,61.0,1961.0,1973.0,verb.contact,True,15,direct_object,breakers,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+24,0,asked,10,15,2170,2175,33,16.0,34.0,2176.0,2194.0,,,,,verb.communication,True,16,direct_object,the captain 's wife,3.0,2.0,5.0,female,1.0,tertiary
+24,0,asked,10,15,2170,2175,3,16.0,34.0,2176.0,2194.0,,,,,verb.communication,True,16,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary
+25,2,said,34,38,2230,2234,39,39.0,53.0,2235.0,2249.0,,,,,verb.communication,True,17,direct_object,the two others,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+27,1,asked,37,42,2438,2443,44,43.0,76.0,2444.0,2477.0,,,,,verb.communication,True,19,direct_object,the wife of the one quartermaster,1.0,1.0,2.0,female,1.0,tertiary
+27,1,asked,37,42,2438,2443,45,43.0,76.0,2444.0,2477.0,,,,,verb.communication,True,19,direct_object,the one quartermaster,1.0,0.0,1.0,unknown,0.0,tertiary
+31,5,said,88,92,2726,2730,46,93.0,117.0,2731.0,2755.0,,,,,verb.communication,True,21,direct_object,The quartermaster,2.0,1.0,3.0,male,1.0,tertiary
+31,5,said,88,92,2726,2730,47,93.0,117.0,2731.0,2755.0,,,,,verb.communication,True,21,direct_object,the quartermaster 's wife,1.0,0.0,1.0,female,1.0,tertiary
+35,0,said,0,4,3238,3242,49,5.0,36.0,3243.0,3274.0,,,,,verb.communication,True,24,direct_object,the quartermasters,3.0,9.0,12.0,group/nonbinary,1.0,tertiary
+35,0,said,0,4,3238,3242,48,5.0,36.0,3243.0,3274.0,,,,,verb.communication,True,24,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+38,2,tempt,81,86,3592,3597,3,87.0,90.0,3598.0,3601.0,,,,,verb.communication,True,25,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary
+40,5,seen,81,85,3846,3850,3,86.0,137.0,3851.0,3902.0,,,,,verb.perception,True,26,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary
+41,1,prove,23,28,3926,3931,48,29.0,31.0,3932.0,3934.0,,,,,verb.cognition,True,29,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+42,4,heard,79,84,4246,4251,57,85.0,144.0,4252.0,4311.0,,,,,verb.perception,True,28,direct_object,a cabin - boy,1.0,0.0,1.0,male,1.0,tertiary
+43,0,answered,12,20,4325,4333,59,21.0,37.0,4334.0,4350.0,,,,,verb.communication,True,30,direct_object,the boy,8.0,7.0,15.0,male,1.0,secondary
+45,2,wanted,82,88,4760,4766,59,89.0,119.0,4767.0,4797.0,,,,,verb.emotion,True,32,direct_object,the boy,8.0,7.0,15.0,male,1.0,secondary
+45,2,wanted,82,88,4760,4766,3,89.0,119.0,4767.0,4797.0,,,,,verb.emotion,True,32,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary
+47,6,said,90,94,5032,5036,46,95.0,97.0,5037.0,5039.0,,,,,verb.communication,True,33,direct_object,The quartermaster,2.0,1.0,3.0,male,1.0,tertiary
+51,1,said,41,45,5371,5375,48,47.0,92.0,5377.0,5422.0,,,,,verb.communication,True,35,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+52,1,want,10,14,5434,5438,48,15.0,64.0,5439.0,5488.0,,,,,verb.emotion,True,34,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+53,0,answered,11,19,5502,5510,0,20.0,33.0,5511.0,5524.0,,,,,verb.communication,True,37,direct_object,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+56,0,obeyed,9,15,5936,5942,59,16.0,19.0,5943.0,5946.0,,,,,verb.communication,True,39,direct_object,the boy,8.0,7.0,15.0,male,1.0,secondary
+60,5,know,69,73,6244,6248,48,74.0,103.0,6249.0,6278.0,,,,,verb.cognition,True,41,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+61,5,told,99,103,6380,6384,48,104.0,108.0,6385.0,6389.0,,,,,verb.communication,True,42,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+62,0,hit,18,21,6479,6482,48,22.0,26.0,6483.0,6487.0,,,,,verb.contact,True,43,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+66,5,sent,83,87,6933,6937,59,88.0,97.0,6938.0,6947.0,,,,,verb.motion,True,48,direct_object,the boy,8.0,7.0,15.0,male,1.0,secondary
+68,0,hit,16,19,7028,7031,48,20.0,24.0,7032.0,7036.0,,,,,verb.contact,True,47,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+71,2,writing,68,75,7596,7603,91,76.0,90.0,7604.0,7618.0,,,,,verb.communication,True,51,direct_object,the wives of the quartermasters's wives,2.0,1.0,3.0,female,1.0,tertiary
+71,2,writing,68,75,7596,7603,48,76.0,90.0,7604.0,7618.0,,,,,verb.communication,True,51,direct_object,the wives of the quartermasters,1.0,38.0,39.0,female,1.0,primary
+72,4,said,51,55,7671,7675,0,56.0,69.0,7676.0,7689.0,72.0,112.0,7692.0,7732.0,verb.communication,True,53,direct_object,The cabin - boy,6.0,16.0,22.0,male,1.0,secondary
+74,0,have,3,7,7783,7787,122,8.0,16.0,7788.0,7796.0,,,,,verb.possession,True,52,direct_object,no wives,1.0,0.0,1.0,female,1.0,tertiary
+75,0,said,0,4,7799,7803,3,5.0,16.0,7804.0,7815.0,,,,,verb.communication,True,55,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary
+76,3,done,26,30,7843,7847,49,36.0,45.0,7853.0,7862.0,,,,,verb.social,True,54,direct_object,the quartermasters,3.0,9.0,12.0,group/nonbinary,1.0,tertiary
+77,0,asked,0,5,7865,7870,49,6.0,24.0,7871.0,7889.0,,,,,verb.communication,True,57,direct_object,the quartermasters,3.0,9.0,12.0,group/nonbinary,1.0,tertiary
+79,2,buying,48,54,8098,8104,3,55.0,75.0,8105.0,8125.0,,,,,verb.possession,True,58,direct_object,the captain,16.0,30.0,46.0,male,1.0,primary

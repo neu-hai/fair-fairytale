@@ -1,0 +1,22 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,2,thinks,40,46,40,46,0.0,36.0,39.0,36.0,39.0,,,,,verb.cognition,True,0,subject,Miss Moppet,11,13,24,female,1.0,primary
+3,1,jumping,20,27,202,209,0.0,8.0,19.0,190.0,201.0,,,,,verb.motion,True,1,subject,Miss Moppet,11,13,24,female,1.0,primary
+4,0,misses,5,11,229,235,0.0,1.0,4.0,225.0,228.0,,,,,verb.motion,True,2,subject,Miss Moppet,11,13,24,female,1.0,primary
+5,0,thinks,4,10,273,279,0.0,0.0,3.0,269.0,272.0,,,,,verb.cognition,True,4,subject,Miss Moppet,11,13,24,female,1.0,primary
+6,0,watches,10,17,318,325,1.0,0.0,9.0,308.0,317.0,30.0,58.0,338.0,366.0,verb.perception,True,3,subject,THE Mouse,8,0,8,unknown,0.0,secondary
+7,0,sits,46,50,414,418,0.0,0.0,11.0,368.0,379.0,,,,,verb.contact,True,5,subject,Miss Moppet,11,13,24,female,1.0,primary
+8,0,thinks,10,16,446,452,1.0,0.0,9.0,436.0,445.0,,,,,verb.cognition,True,6,subject,THE Mouse,8,0,8,unknown,0.0,secondary
+10,0,looks,12,17,527,532,0.0,0.0,11.0,515.0,526.0,,,,,verb.perception,True,7,subject,Miss Moppet,11,13,24,female,1.0,primary
+11,0,comes,10,15,560,565,1.0,0.0,9.0,550.0,559.0,,,,,verb.motion,True,8,subject,THE Mouse,8,0,8,unknown,0.0,secondary
+12,1,looks,49,54,632,637,0.0,0.0,11.0,583.0,594.0,62.0,90.0,645.0,673.0,verb.perception,True,9,subject,Miss Moppet,11,13,24,female,1.0,primary
+13,0,comes,10,15,685,690,1.0,0.0,9.0,675.0,684.0,21.0,26.0,696.0,701.0,verb.motion,True,10,subject,THE Mouse,8,0,8,unknown,0.0,secondary
+15,1,teased,26,32,789,795,1.0,12.0,21.0,775.0,784.0,,,,,verb.communication,True,11,subject,THE Mouse,8,0,8,unknown,0.0,secondary
+17,0,ties,4,8,899,903,0.0,0.0,3.0,895.0,898.0,16.0,29.0,911.0,924.0,verb.contact,True,13,subject,Miss Moppet,11,13,24,female,1.0,primary
+18,0,forgot,8,14,967,973,0.0,4.0,7.0,963.0,966.0,,,,,verb.cognition,True,14,subject,Miss Moppet,11,13,24,female,1.0,primary
+19,0,untied,14,20,1018,1024,0.0,10.0,13.0,1014.0,1017.0,,,,,verb.contact,True,15,subject,Miss Moppet,11,13,24,female,1.0,primary
+0,2,thinks,40,46,40,46,0.0,47.0,68.0,47.0,68.0,,,,,verb.cognition,True,0,direct_object,Miss Moppet,11,13,24,female,1.0,primary
+4,0,misses,5,11,229,235,1.0,12.0,21.0,236.0,245.0,,,,,verb.motion,True,2,direct_object,THE Mouse,8,0,8,unknown,0.0,secondary
+6,0,watches,10,17,318,325,0.0,18.0,29.0,326.0,337.0,30.0,58.0,338.0,366.0,verb.perception,True,3,direct_object,Miss Moppet,11,13,24,female,1.0,primary
+8,0,thinks,10,16,446,452,0.0,17.0,40.0,453.0,476.0,,,,,verb.cognition,True,6,direct_object,Miss Moppet,11,13,24,female,1.0,primary
+14,0,jumps,38,43,741,746,1.0,44.0,58.0,747.0,761.0,,,,,verb.motion,True,12,direct_object,THE Mouse,8,0,8,unknown,0.0,secondary
+15,1,teased,26,32,789,795,0.0,33.0,44.0,796.0,807.0,,,,,verb.communication,True,11,direct_object,Miss Moppet,11,13,24,female,1.0,primary

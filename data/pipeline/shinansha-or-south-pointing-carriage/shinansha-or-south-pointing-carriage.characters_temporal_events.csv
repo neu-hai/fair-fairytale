@@ -1,0 +1,191 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,thinks,7,13,91,97,8,0.0,6.0,84.0,90.0,41.0,101.0,125.0,185.0,verb.cognition,1,subject,,,,,,,
+3,1,pointing,65,73,340,348,11,46.0,57.0,321.0,332.0,,,,,verb.communication,0,subject,a man,2.0,0.0,2.0,male,1.0,tertiary
+4,2,wheeled,55,62,418,425,12,37.0,47.0,400.0,410.0,,,,,verb.motion,2,subject,the figure,1.0,0.0,1.0,unknown,0.0,tertiary
+4,3,pointed,73,80,436,443,12,37.0,47.0,400.0,410.0,,,,,verb.communication,3,subject,the figure,1.0,0.0,1.0,unknown,0.0,tertiary
+7,2,had,30,33,633,636,16,19.0,29.0,622.0,632.0,,,,,verb.perception,4,subject,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+7,2,had,30,33,633,636,4,19.0,29.0,622.0,632.0,,,,,verb.perception,4,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+8,1,walk,35,39,731,735,16,19.0,22.0,715.0,718.0,,,,,verb.motion,6,subject,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+8,2,seek,58,62,754,758,16,19.0,22.0,715.0,718.0,,,,,verb.contact,8,subject,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+9,0,looked,7,13,877,883,16,3.0,6.0,873.0,876.0,,,,,verb.perception,9,subject,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+10,0,came,30,34,1013,1017,16,16.0,29.0,999.0,1012.0,,,,,verb.motion,10,subject,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+10,0,came,30,34,1013,1017,4,16.0,29.0,999.0,1012.0,,,,,verb.motion,10,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+10,0,came,30,34,1013,1017,17,16.0,29.0,999.0,1012.0,,,,,verb.motion,10,subject,Kotei's mother's son,2.0,0.0,2.0,unknown,0.0,tertiary
+11,0,grew,14,18,1048,1052,4,0.0,13.0,1034.0,1047.0,,,,,verb.change,11,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+11,2,succeeded,34,43,1068,1077,4,0.0,5.0,1034.0,1039.0,,,,,verb.social,12,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+12,1,troubled,28,36,1135,1143,4,0.0,15.0,1107.0,1122.0,,,,,verb.emotion,13,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+13,0,wanted,11,17,1175,1181,24,0.0,10.0,1164.0,1174.0,,,,,verb.emotion,14,subject,This rebel,1.0,2.0,3.0,male,1.0,tertiary
+13,1,make,21,25,1185,1189,24,0.0,10.0,1164.0,1174.0,,,,,verb.creation,16,subject,This rebel,1.0,2.0,3.0,male,1.0,tertiary
+13,3,fought,75,81,1239,1245,24,72.0,74.0,1236.0,1238.0,,,,,verb.competition,15,subject,This rebel,1.0,2.0,3.0,male,1.0,tertiary
+14,5,conquer,88,95,1347,1354,27,70.0,76.0,1329.0,1335.0,,,,,verb.creation,17,subject,no man,1.0,0.0,1.0,male,1.0,tertiary
+15,0,declared,14,22,1374,1382,4,8.0,13.0,1368.0,1373.0,,,,,verb.communication,18,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+15,1,led,49,52,1409,1412,4,8.0,13.0,1368.0,1373.0,62.0,71.0,1422.0,1431.0,verb.motion,19,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+16,0,attacked,19,27,1503,1511,31,0.0,11.0,1484.0,1495.0,,,,,verb.competition,20,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+17,1,wandering,26,35,1613,1622,35,6.0,20.0,1593.0,1607.0,56.0,80.0,1643.0,1667.0,verb.motion,21,subject,the royal army,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+17,2,trying,56,62,1643,1649,35,6.0,20.0,1593.0,1607.0,,,,,verb.social,22,subject,the royal army,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+17,3,find,66,70,1653,1657,35,6.0,20.0,1593.0,1607.0,,,,,verb.possession,24,subject,the royal army,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+17,4,retreated,88,97,1675,1684,6,82.0,87.0,1669.0,1674.0,115.0,155.0,1702.0,1742.0,verb.motion,23,subject,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+17,5,laughing,115,123,1702,1710,6,82.0,87.0,1669.0,1674.0,,,,,verb.body,25,subject,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+18,2,escape,102,108,1846,1852,28,64.0,88.0,1808.0,1832.0,,,,,verb.motion,26,subject,the rebel,4.0,1.0,5.0,male,1.0,tertiary
+19,0,returned,6,14,1871,1879,4,0.0,5.0,1865.0,1870.0,,,,,verb.motion,27,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+19,1,thought,34,41,1899,1906,4,0.0,5.0,1865.0,1870.0,55.0,144.0,1920.0,2009.0,verb.cognition,28,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+19,2,pondered,46,54,1911,1919,4,0.0,5.0,1865.0,1870.0,,,,,verb.communication,29,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+19,4,conquer,82,89,1947,1954,4,72.0,74.0,1937.0,1939.0,,,,,verb.social,32,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+20,0,invented,21,29,2032,2040,4,18.0,20.0,2029.0,2031.0,92.0,101.0,2103.0,2112.0,verb.creation,31,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+20,1,pointing,76,84,2087,2095,11,63.0,68.0,2074.0,2079.0,,,,,verb.communication,30,subject,a man,2.0,0.0,2.0,male,1.0,tertiary
+21,2,fear,53,57,2199,2203,4,41.0,43.0,2187.0,2189.0,,,,,verb.emotion,33,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+22,0,declared,12,20,2278,2286,4,0.0,5.0,2266.0,2271.0,,,,,verb.communication,36,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+23,0,placed,3,9,2309,2315,4,0.0,2.0,2306.0,2308.0,,,,,verb.contact,37,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+23,1,led,49,52,2355,2358,4,0.0,2.0,2306.0,2308.0,,,,,verb.motion,39,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+25,2,driven,20,26,2436,2442,28,0.0,9.0,2416.0,2425.0,56.0,87.0,2472.0,2503.0,verb.motion,38,subject,the rebel,4.0,1.0,5.0,male,1.0,tertiary
+25,3,resorted,70,78,2486,2494,4,61.0,63.0,2477.0,2479.0,,,,,verb.consumption,40,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+26,0,saying,9,15,2514,2520,4,5.0,8.0,2510.0,2513.0,,,,,verb.communication,41,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+27,0,minded,25,31,2638,2644,53,14.0,24.0,2627.0,2637.0,,,,,verb.perception,42,subject,no soldier,1.0,0.0,1.0,unknown,0.0,tertiary
+27,2,confused,53,61,2666,2674,54,14.0,39.0,2627.0,2652.0,,,,,verb.cognition,43,subject,not one,1.0,0.0,1.0,unknown,0.0,tertiary
+27,2,confused,53,61,2666,2674,53,14.0,39.0,2627.0,2652.0,,,,,verb.cognition,43,subject,no soldier,1.0,0.0,1.0,unknown,0.0,tertiary
+28,2,find,41,45,2717,2721,9,0.0,34.0,2676.0,2710.0,76.0,100.0,2752.0,2776.0,verb.communication,45,subject,the shinansha,4.0,0.0,4.0,unknown,0.0,tertiary
+28,2,find,41,45,2717,2721,4,0.0,34.0,2676.0,2710.0,76.0,100.0,2752.0,2776.0,verb.communication,45,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+28,3,directed,58,66,2734,2742,9,0.0,34.0,2676.0,2710.0,76.0,100.0,2752.0,2776.0,verb.competition,46,subject,the shinansha,4.0,0.0,4.0,unknown,0.0,tertiary
+28,3,directed,58,66,2734,2742,4,0.0,34.0,2676.0,2710.0,76.0,100.0,2752.0,2776.0,verb.competition,46,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+29,0,pursued,11,18,2789,2796,4,0.0,2.0,2778.0,2780.0,,,,,verb.contact,47,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+29,1,drove,38,43,2816,2821,4,0.0,2.0,2778.0,2780.0,58.0,87.0,2836.0,2865.0,verb.motion,48,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+29,2,came,68,72,2846,2850,57,63.0,67.0,2841.0,2845.0,,,,,verb.motion,49,subject,the rebel army,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+30,0,found,29,34,2896,2901,46,0.0,10.0,2867.0,2877.0,,,,,verb.perception,51,subject,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+30,0,found,29,34,2896,2901,4,0.0,10.0,2867.0,2877.0,,,,,verb.perception,51,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+30,3,cross,79,84,2946,2951,46,0.0,34.0,2867.0,2901.0,,,,,verb.motion,50,subject,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+30,3,cross,79,84,2946,2951,4,0.0,34.0,2867.0,2901.0,,,,,verb.motion,50,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+31,2,shut,67,71,3020,3024,6,15.0,28.0,2968.0,2981.0,,,,,verb.contact,53,subject,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+32,0,found,11,16,3083,3088,4,5.0,10.0,3077.0,3082.0,,,,,verb.perception,55,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+32,4,overtaken,91,100,3163,3172,4,72.0,74.0,3144.0,3146.0,111.0,137.0,3183.0,3209.0,verb.motion,54,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+33,1,do,9,11,3220,3222,4,0.0,2.0,3211.0,3213.0,21.0,58.0,3232.0,3269.0,verb.social,57,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+33,3,ordered,75,82,3286,3293,31,63.0,74.0,3274.0,3285.0,,,,,verb.communication,58,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+33,5,pitched,98,105,3309,3316,4,83.0,91.0,3294.0,3302.0,,,,,verb.motion,59,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+34,0,stepped,11,18,3377,3384,4,8.0,10.0,3374.0,3376.0,,,,,verb.motion,60,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+34,2,came,83,87,3449,3453,4,80.0,82.0,3446.0,3448.0,,,,,verb.motion,61,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+38,1,attracted,33,42,3702,3711,4,11.0,28.0,3680.0,3697.0,,,,,verb.emotion,62,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,1,think,45,50,3961,3966,78,26.0,44.0,3942.0,3960.0,,,,,verb.cognition,64,subject,the clever Emperor,1.0,0.0,1.0,male,1.0,tertiary
+41,3,try,65,68,3981,3984,4,56.0,58.0,3972.0,3974.0,,,,,verb.social,66,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,4,make,72,76,3988,3992,4,56.0,58.0,3972.0,3974.0,,,,,verb.creation,65,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+42,0,set,3,6,4117,4120,4,0.0,2.0,4114.0,4116.0,30.0,61.0,4144.0,4175.0,verb.change,68,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+42,1,work,10,14,4124,4128,4,0.0,2.0,4114.0,4116.0,,,,,verb.social,69,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+42,2,persevered,19,29,4133,4143,4,0.0,2.0,4114.0,4116.0,,,,,verb.social,70,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+42,3,invented,38,46,4152,4160,4,35.0,37.0,4149.0,4151.0,,,,,verb.creation,71,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+43,0,found,8,13,4185,4190,4,5.0,7.0,4182.0,4184.0,,,,,verb.cognition,72,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+43,2,set,39,42,4216,4219,4,36.0,38.0,4213.0,4215.0,,,,,verb.contact,73,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+43,3,make,58,62,4235,4239,46,43.0,54.0,4220.0,4231.0,,,,,verb.social,74,subject,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+43,3,make,58,62,4235,4239,4,43.0,54.0,4220.0,4231.0,,,,,verb.social,74,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+44,0,took,10,14,4312,4316,4,0.0,5.0,4302.0,4307.0,24.0,40.0,4326.0,4342.0,verb.motion,75,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+44,1,attacked,46,54,4348,4356,4,0.0,5.0,4302.0,4307.0,,,,,verb.competition,76,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+45,0,gained,3,9,4382,4388,4,0.0,2.0,4379.0,4381.0,,,,,verb.possession,77,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+45,1,put,37,40,4416,4419,4,0.0,2.0,4379.0,4381.0,,,,,verb.contact,79,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+46,1,rest,35,39,4517,4521,87,0.0,26.0,4482.0,4508.0,,,,,verb.change,81,subject,This wise and good Emperor,1.0,0.0,1.0,male,1.0,tertiary
+46,3,secured,52,59,4534,4541,4,45.0,47.0,4527.0,4529.0,81.0,106.0,4563.0,4588.0,verb.possession,80,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+47,1,beloved,7,14,4597,4604,4,0.0,2.0,4590.0,4592.0,,,,,verb.emotion,82,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+47,2,enjoyed,40,47,4630,4637,89,18.0,30.0,4608.0,4620.0,73.0,102.0,4663.0,4692.0,verb.emotion,83,subject,Kotei's subjects,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+47,2,enjoyed,40,47,4630,4637,4,18.0,30.0,4608.0,4620.0,73.0,102.0,4663.0,4692.0,verb.emotion,83,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+48,1,making,33,39,4727,4733,4,0.0,2.0,4694.0,4696.0,,,,,verb.creation,84,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+48,4,succeeded,90,99,4784,4793,4,87.0,89.0,4781.0,4783.0,,,,,verb.social,86,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+49,1,reigned,7,14,4860,4867,4,0.0,2.0,4853.0,4855.0,,,,,verb.motion,85,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+49,3,looking,64,71,4917,4924,4,54.0,59.0,4907.0,4912.0,,,,,verb.perception,88,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+50,1,saw,24,27,5046,5049,4,18.0,23.0,5040.0,5045.0,,,,,verb.perception,89,subject,Kotei,14.0,49.0,63.0,male,1.0,primary
+51,0,approached,11,21,5089,5099,94,0.0,10.0,5078.0,5088.0,,,,,verb.motion,90,subject,The Dragon,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+51,1,bowed,26,31,5104,5109,94,0.0,10.0,5078.0,5088.0,46.0,64.0,5124.0,5142.0,verb.motion,91,subject,The Dragon,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+53,0,smiled,21,27,5244,5250,31,4.0,15.0,5227.0,5238.0,,,,,verb.body,92,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+53,1,called,32,38,5255,5261,31,4.0,15.0,5227.0,5238.0,47.0,54.0,5270.0,5277.0,verb.communication,93,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+53,2,stop,50,54,5273,5277,31,4.0,15.0,5227.0,5238.0,,,,,verb.motion,94,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+53,3,said,60,64,5283,5287,31,4.0,15.0,5227.0,5238.0,,,,,verb.communication,96,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+55,1,finished,16,24,5357,5365,31,0.0,12.0,5341.0,5353.0,,,,,verb.change,95,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+56,0,mounted,8,15,5376,5383,31,0.0,2.0,5368.0,5370.0,,,,,verb.contact,97,subject,The Emperor,5.0,2.0,7.0,male,1.0,tertiary
+57,0,saw,35,38,5470,5473,96,5.0,34.0,5440.0,5469.0,,,,,verb.cognition,98,subject,the Empress,3.0,0.0,3.0,unknown,0.0,tertiary
+57,0,saw,35,38,5470,5473,97,5.0,34.0,5440.0,5469.0,,,,,verb.cognition,98,subject,the courtiers,4.0,0.0,4.0,unknown,0.0,tertiary
+60,1,ride,44,48,5669,5673,102,26.0,40.0,5651.0,5665.0,,,,,verb.motion,101,subject,so many people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+61,5,fell,112,116,5801,5805,103,107.0,111.0,5796.0,5800.0,,,,,verb.motion,103,subject,so many people's of them,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+62,1,seated,61,67,5882,5888,105,26.0,48.0,5847.0,5869.0,,,,,verb.contact,102,subject,a few of the courtiers,1.0,0.0,1.0,unknown,0.0,tertiary
+62,1,seated,61,67,5882,5888,97,26.0,48.0,5847.0,5869.0,,,,,verb.contact,102,subject,the courtiers,4.0,0.0,4.0,unknown,0.0,tertiary
+63,0,flew,11,15,5922,5926,94,0.0,10.0,5911.0,5921.0,129.0,151.0,6040.0,6062.0,verb.motion,104,subject,The Dragon,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+63,5,see,135,138,6046,6049,108,63.0,127.0,5974.0,6038.0,144.0,151.0,6055.0,6062.0,verb.perception,105,subject,"the inmates of the Palace , who had been left behind disappointed",1.0,0.0,1.0,unknown,0.0,tertiary
+66,0,took,14,18,6228,6232,97,0.0,13.0,6214.0,6227.0,27.0,36.0,6241.0,6250.0,verb.possession,107,subject,the courtiers,4.0,0.0,4.0,unknown,0.0,tertiary
+66,1,preserved,41,50,6255,6264,97,0.0,13.0,6214.0,6227.0,56.0,86.0,6270.0,6300.0,verb.change,108,subject,the courtiers,4.0,0.0,4.0,unknown,0.0,tertiary
+5,1,invented,28,36,486,494,13,37.0,104.0,495.0,562.0,,,,,verb.creation,5,direct_object,the three Chinese Emperors of the Mythological age,1.0,0.0,1.0,male,1.0,tertiary
+5,1,invented,28,36,486,494,4,37.0,104.0,495.0,562.0,,,,,verb.creation,5,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+7,2,had,30,33,633,636,16,34.0,91.0,637.0,694.0,,,,,verb.perception,4,direct_object,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+7,2,had,30,33,633,636,18,34.0,91.0,637.0,694.0,,,,,verb.perception,4,direct_object,a great man,1.0,0.0,1.0,male,1.0,tertiary
+7,2,had,30,33,633,636,17,34.0,91.0,637.0,694.0,,,,,verb.perception,4,direct_object,Kotei's mother's son,2.0,0.0,2.0,unknown,0.0,tertiary
+7,3,foretold,49,57,652,660,16,58.0,91.0,661.0,694.0,,,,,verb.communication,7,direct_object,Kotei's mother,1.0,5.0,6.0,female,1.0,tertiary
+7,3,foretold,49,57,652,660,18,58.0,91.0,661.0,694.0,,,,,verb.communication,7,direct_object,a great man,1.0,0.0,1.0,male,1.0,tertiary
+7,3,foretold,49,57,652,660,17,58.0,91.0,661.0,694.0,,,,,verb.communication,7,direct_object,Kotei's mother's son,2.0,0.0,2.0,unknown,0.0,tertiary
+11,2,succeeded,34,43,1068,1077,5,44.0,71.0,1078.0,1105.0,,,,,verb.social,12,direct_object,the Emperor Yuhi,1.0,0.0,1.0,male,1.0,tertiary
+11,2,succeeded,34,43,1068,1077,4,44.0,71.0,1078.0,1105.0,,,,,verb.social,12,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+11,2,succeeded,34,43,1068,1077,22,44.0,71.0,1078.0,1105.0,,,,,verb.social,12,direct_object,Kotei's father,1.0,0.0,1.0,male,1.0,tertiary
+12,1,troubled,28,36,1135,1143,23,37.0,55.0,1144.0,1162.0,,,,,verb.emotion,13,direct_object,the rebel Shiyu,1.0,0.0,1.0,unknown,0.0,tertiary
+12,1,troubled,28,36,1135,1143,6,37.0,55.0,1144.0,1162.0,,,,,verb.emotion,13,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+13,0,wanted,11,17,1175,1181,24,18.0,38.0,1182.0,1202.0,,,,,verb.emotion,14,direct_object,This rebel,1.0,2.0,3.0,male,1.0,tertiary
+13,0,wanted,11,17,1175,1181,25,18.0,38.0,1182.0,1202.0,,,,,verb.emotion,14,direct_object,King,1.0,0.0,1.0,male,1.0,tertiary
+13,1,make,21,25,1185,1189,24,26.0,38.0,1190.0,1202.0,,,,,verb.creation,16,direct_object,This rebel,1.0,2.0,3.0,male,1.0,tertiary
+13,1,make,21,25,1185,1189,25,26.0,38.0,1190.0,1202.0,,,,,verb.creation,16,direct_object,King,1.0,0.0,1.0,male,1.0,tertiary
+14,5,conquer,88,95,1347,1354,6,96.0,99.0,1355.0,1358.0,,,,,verb.creation,17,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+15,0,declared,14,22,1374,1382,28,23.0,44.0,1383.0,1404.0,,,,,verb.communication,18,direct_object,the rebel,4.0,1.0,5.0,male,1.0,tertiary
+15,1,led,49,52,1409,1412,4,53.0,61.0,1413.0,1421.0,62.0,71.0,1422.0,1431.0,verb.motion,19,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+16,0,attacked,19,27,1503,1511,32,28.0,37.0,1512.0,1521.0,,,,,verb.competition,20,direct_object,the enemy,1.0,0.0,1.0,unknown,0.0,tertiary
+17,2,trying,56,62,1643,1649,35,63.0,80.0,1650.0,1667.0,,,,,verb.social,22,direct_object,the royal army,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+17,3,find,66,70,1653,1657,35,71.0,80.0,1658.0,1667.0,,,,,verb.possession,24,direct_object,the royal army,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+17,4,retreated,88,97,1675,1684,36,98.0,113.0,1685.0,1700.0,115.0,155.0,1702.0,1742.0,verb.motion,23,direct_object,Shiyu's troops,1.0,0.0,1.0,unknown,0.0,tertiary
+17,4,retreated,88,97,1675,1684,6,98.0,113.0,1685.0,1700.0,115.0,155.0,1702.0,1742.0,verb.motion,23,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+19,0,returned,6,14,1871,1879,4,15.0,28.0,1880.0,1893.0,,,,,verb.motion,27,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+19,1,thought,34,41,1899,1906,4,42.0,54.0,1907.0,1919.0,55.0,144.0,1920.0,2009.0,verb.cognition,28,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+19,1,thought,34,41,1899,1906,33,42.0,54.0,1907.0,1919.0,55.0,144.0,1920.0,2009.0,verb.cognition,28,direct_object,the magician,3.0,0.0,3.0,unknown,0.0,tertiary
+19,4,conquer,82,89,1947,1954,33,90.0,102.0,1955.0,1967.0,,,,,verb.social,32,direct_object,the magician,3.0,0.0,3.0,unknown,0.0,tertiary
+20,0,invented,21,29,2032,2040,9,30.0,43.0,2041.0,2054.0,92.0,101.0,2103.0,2112.0,verb.creation,31,direct_object,the shinansha,4.0,0.0,4.0,unknown,0.0,tertiary
+20,0,invented,21,29,2032,2040,11,30.0,43.0,2041.0,2054.0,92.0,101.0,2103.0,2112.0,verb.creation,31,direct_object,a man,2.0,0.0,2.0,male,1.0,tertiary
+21,0,show,24,28,2170,2174,46,29.0,32.0,2175.0,2178.0,,,,,verb.perception,34,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+21,0,show,24,28,2170,2174,4,29.0,32.0,2175.0,2178.0,,,,,verb.perception,34,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+21,0,show,24,28,2170,2174,33,29.0,32.0,2175.0,2178.0,,,,,verb.perception,34,direct_object,the magician,3.0,0.0,3.0,unknown,0.0,tertiary
+21,2,fear,53,57,2199,2203,46,58.0,118.0,2204.0,2264.0,,,,,verb.emotion,33,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+21,2,fear,53,57,2199,2203,4,58.0,118.0,2204.0,2264.0,,,,,verb.emotion,33,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+21,2,fear,53,57,2199,2203,33,58.0,118.0,2204.0,2264.0,,,,,verb.emotion,33,direct_object,the magician,3.0,0.0,3.0,unknown,0.0,tertiary
+21,4,confound,102,110,2248,2256,46,111.0,118.0,2257.0,2264.0,,,,,verb.cognition,35,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+21,4,confound,102,110,2248,2256,4,111.0,118.0,2257.0,2264.0,,,,,verb.cognition,35,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+22,0,declared,12,20,2278,2286,6,21.0,38.0,2287.0,2304.0,,,,,verb.communication,36,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+23,0,placed,3,9,2309,2315,9,10.0,23.0,2316.0,2329.0,,,,,verb.contact,37,direct_object,the shinansha,4.0,0.0,4.0,unknown,0.0,tertiary
+23,0,placed,3,9,2309,2315,4,10.0,23.0,2316.0,2329.0,,,,,verb.contact,37,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+25,2,driven,20,26,2436,2442,51,27.0,35.0,2443.0,2451.0,56.0,87.0,2472.0,2503.0,verb.motion,38,direct_object,the royal troops,1.0,0.0,1.0,unknown,0.0,tertiary
+28,0,pointing,9,17,2685,2693,9,18.0,34.0,2694.0,2710.0,,,,,verb.communication,44,direct_object,the shinansha,4.0,0.0,4.0,unknown,0.0,tertiary
+28,2,find,41,45,2717,2721,4,46.0,53.0,2722.0,2729.0,76.0,100.0,2752.0,2776.0,verb.communication,45,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+28,3,directed,58,66,2734,2742,56,67.0,75.0,2743.0,2751.0,76.0,100.0,2752.0,2776.0,verb.competition,46,direct_object,the army,1.0,0.0,1.0,unknown,0.0,tertiary
+29,0,pursued,11,18,2789,2796,57,19.0,33.0,2797.0,2811.0,,,,,verb.contact,47,direct_object,the rebel army,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+29,1,drove,38,43,2816,2821,57,44.0,48.0,2822.0,2826.0,58.0,87.0,2836.0,2865.0,verb.motion,48,direct_object,the rebel army,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+31,0,using,9,14,2962,2967,6,15.0,28.0,2968.0,2981.0,,,,,verb.consumption,52,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+31,2,shut,67,71,3020,3024,6,72.0,79.0,3025.0,3032.0,,,,,verb.contact,53,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+32,0,found,11,16,3083,3088,4,17.0,34.0,3089.0,3106.0,,,,,verb.perception,55,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+32,4,overtaken,91,100,3163,3172,28,101.0,110.0,3173.0,3182.0,111.0,137.0,3183.0,3209.0,verb.motion,54,direct_object,the rebel,4.0,1.0,5.0,male,1.0,tertiary
+32,5,stopped,126,133,3198,3205,4,134.0,137.0,3206.0,3209.0,,,,,verb.motion,56,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+33,3,ordered,75,82,3286,3293,4,83.0,91.0,3294.0,3302.0,,,,,verb.communication,58,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,0,made,21,25,3937,3941,46,26.0,196.0,3942.0,4112.0,,,,,verb.communication,63,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+41,0,made,21,25,3937,3941,4,26.0,196.0,3942.0,4112.0,,,,,verb.communication,63,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,0,made,21,25,3937,3941,78,26.0,196.0,3942.0,4112.0,,,,,verb.communication,63,direct_object,the clever Emperor,1.0,0.0,1.0,male,1.0,tertiary
+41,1,think,45,50,3961,3966,46,51.0,196.0,3967.0,4112.0,,,,,verb.cognition,64,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+41,1,think,45,50,3961,3966,4,51.0,196.0,3967.0,4112.0,,,,,verb.cognition,64,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,3,try,65,68,3981,3984,46,69.0,196.0,3985.0,4112.0,,,,,verb.social,66,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+41,3,try,65,68,3981,3984,4,69.0,196.0,3985.0,4112.0,,,,,verb.social,66,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,4,make,72,76,3988,3992,46,77.0,196.0,3993.0,4112.0,,,,,verb.creation,65,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+41,4,make,72,76,3988,3992,4,77.0,196.0,3993.0,4112.0,,,,,verb.creation,65,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+41,6,carry,98,103,4014,4019,46,104.0,123.0,4020.0,4039.0,124.0,196.0,4040.0,4112.0,verb.motion,67,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+41,6,carry,98,103,4014,4019,4,104.0,123.0,4020.0,4039.0,124.0,196.0,4040.0,4112.0,verb.motion,67,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+43,2,set,39,42,4216,4219,46,43.0,67.0,4220.0,4244.0,,,,,verb.contact,73,direct_object,Kotei's men,4.0,0.0,4.0,male,1.0,tertiary
+43,2,set,39,42,4216,4219,4,43.0,67.0,4220.0,4244.0,,,,,verb.contact,73,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+44,0,took,10,14,4312,4316,4,15.0,23.0,4317.0,4325.0,24.0,40.0,4326.0,4342.0,verb.motion,75,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+44,1,attacked,46,54,4348,4356,6,55.0,75.0,4357.0,4377.0,,,,,verb.competition,76,direct_object,Shiyu,6.0,6.0,12.0,male,1.0,tertiary
+45,1,put,37,40,4416,4419,4,41.0,47.0,4420.0,4426.0,,,,,verb.contact,79,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+45,3,troubled,69,77,4448,4456,4,78.0,89.0,4457.0,4468.0,90.0,101.0,4469.0,4480.0,verb.emotion,78,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+47,1,beloved,7,14,4597,4604,89,15.0,102.0,4605.0,4692.0,,,,,verb.emotion,82,direct_object,Kotei's subjects,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+47,1,beloved,7,14,4597,4604,4,15.0,102.0,4605.0,4692.0,,,,,verb.emotion,82,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+47,2,enjoyed,40,47,4630,4637,89,48.0,72.0,4638.0,4662.0,73.0,102.0,4663.0,4692.0,verb.emotion,83,direct_object,Kotei's subjects,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+48,1,making,33,39,4727,4733,4,40.0,81.0,4734.0,4775.0,,,,,verb.creation,84,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+48,1,making,33,39,4727,4733,90,40.0,81.0,4734.0,4775.0,,,,,verb.creation,84,direct_object,Kotei's people,1.0,0.0,1.0,unknown,0.0,tertiary
+48,3,benefit,63,70,4757,4764,4,71.0,81.0,4765.0,4775.0,,,,,verb.emotion,87,direct_object,Kotei,14.0,49.0,63.0,male,1.0,primary
+48,3,benefit,63,70,4757,4764,90,71.0,81.0,4765.0,4775.0,,,,,verb.emotion,87,direct_object,Kotei's people,1.0,0.0,1.0,unknown,0.0,tertiary
+59,2,tried,59,64,5605,5610,7,65.0,77.0,5611.0,5623.0,,,,,verb.social,99,direct_object,the Dragon,3.0,1.0,4.0,male,1.0,tertiary
+59,3,mount,68,73,5614,5619,7,74.0,77.0,5620.0,5623.0,,,,,verb.competition,100,direct_object,the Dragon,3.0,1.0,4.0,male,1.0,tertiary
+60,1,ride,44,48,5669,5673,7,49.0,62.0,5674.0,5687.0,,,,,verb.motion,101,direct_object,the Dragon,3.0,1.0,4.0,male,1.0,tertiary
+63,5,see,135,138,6046,6049,94,139.0,143.0,6050.0,6054.0,144.0,151.0,6055.0,6062.0,verb.perception,105,direct_object,The Dragon,2.0,1.0,3.0,group/nonbinary,1.0,tertiary
+65,1,recognized,10,20,6162,6172,111,21.0,60.0,6173.0,6212.0,,,,,verb.cognition,106,direct_object,the Emperor Kotei,1.0,0.0,1.0,male,1.0,tertiary

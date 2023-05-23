@@ -1,0 +1,313 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,7,holds,317,322,636,641,48,314.0,316.0,633.0,635.0,333.0,389.0,652.0,708.0,verb.emotion,True,0,subject,the Emperor,1,2,3,male,1.0,tertiary
+6,4,loved,166,171,1460,1465,60,163.0,165.0,1457.0,1459.0,176.0,211.0,1470.0,1505.0,verb.emotion,True,3,subject,This Prince's father,6,3,9,male,1.0,tertiary
+7,5,reached,113,120,1620,1627,62,84.0,89.0,1591.0,1596.0,134.0,150.0,1641.0,1657.0,verb.motion,True,2,subject,a boy,1,0,1,male,1.0,tertiary
+9,1,subdue,60,66,1940,1946,32,27.0,56.0,1907.0,1936.0,,,,,verb.social,True,6,subject,King Keiko,1,1,2,male,1.0,tertiary
+9,1,subdue,60,66,1940,1946,71,27.0,56.0,1907.0,1936.0,,,,,verb.social,True,6,subject,King Keiko's younger son,1,0,1,male,1.0,tertiary
+9,1,subdue,60,66,1940,1946,29,27.0,56.0,1907.0,1936.0,,,,,verb.social,True,6,subject,Yamato,27,125,152,male,1.0,secondary
+10,2,reached,56,63,2071,2078,29,45.0,47.0,2060.0,2062.0,76.0,225.0,2091.0,2240.0,verb.motion,True,5,subject,Yamato,27,125,152,male,1.0,secondary
+11,3,received,82,90,2324,2332,29,79.0,81.0,2321.0,2323.0,112.0,126.0,2354.0,2368.0,verb.perception,True,7,subject,Yamato,27,125,152,male,1.0,secondary
+12,6,donned,200,206,2570,2576,29,89.0,116.0,2459.0,2486.0,,,,,verb.body,True,8,subject,Yamato,27,125,152,male,1.0,secondary
+12,6,donned,200,206,2570,2576,78,89.0,116.0,2459.0,2486.0,,,,,verb.body,True,8,subject,Yamato's trusty followers,1,0,1,unknown,0.0,tertiary
+13,2,pray,45,49,2626,2630,29,34.0,36.0,2615.0,2617.0,,,,,verb.communication,True,9,subject,Yamato,27,125,152,male,1.0,secondary
+14,2,congratulated,61,74,2932,2945,82,0.0,21.0,2871.0,2892.0,,,,,verb.communication,True,10,subject,Yamato's aunt,8,18,26,female,1.0,tertiary
+14,2,congratulated,61,74,2932,2945,29,0.0,21.0,2871.0,2892.0,,,,,verb.communication,True,10,subject,Yamato,27,125,152,male,1.0,secondary
+14,2,congratulated,61,74,2932,2945,86,0.0,21.0,2871.0,2892.0,,,,,verb.communication,True,10,subject,Yamato's Princess his aunt,1,0,1,female,1.0,tertiary
+17,1,received,48,56,3308,3316,90,0.0,16.0,3260.0,3276.0,,,,,verb.possession,True,13,subject,The young Prince,3,10,13,male,1.0,tertiary
+18,2,said,22,26,3402,3406,92,1.0,19.0,3381.0,3399.0,,,,,verb.communication,True,14,subject,The Prince,32,204,236,male,1.0,primary
+19,1,felt,40,44,3529,3533,92,37.0,39.0,3526.0,3528.0,,,,,verb.body,True,15,subject,The Prince,32,204,236,male,1.0,primary
+20,2,reached,31,38,3702,3709,92,28.0,30.0,3699.0,3701.0,,,,,verb.motion,True,16,subject,The Prince,32,204,236,male,1.0,primary
+21,0,met,7,10,3832,3835,92,0.0,2.0,3825.0,3827.0,36.0,87.0,3861.0,3912.0,verb.social,True,17,subject,The Prince,32,204,236,male,1.0,primary
+27,2,kill,29,33,4503,4507,92,12.0,13.0,4486.0,4487.0,39.0,60.0,4513.0,4534.0,verb.contact,True,21,subject,The Prince,32,204,236,male,1.0,primary
+28,0,bade,10,14,4547,4551,92,3.0,5.0,4540.0,4542.0,29.0,39.0,4566.0,4576.0,verb.communication,True,20,subject,The Prince,32,204,236,male,1.0,primary
+29,2,bade,65,69,4643,4647,92,62.0,64.0,4640.0,4642.0,74.0,79.0,4652.0,4657.0,verb.communication,True,22,subject,The Prince,32,204,236,male,1.0,primary
+30,1,let,38,41,4797,4800,92,14.0,16.0,4773.0,4775.0,56.0,89.0,4815.0,4848.0,verb.social,True,23,subject,The Prince,32,204,236,male,1.0,primary
+31,0,brought,18,25,4868,4875,34,0.0,12.0,4850.0,4862.0,,,,,verb.contact,True,24,subject,Ototachibana,11,29,40,female,1.0,tertiary
+32,2,brought,54,61,5036,5043,34,41.0,53.0,5023.0,5035.0,,,,,verb.motion,True,25,subject,Ototachibana,11,29,40,female,1.0,tertiary
+33,0,smiled,3,9,5063,5069,92,0.0,2.0,5060.0,5062.0,,,,,verb.body,True,28,subject,The Prince,32,204,236,male,1.0,primary
+34,0,knew,10,14,5132,5136,92,0.0,2.0,5122.0,5124.0,,,,,verb.cognition,True,27,subject,The Prince,32,204,236,male,1.0,primary
+35,1,disappeared,30,41,5195,5206,116,0.0,25.0,5165.0,5190.0,,,,,verb.change,True,26,subject,the warrior,1,0,1,unknown,0.0,tertiary
+38,3,approached,113,123,5537,5547,92,102.0,112.0,5526.0,5536.0,,,,,verb.motion,True,30,subject,The Prince,32,204,236,male,1.0,primary
+40,2,felt,101,105,5823,5827,120,96.0,100.0,5818.0,5822.0,,,,,verb.emotion,True,32,subject,The two chiefs Kumaso and Takeru,1,16,17,group/nonbinary,1.0,tertiary
+41,3,robed,106,111,5942,5947,130,88.0,105.0,5924.0,5941.0,,,,,verb.body,True,31,subject,a beautiful woman,2,2,4,female,1.0,tertiary
+42,0,appeared,37,45,6028,6036,130,33.0,36.0,6024.0,6027.0,,,,,verb.change,True,33,subject,a beautiful woman,2,2,4,female,1.0,tertiary
+43,5,stood,83,88,6142,6147,120,34.0,45.0,6093.0,6104.0,101.0,117.0,6160.0,6176.0,verb.contact,True,34,subject,The two chiefs Kumaso and Takeru,1,16,17,group/nonbinary,1.0,tertiary
+43,5,stood,83,88,6142,6147,132,34.0,45.0,6093.0,6104.0,101.0,117.0,6160.0,6176.0,verb.contact,True,34,subject,The two chiefs Kumaso and Takeru's enemy,1,0,1,unknown,0.0,tertiary
+45,1,come,14,18,6217,6221,130,10.0,13.0,6213.0,6216.0,,,,,verb.motion,True,35,subject,a beautiful woman,2,2,4,female,1.0,tertiary
+46,2,looked,76,82,6305,6311,30,73.0,75.0,6302.0,6304.0,,,,,verb.perception,True,36,subject,Kumaso,6,9,15,male,1.0,tertiary
+48,0,felt,12,16,6432,6436,29,0.0,11.0,6420.0,6431.0,,,,,verb.perception,True,38,subject,Yamato,27,125,152,male,1.0,secondary
+49,2,approached,74,84,6591,6601,29,71.0,73.0,6588.0,6590.0,101.0,116.0,6618.0,6633.0,verb.motion,True,40,subject,Yamato,27,125,152,male,1.0,secondary
+50,1,drank,55,60,6731,6736,30,48.0,54.0,6724.0,6730.0,83.0,133.0,6759.0,6809.0,verb.consumption,True,39,subject,Kumaso,6,9,15,male,1.0,tertiary
+52,1,seized,31,37,6974,6980,30,28.0,30.0,6971.0,6973.0,,,,,verb.contact,True,41,subject,Kumaso,6,9,15,male,1.0,tertiary
+53,6,escape,99,105,7213,7219,31,0.0,29.0,7114.0,7143.0,,,,,verb.motion,True,42,subject,Idzumo Takeru,10,19,29,male,1.0,tertiary
+53,6,escape,99,105,7213,7219,139,0.0,29.0,7114.0,7143.0,,,,,verb.motion,True,42,subject,the brigand 's brother,1,0,1,male,1.0,tertiary
+53,6,escape,99,105,7213,7219,138,0.0,29.0,7114.0,7143.0,,,,,verb.motion,True,42,subject,the brigand,4,7,11,male,1.0,tertiary
+54,1,reach,13,18,7275,7280,31,4.0,6.0,7266.0,7268.0,,,,,verb.motion,True,43,subject,Idzumo Takeru,10,19,29,male,1.0,tertiary
+56,1,seized,37,43,7519,7525,138,34.0,36.0,7516.0,7518.0,,,,,verb.contact,True,44,subject,the brigand,4,7,11,male,1.0,tertiary
+57,1,said,37,41,7582,7586,29,0.0,6.0,7545.0,7551.0,,,,,verb.communication,True,47,subject,Yamato,27,125,152,male,1.0,secondary
+59,3,come,72,76,7696,7700,92,68.0,71.0,7692.0,7695.0,,,,,verb.motion,True,46,subject,The Prince,32,204,236,male,1.0,primary
+60,0,believed,11,19,7754,7762,138,9.0,10.0,7752.0,7753.0,,,,,verb.cognition,True,45,subject,the brigand,4,7,11,male,1.0,tertiary
+61,4,killed,73,79,7948,7954,92,51.0,54.0,7926.0,7929.0,,,,,verb.contact,True,48,subject,The Prince,32,204,236,male,1.0,primary
+65,0,held,7,11,8249,8253,90,4.0,6.0,8246.0,8248.0,36.0,58.0,8278.0,8300.0,verb.contact,True,50,subject,The young Prince,3,10,13,male,1.0,tertiary
+67,2,overcome,46,54,8424,8432,388,15.0,27.0,8393.0,8405.0,,,,,verb.competition,True,51,subject,a strong man,1,0,1,male,1.0,tertiary
+70,0,bequeath,12,20,8533,8541,147,0.0,9.0,8521.0,8530.0,28.0,42.0,8549.0,8563.0,verb.cognition,True,53,subject,the dying man,1,3,4,male,1.0,tertiary
+71,1,died,49,53,8629,8633,31,28.0,34.0,8608.0,8614.0,,,,,verb.change,True,55,subject,Idzumo Takeru,10,19,29,male,1.0,tertiary
+72,3,return,101,107,8736,8742,92,0.0,10.0,8635.0,8645.0,,,,,verb.motion,True,57,subject,The Prince,32,204,236,male,1.0,primary
+74,2,knew,59,63,8874,8878,92,56.0,58.0,8871.0,8873.0,,,,,verb.cognition,True,56,subject,The Prince,32,204,236,male,1.0,primary
+75,2,feigned,36,43,8947,8954,92,0.0,2.0,8911.0,8913.0,70.0,91.0,8981.0,9002.0,verb.communication,True,58,subject,The Prince,32,204,236,male,1.0,primary
+76,3,jammed,45,51,9049,9055,92,17.0,19.0,9021.0,9023.0,55.0,62.0,9059.0,9066.0,verb.contact,True,59,subject,The Prince,32,204,236,male,1.0,primary
+77,1,wore,43,47,9148,9152,92,5.0,7.0,9110.0,9112.0,66.0,114.0,9171.0,9219.0,verb.body,True,60,subject,The Prince,32,204,236,male,1.0,primary
+78,2,try,78,81,9299,9302,31,71.0,74.0,9292.0,9295.0,98.0,140.0,9319.0,9361.0,verb.social,True,61,subject,Idzumo Takeru,10,19,29,male,1.0,tertiary
+79,6,landed,167,173,9530,9536,92,140.0,150.0,9503.0,9513.0,,,,,verb.motion,True,62,subject,The Prince,32,204,236,male,1.0,primary
+80,2,change,27,33,9589,9595,92,13.0,15.0,9575.0,9577.0,,,,,verb.change,True,63,subject,The Prince,32,204,236,male,1.0,primary
+82,1,landed,18,24,9755,9761,92,11.0,13.0,9748.0,9750.0,,,,,verb.motion,True,65,subject,The Prince,32,204,236,male,1.0,primary
+83,1,feeling,32,39,9970,9977,169,0.0,10.0,9938.0,9948.0,,,,,verb.emotion,True,66,subject,the robber,2,8,10,male,1.0,tertiary
+84,0,seized,3,9,10090,10096,169,0.0,2.0,10087.0,10089.0,,,,,verb.contact,True,67,subject,the robber,2,8,10,male,1.0,tertiary
+86,1,tried,82,87,10261,10266,90,28.0,81.0,10207.0,10260.0,,,,,verb.social,True,68,subject,The young Prince,3,10,13,male,1.0,tertiary
+86,1,tried,82,87,10261,10266,31,28.0,81.0,10207.0,10260.0,,,,,verb.social,True,68,subject,Idzumo Takeru,10,19,29,male,1.0,tertiary
+88,0,saw,12,15,10462,10465,29,0.0,11.0,10450.0,10461.0,,,,,verb.perception,True,69,subject,Yamato,27,125,152,male,1.0,secondary
+90,3,coming,126,132,11070,11076,31,117.0,125.0,11061.0,11069.0,,,,,verb.motion,True,71,subject,Idzumo Takeru,10,19,29,male,1.0,tertiary
+91,5,said,110,114,11232,11236,70,107.0,109.0,11229.0,11231.0,,,,,verb.communication,True,73,subject,the King,15,10,25,male,1.0,tertiary
+93,8,rebelled,179,187,11534,11542,188,58.0,173.0,11413.0,11528.0,,,,,verb.social,True,72,subject,the Ainu race,1,3,4,group/nonbinary,1.0,tertiary
+93,8,rebelled,179,187,11534,11542,35,58.0,173.0,11413.0,11528.0,,,,,verb.social,True,72,subject,the Japanese,1,0,1,unknown,0.0,tertiary
+97,0,loved,16,21,11907,11912,70,7.0,15.0,11898.0,11906.0,,,,,verb.emotion,True,76,subject,the King,15,10,25,male,1.0,tertiary
+98,2,complied,145,153,12229,12237,70,96.0,131.0,12180.0,12215.0,,,,,verb.communication,True,78,subject,the King,15,10,25,male,1.0,tertiary
+98,2,complied,145,153,12229,12237,203,96.0,131.0,12180.0,12215.0,,,,,verb.communication,True,78,subject,the King's Majesty,1,0,1,unknown,0.0,tertiary
+99,1,start,37,42,12295,12300,92,23.0,33.0,12281.0,12291.0,,,,,verb.change,True,79,subject,The Prince,32,204,236,male,1.0,primary
+100,4,given,178,183,12716,12721,210,140.0,150.0,12678.0,12688.0,212.0,250.0,12750.0,12788.0,verb.possession,True,80,subject,a regiment,1,0,1,unknown,0.0,tertiary
+101,2,marched,101,108,12891,12898,92,0.0,10.0,12790.0,12800.0,,,,,verb.motion,True,81,subject,The Prince,32,204,236,male,1.0,primary
+102,2,greet,134,139,13060,13065,82,71.0,121.0,12997.0,13047.0,,,,,verb.communication,True,83,subject,Yamato's aunt,8,18,26,female,1.0,tertiary
+102,2,greet,134,139,13060,13065,220,71.0,121.0,12997.0,13047.0,,,,,verb.communication,True,83,subject,High Priestess,1,0,1,unknown,0.0,tertiary
+102,2,greet,134,139,13060,13065,219,71.0,121.0,12997.0,13047.0,,,,,verb.communication,True,83,subject,the Princess of Yamato,1,0,1,female,1.0,tertiary
+102,2,greet,134,139,13060,13065,92,71.0,121.0,12997.0,13047.0,,,,,verb.communication,True,83,subject,The Prince,32,204,236,male,1.0,primary
+103,6,overcome,99,107,13170,13178,92,92.0,95.0,13163.0,13166.0,,,,,verb.competition,True,82,subject,The Prince,32,204,236,male,1.0,primary
+104,0,told,3,7,13217,13221,92,0.0,2.0,13214.0,13216.0,,,,,verb.communication,True,85,subject,The Prince,32,204,236,male,1.0,primary
+105,10,used,254,258,13631,13635,224,218.0,224.0,13595.0,13601.0,,,,,verb.consumption,True,84,subject,people,1,0,1,unknown,0.0,tertiary
+106,0,presented,10,19,13682,13691,82,0.0,9.0,13672.0,13681.0,,,,,verb.communication,True,86,subject,Yamato's aunt,8,18,26,female,1.0,tertiary
+108,3,bade,89,93,13938,13942,82,85.0,88.0,13934.0,13937.0,105.0,137.0,13954.0,13986.0,verb.communication,True,87,subject,Yamato's aunt,8,18,26,female,1.0,tertiary
+109,0,bade,16,20,14004,14008,29,0.0,11.0,13988.0,13999.0,,,,,verb.communication,True,88,subject,Yamato,27,125,152,male,1.0,secondary
+110,0,welcomed,18,26,14209,14217,232,5.0,17.0,14196.0,14208.0,38.0,52.0,14229.0,14243.0,verb.emotion,True,89,subject,The governor,6,2,8,male,1.0,tertiary
+111,1,told,35,39,14325,14329,232,22.0,34.0,14312.0,14324.0,,,,,verb.communication,True,91,subject,The governor,6,2,8,male,1.0,tertiary
+112,1,deceived,23,31,14463,14471,92,0.0,10.0,14440.0,14450.0,,,,,verb.emotion,True,90,subject,The Prince,32,204,236,male,1.0,primary
+113,0,led,18,21,14586,14589,232,0.0,12.0,14568.0,14580.0,,,,,verb.motion,True,92,subject,The governor,6,2,8,male,1.0,tertiary
+114,6,saw,190,193,14871,14874,92,187.0,189.0,14868.0,14870.0,,,,,verb.perception,True,93,subject,The Prince,32,204,236,male,1.0,primary
+115,5,saw,112,115,15048,15051,92,109.0,111.0,15045.0,15047.0,,,,,verb.cognition,True,94,subject,The Prince,32,204,236,male,1.0,primary
+119,1,surrounded,7,17,15284,15294,92,0.0,2.0,15277.0,15279.0,,,,,verb.competition,True,96,subject,The Prince,32,204,236,male,1.0,primary
+121,1,looking,17,24,15382,15389,92,5.0,15.0,15370.0,15380.0,,,,,verb.perception,True,98,subject,The Prince,32,204,236,male,1.0,primary
+122,2,lured,25,30,15504,15509,92,13.0,14.0,15492.0,15493.0,46.0,63.0,15525.0,15542.0,verb.contact,True,97,subject,The Prince,32,204,236,male,1.0,primary
+123,0,ground,7,13,15552,15558,92,4.0,6.0,15549.0,15551.0,34.0,83.0,15579.0,15628.0,verb.body,True,100,subject,The Prince,32,204,236,male,1.0,primary
+125,2,given,59,64,15769,15774,82,36.0,45.0,15746.0,15755.0,69.0,85.0,15779.0,15795.0,verb.communication,True,99,subject,Yamato's aunt,8,18,26,female,1.0,tertiary
+125,2,given,59,64,15769,15774,92,36.0,45.0,15746.0,15755.0,69.0,85.0,15779.0,15795.0,verb.communication,True,99,subject,The Prince,32,204,236,male,1.0,primary
+126,2,given,49,54,15941,15946,82,17.0,30.0,15909.0,15922.0,,,,,verb.possession,True,101,subject,Yamato's aunt,8,18,26,female,1.0,tertiary
+126,2,given,49,54,15941,15946,92,17.0,30.0,15909.0,15922.0,,,,,verb.possession,True,101,subject,The Prince,32,204,236,male,1.0,primary
+127,1,set,54,57,16041,16044,92,26.0,50.0,16013.0,16037.0,,,,,verb.contact,True,102,subject,The Prince,32,204,236,male,1.0,primary
+127,1,set,54,57,16041,16044,27,26.0,50.0,16013.0,16037.0,,,,,verb.contact,True,102,subject,Murakumo,4,0,4,unknown,0.0,tertiary
+129,18,set,435,438,16673,16676,92,428.0,430.0,16666.0,16668.0,446.0,465.0,16684.0,16703.0,verb.creation,True,103,subject,The Prince,32,204,236,male,1.0,primary
+130,0,ascribed,15,23,16720,16728,92,4.0,14.0,16709.0,16719.0,35.0,43.0,16740.0,16748.0,verb.cognition,True,107,subject,The Prince,32,204,236,male,1.0,primary
+131,8,escaped,239,246,17200,17207,92,200.0,202.0,17161.0,17163.0,258.0,280.0,17219.0,17241.0,verb.motion,True,106,subject,The Prince,32,204,236,male,1.0,primary
+134,2,subdued,63,70,17561,17568,92,0.0,2.0,17498.0,17500.0,,,,,verb.competition,True,108,subject,The Prince,32,204,236,male,1.0,primary
+135,2,came,40,44,17623,17627,92,15.0,17.0,17598.0,17600.0,,,,,verb.motion,True,110,subject,The Prince,32,204,236,male,1.0,primary
+136,2,followed,44,52,17736,17744,92,0.0,31.0,17692.0,17723.0,,,,,verb.social,True,109,subject,The Prince,32,204,236,male,1.0,primary
+137,7,returned,296,304,18096,18104,92,293.0,295.0,18093.0,18095.0,,,,,verb.motion,True,111,subject,The Prince,32,204,236,male,1.0,primary
+138,1,cared,64,69,18188,18193,92,61.0,63.0,18185.0,18187.0,,,,,verb.emotion,True,112,subject,The Prince,32,204,236,male,1.0,primary
+139,5,told,172,176,18404,18408,92,161.0,171.0,18393.0,18403.0,181.0,188.0,18413.0,18420.0,verb.communication,True,113,subject,The Prince,32,204,236,male,1.0,primary
+143,3,known,87,92,19046,19051,267,73.0,76.0,19032.0,19035.0,,,,,verb.cognition,True,115,subject,the faithful Ototachibana,1,22,23,female,1.0,tertiary
+144,3,bade,84,88,19225,19229,92,4.0,14.0,19145.0,19155.0,107.0,150.0,19248.0,19291.0,verb.communication,True,118,subject,The Prince,32,204,236,male,1.0,primary
+147,4,bade,112,116,19900,19904,92,109.0,111.0,19897.0,19899.0,164.0,232.0,19952.0,20020.0,verb.communication,True,120,subject,The Prince,32,204,236,male,1.0,primary
+148,8,return,228,234,20250,20256,92,219.0,221.0,20241.0,20243.0,,,,,verb.motion,True,122,subject,The Prince,32,204,236,male,1.0,primary
+149,12,caused,258,264,20561,20567,92,242.0,250.0,20545.0,20553.0,,,,,verb.creation,True,121,subject,The Prince,32,204,236,male,1.0,primary
+151,2,said,84,88,20842,20846,92,69.0,71.0,20827.0,20829.0,,,,,verb.communication,True,125,subject,The Prince,32,204,236,male,1.0,primary
+153,1,want,15,19,20907,20911,397,7.0,14.0,20899.0,20906.0,,,,,verb.emotion,True,124,subject,The Prince's men's men,1,0,1,male,1.0,tertiary
+153,1,want,15,19,20907,20911,109,7.0,14.0,20899.0,20906.0,,,,,verb.emotion,True,124,subject,The Prince's men,4,1,5,male,1.0,tertiary
+154,1,jump,8,12,20935,20939,92,0.0,1.0,20927.0,20928.0,18.0,28.0,20945.0,20955.0,verb.motion,True,127,subject,The Prince,32,204,236,male,1.0,primary
+156,5,tossed,162,168,21254,21260,34,98.0,157.0,21190.0,21249.0,180.0,318.0,21272.0,21410.0,verb.motion,True,126,subject,Ototachibana,11,29,40,female,1.0,tertiary
+156,5,tossed,162,168,21254,21260,109,98.0,157.0,21190.0,21249.0,180.0,318.0,21272.0,21410.0,verb.motion,True,126,subject,The Prince's men,4,1,5,male,1.0,tertiary
+156,5,tossed,162,168,21254,21260,296,98.0,157.0,21190.0,21249.0,180.0,318.0,21272.0,21410.0,verb.motion,True,126,subject,the boat which held Ototachibana and the Prince and his men,1,0,1,male,1.0,tertiary
+156,5,tossed,162,168,21254,21260,92,98.0,157.0,21190.0,21249.0,180.0,318.0,21272.0,21410.0,verb.motion,True,126,subject,The Prince,32,204,236,male,1.0,primary
+157,10,look,187,191,21599,21603,300,8.0,39.0,21420.0,21451.0,,,,,verb.perception,True,128,subject,the Dragon King of the Sea,1,0,1,male,1.0,tertiary
+158,2,worked,70,76,21688,21694,305,0.0,18.0,21618.0,21636.0,,,,,verb.social,True,130,subject,The terrified crew,1,2,3,group/nonbinary,1.0,tertiary
+160,8,angered,149,156,22247,22254,92,134.0,144.0,22232.0,22242.0,186.0,200.0,22284.0,22298.0,verb.social,True,131,subject,The Prince,32,204,236,male,1.0,primary
+161,1,appease,29,36,22329,22336,34,7.0,22.0,22307.0,22322.0,,,,,verb.emotion,True,132,subject,Ototachibana,11,29,40,female,1.0,tertiary
+162,1,said,28,32,22440,22444,34,24.0,27.0,22436.0,22439.0,,,,,verb.communication,True,133,subject,Ototachibana,11,29,40,female,1.0,tertiary
+163,1,cast,11,15,22512,22516,34,0.0,1.0,22501.0,22502.0,50.0,72.0,22551.0,22573.0,verb.social,True,134,subject,Ototachibana,11,29,40,female,1.0,tertiary
+166,4,sitting,134,141,22898,22905,312,83.0,94.0,22847.0,22858.0,,,,,verb.contact,True,135,subject,the astonished onlookers,1,0,1,unknown,0.0,tertiary
+167,1,appeased,29,37,22936,22944,313,0.0,19.0,22907.0,22926.0,,,,,verb.emotion,True,138,subject,The gods of,1,0,1,unknown,0.0,tertiary
+168,1,landed,48,54,23058,23064,29,0.0,11.0,23010.0,23021.0,,,,,verb.motion,True,139,subject,Yamato,27,125,152,male,1.0,secondary
+169,2,conquering,70,80,23185,23195,29,38.0,40.0,23153.0,23155.0,,,,,verb.social,True,140,subject,Yamato,27,125,152,male,1.0,secondary
+170,0,ascribed,3,11,23233,23241,29,0.0,2.0,23230.0,23232.0,,,,,verb.cognition,True,141,subject,Yamato,27,125,152,male,1.0,secondary
+171,3,pass,78,82,23463,23467,111,71.0,74.0,23456.0,23459.0,,,,,verb.motion,True,143,subject,The Prince's wife,5,7,12,female,1.0,tertiary
+172,2,esteem,27,33,23532,23538,29,13.0,15.0,23518.0,23520.0,,,,,verb.cognition,True,142,subject,Yamato,27,125,152,male,1.0,secondary
+173,2,came,43,47,23647,23651,29,40.0,42.0,23644.0,23646.0,,,,,verb.motion,True,145,subject,Yamato,27,125,152,male,1.0,secondary
+175,3,given,121,126,24049,24054,34,104.0,116.0,24032.0,24044.0,,,,,verb.possession,True,144,subject,Ototachibana,11,29,40,female,1.0,tertiary
+180,3,subdued,62,69,24729,24736,29,55.0,57.0,24722.0,24724.0,,,,,verb.competition,True,147,subject,Yamato,27,125,152,male,1.0,secondary
+181,9,came,202,206,25154,25158,29,158.0,160.0,25110.0,25112.0,,,,,verb.motion,True,148,subject,Yamato,27,125,152,male,1.0,secondary
+182,0,reached,16,23,25199,25206,92,5.0,15.0,25188.0,25198.0,,,,,verb.motion,True,149,subject,The Prince,32,204,236,male,1.0,primary
+183,1,saw,37,40,25309,25312,29,34.0,36.0,25306.0,25308.0,,,,,verb.perception,True,150,subject,Yamato,27,125,152,male,1.0,secondary
+184,9,seize,189,194,25553,25558,29,172.0,179.0,25536.0,25543.0,,,,,verb.contact,True,151,subject,Yamato,27,125,152,male,1.0,secondary
+185,6,wash,139,143,25699,25703,349,106.0,115.0,25666.0,25675.0,,,,,verb.contact,True,152,subject,the women,1,1,2,female,1.0,tertiary
+187,2,dared,100,105,26064,26069,412,79.0,95.0,26043.0,26059.0,,,,,verb.social,True,153,subject,a wicked monster,1,1,2,male,1.0,tertiary
+189,2,kill,21,25,26214,26218,29,0.0,1.0,26193.0,26194.0,29.0,36.0,26222.0,26229.0,verb.contact,True,156,subject,Yamato,27,125,152,male,1.0,secondary
+191,0,climbed,3,10,26323,26330,29,0.0,2.0,26320.0,26322.0,31.0,136.0,26351.0,26456.0,verb.motion,True,155,subject,Yamato,27,125,152,male,1.0,secondary
+192,2,said,28,32,26486,26490,417,1.0,25.0,26459.0,26483.0,,,,,verb.communication,True,158,subject,the monster,1,1,2,male,1.0,tertiary
+193,1,need,11,15,26513,26517,92,2.0,3.0,26504.0,26505.0,25.0,38.0,26527.0,26540.0,verb.consumption,True,157,subject,The Prince,32,204,236,male,1.0,primary
+194,1,kill,6,10,26548,26552,92,0.0,1.0,26542.0,26543.0,15.0,28.0,26557.0,26570.0,verb.contact,True,159,subject,The Prince,32,204,236,male,1.0,primary
+195,1,tried,41,46,26614,26619,29,0.0,2.0,26573.0,26575.0,,,,,verb.social,True,160,subject,Yamato,27,125,152,male,1.0,secondary
+196,1,gained,47,53,26711,26717,29,23.0,46.0,26687.0,26710.0,,,,,verb.change,True,161,subject,Yamato,27,125,152,male,1.0,secondary
+197,4,see,128,131,26896,26899,92,77.0,90.0,26845.0,26858.0,,,,,verb.perception,True,162,subject,The Prince,32,204,236,male,1.0,primary
+198,1,groping,39,46,26958,26965,29,32.0,34.0,26951.0,26953.0,55.0,68.0,26974.0,26987.0,verb.contact,True,163,subject,Yamato,27,125,152,male,1.0,secondary
+199,5,knew,83,87,27164,27168,29,80.0,82.0,27161.0,27163.0,,,,,verb.cognition,True,165,subject,Yamato,27,125,152,male,1.0,secondary
+200,2,move,48,52,27252,27256,29,32.0,34.0,27236.0,27238.0,,,,,verb.motion,True,164,subject,Yamato,27,125,152,male,1.0,secondary
+201,2,come,77,81,27531,27535,29,64.0,76.0,27518.0,27530.0,,,,,verb.change,True,167,subject,Yamato,27,125,152,male,1.0,secondary
+202,3,prayed,71,77,27712,27718,29,68.0,70.0,27709.0,27711.0,,,,,verb.body,True,166,subject,Yamato,27,125,152,male,1.0,secondary
+203,3,came,79,83,27839,27843,29,0.0,73.0,27760.0,27833.0,,,,,verb.change,True,169,subject,Yamato,27,125,152,male,1.0,secondary
+203,3,came,79,83,27839,27843,363,0.0,73.0,27760.0,27833.0,,,,,verb.change,True,169,subject,"Yamato's aunt , priestess of the shrine , who had blessed him on his setting out",1,0,1,unknown,0.0,tertiary
+203,3,came,79,83,27839,27843,364,0.0,73.0,27760.0,27833.0,,,,,verb.change,True,169,subject,priestess of the shrine,1,4,5,female,1.0,tertiary
+3,3,changed,95,102,992,999,27,103.0,136.0,1000.0,1033.0,138.0,164.0,1035.0,1061.0,verb.change,True,1,direct_object,Murakumo,4,0,4,unknown,0.0,tertiary
+6,4,loved,166,171,1460,1465,58,172.0,175.0,1466.0,1469.0,176.0,211.0,1470.0,1505.0,verb.emotion,True,3,direct_object,This Prince,1,7,8,male,1.0,tertiary
+7,5,reached,113,120,1620,1627,63,121.0,133.0,1628.0,1640.0,134.0,150.0,1641.0,1657.0,verb.motion,True,2,direct_object,man,1,0,1,male,1.0,tertiary
+8,2,rebelling,34,43,1804,1813,70,44.0,60.0,1814.0,1830.0,,,,,verb.social,True,4,direct_object,the King,15,10,25,male,1.0,tertiary
+9,1,subdue,60,66,1940,1946,72,67.0,79.0,1947.0,1959.0,,,,,verb.social,True,6,direct_object,the brigands,2,2,4,group/nonbinary,1.0,tertiary
+10,2,reached,56,63,2071,2078,29,64.0,75.0,2079.0,2090.0,76.0,225.0,2091.0,2240.0,verb.motion,True,5,direct_object,Yamato,27,125,152,male,1.0,secondary
+11,3,received,82,90,2324,2332,29,91.0,111.0,2333.0,2353.0,112.0,126.0,2354.0,2368.0,verb.perception,True,7,direct_object,Yamato,27,125,152,male,1.0,secondary
+11,3,received,82,90,2324,2332,60,91.0,111.0,2333.0,2353.0,112.0,126.0,2354.0,2368.0,verb.perception,True,7,direct_object,This Prince's father,6,3,9,male,1.0,tertiary
+14,2,congratulated,61,74,2932,2945,29,75.0,78.0,2946.0,2949.0,,,,,verb.communication,True,10,direct_object,Yamato,27,125,152,male,1.0,secondary
+14,2,congratulated,61,74,2932,2945,60,75.0,78.0,2946.0,2949.0,,,,,verb.communication,True,10,direct_object,This Prince's father,6,3,9,male,1.0,tertiary
+14,2,congratulated,61,74,2932,2945,70,75.0,78.0,2946.0,2949.0,,,,,verb.communication,True,10,direct_object,the King,15,10,25,male,1.0,tertiary
+15,2,bring,80,85,3095,3100,29,86.0,89.0,3101.0,3104.0,,,,,verb.creation,True,11,direct_object,Yamato,27,125,152,male,1.0,secondary
+16,1,bade,55,59,3239,3243,29,60.0,63.0,3244.0,3247.0,,,,,verb.communication,True,12,direct_object,Yamato,27,125,152,male,1.0,secondary
+17,1,received,48,56,3308,3316,82,57.0,118.0,3317.0,3378.0,,,,,verb.possession,True,13,direct_object,Yamato's aunt,8,18,26,female,1.0,tertiary
+18,2,said,22,26,3402,3406,92,27.0,37.0,3407.0,3417.0,,,,,verb.communication,True,14,direct_object,The Prince,32,204,236,male,1.0,primary
+19,1,felt,40,44,3529,3533,72,45.0,180.0,3534.0,3669.0,,,,,verb.body,True,15,direct_object,the brigands,2,2,4,group/nonbinary,1.0,tertiary
+19,1,felt,40,44,3529,3533,92,45.0,180.0,3534.0,3669.0,,,,,verb.body,True,15,direct_object,The Prince,32,204,236,male,1.0,primary
+22,2,stopped,122,129,4036,4043,107,130.0,154.0,4044.0,4068.0,,,,,verb.motion,True,18,direct_object,The Prince's army,2,0,2,unknown,0.0,tertiary
+22,2,stopped,122,129,4036,4043,92,130.0,154.0,4044.0,4068.0,,,,,verb.motion,True,18,direct_object,The Prince,32,204,236,male,1.0,primary
+24,8,fight,159,164,4265,4270,371,165.0,208.0,4271.0,4314.0,,,,,verb.competition,True,19,direct_object,The Prince's men,1,0,1,male,1.0,tertiary
+24,8,fight,159,164,4265,4270,92,165.0,208.0,4271.0,4314.0,,,,,verb.competition,True,19,direct_object,The Prince,32,204,236,male,1.0,primary
+27,2,kill,29,33,4503,4507,374,34.0,38.0,4508.0,4512.0,39.0,60.0,4513.0,4534.0,verb.contact,True,21,direct_object,The Prince's enemies,1,1,2,group/nonbinary,1.0,tertiary
+28,0,bade,10,14,4547,4551,107,15.0,28.0,4552.0,4565.0,29.0,39.0,4566.0,4576.0,verb.communication,True,20,direct_object,The Prince's army,2,0,2,unknown,0.0,tertiary
+28,0,bade,10,14,4547,4551,92,15.0,28.0,4552.0,4565.0,29.0,39.0,4566.0,4576.0,verb.communication,True,20,direct_object,The Prince,32,204,236,male,1.0,primary
+29,2,bade,65,69,4643,4647,112,70.0,73.0,4648.0,4651.0,74.0,79.0,4652.0,4657.0,verb.communication,True,22,direct_object,the Princess Ototachibana,1,2,3,female,1.0,tertiary
+30,1,let,38,41,4797,4800,92,42.0,55.0,4801.0,4814.0,56.0,89.0,4815.0,4848.0,verb.social,True,23,direct_object,The Prince,32,204,236,male,1.0,primary
+31,0,brought,18,25,4868,4875,34,26.0,29.0,4876.0,4879.0,,,,,verb.contact,True,24,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+31,0,brought,18,25,4868,4875,92,26.0,29.0,4876.0,4879.0,,,,,verb.contact,True,24,direct_object,The Prince,32,204,236,male,1.0,primary
+32,2,brought,54,61,5036,5043,34,62.0,65.0,5044.0,5047.0,,,,,verb.motion,True,25,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+32,2,brought,54,61,5036,5043,92,62.0,65.0,5044.0,5047.0,,,,,verb.motion,True,25,direct_object,The Prince,32,204,236,male,1.0,primary
+34,0,knew,10,14,5132,5136,92,15.0,22.0,5137.0,5144.0,,,,,verb.cognition,True,27,direct_object,The Prince,32,204,236,male,1.0,primary
+39,7,determined,135,145,5684,5694,120,146.0,171.0,5695.0,5720.0,,,,,verb.cognition,True,29,direct_object,The two chiefs Kumaso and Takeru,1,16,17,group/nonbinary,1.0,tertiary
+39,7,determined,135,145,5684,5694,127,146.0,171.0,5695.0,5720.0,,,,,verb.cognition,True,29,direct_object,The two chiefs Kumaso and Takeru's band,1,0,1,unknown,0.0,tertiary
+41,3,robed,106,111,5942,5947,120,112.0,153.0,5948.0,5989.0,,,,,verb.body,True,31,direct_object,The two chiefs Kumaso and Takeru,1,16,17,group/nonbinary,1.0,tertiary
+43,5,stood,83,88,6142,6147,120,89.0,100.0,6148.0,6159.0,101.0,117.0,6160.0,6176.0,verb.contact,True,34,direct_object,The two chiefs Kumaso and Takeru,1,16,17,group/nonbinary,1.0,tertiary
+46,2,looked,76,82,6305,6311,133,83.0,105.0,6312.0,6334.0,,,,,verb.perception,True,36,direct_object,the gentle intruder,1,0,1,unknown,0.0,tertiary
+47,1,bade,40,44,6376,6380,134,45.0,48.0,6381.0,6384.0,,,,,verb.communication,True,37,direct_object,the disguised Prince,1,1,2,male,1.0,tertiary
+48,0,felt,12,16,6432,6436,29,17.0,95.0,6437.0,6515.0,,,,,verb.perception,True,38,direct_object,Yamato,27,125,152,male,1.0,secondary
+54,1,reach,13,18,7275,7280,92,19.0,59.0,7281.0,7321.0,,,,,verb.motion,True,43,direct_object,The Prince,32,204,236,male,1.0,primary
+56,1,seized,37,43,7519,7525,92,44.0,61.0,7526.0,7543.0,,,,,verb.contact,True,44,direct_object,The Prince,32,204,236,male,1.0,primary
+60,0,believed,11,19,7754,7762,380,20.0,130.0,7763.0,7873.0,,,,,verb.cognition,True,45,direct_object,no one who could overcome us,1,0,1,unknown,0.0,tertiary
+60,0,believed,11,19,7754,7762,378,20.0,130.0,7763.0,7873.0,,,,,verb.cognition,True,45,direct_object,the strongest men in the land,1,0,1,male,1.0,tertiary
+60,0,believed,11,19,7754,7762,138,20.0,130.0,7763.0,7873.0,,,,,verb.cognition,True,45,direct_object,the brigand,4,7,11,male,1.0,tertiary
+60,0,believed,11,19,7754,7762,377,20.0,130.0,7763.0,7873.0,,,,,verb.cognition,True,45,direct_object,the brigand's dead brother,1,0,1,male,1.0,tertiary
+63,6,bring,160,165,8153,8158,386,166.0,171.0,8159.0,8164.0,,,,,verb.contact,True,49,direct_object,all rebels,2,0,2,unknown,0.0,tertiary
+66,0,gasped,6,12,8308,8314,147,13.0,26.0,8315.0,8328.0,27.0,46.0,,,verb.communication,True,52,direct_object,the dying man,1,3,4,male,1.0,tertiary
+68,0,allow,0,5,8437,8442,147,6.0,31.0,8443.0,8468.0,,,,,verb.social,True,54,direct_object,the dying man,1,3,4,male,1.0,tertiary
+68,0,allow,0,5,8437,8442,90,6.0,31.0,8443.0,8468.0,,,,,verb.social,True,54,direct_object,The young Prince,3,10,13,male,1.0,tertiary
+70,0,bequeath,12,20,8533,8541,90,21.0,27.0,8542.0,8548.0,28.0,42.0,8549.0,8563.0,verb.cognition,True,53,direct_object,The young Prince,3,10,13,male,1.0,tertiary
+75,2,feigned,36,43,8947,8954,146,44.0,54.0,8955.0,8965.0,70.0,91.0,8981.0,9002.0,verb.communication,True,58,direct_object,the rebel,4,1,5,male,1.0,tertiary
+76,3,jammed,45,51,9049,9055,92,52.0,54.0,9056.0,9058.0,55.0,62.0,9059.0,9066.0,verb.contact,True,59,direct_object,The Prince,32,204,236,male,1.0,primary
+78,2,try,78,81,9299,9302,31,82.0,97.0,9303.0,9318.0,98.0,140.0,9319.0,9361.0,verb.social,True,61,direct_object,Idzumo Takeru,10,19,29,male,1.0,tertiary
+81,0,knowing,0,7,9671,9678,138,8.0,23.0,9679.0,9694.0,,,,,verb.cognition,True,64,direct_object,the brigand,4,7,11,male,1.0,tertiary
+84,0,seized,3,9,10090,10096,169,18.0,84.0,10105.0,10171.0,,,,,verb.contact,True,67,direct_object,the robber,2,8,10,male,1.0,tertiary
+88,0,saw,12,15,10462,10465,29,16.0,47.0,10466.0,10497.0,,,,,verb.perception,True,69,direct_object,Yamato,27,125,152,male,1.0,secondary
+88,0,saw,12,15,10462,10465,163,16.0,47.0,10466.0,10497.0,,,,,verb.perception,True,69,direct_object,the rebel's enemy,3,0,3,unknown,0.0,tertiary
+89,2,resorting,109,118,10742,10751,31,119.0,201.0,10752.0,10834.0,,,,,verb.cognition,True,70,direct_object,Idzumo Takeru,10,19,29,male,1.0,tertiary
+91,5,said,110,114,11232,11236,186,115.0,173.0,11237.0,11295.0,,,,,verb.communication,True,73,direct_object,the King's son,2,0,2,unknown,0.0,tertiary
+91,5,said,110,114,11232,11236,70,115.0,173.0,11237.0,11295.0,,,,,verb.communication,True,73,direct_object,the King,15,10,25,male,1.0,tertiary
+94,4,bring,82,87,11748,11753,188,88.0,92.0,11754.0,11758.0,,,,,verb.motion,True,75,direct_object,the Ainu race,1,3,4,group/nonbinary,1.0,tertiary
+95,1,lead,15,19,11785,11789,195,20.0,27.0,11790.0,11797.0,,,,,verb.social,True,74,direct_object,the men,2,1,3,male,1.0,tertiary
+96,2,bring,45,50,11844,11849,196,51.0,74.0,11850.0,11873.0,,,,,verb.motion,True,77,direct_object,the newly arisen rebels,1,0,1,unknown,0.0,tertiary
+97,0,loved,16,21,11907,11912,92,22.0,32.0,11913.0,11923.0,,,,,verb.emotion,True,76,direct_object,The Prince,32,204,236,male,1.0,primary
+98,2,complied,145,153,12229,12237,29,154.0,172.0,12238.0,12256.0,,,,,verb.communication,True,78,direct_object,Yamato,27,125,152,male,1.0,secondary
+100,4,given,178,183,12716,12721,212,184.0,195.0,12722.0,12733.0,212.0,250.0,12750.0,12788.0,verb.possession,True,80,direct_object,the King's soldiers,1,0,1,unknown,0.0,tertiary
+100,4,given,178,183,12716,12721,70,184.0,195.0,12722.0,12733.0,212.0,250.0,12750.0,12788.0,verb.possession,True,80,direct_object,the King,15,10,25,male,1.0,tertiary
+102,2,greet,134,139,13060,13065,92,140.0,143.0,13066.0,13069.0,,,,,verb.communication,True,83,direct_object,The Prince,32,204,236,male,1.0,primary
+103,6,overcome,99,107,13170,13178,221,117.0,141.0,13188.0,13212.0,,,,,verb.competition,True,82,direct_object,the brigands of the West,1,0,1,unknown,0.0,tertiary
+104,0,told,3,7,13217,13221,82,8.0,11.0,13222.0,13225.0,,,,,verb.communication,True,85,direct_object,Yamato's aunt,8,18,26,female,1.0,tertiary
+104,0,told,3,7,13217,13221,92,8.0,11.0,13222.0,13225.0,,,,,verb.communication,True,85,direct_object,The Prince,32,204,236,male,1.0,primary
+106,0,presented,10,19,13682,13691,92,20.0,26.0,13692.0,13698.0,,,,,verb.communication,True,86,direct_object,The Prince,32,204,236,male,1.0,primary
+108,3,bade,89,93,13938,13942,92,94.0,97.0,13943.0,13946.0,105.0,137.0,13954.0,13986.0,verb.communication,True,87,direct_object,The Prince,32,204,236,male,1.0,primary
+109,0,bade,16,20,14004,14008,82,21.0,29.0,14009.0,14017.0,,,,,verb.communication,True,88,direct_object,Yamato's aunt,8,18,26,female,1.0,tertiary
+109,0,bade,16,20,14004,14008,92,21.0,29.0,14009.0,14017.0,,,,,verb.communication,True,88,direct_object,The Prince,32,204,236,male,1.0,primary
+110,0,welcomed,18,26,14209,14217,92,27.0,37.0,14218.0,14228.0,38.0,52.0,14229.0,14243.0,verb.emotion,True,89,direct_object,The Prince,32,204,236,male,1.0,primary
+111,1,told,35,39,14325,14329,232,40.0,49.0,14330.0,14339.0,,,,,verb.communication,True,91,direct_object,The governor,6,2,8,male,1.0,tertiary
+111,1,told,35,39,14325,14329,235,40.0,49.0,14330.0,14339.0,,,,,verb.communication,True,91,direct_object,The governor's guest,1,0,1,unknown,0.0,tertiary
+112,1,deceived,23,31,14463,14471,239,32.0,84.0,14472.0,14524.0,,,,,verb.emotion,True,90,direct_object,The Prince's host,1,0,1,unknown,0.0,tertiary
+112,1,deceived,23,31,14463,14471,92,32.0,84.0,14472.0,14524.0,,,,,verb.emotion,True,90,direct_object,The Prince,32,204,236,male,1.0,primary
+113,0,led,18,21,14586,14589,92,22.0,32.0,14590.0,14600.0,,,,,verb.motion,True,92,direct_object,The Prince,32,204,236,male,1.0,primary
+114,6,saw,190,193,14871,14874,92,194.0,253.0,14875.0,14934.0,,,,,verb.perception,True,93,direct_object,The Prince,32,204,236,male,1.0,primary
+116,0,began,78,83,15171,15176,92,84.0,126.0,15177.0,15219.0,,,,,verb.change,True,95,direct_object,The Prince,32,204,236,male,1.0,primary
+123,0,ground,7,13,15552,15558,92,14.0,23.0,15559.0,15568.0,34.0,83.0,15579.0,15628.0,verb.body,True,100,direct_object,The Prince,32,204,236,male,1.0,primary
+125,2,given,59,64,15769,15774,92,65.0,68.0,15775.0,15778.0,69.0,85.0,15779.0,15795.0,verb.communication,True,99,direct_object,The Prince,32,204,236,male,1.0,primary
+126,2,given,49,54,15941,15946,92,55.0,58.0,15947.0,15950.0,,,,,verb.possession,True,101,direct_object,The Prince,32,204,236,male,1.0,primary
+128,6,come,112,116,16225,16229,92,117.0,123.0,16230.0,16236.0,,,,,verb.change,True,104,direct_object,The Prince,32,204,236,male,1.0,primary
+130,0,ascribed,15,23,16720,16728,26,24.0,34.0,16729.0,16739.0,35.0,43.0,16740.0,16748.0,verb.cognition,True,107,direct_object,Amaterasu,3,0,3,unknown,0.0,tertiary
+130,0,ascribed,15,23,16720,16728,27,24.0,34.0,16729.0,16739.0,35.0,43.0,16740.0,16748.0,verb.cognition,True,107,direct_object,Murakumo,4,0,4,unknown,0.0,tertiary
+130,0,ascribed,15,23,16720,16728,255,24.0,34.0,16729.0,16739.0,35.0,43.0,16740.0,16748.0,verb.cognition,True,107,direct_object,"the Sun Goddess of Ise , who controls the wind and all the elements and insures the safety of all who pray to her in the hour of danger's Sun Goddess of Ise , who controls the wind and all the elements and insures the safety of all who pray to her in the hour of danger",1,1,2,female,1.0,tertiary
+130,0,ascribed,15,23,16720,16728,92,24.0,34.0,16729.0,16739.0,35.0,43.0,16740.0,16748.0,verb.cognition,True,107,direct_object,The Prince,32,204,236,male,1.0,primary
+133,2,laid,62,66,17471,17475,163,67.0,74.0,17476.0,17483.0,,,,,verb.cognition,True,105,direct_object,the rebel's enemy,3,0,3,unknown,0.0,tertiary
+133,2,laid,62,66,17471,17475,92,67.0,74.0,17476.0,17483.0,,,,,verb.cognition,True,105,direct_object,The Prince,32,204,236,male,1.0,primary
+134,2,subdued,63,70,17561,17568,261,71.0,83.0,17569.0,17581.0,,,,,verb.competition,True,108,direct_object,The Prince's foes,1,0,1,unknown,0.0,tertiary
+134,2,subdued,63,70,17561,17568,92,71.0,83.0,17569.0,17581.0,,,,,verb.competition,True,108,direct_object,The Prince,32,204,236,male,1.0,primary
+135,2,came,40,44,17623,17627,92,45.0,65.0,17628.0,17648.0,,,,,verb.motion,True,110,direct_object,The Prince,32,204,236,male,1.0,primary
+136,2,followed,44,52,17736,17744,34,53.0,106.0,17745.0,17798.0,,,,,verb.social,True,109,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+136,2,followed,44,52,17736,17744,263,53.0,106.0,17745.0,17798.0,,,,,verb.social,True,109,direct_object,The Prince's faithful loving wife,1,0,1,female,1.0,tertiary
+136,2,followed,44,52,17736,17744,92,53.0,106.0,17745.0,17798.0,,,,,verb.social,True,109,direct_object,The Prince,32,204,236,male,1.0,primary
+138,1,cared,64,69,18188,18193,267,77.0,106.0,18201.0,18230.0,,,,,verb.emotion,True,112,direct_object,the faithful Ototachibana,1,22,23,female,1.0,tertiary
+139,5,told,172,176,18404,18408,267,177.0,180.0,18409.0,18412.0,181.0,188.0,18413.0,18420.0,verb.communication,True,113,direct_object,the faithful Ototachibana,1,22,23,female,1.0,tertiary
+139,5,told,172,176,18404,18408,92,177.0,180.0,18409.0,18412.0,181.0,188.0,18413.0,18420.0,verb.communication,True,113,direct_object,The Prince,32,204,236,male,1.0,primary
+140,2,leave,111,116,18627,18632,92,117.0,120.0,18633.0,18636.0,,,,,verb.communication,True,114,direct_object,The Prince,32,204,236,male,1.0,primary
+142,1,approached,48,58,18833,18843,38,59.0,172.0,18844.0,18957.0,,,,,verb.motion,True,116,direct_object,the Princess Miyadzu,3,5,8,female,1.0,tertiary
+144,3,bade,84,88,19225,19229,276,89.0,106.0,19230.0,19247.0,107.0,150.0,19248.0,19291.0,verb.communication,True,118,direct_object,The Prince's sunburnt wife,1,2,3,female,1.0,tertiary
+145,6,come,209,213,19502,19506,276,214.0,227.0,19507.0,19520.0,,,,,verb.change,True,117,direct_object,The Prince's sunburnt wife,1,2,3,female,1.0,tertiary
+146,2,escape,99,105,19621,19627,267,106.0,114.0,19628.0,19636.0,,,,,verb.motion,True,119,direct_object,the faithful Ototachibana,1,22,23,female,1.0,tertiary
+147,4,bade,112,116,19900,19904,111,117.0,163.0,19905.0,19951.0,164.0,232.0,19952.0,20020.0,verb.communication,True,120,direct_object,The Prince's wife,5,7,12,female,1.0,tertiary
+147,4,bade,112,116,19900,19904,285,117.0,163.0,19905.0,19951.0,164.0,232.0,19952.0,20020.0,verb.communication,True,120,direct_object,an attendant,1,0,1,unknown,0.0,tertiary
+147,4,bade,112,116,19900,19904,92,117.0,163.0,19905.0,19951.0,164.0,232.0,19952.0,20020.0,verb.communication,True,120,direct_object,The Prince,32,204,236,male,1.0,primary
+149,12,caused,258,264,20561,20567,38,265.0,268.0,20568.0,20571.0,,,,,verb.creation,True,121,direct_object,the Princess Miyadzu,3,5,8,female,1.0,tertiary
+150,0,reached,10,17,20583,20590,109,18.0,46.0,20591.0,20619.0,,,,,verb.motion,True,123,direct_object,The Prince's men,4,1,5,male,1.0,tertiary
+150,0,reached,10,17,20583,20590,92,18.0,46.0,20591.0,20619.0,,,,,verb.motion,True,123,direct_object,The Prince,32,204,236,male,1.0,primary
+158,2,worked,70,76,21688,21694,305,77.0,103.0,21695.0,21721.0,,,,,verb.social,True,130,direct_object,The terrified crew,1,2,3,group/nonbinary,1.0,tertiary
+159,6,wearied,127,134,21950,21957,34,135.0,141.0,21958.0,21964.0,,,,,verb.body,True,129,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+160,8,angered,149,156,22247,22254,400,157.0,185.0,22255.0,22283.0,186.0,200.0,22284.0,22298.0,verb.social,True,131,direct_object,the God of the Sea,1,0,1,unknown,0.0,tertiary
+160,8,angered,149,156,22247,22254,40,157.0,185.0,22255.0,22283.0,186.0,200.0,22284.0,22298.0,verb.social,True,131,direct_object,Rin Jin,1,0,1,unknown,0.0,tertiary
+161,1,appease,29,36,22329,22336,401,37.0,109.0,22337.0,22409.0,,,,,verb.emotion,True,132,direct_object,Ototachibana's Sea God who desires nothing less than my husband 's life,1,0,1,male,1.0,tertiary
+161,1,appease,29,36,22329,22336,34,37.0,109.0,22337.0,22409.0,,,,,verb.emotion,True,132,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+161,1,appease,29,36,22329,22336,402,37.0,109.0,22337.0,22409.0,,,,,verb.emotion,True,132,direct_object,Ototachibana's husband,1,0,1,male,1.0,tertiary
+162,1,said,28,32,22440,22444,29,35.0,87.0,22447.0,22499.0,,,,,verb.communication,True,133,direct_object,Yamato,27,125,152,male,1.0,secondary
+162,1,said,28,32,22440,22444,34,35.0,87.0,22447.0,22499.0,,,,,verb.communication,True,133,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+162,1,said,28,32,22440,22444,272,35.0,87.0,22447.0,22499.0,,,,,verb.communication,True,133,direct_object,the faithful Ototachibana's husband,3,9,12,male,1.0,tertiary
+163,1,cast,11,15,22512,22516,34,16.0,22.0,22517.0,22523.0,50.0,72.0,22551.0,22573.0,verb.social,True,134,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+163,1,cast,11,15,22512,22516,272,16.0,22.0,22517.0,22523.0,50.0,72.0,22551.0,22573.0,verb.social,True,134,direct_object,the faithful Ototachibana's husband,3,9,12,male,1.0,tertiary
+164,1,bring,22,27,22597,22602,272,28.0,31.0,22603.0,22606.0,32.0,38.0,22607.0,22613.0,verb.contact,True,137,direct_object,the faithful Ototachibana's husband,3,9,12,male,1.0,tertiary
+165,1,whirled,80,87,22720,22727,34,88.0,91.0,22728.0,22731.0,92.0,96.0,22732.0,22736.0,verb.motion,True,136,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+169,2,conquering,70,80,23185,23195,41,81.0,113.0,23196.0,23228.0,,,,,verb.social,True,140,direct_object,the Ainu,1,0,1,unknown,0.0,tertiary
+170,0,ascribed,3,11,23233,23241,318,12.0,28.0,23242.0,23258.0,,,,,verb.cognition,True,141,direct_object,"Yamato's faithfulness of his wife , who had so willingly and lovingly sacrificed herself in the hour of his utmost peril",1,0,1,female,1.0,tertiary
+170,0,ascribed,3,11,23233,23241,29,12.0,28.0,23242.0,23258.0,,,,,verb.cognition,True,141,direct_object,Yamato,27,125,152,male,1.0,secondary
+170,0,ascribed,3,11,23233,23241,111,12.0,28.0,23242.0,23258.0,,,,,verb.cognition,True,141,direct_object,The Prince's wife,5,7,12,female,1.0,tertiary
+172,2,esteem,27,33,23532,23538,111,34.0,97.0,23539.0,23602.0,,,,,verb.cognition,True,142,direct_object,The Prince's wife,5,7,12,female,1.0,tertiary
+172,2,esteem,27,33,23532,23538,29,34.0,97.0,23539.0,23602.0,,,,,verb.cognition,True,142,direct_object,Yamato,27,125,152,male,1.0,secondary
+175,3,given,121,126,24049,24054,29,127.0,135.0,24055.0,24063.0,,,,,verb.possession,True,144,direct_object,Yamato,27,125,152,male,1.0,secondary
+175,3,given,121,126,24049,24054,34,127.0,135.0,24055.0,24063.0,,,,,verb.possession,True,144,direct_object,Ototachibana,11,29,40,female,1.0,tertiary
+178,2,commemorates,65,77,24366,24378,328,78.0,200.0,24379.0,24501.0,,,,,verb.communication,True,146,direct_object,Yamato's faithful wife,1,0,1,female,1.0,tertiary
+178,2,commemorates,65,77,24366,24378,29,78.0,200.0,24379.0,24501.0,,,,,verb.communication,True,146,direct_object,Yamato,27,125,152,male,1.0,secondary
+180,3,subdued,62,69,24729,24736,386,70.0,80.0,24737.0,24747.0,,,,,verb.competition,True,147,direct_object,all rebels,2,0,2,unknown,0.0,tertiary
+185,6,wash,139,143,25699,25703,349,144.0,154.0,25704.0,25714.0,,,,,verb.contact,True,152,direct_object,the women,1,1,2,female,1.0,tertiary
+186,9,rebel,224,229,25940,25945,70,230.0,246.0,25946.0,25962.0,,,,,verb.social,True,154,direct_object,the King,15,10,25,male,1.0,tertiary
+187,2,dared,100,105,26064,26069,415,106.0,167.0,26070.0,26131.0,,,,,verb.social,True,153,direct_object,the King 's subjects,1,0,1,male,1.0,tertiary
+187,2,dared,100,105,26064,26069,70,106.0,167.0,26070.0,26131.0,,,,,verb.social,True,153,direct_object,the King,15,10,25,male,1.0,tertiary
+187,2,dared,100,105,26064,26069,412,106.0,167.0,26070.0,26131.0,,,,,verb.social,True,153,direct_object,a wicked monster,1,1,2,male,1.0,tertiary
+192,2,said,28,32,26486,26490,92,33.0,43.0,26491.0,26501.0,,,,,verb.communication,True,158,direct_object,The Prince,32,204,236,male,1.0,primary
+193,1,need,11,15,26513,26517,92,16.0,24.0,26518.0,26526.0,25.0,38.0,26527.0,26540.0,verb.consumption,True,157,direct_object,The Prince,32,204,236,male,1.0,primary
+194,1,kill,6,10,26548,26552,417,11.0,14.0,26553.0,26556.0,15.0,28.0,26557.0,26570.0,verb.contact,True,159,direct_object,the monster,1,1,2,male,1.0,tertiary
+195,1,tried,41,46,26614,26619,29,47.0,89.0,26620.0,26662.0,,,,,verb.social,True,160,direct_object,Yamato,27,125,152,male,1.0,secondary
+198,1,groping,39,46,26958,26965,29,47.0,54.0,26966.0,26973.0,55.0,68.0,26974.0,26987.0,verb.contact,True,163,direct_object,Yamato,27,125,152,male,1.0,secondary
+199,5,knew,83,87,27164,27168,29,88.0,121.0,27169.0,27202.0,,,,,verb.cognition,True,165,direct_object,Yamato,27,125,152,male,1.0,secondary
+204,9,ascribed,313,321,28178,28186,92,322.0,357.0,28187.0,28222.0,,,,,verb.communication,True,168,direct_object,The Prince,32,204,236,male,1.0,primary

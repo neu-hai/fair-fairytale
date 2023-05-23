@@ -1,0 +1,38 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,fallen,84,90,84,90,13,0.0,78.0,0.0,78.0,105.0,148.0,,,verb.change,0,subject,the hero of the legends,1,0,1,unknown,0.0,tertiary
+0,1,fallen,84,90,84,90,8,0.0,78.0,0.0,78.0,105.0,148.0,,,verb.change,0,subject,Starkad,6,14,20,male,1.0,primary
+0,1,fallen,84,90,84,90,14,0.0,78.0,0.0,78.0,105.0,148.0,,,verb.change,0,subject,the bravest warrior in the army of the North,1,0,1,unknown,0.0,tertiary
+0,1,fallen,84,90,84,90,15,0.0,78.0,0.0,78.0,105.0,148.0,,,verb.change,0,subject,the army of the North,1,0,1,unknown,0.0,tertiary
+2,0,climbed,20,27,408,415,8,12.0,19.0,400.0,407.0,41.0,48.0,429.0,436.0,verb.motion,1,subject,Starkad,6,14,20,male,1.0,primary
+2,1,called,54,60,442,448,8,12.0,19.0,400.0,407.0,,,,,verb.communication,2,subject,Starkad,6,14,20,male,1.0,primary
+4,1,wake,47,51,556,560,11,33.0,46.0,542.0,555.0,,,,,verb.body,3,subject,Bale,6,6,12,male,1.0,secondary
+7,0,eat,2,5,616,619,8,0.0,1.0,614.0,615.0,,,,,verb.consumption,5,subject,Starkad,6,14,20,male,1.0,primary
+9,1,come,6,10,689,693,11,1.0,2.0,684.0,685.0,,,,,verb.motion,7,subject,Bale,6,6,12,male,1.0,secondary
+10,0,called,5,11,701,707,11,0.0,4.0,696.0,700.0,,,,,verb.communication,6,subject,Bale,6,6,12,male,1.0,secondary
+11,0,stood,36,41,822,827,11,0.0,35.0,786.0,821.0,,,,,verb.contact,8,subject,Bale,6,6,12,male,1.0,secondary
+11,1,called,67,73,853,859,11,22.0,35.0,808.0,821.0,,,,,verb.communication,10,subject,Bale,6,6,12,male,1.0,secondary
+13,0,wake,15,19,905,909,8,1.0,14.0,891.0,904.0,,,,,verb.body,9,subject,Starkad,6,14,20,male,1.0,primary
+16,0,have,9,13,976,980,11,7.0,8.0,974.0,975.0,,,,,verb.possession,11,subject,Bale,6,6,12,male,1.0,secondary
+19,1,coming,5,11,1110,1116,8,1.0,2.0,1106.0,1107.0,,,,,verb.motion,14,subject,Starkad,6,14,20,male,1.0,primary
+20,2,joined,47,53,1166,1172,8,40.0,42.0,1159.0,1161.0,65.0,103.0,1184.0,1222.0,verb.social,15,subject,Starkad,6,14,20,male,1.0,primary
+21,0,provided,32,40,1256,1264,24,16.0,31.0,1240.0,1255.0,,,,,verb.consumption,16,subject,the two friends,1,4,5,group/nonbinary,1.0,tertiary
+21,3,spread,117,123,1341,1347,24,16.0,31.0,1240.0,1255.0,147.0,173.0,1371.0,1397.0,verb.contact,17,subject,the two friends,1,4,5,group/nonbinary,1.0,tertiary
+22,1,returning,37,46,1436,1445,24,22.0,26.0,1421.0,1425.0,,,,,verb.motion,18,subject,the two friends,1,4,5,group/nonbinary,1.0,tertiary
+23,0,hurried,5,12,1525,1532,24,0.0,4.0,1520.0,1524.0,,,,,verb.motion,19,subject,the two friends,1,4,5,group/nonbinary,1.0,tertiary
+25,0,buried,33,39,1699,1705,30,0.0,32.0,1666.0,1698.0,44.0,156.0,1710.0,1822.0,verb.contact,23,subject,companion - at - arms,1,0,1,unknown,0.0,tertiary
+25,0,buried,33,39,1699,1705,23,0.0,32.0,1666.0,1698.0,44.0,156.0,1710.0,1822.0,verb.contact,23,subject,Starkad's friend,2,1,3,unknown,0.0,tertiary
+25,0,buried,33,39,1699,1705,8,0.0,32.0,1666.0,1698.0,44.0,156.0,1710.0,1822.0,verb.contact,23,subject,Starkad,6,14,20,male,1.0,primary
+25,1,set,82,85,1748,1751,8,79.0,81.0,1745.0,1747.0,,,,,verb.contact,24,subject,Starkad,6,14,20,male,1.0,primary
+2,1,called,54,60,442,448,11,66.0,73.0,454.0,461.0,,,,,verb.communication,2,direct_object,Bale,6,6,12,male,1.0,secondary
+4,0,answered,0,8,509,517,11,9.0,14.0,518.0,523.0,15.0,30.0,,,verb.communication,4,direct_object,Bale,6,6,12,male,1.0,secondary
+11,1,called,67,73,853,859,10,76.0,86.0,862.0,872.0,,,,,verb.communication,10,direct_object,the Red Fellow,3,2,5,unknown,0.0,tertiary
+14,0,answered,0,8,921,929,8,9.0,16.0,930.0,937.0,,,,,verb.communication,12,direct_object,Starkad,6,14,20,male,1.0,primary
+18,1,bring,14,19,1070,1075,11,20.0,46.0,1076.0,1102.0,,,,,verb.motion,13,direct_object,Bale,6,6,12,male,1.0,secondary
+20,2,joined,47,53,1166,1172,23,54.0,64.0,1173.0,1183.0,65.0,103.0,1184.0,1222.0,verb.social,15,direct_object,Starkad's friend,2,1,3,unknown,0.0,tertiary
+20,2,joined,47,53,1166,1172,8,54.0,64.0,1173.0,1183.0,65.0,103.0,1184.0,1222.0,verb.social,15,direct_object,Starkad,6,14,20,male,1.0,primary
+21,0,provided,32,40,1256,1264,24,41.0,51.0,1265.0,1275.0,,,,,verb.consumption,16,direct_object,the two friends,1,4,5,group/nonbinary,1.0,tertiary
+24,0,got,5,8,1566,1569,8,9.0,103.0,1570.0,1664.0,,,,,verb.motion,21,direct_object,Starkad,6,14,20,male,1.0,primary
+24,1,struck,61,67,1622,1628,8,68.0,75.0,1629.0,1636.0,,,,,verb.motion,20,direct_object,Starkad,6,14,20,male,1.0,primary
+24,2,flung,80,85,1641,1646,8,86.0,89.0,1647.0,1650.0,90.0,103.0,1651.0,1664.0,verb.contact,22,direct_object,Starkad,6,14,20,male,1.0,primary
+25,0,buried,33,39,1699,1705,8,40.0,43.0,1706.0,1709.0,44.0,156.0,1710.0,1822.0,verb.contact,23,direct_object,Starkad,6,14,20,male,1.0,primary
+25,1,set,82,85,1748,1751,8,86.0,156.0,1752.0,1822.0,,,,,verb.contact,24,direct_object,Starkad,6,14,20,male,1.0,primary

@@ -1,0 +1,256 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,1,married,46,53,113,120,3,4.0,6.0,71.0,73.0,,,,,verb.social,True,1,subject,Kintoki,1.0,9.0,10.0,male,1.0,tertiary
+2,2,dismissed,103,112,229,238,3,64.0,66.0,190.0,192.0,,,,,verb.social,True,2,subject,Kintoki,1.0,9.0,10.0,male,1.0,tertiary
+4,0,died,3,7,327,331,3,0.0,2.0,324.0,326.0,,,,,verb.change,True,3,subject,Kintoki,1.0,9.0,10.0,male,1.0,tertiary
+6,2,born,88,92,589,593,25,71.0,83.0,572.0,584.0,,,,,verb.creation,True,5,subject,a little boy,1.0,11.0,12.0,male,1.0,tertiary
+7,0,called,4,10,606,612,18,0.0,3.0,602.0,605.0,37.0,40.0,639.0,642.0,verb.communication,True,6,subject,Kintoki's beautiful young wife,1.0,5.0,6.0,female,1.0,tertiary
+8,1,grew,76,80,720,724,25,73.0,75.0,717.0,719.0,,,,,verb.change,True,7,subject,a little boy,1.0,11.0,12.0,male,1.0,tertiary
+9,2,cut,53,56,815,818,25,38.0,40.0,800.0,802.0,68.0,97.0,830.0,859.0,verb.contact,True,8,subject,a little boy,1.0,11.0,12.0,male,1.0,tertiary
+10,0,gave,16,20,877,881,29,5.0,15.0,866.0,876.0,,,,,verb.possession,True,9,subject,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+10,0,gave,16,20,877,881,25,5.0,15.0,866.0,876.0,,,,,verb.possession,True,9,subject,a little boy,1.0,11.0,12.0,male,1.0,tertiary
+14,2,learned,65,72,1324,1331,4,24.0,26.0,1283.0,1285.0,,,,,verb.cognition,True,11,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+15,2,used,84,88,1468,1472,4,81.0,83.0,1465.0,1467.0,,,,,verb.consumption,True,12,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+17,0,brought,15,22,1601,1608,43,0.0,8.0,1586.0,1594.0,32.0,56.0,1618.0,1642.0,verb.motion,True,13,subject,The bear,5.0,8.0,13.0,female,1.0,tertiary
+18,0,came,9,13,1653,1657,43,5.0,8.0,1649.0,1652.0,,,,,verb.change,True,14,subject,The bear,5.0,8.0,13.0,female,1.0,tertiary
+24,0,rubbed,9,15,2274,2280,49,0.0,8.0,2265.0,2273.0,41.0,53.0,2306.0,2318.0,verb.contact,True,16,subject,the deer,8.0,14.0,22.0,male,1.0,tertiary
+25,0,said,8,12,2435,2439,4,0.0,7.0,2427.0,2434.0,,,,,verb.communication,True,17,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+28,2,make,38,42,2660,2664,43,31.0,32.0,2653.0,2654.0,,,,,verb.creation,True,19,subject,The bear,5.0,8.0,13.0,female,1.0,tertiary
+29,1,work,11,15,2709,2713,43,0.0,3.0,2698.0,2701.0,,,,,verb.social,True,20,subject,The bear,5.0,8.0,13.0,female,1.0,tertiary
+31,1,give,8,12,2862,2866,4,0.0,1.0,2854.0,2855.0,,,,,verb.possession,True,22,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+33,3,said,36,40,2958,2962,58,0.0,16.0,2922.0,2938.0,,,,,verb.communication,True,24,subject,,,,,,,
+34,5,wrestle,108,115,3081,3088,58,69.0,81.0,3042.0,3054.0,,,,,verb.competition,True,23,subject,,,,,,,
+36,1,open,30,34,3175,3179,50,0.0,23.0,3145.0,3168.0,,,,,verb.contact,True,25,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+36,1,open,30,34,3175,3179,205,0.0,23.0,3145.0,3168.0,,,,,verb.contact,True,25,subject,The hare,4.0,1.0,5.0,unknown,0.0,tertiary
+42,2,take,73,77,3380,3384,7,5.0,28.0,3312.0,3335.0,,,,,verb.social,True,28,subject,Mr. Hare,1.0,0.0,1.0,unknown,0.0,tertiary
+42,2,take,73,77,3380,3384,6,5.0,28.0,3312.0,3335.0,,,,,verb.social,True,28,subject,Mr. Monkey,1.0,0.0,1.0,unknown,0.0,tertiary
+43,0,hopped,34,40,3449,3455,63,5.0,33.0,3420.0,3448.0,69.0,91.0,3484.0,3506.0,verb.motion,True,27,subject,the monkey and the hare,2.0,3.0,5.0,group/nonbinary,1.0,tertiary
+44,0,stood,21,26,3529,3534,49,0.0,8.0,3508.0,3516.0,,,,,verb.contact,True,29,subject,the deer,8.0,14.0,22.0,male,1.0,tertiary
+51,0,faced,26,31,3750,3755,69,0.0,25.0,3724.0,3749.0,43.0,89.0,3767.0,3813.0,verb.competition,True,30,subject,the little wrestlers,1.0,0.0,1.0,unknown,0.0,tertiary
+53,0,wrestled,30,38,3943,3951,63,6.0,29.0,3919.0,3942.0,,,,,verb.contact,True,32,subject,the monkey and the hare,2.0,3.0,5.0,group/nonbinary,1.0,tertiary
+62,1,tried,57,62,4346,4351,50,3.0,55.0,4292.0,4344.0,82.0,84.0,4371.0,4373.0,verb.social,True,35,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+62,1,tried,57,62,4346,4351,63,3.0,55.0,4292.0,4344.0,82.0,84.0,4371.0,4373.0,verb.social,True,35,subject,the monkey and the hare,2.0,3.0,5.0,group/nonbinary,1.0,tertiary
+62,1,tried,57,62,4346,4351,78,3.0,55.0,4292.0,4344.0,82.0,84.0,4371.0,4373.0,verb.social,True,35,subject,the monkey and the hare's friends,1.0,0.0,1.0,unknown,0.0,tertiary
+63,0,gained,17,23,4408,4414,205,0.0,8.0,4391.0,4399.0,,,,,verb.possession,True,36,subject,The hare,4.0,1.0,5.0,unknown,0.0,tertiary
+65,1,rubbing,23,30,4566,4573,84,0.0,15.0,4543.0,4558.0,,,,,verb.body,True,38,subject,The poor monkey,1.0,6.0,7.0,male,1.0,tertiary
+67,0,hurts,12,17,4656,4661,84,4.0,6.0,4648.0,4650.0,,,,,verb.body,True,39,subject,The poor monkey,1.0,6.0,7.0,male,1.0,tertiary
+68,2,said,82,86,4763,4767,49,48.0,81.0,4729.0,4762.0,,,,,verb.communication,True,42,subject,the deer,8.0,14.0,22.0,male,1.0,tertiary
+69,6,earned,131,137,4943,4949,49,122.0,125.0,4934.0,4937.0,,,,,verb.possession,True,41,subject,the deer,8.0,14.0,22.0,male,1.0,tertiary
+70,7,beaten,131,137,5092,5098,50,108.0,110.0,5069.0,5071.0,,,,,verb.contact,True,40,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+71,5,beaten,83,89,5183,5189,50,60.0,61.0,5160.0,5161.0,,,,,verb.contact,True,43,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+72,0,slipped,8,15,5199,5206,50,0.0,7.0,5191.0,5198.0,,,,,verb.motion,True,44,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+74,2,wrestle,58,65,5363,5370,4,5.0,48.0,5310.0,5353.0,,,,,verb.competition,True,46,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+74,2,wrestle,58,65,5363,5370,205,5.0,48.0,5310.0,5353.0,,,,,verb.competition,True,46,subject,The hare,4.0,1.0,5.0,unknown,0.0,tertiary
+75,0,knows,18,23,5396,5401,89,8.0,17.0,5386.0,5395.0,,,,,verb.cognition,True,47,subject,every one,1.0,0.0,1.0,unknown,0.0,tertiary
+76,1,thought,15,22,5543,5550,50,12.0,14.0,5540.0,5542.0,,,,,verb.cognition,True,48,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+77,0,managed,13,20,5638,5645,50,5.0,7.0,5630.0,5632.0,,,,,verb.social,True,50,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+78,3,pulled,75,81,5728,5734,50,62.0,74.0,5715.0,5727.0,,,,,verb.contact,True,49,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+79,3,sprawling,95,104,5839,5848,50,91.0,94.0,5835.0,5838.0,,,,,verb.contact,True,51,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+80,2,pleased,80,87,5956,5963,4,44.0,72.0,5920.0,5948.0,92.0,134.0,5968.0,6010.0,verb.emotion,True,52,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+82,2,beaten,97,103,6237,6243,50,79.0,96.0,6219.0,6236.0,,,,,verb.contact,True,53,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+83,0,amused,82,88,6327,6333,96,23.0,81.0,6268.0,6326.0,100.0,120.0,6345.0,6365.0,verb.emotion,True,54,subject,the one,1.0,0.0,1.0,unknown,0.0,tertiary
+83,0,amused,82,88,6327,6333,97,23.0,81.0,6268.0,6326.0,100.0,120.0,6345.0,6365.0,verb.emotion,True,54,subject,the little party,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+84,1,said,27,31,6394,6398,4,8.0,15.0,6375.0,6382.0,,,,,verb.communication,True,56,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+85,1,found,26,31,6454,6459,97,0.0,17.0,6428.0,6445.0,,,,,verb.possession,True,55,subject,the little party,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+89,1,led,19,22,6562,6565,4,11.0,18.0,6554.0,6561.0,31.0,57.0,6574.0,6600.0,verb.motion,True,57,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+91,1,looked,45,51,6746,6752,4,0.0,34.0,6701.0,6735.0,58.0,84.0,6759.0,6785.0,verb.perception,True,60,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+91,1,looked,45,51,6746,6752,100,0.0,34.0,6701.0,6735.0,58.0,84.0,6759.0,6785.0,verb.perception,True,60,subject,Mr. Kintaro's four furry friends,1.0,0.0,1.0,unknown,0.0,tertiary
+94,3,cross,57,62,6907,6912,97,46.0,50.0,6896.0,6900.0,,,,,verb.motion,True,61,subject,the little party,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+95,0,said,18,22,6969,6973,4,0.0,7.0,6951.0,6958.0,,,,,verb.communication,True,62,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+96,1,make,7,11,6998,7002,4,0.0,1.0,6991.0,6992.0,38.0,54.0,7029.0,7045.0,verb.creation,True,64,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+97,0,looked,44,50,7092,7098,50,0.0,43.0,7048.0,7091.0,58.0,85.0,7106.0,7133.0,verb.perception,True,63,subject,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+98,0,went,8,12,7143,7147,4,0.0,7.0,7135.0,7142.0,,,,,verb.motion,True,65,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+99,0,stopped,11,18,7216,7223,4,8.0,10.0,7213.0,7215.0,,,,,verb.motion,True,66,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+100,1,pulled,30,36,7322,7328,4,0.0,2.0,7292.0,7294.0,,,,,verb.contact,True,67,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+102,2,think,36,41,7585,7590,102,24.0,28.0,7573.0,7577.0,,,,,verb.cognition,True,68,subject,All the animals,1.0,2.0,3.0,unknown,0.0,tertiary
+107,7,seen,121,125,7923,7927,111,41.0,115.0,7843.0,7917.0,,,,,verb.perception,True,70,subject,a woodcutter,2.0,5.0,7.0,male,1.0,tertiary
+108,0,watched,3,10,7960,7967,111,0.0,2.0,7957.0,7959.0,,,,,verb.perception,True,73,subject,a woodcutter,2.0,5.0,7.0,male,1.0,tertiary
+109,5,pull,76,80,8099,8103,115,67.0,75.0,8090.0,8098.0,93.0,105.0,8116.0,8128.0,verb.contact,True,72,subject,this boy,2.0,1.0,3.0,male,1.0,tertiary
+110,4,said,83,87,8261,8265,118,0.0,14.0,8178.0,8192.0,,,,,verb.communication,True,74,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+113,1,crossed,40,47,8409,8416,118,0.0,2.0,8369.0,8371.0,59.0,70.0,8428.0,8439.0,verb.motion,True,76,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+114,4,followed,71,79,8512,8520,4,58.0,60.0,8499.0,8501.0,,,,,verb.motion,True,75,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+116,4,saying,124,130,8796,8802,4,95.0,97.0,8767.0,8769.0,,,,,verb.communication,True,78,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+120,0,feared,2,8,8962,8968,29,0.0,1.0,8960.0,8961.0,,,,,verb.emotion,True,79,subject,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+122,0,took,3,7,9043,9047,4,1.0,2.0,9041.0,9042.0,74.0,88.0,9114.0,9128.0,verb.motion,True,81,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+123,1,try,18,21,9148,9151,215,13.0,17.0,9143.0,9147.0,,,,,verb.social,True,82,subject,Mr. Kintaro's four friends,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+124,0,enjoyed,7,14,9210,9217,215,0.0,6.0,9203.0,9209.0,,,,,verb.consumption,True,83,subject,Mr. Kintaro's four friends,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+126,2,know,36,40,9374,9378,29,6.0,16.0,9344.0,9354.0,,,,,verb.cognition,True,84,subject,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+126,2,know,36,40,9374,9378,4,6.0,16.0,9344.0,9354.0,,,,,verb.cognition,True,84,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+127,2,know,39,43,9419,9423,214,35.0,38.0,9415.0,9418.0,,,,,verb.cognition,True,87,subject,mother,3.0,1.0,4.0,female,1.0,tertiary
+128,1,wrestle,28,35,9477,9484,4,22.0,24.0,9471.0,9473.0,,,,,verb.competition,True,86,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+130,1,answered,41,49,9591,9599,4,1.0,38.0,9551.0,9588.0,,,,,verb.communication,True,88,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+133,5,said,144,148,9799,9803,203,1.0,141.0,9656.0,9796.0,,,,,verb.communication,True,91,subject,each other,6.0,0.0,6.0,unknown,0.0,tertiary
+134,1,startled,37,45,9850,9858,29,9.0,31.0,9822.0,9844.0,,,,,verb.emotion,True,90,subject,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+134,1,startled,37,45,9850,9858,4,9.0,31.0,9822.0,9844.0,,,,,verb.emotion,True,90,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+136,0,go,14,16,9925,9927,221,10.0,13.0,9921.0,9924.0,,,,,verb.motion,True,92,subject,little boy,1.0,2.0,3.0,male,1.0,tertiary
+137,2,join,17,21,9997,10001,222,0.0,2.0,9980.0,9982.0,32.0,35.0,10012.0,10015.0,verb.social,True,95,subject,this old man,1.0,1.0,2.0,male,1.0,tertiary
+139,0,slipped,3,10,10088,10095,135,0.0,2.0,10085.0,10087.0,,,,,verb.motion,True,96,subject,the old woodcutter who had followed Kintaro from the river,1.0,3.0,4.0,male,1.0,tertiary
+140,1,taken,31,36,10166,10171,138,0.0,20.0,10135.0,10155.0,,,,,verb.cognition,True,97,subject,Yama - uba's son,1.0,0.0,1.0,unknown,0.0,tertiary
+140,1,taken,31,36,10166,10171,10,0.0,20.0,10135.0,10155.0,,,,,verb.cognition,True,97,subject,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+145,6,wish,134,138,10586,10590,144,130.0,133.0,10582.0,10585.0,,,,,verb.emotion,True,100,subject,the old man,4.0,2.0,6.0,male,1.0,tertiary
+146,1,grasped,66,73,10707,10714,4,5.0,36.0,10646.0,10677.0,,,,,verb.contact,True,102,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+146,1,grasped,66,73,10707,10714,118,5.0,36.0,10646.0,10677.0,,,,,verb.contact,True,102,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+147,0,wrestled,40,48,10775,10783,4,16.0,39.0,10751.0,10774.0,,,,,verb.competition,True,101,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+147,0,wrestled,40,48,10775,10783,144,16.0,39.0,10751.0,10774.0,,,,,verb.competition,True,101,subject,the old man,4.0,2.0,6.0,male,1.0,tertiary
+148,0,desisted,20,28,10938,10946,144,8.0,19.0,10926.0,10937.0,,,,,verb.competition,True,103,subject,the old man,4.0,2.0,6.0,male,1.0,tertiary
+152,0,saw,3,6,11104,11107,118,1.0,2.0,11102.0,11103.0,11.0,130.0,11112.0,11231.0,verb.perception,True,105,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+153,2,followed,36,44,11269,11277,118,34.0,35.0,11267.0,11268.0,49.0,53.0,11282.0,11286.0,verb.motion,True,108,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+154,1,tried,40,45,11328,11333,4,0.0,20.0,11288.0,11308.0,,,,,verb.social,True,107,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+154,1,tried,40,45,11328,11333,118,0.0,20.0,11288.0,11308.0,,,,,verb.social,True,107,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+158,1,take,22,26,11720,11724,118,1.0,4.0,11699.0,11702.0,,,,,verb.cognition,True,110,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+160,1,see,19,22,11792,11795,118,15.0,18.0,11788.0,11791.0,,,,,verb.cognition,True,111,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+161,4,say,47,50,11865,11868,118,43.0,46.0,11861.0,11864.0,,,,,verb.communication,True,114,subject,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+162,1,hurt,102,106,11972,11976,233,99.0,101.0,11969.0,11971.0,,,,,verb.emotion,True,113,subject,Kintaro 's mother's child,1.0,6.0,7.0,male,1.0,tertiary
+163,1,wished,13,19,12020,12026,153,0.0,1.0,12007.0,12008.0,,,,,verb.emotion,True,115,subject,the mother,2.0,27.0,29.0,female,1.0,tertiary
+164,2,fear,71,75,12161,12165,153,69.0,70.0,12159.0,12160.0,,,,,verb.emotion,True,116,subject,the mother,2.0,27.0,29.0,female,1.0,tertiary
+165,1,trouble,14,21,12211,12218,153,1.0,4.0,12198.0,12201.0,,,,,verb.social,True,117,subject,the mother,2.0,27.0,29.0,female,1.0,tertiary
+169,7,trained,117,124,12520,12527,252,105.0,109.0,12508.0,12512.0,137.0,149.0,12540.0,12552.0,verb.social,True,120,subject,boys who give promise of remarkable strength,1.0,1.0,2.0,male,1.0,tertiary
+170,3,assuming,39,47,12593,12601,153,15.0,16.0,12569.0,12570.0,,,,,verb.creation,True,119,subject,the mother,2.0,27.0,29.0,female,1.0,tertiary
+174,0,unfolded,30,38,12878,12886,154,3.0,19.0,12851.0,12867.0,,,,,verb.change,True,122,subject,the kind general,1.0,1.0,2.0,male,1.0,tertiary
+175,0,saw,4,7,12948,12951,153,0.0,3.0,12944.0,12947.0,,,,,verb.cognition,True,123,subject,the mother,2.0,27.0,29.0,female,1.0,tertiary
+176,5,say,107,110,13186,13189,4,98.0,102.0,13177.0,13181.0,,,,,verb.communication,True,125,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+177,3,listening,60,69,13252,13261,29,42.0,52.0,13234.0,13244.0,,,,,verb.perception,True,124,subject,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+177,3,listening,60,69,13252,13261,4,42.0,52.0,13234.0,13244.0,,,,,verb.perception,True,124,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+178,2,exclaimed,38,47,13319,13328,4,35.0,37.0,13316.0,13318.0,,,,,verb.communication,True,126,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+180,1,go,8,10,13353,13355,4,0.0,1.0,13345.0,13346.0,,,,,verb.motion,True,129,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+181,1,settled,24,31,13432,13439,4,5.0,19.0,13413.0,13427.0,,,,,verb.cognition,True,128,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+183,0,hid,8,11,13639,13642,10,4.0,7.0,13635.0,13638.0,22.0,40.0,13653.0,13671.0,verb.cognition,True,130,subject,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+184,3,leave,55,60,13728,13733,4,45.0,47.0,13718.0,13720.0,65.0,68.0,13738.0,13741.0,verb.cognition,True,131,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+185,1,discourage,13,23,13756,13766,10,0.0,3.0,13743.0,13746.0,28.0,54.0,13771.0,13797.0,verb.communication,True,132,subject,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+186,6,build,107,112,13906,13911,4,98.0,100.0,13897.0,13899.0,,,,,verb.creation,True,134,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+187,1,tamed,30,35,13990,13995,4,17.0,22.0,13977.0,13982.0,,,,,verb.social,True,133,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+193,3,found,74,79,14641,14646,11,0.0,21.0,14567.0,14588.0,,,,,verb.perception,True,139,subject,Sadamitsu,2.0,0.0,2.0,unknown,0.0,tertiary
+193,3,found,74,79,14641,14646,261,0.0,21.0,14567.0,14588.0,,,,,verb.perception,True,139,subject,the general,4.0,4.0,8.0,male,1.0,tertiary
+193,3,found,74,79,14641,14646,171,0.0,21.0,14567.0,14588.0,,,,,verb.perception,True,139,subject,The general Sadamitsu,1.0,1.0,2.0,male,1.0,tertiary
+194,2,took,48,52,14722,14726,261,36.0,47.0,14710.0,14721.0,61.0,68.0,14735.0,14742.0,verb.motion,True,141,subject,the general,4.0,4.0,8.0,male,1.0,tertiary
+195,0,told,3,7,14778,14782,261,0.0,2.0,14775.0,14777.0,,,,,verb.communication,True,142,subject,the general,4.0,4.0,8.0,male,1.0,tertiary
+196,4,brought,76,83,14913,14920,4,62.0,69.0,14899.0,14906.0,,,,,verb.motion,True,143,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+198,1,chosen,20,26,15054,15060,178,0.0,14.0,15034.0,15048.0,,,,,verb.cognition,True,144,subject,These warriors,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+200,2,made,44,48,15289,15293,185,33.0,43.0,15278.0,15288.0,,,,,verb.change,True,145,subject,Mr. Kintaro's master,2.0,0.0,2.0,unknown,0.0,tertiary
+200,2,made,44,48,15289,15293,4,33.0,43.0,15278.0,15288.0,,,,,verb.change,True,145,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+202,5,stricken,133,141,15502,15510,190,121.0,127.0,15490.0,15496.0,,,,,verb.emotion,True,146,subject,people,1.0,0.0,1.0,unknown,0.0,tertiary
+203,0,ordered,11,18,15533,15540,12,0.0,10.0,15522.0,15532.0,,,,,verb.communication,True,147,subject,the Lord Raiko,6.0,7.0,13.0,male,1.0,tertiary
+206,0,rose,12,16,15784,15788,4,0.0,7.0,15772.0,15779.0,,,,,verb.change,True,150,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+207,1,built,28,33,15920,15925,4,0.0,2.0,15892.0,15894.0,53.0,137.0,15945.0,16029.0,verb.creation,True,151,subject,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+0,1,named,52,57,52,57,3,58.0,65.0,58.0,65.0,,,,,verb.communication,True,0,direct_object,Kintoki,1.0,9.0,10.0,male,1.0,tertiary
+1,1,married,46,53,113,120,14,54.0,57.0,121.0,124.0,,,,,verb.social,True,1,direct_object,a beautiful lady,1.0,1.0,2.0,female,1.0,tertiary
+5,0,fearing,0,7,402,409,18,8.0,29.0,410.0,431.0,,,,,verb.emotion,True,4,direct_object,Kintoki's beautiful young wife,1.0,5.0,6.0,female,1.0,tertiary
+5,0,fearing,0,7,402,409,20,8.0,29.0,410.0,431.0,,,,,verb.emotion,True,4,direct_object,Kintoki's beautiful young wife's husband,2.0,0.0,2.0,male,1.0,tertiary
+7,0,called,4,10,606,612,4,11.0,14.0,613.0,616.0,37.0,40.0,639.0,642.0,verb.communication,True,6,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+7,0,called,4,10,606,612,25,11.0,14.0,613.0,616.0,37.0,40.0,639.0,642.0,verb.communication,True,6,direct_object,a little boy,1.0,11.0,12.0,male,1.0,tertiary
+10,0,gave,16,20,877,881,25,21.0,24.0,882.0,885.0,,,,,verb.possession,True,9,direct_object,a little boy,1.0,11.0,12.0,male,1.0,tertiary
+12,1,imagine,8,15,1157,1164,4,16.0,33.0,1165.0,1182.0,,,,,verb.creation,True,10,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+15,2,used,84,88,1468,1472,4,89.0,93.0,1473.0,1477.0,,,,,verb.consumption,True,12,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+15,2,used,84,88,1468,1472,41,89.0,93.0,1473.0,1477.0,,,,,verb.consumption,True,12,direct_object,messengers,1.0,0.0,1.0,unknown,0.0,tertiary
+15,2,used,84,88,1468,1472,40,89.0,93.0,1473.0,1477.0,,,,,verb.consumption,True,12,direct_object,Mr. Kintaro's servants,1.0,0.0,1.0,unknown,0.0,tertiary
+17,0,brought,15,22,1601,1608,43,23.0,31.0,1609.0,1617.0,32.0,56.0,1618.0,1642.0,verb.motion,True,13,direct_object,The bear,5.0,8.0,13.0,female,1.0,tertiary
+19,6,frighten,125,133,1860,1868,4,134.0,137.0,1869.0,1872.0,,,,,verb.emotion,True,15,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+24,0,rubbed,9,15,2274,2280,49,16.0,25.0,2281.0,2290.0,41.0,53.0,2306.0,2318.0,verb.contact,True,16,direct_object,the deer,8.0,14.0,22.0,male,1.0,tertiary
+27,4,said,94,98,2612,2616,43,99.0,102.0,2617.0,2620.0,,,,,verb.communication,True,18,direct_object,The bear,5.0,8.0,13.0,female,1.0,tertiary
+28,2,make,38,42,2660,2664,202,43.0,73.0,2665.0,2695.0,,,,,verb.creation,True,19,direct_object,the wrestlers,1.0,0.0,1.0,unknown,0.0,tertiary
+30,3,wrestle,57,64,2829,2836,203,65.0,80.0,2837.0,2852.0,,,,,verb.competition,True,21,direct_object,each other,6.0,0.0,6.0,unknown,0.0,tertiary
+33,3,said,36,40,2958,2962,43,41.0,49.0,2963.0,2971.0,,,,,verb.communication,True,24,direct_object,The bear,5.0,8.0,13.0,female,1.0,tertiary
+40,0,answered,0,8,3269,3277,49,9.0,17.0,3278.0,3286.0,,,,,verb.communication,True,26,direct_object,the deer,8.0,14.0,22.0,male,1.0,tertiary
+42,2,take,73,77,3380,3384,49,78.0,89.0,3385.0,3396.0,,,,,verb.social,True,28,direct_object,the deer,8.0,14.0,22.0,male,1.0,tertiary
+44,0,stood,21,26,3529,3534,67,27.0,42.0,3535.0,3550.0,,,,,verb.contact,True,29,direct_object,the two,1.0,0.0,1.0,unknown,0.0,tertiary
+52,1,rushed,49,55,3864,3870,203,56.0,71.0,3871.0,3886.0,73.0,96.0,3888.0,3911.0,verb.motion,True,31,direct_object,each other,6.0,0.0,6.0,unknown,0.0,tertiary
+56,0,stand,0,5,4154,4159,49,6.0,17.0,4160.0,4171.0,,,,,verb.contact,True,33,direct_object,the deer,8.0,14.0,22.0,male,1.0,tertiary
+60,2,let,27,30,4245,4248,49,31.0,50.0,4249.0,4268.0,,,,,verb.social,True,34,direct_object,the deer,8.0,14.0,22.0,male,1.0,tertiary
+62,1,tried,57,62,4346,4351,63,63.0,81.0,4352.0,4370.0,82.0,84.0,4371.0,4373.0,verb.social,True,35,direct_object,the monkey and the hare,2.0,3.0,5.0,group/nonbinary,1.0,tertiary
+62,1,tried,57,62,4346,4351,203,63.0,81.0,4352.0,4370.0,82.0,84.0,4371.0,4373.0,verb.social,True,35,direct_object,each other,6.0,0.0,6.0,unknown,0.0,tertiary
+63,0,gained,17,23,4408,4414,50,24.0,37.0,4415.0,4428.0,,,,,verb.possession,True,36,direct_object,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+64,3,sent,66,70,4496,4500,50,71.0,74.0,4501.0,4504.0,,,,,verb.motion,True,37,direct_object,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+65,1,rubbing,23,30,4566,4573,84,31.0,39.0,4574.0,4582.0,,,,,verb.body,True,38,direct_object,The poor monkey,1.0,6.0,7.0,male,1.0,tertiary
+73,1,let,34,37,5256,5259,50,38.0,80.0,5260.0,5302.0,,,,,verb.social,True,45,direct_object,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+80,2,pleased,80,87,5956,5963,50,88.0,91.0,5964.0,5967.0,92.0,134.0,5968.0,6010.0,verb.emotion,True,52,direct_object,the monkey,14.0,24.0,38.0,male,1.0,tertiary
+83,0,amused,82,88,6327,6333,97,89.0,99.0,6334.0,6344.0,100.0,120.0,6345.0,6365.0,verb.emotion,True,54,direct_object,the little party,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+86,0,let,0,3,6475,6478,97,4.0,27.0,6479.0,6502.0,,,,,verb.social,True,58,direct_object,the little party,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+90,0,walking,6,13,6608,6615,97,14.0,34.0,6616.0,6636.0,,,,,verb.motion,True,59,direct_object,the little party,1.0,7.0,8.0,group/nonbinary,1.0,tertiary
+96,1,make,7,11,6998,7002,102,12.0,37.0,7003.0,7028.0,38.0,54.0,7029.0,7045.0,verb.creation,True,64,direct_object,All the animals,1.0,2.0,3.0,unknown,0.0,tertiary
+97,0,looked,44,50,7092,7098,4,51.0,57.0,7099.0,7105.0,58.0,85.0,7106.0,7133.0,verb.perception,True,63,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+100,1,pulled,30,36,7322,7328,4,37.0,39.0,7329.0,7331.0,,,,,verb.contact,True,67,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+102,2,think,36,41,7585,7590,4,42.0,54.0,7591.0,7603.0,,,,,verb.cognition,True,68,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+103,1,follow,21,27,7626,7632,4,28.0,30.0,7633.0,7635.0,,,,,verb.motion,True,69,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+105,2,exclaimed,59,68,7753,7762,4,71.0,87.0,7765.0,7781.0,,,,,verb.communication,True,71,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+107,7,seen,121,125,7923,7927,4,126.0,153.0,7928.0,7955.0,,,,,verb.perception,True,70,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+110,4,said,83,87,8261,8265,118,88.0,98.0,8266.0,8276.0,,,,,verb.communication,True,74,direct_object,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+110,4,said,83,87,8261,8265,213,88.0,98.0,8266.0,8276.0,,,,,verb.communication,True,74,direct_object,no ordinary child,1.0,0.0,1.0,unknown,0.0,tertiary
+115,0,reaching,3,11,8525,8533,4,12.0,68.0,8534.0,8590.0,,,,,verb.motion,True,77,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+116,4,saying,124,130,8796,8802,4,132.0,160.0,8804.0,8832.0,,,,,verb.communication,True,78,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+116,4,saying,124,130,8796,8802,214,132.0,160.0,8804.0,8832.0,,,,,verb.communication,True,78,direct_object,mother,3.0,1.0,4.0,female,1.0,tertiary
+116,4,saying,124,130,8796,8802,8,132.0,160.0,8804.0,8832.0,,,,,verb.communication,True,78,direct_object,Okkasan,1.0,0.0,1.0,unknown,0.0,tertiary
+118,0,said,0,4,8847,8851,29,5.0,85.0,8852.0,8932.0,,,,,verb.communication,True,80,direct_object,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+118,0,said,0,4,8847,8851,4,5.0,85.0,8852.0,8932.0,,,,,verb.communication,True,80,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+118,0,said,0,4,8847,8851,130,5.0,85.0,8852.0,8932.0,,,,,verb.communication,True,80,direct_object,a little boy's mother's boy,3.0,0.0,3.0,male,1.0,tertiary
+120,0,feared,2,8,8962,8968,9,9.0,43.0,8969.0,9003.0,,,,,verb.emotion,True,79,direct_object,Kimbo,2.0,3.0,5.0,unknown,0.0,tertiary
+122,0,took,3,7,9043,9047,215,8.0,70.0,9048.0,9110.0,74.0,88.0,9114.0,9128.0,verb.motion,True,81,direct_object,Mr. Kintaro's four friends,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+122,0,took,3,7,9043,9047,4,8.0,70.0,9048.0,9110.0,74.0,88.0,9114.0,9128.0,verb.motion,True,81,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+125,0,tell,5,9,9300,9304,29,10.0,12.0,9305.0,9307.0,,,,,verb.communication,True,85,direct_object,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+127,2,know,39,43,9419,9423,4,44.0,67.0,9424.0,9447.0,,,,,verb.cognition,True,87,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+128,1,wrestle,28,35,9477,9484,219,36.0,52.0,9485.0,9501.0,,,,,verb.competition,True,86,direct_object,Mr. Kintaro's four friends's of them,1.0,0.0,1.0,unknown,0.0,tertiary
+128,1,wrestle,28,35,9477,9484,215,36.0,52.0,9485.0,9501.0,,,,,verb.competition,True,86,direct_object,Mr. Kintaro's four friends,1.0,3.0,4.0,group/nonbinary,1.0,tertiary
+130,1,answered,41,49,9591,9599,4,50.0,57.0,9600.0,9607.0,,,,,verb.communication,True,88,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+132,0,asked,0,5,9631,9636,29,6.0,16.0,9637.0,9647.0,17.0,22.0,,,verb.communication,True,89,direct_object,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+132,0,asked,0,5,9631,9636,4,6.0,16.0,9637.0,9647.0,17.0,22.0,,,verb.communication,True,89,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+133,5,said,144,148,9799,9803,4,149.0,156.0,9804.0,9811.0,,,,,verb.communication,True,91,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+135,0,listen,1,7,9885,9891,135,8.0,13.0,9892.0,9897.0,15.0,25.0,,,verb.perception,True,93,direct_object,the old woodcutter who had followed Kintaro from the river,1.0,3.0,4.0,male,1.0,tertiary
+138,2,followed,34,42,10052,10060,4,43.0,50.0,10061.0,10068.0,51.0,65.0,10069.0,10083.0,verb.motion,True,94,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+139,0,slipped,3,10,10088,10095,135,15.0,24.0,10100.0,10109.0,,,,,verb.motion,True,96,direct_object,the old woodcutter who had followed Kintaro from the river,1.0,3.0,4.0,male,1.0,tertiary
+141,0,looked,5,11,10190,10196,140,12.0,39.0,10197.0,10224.0,,,,,verb.perception,True,98,direct_object,the intruder,1.0,2.0,3.0,male,1.0,tertiary
+144,5,let,76,79,10394,10397,115,80.0,131.0,10398.0,10449.0,,,,,verb.social,True,99,direct_object,this boy,2.0,1.0,3.0,male,1.0,tertiary
+144,5,let,76,79,10394,10397,118,80.0,131.0,10398.0,10449.0,,,,,verb.social,True,99,direct_object,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+146,1,grasped,66,73,10707,10714,203,74.0,92.0,10715.0,10733.0,,,,,verb.contact,True,102,direct_object,each other,6.0,0.0,6.0,unknown,0.0,tertiary
+150,2,boast,26,31,11040,11045,118,32.0,63.0,11046.0,11077.0,,,,,verb.communication,True,104,direct_object,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+151,0,said,0,4,11080,11084,118,5.0,19.0,11085.0,11099.0,,,,,verb.communication,True,106,direct_object,the woodcutter,4.0,18.0,22.0,male,1.0,tertiary
+152,0,saw,3,6,11104,11107,4,7.0,10.0,11108.0,11111.0,11.0,130.0,11112.0,11231.0,verb.perception,True,105,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+153,2,followed,36,44,11269,11277,4,45.0,48.0,11278.0,11281.0,49.0,53.0,11282.0,11286.0,verb.motion,True,108,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+157,3,teaching,118,126,11626,11634,233,127.0,130.0,11635.0,11638.0,,,,,verb.communication,True,109,direct_object,Kintaro 's mother's child,1.0,6.0,7.0,male,1.0,tertiary
+157,3,teaching,118,126,11626,11634,236,127.0,130.0,11635.0,11638.0,,,,,verb.communication,True,109,direct_object,a Japanese knight,1.0,0.0,1.0,unknown,0.0,tertiary
+157,3,teaching,118,126,11626,11634,235,127.0,130.0,11635.0,11638.0,,,,,verb.communication,True,109,direct_object,a samurai,4.0,0.0,4.0,unknown,0.0,tertiary
+158,1,take,22,26,11720,11724,237,27.0,53.0,11725.0,11751.0,,,,,verb.cognition,True,110,direct_object,the mother's son,2.0,0.0,2.0,unknown,0.0,tertiary
+158,1,take,22,26,11720,11724,153,27.0,53.0,11725.0,11751.0,,,,,verb.cognition,True,110,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+159,0,replied,0,7,11754,11761,153,8.0,18.0,11762.0,11772.0,,,,,verb.communication,True,112,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+162,1,hurt,102,106,11972,11976,233,107.0,135.0,11977.0,12005.0,,,,,verb.emotion,True,113,direct_object,Kintaro 's mother's child,1.0,6.0,7.0,male,1.0,tertiary
+162,1,hurt,102,106,11972,11976,241,107.0,135.0,11977.0,12005.0,,,,,verb.emotion,True,113,direct_object,Kintaro 's mother's child's one that came near him,1.0,0.0,1.0,unknown,0.0,tertiary
+163,1,wished,13,19,12020,12026,243,20.0,81.0,12027.0,12088.0,,,,,verb.emotion,True,115,direct_object,a knight wearing two swords,2.0,0.0,2.0,unknown,0.0,tertiary
+163,1,wished,13,19,12020,12026,242,20.0,81.0,12027.0,12088.0,,,,,verb.emotion,True,115,direct_object,the mother's boy,1.0,0.0,1.0,male,1.0,tertiary
+163,1,wished,13,19,12020,12026,153,20.0,81.0,12027.0,12088.0,,,,,verb.emotion,True,115,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+164,2,fear,71,75,12161,12165,153,76.0,104.0,12166.0,12194.0,,,,,verb.emotion,True,116,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+165,1,trouble,14,21,12211,12218,153,22.0,30.0,12219.0,12227.0,,,,,verb.social,True,117,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+166,0,tell,3,7,12243,12247,153,8.0,11.0,12248.0,12251.0,,,,,verb.communication,True,118,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+166,0,tell,3,7,12243,12247,247,8.0,11.0,12248.0,12251.0,,,,,verb.communication,True,118,direct_object,no woodcutter,1.0,0.0,1.0,unknown,0.0,tertiary
+169,7,trained,117,124,12520,12527,253,125.0,136.0,12528.0,12539.0,137.0,149.0,12540.0,12552.0,verb.social,True,120,direct_object,soldiers,1.0,0.0,1.0,unknown,0.0,tertiary
+170,3,assuming,39,47,12593,12601,111,48.0,76.0,12602.0,12630.0,,,,,verb.creation,True,119,direct_object,a woodcutter,2.0,5.0,7.0,male,1.0,tertiary
+172,0,wish,18,22,12714,12718,258,23.0,42.0,12719.0,12738.0,,,,,verb.emotion,True,121,direct_object,your son,1.0,4.0,5.0,male,1.0,tertiary
+172,0,wish,18,22,12714,12718,235,23.0,42.0,12719.0,12738.0,,,,,verb.emotion,True,121,direct_object,a samurai,4.0,0.0,4.0,unknown,0.0,tertiary
+174,0,unfolded,30,38,12878,12886,154,39.0,47.0,12887.0,12895.0,,,,,verb.change,True,122,direct_object,the kind general,1.0,1.0,2.0,male,1.0,tertiary
+175,0,saw,4,7,12948,12951,153,8.0,133.0,12952.0,13077.0,,,,,verb.cognition,True,123,direct_object,the mother,2.0,27.0,29.0,female,1.0,tertiary
+175,0,saw,4,7,12948,12951,4,8.0,133.0,12952.0,13077.0,,,,,verb.cognition,True,123,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+175,0,saw,4,7,12948,12951,235,8.0,133.0,12952.0,13077.0,,,,,verb.cognition,True,123,direct_object,a samurai,4.0,0.0,4.0,unknown,0.0,tertiary
+182,7,left,94,98,13618,13622,10,99.0,105.0,13623.0,13629.0,,,,,verb.possession,True,127,direct_object,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+183,0,hid,8,11,13639,13642,10,12.0,21.0,13643.0,13652.0,22.0,40.0,13653.0,13671.0,verb.cognition,True,130,direct_object,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+184,3,leave,55,60,13728,13733,10,61.0,64.0,13734.0,13737.0,65.0,68.0,13738.0,13741.0,verb.cognition,True,131,direct_object,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+185,1,discourage,13,23,13756,13766,4,24.0,27.0,13767.0,13770.0,28.0,54.0,13771.0,13797.0,verb.communication,True,132,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+186,6,build,107,112,13906,13911,10,113.0,123.0,13912.0,13922.0,,,,,verb.creation,True,134,direct_object,Yama - uba,2.0,13.0,15.0,female,1.0,tertiary
+188,3,followed,55,63,14208,14216,4,64.0,67.0,14217.0,14220.0,68.0,110.0,14221.0,14263.0,verb.motion,True,135,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+189,0,said,9,13,14274,14278,29,14.0,24.0,14279.0,14289.0,,,,,verb.communication,True,136,direct_object,a little boy's mother,11.0,4.0,15.0,female,1.0,tertiary
+189,0,said,9,13,14274,14278,4,14.0,24.0,14279.0,14289.0,,,,,verb.communication,True,136,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+190,1,wish,46,50,14363,14367,4,51.0,54.0,14368.0,14371.0,,,,,verb.emotion,True,137,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+191,1,see,32,35,14434,14437,4,36.0,51.0,14438.0,14453.0,,,,,verb.social,True,138,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+192,0,watched,22,29,14477,14484,4,30.0,33.0,14485.0,14488.0,,,,,verb.perception,True,140,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+193,3,found,74,79,14641,14646,4,80.0,105.0,14647.0,14672.0,,,,,verb.perception,True,139,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+194,2,took,48,52,14722,14726,261,53.0,60.0,14727.0,14734.0,61.0,68.0,14735.0,14742.0,verb.motion,True,141,direct_object,the general,4.0,4.0,8.0,male,1.0,tertiary
+194,2,took,48,52,14722,14726,4,53.0,60.0,14727.0,14734.0,61.0,68.0,14735.0,14742.0,verb.motion,True,141,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+194,2,took,48,52,14722,14726,173,53.0,60.0,14727.0,14734.0,61.0,68.0,14735.0,14742.0,verb.motion,True,141,direct_object,the general's Lord,1.0,1.0,2.0,male,1.0,tertiary
+195,0,told,3,7,14778,14782,261,8.0,11.0,14783.0,14786.0,,,,,verb.communication,True,142,direct_object,the general,4.0,4.0,8.0,male,1.0,tertiary
+195,0,told,3,7,14778,14782,174,8.0,11.0,14783.0,14786.0,,,,,verb.communication,True,142,direct_object,the child,1.0,0.0,1.0,unknown,0.0,tertiary
+195,0,told,3,7,14778,14782,4,8.0,11.0,14783.0,14786.0,,,,,verb.communication,True,142,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+195,0,told,3,7,14778,14782,173,8.0,11.0,14783.0,14786.0,,,,,verb.communication,True,142,direct_object,the general's Lord,1.0,1.0,2.0,male,1.0,tertiary
+196,4,brought,76,83,14913,14920,12,84.0,90.0,14921.0,14927.0,,,,,verb.motion,True,143,direct_object,the Lord Raiko,6.0,7.0,13.0,male,1.0,tertiary
+198,1,chosen,20,26,15054,15060,180,27.0,37.0,15061.0,15071.0,,,,,verb.cognition,True,144,direct_object,the Lord Raiko's soldiers,1.0,0.0,1.0,unknown,0.0,tertiary
+198,1,chosen,20,26,15054,15060,179,27.0,37.0,15061.0,15071.0,,,,,verb.cognition,True,144,direct_object,the Lord Raiko's bravest and strongest of his soldiers,1.0,0.0,1.0,unknown,0.0,tertiary
+198,1,chosen,20,26,15054,15060,12,27.0,37.0,15061.0,15071.0,,,,,verb.cognition,True,144,direct_object,the Lord Raiko,6.0,7.0,13.0,male,1.0,tertiary
+200,2,made,44,48,15289,15293,186,49.0,81.0,15294.0,15326.0,,,,,verb.change,True,145,direct_object,the Chief of the Four Braves,1.0,0.0,1.0,unknown,0.0,tertiary
+200,2,made,44,48,15289,15293,4,49.0,81.0,15294.0,15326.0,,,,,verb.change,True,145,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+203,0,ordered,11,18,15533,15540,4,19.0,26.0,15541.0,15548.0,,,,,verb.communication,True,147,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+204,1,trying,57,63,15621,15627,4,64.0,73.0,15628.0,15637.0,,,,,verb.social,True,148,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary
+205,0,surprising,0,10,15639,15649,4,11.0,22.0,15650.0,15661.0,23.0,33.0,,,verb.contact,True,149,direct_object,Mr. Kintaro,45.0,99.0,144.0,male,1.0,primary

@@ -1,0 +1,85 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,0,sent,31,35,262,266,0.0,19.0,30.0,250.0,261.0,,,,,verb.motion,True,2,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+3,2,came,76,80,456,460,0.0,64.0,75.0,444.0,455.0,,,,,verb.motion,True,3,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+4,4,came,107,111,686,690,43.0,85.0,106.0,664.0,685.0,,,,,verb.motion,True,4,subject,a fine tall gentleman,1,1,2,male,1.0,tertiary
+5,7,come,202,206,975,979,9.0,179.0,190.0,952.0,963.0,,,,,verb.motion,True,6,subject,the Sunball,1,14,15,male,1.0,tertiary
+6,2,sent,67,71,1066,1070,0.0,55.0,66.0,1054.0,1065.0,94.0,156.0,1093.0,1155.0,verb.contact,True,5,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+7,1,sent,28,32,1185,1189,0.0,9.0,20.0,1166.0,1177.0,,,,,verb.motion,True,7,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+8,2,asked,56,61,1425,1430,0.0,44.0,55.0,1413.0,1424.0,67.0,85.0,1436.0,1454.0,verb.communication,True,8,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+9,0,answered,4,12,1503,1511,13.0,0.0,3.0,1499.0,1502.0,,,,,verb.communication,True,9,subject,the girl,2,34,36,female,1.0,secondary
+10,0,made,17,21,1584,1588,0.0,5.0,16.0,1572.0,1583.0,,,,,verb.change,True,10,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+11,2,came,54,58,1665,1669,13.0,50.0,53.0,1661.0,1664.0,,,,,verb.motion,True,11,subject,the girl,2,34,36,female,1.0,secondary
+12,1,asked,54,59,1846,1851,0.0,42.0,53.0,1834.0,1845.0,,,,,verb.communication,True,12,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+13,0,answered,8,16,1915,1923,13.0,4.0,7.0,1911.0,1914.0,,,,,verb.communication,True,13,subject,the girl,2,34,36,female,1.0,secondary
+14,0,cut,17,20,1996,1999,0.0,5.0,16.0,1984.0,1995.0,35.0,53.0,2014.0,2032.0,verb.contact,True,14,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+15,0,sent,25,29,2059,2063,0.0,13.0,24.0,2047.0,2058.0,,,,,verb.motion,True,15,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+16,0,came,9,13,2247,2251,13.0,5.0,8.0,2243.0,2246.0,,,,,verb.motion,True,17,subject,the girl,2,34,36,female,1.0,secondary
+17,1,falls,30,35,2360,2365,9.0,0.0,12.0,2330.0,2342.0,,,,,verb.change,True,16,subject,the Sunball,1,14,15,male,1.0,tertiary
+18,0,made,8,12,2420,2424,9.0,5.0,7.0,2417.0,2419.0,,,,,verb.change,True,18,subject,the Sunball,1,14,15,male,1.0,tertiary
+19,0,became,30,36,2474,2480,0.0,18.0,29.0,2462.0,2473.0,,,,,verb.change,True,19,subject,the Sunball,14,2,16,unknown,0.0,tertiary
+20,0,sent,3,7,2510,2514,9.0,0.0,2.0,2507.0,2509.0,26.0,40.0,2533.0,2547.0,verb.contact,True,20,subject,the Sunball,1,14,15,male,1.0,tertiary
+21,2,said,48,52,2667,2671,9.0,5.0,7.0,2624.0,2626.0,,,,,verb.communication,True,21,subject,the Sunball,1,14,15,male,1.0,tertiary
+23,1,eat,19,22,2737,2740,1.0,5.0,9.0,2723.0,2727.0,,,,,verb.consumption,True,22,subject,Letiko,29,32,61,female,1.0,primary
+25,1,said,32,36,2881,2885,9.0,29.0,31.0,2878.0,2880.0,,,,,verb.communication,True,24,subject,the Sunball,1,14,15,male,1.0,tertiary
+26,0,sent,8,12,2933,2937,9.0,5.0,7.0,2930.0,2932.0,,,,,verb.motion,True,25,subject,the Sunball,1,14,15,male,1.0,tertiary
+28,1,eat,15,18,3062,3065,1.0,1.0,5.0,3048.0,3052.0,,,,,verb.consumption,True,26,subject,Letiko,29,32,61,female,1.0,primary
+33,0,climbed,10,17,3459,3466,1.0,3.0,9.0,3452.0,3458.0,,,,,verb.motion,True,30,subject,Letiko,29,32,61,female,1.0,primary
+38,2,swept,41,46,3750,3755,23.0,21.0,29.0,3730.0,3738.0,,,,,verb.contact,True,31,subject,a lamia,1,4,5,unknown,0.0,tertiary
+40,1,swept,29,34,3850,3855,24.0,5.0,14.0,3826.0,3835.0,,,,,verb.contact,True,33,subject,the lamia,4,17,21,female,1.0,secondary
+43,4,eat,56,59,4084,4087,24.0,27.0,28.0,4055.0,4056.0,,,,,verb.consumption,True,34,subject,the lamia,4,17,21,female,1.0,secondary
+45,2,cut,70,73,4190,4193,24.0,5.0,14.0,4125.0,4134.0,,,,,verb.contact,True,36,subject,the lamia,4,17,21,female,1.0,secondary
+46,4,feed,78,82,4281,4285,24.0,71.0,72.0,4274.0,4275.0,,,,,verb.consumption,True,37,subject,the lamia,4,17,21,female,1.0,secondary
+50,3,calling,52,59,4495,4502,1.0,42.0,48.0,4485.0,4491.0,,,,,verb.communication,True,39,subject,Letiko,29,32,61,female,1.0,primary
+53,3,came,78,82,4704,4708,24.0,74.0,77.0,4700.0,4703.0,,,,,verb.motion,True,40,subject,the lamia,4,17,21,female,1.0,secondary
+54,0,answered,5,13,4805,4813,30.0,0.0,4.0,4800.0,4804.0,,,,,verb.communication,True,42,subject,people,1,3,4,group/nonbinary,1.0,tertiary
+56,1,ask,10,13,4855,4858,24.0,0.0,1.0,4845.0,4846.0,,,,,verb.communication,True,41,subject,the lamia,4,17,21,female,1.0,secondary
+58,0,answered,20,28,4927,4935,31.0,4.0,14.0,4911.0,4921.0,,,,,verb.communication,True,44,subject,the people,1,0,1,unknown,0.0,tertiary
+60,1,reached,23,30,5030,5037,1.0,5.0,11.0,5012.0,5018.0,,,,,verb.motion,True,43,subject,Letiko,29,32,61,female,1.0,primary
+62,0,said,15,19,5130,5134,33.0,4.0,14.0,5119.0,5129.0,,,,,verb.communication,True,46,subject,the mother,4,8,12,female,1.0,tertiary
+64,1,burst,18,23,5185,5190,33.0,15.0,17.0,5182.0,5184.0,,,,,verb.change,True,45,subject,the mother,4,8,12,female,1.0,tertiary
+65,0,saw,25,28,5230,5233,34.0,5.0,24.0,5210.0,5229.0,,,,,verb.perception,True,47,subject,the cat on the roof,1,0,1,unknown,0.0,tertiary
+68,0,said,15,19,5310,5314,33.0,4.0,14.0,5299.0,5309.0,,,,,verb.communication,True,48,subject,the mother,4,8,12,female,1.0,tertiary
+73,0,said,15,19,5488,5492,33.0,4.0,14.0,5477.0,5487.0,,,,,verb.communication,True,50,subject,the mother,4,8,12,female,1.0,tertiary
+76,0,came,36,40,5608,5612,1.0,0.0,35.0,5572.0,5607.0,,,,,verb.motion,True,49,subject,Letiko,29,32,61,female,1.0,primary
+77,2,said,46,50,5811,5815,33.0,22.0,32.0,5787.0,5797.0,,,,,verb.communication,True,51,subject,the mother,4,8,12,female,1.0,tertiary
+78,3,silver,48,54,5898,5904,33.0,41.0,42.0,5891.0,5892.0,,,,,verb.contact,True,52,subject,the mother,4,8,12,female,1.0,tertiary
+0,2,made,53,57,53,57,2.0,58.0,74.0,58.0,74.0,,,,,verb.change,True,0,direct_object,a woman who had no children,1,4,5,female,1.0,tertiary
+1,2,send,60,64,136,140,2.0,65.0,67.0,141.0,143.0,87.0,90.0,,,verb.contact,True,1,direct_object,a woman who had no children,1,4,5,female,1.0,tertiary
+1,2,send,60,64,136,140,40.0,65.0,67.0,141.0,143.0,87.0,90.0,,,verb.contact,True,1,direct_object,a little girl,1,2,3,female,1.0,tertiary
+2,0,sent,31,35,262,266,2.0,36.0,39.0,267.0,270.0,,,,,verb.motion,True,2,direct_object,a woman who had no children,1,4,5,female,1.0,tertiary
+2,0,sent,31,35,262,266,4.0,36.0,39.0,267.0,270.0,,,,,verb.motion,True,2,direct_object,the woman,2,2,4,female,1.0,tertiary
+2,0,sent,31,35,262,266,1.0,36.0,39.0,267.0,270.0,,,,,verb.motion,True,2,direct_object,Letiko,29,32,61,female,1.0,primary
+2,0,sent,31,35,262,266,3.0,36.0,39.0,267.0,270.0,,,,,verb.motion,True,2,direct_object,"a little girl , whom the woman called Letiko",1,1,2,female,1.0,tertiary
+3,2,came,76,80,456,460,1.0,81.0,87.0,461.0,467.0,,,,,verb.motion,True,3,direct_object,Letiko,29,32,61,female,1.0,primary
+4,4,came,107,111,686,690,1.0,112.0,117.0,691.0,696.0,,,,,verb.motion,True,4,direct_object,Letiko,29,32,61,female,1.0,primary
+7,1,sent,28,32,1185,1189,11.0,33.0,36.0,1190.0,1193.0,,,,,verb.motion,True,7,direct_object,the little girl,2,2,4,female,1.0,tertiary
+8,2,asked,56,61,1425,1430,13.0,62.0,65.0,1431.0,1434.0,67.0,85.0,1436.0,1454.0,verb.communication,True,8,direct_object,the girl,2,34,36,female,1.0,secondary
+9,0,answered,4,12,1503,1511,13.0,15.0,65.0,1514.0,1564.0,,,,,verb.communication,True,9,direct_object,the girl,2,34,36,female,1.0,secondary
+12,1,asked,54,59,1846,1851,13.0,60.0,63.0,1852.0,1855.0,,,,,verb.communication,True,12,direct_object,the girl,2,34,36,female,1.0,secondary
+12,1,asked,54,59,1846,1851,1.0,60.0,63.0,1852.0,1855.0,,,,,verb.communication,True,12,direct_object,Letiko,29,32,61,female,1.0,primary
+13,0,answered,8,16,1915,1923,13.0,19.0,69.0,1926.0,1976.0,,,,,verb.communication,True,13,direct_object,the girl,2,34,36,female,1.0,secondary
+14,0,cut,17,20,1996,1999,13.0,21.0,34.0,2000.0,2013.0,35.0,53.0,2014.0,2032.0,verb.contact,True,14,direct_object,the girl,2,34,36,female,1.0,secondary
+15,0,sent,25,29,2059,2063,13.0,30.0,33.0,2064.0,2067.0,,,,,verb.motion,True,15,direct_object,the girl,2,34,36,female,1.0,secondary
+15,0,sent,25,29,2059,2063,9.0,30.0,33.0,2064.0,2067.0,,,,,verb.motion,True,15,direct_object,the Sunball,1,14,15,male,1.0,tertiary
+17,1,falls,30,35,2360,2365,9.0,36.0,48.0,2366.0,2378.0,,,,,verb.change,True,16,direct_object,the Sunball,1,14,15,male,1.0,tertiary
+19,0,became,30,36,2474,2480,1.0,37.0,61.0,2481.0,2505.0,,,,,verb.change,True,19,direct_object,Letiko,29,32,61,female,1.0,primary
+20,0,sent,3,7,2510,2514,13.0,8.0,11.0,2515.0,2518.0,26.0,40.0,2533.0,2547.0,verb.contact,True,20,direct_object,the girl,2,34,36,female,1.0,secondary
+21,2,said,48,52,2667,2671,1.0,55.0,80.0,2674.0,2699.0,,,,,verb.communication,True,21,direct_object,Letiko,29,32,61,female,1.0,primary
+24,1,eat,9,12,2813,2816,1.0,13.0,22.0,2817.0,2826.0,,,,,verb.consumption,True,23,direct_object,Letiko,29,32,61,female,1.0,primary
+25,1,said,32,36,2881,2885,1.0,39.0,73.0,2888.0,2922.0,,,,,verb.communication,True,24,direct_object,Letiko,29,32,61,female,1.0,primary
+30,1,bring,20,25,3196,3201,1.0,26.0,34.0,3202.0,3210.0,,,,,verb.motion,True,28,direct_object,Letiko,29,32,61,female,1.0,primary
+31,1,taking,24,30,3237,3243,1.0,31.0,37.0,3244.0,3250.0,,,,,verb.possession,True,27,direct_object,Letiko,29,32,61,female,1.0,primary
+32,1,climb,36,41,3371,3376,1.0,42.0,64.0,3377.0,3399.0,,,,,verb.motion,True,29,direct_object,Letiko,29,32,61,female,1.0,primary
+34,4,see,113,116,3618,3621,23.0,117.0,147.0,3622.0,3652.0,,,,,verb.perception,True,32,direct_object,a lamia,1,4,5,unknown,0.0,tertiary
+40,1,swept,29,34,3850,3855,24.0,35.0,44.0,3856.0,3865.0,,,,,verb.contact,True,33,direct_object,the lamia,4,17,21,female,1.0,secondary
+43,4,eat,56,59,4084,4087,1.0,60.0,63.0,4088.0,4091.0,,,,,verb.consumption,True,34,direct_object,Letiko,29,32,61,female,1.0,primary
+44,1,eat,17,20,4111,4114,24.0,21.0,23.0,4115.0,4117.0,,,,,verb.consumption,True,35,direct_object,the lamia,4,17,21,female,1.0,secondary
+46,4,feed,78,82,4281,4285,24.0,83.0,94.0,4286.0,4297.0,,,,,verb.consumption,True,37,direct_object,the lamia,4,17,21,female,1.0,secondary
+46,4,feed,78,82,4281,4285,54.0,83.0,94.0,4286.0,4297.0,,,,,verb.consumption,True,37,direct_object,the lamia's children,1,1,2,group/nonbinary,1.0,tertiary
+47,1,feed,18,22,4318,4322,54.0,23.0,27.0,4323.0,4327.0,,,,,verb.consumption,True,38,direct_object,the lamia's children,1,1,2,group/nonbinary,1.0,tertiary
+53,3,came,78,82,4704,4708,24.0,83.0,134.0,4709.0,4760.0,,,,,verb.motion,True,40,direct_object,the lamia,4,17,21,female,1.0,secondary
+53,3,came,78,82,4704,4708,30.0,83.0,134.0,4709.0,4760.0,,,,,verb.motion,True,40,direct_object,people,1,3,4,group/nonbinary,1.0,tertiary
+60,1,reached,23,30,5030,5037,1.0,31.0,39.0,5038.0,5046.0,,,,,verb.motion,True,43,direct_object,Letiko,29,32,61,female,1.0,primary
+65,0,saw,25,28,5230,5233,1.0,29.0,32.0,5234.0,5237.0,,,,,verb.perception,True,47,direct_object,Letiko,29,32,61,female,1.0,primary
+77,2,said,46,50,5811,5815,62.0,51.0,56.0,5816.0,5821.0,,,,,verb.communication,True,51,direct_object,dear little hare,1,2,3,unknown,0.0,tertiary
+78,3,silver,48,54,5898,5904,62.0,55.0,71.0,5905.0,5921.0,,,,,verb.contact,True,52,direct_object,dear little hare,1,2,3,unknown,0.0,tertiary

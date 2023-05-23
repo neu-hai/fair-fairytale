@@ -1,0 +1,45 @@
+sentence1,event1,te_rel,sentence2,event2,s_id,s_id2,e_id,e_id2
+"Once upon a time there was a woman who had seven hungry children, and she was baking pancakes for them. ",baking,BEFORE,"The children stood around it, and their grandfather sat and looked on. ",sat,0,2,3,1
+"The children stood around it, and their grandfather sat and looked on. ",sat,BEFORE,"""Give me a little bit of pancake, mother, I'm so hungry!"" ",Give,2,3,1,0
+"""Give me a little bit of pancake, mother, I'm so hungry!"" ",Give,BEFORE,said one of the children. ,said,3,4,0,0
+said one of the children. ,said,BEFORE,said the second. ,said,4,6,0,0
+said the second. ,said,BEFORE,said the third. ,said,6,8,0,0
+said the third. ,said,BEFORE,said the fourth. ,said,8,10,0,0
+said the fourth. ,said,BEFORE,said the fifth. ,said,10,12,0,0
+said the fifth. ,said,BEFORE,said the sixth. ,said,12,14,0,0
+said the sixth. ,said,BEFORE,"said the seventh, and so they all begged around the pancake, one more sweetly than the other, for they were all so hungry and so well-behaved. ",begged,14,16,0,1
+"said the seventh, and so they all begged around the pancake, one more sweetly than the other, for they were all so hungry and so well-behaved. ",begged,BEFORE,"The woman was after it with the pan in one hand, and the spoon in the other, as fast as she could, and after her came the children, and last of all, their grandfather came hobbling along. ",hobbling,16,23,1,4
+"The woman was after it with the pan in one hand, and the spoon in the other, as fast as she could, and after her came the children, and last of all, their grandfather came hobbling along. ",hobbling,BEFORE,"they all cried together, and wanted to catch up with it and grab it on the run; ",grab,23,28,4,3
+"they all cried together, and wanted to catch up with it and grab it on the run; ",grab,AFTER," but the pancake rolled and rolled, and sure enough, it got so far ahead of them that they could no longer see it, for it had nimbler legs than all of them. ",got,28,29,3,2
+" but the pancake rolled and rolled, and sure enough, it got so far ahead of them that they could no longer see it, for it had nimbler legs than all of them. ",got,BEFORE,After it had rolled a while it met a man. ,met,29,30,2,2
+After it had rolled a while it met a man. ,met,BEFORE,"""Good-day, pancake,"" said the man. ",said,30,31,2,0
+"""Good-day, pancake,"" said the man. ",said,BEFORE,"""Good-day, Man Tan,"" said the pancake. ",said,31,32,0,0
+"""Good-day, Man Tan,"" said the pancake. ",said,BEFORE," but wait a little and let me eat you!"" ",eat,32,34,0,2
+" but wait a little and let me eat you!"" ",eat,BEFORE,"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, so I think I can leave you as well, Man Tan!"" ",leave,34,36,2,6
+"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, so I think I can leave you as well, Man Tan!"" ",leave,BEFORE,"said the pancake, and rolled and rolled until it met a hen. ",said,36,37,6,0
+"said the pancake, and rolled and rolled until it met a hen. ",said,BEFORE,"""Good-day, pancake,"" said the hen. ",said,37,38,0,0
+"""Good-day, pancake,"" said the hen. ",said,BEFORE,"""Good-day, Hen Glen,"" said the pancake. ",said,38,39,0,0
+"""Good-day, Hen Glen,"" said the pancake. ",said,AFTER,"""Dear, good pancake, don't roll so fast, wait a little and I will eat you up!"" ",roll,39,40,0,1
+"""Dear, good pancake, don't roll so fast, wait a little and I will eat you up!"" ",roll,BEFORE,"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan, so I think I can leave you as well, Hen Glen!"" ",leave,40,42,1,6
+"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan, so I think I can leave you as well, Hen Glen!"" ",leave,BEFORE,"said the pancake, and rolled along the road like a wheel. ",said,42,43,6,0
+"said the pancake, and rolled along the road like a wheel. ",said,BEFORE,"""Good-day, pancake,"" said the rooster. ",said,43,45,0,0
+"""Good-day, pancake,"" said the rooster. ",said,BEFORE,"""Good-day, Rooster Booster,"" said the pancake. ",said,45,46,0,0
+"""Good-day, Rooster Booster,"" said the pancake. ",said,AFTER,"""Dear, good pancake, don't roll so fast. ",roll,46,47,0,1
+"""Dear, good pancake, don't roll so fast. ",roll,BEFORE,"Wait a little and I will eat you up!"" ",eat,47,48,1,2
+"Wait a little and I will eat you up!"" ",eat,AFTER,"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan and Hen Glen, and so I think I can leave you as well, Rooster Booster,"" said the pancake, and rolled and rolled as fast as ever it could. ",rolled,48,50,2,8
+"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan and Hen Glen, and so I think I can leave you as well, Rooster Booster,"" said the pancake, and rolled and rolled as fast as ever it could. ",rolled,BEFORE,"""Good-day, pancake,"" said the duck. ",said,50,52,8,0
+"""Good-day, pancake,"" said the duck. ",said,BEFORE,"""Good-day, Duck Tuck,"" said the pancake. ",said,52,53,0,0
+"""Good-day, Duck Tuck,"" said the pancake. ",said,BEFORE,"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan, and Hen Glen and Rooster Booster, so I think I can leave you as well,"" said the pancake, and rolled on as fast as ever it could. ",rolled,53,57,0,8
+"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan, and Hen Glen and Rooster Booster, so I think I can leave you as well,"" said the pancake, and rolled on as fast as ever it could. ",rolled,BEFORE,"""Good-day, Goose Loose,"" said the pancake. ",said,57,60,8,0
+"""Good-day, Goose Loose,"" said the pancake. ",said,BEFORE,"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan and Hen Glen and Rooster Booster and Duck Tuck, and I think I can leave you as well, Goose Loose,"" said the pancake, and rolled away. ",said,60,64,0,7
+"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan and Hen Glen and Rooster Booster and Duck Tuck, and I think I can leave you as well, Goose Loose,"" said the pancake, and rolled away. ",said,BEFORE,"""Good-day, pancake,"" said the gander. ",said,64,66,7,0
+"""Good-day, pancake,"" said the gander. ",said,BEFORE,"""Good-day, Gander Meander,"" said the pancake. ",said,66,67,0,0
+"""Good-day, Gander Meander,"" said the pancake. ",said,BEFORE,"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan and Hen Glen and Rooster Booster and Duck Tuck and Goose Loose, and I think I can leave you as well, Gander Meander,"" said the pancake, and began to roll as fast as ever it could. ",roll,67,71,0,9
+"""Mother Gray and grandpa I've left behind, and the seven squallers, too, you'll find, and Man Tan and Hen Glen and Rooster Booster and Duck Tuck and Goose Loose, and I think I can leave you as well, Gander Meander,"" said the pancake, and began to roll as fast as ever it could. ",roll,BEFORE,"""Good-day, pancake,"" said the pig. ",said,71,73,9,0
+"""Good-day, pancake,"" said the pig. ",said,BEFORE,"""Good-day, Pig Snig,"" said the pancake, and began to roll as fast as ever it could. ",said,73,74,0,0
+"""Good-day, Pig Snig,"" said the pancake, and began to roll as fast as ever it could. ",said,BEFORE,"""Now wait a little,"" said the pig. ",said,74,75,0,1
+"""Now wait a little,"" said the pig. ",said,AFTER,"""You need not hurry so, for we can keep each other company going through the forest and take our time, for it is said to be haunted."" ",hurry,75,76,1,1
+"""You need not hurry so, for we can keep each other company going through the forest and take our time, for it is said to be haunted."" ",hurry,BEFORE,"The pancake thought that such was quite apt to be the case, and so they started off; ",thought,76,77,1,0
+"The pancake thought that such was quite apt to be the case, and so they started off; ",thought,BEFORE,"""Sit down on my snout,"" said the pig, ""and I will carry you over that way."" ",carry,77,81,0,3
+"""Sit down on my snout,"" said the pig, ""and I will carry you over that way."" ",carry,BEFORE,"said the pig, and swallowed the pancake in one mouthful. ",said,81,84,3,0
+"said the pig, and swallowed the pancake in one mouthful. ",said,BEFORE,"""And now, since the pancake no further goes, This little chronicle comes to a close.""",comes,84,85,0,1

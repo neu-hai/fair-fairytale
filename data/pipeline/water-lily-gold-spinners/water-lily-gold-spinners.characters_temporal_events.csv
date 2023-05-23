@@ -1,0 +1,539 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,2,saw,46,49,192,195,8,41.0,45.0,187.0,191.0,,,,,verb.perception,0,subject,none,1,0,1,unknown,0.0,tertiary
+3,0,kept,14,18,293,297,9,0.0,13.0,279.0,292.0,29.0,96.0,308.0,375.0,verb.consumption,2,subject,The old woman,13,24,37,female,1.0,tertiary
+3,1,spinning,68,76,347,355,9,0.0,13.0,279.0,292.0,82.0,96.0,361.0,375.0,verb.contact,1,subject,The old woman,13,24,37,female,1.0,tertiary
+3,5,had,161,164,440,443,10,156.0,160.0,435.0,439.0,,,,,verb.possession,5,subject,the girls,2,6,8,female,1.0,tertiary
+5,0,went,11,15,615,619,9,7.0,10.0,611.0,614.0,,,,,verb.motion,4,subject,The old woman,13,24,37,female,1.0,tertiary
+5,2,returned,74,82,678,686,9,16.0,19.0,620.0,623.0,,,,,verb.motion,6,subject,The old woman,13,24,37,female,1.0,tertiary
+5,3,saw,121,124,725,728,10,105.0,114.0,709.0,718.0,,,,,verb.perception,7,subject,the girls,2,6,8,female,1.0,tertiary
+5,6,tell,175,179,779,783,9,171.0,174.0,775.0,778.0,,,,,verb.communication,8,subject,The old woman,13,24,37,female,1.0,tertiary
+6,2,gave,89,93,937,941,9,85.0,88.0,933.0,936.0,111.0,316.0,959.0,1164.0,verb.communication,9,subject,The old woman,13,24,37,female,1.0,tertiary
+6,8,lose,255,259,1103,1107,182,238.0,249.0,1086.0,1097.0,,,,,verb.possession,10,subject,Children,1,3,4,unknown,0.0,tertiary
+7,0,laughed,5,12,1172,1179,10,0.0,4.0,1167.0,1171.0,43.0,154.0,1210.0,1321.0,verb.body,12,subject,the girls,2,6,8,female,1.0,tertiary
+7,2,saying,43,49,1210,1216,10,0.0,4.0,1167.0,1171.0,,,,,verb.communication,14,subject,the girls,2,6,8,female,1.0,tertiary
+7,4,lose,90,94,1257,1261,10,74.0,89.0,1241.0,1256.0,,,,,verb.possession,13,subject,the girls,2,6,8,female,1.0,tertiary
+9,1,flung,29,34,1497,1502,18,26.0,28.0,1494.0,1496.0,62.0,97.0,1530.0,1565.0,verb.contact,17,subject,a young prince,1,12,13,male,1.0,tertiary
+9,2,leaving,62,69,1530,1537,18,26.0,28.0,1494.0,1496.0,,,,,verb.change,18,subject,a young prince,1,12,13,male,1.0,tertiary
+9,3,browse,83,89,1551,1557,18,70.0,73.0,1538.0,1541.0,,,,,verb.perception,19,subject,a young prince,1,12,13,male,1.0,tertiary
+10,2,awoke,24,29,1608,1613,18,21.0,23.0,1605.0,1607.0,,,,,verb.body,20,subject,a young prince,1,12,13,male,1.0,tertiary
+10,5,find,61,65,1645,1649,18,21.0,23.0,1605.0,1607.0,74.0,91.0,1658.0,1675.0,verb.creation,22,subject,a young prince,1,12,13,male,1.0,tertiary
+11,0,perceived,11,20,1688,1697,18,8.0,10.0,1685.0,1687.0,,,,,verb.perception,23,subject,a young prince,1,12,13,male,1.0,tertiary
+11,1,followed,58,66,1735,1743,18,21.0,39.0,1698.0,1716.0,,,,,verb.motion,24,subject,a young prince,1,12,13,male,1.0,tertiary
+11,2,found,71,76,1748,1753,18,47.0,49.0,1724.0,1726.0,,,,,verb.cognition,26,subject,a young prince,1,12,13,male,1.0,tertiary
+12,1,sitting,22,29,1808,1815,23,0.0,11.0,1786.0,1797.0,,,,,verb.contact,25,subject,the maidens,3,8,11,female,1.0,tertiary
+12,2,saw,69,72,1855,1858,23,0.0,67.0,1786.0,1853.0,,,,,verb.perception,29,subject,the maidens,3,8,11,female,1.0,tertiary
+12,3,approaching,77,88,1863,1874,18,73.0,76.0,1859.0,1862.0,,,,,verb.motion,28,subject,a young prince,1,12,13,male,1.0,tertiary
+12,5,remembered,136,146,1922,1932,25,131.0,135.0,1917.0,1921.0,,,,,verb.cognition,27,subject,the two elder,1,4,5,group/nonbinary,1.0,tertiary
+13,0,said,18,22,1975,1979,6,5.0,17.0,1962.0,1974.0,,,,,verb.communication,31,subject,the youngest,2,2,4,unknown,0.0,tertiary
+13,2,seen,45,49,2002,2006,6,43.0,44.0,2000.0,2001.0,,,,,verb.perception,30,subject,the youngest,2,2,4,unknown,0.0,tertiary
+14,1,have,8,12,2031,2035,6,5.0,7.0,2028.0,2030.0,,,,,verb.consumption,33,subject,the youngest,2,2,4,unknown,0.0,tertiary
+15,0,entreated,5,14,2052,2061,25,0.0,4.0,2047.0,2051.0,19.0,29.0,2066.0,2076.0,verb.communication,32,subject,the two elder,1,4,5,group/nonbinary,1.0,tertiary
+15,4,left,63,67,2110,2114,9,48.0,51.0,2095.0,2098.0,,,,,verb.motion,36,subject,The old woman,13,24,37,female,1.0,tertiary
+15,6,greeted,112,119,2159,2166,28,77.0,87.0,2124.0,2134.0,,,,,verb.communication,37,subject,The Prince,24,107,131,male,1.0,primary
+15,9,lost,152,156,2199,2203,28,145.0,147.0,2192.0,2194.0,165.0,178.0,2212.0,2225.0,verb.possession,38,subject,The Prince,24,107,131,male,1.0,primary
+16,0,set,4,7,2261,2264,29,0.0,3.0,2257.0,2260.0,,,,,verb.creation,40,subject,the maiden,18,53,71,female,1.0,secondary
+16,2,forgot,77,83,2334,2340,29,73.0,76.0,2330.0,2333.0,,,,,verb.cognition,41,subject,the maiden,18,53,71,female,1.0,secondary
+17,0,sought,40,46,2430,2436,33,16.0,39.0,2406.0,2429.0,,,,,verb.contact,42,subject,the Prince 's companions,1,0,1,male,1.0,tertiary
+17,0,sought,40,46,2430,2436,28,16.0,39.0,2406.0,2429.0,,,,,verb.contact,42,subject,The Prince,24,107,131,male,1.0,primary
+17,1,sent,92,96,2482,2486,25,87.0,91.0,2477.0,2481.0,,,,,verb.motion,43,subject,the two elder,1,4,5,group/nonbinary,1.0,tertiary
+17,2,tell,115,119,2505,2509,34,97.0,111.0,2487.0,2501.0,,,,,verb.communication,44,subject,two messengers,1,0,1,unknown,0.0,tertiary
+17,3,ordered,162,169,2552,2559,35,136.0,144.0,2526.0,2534.0,,,,,verb.communication,45,subject,the king,7,19,26,male,1.0,tertiary
+17,4,go,215,217,2605,2607,37,170.0,211.0,2560.0,2601.0,,,,,verb.motion,46,subject,one of infantry,1,0,1,unknown,0.0,tertiary
+18,0,found,31,36,2657,2662,25,26.0,30.0,2652.0,2656.0,,,,,verb.possession,48,subject,the two elder,1,4,5,group/nonbinary,1.0,tertiary
+19,1,sitting,21,28,2693,2700,28,0.0,10.0,2672.0,2682.0,,,,,verb.contact,47,subject,The Prince,24,107,131,male,1.0,primary
+20,1,promised,18,26,2822,2830,28,15.0,17.0,2819.0,2821.0,,,,,verb.communication,50,subject,The Prince,24,107,131,male,1.0,primary
+20,2,return,30,36,2834,2840,28,15.0,17.0,2819.0,2821.0,,,,,verb.motion,51,subject,The Prince,24,107,131,male,1.0,primary
+20,3,fetch,41,46,2845,2850,28,15.0,17.0,2819.0,2821.0,,,,,verb.contact,52,subject,The Prince,24,107,131,male,1.0,primary
+20,5,make,89,93,2893,2897,28,80.0,82.0,2884.0,2886.0,,,,,verb.creation,55,subject,The Prince,24,107,131,male,1.0,primary
+21,1,gone,12,16,2925,2929,28,5.0,7.0,2918.0,2920.0,,,,,verb.motion,53,subject,The Prince,24,107,131,male,1.0,primary
+21,5,dismayed,78,86,2991,2999,29,18.0,21.0,2931.0,2934.0,,,,,verb.emotion,56,subject,the maiden,18,53,71,female,1.0,secondary
+21,6,find,90,94,3003,3007,29,18.0,21.0,2931.0,2934.0,,,,,verb.cognition,57,subject,the maiden,18,53,71,female,1.0,secondary
+21,8,lost,115,119,3028,3032,29,100.0,110.0,3013.0,3023.0,,,,,verb.possession,54,subject,the maiden,18,53,71,female,1.0,secondary
+22,0,beat,10,14,3063,3067,29,0.0,9.0,3053.0,3062.0,,,,,verb.motion,58,subject,the maiden,18,53,71,female,1.0,secondary
+22,1,wept,28,32,3081,3085,29,24.0,27.0,3077.0,3080.0,,,,,verb.body,60,subject,the maiden,18,53,71,female,1.0,secondary
+22,2,remembered,51,61,3104,3114,29,47.0,50.0,3100.0,3103.0,,,,,verb.cognition,59,subject,the maiden,18,53,71,female,1.0,secondary
+22,3,knew,90,94,3143,3147,29,47.0,50.0,3100.0,3103.0,,,,,verb.cognition,61,subject,the maiden,18,53,71,female,1.0,secondary
+23,0,returned,14,22,3204,3212,9,0.0,13.0,3190.0,3203.0,,,,,verb.motion,62,subject,The old woman,13,24,37,female,1.0,tertiary
+23,1,knew,40,44,3230,3234,9,0.0,13.0,3190.0,3203.0,,,,,verb.cognition,63,subject,The old woman,13,24,37,female,1.0,tertiary
+24,1,told,28,32,3321,3325,9,0.0,3.0,3293.0,3296.0,,,,,verb.communication,64,subject,The old woman,13,24,37,female,1.0,tertiary
+25,1,rest,21,25,3426,3430,29,0.0,10.0,3405.0,3415.0,,,,,verb.body,65,subject,the maiden,18,53,71,female,1.0,secondary
+26,1,bear,18,22,3471,3475,29,8.0,11.0,3461.0,3464.0,26.0,35.0,3479.0,3488.0,verb.consumption,66,subject,the maiden,18,53,71,female,1.0,secondary
+26,2,resolved,41,49,3494,3502,29,8.0,11.0,3461.0,3464.0,,,,,verb.cognition,68,subject,the maiden,18,53,71,female,1.0,secondary
+27,1,learned,19,26,3552,3559,29,11.0,14.0,3544.0,3547.0,,,,,verb.cognition,67,subject,the maiden,18,53,71,female,1.0,secondary
+27,2,understand,30,40,3563,3573,29,11.0,14.0,3544.0,3547.0,,,,,verb.cognition,69,subject,the maiden,18,53,71,female,1.0,secondary
+27,6,cried,156,161,3689,3694,29,152.0,155.0,3685.0,3688.0,,,,,verb.communication,71,subject,the maiden,18,53,71,female,1.0,secondary
+27,8,help,250,254,3783,3787,29,246.0,249.0,3779.0,3782.0,,,,,verb.social,72,subject,the maiden,18,53,71,female,1.0,secondary
+28,1,help,11,15,3804,3808,29,9.0,10.0,3802.0,3803.0,,,,,verb.social,73,subject,the maiden,18,53,71,female,1.0,secondary
+30,0,answered,4,12,3836,3844,29,0.0,3.0,3832.0,3835.0,,,,,verb.communication,74,subject,the maiden,18,53,71,female,1.0,secondary
+32,0,told,9,13,4010,4014,29,5.0,8.0,4006.0,4009.0,,,,,verb.communication,78,subject,the maiden,18,53,71,female,1.0,secondary
+32,2,lost,43,47,4044,4048,29,28.0,38.0,4029.0,4039.0,,,,,verb.possession,77,subject,the maiden,18,53,71,female,1.0,secondary
+32,4,feared,114,120,4115,4121,9,110.0,113.0,4111.0,4114.0,,,,,verb.cognition,79,subject,The old woman,13,24,37,female,1.0,tertiary
+34,1,worked,29,35,4258,4264,29,0.0,10.0,4229.0,4239.0,137.0,146.0,4366.0,4375.0,verb.social,83,subject,the maiden,18,53,71,female,1.0,secondary
+34,4,spun,94,98,4323,4327,29,63.0,71.0,4292.0,4300.0,,,,,verb.contact,82,subject,the maiden,18,53,71,female,1.0,secondary
+34,4,spun,94,98,4323,4327,55,63.0,71.0,4292.0,4300.0,,,,,verb.contact,82,subject,the maiden's elder sisters,1,0,1,female,1.0,tertiary
+34,6,let,124,127,4353,4356,9,104.0,117.0,4333.0,4346.0,137.0,146.0,4366.0,4375.0,verb.emotion,85,subject,The old woman,13,24,37,female,1.0,tertiary
+34,7,spin,132,136,4361,4365,29,128.0,131.0,4357.0,4360.0,,,,,verb.motion,84,subject,the maiden,18,53,71,female,1.0,secondary
+35,0,heard,19,24,4396,4401,29,15.0,18.0,4392.0,4395.0,,,,,verb.perception,86,subject,the maiden,18,53,71,female,1.0,secondary
+35,1,hastened,82,90,4459,4467,29,15.0,18.0,4392.0,4395.0,99.0,117.0,4476.0,4494.0,verb.motion,89,subject,the maiden,18,53,71,female,1.0,secondary
+36,2,understood,88,98,4584,4594,57,42.0,82.0,4538.0,4578.0,,,,,verb.cognition,87,subject,a wind wizard,1,0,1,unknown,0.0,tertiary
+36,2,understood,88,98,4584,4594,58,42.0,82.0,4538.0,4578.0,,,,,verb.cognition,87,subject,a wind wizard 's son,1,2,3,male,1.0,tertiary
+36,4,entrusted,138,147,4634,4643,58,124.0,130.0,4620.0,4626.0,,,,,verb.communication,90,subject,a wind wizard 's son,1,2,3,male,1.0,tertiary
+37,0,heard,16,21,4673,4678,28,5.0,15.0,4662.0,4672.0,,,,,verb.perception,91,subject,The Prince,24,107,131,male,1.0,primary
+37,3,free,90,94,4747,4751,28,26.0,28.0,4683.0,4685.0,,,,,verb.social,92,subject,The Prince,24,107,131,male,1.0,primary
+38,0,said,8,12,4772,4776,28,5.0,7.0,4769.0,4771.0,,,,,verb.communication,93,subject,The Prince,24,107,131,male,1.0,primary
+38,6,come,149,153,4913,4917,28,147.0,148.0,4911.0,4912.0,,,,,verb.motion,96,subject,The Prince,24,107,131,male,1.0,primary
+38,7,fetch,158,163,4922,4927,28,147.0,148.0,4911.0,4912.0,168.0,172.0,4932.0,4936.0,verb.contact,98,subject,The Prince,24,107,131,male,1.0,primary
+39,0,did,22,25,4961,4964,63,0.0,21.0,4939.0,4960.0,,,,,verb.social,97,subject,The wind wizard,3,0,3,unknown,0.0,tertiary
+39,0,did,22,25,4961,4964,64,0.0,21.0,4939.0,4960.0,,,,,verb.social,97,subject,the wind wizard 's son,3,0,3,unknown,0.0,tertiary
+40,0,thanked,11,18,5055,5062,29,0.0,10.0,5044.0,5054.0,28.0,36.0,5072.0,5080.0,verb.communication,99,subject,the maiden,18,53,71,female,1.0,secondary
+40,2,telling,52,59,5096,5103,29,0.0,10.0,5044.0,5054.0,,,,,verb.communication,101,subject,the maiden,18,53,71,female,1.0,secondary
+40,4,heard,80,85,5124,5129,29,67.0,71.0,5111.0,5115.0,,,,,verb.perception,100,subject,the maiden,18,53,71,female,1.0,secondary
+41,1,became,33,39,5164,5170,29,29.0,32.0,5160.0,5163.0,54.0,123.0,5185.0,5254.0,verb.change,103,subject,the maiden,18,53,71,female,1.0,secondary
+41,2,feared,62,68,5193,5199,29,58.0,61.0,5189.0,5192.0,,,,,verb.emotion,102,subject,the maiden,18,53,71,female,1.0,secondary
+42,0,crept,18,23,5274,5279,29,14.0,17.0,5270.0,5273.0,,,,,verb.motion,104,subject,the maiden,18,53,71,female,1.0,secondary
+43,0,heard,14,19,5378,5383,29,10.0,13.0,5374.0,5377.0,,,,,verb.perception,105,subject,the maiden,18,53,71,female,1.0,secondary
+43,1,appeared,74,82,5438,5446,73,58.0,73.0,5422.0,5437.0,,,,,verb.change,106,subject,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+43,2,led,84,87,5448,5451,73,58.0,73.0,5422.0,5437.0,,,,,verb.motion,108,subject,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+43,4,marked,121,127,5485,5491,28,91.0,101.0,5455.0,5465.0,142.0,178.0,5506.0,5542.0,verb.contact,107,subject,The Prince,24,107,131,male,1.0,primary
+44,0,saw,8,11,5552,5555,28,5.0,7.0,5549.0,5551.0,,,,,verb.perception,109,subject,The Prince,24,107,131,male,1.0,primary
+44,1,sprang,26,32,5570,5576,28,23.0,25.0,5567.0,5569.0,,,,,verb.motion,110,subject,The Prince,24,107,131,male,1.0,primary
+45,1,had,37,40,5700,5703,73,32.0,36.0,5695.0,5699.0,,,,,verb.perception,112,subject,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+46,4,saying,114,120,5860,5866,73,99.0,103.0,5845.0,5849.0,,,,,verb.communication,113,subject,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+46,6,listening,141,150,5887,5896,29,125.0,135.0,5871.0,5881.0,,,,,verb.perception,115,subject,the maiden,18,53,71,female,1.0,secondary
+46,10,spared,173,179,5919,5925,73,152.0,156.0,5898.0,5902.0,,,,,verb.perception,117,subject,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+46,12,thinking,207,215,5953,5961,73,197.0,201.0,5943.0,5947.0,,,,,verb.cognition,116,subject,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+47,1,come,45,49,6097,6101,80,19.0,36.0,6071.0,6088.0,,,,,verb.motion,118,subject,the youngest girl,1,1,2,female,1.0,tertiary
+47,2,asked,77,82,6129,6134,9,63.0,76.0,6115.0,6128.0,,,,,verb.communication,119,subject,The old woman,13,24,37,female,1.0,tertiary
+48,0,pretended,12,21,6162,6171,82,0.0,11.0,6150.0,6161.0,,,,,verb.perception,120,subject,The sisters,1,0,1,female,1.0,tertiary
+48,1,know,29,33,6179,6183,82,0.0,11.0,6150.0,6161.0,,,,,verb.cognition,121,subject,The sisters,1,0,1,female,1.0,tertiary
+48,2,guessed,60,67,6210,6217,9,39.0,52.0,6189.0,6202.0,,,,,verb.cognition,122,subject,The old woman,13,24,37,female,1.0,tertiary
+48,7,punish,144,150,6294,6300,9,39.0,52.0,6189.0,6202.0,,,,,verb.social,124,subject,The old woman,13,24,37,female,1.0,tertiary
+49,0,collected,17,26,6333,6342,9,13.0,16.0,6329.0,6332.0,,,,,verb.possession,123,subject,The old woman,13,24,37,female,1.0,tertiary
+49,1,added,75,80,6391,6396,9,13.0,16.0,6329.0,6332.0,,,,,verb.change,126,subject,The old woman,13,24,37,female,1.0,tertiary
+49,2,bewitched,108,117,6424,6433,9,81.0,90.0,6397.0,6406.0,,,,,verb.contact,125,subject,The old woman,13,24,37,female,1.0,tertiary
+50,1,sinned,29,35,6611,6617,29,21.0,24.0,6603.0,6606.0,,,,,verb.social,128,subject,the maiden,18,53,71,female,1.0,secondary
+53,0,came,33,37,6751,6755,28,10.0,32.0,6728.0,6750.0,,,,,verb.motion,132,subject,The Prince,24,107,131,male,1.0,primary
+53,0,came,33,37,6751,6755,87,10.0,32.0,6728.0,6750.0,,,,,verb.motion,132,subject,The Prince's men,2,0,2,male,1.0,tertiary
+53,3,cross,111,116,6829,6834,89,76.0,84.0,6794.0,6802.0,,,,,verb.motion,135,subject,one rider,1,0,1,unknown,0.0,tertiary
+54,1,riding,50,56,6896,6902,29,0.0,9.0,6846.0,6855.0,,,,,verb.motion,134,subject,the maiden,18,53,71,female,1.0,secondary
+54,1,riding,50,56,6896,6902,28,0.0,9.0,6846.0,6855.0,,,,,verb.motion,134,subject,The Prince,24,107,131,male,1.0,primary
+54,3,reached,66,73,6912,6919,29,0.0,56.0,6846.0,6902.0,85.0,112.0,6931.0,6958.0,verb.motion,136,subject,the maiden,18,53,71,female,1.0,secondary
+54,3,reached,66,73,6912,6919,28,0.0,56.0,6846.0,6902.0,85.0,112.0,6931.0,6958.0,verb.motion,136,subject,The Prince,24,107,131,male,1.0,primary
+56,0,tried,11,16,7091,7096,28,0.0,10.0,7080.0,7090.0,,,,,verb.social,138,subject,The Prince,24,107,131,male,1.0,primary
+56,1,jump,20,24,7100,7104,28,0.0,10.0,7080.0,7090.0,,,,,verb.motion,139,subject,The Prince,24,107,131,male,1.0,primary
+56,2,held,51,55,7131,7135,28,43.0,50.0,7123.0,7130.0,,,,,verb.contact,140,subject,The Prince,24,107,131,male,1.0,primary
+56,2,held,51,55,7131,7135,87,43.0,50.0,7123.0,7130.0,,,,,verb.contact,140,subject,The Prince's men,2,0,2,male,1.0,tertiary
+56,4,shut,133,137,7213,7217,28,130.0,132.0,7210.0,7212.0,149.0,168.0,7229.0,7248.0,verb.contact,142,subject,The Prince,24,107,131,male,1.0,primary
+56,6,eat,188,191,7268,7271,28,130.0,132.0,7210.0,7212.0,,,,,verb.consumption,143,subject,The Prince,24,107,131,male,1.0,primary
+56,7,drink,196,201,7276,7281,28,130.0,132.0,7210.0,7212.0,,,,,verb.consumption,144,subject,The Prince,24,107,131,male,1.0,primary
+57,0,became,11,17,7318,7324,28,8.0,10.0,7315.0,7317.0,,,,,verb.change,145,subject,The Prince,24,107,131,male,1.0,primary
+57,3,caused,80,86,7387,7393,35,71.0,79.0,7378.0,7386.0,,,,,verb.creation,146,subject,the king,7,19,26,male,1.0,tertiary
+57,5,summoned,124,132,7431,7439,99,87.0,117.0,7394.0,7424.0,,,,,verb.communication,147,subject,the king's the wizards of his country,1,0,1,unknown,0.0,tertiary
+57,5,summoned,124,132,7431,7439,35,87.0,117.0,7394.0,7424.0,,,,,verb.communication,147,subject,the king,7,19,26,male,1.0,tertiary
+59,0,said,30,34,7496,7500,63,8.0,29.0,7474.0,7495.0,,,,,verb.communication,150,subject,The wind wizard,3,0,3,unknown,0.0,tertiary
+59,0,said,30,34,7496,7500,64,8.0,29.0,7474.0,7495.0,,,,,verb.communication,150,subject,the wind wizard 's son,3,0,3,unknown,0.0,tertiary
+59,2,knows,89,94,7555,7560,105,86.0,88.0,7552.0,7554.0,,,,,verb.cognition,149,subject,The old wizard,2,2,4,male,1.0,tertiary
+60,1,sent,24,28,7642,7646,104,0.0,11.0,7618.0,7629.0,,,,,verb.motion,151,subject,A messenger,1,0,1,unknown,0.0,tertiary
+60,2,arrived,81,88,7699,7706,105,58.0,80.0,7676.0,7698.0,,,,,verb.motion,152,subject,The old wizard,2,2,4,male,1.0,tertiary
+62,2,grieve,23,29,7885,7891,197,19.0,22.0,7881.0,7884.0,,,,,verb.emotion,155,subject,the king's son,1,4,5,male,1.0,tertiary
+64,0,made,14,18,7983,7987,35,5.0,13.0,7974.0,7982.0,,,,,verb.social,157,subject,the king,7,19,26,male,1.0,tertiary
+64,2,recovered,66,75,8035,8044,108,53.0,55.0,8022.0,8024.0,,,,,verb.body,158,subject,the king's son,1,2,3,male,1.0,tertiary
+64,3,told,80,84,8049,8053,108,53.0,55.0,8022.0,8024.0,,,,,verb.communication,159,subject,the king's son,1,2,3,male,1.0,tertiary
+65,2,take,41,45,8111,8115,29,1.0,18.0,8071.0,8088.0,,,,,verb.social,162,subject,the maiden,18,53,71,female,1.0,secondary
+66,0,said,16,20,8147,8151,28,5.0,15.0,8136.0,8146.0,,,,,verb.communication,164,subject,The Prince,24,107,131,male,1.0,primary
+66,2,love,36,40,8167,8171,28,21.0,23.0,8152.0,8154.0,,,,,verb.emotion,163,subject,The Prince,24,107,131,male,1.0,primary
+67,0,came,20,24,8201,8205,35,17.0,19.0,8198.0,8200.0,,,,,verb.motion,166,subject,the king,7,19,26,male,1.0,tertiary
+67,1,met,68,71,8249,8252,35,56.0,67.0,8237.0,8248.0,,,,,verb.perception,165,subject,the king,7,19,26,male,1.0,tertiary
+67,1,met,68,71,8249,8252,198,56.0,67.0,8237.0,8248.0,,,,,verb.perception,165,subject,the king's son's beloved,2,2,4,female,1.0,tertiary
+68,0,recalled,6,14,8270,8278,35,3.0,5.0,8267.0,8269.0,,,,,verb.cognition,168,subject,the king,7,19,26,male,1.0,tertiary
+68,1,wept,33,37,8297,8301,35,30.0,32.0,8294.0,8296.0,,,,,verb.body,167,subject,the king,7,19,26,male,1.0,tertiary
+68,4,given,63,68,8327,8332,35,30.0,32.0,8294.0,8296.0,,,,,verb.consumption,169,subject,the king,7,19,26,male,1.0,tertiary
+68,6,have,89,93,8353,8357,35,69.0,85.0,8333.0,8349.0,,,,,verb.change,172,subject,the king,7,19,26,male,1.0,tertiary
+69,0,thought,29,36,8408,8415,35,26.0,28.0,8405.0,8407.0,,,,,verb.cognition,171,subject,the king,7,19,26,male,1.0,tertiary
+69,1,heard,40,45,8419,8424,35,37.0,39.0,8416.0,8418.0,,,,,verb.perception,170,subject,the king,7,19,26,male,1.0,tertiary
+69,2,looked,67,73,8446,8452,35,37.0,39.0,8416.0,8418.0,,,,,verb.perception,173,subject,the king,7,19,26,male,1.0,tertiary
+69,4,see,91,94,8470,8473,35,37.0,39.0,8416.0,8418.0,,,,,verb.perception,174,subject,the king,7,19,26,male,1.0,tertiary
+70,0,heard,8,13,8490,8495,35,5.0,7.0,8487.0,8489.0,24.0,29.0,8506.0,8511.0,verb.perception,175,subject,the king,7,19,26,male,1.0,tertiary
+71,4,lie,41,44,8574,8577,35,34.0,35.0,8567.0,8568.0,54.0,58.0,8587.0,8591.0,verb.contact,177,subject,the king,7,19,26,male,1.0,tertiary
+73,2,sprang,27,33,8690,8696,35,0.0,2.0,8663.0,8665.0,,,,,verb.motion,178,subject,the king,7,19,26,male,1.0,tertiary
+73,3,looked,54,60,8717,8723,35,0.0,2.0,8663.0,8665.0,,,,,verb.perception,179,subject,the king,7,19,26,male,1.0,tertiary
+73,4,see,75,78,8738,8741,35,0.0,2.0,8663.0,8665.0,,,,,verb.communication,180,subject,the king,7,19,26,male,1.0,tertiary
+75,0,noticed,8,15,8812,8819,35,5.0,7.0,8809.0,8811.0,,,,,verb.perception,181,subject,the king,7,19,26,male,1.0,tertiary
+76,3,hoping,59,65,8969,8975,35,48.0,50.0,8958.0,8960.0,,,,,verb.emotion,182,subject,the king,7,19,26,male,1.0,tertiary
+76,4,hear,69,73,8979,8983,35,48.0,50.0,8958.0,8960.0,,,,,verb.perception,183,subject,the king,7,19,26,male,1.0,tertiary
+80,0,remembered,20,30,9174,9184,28,0.0,10.0,9154.0,9164.0,,,,,verb.cognition,184,subject,The Prince,24,107,131,male,1.0,primary
+80,1,said,54,58,9208,9212,28,0.0,10.0,9154.0,9164.0,,,,,verb.communication,185,subject,The Prince,24,107,131,male,1.0,primary
+80,2,ride,77,81,9231,9235,28,75.0,76.0,9229.0,9230.0,,,,,verb.motion,186,subject,The Prince,24,107,131,male,1.0,primary
+80,4,explain,106,113,9260,9267,122,95.0,99.0,9249.0,9253.0,,,,,verb.communication,188,subject,the two maidens,1,5,6,female,1.0,tertiary
+81,0,rode,11,15,9292,9296,28,0.0,2.0,9281.0,9283.0,,,,,verb.motion,187,subject,The Prince,24,107,131,male,1.0,primary
+81,1,found,32,37,9313,9318,28,0.0,2.0,9281.0,9283.0,54.0,69.0,9335.0,9350.0,verb.possession,189,subject,The Prince,24,107,131,male,1.0,primary
+82,0,told,3,7,9355,9359,28,0.0,2.0,9352.0,9354.0,,,,,verb.communication,191,subject,The Prince,24,107,131,male,1.0,primary
+82,4,heard,82,87,9434,9439,28,69.0,71.0,9421.0,9423.0,,,,,verb.perception,192,subject,The Prince,24,107,131,male,1.0,primary
+82,6,see,118,121,9470,9473,28,69.0,71.0,9421.0,9423.0,,,,,verb.perception,193,subject,The Prince,24,107,131,male,1.0,primary
+83,0,said,5,9,9490,9494,122,0.0,4.0,9485.0,9489.0,,,,,verb.communication,195,subject,the two maidens,1,5,6,female,1.0,tertiary
+83,4,transformed,98,109,9583,9594,122,46.0,56.0,9531.0,9541.0,,,,,verb.change,194,subject,the two maidens,1,5,6,female,1.0,tertiary
+83,4,transformed,98,109,9583,9594,123,46.0,56.0,9531.0,9541.0,,,,,verb.change,194,subject,the two maidens's sister,2,0,2,female,1.0,tertiary
+84,1,made,34,38,9648,9652,126,23.0,33.0,9637.0,9647.0,,,,,verb.creation,196,subject,the eldest,1,1,2,female,1.0,tertiary
+84,2,gave,72,76,9686,9690,126,39.0,40.0,9653.0,9654.0,,,,,verb.possession,197,subject,the eldest,1,1,2,female,1.0,tertiary
+85,0,dreamed,16,23,9719,9726,28,13.0,15.0,9716.0,9718.0,,,,,verb.creation,198,subject,The Prince,24,107,131,male,1.0,primary
+85,4,understand,67,77,9770,9780,28,29.0,31.0,9732.0,9734.0,,,,,verb.cognition,199,subject,The Prince,24,107,131,male,1.0,primary
+86,0,told,16,20,9836,9840,28,13.0,15.0,9833.0,9835.0,,,,,verb.communication,200,subject,The Prince,24,107,131,male,1.0,primary
+86,1,said,51,55,9871,9875,23,46.0,50.0,9866.0,9870.0,,,,,verb.communication,201,subject,the maidens,3,8,11,female,1.0,tertiary
+86,4,advised,97,104,9917,9924,23,46.0,50.0,9866.0,9870.0,,,,,verb.communication,202,subject,the maidens,3,8,11,female,1.0,tertiary
+86,5,listen,112,118,9932,9938,28,105.0,108.0,9925.0,9928.0,,,,,verb.perception,203,subject,The Prince,24,107,131,male,1.0,primary
+86,8,tell,162,166,9982,9986,23,146.0,150.0,9966.0,9970.0,,,,,verb.communication,205,subject,the maidens,3,8,11,female,1.0,tertiary
+86,10,recovered,188,197,10008,10017,28,181.0,183.0,10001.0,10003.0,,,,,verb.possession,206,subject,The Prince,24,107,131,male,1.0,primary
+86,11,begged,213,219,10033,10039,23,208.0,212.0,10028.0,10032.0,,,,,verb.communication,207,subject,the maidens,3,8,11,female,1.0,tertiary
+86,12,return,227,233,10047,10053,28,220.0,223.0,10040.0,10043.0,,,,,verb.motion,208,subject,The Prince,24,107,131,male,1.0,primary
+86,13,deliver,238,245,10058,10065,28,220.0,223.0,10040.0,10043.0,,,,,verb.contact,210,subject,The Prince,24,107,131,male,1.0,primary
+87,4,riding,63,69,10163,10169,28,56.0,58.0,10156.0,10158.0,,,,,verb.motion,209,subject,The Prince,24,107,131,male,1.0,primary
+87,6,understand,108,118,10208,10218,28,89.0,91.0,10189.0,10191.0,,,,,verb.cognition,211,subject,The Prince,24,107,131,male,1.0,primary
+88,0,heard,3,8,10247,10252,28,0.0,2.0,10244.0,10246.0,,,,,verb.perception,212,subject,The Prince,24,107,131,male,1.0,primary
+89,1,understand,12,22,10312,10322,205,0.0,4.0,10300.0,10304.0,,,,,verb.cognition,214,subject,men,2,1,3,male,1.0,tertiary
+90,2,transformed,44,55,10387,10398,29,29.0,39.0,10372.0,10382.0,,,,,verb.change,213,subject,the maiden,18,53,71,female,1.0,secondary
+90,3,sings,91,96,10434,10439,29,87.0,90.0,10430.0,10433.0,,,,,verb.creation,216,subject,the maiden,18,53,71,female,1.0,secondary
+90,6,hear,145,149,10488,10492,207,111.0,139.0,10454.0,10482.0,,,,,verb.perception,217,subject,anyone going over the bridge,1,0,1,unknown,0.0,tertiary
+91,0,rode,22,26,10549,10553,209,0.0,21.0,10527.0,10548.0,35.0,49.0,10562.0,10576.0,verb.motion,218,subject,the maiden's former bridegroom,1,2,3,male,1.0,tertiary
+91,0,rode,22,26,10549,10553,29,0.0,21.0,10527.0,10548.0,35.0,49.0,10562.0,10576.0,verb.motion,218,subject,the maiden,18,53,71,female,1.0,secondary
+91,1,heard,54,59,10581,10586,209,0.0,21.0,10527.0,10548.0,,,,,verb.perception,220,subject,the maiden's former bridegroom,1,2,3,male,1.0,tertiary
+91,1,heard,54,59,10581,10586,29,0.0,21.0,10527.0,10548.0,,,,,verb.perception,220,subject,the maiden,18,53,71,female,1.0,secondary
+92,1,blame,14,19,10647,10652,209,5.0,7.0,10638.0,10640.0,,,,,verb.communication,221,subject,the maiden's former bridegroom,1,2,3,male,1.0,tertiary
+92,2,added,46,51,10679,10684,209,1.0,43.0,10634.0,10676.0,,,,,verb.communication,222,subject,the maiden's former bridegroom,1,2,3,male,1.0,tertiary
+92,2,added,46,51,10679,10684,29,1.0,43.0,10634.0,10676.0,,,,,verb.communication,222,subject,the maiden,18,53,71,female,1.0,secondary
+93,0,heeds,7,12,10704,10709,209,4.0,6.0,10701.0,10703.0,,,,,verb.emotion,223,subject,the maiden's former bridegroom,1,2,3,male,1.0,tertiary
+93,2,remain,44,50,10741,10747,29,35.0,38.0,10732.0,10735.0,,,,,verb.change,225,subject,the maiden,18,53,71,female,1.0,secondary
+94,1,delivered,14,23,10781,10790,29,0.0,3.0,10767.0,10770.0,,,,,verb.contact,224,subject,the maiden,18,53,71,female,1.0,secondary
+95,1,wondered,31,39,10883,10891,28,20.0,30.0,10872.0,10882.0,,,,,verb.communication,227,subject,The Prince,24,107,131,male,1.0,primary
+95,3,get,53,56,10905,10908,28,44.0,46.0,10896.0,10898.0,,,,,verb.change,229,subject,The Prince,24,107,131,male,1.0,primary
+96,0,heard,3,8,10943,10948,28,0.0,2.0,10940.0,10942.0,,,,,verb.perception,228,subject,The Prince,24,107,131,male,1.0,primary
+96,1,say,21,24,10961,10964,135,9.0,20.0,10949.0,10960.0,,,,,verb.communication,230,subject,one swallow,1,0,1,unknown,0.0,tertiary
+100,1,do,10,12,11091,11093,213,6.0,9.0,11087.0,11090.0,,,,,verb.social,232,subject,kind friends,1,1,2,unknown,0.0,tertiary
+101,1,said,28,32,11141,11145,28,25.0,27.0,11138.0,11140.0,,,,,verb.communication,233,subject,The Prince,24,107,131,male,1.0,primary
+101,5,restore,117,124,11230,11237,28,111.0,112.0,11224.0,11225.0,,,,,verb.social,236,subject,The Prince,24,107,131,male,1.0,primary
+101,6,transformed,134,145,11247,11258,215,125.0,133.0,11238.0,11246.0,,,,,verb.change,235,subject,a maiden,3,1,4,female,1.0,tertiary
+103,1,hoping,17,23,11370,11376,28,6.0,8.0,11359.0,11361.0,,,,,verb.emotion,237,subject,The Prince,24,107,131,male,1.0,primary
+103,2,hear,27,31,11380,11384,28,6.0,8.0,11359.0,11361.0,,,,,verb.perception,238,subject,The Prince,24,107,131,male,1.0,primary
+104,0,heard,7,12,11402,11407,28,4.0,6.0,11399.0,11401.0,,,,,verb.perception,239,subject,The Prince,24,107,131,male,1.0,primary
+105,1,sitting,22,29,11526,11533,28,15.0,17.0,11519.0,11521.0,45.0,142.0,11549.0,11646.0,verb.contact,240,subject,The Prince,24,107,131,male,1.0,primary
+105,2,thinking,45,53,11549,11557,28,15.0,17.0,11519.0,11521.0,,,,,verb.cognition,242,subject,The Prince,24,107,131,male,1.0,primary
+105,5,forgotten,82,91,11586,11595,141,59.0,71.0,11563.0,11575.0,105.0,142.0,11609.0,11646.0,verb.cognition,241,subject,the swallows,1,0,1,unknown,0.0,tertiary
+105,6,saw,113,116,11617,11620,28,110.0,112.0,11614.0,11616.0,,,,,verb.perception,243,subject,The Prince,24,107,131,male,1.0,primary
+106,3,bids,124,128,11772,11776,216,87.0,108.0,11735.0,11756.0,,,,,verb.communication,245,subject,The wizard of,1,0,1,unknown,0.0,tertiary
+106,4,say,132,135,11780,11783,216,87.0,131.0,11735.0,11779.0,,,,,verb.communication,248,subject,The wizard of,1,0,1,unknown,0.0,tertiary
+106,4,say,132,135,11780,11783,28,87.0,131.0,11735.0,11779.0,,,,,verb.communication,248,subject,The Prince,24,107,131,male,1.0,primary
+106,6,free,149,153,11797,11801,28,141.0,144.0,11789.0,11792.0,165.0,169.0,11813.0,11817.0,verb.social,247,subject,The Prince,24,107,131,male,1.0,primary
+110,2,come,77,81,12215,12219,28,73.0,76.0,12211.0,12214.0,105.0,121.0,12243.0,12259.0,verb.motion,253,subject,The Prince,24,107,131,male,1.0,primary
+112,4,restored,100,108,12393,12401,28,83.0,91.0,12376.0,12384.0,,,,,verb.possession,256,subject,The Prince,24,107,131,male,1.0,primary
+113,1,let,35,38,12457,12460,28,24.0,34.0,12446.0,12456.0,,,,,verb.social,255,subject,The Prince,24,107,131,male,1.0,primary
+113,4,attempt,83,90,12505,12512,28,61.0,63.0,12483.0,12485.0,,,,,verb.social,257,subject,The Prince,24,107,131,male,1.0,primary
+115,1,told,23,27,12605,12609,105,0.0,14.0,12582.0,12596.0,,,,,verb.communication,260,subject,The old wizard,2,2,4,male,1.0,tertiary
+118,0,mounted,6,13,12805,12812,28,3.0,5.0,12802.0,12804.0,,,,,verb.motion,266,subject,The Prince,24,107,131,male,1.0,primary
+118,1,went,28,32,12827,12831,28,3.0,5.0,12802.0,12804.0,,,,,verb.motion,268,subject,The Prince,24,107,131,male,1.0,primary
+119,0,heard,9,14,12856,12861,28,6.0,8.0,12853.0,12855.0,,,,,verb.perception,267,subject,The Prince,24,107,131,male,1.0,primary
+119,4,plunged,141,148,12988,12995,228,116.0,138.0,12963.0,12985.0,,,,,verb.contact,271,subject,a crab,2,0,2,unknown,0.0,tertiary
+119,4,plunged,141,148,12988,12995,183,116.0,138.0,12963.0,12985.0,,,,,verb.contact,271,subject,a man,6,0,6,male,1.0,tertiary
+121,0,swam,3,7,13085,13089,28,0.0,2.0,13082.0,13084.0,,,,,verb.motion,272,subject,The Prince,24,107,131,male,1.0,primary
+122,0,grasped,8,15,13228,13235,28,0.0,2.0,13220.0,13222.0,46.0,84.0,13266.0,13304.0,verb.contact,274,subject,The Prince,24,107,131,male,1.0,primary
+122,1,rose,25,29,13245,13249,28,0.0,2.0,13220.0,13222.0,46.0,84.0,13266.0,13304.0,verb.motion,275,subject,The Prince,24,107,131,male,1.0,primary
+122,2,letting,46,53,13266,13273,28,0.0,2.0,13220.0,13222.0,,,,,verb.social,276,subject,The Prince,24,107,131,male,1.0,primary
+123,2,see,63,66,13369,13372,28,60.0,62.0,13366.0,13368.0,,,,,verb.perception,278,subject,The Prince,24,107,131,male,1.0,primary
+124,0,saw,11,14,13402,13405,28,8.0,10.0,13399.0,13401.0,,,,,verb.perception,277,subject,The Prince,24,107,131,male,1.0,primary
+125,0,stopped,8,15,13448,13455,28,5.0,7.0,13445.0,13447.0,,,,,verb.motion,279,subject,The Prince,24,107,131,male,1.0,primary
+125,1,said,20,24,13460,13464,28,5.0,7.0,13445.0,13447.0,,,,,verb.communication,280,subject,The Prince,24,107,131,male,1.0,primary
+125,2,found,104,109,13544,13549,28,89.0,103.0,13529.0,13543.0,,,,,verb.perception,281,subject,The Prince,24,107,131,male,1.0,primary
+126,1,wore,50,54,13660,13664,29,0.0,3.0,13610.0,13613.0,,,,,verb.body,282,subject,the maiden,18,53,71,female,1.0,secondary
+127,0,thanked,4,11,13724,13731,29,0.0,3.0,13720.0,13723.0,,,,,verb.communication,284,subject,the maiden,18,53,71,female,1.0,secondary
+127,2,freed,27,32,13747,13752,28,12.0,15.0,13732.0,13735.0,,,,,verb.social,283,subject,The Prince,24,107,131,male,1.0,primary
+128,2,left,46,50,13871,13875,28,39.0,41.0,13864.0,13866.0,,,,,verb.motion,287,subject,The Prince,24,107,131,male,1.0,primary
+128,6,thought,111,118,13936,13943,28,100.0,110.0,13925.0,13935.0,,,,,verb.cognition,289,subject,The Prince,24,107,131,male,1.0,primary
+131,1,weeping,35,42,14269,14276,35,0.0,18.0,14234.0,14252.0,,,,,verb.communication,291,subject,the king,7,19,26,male,1.0,tertiary
+131,1,weeping,35,42,14269,14276,163,0.0,18.0,14234.0,14252.0,,,,,verb.communication,291,subject,Queen,1,0,1,female,1.0,tertiary
+132,1,entered,57,64,14386,14393,28,46.0,56.0,14375.0,14385.0,,,,,verb.motion,293,subject,The Prince,24,107,131,male,1.0,primary
+134,1,sitting,50,57,14600,14607,43,20.0,44.0,14570.0,14594.0,73.0,97.0,14623.0,14647.0,verb.contact,295,subject,The Prince's bride,6,1,7,female,1.0,tertiary
+134,1,sitting,50,57,14600,14607,28,20.0,44.0,14570.0,14594.0,73.0,97.0,14623.0,14647.0,verb.contact,295,subject,The Prince,24,107,131,male,1.0,primary
+136,1,spin,10,14,14755,14759,232,5.0,9.0,14750.0,14754.0,25.0,33.0,14770.0,14778.0,verb.contact,298,subject,the two poor maidens who helped you in your distress,1,1,2,female,1.0,tertiary
+138,1,stole,43,48,14854,14859,9,39.0,42.0,14850.0,14853.0,,,,,verb.possession,299,subject,The old woman,13,24,37,female,1.0,tertiary
+138,4,turned,128,134,14939,14945,9,93.0,116.0,14904.0,14927.0,,,,,verb.change,302,subject,The old woman,13,24,37,female,1.0,tertiary
+140,2,forgotten,33,42,15032,15041,28,0.0,10.0,14999.0,15009.0,,,,,verb.cognition,301,subject,The Prince,24,107,131,male,1.0,primary
+141,1,dreamed,16,23,15162,15169,23,0.0,11.0,15146.0,15157.0,,,,,verb.cognition,303,subject,the maidens,3,8,11,female,1.0,tertiary
+141,3,coming,36,42,15182,15188,28,29.0,31.0,15175.0,15177.0,,,,,verb.motion,305,subject,The Prince,24,107,131,male,1.0,primary
+141,6,made,90,94,15236,15240,23,85.0,89.0,15231.0,15235.0,,,,,verb.creation,304,subject,the maidens,3,8,11,female,1.0,tertiary
+141,7,put,116,119,15262,15265,23,111.0,115.0,15257.0,15261.0,,,,,verb.contact,306,subject,the maidens,3,8,11,female,1.0,tertiary
+141,10,see,185,188,15331,15334,9,157.0,170.0,15303.0,15316.0,192.0,209.0,15338.0,15355.0,verb.perception,308,subject,The old woman,13,24,37,female,1.0,tertiary
+141,11,returned,201,209,15347,15355,9,197.0,200.0,15343.0,15346.0,,,,,verb.motion,309,subject,The old woman,13,24,37,female,1.0,tertiary
+142,1,see,8,11,15365,15368,9,0.0,3.0,15357.0,15360.0,,,,,verb.perception,310,subject,The old woman,13,24,37,female,1.0,tertiary
+142,2,thought,20,27,15377,15384,9,0.0,3.0,15357.0,15360.0,,,,,verb.cognition,312,subject,The old woman,13,24,37,female,1.0,tertiary
+142,4,ate,68,71,15425,15428,9,55.0,67.0,15412.0,15424.0,75.0,77.0,15432.0,15434.0,verb.consumption,313,subject,The old woman,13,24,37,female,1.0,tertiary
+142,5,died,90,94,15447,15451,9,55.0,67.0,15412.0,15424.0,,,,,verb.change,314,subject,The old woman,13,24,37,female,1.0,tertiary
+3,0,kept,14,18,293,297,10,19.0,28.0,298.0,307.0,29.0,96.0,308.0,375.0,verb.consumption,2,direct_object,the girls,2,6,8,female,1.0,tertiary
+3,4,given,141,146,420,425,10,147.0,151.0,426.0,430.0,,,,,verb.possession,3,direct_object,the girls,2,6,8,female,1.0,tertiary
+5,3,saw,121,124,725,728,9,125.0,155.0,729.0,759.0,,,,,verb.perception,7,direct_object,The old woman,13,24,37,female,1.0,tertiary
+5,6,tell,175,179,779,783,10,180.0,184.0,784.0,788.0,,,,,verb.communication,8,direct_object,the girls,2,6,8,female,1.0,tertiary
+6,2,gave,89,93,937,941,15,94.0,110.0,942.0,958.0,111.0,316.0,959.0,1164.0,verb.communication,9,direct_object,each maiden,1,0,1,female,1.0,tertiary
+6,4,let,166,169,1014,1017,182,170.0,186.0,1018.0,1034.0,,,,,verb.social,11,direct_object,Children,1,3,4,unknown,0.0,tertiary
+7,2,saying,43,49,1210,1216,16,50.0,63.0,1217.0,1230.0,,,,,verb.communication,14,direct_object,each other,2,0,2,unknown,0.0,tertiary
+7,2,saying,43,49,1210,1216,183,50.0,63.0,1217.0,1230.0,,,,,verb.communication,14,direct_object,a man,6,0,6,male,1.0,tertiary
+7,2,saying,43,49,1210,1216,10,50.0,63.0,1217.0,1230.0,,,,,verb.communication,14,direct_object,the girls,2,6,8,female,1.0,tertiary
+7,6,speaking,137,145,1304,1312,183,146.0,154.0,1313.0,1321.0,,,,,verb.communication,16,direct_object,a man,6,0,6,male,1.0,tertiary
+9,0,seeking,9,16,1477,1484,18,17.0,24.0,1485.0,1492.0,,,,,verb.possession,15,direct_object,a young prince,1,12,13,male,1.0,tertiary
+9,1,flung,29,34,1497,1502,18,35.0,42.0,1503.0,1510.0,62.0,97.0,1530.0,1565.0,verb.contact,17,direct_object,a young prince,1,12,13,male,1.0,tertiary
+9,2,leaving,62,69,1530,1537,18,70.0,79.0,1538.0,1547.0,,,,,verb.change,18,direct_object,a young prince,1,12,13,male,1.0,tertiary
+10,3,began,34,39,1618,1623,18,40.0,91.0,1624.0,1675.0,,,,,verb.change,21,direct_object,a young prince,1,12,13,male,1.0,tertiary
+10,5,find,61,65,1645,1649,18,66.0,73.0,1650.0,1657.0,74.0,91.0,1658.0,1675.0,verb.creation,22,direct_object,a young prince,1,12,13,male,1.0,tertiary
+11,0,perceived,11,20,1688,1697,18,21.0,66.0,1698.0,1743.0,,,,,verb.perception,23,direct_object,a young prince,1,12,13,male,1.0,tertiary
+11,2,found,71,76,1748,1753,18,77.0,107.0,1754.0,1784.0,,,,,verb.cognition,26,direct_object,a young prince,1,12,13,male,1.0,tertiary
+12,1,sitting,22,29,1808,1815,23,30.0,67.0,1816.0,1853.0,,,,,verb.contact,25,direct_object,the maidens,3,8,11,female,1.0,tertiary
+12,2,saw,69,72,1855,1858,18,73.0,88.0,1859.0,1874.0,,,,,verb.perception,29,direct_object,a young prince,1,12,13,male,1.0,tertiary
+12,5,remembered,136,146,1922,1932,9,147.0,170.0,1933.0,1956.0,,,,,verb.cognition,27,direct_object,The old woman,13,24,37,female,1.0,tertiary
+13,0,said,18,22,1975,1979,185,25.0,65.0,1982.0,2022.0,,,,,verb.communication,31,direct_object,a young prince's like him,1,0,1,unknown,0.0,tertiary
+13,0,said,18,22,1975,1979,18,25.0,65.0,1982.0,2022.0,,,,,verb.communication,31,direct_object,a young prince,1,12,13,male,1.0,tertiary
+13,0,said,18,22,1975,1979,6,25.0,65.0,1982.0,2022.0,,,,,verb.communication,31,direct_object,the youngest,2,2,4,unknown,0.0,tertiary
+13,2,seen,45,49,2002,2006,185,50.0,65.0,2007.0,2022.0,,,,,verb.perception,30,direct_object,a young prince's like him,1,0,1,unknown,0.0,tertiary
+13,2,seen,45,49,2002,2006,18,50.0,65.0,2007.0,2022.0,,,,,verb.perception,30,direct_object,a young prince,1,12,13,male,1.0,tertiary
+14,0,let,1,4,2024,2027,6,5.0,21.0,2028.0,2044.0,,,,,verb.social,34,direct_object,the youngest,2,2,4,unknown,0.0,tertiary
+15,0,entreated,5,14,2052,2061,9,15.0,18.0,2062.0,2065.0,19.0,29.0,2066.0,2076.0,verb.communication,32,direct_object,The old woman,13,24,37,female,1.0,tertiary
+15,2,seeing,36,42,2083,2089,9,43.0,208.0,2090.0,2255.0,,,,,verb.cognition,35,direct_object,The old woman,13,24,37,female,1.0,tertiary
+15,2,seeing,36,42,2083,2089,29,43.0,208.0,2090.0,2255.0,,,,,verb.cognition,35,direct_object,the maiden,18,53,71,female,1.0,secondary
+15,2,seeing,36,42,2083,2089,28,43.0,208.0,2090.0,2255.0,,,,,verb.cognition,35,direct_object,The Prince,24,107,131,male,1.0,primary
+15,4,left,63,67,2110,2114,9,68.0,71.0,2115.0,2118.0,,,,,verb.motion,36,direct_object,The old woman,13,24,37,female,1.0,tertiary
+15,6,greeted,112,119,2159,2166,29,120.0,130.0,2167.0,2177.0,,,,,verb.communication,37,direct_object,the maiden,18,53,71,female,1.0,secondary
+15,7,told,136,140,2183,2187,29,141.0,144.0,2188.0,2191.0,,,,,verb.communication,39,direct_object,the maiden,18,53,71,female,1.0,secondary
+15,7,told,136,140,2183,2187,28,141.0,144.0,2188.0,2191.0,,,,,verb.communication,39,direct_object,The Prince,24,107,131,male,1.0,primary
+15,9,lost,152,156,2199,2203,28,157.0,164.0,2204.0,2211.0,165.0,178.0,2212.0,2225.0,verb.possession,38,direct_object,The Prince,24,107,131,male,1.0,primary
+16,0,set,4,7,2261,2264,28,8.0,12.0,2265.0,2269.0,,,,,verb.creation,40,direct_object,The Prince,24,107,131,male,1.0,primary
+16,2,forgot,77,83,2334,2340,9,84.0,107.0,2341.0,2364.0,,,,,verb.cognition,41,direct_object,The old woman,13,24,37,female,1.0,tertiary
+17,0,sought,40,46,2430,2436,28,47.0,50.0,2437.0,2440.0,,,,,verb.contact,42,direct_object,The Prince,24,107,131,male,1.0,primary
+17,1,sent,92,96,2482,2486,37,97.0,111.0,2487.0,2501.0,,,,,verb.motion,43,direct_object,one of infantry,1,0,1,unknown,0.0,tertiary
+17,1,sent,92,96,2482,2486,34,97.0,111.0,2487.0,2501.0,,,,,verb.motion,43,direct_object,two messengers,1,0,1,unknown,0.0,tertiary
+17,1,sent,92,96,2482,2486,35,97.0,111.0,2487.0,2501.0,,,,,verb.motion,43,direct_object,the king,7,19,26,male,1.0,tertiary
+17,1,sent,92,96,2482,2486,28,97.0,111.0,2487.0,2501.0,,,,,verb.motion,43,direct_object,The Prince,24,107,131,male,1.0,primary
+17,2,tell,115,119,2505,2509,37,120.0,132.0,2510.0,2522.0,,,,,verb.communication,44,direct_object,one of infantry,1,0,1,unknown,0.0,tertiary
+17,2,tell,115,119,2505,2509,35,120.0,132.0,2510.0,2522.0,,,,,verb.communication,44,direct_object,the king,7,19,26,male,1.0,tertiary
+17,2,tell,115,119,2505,2509,28,120.0,132.0,2510.0,2522.0,,,,,verb.communication,44,direct_object,The Prince,24,107,131,male,1.0,primary
+17,3,ordered,162,169,2552,2559,37,170.0,211.0,2560.0,2601.0,,,,,verb.communication,45,direct_object,one of infantry,1,0,1,unknown,0.0,tertiary
+17,3,ordered,162,169,2552,2559,28,170.0,211.0,2560.0,2601.0,,,,,verb.communication,45,direct_object,The Prince,24,107,131,male,1.0,primary
+20,0,leaving,7,14,2811,2818,29,15.0,17.0,2819.0,2821.0,,,,,verb.motion,49,direct_object,the maiden,18,53,71,female,1.0,secondary
+20,0,leaving,7,14,2811,2818,43,15.0,17.0,2819.0,2821.0,,,,,verb.motion,49,direct_object,The Prince's bride,6,1,7,female,1.0,tertiary
+20,0,leaving,7,14,2811,2818,28,15.0,17.0,2819.0,2821.0,,,,,verb.motion,49,direct_object,The Prince,24,107,131,male,1.0,primary
+20,0,leaving,7,14,2811,2818,41,15.0,17.0,2819.0,2821.0,,,,,verb.motion,49,direct_object,The Prince's father,3,0,3,male,1.0,tertiary
+20,1,promised,18,26,2822,2830,29,27.0,107.0,2831.0,2911.0,,,,,verb.communication,50,direct_object,the maiden,18,53,71,female,1.0,secondary
+20,1,promised,18,26,2822,2830,43,27.0,107.0,2831.0,2911.0,,,,,verb.communication,50,direct_object,The Prince's bride,6,1,7,female,1.0,tertiary
+20,1,promised,18,26,2822,2830,28,27.0,107.0,2831.0,2911.0,,,,,verb.communication,50,direct_object,The Prince,24,107,131,male,1.0,primary
+20,1,promised,18,26,2822,2830,41,27.0,107.0,2831.0,2911.0,,,,,verb.communication,50,direct_object,The Prince's father,3,0,3,male,1.0,tertiary
+20,3,fetch,41,46,2845,2850,29,47.0,50.0,2851.0,2854.0,,,,,verb.contact,52,direct_object,the maiden,18,53,71,female,1.0,secondary
+20,3,fetch,41,46,2845,2850,43,47.0,50.0,2851.0,2854.0,,,,,verb.contact,52,direct_object,The Prince's bride,6,1,7,female,1.0,tertiary
+20,3,fetch,41,46,2845,2850,28,47.0,50.0,2851.0,2854.0,,,,,verb.contact,52,direct_object,The Prince,24,107,131,male,1.0,primary
+20,3,fetch,41,46,2845,2850,41,47.0,50.0,2851.0,2854.0,,,,,verb.contact,52,direct_object,The Prince's father,3,0,3,male,1.0,tertiary
+20,5,make,89,93,2893,2897,29,94.0,107.0,2898.0,2911.0,,,,,verb.creation,55,direct_object,the maiden,18,53,71,female,1.0,secondary
+20,5,make,89,93,2893,2897,43,94.0,107.0,2898.0,2911.0,,,,,verb.creation,55,direct_object,The Prince's bride,6,1,7,female,1.0,tertiary
+20,5,make,89,93,2893,2897,28,94.0,107.0,2898.0,2911.0,,,,,verb.creation,55,direct_object,The Prince,24,107,131,male,1.0,primary
+21,5,dismayed,78,86,2991,2999,29,87.0,138.0,3000.0,3051.0,,,,,verb.emotion,56,direct_object,the maiden,18,53,71,female,1.0,secondary
+21,6,find,90,94,3003,3007,29,95.0,138.0,3008.0,3051.0,,,,,verb.cognition,57,direct_object,the maiden,18,53,71,female,1.0,secondary
+22,2,remembered,51,61,3104,3114,9,62.0,85.0,3115.0,3138.0,,,,,verb.cognition,59,direct_object,The old woman,13,24,37,female,1.0,tertiary
+22,3,knew,90,94,3143,3147,29,95.0,135.0,3148.0,3188.0,,,,,verb.cognition,61,direct_object,the maiden,18,53,71,female,1.0,secondary
+23,1,knew,40,44,3230,3234,9,69.0,101.0,3259.0,3291.0,,,,,verb.cognition,63,direct_object,The old woman,13,24,37,female,1.0,tertiary
+24,1,told,28,32,3321,3325,9,33.0,43.0,3326.0,3336.0,,,,,verb.communication,64,direct_object,The old woman,13,24,37,female,1.0,tertiary
+24,1,told,28,32,3321,3325,29,33.0,43.0,3326.0,3336.0,,,,,verb.communication,64,direct_object,the maiden,18,53,71,female,1.0,secondary
+24,1,told,28,32,3321,3325,28,33.0,43.0,3326.0,3336.0,,,,,verb.communication,64,direct_object,The Prince,24,107,131,male,1.0,primary
+26,2,resolved,41,49,3494,3502,28,50.0,78.0,3503.0,3531.0,,,,,verb.cognition,68,direct_object,The Prince,24,107,131,male,1.0,primary
+27,4,seeing,105,111,3638,3644,29,112.0,150.0,3645.0,3683.0,,,,,verb.perception,70,direct_object,the maiden,18,53,71,female,1.0,secondary
+27,8,help,250,254,3783,3787,29,255.0,257.0,3788.0,3790.0,,,,,verb.social,72,direct_object,the maiden,18,53,71,female,1.0,secondary
+28,1,help,11,15,3804,3808,29,16.0,19.0,3809.0,3812.0,,,,,verb.social,73,direct_object,the maiden,18,53,71,female,1.0,secondary
+30,0,answered,4,12,3836,3844,29,14.0,88.0,3846.0,3920.0,,,,,verb.communication,74,direct_object,the maiden,18,53,71,female,1.0,secondary
+30,0,answered,4,12,3836,3844,187,14.0,88.0,3846.0,3920.0,,,,,verb.communication,74,direct_object,a king,1,0,1,male,1.0,tertiary
+31,1,tell,29,33,3950,3954,190,34.0,37.0,3955.0,3958.0,,,,,verb.communication,76,direct_object,the king 's son,1,1,2,male,1.0,tertiary
+31,1,tell,29,33,3950,3954,29,34.0,37.0,3955.0,3958.0,,,,,verb.communication,76,direct_object,the maiden,18,53,71,female,1.0,secondary
+31,3,befallen,66,74,3987,3995,29,75.0,77.0,3996.0,3998.0,,,,,verb.social,75,direct_object,the maiden,18,53,71,female,1.0,secondary
+32,0,told,9,13,4010,4014,9,14.0,23.0,4015.0,4024.0,,,,,verb.communication,78,direct_object,The old woman,13,24,37,female,1.0,tertiary
+32,0,told,9,13,4010,4014,29,14.0,23.0,4015.0,4024.0,,,,,verb.communication,78,direct_object,the maiden,18,53,71,female,1.0,secondary
+32,0,told,9,13,4010,4014,51,14.0,23.0,4015.0,4024.0,,,,,verb.communication,78,direct_object,the raven,1,0,1,unknown,0.0,tertiary
+33,0,promised,10,18,4153,4161,29,30.0,47.0,4173.0,4190.0,,,,,verb.communication,80,direct_object,the maiden,18,53,71,female,1.0,secondary
+33,1,do,33,35,4176,4178,29,36.0,47.0,4179.0,4190.0,,,,,verb.social,81,direct_object,the maiden,18,53,71,female,1.0,secondary
+34,1,worked,29,35,4258,4264,29,49.0,98.0,4278.0,4327.0,137.0,146.0,4366.0,4375.0,verb.social,83,direct_object,the maiden,18,53,71,female,1.0,secondary
+34,1,worked,29,35,4258,4264,55,49.0,98.0,4278.0,4327.0,137.0,146.0,4366.0,4375.0,verb.social,83,direct_object,the maiden's elder sisters,1,0,1,female,1.0,tertiary
+34,6,let,124,127,4353,4356,29,128.0,136.0,4357.0,4365.0,137.0,146.0,4366.0,4375.0,verb.emotion,85,direct_object,the maiden,18,53,71,female,1.0,secondary
+36,1,found,36,41,4532,4537,57,42.0,118.0,4538.0,4614.0,,,,,verb.possession,88,direct_object,a wind wizard,1,0,1,unknown,0.0,tertiary
+36,1,found,36,41,4532,4537,58,42.0,118.0,4538.0,4614.0,,,,,verb.possession,88,direct_object,a wind wizard 's son,1,2,3,male,1.0,tertiary
+37,3,free,90,94,4747,4751,29,95.0,105.0,4752.0,4762.0,,,,,verb.social,92,direct_object,the maiden,18,53,71,female,1.0,secondary
+38,0,said,8,12,4772,4776,29,13.0,37.0,4777.0,4801.0,,,,,verb.communication,93,direct_object,the maiden,18,53,71,female,1.0,secondary
+38,0,said,8,12,4772,4776,63,13.0,37.0,4777.0,4801.0,,,,,verb.communication,93,direct_object,The wind wizard,3,0,3,unknown,0.0,tertiary
+38,0,said,8,12,4772,4776,28,13.0,37.0,4777.0,4801.0,,,,,verb.communication,93,direct_object,The Prince,24,107,131,male,1.0,primary
+38,0,said,8,12,4772,4776,64,13.0,37.0,4777.0,4801.0,,,,,verb.communication,93,direct_object,the wind wizard 's son,3,0,3,unknown,0.0,tertiary
+38,1,beg,40,43,4804,4807,29,44.0,53.0,4808.0,4817.0,,,,,verb.communication,94,direct_object,the maiden,18,53,71,female,1.0,secondary
+38,3,tell,92,96,4856,4860,29,97.0,100.0,4861.0,4864.0,,,,,verb.communication,95,direct_object,the maiden,18,53,71,female,1.0,secondary
+38,7,fetch,158,163,4922,4927,29,164.0,167.0,4928.0,4931.0,168.0,172.0,4932.0,4936.0,verb.contact,98,direct_object,the maiden,18,53,71,female,1.0,secondary
+40,2,telling,52,59,5096,5103,29,60.0,66.0,5104.0,5110.0,,,,,verb.communication,101,direct_object,the maiden,18,53,71,female,1.0,secondary
+43,2,led,84,87,5448,5451,28,88.0,178.0,5452.0,5542.0,,,,,verb.motion,108,direct_object,The Prince,24,107,131,male,1.0,primary
+44,0,saw,8,11,5552,5555,29,12.0,47.0,5556.0,5591.0,,,,,verb.perception,109,direct_object,the maiden,18,53,71,female,1.0,secondary
+44,0,saw,8,11,5552,5555,28,12.0,47.0,5556.0,5591.0,,,,,verb.perception,109,direct_object,The Prince,24,107,131,male,1.0,primary
+44,2,lifted,49,55,5593,5599,29,56.0,59.0,5600.0,5603.0,,,,,verb.contact,111,direct_object,the maiden,18,53,71,female,1.0,secondary
+46,2,known,93,98,5839,5844,73,99.0,120.0,5845.0,5866.0,,,,,verb.cognition,114,direct_object,the armed troop,1,6,7,group/nonbinary,1.0,tertiary
+46,12,thinking,207,215,5953,5961,16,221.0,234.0,5967.0,5980.0,,,,,verb.cognition,116,direct_object,each other,2,0,2,unknown,0.0,tertiary
+47,1,come,45,49,6097,6101,80,50.0,61.0,6102.0,6113.0,,,,,verb.motion,118,direct_object,the youngest girl,1,1,2,female,1.0,tertiary
+47,2,asked,77,82,6129,6134,29,83.0,96.0,6135.0,6148.0,,,,,verb.communication,119,direct_object,the maiden,18,53,71,female,1.0,secondary
+48,7,punish,144,150,6294,6300,85,151.0,164.0,6301.0,6314.0,,,,,verb.social,124,direct_object,the fugitives,1,0,1,unknown,0.0,tertiary
+49,1,added,75,80,6391,6396,9,81.0,118.0,6397.0,6434.0,,,,,verb.change,126,direct_object,The old woman,13,24,37,female,1.0,tertiary
+49,5,saying,226,232,6542,6548,192,235.0,264.0,6551.0,6580.0,,,,,verb.communication,127,direct_object,Whirlwind!-mother of the wind,1,2,3,unknown,0.0,tertiary
+50,0,lend,0,4,6582,6586,192,5.0,12.0,6587.0,6594.0,13.0,35.0,,,verb.possession,129,direct_object,Whirlwind!-mother of the wind,1,2,3,unknown,0.0,tertiary
+51,0,carry,0,5,6619,6624,192,6.0,31.0,6625.0,6650.0,,,,,verb.contact,130,direct_object,Whirlwind!-mother of the wind,1,2,3,unknown,0.0,tertiary
+52,0,cast,0,4,6652,6656,29,5.0,8.0,6657.0,6660.0,23.0,31.0,,,verb.contact,131,direct_object,the maiden,18,53,71,female,1.0,secondary
+52,0,cast,0,4,6652,6656,28,5.0,8.0,6657.0,6660.0,23.0,31.0,,,verb.contact,131,direct_object,The Prince,24,107,131,male,1.0,primary
+52,1,bury,33,37,6685,6689,29,38.0,41.0,6690.0,6693.0,42.0,63.0,,,verb.contact,133,direct_object,the maiden,18,53,71,female,1.0,secondary
+55,3,flung,73,78,7033,7038,29,79.0,89.0,7039.0,7049.0,90.0,118.0,7050.0,7078.0,verb.contact,137,direct_object,the maiden,18,53,71,female,1.0,secondary
+56,0,tried,11,16,7091,7096,29,17.0,37.0,7097.0,7117.0,,,,,verb.social,138,direct_object,the maiden,18,53,71,female,1.0,secondary
+56,1,jump,20,24,7100,7104,29,28.0,37.0,7108.0,7117.0,,,,,verb.motion,139,direct_object,the maiden,18,53,71,female,1.0,secondary
+56,2,held,51,55,7131,7135,28,56.0,59.0,7136.0,7139.0,,,,,verb.contact,140,direct_object,The Prince,24,107,131,male,1.0,primary
+56,3,led,96,99,7176,7179,28,100.0,103.0,7180.0,7183.0,,,,,verb.motion,141,direct_object,The Prince,24,107,131,male,1.0,primary
+56,4,shut,133,137,7213,7217,28,138.0,145.0,7218.0,7225.0,149.0,168.0,7229.0,7248.0,verb.contact,142,direct_object,The Prince,24,107,131,male,1.0,primary
+57,0,became,11,17,7318,7324,28,18.0,33.0,7325.0,7340.0,,,,,verb.change,145,direct_object,The Prince,24,107,131,male,1.0,primary
+57,3,caused,80,86,7387,7393,99,87.0,132.0,7394.0,7439.0,,,,,verb.creation,146,direct_object,the king's the wizards of his country,1,0,1,unknown,0.0,tertiary
+57,3,caused,80,86,7387,7393,35,87.0,132.0,7394.0,7439.0,,,,,verb.creation,146,direct_object,the king,7,19,26,male,1.0,tertiary
+58,1,cure,15,19,7456,7460,28,20.0,23.0,7461.0,7464.0,,,,,verb.body,148,direct_object,The Prince,24,107,131,male,1.0,primary
+59,0,said,30,34,7496,7500,105,35.0,46.0,7501.0,7512.0,,,,,verb.communication,150,direct_object,The old wizard,2,2,4,male,1.0,tertiary
+59,0,said,30,34,7496,7500,194,35.0,46.0,7501.0,7512.0,,,,,verb.communication,150,direct_object,the old wizard from Finland,1,0,1,unknown,0.0,tertiary
+59,0,said,30,34,7496,7500,195,35.0,46.0,7501.0,7512.0,,,,,verb.communication,150,direct_object,the king's the wizards of your kingdom put together,1,0,1,unknown,0.0,tertiary
+59,0,said,30,34,7496,7500,35,35.0,46.0,7501.0,7512.0,,,,,verb.communication,150,direct_object,the king,7,19,26,male,1.0,tertiary
+59,2,knows,89,94,7555,7560,195,95.0,149.0,7561.0,7615.0,,,,,verb.cognition,149,direct_object,the king's the wizards of your kingdom put together,1,0,1,unknown,0.0,tertiary
+59,2,knows,89,94,7555,7560,35,95.0,149.0,7561.0,7615.0,,,,,verb.cognition,149,direct_object,the king,7,19,26,male,1.0,tertiary
+61,0,said,16,20,7749,7753,106,21.0,31.0,7754.0,7764.0,,,,,verb.communication,154,direct_object,the wizard,1,0,1,unknown,0.0,tertiary
+62,1,makes,13,18,7875,7880,197,19.0,43.0,7881.0,7905.0,,,,,verb.change,153,direct_object,the king's son,1,4,5,male,1.0,tertiary
+63,0,let,0,3,7907,7910,197,4.0,59.0,7911.0,7966.0,,,,,verb.social,156,direct_object,the king's son,1,4,5,male,1.0,tertiary
+64,0,made,14,18,7983,7987,35,19.0,47.0,7988.0,8016.0,,,,,verb.social,157,direct_object,the king,7,19,26,male,1.0,tertiary
+64,0,made,14,18,7983,7987,108,19.0,47.0,7988.0,8016.0,,,,,verb.social,157,direct_object,the king's son,1,2,3,male,1.0,tertiary
+64,3,told,80,84,8049,8053,108,85.0,95.0,8054.0,8064.0,,,,,verb.communication,159,direct_object,the king's son,1,2,3,male,1.0,tertiary
+64,3,told,80,84,8049,8053,41,85.0,95.0,8054.0,8064.0,,,,,verb.communication,159,direct_object,The Prince's father,3,0,3,male,1.0,tertiary
+65,0,forget,1,7,8071,8077,29,8.0,18.0,8078.0,8088.0,,,,,verb.cognition,160,direct_object,the maiden,18,53,71,female,1.0,secondary
+65,1,said,21,25,8091,8095,35,26.0,34.0,8096.0,8104.0,,,,,verb.communication,161,direct_object,the king,7,19,26,male,1.0,tertiary
+65,2,take,41,45,8111,8115,200,46.0,59.0,8116.0,8129.0,,,,,verb.social,162,direct_object,another bride,1,0,1,unknown,0.0,tertiary
+66,0,said,16,20,8147,8151,112,21.0,48.0,8152.0,8179.0,,,,,verb.communication,164,direct_object,another,1,0,1,unknown,0.0,tertiary
+66,0,said,16,20,8147,8151,28,21.0,48.0,8152.0,8179.0,,,,,verb.communication,164,direct_object,The Prince,24,107,131,male,1.0,primary
+66,2,love,36,40,8167,8171,112,41.0,48.0,8172.0,8179.0,,,,,verb.emotion,163,direct_object,another,1,0,1,unknown,0.0,tertiary
+67,0,came,20,24,8201,8205,35,34.0,81.0,8215.0,8262.0,,,,,verb.motion,166,direct_object,the king,7,19,26,male,1.0,tertiary
+67,0,came,20,24,8201,8205,198,34.0,81.0,8215.0,8262.0,,,,,verb.motion,166,direct_object,the king's son's beloved,2,2,4,female,1.0,tertiary
+67,1,met,68,71,8249,8252,198,72.0,81.0,8253.0,8262.0,,,,,verb.perception,165,direct_object,the king's son's beloved,2,2,4,female,1.0,tertiary
+68,0,recalled,6,14,8270,8278,35,15.0,46.0,8279.0,8310.0,,,,,verb.cognition,168,direct_object,the king,7,19,26,male,1.0,tertiary
+68,4,given,63,68,8327,8332,35,69.0,113.0,8333.0,8377.0,,,,,verb.consumption,169,direct_object,the king,7,19,26,male,1.0,tertiary
+68,4,given,63,68,8327,8332,198,69.0,113.0,8333.0,8377.0,,,,,verb.consumption,169,direct_object,the king's son's beloved,2,2,4,female,1.0,tertiary
+68,6,have,89,93,8353,8357,198,94.0,113.0,8358.0,8377.0,,,,,verb.change,172,direct_object,the king's son's beloved,2,2,4,female,1.0,tertiary
+69,0,thought,29,36,8408,8415,35,37.0,101.0,8416.0,8480.0,,,,,verb.cognition,171,direct_object,the king,7,19,26,male,1.0,tertiary
+72,2,free,35,39,8628,8632,43,40.0,49.0,8633.0,8642.0,,,,,verb.social,176,direct_object,The Prince's bride,6,1,7,female,1.0,tertiary
+72,2,free,35,39,8628,8632,201,40.0,49.0,8633.0,8642.0,,,,,verb.social,176,direct_object,the king's beloved,2,2,4,male,1.0,tertiary
+73,2,sprang,27,33,8690,8696,35,34.0,48.0,8697.0,8711.0,,,,,verb.motion,178,direct_object,the king,7,19,26,male,1.0,tertiary
+80,1,said,54,58,9208,9212,122,59.0,69.0,9213.0,9223.0,,,,,verb.communication,185,direct_object,the two maidens,1,5,6,female,1.0,tertiary
+80,1,said,54,58,9208,9212,28,59.0,69.0,9213.0,9223.0,,,,,verb.communication,185,direct_object,The Prince,24,107,131,male,1.0,primary
+80,4,explain,106,113,9260,9267,28,114.0,118.0,9268.0,9272.0,,,,,verb.communication,188,direct_object,The Prince,24,107,131,male,1.0,primary
+81,1,found,32,37,9313,9318,122,38.0,53.0,9319.0,9334.0,54.0,69.0,9335.0,9350.0,verb.possession,189,direct_object,the two maidens,1,5,6,female,1.0,tertiary
+82,0,told,3,7,9355,9359,124,8.0,12.0,9360.0,9364.0,,,,,verb.communication,191,direct_object,no singer,1,0,1,unknown,0.0,tertiary
+82,0,told,3,7,9355,9359,122,8.0,12.0,9360.0,9364.0,,,,,verb.communication,191,direct_object,the two maidens,1,5,6,female,1.0,tertiary
+82,0,told,3,7,9355,9359,28,8.0,12.0,9360.0,9364.0,,,,,verb.communication,191,direct_object,The Prince,24,107,131,male,1.0,primary
+82,0,told,3,7,9355,9359,123,8.0,12.0,9360.0,9364.0,,,,,verb.communication,191,direct_object,the two maidens's sister,2,0,2,female,1.0,tertiary
+82,2,befallen,22,30,9374,9382,122,31.0,43.0,9383.0,9395.0,44.0,59.0,9396.0,9411.0,verb.emotion,190,direct_object,the two maidens,1,5,6,female,1.0,tertiary
+82,2,befallen,22,30,9374,9382,123,31.0,43.0,9383.0,9395.0,44.0,59.0,9396.0,9411.0,verb.emotion,190,direct_object,the two maidens's sister,2,0,2,female,1.0,tertiary
+82,6,see,118,121,9470,9473,124,122.0,131.0,9474.0,9483.0,,,,,verb.perception,193,direct_object,no singer,1,0,1,unknown,0.0,tertiary
+83,0,said,5,9,9490,9494,122,10.0,127.0,9495.0,9612.0,,,,,verb.communication,195,direct_object,the two maidens,1,5,6,female,1.0,tertiary
+83,0,said,5,9,9490,9494,123,10.0,127.0,9495.0,9612.0,,,,,verb.communication,195,direct_object,the two maidens's sister,2,0,2,female,1.0,tertiary
+84,1,made,34,38,9648,9652,126,39.0,87.0,9653.0,9701.0,,,,,verb.creation,196,direct_object,the eldest,1,1,2,female,1.0,tertiary
+84,1,made,34,38,9648,9652,28,39.0,87.0,9653.0,9701.0,,,,,verb.creation,196,direct_object,The Prince,24,107,131,male,1.0,primary
+84,2,gave,72,76,9686,9690,28,77.0,80.0,9691.0,9694.0,,,,,verb.possession,197,direct_object,The Prince,24,107,131,male,1.0,primary
+85,0,dreamed,16,23,9719,9726,28,24.0,115.0,9727.0,9818.0,,,,,verb.creation,198,direct_object,The Prince,24,107,131,male,1.0,primary
+86,0,told,16,20,9836,9840,23,21.0,25.0,9841.0,9845.0,,,,,verb.communication,200,direct_object,the maidens,3,8,11,female,1.0,tertiary
+86,4,advised,97,104,9917,9924,28,105.0,108.0,9925.0,9928.0,,,,,verb.communication,202,direct_object,The Prince,24,107,131,male,1.0,primary
+86,6,see,142,145,9962,9965,23,146.0,170.0,9966.0,9990.0,,,,,verb.perception,204,direct_object,the maidens,3,8,11,female,1.0,tertiary
+86,6,see,142,145,9962,9965,28,146.0,170.0,9966.0,9990.0,,,,,verb.perception,204,direct_object,The Prince,24,107,131,male,1.0,primary
+86,8,tell,162,166,9982,9986,28,167.0,170.0,9987.0,9990.0,,,,,verb.communication,205,direct_object,The Prince,24,107,131,male,1.0,primary
+86,10,recovered,188,197,10008,10017,43,198.0,207.0,10018.0,10027.0,,,,,verb.possession,206,direct_object,The Prince's bride,6,1,7,female,1.0,tertiary
+86,10,recovered,188,197,10008,10017,28,198.0,207.0,10018.0,10027.0,,,,,verb.possession,206,direct_object,The Prince,24,107,131,male,1.0,primary
+86,11,begged,213,219,10033,10039,23,220.0,223.0,10040.0,10043.0,,,,,verb.communication,207,direct_object,the maidens,3,8,11,female,1.0,tertiary
+86,11,begged,213,219,10033,10039,28,220.0,223.0,10040.0,10043.0,,,,,verb.communication,207,direct_object,The Prince,24,107,131,male,1.0,primary
+86,13,deliver,238,245,10058,10065,23,246.0,250.0,10066.0,10070.0,,,,,verb.contact,210,direct_object,the maidens,3,8,11,female,1.0,tertiary
+88,0,heard,3,8,10247,10252,132,9.0,54.0,10253.0,10298.0,,,,,verb.perception,212,direct_object,a magpie,1,0,1,unknown,0.0,tertiary
+88,0,heard,3,8,10247,10252,205,9.0,54.0,10253.0,10298.0,,,,,verb.perception,212,direct_object,men,2,1,3,male,1.0,tertiary
+88,1,say,18,21,10262,10265,132,22.0,33.0,10266.0,10277.0,,,,,verb.communication,215,direct_object,a magpie,1,0,1,unknown,0.0,tertiary
+90,6,hear,145,149,10488,10492,29,150.0,153.0,10493.0,10496.0,,,,,verb.perception,217,direct_object,the maiden,18,53,71,female,1.0,secondary
+90,7,comes,166,171,10509,10514,29,172.0,182.0,10515.0,10525.0,,,,,verb.motion,219,direct_object,the maiden,18,53,71,female,1.0,secondary
+91,1,heard,54,59,10581,10586,29,60.0,71.0,10587.0,10598.0,,,,,verb.perception,220,direct_object,the maiden,18,53,71,female,1.0,secondary
+92,1,blame,14,19,10647,10652,29,20.0,43.0,10653.0,10676.0,,,,,verb.communication,221,direct_object,the maiden,18,53,71,female,1.0,secondary
+92,2,added,46,51,10679,10684,133,52.0,62.0,10685.0,10695.0,,,,,verb.communication,222,direct_object,the magpie,1,0,1,unknown,0.0,tertiary
+93,0,heeds,7,12,10704,10709,29,13.0,68.0,10710.0,10765.0,,,,,verb.emotion,223,direct_object,the maiden,18,53,71,female,1.0,secondary
+93,0,heeds,7,12,10704,10709,205,13.0,68.0,10710.0,10765.0,,,,,verb.emotion,223,direct_object,men,2,1,3,male,1.0,tertiary
+95,0,hearing,6,13,10858,10865,28,14.0,18.0,10866.0,10870.0,,,,,verb.perception,226,direct_object,The Prince,24,107,131,male,1.0,primary
+95,1,wondered,31,39,10883,10891,28,40.0,86.0,10892.0,10938.0,,,,,verb.communication,227,direct_object,The Prince,24,107,131,male,1.0,primary
+96,0,heard,3,8,10943,10948,135,9.0,35.0,10949.0,10975.0,,,,,verb.perception,228,direct_object,one swallow,1,0,1,unknown,0.0,tertiary
+99,0,cried,0,5,11063,11068,28,6.0,16.0,11069.0,11079.0,,,,,verb.communication,231,direct_object,The Prince,24,107,131,male,1.0,primary
+100,1,do,10,12,11091,11093,28,13.0,22.0,11094.0,11103.0,,,,,verb.social,232,direct_object,The Prince,24,107,131,male,1.0,primary
+101,1,said,28,32,11141,11145,215,34.0,175.0,11147.0,11288.0,,,,,verb.communication,233,direct_object,a maiden,3,1,4,female,1.0,tertiary
+101,1,said,28,32,11141,11145,214,34.0,175.0,11147.0,11288.0,,,,,verb.communication,233,direct_object,the wizard of Finland,1,1,2,male,1.0,tertiary
+101,1,said,28,32,11141,11145,28,34.0,175.0,11147.0,11288.0,,,,,verb.communication,233,direct_object,The Prince,24,107,131,male,1.0,primary
+101,3,ask,99,102,11212,11215,215,103.0,106.0,11216.0,11219.0,,,,,verb.communication,234,direct_object,a maiden,3,1,4,female,1.0,tertiary
+101,3,ask,99,102,11212,11215,214,103.0,106.0,11216.0,11219.0,,,,,verb.communication,234,direct_object,the wizard of Finland,1,1,2,male,1.0,tertiary
+101,3,ask,99,102,11212,11215,28,103.0,106.0,11216.0,11219.0,,,,,verb.communication,234,direct_object,The Prince,24,107,131,male,1.0,primary
+101,5,restore,117,124,11230,11237,215,125.0,175.0,11238.0,11288.0,,,,,verb.social,236,direct_object,a maiden,3,1,4,female,1.0,tertiary
+105,2,thinking,45,53,11549,11557,141,54.0,142.0,11558.0,11646.0,,,,,verb.cognition,242,direct_object,the swallows,1,0,1,unknown,0.0,tertiary
+105,2,thinking,45,53,11549,11557,28,54.0,142.0,11558.0,11646.0,,,,,verb.cognition,242,direct_object,The Prince,24,107,131,male,1.0,primary
+105,5,forgotten,82,91,11586,11595,28,92.0,103.0,11596.0,11607.0,105.0,142.0,11609.0,11646.0,verb.cognition,241,direct_object,The Prince,24,107,131,male,1.0,primary
+105,6,saw,113,116,11617,11620,28,117.0,142.0,11621.0,11646.0,,,,,verb.perception,243,direct_object,The Prince,24,107,131,male,1.0,primary
+106,1,perched,38,45,11686,11693,28,46.0,75.0,11694.0,11723.0,,,,,verb.contact,244,direct_object,The Prince,24,107,131,male,1.0,primary
+106,2,said,80,84,11728,11732,216,87.0,223.0,11735.0,11871.0,,,,,verb.communication,246,direct_object,The wizard of,1,0,1,unknown,0.0,tertiary
+106,2,said,80,84,11728,11732,29,87.0,223.0,11735.0,11871.0,,,,,verb.communication,246,direct_object,the maiden,18,53,71,female,1.0,secondary
+106,2,said,80,84,11728,11732,28,87.0,223.0,11735.0,11871.0,,,,,verb.communication,246,direct_object,The Prince,24,107,131,male,1.0,primary
+106,3,bids,124,128,11772,11776,28,129.0,131.0,11777.0,11779.0,,,,,verb.communication,245,direct_object,The Prince,24,107,131,male,1.0,primary
+106,4,say,132,135,11780,11783,29,136.0,223.0,11784.0,11871.0,,,,,verb.communication,248,direct_object,the maiden,18,53,71,female,1.0,secondary
+106,4,say,132,135,11780,11783,28,136.0,223.0,11784.0,11871.0,,,,,verb.communication,248,direct_object,The Prince,24,107,131,male,1.0,primary
+106,6,free,149,153,11797,11801,29,154.0,164.0,11802.0,11812.0,165.0,169.0,11813.0,11817.0,verb.social,247,direct_object,the maiden,18,53,71,female,1.0,secondary
+106,8,smear,191,196,11839,11844,28,197.0,209.0,11845.0,11857.0,,,,,verb.contact,249,direct_object,The Prince,24,107,131,male,1.0,primary
+107,0,say,6,9,11878,11881,183,12.0,34.0,11884.0,11906.0,,,,,verb.communication,251,direct_object,a man,6,0,6,male,1.0,tertiary
+109,1,fasten,11,17,12070,12076,28,18.0,28.0,12077.0,12087.0,29.0,43.0,,,verb.contact,250,direct_object,The Prince,24,107,131,male,1.0,primary
+110,0,let,0,3,12138,12141,28,4.0,121.0,12142.0,12259.0,,,,,verb.social,252,direct_object,The Prince,24,107,131,male,1.0,primary
+112,1,say,15,18,12308,12311,215,21.0,126.0,12314.0,12419.0,,,,,verb.communication,254,direct_object,a maiden,3,1,4,female,1.0,tertiary
+112,1,say,15,18,12308,12311,28,21.0,126.0,12314.0,12419.0,,,,,verb.communication,254,direct_object,The Prince,24,107,131,male,1.0,primary
+112,1,say,15,18,12308,12311,183,21.0,126.0,12314.0,12419.0,,,,,verb.communication,254,direct_object,a man,6,0,6,male,1.0,tertiary
+112,4,restored,100,108,12393,12401,28,109.0,126.0,12402.0,12419.0,,,,,verb.possession,256,direct_object,The Prince,24,107,131,male,1.0,primary
+113,1,let,35,38,12457,12460,29,39.0,111.0,12461.0,12533.0,,,,,verb.social,255,direct_object,the maiden,18,53,71,female,1.0,secondary
+113,1,let,35,38,12457,12460,28,39.0,111.0,12461.0,12533.0,,,,,verb.social,255,direct_object,The Prince,24,107,131,male,1.0,primary
+113,4,attempt,83,90,12505,12512,29,91.0,111.0,12513.0,12533.0,,,,,verb.social,257,direct_object,the maiden,18,53,71,female,1.0,secondary
+113,5,rescue,94,100,12516,12522,29,101.0,111.0,12523.0,12533.0,,,,,verb.social,258,direct_object,the maiden,18,53,71,female,1.0,secondary
+114,0,said,12,16,12547,12551,28,17.0,23.0,12552.0,12558.0,,,,,verb.communication,261,direct_object,The Prince,24,107,131,male,1.0,primary
+115,1,told,23,27,12605,12609,28,28.0,31.0,12610.0,12613.0,,,,,verb.communication,260,direct_object,The Prince,24,107,131,male,1.0,primary
+115,3,deceived,62,70,12644,12652,28,71.0,74.0,12653.0,12656.0,,,,,verb.social,259,direct_object,The Prince,24,107,131,male,1.0,primary
+116,0,hasten,1,7,12658,12664,29,16.0,34.0,12673.0,12691.0,,,,,verb.change,262,direct_object,the maiden,18,53,71,female,1.0,secondary
+116,1,dry,12,15,12669,12672,29,16.0,34.0,12673.0,12691.0,,,,,verb.change,264,direct_object,the maiden,18,53,71,female,1.0,secondary
+117,1,befall,30,36,12724,12730,28,37.0,39.0,12731.0,12733.0,,,,,verb.change,263,direct_object,The Prince,24,107,131,male,1.0,primary
+117,2,thought,42,49,12736,12743,28,50.0,60.0,12744.0,12754.0,,,,,verb.cognition,265,direct_object,The Prince,24,107,131,male,1.0,primary
+118,0,mounted,6,13,12805,12812,28,14.0,23.0,12813.0,12822.0,,,,,verb.motion,266,direct_object,The Prince,24,107,131,male,1.0,primary
+119,0,heard,9,14,12856,12861,147,15.0,38.0,12862.0,12885.0,,,,,verb.perception,267,direct_object,the water - lily,1,0,1,unknown,0.0,tertiary
+119,2,smeared,67,74,12914,12921,28,75.0,91.0,12922.0,12938.0,,,,,verb.contact,269,direct_object,The Prince,24,107,131,male,1.0,primary
+119,3,saying,107,113,12954,12960,228,116.0,163.0,12963.0,13010.0,,,,,verb.communication,270,direct_object,a crab,2,0,2,unknown,0.0,tertiary
+119,3,saying,107,113,12954,12960,183,116.0,163.0,12963.0,13010.0,,,,,verb.communication,270,direct_object,a man,6,0,6,male,1.0,tertiary
+121,5,took,116,120,13198,13202,28,121.0,124.0,13203.0,13206.0,125.0,136.0,13207.0,13218.0,verb.possession,273,direct_object,The Prince,24,107,131,male,1.0,primary
+125,1,said,20,24,13460,13464,29,27.0,168.0,13467.0,13608.0,,,,,verb.communication,280,direct_object,the maiden,18,53,71,female,1.0,secondary
+125,1,said,20,24,13460,13464,215,27.0,168.0,13467.0,13608.0,,,,,verb.communication,280,direct_object,a maiden,3,1,4,female,1.0,tertiary
+125,1,said,20,24,13460,13464,28,27.0,168.0,13467.0,13608.0,,,,,verb.communication,280,direct_object,The Prince,24,107,131,male,1.0,primary
+125,1,said,20,24,13460,13464,151,27.0,168.0,13467.0,13608.0,,,,,verb.communication,280,direct_object,a prince,1,0,1,male,1.0,tertiary
+125,1,said,20,24,13460,13464,183,27.0,168.0,13467.0,13608.0,,,,,verb.communication,280,direct_object,a man,6,0,6,male,1.0,tertiary
+125,2,found,104,109,13544,13549,28,110.0,136.0,13550.0,13576.0,,,,,verb.perception,281,direct_object,The Prince,24,107,131,male,1.0,primary
+125,2,found,104,109,13544,13549,151,110.0,136.0,13550.0,13576.0,,,,,verb.perception,281,direct_object,a prince,1,0,1,male,1.0,tertiary
+127,0,thanked,4,11,13724,13731,29,12.0,15.0,13732.0,13735.0,,,,,verb.communication,284,direct_object,the maiden,18,53,71,female,1.0,secondary
+127,0,thanked,4,11,13724,13731,153,12.0,15.0,13732.0,13735.0,,,,,verb.communication,284,direct_object,the cruel witch,1,0,1,unknown,0.0,tertiary
+127,0,thanked,4,11,13724,13731,28,12.0,15.0,13732.0,13735.0,,,,,verb.communication,284,direct_object,The Prince,24,107,131,male,1.0,primary
+127,2,freed,27,32,13747,13752,29,33.0,36.0,13753.0,13756.0,,,,,verb.social,283,direct_object,the maiden,18,53,71,female,1.0,secondary
+127,2,freed,27,32,13747,13752,153,33.0,36.0,13753.0,13756.0,,,,,verb.social,283,direct_object,the cruel witch,1,0,1,unknown,0.0,tertiary
+127,3,consented,81,90,13801,13810,28,91.0,103.0,13811.0,13823.0,,,,,verb.communication,285,direct_object,The Prince,24,107,131,male,1.0,primary
+127,4,marry,94,99,13814,13819,28,100.0,103.0,13820.0,13823.0,,,,,verb.social,286,direct_object,The Prince,24,107,131,male,1.0,primary
+128,0,came,14,18,13839,13843,28,19.0,86.0,13844.0,13911.0,,,,,verb.motion,288,direct_object,The Prince,24,107,131,male,1.0,primary
+128,2,left,46,50,13871,13875,28,51.0,60.0,13876.0,13885.0,,,,,verb.motion,287,direct_object,The Prince,24,107,131,male,1.0,primary
+128,6,thought,111,118,13936,13943,228,119.0,154.0,13944.0,13979.0,,,,,verb.cognition,289,direct_object,a crab,2,0,2,unknown,0.0,tertiary
+128,6,thought,111,118,13936,13943,28,119.0,154.0,13944.0,13979.0,,,,,verb.cognition,289,direct_object,The Prince,24,107,131,male,1.0,primary
+129,1,wondering,16,25,14060,14069,28,26.0,66.0,14070.0,14110.0,,,,,verb.cognition,290,direct_object,The Prince,24,107,131,male,1.0,primary
+129,1,wondering,16,25,14060,14069,41,26.0,66.0,14070.0,14110.0,,,,,verb.cognition,290,direct_object,The Prince's father,3,0,3,male,1.0,tertiary
+129,3,reach,42,47,14086,14091,28,48.0,66.0,14092.0,14110.0,,,,,verb.motion,292,direct_object,The Prince,24,107,131,male,1.0,primary
+129,3,reach,42,47,14086,14091,41,48.0,66.0,14092.0,14110.0,,,,,verb.motion,292,direct_object,The Prince's father,3,0,3,male,1.0,tertiary
+132,2,leading,66,73,14395,14402,167,74.0,94.0,14403.0,14423.0,95.0,106.0,,,verb.motion,294,direct_object,the beautiful maiden,1,0,1,female,1.0,tertiary
+134,2,said,85,89,14635,14639,231,90.0,97.0,14640.0,14647.0,,,,,verb.communication,297,direct_object,Ungrateful creatures,1,0,1,unknown,0.0,tertiary
+135,1,forgotten,9,18,14681,14690,232,19.0,71.0,14691.0,14743.0,,,,,verb.cognition,296,direct_object,the two poor maidens who helped you in your distress,1,1,2,female,1.0,tertiary
+137,0,have,0,4,14780,14784,233,5.0,12.0,14785.0,14792.0,,,,,verb.perception,300,direct_object,the old witch,1,0,1,unknown,0.0,tertiary
+140,2,forgotten,33,42,15032,15041,28,43.0,54.0,15042.0,15053.0,,,,,verb.cognition,301,direct_object,The Prince,24,107,131,male,1.0,primary
+141,1,dreamed,16,23,15162,15169,28,24.0,42.0,15170.0,15188.0,,,,,verb.cognition,303,direct_object,The Prince,24,107,131,male,1.0,primary
+141,6,made,90,94,15236,15240,23,95.0,126.0,15241.0,15272.0,,,,,verb.creation,304,direct_object,the maidens,3,8,11,female,1.0,tertiary
+141,8,left,132,136,15278,15282,9,137.0,139.0,15283.0,15285.0,,,,,verb.cognition,307,direct_object,The old woman,13,24,37,female,1.0,tertiary
+142,2,thought,20,27,15377,15384,9,28.0,94.0,15385.0,15451.0,,,,,verb.cognition,312,direct_object,The old woman,13,24,37,female,1.0,tertiary
+142,3,looked,31,37,15388,15394,9,38.0,94.0,15395.0,15451.0,,,,,verb.perception,311,direct_object,The old woman,13,24,37,female,1.0,tertiary

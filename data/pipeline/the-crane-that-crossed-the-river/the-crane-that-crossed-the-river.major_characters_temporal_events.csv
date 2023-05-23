@@ -1,0 +1,94 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,3,left,95,99,95,99,8,76.0,84.0,76.0,84.0,,,,,verb.possession,True,0,subject,two sons,1,4,5,group/nonbinary,1.0,tertiary
+2,2,saw,77,80,369,372,8,72.0,76.0,364.0,368.0,,,,,verb.perception,True,1,subject,two sons,1,4,5,group/nonbinary,1.0,tertiary
+4,3,visited,61,68,633,640,15,49.0,60.0,621.0,632.0,79.0,108.0,651.0,680.0,verb.social,True,2,subject,a young man,1,4,5,male,1.0,tertiary
+5,0,said,31,35,760,764,18,10.0,30.0,739.0,759.0,,,,,verb.communication,True,5,subject,the elder of the two,1,3,4,male,1.0,tertiary
+5,0,said,31,35,760,764,19,10.0,30.0,739.0,759.0,,,,,verb.communication,True,5,subject,the two,1,0,1,unknown,0.0,tertiary
+6,1,wish,8,12,881,885,15,5.0,7.0,878.0,880.0,,,,,verb.emotion,True,4,subject,a young man,1,4,5,male,1.0,tertiary
+7,1,tell,8,12,906,910,18,6.0,7.0,904.0,905.0,17.0,48.0,915.0,946.0,verb.communication,True,7,subject,the elder of the two,1,3,4,male,1.0,tertiary
+10,2,tell,37,41,1204,1208,2,33.0,36.0,1200.0,1203.0,,,,,verb.communication,True,8,subject,Naubesah,1,7,8,unknown,0.0,tertiary
+12,3,resolved,91,99,1384,1392,22,86.0,90.0,1379.0,1383.0,,,,,verb.cognition,True,11,subject,The boys,1,29,30,male,1.0,primary
+13,11,carry,203,208,1628,1633,26,200.0,202.0,1625.0,1627.0,,,,,verb.contact,True,10,subject,this young man,1,4,5,male,1.0,tertiary
+14,0,had,6,9,1658,1661,26,3.0,5.0,1655.0,1657.0,,,,,verb.possession,True,13,subject,this young man,1,4,5,male,1.0,tertiary
+16,2,vexed,56,61,1881,1886,21,33.0,43.0,1858.0,1868.0,,,,,verb.emotion,True,14,subject,the mother,4,16,20,female,1.0,primary
+17,3,speak,37,42,1925,1930,22,33.0,36.0,1921.0,1924.0,,,,,verb.communication,True,15,subject,The boys,1,29,30,male,1.0,primary
+18,3,resolved,130,138,2069,2077,22,125.0,129.0,2064.0,2068.0,,,,,verb.communication,True,17,subject,The boys,1,29,30,male,1.0,primary
+19,5,seen,116,120,2230,2234,22,98.0,101.0,2212.0,2215.0,,,,,verb.perception,True,16,subject,The boys,1,29,30,male,1.0,primary
+20,0,grew,23,27,2259,2263,38,0.0,22.0,2236.0,2258.0,,,,,verb.change,True,18,subject,the father,3,5,8,male,1.0,tertiary
+21,1,looked,48,54,2318,2324,38,45.0,47.0,2315.0,2317.0,,,,,verb.perception,True,19,subject,the father,3,5,8,male,1.0,tertiary
+22,0,said,3,7,2346,2350,38,0.0,2.0,2343.0,2345.0,,,,,verb.communication,True,21,subject,the father,3,5,8,male,1.0,tertiary
+23,1,tarry,22,27,2374,2379,38,4.0,20.0,2356.0,2372.0,,,,,verb.motion,True,20,subject,the father,3,5,8,male,1.0,tertiary
+23,1,tarry,22,27,2374,2379,104,4.0,20.0,2356.0,2372.0,,,,,verb.motion,True,20,subject,the father's children,2,0,2,unknown,0.0,tertiary
+23,1,tarry,22,27,2374,2379,22,4.0,20.0,2356.0,2372.0,,,,,verb.motion,True,20,subject,The boys,1,29,30,male,1.0,primary
+24,4,come,115,119,2588,2592,22,98.0,110.0,2571.0,2583.0,,,,,verb.motion,True,22,subject,The boys,1,29,30,male,1.0,primary
+25,0,reached,10,17,2604,2611,22,5.0,9.0,2599.0,2603.0,,,,,verb.motion,True,23,subject,The boys,1,29,30,male,1.0,primary
+26,5,spoken,100,106,2748,2754,21,81.0,89.0,2729.0,2737.0,,,,,verb.communication,True,24,subject,the mother,4,16,20,female,1.0,primary
+27,4,seen,91,95,2866,2870,21,65.0,75.0,2840.0,2850.0,,,,,verb.perception,True,25,subject,the mother,4,16,20,female,1.0,primary
+28,4,returned,104,112,3128,3136,45,99.0,103.0,3123.0,3127.0,128.0,168.0,3152.0,3192.0,verb.motion,True,26,subject,the two boys,1,25,26,male,1.0,primary
+29,3,sought,87,93,3281,3287,45,82.0,86.0,3276.0,3280.0,,,,,verb.social,True,27,subject,the two boys,1,25,26,male,1.0,primary
+30,2,saw,72,75,3370,3373,45,67.0,71.0,3365.0,3369.0,,,,,verb.perception,True,29,subject,the two boys,1,25,26,male,1.0,primary
+31,3,seen,76,80,3572,3576,45,67.0,71.0,3563.0,3567.0,,,,,verb.perception,True,28,subject,the two boys,1,25,26,male,1.0,primary
+32,2,resolved,59,67,3667,3675,45,46.0,50.0,3654.0,3658.0,,,,,verb.cognition,True,30,subject,the two boys,1,25,26,male,1.0,primary
+33,0,began,5,10,3755,3760,45,0.0,4.0,3750.0,3754.0,,,,,verb.change,True,31,subject,the two boys,1,25,26,male,1.0,primary
+34,1,passed,64,70,3853,3859,45,59.0,63.0,3848.0,3852.0,,,,,verb.motion,True,32,subject,the two boys,1,25,26,male,1.0,primary
+35,1,come,19,23,4005,4009,45,0.0,4.0,3986.0,3990.0,,,,,verb.motion,True,33,subject,the two boys,1,25,26,male,1.0,primary
+38,0,looked,48,54,4397,4403,45,43.0,47.0,4392.0,4396.0,,,,,verb.perception,True,36,subject,the two boys,1,25,26,male,1.0,primary
+39,1,united,9,15,4424,4430,45,0.0,4.0,4415.0,4419.0,,,,,verb.motion,True,35,subject,the two boys,1,25,26,male,1.0,primary
+41,1,saw,43,46,4623,4626,45,16.0,27.0,4596.0,4607.0,,,,,verb.perception,True,39,subject,the two boys,1,25,26,male,1.0,primary
+41,1,saw,43,46,4623,4626,72,16.0,27.0,4596.0,4607.0,,,,,verb.perception,True,39,subject,the two boys's of them,1,0,1,unknown,0.0,tertiary
+42,3,persecuted,55,65,4745,4755,45,48.0,50.0,4738.0,4740.0,,,,,verb.social,True,38,subject,the two boys,1,25,26,male,1.0,primary
+43,3,escape,46,52,4803,4809,45,39.0,41.0,4796.0,4798.0,,,,,verb.motion,True,41,subject,the two boys,1,25,26,male,1.0,primary
+45,1,appealed,22,30,5113,5121,74,14.0,21.0,5105.0,5112.0,,,,,verb.communication,True,42,subject,the bird,1,9,10,male,0.8571428571428571,secondary
+46,3,touch,51,56,5314,5319,12,40.0,43.0,5303.0,5306.0,,,,,verb.contact,True,43,subject,The two sons,2,11,13,group/nonbinary,1.0,secondary
+48,5,avoid,74,79,5483,5488,78,51.0,52.0,5460.0,5461.0,,,,,verb.social,True,45,subject,the old crane,1,17,18,male,1.0,secondary
+49,0,paid,5,9,5528,5532,12,0.0,4.0,5523.0,5527.0,,,,,verb.cognition,True,44,subject,The two sons,2,11,13,group/nonbinary,1.0,secondary
+50,1,carried,16,23,5641,5648,78,0.0,2.0,5625.0,5627.0,35.0,50.0,5660.0,5675.0,verb.motion,True,47,subject,the old crane,1,17,18,male,1.0,secondary
+51,3,seen,59,63,5735,5739,78,41.0,43.0,5717.0,5719.0,,,,,verb.perception,True,46,subject,the old crane,1,17,18,male,1.0,secondary
+53,0,obeyed,14,20,5967,5973,85,0.0,13.0,5953.0,5966.0,,,,,verb.communication,True,49,subject,The aged bird,1,0,1,unknown,0.0,tertiary
+55,3,went,65,69,6156,6160,78,62.0,64.0,6153.0,6155.0,78.0,117.0,6169.0,6208.0,verb.motion,True,51,subject,the old crane,1,17,18,male,1.0,secondary
+56,3,respect,46,53,6256,6263,83,35.0,38.0,6245.0,6248.0,67.0,111.0,6277.0,6321.0,verb.cognition,True,52,subject,the woman,2,23,25,female,1.0,primary
+57,1,obey,16,20,6339,6343,83,0.0,3.0,6323.0,6326.0,,,,,verb.social,True,53,subject,the woman,2,23,25,female,1.0,primary
+58,2,sought,76,82,6420,6426,83,61.0,75.0,6405.0,6419.0,,,,,verb.social,True,54,subject,the woman,2,23,25,female,1.0,primary
+59,2,free,75,79,6545,6549,3,0.0,19.0,6470.0,6489.0,,,,,verb.social,True,55,subject,Instantly the crane,1,0,1,unknown,0.0,tertiary
+60,1,sunk,25,29,6613,6617,83,21.0,24.0,6609.0,6612.0,,,,,verb.motion,True,57,subject,the woman,2,23,25,female,1.0,primary
+61,3,avoided,45,52,6717,6724,83,23.0,28.0,6695.0,6700.0,,,,,verb.social,True,56,subject,the woman,2,23,25,female,1.0,primary
+63,0,disappeared,10,21,6833,6844,83,0.0,9.0,6823.0,6832.0,,,,,verb.change,True,58,subject,the woman,2,23,25,female,1.0,primary
+64,0,adopted,58,65,7070,7077,93,0.0,56.0,7012.0,7068.0,187.0,226.0,7199.0,7238.0,verb.possession,True,59,subject,The family of the hunter,1,2,3,group/nonbinary,1.0,tertiary
+64,0,adopted,58,65,7070,7077,78,0.0,56.0,7012.0,7068.0,187.0,226.0,7199.0,7238.0,verb.possession,True,59,subject,the old crane,1,17,18,male,1.0,secondary
+64,0,adopted,58,65,7070,7077,70,0.0,56.0,7012.0,7068.0,187.0,226.0,7199.0,7238.0,verb.possession,True,59,subject,the hunter,2,1,3,male,1.0,tertiary
+2,2,saw,77,80,369,372,8,81.0,130.0,373.0,422.0,,,,,verb.perception,True,1,direct_object,two sons,1,4,5,group/nonbinary,1.0,tertiary
+3,3,diverting,100,109,524,533,12,110.0,120.0,534.0,544.0,121.0,146.0,,,verb.contact,True,3,direct_object,The two sons,2,11,13,group/nonbinary,1.0,secondary
+5,0,said,31,35,760,764,96,36.0,49.0,765.0,778.0,,,,,verb.communication,True,5,direct_object,The two sons's tall young man that comes here so often during our father 's absence,1,0,1,male,1.0,tertiary
+5,0,said,31,35,760,764,97,36.0,49.0,765.0,778.0,,,,,verb.communication,True,5,direct_object,The two sons's father,1,0,1,male,1.0,tertiary
+5,0,said,31,35,760,764,12,36.0,49.0,765.0,778.0,,,,,verb.communication,True,5,direct_object,The two sons,2,11,13,group/nonbinary,1.0,secondary
+5,0,said,31,35,760,764,20,36.0,49.0,765.0,778.0,,,,,verb.communication,True,5,direct_object,the elder of the two's mother,1,0,1,female,1.0,tertiary
+5,0,said,31,35,760,764,18,36.0,49.0,765.0,778.0,,,,,verb.communication,True,5,direct_object,the elder of the two,1,3,4,male,1.0,tertiary
+5,0,said,31,35,760,764,95,36.0,49.0,765.0,778.0,,,,,verb.communication,True,5,direct_object,the elder of the two's mother,1,0,1,female,1.0,tertiary
+6,1,wish,8,12,881,885,15,13.0,23.0,886.0,896.0,,,,,verb.emotion,True,4,direct_object,a young man,1,4,5,male,1.0,tertiary
+7,1,tell,8,12,906,910,15,13.0,16.0,911.0,914.0,17.0,48.0,915.0,946.0,verb.communication,True,7,direct_object,a young man,1,4,5,male,1.0,tertiary
+8,1,mind,47,51,996,1000,2,52.0,71.0,1001.0,1020.0,,,,,verb.cognition,True,6,direct_object,Naubesah,1,7,8,unknown,0.0,tertiary
+10,2,tell,37,41,1204,1208,2,42.0,76.0,1209.0,1243.0,,,,,verb.communication,True,8,direct_object,Naubesah,1,7,8,unknown,0.0,tertiary
+11,0,say,0,3,1269,1272,103,4.0,14.0,1273.0,1283.0,,,,,verb.communication,True,9,direct_object,Naubesah's father,1,1,2,male,1.0,tertiary
+12,3,resolved,91,99,1384,1392,24,100.0,130.0,1393.0,1423.0,,,,,verb.cognition,True,11,direct_object,The boys's mother,1,0,1,female,1.0,tertiary
+12,3,resolved,91,99,1384,1392,22,100.0,130.0,1393.0,1423.0,,,,,verb.cognition,True,11,direct_object,The boys,1,29,30,male,1.0,primary
+14,0,had,6,9,1658,1661,22,10.0,47.0,1662.0,1699.0,,,,,verb.possession,True,13,direct_object,The boys,1,29,30,male,1.0,primary
+15,3,addressed,48,57,1789,1798,30,58.0,82.0,1799.0,1823.0,,,,,verb.communication,True,12,direct_object,men,2,0,2,male,1.0,tertiary
+15,3,addressed,48,57,1789,1798,31,58.0,82.0,1799.0,1823.0,,,,,verb.communication,True,12,direct_object,women,1,0,1,female,1.0,tertiary
+25,0,reached,10,17,2604,2611,21,18.0,52.0,2612.0,2646.0,,,,,verb.motion,True,23,direct_object,the mother,4,16,20,female,1.0,primary
+31,3,seen,76,80,3572,3576,21,81.0,111.0,3577.0,3607.0,,,,,verb.perception,True,28,direct_object,the mother,4,16,20,female,1.0,primary
+36,2,pursuing,16,24,4179,4187,45,25.0,29.0,4188.0,4192.0,,,,,verb.motion,True,34,direct_object,the two boys,1,25,26,male,1.0,primary
+40,3,escape,65,71,4568,4574,66,72.0,75.0,4575.0,4578.0,,,,,verb.social,True,37,direct_object,a woman,1,1,2,female,1.0,tertiary
+43,3,escape,46,52,4803,4809,74,53.0,56.0,4810.0,4813.0,,,,,verb.motion,True,41,direct_object,the bird,1,9,10,male,0.8571428571428571,secondary
+44,9,revolving,190,199,5006,5015,74,200.0,227.0,5016.0,5043.0,228.0,273.0,,,verb.cognition,True,40,direct_object,the bird,1,9,10,male,0.8571428571428571,secondary
+46,3,touch,51,56,5314,5319,78,57.0,77.0,5320.0,5340.0,,,,,verb.contact,True,43,direct_object,the old crane,1,17,18,male,1.0,secondary
+48,5,avoid,74,79,5483,5488,12,80.0,111.0,5489.0,5520.0,,,,,verb.social,True,45,direct_object,The two sons,2,11,13,group/nonbinary,1.0,secondary
+49,0,paid,5,9,5528,5532,78,10.0,21.0,5533.0,5544.0,,,,,verb.cognition,True,44,direct_object,the old crane,1,17,18,male,1.0,secondary
+50,1,carried,16,23,5641,5648,38,24.0,34.0,5649.0,5659.0,35.0,50.0,5660.0,5675.0,verb.motion,True,47,direct_object,the father,3,5,8,male,1.0,tertiary
+52,4,carry,93,98,5880,5885,83,99.0,101.0,5886.0,5888.0,102.0,135.0,,,verb.contact,True,50,direct_object,the woman,2,23,25,female,1.0,primary
+53,0,obeyed,14,20,5967,5973,83,21.0,32.0,5974.0,5985.0,,,,,verb.communication,True,49,direct_object,the woman,2,23,25,female,1.0,primary
+54,2,touch,54,59,6063,6068,78,60.0,81.0,6069.0,6090.0,,,,,verb.contact,True,48,direct_object,the old crane,1,17,18,male,1.0,secondary
+56,3,respect,46,53,6256,6263,78,54.0,65.0,6264.0,6275.0,67.0,111.0,6277.0,6321.0,verb.cognition,True,52,direct_object,the old crane,1,17,18,male,1.0,secondary
+58,2,sought,76,82,6420,6426,83,83.0,124.0,6427.0,6468.0,,,,,verb.social,True,54,direct_object,the woman,2,23,25,female,1.0,primary
+59,2,free,75,79,6545,6549,78,80.0,107.0,6550.0,6577.0,,,,,verb.social,True,55,direct_object,the old crane,1,17,18,male,1.0,secondary
+59,2,free,75,79,6545,6549,83,80.0,107.0,6550.0,6577.0,,,,,verb.social,True,55,direct_object,the woman,2,23,25,female,1.0,primary
+64,0,adopted,58,65,7070,7077,93,66.0,105.0,7078.0,7117.0,187.0,226.0,7199.0,7238.0,verb.possession,True,59,direct_object,The family of the hunter,1,2,3,group/nonbinary,1.0,tertiary

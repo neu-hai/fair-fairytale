@@ -1,0 +1,134 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,found,27,32,152,157,4,23.0,26.0,148.0,151.0,44.0,69.0,169.0,194.0,verb.possession,True,1,subject,a young woman who was living all alone in the woods with nobody near her but her little dog,1,24,25,female,1.0,secondary
+2,7,saw,116,119,312,315,4,112.0,115.0,308.0,311.0,,,,,verb.perception,True,2,subject,a young woman who was living all alone in the woods with nobody near her but her little dog,1,24,25,female,1.0,secondary
+4,1,return,41,47,474,480,6,30.0,32.0,463.0,465.0,,,,,verb.motion,True,4,subject,a handsome young man,1,4,5,male,1.0,tertiary
+5,1,came,38,42,555,559,6,35.0,37.0,552.0,554.0,,,,,verb.motion,True,5,subject,a handsome young man,1,4,5,male,1.0,tertiary
+6,6,cries,140,145,709,714,98,137.0,139.0,706.0,708.0,,,,,verb.body,True,6,subject,a young woman who was living all alone in the woods with nobody near her but her little dog's child's brother,2,1,3,male,0.6,tertiary
+8,0,heard,30,35,872,877,12,20.0,29.0,862.0,871.0,,,,,verb.perception,True,8,subject,the woman,1,0,1,female,1.0,tertiary
+10,4,told,139,143,1430,1434,22,104.0,133.0,1395.0,1424.0,148.0,150.0,1439.0,1441.0,verb.communication,True,9,subject,old women,1,4,5,female,1.0,tertiary
+11,0,gave,11,15,1490,1494,22,1.0,5.0,1480.0,1484.0,,,,,verb.possession,True,11,subject,old women,1,4,5,female,1.0,tertiary
+12,3,knew,83,87,1614,1618,24,10.0,37.0,1541.0,1568.0,,,,,verb.cognition,True,10,subject,these old women,1,2,3,female,1.0,tertiary
+13,5,set,84,87,1737,1740,21,75.0,78.0,1728.0,1731.0,,,,,verb.contact,True,12,subject,The mother,1,9,10,female,1.0,tertiary
+14,1,send,36,40,1883,1887,28,0.0,15.0,1847.0,1862.0,,,,,verb.motion,True,13,subject,The young woman,3,23,26,female,1.0,secondary
+15,0,followed,9,17,1945,1953,28,0.0,3.0,1936.0,1939.0,,,,,verb.motion,True,14,subject,The young woman,3,23,26,female,1.0,secondary
+16,0,came,10,14,2051,2055,28,6.0,9.0,2047.0,2050.0,,,,,verb.motion,True,15,subject,The young woman,3,23,26,female,1.0,secondary
+17,0,told,4,8,2201,2205,28,0.0,3.0,2197.0,2200.0,,,,,verb.communication,True,16,subject,The young woman,3,23,26,female,1.0,secondary
+18,0,directed,9,17,2277,2285,28,5.0,8.0,2273.0,2276.0,,,,,verb.communication,True,17,subject,The young woman,3,23,26,female,1.0,secondary
+19,1,meaning,37,44,2478,2485,99,19.0,37.0,2460.0,2478.0,,,,,verb.communication,True,18,subject,The young woman's son's first child,1,0,1,unknown,0.0,tertiary
+19,1,meaning,37,44,2478,2485,35,19.0,37.0,2460.0,2478.0,,,,,verb.communication,True,18,subject,The young woman's son,2,19,21,male,1.0,secondary
+20,0,followed,33,41,2557,2565,28,0.0,16.0,2524.0,2540.0,,,,,verb.motion,True,19,subject,The young woman,3,23,26,female,1.0,secondary
+22,1,set,42,45,2788,2791,28,38.0,41.0,2784.0,2787.0,,,,,verb.contact,True,20,subject,The young woman,3,23,26,female,1.0,secondary
+23,2,addressing,27,37,2855,2865,28,17.0,20.0,2845.0,2848.0,,,,,verb.communication,True,21,subject,The young woman,3,23,26,female,1.0,secondary
+24,1,left,49,53,2962,2966,1,0.0,11.0,2913.0,2924.0,64.0,87.0,2977.0,3000.0,verb.motion,True,22,subject,Spirit - Iron,7,1,8,male,1.0,tertiary
+26,3,looked,72,78,3153,3159,35,0.0,2.0,3081.0,3083.0,,,,,verb.perception,True,23,subject,The young woman's son,2,19,21,male,1.0,secondary
+27,2,said,22,26,3189,3193,35,1.0,16.0,3168.0,3183.0,,,,,verb.communication,True,24,subject,The young woman's son,2,19,21,male,1.0,secondary
+29,2,whispered,54,63,3317,3326,35,37.0,39.0,3300.0,3302.0,,,,,verb.communication,True,27,subject,The young woman's son,2,19,21,male,1.0,secondary
+30,1,found,7,12,3476,3481,35,0.0,1.0,3469.0,3470.0,,,,,verb.perception,True,26,subject,The young woman's son,2,19,21,male,1.0,secondary
+31,2,prove,45,50,3574,3579,35,40.0,41.0,3569.0,3570.0,,,,,verb.communication,True,28,subject,The young woman's son,2,19,21,male,1.0,secondary
+33,3,send,86,90,3796,3800,47,0.0,13.0,3710.0,3723.0,,,,,verb.contact,True,29,subject,the young man,11,49,60,male,1.0,primary
+34,0,answered,15,23,3887,3895,20,0.0,14.0,3872.0,3886.0,,,,,verb.communication,True,30,subject,The Toad - Woman,5,3,8,female,1.0,tertiary
+35,1,send,13,17,3915,3919,20,11.0,12.0,3913.0,3914.0,,,,,verb.communication,True,31,subject,The Toad - Woman,5,3,8,female,1.0,tertiary
+36,2,refused,27,34,3972,3979,47,0.0,13.0,3945.0,3958.0,,,,,verb.possession,True,32,subject,the young man,11,49,60,male,1.0,primary
+37,0,consented,32,41,4012,4021,50,13.0,31.0,3993.0,4011.0,,,,,verb.communication,True,34,subject,the old Toad - Woman,5,8,13,female,1.0,tertiary
+38,1,gives,24,29,4095,4100,108,17.0,23.0,4088.0,4094.0,,,,,verb.possession,True,33,subject,The Toad - Woman's son,1,0,1,unknown,0.0,tertiary
+38,1,gives,24,29,4095,4100,20,17.0,23.0,4088.0,4094.0,,,,,verb.possession,True,33,subject,The Toad - Woman,5,3,8,female,1.0,tertiary
+40,0,paid,29,33,4287,4291,47,15.0,28.0,4273.0,4286.0,,,,,verb.communication,True,36,subject,the young man,11,49,60,male,1.0,primary
+41,0,told,9,13,4352,4356,28,0.0,3.0,4343.0,4346.0,,,,,verb.communication,True,37,subject,The young woman,3,23,26,female,1.0,secondary
+42,1,doubt,29,34,4520,4525,47,3.0,16.0,4494.0,4507.0,,,,,verb.cognition,True,40,subject,the young man,11,49,60,male,1.0,primary
+44,1,striving,70,78,4741,4749,47,36.0,65.0,4707.0,4736.0,,,,,verb.social,True,38,subject,the young man,11,49,60,male,1.0,primary
+44,1,striving,70,78,4741,4749,113,36.0,65.0,4707.0,4736.0,,,,,verb.social,True,38,subject,the young man's faithful brother,1,0,1,male,1.0,tertiary
+46,0,placing,20,27,4885,4892,47,5.0,18.0,4870.0,4883.0,,,,,verb.contact,True,41,subject,the young man,11,49,60,male,1.0,primary
+47,4,gave,146,150,5066,5070,64,81.0,100.0,5001.0,5020.0,183.0,201.0,5103.0,5121.0,verb.possession,True,42,subject,the dog Spirit - Iron,1,0,1,unknown,0.0,tertiary
+49,0,saw,24,27,5179,5182,50,5.0,23.0,5160.0,5178.0,,,,,verb.perception,True,43,subject,the old Toad - Woman,5,8,13,female,1.0,tertiary
+51,0,answered,10,18,5459,5467,50,1.0,3.0,5450.0,5452.0,,,,,verb.communication,True,46,subject,the old Toad - Woman,5,8,13,female,1.0,tertiary
+53,2,asked,58,63,5606,5611,20,33.0,57.0,5581.0,5605.0,,,,,verb.communication,True,45,subject,The Toad - Woman,5,3,8,female,1.0,tertiary
+54,0,said,3,7,5642,5646,47,0.0,2.0,5639.0,5641.0,,,,,verb.communication,True,47,subject,the young man,11,49,60,male,1.0,primary
+55,1,brought,24,31,5726,5733,50,0.0,3.0,5702.0,5705.0,,,,,verb.contact,True,48,subject,the old Toad - Woman,5,8,13,female,1.0,tertiary
+56,0,said,8,12,5757,5761,47,5.0,7.0,5754.0,5756.0,,,,,verb.communication,True,49,subject,the young man,11,49,60,male,1.0,primary
+57,0,went,4,8,5792,5796,50,0.0,3.0,5788.0,5791.0,,,,,verb.motion,True,50,subject,the old Toad - Woman,5,8,13,female,1.0,tertiary
+58,1,said,29,33,5898,5902,47,5.0,7.0,5874.0,5876.0,,,,,verb.communication,True,52,subject,the young man,11,49,60,male,1.0,primary
+60,5,produced,73,81,6019,6027,50,61.0,64.0,6007.0,6010.0,,,,,verb.creation,True,51,subject,the old Toad - Woman,5,8,13,female,1.0,tertiary
+61,0,saw,14,17,6059,6062,47,0.0,13.0,6045.0,6058.0,,,,,verb.cognition,True,54,subject,the young man,11,49,60,male,1.0,primary
+62,5,striving,102,110,6236,6244,47,0.0,2.0,6134.0,6136.0,,,,,verb.social,True,53,subject,the young man,11,49,60,male,1.0,primary
+63,0,had,3,6,6265,6268,47,0.0,2.0,6262.0,6264.0,17.0,20.0,6279.0,6282.0,verb.perception,True,56,subject,the young man,11,49,60,male,1.0,primary
+64,3,kill,78,82,6384,6388,47,57.0,70.0,6363.0,6376.0,,,,,verb.contact,True,55,subject,the young man,11,49,60,male,1.0,primary
+66,2,perched,66,73,6582,6589,47,63.0,65.0,6579.0,6581.0,98.0,145.0,6614.0,6661.0,verb.contact,True,58,subject,the young man,11,49,60,male,1.0,primary
+67,1,informed,27,35,6690,6698,47,24.0,26.0,6687.0,6689.0,,,,,verb.communication,True,59,subject,the young man,11,49,60,male,1.0,primary
+68,0,answered,4,12,6840,6848,2,0.0,3.0,6836.0,6839.0,,,,,verb.communication,True,61,subject,the old Toad - Woman,5,30,35,female,1.0,secondary
+71,1,blowing,81,88,7077,7084,47,41.0,66.0,7037.0,7062.0,105.0,193.0,7101.0,7189.0,verb.body,True,60,subject,the young man,11,49,60,male,1.0,primary
+72,0,set,10,13,7226,7229,85,0.0,4.0,7216.0,7220.0,19.0,115.0,7235.0,7331.0,verb.contact,True,62,subject,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+73,7,climb,154,159,7487,7492,2,138.0,141.0,7471.0,7474.0,,,,,verb.motion,True,63,subject,the old Toad - Woman,5,30,35,female,1.0,secondary
+75,0,returned,9,17,7571,7579,2,5.0,8.0,7567.0,7570.0,,,,,verb.motion,True,64,subject,the old Toad - Woman,5,30,35,female,1.0,secondary
+76,3,insult,58,64,7802,7808,85,49.0,52.0,7793.0,7796.0,,,,,verb.communication,True,65,subject,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+77,1,made,35,39,7874,7878,85,30.0,34.0,7869.0,7873.0,,,,,verb.social,True,66,subject,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+78,2,placed,51,57,7957,7963,85,25.0,29.0,7931.0,7935.0,,,,,verb.social,True,67,subject,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+79,0,ran,4,7,8025,8028,2,0.0,3.0,8021.0,8024.0,57.0,77.0,8078.0,8098.0,verb.motion,True,68,subject,the old Toad - Woman,5,30,35,female,1.0,secondary
+80,2,coming,96,102,8195,8201,1,74.0,94.0,8173.0,8193.0,,,,,verb.motion,True,69,subject,Spirit - Iron,7,1,8,male,1.0,tertiary
+84,3,avoid,100,105,8516,8521,94,5.0,88.0,8421.0,8504.0,,,,,verb.competition,True,72,subject,"the old Toad - Woman , who was almost as fond of these berries as she was of fat bears's old Toad - Woman , who was almost as fond of these berries as she was of fat bears",1,1,2,female,1.0,tertiary
+87,8,born,291,295,9007,9011,85,281.0,285.0,8997.0,9001.0,,,,,verb.body,True,71,subject,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+0,0,happened,21,29,21,29,4,30.0,124.0,30.0,124.0,,,,,verb.change,True,0,direct_object,a young woman who was living all alone in the woods with nobody near her but her little dog,1,24,25,female,1.0,secondary
+2,7,saw,116,119,312,315,6,120.0,169.0,316.0,365.0,,,,,verb.perception,True,2,direct_object,a handsome young man,1,4,5,male,1.0,tertiary
+3,1,seen,7,11,374,378,4,12.0,15.0,379.0,382.0,,,,,verb.perception,True,3,direct_object,a young woman who was living all alone in the woods with nobody near her but her little dog,1,24,25,female,1.0,secondary
+9,7,striven,150,157,1130,1137,18,158.0,166.0,1138.0,1146.0,,,,,verb.social,True,7,direct_object,an old woman,1,0,1,female,1.0,tertiary
+9,7,striven,150,157,1130,1137,20,158.0,166.0,1138.0,1146.0,,,,,verb.social,True,7,direct_object,The Toad - Woman,5,3,8,female,1.0,tertiary
+9,7,striven,150,157,1130,1137,4,158.0,166.0,1138.0,1146.0,,,,,verb.social,True,7,direct_object,a young woman who was living all alone in the woods with nobody near her but her little dog,1,24,25,female,1.0,secondary
+9,7,striven,150,157,1130,1137,10,158.0,166.0,1138.0,1146.0,,,,,verb.social,True,7,direct_object,a young woman who was living all alone in the woods with nobody near her but her little dog's child,4,1,5,female,1.0,tertiary
+10,4,told,139,143,1430,1434,23,144.0,147.0,1435.0,1438.0,148.0,150.0,1439.0,1441.0,verb.communication,True,9,direct_object,the child - thief,1,0,1,unknown,0.0,tertiary
+10,4,told,139,143,1430,1434,21,144.0,147.0,1435.0,1438.0,148.0,150.0,1439.0,1441.0,verb.communication,True,9,direct_object,The mother,1,9,10,female,1.0,tertiary
+11,0,gave,11,15,1490,1494,21,16.0,19.0,1495.0,1498.0,,,,,verb.possession,True,11,direct_object,The mother,1,9,10,female,1.0,tertiary
+13,5,set,84,87,1737,1740,21,88.0,192.0,1741.0,1845.0,,,,,verb.contact,True,12,direct_object,The mother,1,9,10,female,1.0,tertiary
+13,5,set,84,87,1737,1740,22,88.0,192.0,1741.0,1845.0,,,,,verb.contact,True,12,direct_object,old women,1,4,5,female,1.0,tertiary
+14,1,send,36,40,1883,1887,28,61.0,87.0,1908.0,1934.0,,,,,verb.motion,True,13,direct_object,The young woman,3,23,26,female,1.0,secondary
+16,0,came,10,14,2051,2055,32,15.0,24.0,2056.0,2065.0,,,,,verb.motion,True,15,direct_object,the last of the friendly old grandmothers,1,1,2,female,1.0,tertiary
+16,0,came,10,14,2051,2055,33,15.0,24.0,2056.0,2065.0,,,,,verb.motion,True,15,direct_object,the friendly old grandmothers,1,0,1,female,1.0,tertiary
+16,0,came,10,14,2051,2055,28,15.0,24.0,2056.0,2065.0,,,,,verb.motion,True,15,direct_object,The young woman,3,23,26,female,1.0,secondary
+17,0,told,4,8,2201,2205,35,9.0,12.0,2206.0,2209.0,,,,,verb.communication,True,16,direct_object,The young woman's son,2,19,21,male,1.0,secondary
+17,0,told,4,8,2201,2205,28,9.0,12.0,2206.0,2209.0,,,,,verb.communication,True,16,direct_object,The young woman,3,23,26,female,1.0,secondary
+18,0,directed,9,17,2277,2285,28,18.0,21.0,2286.0,2289.0,,,,,verb.communication,True,17,direct_object,The young woman,3,23,26,female,1.0,secondary
+19,1,meaning,37,44,2478,2485,35,45.0,80.0,2486.0,2521.0,,,,,verb.communication,True,18,direct_object,The young woman's son,2,19,21,male,1.0,secondary
+20,0,followed,33,41,2557,2565,28,70.0,76.0,2594.0,2600.0,,,,,verb.motion,True,19,direct_object,The young woman,3,23,26,female,1.0,secondary
+23,2,addressing,27,37,2855,2865,35,38.0,41.0,2866.0,2869.0,,,,,verb.communication,True,21,direct_object,The young woman's son,2,19,21,male,1.0,secondary
+28,0,marching,5,13,3199,3207,35,37.0,39.0,3231.0,3233.0,,,,,verb.motion,True,25,direct_object,The young woman's son,2,19,21,male,1.0,secondary
+30,1,found,7,12,3476,3481,105,13.0,29.0,3482.0,3498.0,,,,,verb.perception,True,26,direct_object,The young woman's son's young master's real mother,1,0,1,female,1.0,tertiary
+30,1,found,7,12,3476,3481,43,13.0,29.0,3482.0,3498.0,,,,,verb.perception,True,26,direct_object,The young woman's son's young master,1,4,5,male,1.0,tertiary
+31,2,prove,45,50,3574,3579,43,51.0,53.0,3580.0,3582.0,,,,,verb.communication,True,28,direct_object,The young woman's son's young master,1,4,5,male,1.0,tertiary
+33,3,send,86,90,3796,3800,106,91.0,120.0,3801.0,3830.0,,,,,verb.contact,True,29,direct_object,the stranger who has arrived lately,1,0,1,unknown,0.0,tertiary
+35,1,send,13,17,3915,3919,2,18.0,40.0,3920.0,3942.0,,,,,verb.communication,True,31,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary
+35,1,send,13,17,3915,3919,107,18.0,40.0,3920.0,3942.0,,,,,verb.communication,True,31,direct_object,the poor widow,1,0,1,unknown,0.0,tertiary
+38,1,gives,24,29,4095,4100,47,30.0,33.0,4101.0,4104.0,,,,,verb.possession,True,33,direct_object,the young man,11,49,60,male,1.0,primary
+39,1,bewitched,11,20,4123,4132,3,21.0,41.0,4133.0,4153.0,,,,,verb.emotion,True,35,direct_object,Mukakee Mindemoea,1,0,1,unknown,0.0,tertiary
+40,0,paid,29,33,4287,4291,2,34.0,46.0,4292.0,4304.0,,,,,verb.communication,True,36,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary
+40,0,paid,29,33,4287,4291,54,34.0,46.0,4292.0,4304.0,,,,,verb.communication,True,36,direct_object,the stranger,1,0,1,unknown,0.0,tertiary
+41,0,told,9,13,4352,4356,47,14.0,17.0,4357.0,4360.0,,,,,verb.communication,True,37,direct_object,the young man,11,49,60,male,1.0,primary
+41,0,told,9,13,4352,4356,59,14.0,17.0,4357.0,4360.0,,,,,verb.communication,True,37,direct_object,a child - thief,1,0,1,unknown,0.0,tertiary
+41,0,told,9,13,4352,4356,28,14.0,17.0,4357.0,4360.0,,,,,verb.communication,True,37,direct_object,The young woman,3,23,26,female,1.0,secondary
+41,0,told,9,13,4352,4356,57,14.0,17.0,4357.0,4360.0,,,,,verb.communication,True,37,direct_object,the young man's real mother,1,0,1,female,1.0,tertiary
+41,0,told,9,13,4352,4356,50,14.0,17.0,4357.0,4360.0,,,,,verb.communication,True,37,direct_object,the old Toad - Woman,5,8,13,female,1.0,tertiary
+41,0,told,9,13,4352,4356,60,14.0,17.0,4357.0,4360.0,,,,,verb.communication,True,37,direct_object,a witch,1,0,1,unknown,0.0,tertiary
+43,1,ails,35,39,4624,4628,47,40.0,43.0,4629.0,4632.0,,,,,verb.emotion,True,39,direct_object,the young man,11,49,60,male,1.0,primary
+44,1,striving,70,78,4741,4749,47,79.0,90.0,4750.0,4761.0,,,,,verb.social,True,38,direct_object,the young man,11,49,60,male,1.0,primary
+46,0,placing,20,27,4885,4892,47,28.0,32.0,4893.0,4897.0,,,,,verb.contact,True,41,direct_object,the young man,11,49,60,male,1.0,primary
+47,4,gave,146,150,5066,5070,47,151.0,154.0,5071.0,5074.0,183.0,201.0,5103.0,5121.0,verb.possession,True,42,direct_object,the young man,11,49,60,male,1.0,primary
+50,4,come,127,131,5369,5373,47,132.0,140.0,5374.0,5382.0,,,,,verb.change,True,44,direct_object,the young man,11,49,60,male,1.0,primary
+51,0,answered,10,18,5459,5467,47,21.0,76.0,5470.0,5525.0,,,,,verb.communication,True,46,direct_object,the young man,11,49,60,male,1.0,primary
+53,2,asked,58,63,5606,5611,47,64.0,89.0,5612.0,5637.0,,,,,verb.communication,True,45,direct_object,the young man,11,49,60,male,1.0,primary
+53,2,asked,58,63,5606,5611,50,64.0,89.0,5612.0,5637.0,,,,,verb.communication,True,45,direct_object,the old Toad - Woman,5,8,13,female,1.0,tertiary
+54,0,said,3,7,5642,5646,47,8.0,61.0,5647.0,5700.0,,,,,verb.communication,True,47,direct_object,the young man,11,49,60,male,1.0,primary
+56,0,said,8,12,5757,5761,47,15.0,36.0,5764.0,5785.0,,,,,verb.communication,True,49,direct_object,the young man,11,49,60,male,1.0,primary
+58,1,said,29,33,5898,5902,47,36.0,52.0,5905.0,5921.0,,,,,verb.communication,True,52,direct_object,the young man,11,49,60,male,1.0,primary
+61,0,saw,14,17,6059,6062,47,18.0,87.0,6063.0,6132.0,,,,,verb.cognition,True,54,direct_object,the young man,11,49,60,male,1.0,primary
+64,3,kill,78,82,6384,6388,77,83.0,93.0,6389.0,6399.0,,,,,verb.contact,True,55,direct_object,a fat bear,2,0,2,unknown,0.0,tertiary
+65,1,directed,12,20,6412,6420,1,21.0,71.0,6421.0,6471.0,,,,,verb.communication,True,57,direct_object,Spirit - Iron,7,1,8,male,1.0,tertiary
+65,1,directed,12,20,6412,6420,47,21.0,71.0,6421.0,6471.0,,,,,verb.communication,True,57,direct_object,the young man,11,49,60,male,1.0,primary
+67,1,informed,27,35,6690,6698,2,36.0,54.0,6699.0,6717.0,,,,,verb.communication,True,59,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary
+68,0,answered,4,12,6840,6848,2,15.0,53.0,6851.0,6889.0,,,,,verb.communication,True,61,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary
+72,0,set,10,13,7226,7229,85,14.0,18.0,7230.0,7234.0,19.0,115.0,7235.0,7331.0,verb.contact,True,62,direct_object,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+76,3,insult,58,64,7802,7808,98,65.0,92.0,7809.0,7836.0,,,,,verb.communication,True,65,direct_object,a young woman who was living all alone in the woods with nobody near her but her little dog's child's brother,2,1,3,male,0.6,tertiary
+76,3,insult,58,64,7802,7808,85,65.0,92.0,7809.0,7836.0,,,,,verb.communication,True,65,direct_object,the Toad - Woman 's four children,1,14,15,female,1.0,tertiary
+77,1,made,35,39,7874,7878,2,40.0,66.0,7879.0,7905.0,,,,,verb.social,True,66,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary
+78,2,placed,51,57,7957,7963,2,58.0,81.0,7964.0,7987.0,,,,,verb.social,True,67,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary
+79,0,ran,4,7,8025,8028,47,8.0,56.0,8029.0,8077.0,57.0,77.0,8078.0,8098.0,verb.motion,True,68,direct_object,the young man,11,49,60,male,1.0,primary
+79,0,ran,4,7,8025,8028,74,8.0,56.0,8029.0,8077.0,57.0,77.0,8078.0,8098.0,verb.motion,True,68,direct_object,the young man's mother,3,0,3,female,1.0,tertiary
+80,2,coming,96,102,8195,8201,1,103.0,125.0,8202.0,8224.0,,,,,verb.motion,True,69,direct_object,Spirit - Iron,7,1,8,male,1.0,tertiary
+80,2,coming,96,102,8195,8201,91,103.0,125.0,8202.0,8224.0,,,,,verb.motion,True,69,direct_object,Spirit - Iron's master,1,0,1,unknown,0.0,tertiary
+81,1,detain,33,39,8291,8297,2,40.0,43.0,8298.0,8301.0,,,,,verb.contact,True,70,direct_object,the old Toad - Woman,5,30,35,female,1.0,secondary

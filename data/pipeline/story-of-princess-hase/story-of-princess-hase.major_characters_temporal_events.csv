@@ -1,0 +1,222 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+3,3,born,85,89,437,441,24,19.0,45.0,371.0,397.0,,,,,verb.change,True,1,subject,no child,1.0,0.0,1.0,unknown,0.0,tertiary
+5,1,determined,74,84,726,736,26,0.0,30.0,652.0,682.0,,,,,verb.cognition,True,3,subject,The Prince,2.0,2.0,4.0,male,1.0,tertiary
+5,1,determined,74,84,726,736,27,0.0,30.0,652.0,682.0,,,,,verb.cognition,True,3,subject,The Prince's lovely wife,1.0,0.0,1.0,female,1.0,tertiary
+6,3,answer,115,121,934,940,30,76.0,95.0,895.0,914.0,145.0,180.0,964.0,999.0,verb.communication,True,4,subject,the Mother of Mercy,1.0,1.0,2.0,female,1.0,tertiary
+7,1,come,49,53,1050,1054,30,39.0,42.0,1040.0,1043.0,62.0,181.0,1063.0,1182.0,verb.motion,True,6,subject,the Mother of Mercy,1.0,1.0,2.0,female,1.0,tertiary
+9,2,offering,119,127,1435,1443,26,3.0,35.0,1319.0,1351.0,,,,,verb.consumption,True,5,subject,The Prince,2.0,2.0,4.0,male,1.0,tertiary
+9,2,offering,119,127,1435,1443,7,3.0,35.0,1319.0,1351.0,,,,,verb.consumption,True,5,subject,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+9,2,offering,119,127,1435,1443,20,3.0,35.0,1319.0,1351.0,,,,,verb.consumption,True,5,subject,a wise State minister's wife,4.0,0.0,4.0,female,1.0,tertiary
+11,1,born,15,19,1590,1594,37,0.0,10.0,1575.0,1585.0,,,,,verb.body,True,7,subject,A daughter,1.0,2.0,3.0,female,1.0,tertiary
+14,3,save,122,126,2044,2048,45,76.0,111.0,1998.0,2033.0,,,,,verb.social,True,10,subject,all the doctors,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+16,0,die,9,12,2234,2237,44,7.0,8.0,2232.0,2233.0,,,,,verb.change,True,12,subject,the little girl's mother,5.0,10.0,15.0,female,1.0,secondary
+18,1,marry,25,30,2370,2375,46,8.0,19.0,2353.0,2364.0,,,,,verb.social,True,14,subject,the little girl's mother's daughter,1.0,16.0,17.0,unknown,0.0,secondary
+18,1,marry,25,30,2370,2375,252,8.0,19.0,2353.0,2364.0,,,,,verb.social,True,14,subject,the little girl's mother's daughter's father,3.0,0.0,3.0,male,1.0,tertiary
+22,0,die,2,5,2724,2727,44,0.0,1.0,2722.0,2723.0,,,,,verb.change,True,15,subject,the little girl's mother,5.0,10.0,15.0,female,1.0,secondary
+23,5,told,105,109,2885,2889,44,88.0,91.0,2868.0,2871.0,,,,,verb.communication,True,17,subject,the little girl's mother,5.0,10.0,15.0,female,1.0,secondary
+25,0,married,60,67,3201,3208,7,44.0,59.0,3185.0,3200.0,,,,,verb.social,True,18,subject,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+28,3,saving,100,106,3471,3477,54,0.0,3.0,3371.0,3374.0,,,,,verb.communication,True,21,subject,this woman,1.0,5.0,6.0,female,1.0,tertiary
+31,1,obeyed,48,54,3635,3641,10,0.0,3.0,3587.0,3590.0,59.0,203.0,3646.0,3790.0,verb.social,True,20,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+33,2,practicing,30,40,3921,3931,10,0.0,3.0,3891.0,3894.0,,,,,verb.social,True,22,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+34,2,play,43,47,4127,4131,10,33.0,36.0,4117.0,4120.0,,,,,verb.creation,True,23,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+36,5,accompany,175,184,4500,4509,44,141.0,167.0,4466.0,4492.0,,,,,verb.motion,True,25,subject,the little girl's mother,5.0,10.0,15.0,female,1.0,secondary
+36,5,accompany,175,184,4500,4509,11,141.0,167.0,4466.0,4492.0,,,,,verb.motion,True,25,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+36,5,accompany,175,184,4500,4509,10,141.0,167.0,4466.0,4492.0,,,,,verb.motion,True,25,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+38,1,astonished,60,70,4815,4825,10,0.0,9.0,4755.0,4764.0,83.0,117.0,4838.0,4872.0,verb.cognition,True,26,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+39,0,played,31,37,4905,4911,10,27.0,30.0,4901.0,4904.0,,,,,verb.creation,True,28,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+40,1,took,69,73,4987,4991,57,21.0,36.0,4939.0,4954.0,98.0,103.0,5016.0,5021.0,verb.social,True,27,subject,Hase - Hime's step - mother,5.0,3.0,8.0,female,1.0,tertiary
+40,1,took,69,73,4987,4991,10,21.0,36.0,4939.0,4954.0,98.0,103.0,5016.0,5021.0,verb.social,True,27,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+41,4,failed,79,85,5196,5202,11,71.0,74.0,5188.0,5191.0,,,,,verb.social,True,29,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+42,1,sent,34,38,5272,5276,64,22.0,33.0,5260.0,5271.0,83.0,130.0,5321.0,5368.0,verb.communication,True,31,subject,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+43,5,born,126,130,5496,5500,82,120.0,125.0,5490.0,5495.0,,,,,verb.body,True,30,subject,a son,1.0,0.0,1.0,unknown,0.0,tertiary
+44,3,allowed,49,56,5680,5687,11,45.0,48.0,5676.0,5679.0,,,,,verb.communication,True,32,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+45,1,poisoned,48,56,5822,5830,11,11.0,14.0,5785.0,5788.0,,,,,verb.creation,True,33,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+46,1,put,23,26,5871,5874,11,0.0,18.0,5848.0,5866.0,,,,,verb.contact,True,34,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+47,0,poured,32,38,5922,5928,11,0.0,27.0,5890.0,5917.0,,,,,verb.change,True,36,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+48,2,playing,81,88,6026,6033,10,67.0,76.0,6012.0,6021.0,,,,,verb.social,True,35,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+49,3,telling,64,71,6123,6130,11,56.0,59.0,6115.0,6118.0,,,,,verb.communication,True,37,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+50,3,entered,94,101,6267,6274,90,83.0,93.0,6256.0,6266.0,,,,,verb.motion,True,38,subject,Princess Terute's little brother's mother,3.0,1.0,4.0,female,1.0,tertiary
+50,3,entered,94,101,6267,6274,85,83.0,93.0,6256.0,6266.0,,,,,verb.motion,True,38,subject,Princess Terute's little brother,1.0,4.0,5.0,male,0.6428571428571429,tertiary
+52,2,brought,59,66,6423,6430,11,52.0,53.0,6416.0,6417.0,87.0,98.0,6451.0,6462.0,verb.contact,True,39,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+53,0,filled,8,14,6523,6529,11,4.0,7.0,6519.0,6522.0,,,,,verb.change,True,40,subject,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+54,0,dreaming,17,25,6584,6592,10,0.0,9.0,6567.0,6576.0,,,,,verb.creation,True,42,subject,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+55,1,marked,31,37,6782,6788,93,0.0,16.0,6751.0,6767.0,,,,,verb.contact,True,41,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+56,1,watching,32,40,6987,6995,93,14.0,17.0,6969.0,6972.0,,,,,verb.perception,True,43,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+57,1,threw,37,42,7131,7136,99,9.0,23.0,7103.0,7117.0,,,,,verb.contact,True,44,subject,the little boy,1.0,7.0,8.0,male,1.0,tertiary
+58,5,lifted,122,128,7303,7309,99,0.0,10.0,7181.0,7191.0,133.0,135.0,7314.0,7316.0,verb.contact,True,45,subject,the little boy,1.0,7.0,8.0,male,1.0,tertiary
+58,5,lifted,122,128,7303,7309,90,0.0,10.0,7181.0,7191.0,133.0,135.0,7314.0,7316.0,verb.contact,True,45,subject,Princess Terute's little brother's mother,3.0,1.0,4.0,female,1.0,tertiary
+61,1,punished,26,34,7610,7618,93,9.0,25.0,7593.0,7609.0,,,,,verb.social,True,48,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+62,2,hate,41,45,7738,7742,93,28.0,31.0,7725.0,7728.0,56.0,122.0,7753.0,7819.0,verb.emotion,True,49,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+63,0,watched,12,19,7833,7840,93,0.0,3.0,7821.0,7824.0,,,,,verb.perception,True,52,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+64,3,mentioned,65,74,7977,7986,93,42.0,45.0,7954.0,7957.0,,,,,verb.communication,True,51,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+71,3,confirmed,210,219,8881,8890,93,198.0,209.0,8869.0,8880.0,,,,,verb.communication,True,56,subject,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+71,3,confirmed,210,219,8881,8890,72,198.0,209.0,8869.0,8880.0,,,,,verb.communication,True,56,subject,Hase - Hime's masters,2.0,0.0,2.0,unknown,0.0,tertiary
+72,1,moved,52,57,8955,8960,124,10.0,47.0,8913.0,8950.0,65.0,84.0,8968.0,8987.0,verb.motion,True,55,subject,a beautiful and gifted maiden - poetess,1.0,0.0,1.0,female,1.0,tertiary
+73,2,offer,46,51,9154,9159,14,3.0,20.0,9111.0,9128.0,55.0,64.0,9163.0,9172.0,verb.possession,True,57,subject,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+74,2,sent,76,80,9345,9349,64,73.0,75.0,9342.0,9344.0,,,,,verb.communication,True,58,subject,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+75,2,told,84,88,9491,9495,60,56.0,66.0,9463.0,9473.0,,,,,verb.communication,True,59,subject,Hase - Hime's father,9.0,9.0,18.0,male,1.0,secondary
+75,2,told,84,88,9491,9495,14,56.0,66.0,9463.0,9473.0,,,,,verb.communication,True,59,subject,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+77,2,finished,38,46,9690,9698,14,25.0,33.0,9677.0,9685.0,,,,,verb.change,True,61,subject,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+79,3,read,153,157,9922,9926,14,149.0,152.0,9918.0,9921.0,192.0,231.0,9961.0,10000.0,verb.cognition,True,62,subject,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+82,0,recovered,28,37,10173,10182,64,11.0,22.0,10156.0,10167.0,,,,,verb.body,True,63,subject,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+83,1,sent,36,40,10231,10235,69,0.0,11.0,10195.0,10206.0,,,,,verb.motion,True,64,subject,The Emperor's Majesty,2.0,0.0,2.0,unknown,0.0,tertiary
+83,1,sent,36,40,10231,10235,64,0.0,11.0,10195.0,10206.0,,,,,verb.motion,True,64,subject,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+84,2,respected,83,92,10429,10438,14,15.0,18.0,10361.0,10364.0,,,,,verb.emotion,True,66,subject,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+88,0,burned,22,28,10817,10823,150,0.0,21.0,10795.0,10816.0,42.0,51.0,10837.0,10846.0,verb.perception,True,68,subject,Princess Hase's stepmother,1.0,12.0,13.0,female,1.0,tertiary
+89,1,carried,23,30,10871,10878,150,10.0,18.0,10858.0,10866.0,46.0,84.0,10894.0,10932.0,verb.communication,True,67,subject,Princess Hase's stepmother,1.0,12.0,13.0,female,1.0,tertiary
+90,1,listen,9,15,10943,10949,39,0.0,2.0,10934.0,10936.0,38.0,85.0,10972.0,11019.0,verb.perception,True,69,subject,A daughter's husband,4.0,1.0,5.0,male,1.0,tertiary
+91,3,kill,198,202,11219,11223,157,83.0,106.0,11104.0,11127.0,207.0,212.0,11228.0,11233.0,verb.contact,True,70,subject,the step - mother's of her old servants,1.0,0.0,1.0,unknown,0.0,tertiary
+91,3,kill,198,202,11219,11223,155,83.0,106.0,11104.0,11127.0,207.0,212.0,11228.0,11233.0,verb.contact,True,70,subject,the step - mother,2.0,8.0,10.0,female,1.0,tertiary
+91,3,kill,198,202,11219,11223,158,83.0,106.0,11104.0,11127.0,207.0,212.0,11228.0,11233.0,verb.contact,True,70,subject,the step - mother's old servants,1.0,0.0,1.0,unknown,0.0,tertiary
+92,0,invented,4,12,11239,11247,155,0.0,3.0,11235.0,11238.0,57.0,149.0,11292.0,11384.0,verb.creation,True,71,subject,the step - mother,2.0,8.0,10.0,female,1.0,tertiary
+93,2,obey,33,37,11419,11423,16,0.0,18.0,11386.0,11404.0,,,,,verb.social,True,72,subject,Katoda,2.0,13.0,15.0,male,1.0,secondary
+93,2,obey,33,37,11419,11423,155,0.0,18.0,11386.0,11404.0,,,,,verb.social,True,72,subject,the step - mother,2.0,8.0,10.0,female,1.0,tertiary
+93,2,obey,33,37,11419,11423,164,0.0,18.0,11386.0,11404.0,,,,,verb.social,True,72,subject,the step - mother's vassal,1.0,0.0,1.0,unknown,0.0,tertiary
+94,0,saw,11,14,11449,11452,16,8.0,10.0,11446.0,11448.0,,,,,verb.cognition,True,73,subject,Katoda,2.0,13.0,15.0,male,1.0,secondary
+95,0,placed,3,9,11547,11553,16,0.0,2.0,11544.0,11546.0,20.0,34.0,11564.0,11578.0,verb.contact,True,74,subject,Katoda,2.0,13.0,15.0,male,1.0,secondary
+96,7,told,144,148,11806,11810,170,136.0,139.0,11798.0,11801.0,,,,,verb.communication,True,75,subject,The poor child,1.0,3.0,4.0,female,1.0,tertiary
+97,5,save,181,185,11993,11997,172,164.0,166.0,11976.0,11978.0,,,,,verb.social,True,76,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+98,0,killed,10,16,12018,12024,172,7.0,9.0,12015.0,12017.0,,,,,verb.contact,True,77,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+99,2,sent,74,78,12206,12210,172,31.0,33.0,12163.0,12165.0,,,,,verb.communication,True,78,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+101,2,told,54,58,12519,12523,7,0.0,15.0,12465.0,12480.0,,,,,verb.communication,True,80,subject,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+103,0,told,23,27,12684,12688,187,0.0,22.0,12661.0,12683.0,,,,,verb.communication,True,82,subject,Every one in the house,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+104,1,searched,49,57,12828,12836,172,20.0,22.0,12799.0,12801.0,,,,,verb.perception,True,81,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+105,3,told,81,85,12971,12975,172,46.0,48.0,12936.0,12938.0,,,,,verb.communication,True,83,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+106,1,mounted,25,32,13063,13070,190,0.0,4.0,13038.0,13042.0,,,,,verb.motion,True,84,subject,the old servant's men,1.0,3.0,4.0,male,1.0,tertiary
+107,0,rode,3,7,13111,13115,172,0.0,2.0,13108.0,13110.0,,,,,verb.motion,True,85,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+108,1,found,48,53,13250,13255,172,0.0,2.0,13202.0,13204.0,62.0,92.0,13264.0,13294.0,verb.perception,True,86,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+111,2,approached,62,72,13624,13634,172,32.0,34.0,13594.0,13596.0,,,,,verb.motion,True,89,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+112,1,increased,31,40,13679,13688,172,18.0,30.0,13666.0,13678.0,,,,,verb.change,True,91,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+113,2,sitting,38,45,13783,13790,204,30.0,33.0,13775.0,13778.0,,,,,verb.contact,True,90,subject,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+114,2,reading,36,43,13844,13851,204,32.0,35.0,13840.0,13843.0,68.0,87.0,13876.0,13895.0,verb.cognition,True,92,subject,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+115,1,entered,58,65,13955,13962,172,23.0,25.0,13920.0,13922.0,,,,,verb.motion,True,94,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+116,3,heard,58,63,14091,14096,204,46.0,49.0,14079.0,14082.0,83.0,96.0,14116.0,14129.0,verb.perception,True,93,subject,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+118,0,cried,3,8,14147,14152,172,0.0,2.0,14144.0,14146.0,,,,,verb.communication,True,95,subject,the old servant,1.0,36.0,37.0,male,1.0,primary
+119,2,realize,36,43,14217,14224,204,19.0,22.0,14200.0,14203.0,,,,,verb.cognition,True,96,subject,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+123,0,stroked,11,18,14547,14554,60,0.0,10.0,14536.0,14546.0,34.0,85.0,14570.0,14621.0,verb.contact,True,98,subject,Hase - Hime's father,9.0,9.0,18.0,male,1.0,secondary
+123,0,stroked,11,18,14547,14554,204,0.0,10.0,14536.0,14546.0,34.0,85.0,14570.0,14621.0,verb.contact,True,98,subject,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+124,1,bowing,51,57,14744,14750,16,5.0,36.0,14698.0,14729.0,66.0,97.0,14759.0,14790.0,verb.motion,True,99,subject,Katoda,2.0,13.0,15.0,male,1.0,secondary
+124,1,bowing,51,57,14744,14750,211,5.0,36.0,14698.0,14729.0,66.0,97.0,14759.0,14790.0,verb.motion,True,99,subject,the faithful old servant,1.0,0.0,1.0,unknown,0.0,tertiary
+125,1,telling,38,45,14830,14837,16,0.0,2.0,14792.0,14794.0,,,,,verb.communication,True,100,subject,Katoda,2.0,13.0,15.0,male,1.0,secondary
+126,0,knew,42,46,15030,15034,26,0.0,41.0,14988.0,15029.0,,,,,verb.cognition,True,101,subject,The Prince,2.0,2.0,4.0,male,1.0,tertiary
+127,1,hurried,32,39,15078,15085,16,0.0,2.0,15046.0,15048.0,,,,,verb.motion,True,102,subject,Katoda,2.0,13.0,15.0,male,1.0,secondary
+128,8,returned,222,230,15332,15340,155,80.0,121.0,15190.0,15231.0,,,,,verb.motion,True,105,subject,the step - mother,2.0,8.0,10.0,female,1.0,tertiary
+128,8,returned,222,230,15332,15340,39,80.0,121.0,15190.0,15231.0,,,,,verb.motion,True,105,subject,A daughter's husband,4.0,1.0,5.0,male,1.0,tertiary
+129,1,rewarded,27,35,15437,15445,227,0.0,22.0,15410.0,15432.0,,,,,verb.social,True,104,subject,The old servant Katoda,1.0,1.0,2.0,male,1.0,tertiary
+130,3,owed,99,103,15597,15601,229,95.0,98.0,15593.0,15596.0,,,,,verb.possession,True,103,subject,"the little Princess , who never forgot that she owed her life to this faithful retainer's little Princess , who never forgot that she owed her life to this faithful retainer",1.0,5.0,6.0,female,1.0,tertiary
+131,1,troubled,18,26,15656,15664,229,0.0,3.0,15638.0,15641.0,,,,,verb.emotion,True,106,subject,"the little Princess , who never forgot that she owed her life to this faithful retainer's little Princess , who never forgot that she owed her life to this faithful retainer",1.0,5.0,6.0,female,1.0,tertiary
+132,3,marry,106,111,15854,15859,7,31.0,33.0,15779.0,15781.0,,,,,verb.social,True,107,subject,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+136,2,drawn,96,101,16416,16421,17,42.0,95.0,16362.0,16415.0,,,,,verb.contact,True,108,subject,Buddha,1.0,0.0,1.0,unknown,0.0,tertiary
+2,2,married,14,21,226,233,23,22.0,50.0,234.0,262.0,51.0,95.0,263.0,307.0,verb.social,True,0,direct_object,their respective families,1.0,0.0,1.0,unknown,0.0,tertiary
+4,1,longed,43,49,494,500,25,50.0,199.0,501.0,650.0,,,,,verb.emotion,True,2,direct_object,"a child of their own who would grow up to gladden their old age , carry on the family name , and keep up the ancestral rites when they were dead",1.0,0.0,1.0,unknown,0.0,tertiary
+5,1,determined,74,84,726,736,29,85.0,165.0,737.0,817.0,,,,,verb.cognition,True,3,direct_object,Goddess of Mercy at Hase,1.0,0.0,1.0,unknown,0.0,tertiary
+6,3,answer,115,121,934,940,31,122.0,144.0,941.0,963.0,145.0,180.0,964.0,999.0,verb.communication,True,4,direct_object,mortals,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+7,1,come,49,53,1050,1054,31,54.0,61.0,1055.0,1062.0,62.0,181.0,1063.0,1182.0,verb.motion,True,6,direct_object,mortals,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+12,1,decided,50,57,1715,1722,38,58.0,104.0,1723.0,1769.0,106.0,159.0,1771.0,1824.0,verb.cognition,True,8,direct_object,the child,3.0,3.0,6.0,female,1.0,tertiary
+12,1,decided,50,57,1715,1722,40,58.0,104.0,1723.0,1769.0,106.0,159.0,1771.0,1824.0,verb.cognition,True,8,direct_object,the Princess of Hase,1.0,0.0,1.0,female,1.0,tertiary
+13,0,reared,10,16,1836,1842,38,17.0,20.0,1843.0,1846.0,21.0,51.0,1847.0,1877.0,verb.creation,True,9,direct_object,the child,3.0,3.0,6.0,female,1.0,tertiary
+14,3,save,122,126,2044,2048,43,127.0,130.0,2049.0,2052.0,,,,,verb.social,True,10,direct_object,the little girl,1.0,3.0,4.0,female,1.0,tertiary
+15,2,stroking,81,89,2135,2143,43,90.0,98.0,2144.0,2152.0,,,,,verb.contact,True,11,direct_object,the little girl,1.0,3.0,4.0,female,1.0,tertiary
+17,0,do,0,2,2269,2271,46,3.0,12.0,2272.0,2281.0,13.0,74.0,,,verb.social,True,13,direct_object,the little girl's mother's daughter,1.0,16.0,17.0,unknown,0.0,secondary
+20,0,remember,0,8,2575,2583,46,9.0,126.0,2584.0,2701.0,,,,,verb.cognition,True,16,direct_object,the little girl's mother's daughter,1.0,16.0,17.0,unknown,0.0,secondary
+20,0,remember,0,8,2575,2583,261,9.0,126.0,2584.0,2701.0,,,,,verb.cognition,True,16,direct_object,the little girl's mother's daughter's those who are under you,1.0,0.0,1.0,unknown,0.0,tertiary
+20,0,remember,0,8,2575,2583,260,9.0,126.0,2584.0,2701.0,,,,,verb.cognition,True,16,direct_object,the little girl's mother's daughter's superiors,1.0,0.0,1.0,unknown,0.0,tertiary
+20,0,remember,0,8,2575,2583,259,9.0,126.0,2584.0,2701.0,,,,,verb.cognition,True,16,direct_object,"the little girl's mother's daughter's who are your superiors , and to be kind to all those who are under you",1.0,0.0,1.0,unknown,0.0,tertiary
+24,8,understand,201,211,3092,3102,44,212.0,248.0,3103.0,3139.0,,,,,verb.cognition,True,19,direct_object,the little girl's mother,5.0,10.0,15.0,female,1.0,secondary
+24,8,understand,201,211,3092,3102,10,212.0,248.0,3103.0,3139.0,,,,,verb.cognition,True,19,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+28,3,saving,100,106,3471,3477,54,107.0,117.0,3478.0,3488.0,,,,,verb.communication,True,21,direct_object,this woman,1.0,5.0,6.0,female,1.0,tertiary
+28,3,saving,100,106,3471,3477,263,107.0,117.0,3478.0,3488.0,,,,,verb.communication,True,21,direct_object,this woman's child,2.0,0.0,2.0,unknown,0.0,tertiary
+31,1,obeyed,48,54,3635,3641,57,55.0,58.0,3642.0,3645.0,59.0,203.0,3646.0,3790.0,verb.social,True,20,direct_object,Hase - Hime's step - mother,5.0,3.0,8.0,female,1.0,tertiary
+34,2,play,43,47,4127,4131,57,63.0,149.0,4147.0,4233.0,,,,,verb.creation,True,23,direct_object,Hase - Hime's step - mother,5.0,3.0,8.0,female,1.0,tertiary
+34,2,play,43,47,4127,4131,64,63.0,149.0,4147.0,4233.0,,,,,verb.creation,True,23,direct_object,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+34,2,play,43,47,4127,4131,10,63.0,149.0,4147.0,4233.0,,,,,verb.creation,True,23,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+36,5,accompany,175,184,4500,4509,14,185.0,188.0,4510.0,4513.0,,,,,verb.motion,True,25,direct_object,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+37,11,look,200,204,4728,4732,64,205.0,225.0,4733.0,4753.0,,,,,verb.perception,True,24,direct_object,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+38,1,astonished,60,70,4815,4825,72,71.0,82.0,4826.0,4837.0,83.0,117.0,4838.0,4872.0,verb.cognition,True,26,direct_object,Hase - Hime's masters,2.0,0.0,2.0,unknown,0.0,tertiary
+38,1,astonished,60,70,4815,4825,10,71.0,82.0,4826.0,4837.0,83.0,117.0,4838.0,4872.0,verb.cognition,True,26,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+41,4,failed,79,85,5196,5202,11,86.0,119.0,5203.0,5236.0,,,,,verb.social,True,29,direct_object,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+41,4,failed,79,85,5196,5202,55,86.0,119.0,5203.0,5236.0,,,,,verb.social,True,29,direct_object,this woman's step - daughter,6.0,0.0,6.0,unknown,0.0,tertiary
+42,1,sent,34,38,5272,5276,59,39.0,59.0,5277.0,5297.0,83.0,130.0,5321.0,5368.0,verb.communication,True,31,direct_object,The little Princess,4.0,2.0,6.0,female,1.0,tertiary
+44,3,allowed,49,56,5680,5687,11,57.0,141.0,5688.0,5772.0,,,,,verb.communication,True,32,direct_object,Princess Terute,5.0,22.0,27.0,female,1.0,secondary
+44,3,allowed,49,56,5680,5687,55,57.0,141.0,5688.0,5772.0,,,,,verb.communication,True,32,direct_object,this woman's step - daughter,6.0,0.0,6.0,unknown,0.0,tertiary
+49,3,telling,64,71,6123,6130,85,72.0,75.0,6131.0,6134.0,,,,,verb.communication,True,37,direct_object,Princess Terute's little brother,1.0,4.0,5.0,male,0.6428571428571429,tertiary
+54,0,dreaming,17,25,6584,6592,57,26.0,73.0,6593.0,6640.0,,,,,verb.creation,True,42,direct_object,Hase - Hime's step - mother,5.0,3.0,8.0,female,1.0,tertiary
+54,0,dreaming,17,25,6584,6592,10,26.0,73.0,6593.0,6640.0,,,,,verb.creation,True,42,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+56,1,watching,32,40,6987,6995,59,41.0,60.0,6996.0,7015.0,,,,,verb.perception,True,43,direct_object,The little Princess,4.0,2.0,6.0,female,1.0,tertiary
+57,1,threw,37,42,7131,7136,99,43.0,50.0,7137.0,7144.0,,,,,verb.contact,True,44,direct_object,the little boy,1.0,7.0,8.0,male,1.0,tertiary
+58,5,lifted,122,128,7303,7309,99,129.0,132.0,7310.0,7313.0,133.0,135.0,7314.0,7316.0,verb.contact,True,45,direct_object,the little boy,1.0,7.0,8.0,male,1.0,tertiary
+59,2,save,56,60,7374,7378,38,61.0,70.0,7379.0,7388.0,,,,,verb.social,True,47,direct_object,the child,3.0,3.0,6.0,female,1.0,tertiary
+60,6,causing,111,118,7546,7553,99,119.0,147.0,7554.0,7582.0,,,,,verb.creation,True,46,direct_object,the little boy,1.0,7.0,8.0,male,1.0,tertiary
+61,1,punished,26,34,7610,7618,93,35.0,111.0,7619.0,7695.0,,,,,verb.social,True,48,direct_object,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+61,1,punished,26,34,7610,7618,96,35.0,111.0,7619.0,7695.0,,,,,verb.social,True,48,direct_object,The wicked woman's own child,2.0,0.0,2.0,unknown,0.0,tertiary
+61,1,punished,26,34,7610,7618,55,35.0,111.0,7619.0,7695.0,,,,,verb.social,True,48,direct_object,this woman's step - daughter,6.0,0.0,6.0,unknown,0.0,tertiary
+62,2,hate,41,45,7738,7742,10,46.0,55.0,7743.0,7752.0,56.0,122.0,7753.0,7819.0,verb.emotion,True,49,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+63,0,watched,12,19,7833,7840,93,20.0,89.0,7841.0,7910.0,,,,,verb.perception,True,52,direct_object,The wicked woman,2.0,14.0,16.0,female,1.0,secondary
+65,1,cultivated,37,47,8052,8062,112,48.0,81.0,8063.0,8096.0,,,,,verb.social,True,50,direct_object,the women of old Japan,1.0,0.0,1.0,female,1.0,tertiary
+68,1,disturbed,67,76,8396,8405,64,77.0,95.0,8406.0,8424.0,96.0,109.0,8425.0,8438.0,verb.emotion,True,53,direct_object,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+69,2,commanding,61,71,8549,8559,118,72.0,83.0,8560.0,8571.0,84.0,155.0,8572.0,8643.0,verb.communication,True,54,direct_object,the priests,1.0,0.0,1.0,unknown,0.0,tertiary
+74,2,sent,76,80,9345,9349,132,81.0,89.0,9350.0,9358.0,,,,,verb.communication,True,58,direct_object,the minister Prince Toyonari,1.0,0.0,1.0,male,1.0,tertiary
+74,2,sent,76,80,9345,9349,7,81.0,89.0,9350.0,9358.0,,,,,verb.communication,True,58,direct_object,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+75,2,told,84,88,9491,9495,14,89.0,92.0,9496.0,9499.0,,,,,verb.communication,True,59,direct_object,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+76,3,saving,73,79,9599,9605,64,80.0,98.0,9606.0,9624.0,99.0,124.0,,,verb.possession,True,60,direct_object,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+79,3,read,153,157,9922,9926,14,158.0,183.0,9927.0,9952.0,192.0,231.0,9961.0,10000.0,verb.cognition,True,62,direct_object,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+82,0,recovered,28,37,10173,10182,64,38.0,48.0,10183.0,10193.0,,,,,verb.body,True,63,direct_object,The Emperor,8.0,8.0,16.0,male,1.0,secondary
+83,1,sent,36,40,10231,10235,14,41.0,48.0,10236.0,10243.0,,,,,verb.motion,True,64,direct_object,Princess Hase,5.0,22.0,27.0,female,1.0,secondary
+84,2,respected,83,92,10429,10438,147,103.0,109.0,10449.0,10455.0,,,,,verb.emotion,True,66,direct_object,,,,,,,
+87,4,poison,84,90,10640,10646,150,91.0,108.0,10647.0,10664.0,,,,,verb.social,True,65,direct_object,Princess Hase's stepmother,1.0,12.0,13.0,female,1.0,tertiary
+87,4,poison,84,90,10640,10646,55,91.0,108.0,10647.0,10664.0,,,,,verb.social,True,65,direct_object,this woman's step - daughter,6.0,0.0,6.0,unknown,0.0,tertiary
+88,0,burned,22,28,10817,10823,150,29.0,41.0,10824.0,10836.0,42.0,51.0,10837.0,10846.0,verb.perception,True,68,direct_object,Princess Hase's stepmother,1.0,12.0,13.0,female,1.0,tertiary
+89,1,carried,23,30,10871,10878,150,31.0,45.0,10879.0,10893.0,46.0,84.0,10894.0,10932.0,verb.communication,True,67,direct_object,Princess Hase's stepmother,1.0,12.0,13.0,female,1.0,tertiary
+89,1,carried,23,30,10871,10878,39,31.0,45.0,10879.0,10893.0,46.0,84.0,10894.0,10932.0,verb.communication,True,67,direct_object,A daughter's husband,4.0,1.0,5.0,male,1.0,tertiary
+90,1,listen,9,15,10943,10949,150,16.0,36.0,10950.0,10970.0,38.0,85.0,10972.0,11019.0,verb.perception,True,69,direct_object,Princess Hase's stepmother,1.0,12.0,13.0,female,1.0,tertiary
+91,3,kill,198,202,11219,11223,159,203.0,206.0,11224.0,11227.0,207.0,212.0,11228.0,11233.0,verb.contact,True,70,direct_object,the innocent girl,1.0,2.0,3.0,female,1.0,tertiary
+92,0,invented,4,12,11239,11247,59,13.0,55.0,11248.0,11290.0,57.0,149.0,11292.0,11384.0,verb.creation,True,71,direct_object,The little Princess,4.0,2.0,6.0,female,1.0,tertiary
+93,2,obey,33,37,11419,11423,16,38.0,50.0,11424.0,11436.0,,,,,verb.social,True,72,direct_object,Katoda,2.0,13.0,15.0,male,1.0,secondary
+93,2,obey,33,37,11419,11423,165,38.0,50.0,11424.0,11436.0,,,,,verb.social,True,72,direct_object,Katoda's mistress,1.0,0.0,1.0,unknown,0.0,tertiary
+94,0,saw,11,14,11449,11452,166,15.0,104.0,11453.0,11542.0,,,,,verb.cognition,True,73,direct_object,the girl,1.0,1.0,2.0,female,1.0,tertiary
+94,0,saw,11,14,11449,11452,167,15.0,104.0,11453.0,11542.0,,,,,verb.cognition,True,73,direct_object,the girl 's father,1.0,0.0,1.0,female,0.5,tertiary
+95,0,placed,3,9,11547,11553,10,10.0,19.0,11554.0,11563.0,20.0,34.0,11564.0,11578.0,verb.contact,True,74,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+97,5,save,181,185,11993,11997,173,186.0,194.0,11998.0,12006.0,,,,,verb.social,True,76,direct_object,the young Princess,1.0,7.0,8.0,female,1.0,tertiary
+98,0,killed,10,16,12018,12024,173,17.0,20.0,12025.0,12028.0,,,,,verb.contact,True,77,direct_object,the young Princess,1.0,7.0,8.0,female,1.0,tertiary
+99,2,sent,74,78,12206,12210,172,88.0,108.0,12220.0,12240.0,,,,,verb.communication,True,78,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+99,2,sent,74,78,12206,12210,20,88.0,108.0,12220.0,12240.0,,,,,verb.communication,True,78,direct_object,a wise State minister's wife,4.0,0.0,4.0,female,1.0,tertiary
+100,1,knowing,40,47,12377,12384,172,48.0,126.0,12385.0,12463.0,,,,,verb.cognition,True,79,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+100,1,knowing,40,47,12377,12384,173,48.0,126.0,12385.0,12463.0,,,,,verb.cognition,True,79,direct_object,the young Princess,1.0,7.0,8.0,female,1.0,tertiary
+101,2,told,54,58,12519,12523,186,59.0,70.0,12524.0,12535.0,,,,,verb.communication,True,80,direct_object,the old servant's daughter,3.0,2.0,5.0,female,1.0,tertiary
+101,2,told,54,58,12519,12523,172,59.0,70.0,12524.0,12535.0,,,,,verb.communication,True,80,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+101,2,told,54,58,12519,12523,20,59.0,70.0,12524.0,12535.0,,,,,verb.communication,True,80,direct_object,a wise State minister's wife,4.0,0.0,4.0,female,1.0,tertiary
+103,0,told,23,27,12684,12688,10,28.0,83.0,12689.0,12744.0,,,,,verb.communication,True,82,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+105,3,told,81,85,12971,12975,190,86.0,90.0,12976.0,12980.0,,,,,verb.communication,True,83,direct_object,the old servant's men,1.0,3.0,4.0,male,1.0,tertiary
+107,0,rode,3,7,13111,13115,194,22.0,92.0,13130.0,13200.0,,,,,verb.motion,True,85,direct_object,a great company,1.0,0.0,1.0,unknown,0.0,tertiary
+107,0,rode,3,7,13111,13115,172,22.0,92.0,13130.0,13200.0,,,,,verb.motion,True,85,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+108,1,found,48,53,13250,13255,172,54.0,61.0,13256.0,13263.0,62.0,92.0,13264.0,13294.0,verb.perception,True,86,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+109,1,admiring,18,26,13314,13322,172,27.0,38.0,13323.0,13334.0,,,,,verb.perception,True,87,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+110,0,seized,0,6,13460,13466,172,7.0,85.0,13467.0,13545.0,,,,,verb.emotion,True,88,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+116,3,heard,58,63,14091,14096,60,72.0,82.0,14105.0,14115.0,83.0,96.0,14116.0,14129.0,verb.perception,True,93,direct_object,Hase - Hime's father,9.0,9.0,18.0,male,1.0,secondary
+116,3,heard,58,63,14091,14096,204,72.0,82.0,14105.0,14115.0,83.0,96.0,14116.0,14129.0,verb.perception,True,93,direct_object,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+118,0,cried,3,8,14147,14152,172,11.0,34.0,14155.0,14178.0,,,,,verb.communication,True,95,direct_object,the old servant,1.0,36.0,37.0,male,1.0,primary
+118,0,cried,3,8,14147,14152,10,11.0,34.0,14155.0,14178.0,,,,,verb.communication,True,95,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+119,2,realize,36,43,14217,14224,209,44.0,95.0,14225.0,14276.0,,,,,verb.cognition,True,96,direct_object,a beautiful girl's own dear father,1.0,0.0,1.0,male,1.0,tertiary
+119,2,realize,36,43,14217,14224,204,44.0,95.0,14225.0,14276.0,,,,,verb.cognition,True,96,direct_object,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+122,3,running,27,34,14432,14439,60,35.0,41.0,14440.0,14446.0,,,,,verb.motion,True,97,direct_object,Hase - Hime's father,9.0,9.0,18.0,male,1.0,secondary
+122,3,running,27,34,14432,14439,204,35.0,41.0,14440.0,14446.0,,,,,verb.motion,True,97,direct_object,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+123,0,stroked,11,18,14547,14554,204,19.0,32.0,14555.0,14568.0,34.0,85.0,14570.0,14621.0,verb.contact,True,98,direct_object,a beautiful girl,1.0,20.0,21.0,female,1.0,secondary
+124,1,bowing,51,57,14744,14750,16,58.0,65.0,14751.0,14758.0,66.0,97.0,14759.0,14790.0,verb.motion,True,99,direct_object,Katoda,2.0,13.0,15.0,male,1.0,secondary
+125,1,telling,38,45,14830,14837,212,46.0,49.0,14838.0,14841.0,,,,,verb.communication,True,100,direct_object,Katoda's master,2.0,1.0,3.0,male,1.0,tertiary
+127,1,hurried,32,39,15078,15085,16,40.0,44.0,15086.0,15090.0,,,,,verb.motion,True,102,direct_object,Katoda,2.0,13.0,15.0,male,1.0,secondary
+127,1,hurried,32,39,15078,15085,186,40.0,44.0,15086.0,15090.0,,,,,verb.motion,True,102,direct_object,the old servant's daughter,3.0,2.0,5.0,female,1.0,tertiary
+128,8,returned,222,230,15332,15340,60,243.0,263.0,15353.0,15373.0,,,,,verb.motion,True,105,direct_object,Hase - Hime's father,9.0,9.0,18.0,male,1.0,secondary
+128,8,returned,222,230,15332,15340,155,243.0,263.0,15353.0,15373.0,,,,,verb.motion,True,105,direct_object,the step - mother,2.0,8.0,10.0,female,1.0,tertiary
+130,3,owed,99,103,15597,15601,230,104.0,112.0,15602.0,15610.0,,,,,verb.possession,True,103,direct_object,this faithful retainer,1.0,0.0,1.0,unknown,0.0,tertiary
+130,3,owed,99,103,15597,15601,229,104.0,112.0,15602.0,15610.0,,,,,verb.possession,True,103,direct_object,"the little Princess , who never forgot that she owed her life to this faithful retainer's little Princess , who never forgot that she owed her life to this faithful retainer",1.0,5.0,6.0,female,1.0,tertiary
+131,1,troubled,18,26,15656,15664,231,27.0,51.0,15665.0,15689.0,,,,,verb.emotion,True,106,direct_object,an unkind step - mother,1.0,0.0,1.0,female,1.0,tertiary
+132,3,marry,106,111,15854,15859,238,112.0,134.0,15860.0,15882.0,,,,,verb.social,True,107,direct_object,Prince Toyonari Fujiwara's daughter Hase - Hime,1.0,2.0,3.0,male,1.0,tertiary
+132,3,marry,106,111,15854,15859,7,112.0,134.0,15860.0,15882.0,,,,,verb.social,True,107,direct_object,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+133,1,said,43,47,15971,15975,239,48.0,170.0,15976.0,16098.0,,,,,verb.communication,True,110,direct_object,"the wisest , most devout , and most beautiful mistress that had ever reigned in Prince Toyonari 's ancient house",1.0,0.0,1.0,male,1.0,tertiary
+133,1,said,43,47,15971,15975,7,48.0,170.0,15976.0,16098.0,,,,,verb.communication,True,110,direct_object,Prince Toyonari Fujiwara,8.0,3.0,11.0,male,1.0,tertiary
+133,1,said,43,47,15971,15975,10,48.0,170.0,15976.0,16098.0,,,,,verb.communication,True,110,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary
+134,1,presenting,19,29,16119,16129,241,30.0,68.0,16130.0,16168.0,84.0,123.0,,,verb.communication,True,109,direct_object,Hase - Hime's son,1.0,0.0,1.0,unknown,0.0,tertiary
+134,1,presenting,19,29,16119,16129,163,30.0,68.0,16130.0,16168.0,84.0,123.0,,,verb.communication,True,109,direct_object,the family,2.0,0.0,2.0,unknown,0.0,tertiary
+134,1,presenting,19,29,16119,16129,242,30.0,68.0,16130.0,16168.0,84.0,123.0,,,verb.communication,True,109,direct_object,the future lord of the family,1.0,0.0,1.0,unknown,0.0,tertiary
+134,1,presenting,19,29,16119,16129,60,30.0,68.0,16130.0,16168.0,84.0,123.0,,,verb.communication,True,109,direct_object,Hase - Hime's father,9.0,9.0,18.0,male,1.0,secondary
+134,1,presenting,19,29,16119,16129,10,30.0,68.0,16130.0,16168.0,84.0,123.0,,,verb.communication,True,109,direct_object,Hase - Hime,13.0,30.0,43.0,female,1.0,primary

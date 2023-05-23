@@ -1,0 +1,608 @@
+{
+    "characters": {
+        "n": 58,
+        "female": {
+            "n": 6,
+            "p": 0.1
+        },
+        "male": {
+            "n": 27,
+            "p": 0.47
+        },
+        "group/nonbinary": {
+            "n": 4,
+            "p": 0.07
+        },
+        "unknown": {
+            "n": 21,
+            "p": 0.36
+        },
+        "primary": {
+            "n": 1,
+            "p": 0.02
+        },
+        "secondary": {
+            "n": 1,
+            "p": 0.02
+        },
+        "tertiary": {
+            "n": 56,
+            "p": 0.97
+        },
+        "female_primary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "female_secondary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "female_tertiary": {
+            "n": 6,
+            "p": 0.1
+        },
+        "male_primary": {
+            "n": 1,
+            "p": 0.02
+        },
+        "male_secondary": {
+            "n": 1,
+            "p": 0.02
+        },
+        "male_tertiary": {
+            "n": 25,
+            "p": 0.43
+        },
+        "group/nonbinary_primary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "group/nonbinary_secondary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "group/nonbinary_tertiary": {
+            "n": 4,
+            "p": 0.07
+        },
+        "unknown_primary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "unknown_secondary": {
+            "n": 0,
+            "p": 0.0
+        },
+        "unknown_tertiary": {
+            "n": 21,
+            "p": 0.36
+        },
+        "appearances": {
+            "all": [
+                107,
+                44,
+                18,
+                17,
+                16,
+                12,
+                10,
+                8,
+                8,
+                7,
+                7,
+                7,
+                6,
+                5,
+                4,
+                4,
+                4,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "female": [
+                16,
+                7,
+                7,
+                4,
+                3,
+                3
+            ],
+            "male": [
+                107,
+                44,
+                18,
+                17,
+                12,
+                10,
+                8,
+                7,
+                5,
+                4,
+                4,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "group/nonbinary": [
+                8,
+                2,
+                2,
+                2
+            ],
+            "unknown": [
+                6,
+                3,
+                3,
+                3,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    },
+    "events": {
+        "counts": [
+            {
+                "gender": "female",
+                "importance": "tertiary",
+                "direct_object": 26,
+                "subject": 17,
+                "total": 43
+            },
+            {
+                "gender": "female",
+                "importance": "total",
+                "direct_object": 26,
+                "subject": 17,
+                "total": 43
+            },
+            {
+                "gender": "group/nonbinary",
+                "importance": "tertiary",
+                "direct_object": 9,
+                "subject": 8,
+                "total": 17
+            },
+            {
+                "gender": "group/nonbinary",
+                "importance": "total",
+                "direct_object": 9,
+                "subject": 8,
+                "total": 17
+            },
+            {
+                "gender": "male",
+                "importance": "primary",
+                "direct_object": 49,
+                "subject": 47,
+                "total": 96
+            },
+            {
+                "gender": "male",
+                "importance": "secondary",
+                "direct_object": 24,
+                "subject": 34,
+                "total": 58
+            },
+            {
+                "gender": "male",
+                "importance": "tertiary",
+                "direct_object": 68,
+                "subject": 73,
+                "total": 141
+            },
+            {
+                "gender": "male",
+                "importance": "total",
+                "direct_object": 141,
+                "subject": 154,
+                "total": 295
+            },
+            {
+                "gender": "total",
+                "importance": "",
+                "direct_object": 197,
+                "subject": 197,
+                "total": 394
+            },
+            {
+                "gender": "unknown",
+                "importance": "tertiary",
+                "direct_object": 21,
+                "subject": 18,
+                "total": 39
+            },
+            {
+                "gender": "unknown",
+                "importance": "total",
+                "direct_object": 21,
+                "subject": 18,
+                "total": 39
+            }
+        ],
+        "top_events": {
+            "female": [
+                {
+                    "event_lemma": "bring",
+                    "argument": "direct_object",
+                    "female_male_odds": 33.33
+                },
+                {
+                    "event_lemma": "say",
+                    "argument": "subject",
+                    "female_male_odds": 10.0
+                },
+                {
+                    "event_lemma": "go",
+                    "argument": "subject",
+                    "female_male_odds": 7.69
+                },
+                {
+                    "event_lemma": "reply",
+                    "argument": "subject",
+                    "female_male_odds": 5.88
+                },
+                {
+                    "event_lemma": "say",
+                    "argument": "direct_object",
+                    "female_male_odds": 3.45
+                },
+                {
+                    "event_lemma": "ask",
+                    "argument": "direct_object",
+                    "female_male_odds": 3.23
+                },
+                {
+                    "event_lemma": "throw",
+                    "argument": "direct_object",
+                    "female_male_odds": 2.38
+                }
+            ],
+            "male": [
+                {
+                    "event_lemma": "meet",
+                    "male_female_odds": 2.07,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "show",
+                    "male_female_odds": 2.07,
+                    "argument": "direct_object"
+                }
+            ],
+            "unbiased": [
+                {
+                    "event_lemma": "tell",
+                    "male_female_odds": 1.93,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "have",
+                    "male_female_odds": 1.69,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "beg",
+                    "male_female_odds": 1.3,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "bestow",
+                    "male_female_odds": 1.3,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "lose",
+                    "male_female_odds": 1.3,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "promise",
+                    "male_female_odds": 1.3,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "send",
+                    "male_female_odds": 1.3,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "tell",
+                    "male_female_odds": 1.08,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "meet",
+                    "male_female_odds": 0.99,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "return",
+                    "male_female_odds": 0.99,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "call",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "coax",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "entreat",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "fear",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "get",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "kiss",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "look",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "lay",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "oblige",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "saw",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "sit",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "undertake",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "visit",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "place",
+                    "male_female_odds": 0.92,
+                    "argument": "direct_object"
+                },
+                {
+                    "event_lemma": "come",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "write",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "throw",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "sit",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "show",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "ride",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "rejoice",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "lose",
+                    "male_female_odds": 0.77,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "give",
+                    "male_female_odds": 0.76,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "saw",
+                    "male_female_odds": 0.6,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "vex",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "let",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "mind",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "desire",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "expect",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "get",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "grow",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "kiss",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "know",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "leave",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "make",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "oblige",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "pay",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "play",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "save",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "send",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "take",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "think",
+                    "male_female_odds": 0.54,
+                    "argument": "subject"
+                },
+                {
+                    "event_lemma": "give",
+                    "male_female_odds": 0.52,
+                    "argument": "direct_object"
+                }
+            ]
+        }
+    }
+}

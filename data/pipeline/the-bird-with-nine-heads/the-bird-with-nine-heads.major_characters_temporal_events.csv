@@ -1,0 +1,113 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,had,56,59,56,59,1,33.0,51.0,33.0,51.0,,,,,verb.possession,True,0,subject,a queen,1.0,0.0,1.0,female,1.0,tertiary
+0,1,had,56,59,56,59,0,33.0,51.0,33.0,51.0,,,,,verb.possession,True,0,subject,a king,1.0,2.0,3.0,male,1.0,tertiary
+3,3,disappeared,47,58,352,363,8,22.0,42.0,327.0,347.0,,,,,verb.change,True,2,subject,the king's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+3,3,disappeared,47,58,352,363,7,22.0,42.0,327.0,347.0,,,,,verb.change,True,2,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+4,3,carrying,40,48,510,518,10,33.0,35.0,503.0,505.0,62.0,73.0,532.0,543.0,verb.contact,True,4,subject,a youth,1.0,10.0,11.0,male,1.0,tertiary
+6,1,climb,14,19,621,626,15,0.0,3.0,607.0,610.0,29.0,39.0,636.0,646.0,verb.motion,True,5,subject,,,,,,,
+7,1,walking,21,28,712,719,17,7.0,16.0,698.0,707.0,,,,,verb.motion,True,7,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+9,0,knew,15,19,947,951,25,0.0,14.0,932.0,946.0,,,,,verb.cognition,True,8,subject,The other chap,1.0,0.0,1.0,unknown,0.0,tertiary
+10,1,lowered,41,48,1012,1019,26,36.0,40.0,1007.0,1011.0,71.0,82.0,1042.0,1053.0,verb.motion,True,9,subject,a youth's friends,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+11,1,saw,35,38,1090,1093,10,32.0,34.0,1087.0,1089.0,,,,,verb.perception,True,11,subject,a youth,1.0,10.0,11.0,male,1.0,tertiary
+12,3,bleeding,80,88,1259,1267,10,60.0,69.0,1239.0,1248.0,,,,,verb.body,True,10,subject,a youth,1.0,10.0,11.0,male,1.0,tertiary
+13,0,motioned,23,31,1292,1300,5,0.0,12.0,1269.0,1281.0,45.0,52.0,1314.0,1321.0,verb.communication,True,13,subject,The princess,4.0,2.0,6.0,female,1.0,tertiary
+14,1,washed,29,35,1367,1373,23,5.0,24.0,1343.0,1362.0,,,,,verb.body,True,12,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+14,1,washed,29,35,1367,1373,7,5.0,24.0,1343.0,1362.0,,,,,verb.body,True,12,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+16,0,said,24,28,1620,1624,23,4.0,23.0,1600.0,1619.0,,,,,verb.communication,True,14,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+16,0,said,24,28,1620,1624,7,4.0,23.0,1600.0,1619.0,,,,,verb.communication,True,14,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+20,3,climbed,54,61,1864,1871,23,13.0,16.0,1823.0,1826.0,,,,,verb.motion,True,16,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+21,1,took,27,31,1916,1920,23,23.0,26.0,1912.0,1915.0,,,,,verb.contact,True,17,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+22,0,divided,9,16,2018,2025,23,0.0,3.0,2009.0,2012.0,,,,,verb.contact,True,18,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+23,2,took,60,64,2166,2170,42,57.0,59.0,2163.0,2165.0,69.0,83.0,2175.0,2189.0,verb.motion,True,19,subject,the other man,1.0,2.0,3.0,male,1.0,tertiary
+24,0,took,14,18,2279,2283,17,0.0,9.0,2265.0,2274.0,,,,,verb.social,True,20,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+25,0,saw,9,12,2316,2319,17,6.0,8.0,2313.0,2315.0,,,,,verb.perception,True,21,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+28,0,grew,21,25,2679,2683,21,5.0,20.0,2663.0,2678.0,,,,,verb.change,True,23,subject,the first youth,2.0,2.0,4.0,male,1.0,tertiary
+30,0,saw,19,22,2806,2809,21,16.0,18.0,2803.0,2805.0,,,,,verb.perception,True,24,subject,the first youth,2.0,2.0,4.0,male,1.0,tertiary
+31,2,disappeared,55,66,2906,2917,17,40.0,50.0,2891.0,2901.0,,,,,verb.change,True,25,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+32,0,asked,8,13,2927,2932,17,0.0,7.0,2919.0,2926.0,,,,,verb.communication,True,26,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+33,0,climbed,6,13,3098,3105,17,3.0,5.0,3095.0,3097.0,,,,,verb.motion,True,27,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+34,1,found,25,30,3225,3230,17,22.0,24.0,3222.0,3224.0,,,,,verb.possession,True,28,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+36,0,took,10,14,3473,3477,17,0.0,9.0,3463.0,3472.0,,,,,verb.contact,True,29,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+37,0,reached,18,25,3562,3569,17,15.0,17.0,3559.0,3561.0,,,,,verb.motion,True,30,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+38,0,flung,8,13,3593,3598,17,5.0,7.0,3590.0,3592.0,,,,,verb.contact,True,31,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+40,3,flung,66,71,3820,3825,17,21.0,22.0,3775.0,3776.0,76.0,88.0,3830.0,3842.0,verb.contact,True,33,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+42,0,recognized,15,25,4006,4016,17,5.0,14.0,3996.0,4005.0,,,,,verb.cognition,True,36,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+43,2,formed,44,50,4115,4121,17,37.0,39.0,4108.0,4110.0,,,,,verb.social,True,35,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+44,4,said,72,76,4242,4246,17,1.0,69.0,4171.0,4239.0,,,,,verb.communication,True,38,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+44,4,said,72,76,4242,4246,126,1.0,69.0,4171.0,4239.0,,,,,verb.communication,True,38,subject,the old dragon's son,1.0,1.0,2.0,male,1.0,tertiary
+44,4,said,72,76,4242,4246,128,1.0,69.0,4171.0,4239.0,,,,,verb.communication,True,38,subject,the youth's father,1.0,0.0,1.0,male,1.0,tertiary
+44,4,said,72,76,4242,4246,78,1.0,69.0,4171.0,4239.0,,,,,verb.communication,True,38,subject,the old dragon,2.0,3.0,5.0,male,1.0,tertiary
+44,4,said,72,76,4242,4246,127,1.0,69.0,4171.0,4239.0,,,,,verb.communication,True,38,subject,the old dragon's son's brother,1.0,0.0,1.0,male,1.0,tertiary
+45,0,entertained,7,18,4270,4281,78,4.0,6.0,4267.0,4269.0,,,,,verb.consumption,True,37,subject,the old dragon,2.0,3.0,5.0,male,1.0,tertiary
+46,2,want,54,58,4371,4375,129,33.0,42.0,4350.0,4359.0,,,,,verb.emotion,True,39,subject,the youth's friend's father,1.0,1.0,2.0,male,1.0,tertiary
+46,2,want,54,58,4371,4375,79,33.0,42.0,4350.0,4359.0,,,,,verb.emotion,True,39,subject,the youth's friend,1.0,1.0,2.0,unknown,0.0,tertiary
+48,2,wish,40,44,4522,4526,17,27.0,35.0,4509.0,4517.0,,,,,verb.emotion,True,41,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+49,1,wanted,51,57,4580,4586,17,43.0,47.0,4572.0,4576.0,,,,,verb.emotion,True,40,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+50,0,want,6,10,4671,4675,17,0.0,3.0,4665.0,4668.0,,,,,verb.emotion,True,43,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+51,1,wish,28,32,4744,4748,61,9.0,19.0,4725.0,4735.0,,,,,verb.emotion,True,42,subject,the dragon,5.0,4.0,9.0,male,1.0,tertiary
+52,0,left,19,23,4830,4834,17,9.0,18.0,4820.0,4829.0,,,,,verb.motion,True,44,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+53,1,felt,42,46,4898,4902,17,39.0,41.0,4895.0,4897.0,,,,,verb.body,True,46,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+55,1,drank,11,16,4996,5001,17,0.0,2.0,4985.0,4987.0,,,,,verb.consumption,True,47,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+56,2,felt,33,37,5036,5040,17,30.0,32.0,5033.0,5035.0,,,,,verb.body,True,48,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+57,2,mounted,53,60,5101,5108,17,50.0,52.0,5098.0,5100.0,,,,,verb.motion,True,49,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+58,4,climbed,105,112,5215,5222,17,82.0,89.0,5192.0,5199.0,,,,,verb.motion,True,50,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+59,1,thought,48,55,5272,5279,17,45.0,47.0,5269.0,5271.0,,,,,verb.cognition,True,51,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+61,3,seated,62,68,5396,5402,17,59.0,61.0,5393.0,5395.0,77.0,82.0,5411.0,5416.0,verb.contact,True,52,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+62,0,carried,16,23,5434,5441,89,4.0,15.0,5422.0,5433.0,28.0,93.0,5446.0,5511.0,verb.contact,True,53,subject,the bearers,1.0,0.0,1.0,unknown,0.0,tertiary
+64,1,said,45,49,5653,5657,23,4.0,23.0,5612.0,5631.0,,,,,verb.communication,True,54,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+64,1,said,45,49,5653,5657,7,4.0,23.0,5612.0,5631.0,,,,,verb.communication,True,54,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+65,2,bring,27,32,5712,5717,131,0.0,12.0,5685.0,5697.0,,,,,verb.contact,True,55,subject,the king's deliverer,1.0,1.0,2.0,male,1.0,tertiary
+65,2,bring,27,32,5712,5717,7,0.0,12.0,5685.0,5697.0,,,,,verb.contact,True,55,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+66,4,said,118,122,5920,5924,7,90.0,98.0,5892.0,5900.0,,,,,verb.communication,True,57,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+67,1,searched,73,81,6041,6049,23,5.0,24.0,5973.0,5992.0,,,,,verb.perception,True,56,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+67,1,searched,73,81,6041,6049,7,5.0,24.0,5973.0,5992.0,,,,,verb.perception,True,56,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+68,1,arrived,45,52,6146,6153,109,34.0,44.0,6135.0,6145.0,,,,,verb.motion,True,58,subject,the litter,1.0,0.0,1.0,unknown,0.0,tertiary
+69,0,saw,20,23,6175,6178,23,0.0,19.0,6155.0,6174.0,,,,,verb.perception,True,59,subject,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+69,0,saw,20,23,6175,6178,7,0.0,19.0,6155.0,6174.0,,,,,verb.perception,True,59,subject,the king,15.0,6.0,21.0,male,1.0,tertiary
+70,1,show,16,20,6300,6304,17,6.0,8.0,6290.0,6292.0,,,,,verb.perception,True,60,subject,the youth,15.0,70.0,85.0,male,1.0,primary
+71,1,punished,29,37,6463,6471,116,0.0,20.0,6434.0,6454.0,,,,,verb.social,True,61,subject,The false bridegroom,1.0,0.0,1.0,unknown,0.0,tertiary
+0,1,had,56,59,56,59,2,60.0,70.0,60.0,70.0,,,,,verb.possession,True,0,direct_object,a daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+1,3,carried,95,102,167,174,3,103.0,106.0,175.0,178.0,107.0,119.0,179.0,191.0,verb.contact,True,1,direct_object,the daughter,1.0,1.0,2.0,female,1.0,tertiary
+2,4,brought,87,94,280,287,5,95.0,98.0,288.0,291.0,,,,,verb.motion,True,3,direct_object,The princess,4.0,2.0,6.0,female,1.0,tertiary
+2,4,brought,87,94,280,287,0,95.0,98.0,288.0,291.0,,,,,verb.motion,True,3,direct_object,a king,1.0,2.0,3.0,male,1.0,tertiary
+4,3,carrying,40,48,510,518,5,49.0,61.0,519.0,531.0,62.0,73.0,532.0,543.0,verb.contact,True,4,direct_object,The princess,4.0,2.0,6.0,female,1.0,tertiary
+8,2,carried,62,69,863,870,23,74.0,93.0,875.0,894.0,,,,,verb.motion,True,6,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+8,2,carried,62,69,863,870,7,74.0,93.0,875.0,894.0,,,,,verb.motion,True,6,direct_object,the king,15.0,6.0,21.0,male,1.0,tertiary
+9,0,knew,15,19,947,951,10,20.0,37.0,952.0,969.0,,,,,verb.cognition,True,8,direct_object,a youth,1.0,10.0,11.0,male,1.0,tertiary
+10,1,lowered,41,48,1012,1019,17,49.0,58.0,1020.0,1029.0,71.0,82.0,1042.0,1053.0,verb.motion,True,9,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+11,1,saw,35,38,1090,1093,23,39.0,123.0,1094.0,1178.0,,,,,verb.perception,True,11,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+11,1,saw,35,38,1090,1093,7,39.0,123.0,1094.0,1178.0,,,,,verb.perception,True,11,direct_object,the king,15.0,6.0,21.0,male,1.0,tertiary
+13,0,motioned,23,31,1292,1300,17,32.0,44.0,1301.0,1313.0,45.0,52.0,1314.0,1321.0,verb.communication,True,13,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+14,1,washed,29,35,1367,1373,17,36.0,45.0,1374.0,1383.0,,,,,verb.body,True,12,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+16,0,said,24,28,1620,1624,17,31.0,93.0,1627.0,1689.0,,,,,verb.communication,True,14,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+16,0,said,24,28,1620,1624,7,31.0,93.0,1627.0,1689.0,,,,,verb.communication,True,14,direct_object,the king,15.0,6.0,21.0,male,1.0,tertiary
+17,0,said,6,10,1698,1702,17,11.0,20.0,1703.0,1712.0,,,,,verb.communication,True,15,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+21,1,took,27,31,1916,1920,23,32.0,56.0,1921.0,1945.0,,,,,verb.contact,True,17,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+22,0,divided,9,16,2018,2025,23,17.0,20.0,2026.0,2029.0,,,,,verb.contact,True,18,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+22,0,divided,9,16,2018,2025,17,17.0,20.0,2026.0,2029.0,,,,,verb.contact,True,18,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+23,2,took,60,64,2166,2170,23,65.0,68.0,2171.0,2174.0,69.0,83.0,2175.0,2189.0,verb.motion,True,19,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+25,0,saw,9,12,2316,2319,50,13.0,132.0,2320.0,2439.0,,,,,verb.perception,True,21,direct_object,"all of whom had been carried off by the bird with nine heads , and who had perished there of hunger",1.0,0.0,1.0,unknown,0.0,tertiary
+25,0,saw,9,12,2316,2319,49,13.0,132.0,2320.0,2439.0,,,,,verb.perception,True,21,direct_object,maidens,1.0,0.0,1.0,female,1.0,tertiary
+27,5,regard,122,128,2627,2633,54,129.0,139.0,2634.0,2644.0,,,,,verb.cognition,True,22,direct_object,each other,1.0,0.0,1.0,unknown,0.0,tertiary
+27,5,regard,122,128,2627,2633,55,129.0,139.0,2634.0,2644.0,,,,,verb.cognition,True,22,direct_object,brothers,1.0,0.0,1.0,male,1.0,tertiary
+39,2,disturbing,30,40,3715,3725,69,41.0,43.0,3726.0,3728.0,44.0,66.0,,,verb.motion,True,32,direct_object,The sea - dragon,1.0,2.0,3.0,unknown,0.0,tertiary
+41,1,said,23,27,3908,3912,61,28.0,38.0,3913.0,3923.0,,,,,verb.communication,True,34,direct_object,the dragon,5.0,4.0,9.0,male,1.0,tertiary
+42,0,recognized,15,25,4006,4016,17,26.0,29.0,4017.0,4020.0,,,,,verb.cognition,True,36,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+42,0,recognized,15,25,4006,4016,73,26.0,29.0,4017.0,4020.0,,,,,verb.cognition,True,36,direct_object,the youth's same dragon whom he had seen in the cave,1.0,0.0,1.0,unknown,0.0,tertiary
+44,4,said,72,76,4242,4246,78,77.0,91.0,4247.0,4261.0,,,,,verb.communication,True,38,direct_object,the old dragon,2.0,3.0,5.0,male,1.0,tertiary
+45,0,entertained,7,18,4270,4281,17,19.0,33.0,4282.0,4296.0,,,,,verb.consumption,True,37,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+46,2,want,54,58,4371,4375,17,59.0,72.0,4376.0,4389.0,,,,,verb.emotion,True,39,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+52,0,left,19,23,4830,4834,61,24.0,43.0,4835.0,4854.0,,,,,verb.motion,True,44,direct_object,the dragon,5.0,4.0,9.0,male,1.0,tertiary
+54,0,stood,16,21,4927,4932,17,22.0,32.0,4933.0,4943.0,,,,,verb.contact,True,45,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+59,1,thought,48,55,5272,5279,17,58.0,80.0,5282.0,5304.0,,,,,verb.cognition,True,51,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+61,3,seated,62,68,5396,5402,17,69.0,76.0,5403.0,5410.0,77.0,82.0,5411.0,5416.0,verb.contact,True,52,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+62,0,carried,16,23,5434,5441,17,24.0,27.0,5442.0,5445.0,28.0,93.0,5446.0,5511.0,verb.contact,True,53,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+64,1,said,45,49,5653,5657,17,52.0,75.0,5660.0,5683.0,,,,,verb.communication,True,54,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+64,1,said,45,49,5653,5657,130,52.0,75.0,5660.0,5683.0,,,,,verb.communication,True,54,direct_object,the right man,1.0,0.0,1.0,male,1.0,tertiary
+65,2,bring,27,32,5712,5717,131,33.0,41.0,5718.0,5726.0,,,,,verb.contact,True,55,direct_object,the king's deliverer,1.0,1.0,2.0,male,1.0,tertiary
+65,2,bring,27,32,5712,5717,7,33.0,41.0,5718.0,5726.0,,,,,verb.contact,True,55,direct_object,the king,15.0,6.0,21.0,male,1.0,tertiary
+67,1,searched,73,81,6041,6049,23,95.0,131.0,6063.0,6099.0,,,,,verb.perception,True,56,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+67,1,searched,73,81,6041,6049,108,95.0,131.0,6063.0,6099.0,,,,,verb.perception,True,56,direct_object,The king 's daughter's deliverer,1.0,0.0,1.0,male,1.0,tertiary
+69,0,saw,20,23,6175,6178,17,24.0,79.0,6179.0,6234.0,,,,,verb.perception,True,59,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary
+69,0,saw,20,23,6175,6178,23,24.0,79.0,6179.0,6234.0,,,,,verb.perception,True,59,direct_object,The king 's daughter,10.0,15.0,25.0,male,1.0,tertiary
+70,1,show,16,20,6300,6304,17,21.0,77.0,6305.0,6361.0,,,,,verb.perception,True,60,direct_object,the youth,15.0,70.0,85.0,male,1.0,primary

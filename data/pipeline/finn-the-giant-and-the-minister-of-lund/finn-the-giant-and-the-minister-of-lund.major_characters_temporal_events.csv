@@ -1,0 +1,24 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,7,build,103,108,440,445,1.0,90.0,92.0,427.0,429.0,,,,,verb.creation,True,0,subject,St. Lawrence,7,21,28,male,1.0,primary
+4,4,build,80,85,594,599,13.0,45.0,52.0,559.0,566.0,97.0,177.0,611.0,691.0,verb.creation,True,2,subject,a giant,1,1,2,male,1.0,tertiary
+5,4,receive,61,68,754,761,16.0,44.0,53.0,737.0,746.0,,,,,verb.perception,True,5,subject,the giant,6,3,9,male,1.0,secondary
+6,0,agreed,10,16,821,827,17.0,0.0,9.0,811.0,820.0,,,,,verb.communication,True,4,subject,The saint,2,0,2,unknown,0.0,tertiary
+8,2,know,66,70,996,1000,1.0,55.0,57.0,985.0,987.0,,,,,verb.cognition,True,3,subject,St. Lawrence,7,21,28,male,1.0,primary
+9,1,relish,33,39,1051,1057,1.0,22.0,24.0,1040.0,1042.0,,,,,verb.emotion,True,6,subject,St. Lawrence,7,21,28,male,1.0,primary
+10,4,sat,127,130,1202,1205,1.0,108.0,110.0,1183.0,1185.0,,,,,verb.contact,True,7,subject,St. Lawrence,7,21,28,male,1.0,primary
+11,0,sat,6,9,1236,1239,1.0,3.0,5.0,1233.0,1235.0,,,,,verb.contact,True,8,subject,St. Lawrence,7,21,28,male,1.0,primary
+12,2,play,52,56,1445,1449,1.0,19.0,22.0,1412.0,1415.0,,,,,verb.social,True,10,subject,St. Lawrence,7,21,28,male,1.0,primary
+13,0,heard,18,23,1504,1509,1.0,5.0,17.0,1491.0,1503.0,,,,,verb.perception,True,9,subject,St. Lawrence,7,21,28,male,1.0,primary
+14,0,knew,12,16,1540,1544,1.0,9.0,11.0,1537.0,1539.0,,,,,verb.cognition,True,12,subject,St. Lawrence,7,21,28,male,1.0,primary
+17,0,flung,15,20,1804,1809,16.0,5.0,14.0,1794.0,1803.0,41.0,53.0,1830.0,1842.0,verb.contact,True,14,subject,the giant,6,3,9,male,1.0,secondary
+19,1,rushed,39,45,2022,2028,36.0,16.0,38.0,1999.0,2021.0,66.0,79.0,2049.0,2062.0,verb.motion,True,13,subject,the giant's wife,1,0,1,female,1.0,tertiary
+19,1,rushed,39,45,2022,2028,16.0,16.0,38.0,1999.0,2021.0,66.0,79.0,2049.0,2062.0,verb.motion,True,13,subject,the giant,6,3,9,male,1.0,secondary
+3,1,know,13,17,468,472,1.0,18.0,57.0,473.0,512.0,,,,,verb.cognition,True,1,direct_object,St. Lawrence,7,21,28,male,1.0,primary
+5,4,receive,61,68,754,761,1.0,69.0,116.0,762.0,809.0,,,,,verb.perception,True,5,direct_object,St. Lawrence,7,21,28,male,1.0,primary
+6,0,agreed,10,16,821,827,1.0,17.0,32.0,828.0,843.0,,,,,verb.communication,True,4,direct_object,St. Lawrence,7,21,28,male,1.0,primary
+8,2,know,66,70,996,1000,16.0,71.0,87.0,1001.0,1017.0,,,,,verb.cognition,True,3,direct_object,the giant,6,3,9,male,1.0,secondary
+9,1,relish,33,39,1051,1057,1.0,40.0,55.0,1058.0,1073.0,,,,,verb.emotion,True,6,direct_object,St. Lawrence,7,21,28,male,1.0,primary
+13,0,heard,18,23,1504,1509,1.0,24.0,41.0,1510.0,1527.0,,,,,verb.perception,True,9,direct_object,St. Lawrence,7,21,28,male,1.0,primary
+14,0,knew,12,16,1540,1544,16.0,17.0,33.0,1545.0,1561.0,,,,,verb.cognition,True,12,direct_object,the giant,6,3,9,male,1.0,secondary
+16,0,sat,6,9,1622,1625,16.0,10.0,19.0,1626.0,1635.0,20.0,170.0,,,verb.contact,True,11,direct_object,the giant,6,3,9,male,1.0,secondary
+17,0,flung,15,20,1804,1809,1.0,21.0,30.0,1810.0,1819.0,41.0,53.0,1830.0,1842.0,verb.contact,True,14,direct_object,St. Lawrence,7,21,28,male,1.0,primary

@@ -1,0 +1,64 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+5,2,found,23,28,578,583,13,0.0,11.0,555.0,566.0,37.0,44.0,592.0,599.0,verb.cognition,True,2,subject,Every woman,1.0,0.0,1.0,female,1.0,tertiary
+10,0,dragged,5,12,1099,1106,7,0.0,4.0,1094.0,1098.0,24.0,68.0,1118.0,1162.0,verb.contact,True,4,subject,the cowboys,2.0,5.0,7.0,group/nonbinary,1.0,secondary
+11,1,returned,23,31,1187,1195,7,18.0,22.0,1182.0,1186.0,,,,,verb.motion,True,5,subject,the cowboys,2.0,5.0,7.0,group/nonbinary,1.0,secondary
+13,4,enjoying,70,78,1528,1536,1,0.0,4.0,1458.0,1462.0,97.0,109.0,1555.0,1567.0,verb.emotion,True,7,subject,Puck,5.0,10.0,15.0,male,1.0,primary
+14,3,noticed,106,113,1675,1682,23,103.0,105.0,1672.0,1674.0,,,,,verb.perception,True,8,subject,a man named William,1.0,18.0,19.0,male,1.0,primary
+15,7,discover,112,120,1828,1836,23,103.0,105.0,1819.0,1821.0,,,,,verb.perception,True,10,subject,a man named William,1.0,18.0,19.0,male,1.0,primary
+16,6,hoisted,96,103,1944,1951,23,93.0,95.0,1941.0,1943.0,,,,,verb.contact,True,9,subject,a man named William,1.0,18.0,19.0,male,1.0,primary
+17,2,staggered,62,71,2060,2069,29,32.0,44.0,2030.0,2042.0,,,,,verb.motion,True,11,subject,the good man,1.0,2.0,3.0,male,1.0,tertiary
+18,2,reached,54,61,2163,2170,23,51.0,53.0,2160.0,2162.0,,,,,verb.motion,True,12,subject,a man named William,1.0,18.0,19.0,male,1.0,primary
+20,1,answered,30,38,2316,2324,32,20.0,29.0,2306.0,2315.0,,,,,verb.communication,True,13,subject,the sheep,1.0,0.0,1.0,unknown,0.0,tertiary
+21,3,running,71,78,2434,2441,2,59.0,66.0,2422.0,2429.0,,,,,verb.motion,True,14,subject,William,3.0,2.0,5.0,male,1.0,tertiary
+22,0,went,10,14,2502,2506,23,7.0,9.0,2499.0,2501.0,,,,,verb.motion,True,15,subject,a man named William,1.0,18.0,19.0,male,1.0,primary
+23,1,hear,23,27,2594,2598,23,7.0,9.0,2578.0,2580.0,,,,,verb.perception,True,18,subject,a man named William,1.0,18.0,19.0,male,1.0,primary
+24,1,had,16,19,2650,2653,1,0.0,8.0,2634.0,2642.0,,,,,verb.perception,True,17,subject,Puck,5.0,10.0,15.0,male,1.0,primary
+25,1,play,31,35,2699,2703,1,0.0,4.0,2668.0,2672.0,47.0,64.0,2715.0,2732.0,verb.social,True,16,subject,Puck,5.0,10.0,15.0,male,1.0,primary
+26,1,wondered,56,64,2890,2898,1,12.0,14.0,2846.0,2848.0,,,,,verb.cognition,True,19,subject,Puck,5.0,10.0,15.0,male,1.0,primary
+28,6,jogging,117,124,3190,3197,41,107.0,111.0,3180.0,3184.0,,,,,verb.motion,True,21,subject,a young couple who were going to the nearest town to buy all that they needed for setting up house,1.0,8.0,9.0,group/nonbinary,1.0,secondary
+31,1,gave,49,53,3465,3469,46,45.0,48.0,3461.0,3464.0,,,,,verb.communication,True,24,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+35,2,buy,20,23,3550,3553,46,0.0,1.0,3530.0,3531.0,63.0,82.0,3593.0,3612.0,verb.possession,True,23,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+39,1,tell,11,15,3683,3687,71,7.0,10.0,3679.0,3682.0,,,,,verb.communication,True,25,subject,dear,1.0,1.0,2.0,unknown,0.0,tertiary
+40,1,gave,36,40,3773,3777,46,32.0,35.0,3769.0,3772.0,,,,,verb.communication,True,27,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+43,0,looked,15,21,3880,3886,48,0.0,14.0,3865.0,3879.0,,,,,verb.perception,True,28,subject,The bridegroom,2.0,3.0,5.0,male,1.0,tertiary
+46,1,think,11,16,4146,4151,73,1.0,4.0,4136.0,4139.0,,,,,verb.cognition,True,30,subject,,,,,,,
+47,1,laughed,19,26,4209,4216,74,1.0,16.0,4191.0,4206.0,,,,,verb.communication,True,31,subject,a fairy,1.0,1.0,2.0,female,1.0,tertiary
+48,0,spoke,7,12,4234,4239,46,3.0,6.0,4230.0,4233.0,,,,,verb.communication,True,33,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+51,5,come,94,98,4608,4612,46,72.0,75.0,4586.0,4589.0,,,,,verb.motion,True,35,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+54,4,walking,60,67,4877,4884,46,25.0,34.0,4842.0,4851.0,,,,,verb.motion,True,34,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+59,0,entered,16,23,5016,5023,46,12.0,15.0,5012.0,5015.0,,,,,verb.motion,True,38,subject,the bride,3.0,19.0,22.0,female,1.0,primary
+67,1,examine,64,71,5485,5492,68,0.0,45.0,5421.0,5466.0,95.0,146.0,5516.0,5567.0,verb.perception,True,41,subject,One of the guests,1.0,7.0,8.0,female,1.0,secondary
+67,1,examine,64,71,5485,5492,70,0.0,45.0,5421.0,5466.0,95.0,146.0,5516.0,5567.0,verb.perception,True,41,subject,the rest,1.0,0.0,1.0,unknown,0.0,tertiary
+67,1,examine,64,71,5485,5492,69,0.0,45.0,5421.0,5466.0,95.0,146.0,5516.0,5567.0,verb.perception,True,41,subject,the guests,1.0,0.0,1.0,unknown,0.0,tertiary
+68,3,said,40,44,5609,5613,68,0.0,33.0,5569.0,5602.0,,,,,verb.communication,True,42,subject,One of the guests,1.0,7.0,8.0,female,1.0,secondary
+69,3,break,21,26,5647,5652,68,15.0,16.0,5641.0,5642.0,,,,,verb.contact,True,44,subject,One of the guests,1.0,7.0,8.0,female,1.0,secondary
+70,3,find,34,38,5692,5696,68,24.0,27.0,5682.0,5685.0,,,,,verb.perception,True,43,subject,One of the guests,1.0,7.0,8.0,female,1.0,secondary
+2,3,change,58,64,282,288,11,65.0,72.0,289.0,296.0,,,,,verb.change,True,0,direct_object,woman,1.0,0.0,1.0,female,1.0,tertiary
+2,3,change,58,64,282,288,10,65.0,72.0,289.0,296.0,,,,,verb.change,True,0,direct_object,a man,1.0,0.0,1.0,male,1.0,tertiary
+2,3,change,58,64,282,288,12,65.0,72.0,289.0,296.0,,,,,verb.change,True,0,direct_object,child,1.0,0.0,1.0,unknown,0.0,tertiary
+6,0,chosen,22,28,641,647,1,29.0,102.0,648.0,721.0,,,,,verb.cognition,True,1,direct_object,Puck,5.0,10.0,15.0,male,1.0,primary
+9,2,awaken,45,51,1042,1048,7,52.0,63.0,1049.0,1060.0,,,,,verb.body,True,3,direct_object,the cowboys,2.0,5.0,7.0,group/nonbinary,1.0,secondary
+10,0,dragged,5,12,1099,1106,7,13.0,23.0,1107.0,1117.0,24.0,68.0,1118.0,1162.0,verb.contact,True,4,direct_object,the cowboys,2.0,5.0,7.0,group/nonbinary,1.0,secondary
+11,1,returned,23,31,1187,1195,7,32.0,45.0,1196.0,1209.0,,,,,verb.motion,True,5,direct_object,the cowboys,2.0,5.0,7.0,group/nonbinary,1.0,secondary
+12,4,take,118,122,1392,1396,20,123.0,149.0,1397.0,1423.0,,,,,verb.possession,True,6,direct_object,the grooms,1.0,0.0,1.0,unknown,0.0,tertiary
+13,4,enjoying,70,78,1528,1536,1,79.0,96.0,1537.0,1554.0,97.0,109.0,1555.0,1567.0,verb.emotion,True,7,direct_object,Puck,5.0,10.0,15.0,male,1.0,primary
+15,7,discover,112,120,1828,1836,28,121.0,130.0,1837.0,1846.0,,,,,verb.perception,True,10,direct_object,its owner,1.0,0.0,1.0,unknown,0.0,tertiary
+16,6,hoisted,96,103,1944,1951,23,104.0,106.0,1952.0,1954.0,,,,,verb.contact,True,9,direct_object,a man named William,1.0,18.0,19.0,male,1.0,primary
+17,2,staggered,62,71,2060,2069,29,95.0,109.0,2093.0,2107.0,,,,,verb.motion,True,11,direct_object,the good man,1.0,2.0,3.0,male,1.0,tertiary
+25,1,play,31,35,2699,2703,1,36.0,46.0,2704.0,2714.0,47.0,64.0,2715.0,2732.0,verb.social,True,16,direct_object,Puck,5.0,10.0,15.0,male,1.0,primary
+26,1,wondered,56,64,2890,2898,40,65.0,112.0,2899.0,2946.0,,,,,verb.cognition,True,19,direct_object,,,,,,,
+26,1,wondered,56,64,2890,2898,1,65.0,112.0,2899.0,2946.0,,,,,verb.cognition,True,19,direct_object,Puck,5.0,10.0,15.0,male,1.0,primary
+27,4,buy,78,81,3026,3029,41,82.0,123.0,3030.0,3071.0,,,,,verb.possession,True,20,direct_object,a young couple who were going to the nearest town to buy all that they needed for setting up house,1.0,8.0,9.0,group/nonbinary,1.0,secondary
+29,1,overhear,42,50,3285,3293,41,51.0,69.0,3294.0,3312.0,,,,,verb.perception,True,22,direct_object,a young couple who were going to the nearest town to buy all that they needed for setting up house,1.0,8.0,9.0,group/nonbinary,1.0,secondary
+37,0,exclaimed,0,9,3629,3638,47,10.0,23.0,3639.0,3652.0,,,,,verb.communication,True,26,direct_object,the young man,1.0,1.0,2.0,male,1.0,tertiary
+39,1,tell,11,15,3683,3687,72,16.0,18.0,3688.0,3690.0,,,,,verb.communication,True,25,direct_object,The dressmaker,2.0,0.0,2.0,unknown,0.0,tertiary
+39,1,tell,11,15,3683,3687,47,16.0,18.0,3688.0,3690.0,,,,,verb.communication,True,25,direct_object,the young man,1.0,1.0,2.0,male,1.0,tertiary
+45,1,cried,51,56,4097,4102,48,57.0,59.0,4103.0,4105.0,61.0,87.0,4107.0,4133.0,verb.communication,True,29,direct_object,The bridegroom,2.0,3.0,5.0,male,1.0,tertiary
+46,1,think,11,16,4146,4151,74,17.0,52.0,4152.0,4187.0,,,,,verb.cognition,True,30,direct_object,a fairy,1.0,1.0,2.0,female,1.0,tertiary
+47,1,laughed,19,26,4209,4216,51,27.0,35.0,4217.0,4225.0,,,,,verb.communication,True,31,direct_object,the girl,1.0,0.0,1.0,female,1.0,tertiary
+49,2,given,54,59,4393,4398,46,60.0,63.0,4399.0,4402.0,,,,,verb.possession,True,32,direct_object,the bride,3.0,19.0,22.0,female,1.0,primary
+56,0,exclaimed,0,9,4937,4946,62,10.0,17.0,4947.0,4954.0,,,,,verb.communication,True,36,direct_object,the men,1.0,0.0,1.0,male,1.0,tertiary
+58,0,whispered,0,9,4979,4988,63,10.0,19.0,4989.0,4998.0,,,,,verb.communication,True,37,direct_object,the women,1.0,0.0,1.0,female,1.0,tertiary
+64,0,fell,25,29,5176,5180,66,30.0,43.0,5181.0,5194.0,,,,,verb.change,True,39,direct_object,the wearer,1.0,0.0,1.0,unknown,0.0,tertiary
+66,1,offered,35,42,5333,5340,67,43.0,61.0,5341.0,5359.0,,,,,verb.possession,True,40,direct_object,the young bride,1.0,2.0,3.0,female,1.0,tertiary
+68,3,said,40,44,5609,5613,68,45.0,55.0,5614.0,5624.0,,,,,verb.communication,True,42,direct_object,One of the guests,1.0,7.0,8.0,female,1.0,secondary

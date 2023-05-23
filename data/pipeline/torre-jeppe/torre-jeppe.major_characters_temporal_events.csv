@@ -1,0 +1,47 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,0,sat,27,30,27,30,4.0,0.0,12.0,0.0,12.0,,,,,verb.motion,True,0,subject,a specter,1,0,1,unknown,0.0,tertiary
+3,3,asked,59,64,266,271,6.0,54.0,58.0,261.0,265.0,,,,,verb.communication,True,1,subject,three tailors,1,16,17,group/nonbinary,1.0,secondary
+4,1,trust,10,15,409,414,10.0,0.0,3.0,399.0,402.0,,,,,verb.cognition,True,2,subject,the girl in the house,1,11,12,female,1.0,secondary
+5,1,give,15,19,463,467,6.0,5.0,9.0,453.0,457.0,,,,,verb.possession,True,4,subject,three tailors,1,16,17,group/nonbinary,1.0,secondary
+6,6,dare,87,91,602,606,14.0,72.0,80.0,587.0,595.0,,,,,verb.social,True,3,subject,The girl,5,28,33,female,1.0,primary
+7,0,took,8,12,631,635,10.0,4.0,7.0,627.0,630.0,25.0,38.0,648.0,661.0,verb.cognition,True,5,subject,the girl in the house,1,11,12,female,1.0,secondary
+8,1,took,33,37,712,716,10.0,29.0,32.0,708.0,711.0,50.0,61.0,729.0,740.0,verb.contact,True,6,subject,the girl in the house,1,11,12,female,1.0,secondary
+10,2,lost,90,94,923,927,6.0,78.0,82.0,911.0,915.0,,,,,verb.possession,True,7,subject,three tailors,1,16,17,group/nonbinary,1.0,secondary
+11,1,deliver,59,66,1001,1008,14.0,28.0,36.0,970.0,978.0,,,,,verb.contact,True,8,subject,The girl,5,28,33,female,1.0,primary
+12,3,carry,59,64,1091,1096,14.0,44.0,47.0,1076.0,1079.0,78.0,88.0,1110.0,1120.0,verb.contact,True,9,subject,The girl,5,28,33,female,1.0,primary
+13,2,took,44,48,1166,1170,14.0,40.0,43.0,1162.0,1165.0,61.0,72.0,1183.0,1194.0,verb.possession,True,10,subject,The girl,5,28,33,female,1.0,primary
+14,6,let,92,95,1316,1319,0.0,73.0,75.0,1297.0,1299.0,,,,,verb.social,True,12,subject,Torre Jeppe,11,18,29,male,1.0,primary
+17,9,forgive,154,161,1591,1598,14.0,150.0,153.0,1587.0,1590.0,,,,,verb.communication,True,14,subject,The girl,5,28,33,female,1.0,primary
+18,0,promised,9,17,1623,1631,14.0,0.0,8.0,1614.0,1622.0,,,,,verb.communication,True,15,subject,The girl,5,28,33,female,1.0,primary
+20,5,forgive,106,113,1815,1822,0.0,102.0,105.0,1811.0,1814.0,,,,,verb.communication,True,16,subject,Torre Jeppe,11,18,29,male,1.0,primary
+21,5,forgive,125,132,1962,1969,25.0,117.0,118.0,1954.0,1955.0,,,,,verb.communication,True,17,subject,a woman,1,3,4,female,1.0,tertiary
+22,1,asked,50,55,2026,2031,0.0,38.0,49.0,2014.0,2025.0,,,,,verb.communication,True,18,subject,Torre Jeppe,11,18,29,male,1.0,primary
+23,3,forgive,52,59,2113,2120,25.0,37.0,40.0,2098.0,2101.0,,,,,verb.communication,True,19,subject,a woman,1,3,4,female,1.0,tertiary
+24,4,receive,86,93,2213,2220,14.0,76.0,79.0,2203.0,2206.0,,,,,verb.possession,True,21,subject,The girl,5,28,33,female,1.0,primary
+25,3,sitting,75,82,2343,2350,29.0,38.0,47.0,2306.0,2315.0,,,,,verb.contact,True,20,subject,the phantom,1,0,1,unknown,0.0,tertiary
+27,1,seen,26,30,2482,2486,0.0,4.0,15.0,2460.0,2471.0,,,,,verb.perception,True,23,subject,Torre Jeppe,11,18,29,male,1.0,primary
+3,3,asked,59,64,266,271,6.0,65.0,113.0,272.0,320.0,,,,,verb.communication,True,1,direct_object,three tailors,1,16,17,group/nonbinary,1.0,secondary
+3,3,asked,59,64,266,271,0.0,65.0,113.0,272.0,320.0,,,,,verb.communication,True,1,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+3,3,asked,59,64,266,271,10.0,65.0,113.0,272.0,320.0,,,,,verb.communication,True,1,direct_object,the girl in the house,1,11,12,female,1.0,secondary
+4,1,trust,10,15,409,414,10.0,16.0,23.0,415.0,422.0,,,,,verb.cognition,True,2,direct_object,the girl in the house,1,11,12,female,1.0,secondary
+5,1,give,15,19,463,467,10.0,20.0,23.0,468.0,471.0,,,,,verb.possession,True,4,direct_object,the girl in the house,1,11,12,female,1.0,secondary
+7,0,took,8,12,631,635,13.0,13.0,24.0,636.0,647.0,25.0,38.0,648.0,661.0,verb.cognition,True,5,direct_object,the tailors,4,0,4,unknown,0.0,tertiary
+8,1,took,33,37,712,716,0.0,38.0,49.0,717.0,728.0,50.0,61.0,729.0,740.0,verb.contact,True,6,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+10,2,lost,90,94,923,927,6.0,95.0,107.0,928.0,940.0,,,,,verb.possession,True,7,direct_object,three tailors,1,16,17,group/nonbinary,1.0,secondary
+11,1,deliver,59,66,1001,1008,5.0,67.0,71.0,1009.0,1013.0,,,,,verb.contact,True,8,direct_object,the specter,2,1,3,unknown,0.0,tertiary
+11,1,deliver,59,66,1001,1008,6.0,67.0,71.0,1009.0,1013.0,,,,,verb.contact,True,8,direct_object,three tailors,1,16,17,group/nonbinary,1.0,secondary
+12,3,carry,59,64,1091,1096,21.0,65.0,77.0,1097.0,1109.0,78.0,88.0,1110.0,1120.0,verb.contact,True,9,direct_object,the dead man,1,0,1,male,1.0,tertiary
+13,2,took,44,48,1166,1170,0.0,49.0,60.0,1171.0,1182.0,61.0,72.0,1183.0,1194.0,verb.possession,True,10,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+14,6,let,92,95,1316,1319,14.0,96.0,102.0,1320.0,1326.0,,,,,verb.social,True,12,direct_object,The girl,5,28,33,female,1.0,primary
+15,0,clasped,5,12,1332,1339,0.0,13.0,21.0,1340.0,1348.0,22.0,28.0,,,verb.contact,True,11,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+15,0,clasped,5,12,1332,1339,14.0,13.0,21.0,1340.0,1348.0,22.0,28.0,,,verb.contact,True,11,direct_object,The girl,5,28,33,female,1.0,primary
+16,1,let,53,56,1425,1428,14.0,57.0,62.0,1429.0,1434.0,,,,,verb.social,True,13,direct_object,The girl,5,28,33,female,1.0,primary
+17,9,forgive,154,161,1591,1598,0.0,162.0,173.0,1599.0,1610.0,,,,,verb.communication,True,14,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+18,0,promised,9,17,1623,1631,0.0,18.0,34.0,1632.0,1648.0,,,,,verb.communication,True,15,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+20,5,forgive,106,113,1815,1822,0.0,114.0,125.0,1823.0,1834.0,,,,,verb.communication,True,16,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+21,5,forgive,125,132,1962,1969,0.0,133.0,136.0,1970.0,1973.0,,,,,verb.communication,True,17,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+22,1,asked,50,55,2026,2031,25.0,66.0,82.0,2042.0,2058.0,,,,,verb.communication,True,18,direct_object,a woman,1,3,4,female,1.0,tertiary
+23,3,forgive,52,59,2113,2120,14.0,60.0,63.0,2121.0,2124.0,,,,,verb.communication,True,19,direct_object,The girl,5,28,33,female,1.0,primary
+24,4,receive,86,93,2213,2220,0.0,94.0,138.0,2221.0,2265.0,,,,,verb.possession,True,21,direct_object,Torre Jeppe,11,18,29,male,1.0,primary
+24,4,receive,86,93,2213,2220,14.0,94.0,138.0,2221.0,2265.0,,,,,verb.possession,True,21,direct_object,The girl,5,28,33,female,1.0,primary
+26,1,promised,41,49,2427,2435,14.0,50.0,53.0,2436.0,2439.0,54.0,68.0,,,verb.possession,True,22,direct_object,The girl,5,28,33,female,1.0,primary

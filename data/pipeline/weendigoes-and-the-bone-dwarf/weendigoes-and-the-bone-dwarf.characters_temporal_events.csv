@@ -1,0 +1,485 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,had,61,64,61,64,7,37.0,55.0,37.0,55.0,,,,,verb.possession,0,subject,a man's wife,11,15,26,female,1.0,tertiary
+0,1,had,61,64,61,64,6,37.0,55.0,37.0,55.0,,,,,verb.possession,0,subject,a man,1,4,5,male,1.0,tertiary
+1,2,hunt,76,80,148,152,9,0.0,10.0,72.0,82.0,,,,,verb.competition,1,subject,the father,5,31,36,male,1.0,secondary
+2,2,looked,67,73,251,257,7,30.0,38.0,214.0,222.0,,,,,verb.perception,3,subject,a man's wife,11,15,26,female,1.0,tertiary
+2,2,looked,67,73,251,257,6,30.0,38.0,214.0,222.0,,,,,verb.perception,3,subject,a man,1,4,5,male,1.0,tertiary
+2,4,saw,113,116,297,300,7,109.0,112.0,293.0,296.0,,,,,verb.perception,5,subject,a man's wife,11,15,26,female,1.0,tertiary
+2,5,walking,134,141,318,325,14,117.0,133.0,301.0,317.0,,,,,verb.motion,4,subject,a very large man,1,9,10,male,1.0,tertiary
+2,6,coming,160,166,344,350,14,117.0,133.0,301.0,317.0,,,,,verb.motion,6,subject,a very large man,1,9,10,male,1.0,tertiary
+3,3,wished,54,60,428,434,7,46.0,49.0,420.0,423.0,,,,,verb.emotion,7,subject,a man's wife,11,15,26,female,1.0,tertiary
+3,4,escape,65,71,439,445,7,28.0,31.0,402.0,405.0,,,,,verb.motion,8,subject,a man's wife,11,15,26,female,1.0,tertiary
+4,0,thought,4,11,461,468,7,0.0,3.0,457.0,460.0,,,,,verb.cognition,9,subject,a man's wife,11,15,26,female,1.0,tertiary
+4,2,say,38,41,495,498,7,25.0,29.0,482.0,486.0,,,,,verb.communication,11,subject,a man's wife,11,15,26,female,1.0,tertiary
+5,0,advanced,6,14,522,530,14,3.0,5.0,519.0,521.0,,,,,verb.motion,10,subject,a very large man,1,9,10,male,1.0,tertiary
+5,2,taking,40,46,556,562,7,24.0,27.0,540.0,543.0,,,,,verb.contact,12,subject,a man's wife,11,15,26,female,1.0,tertiary
+5,3,led,106,109,622,625,7,102.0,105.0,618.0,621.0,114.0,117.0,630.0,633.0,verb.motion,13,subject,a man's wife,11,15,26,female,1.0,tertiary
+6,2,said,39,43,674,678,7,35.0,38.0,670.0,673.0,,,,,verb.communication,14,subject,a man's wife,11,15,26,female,1.0,tertiary
+7,2,have,65,69,763,767,14,57.0,59.0,755.0,757.0,,,,,verb.possession,17,subject,a very large man,1,9,10,male,1.0,tertiary
+8,0,approached,10,20,791,801,19,0.0,9.0,781.0,790.0,,,,,verb.motion,16,subject,The giant,1,1,2,unknown,0.0,tertiary
+8,1,said,25,29,806,810,19,0.0,9.0,781.0,790.0,,,,,verb.communication,18,subject,The giant,1,1,2,unknown,0.0,tertiary
+11,3,eat,58,61,903,906,201,41.0,44.0,886.0,889.0,,,,,verb.consumption,20,subject,a man's wife's son,7,5,12,unknown,0.0,tertiary
+13,0,thought,11,18,989,996,20,1.0,10.0,979.0,988.0,,,,,verb.cognition,23,subject,the woman,3,4,7,female,1.0,tertiary
+13,1,please,22,28,1000,1006,20,1.0,10.0,979.0,988.0,,,,,verb.emotion,24,subject,the woman,3,4,7,female,1.0,tertiary
+14,0,pushed,7,13,1082,1088,14,4.0,6.0,1079.0,1081.0,24.0,57.0,1099.0,1132.0,verb.motion,26,subject,a very large man,1,9,10,male,1.0,tertiary
+14,1,saying,36,42,1111,1117,14,4.0,6.0,1079.0,1081.0,,,,,verb.communication,28,subject,a very large man,1,9,10,male,1.0,tertiary
+14,2,smell,47,52,1122,1127,14,45.0,46.0,1120.0,1121.0,,,,,verb.perception,27,subject,a very large man,1,9,10,male,1.0,tertiary
+15,5,dispatched,98,108,1231,1241,14,34.0,36.0,1167.0,1169.0,,,,,verb.contact,30,subject,a very large man,1,9,10,male,1.0,tertiary
+15,6,stopping,127,135,1260,1268,14,34.0,36.0,1167.0,1169.0,,,,,verb.motion,31,subject,a very large man,1,9,10,male,1.0,tertiary
+16,2,see,46,49,1331,1334,23,26.0,28.0,1311.0,1313.0,,,,,verb.perception,33,subject,The hunter,28,81,109,male,1.0,primary
+17,1,brought,13,20,1387,1394,23,0.0,2.0,1374.0,1376.0,,,,,verb.contact,32,subject,The hunter,28,81,109,male,1.0,primary
+17,4,seized,79,85,1453,1459,26,66.0,78.0,1440.0,1452.0,,,,,verb.contact,34,subject,the cannibal,2,1,3,male,1.0,tertiary
+17,6,devoured,113,121,1487,1495,23,0.0,2.0,1374.0,1376.0,125.0,165.0,1499.0,1539.0,verb.contact,36,subject,The hunter,28,81,109,male,1.0,primary
+17,9,fasting,147,154,1521,1528,26,135.0,137.0,1509.0,1511.0,,,,,verb.social,35,subject,the cannibal,2,1,3,male,1.0,tertiary
+18,0,looked,11,17,1552,1558,23,0.0,10.0,1541.0,1551.0,,,,,verb.perception,37,subject,The hunter,28,81,109,male,1.0,primary
+18,1,told,67,71,1608,1612,23,64.0,66.0,1605.0,1607.0,,,,,verb.communication,39,subject,The hunter,28,81,109,male,1.0,primary
+18,4,call,154,158,1695,1699,1,137.0,140.0,1678.0,1681.0,,,,,verb.communication,38,subject,Indians,2,0,2,unknown,0.0,tertiary
+19,1,dare,16,20,1728,1732,23,0.0,2.0,1712.0,1714.0,,,,,verb.social,40,subject,The hunter,28,81,109,male,1.0,primary
+19,2,speak,24,29,1736,1741,23,0.0,2.0,1712.0,1714.0,,,,,verb.communication,41,subject,The hunter,28,81,109,male,1.0,primary
+19,4,say,59,62,1771,1774,26,46.0,58.0,1758.0,1770.0,,,,,verb.communication,43,subject,the cannibal,2,1,3,male,1.0,tertiary
+19,6,finished,93,101,1805,1813,23,86.0,88.0,1798.0,1800.0,,,,,verb.change,42,subject,The hunter,28,81,109,male,1.0,primary
+20,0,told,28,32,1895,1899,3,15.0,27.0,1882.0,1894.0,,,,,verb.communication,44,subject,the Weendigo,5,38,43,male,1.0,secondary
+22,0,returned,18,26,2000,2008,3,15.0,17.0,1997.0,1999.0,,,,,verb.motion,45,subject,the Weendigo,5,38,43,male,1.0,secondary
+22,3,make,69,73,2051,2055,3,58.0,60.0,2040.0,2042.0,,,,,verb.change,48,subject,the Weendigo,5,38,43,male,1.0,secondary
+23,0,had,34,37,2160,2163,23,10.0,33.0,2136.0,2159.0,,,,,verb.perception,47,subject,The hunter,28,81,109,male,1.0,primary
+23,0,had,34,37,2160,2163,7,10.0,33.0,2136.0,2159.0,,,,,verb.perception,47,subject,a man's wife,11,15,26,female,1.0,tertiary
+23,3,engaged,92,99,2218,2225,3,61.0,70.0,2187.0,2196.0,,,,,verb.cognition,46,subject,the Weendigo,5,38,43,male,1.0,secondary
+25,2,attempted,118,127,2566,2575,200,100.0,111.0,2548.0,2559.0,,,,,verb.social,51,subject,the monster,3,1,4,male,1.0,tertiary
+26,0,slept,19,24,2607,2612,200,10.0,12.0,2598.0,2600.0,,,,,verb.body,50,subject,the monster,3,1,4,male,1.0,tertiary
+26,2,returned,59,67,2647,2655,200,10.0,12.0,2598.0,2600.0,,,,,verb.motion,53,subject,the monster,3,1,4,male,1.0,tertiary
+26,4,looking,114,121,2702,2709,200,10.0,12.0,2598.0,2600.0,,,,,verb.perception,54,subject,the monster,3,1,4,male,1.0,tertiary
+27,4,said,68,72,2802,2806,3,65.0,67.0,2799.0,2801.0,,,,,verb.communication,57,subject,the Weendigo,5,38,43,male,1.0,secondary
+28,1,spoke,55,60,2871,2876,3,45.0,47.0,2861.0,2863.0,,,,,verb.communication,56,subject,the Weendigo,5,38,43,male,1.0,secondary
+29,2,addressed,40,49,2932,2941,3,14.0,27.0,2906.0,2919.0,,,,,verb.communication,59,subject,the Weendigo,5,38,43,male,1.0,secondary
+30,1,sojourned,31,40,2985,2994,3,19.0,21.0,2973.0,2975.0,51.0,65.0,3005.0,3019.0,verb.motion,58,subject,the Weendigo,5,38,43,male,1.0,secondary
+30,2,informed,70,78,3024,3032,3,67.0,69.0,3021.0,3023.0,,,,,verb.communication,60,subject,the Weendigo,5,38,43,male,1.0,secondary
+30,5,take,131,135,3085,3089,3,124.0,127.0,3078.0,3081.0,,,,,verb.social,61,subject,the Weendigo,5,38,43,male,1.0,secondary
+30,8,give,182,186,3136,3140,3,173.0,175.0,3127.0,3129.0,,,,,verb.possession,62,subject,the Weendigo,5,38,43,male,1.0,secondary
+31,0,presented,3,12,3197,3206,3,0.0,2.0,3194.0,3196.0,112.0,177.0,3306.0,3371.0,verb.possession,63,subject,the Weendigo,5,38,43,male,1.0,secondary
+31,1,thanking,36,44,3230,3238,3,0.0,2.0,3194.0,3196.0,,,,,verb.communication,65,subject,the Weendigo,5,38,43,male,1.0,secondary
+31,2,departed,102,110,3296,3304,46,89.0,101.0,3283.0,3295.0,,,,,verb.motion,66,subject,the Weendigo,2,4,6,male,1.0,tertiary
+31,3,saying,112,118,3306,3312,46,89.0,101.0,3283.0,3295.0,,,,,verb.communication,71,subject,the Weendigo,2,4,6,male,1.0,tertiary
+31,4,left,126,130,3320,3324,46,123.0,125.0,3317.0,3319.0,,,,,verb.motion,70,subject,the Weendigo,2,4,6,male,1.0,tertiary
+31,5,had,145,148,3339,3342,46,142.0,144.0,3336.0,3338.0,,,,,verb.possession,69,subject,the Weendigo,2,4,6,male,1.0,tertiary
+32,4,looked,66,72,3439,3445,36,57.0,61.0,3430.0,3434.0,,,,,verb.perception,68,subject,the family,1,9,10,group/nonbinary,1.0,tertiary
+33,0,tried,3,8,3492,3497,3,0.0,2.0,3489.0,3491.0,,,,,verb.social,72,subject,the Weendigo,5,38,43,male,1.0,secondary
+34,5,saw,133,136,3708,3711,23,72.0,131.0,3647.0,3706.0,,,,,verb.perception,73,subject,The hunter,28,81,109,male,1.0,primary
+34,5,saw,133,136,3708,3711,7,72.0,131.0,3647.0,3706.0,,,,,verb.perception,73,subject,a man's wife,11,15,26,female,1.0,tertiary
+34,5,saw,133,136,3708,3711,3,72.0,131.0,3647.0,3706.0,,,,,verb.perception,73,subject,the Weendigo,5,38,43,male,1.0,secondary
+35,0,looked,4,10,3758,3764,7,0.0,3.0,3754.0,3757.0,31.0,96.0,3785.0,3850.0,verb.perception,74,subject,a man's wife,11,15,26,female,1.0,tertiary
+35,2,perceived,40,49,3794,3803,7,36.0,39.0,3790.0,3793.0,,,,,verb.perception,76,subject,a man's wife,11,15,26,female,1.0,tertiary
+36,1,had,47,50,3899,3902,7,43.0,46.0,3895.0,3898.0,,,,,verb.perception,77,subject,a man's wife,11,15,26,female,1.0,tertiary
+36,2,asked,76,81,3928,3933,7,43.0,46.0,3895.0,3898.0,,,,,verb.communication,78,subject,a man's wife,11,15,26,female,1.0,tertiary
+36,3,look,89,93,3941,3945,3,82.0,85.0,3934.0,3937.0,,,,,verb.social,79,subject,the Weendigo,5,38,43,male,1.0,secondary
+38,4,grew,76,80,4048,4052,3,73.0,75.0,4045.0,4047.0,,,,,verb.change,81,subject,the Weendigo,5,38,43,male,1.0,secondary
+38,7,took,128,132,4100,4104,3,125.0,127.0,4097.0,4099.0,,,,,verb.possession,83,subject,the Weendigo,5,38,43,male,1.0,secondary
+38,8,threw,147,152,4119,4124,3,125.0,127.0,4097.0,4099.0,,,,,verb.contact,82,subject,the Weendigo,5,38,43,male,1.0,secondary
+39,1,notice,29,35,4171,4177,3,0.0,2.0,4142.0,4144.0,,,,,verb.perception,84,subject,the Weendigo,5,38,43,male,1.0,secondary
+40,0,cast,18,22,4219,4223,3,15.0,17.0,4216.0,4218.0,,,,,verb.creation,85,subject,the Weendigo,5,38,43,male,1.0,secondary
+40,2,bore,120,124,4321,4325,3,117.0,119.0,4318.0,4320.0,,,,,verb.emotion,87,subject,the Weendigo,5,38,43,male,1.0,secondary
+41,0,ran,23,26,4358,4361,60,3.0,17.0,4338.0,4352.0,,,,,verb.motion,88,subject,the little son,1,0,1,unknown,0.0,tertiary
+41,1,paid,52,56,4387,4391,60,0.0,47.0,4335.0,4382.0,,,,,verb.cognition,89,subject,the little son,1,0,1,unknown,0.0,tertiary
+41,1,paid,52,56,4387,4391,3,0.0,47.0,4335.0,4382.0,,,,,verb.cognition,89,subject,the Weendigo,5,38,43,male,1.0,secondary
+42,0,returned,31,39,4432,4440,23,20.0,30.0,4421.0,4431.0,,,,,verb.motion,90,subject,The hunter,28,81,109,male,1.0,primary
+43,2,saw,27,30,4500,4503,23,24.0,26.0,4497.0,4499.0,,,,,verb.perception,91,subject,The hunter,28,81,109,male,1.0,primary
+43,3,sitting,39,46,4512,4519,23,31.0,38.0,4504.0,4511.0,81.0,95.0,4554.0,4568.0,verb.contact,92,subject,The hunter,28,81,109,male,1.0,primary
+43,3,sitting,39,46,4512,4519,64,31.0,38.0,4504.0,4511.0,81.0,95.0,4554.0,4568.0,verb.contact,92,subject,The hunter's son,13,14,27,male,1.0,tertiary
+43,6,shedding,81,89,4554,4562,23,31.0,38.0,4504.0,4511.0,,,,,verb.body,93,subject,The hunter,28,81,109,male,1.0,primary
+43,6,shedding,81,89,4554,4562,64,31.0,38.0,4504.0,4511.0,,,,,verb.body,93,subject,The hunter's son,13,14,27,male,1.0,tertiary
+44,0,pointed,8,15,4578,4585,65,0.0,7.0,4570.0,4577.0,,,,,verb.communication,94,subject,The son,1,0,1,unknown,0.0,tertiary
+44,4,found,92,97,4662,4667,9,89.0,91.0,4659.0,4661.0,,,,,verb.perception,96,subject,the father,5,31,36,male,1.0,secondary
+44,5,strewn,122,128,4692,4698,9,113.0,121.0,4683.0,4691.0,,,,,verb.contact,95,subject,the father,5,31,36,male,1.0,secondary
+44,5,strewn,122,128,4692,4698,7,113.0,121.0,4683.0,4691.0,,,,,verb.contact,95,subject,a man's wife,11,15,26,female,1.0,tertiary
+45,0,blackened,11,20,4727,4736,23,0.0,10.0,4716.0,4726.0,,,,,verb.change,97,subject,The hunter,28,81,109,male,1.0,primary
+45,1,vowed,35,40,4751,4756,23,0.0,10.0,4716.0,4726.0,,,,,verb.communication,99,subject,The hunter,28,81,109,male,1.0,primary
+46,0,built,3,8,4801,4806,23,0.0,2.0,4798.0,4800.0,,,,,verb.creation,98,subject,The hunter,28,81,109,male,1.0,primary
+46,2,placed,73,79,4871,4877,23,70.0,72.0,4868.0,4870.0,,,,,verb.contact,100,subject,The hunter,28,81,109,male,1.0,primary
+47,0,left,3,7,4920,4924,23,0.0,2.0,4917.0,4919.0,,,,,verb.cognition,101,subject,The hunter,28,81,109,male,1.0,primary
+47,5,striving,110,118,5027,5035,23,0.0,2.0,4917.0,4919.0,,,,,verb.social,102,subject,The hunter,28,81,109,male,1.0,primary
+48,3,shot,62,66,5163,5167,23,54.0,61.0,5155.0,5162.0,78.0,110.0,5179.0,5211.0,verb.contact,103,subject,The hunter,28,81,109,male,1.0,primary
+48,3,shot,62,66,5163,5167,64,54.0,61.0,5155.0,5162.0,78.0,110.0,5179.0,5211.0,verb.contact,103,subject,The hunter's son,13,14,27,male,1.0,tertiary
+48,7,find,155,159,5256,5260,64,146.0,148.0,5247.0,5249.0,,,,,verb.possession,106,subject,The hunter's son,13,14,27,male,1.0,tertiary
+49,2,trying,17,23,5292,5298,41,0.0,7.0,5275.0,5282.0,,,,,verb.social,105,subject,the boy,19,44,63,male,1.0,secondary
+49,4,puzzled,45,52,5320,5327,41,38.0,40.0,5313.0,5315.0,,,,,verb.emotion,108,subject,the boy,19,44,63,male,1.0,secondary
+49,6,shot,65,69,5340,5344,41,58.0,60.0,5333.0,5335.0,81.0,102.0,5356.0,5377.0,verb.social,107,subject,the boy,19,44,63,male,1.0,secondary
+50,0,made,11,15,5390,5394,78,0.0,10.0,5379.0,5389.0,,,,,verb.change,109,subject,the boy's father,8,3,11,male,1.0,tertiary
+50,0,made,11,15,5390,5394,41,0.0,10.0,5379.0,5389.0,,,,,verb.change,109,subject,the boy,19,44,63,male,1.0,secondary
+50,3,shot,70,74,5449,5453,41,67.0,69.0,5446.0,5448.0,87.0,90.0,5466.0,5469.0,verb.competition,110,subject,the boy,19,44,63,male,1.0,secondary
+51,0,looked,17,23,5487,5493,41,14.0,16.0,5484.0,5486.0,27.0,76.0,5497.0,5546.0,verb.perception,111,subject,the boy,19,44,63,male,1.0,secondary
+51,3,ran,82,85,5552,5555,41,14.0,16.0,5484.0,5486.0,94.0,101.0,5564.0,5571.0,verb.motion,112,subject,the boy,19,44,63,male,1.0,secondary
+51,5,find,116,120,5586,5590,41,103.0,105.0,5573.0,5575.0,,,,,verb.perception,113,subject,the boy,19,44,63,male,1.0,secondary
+52,0,shot,3,7,5598,5602,41,0.0,2.0,5595.0,5597.0,,,,,verb.competition,114,subject,the boy,19,44,63,male,1.0,secondary
+53,3,espy,68,72,5711,5715,41,53.0,55.0,5696.0,5698.0,,,,,verb.contact,118,subject,the boy,19,44,63,male,1.0,secondary
+53,5,given,127,132,5770,5775,3,80.0,96.0,5723.0,5739.0,,,,,verb.possession,117,subject,the Weendigo,5,38,43,male,1.0,secondary
+54,2,secured,26,33,5853,5860,41,0.0,2.0,5827.0,5829.0,,,,,verb.contact,121,subject,the boy,19,44,63,male,1.0,secondary
+54,3,shot,41,45,5868,5872,41,38.0,40.0,5865.0,5867.0,53.0,67.0,5880.0,5894.0,verb.competition,122,subject,the boy,19,44,63,male,1.0,secondary
+54,11,disappeared,245,256,6072,6083,78,242.0,244.0,6069.0,6071.0,,,,,verb.change,119,subject,the boy's father,8,3,11,male,1.0,tertiary
+55,0,followed,17,25,6102,6110,23,0.0,16.0,6085.0,6101.0,,,,,verb.motion,123,subject,The hunter,28,81,109,male,1.0,primary
+55,0,followed,17,25,6102,6110,86,0.0,16.0,6085.0,6101.0,,,,,verb.motion,123,subject,The hunter 's son,3,5,8,male,1.0,tertiary
+55,2,come,38,42,6123,6127,23,0.0,16.0,6085.0,6101.0,,,,,verb.motion,124,subject,The hunter,28,81,109,male,1.0,primary
+55,2,come,38,42,6123,6127,86,0.0,16.0,6085.0,6101.0,,,,,verb.motion,124,subject,The hunter 's son,3,5,8,male,1.0,tertiary
+55,3,beheld,59,65,6144,6150,86,56.0,58.0,6141.0,6143.0,,,,,verb.perception,126,subject,The hunter 's son,3,5,8,male,1.0,tertiary
+55,4,looking,86,93,6171,6178,41,78.0,85.0,6163.0,6170.0,,,,,verb.perception,125,subject,the boy,19,44,63,male,1.0,secondary
+58,0,said,3,7,6235,6239,86,0.0,2.0,6232.0,6234.0,,,,,verb.communication,127,subject,The hunter 's son,3,5,8,male,1.0,tertiary
+59,0,urged,9,14,6288,6293,86,6.0,8.0,6285.0,6287.0,23.0,40.0,6302.0,6319.0,verb.communication,128,subject,The hunter 's son,3,5,8,male,1.0,tertiary
+59,1,consented,31,40,6310,6319,41,28.0,30.0,6307.0,6309.0,,,,,verb.communication,129,subject,the boy,19,44,63,male,1.0,secondary
+61,0,said,23,27,6388,6392,90,9.0,22.0,6374.0,6387.0,,,,,verb.communication,130,subject,the young boy,1,1,2,male,1.0,tertiary
+61,2,coming,45,51,6410,6416,41,30.0,41.0,6395.0,6406.0,,,,,verb.motion,131,subject,the boy,19,44,63,male,1.0,secondary
+61,2,coming,45,51,6410,6416,206,30.0,41.0,6395.0,6406.0,,,,,verb.motion,131,subject,the boy's father,3,1,4,male,1.0,tertiary
+63,2,tell,29,33,6461,6465,41,16.0,19.0,6448.0,6451.0,,,,,verb.communication,134,subject,the boy,19,44,63,male,1.0,secondary
+64,0,promised,17,25,6489,6497,23,0.0,16.0,6472.0,6488.0,,,,,verb.communication,133,subject,The hunter,28,81,109,male,1.0,primary
+64,0,promised,17,25,6489,6497,86,0.0,16.0,6472.0,6488.0,,,,,verb.communication,133,subject,The hunter 's son,3,5,8,male,1.0,tertiary
+64,1,disappeared,41,52,6513,6524,55,31.0,40.0,6503.0,6512.0,,,,,verb.change,135,subject,the other,2,0,2,unknown,0.0,tertiary
+65,0,returned,16,24,6554,6562,23,5.0,15.0,6543.0,6553.0,,,,,verb.motion,137,subject,The hunter,28,81,109,male,1.0,primary
+65,1,sat,49,52,6587,6590,23,41.0,48.0,6579.0,6586.0,,,,,verb.contact,136,subject,The hunter,28,81,109,male,1.0,primary
+65,1,sat,49,52,6587,6590,64,41.0,48.0,6579.0,6586.0,,,,,verb.contact,136,subject,The hunter's son,13,14,27,male,1.0,tertiary
+66,0,asked,32,37,6645,6650,64,29.0,31.0,6642.0,6644.0,,,,,verb.communication,138,subject,The hunter's son,13,14,27,male,1.0,tertiary
+66,1,make,52,56,6665,6669,78,38.0,48.0,6651.0,6661.0,,,,,verb.creation,139,subject,the boy's father,8,3,11,male,1.0,tertiary
+66,1,make,52,56,6665,6669,64,38.0,48.0,6651.0,6661.0,,,,,verb.creation,139,subject,The hunter's son,13,14,27,male,1.0,tertiary
+67,1,questioned,17,27,6701,6711,64,10.0,12.0,6694.0,6696.0,,,,,verb.communication,140,subject,The hunter's son,13,14,27,male,1.0,tertiary
+67,3,find,51,55,6735,6739,64,42.0,44.0,6726.0,6728.0,,,,,verb.possession,141,subject,The hunter's son,13,14,27,male,1.0,tertiary
+67,4,answered,73,81,6757,6765,64,70.0,72.0,6754.0,6756.0,,,,,verb.cognition,143,subject,The hunter's son,13,14,27,male,1.0,tertiary
+68,0,pleased,11,18,6811,6818,9,0.0,10.0,6800.0,6810.0,,,,,verb.emotion,142,subject,the father,5,31,36,male,1.0,secondary
+68,1,made,70,74,6870,6874,9,0.0,68.0,6800.0,6868.0,,,,,verb.creation,144,subject,the father,5,31,36,male,1.0,secondary
+68,1,made,70,74,6870,6874,64,0.0,68.0,6800.0,6868.0,,,,,verb.creation,144,subject,The hunter's son,13,14,27,male,1.0,tertiary
+69,2,ran,64,67,6959,6962,41,56.0,63.0,6951.0,6958.0,,,,,verb.motion,145,subject,the boy,19,44,63,male,1.0,secondary
+69,3,invited,92,99,6987,6994,41,56.0,63.0,6951.0,6958.0,,,,,verb.communication,146,subject,the boy,19,44,63,male,1.0,secondary
+69,4,come,121,125,7016,7020,102,100.0,117.0,6995.0,7012.0,,,,,verb.motion,147,subject,the boy's little friend,1,0,1,unknown,0.0,tertiary
+69,4,come,121,125,7016,7020,41,100.0,117.0,6995.0,7012.0,,,,,verb.motion,147,subject,the boy,19,44,63,male,1.0,secondary
+69,5,play,134,138,7029,7033,102,100.0,117.0,6995.0,7012.0,,,,,verb.creation,149,subject,the boy's little friend,1,0,1,unknown,0.0,tertiary
+69,5,play,134,138,7029,7033,41,100.0,117.0,6995.0,7012.0,,,,,verb.creation,149,subject,the boy,19,44,63,male,1.0,secondary
+72,0,said,28,32,7209,7213,105,15.0,27.0,7196.0,7208.0,,,,,verb.communication,150,subject,the youngest,1,3,4,male,1.0,tertiary
+72,2,coming,50,56,7231,7237,41,35.0,46.0,7216.0,7227.0,,,,,verb.motion,151,subject,the boy,19,44,63,male,1.0,secondary
+72,2,coming,50,56,7231,7237,206,35.0,46.0,7216.0,7227.0,,,,,verb.motion,151,subject,the boy's father,3,1,4,male,1.0,tertiary
+72,4,leave,65,70,7246,7251,105,58.0,59.0,7239.0,7240.0,,,,,verb.motion,153,subject,the youngest,1,3,4,male,1.0,tertiary
+73,0,exacted,9,16,7263,7270,105,0.0,2.0,7254.0,7256.0,,,,,verb.communication,152,subject,the youngest,1,3,4,male,1.0,tertiary
+74,0,took,11,15,7331,7335,107,0.0,10.0,7320.0,7330.0,25.0,38.0,7345.0,7358.0,verb.motion,154,subject,The eldest,1,1,2,male,1.0,tertiary
+76,0,said,18,22,7453,7457,23,1.0,12.0,7436.0,7447.0,,,,,verb.communication,156,subject,The hunter,28,81,109,male,1.0,primary
+76,0,said,18,22,7453,7457,201,1.0,12.0,7436.0,7447.0,,,,,verb.communication,156,subject,a man's wife's son,7,5,12,unknown,0.0,tertiary
+76,3,played,39,45,7474,7480,41,25.0,28.0,7460.0,7463.0,,,,,verb.social,155,subject,the boy,19,44,63,male,1.0,secondary
+76,4,raise,66,71,7501,7506,41,25.0,28.0,7460.0,7463.0,,,,,verb.change,157,subject,the boy,19,44,63,male,1.0,secondary
+77,0,answered,15,23,7546,7554,41,7.0,14.0,7538.0,7545.0,,,,,verb.communication,159,subject,the boy,19,44,63,male,1.0,secondary
+77,2,ran,53,56,7584,7587,41,51.0,52.0,7582.0,7583.0,,,,,verb.motion,158,subject,the boy,19,44,63,male,1.0,secondary
+78,0,made,24,28,7655,7659,23,13.0,23.0,7644.0,7654.0,,,,,verb.change,160,subject,The hunter,28,81,109,male,1.0,primary
+79,0,said,8,12,7698,7702,41,0.0,7.0,7690.0,7697.0,,,,,verb.communication,161,subject,the boy,19,44,63,male,1.0,secondary
+79,5,kill,66,70,7756,7760,209,53.0,57.0,7743.0,7747.0,,,,,verb.contact,162,subject,Father,3,3,6,male,1.0,tertiary
+80,2,called,38,44,7801,7807,41,30.0,37.0,7793.0,7800.0,,,,,verb.communication,164,subject,the boy,19,44,63,male,1.0,secondary
+82,1,returning,21,30,7972,7981,23,0.0,10.0,7951.0,7961.0,,,,,verb.motion,166,subject,The hunter,28,81,109,male,1.0,primary
+82,2,came,36,40,7987,7991,23,0.0,10.0,7951.0,7961.0,,,,,verb.motion,167,subject,The hunter,28,81,109,male,1.0,primary
+82,6,heard,107,112,8058,8063,23,104.0,106.0,8055.0,8057.0,121.0,129.0,8072.0,8080.0,verb.perception,169,subject,The hunter,28,81,109,male,1.0,primary
+82,7,laughing,121,129,8072,8080,23,113.0,120.0,8064.0,8071.0,,,,,verb.body,168,subject,The hunter,28,81,109,male,1.0,primary
+82,7,laughing,121,129,8072,8080,64,113.0,120.0,8064.0,8071.0,,,,,verb.body,168,subject,The hunter's son,13,14,27,male,1.0,tertiary
+82,8,making,134,140,8085,8091,23,113.0,120.0,8064.0,8071.0,,,,,verb.communication,170,subject,The hunter,28,81,109,male,1.0,primary
+82,8,making,134,140,8085,8091,64,113.0,120.0,8064.0,8071.0,,,,,verb.communication,170,subject,The hunter's son,13,14,27,male,1.0,tertiary
+82,12,playing,243,250,8194,8201,121,231.0,242.0,8182.0,8193.0,,,,,verb.competition,172,subject,two persons,1,0,1,unknown,0.0,tertiary
+83,3,coming,75,81,8278,8284,64,60.0,71.0,8263.0,8274.0,,,,,verb.motion,175,subject,The hunter's son,13,14,27,male,1.0,tertiary
+83,3,coming,75,81,8278,8284,206,60.0,71.0,8263.0,8274.0,,,,,verb.motion,175,subject,the boy's father,3,1,4,male,1.0,tertiary
+84,0,entering,15,23,8391,8399,23,0.0,10.0,8376.0,8386.0,,,,,verb.motion,176,subject,The hunter,28,81,109,male,1.0,primary
+84,1,found,25,30,8401,8406,23,0.0,10.0,8376.0,8386.0,88.0,180.0,8464.0,8556.0,verb.perception,178,subject,The hunter,28,81,109,male,1.0,primary
+84,2,sitting,39,46,8415,8422,23,31.0,38.0,8407.0,8414.0,,,,,verb.contact,177,subject,The hunter,28,81,109,male,1.0,primary
+84,2,sitting,39,46,8415,8422,64,31.0,38.0,8407.0,8414.0,,,,,verb.contact,177,subject,The hunter's son,13,14,27,male,1.0,tertiary
+84,3,saw,100,103,8476,8479,23,97.0,99.0,8473.0,8475.0,,,,,verb.perception,179,subject,The hunter,28,81,109,male,1.0,primary
+85,0,said,18,22,8576,8580,23,15.0,17.0,8573.0,8575.0,,,,,verb.communication,182,subject,The hunter,28,81,109,male,1.0,primary
+85,2,play,33,37,8591,8595,201,24.0,27.0,8582.0,8585.0,,,,,verb.competition,181,subject,a man's wife's son,7,5,12,unknown,0.0,tertiary
+87,0,had,14,17,8709,8712,41,0.0,7.0,8695.0,8702.0,,,,,verb.possession,180,subject,the boy,19,44,63,male,1.0,secondary
+88,0,answered,13,21,8738,8746,41,10.0,12.0,8735.0,8737.0,,,,,verb.communication,184,subject,the boy,19,44,63,male,1.0,secondary
+88,1,play,26,30,8751,8755,41,24.0,25.0,8749.0,8750.0,,,,,verb.competition,183,subject,the boy,19,44,63,male,1.0,secondary
+88,2,chase,49,54,8774,8779,41,47.0,48.0,8772.0,8773.0,,,,,verb.motion,186,subject,the boy,19,44,63,male,1.0,secondary
+88,3,drag,59,63,8784,8788,41,47.0,48.0,8772.0,8773.0,,,,,verb.contact,185,subject,the boy,19,44,63,male,1.0,secondary
+88,5,see,120,123,8845,8848,209,116.0,119.0,8841.0,8844.0,,,,,verb.perception,187,subject,Father,3,3,6,male,1.0,tertiary
+89,2,shown,47,52,8921,8926,23,35.0,42.0,8909.0,8916.0,,,,,verb.communication,189,subject,The hunter,28,81,109,male,1.0,primary
+89,2,shown,47,52,8921,8926,64,35.0,42.0,8909.0,8916.0,,,,,verb.communication,189,subject,The hunter's son,13,14,27,male,1.0,tertiary
+89,3,played,64,70,8938,8944,23,61.0,63.0,8935.0,8937.0,,,,,verb.creation,188,subject,The hunter,28,81,109,male,1.0,primary
+89,4,did,98,101,8972,8975,23,95.0,97.0,8969.0,8971.0,,,,,verb.creation,190,subject,The hunter,28,81,109,male,1.0,primary
+89,8,raised,223,229,9097,9103,23,189.0,214.0,9063.0,9088.0,,,,,verb.creation,192,subject,The hunter,28,81,109,male,1.0,primary
+90,0,renewed,25,32,9130,9137,41,17.0,24.0,9122.0,9129.0,,,,,verb.communication,194,subject,the boy,19,44,63,male,1.0,secondary
+90,3,see,91,94,9196,9199,41,17.0,24.0,9122.0,9129.0,,,,,verb.cognition,196,subject,the boy,19,44,63,male,1.0,secondary
+90,5,kill,111,115,9216,9220,78,98.0,100.0,9203.0,9205.0,,,,,verb.contact,195,subject,the boy's father,8,3,11,male,1.0,tertiary
+91,0,thought,11,18,9242,9249,23,0.0,10.0,9231.0,9241.0,,,,,verb.cognition,198,subject,The hunter,28,81,109,male,1.0,primary
+91,2,humored,86,93,9317,9324,23,72.0,74.0,9303.0,9305.0,,,,,verb.emotion,197,subject,The hunter,28,81,109,male,1.0,primary
+92,1,hastened,40,48,9453,9461,23,32.0,39.0,9445.0,9452.0,,,,,verb.motion,200,subject,The hunter,28,81,109,male,1.0,primary
+92,1,hastened,40,48,9453,9461,64,32.0,39.0,9445.0,9452.0,,,,,verb.motion,200,subject,The hunter's son,13,14,27,male,1.0,tertiary
+93,1,reached,53,60,9584,9591,9,50.0,52.0,9581.0,9583.0,,,,,verb.motion,202,subject,the father,5,31,36,male,1.0,secondary
+93,3,heard,86,91,9617,9622,9,0.0,45.0,9531.0,9576.0,,,,,verb.perception,203,subject,the father,5,31,36,male,1.0,secondary
+95,0,had,22,25,9775,9778,143,0.0,21.0,9753.0,9774.0,,,,,verb.possession,204,subject,The boy from the tree,1,0,1,male,1.0,tertiary
+95,1,escape,47,53,9800,9806,143,0.0,21.0,9753.0,9774.0,,,,,verb.motion,206,subject,The boy from the tree,1,0,1,male,1.0,tertiary
+95,2,entered,71,78,9824,9831,23,60.0,70.0,9813.0,9823.0,,,,,verb.motion,207,subject,The hunter,28,81,109,male,1.0,primary
+95,3,found,84,89,9837,9842,23,60.0,70.0,9813.0,9823.0,99.0,115.0,9852.0,9868.0,verb.possession,209,subject,The hunter,28,81,109,male,1.0,primary
+95,4,sitting,99,106,9852,9859,23,90.0,97.0,9843.0,9850.0,,,,,verb.contact,208,subject,The hunter,28,81,109,male,1.0,primary
+95,4,sitting,99,106,9852,9859,64,90.0,97.0,9843.0,9850.0,,,,,verb.contact,208,subject,The hunter's son,13,14,27,male,1.0,tertiary
+96,0,cast,8,12,9893,9897,9,5.0,7.0,9890.0,9892.0,22.0,28.0,9907.0,9913.0,verb.creation,210,subject,the father,5,31,36,male,1.0,secondary
+96,1,saw,33,36,9918,9921,9,30.0,32.0,9915.0,9917.0,,,,,verb.perception,211,subject,the father,5,31,36,male,1.0,secondary
+97,0,said,13,17,9988,9992,9,1.0,7.0,9976.0,9982.0,,,,,verb.communication,212,subject,the father,5,31,36,male,1.0,secondary
+97,0,said,13,17,9988,9992,201,1.0,7.0,9976.0,9982.0,,,,,verb.communication,212,subject,a man's wife's son,7,5,12,unknown,0.0,tertiary
+99,0,heard,3,8,10067,10072,9,1.0,2.0,10065.0,10066.0,,,,,verb.perception,213,subject,the father,5,31,36,male,1.0,secondary
+100,0,looked,9,15,10104,10110,9,6.0,8.0,10101.0,10103.0,,,,,verb.perception,215,subject,the father,5,31,36,male,1.0,secondary
+101,0,continued,11,20,10175,10184,9,1.0,5.0,10165.0,10169.0,,,,,verb.communication,216,subject,the father,5,31,36,male,1.0,secondary
+103,1,refuse,22,28,10401,10407,41,0.0,7.0,10379.0,10386.0,,,,,verb.communication,217,subject,the boy,19,44,63,male,1.0,secondary
+103,2,tell,32,36,10411,10415,41,0.0,7.0,10379.0,10386.0,,,,,verb.communication,218,subject,the boy,19,44,63,male,1.0,secondary
+104,0,said,13,17,10459,10463,209,1.0,7.0,10447.0,10453.0,,,,,verb.communication,221,subject,Father,3,3,6,male,1.0,tertiary
+104,0,said,13,17,10459,10463,41,1.0,7.0,10447.0,10453.0,,,,,verb.communication,221,subject,the boy,19,44,63,male,1.0,secondary
+104,1,found,22,27,10468,10473,41,20.0,21.0,10466.0,10467.0,34.0,112.0,10480.0,10558.0,verb.possession,220,subject,the boy,19,44,63,male,1.0,secondary
+104,2,placed,88,94,10534,10540,209,84.0,87.0,10530.0,10533.0,,,,,verb.contact,219,subject,Father,3,3,6,male,1.0,tertiary
+107,2,dare,43,47,10704,10708,9,32.0,34.0,10693.0,10695.0,,,,,verb.social,223,subject,the father,5,31,36,male,1.0,secondary
+107,3,visit,51,56,10712,10717,9,32.0,34.0,10693.0,10695.0,,,,,verb.social,225,subject,the father,5,31,36,male,1.0,secondary
+107,5,deposited,80,89,10741,10750,9,73.0,75.0,10734.0,10736.0,,,,,verb.possession,224,subject,the father,5,31,36,male,1.0,secondary
+108,0,engaged,13,20,10777,10784,9,0.0,2.0,10764.0,10766.0,,,,,verb.communication,226,subject,the father,5,31,36,male,1.0,secondary
+108,1,entice,32,38,10796,10802,9,21.0,28.0,10785.0,10792.0,,,,,verb.communication,227,subject,the father,5,31,36,male,1.0,secondary
+108,1,entice,32,38,10796,10802,64,21.0,28.0,10785.0,10792.0,,,,,verb.communication,227,subject,The hunter's son,13,14,27,male,1.0,tertiary
+109,0,said,3,7,10920,10924,9,0.0,2.0,10917.0,10919.0,,,,,verb.communication,228,subject,the father,5,31,36,male,1.0,secondary
+109,2,conceal,22,29,10939,10946,9,13.0,15.0,10930.0,10932.0,43.0,45.0,10960.0,10962.0,verb.perception,229,subject,the father,5,31,36,male,1.0,secondary
+109,3,take,51,55,10968,10972,9,13.0,15.0,10930.0,10932.0,,,,,verb.contact,230,subject,the father,5,31,36,male,1.0,secondary
+110,1,calling,70,77,11052,11059,9,61.0,68.0,11043.0,11050.0,86.0,99.0,11068.0,11081.0,verb.communication,231,subject,the father,5,31,36,male,1.0,secondary
+110,1,calling,70,77,11052,11059,64,61.0,68.0,11043.0,11050.0,86.0,99.0,11068.0,11081.0,verb.communication,231,subject,The hunter's son,13,14,27,male,1.0,tertiary
+110,2,urged,101,106,11083,11088,9,61.0,99.0,11043.0,11081.0,,,,,verb.communication,232,subject,the father,5,31,36,male,1.0,secondary
+110,2,urged,101,106,11083,11088,41,61.0,99.0,11043.0,11081.0,,,,,verb.communication,232,subject,the boy,19,44,63,male,1.0,secondary
+110,2,urged,101,106,11083,11088,64,61.0,99.0,11043.0,11081.0,,,,,verb.communication,232,subject,The hunter's son,13,14,27,male,1.0,tertiary
+110,3,go,114,116,11096,11098,41,107.0,110.0,11089.0,11092.0,,,,,verb.motion,234,subject,the boy,19,44,63,male,1.0,secondary
+111,0,objected,8,16,11139,11147,41,0.0,7.0,11131.0,11138.0,,,,,verb.communication,233,subject,the boy,19,44,63,male,1.0,secondary
+111,10,made,197,201,11328,11332,23,177.0,187.0,11308.0,11318.0,,,,,verb.creation,235,subject,The hunter,28,81,109,male,1.0,primary
+111,11,clasped,222,229,11353,11360,23,177.0,187.0,11308.0,11318.0,246.0,257.0,11377.0,11388.0,verb.contact,236,subject,The hunter,28,81,109,male,1.0,primary
+113,1,tear,9,13,11440,11444,23,0.0,3.0,11431.0,11434.0,,,,,verb.contact,239,subject,The hunter,28,81,109,male,1.0,primary
+115,0,reassured,11,20,11572,11581,9,0.0,10.0,11561.0,11571.0,25.0,52.0,11586.0,11613.0,verb.emotion,238,subject,the father,5,31,36,male,1.0,secondary
+118,1,parted,24,30,11820,11826,173,0.0,12.0,11796.0,11808.0,,,,,verb.contact,237,subject,The children,1,0,1,unknown,0.0,tertiary
+119,0,looked,21,27,11864,11870,23,10.0,20.0,11853.0,11863.0,,,,,verb.perception,240,subject,The hunter,28,81,109,male,1.0,primary
+119,2,see,63,66,11906,11909,23,50.0,52.0,11893.0,11895.0,,,,,verb.creation,242,subject,The hunter,28,81,109,male,1.0,primary
+120,4,show,122,126,12082,12086,41,108.0,115.0,12068.0,12075.0,,,,,verb.perception,244,subject,the boy,19,44,63,male,1.0,secondary
+120,5,avenge,157,163,12117,12123,41,108.0,115.0,12068.0,12075.0,168.0,235.0,12128.0,12195.0,verb.communication,246,subject,the boy,19,44,63,male,1.0,secondary
+121,0,grew,11,15,12208,12212,23,0.0,10.0,12197.0,12207.0,,,,,verb.change,247,subject,The hunter,28,81,109,male,1.0,primary
+121,1,gave,43,47,12240,12244,23,0.0,10.0,12197.0,12207.0,,,,,verb.possession,249,subject,The hunter,28,81,109,male,1.0,primary
+121,3,spare,73,78,12270,12275,23,64.0,66.0,12261.0,12263.0,,,,,verb.possession,248,subject,The hunter,28,81,109,male,1.0,primary
+122,3,grew,98,102,12424,12428,23,6.0,50.0,12332.0,12376.0,,,,,verb.change,251,subject,The hunter,28,81,109,male,1.0,primary
+122,3,grew,98,102,12424,12428,184,6.0,50.0,12332.0,12376.0,,,,,verb.change,251,subject,The hunter's sons,1,0,1,unknown,0.0,tertiary
+123,1,ceased,66,72,12544,12550,183,55.0,59.0,12533.0,12537.0,,,,,verb.change,253,subject,"The hunter's of his sons , although they were well - formed and beautiful",1,4,5,group/nonbinary,1.0,tertiary
+123,2,sport,76,81,12554,12559,183,55.0,59.0,12533.0,12537.0,,,,,verb.body,252,subject,"The hunter's of his sons , although they were well - formed and beautiful",1,4,5,group/nonbinary,1.0,tertiary
+123,3,divert,86,92,12564,12570,183,55.0,59.0,12533.0,12537.0,104.0,137.0,12582.0,12615.0,verb.social,254,subject,"The hunter's of his sons , although they were well - formed and beautiful",1,4,5,group/nonbinary,1.0,tertiary
+124,2,leaving,60,67,12677,12684,23,8.0,18.0,12625.0,12635.0,,,,,verb.cognition,256,subject,The hunter,28,81,109,male,1.0,primary
+124,4,given,158,163,12775,12780,189,111.0,125.0,12728.0,12742.0,172.0,191.0,12789.0,12808.0,verb.possession,255,subject,the friendly Weendigo,1,0,1,unknown,0.0,tertiary
+125,0,returned,8,16,12818,12826,23,5.0,7.0,12815.0,12817.0,,,,,verb.motion,257,subject,The hunter,28,81,109,male,1.0,primary
+125,2,see,52,55,12862,12865,23,28.0,48.0,12838.0,12858.0,,,,,verb.perception,259,subject,The hunter,28,81,109,male,1.0,primary
+127,1,called,53,59,13088,13094,41,46.0,48.0,13081.0,13083.0,,,,,verb.communication,260,subject,the boy,19,44,63,male,1.0,secondary
+0,1,had,61,64,61,64,8,65.0,70.0,65.0,70.0,,,,,verb.possession,0,direct_object,a son,1,0,1,unknown,0.0,tertiary
+1,2,hunt,76,80,148,152,10,81.0,110.0,153.0,182.0,,,,,verb.competition,1,direct_object,a man's family,1,0,1,unknown,0.0,tertiary
+1,2,hunt,76,80,148,152,6,81.0,110.0,153.0,182.0,,,,,verb.competition,1,direct_object,a man,1,4,5,male,1.0,tertiary
+1,3,supply,93,99,165,171,10,100.0,110.0,172.0,182.0,,,,,verb.consumption,2,direct_object,a man's family,1,0,1,unknown,0.0,tertiary
+1,3,supply,93,99,165,171,6,100.0,110.0,172.0,182.0,,,,,verb.consumption,2,direct_object,a man,1,4,5,male,1.0,tertiary
+2,4,saw,113,116,297,300,14,117.0,188.0,301.0,372.0,,,,,verb.perception,5,direct_object,a very large man,1,9,10,male,1.0,tertiary
+4,0,thought,4,11,461,468,200,25.0,56.0,482.0,513.0,,,,,verb.cognition,9,direct_object,the monster,3,1,4,male,1.0,tertiary
+4,0,thought,4,11,461,468,7,25.0,56.0,482.0,513.0,,,,,verb.cognition,9,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+4,2,say,38,41,495,498,200,42.0,56.0,499.0,513.0,,,,,verb.communication,11,direct_object,the monster,3,1,4,male,1.0,tertiary
+5,2,taking,40,46,556,562,17,47.0,100.0,563.0,616.0,,,,,verb.contact,12,direct_object,a man's wife's son,1,0,1,unknown,0.0,tertiary
+5,2,taking,40,46,556,562,18,47.0,100.0,563.0,616.0,,,,,verb.contact,12,direct_object,a boy of three or four years old,1,0,1,male,1.0,tertiary
+5,2,taking,40,46,556,562,7,47.0,100.0,563.0,616.0,,,,,verb.contact,12,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+5,3,led,106,109,622,625,14,110.0,113.0,626.0,629.0,114.0,117.0,630.0,633.0,verb.motion,13,direct_object,a very large man,1,9,10,male,1.0,tertiary
+6,2,said,39,43,674,678,202,46.0,62.0,681.0,697.0,,,,,verb.communication,14,direct_object,a man's wife's son's grandfather,1,0,1,male,1.0,tertiary
+6,2,said,39,43,674,678,201,46.0,62.0,681.0,697.0,,,,,verb.communication,14,direct_object,a man's wife's son,7,5,12,unknown,0.0,tertiary
+7,0,added,11,16,709,714,14,57.0,80.0,755.0,778.0,,,,,verb.communication,15,direct_object,a very large man,1,9,10,male,1.0,tertiary
+11,0,added,6,11,851,856,201,36.0,61.0,881.0,906.0,,,,,verb.communication,19,direct_object,a man's wife's son,7,5,12,unknown,0.0,tertiary
+11,1,addressing,13,23,858,868,20,24.0,33.0,869.0,878.0,,,,,verb.communication,22,direct_object,the woman,3,4,7,female,1.0,tertiary
+11,2,have,36,40,881,885,201,41.0,44.0,886.0,889.0,,,,,verb.possession,21,direct_object,a man's wife's son,7,5,12,unknown,0.0,tertiary
+13,0,thought,11,18,989,996,14,19.0,95.0,997.0,1073.0,,,,,verb.cognition,23,direct_object,a very large man,1,9,10,male,1.0,tertiary
+13,1,please,22,28,1000,1006,14,29.0,32.0,1007.0,1010.0,,,,,verb.emotion,24,direct_object,a very large man,1,9,10,male,1.0,tertiary
+13,2,handing,36,43,1014,1021,14,44.0,47.0,1022.0,1025.0,,,,,verb.possession,25,direct_object,a very large man,1,9,10,male,1.0,tertiary
+14,1,saying,36,42,1111,1117,14,45.0,57.0,1120.0,1132.0,,,,,verb.communication,28,direct_object,a very large man,1,9,10,male,1.0,tertiary
+15,0,waiting,11,18,1144,1151,14,19.0,32.0,1152.0,1165.0,,,,,verb.cognition,29,direct_object,a very large man,1,9,10,male,1.0,tertiary
+16,2,see,46,49,1331,1334,200,50.0,61.0,1335.0,1346.0,,,,,verb.perception,33,direct_object,the monster,3,1,4,male,1.0,tertiary
+17,1,brought,13,20,1387,1394,26,21.0,165.0,1395.0,1539.0,,,,,verb.contact,32,direct_object,the cannibal,2,1,3,male,1.0,tertiary
+17,1,brought,13,20,1387,1394,23,21.0,165.0,1395.0,1539.0,,,,,verb.contact,32,direct_object,The hunter,28,81,109,male,1.0,primary
+18,1,told,67,71,1608,1612,23,72.0,80.0,1613.0,1621.0,,,,,verb.communication,39,direct_object,The hunter,28,81,109,male,1.0,primary
+18,1,told,67,71,1608,1612,7,72.0,80.0,1613.0,1621.0,,,,,verb.communication,39,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+18,1,told,67,71,1608,1612,1,72.0,80.0,1613.0,1621.0,,,,,verb.communication,39,direct_object,Indians,2,0,2,unknown,0.0,tertiary
+18,1,told,67,71,1608,1612,30,72.0,80.0,1613.0,1621.0,,,,,verb.communication,39,direct_object,this monster,1,0,1,unknown,0.0,tertiary
+18,1,told,67,71,1608,1612,2,72.0,80.0,1613.0,1621.0,,,,,verb.communication,39,direct_object,Weendigoes,1,0,1,unknown,0.0,tertiary
+18,4,call,154,158,1695,1699,2,159.0,169.0,1700.0,1710.0,,,,,verb.communication,38,direct_object,Weendigoes,1,0,1,unknown,0.0,tertiary
+19,1,dare,16,20,1728,1732,23,21.0,36.0,1733.0,1748.0,,,,,verb.social,40,direct_object,The hunter,28,81,109,male,1.0,primary
+19,2,speak,24,29,1736,1741,23,30.0,36.0,1742.0,1748.0,,,,,verb.communication,41,direct_object,The hunter,28,81,109,male,1.0,primary
+19,6,finished,93,101,1805,1813,23,102.0,110.0,1814.0,1822.0,,,,,verb.change,42,direct_object,The hunter,28,81,109,male,1.0,primary
+20,0,told,28,32,1895,1899,32,33.0,43.0,1900.0,1910.0,,,,,verb.communication,44,direct_object,the people,1,0,1,unknown,0.0,tertiary
+20,0,told,28,32,1895,1899,3,33.0,43.0,1900.0,1910.0,,,,,verb.communication,44,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+22,3,make,69,73,2051,2055,3,74.0,143.0,2056.0,2125.0,,,,,verb.change,48,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+23,0,had,34,37,2160,2163,3,38.0,99.0,2164.0,2225.0,,,,,verb.perception,47,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+24,9,make,148,152,2375,2379,36,153.0,219.0,2380.0,2446.0,,,,,verb.creation,49,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+25,1,surprised,80,89,2528,2537,200,90.0,94.0,2538.0,2542.0,,,,,verb.emotion,52,direct_object,the monster,3,1,4,male,1.0,tertiary
+25,1,surprised,80,89,2528,2537,36,90.0,94.0,2538.0,2542.0,,,,,verb.emotion,52,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+25,2,attempted,118,127,2566,2575,36,128.0,139.0,2576.0,2587.0,,,,,verb.social,51,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+27,3,finish,46,52,2780,2786,3,53.0,63.0,2787.0,2797.0,,,,,verb.change,55,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+28,1,spoke,55,60,2871,2876,36,61.0,75.0,2877.0,2891.0,,,,,verb.communication,56,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+29,2,addressed,40,49,2932,2941,41,50.0,60.0,2942.0,2952.0,,,,,verb.communication,59,direct_object,the boy,19,44,63,male,1.0,secondary
+30,1,sojourned,31,40,2985,2994,36,41.0,50.0,2995.0,3004.0,51.0,65.0,3005.0,3019.0,verb.motion,58,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+30,2,informed,70,78,3024,3032,23,79.0,89.0,3033.0,3043.0,,,,,verb.communication,60,direct_object,The hunter,28,81,109,male,1.0,primary
+30,2,informed,70,78,3024,3032,3,79.0,89.0,3033.0,3043.0,,,,,verb.communication,60,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+30,5,take,131,135,3085,3089,3,136.0,145.0,3090.0,3099.0,,,,,verb.social,61,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+30,8,give,182,186,3136,3140,3,187.0,190.0,3141.0,3144.0,,,,,verb.possession,62,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+30,10,bring,210,215,3164,3169,3,216.0,225.0,3170.0,3179.0,,,,,verb.contact,64,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+31,0,presented,3,12,3197,3206,3,13.0,19.0,3207.0,3213.0,112.0,177.0,3306.0,3371.0,verb.possession,63,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+31,1,thanking,36,44,3230,3238,23,45.0,68.0,3239.0,3262.0,,,,,verb.communication,65,direct_object,The hunter,28,81,109,male,1.0,primary
+31,1,thanking,36,44,3230,3238,36,45.0,68.0,3239.0,3262.0,,,,,verb.communication,65,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+31,1,thanking,36,44,3230,3238,7,45.0,68.0,3239.0,3262.0,,,,,verb.communication,65,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+31,1,thanking,36,44,3230,3238,3,45.0,68.0,3239.0,3262.0,,,,,verb.communication,65,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+31,3,saying,112,118,3306,3312,46,137.0,177.0,3331.0,3371.0,,,,,verb.communication,71,direct_object,the Weendigo,2,4,6,male,1.0,tertiary
+31,4,left,126,130,3320,3324,36,131.0,135.0,3325.0,3329.0,,,,,verb.motion,70,direct_object,the family,1,9,10,group/nonbinary,1.0,tertiary
+32,4,looked,66,72,3439,3445,46,86.0,114.0,3459.0,3487.0,,,,,verb.perception,68,direct_object,the Weendigo,2,4,6,male,1.0,tertiary
+32,7,devoured,99,107,3472,3480,46,108.0,114.0,3481.0,3487.0,,,,,verb.contact,67,direct_object,the Weendigo,2,4,6,male,1.0,tertiary
+35,2,perceived,40,49,3794,3803,54,50.0,96.0,3804.0,3850.0,,,,,verb.perception,76,direct_object,Giant Cannibal,1,0,1,unknown,0.0,tertiary
+35,2,perceived,40,49,3794,3803,3,50.0,96.0,3804.0,3850.0,,,,,verb.perception,76,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+36,0,remembering,0,11,3852,3863,55,12.0,41.0,3864.0,3893.0,,,,,verb.cognition,75,direct_object,the other,2,0,2,unknown,0.0,tertiary
+36,0,remembering,0,11,3852,3863,7,12.0,41.0,3864.0,3893.0,,,,,verb.cognition,75,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+36,1,had,47,50,3899,3902,56,51.0,70.0,3903.0,3922.0,,,,,verb.perception,77,direct_object,this one,1,0,1,unknown,0.0,tertiary
+36,2,asked,76,81,3928,3933,3,82.0,85.0,3934.0,3937.0,,,,,verb.communication,78,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+38,0,finding,5,12,3977,3984,3,41.0,168.0,4013.0,4140.0,,,,,verb.cognition,80,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+39,1,notice,29,35,4171,4177,3,36.0,58.0,4178.0,4200.0,,,,,verb.perception,84,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+39,1,notice,29,35,4171,4177,20,36.0,58.0,4178.0,4200.0,,,,,verb.perception,84,direct_object,the woman,3,4,7,female,1.0,tertiary
+40,0,cast,18,22,4219,4223,20,23.0,47.0,4224.0,4248.0,,,,,verb.creation,85,direct_object,the woman,3,4,7,female,1.0,tertiary
+40,1,seizing,53,60,4254,4261,3,61.0,64.0,4262.0,4265.0,65.0,77.0,,,verb.contact,86,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+40,1,seizing,53,60,4254,4261,20,61.0,64.0,4262.0,4265.0,65.0,77.0,,,verb.contact,86,direct_object,the woman,3,4,7,female,1.0,tertiary
+40,2,bore,120,124,4321,4325,20,125.0,128.0,4326.0,4329.0,,,,,verb.emotion,87,direct_object,the woman,3,4,7,female,1.0,tertiary
+43,2,saw,27,30,4500,4503,23,31.0,95.0,4504.0,4568.0,,,,,verb.perception,91,direct_object,The hunter,28,81,109,male,1.0,primary
+43,2,saw,27,30,4500,4503,64,31.0,95.0,4504.0,4568.0,,,,,verb.perception,91,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+44,0,pointed,8,15,4578,4585,9,33.0,144.0,4603.0,4714.0,,,,,verb.communication,94,direct_object,the father,5,31,36,male,1.0,secondary
+44,0,pointed,8,15,4578,4585,7,33.0,144.0,4603.0,4714.0,,,,,verb.communication,94,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+44,0,pointed,8,15,4578,4585,46,33.0,144.0,4603.0,4714.0,,,,,verb.communication,94,direct_object,the Weendigo,2,4,6,male,1.0,tertiary
+44,4,found,92,97,4662,4667,9,98.0,144.0,4668.0,4714.0,,,,,verb.perception,96,direct_object,the father,5,31,36,male,1.0,secondary
+44,4,found,92,97,4662,4667,7,98.0,144.0,4668.0,4714.0,,,,,verb.perception,96,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+45,0,blackened,11,20,4727,4736,23,21.0,29.0,4737.0,4745.0,,,,,verb.change,97,direct_object,The hunter,28,81,109,male,1.0,primary
+45,1,vowed,35,40,4751,4756,23,41.0,53.0,4757.0,4769.0,,,,,verb.communication,99,direct_object,The hunter,28,81,109,male,1.0,primary
+47,0,left,3,7,4920,4924,23,8.0,15.0,4925.0,4932.0,,,,,verb.cognition,101,direct_object,The hunter,28,81,109,male,1.0,primary
+47,0,left,3,7,4920,4924,72,8.0,15.0,4925.0,4932.0,,,,,verb.cognition,101,direct_object,The hunter's boy,1,0,1,male,1.0,tertiary
+47,0,left,3,7,4920,4924,74,8.0,15.0,4925.0,4932.0,,,,,verb.cognition,101,direct_object,the wicked Weendigo,1,0,1,unknown,0.0,tertiary
+47,5,striving,110,118,5027,5035,23,119.0,143.0,5036.0,5060.0,,,,,verb.social,102,direct_object,The hunter,28,81,109,male,1.0,primary
+47,6,forget,122,128,5039,5045,23,129.0,143.0,5046.0,5060.0,,,,,verb.cognition,104,direct_object,The hunter,28,81,109,male,1.0,primary
+48,3,shot,62,66,5163,5167,64,67.0,77.0,5168.0,5178.0,78.0,110.0,5179.0,5211.0,verb.contact,103,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+49,2,trying,17,23,5292,5298,41,24.0,32.0,5299.0,5307.0,,,,,verb.social,105,direct_object,the boy,19,44,63,male,1.0,secondary
+49,4,puzzled,45,52,5320,5327,41,53.0,102.0,5328.0,5377.0,,,,,verb.emotion,108,direct_object,the boy,19,44,63,male,1.0,secondary
+49,6,shot,65,69,5340,5344,41,70.0,80.0,5345.0,5355.0,81.0,102.0,5356.0,5377.0,verb.social,107,direct_object,the boy,19,44,63,male,1.0,secondary
+50,0,made,11,15,5390,5394,41,16.0,31.0,5395.0,5410.0,,,,,verb.change,109,direct_object,the boy,19,44,63,male,1.0,secondary
+53,0,returning,5,14,5648,5657,41,15.0,27.0,5658.0,5670.0,28.0,51.0,,,verb.motion,115,direct_object,the boy,19,44,63,male,1.0,secondary
+53,1,replenish,31,40,5674,5683,41,41.0,51.0,5684.0,5694.0,,,,,verb.change,116,direct_object,the boy,19,44,63,male,1.0,secondary
+53,3,espy,68,72,5711,5715,41,73.0,182.0,5716.0,5825.0,,,,,verb.contact,118,direct_object,the boy,19,44,63,male,1.0,secondary
+53,3,espy,68,72,5711,5715,80,73.0,182.0,5716.0,5825.0,,,,,verb.contact,118,direct_object,"the first Weendigo had given to his father , hanging upon the side of the lodge",1,0,1,male,1.0,tertiary
+53,3,espy,68,72,5711,5715,3,73.0,182.0,5716.0,5825.0,,,,,verb.contact,118,direct_object,the Weendigo,5,38,43,male,1.0,secondary
+53,3,espy,68,72,5711,5715,78,73.0,182.0,5716.0,5825.0,,,,,verb.contact,118,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+53,5,given,127,132,5770,5775,78,133.0,146.0,5776.0,5789.0,,,,,verb.possession,117,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+53,5,given,127,132,5770,5775,41,133.0,146.0,5776.0,5789.0,,,,,verb.possession,117,direct_object,the boy,19,44,63,male,1.0,secondary
+54,2,secured,26,33,5853,5860,41,34.0,36.0,5861.0,5863.0,,,,,verb.contact,121,direct_object,the boy,19,44,63,male,1.0,secondary
+54,8,see,140,143,5967,5970,83,144.0,191.0,5971.0,6018.0,,,,,verb.perception,120,direct_object,a beautiful boy just in the act of taking it up,1,0,1,male,1.0,tertiary
+55,3,beheld,59,65,6144,6150,41,66.0,135.0,6151.0,6220.0,,,,,verb.perception,126,direct_object,the boy,19,44,63,male,1.0,secondary
+58,0,said,3,7,6235,6239,205,10.0,46.0,6242.0,6278.0,,,,,verb.communication,127,direct_object,The hunter 's son's friend,1,0,1,unknown,0.0,tertiary
+58,0,said,3,7,6235,6239,86,10.0,46.0,6242.0,6278.0,,,,,verb.communication,127,direct_object,The hunter 's son,3,5,8,male,1.0,tertiary
+59,0,urged,9,14,6288,6293,41,15.0,22.0,6294.0,6301.0,23.0,40.0,6302.0,6319.0,verb.communication,128,direct_object,the boy,19,44,63,male,1.0,secondary
+61,0,said,23,27,6388,6392,41,30.0,51.0,6395.0,6416.0,,,,,verb.communication,130,direct_object,the boy,19,44,63,male,1.0,secondary
+61,0,said,23,27,6388,6392,206,30.0,51.0,6395.0,6416.0,,,,,verb.communication,130,direct_object,the boy's father,3,1,4,male,1.0,tertiary
+63,0,promise,0,7,6432,6439,90,8.0,10.0,6440.0,6442.0,,,,,verb.communication,132,direct_object,the young boy,1,1,2,male,1.0,tertiary
+63,0,promise,0,7,6432,6439,41,8.0,10.0,6440.0,6442.0,,,,,verb.communication,132,direct_object,the boy,19,44,63,male,1.0,secondary
+63,0,promise,0,7,6432,6439,206,8.0,10.0,6440.0,6442.0,,,,,verb.communication,132,direct_object,the boy's father,3,1,4,male,1.0,tertiary
+63,2,tell,29,33,6461,6465,206,34.0,37.0,6466.0,6469.0,,,,,verb.communication,134,direct_object,the boy's father,3,1,4,male,1.0,tertiary
+66,0,asked,32,37,6645,6650,78,38.0,48.0,6651.0,6661.0,,,,,verb.communication,138,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+66,0,asked,32,37,6645,6650,64,38.0,48.0,6651.0,6661.0,,,,,verb.communication,138,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+66,1,make,52,56,6665,6669,64,57.0,70.0,6670.0,6683.0,,,,,verb.creation,139,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+67,1,questioned,17,27,6701,6711,64,28.0,68.0,6712.0,6752.0,,,,,verb.communication,140,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+68,0,pleased,11,18,6811,6818,9,19.0,68.0,6819.0,6868.0,,,,,verb.emotion,142,direct_object,the father,5,31,36,male,1.0,secondary
+68,0,pleased,11,18,6811,6818,64,19.0,68.0,6819.0,6868.0,,,,,verb.emotion,142,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+68,1,made,70,74,6870,6874,64,75.0,94.0,6875.0,6894.0,,,,,verb.creation,144,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+69,3,invited,92,99,6987,6994,102,100.0,117.0,6995.0,7012.0,,,,,verb.communication,146,direct_object,the boy's little friend,1,0,1,unknown,0.0,tertiary
+69,3,invited,92,99,6987,6994,41,100.0,117.0,6995.0,7012.0,,,,,verb.communication,146,direct_object,the boy,19,44,63,male,1.0,secondary
+70,0,presenting,18,28,7052,7062,64,29.0,35.0,7063.0,7069.0,,,,,verb.communication,148,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+72,0,said,28,32,7209,7213,105,35.0,70.0,7216.0,7251.0,,,,,verb.communication,150,direct_object,the youngest,1,3,4,male,1.0,tertiary
+72,0,said,28,32,7209,7213,41,35.0,70.0,7216.0,7251.0,,,,,verb.communication,150,direct_object,the boy,19,44,63,male,1.0,secondary
+72,0,said,28,32,7209,7213,206,35.0,70.0,7216.0,7251.0,,,,,verb.communication,150,direct_object,the boy's father,3,1,4,male,1.0,tertiary
+74,0,took,11,15,7331,7335,107,16.0,24.0,7336.0,7344.0,25.0,38.0,7345.0,7358.0,verb.motion,154,direct_object,The eldest,1,1,2,male,1.0,tertiary
+76,0,said,18,22,7453,7457,41,25.0,93.0,7460.0,7528.0,,,,,verb.communication,156,direct_object,the boy,19,44,63,male,1.0,secondary
+77,0,answered,15,23,7546,7554,41,26.0,97.0,7557.0,7628.0,,,,,verb.communication,159,direct_object,the boy,19,44,63,male,1.0,secondary
+79,0,said,8,12,7698,7702,209,15.0,70.0,7705.0,7760.0,,,,,verb.communication,161,direct_object,Father,3,3,6,male,1.0,tertiary
+79,3,see,49,52,7739,7742,209,53.0,70.0,7743.0,7760.0,,,,,verb.cognition,163,direct_object,Father,3,3,6,male,1.0,tertiary
+80,2,called,38,44,7801,7807,113,45.0,55.0,7808.0,7818.0,,,,,verb.communication,164,direct_object,the boy's friend,1,0,1,unknown,0.0,tertiary
+80,2,called,38,44,7801,7807,41,45.0,55.0,7808.0,7818.0,,,,,verb.communication,164,direct_object,the boy,19,44,63,male,1.0,secondary
+80,4,chased,77,83,7840,7846,115,84.0,110.0,7847.0,7873.0,,,,,verb.motion,165,direct_object,each other,4,0,4,unknown,0.0,tertiary
+82,6,heard,107,112,8058,8063,23,113.0,120.0,8064.0,8071.0,121.0,129.0,8072.0,8080.0,verb.perception,169,direct_object,The hunter,28,81,109,male,1.0,primary
+82,6,heard,107,112,8058,8063,64,113.0,120.0,8064.0,8071.0,121.0,129.0,8072.0,8080.0,verb.perception,169,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+82,9,reached,173,180,8124,8131,23,181.0,184.0,8132.0,8135.0,185.0,200.0,8136.0,8151.0,verb.motion,171,direct_object,The hunter,28,81,109,male,1.0,primary
+82,10,seemed,202,208,8153,8159,121,209.0,250.0,8160.0,8201.0,,,,,verb.perception,173,direct_object,two persons,1,0,1,unknown,0.0,tertiary
+83,1,saying,52,58,8255,8261,122,60.0,81.0,8263.0,8284.0,,,,,verb.communication,174,direct_object,the younger boy,1,2,3,male,1.0,tertiary
+83,1,saying,52,58,8255,8261,64,60.0,81.0,8263.0,8284.0,,,,,verb.communication,174,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+83,1,saying,52,58,8255,8261,206,60.0,81.0,8263.0,8284.0,,,,,verb.communication,174,direct_object,the boy's father,3,1,4,male,1.0,tertiary
+84,1,found,25,30,8401,8406,23,31.0,86.0,8407.0,8462.0,88.0,180.0,8464.0,8556.0,verb.perception,178,direct_object,The hunter,28,81,109,male,1.0,primary
+84,1,found,25,30,8401,8406,64,31.0,86.0,8407.0,8462.0,88.0,180.0,8464.0,8556.0,verb.perception,178,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+85,0,said,18,22,8576,8580,201,24.0,57.0,8582.0,8615.0,,,,,verb.communication,182,direct_object,a man's wife's son,7,5,12,unknown,0.0,tertiary
+87,0,had,14,17,8709,8712,41,18.0,28.0,8713.0,8723.0,,,,,verb.possession,180,direct_object,the boy,19,44,63,male,1.0,secondary
+88,0,answered,13,21,8738,8746,209,24.0,146.0,8749.0,8871.0,,,,,verb.communication,184,direct_object,Father,3,3,6,male,1.0,tertiary
+88,0,answered,13,21,8738,8746,41,24.0,146.0,8749.0,8871.0,,,,,verb.communication,184,direct_object,the boy,19,44,63,male,1.0,secondary
+88,3,drag,59,63,8784,8788,41,64.0,74.0,8789.0,8799.0,,,,,verb.contact,185,direct_object,the boy,19,44,63,male,1.0,secondary
+89,2,shown,47,52,8921,8926,23,53.0,56.0,8927.0,8930.0,,,,,verb.communication,189,direct_object,The hunter,28,81,109,male,1.0,primary
+89,2,shown,47,52,8921,8926,78,53.0,56.0,8927.0,8930.0,,,,,verb.communication,189,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+89,2,shown,47,52,8921,8926,64,53.0,56.0,8927.0,8930.0,,,,,verb.communication,189,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+89,3,played,64,70,8938,8944,23,71.0,143.0,8945.0,9017.0,,,,,verb.creation,188,direct_object,The hunter,28,81,109,male,1.0,primary
+89,3,played,64,70,8938,8944,78,71.0,143.0,8945.0,9017.0,,,,,verb.creation,188,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+89,3,played,64,70,8938,8944,64,71.0,143.0,8945.0,9017.0,,,,,verb.creation,188,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+89,5,set,120,123,8994,8997,78,124.0,134.0,8998.0,9008.0,135.0,143.0,,,verb.communication,191,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+89,5,set,120,123,8994,8997,64,124.0,134.0,8998.0,9008.0,135.0,143.0,,,verb.communication,191,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+89,7,drive,157,162,9031,9036,78,163.0,166.0,9037.0,9040.0,167.0,229.0,,,verb.motion,193,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+90,0,renewed,25,32,9130,9137,78,33.0,124.0,9138.0,9229.0,,,,,verb.communication,194,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+90,0,renewed,25,32,9130,9137,41,33.0,124.0,9138.0,9229.0,,,,,verb.communication,194,direct_object,the boy,19,44,63,male,1.0,secondary
+90,3,see,91,94,9196,9199,78,95.0,124.0,9200.0,9229.0,,,,,verb.cognition,196,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+91,0,thought,11,18,9242,9249,23,19.0,63.0,9250.0,9294.0,,,,,verb.cognition,198,direct_object,The hunter,28,81,109,male,1.0,primary
+91,0,thought,11,18,9242,9249,64,19.0,63.0,9250.0,9294.0,,,,,verb.cognition,198,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+91,2,humored,86,93,9317,9324,41,94.0,101.0,9325.0,9332.0,,,,,verb.emotion,197,direct_object,the boy,19,44,63,male,1.0,secondary
+91,4,accomplishing,145,158,9376,9389,23,159.0,167.0,9390.0,9398.0,,,,,verb.creation,199,direct_object,The hunter,28,81,109,male,1.0,primary
+92,1,hastened,40,48,9453,9461,138,49.0,83.0,9462.0,9496.0,,,,,verb.motion,200,direct_object,The hunter's son's young companion,1,0,1,unknown,0.0,tertiary
+92,1,hastened,40,48,9453,9461,64,49.0,83.0,9462.0,9496.0,,,,,verb.motion,200,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+93,0,nearing,14,21,9545,9552,9,22.0,30.0,9553.0,9561.0,31.0,45.0,,,verb.motion,201,direct_object,the father,5,31,36,male,1.0,secondary
+94,0,brought,17,24,9672,9679,9,25.0,29.0,9680.0,9684.0,,,,,verb.contact,205,direct_object,the father,5,31,36,male,1.0,secondary
+95,0,had,22,25,9775,9778,23,26.0,130.0,9779.0,9883.0,,,,,verb.possession,204,direct_object,The hunter,28,81,109,male,1.0,primary
+95,0,had,22,25,9775,9778,64,26.0,130.0,9779.0,9883.0,,,,,verb.possession,204,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+95,3,found,84,89,9837,9842,23,90.0,97.0,9843.0,9850.0,99.0,115.0,9852.0,9868.0,verb.possession,209,direct_object,The hunter,28,81,109,male,1.0,primary
+95,3,found,84,89,9837,9842,64,90.0,97.0,9843.0,9850.0,99.0,115.0,9852.0,9868.0,verb.possession,209,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+96,0,cast,8,12,9893,9897,9,13.0,21.0,9898.0,9906.0,22.0,28.0,9907.0,9913.0,verb.creation,210,direct_object,the father,5,31,36,male,1.0,secondary
+98,0,tell,5,9,10048,10052,9,10.0,12.0,10053.0,10055.0,14.0,20.0,,,verb.communication,214,direct_object,the father,5,31,36,male,1.0,secondary
+103,1,refuse,22,28,10401,10407,78,29.0,65.0,10408.0,10444.0,,,,,verb.communication,217,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+103,1,refuse,22,28,10401,10407,41,29.0,65.0,10408.0,10444.0,,,,,verb.communication,217,direct_object,the boy,19,44,63,male,1.0,secondary
+103,2,tell,32,36,10411,10415,78,37.0,47.0,10416.0,10426.0,,,,,verb.communication,218,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+103,2,tell,32,36,10411,10415,41,37.0,47.0,10416.0,10426.0,,,,,verb.communication,218,direct_object,the boy,19,44,63,male,1.0,secondary
+104,2,placed,88,94,10534,10540,41,95.0,112.0,10541.0,10558.0,,,,,verb.contact,219,direct_object,the boy,19,44,63,male,1.0,secondary
+104,2,placed,88,94,10534,10540,220,95.0,112.0,10541.0,10558.0,,,,,verb.contact,219,direct_object,the boy's mother,1,0,1,female,1.0,tertiary
+107,0,disturbing,11,21,10672,10682,9,22.0,30.0,10683.0,10691.0,,,,,verb.emotion,222,direct_object,the father,5,31,36,male,1.0,secondary
+107,2,dare,43,47,10704,10708,9,48.0,101.0,10709.0,10762.0,,,,,verb.social,223,direct_object,the father,5,31,36,male,1.0,secondary
+107,2,dare,43,47,10704,10708,7,48.0,101.0,10709.0,10762.0,,,,,verb.social,223,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+107,3,visit,51,56,10712,10717,9,57.0,101.0,10718.0,10762.0,,,,,verb.social,225,direct_object,the father,5,31,36,male,1.0,secondary
+107,3,visit,51,56,10712,10717,7,57.0,101.0,10718.0,10762.0,,,,,verb.social,225,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+107,5,deposited,80,89,10741,10750,7,90.0,101.0,10751.0,10762.0,,,,,verb.possession,224,direct_object,a man's wife,11,15,26,female,1.0,tertiary
+108,0,engaged,13,20,10777,10784,9,21.0,28.0,10785.0,10792.0,,,,,verb.communication,226,direct_object,the father,5,31,36,male,1.0,secondary
+108,0,engaged,13,20,10777,10784,41,21.0,28.0,10785.0,10792.0,,,,,verb.communication,226,direct_object,the boy,19,44,63,male,1.0,secondary
+108,0,engaged,13,20,10777,10784,64,21.0,28.0,10785.0,10792.0,,,,,verb.communication,226,direct_object,The hunter's son,13,14,27,male,1.0,tertiary
+108,1,entice,32,38,10796,10802,41,39.0,46.0,10803.0,10810.0,,,,,verb.communication,227,direct_object,the boy,19,44,63,male,1.0,secondary
+109,0,said,3,7,10920,10924,9,8.0,63.0,10925.0,10980.0,,,,,verb.communication,228,direct_object,the father,5,31,36,male,1.0,secondary
+109,0,said,3,7,10920,10924,41,8.0,63.0,10925.0,10980.0,,,,,verb.communication,228,direct_object,the boy,19,44,63,male,1.0,secondary
+109,2,conceal,22,29,10939,10946,9,30.0,37.0,10947.0,10954.0,43.0,45.0,10960.0,10962.0,verb.perception,229,direct_object,the father,5,31,36,male,1.0,secondary
+109,3,take,51,55,10968,10972,41,56.0,63.0,10973.0,10980.0,,,,,verb.contact,230,direct_object,the boy,19,44,63,male,1.0,secondary
+110,1,calling,70,77,11052,11059,41,78.0,85.0,11060.0,11067.0,86.0,99.0,11068.0,11081.0,verb.communication,231,direct_object,the boy,19,44,63,male,1.0,secondary
+110,2,urged,101,106,11083,11088,41,107.0,110.0,11089.0,11092.0,,,,,verb.communication,232,direct_object,the boy,19,44,63,male,1.0,secondary
+111,0,objected,8,16,11139,11147,78,17.0,41.0,11148.0,11172.0,,,,,verb.communication,233,direct_object,the boy's father,8,3,11,male,1.0,tertiary
+111,0,objected,8,16,11139,11147,41,17.0,41.0,11148.0,11172.0,,,,,verb.communication,233,direct_object,the boy,19,44,63,male,1.0,secondary
+111,10,made,197,201,11328,11332,23,202.0,216.0,11333.0,11347.0,,,,,verb.creation,235,direct_object,The hunter,28,81,109,male,1.0,primary
+111,11,clasped,222,229,11353,11360,167,230.0,245.0,11361.0,11376.0,246.0,257.0,11377.0,11388.0,verb.contact,236,direct_object,the strange boy,3,2,5,male,1.0,tertiary
+113,1,tear,9,13,11440,11444,23,14.0,24.0,11445.0,11455.0,,,,,verb.contact,239,direct_object,The hunter,28,81,109,male,1.0,primary
+115,0,reassured,11,20,11572,11581,23,21.0,24.0,11582.0,11585.0,25.0,52.0,11586.0,11613.0,verb.emotion,238,direct_object,The hunter,28,81,109,male,1.0,primary
+119,0,looked,21,27,11864,11870,167,28.0,48.0,11871.0,11891.0,,,,,verb.perception,240,direct_object,the strange boy,3,2,5,male,1.0,tertiary
+119,1,seemed,53,59,11896,11902,23,60.0,115.0,11903.0,11958.0,,,,,verb.perception,241,direct_object,The hunter,28,81,109,male,1.0,primary
+119,1,seemed,53,59,11896,11902,177,60.0,115.0,11903.0,11958.0,,,,,verb.perception,241,direct_object,The hunter's lost wife,1,0,1,female,1.0,tertiary
+119,1,seemed,53,59,11896,11902,167,60.0,115.0,11903.0,11958.0,,,,,verb.perception,241,direct_object,the strange boy,3,2,5,male,1.0,tertiary
+119,2,see,63,66,11906,11909,23,67.0,115.0,11910.0,11958.0,,,,,verb.creation,242,direct_object,The hunter,28,81,109,male,1.0,primary
+119,2,see,63,66,11906,11909,177,67.0,115.0,11910.0,11958.0,,,,,verb.creation,242,direct_object,The hunter's lost wife,1,0,1,female,1.0,tertiary
+119,2,see,63,66,11906,11909,167,67.0,115.0,11910.0,11958.0,,,,,verb.creation,242,direct_object,the strange boy,3,2,5,male,1.0,tertiary
+120,1,felt,82,86,12042,12046,23,87.0,225.0,12047.0,12185.0,,,,,verb.emotion,243,direct_object,The hunter,28,81,109,male,1.0,primary
+120,1,felt,82,86,12042,12046,41,87.0,225.0,12047.0,12185.0,,,,,verb.emotion,243,direct_object,the boy,19,44,63,male,1.0,secondary
+120,5,avenge,157,163,12117,12123,23,164.0,167.0,12124.0,12127.0,168.0,235.0,12128.0,12195.0,verb.communication,246,direct_object,The hunter,28,81,109,male,1.0,primary
+120,7,destroyed,199,208,12159,12168,23,209.0,235.0,12169.0,12195.0,,,,,verb.contact,245,direct_object,The hunter,28,81,109,male,1.0,primary
+120,7,destroyed,199,208,12159,12168,180,209.0,235.0,12169.0,12195.0,,,,,verb.contact,245,direct_object,The hunter's companion of his lodge,1,0,1,unknown,0.0,tertiary
+121,0,grew,11,15,12208,12212,23,24.0,37.0,12221.0,12234.0,,,,,verb.change,247,direct_object,The hunter,28,81,109,male,1.0,primary
+121,1,gave,43,47,12240,12244,23,48.0,93.0,12245.0,12290.0,,,,,verb.possession,249,direct_object,The hunter,28,81,109,male,1.0,primary
+121,1,gave,43,47,12240,12244,182,48.0,93.0,12245.0,12290.0,,,,,verb.possession,249,direct_object,the two children,1,0,1,unknown,0.0,tertiary
+121,3,spare,73,78,12270,12275,182,94.0,128.0,12291.0,12325.0,,,,,verb.possession,248,direct_object,the two children,1,0,1,unknown,0.0,tertiary
+122,0,affected,11,19,12337,12345,23,20.0,23.0,12346.0,12349.0,24.0,150.0,12350.0,12476.0,verb.emotion,250,direct_object,The hunter,28,81,109,male,1.0,primary
+123,3,divert,86,92,12564,12570,183,93.0,103.0,12571.0,12581.0,104.0,137.0,12582.0,12615.0,verb.social,254,direct_object,"The hunter's of his sons , although they were well - formed and beautiful",1,4,5,group/nonbinary,1.0,tertiary
+124,4,given,158,163,12775,12780,167,164.0,170.0,12781.0,12787.0,172.0,191.0,12789.0,12808.0,verb.possession,255,direct_object,the strange boy,3,2,5,male,1.0,tertiary
+125,2,see,52,55,12862,12865,23,66.0,88.0,12876.0,12898.0,,,,,verb.perception,259,direct_object,The hunter,28,81,109,male,1.0,primary
+125,5,slain,114,119,12924,12929,23,120.0,128.0,12930.0,12938.0,,,,,verb.contact,258,direct_object,The hunter,28,81,109,male,1.0,primary
+125,5,slain,114,119,12924,12929,7,120.0,128.0,12930.0,12938.0,,,,,verb.contact,258,direct_object,a man's wife,11,15,26,female,1.0,tertiary

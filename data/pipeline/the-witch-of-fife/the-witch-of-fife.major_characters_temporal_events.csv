@@ -1,0 +1,114 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,5,whisper,147,154,233,240,18,86.0,108.0,172.0,194.0,,,,,verb.communication,True,1,subject,some of the neighbours,1,1,2,group/nonbinary,1.0,tertiary
+1,5,whisper,147,154,233,240,19,86.0,108.0,172.0,194.0,,,,,verb.communication,True,1,subject,the neighbours,1,0,1,unknown,0.0,tertiary
+2,1,had,47,50,348,351,17,43.0,46.0,344.0,347.0,,,,,verb.perception,True,0,subject,the old woman,2,26,28,female,1.0,secondary
+3,0,returned,14,22,440,448,17,10.0,13.0,436.0,439.0,,,,,verb.motion,True,3,subject,the old woman,2,26,28,female,1.0,secondary
+4,4,went,71,75,621,625,17,67.0,70.0,617.0,620.0,,,,,verb.motion,True,2,subject,the old woman,2,26,28,female,1.0,secondary
+5,3,tell,81,85,890,894,17,74.0,77.0,883.0,886.0,90.0,102.0,899.0,911.0,verb.communication,True,4,subject,the old woman,2,26,28,female,1.0,secondary
+6,1,answered,67,75,1011,1019,17,63.0,66.0,1007.0,1010.0,,,,,verb.communication,True,5,subject,the old woman,2,26,28,female,1.0,secondary
+7,6,tell,122,126,1155,1159,17,112.0,115.0,1145.0,1148.0,,,,,verb.communication,True,7,subject,the old woman,2,26,28,female,1.0,secondary
+9,2,know,50,54,1249,1253,22,40.0,42.0,1239.0,1241.0,,,,,verb.cognition,True,6,subject,the old woman's husband,2,18,20,male,1.0,tertiary
+10,2,heard,34,39,1319,1324,22,31.0,33.0,1316.0,1318.0,,,,,verb.cognition,True,9,subject,the old woman's husband,2,18,20,male,1.0,tertiary
+11,2,knows,64,69,1398,1403,28,54.0,63.0,1388.0,1397.0,,,,,verb.cognition,True,8,subject,everybody,2,1,3,group/nonbinary,1.0,tertiary
+12,0,vanished,49,57,1510,1518,15,40.0,48.0,1501.0,1509.0,,,,,verb.change,True,10,subject,an old man's wife,10,15,25,female,1.0,secondary
+12,0,vanished,49,57,1510,1518,22,40.0,48.0,1501.0,1509.0,,,,,verb.change,True,10,subject,the old woman's husband,2,18,20,male,1.0,tertiary
+13,1,return,12,18,1532,1538,17,8.0,11.0,1528.0,1531.0,,,,,verb.motion,True,12,subject,the old woman,2,26,28,female,1.0,secondary
+14,7,mounted,155,162,1722,1729,17,75.0,110.0,1642.0,1677.0,,,,,verb.motion,True,11,subject,the old woman,2,26,28,female,1.0,secondary
+14,7,mounted,155,162,1722,1729,31,75.0,110.0,1642.0,1677.0,,,,,verb.motion,True,11,subject,four like - minded companions,1,0,1,unknown,0.0,tertiary
+17,4,jumped,210,216,2396,2402,39,194.0,209.0,2380.0,2395.0,,,,,verb.motion,True,13,subject,the very trouts,1,0,1,unknown,0.0,tertiary
+18,3,mount,93,98,2649,2654,41,85.0,89.0,2641.0,2645.0,112.0,117.0,2668.0,2673.0,verb.motion,True,14,subject,all the Witches,1,9,10,group/nonbinary,1.0,tertiary
+19,0,listened,12,20,2770,2778,43,0.0,11.0,2758.0,2769.0,40.0,78.0,2798.0,2836.0,verb.perception,True,15,subject,The Goodman,1,4,5,male,1.0,tertiary
+22,0,returned,14,22,3067,3075,44,10.0,13.0,3063.0,3066.0,26.0,37.0,3079.0,3090.0,verb.motion,True,17,subject,the old wife,1,5,6,female,1.0,tertiary
+23,3,ridden,61,67,3317,3323,41,10.0,14.0,3266.0,3270.0,,,,,verb.motion,True,16,subject,all the Witches,1,9,10,group/nonbinary,1.0,tertiary
+25,1,danced,55,61,3712,3718,57,4.0,25.0,3661.0,3682.0,,,,,verb.consumption,True,18,subject,the Witches from Fife,1,18,19,group/nonbinary,1.0,tertiary
+26,1,come,24,28,4032,4036,57,15.0,19.0,4023.0,4027.0,34.0,50.0,4042.0,4058.0,verb.motion,True,20,subject,the Witches from Fife,1,18,19,group/nonbinary,1.0,tertiary
+30,0,returned,18,26,4256,4264,16,9.0,17.0,4247.0,4255.0,,,,,verb.motion,True,22,subject,The old man,8,56,64,male,1.0,primary
+30,0,returned,18,26,4256,4264,15,9.0,17.0,4247.0,4255.0,,,,,verb.motion,True,22,subject,an old man's wife,10,15,25,female,1.0,secondary
+31,10,pronounced,255,265,4593,4603,57,182.0,186.0,4520.0,4524.0,,,,,verb.communication,True,23,subject,the Witches from Fife,1,18,19,group/nonbinary,1.0,tertiary
+33,0,flew,5,9,4696,4700,57,0.0,4.0,4691.0,4695.0,25.0,45.0,4716.0,4736.0,verb.motion,True,24,subject,the Witches from Fife,1,18,19,group/nonbinary,1.0,tertiary
+34,2,sampled,88,95,4971,4978,57,55.0,59.0,4938.0,4942.0,,,,,verb.consumption,True,25,subject,the Witches from Fife,1,18,19,group/nonbinary,1.0,tertiary
+35,0,heard,8,13,5057,5062,66,5.0,7.0,5054.0,5056.0,,,,,verb.perception,True,26,subject,the Lord Bishop of Carlisle,1,5,6,male,1.0,tertiary
+37,0,cried,3,8,5260,5265,16,0.0,2.0,5257.0,5259.0,,,,,verb.communication,True,27,subject,The old man,8,56,64,male,1.0,primary
+39,3,sample,23,29,5317,5323,16,4.0,5.0,5298.0,5299.0,50.0,60.0,5344.0,5354.0,verb.possession,True,30,subject,The old man,8,56,64,male,1.0,primary
+40,0,shook,17,22,5374,5379,73,4.0,16.0,5361.0,5373.0,,,,,verb.body,True,29,subject,the Goodwife,1,8,9,female,1.0,tertiary
+42,4,telled,48,54,5447,5453,16,44.0,47.0,5443.0,5446.0,58.0,68.0,5457.0,5467.0,verb.communication,True,31,subject,The old man,8,56,64,male,1.0,primary
+43,3,flying,58,64,5570,5576,28,4.0,13.0,5516.0,5525.0,,,,,verb.motion,True,33,subject,everybody,2,1,3,group/nonbinary,1.0,tertiary
+45,1,possess,47,54,5726,5733,16,21.0,34.0,5700.0,5713.0,,,,,verb.possession,True,32,subject,The old man,8,56,64,male,1.0,primary
+46,5,tell,104,108,5840,5844,73,90.0,93.0,5826.0,5829.0,,,,,verb.communication,True,34,subject,the Goodwife,1,8,9,female,1.0,tertiary
+47,1,gave,63,67,5924,5928,76,30.0,62.0,5891.0,5923.0,,,,,verb.possession,True,35,subject,the Bishop,5,0,5,unknown,0.0,tertiary
+48,0,went,24,28,5966,5970,16,21.0,23.0,5963.0,5965.0,,,,,verb.motion,True,36,subject,The old man,8,56,64,male,1.0,primary
+49,2,rewarded,74,82,6140,6148,16,58.0,69.0,6124.0,6135.0,,,,,verb.social,True,37,subject,The old man,8,56,64,male,1.0,primary
+50,1,recounted,104,113,6254,6263,82,16.0,40.0,6166.0,6190.0,,,,,verb.communication,True,38,subject,the whole five old women,1,6,7,female,1.0,tertiary
+51,2,put,80,83,6384,6387,82,32.0,36.0,6336.0,6340.0,,,,,verb.contact,True,39,subject,the whole five old women,1,6,7,female,1.0,tertiary
+52,0,repeated,10,18,6429,6437,82,5.0,9.0,6424.0,6428.0,,,,,verb.communication,True,40,subject,the whole five old women,1,6,7,female,1.0,tertiary
+53,2,draw,55,59,6528,6532,16,37.0,48.0,6510.0,6521.0,,,,,verb.body,True,41,subject,The old man,8,56,64,male,1.0,primary
+54,2,said,25,29,6570,6574,16,1.0,20.0,6546.0,6565.0,,,,,verb.communication,True,42,subject,The old man,8,56,64,male,1.0,primary
+55,0,crawled,8,15,6594,6601,16,5.0,7.0,6591.0,6593.0,,,,,verb.motion,True,43,subject,The old man,8,56,64,male,1.0,primary
+56,3,flew,85,89,6732,6736,16,0.0,2.0,6647.0,6649.0,,,,,verb.motion,True,44,subject,The old man,8,56,64,male,1.0,primary
+57,5,reached,128,135,6950,6957,29,123.0,127.0,6945.0,6949.0,,,,,verb.motion,True,45,subject,Witches,3,16,19,group/nonbinary,1.0,tertiary
+58,2,enjoy,60,65,7147,7152,29,39.0,43.0,7126.0,7130.0,,,,,verb.consumption,True,46,subject,Witches,3,16,19,group/nonbinary,1.0,tertiary
+59,0,tapped,5,11,7170,7176,29,0.0,4.0,7165.0,7169.0,,,,,verb.contact,True,47,subject,Witches,3,16,19,group/nonbinary,1.0,tertiary
+61,1,sipped,40,46,7443,7449,16,37.0,39.0,7440.0,7442.0,,,,,verb.consumption,True,49,subject,The old man,8,56,64,male,1.0,primary
+62,1,thought,27,34,7579,7586,16,4.0,12.0,7556.0,7564.0,,,,,verb.cognition,True,50,subject,The old man,8,56,64,male,1.0,primary
+62,1,thought,27,34,7579,7586,15,4.0,12.0,7556.0,7564.0,,,,,verb.cognition,True,50,subject,an old man's wife,10,15,25,female,1.0,secondary
+63,0,thought,34,41,7691,7698,96,9.0,33.0,7666.0,7690.0,,,,,verb.cognition,True,51,subject,an old man's wife's four friends,1,0,1,unknown,0.0,tertiary
+63,0,thought,34,41,7691,7698,15,9.0,33.0,7666.0,7690.0,,,,,verb.cognition,True,51,subject,an old man's wife,10,15,25,female,1.0,secondary
+64,2,draw,101,105,7862,7866,99,42.0,70.0,7803.0,7831.0,111.0,135.0,7872.0,7896.0,verb.contact,True,52,subject,the Bishop 's servants,1,0,1,unknown,0.0,tertiary
+64,2,draw,101,105,7862,7866,76,42.0,70.0,7803.0,7831.0,111.0,135.0,7872.0,7896.0,verb.contact,True,52,subject,the Bishop,5,0,5,unknown,0.0,tertiary
+65,3,dragged,84,91,8020,8027,97,79.0,83.0,8015.0,8019.0,96.0,98.0,8032.0,8034.0,verb.contact,True,54,subject,"two of the Bishop 's servants , coming down to the cellar to draw wine for their Master 's table",1,5,6,group/nonbinary,1.0,tertiary
+66,8,came,162,166,8280,8284,16,159.0,161.0,8277.0,8279.0,,,,,verb.motion,True,53,subject,The old man,8,56,64,male,1.0,primary
+67,3,dragged,87,94,8432,8439,97,82.0,86.0,8427.0,8431.0,,,,,verb.contact,True,56,subject,"two of the Bishop 's servants , coming down to the cellar to draw wine for their Master 's table",1,5,6,group/nonbinary,1.0,tertiary
+68,7,hankered,156,164,8727,8735,104,108.0,110.0,8679.0,8681.0,,,,,verb.motion,True,55,subject,the poor old man,3,26,29,male,1.0,secondary
+69,2,dragged,55,62,8816,8823,115,38.0,41.0,8799.0,8802.0,,,,,verb.contact,True,57,subject,the servants,1,0,1,unknown,0.0,tertiary
+70,1,thought,68,75,9059,9066,104,51.0,67.0,9042.0,9058.0,,,,,verb.cognition,True,58,subject,the poor old man,3,26,29,male,1.0,secondary
+71,0,thought,12,19,9108,9115,104,9.0,11.0,9105.0,9107.0,,,,,verb.cognition,True,59,subject,the poor old man,3,26,29,male,1.0,secondary
+74,4,heard,129,134,9684,9689,16,93.0,111.0,9648.0,9666.0,,,,,verb.perception,True,60,subject,The old man,8,56,64,male,1.0,primary
+75,1,whispering,74,84,9765,9775,15,52.0,73.0,9743.0,9764.0,,,,,verb.communication,True,62,subject,an old man's wife,10,15,25,female,1.0,secondary
+75,1,whispering,74,84,9765,9775,104,52.0,73.0,9743.0,9764.0,,,,,verb.communication,True,62,subject,the poor old man,3,26,29,male,1.0,secondary
+76,6,mounted,150,157,9949,9956,104,147.0,149.0,9946.0,9948.0,,,,,verb.motion,True,63,subject,the poor old man,3,26,29,male,1.0,secondary
+77,0,flew,3,7,10037,10041,104,0.0,2.0,10034.0,10036.0,,,,,verb.motion,True,64,subject,the poor old man,3,26,29,male,1.0,secondary
+78,3,tried,88,93,10208,10213,104,79.0,81.0,10199.0,10201.0,,,,,verb.social,True,65,subject,the poor old man,3,26,29,male,1.0,secondary
+1,5,whisper,147,154,233,240,17,155.0,213.0,241.0,299.0,,,,,verb.communication,True,1,direct_object,the old woman,2,26,28,female,1.0,secondary
+1,5,whisper,147,154,233,240,18,155.0,213.0,241.0,299.0,,,,,verb.communication,True,1,direct_object,some of the neighbours,1,1,2,group/nonbinary,1.0,tertiary
+1,5,whisper,147,154,233,240,21,155.0,213.0,241.0,299.0,,,,,verb.communication,True,1,direct_object,a Witch,3,0,3,unknown,0.0,tertiary
+1,5,whisper,147,154,233,240,20,155.0,213.0,241.0,299.0,,,,,verb.communication,True,1,direct_object,each other,1,0,1,unknown,0.0,tertiary
+5,3,tell,81,85,890,894,17,86.0,89.0,895.0,898.0,90.0,102.0,899.0,911.0,verb.communication,True,4,direct_object,the old woman,2,26,28,female,1.0,secondary
+5,3,tell,81,85,890,894,21,86.0,89.0,895.0,898.0,90.0,102.0,899.0,911.0,verb.communication,True,4,direct_object,a Witch,3,0,3,unknown,0.0,tertiary
+5,3,tell,81,85,890,894,22,86.0,89.0,895.0,898.0,90.0,102.0,899.0,911.0,verb.communication,True,4,direct_object,the old woman's husband,2,18,20,male,1.0,tertiary
+6,1,answered,67,75,1011,1019,17,76.0,88.0,1020.0,1032.0,,,,,verb.communication,True,5,direct_object,the old woman,2,26,28,female,1.0,secondary
+7,6,tell,122,126,1155,1159,22,127.0,130.0,1160.0,1163.0,,,,,verb.communication,True,7,direct_object,the old woman's husband,2,18,20,male,1.0,tertiary
+9,2,know,50,54,1249,1253,15,59.0,84.0,1258.0,1283.0,,,,,verb.cognition,True,6,direct_object,an old man's wife,10,15,25,female,1.0,secondary
+9,2,know,50,54,1249,1253,22,59.0,84.0,1258.0,1283.0,,,,,verb.cognition,True,6,direct_object,the old woman's husband,2,18,20,male,1.0,tertiary
+18,3,mount,93,98,2649,2654,41,99.0,111.0,2655.0,2667.0,112.0,117.0,2668.0,2673.0,verb.motion,True,14,direct_object,all the Witches,1,9,10,group/nonbinary,1.0,tertiary
+27,0,took,6,10,4109,4113,15,11.0,14.0,4114.0,4117.0,15.0,37.0,4118.0,4140.0,verb.motion,True,19,direct_object,an old man's wife,10,15,25,female,1.0,secondary
+28,0,asked,0,5,4143,4148,16,6.0,17.0,4149.0,4160.0,19.0,44.0,,,verb.communication,True,21,direct_object,The old man,8,56,64,male,1.0,primary
+30,0,returned,18,26,4256,4264,15,27.0,50.0,4265.0,4288.0,,,,,verb.motion,True,22,direct_object,an old man's wife,10,15,25,female,1.0,secondary
+31,10,pronounced,255,265,4593,4603,57,266.0,331.0,4604.0,4669.0,,,,,verb.communication,True,23,direct_object,the Witches from Fife,1,18,19,group/nonbinary,1.0,tertiary
+31,10,pronounced,255,265,4593,4603,68,266.0,331.0,4604.0,4669.0,,,,,verb.communication,True,23,direct_object,the Elves of Lappland,1,0,1,unknown,0.0,tertiary
+34,2,sampled,88,95,4971,4978,66,96.0,104.0,4979.0,4987.0,,,,,verb.consumption,True,25,direct_object,the Lord Bishop of Carlisle,1,5,6,male,1.0,tertiary
+38,0,tell,1,5,5268,5272,16,6.0,8.0,5273.0,5275.0,20.0,25.0,,,verb.communication,True,28,direct_object,The old man,8,56,64,male,1.0,primary
+39,3,sample,23,29,5317,5323,66,30.0,49.0,5324.0,5343.0,50.0,60.0,5344.0,5354.0,verb.possession,True,30,direct_object,the Lord Bishop of Carlisle,1,5,6,male,1.0,tertiary
+39,3,sample,23,29,5317,5323,135,30.0,49.0,5324.0,5343.0,50.0,60.0,5344.0,5354.0,verb.possession,True,30,direct_object,the Lord Bishop of Carlisle's Lordship,1,0,1,unknown,0.0,tertiary
+40,0,shook,17,22,5374,5379,73,23.0,31.0,5380.0,5388.0,,,,,verb.body,True,29,direct_object,the Goodwife,1,8,9,female,1.0,tertiary
+46,5,tell,104,108,5840,5844,16,109.0,112.0,5845.0,5848.0,,,,,verb.communication,True,34,direct_object,The old man,8,56,64,male,1.0,primary
+46,5,tell,104,108,5840,5844,73,109.0,112.0,5845.0,5848.0,,,,,verb.communication,True,34,direct_object,the Goodwife,1,8,9,female,1.0,tertiary
+47,1,gave,63,67,5924,5928,16,68.0,71.0,5929.0,5932.0,,,,,verb.possession,True,35,direct_object,The old man,8,56,64,male,1.0,primary
+50,1,recounted,104,113,6254,6263,82,114.0,152.0,6264.0,6302.0,,,,,verb.communication,True,38,direct_object,the whole five old women,1,6,7,female,1.0,tertiary
+51,2,put,80,83,6384,6387,82,84.0,94.0,6388.0,6398.0,,,,,verb.contact,True,39,direct_object,the whole five old women,1,6,7,female,1.0,tertiary
+53,2,draw,55,59,6528,6532,16,60.0,70.0,6533.0,6543.0,,,,,verb.body,True,41,direct_object,The old man,8,56,64,male,1.0,primary
+54,2,said,25,29,6570,6574,16,30.0,40.0,6575.0,6585.0,,,,,verb.communication,True,42,direct_object,The old man,8,56,64,male,1.0,primary
+57,5,reached,128,135,6950,6957,76,136.0,155.0,6958.0,6977.0,,,,,verb.motion,True,45,direct_object,the Bishop,5,0,5,unknown,0.0,tertiary
+58,2,enjoy,60,65,7147,7152,29,66.0,76.0,7153.0,7163.0,,,,,verb.consumption,True,46,direct_object,Witches,3,16,19,group/nonbinary,1.0,tertiary
+60,4,behoved,101,108,7363,7370,29,109.0,113.0,7371.0,7375.0,114.0,133.0,7376.0,7395.0,verb.creation,True,48,direct_object,Witches,3,16,19,group/nonbinary,1.0,tertiary
+62,1,thought,27,34,7579,7586,16,35.0,103.0,7587.0,7655.0,,,,,verb.cognition,True,50,direct_object,The old man,8,56,64,male,1.0,primary
+62,1,thought,27,34,7579,7586,15,35.0,103.0,7587.0,7655.0,,,,,verb.cognition,True,50,direct_object,an old man's wife,10,15,25,female,1.0,secondary
+65,3,dragged,84,91,8020,8027,16,92.0,95.0,8028.0,8031.0,96.0,98.0,8032.0,8034.0,verb.contact,True,54,direct_object,The old man,8,56,64,male,1.0,primary
+67,3,dragged,87,94,8432,8439,16,95.0,98.0,8440.0,8443.0,,,,,verb.contact,True,56,direct_object,The old man,8,56,64,male,1.0,primary
+67,3,dragged,87,94,8432,8439,76,95.0,98.0,8440.0,8443.0,,,,,verb.contact,True,56,direct_object,the Bishop,5,0,5,unknown,0.0,tertiary
+68,7,hankered,156,164,8727,8735,76,171.0,188.0,8742.0,8759.0,,,,,verb.motion,True,55,direct_object,the Bishop,5,0,5,unknown,0.0,tertiary
+69,2,dragged,55,62,8816,8823,104,63.0,66.0,8824.0,8827.0,,,,,verb.contact,True,57,direct_object,the poor old man,3,26,29,male,1.0,secondary
+70,1,thought,68,75,9059,9066,104,76.0,103.0,9067.0,9094.0,,,,,verb.cognition,True,58,direct_object,the poor old man,3,26,29,male,1.0,secondary
+72,5,perched,213,220,9383,9390,16,234.0,259.0,9404.0,9429.0,,,,,verb.contact,True,61,direct_object,The old man,8,56,64,male,1.0,primary
+75,1,whispering,74,84,9765,9775,104,85.0,99.0,9776.0,9790.0,,,,,verb.communication,True,62,direct_object,the poor old man,3,26,29,male,1.0,secondary
+78,3,tried,88,93,10208,10213,15,94.0,130.0,10214.0,10250.0,,,,,verb.social,True,65,direct_object,an old man's wife,10,15,25,female,1.0,secondary
+78,3,tried,88,93,10208,10213,104,94.0,130.0,10214.0,10250.0,,,,,verb.social,True,65,direct_object,the poor old man,3,26,29,male,1.0,secondary

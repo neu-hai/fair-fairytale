@@ -1,0 +1,590 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,had,34,37,34,37,3,15.0,29.0,15.0,29.0,,,,,verb.possession,0,subject,a rich old man,1.0,4.0,5.0,male,1.0,tertiary
+0,4,helped,104,110,104,110,6,74.0,83.0,74.0,83.0,,,,,verb.social,1,subject,the elder,3.0,1.0,4.0,male,1.0,tertiary
+2,1,worked,53,59,226,232,8,1.0,14.0,174.0,187.0,,,,,verb.social,2,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+2,5,rubbed,154,160,327,333,9,103.0,113.0,276.0,286.0,171.0,257.0,344.0,430.0,verb.contact,3,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+2,5,rubbed,154,160,327,333,8,103.0,113.0,276.0,286.0,171.0,257.0,344.0,430.0,verb.contact,3,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+2,6,saw,191,194,364,367,9,188.0,190.0,361.0,363.0,,,,,verb.cognition,4,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,4,buy,47,50,479,482,9,31.0,32.0,463.0,464.0,,,,,verb.possession,6,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,5,said,69,73,501,505,9,17.0,30.0,449.0,462.0,,,,,verb.communication,5,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,8,notice,152,158,584,590,9,141.0,143.0,573.0,575.0,,,,,verb.perception,8,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,10,grown,189,194,621,626,9,159.0,169.0,591.0,601.0,,,,,verb.change,7,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,10,grown,189,194,621,626,11,159.0,169.0,591.0,601.0,,,,,verb.change,7,subject,the young man's father's son,2.0,0.0,2.0,unknown,0.0,tertiary
+3,11,started,217,224,649,656,9,204.0,206.0,636.0,638.0,,,,,verb.change,9,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,13,spoken,237,243,669,675,9,230.0,232.0,662.0,664.0,,,,,verb.communication,11,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+4,2,done,77,81,786,790,12,50.0,58.0,759.0,767.0,,,,,verb.social,10,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,1,met,26,29,843,846,12,23.0,25.0,840.0,842.0,,,,,verb.social,13,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,2,knew,50,54,867,871,12,47.0,49.0,864.0,866.0,,,,,verb.cognition,12,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,5,turned,94,100,911,917,12,91.0,93.0,908.0,910.0,,,,,verb.motion,14,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,6,bade,124,128,941,945,12,91.0,93.0,908.0,910.0,,,,,verb.communication,15,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,7,saddle,139,145,956,962,16,129.0,138.0,946.0,955.0,,,,,verb.contact,16,subject,an ostler,1.0,0.0,1.0,unknown,0.0,tertiary
+5,8,bring,161,166,978,983,12,91.0,93.0,908.0,910.0,176.0,184.0,993.0,1001.0,verb.motion,17,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+6,3,asked,133,138,1136,1141,18,129.0,132.0,1132.0,1135.0,,,,,verb.communication,20,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+6,4,liked,150,155,1153,1158,12,147.0,149.0,1150.0,1152.0,,,,,verb.emotion,19,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+6,7,surprised,205,214,1208,1217,12,193.0,195.0,1196.0,1198.0,,,,,verb.emotion,18,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+7,0,stared,12,18,1247,1253,12,0.0,11.0,1235.0,1246.0,,,,,verb.perception,21,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+7,1,listened,25,33,1260,1268,12,22.0,24.0,1257.0,1259.0,,,,,verb.perception,22,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+11,1,know,9,13,1324,1328,12,1.0,2.0,1316.0,1317.0,,,,,verb.cognition,25,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+12,1,got,5,8,1362,1365,12,0.0,1.0,1357.0,1358.0,,,,,verb.possession,24,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+12,4,married,49,56,1406,1413,79,33.0,39.0,1390.0,1396.0,,,,,verb.social,23,subject,,,,,,,
+12,5,heard,77,82,1434,1439,12,70.0,71.0,1427.0,1428.0,,,,,verb.cognition,27,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+13,2,wanted,62,68,1507,1513,18,26.0,60.0,1471.0,1505.0,,,,,verb.emotion,28,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+14,1,exclaimed,43,52,1569,1578,18,5.0,8.0,1531.0,1534.0,,,,,verb.communication,29,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+15,0,hope,2,6,1593,1597,18,0.0,1.0,1591.0,1592.0,,,,,verb.emotion,32,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+15,2,made,18,22,1609,1613,18,7.0,8.0,1598.0,1599.0,,,,,verb.social,31,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+16,0,had,2,5,1626,1629,18,0.0,1.0,1624.0,1625.0,,,,,verb.perception,30,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+16,3,spoken,47,53,1671,1677,18,30.0,31.0,1654.0,1655.0,,,,,verb.communication,33,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+16,4,stopped,74,81,1698,1705,18,70.0,73.0,1694.0,1697.0,,,,,verb.motion,34,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+16,5,fumbled,86,93,1710,1717,18,70.0,73.0,1694.0,1697.0,110.0,143.0,1734.0,1767.0,verb.contact,36,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+17,1,said,13,17,1782,1786,18,4.0,7.0,1773.0,1776.0,,,,,verb.communication,35,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+17,4,say,43,46,1812,1815,18,26.0,29.0,1795.0,1798.0,,,,,verb.communication,39,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+17,5,retorted,63,71,1832,1840,18,1.0,60.0,1770.0,1829.0,85.0,133.0,1854.0,1902.0,verb.communication,38,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+17,6,meant,109,114,1878,1883,18,100.0,104.0,1869.0,1873.0,123.0,133.0,1892.0,1902.0,verb.cognition,37,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+18,0,answered,30,38,1933,1941,82,5.0,28.0,1908.0,1931.0,,,,,verb.communication,42,subject,the woman,1.0,0.0,1.0,female,1.0,tertiary
+19,5,coming,74,80,2027,2033,18,47.0,64.0,2000.0,2017.0,89.0,122.0,2042.0,2075.0,verb.motion,40,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+19,5,coming,74,80,2027,2033,22,47.0,64.0,2000.0,2017.0,89.0,122.0,2042.0,2075.0,verb.motion,40,subject,the landlady's handsome son,1.0,1.0,2.0,male,1.0,tertiary
+21,1,rode,29,33,2143,2147,22,26.0,28.0,2140.0,2142.0,,,,,verb.motion,43,subject,the landlady's handsome son,1.0,1.0,2.0,male,1.0,tertiary
+21,5,paused,239,245,2353,2359,18,226.0,238.0,2340.0,2352.0,,,,,verb.communication,44,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+21,6,glanced,257,264,2371,2378,18,226.0,238.0,2340.0,2352.0,283.0,310.0,2397.0,2424.0,verb.perception,45,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+21,9,taking,301,307,2415,2421,84,294.0,296.0,2408.0,2410.0,,,,,verb.cognition,46,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+22,1,learn,12,17,2438,2443,18,0.0,3.0,2426.0,2429.0,,,,,verb.cognition,49,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+23,1,looking,7,14,2457,2464,84,0.0,2.0,2450.0,2452.0,36.0,49.0,2486.0,2499.0,verb.perception,48,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+23,2,set,46,49,2496,2499,84,36.0,45.0,2486.0,2495.0,,,,,verb.contact,50,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+24,0,ceased,11,17,2512,2518,18,7.0,10.0,2508.0,2511.0,,,,,verb.communication,51,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+24,1,talk,21,25,2522,2526,18,7.0,10.0,2508.0,2511.0,,,,,verb.communication,52,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+24,2,said,30,34,2531,2535,84,27.0,29.0,2528.0,2530.0,,,,,verb.communication,53,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+25,3,remembered,73,83,2627,2637,18,60.0,63.0,2614.0,2617.0,,,,,verb.cognition,54,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+25,5,prepare,98,105,2652,2659,18,89.0,92.0,2643.0,2646.0,,,,,verb.change,56,subject,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+26,2,told,67,71,2921,2925,34,40.0,43.0,2894.0,2897.0,,,,,verb.communication,58,subject,My cousin,1.0,1.0,2.0,female,1.0,tertiary
+29,4,took,117,121,3131,3135,90,106.0,116.0,3120.0,3130.0,,,,,verb.cognition,57,subject,the farmer's master,3.0,0.0,3.0,unknown,0.0,tertiary
+30,2,led,41,44,3210,3213,92,33.0,40.0,3202.0,3209.0,,,,,verb.motion,59,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+30,3,went,80,84,3249,3253,92,33.0,40.0,3202.0,3209.0,,,,,verb.motion,60,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+32,3,stammered,55,64,3372,3381,92,52.0,54.0,3369.0,3371.0,,,,,verb.communication,61,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+35,2,spoke,52,57,3623,3628,92,49.0,51.0,3620.0,3622.0,,,,,verb.communication,62,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+36,0,shrank,14,20,3666,3672,8,0.0,13.0,3652.0,3665.0,,,,,verb.change,63,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+37,0,feared,3,9,3682,3688,8,0.0,2.0,3679.0,3681.0,,,,,verb.emotion,65,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+37,4,seemed,86,92,3765,3771,9,77.0,85.0,3756.0,3764.0,,,,,verb.perception,64,subject,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+38,3,listen,66,72,3862,3868,12,48.0,59.0,3844.0,3855.0,84.0,156.0,3880.0,3952.0,verb.perception,67,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+38,4,felt,112,116,3908,3912,99,104.0,111.0,3900.0,3907.0,,,,,verb.cognition,66,subject,the son,2.0,0.0,2.0,unknown,0.0,tertiary
+39,0,turned,6,12,3960,3966,8,3.0,5.0,3957.0,3959.0,,,,,verb.motion,68,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+39,1,walked,30,36,3984,3990,8,3.0,5.0,3957.0,3959.0,,,,,verb.motion,69,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+39,3,sat,118,121,4072,4075,8,115.0,117.0,4069.0,4071.0,,,,,verb.contact,70,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+40,4,know,73,77,4199,4203,8,56.0,58.0,4182.0,4184.0,,,,,verb.cognition,72,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+41,1,meant,7,12,4234,4239,8,0.0,2.0,4227.0,4229.0,,,,,verb.cognition,71,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+41,3,told,21,25,4248,4252,8,0.0,2.0,4227.0,4229.0,,,,,verb.communication,73,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+41,6,seen,109,113,4336,4340,12,93.0,104.0,4320.0,4331.0,,,,,verb.perception,74,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+41,9,forgiven,138,146,4365,4373,12,124.0,126.0,4351.0,4353.0,,,,,verb.cognition,76,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+42,1,put,11,14,4442,4445,8,4.0,6.0,4435.0,4437.0,22.0,77.0,4453.0,4508.0,verb.contact,75,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+42,2,hoping,39,45,4470,4476,8,4.0,6.0,4435.0,4437.0,,,,,verb.emotion,78,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+43,0,had,11,14,4547,4550,99,3.0,10.0,4539.0,4546.0,24.0,34.0,4560.0,4570.0,verb.perception,77,subject,the son,2.0,0.0,2.0,unknown,0.0,tertiary
+43,3,sent,92,96,4628,4632,8,89.0,91.0,4625.0,4627.0,129.0,174.0,4665.0,4710.0,verb.motion,79,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+44,0,arrived,8,15,4720,4727,8,5.0,7.0,4717.0,4719.0,,,,,verb.motion,80,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+44,2,waste,35,40,4747,4752,84,16.0,26.0,4728.0,4738.0,,,,,verb.cognition,81,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+44,6,inherit,106,113,4818,4825,8,70.0,72.0,4782.0,4784.0,,,,,verb.possession,83,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+44,8,come,158,162,4870,4874,8,148.0,150.0,4860.0,4862.0,,,,,verb.motion,84,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+44,10,help,188,192,4900,4904,8,148.0,150.0,4860.0,4862.0,,,,,verb.social,87,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+44,11,manage,193,199,4905,4911,8,148.0,150.0,4860.0,4862.0,,,,,verb.social,86,subject,the young man,2.0,22.0,24.0,male,1.0,secondary
+45,2,cared,91,96,5017,5022,113,68.0,80.0,4994.0,5006.0,,,,,verb.emotion,85,subject,the brothers,1.0,0.0,1.0,male,1.0,tertiary
+45,7,got,181,184,5107,5110,115,173.0,175.0,5099.0,5101.0,,,,,verb.change,88,subject,the younger,2.0,6.0,8.0,male,1.0,tertiary
+46,1,made,38,42,5199,5203,115,14.0,16.0,5175.0,5177.0,63.0,103.0,5224.0,5264.0,verb.change,89,subject,the younger,2.0,6.0,8.0,male,1.0,tertiary
+47,4,gave,96,100,5362,5366,12,84.0,95.0,5350.0,5361.0,,,,,verb.communication,91,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+47,6,building,137,145,5403,5411,12,113.0,129.0,5379.0,5395.0,,,,,verb.creation,90,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+47,9,left,168,172,5434,5438,12,113.0,157.0,5379.0,5423.0,,,,,verb.cognition,92,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+48,1,hear,41,45,5544,5548,122,21.0,23.0,5524.0,5526.0,83.0,186.0,5586.0,5689.0,verb.perception,93,subject,the elder son,1.0,5.0,6.0,male,1.0,tertiary
+48,2,mentioned,55,64,5558,5567,122,46.0,54.0,5549.0,5557.0,,,,,verb.communication,95,subject,the elder son,1.0,5.0,6.0,male,1.0,tertiary
+48,3,died,70,74,5573,5577,122,21.0,23.0,5524.0,5526.0,,,,,verb.change,94,subject,the elder son,1.0,5.0,6.0,male,1.0,tertiary
+48,4,seeing,96,102,5599,5605,122,21.0,23.0,5524.0,5526.0,,,,,verb.perception,97,subject,the elder son,1.0,5.0,6.0,male,1.0,tertiary
+48,7,promised,147,155,5650,5658,12,140.0,142.0,5643.0,5645.0,,,,,verb.communication,96,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+49,3,grown,48,53,5745,5750,124,11.0,43.0,5708.0,5740.0,,,,,verb.change,98,subject,The old man's son whom he had disinherited,1.0,0.0,1.0,unknown,0.0,tertiary
+49,3,grown,48,53,5745,5750,12,11.0,43.0,5708.0,5740.0,,,,,verb.change,98,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+50,2,do,57,59,5827,5829,12,0.0,10.0,5770.0,5780.0,,,,,verb.social,100,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+50,3,spent,71,76,5841,5846,5,0.0,15.0,5770.0,5785.0,,,,,verb.possession,99,subject,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+50,3,spent,71,76,5841,5846,12,0.0,15.0,5770.0,5785.0,,,,,verb.possession,99,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,4,managed,46,53,6043,6050,12,32.0,34.0,6029.0,6031.0,,,,,verb.social,101,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,7,bear,90,94,6087,6091,12,77.0,79.0,6074.0,6076.0,,,,,verb.cognition,102,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,8,watch,98,103,6095,6100,12,77.0,79.0,6074.0,6076.0,,,,,verb.perception,104,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,9,becoming,117,125,6114,6122,128,104.0,116.0,6101.0,6113.0,133.0,143.0,6130.0,6140.0,verb.change,103,subject,The old man's children,1.0,0.0,1.0,unknown,0.0,tertiary
+51,9,becoming,117,125,6114,6122,12,104.0,116.0,6101.0,6113.0,133.0,143.0,6130.0,6140.0,verb.change,103,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,10,swallowing,149,159,6146,6156,12,77.0,79.0,6074.0,6076.0,,,,,verb.consumption,105,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,11,crossed,184,191,6181,6188,12,181.0,183.0,6178.0,6180.0,,,,,verb.motion,106,subject,The old man,6.0,32.0,38.0,male,1.0,secondary
+52,2,come,52,56,6301,6305,132,36.0,47.0,6285.0,6296.0,,,,,verb.motion,107,subject,the two men,1.0,1.0,2.0,male,1.0,tertiary
+52,3,looked,80,86,6329,6335,132,75.0,79.0,6324.0,6328.0,101.0,111.0,6350.0,6360.0,verb.perception,108,subject,the two men,1.0,1.0,2.0,male,1.0,tertiary
+53,2,said,76,80,6438,6442,6,73.0,75.0,6435.0,6437.0,,,,,verb.communication,111,subject,the elder,3.0,1.0,4.0,male,1.0,tertiary
+54,1,see,9,12,6518,6521,42,1.0,4.0,6510.0,6513.0,,,,,verb.cognition,112,subject,Brother,1.0,9.0,10.0,male,1.0,tertiary
+55,5,give,62,66,6603,6607,42,53.0,56.0,6594.0,6597.0,103.0,114.0,6644.0,6655.0,verb.possession,115,subject,Brother,1.0,9.0,10.0,male,1.0,tertiary
+57,0,listened,24,32,6833,6841,107,4.0,23.0,6813.0,6832.0,,,,,verb.perception,116,subject,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+57,1,pitied,37,43,6846,6852,107,4.0,23.0,6813.0,6832.0,,,,,verb.emotion,117,subject,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+57,2,gave,53,57,6862,6866,107,4.0,23.0,6813.0,6832.0,,,,,verb.possession,118,subject,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+58,2,began,70,75,7002,7007,138,53.0,69.0,6985.0,7001.0,,,,,verb.change,119,subject,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+58,3,feel,79,83,7011,7015,138,53.0,69.0,6985.0,7001.0,,,,,verb.emotion,120,subject,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+58,4,thought,96,103,7028,7035,138,53.0,69.0,6985.0,7001.0,,,,,verb.cognition,122,subject,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+58,6,getting,127,134,7059,7066,138,120.0,122.0,7052.0,7054.0,,,,,verb.change,121,subject,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+58,9,married,172,179,7104,7111,138,162.0,165.0,7094.0,7097.0,,,,,verb.social,123,subject,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+59,0,chose,12,17,7125,7130,138,0.0,8.0,7113.0,7121.0,,,,,verb.cognition,125,subject,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+59,4,wanted,103,109,7216,7222,139,92.0,95.0,7205.0,7208.0,,,,,verb.emotion,124,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+61,0,regretted,29,38,7397,7406,139,12.0,28.0,7380.0,7396.0,,,,,verb.cognition,128,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+61,0,regretted,29,38,7397,7406,143,12.0,28.0,7380.0,7396.0,,,,,verb.cognition,128,subject,the rich brother's wife he chose's poor husband,1.0,3.0,4.0,male,0.6363636363636364,tertiary
+61,2,seen,65,69,7433,7437,143,52.0,54.0,7420.0,7422.0,,,,,verb.social,127,subject,the rich brother's wife he chose's poor husband,1.0,3.0,4.0,male,0.6363636363636364,tertiary
+61,3,put,114,117,7482,7485,139,85.0,113.0,7453.0,7481.0,,,,,verb.contact,129,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+62,0,had,7,10,7507,7510,143,4.0,6.0,7504.0,7506.0,,,,,verb.possession,130,subject,the rich brother's wife he chose's poor husband,1.0,3.0,4.0,male,0.6363636363636364,tertiary
+62,2,got,53,56,7553,7556,139,44.0,47.0,7544.0,7547.0,,,,,verb.change,133,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+63,2,married,19,26,7593,7600,139,6.0,9.0,7580.0,7583.0,,,,,verb.social,132,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+63,3,wanted,50,56,7624,7630,144,40.0,49.0,7614.0,7623.0,,,,,verb.emotion,134,subject,the bride,2.0,0.0,2.0,unknown,0.0,tertiary
+63,5,buy,81,84,7655,7658,144,40.0,49.0,7614.0,7623.0,,,,,verb.possession,135,subject,the bride,2.0,0.0,2.0,unknown,0.0,tertiary
+64,3,finished,50,58,7735,7743,139,42.0,45.0,7727.0,7730.0,,,,,verb.change,136,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+64,4,thought,77,84,7762,7769,139,73.0,76.0,7758.0,7761.0,,,,,verb.cognition,137,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+64,6,pay,95,98,7780,7783,139,85.0,88.0,7770.0,7773.0,,,,,verb.possession,138,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+64,7,rest,141,145,7826,7830,139,85.0,88.0,7770.0,7773.0,,,,,verb.body,140,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+65,1,seeking,18,25,7860,7867,139,0.0,9.0,7842.0,7851.0,,,,,verb.contact,139,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+67,2,considered,23,33,8176,8186,151,0.0,11.0,8153.0,8164.0,,,,,verb.cognition,141,subject,Most people,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+67,3,turned,59,65,8212,8218,151,0.0,11.0,8153.0,8164.0,84.0,105.0,8237.0,8258.0,verb.motion,142,subject,Most people,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+67,5,saw,121,124,8274,8277,152,111.0,120.0,8264.0,8273.0,,,,,verb.cognition,143,subject,this lady,1.0,0.0,1.0,female,1.0,tertiary
+67,13,resolved,248,256,8401,8409,139,234.0,237.0,8387.0,8390.0,,,,,verb.cognition,144,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+67,14,get,260,263,8413,8416,139,234.0,237.0,8387.0,8390.0,,,,,verb.possession,146,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+68,0,walked,22,28,8457,8463,139,18.0,21.0,8453.0,8456.0,,,,,verb.motion,145,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+68,1,entered,58,65,8493,8500,139,18.0,21.0,8453.0,8456.0,,,,,verb.motion,148,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+68,2,sat,106,109,8541,8544,155,66.0,81.0,8501.0,8516.0,,,,,verb.contact,147,subject,the rich brother's wife he chose's sister - in - law,1.0,0.0,1.0,female,1.0,tertiary
+68,2,sat,106,109,8541,8544,139,66.0,81.0,8501.0,8516.0,,,,,verb.contact,147,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+68,3,making,111,117,8546,8552,139,18.0,21.0,8453.0,8456.0,,,,,verb.creation,149,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+69,1,asked,53,58,8632,8637,144,0.0,9.0,8579.0,8588.0,94.0,198.0,8673.0,8777.0,verb.communication,150,subject,the bride,2.0,0.0,2.0,unknown,0.0,tertiary
+69,2,liked,120,125,8699,8704,139,102.0,119.0,8681.0,8698.0,130.0,160.0,8709.0,8739.0,verb.emotion,152,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+69,2,liked,120,125,8699,8704,159,102.0,119.0,8681.0,8698.0,130.0,160.0,8709.0,8739.0,verb.emotion,152,subject,the rich brother's wife he chose's new relations,1.0,2.0,3.0,female,1.0,tertiary
+69,3,expected,152,160,8731,8739,159,147.0,151.0,8726.0,8730.0,,,,,verb.cognition,151,subject,the rich brother's wife he chose's new relations,1.0,2.0,3.0,female,1.0,tertiary
+69,4,hoped,166,171,8745,8750,139,102.0,105.0,8681.0,8684.0,,,,,verb.emotion,153,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+70,0,reached,24,31,8803,8810,139,20.0,23.0,8799.0,8802.0,,,,,verb.motion,154,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+70,1,went,42,46,8821,8825,139,38.0,41.0,8817.0,8820.0,,,,,verb.communication,155,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+70,2,told,76,80,8855,8859,139,38.0,41.0,8817.0,8820.0,,,,,verb.communication,156,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+70,8,make,191,195,8970,8974,139,174.0,177.0,8953.0,8956.0,,,,,verb.creation,157,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+71,0,told,21,25,9038,9042,162,4.0,15.0,9021.0,9032.0,,,,,verb.communication,158,subject,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+71,0,told,21,25,9038,9042,139,4.0,15.0,9021.0,9032.0,,,,,verb.communication,158,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+71,2,buy,45,48,9062,9065,139,35.0,38.0,9052.0,9055.0,56.0,86.0,9073.0,9103.0,verb.possession,161,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+71,4,have,106,110,9123,9127,139,92.0,95.0,9109.0,9112.0,118.0,214.0,9135.0,9231.0,verb.possession,160,subject,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+71,6,made,139,143,9156,9160,162,121.0,123.0,9138.0,9140.0,,,,,verb.social,159,subject,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+72,0,grew,24,28,9257,9261,172,15.0,23.0,9248.0,9256.0,,,,,verb.change,162,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+73,0,began,4,9,9278,9283,172,0.0,3.0,9274.0,9277.0,,,,,verb.change,163,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+73,1,cry,13,16,9287,9290,172,0.0,3.0,9274.0,9277.0,,,,,verb.body,164,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+73,2,made,22,26,9296,9300,172,0.0,3.0,9274.0,9277.0,,,,,verb.creation,165,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+73,3,heard,64,69,9338,9343,173,45.0,63.0,9319.0,9337.0,,,,,verb.perception,166,subject,all the neighbours,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+73,4,put,78,81,9352,9355,173,45.0,63.0,9319.0,9337.0,114.0,140.0,9388.0,9414.0,verb.contact,167,subject,all the neighbours,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+73,5,see,117,120,9391,9394,173,45.0,63.0,9319.0,9337.0,,,,,verb.cognition,170,subject,all the neighbours,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+75,3,made,84,88,9548,9552,162,72.0,83.0,9536.0,9547.0,,,,,verb.social,169,subject,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+75,7,married,138,145,9602,9609,162,126.0,128.0,9590.0,9592.0,,,,,verb.social,168,subject,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+76,0,lamented,11,19,9678,9686,172,7.0,10.0,9674.0,9677.0,,,,,verb.communication,171,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+77,0,did,16,19,9772,9775,174,13.0,15.0,9769.0,9771.0,,,,,verb.creation,172,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+77,1,wished,29,35,9785,9791,172,20.0,24.0,9776.0,9780.0,,,,,verb.emotion,173,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+77,2,summoned,41,49,9797,9805,174,13.0,15.0,9769.0,9771.0,80.0,143.0,9836.0,9899.0,verb.social,174,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+77,4,said,112,116,9868,9872,174,109.0,111.0,9865.0,9867.0,,,,,verb.communication,176,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+78,3,decided,62,69,9963,9970,178,52.0,61.0,9953.0,9962.0,,,,,verb.cognition,177,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+78,4,made,103,107,10004,10008,174,83.0,95.0,9984.0,9996.0,,,,,verb.change,178,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+78,5,determined,154,164,10055,10065,172,150.0,153.0,10051.0,10054.0,,,,,verb.cognition,179,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+78,6,rest,172,176,10073,10077,172,150.0,153.0,10051.0,10054.0,,,,,verb.body,180,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+78,8,gained,191,197,10092,10098,172,183.0,186.0,10084.0,10087.0,,,,,verb.possession,181,subject,the wife,2.0,9.0,11.0,female,1.0,tertiary
+79,1,give,23,27,10131,10135,181,3.0,12.0,10111.0,10120.0,,,,,verb.possession,182,subject,one judge,1.0,0.0,1.0,unknown,0.0,tertiary
+80,3,got,130,133,10427,10430,174,68.0,125.0,10365.0,10422.0,,,,,verb.change,183,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+80,5,forced,175,181,10472,10478,174,168.0,170.0,10465.0,10467.0,,,,,verb.social,185,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+82,5,see,95,98,10809,10812,186,72.0,76.0,10786.0,10790.0,111.0,157.0,10825.0,10871.0,verb.perception,188,subject,the two brothers,1.0,3.0,4.0,male,1.0,tertiary
+83,9,enter,165,170,11038,11043,193,152.0,164.0,11025.0,11037.0,,,,,verb.motion,190,subject,The rich man,4.0,1.0,5.0,male,1.0,tertiary
+83,11,took,202,206,11075,11079,191,191.0,201.0,11064.0,11074.0,217.0,230.0,11090.0,11103.0,verb.motion,191,subject,"a farmer , who had planned to have a particularly good supper as it was his wife 's birthday's farmer , who had planned to have a particularly good supper as it was his wife 's birthday",1.0,3.0,4.0,female,1.0,tertiary
+84,0,asked,13,18,11118,11123,174,0.0,12.0,11105.0,11117.0,68.0,118.0,11173.0,11223.0,verb.communication,192,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+84,5,brought,87,94,11192,11199,174,80.0,82.0,11185.0,11187.0,,,,,verb.contact,193,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+85,5,gave,108,112,11333,11337,84,105.0,107.0,11330.0,11332.0,,,,,verb.communication,197,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+85,10,sit,192,195,11417,11420,199,162.0,176.0,11387.0,11401.0,,,,,verb.contact,196,subject,the elder brother,1.0,1.0,2.0,male,1.0,tertiary
+86,3,eat,65,68,11487,11490,107,38.0,57.0,11460.0,11479.0,,,,,verb.consumption,199,subject,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+86,5,made,95,99,11517,11521,107,77.0,90.0,11499.0,11512.0,,,,,verb.change,198,subject,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+87,1,touch,34,39,11573,11578,202,0.0,17.0,11539.0,11556.0,,,,,verb.contact,200,subject,The farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+87,1,touch,34,39,11573,11578,84,0.0,17.0,11539.0,11556.0,,,,,verb.contact,200,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+87,2,declared,61,69,11600,11608,202,0.0,17.0,11539.0,11556.0,,,,,verb.communication,203,subject,The farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+87,2,declared,61,69,11600,11608,84,0.0,17.0,11539.0,11556.0,,,,,verb.communication,203,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+87,3,wanted,95,101,11634,11640,202,75.0,90.0,11614.0,11629.0,,,,,verb.consumption,202,subject,The farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+87,6,cooking,141,148,11680,11687,174,113.0,123.0,11652.0,11662.0,,,,,verb.contact,201,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+88,0,gave,13,17,11714,11718,174,10.0,12.0,11711.0,11713.0,29.0,244.0,11730.0,11945.0,verb.possession,204,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+88,3,eaten,57,62,11758,11763,174,36.0,38.0,11737.0,11739.0,66.0,73.0,11767.0,11774.0,verb.consumption,205,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+88,6,making,189,195,11890,11896,174,176.0,188.0,11877.0,11889.0,,,,,verb.creation,206,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+89,1,aroused,33,40,11980,11987,84,18.0,28.0,11965.0,11975.0,,,,,verb.emotion,208,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+94,1,poisoned,16,24,12192,12200,92,4.0,11.0,12180.0,12187.0,,,,,verb.contact,207,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+94,3,pay,38,41,12214,12217,92,29.0,31.0,12205.0,12207.0,,,,,verb.possession,210,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+94,4,said,51,55,12227,12231,92,1.0,48.0,12177.0,12224.0,,,,,verb.communication,209,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+94,6,ran,98,101,12274,12277,162,95.0,97.0,12271.0,12273.0,,,,,verb.motion,211,subject,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+94,8,beat,126,130,12302,12306,162,95.0,97.0,12271.0,12273.0,,,,,verb.contact,214,subject,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+95,2,snatched,66,74,12454,12462,107,27.0,46.0,12415.0,12434.0,85.0,107.0,12473.0,12495.0,verb.contact,217,subject,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+96,3,attempted,41,50,12593,12602,92,34.0,36.0,12586.0,12588.0,,,,,verb.social,219,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+96,4,rob,54,57,12606,12609,92,34.0,36.0,12586.0,12588.0,,,,,verb.communication,218,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+96,5,murder,65,71,12617,12623,92,34.0,36.0,12586.0,12588.0,,,,,verb.social,221,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+96,7,kill,87,91,12639,12643,92,34.0,36.0,12586.0,12588.0,96.0,99.0,12648.0,12651.0,verb.contact,222,subject,the man,2.0,10.0,12.0,male,1.0,tertiary
+99,6,pull,135,139,13348,13352,90,104.0,114.0,13317.0,13327.0,,,,,verb.contact,226,subject,the farmer's master,3.0,0.0,3.0,unknown,0.0,tertiary
+99,6,pull,135,139,13348,13352,84,104.0,114.0,13317.0,13327.0,,,,,verb.contact,226,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,0,appealed,24,32,13386,13394,221,0.0,23.0,13362.0,13385.0,,,,,verb.communication,227,subject,The muleteer,4.0,0.0,4.0,unknown,0.0,tertiary
+100,4,began,157,162,13519,13524,84,154.0,156.0,13516.0,13518.0,226.0,314.0,13588.0,13676.0,verb.change,229,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,5,talk,166,170,13528,13532,84,154.0,156.0,13516.0,13518.0,,,,,verb.communication,230,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,6,hoping,195,201,13557,13563,84,154.0,156.0,13516.0,13518.0,,,,,verb.emotion,231,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,10,have,270,274,13632,13636,224,244.0,258.0,13606.0,13620.0,,,,,verb.consumption,233,subject,the poor beast,1.0,0.0,1.0,unknown,0.0,tertiary
+101,1,reached,46,53,13724,13731,225,29.0,45.0,13707.0,13723.0,65.0,170.0,13743.0,13848.0,verb.motion,234,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+101,3,do,118,120,13796,13798,225,29.0,45.0,13707.0,13723.0,134.0,170.0,13812.0,13848.0,verb.social,235,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+101,5,help,137,141,13815,13819,225,29.0,45.0,13707.0,13723.0,,,,,verb.social,237,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+102,6,broken,156,162,14006,14012,84,130.0,151.0,13980.0,14001.0,,,,,verb.contact,236,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+103,1,contrived,49,58,14106,14115,174,36.0,48.0,14093.0,14105.0,,,,,verb.social,239,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+103,3,managed,130,137,14187,14194,227,121.0,129.0,14178.0,14186.0,,,,,verb.social,240,subject,the mule,2.0,2.0,4.0,male,1.0,tertiary
+103,4,regain,141,147,14198,14204,227,121.0,129.0,14178.0,14186.0,,,,,verb.possession,241,subject,the mule,2.0,2.0,4.0,male,1.0,tertiary
+104,0,saw,8,11,14300,14303,174,5.0,7.0,14297.0,14299.0,,,,,verb.perception,244,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,1,knew,38,42,14330,14334,221,17.0,37.0,14309.0,14329.0,,,,,verb.cognition,243,subject,The muleteer,4.0,0.0,4.0,unknown,0.0,tertiary
+104,6,lost,115,119,14407,14411,174,101.0,103.0,14393.0,14395.0,129.0,139.0,14421.0,14431.0,verb.possession,247,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,7,began,144,149,14436,14441,174,141.0,143.0,14433.0,14435.0,173.0,250.0,14465.0,14542.0,verb.change,248,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,8,abuse,153,158,14445,14450,174,141.0,143.0,14433.0,14435.0,,,,,verb.social,249,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,9,declaring,173,182,14465,14474,174,141.0,143.0,14433.0,14435.0,,,,,verb.communication,251,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,11,ruined,195,201,14487,14493,174,188.0,190.0,14480.0,14482.0,,,,,verb.change,250,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,14,pay,240,243,14532,14535,174,236.0,239.0,14528.0,14531.0,,,,,verb.possession,255,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+105,6,mind,110,114,14654,14658,84,91.0,93.0,14635.0,14637.0,,,,,verb.communication,256,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+105,7,rode,159,163,14703,14707,235,137.0,158.0,14681.0,14702.0,,,,,verb.motion,257,subject,the ungrateful wretch,1.0,0.0,1.0,unknown,0.0,tertiary
+105,10,arrived,257,264,14801,14808,193,217.0,244.0,14761.0,14788.0,,,,,verb.motion,254,subject,The rich man,4.0,1.0,5.0,male,1.0,tertiary
+105,10,arrived,257,264,14801,14808,84,217.0,244.0,14761.0,14788.0,,,,,verb.motion,254,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+106,0,walked,27,33,14851,14857,225,10.0,26.0,14834.0,14850.0,49.0,111.0,14873.0,14935.0,verb.motion,258,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+106,1,wondering,49,58,14873,14882,225,10.0,26.0,14834.0,14850.0,,,,,verb.cognition,259,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+108,5,entered,118,125,15131,15138,225,115.0,117.0,15128.0,15130.0,,,,,verb.motion,263,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+108,6,looked,135,141,15148,15154,225,132.0,134.0,15145.0,15147.0,148.0,206.0,15161.0,15219.0,verb.perception,265,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+108,9,made,202,206,15215,15219,225,186.0,194.0,15199.0,15207.0,,,,,verb.social,264,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+109,0,found,13,18,15234,15239,225,10.0,12.0,15231.0,15233.0,,,,,verb.possession,266,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+109,1,sought,27,33,15248,15254,225,19.0,23.0,15240.0,15244.0,,,,,verb.contact,267,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+109,3,make,82,86,15303,15307,225,75.0,78.0,15296.0,15299.0,,,,,verb.cognition,269,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+109,4,curled,107,113,15328,15334,225,104.0,106.0,15325.0,15327.0,125.0,140.0,15346.0,15361.0,verb.contact,268,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+109,5,slept,146,151,15367,15372,225,104.0,106.0,15325.0,15327.0,,,,,verb.body,270,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+110,4,shook,112,117,15499,15504,174,88.0,100.0,15475.0,15487.0,,,,,verb.body,272,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+111,0,intended,3,11,15517,15525,225,0.0,2.0,15514.0,15516.0,,,,,verb.cognition,271,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+111,3,leaving,93,100,15607,15614,225,86.0,88.0,15600.0,15602.0,123.0,133.0,15637.0,15647.0,verb.cognition,273,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+111,4,felt,138,142,15652,15656,225,135.0,137.0,15649.0,15651.0,,,,,verb.body,275,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+112,1,struggled,7,16,15681,15690,225,0.0,2.0,15674.0,15676.0,,,,,verb.emotion,274,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+113,2,minded,23,29,15751,15757,225,5.0,7.0,15733.0,15735.0,,,,,verb.cognition,277,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+113,5,proved,52,58,15780,15786,225,38.0,40.0,15766.0,15768.0,,,,,verb.cognition,276,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+113,6,triumphed,78,87,15806,15815,225,38.0,40.0,15766.0,15768.0,,,,,verb.competition,278,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+114,2,had,54,57,15888,15891,225,51.0,53.0,15885.0,15887.0,,,,,verb.possession,279,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+114,3,fight,73,78,15907,15912,225,51.0,53.0,15885.0,15887.0,,,,,verb.competition,280,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+115,0,mounted,6,13,15929,15936,225,3.0,5.0,15926.0,15928.0,,,,,verb.motion,281,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+116,13,talk,200,204,16238,16242,225,180.0,182.0,16218.0,16220.0,222.0,253.0,16260.0,16291.0,verb.communication,285,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+117,1,guess,14,19,16307,16312,225,11.0,13.0,16304.0,16306.0,,,,,verb.cognition,287,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+117,6,awaited,164,171,16457,16464,225,149.0,158.0,16442.0,16451.0,,,,,verb.cognition,288,subject,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+119,2,shut,75,79,16559,16563,174,62.0,74.0,16546.0,16558.0,,,,,verb.body,289,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+119,3,sprang,93,99,16577,16583,174,62.0,74.0,16546.0,16558.0,,,,,verb.motion,290,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+120,1,flew,26,30,16619,16623,174,23.0,25.0,16616.0,16618.0,,,,,verb.motion,291,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+120,3,touched,85,92,16678,16685,174,71.0,81.0,16664.0,16674.0,,,,,verb.contact,292,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+121,2,rising,54,60,16814,16820,174,18.0,20.0,16778.0,16780.0,73.0,116.0,16833.0,16876.0,verb.motion,293,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+121,4,seized,101,107,16861,16867,174,78.0,86.0,16838.0,16846.0,,,,,verb.contact,294,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+121,5,held,112,116,16872,16876,174,78.0,86.0,16838.0,16846.0,,,,,verb.contact,296,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+128,3,think,97,102,17183,17188,174,6.0,18.0,17092.0,17104.0,,,,,verb.cognition,300,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+128,6,accused,120,127,17206,17213,174,107.0,109.0,17193.0,17195.0,,,,,verb.communication,301,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+129,0,got,7,10,17242,17245,174,4.0,6.0,17239.0,17241.0,,,,,verb.possession,302,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+129,2,hurried,34,41,17269,17276,174,4.0,6.0,17239.0,17241.0,,,,,verb.motion,304,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+129,4,arrived,139,146,17374,17381,118,88.0,129.0,17323.0,17364.0,,,,,verb.motion,303,subject,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+129,4,arrived,139,146,17374,17381,174,88.0,129.0,17323.0,17364.0,,,,,verb.motion,303,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+129,4,arrived,139,146,17374,17381,84,88.0,129.0,17323.0,17364.0,,,,,verb.motion,303,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+129,4,arrived,139,146,17374,17381,221,88.0,129.0,17323.0,17364.0,,,,,verb.motion,303,subject,The muleteer,4.0,0.0,4.0,unknown,0.0,tertiary
+129,6,entered,206,213,17441,17448,178,196.0,205.0,17431.0,17440.0,,,,,verb.competition,305,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+129,7,ordered,218,225,17453,17460,178,196.0,205.0,17431.0,17440.0,,,,,verb.communication,306,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+130,2,said,33,37,17513,17517,178,1.0,27.0,17481.0,17507.0,,,,,verb.communication,308,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+131,1,take,11,15,17573,17577,178,0.0,2.0,17562.0,17564.0,,,,,verb.possession,309,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+131,2,state,24,29,17586,17591,178,0.0,2.0,17562.0,17564.0,,,,,verb.communication,311,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+132,2,refused,102,109,17704,17711,174,90.0,101.0,17692.0,17703.0,,,,,verb.communication,312,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+132,2,refused,102,109,17704,17711,118,90.0,101.0,17692.0,17703.0,,,,,verb.communication,312,subject,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+132,3,give,113,117,17715,17719,174,90.0,101.0,17692.0,17703.0,,,,,verb.possession,313,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+132,3,give,113,117,17715,17719,118,90.0,101.0,17692.0,17703.0,,,,,verb.possession,313,subject,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+133,0,told,24,28,17753,17757,174,11.0,23.0,17740.0,17752.0,,,,,verb.communication,315,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+133,2,begged,57,63,17786,17792,174,50.0,52.0,17779.0,17781.0,,,,,verb.communication,314,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+133,3,produced,97,105,17826,17834,174,50.0,52.0,17779.0,17781.0,,,,,verb.creation,316,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+134,0,listened,10,18,17890,17898,178,0.0,9.0,17880.0,17889.0,,,,,verb.perception,318,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+134,1,asked,31,36,17911,17916,178,0.0,9.0,17880.0,17889.0,,,,,verb.communication,319,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+135,0,gave,9,13,17942,17946,178,6.0,8.0,17939.0,17941.0,,,,,verb.communication,320,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+137,0,added,16,21,18075,18080,178,0.0,3.0,18059.0,18062.0,,,,,verb.communication,321,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+138,0,heard,13,18,18287,18292,193,0.0,12.0,18274.0,18286.0,29.0,93.0,18303.0,18367.0,verb.perception,322,subject,The rich man,4.0,1.0,5.0,male,1.0,tertiary
+140,1,conceal,23,30,18456,18463,178,0.0,9.0,18433.0,18442.0,,,,,verb.perception,324,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+140,2,inquired,57,65,18490,18498,178,0.0,9.0,18433.0,18442.0,,,,,verb.communication,326,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+140,4,left,105,109,18538,18542,84,94.0,104.0,18527.0,18537.0,,,,,verb.motion,325,subject,the farmer,11.0,21.0,32.0,male,1.0,secondary
+140,5,received,125,133,18558,18566,178,0.0,9.0,18433.0,18442.0,,,,,verb.possession,328,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+140,10,waited,212,218,18645,18651,174,201.0,203.0,18634.0,18636.0,,,,,verb.cognition,327,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+140,11,see,222,225,18655,18658,174,196.0,200.0,18629.0,18633.0,,,,,verb.perception,329,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+141,0,told,18,22,18678,18682,174,5.0,17.0,18665.0,18677.0,,,,,verb.communication,330,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,1,informed,28,36,18825,18833,174,21.0,23.0,18818.0,18820.0,,,,,verb.communication,334,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,3,proved,62,68,18859,18865,174,55.0,57.0,18852.0,18854.0,,,,,verb.cognition,333,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,9,pay,163,166,18960,18963,174,155.0,157.0,18952.0,18954.0,,,,,verb.possession,336,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,10,hand,211,215,19008,19012,174,155.0,157.0,18952.0,18954.0,220.0,263.0,19017.0,19060.0,verb.possession,337,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,12,grown,252,257,19049,19054,174,239.0,247.0,19036.0,19044.0,,,,,verb.change,338,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+144,5,die,85,88,19196,19199,66,75.0,77.0,19186.0,19188.0,,,,,verb.change,343,subject,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+145,1,kill,13,17,19220,19224,66,9.0,12.0,19216.0,19219.0,,,,,verb.contact,342,subject,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+146,3,told,58,62,19289,19293,174,45.0,57.0,19276.0,19288.0,96.0,131.0,19327.0,19362.0,verb.communication,346,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+146,5,leaped,74,80,19305,19311,174,67.0,69.0,19298.0,19300.0,,,,,verb.motion,345,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+146,6,knowing,100,107,19331,19338,174,45.0,57.0,19276.0,19288.0,,,,,verb.cognition,347,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+147,6,sit,91,94,19455,19458,283,79.0,90.0,19443.0,19454.0,,,,,verb.contact,350,subject,the accused,2.0,0.0,2.0,unknown,0.0,tertiary
+147,8,jump,144,148,19508,19512,71,119.0,143.0,19483.0,19507.0,,,,,verb.motion,353,subject,the dead man,1.0,0.0,1.0,male,1.0,tertiary
+147,8,jump,144,148,19508,19512,70,119.0,143.0,19483.0,19507.0,,,,,verb.motion,353,subject,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,9,fall,166,170,19530,19534,71,119.0,148.0,19483.0,19512.0,,,,,verb.motion,354,subject,the dead man,1.0,0.0,1.0,male,1.0,tertiary
+147,9,fall,166,170,19530,19534,70,119.0,148.0,19483.0,19512.0,,,,,verb.motion,354,subject,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,10,kill,182,186,19546,19550,71,119.0,143.0,19483.0,19507.0,,,,,verb.contact,356,subject,the dead man,1.0,0.0,1.0,male,1.0,tertiary
+147,10,kill,182,186,19546,19550,70,119.0,143.0,19483.0,19507.0,,,,,verb.contact,356,subject,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,13,condemned,236,245,19600,19609,70,227.0,231.0,19591.0,19595.0,,,,,verb.communication,355,subject,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,14,pay,249,252,19613,19616,70,227.0,231.0,19591.0,19595.0,,,,,verb.possession,358,subject,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+148,0,looked,14,20,19681,19687,287,0.0,13.0,19667.0,19680.0,,,,,verb.perception,357,subject,The young men,1.0,1.0,2.0,male,1.0,tertiary
+148,1,shook,47,52,19714,19719,287,0.0,13.0,19667.0,19680.0,,,,,verb.motion,359,subject,The young men,1.0,1.0,2.0,male,1.0,tertiary
+149,3,nodded,49,55,19782,19788,178,39.0,48.0,19772.0,19781.0,,,,,verb.communication,360,subject,The judge,9.0,9.0,18.0,male,1.0,tertiary
+150,0,rode,16,20,19806,19810,174,3.0,15.0,19793.0,19805.0,,,,,verb.motion,361,subject,The poor man,17.0,56.0,73.0,male,1.0,primary
+0,1,had,34,37,34,37,4,38.0,46.0,38.0,46.0,,,,,verb.possession,0,direct_object,two sons,1.0,0.0,1.0,unknown,0.0,tertiary
+0,4,helped,104,110,104,110,3,111.0,141.0,111.0,141.0,,,,,verb.social,1,direct_object,a rich old man,1.0,4.0,5.0,male,1.0,tertiary
+2,5,rubbed,154,160,327,333,9,161.0,170.0,334.0,343.0,171.0,257.0,344.0,430.0,verb.contact,3,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,5,said,69,73,501,505,9,74.0,84.0,506.0,516.0,,,,,verb.communication,5,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,5,said,69,73,501,505,11,74.0,84.0,506.0,516.0,,,,,verb.communication,5,direct_object,the young man's father's son,2.0,0.0,2.0,unknown,0.0,tertiary
+3,8,notice,152,158,584,590,9,159.0,194.0,591.0,626.0,,,,,verb.perception,8,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+3,8,notice,152,158,584,590,11,159.0,194.0,591.0,626.0,,,,,verb.perception,8,direct_object,the young man's father's son,2.0,0.0,2.0,unknown,0.0,tertiary
+5,1,met,26,29,843,846,14,30.0,54.0,847.0,871.0,,,,,verb.social,13,direct_object,The old man's people he knew,1.0,0.0,1.0,unknown,0.0,tertiary
+5,1,met,26,29,843,846,12,30.0,54.0,847.0,871.0,,,,,verb.social,13,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,6,bade,124,128,941,945,16,129.0,138.0,946.0,955.0,,,,,verb.communication,15,direct_object,an ostler,1.0,0.0,1.0,unknown,0.0,tertiary
+5,6,bade,124,128,941,945,12,129.0,138.0,946.0,955.0,,,,,verb.communication,15,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+5,7,saddle,139,145,956,962,12,146.0,155.0,963.0,972.0,,,,,verb.contact,16,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+6,3,asked,133,138,1136,1141,19,139.0,142.0,1142.0,1145.0,,,,,verb.communication,20,direct_object,The old man's new daughter - in - law,1.0,0.0,1.0,unknown,0.0,tertiary
+6,3,asked,133,138,1136,1141,12,139.0,142.0,1142.0,1145.0,,,,,verb.communication,20,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+6,4,liked,150,155,1153,1158,19,156.0,179.0,1159.0,1182.0,,,,,verb.emotion,19,direct_object,The old man's new daughter - in - law,1.0,0.0,1.0,unknown,0.0,tertiary
+6,4,liked,150,155,1153,1158,12,156.0,179.0,1159.0,1182.0,,,,,verb.emotion,19,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+7,1,listened,25,33,1260,1268,18,34.0,40.0,1269.0,1275.0,,,,,verb.perception,22,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+10,0,said,0,4,1306,1310,12,5.0,7.0,1311.0,1313.0,,,,,verb.communication,26,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+11,1,know,9,13,1324,1328,18,14.0,40.0,1329.0,1355.0,,,,,verb.cognition,25,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+12,1,got,5,8,1362,1365,78,9.0,27.0,1366.0,1384.0,,,,,verb.possession,24,direct_object,no daughter - in - law,1.0,0.0,1.0,unknown,0.0,tertiary
+14,1,exclaimed,43,52,1569,1578,80,55.0,63.0,1581.0,1589.0,,,,,verb.communication,29,direct_object,dear,1.0,0.0,1.0,unknown,0.0,tertiary
+15,0,hope,2,6,1593,1597,18,7.0,31.0,1598.0,1622.0,,,,,verb.emotion,32,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+16,5,fumbled,86,93,1710,1717,18,94.0,108.0,1718.0,1732.0,110.0,143.0,1734.0,1767.0,verb.contact,36,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+17,5,retorted,63,71,1832,1840,12,72.0,83.0,1841.0,1852.0,85.0,133.0,1854.0,1902.0,verb.communication,38,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+19,1,buying,24,30,1977,1983,18,42.0,122.0,1995.0,2075.0,,,,,verb.possession,41,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+19,1,buying,24,30,1977,1983,22,42.0,122.0,1995.0,2075.0,,,,,verb.possession,41,direct_object,the landlady's handsome son,1.0,1.0,2.0,male,1.0,tertiary
+21,6,glanced,257,264,2371,2378,84,265.0,267.0,2379.0,2381.0,283.0,310.0,2397.0,2424.0,verb.perception,45,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+21,7,see,286,289,2400,2403,84,290.0,310.0,2404.0,2424.0,,,,,verb.communication,47,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+23,1,looking,7,14,2457,2464,84,15.0,34.0,2465.0,2484.0,36.0,49.0,2486.0,2499.0,verb.perception,48,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+25,2,replied,34,41,2588,2595,18,42.0,54.0,2596.0,2608.0,56.0,202.0,2610.0,2756.0,verb.communication,55,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+25,3,remembered,73,83,2627,2637,18,84.0,202.0,2638.0,2756.0,,,,,verb.cognition,54,direct_object,the landlady,4.0,19.0,23.0,female,1.0,tertiary
+25,3,remembered,73,83,2627,2637,86,84.0,202.0,2638.0,2756.0,,,,,verb.cognition,54,direct_object,"the hungry men who always stopped at the inn on market days , before starting for home",1.0,0.0,1.0,male,1.0,tertiary
+25,5,prepare,98,105,2652,2659,86,106.0,112.0,2660.0,2666.0,,,,,verb.change,56,direct_object,"the hungry men who always stopped at the inn on market days , before starting for home",1.0,0.0,1.0,male,1.0,tertiary
+37,0,feared,3,9,3682,3688,9,10.0,51.0,3689.0,3730.0,,,,,verb.emotion,65,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+37,0,feared,3,9,3682,3688,8,10.0,51.0,3689.0,3730.0,,,,,verb.emotion,65,direct_object,the young man,2.0,22.0,24.0,male,1.0,secondary
+38,4,felt,112,116,3908,3912,8,117.0,156.0,3913.0,3952.0,,,,,verb.cognition,66,direct_object,the young man,2.0,22.0,24.0,male,1.0,secondary
+41,1,meant,7,12,4234,4239,9,13.0,49.0,4240.0,4276.0,,,,,verb.cognition,71,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+41,1,meant,7,12,4234,4239,8,13.0,49.0,4240.0,4276.0,,,,,verb.cognition,71,direct_object,the young man,2.0,22.0,24.0,male,1.0,secondary
+41,3,told,21,25,4248,4252,9,26.0,36.0,4253.0,4263.0,,,,,verb.communication,73,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+41,3,told,21,25,4248,4252,8,26.0,36.0,4253.0,4263.0,,,,,verb.communication,73,direct_object,the young man,2.0,22.0,24.0,male,1.0,secondary
+41,6,seen,109,113,4336,4340,5,114.0,122.0,4341.0,4349.0,,,,,verb.perception,74,direct_object,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+41,6,seen,109,113,4336,4340,12,114.0,122.0,4341.0,4349.0,,,,,verb.perception,74,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+41,9,forgiven,138,146,4365,4373,5,147.0,158.0,4374.0,4385.0,,,,,verb.cognition,76,direct_object,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+44,3,informed,52,60,4764,4772,8,61.0,64.0,4773.0,4776.0,,,,,verb.communication,82,direct_object,the young man,2.0,22.0,24.0,male,1.0,secondary
+44,3,informed,52,60,4764,4772,109,61.0,64.0,4773.0,4776.0,,,,,verb.communication,82,direct_object,the young man's only heir,1.0,0.0,1.0,unknown,0.0,tertiary
+44,6,inherit,106,113,4818,4825,8,114.0,137.0,4826.0,4849.0,,,,,verb.possession,83,direct_object,the young man,2.0,22.0,24.0,male,1.0,secondary
+45,2,cared,91,96,5017,5022,114,102.0,116.0,5028.0,5042.0,,,,,verb.emotion,85,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+47,4,gave,96,100,5362,5366,12,101.0,235.0,5367.0,5501.0,,,,,verb.communication,91,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+48,1,hear,41,45,5544,5548,122,46.0,64.0,5549.0,5567.0,83.0,186.0,5586.0,5689.0,verb.perception,93,direct_object,the elder son,1.0,5.0,6.0,male,1.0,tertiary
+48,4,seeing,96,102,5599,5605,122,103.0,111.0,5606.0,5614.0,,,,,verb.perception,97,direct_object,the elder son,1.0,5.0,6.0,male,1.0,tertiary
+51,8,watch,98,103,6095,6100,128,104.0,143.0,6101.0,6140.0,,,,,verb.perception,104,direct_object,The old man's children,1.0,0.0,1.0,unknown,0.0,tertiary
+51,8,watch,98,103,6095,6100,12,104.0,143.0,6101.0,6140.0,,,,,verb.perception,104,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,10,swallowing,149,159,6146,6156,12,160.0,169.0,6157.0,6166.0,,,,,verb.consumption,105,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+51,11,crossed,184,191,6181,6188,118,192.0,205.0,6189.0,6202.0,,,,,verb.motion,106,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+51,11,crossed,184,191,6181,6188,12,192.0,205.0,6189.0,6202.0,,,,,verb.motion,106,direct_object,The old man,6.0,32.0,38.0,male,1.0,secondary
+52,3,looked,80,86,6329,6335,114,87.0,100.0,6336.0,6349.0,101.0,111.0,6350.0,6360.0,verb.perception,108,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+53,1,winking,46,53,6408,6415,6,54.0,58.0,6416.0,6420.0,59.0,71.0,,,verb.contact,109,direct_object,the elder,3.0,1.0,4.0,male,1.0,tertiary
+53,2,said,76,80,6438,6442,42,83.0,146.0,6445.0,6508.0,,,,,verb.communication,111,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+53,5,tell,124,128,6486,6490,42,129.0,132.0,6491.0,6494.0,,,,,verb.communication,110,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+54,1,see,9,12,6518,6521,42,13.0,17.0,6522.0,6526.0,,,,,verb.cognition,112,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+55,3,ask,46,49,6587,6590,42,50.0,114.0,6591.0,6655.0,,,,,verb.communication,113,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+55,5,give,62,66,6603,6607,42,67.0,69.0,6608.0,6610.0,103.0,114.0,6644.0,6655.0,verb.possession,115,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+56,1,profit,22,28,6788,6794,42,29.0,32.0,6795.0,6798.0,,,,,verb.possession,114,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+57,0,listened,24,32,6833,6841,42,44.0,47.0,6853.0,6856.0,,,,,verb.perception,116,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+57,1,pitied,37,43,6846,6852,42,44.0,47.0,6853.0,6856.0,,,,,verb.emotion,117,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+57,2,gave,53,57,6862,6866,42,58.0,61.0,6867.0,6870.0,,,,,verb.possession,118,direct_object,Brother,1.0,9.0,10.0,male,1.0,tertiary
+58,4,thought,96,103,7028,7035,138,115.0,140.0,7047.0,7072.0,,,,,verb.cognition,122,direct_object,the rich brother,1.0,4.0,5.0,male,1.0,tertiary
+60,1,fancy,65,70,7294,7299,142,71.0,137.0,7300.0,7366.0,,,,,verb.cognition,126,direct_object,other people,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+61,0,regretted,29,38,7397,7406,139,39.0,73.0,7407.0,7441.0,,,,,verb.cognition,128,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+61,0,regretted,29,38,7397,7406,143,39.0,73.0,7407.0,7441.0,,,,,verb.cognition,128,direct_object,the rich brother's wife he chose's poor husband,1.0,3.0,4.0,male,0.6363636363636364,tertiary
+61,2,seen,65,69,7433,7437,139,70.0,73.0,7438.0,7441.0,,,,,verb.social,127,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+61,3,put,114,117,7482,7485,143,118.0,121.0,7486.0,7489.0,,,,,verb.contact,129,direct_object,the rich brother's wife he chose's poor husband,1.0,3.0,4.0,male,0.6363636363636364,tertiary
+62,0,had,7,10,7507,7510,139,15.0,38.0,7515.0,7538.0,,,,,verb.possession,130,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+62,1,rule,30,34,7530,7534,139,35.0,38.0,7535.0,7538.0,,,,,verb.social,131,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+63,3,wanted,50,56,7624,7630,139,57.0,109.0,7631.0,7683.0,,,,,verb.emotion,134,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+63,5,buy,81,84,7655,7658,139,85.0,92.0,7659.0,7666.0,,,,,verb.possession,135,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+64,3,finished,50,58,7735,7743,139,59.0,71.0,7744.0,7756.0,,,,,verb.change,136,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+64,4,thought,77,84,7762,7769,147,85.0,155.0,7770.0,7840.0,,,,,verb.cognition,137,direct_object,the rich brother's wife he chose's unknown sister - in - law,1.0,0.0,1.0,female,1.0,tertiary
+64,4,thought,77,84,7762,7769,139,85.0,155.0,7770.0,7840.0,,,,,verb.cognition,137,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+64,6,pay,95,98,7780,7783,147,99.0,106.0,7784.0,7791.0,,,,,verb.possession,138,direct_object,the rich brother's wife he chose's unknown sister - in - law,1.0,0.0,1.0,female,1.0,tertiary
+64,6,pay,95,98,7780,7783,139,99.0,106.0,7784.0,7791.0,,,,,verb.possession,138,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+67,3,turned,59,65,8212,8218,151,66.0,77.0,8219.0,8230.0,84.0,105.0,8237.0,8258.0,verb.motion,142,direct_object,Most people,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+67,5,saw,121,124,8274,8277,139,125.0,280.0,8278.0,8433.0,,,,,verb.cognition,143,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+67,13,resolved,248,256,8401,8409,139,257.0,280.0,8410.0,8433.0,,,,,verb.cognition,144,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+67,14,get,260,263,8413,8416,139,264.0,268.0,8417.0,8421.0,,,,,verb.possession,146,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+68,1,entered,58,65,8493,8500,156,66.0,142.0,8501.0,8577.0,,,,,verb.motion,148,direct_object,the rich brother's wife he chose's children,1.0,0.0,1.0,female,1.0,tertiary
+68,1,entered,58,65,8493,8500,155,66.0,142.0,8501.0,8577.0,,,,,verb.motion,148,direct_object,the rich brother's wife he chose's sister - in - law,1.0,0.0,1.0,female,1.0,tertiary
+68,1,entered,58,65,8493,8500,139,66.0,142.0,8501.0,8577.0,,,,,verb.motion,148,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+68,3,making,111,117,8546,8552,156,118.0,125.0,8553.0,8560.0,,,,,verb.creation,149,direct_object,the rich brother's wife he chose's children,1.0,0.0,1.0,female,1.0,tertiary
+68,3,making,111,117,8546,8552,139,118.0,125.0,8553.0,8560.0,,,,,verb.creation,149,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+69,2,liked,120,125,8699,8704,139,126.0,129.0,8705.0,8708.0,130.0,160.0,8709.0,8739.0,verb.emotion,152,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+69,4,hoped,166,171,8745,8750,160,172.0,198.0,8751.0,8777.0,,,,,verb.emotion,153,direct_object,good friends,1.0,0.0,1.0,unknown,0.0,tertiary
+69,4,hoped,166,171,8745,8750,159,172.0,198.0,8751.0,8777.0,,,,,verb.emotion,153,direct_object,the rich brother's wife he chose's new relations,1.0,2.0,3.0,female,1.0,tertiary
+70,1,went,42,46,8821,8825,162,47.0,70.0,8826.0,8849.0,,,,,verb.communication,155,direct_object,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+70,1,went,42,46,8821,8825,139,47.0,70.0,8826.0,8849.0,,,,,verb.communication,155,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+70,2,told,76,80,8855,8859,166,81.0,84.0,8860.0,8863.0,,,,,verb.communication,156,direct_object,the king,1.0,0.0,1.0,male,1.0,tertiary
+70,2,told,76,80,8855,8859,118,81.0,84.0,8860.0,8863.0,,,,,verb.communication,156,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+70,2,told,76,80,8855,8859,162,81.0,84.0,8860.0,8863.0,,,,,verb.communication,156,direct_object,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+70,2,told,76,80,8855,8859,139,81.0,84.0,8860.0,8863.0,,,,,verb.communication,156,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+70,8,make,191,195,8970,8974,166,196.0,200.0,8975.0,8979.0,,,,,verb.creation,157,direct_object,the king,1.0,0.0,1.0,male,1.0,tertiary
+71,0,told,21,25,9038,9042,162,26.0,29.0,9043.0,9046.0,,,,,verb.communication,158,direct_object,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+71,0,told,21,25,9038,9042,118,26.0,29.0,9043.0,9046.0,,,,,verb.communication,158,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+71,0,told,21,25,9038,9042,139,26.0,29.0,9043.0,9046.0,,,,,verb.communication,158,direct_object,the rich brother's wife he chose,1.0,34.0,35.0,female,1.0,secondary
+71,6,made,139,143,9156,9160,162,144.0,158.0,9161.0,9175.0,,,,,verb.social,159,direct_object,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+71,6,made,139,143,9156,9160,118,144.0,158.0,9161.0,9175.0,,,,,verb.social,159,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+73,2,made,22,26,9296,9300,172,27.0,140.0,9301.0,9414.0,,,,,verb.creation,165,direct_object,the wife,2.0,9.0,11.0,female,1.0,tertiary
+73,2,made,22,26,9296,9300,173,27.0,140.0,9301.0,9414.0,,,,,verb.creation,165,direct_object,all the neighbours,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+73,3,heard,64,69,9338,9343,172,70.0,73.0,9344.0,9347.0,,,,,verb.perception,166,direct_object,the wife,2.0,9.0,11.0,female,1.0,tertiary
+73,4,put,78,81,9352,9355,173,82.0,93.0,9356.0,9367.0,114.0,140.0,9388.0,9414.0,verb.contact,167,direct_object,all the neighbours,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+75,3,made,84,88,9548,9552,51,89.0,109.0,9553.0,9573.0,,,,,verb.social,169,direct_object,a bachelor,1.0,0.0,1.0,unknown,0.0,tertiary
+75,3,made,84,88,9548,9552,162,89.0,109.0,9553.0,9573.0,,,,,verb.social,169,direct_object,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+77,0,did,16,19,9772,9775,172,20.0,35.0,9776.0,9791.0,,,,,verb.creation,172,direct_object,the wife,2.0,9.0,11.0,female,1.0,tertiary
+77,2,summoned,41,49,9797,9805,174,50.0,79.0,9806.0,9835.0,80.0,143.0,9836.0,9899.0,verb.social,174,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+77,2,summoned,41,49,9797,9805,118,50.0,79.0,9806.0,9835.0,80.0,143.0,9836.0,9899.0,verb.social,174,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+77,7,lent,132,136,9888,9892,174,137.0,143.0,9893.0,9899.0,,,,,verb.possession,175,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+78,3,decided,62,69,9963,9970,174,80.0,144.0,9981.0,10045.0,,,,,verb.cognition,177,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+78,3,decided,62,69,9963,9970,180,80.0,144.0,9981.0,10045.0,,,,,verb.cognition,177,direct_object,the rich lady,1.0,0.0,1.0,female,1.0,tertiary
+78,4,made,103,107,10004,10008,180,108.0,144.0,10009.0,10045.0,,,,,verb.change,178,direct_object,the rich lady,1.0,0.0,1.0,female,1.0,tertiary
+78,5,determined,154,164,10055,10065,172,169.0,205.0,10070.0,10106.0,,,,,verb.cognition,179,direct_object,the wife,2.0,9.0,11.0,female,1.0,tertiary
+79,1,give,23,27,10131,10135,172,28.0,42.0,10136.0,10150.0,,,,,verb.possession,182,direct_object,the wife,2.0,9.0,11.0,female,1.0,tertiary
+79,5,came,129,133,10237,10241,183,134.0,166.0,10242.0,10274.0,167.0,187.0,10275.0,10295.0,verb.change,184,direct_object,the highest judge of all,1.0,0.0,1.0,unknown,0.0,tertiary
+80,3,got,130,133,10427,10430,174,134.0,137.0,10431.0,10434.0,,,,,verb.change,183,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+83,3,placed,35,41,10908,10914,5,42.0,47.0,10915.0,10920.0,,,,,verb.contact,187,direct_object,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+83,3,placed,35,41,10908,10914,191,42.0,47.0,10915.0,10920.0,,,,,verb.contact,187,direct_object,"a farmer , who had planned to have a particularly good supper as it was his wife 's birthday's farmer , who had planned to have a particularly good supper as it was his wife 's birthday",1.0,3.0,4.0,female,1.0,tertiary
+83,3,placed,35,41,10908,10914,193,42.0,47.0,10915.0,10920.0,,,,,verb.contact,187,direct_object,The rich man,4.0,1.0,5.0,male,1.0,tertiary
+83,5,planned,69,76,10942,10949,5,77.0,141.0,10950.0,11014.0,185.0,216.0,11058.0,11089.0,verb.cognition,186,direct_object,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+83,5,planned,69,76,10942,10949,191,77.0,141.0,10950.0,11014.0,185.0,216.0,11058.0,11089.0,verb.cognition,186,direct_object,"a farmer , who had planned to have a particularly good supper as it was his wife 's birthday's farmer , who had planned to have a particularly good supper as it was his wife 's birthday",1.0,3.0,4.0,female,1.0,tertiary
+83,8,bade,147,151,11020,11024,193,152.0,170.0,11025.0,11043.0,,,,,verb.communication,189,direct_object,The rich man,4.0,1.0,5.0,male,1.0,tertiary
+84,0,asked,13,18,11118,11123,174,19.0,26.0,11124.0,11131.0,68.0,118.0,11173.0,11223.0,verb.communication,192,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+84,3,adding,68,74,11173,11179,174,75.0,118.0,11180.0,11223.0,,,,,verb.communication,194,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+84,5,brought,87,94,11192,11199,174,95.0,109.0,11200.0,11214.0,,,,,verb.contact,193,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+85,3,refused,40,47,11265,11272,174,48.0,51.0,11273.0,11276.0,53.0,95.0,,,verb.possession,195,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+85,5,gave,108,112,11333,11337,199,113.0,130.0,11338.0,11355.0,,,,,verb.communication,197,direct_object,the elder brother,1.0,1.0,2.0,male,1.0,tertiary
+86,5,made,95,99,11517,11521,107,100.0,115.0,11522.0,11537.0,,,,,verb.change,198,direct_object,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+87,2,declared,61,69,11600,11608,202,70.0,160.0,11609.0,11699.0,,,,,verb.communication,203,direct_object,The farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+87,2,declared,61,69,11600,11608,174,70.0,160.0,11609.0,11699.0,,,,,verb.communication,203,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+88,0,gave,13,17,11714,11718,202,18.0,20.0,11719.0,11721.0,29.0,244.0,11730.0,11945.0,verb.possession,204,direct_object,The farmer 's wife,1.0,2.0,3.0,female,1.0,tertiary
+88,6,making,189,195,11890,11896,174,196.0,244.0,11897.0,11945.0,,,,,verb.creation,206,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+89,1,aroused,33,40,11980,11987,5,41.0,76.0,11988.0,12023.0,,,,,verb.emotion,208,direct_object,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+89,1,aroused,33,40,11980,11987,174,41.0,76.0,11988.0,12023.0,,,,,verb.emotion,208,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+94,4,said,51,55,12227,12231,162,56.0,67.0,12232.0,12243.0,,,,,verb.communication,209,direct_object,the rich brother's wife he chose's husband,5.0,8.0,13.0,male,0.6538461538461539,tertiary
+94,7,began,117,122,12293,12298,211,123.0,210.0,12299.0,12386.0,,,,,verb.change,212,direct_object,"the poor man , who had been sound asleep",1.0,1.0,2.0,male,1.0,tertiary
+94,8,beat,126,130,12302,12306,211,131.0,170.0,12307.0,12346.0,,,,,verb.contact,214,direct_object,"the poor man , who had been sound asleep",1.0,1.0,2.0,male,1.0,tertiary
+94,11,had,176,179,12352,12355,211,180.0,210.0,12356.0,12386.0,,,,,verb.possession,213,direct_object,"the poor man , who had been sound asleep",1.0,1.0,2.0,male,1.0,tertiary
+94,12,defend,191,197,12367,12373,211,198.0,205.0,12374.0,12381.0,,,,,verb.competition,215,direct_object,"the poor man , who had been sound asleep",1.0,1.0,2.0,male,1.0,tertiary
+95,0,aroused,19,26,12407,12414,107,27.0,107.0,12415.0,12495.0,109.0,162.0,12497.0,12550.0,verb.emotion,216,direct_object,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+95,0,aroused,19,26,12407,12414,84,27.0,107.0,12415.0,12495.0,109.0,162.0,12497.0,12550.0,verb.emotion,216,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+96,1,accuse,14,20,12566,12572,92,21.0,24.0,12573.0,12576.0,25.0,99.0,,,verb.communication,220,direct_object,the man,2.0,10.0,12.0,male,1.0,tertiary
+96,7,kill,87,91,12639,12643,92,92.0,95.0,12644.0,12647.0,96.0,99.0,12648.0,12651.0,verb.contact,222,direct_object,the man,2.0,10.0,12.0,male,1.0,tertiary
+97,1,answered,31,39,12724,12732,84,40.0,50.0,12733.0,12743.0,,,,,verb.communication,225,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+97,2,has,80,83,12773,12776,54,84.0,95.0,12777.0,12788.0,,,,,verb.possession,224,direct_object,that fellow,1.0,1.0,2.0,male,1.0,tertiary
+97,7,ridden,246,252,12939,12945,193,253.0,268.0,12946.0,12961.0,,,,,verb.motion,223,direct_object,The rich man,4.0,1.0,5.0,male,1.0,tertiary
+99,6,pull,135,139,13348,13352,84,140.0,143.0,13353.0,13356.0,,,,,verb.contact,226,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,3,paid,123,127,13485,13489,84,128.0,148.0,13490.0,13510.0,,,,,verb.possession,228,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,4,began,157,162,13519,13524,84,163.0,224.0,13525.0,13586.0,226.0,314.0,13588.0,13676.0,verb.change,229,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,5,talk,166,170,13528,13532,84,182.0,193.0,13544.0,13555.0,,,,,verb.communication,230,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,6,hoping,195,201,13557,13563,84,202.0,224.0,13564.0,13586.0,,,,,verb.emotion,231,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+100,8,declaring,226,235,13588,13597,224,236.0,314.0,13598.0,13676.0,,,,,verb.communication,232,direct_object,the poor beast,1.0,0.0,1.0,unknown,0.0,tertiary
+101,3,do,118,120,13796,13798,225,121.0,133.0,13799.0,13811.0,134.0,170.0,13812.0,13848.0,verb.social,235,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+101,5,help,137,141,13815,13819,227,142.0,170.0,13820.0,13848.0,,,,,verb.social,237,direct_object,the mule,2.0,2.0,4.0,male,1.0,tertiary
+101,5,help,137,141,13815,13819,90,142.0,170.0,13820.0,13848.0,,,,,verb.social,237,direct_object,the farmer's master,3.0,0.0,3.0,unknown,0.0,tertiary
+101,5,help,137,141,13815,13819,84,142.0,170.0,13820.0,13848.0,,,,,verb.social,237,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+102,6,broken,156,162,14006,14012,84,163.0,173.0,14013.0,14023.0,,,,,verb.contact,236,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+103,0,stepping,0,8,14057,14065,174,36.0,48.0,14093.0,14105.0,,,,,verb.motion,238,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+103,3,managed,130,137,14187,14194,227,138.0,173.0,14195.0,14230.0,,,,,verb.social,240,direct_object,the mule,2.0,2.0,4.0,male,1.0,tertiary
+103,4,regain,141,147,14198,14204,227,148.0,173.0,14205.0,14230.0,,,,,verb.possession,241,direct_object,the mule,2.0,2.0,4.0,male,1.0,tertiary
+103,5,leaving,194,201,14251,14258,227,202.0,210.0,14259.0,14267.0,211.0,233.0,,,verb.cognition,242,direct_object,the mule,2.0,2.0,4.0,male,1.0,tertiary
+104,2,forgetting,58,68,14350,14360,174,69.0,139.0,14361.0,14431.0,,,,,verb.cognition,246,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,3,given,91,96,14383,14388,174,97.0,100.0,14389.0,14392.0,,,,,verb.possession,245,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,6,lost,115,119,14407,14411,174,120.0,128.0,14412.0,14420.0,129.0,139.0,14421.0,14431.0,verb.possession,247,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,7,began,144,149,14436,14441,174,150.0,171.0,14442.0,14463.0,173.0,250.0,14465.0,14542.0,verb.change,248,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,8,abuse,153,158,14445,14450,174,159.0,171.0,14451.0,14463.0,,,,,verb.social,249,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,9,declaring,173,182,14465,14474,174,183.0,211.0,14475.0,14503.0,,,,,verb.communication,251,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,11,ruined,195,201,14487,14493,174,202.0,211.0,14494.0,14503.0,,,,,verb.change,250,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+104,13,make,231,235,14523,14527,174,236.0,250.0,14528.0,14542.0,,,,,verb.change,252,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+105,5,seem,102,106,14646,14650,84,107.0,135.0,14651.0,14679.0,,,,,verb.perception,253,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+105,6,mind,110,114,14654,14658,84,115.0,135.0,14659.0,14679.0,,,,,verb.communication,256,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+106,1,wondering,49,58,14873,14882,225,59.0,111.0,14883.0,14935.0,,,,,verb.cognition,259,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+107,3,thought,59,66,14996,15003,225,67.0,69.0,15004.0,15006.0,70.0,75.0,15007.0,15012.0,verb.cognition,260,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+108,3,choose,50,56,15063,15069,55,57.0,97.0,15070.0,15110.0,,,,,verb.cognition,261,direct_object,my enemies,1.0,0.0,1.0,unknown,0.0,tertiary
+108,4,leave,75,80,15088,15093,55,81.0,83.0,15094.0,15096.0,,,,,verb.cognition,262,direct_object,my enemies,1.0,0.0,1.0,unknown,0.0,tertiary
+109,0,found,13,18,15234,15239,225,19.0,33.0,15240.0,15254.0,,,,,verb.possession,266,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+109,4,curled,107,113,15328,15334,225,114.0,121.0,15335.0,15342.0,125.0,140.0,15346.0,15361.0,verb.contact,268,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+110,4,shook,112,117,15499,15504,225,118.0,125.0,15505.0,15512.0,,,,,verb.body,272,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+111,0,intended,3,11,15517,15525,225,12.0,41.0,15526.0,15555.0,,,,,verb.cognition,271,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+111,3,leaving,93,100,15607,15614,46,101.0,122.0,15615.0,15636.0,123.0,133.0,15637.0,15647.0,verb.cognition,273,direct_object,children,2.0,0.0,2.0,unknown,0.0,tertiary
+111,3,leaving,93,100,15607,15614,5,101.0,122.0,15615.0,15636.0,123.0,133.0,15637.0,15647.0,verb.cognition,273,direct_object,a rich old man's wife,6.0,2.0,8.0,female,1.0,tertiary
+111,3,leaving,93,100,15607,15614,225,101.0,122.0,15615.0,15636.0,123.0,133.0,15637.0,15647.0,verb.cognition,273,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+113,2,minded,23,29,15751,15757,243,30.0,104.0,15758.0,15832.0,,,,,verb.cognition,277,direct_object,the poor brother's enemies,1.0,1.0,2.0,group/nonbinary,1.0,tertiary
+113,2,minded,23,29,15751,15757,225,30.0,104.0,15758.0,15832.0,,,,,verb.cognition,277,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+113,5,proved,52,58,15780,15786,225,59.0,72.0,15787.0,15800.0,,,,,verb.cognition,276,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+115,3,gaze,99,103,16022,16026,225,104.0,113.0,16027.0,16036.0,,,,,verb.perception,282,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+116,0,happened,3,11,16041,16049,246,12.0,253.0,16050.0,16291.0,,,,,verb.change,283,direct_object,an old sick man who lived near by had begged to be carried out and to be laid at the foot of the wall so that the beams of the rising sun,1.0,0.0,1.0,male,1.0,tertiary
+116,0,happened,3,11,16041,16049,225,12.0,253.0,16050.0,16291.0,,,,,verb.change,283,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+116,0,happened,3,11,16041,16049,247,12.0,253.0,16050.0,16291.0,,,,,verb.change,283,direct_object,the poor brother's friends,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+116,10,fall,161,165,16199,16203,225,166.0,174.0,16204.0,16212.0,,,,,verb.change,284,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+116,13,talk,200,204,16238,16242,247,205.0,221.0,16243.0,16259.0,222.0,253.0,16260.0,16291.0,verb.communication,285,direct_object,the poor brother's friends,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+116,13,talk,200,204,16238,16242,225,205.0,221.0,16243.0,16259.0,222.0,253.0,16260.0,16291.0,verb.communication,285,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+117,1,guess,14,19,16307,16312,225,20.0,175.0,16313.0,16468.0,,,,,verb.cognition,287,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+117,1,guess,14,19,16307,16312,248,20.0,175.0,16313.0,16468.0,,,,,verb.cognition,287,direct_object,a man who was taking his last look at the same sun,1.0,0.0,1.0,male,1.0,tertiary
+117,2,stood,75,80,16368,16373,225,81.0,175.0,16374.0,16468.0,,,,,verb.contact,286,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+117,2,stood,75,80,16368,16373,248,81.0,175.0,16374.0,16468.0,,,,,verb.contact,286,direct_object,a man who was taking his last look at the same sun,1.0,0.0,1.0,male,1.0,tertiary
+117,6,awaited,164,171,16457,16464,225,172.0,175.0,16465.0,16468.0,,,,,verb.cognition,288,direct_object,the poor brother,2.0,34.0,36.0,male,1.0,secondary
+119,2,shut,75,79,16559,16563,174,80.0,88.0,16564.0,16572.0,,,,,verb.body,289,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+121,2,rising,54,60,16814,16820,174,61.0,72.0,16821.0,16832.0,73.0,116.0,16833.0,16876.0,verb.motion,293,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+122,1,killed,10,16,16888,16894,58,17.0,27.0,16895.0,16905.0,,,,,verb.contact,295,direct_object,our father,2.0,0.0,2.0,male,1.0,tertiary
+124,0,cried,0,5,16932,16937,251,6.0,19.0,16938.0,16951.0,,,,,verb.communication,297,direct_object,two young men,1.0,0.0,1.0,male,1.0,tertiary
+126,1,know,12,16,17057,17061,60,17.0,20.0,17062.0,17065.0,,,,,verb.cognition,298,direct_object,Your father,1.0,1.0,2.0,male,1.0,tertiary
+128,0,asked,0,5,17086,17091,174,6.0,96.0,17092.0,17182.0,,,,,verb.communication,299,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+128,3,think,97,102,17183,17188,174,103.0,147.0,17189.0,17233.0,,,,,verb.cognition,300,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+130,3,motioned,43,51,17523,17531,107,52.0,71.0,17532.0,17551.0,72.0,80.0,17552.0,17560.0,verb.communication,307,direct_object,the younger brother,6.0,2.0,8.0,male,1.0,tertiary
+131,1,take,11,15,17573,17577,178,16.0,38.0,17578.0,17600.0,,,,,verb.possession,309,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+131,2,state,24,29,17586,17591,178,30.0,38.0,17592.0,17600.0,,,,,verb.communication,311,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+132,1,left,32,36,17634,17638,178,37.0,40.0,17639.0,17642.0,,,,,verb.possession,310,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+132,1,left,32,36,17634,17638,9,37.0,40.0,17639.0,17642.0,,,,,verb.possession,310,direct_object,the young man's father,5.0,15.0,20.0,male,1.0,tertiary
+132,1,left,32,36,17634,17638,174,37.0,40.0,17639.0,17642.0,,,,,verb.possession,310,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+133,0,told,24,28,17753,17757,266,46.0,149.0,17775.0,17878.0,,,,,verb.communication,315,direct_object,their owner,1.0,0.0,1.0,unknown,0.0,tertiary
+133,0,told,24,28,17753,17757,174,46.0,149.0,17775.0,17878.0,,,,,verb.communication,315,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+133,0,told,24,28,17753,17757,118,46.0,149.0,17775.0,17878.0,,,,,verb.communication,315,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+133,0,told,24,28,17753,17757,178,46.0,149.0,17775.0,17878.0,,,,,verb.communication,315,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+133,2,begged,57,63,17786,17792,174,64.0,74.0,17793.0,17803.0,,,,,verb.communication,314,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+133,2,begged,57,63,17786,17792,118,64.0,74.0,17793.0,17803.0,,,,,verb.communication,314,direct_object,the younger's brother,8.0,0.0,8.0,male,1.0,tertiary
+133,3,produced,97,105,17826,17834,266,106.0,149.0,17835.0,17878.0,,,,,verb.creation,316,direct_object,their owner,1.0,0.0,1.0,unknown,0.0,tertiary
+133,3,produced,97,105,17826,17834,178,106.0,149.0,17835.0,17878.0,,,,,verb.creation,316,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+133,4,made,129,133,17858,17862,266,134.0,149.0,17863.0,17878.0,,,,,verb.change,317,direct_object,their owner,1.0,0.0,1.0,unknown,0.0,tertiary
+133,4,made,129,133,17858,17862,178,134.0,149.0,17863.0,17878.0,,,,,verb.change,317,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+135,0,gave,9,13,17942,17946,178,14.0,25.0,17947.0,17958.0,,,,,verb.communication,320,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+137,7,pay,167,170,18226,18229,65,171.0,196.0,18230.0,18255.0,,,,,verb.possession,323,direct_object,your brother,1.0,0.0,1.0,male,1.0,tertiary
+138,0,heard,13,18,18287,18292,178,19.0,28.0,18293.0,18302.0,29.0,93.0,18303.0,18367.0,verb.perception,322,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+140,2,inquired,57,65,18490,18498,172,66.0,119.0,18499.0,18552.0,,,,,verb.communication,326,direct_object,the wife,2.0,9.0,11.0,female,1.0,tertiary
+140,2,inquired,57,65,18490,18498,84,66.0,119.0,18499.0,18552.0,,,,,verb.communication,326,direct_object,the farmer,11.0,21.0,32.0,male,1.0,secondary
+140,5,received,125,133,18558,18566,174,145.0,225.0,18578.0,18658.0,,,,,verb.possession,328,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+141,0,told,18,22,18678,18682,174,23.0,31.0,18683.0,18691.0,,,,,verb.communication,330,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+141,4,ordered,113,120,18773,18780,174,121.0,135.0,18781.0,18795.0,,,,,verb.communication,331,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+141,6,paid,127,131,18787,18791,174,132.0,135.0,18792.0,18795.0,,,,,verb.possession,335,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,1,informed,28,36,18825,18833,174,50.0,263.0,18847.0,19060.0,,,,,verb.communication,334,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,3,proved,62,68,18859,18865,174,69.0,133.0,18866.0,18930.0,,,,,verb.cognition,333,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,7,given,124,129,18921,18926,174,130.0,133.0,18927.0,18930.0,,,,,verb.possession,332,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,9,pay,163,166,18960,18963,174,167.0,182.0,18964.0,18979.0,,,,,verb.possession,336,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+142,10,hand,211,215,19008,19012,174,216.0,219.0,19013.0,19016.0,220.0,263.0,19017.0,19060.0,verb.possession,337,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+143,0,came,14,18,19076,19080,281,19.0,47.0,19081.0,19109.0,,,,,verb.motion,340,direct_object,the sick man,1.0,0.0,1.0,male,1.0,tertiary
+143,0,came,14,18,19076,19080,280,19.0,47.0,19081.0,19109.0,,,,,verb.motion,340,direct_object,the two sons of the sick man,1.0,0.0,1.0,male,1.0,tertiary
+144,1,killed,24,30,19135,19141,58,31.0,41.0,19142.0,19152.0,,,,,verb.contact,339,direct_object,our father,2.0,0.0,2.0,male,1.0,tertiary
+144,3,demand,63,69,19174,19180,66,70.0,93.0,19181.0,19204.0,,,,,verb.communication,341,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+145,1,kill,13,17,19220,19224,66,18.0,21.0,19225.0,19228.0,,,,,verb.contact,342,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+146,0,asked,0,5,19231,19236,178,6.0,15.0,19237.0,19246.0,17.0,39.0,,,verb.communication,344,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+146,3,told,58,62,19289,19293,174,63.0,94.0,19294.0,19325.0,96.0,131.0,19327.0,19362.0,verb.communication,346,direct_object,The poor man,17.0,56.0,73.0,male,1.0,primary
+147,1,replied,29,36,19393,19400,178,37.0,46.0,19401.0,19410.0,48.0,190.0,19412.0,19554.0,verb.communication,349,direct_object,The judge,9.0,9.0,18.0,male,1.0,tertiary
+147,3,spoken,66,72,19430,19436,71,75.0,190.0,19439.0,19554.0,,,,,verb.communication,348,direct_object,the dead man,1.0,0.0,1.0,male,1.0,tertiary
+147,3,spoken,66,72,19430,19436,66,75.0,190.0,19439.0,19554.0,,,,,verb.communication,348,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+147,3,spoken,66,72,19430,19436,283,75.0,190.0,19439.0,19554.0,,,,,verb.communication,348,direct_object,the accused,2.0,0.0,2.0,unknown,0.0,tertiary
+147,3,spoken,66,72,19430,19436,70,75.0,190.0,19439.0,19554.0,,,,,verb.communication,348,direct_object,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,4,let,75,78,19439,19442,71,79.0,190.0,19443.0,19554.0,,,,,verb.social,351,direct_object,the dead man,1.0,0.0,1.0,male,1.0,tertiary
+147,4,let,75,78,19439,19442,66,79.0,190.0,19443.0,19554.0,,,,,verb.social,351,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+147,4,let,75,78,19439,19442,283,79.0,190.0,19443.0,19554.0,,,,,verb.social,351,direct_object,the accused,2.0,0.0,2.0,unknown,0.0,tertiary
+147,4,let,75,78,19439,19442,70,79.0,190.0,19443.0,19554.0,,,,,verb.social,351,direct_object,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,7,let,115,118,19479,19482,71,119.0,190.0,19483.0,19554.0,,,,,verb.social,352,direct_object,the dead man,1.0,0.0,1.0,male,1.0,tertiary
+147,7,let,115,118,19479,19482,66,119.0,190.0,19483.0,19554.0,,,,,verb.social,352,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+147,7,let,115,118,19479,19482,70,119.0,190.0,19483.0,19554.0,,,,,verb.social,352,direct_object,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,9,fall,166,170,19530,19534,66,171.0,177.0,19535.0,19541.0,,,,,verb.motion,354,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+147,10,kill,182,186,19546,19550,66,187.0,190.0,19551.0,19554.0,,,,,verb.contact,356,direct_object,the wretch who killed our father,1.0,5.0,6.0,male,1.0,tertiary
+147,13,condemned,236,245,19600,19609,70,246.0,300.0,19610.0,19664.0,,,,,verb.communication,355,direct_object,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+147,14,pay,249,252,19613,19616,70,253.0,273.0,19617.0,19637.0,,,,,verb.possession,358,direct_object,the sons of the dead man,1.0,3.0,4.0,male,1.0,tertiary
+148,0,looked,14,20,19681,19687,114,21.0,34.0,19688.0,19701.0,,,,,verb.perception,357,direct_object,each other,3.0,0.0,3.0,unknown,0.0,tertiary
+148,1,shook,47,52,19714,19719,287,53.0,64.0,19720.0,19731.0,,,,,verb.motion,359,direct_object,The young men,1.0,1.0,2.0,male,1.0,tertiary

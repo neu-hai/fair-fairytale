@@ -1,0 +1,97 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+2,2,went,102,106,248,252,22,86.0,89.0,232.0,235.0,120.0,142.0,266.0,288.0,verb.motion,True,1,subject,The wife,1,15,16,female,1.0,secondary
+3,0,let,17,20,385,388,22,13.0,16.0,381.0,384.0,,,,,verb.social,True,2,subject,The wife,1,15,16,female,1.0,secondary
+7,1,rubbed,19,25,769,775,32,5.0,7.0,755.0,757.0,,,,,verb.body,True,3,subject,The wife's husband,2,14,16,male,1.0,secondary
+8,1,searched,16,24,1097,1105,32,4.0,6.0,1085.0,1087.0,,,,,verb.perception,True,4,subject,The wife's husband,2,14,16,male,1.0,secondary
+13,7,told,193,197,1955,1959,51,190.0,192.0,1952.0,1954.0,,,,,verb.communication,True,7,subject,"a fine - looking dark man , mounted on a black horse",1,8,9,male,1.0,tertiary
+18,0,drew,8,12,2222,2226,51,5.0,7.0,2219.0,2221.0,25.0,39.0,2239.0,2253.0,verb.contact,True,10,subject,"a fine - looking dark man , mounted on a black horse",1,8,9,male,1.0,tertiary
+20,4,walking,308,315,2772,2779,57,281.0,307.0,2745.0,2771.0,,,,,verb.motion,True,12,subject,grand ladies,1,0,1,female,1.0,tertiary
+20,4,walking,308,315,2772,2779,58,281.0,307.0,2745.0,2771.0,,,,,verb.motion,True,12,subject,gentlemen,1,0,1,male,1.0,tertiary
+23,0,rubbed,18,24,3066,3072,65,6.0,15.0,3054.0,3063.0,,,,,verb.body,True,15,subject,the child,2,0,2,unknown,0.0,tertiary
+31,1,pass,19,23,3953,3957,86,0.0,13.0,3934.0,3947.0,,,,,verb.motion,True,19,subject,All the court,1,0,1,unknown,0.0,tertiary
+32,1,catch,12,17,4056,4061,11,3.0,7.0,4047.0,4051.0,21.0,56.0,4065.0,4100.0,verb.contact,True,22,subject,John,1,1,2,male,1.0,tertiary
+35,0,saw,2,5,4208,4211,10,0.0,1.0,4206.0,4207.0,,,,,verb.cognition,True,21,subject,Molly,2,31,33,female,1.0,primary
+36,1,cast,25,29,4271,4275,63,0.0,12.0,4246.0,4258.0,,,,,verb.creation,True,20,subject,the Dark Man,4,2,6,male,1.0,tertiary
+37,1,looked,19,25,4360,4366,10,17.0,18.0,4358.0,4359.0,,,,,verb.perception,True,23,subject,Molly,2,31,33,female,1.0,primary
+38,4,fall,100,104,4549,4553,10,96.0,97.0,4545.0,4546.0,,,,,verb.motion,True,24,subject,Molly,2,31,33,female,1.0,primary
+39,1,found,29,34,4587,4592,10,27.0,28.0,4585.0,4586.0,42.0,57.0,4600.0,4615.0,verb.perception,True,25,subject,Molly,2,31,33,female,1.0,primary
+40,2,thanked,79,86,4696,4703,84,0.0,8.0,4617.0,4625.0,,,,,verb.communication,True,26,subject,the king,3,1,4,male,1.0,tertiary
+41,0,hope,2,6,4734,4738,10,0.0,1.0,4732.0,4733.0,,,,,verb.emotion,True,27,subject,Molly,2,31,33,female,1.0,primary
+42,2,sleep,29,34,4799,4804,10,0.0,1.0,4770.0,4771.0,,,,,verb.body,True,28,subject,Molly,2,31,33,female,1.0,primary
+43,0,examined,12,20,4833,4841,10,10.0,11.0,4831.0,4832.0,37.0,49.0,4858.0,4870.0,verb.cognition,True,29,subject,Molly,2,31,33,female,1.0,primary
+48,0,looked,3,9,5526,5532,42,0.0,2.0,5523.0,5525.0,,,,,verb.perception,True,33,subject,the poor man,2,25,27,male,1.0,primary
+49,2,looking,49,56,5605,5612,98,5.0,8.0,5561.0,5564.0,,,,,verb.perception,True,34,subject,the woman,1,7,8,female,1.0,tertiary
+50,3,rub,66,69,5721,5724,98,24.0,27.0,5679.0,5682.0,,,,,verb.contact,True,35,subject,the woman,1,7,8,female,1.0,tertiary
+51,6,give,80,84,5817,5821,10,75.0,76.0,5812.0,5813.0,,,,,verb.communication,True,36,subject,Molly,2,31,33,female,1.0,primary
+52,1,do,13,15,5848,5850,42,3.0,6.0,5838.0,5841.0,26.0,30.0,5861.0,5865.0,verb.social,True,37,subject,the poor man,2,25,27,male,1.0,primary
+54,3,got,101,104,6063,6066,42,98.0,100.0,6060.0,6062.0,,,,,verb.possession,True,38,subject,the poor man,2,25,27,male,1.0,primary
+55,3,see,81,84,6176,6179,42,72.0,74.0,6167.0,6169.0,,,,,verb.perception,True,39,subject,the poor man,2,25,27,male,1.0,primary
+57,1,bid,38,41,6399,6402,42,4.0,6.0,6365.0,6367.0,54.0,67.0,6415.0,6428.0,verb.communication,True,41,subject,the poor man,2,25,27,male,1.0,primary
+58,1,lying,79,84,6568,6573,110,64.0,78.0,6553.0,6567.0,,,,,verb.contact,True,42,subject,the poor woman,1,8,9,female,1.0,tertiary
+59,1,minding,31,38,6667,6674,110,23.0,26.0,6659.0,6662.0,67.0,72.0,6703.0,6708.0,verb.cognition,True,44,subject,the poor woman,1,8,9,female,1.0,tertiary
+60,3,got,40,43,6749,6752,110,25.0,35.0,6734.0,6744.0,,,,,verb.perception,True,43,subject,the poor woman,1,8,9,female,1.0,tertiary
+62,1,escape,22,28,6975,6981,116,0.0,14.0,6953.0,6967.0,,,,,verb.motion,True,47,subject,Molly's brave nurse,1,6,7,female,1.0,tertiary
+62,1,escape,22,28,6975,6981,10,0.0,14.0,6953.0,6967.0,,,,,verb.motion,True,47,subject,Molly,2,31,33,female,1.0,primary
+63,3,walking,73,80,7077,7084,116,65.0,68.0,7069.0,7072.0,,,,,verb.motion,True,46,subject,Molly's brave nurse,1,6,7,female,1.0,tertiary
+68,2,says,37,41,7447,7451,54,1.0,35.0,7411.0,7445.0,,,,,verb.communication,True,51,subject,sir,4,8,12,male,1.0,secondary
+71,0,looks,31,36,7552,7557,54,16.0,30.0,7537.0,7551.0,,,,,verb.perception,True,52,subject,sir,4,8,12,male,1.0,secondary
+71,0,looks,31,36,7552,7557,14,16.0,30.0,7537.0,7551.0,,,,,verb.perception,True,52,subject,Musha,1,1,2,unknown,0.0,tertiary
+72,3,struck,59,65,7655,7661,54,56.0,58.0,7652.0,7654.0,83.0,96.0,7679.0,7692.0,verb.contact,True,55,subject,sir,4,8,12,male,1.0,secondary
+73,0,saw,19,22,7713,7716,77,9.0,12.0,7703.0,7706.0,33.0,78.0,7727.0,7772.0,verb.perception,True,54,subject,sir's lady,1,2,3,female,1.0,tertiary
+1,0,had,5,8,73,76,19,9.0,23.0,77.0,91.0,,,,,verb.possession,True,0,direct_object,three children,1,0,1,unknown,0.0,tertiary
+2,2,went,102,106,248,252,22,107.0,119.0,253.0,265.0,120.0,142.0,266.0,288.0,verb.motion,True,1,direct_object,The wife,1,15,16,female,1.0,secondary
+3,0,let,17,20,385,388,30,21.0,157.0,389.0,525.0,,,,,verb.social,True,2,direct_object,a fairy man,1,0,1,male,1.0,tertiary
+3,0,let,17,20,385,388,29,21.0,157.0,389.0,525.0,,,,,verb.social,True,2,direct_object,The wife's two children,1,0,1,unknown,0.0,tertiary
+3,0,let,17,20,385,388,28,21.0,157.0,389.0,525.0,,,,,verb.social,True,2,direct_object,The wife's man,1,0,1,male,1.0,tertiary
+3,0,let,17,20,385,388,22,21.0,157.0,389.0,525.0,,,,,verb.social,True,2,direct_object,The wife,1,15,16,female,1.0,secondary
+7,1,rubbed,19,25,769,775,32,26.0,34.0,776.0,784.0,,,,,verb.body,True,3,direct_object,The wife's husband,2,14,16,male,1.0,secondary
+10,1,bring,11,16,1300,1305,42,17.0,31.0,1306.0,1320.0,48.0,112.0,,,verb.contact,True,6,direct_object,the poor man,2,25,27,male,1.0,primary
+12,3,mind,99,103,1639,1643,39,104.0,109.0,1644.0,1649.0,110.0,128.0,1650.0,1668.0,verb.social,True,5,direct_object,women,2,1,3,female,1.0,tertiary
+13,7,told,193,197,1955,1959,52,198.0,200.0,1960.0,1962.0,,,,,verb.communication,True,7,direct_object,a lady,1,0,1,female,1.0,tertiary
+14,3,sitting,75,82,2101,2108,51,83.0,93.0,2109.0,2119.0,94.0,123.0,2120.0,2149.0,verb.contact,True,8,direct_object,"a fine - looking dark man , mounted on a black horse",1,8,9,male,1.0,tertiary
+17,2,says,20,24,2206,2210,51,25.0,27.0,2211.0,2213.0,,,,,verb.communication,True,9,direct_object,"a fine - looking dark man , mounted on a black horse",1,8,9,male,1.0,tertiary
+18,0,drew,8,12,2222,2226,51,13.0,24.0,2227.0,2238.0,25.0,39.0,2239.0,2253.0,verb.contact,True,10,direct_object,"a fine - looking dark man , mounted on a black horse",1,8,9,male,1.0,tertiary
+19,1,knew,41,45,2323,2327,51,46.0,148.0,2328.0,2430.0,,,,,verb.cognition,True,11,direct_object,"a fine - looking dark man , mounted on a black horse",1,8,9,male,1.0,tertiary
+21,0,came,11,15,2798,2802,60,16.0,95.0,2803.0,2882.0,,,,,verb.motion,True,13,direct_object,a beautiful lady,1,1,2,female,1.0,tertiary
+21,0,came,11,15,2798,2802,61,16.0,95.0,2803.0,2882.0,,,,,verb.motion,True,13,direct_object,a fine bouncing boy,1,0,1,male,1.0,tertiary
+22,5,rub,140,143,3024,3027,65,144.0,153.0,3028.0,3037.0,,,,,verb.contact,True,14,direct_object,the child,2,0,2,unknown,0.0,tertiary
+27,3,says,61,65,3538,3542,63,66.0,78.0,3543.0,3555.0,,,,,verb.communication,True,16,direct_object,the Dark Man,4,2,6,male,1.0,tertiary
+29,4,nurse,86,91,3842,3847,84,92.0,138.0,3848.0,3894.0,,,,,verb.body,True,17,direct_object,the king,3,1,4,male,1.0,tertiary
+29,4,nurse,86,91,3842,3847,85,92.0,138.0,3848.0,3894.0,,,,,verb.body,True,17,direct_object,queen of the fairies,1,0,1,female,1.0,tertiary
+29,4,nurse,86,91,3842,3847,83,92.0,138.0,3848.0,3894.0,,,,,verb.body,True,17,direct_object,the child of the king and queen of the fairies,1,0,1,female,0.5,tertiary
+30,1,saving,28,34,3923,3929,10,35.0,37.0,3930.0,3932.0,,,,,verb.social,True,18,direct_object,Molly,2,31,33,female,1.0,primary
+32,1,catch,12,17,4056,4061,10,18.0,20.0,4062.0,4064.0,21.0,56.0,4065.0,4100.0,verb.contact,True,22,direct_object,Molly,2,31,33,female,1.0,primary
+36,1,cast,25,29,4271,4275,63,30.0,37.0,4276.0,4283.0,,,,,verb.creation,True,20,direct_object,the Dark Man,4,2,6,male,1.0,tertiary
+36,1,cast,25,29,4271,4275,10,30.0,37.0,4276.0,4283.0,,,,,verb.creation,True,20,direct_object,Molly,2,31,33,female,1.0,primary
+37,1,looked,19,25,4360,4366,10,26.0,34.0,4367.0,4375.0,,,,,verb.perception,True,23,direct_object,Molly,2,31,33,female,1.0,primary
+39,1,found,29,34,4587,4592,10,35.0,41.0,4593.0,4599.0,42.0,57.0,4600.0,4615.0,verb.perception,True,25,direct_object,Molly,2,31,33,female,1.0,primary
+40,2,thanked,79,86,4696,4703,10,87.0,89.0,4704.0,4706.0,,,,,verb.communication,True,26,direct_object,Molly,2,31,33,female,1.0,primary
+41,0,hope,2,6,4734,4738,84,7.0,36.0,4739.0,4768.0,,,,,verb.emotion,True,27,direct_object,the king,3,1,4,male,1.0,tertiary
+41,0,hope,2,6,4734,4738,10,7.0,36.0,4739.0,4768.0,,,,,verb.emotion,True,27,direct_object,Molly,2,31,33,female,1.0,primary
+43,0,examined,12,20,4833,4841,10,21.0,36.0,4842.0,4857.0,37.0,49.0,4858.0,4870.0,verb.cognition,True,29,direct_object,Molly,2,31,33,female,1.0,primary
+44,1,think,18,23,4998,5003,42,24.0,116.0,5004.0,5096.0,,,,,verb.cognition,True,30,direct_object,the poor man,2,25,27,male,1.0,primary
+44,1,think,18,23,4998,5003,98,24.0,116.0,5004.0,5096.0,,,,,verb.cognition,True,30,direct_object,the woman,1,7,8,female,1.0,tertiary
+45,3,mind,44,48,5142,5146,101,49.0,165.0,5147.0,5263.0,,,,,verb.cognition,True,31,direct_object,both,1,0,1,unknown,0.0,tertiary
+47,1,says,53,57,5456,5460,98,58.0,61.0,5461.0,5464.0,,,,,verb.communication,True,32,direct_object,the woman,1,7,8,female,1.0,tertiary
+51,6,give,80,84,5817,5821,42,85.0,88.0,5822.0,5825.0,,,,,verb.communication,True,36,direct_object,the poor man,2,25,27,male,1.0,primary
+52,1,do,13,15,5848,5850,42,16.0,25.0,5851.0,5860.0,26.0,30.0,5861.0,5865.0,verb.social,True,37,direct_object,the poor man,2,25,27,male,1.0,primary
+54,3,got,101,104,6063,6066,98,105.0,131.0,6067.0,6093.0,,,,,verb.possession,True,38,direct_object,the woman,1,7,8,female,1.0,tertiary
+55,3,see,81,84,6176,6179,17,85.0,94.0,6180.0,6189.0,,,,,verb.perception,True,39,direct_object,a little farmer's wife,4,1,5,female,1.0,tertiary
+56,6,striving,139,147,6329,6337,17,148.0,169.0,6338.0,6359.0,,,,,verb.social,True,40,direct_object,a little farmer's wife,4,1,5,female,1.0,tertiary
+56,6,striving,139,147,6329,6337,42,148.0,169.0,6338.0,6359.0,,,,,verb.social,True,40,direct_object,the poor man,2,25,27,male,1.0,primary
+58,1,lying,79,84,6568,6573,32,85.0,145.0,6574.0,6634.0,,,,,verb.contact,True,42,direct_object,The wife's husband,2,14,16,male,1.0,secondary
+58,1,lying,79,84,6568,6573,112,85.0,145.0,6574.0,6634.0,,,,,verb.contact,True,42,direct_object,the poor woman's good neighbour,1,0,1,unknown,0.0,tertiary
+58,1,lying,79,84,6568,6573,110,85.0,145.0,6574.0,6634.0,,,,,verb.contact,True,42,direct_object,the poor woman,1,8,9,female,1.0,tertiary
+59,1,minding,31,38,6667,6674,24,39.0,66.0,6675.0,6702.0,67.0,72.0,6703.0,6708.0,verb.cognition,True,44,direct_object,The wife's family,2,0,2,unknown,0.0,tertiary
+59,1,minding,31,38,6667,6674,110,39.0,66.0,6675.0,6702.0,67.0,72.0,6703.0,6708.0,verb.cognition,True,44,direct_object,the poor woman,1,8,9,female,1.0,tertiary
+61,1,have,14,18,6878,6882,115,19.0,87.0,6883.0,6951.0,,,,,verb.possession,True,45,direct_object,the good people,1,1,2,group/nonbinary,1.0,tertiary
+64,1,hope,38,42,7241,7245,54,43.0,74.0,7246.0,7277.0,,,,,verb.emotion,True,48,direct_object,sir,4,8,12,male,1.0,secondary
+64,1,hope,38,42,7241,7245,64,43.0,74.0,7246.0,7277.0,,,,,verb.emotion,True,48,direct_object,the baby,2,0,2,unknown,0.0,tertiary
+64,1,hope,38,42,7241,7245,77,43.0,74.0,7246.0,7277.0,,,,,verb.emotion,True,48,direct_object,sir's lady,1,2,3,female,1.0,tertiary
+65,1,says,26,30,7306,7310,54,31.0,33.0,7311.0,7313.0,,,,,verb.communication,True,49,direct_object,sir,4,8,12,male,1.0,secondary
+67,0,says,0,4,7373,7377,54,5.0,35.0,7378.0,7408.0,,,,,verb.communication,True,50,direct_object,sir,4,8,12,male,1.0,secondary
+67,0,says,0,4,7373,7377,116,5.0,35.0,7378.0,7408.0,,,,,verb.communication,True,50,direct_object,Molly's brave nurse,1,6,7,female,1.0,tertiary
+68,2,says,37,41,7447,7451,116,42.0,45.0,7452.0,7455.0,,,,,verb.communication,True,51,direct_object,Molly's brave nurse,1,6,7,female,1.0,tertiary
+70,0,says,0,4,7470,7474,54,5.0,49.0,7475.0,7519.0,,,,,verb.communication,True,53,direct_object,sir,4,8,12,male,1.0,secondary
+70,0,says,0,4,7470,7474,116,5.0,49.0,7475.0,7519.0,,,,,verb.communication,True,53,direct_object,Molly's brave nurse,1,6,7,female,1.0,tertiary
+72,3,struck,59,65,7655,7661,54,66.0,82.0,7662.0,7678.0,83.0,96.0,7679.0,7692.0,verb.contact,True,55,direct_object,sir,4,8,12,male,1.0,secondary

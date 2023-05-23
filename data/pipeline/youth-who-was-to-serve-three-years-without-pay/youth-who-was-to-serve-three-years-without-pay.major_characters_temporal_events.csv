@@ -1,0 +1,315 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,1,had,43,46,43,46,0,27.0,37.0,27.0,37.0,,,,,verb.possession,True,0,subject,a poor man,1.0,1.0,2.0,male,1.0,tertiary
+1,2,want,52,56,112,116,0,41.0,43.0,101.0,103.0,,,,,verb.emotion,True,1,subject,a poor man,1.0,1.0,2.0,male,1.0,tertiary
+2,5,knows,110,115,251,256,252,99.0,109.0,240.0,250.0,,,,,verb.cognition,True,2,subject,not a soul,1.0,0.0,1.0,unknown,0.0,tertiary
+3,1,knocking,12,20,295,303,3,6.0,8.0,289.0,291.0,27.0,39.0,310.0,322.0,verb.motion,True,3,subject,the father's son,1.0,7.0,8.0,male,1.0,tertiary
+4,0,took,6,10,376,380,2,3.0,5.0,373.0,375.0,,,,,verb.motion,True,4,subject,the father,2.0,5.0,7.0,male,1.0,tertiary
+6,4,turned,91,97,601,607,8,88.0,90.0,598.0,600.0,120.0,180.0,630.0,690.0,verb.motion,True,5,subject,a rich man,1.0,5.0,6.0,male,1.0,tertiary
+7,3,work,62,66,754,758,8,52.0,54.0,744.0,746.0,,,,,verb.social,True,7,subject,a rich man,1.0,5.0,6.0,male,1.0,tertiary
+8,2,buy,95,98,879,882,9,35.0,45.0,819.0,829.0,,,,,verb.possession,True,8,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+8,2,buy,95,98,879,882,11,35.0,45.0,819.0,829.0,,,,,verb.possession,True,8,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+9,1,receive,23,30,1028,1035,9,4.0,12.0,1009.0,1017.0,,,,,verb.possession,True,9,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+10,1,did,45,48,1102,1105,9,3.0,12.0,1060.0,1069.0,,,,,verb.social,True,10,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+12,1,let,58,61,1244,1247,11,55.0,57.0,1241.0,1243.0,,,,,verb.social,True,11,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+13,1,go,27,29,1402,1404,9,9.0,19.0,1384.0,1394.0,,,,,verb.motion,True,12,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+13,1,go,27,29,1402,1404,11,9.0,19.0,1384.0,1394.0,,,,,verb.motion,True,12,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+15,3,find,53,57,1626,1630,11,46.0,50.0,1619.0,1623.0,,,,,verb.possession,True,14,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+16,0,saw,19,22,1681,1684,11,0.0,15.0,1662.0,1677.0,,,,,verb.perception,True,13,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+18,0,said,30,34,1816,1820,11,5.0,20.0,1791.0,1806.0,,,,,verb.communication,True,17,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+21,2,know,19,23,1902,1906,22,0.0,6.0,1883.0,1889.0,,,,,verb.cognition,True,19,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+23,2,buy,36,39,1961,1964,22,26.0,27.0,1951.0,1952.0,,,,,verb.possession,True,20,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+24,1,know,22,26,2023,2027,22,10.0,13.0,2011.0,2014.0,,,,,verb.cognition,True,22,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+29,6,raised,91,97,2242,2248,22,50.0,52.0,2201.0,2203.0,,,,,verb.motion,True,24,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+35,1,bought,19,25,2552,2558,11,5.0,9.0,2538.0,2542.0,,,,,verb.possession,True,27,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+37,3,said,46,50,2624,2628,22,1.0,43.0,2579.0,2621.0,,,,,verb.communication,True,30,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+38,1,know,14,18,2652,2656,22,1.0,2.0,2639.0,2640.0,,,,,verb.cognition,True,29,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+39,4,said,62,66,2753,2757,22,5.0,59.0,2696.0,2750.0,,,,,verb.communication,True,31,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+40,1,said,38,42,2800,2804,9,1.0,35.0,2763.0,2797.0,,,,,verb.communication,True,33,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+40,1,said,38,42,2800,2804,258,1.0,35.0,2763.0,2797.0,,,,,verb.communication,True,33,subject,master,2.0,1.0,3.0,unknown,0.0,tertiary
+43,3,met,80,83,2971,2974,22,77.0,79.0,2968.0,2970.0,,,,,verb.motion,True,32,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+48,1,know,16,20,3160,3164,23,4.0,7.0,3148.0,3151.0,,,,,verb.cognition,True,35,subject,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+52,0,wanted,4,10,3242,3248,23,0.0,3.0,3238.0,3241.0,26.0,32.0,3264.0,3270.0,verb.emotion,True,34,subject,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+53,2,buy,22,25,3322,3325,22,13.0,15.0,3313.0,3315.0,,,,,verb.possession,True,37,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+54,0,raised,3,9,3396,3402,22,0.0,2.0,3393.0,3395.0,,,,,verb.motion,True,36,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+59,1,buy,14,17,3656,3659,22,1.0,5.0,3643.0,3647.0,,,,,verb.possession,True,39,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+61,4,bought,88,94,3774,3780,22,64.0,65.0,3750.0,3751.0,,,,,verb.possession,True,41,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+62,3,said,45,49,3884,3888,22,1.0,35.0,3840.0,3874.0,,,,,verb.communication,True,42,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+64,1,entered,64,71,4172,4179,9,61.0,63.0,4169.0,4171.0,,,,,verb.motion,True,44,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+65,0,said,24,28,4272,4276,256,1.0,21.0,4249.0,4269.0,,,,,verb.communication,True,45,subject,granny,3.0,0.0,3.0,unknown,0.0,tertiary
+66,0,said,35,39,4316,4320,9,5.0,32.0,4286.0,4313.0,,,,,verb.communication,True,46,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+66,0,said,35,39,4316,4320,23,5.0,32.0,4286.0,4313.0,,,,,verb.communication,True,46,subject,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+66,0,said,35,39,4316,4320,264,5.0,32.0,4286.0,4313.0,,,,,verb.communication,True,46,subject,the old woman's boy,1.0,0.0,1.0,male,1.0,tertiary
+71,2,sell,16,20,4461,4465,23,4.0,7.0,4449.0,4452.0,,,,,verb.possession,True,48,subject,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+74,5,buy,75,78,4630,4633,9,65.0,67.0,4620.0,4622.0,,,,,verb.possession,True,49,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+75,3,said,44,48,4713,4717,9,1.0,41.0,4670.0,4710.0,,,,,verb.communication,True,51,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+76,4,hear,52,56,4819,4823,9,48.0,51.0,4815.0,4818.0,,,,,verb.cognition,True,52,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+78,7,looking,141,148,5032,5039,9,86.0,88.0,4977.0,4979.0,,,,,verb.perception,True,54,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+81,1,said,20,24,5300,5304,9,0.0,17.0,5280.0,5297.0,,,,,verb.communication,True,55,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+85,3,told,29,33,5407,5411,9,0.0,9.0,5378.0,5387.0,,,,,verb.communication,True,58,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+86,1,stabbed,28,35,5447,5454,9,0.0,2.0,5419.0,5421.0,51.0,96.0,5470.0,5515.0,verb.contact,True,60,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+88,5,dealing,98,105,5748,5755,9,68.0,87.0,5718.0,5737.0,,,,,verb.body,True,59,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+88,5,dealing,98,105,5748,5755,267,68.0,87.0,5718.0,5737.0,,,,,verb.body,True,59,subject,the youth's master,1.0,0.0,1.0,unknown,0.0,tertiary
+89,0,thought,10,17,5859,5866,9,0.0,9.0,5849.0,5858.0,,,,,verb.cognition,True,61,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+91,2,drown,58,63,5981,5986,23,1.0,4.0,5924.0,5927.0,,,,,verb.contact,True,62,subject,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+92,3,buy,43,46,6033,6036,273,8.0,15.0,5998.0,6005.0,,,,,verb.possession,True,64,subject,,,,,,,
+93,3,rewarded,55,63,6169,6177,9,8.0,11.0,6122.0,6125.0,,,,,verb.possession,True,66,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+94,2,said,36,40,6235,6239,9,1.0,33.0,6200.0,6232.0,,,,,verb.communication,True,65,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+96,0,pointed,7,14,6317,6324,70,4.0,6.0,6314.0,6316.0,,,,,verb.communication,True,68,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+99,0,knocked,11,18,6512,6519,70,0.0,10.0,6501.0,6511.0,,,,,verb.contact,True,70,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+105,1,open,28,32,6747,6751,2,5.0,15.0,6724.0,6734.0,42.0,49.0,6761.0,6768.0,verb.contact,True,72,subject,the father,2.0,5.0,7.0,male,1.0,tertiary
+106,3,said,61,65,6831,6835,80,1.0,58.0,6771.0,6828.0,,,,,verb.communication,True,74,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+106,3,said,61,65,6831,6835,70,1.0,58.0,6771.0,6828.0,,,,,verb.communication,True,74,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+108,3,asked,61,66,6935,6940,70,59.0,60.0,6933.0,6934.0,87.0,115.0,6961.0,6989.0,verb.communication,True,73,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+109,2,said,25,29,7017,7021,80,0.0,13.0,6992.0,7005.0,,,,,verb.communication,True,75,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+110,4,rest,57,61,7092,7096,70,49.0,52.0,7084.0,7087.0,,,,,verb.motion,True,76,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+111,2,laid,43,47,7152,7156,80,31.0,42.0,7140.0,7151.0,104.0,144.0,7213.0,7253.0,verb.contact,True,78,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+112,1,seen,20,24,7338,7342,9,0.0,9.0,7318.0,7327.0,,,,,verb.perception,True,77,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+115,1,drank,13,18,7604,7609,87,0.0,4.0,7591.0,7595.0,,,,,verb.consumption,True,79,subject,the young folk,1.0,2.0,3.0,unknown,0.0,tertiary
+116,1,came,44,48,7716,7720,80,32.0,43.0,7704.0,7715.0,,,,,verb.motion,True,81,subject,the old man,5.0,6.0,11.0,male,1.0,tertiary
+117,6,wanted,84,90,7857,7863,9,76.0,80.0,7849.0,7853.0,,,,,verb.consumption,True,82,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+121,1,take,9,13,8021,8025,9,1.0,4.0,8013.0,8016.0,,,,,verb.possession,True,85,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+122,0,see,12,15,8052,8055,9,8.0,11.0,8048.0,8051.0,,,,,verb.cognition,True,84,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+123,3,think,32,37,8127,8132,9,15.0,17.0,8110.0,8112.0,41.0,51.0,8136.0,8146.0,verb.cognition,True,86,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+124,2,do,27,29,8200,8202,9,9.0,11.0,8182.0,8184.0,,,,,verb.social,True,88,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+125,2,seen,26,30,8230,8234,9,17.0,20.0,8221.0,8224.0,,,,,verb.perception,True,87,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+128,2,choose,30,36,8349,8355,9,25.0,26.0,8344.0,8345.0,,,,,verb.cognition,True,90,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+129,3,wished,45,51,8437,8443,9,34.0,42.0,8426.0,8434.0,,,,,verb.emotion,True,92,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+130,7,ask,143,146,8589,8592,70,134.0,137.0,8580.0,8583.0,,,,,verb.communication,True,93,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+133,1,know,7,11,8821,8825,9,3.0,6.0,8817.0,8820.0,,,,,verb.cognition,True,96,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+134,1,know,27,31,8874,8878,9,9.0,18.0,8856.0,8865.0,,,,,verb.cognition,True,95,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+135,5,said,82,86,8962,8966,9,1.0,79.0,8881.0,8959.0,,,,,verb.communication,True,98,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+136,1,wished,63,69,9040,9046,70,39.0,62.0,9016.0,9039.0,,,,,verb.emotion,True,99,subject,The prince,14.0,22.0,36.0,male,1.0,tertiary
+136,1,wished,63,69,9040,9046,92,39.0,62.0,9016.0,9039.0,,,,,verb.emotion,True,99,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+138,0,wished,6,12,9231,9237,9,3.0,5.0,9228.0,9230.0,,,,,verb.emotion,True,101,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+139,0,looked,7,13,9355,9361,9,4.0,6.0,9352.0,9354.0,,,,,verb.perception,True,102,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+140,0,thought,8,15,9410,9417,9,5.0,7.0,9407.0,9409.0,,,,,verb.cognition,True,103,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+142,0,wished,17,23,9558,9564,9,7.0,16.0,9548.0,9557.0,,,,,verb.emotion,True,104,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+143,0,stood,30,35,9676,9681,9,21.0,26.0,9667.0,9672.0,,,,,verb.contact,True,105,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+146,0,saw,20,23,9774,9777,9,9.0,19.0,9763.0,9773.0,,,,,verb.perception,True,106,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+146,0,saw,20,23,9774,9777,106,9.0,19.0,9763.0,9773.0,,,,,verb.perception,True,106,subject,the youth's father,5.0,4.0,9.0,male,1.0,tertiary
+147,2,said,34,38,10069,10073,277,0.0,31.0,10035.0,10066.0,,,,,verb.communication,True,108,subject,father,3.0,3.0,6.0,male,1.0,tertiary
+148,1,take,14,18,10099,10103,277,1.0,4.0,10086.0,10089.0,59.0,88.0,10144.0,10173.0,verb.cognition,True,107,subject,father,3.0,3.0,6.0,male,1.0,tertiary
+149,0,want,6,10,10181,10185,9,4.0,5.0,10179.0,10180.0,,,,,verb.emotion,True,109,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+152,2,took,53,57,10382,10386,9,4.0,13.0,10333.0,10342.0,,,,,verb.contact,True,111,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+153,0,came,15,19,10465,10469,118,4.0,14.0,10454.0,10464.0,,,,,verb.motion,True,112,subject,,,,,,,
+157,11,possess,194,201,10876,10883,22,171.0,186.0,10853.0,10868.0,,,,,verb.possession,True,115,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+158,5,said,143,147,11028,11032,92,1.0,140.0,10886.0,11025.0,,,,,verb.communication,True,116,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+158,5,said,143,147,11028,11032,295,1.0,140.0,10886.0,11025.0,,,,,verb.communication,True,116,subject,the king 's daughter,3.0,0.0,3.0,male,1.0,tertiary
+158,5,said,143,147,11028,11032,296,1.0,140.0,10886.0,11025.0,,,,,verb.communication,True,116,subject,a bride,1.0,0.0,1.0,unknown,0.0,tertiary
+158,5,said,143,147,11028,11032,22,1.0,140.0,10886.0,11025.0,,,,,verb.communication,True,116,subject,the man,15.0,39.0,54.0,male,1.0,tertiary
+159,2,send,61,65,11103,11107,297,24.0,38.0,11066.0,11080.0,,,,,verb.motion,True,117,subject,the king's good fellow,1.0,0.0,1.0,unknown,0.0,tertiary
+159,2,send,61,65,11103,11107,92,24.0,38.0,11066.0,11080.0,,,,,verb.motion,True,117,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+161,0,came,10,14,11193,11197,9,0.0,9.0,11183.0,11192.0,,,,,verb.motion,True,118,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+162,1,get,6,9,11263,11266,9,4.0,5.0,11261.0,11262.0,,,,,verb.possession,True,119,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+163,0,cried,3,8,11286,11291,9,0.0,2.0,11283.0,11285.0,,,,,verb.communication,True,120,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+164,9,said,148,152,11441,11445,300,1.0,145.0,11294.0,11438.0,,,,,verb.communication,True,121,subject,the king's daughter,2.0,2.0,4.0,female,1.0,tertiary
+164,9,said,148,152,11441,11445,92,1.0,145.0,11294.0,11438.0,,,,,verb.communication,True,121,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+166,3,see,78,81,11568,11571,133,68.0,71.0,11558.0,11561.0,85.0,107.0,11575.0,11597.0,verb.perception,True,122,subject,,,,,,,
+168,5,said,170,174,11801,11805,301,1.0,167.0,11632.0,11798.0,,,,,verb.communication,True,125,subject,the king's daughter,1.0,0.0,1.0,unknown,0.0,tertiary
+168,5,said,170,174,11801,11805,92,1.0,167.0,11632.0,11798.0,,,,,verb.communication,True,125,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+170,4,wished,97,103,11962,11968,9,94.0,96.0,11959.0,11961.0,,,,,verb.emotion,True,127,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+171,1,saw,59,62,12215,12218,92,50.0,58.0,12206.0,12214.0,,,,,verb.perception,True,128,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+172,0,saw,12,15,12355,12358,92,9.0,11.0,12352.0,12354.0,,,,,verb.perception,True,130,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+173,1,standing,7,15,12377,12385,9,0.0,2.0,12370.0,12372.0,27.0,105.0,12397.0,12475.0,verb.contact,True,129,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+174,1,coming,26,32,12502,12508,92,17.0,25.0,12493.0,12501.0,,,,,verb.motion,True,131,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+175,1,get,5,8,12577,12580,9,3.0,4.0,12575.0,12576.0,23.0,26.0,12595.0,12598.0,verb.possession,True,132,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+176,3,stand,54,59,12655,12660,9,45.0,48.0,12646.0,12649.0,,,,,verb.social,True,133,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+177,1,build,11,16,12690,12695,9,3.0,6.0,12682.0,12685.0,,,,,verb.creation,True,134,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+180,4,wished,84,90,12934,12940,9,81.0,83.0,12931.0,12933.0,,,,,verb.emotion,True,136,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+182,2,came,93,97,13172,13176,92,41.0,49.0,13120.0,13128.0,,,,,verb.change,True,137,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+183,0,stood,10,15,13214,13219,9,0.0,9.0,13204.0,13213.0,22.0,42.0,13226.0,13246.0,verb.contact,True,138,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+185,1,get,5,8,13315,13318,9,3.0,4.0,13313.0,13314.0,13.0,16.0,13323.0,13326.0,verb.possession,True,140,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+187,7,noticed,102,109,13441,13448,92,95.0,97.0,13434.0,13436.0,,,,,verb.perception,True,139,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+188,1,went,58,62,13597,13601,92,0.0,8.0,13539.0,13547.0,77.0,105.0,13616.0,13644.0,verb.motion,True,141,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+189,0,wished,16,22,13662,13668,9,5.0,7.0,13651.0,13653.0,,,,,verb.emotion,True,142,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+190,0,saw,18,21,13759,13762,155,5.0,17.0,13746.0,13758.0,,,,,verb.perception,True,143,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+192,4,married,91,98,14334,14341,9,71.0,80.0,14314.0,14323.0,,,,,verb.social,True,145,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+192,4,married,91,98,14334,14341,155,71.0,80.0,14314.0,14323.0,,,,,verb.social,True,145,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+194,1,know,11,15,14520,14524,155,1.0,4.0,14510.0,14513.0,,,,,verb.cognition,True,149,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+196,1,pretended,35,44,14635,14644,155,22.0,34.0,14622.0,14634.0,,,,,verb.communication,True,148,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+197,6,wanted,123,129,14789,14795,155,119.0,122.0,14785.0,14788.0,,,,,verb.emotion,True,147,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+198,1,oblige,21,27,14834,14840,9,3.0,5.0,14816.0,14818.0,32.0,54.0,14845.0,14867.0,verb.emotion,True,150,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+199,2,told,68,72,14980,14984,9,65.0,67.0,14977.0,14979.0,,,,,verb.communication,True,151,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+200,2,know,45,49,15046,15050,178,26.0,44.0,15027.0,15045.0,,,,,verb.cognition,True,152,subject,queen,1.0,0.0,1.0,female,1.0,tertiary
+200,2,know,45,49,15046,15050,92,26.0,44.0,15027.0,15045.0,,,,,verb.cognition,True,152,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+202,3,wanted,70,76,15298,15304,155,66.0,69.0,15294.0,15297.0,,,,,verb.emotion,True,154,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+203,1,drank,33,38,15449,15454,9,0.0,9.0,15416.0,15425.0,,,,,verb.consumption,True,155,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+204,10,wanted,210,216,15756,15762,155,206.0,209.0,15752.0,15755.0,,,,,verb.emotion,True,156,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+205,1,wished,53,59,15852,15858,155,49.0,52.0,15848.0,15851.0,,,,,verb.emotion,True,157,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+206,11,wanted,215,221,16075,16081,9,201.0,203.0,16061.0,16063.0,,,,,verb.emotion,True,159,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+207,2,bought,39,45,16149,16155,9,16.0,23.0,16126.0,16133.0,,,,,verb.possession,True,158,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+207,2,bought,39,45,16149,16155,11,16.0,23.0,16126.0,16133.0,,,,,verb.possession,True,158,subject,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+209,0,asked,4,9,16192,16197,155,0.0,3.0,16188.0,16191.0,,,,,verb.communication,True,160,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+212,1,get,10,13,16319,16322,9,1.0,4.0,16310.0,16313.0,24.0,29.0,16333.0,16338.0,verb.possession,True,163,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+216,1,pounce,12,18,16453,16459,194,5.0,6.0,16446.0,16447.0,,,,,verb.competition,True,166,subject,the cat,5.0,10.0,15.0,female,1.0,tertiary
+218,4,have,45,49,16528,16532,9,35.0,38.0,16518.0,16521.0,59.0,64.0,16542.0,16547.0,verb.possession,True,167,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+221,1,crawled,53,60,16778,16785,9,50.0,52.0,16775.0,16777.0,,,,,verb.motion,True,170,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+222,2,saw,65,68,16852,16855,9,5.0,7.0,16792.0,16794.0,,,,,verb.perception,True,171,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+223,1,said,30,34,16938,16942,155,17.0,29.0,16925.0,16937.0,,,,,verb.communication,True,172,subject,the princess,9.0,27.0,36.0,female,1.0,tertiary
+226,3,think,92,97,17114,17119,9,88.0,91.0,17110.0,17113.0,,,,,verb.cognition,True,173,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+227,1,prepared,42,50,17228,17236,9,13.0,15.0,17199.0,17201.0,,,,,verb.change,True,176,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+230,8,said,168,172,17643,17647,92,159.0,167.0,17634.0,17642.0,,,,,verb.communication,True,177,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+231,3,beheaded,51,59,17700,17708,9,44.0,46.0,17693.0,17695.0,,,,,verb.social,True,179,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+235,4,swam,65,69,18064,18068,292,25.0,28.0,18024.0,18027.0,,,,,verb.motion,True,182,subject,the king's daughter,2.0,7.0,9.0,female,1.0,tertiary
+236,4,bought,97,103,18175,18181,9,61.0,68.0,18139.0,18146.0,,,,,verb.possession,True,181,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+236,4,bought,97,103,18175,18181,220,61.0,68.0,18139.0,18146.0,,,,,verb.possession,True,181,subject,the youth 's master,1.0,0.0,1.0,unknown,0.0,tertiary
+237,1,do,20,22,18211,18213,194,7.0,11.0,18198.0,18202.0,,,,,verb.creation,True,183,subject,the cat,5.0,10.0,15.0,female,1.0,tertiary
+240,7,said,118,122,18430,18434,194,1.0,115.0,18313.0,18427.0,,,,,verb.communication,True,186,subject,the cat,5.0,10.0,15.0,female,1.0,tertiary
+240,7,said,118,122,18430,18434,218,1.0,115.0,18313.0,18427.0,,,,,verb.communication,True,186,subject,the dog whom the youth 's master had bought for him,1.0,4.0,5.0,male,1.0,tertiary
+241,0,have,11,15,18450,18454,223,7.0,10.0,18446.0,18449.0,,,,,verb.possession,True,187,subject,the dog,1.0,23.0,24.0,male,1.0,tertiary
+242,2,said,29,33,18488,18492,223,0.0,26.0,18459.0,18485.0,,,,,verb.communication,True,189,subject,the dog,1.0,23.0,24.0,male,1.0,tertiary
+243,4,eaten,67,72,18569,18574,223,60.0,61.0,18562.0,18563.0,81.0,87.0,18583.0,18589.0,verb.consumption,True,188,subject,the dog,1.0,23.0,24.0,male,1.0,tertiary
+246,3,digest,56,62,18758,18764,223,45.0,48.0,18747.0,18750.0,,,,,verb.consumption,True,190,subject,the dog,1.0,23.0,24.0,male,1.0,tertiary
+248,5,saved,80,85,18895,18900,9,55.0,64.0,18870.0,18879.0,,,,,verb.possession,True,192,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+253,1,wished,39,45,19388,19394,223,36.0,38.0,19385.0,19387.0,,,,,verb.emotion,True,195,subject,the dog,1.0,23.0,24.0,male,1.0,tertiary
+254,1,told,47,51,19643,19647,92,0.0,8.0,19596.0,19604.0,,,,,verb.communication,True,196,subject,the king,32.0,32.0,64.0,male,1.0,tertiary
+255,0,wished,19,25,19737,19743,9,4.0,13.0,19722.0,19731.0,,,,,verb.cognition,True,197,subject,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+256,7,wished,125,131,20039,20045,223,122.0,124.0,20036.0,20038.0,,,,,verb.emotion,True,198,subject,the dog,1.0,23.0,24.0,male,1.0,tertiary
+257,1,sitting,19,26,20197,20204,238,9.0,13.0,20187.0,20191.0,,,,,verb.contact,True,199,subject,the whole army,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+258,4,celebrated,124,134,20406,20416,238,102.0,106.0,20384.0,20388.0,149.0,167.0,20431.0,20449.0,verb.communication,True,200,subject,the whole army,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+0,1,had,43,46,43,46,1,47.0,59.0,47.0,59.0,,,,,verb.possession,True,0,direct_object,one son,1.0,0.0,1.0,unknown,0.0,tertiary
+2,5,knows,110,115,251,256,3,116.0,119.0,257.0,260.0,,,,,verb.cognition,True,2,direct_object,the father's son,1.0,7.0,8.0,male,1.0,tertiary
+4,0,took,6,10,376,380,2,11.0,18.0,381.0,388.0,,,,,verb.motion,True,4,direct_object,the father,2.0,5.0,7.0,male,1.0,tertiary
+4,0,took,6,10,376,380,3,11.0,18.0,381.0,388.0,,,,,verb.motion,True,4,direct_object,the father's son,1.0,7.0,8.0,male,1.0,tertiary
+5,1,have,18,22,500,504,3,23.0,26.0,505.0,508.0,,,,,verb.possession,True,6,direct_object,the father's son,1.0,7.0,8.0,male,1.0,tertiary
+8,2,buy,95,98,879,882,11,99.0,121.0,883.0,905.0,,,,,verb.possession,True,8,direct_object,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+12,1,let,58,61,1244,1247,9,62.0,187.0,1248.0,1373.0,,,,,verb.social,True,11,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+12,1,let,58,61,1244,1247,11,62.0,187.0,1248.0,1373.0,,,,,verb.social,True,11,direct_object,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+14,3,said,43,47,1514,1518,11,48.0,50.0,1519.0,1521.0,,,,,verb.communication,True,15,direct_object,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+17,0,said,20,24,1772,1776,22,25.0,32.0,1777.0,1784.0,,,,,verb.communication,True,16,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+18,0,said,30,34,1816,1820,23,35.0,48.0,1821.0,1834.0,,,,,verb.communication,True,17,direct_object,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+20,0,asked,0,5,1868,1873,22,6.0,13.0,1874.0,1881.0,,,,,verb.communication,True,18,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+22,0,said,0,4,1909,1913,25,5.0,14.0,1914.0,1923.0,,,,,verb.communication,True,21,direct_object,the woman,2.0,0.0,2.0,female,1.0,tertiary
+23,2,buy,36,39,1961,1964,22,40.0,73.0,1965.0,1998.0,,,,,verb.possession,True,20,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+28,2,declared,37,45,2131,2139,25,46.0,55.0,2140.0,2149.0,,,,,verb.communication,True,23,direct_object,the woman,2.0,0.0,2.0,female,1.0,tertiary
+31,1,stood,54,59,2349,2354,33,60.0,102.0,2355.0,2397.0,104.0,155.0,,,verb.contact,True,25,direct_object,the youth full of impatience and curiosity,1.0,1.0,2.0,male,1.0,tertiary
+33,0,asked,0,5,2484,2489,9,6.0,15.0,2490.0,2499.0,,,,,verb.communication,True,26,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+34,0,said,15,19,2516,2520,9,20.0,30.0,2521.0,2531.0,,,,,verb.communication,True,28,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+34,0,said,15,19,2516,2520,11,20.0,30.0,2521.0,2531.0,,,,,verb.communication,True,28,direct_object,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+37,3,said,46,50,2624,2628,22,51.0,58.0,2629.0,2636.0,,,,,verb.communication,True,30,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+38,1,know,14,18,2652,2656,11,19.0,52.0,2657.0,2690.0,,,,,verb.cognition,True,29,direct_object,the youth's master,5.0,13.0,18.0,male,1.0,tertiary
+38,1,know,14,18,2652,2656,22,19.0,52.0,2657.0,2690.0,,,,,verb.cognition,True,29,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+39,4,said,62,66,2753,2757,22,67.0,69.0,2758.0,2760.0,,,,,verb.communication,True,31,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+40,1,said,38,42,2800,2804,9,43.0,52.0,2805.0,2814.0,,,,,verb.communication,True,33,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+43,3,met,80,83,2971,2974,41,84.0,113.0,2975.0,3004.0,,,,,verb.motion,True,32,direct_object,the old woman with the basket,1.0,0.0,1.0,female,1.0,tertiary
+55,1,stood,28,33,3484,3489,9,34.0,43.0,3490.0,3499.0,45.0,113.0,,,verb.contact,True,38,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+58,0,said,15,19,3625,3629,49,20.0,30.0,3630.0,3640.0,,,,,verb.communication,True,40,direct_object,the master,1.0,1.0,2.0,unknown,0.0,tertiary
+61,4,bought,88,94,3774,3780,22,95.0,124.0,3781.0,3810.0,,,,,verb.possession,True,41,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+62,3,said,45,49,3884,3888,9,50.0,59.0,3889.0,3898.0,,,,,verb.communication,True,42,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+63,2,thought,35,42,4003,4010,22,43.0,50.0,4011.0,4018.0,,,,,verb.cognition,True,43,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+65,0,said,24,28,4272,4276,9,29.0,31.0,4277.0,4279.0,,,,,verb.communication,True,45,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+66,0,said,35,39,4316,4320,23,40.0,53.0,4321.0,4334.0,,,,,verb.communication,True,46,direct_object,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+70,0,answered,0,8,4421,4429,23,9.0,22.0,4430.0,4443.0,,,,,verb.communication,True,47,direct_object,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+73,2,said,47,51,4535,4539,23,52.0,65.0,4540.0,4553.0,,,,,verb.communication,True,50,direct_object,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+74,5,buy,75,78,4630,4633,9,79.0,112.0,4634.0,4667.0,,,,,verb.possession,True,49,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+75,3,said,44,48,4713,4717,23,49.0,62.0,4718.0,4731.0,,,,,verb.communication,True,51,direct_object,the old woman,8.0,13.0,21.0,female,1.0,tertiary
+77,3,said,56,60,4882,4886,9,61.0,63.0,4887.0,4889.0,,,,,verb.communication,True,53,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+81,1,said,20,24,5300,5304,9,25.0,34.0,5305.0,5314.0,,,,,verb.communication,True,55,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+82,0,stab,1,5,5317,5321,9,6.0,8.0,5322.0,5324.0,9.0,20.0,,,verb.contact,True,56,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+83,0,stab,0,4,5338,5342,9,5.0,7.0,5343.0,5345.0,8.0,19.0,,,verb.contact,True,57,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+90,0,said,15,19,5906,5910,70,20.0,30.0,5911.0,5921.0,,,,,verb.communication,True,63,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+93,3,rewarded,55,63,6169,6177,9,64.0,82.0,6178.0,6196.0,,,,,verb.possession,True,66,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+94,2,said,36,40,6235,6239,9,41.0,50.0,6240.0,6249.0,,,,,verb.communication,True,65,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+95,1,declared,23,31,6274,6282,70,32.0,42.0,6283.0,6293.0,,,,,verb.communication,True,67,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+100,1,knocking,8,16,6529,6537,70,17.0,27.0,6538.0,6548.0,,,,,verb.competition,True,69,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+104,0,cried,0,5,6701,6706,70,6.0,16.0,6707.0,6717.0,,,,,verb.communication,True,71,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+106,3,said,61,65,6831,6835,80,66.0,77.0,6836.0,6847.0,,,,,verb.communication,True,74,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+108,3,asked,61,66,6935,6940,80,67.0,70.0,6941.0,6944.0,87.0,115.0,6961.0,6989.0,verb.communication,True,73,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+108,3,asked,61,66,6935,6940,70,67.0,70.0,6941.0,6944.0,87.0,115.0,6961.0,6989.0,verb.communication,True,73,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+109,2,said,25,29,7017,7021,80,30.0,41.0,7022.0,7033.0,,,,,verb.communication,True,75,direct_object,the old man,5.0,6.0,11.0,male,1.0,tertiary
+114,1,urge,21,25,7570,7574,87,26.0,40.0,7575.0,7589.0,,,,,verb.communication,True,80,direct_object,the young folk,1.0,2.0,3.0,unknown,0.0,tertiary
+120,0,asked,0,5,7996,8001,92,6.0,14.0,8002.0,8010.0,,,,,verb.communication,True,83,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+121,1,take,9,13,8021,8025,9,14.0,27.0,8026.0,8039.0,,,,,verb.possession,True,85,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+126,0,asked,0,5,8267,8272,70,6.0,16.0,8273.0,8283.0,,,,,verb.communication,True,89,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+127,1,said,18,22,8303,8307,9,23.0,32.0,8308.0,8317.0,,,,,verb.communication,True,91,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+130,7,ask,143,146,8589,8592,275,147.0,150.0,8593.0,8596.0,,,,,verb.communication,True,93,direct_object,The prince's father,2.0,2.0,4.0,male,1.0,tertiary
+131,1,begged,24,30,8632,8638,9,31.0,39.0,8639.0,8647.0,,,,,verb.communication,True,94,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+131,1,begged,24,30,8632,8638,92,31.0,39.0,8639.0,8647.0,,,,,verb.communication,True,94,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+132,3,said,48,52,8724,8728,92,53.0,61.0,8729.0,8737.0,,,,,verb.communication,True,97,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+135,5,said,82,86,8962,8966,92,87.0,95.0,8967.0,8975.0,,,,,verb.communication,True,98,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+136,1,wished,63,69,9040,9046,9,70.0,107.0,9047.0,9084.0,,,,,verb.emotion,True,99,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+137,2,occurred,40,48,9177,9185,9,49.0,55.0,9186.0,9192.0,56.0,86.0,9193.0,9223.0,verb.cognition,True,100,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+140,0,thought,8,15,9410,9417,9,27.0,77.0,9429.0,9479.0,,,,,verb.cognition,True,103,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+140,0,thought,8,15,9410,9417,106,27.0,77.0,9429.0,9479.0,,,,,verb.cognition,True,103,direct_object,the youth's father,5.0,4.0,9.0,male,1.0,tertiary
+142,0,wished,17,23,9558,9564,9,24.0,103.0,9565.0,9644.0,,,,,verb.emotion,True,104,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+142,0,wished,17,23,9558,9564,106,24.0,103.0,9565.0,9644.0,,,,,verb.emotion,True,104,direct_object,the youth's father,5.0,4.0,9.0,male,1.0,tertiary
+146,0,saw,20,23,9774,9777,9,24.0,94.0,9778.0,9848.0,,,,,verb.perception,True,106,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+146,0,saw,20,23,9774,9777,106,24.0,94.0,9778.0,9848.0,,,,,verb.perception,True,106,direct_object,the youth's father,5.0,4.0,9.0,male,1.0,tertiary
+147,2,said,34,38,10069,10073,9,39.0,48.0,10074.0,10083.0,,,,,verb.communication,True,108,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+148,1,take,14,18,10099,10103,288,31.0,44.0,10116.0,10129.0,59.0,88.0,10144.0,10173.0,verb.cognition,True,107,direct_object,a fellow,1.0,1.0,2.0,male,1.0,tertiary
+148,1,take,14,18,10099,10103,289,31.0,44.0,10116.0,10129.0,59.0,88.0,10144.0,10173.0,verb.cognition,True,107,direct_object,a vagabond,1.0,0.0,1.0,unknown,0.0,tertiary
+149,0,want,6,10,10181,10185,277,11.0,80.0,10186.0,10255.0,,,,,verb.emotion,True,109,direct_object,father,3.0,3.0,6.0,male,1.0,tertiary
+149,0,want,6,10,10181,10185,291,11.0,80.0,10186.0,10255.0,,,,,verb.emotion,True,109,direct_object,the youth's proxy,1.0,0.0,1.0,unknown,0.0,tertiary
+149,0,want,6,10,10181,10185,9,11.0,80.0,10186.0,10255.0,,,,,verb.emotion,True,109,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+149,0,want,6,10,10181,10185,292,11.0,80.0,10186.0,10255.0,,,,,verb.emotion,True,109,direct_object,the king's daughter,2.0,7.0,9.0,female,1.0,tertiary
+149,0,want,6,10,10181,10185,92,11.0,80.0,10186.0,10255.0,,,,,verb.emotion,True,109,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+151,0,cried,0,5,10311,10316,9,6.0,16.0,10317.0,10327.0,,,,,verb.communication,True,110,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+151,0,cried,0,5,10311,10316,106,6.0,16.0,10317.0,10327.0,,,,,verb.communication,True,110,direct_object,the youth's father,5.0,4.0,9.0,male,1.0,tertiary
+154,1,happened,16,24,10563,10571,9,25.0,31.0,10572.0,10578.0,,,,,verb.change,True,114,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+156,2,done,21,25,10634,10638,9,26.0,29.0,10639.0,10642.0,,,,,verb.social,True,113,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+158,5,said,143,147,11028,11032,22,148.0,155.0,11033.0,11040.0,,,,,verb.communication,True,116,direct_object,the man,15.0,39.0,54.0,male,1.0,tertiary
+159,2,send,61,65,11103,11107,9,66.0,74.0,11108.0,11116.0,,,,,verb.motion,True,117,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+159,2,send,61,65,11103,11107,278,66.0,74.0,11108.0,11116.0,,,,,verb.motion,True,117,direct_object,father's son,2.0,0.0,2.0,unknown,0.0,tertiary
+159,2,send,61,65,11103,11107,92,66.0,74.0,11108.0,11116.0,,,,,verb.motion,True,117,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+162,1,get,6,9,11263,11266,300,10.0,23.0,11267.0,11280.0,,,,,verb.possession,True,119,direct_object,the king's daughter,2.0,2.0,4.0,female,1.0,tertiary
+162,1,get,6,9,11263,11266,92,10.0,23.0,11267.0,11280.0,,,,,verb.possession,True,119,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+164,9,said,148,152,11441,11445,92,153.0,155.0,11446.0,11448.0,,,,,verb.communication,True,121,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+165,2,said,24,28,11474,11478,9,29.0,38.0,11479.0,11488.0,,,,,verb.communication,True,123,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+167,2,said,17,21,11616,11620,92,22.0,30.0,11621.0,11629.0,,,,,verb.communication,True,124,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+168,5,said,170,174,11801,11805,92,175.0,183.0,11806.0,11814.0,,,,,verb.communication,True,125,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+169,1,said,33,37,11849,11853,9,38.0,47.0,11854.0,11863.0,,,,,verb.communication,True,126,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+172,0,saw,12,15,12355,12358,9,16.0,25.0,12359.0,12368.0,,,,,verb.perception,True,130,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+175,1,get,5,8,12577,12580,300,9.0,22.0,12581.0,12594.0,23.0,26.0,12595.0,12598.0,verb.possession,True,132,direct_object,the king's daughter,2.0,2.0,4.0,female,1.0,tertiary
+175,1,get,5,8,12577,12580,92,9.0,22.0,12581.0,12594.0,23.0,26.0,12595.0,12598.0,verb.possession,True,132,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+179,0,cried,0,5,12833,12838,9,6.0,15.0,12839.0,12848.0,,,,,verb.communication,True,135,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+180,4,wished,84,90,12934,12940,92,91.0,175.0,12941.0,13025.0,,,,,verb.emotion,True,136,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+185,1,get,5,8,13315,13318,9,9.0,12.0,13319.0,13322.0,13.0,16.0,13323.0,13326.0,verb.possession,True,140,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+187,7,noticed,102,109,13441,13448,9,110.0,144.0,13449.0,13483.0,,,,,verb.perception,True,139,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+188,1,went,58,62,13597,13601,155,63.0,75.0,13602.0,13614.0,77.0,105.0,13616.0,13644.0,verb.motion,True,141,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+189,0,wished,16,22,13662,13668,164,23.0,60.0,13669.0,13706.0,,,,,verb.emotion,True,142,direct_object,the handsomest man in the world,1.0,0.0,1.0,male,1.0,tertiary
+190,0,saw,18,21,13759,13762,9,22.0,60.0,13763.0,13801.0,,,,,verb.perception,True,143,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+191,7,said,193,197,14189,14193,9,198.0,245.0,14194.0,14241.0,,,,,verb.communication,True,144,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+191,7,said,193,197,14189,14193,155,198.0,245.0,14194.0,14241.0,,,,,verb.communication,True,144,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+193,0,said,10,14,14493,14497,9,15.0,24.0,14498.0,14507.0,,,,,verb.communication,True,146,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+198,1,oblige,21,27,14834,14840,155,28.0,31.0,14841.0,14844.0,32.0,54.0,14845.0,14867.0,verb.emotion,True,150,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+199,2,told,68,72,14980,14984,155,73.0,76.0,14985.0,14988.0,,,,,verb.communication,True,151,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+201,0,agreed,15,21,15080,15086,9,22.0,90.0,15087.0,15155.0,,,,,verb.communication,True,153,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+202,3,wanted,70,76,15298,15304,9,77.0,186.0,15305.0,15414.0,,,,,verb.emotion,True,154,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+202,3,wanted,70,76,15298,15304,155,77.0,186.0,15305.0,15414.0,,,,,verb.emotion,True,154,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+202,3,wanted,70,76,15298,15304,182,77.0,186.0,15305.0,15414.0,,,,,verb.emotion,True,154,direct_object,the princess's lover,1.0,0.0,1.0,unknown,0.0,tertiary
+204,10,wanted,210,216,15756,15762,188,217.0,251.0,15763.0,15797.0,,,,,verb.emotion,True,156,direct_object,the handsomest prince in the world,1.0,0.0,1.0,male,1.0,tertiary
+207,2,bought,39,45,16149,16155,9,46.0,53.0,16156.0,16163.0,,,,,verb.possession,True,158,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+210,0,throw,4,9,16203,16208,9,10.0,16.0,16209.0,16215.0,,,,,verb.contact,True,161,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+211,2,said,31,35,16295,16299,194,36.0,43.0,16300.0,16307.0,,,,,verb.communication,True,162,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+212,1,get,10,13,16319,16322,9,14.0,23.0,16323.0,16332.0,24.0,29.0,16333.0,16338.0,verb.possession,True,163,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+213,1,said,33,37,16374,16378,9,38.0,47.0,16379.0,16388.0,,,,,verb.communication,True,165,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+215,0,crossed,15,22,16423,16430,155,23.0,31.0,16431.0,16439.0,,,,,verb.motion,True,164,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+216,1,pounce,12,18,16453,16459,9,19.0,25.0,16460.0,16466.0,,,,,verb.competition,True,166,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+219,1,said,32,36,16582,16586,194,37.0,44.0,16587.0,16594.0,,,,,verb.communication,True,169,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+220,4,spied,83,88,16679,16684,201,93.0,128.0,16689.0,16724.0,,,,,verb.perception,True,168,direct_object,princess,2.0,1.0,3.0,female,1.0,tertiary
+220,4,spied,83,88,16679,16684,70,93.0,128.0,16689.0,16724.0,,,,,verb.perception,True,168,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+222,2,saw,65,68,16852,16855,70,69.0,119.0,16856.0,16906.0,,,,,verb.perception,True,171,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+224,0,see,4,7,16961,16964,9,8.0,55.0,16965.0,17012.0,,,,,verb.cognition,True,174,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+224,0,see,4,7,16961,16964,310,8.0,55.0,16965.0,17012.0,,,,,verb.cognition,True,174,direct_object,the princess's dearest,1.0,0.0,1.0,unknown,0.0,tertiary
+224,0,see,4,7,16961,16964,155,8.0,55.0,16965.0,17012.0,,,,,verb.cognition,True,174,direct_object,the princess,9.0,27.0,36.0,female,1.0,tertiary
+226,3,think,92,97,17114,17119,70,98.0,130.0,17120.0,17152.0,,,,,verb.cognition,True,173,direct_object,The prince,14.0,22.0,36.0,male,1.0,tertiary
+228,0,slipped,23,30,17276,17283,9,36.0,46.0,17289.0,17299.0,,,,,verb.change,True,175,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+233,1,caught,30,36,17831,17837,292,37.0,40.0,17838.0,17841.0,,,,,verb.contact,True,178,direct_object,the king's daughter,2.0,7.0,9.0,female,1.0,tertiary
+233,1,caught,30,36,17831,17837,92,37.0,40.0,17838.0,17841.0,,,,,verb.contact,True,178,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+234,1,flung,34,39,17926,17931,92,40.0,47.0,17932.0,17939.0,,,,,verb.contact,True,180,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+236,4,bought,97,103,18175,18181,9,104.0,111.0,18182.0,18189.0,,,,,verb.possession,True,181,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+238,0,said,0,4,18220,18224,194,5.0,12.0,18225.0,18232.0,,,,,verb.communication,True,184,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+239,2,want,28,32,18285,18289,9,33.0,52.0,18290.0,18309.0,,,,,verb.emotion,True,185,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+240,7,said,118,122,18430,18434,218,123.0,125.0,18435.0,18437.0,,,,,verb.communication,True,186,direct_object,the dog whom the youth 's master had bought for him,1.0,4.0,5.0,male,1.0,tertiary
+242,2,said,29,33,18488,18492,194,34.0,41.0,18493.0,18500.0,,,,,verb.communication,True,189,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+245,0,asked,0,5,18687,18692,194,6.0,13.0,18693.0,18700.0,,,,,verb.communication,True,191,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+250,0,said,0,4,18931,18935,194,5.0,150.0,18936.0,19081.0,,,,,verb.communication,True,193,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+252,1,clawed,48,54,19224,19230,194,55.0,65.0,19231.0,19241.0,66.0,171.0,19242.0,19347.0,verb.contact,True,194,direct_object,the cat,5.0,10.0,15.0,female,1.0,tertiary
+254,1,told,47,51,19643,19647,9,52.0,54.0,19648.0,19650.0,,,,,verb.communication,True,196,direct_object,the youth,54.0,180.0,234.0,male,0.9902912621359224,primary
+255,0,wished,19,25,19737,19743,238,26.0,106.0,19744.0,19824.0,,,,,verb.cognition,True,197,direct_object,the whole army,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+256,7,wished,125,131,20039,20045,154,132.0,262.0,20046.0,20176.0,,,,,verb.emotion,True,198,direct_object,the queen,5.0,0.0,5.0,female,1.0,tertiary
+256,7,wished,125,131,20039,20045,223,132.0,262.0,20046.0,20176.0,,,,,verb.emotion,True,198,direct_object,the dog,1.0,23.0,24.0,male,1.0,tertiary
+256,7,wished,125,131,20039,20045,295,132.0,262.0,20046.0,20176.0,,,,,verb.emotion,True,198,direct_object,the king 's daughter,3.0,0.0,3.0,male,1.0,tertiary
+256,7,wished,125,131,20039,20045,238,132.0,262.0,20046.0,20176.0,,,,,verb.emotion,True,198,direct_object,the whole army,1.0,10.0,11.0,group/nonbinary,1.0,tertiary
+256,7,wished,125,131,20039,20045,92,132.0,262.0,20046.0,20176.0,,,,,verb.emotion,True,198,direct_object,the king,32.0,32.0,64.0,male,1.0,tertiary
+258,4,celebrated,124,134,20406,20416,238,135.0,148.0,20417.0,20430.0,149.0,167.0,20431.0,20449.0,verb.communication,True,200,direct_object,the whole army,1.0,10.0,11.0,group/nonbinary,1.0,tertiary

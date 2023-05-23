@@ -1,0 +1,20 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+1,0,discovered,3,13,86,96,1.0,0.0,2.0,83.0,85.0,,,,,verb.creation,True,0,subject,Dschu Yung,1,8,9,male,1.0,primary
+3,1,showed,45,51,331,337,11.0,27.0,39.0,313.0,325.0,60.0,89.0,346.0,375.0,verb.perception,True,1,subject,the Red Lord,1,0,1,unknown,0.0,tertiary
+4,1,worshiped,16,25,421,430,2.0,0.0,12.0,405.0,417.0,,,,,verb.social,True,4,subject,The Fire - God,1,0,1,unknown,0.0,tertiary
+9,0,got,11,14,823,826,20.0,8.0,10.0,820.0,822.0,,,,,verb.motion,True,5,subject,a man who was very rich,1,11,12,male,1.0,primary
+10,1,dressed,19,26,892,899,22.0,11.0,17.0,884.0,890.0,,,,,verb.body,True,6,subject,a girl,1,3,4,female,1.0,secondary
+11,0,allowed,3,10,948,955,20.0,0.0,2.0,945.0,947.0,,,,,verb.communication,True,7,subject,a man who was very rich,1,11,12,male,1.0,primary
+12,4,tell,115,119,1168,1172,24.0,108.0,109.0,1161.0,1162.0,,,,,verb.communication,True,8,subject,the girl,1,2,3,female,1.0,secondary
+16,1,drove,47,52,1368,1373,25.0,12.0,19.0,1333.0,1340.0,58.0,77.0,1379.0,1398.0,verb.motion,True,10,subject,the man,2,6,8,male,1.0,primary
+17,1,removed,70,77,1470,1477,25.0,0.0,65.0,1400.0,1465.0,,,,,verb.motion,True,11,subject,the man,2,6,8,male,1.0,primary
+19,1,saved,41,46,1697,1702,25.0,29.0,36.0,1685.0,1692.0,,,,,verb.contact,True,12,subject,the man,2,6,8,male,1.0,primary
+2,3,made,89,93,267,271,9.0,94.0,106.0,272.0,284.0,,,,,verb.change,True,2,direct_object,the Fire - God,3,0,3,unknown,0.0,secondary
+3,1,showed,45,51,331,337,1.0,52.0,59.0,338.0,345.0,60.0,89.0,346.0,375.0,verb.perception,True,1,direct_object,Dschu Yung,1,8,9,male,1.0,primary
+3,1,showed,45,51,331,337,13.0,52.0,59.0,338.0,345.0,60.0,89.0,346.0,375.0,verb.perception,True,1,direct_object,the Five Ancients,1,0,1,unknown,0.0,tertiary
+8,0,dwelt,37,42,781,786,20.0,43.0,66.0,787.0,810.0,,,,,verb.communication,True,3,direct_object,a man who was very rich,1,11,12,male,1.0,primary
+9,0,got,11,14,823,826,20.0,15.0,29.0,827.0,841.0,,,,,verb.motion,True,5,direct_object,a man who was very rich,1,11,12,male,1.0,primary
+11,0,allowed,3,10,948,955,22.0,11.0,36.0,956.0,981.0,,,,,verb.communication,True,7,direct_object,a girl,1,3,4,female,1.0,secondary
+12,4,tell,115,119,1168,1172,20.0,120.0,123.0,1173.0,1176.0,,,,,verb.communication,True,8,direct_object,a man who was very rich,1,11,12,male,1.0,primary
+15,2,save,47,51,1301,1305,20.0,52.0,64.0,1306.0,1318.0,,,,,verb.possession,True,9,direct_object,a man who was very rich,1,11,12,male,1.0,primary
+19,1,saved,41,46,1697,1702,25.0,47.0,73.0,1703.0,1729.0,,,,,verb.contact,True,12,direct_object,the man,2,6,8,male,1.0,primary

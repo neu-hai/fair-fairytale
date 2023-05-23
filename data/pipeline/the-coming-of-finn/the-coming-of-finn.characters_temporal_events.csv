@@ -1,0 +1,325 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+3,2,had,75,78,275,278,13,72.0,74.0,272.0,274.0,,,,,verb.possession,0,subject,Art,4.0,1.0,5.0,male,1.0,tertiary
+4,2,trying,80,86,372,378,14,0.0,17.0,292.0,309.0,,,,,verb.social,1,subject,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+5,3,killed,150,156,571,577,15,106.0,117.0,527.0,538.0,,,,,verb.social,2,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+5,3,killed,150,156,571,577,39,106.0,117.0,527.0,538.0,,,,,verb.social,2,subject,Finn 's father,1.0,0.0,1.0,male,1.0,tertiary
+9,1,seemed,57,63,832,838,42,34.0,56.0,809.0,831.0,,,,,verb.perception,4,subject,none of these warriors,1.0,0.0,1.0,unknown,0.0,tertiary
+9,1,seemed,57,63,832,838,43,34.0,56.0,809.0,831.0,,,,,verb.perception,4,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+9,2,care,67,71,842,846,42,34.0,56.0,809.0,831.0,,,,,verb.emotion,5,subject,none of these warriors,1.0,0.0,1.0,unknown,0.0,tertiary
+9,2,care,67,71,842,846,43,34.0,56.0,809.0,831.0,,,,,verb.emotion,5,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+9,3,eating,78,84,853,859,42,34.0,56.0,809.0,831.0,,,,,verb.consumption,6,subject,none of these warriors,1.0,0.0,1.0,unknown,0.0,tertiary
+9,3,eating,78,84,853,859,43,34.0,56.0,809.0,831.0,,,,,verb.consumption,6,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+11,2,expecting,26,35,968,977,43,16.0,20.0,958.0,962.0,,,,,verb.cognition,8,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+13,0,sat,38,41,1166,1169,44,0.0,36.0,1128.0,1164.0,,,,,verb.contact,7,subject,Captain of the Fians,1.0,0.0,1.0,unknown,0.0,tertiary
+13,0,sat,38,41,1166,1169,38,0.0,36.0,1128.0,1164.0,,,,,verb.contact,7,subject,the Fians,2.0,0.0,2.0,unknown,0.0,tertiary
+13,0,sat,38,41,1166,1169,14,0.0,36.0,1128.0,1164.0,,,,,verb.contact,7,subject,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+14,0,wore,14,18,1220,1224,46,0.0,13.0,1206.0,1219.0,,,,,verb.body,10,subject,Every warrior,1.0,0.0,1.0,unknown,0.0,tertiary
+16,4,heard,105,110,1692,1697,43,89.0,93.0,1676.0,1680.0,,,,,verb.perception,11,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+18,0,leaned,9,15,1854,1860,48,0.0,8.0,1845.0,1853.0,,,,,verb.contact,12,subject,the King,4.0,4.0,8.0,male,1.0,tertiary
+18,1,said,51,55,1896,1900,48,0.0,8.0,1845.0,1853.0,,,,,verb.communication,14,subject,the King,4.0,4.0,8.0,male,1.0,tertiary
+18,4,come,121,125,1966,1970,16,104.0,120.0,1949.0,1965.0,,,,,verb.motion,15,subject,Midna,6.0,3.0,9.0,male,1.0,tertiary
+18,4,come,121,125,1966,1970,154,104.0,120.0,1949.0,1965.0,,,,,verb.motion,15,subject,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+21,0,heard,24,29,2170,2175,43,19.0,23.0,2165.0,2169.0,175.0,222.0,2321.0,2368.0,verb.perception,16,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+21,3,repel,99,104,2245,2250,43,88.0,92.0,2234.0,2238.0,,,,,verb.competition,18,subject,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+29,3,possessing,236,246,3055,3065,160,173.0,234.0,2992.0,3053.0,,,,,verb.possession,19,subject,the Kings of Erin,2.0,0.0,2.0,male,1.0,tertiary
+31,0,think,2,7,3373,3378,58,0.0,1.0,3371.0,3372.0,,,,,verb.cognition,21,subject,An attendant,1.0,4.0,5.0,unknown,0.0,tertiary
+32,0,grant,22,27,3511,3516,168,0.0,21.0,3489.0,3510.0,,,,,verb.communication,22,subject,The high gods of Erin,1.0,0.0,1.0,unknown,0.0,tertiary
+34,0,took,13,17,3674,3678,58,0.0,12.0,3661.0,3673.0,,,,,verb.contact,24,subject,An attendant,1.0,4.0,5.0,unknown,0.0,tertiary
+34,1,hung,49,53,3710,3714,58,0.0,12.0,3661.0,3673.0,59.0,70.0,3720.0,3731.0,verb.contact,25,subject,An attendant,1.0,4.0,5.0,unknown,0.0,tertiary
+35,2,ate,41,44,3852,3855,15,0.0,6.0,3811.0,3817.0,,,,,verb.consumption,27,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+35,3,drank,68,73,3879,3884,15,50.0,57.0,3861.0,3868.0,,,,,verb.consumption,29,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+36,0,entered,19,26,3905,3912,15,16.0,18.0,3902.0,3904.0,,,,,verb.motion,28,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+37,1,made,14,18,3966,3970,15,5.0,9.0,3957.0,3961.0,,,,,verb.social,30,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+37,3,said,53,57,4005,4009,15,50.0,52.0,4002.0,4004.0,,,,,verb.communication,32,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+37,13,finds,341,346,4293,4298,178,320.0,340.0,4272.0,4292.0,,,,,verb.perception,31,subject,the man of the house,1.0,0.0,1.0,male,1.0,tertiary
+39,5,do,71,73,4450,4452,15,65.0,66.0,4444.0,4445.0,,,,,verb.social,33,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+40,0,say,6,9,4468,4471,15,4.0,5.0,4466.0,4467.0,,,,,verb.communication,34,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+40,4,restore,96,103,4558,4565,15,90.0,91.0,4552.0,4553.0,128.0,190.0,4590.0,4652.0,verb.social,35,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+42,1,tell,22,26,4750,4754,12,16.0,17.0,4744.0,4745.0,,,,,verb.communication,37,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+47,1,standeth,40,48,5172,5180,187,37.0,39.0,5169.0,5171.0,125.0,144.0,5257.0,5276.0,verb.motion,38,subject,"a mighty enchanter whose dwelling is in the haunted mountains of Slieve Gullion in the north . His name is Allen , son of Midna",1.0,10.0,11.0,male,1.0,tertiary
+49,3,declared,102,110,5422,5430,192,87.0,101.0,5407.0,5421.0,,,,,verb.communication,39,subject,this enchanter,1.0,0.0,1.0,unknown,0.0,tertiary
+50,3,repel,80,85,5559,5564,193,34.0,71.0,5513.0,5550.0,,,,,verb.social,40,subject,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+50,3,repel,80,85,5559,5564,12,34.0,71.0,5513.0,5550.0,,,,,verb.social,40,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+50,4,kill,94,98,5573,5577,193,34.0,71.0,5513.0,5550.0,,,,,verb.social,42,subject,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+50,4,kill,94,98,5573,5577,12,34.0,71.0,5513.0,5550.0,,,,,verb.social,42,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+53,2,ward,57,61,5705,5709,193,0.0,3.0,5648.0,5651.0,,,,,verb.contact,43,subject,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+54,0,plays,22,27,5760,5765,154,5.0,21.0,5743.0,5759.0,,,,,verb.creation,45,subject,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+54,2,grow,156,160,5894,5898,193,144.0,155.0,5882.0,5893.0,,,,,verb.change,47,subject,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+56,1,burnt,18,23,6075,6080,194,11.0,13.0,6068.0,6070.0,29.0,43.0,6086.0,6100.0,verb.contact,49,subject,this man,4.0,3.0,7.0,male,1.0,tertiary
+57,1,come,29,33,6154,6158,194,21.0,23.0,6146.0,6148.0,,,,,verb.change,51,subject,this man,4.0,3.0,7.0,male,1.0,tertiary
+57,2,do,38,40,6163,6165,194,21.0,23.0,6146.0,6148.0,,,,,verb.social,54,subject,this man,4.0,3.0,7.0,male,1.0,tertiary
+58,4,defend,115,121,6291,6297,12,105.0,111.0,6281.0,6287.0,,,,,verb.competition,53,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+58,5,summoned,130,138,6306,6314,12,128.0,129.0,6304.0,6305.0,,,,,verb.motion,52,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+59,0,came,5,9,6371,6375,200,0.0,4.0,6366.0,6370.0,,,,,verb.motion,55,subject,all the Fians,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+59,1,prevailed,53,62,6419,6428,154,15.0,52.0,6381.0,6418.0,73.0,119.0,6439.0,6485.0,verb.social,56,subject,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+59,3,burned,95,101,6461,6467,1,86.0,90.0,6452.0,6456.0,,,,,verb.change,57,subject,Tara,8.0,0.0,8.0,unknown,0.0,tertiary
+60,3,burn,65,69,6552,6556,154,39.0,55.0,6526.0,6542.0,79.0,114.0,6566.0,6601.0,verb.change,58,subject,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+61,2,sent,37,41,6640,6644,205,0.0,26.0,6603.0,6629.0,,,,,verb.motion,60,subject,All the women,1.0,0.0,1.0,female,1.0,tertiary
+61,2,sent,37,41,6640,6644,206,0.0,26.0,6603.0,6629.0,,,,,verb.motion,60,subject,children,1.0,0.0,1.0,unknown,0.0,tertiary
+65,2,kill,30,34,6893,6897,15,28.0,29.0,6891.0,6892.0,,,,,verb.contact,61,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+65,3,save,48,52,6911,6915,15,28.0,29.0,6891.0,6892.0,,,,,verb.social,62,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+68,0,give,22,26,7067,7071,48,20.0,21.0,7065.0,7066.0,,,,,verb.possession,66,subject,the King,4.0,4.0,8.0,male,1.0,tertiary
+69,0,consented,36,45,7171,7180,66,0.0,35.0,7135.0,7170.0,67.0,150.0,7202.0,7285.0,verb.social,65,subject,the Fianna,1.0,0.0,1.0,unknown,0.0,tertiary
+69,0,consented,36,45,7171,7180,65,0.0,35.0,7135.0,7170.0,67.0,150.0,7202.0,7285.0,verb.social,65,subject,the captains of the Fianna,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+69,0,consented,36,45,7171,7180,14,0.0,35.0,7135.0,7170.0,67.0,150.0,7202.0,7285.0,verb.social,65,subject,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+69,1,misgave,103,110,7238,7245,65,91.0,102.0,7226.0,7237.0,,,,,verb.cognition,64,subject,the captains of the Fianna,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+70,0,arose,15,20,7302,7307,68,6.0,10.0,7293.0,7297.0,,,,,verb.motion,67,subject,,,,,,,
+70,4,enjoining,151,160,7438,7447,12,96.0,120.0,7383.0,7407.0,,,,,verb.communication,70,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+70,7,filled,270,276,7557,7563,20,265.0,269.0,7552.0,7556.0,,,,,verb.change,72,subject,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+70,9,thrust,359,365,7646,7652,20,346.0,358.0,7633.0,7645.0,,,,,verb.contact,73,subject,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+71,4,washed,81,87,7779,7785,15,78.0,80.0,7776.0,7778.0,,,,,verb.body,75,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+71,5,took,133,137,7831,7835,15,130.0,132.0,7828.0,7830.0,,,,,verb.change,77,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+71,10,made,260,264,7958,7962,15,248.0,252.0,7946.0,7950.0,,,,,verb.social,74,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+71,12,known,280,285,7978,7983,15,248.0,272.0,7946.0,7970.0,,,,,verb.cognition,76,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+72,0,stood,20,25,8004,8009,73,5.0,19.0,7989.0,8003.0,38.0,96.0,8022.0,8080.0,verb.contact,78,subject,a man,1.0,0.0,1.0,male,1.0,tertiary
+72,1,holding,38,45,8022,8029,73,5.0,19.0,7989.0,8003.0,54.0,65.0,8038.0,8049.0,verb.contact,79,subject,a man,1.0,0.0,1.0,male,1.0,tertiary
+76,1,called,89,95,8424,8430,20,73.0,77.0,8408.0,8412.0,,,,,verb.communication,80,subject,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+76,2,sounded,117,124,8452,8459,74,33.0,115.0,8368.0,8450.0,,,,,verb.perception,82,subject,the enchanted races of Erin,1.0,0.0,1.0,unknown,0.0,tertiary
+76,2,sounded,117,124,8452,8459,21,33.0,115.0,8368.0,8450.0,,,,,verb.perception,82,subject,the Tuatha De Danan,1.0,0.0,1.0,unknown,0.0,tertiary
+76,2,sounded,117,124,8452,8459,20,33.0,115.0,8368.0,8450.0,,,,,verb.perception,82,subject,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+78,0,gave,8,12,8598,8602,75,0.0,7.0,8590.0,8597.0,,,,,verb.possession,81,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+78,2,instructed,51,61,8641,8651,75,44.0,46.0,8634.0,8636.0,66.0,78.0,8656.0,8668.0,verb.communication,83,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+78,4,seen,91,95,8681,8685,15,80.0,82.0,8670.0,8672.0,,,,,verb.perception,84,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+79,0,arose,10,15,8697,8702,15,5.0,9.0,8692.0,8696.0,,,,,verb.motion,85,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+79,1,armed,20,25,8707,8712,15,5.0,9.0,8692.0,8696.0,,,,,verb.competition,87,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+80,1,had,88,91,8860,8863,20,53.0,82.0,8825.0,8854.0,100.0,114.0,8872.0,8886.0,verb.possession,86,subject,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+82,0,stood,5,10,9303,9308,15,0.0,4.0,9298.0,9302.0,61.0,122.0,9359.0,9420.0,verb.contact,89,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+82,4,grasped,131,138,9429,9436,15,128.0,130.0,9426.0,9428.0,155.0,207.0,9453.0,9505.0,verb.contact,90,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+83,1,heard,26,31,9533,9538,15,23.0,25.0,9530.0,9532.0,,,,,verb.perception,91,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+84,0,shouted,181,188,9849,9856,92,172.0,180.0,9840.0,9848.0,,,,,verb.communication,92,subject,the host,3.0,3.0,6.0,group/nonbinary,1.0,tertiary
+84,1,clashed,207,214,9875,9882,91,22.0,180.0,9690.0,9848.0,228.0,368.0,9896.0,10036.0,verb.contact,93,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+84,1,clashed,207,214,9875,9882,12,22.0,180.0,9690.0,9848.0,228.0,368.0,9896.0,10036.0,verb.contact,93,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+84,1,clashed,207,214,9875,9882,28,22.0,180.0,9690.0,9848.0,228.0,368.0,9896.0,10036.0,verb.contact,93,subject,the Hundred - Fighter,4.0,0.0,4.0,unknown,0.0,tertiary
+84,1,clashed,207,214,9875,9882,14,22.0,180.0,9690.0,9848.0,228.0,368.0,9896.0,10036.0,verb.contact,93,subject,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+84,1,clashed,207,214,9875,9882,92,22.0,180.0,9690.0,9848.0,228.0,368.0,9896.0,10036.0,verb.contact,93,subject,the host,3.0,3.0,6.0,group/nonbinary,1.0,tertiary
+84,3,steal,346,351,10014,10019,94,304.0,336.0,9972.0,10004.0,,,,,verb.possession,95,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+87,0,put,5,8,10264,10267,15,0.0,4.0,10259.0,10263.0,,,,,verb.contact,96,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+88,2,fail,53,57,10361,10365,15,29.0,44.0,10337.0,10352.0,,,,,verb.social,99,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+89,2,shouting,90,98,10457,10465,91,66.0,78.0,10433.0,10445.0,,,,,verb.communication,98,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+91,0,pressed,5,12,10621,10628,15,0.0,4.0,10616.0,10620.0,,,,,verb.contact,100,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+91,1,saw,62,65,10678,10681,15,0.0,4.0,10616.0,10620.0,84.0,226.0,10700.0,10842.0,verb.perception,102,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+93,0,fell,6,10,10883,10887,15,3.0,5.0,10880.0,10882.0,,,,,verb.contact,103,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+95,2,stood,39,44,11015,11020,15,0.0,4.0,10976.0,10980.0,51.0,72.0,11027.0,11048.0,verb.contact,104,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+96,0,heard,3,8,11053,11058,15,0.0,2.0,11050.0,11052.0,,,,,verb.perception,106,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+96,1,splashing,35,44,11085,11094,94,21.0,34.0,11071.0,11084.0,,,,,verb.motion,105,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+96,2,saw,68,71,11118,11121,15,0.0,2.0,11050.0,11052.0,,,,,verb.creation,108,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+96,3,ascending,86,95,11136,11145,94,72.0,85.0,11122.0,11135.0,,,,,verb.motion,107,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+97,0,saw,19,22,11185,11188,94,5.0,18.0,11171.0,11184.0,,,,,verb.cognition,109,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+97,2,laughed,61,68,11227,11234,94,58.0,60.0,11224.0,11226.0,,,,,verb.body,110,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+97,3,blew,88,92,11254,11258,94,58.0,60.0,11224.0,11226.0,,,,,verb.creation,112,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+97,6,set,165,168,11331,11334,94,112.0,121.0,11278.0,11287.0,,,,,verb.contact,111,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+98,0,caught,5,11,11351,11357,15,0.0,4.0,11346.0,11350.0,,,,,verb.contact,114,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+99,0,blew,14,18,11407,11411,94,0.0,13.0,11393.0,11406.0,,,,,verb.contact,113,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+99,1,caught,50,56,11443,11449,94,0.0,13.0,11393.0,11406.0,,,,,verb.contact,115,subject,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+99,1,caught,50,56,11443,11449,15,0.0,13.0,11393.0,11406.0,,,,,verb.contact,115,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+100,0,saw,8,11,11469,11472,75,0.0,7.0,11461.0,11468.0,,,,,verb.cognition,117,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+100,4,defeated,85,93,11546,11554,75,61.0,75.0,11522.0,11536.0,,,,,verb.competition,116,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+101,0,saw,25,28,11581,11584,75,22.0,24.0,11578.0,11580.0,,,,,verb.perception,118,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+101,1,recognised,46,56,11602,11612,75,22.0,24.0,11578.0,11580.0,,,,,verb.cognition,119,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+102,0,turned,3,9,11631,11637,15,0.0,2.0,11628.0,11630.0,,,,,verb.motion,120,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+102,2,coming,43,49,11671,11677,15,39.0,42.0,11667.0,11670.0,,,,,verb.motion,121,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+102,5,recover,102,109,11730,11737,15,93.0,95.0,11721.0,11723.0,149.0,191.0,11777.0,11819.0,verb.possession,124,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+103,4,instructed,40,50,11882,11892,15,28.0,30.0,11870.0,11872.0,,,,,verb.communication,123,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+104,0,perceived,8,17,11932,11941,15,5.0,7.0,11929.0,11931.0,,,,,verb.cognition,126,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+104,2,overtake,45,53,11969,11977,15,23.0,25.0,11947.0,11949.0,,,,,verb.competition,127,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+106,1,said,29,33,12114,12118,75,1.0,23.0,12086.0,12108.0,,,,,verb.communication,128,subject,The man,2.0,7.0,9.0,male,1.0,tertiary
+106,1,said,29,33,12114,12118,15,1.0,23.0,12086.0,12108.0,,,,,verb.communication,128,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+109,0,followed,5,13,12255,12263,15,0.0,4.0,12250.0,12254.0,,,,,verb.motion,130,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+109,1,found,63,68,12313,12318,15,60.0,62.0,12310.0,12312.0,,,,,verb.possession,131,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+112,0,drew,5,9,12452,12456,15,0.0,4.0,12447.0,12451.0,,,,,verb.contact,132,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+112,1,cut,24,27,12471,12474,15,0.0,4.0,12447.0,12451.0,,,,,verb.contact,133,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+112,2,returned,58,66,12505,12513,15,0.0,4.0,12447.0,12451.0,,,,,verb.motion,134,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+113,0,came,8,12,12539,12543,15,5.0,7.0,12536.0,12538.0,,,,,verb.motion,136,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+113,2,dropped,38,45,12569,12576,15,31.0,33.0,12562.0,12564.0,,,,,verb.motion,135,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+118,3,give,131,135,13266,13270,15,115.0,117.0,13250.0,13252.0,144.0,163.0,13279.0,13298.0,verb.possession,139,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+119,0,recalled,7,15,13307,13315,15,4.0,6.0,13304.0,13306.0,,,,,verb.cognition,140,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+119,4,made,147,151,13447,13451,15,144.0,146.0,13444.0,13446.0,,,,,verb.creation,141,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+119,5,lifting,182,189,13482,13489,15,144.0,146.0,13444.0,13446.0,,,,,verb.contact,142,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+119,6,drank,207,212,13507,13512,15,144.0,146.0,13444.0,13446.0,,,,,verb.consumption,143,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+120,3,shouted,53,60,13701,13708,15,35.0,37.0,13683.0,13685.0,,,,,verb.communication,147,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+120,5,called,87,93,13735,13741,15,35.0,37.0,13683.0,13685.0,107.0,143.0,13755.0,13791.0,verb.communication,148,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+121,0,awoke,5,10,13797,13802,91,0.0,4.0,13792.0,13796.0,,,,,verb.body,149,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+121,6,avoid,125,130,13917,13922,123,97.0,99.0,13889.0,13891.0,,,,,verb.communication,150,subject,any man,1.0,2.0,3.0,male,1.0,tertiary
+121,7,hearing,131,138,13923,13930,123,97.0,99.0,13889.0,13891.0,,,,,verb.perception,151,subject,any man,1.0,2.0,3.0,male,1.0,tertiary
+122,1,astonished,10,20,13985,13995,91,0.0,4.0,13975.0,13979.0,,,,,verb.emotion,152,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+122,2,find,24,28,13999,14003,91,0.0,4.0,13975.0,13979.0,,,,,verb.perception,154,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+122,9,delighted,201,210,14176,14185,125,197.0,200.0,14172.0,14175.0,,,,,verb.body,153,subject,men,1.0,0.0,1.0,male,1.0,tertiary
+123,1,said,37,41,14244,14248,15,32.0,36.0,14239.0,14243.0,,,,,verb.communication,156,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+123,3,slain,51,56,14258,14263,15,44.0,45.0,14251.0,14252.0,,,,,verb.contact,155,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+125,0,asked,5,10,14298,14303,91,0.0,4.0,14293.0,14297.0,,,,,verb.communication,158,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+125,1,disbelieved,29,40,14322,14333,91,24.0,28.0,14317.0,14321.0,,,,,verb.cognition,157,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,0,followed,41,49,14495,14503,32,0.0,40.0,14454.0,14494.0,65.0,143.0,14519.0,14597.0,verb.motion,159,subject,Conn the Hundred - Fighter's only son,3.0,0.0,3.0,unknown,0.0,tertiary
+127,0,followed,41,49,14495,14503,14,0.0,40.0,14454.0,14494.0,65.0,143.0,14519.0,14597.0,verb.motion,159,subject,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+127,0,followed,41,49,14495,14503,12,0.0,40.0,14454.0,14494.0,65.0,143.0,14519.0,14597.0,verb.motion,159,subject,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+127,3,saw,159,162,14613,14616,91,154.0,158.0,14608.0,14612.0,189.0,217.0,14643.0,14671.0,verb.perception,162,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,4,impaled,181,188,14635,14642,16,163.0,180.0,14617.0,14634.0,,,,,verb.contact,161,subject,Midna,6.0,3.0,9.0,male,1.0,tertiary
+127,5,believed,249,257,14703,14711,91,244.0,248.0,14698.0,14702.0,,,,,verb.cognition,160,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,8,wounded,287,294,14741,14748,91,219.0,222.0,14673.0,14676.0,,,,,verb.body,163,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,9,conquered,298,307,14752,14761,91,219.0,227.0,14673.0,14681.0,,,,,verb.competition,164,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,12,praised,346,353,14800,14807,91,219.0,248.0,14673.0,14702.0,,,,,verb.communication,165,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,13,paid,374,378,14828,14832,91,309.0,313.0,14763.0,14767.0,,,,,verb.possession,166,subject,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+129,2,performed,104,113,14990,14999,218,5.0,95.0,14891.0,14981.0,,,,,verb.creation,167,subject,some great king or champion,1.0,0.0,1.0,male,1.0,tertiary
+129,2,performed,104,113,14990,14999,23,5.0,95.0,14891.0,14981.0,,,,,verb.creation,167,subject,Conn.,1.0,0.0,1.0,unknown,0.0,tertiary
+129,2,performed,104,113,14990,14999,217,5.0,95.0,14891.0,14981.0,,,,,verb.creation,167,subject,the son of some great king or champion,1.0,0.0,1.0,male,1.0,tertiary
+131,3,seeking,42,49,15299,15306,223,14.0,31.0,15271.0,15288.0,,,,,verb.contact,170,subject,the sons of Morna,1.0,0.0,1.0,unknown,0.0,tertiary
+131,4,destroy,53,60,15310,15317,223,14.0,31.0,15271.0,15288.0,,,,,verb.contact,173,subject,the sons of Morna,1.0,0.0,1.0,unknown,0.0,tertiary
+131,6,born,86,90,15343,15347,15,80.0,81.0,15337.0,15338.0,,,,,verb.change,172,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+132,0,claim,51,56,15399,15404,15,49.0,50.0,15397.0,15398.0,,,,,verb.communication,174,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+133,0,put,25,28,15539,15542,14,10.0,24.0,15524.0,15538.0,,,,,verb.contact,175,subject,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+134,1,did,130,133,15721,15724,141,99.0,129.0,15690.0,15720.0,,,,,verb.social,176,subject,all the chief men of the Fians,1.0,0.0,1.0,male,1.0,tertiary
+134,3,installed,188,197,15779,15788,15,148.0,163.0,15739.0,15754.0,,,,,verb.social,177,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+134,4,put,234,237,15825,15828,15,148.0,163.0,15739.0,15754.0,,,,,verb.contact,178,subject,Finn,29.0,77.0,106.0,male,1.0,primary
+3,2,had,75,78,275,278,33,79.0,90.0,279.0,290.0,,,,,verb.possession,0,direct_object,no brothers,1.0,0.0,1.0,male,1.0,tertiary
+4,2,trying,80,86,372,378,34,87.0,112.0,379.0,404.0,,,,,verb.social,1,direct_object,"The sons of Morna , who kept the boy Finn out of his rights and were at the time trying to kill him if they could",1.0,2.0,3.0,male,1.0,tertiary
+4,2,trying,80,86,372,378,35,87.0,112.0,379.0,404.0,,,,,verb.social,1,direct_object,the boy,1.0,2.0,3.0,male,1.0,tertiary
+4,3,kill,90,94,382,386,35,95.0,98.0,387.0,390.0,99.0,112.0,391.0,404.0,verb.contact,3,direct_object,the boy,1.0,2.0,3.0,male,1.0,tertiary
+11,0,seemed,3,9,945,951,43,10.0,49.0,952.0,991.0,,,,,verb.perception,9,direct_object,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+18,0,leaned,9,15,1854,1860,13,16.0,45.0,1861.0,1890.0,,,,,verb.contact,12,direct_object,Art,4.0,1.0,5.0,male,1.0,tertiary
+18,0,leaned,9,15,1854,1860,48,16.0,45.0,1861.0,1890.0,,,,,verb.contact,12,direct_object,the King,4.0,4.0,8.0,male,1.0,tertiary
+18,0,leaned,9,15,1854,1860,49,16.0,45.0,1861.0,1890.0,,,,,verb.contact,12,direct_object,the King's son,1.0,0.0,1.0,unknown,0.0,tertiary
+18,1,said,51,55,1896,1900,13,56.0,93.0,1901.0,1938.0,,,,,verb.communication,14,direct_object,Art,4.0,1.0,5.0,male,1.0,tertiary
+18,1,said,51,55,1896,1900,50,56.0,93.0,1901.0,1938.0,,,,,verb.communication,14,direct_object,a certain Druid who sat beside Art,1.0,0.0,1.0,unknown,0.0,tertiary
+18,1,said,51,55,1896,1900,16,56.0,93.0,1901.0,1938.0,,,,,verb.communication,14,direct_object,Midna,6.0,3.0,9.0,male,1.0,tertiary
+18,1,said,51,55,1896,1900,154,56.0,93.0,1901.0,1938.0,,,,,verb.communication,14,direct_object,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+18,2,sat,79,82,1924,1927,13,83.0,93.0,1928.0,1938.0,,,,,verb.contact,13,direct_object,Art,4.0,1.0,5.0,male,1.0,tertiary
+19,1,said,13,17,2002,2006,51,18.0,27.0,2007.0,2016.0,,,,,verb.communication,17,direct_object,the Druid,1.0,0.0,1.0,unknown,0.0,tertiary
+21,0,heard,24,29,2170,2175,43,30.0,169.0,2176.0,2315.0,175.0,222.0,2321.0,2368.0,verb.perception,16,direct_object,these warriors,1.0,5.0,6.0,group/nonbinary,1.0,tertiary
+29,3,possessing,236,246,3055,3065,162,247.0,443.0,3066.0,3262.0,,,,,verb.possession,19,direct_object,a wanderer,1.0,0.0,1.0,unknown,0.0,tertiary
+29,3,possessing,236,246,3055,3065,163,247.0,443.0,3066.0,3262.0,,,,,verb.possession,19,direct_object,an outlaw,1.0,0.0,1.0,unknown,0.0,tertiary
+29,3,possessing,236,246,3055,3065,165,247.0,443.0,3066.0,3262.0,,,,,verb.possession,19,direct_object,"illustrious prince , on the eve of the great festival of Samhain",1.0,0.0,1.0,male,1.0,tertiary
+30,0,answered,37,45,3302,3310,48,46.0,54.0,3311.0,3319.0,76.0,104.0,3341.0,3369.0,verb.communication,20,direct_object,the King,4.0,4.0,8.0,male,1.0,tertiary
+31,0,think,2,7,3373,3378,167,36.0,116.0,3407.0,3487.0,,,,,verb.cognition,21,direct_object,some mighty king on whom disaster has fallen undeserved,1.0,0.0,1.0,male,1.0,tertiary
+33,0,sit,0,3,3582,3585,58,4.0,8.0,3586.0,3590.0,12.0,23.0,,,verb.motion,23,direct_object,An attendant,1.0,4.0,5.0,unknown,0.0,tertiary
+33,0,sit,0,3,3582,3585,170,4.0,8.0,3586.0,3590.0,12.0,23.0,,,verb.motion,23,direct_object,An attendant's only son,1.0,0.0,1.0,unknown,0.0,tertiary
+33,0,sit,0,3,3582,3585,13,4.0,8.0,3586.0,3590.0,12.0,23.0,,,verb.motion,23,direct_object,Art,4.0,1.0,5.0,male,1.0,tertiary
+34,0,took,13,17,3674,3678,59,18.0,29.0,3679.0,3690.0,,,,,verb.contact,24,direct_object,the youth,1.0,0.0,1.0,unknown,0.0,tertiary
+34,0,took,13,17,3674,3678,48,18.0,29.0,3679.0,3690.0,,,,,verb.contact,24,direct_object,the King,4.0,4.0,8.0,male,1.0,tertiary
+35,1,set,16,19,3827,3830,15,20.0,73.0,3831.0,3884.0,,,,,verb.creation,26,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+36,0,entered,19,26,3905,3912,15,27.0,64.0,3913.0,3950.0,,,,,verb.motion,28,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+37,3,said,53,57,4005,4009,180,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,the stranger,1.0,0.0,1.0,unknown,0.0,tertiary
+37,3,said,53,57,4005,4009,172,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,O illustrious prince,1.0,0.0,1.0,male,1.0,tertiary
+37,3,said,53,57,4005,4009,178,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,the man of the house,1.0,0.0,1.0,male,1.0,tertiary
+37,3,said,53,57,4005,4009,176,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,a kindly host,1.0,0.0,1.0,unknown,0.0,tertiary
+37,3,said,53,57,4005,4009,173,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,a guest,1.0,2.0,3.0,male,1.0,tertiary
+37,3,said,53,57,4005,4009,177,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,a guest's guest,1.0,0.0,1.0,unknown,0.0,tertiary
+37,3,said,53,57,4005,4009,48,58.0,69.0,4010.0,4021.0,,,,,verb.communication,32,direct_object,the King,4.0,4.0,8.0,male,1.0,tertiary
+40,4,restore,96,103,4558,4565,185,104.0,107.0,4566.0,4569.0,128.0,190.0,4590.0,4652.0,verb.social,35,direct_object,a person,1.0,1.0,2.0,male,1.0,tertiary
+47,0,descending,0,10,5132,5142,187,15.0,35.0,5147.0,5167.0,,,,,verb.cognition,36,direct_object,"a mighty enchanter whose dwelling is in the haunted mountains of Slieve Gullion in the north . His name is Allen , son of Midna",1.0,10.0,11.0,male,1.0,tertiary
+49,3,declared,102,110,5422,5430,12,111.0,125.0,5431.0,5445.0,,,,,verb.communication,39,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+50,0,said,7,11,5486,5490,193,29.0,53.0,5508.0,5532.0,,,,,verb.communication,41,direct_object,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+50,0,said,7,11,5486,5490,12,29.0,53.0,5508.0,5532.0,,,,,verb.communication,41,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+50,3,repel,80,85,5559,5564,187,86.0,89.0,5565.0,5568.0,,,,,verb.social,40,direct_object,"a mighty enchanter whose dwelling is in the haunted mountains of Slieve Gullion in the north . His name is Allen , son of Midna",1.0,10.0,11.0,male,1.0,tertiary
+50,4,kill,94,98,5573,5577,187,99.0,102.0,5578.0,5581.0,,,,,verb.social,42,direct_object,"a mighty enchanter whose dwelling is in the haunted mountains of Slieve Gullion in the north . His name is Allen , son of Midna",1.0,10.0,11.0,male,1.0,tertiary
+52,0,said,0,4,5592,5596,193,5.0,9.0,5597.0,5601.0,,,,,verb.communication,44,direct_object,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+52,0,said,0,4,5592,5596,194,5.0,9.0,5597.0,5601.0,,,,,verb.communication,44,direct_object,this man,4.0,3.0,7.0,male,1.0,tertiary
+52,0,said,0,4,5592,5596,12,5.0,9.0,5597.0,5601.0,,,,,verb.communication,44,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+54,0,plays,22,27,5760,5765,154,28.0,100.0,5766.0,5838.0,,,,,verb.creation,45,direct_object,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+54,1,falls,125,130,5863,5868,193,131.0,142.0,5869.0,5880.0,,,,,verb.motion,46,direct_object,Conn the Hundred - Fighter's young warriors,1.0,4.0,5.0,unknown,0.0,tertiary
+55,0,comes,3,8,5962,5967,194,9.0,17.0,5968.0,5976.0,,,,,verb.motion,48,direct_object,this man,4.0,3.0,7.0,male,1.0,tertiary
+55,1,shoots,39,45,5998,6004,194,46.0,60.0,6005.0,6019.0,61.0,71.0,,,verb.competition,50,direct_object,this man,4.0,3.0,7.0,male,1.0,tertiary
+56,1,burnt,18,23,6075,6080,1,24.0,28.0,6081.0,6085.0,29.0,43.0,6086.0,6100.0,verb.contact,49,direct_object,Tara,8.0,0.0,8.0,unknown,0.0,tertiary
+58,4,defend,115,121,6291,6297,200,122.0,188.0,6298.0,6364.0,,,,,verb.competition,53,direct_object,all the Fians,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+58,4,defend,115,121,6291,6297,14,122.0,188.0,6298.0,6364.0,,,,,verb.competition,53,direct_object,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+58,4,defend,115,121,6291,6297,12,122.0,188.0,6298.0,6364.0,,,,,verb.competition,53,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+59,1,prevailed,53,62,6419,6428,200,63.0,72.0,6429.0,6438.0,73.0,119.0,6439.0,6485.0,verb.social,56,direct_object,all the Fians,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+60,1,believe,26,33,6513,6520,154,34.0,114.0,6521.0,6601.0,,,,,verb.cognition,59,direct_object,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+65,2,kill,30,34,6893,6897,194,35.0,43.0,6898.0,6906.0,,,,,verb.contact,61,direct_object,this man,4.0,3.0,7.0,male,1.0,tertiary
+65,3,save,48,52,6911,6915,1,53.0,57.0,6916.0,6920.0,,,,,verb.social,62,direct_object,Tara,8.0,0.0,8.0,unknown,0.0,tertiary
+67,0,answered,19,27,6954,6962,48,28.0,36.0,6963.0,6971.0,,,,,verb.communication,63,direct_object,the King,4.0,4.0,8.0,male,1.0,tertiary
+68,0,give,22,26,7067,7071,48,27.0,30.0,7072.0,7075.0,,,,,verb.possession,66,direct_object,the King,4.0,4.0,8.0,male,1.0,tertiary
+68,0,give,22,26,7067,7071,214,27.0,30.0,7072.0,7075.0,,,,,verb.possession,66,direct_object,the Chief of the Fians,1.0,0.0,1.0,unknown,0.0,tertiary
+68,0,give,22,26,7067,7071,14,27.0,30.0,7072.0,7075.0,,,,,verb.possession,66,direct_object,Gaul,11.0,0.0,11.0,unknown,0.0,tertiary
+68,0,give,22,26,7067,7071,213,27.0,30.0,7072.0,7075.0,,,,,verb.possession,66,direct_object,the King's son,1.0,0.0,1.0,unknown,0.0,tertiary
+69,1,misgave,103,110,7238,7245,65,111.0,115.0,7246.0,7250.0,,,,,verb.cognition,64,direct_object,the captains of the Fianna,1.0,2.0,3.0,group/nonbinary,1.0,tertiary
+69,1,misgave,103,110,7238,7245,67,111.0,115.0,7246.0,7250.0,,,,,verb.cognition,64,direct_object,the great youth,1.0,0.0,1.0,unknown,0.0,tertiary
+70,1,armed,25,30,7312,7317,68,31.0,41.0,7318.0,7328.0,,,,,verb.competition,68,direct_object,,,,,,,
+70,3,raised,121,127,7408,7414,69,128.0,186.0,7415.0,7473.0,,,,,verb.communication,69,direct_object,Conn the Hundred - Fighter's people,1.0,0.0,1.0,unknown,0.0,tertiary
+70,3,raised,121,127,7408,7414,12,128.0,186.0,7415.0,7473.0,,,,,verb.communication,69,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+70,4,enjoining,151,160,7438,7447,69,161.0,170.0,7448.0,7457.0,,,,,verb.communication,70,direct_object,Conn the Hundred - Fighter's people,1.0,0.0,1.0,unknown,0.0,tertiary
+70,4,enjoining,151,160,7438,7447,12,161.0,170.0,7448.0,7457.0,,,,,verb.communication,70,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+70,6,addressing,228,238,7515,7525,20,239.0,248.0,7526.0,7535.0,,,,,verb.communication,71,direct_object,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+70,7,filled,270,276,7557,7563,20,277.0,287.0,7564.0,7574.0,,,,,verb.change,72,direct_object,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+70,9,thrust,359,365,7646,7652,20,366.0,392.0,7653.0,7679.0,,,,,verb.contact,73,direct_object,the Fians,3.0,7.0,10.0,group/nonbinary,1.0,tertiary
+71,4,washed,81,87,7779,7785,15,88.0,110.0,7786.0,7808.0,,,,,verb.body,75,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+71,5,took,133,137,7831,7835,15,138.0,146.0,7836.0,7844.0,,,,,verb.change,77,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+71,5,took,133,137,7831,7835,72,138.0,146.0,7836.0,7844.0,,,,,verb.change,77,direct_object,Finn's father,2.0,0.0,2.0,male,1.0,tertiary
+72,0,stood,20,25,8004,8009,15,26.0,36.0,8010.0,8020.0,38.0,96.0,8022.0,8080.0,verb.contact,78,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+76,1,called,89,95,8424,8430,21,96.0,115.0,8431.0,8450.0,,,,,verb.communication,80,direct_object,the Tuatha De Danan,1.0,0.0,1.0,unknown,0.0,tertiary
+78,0,gave,8,12,8598,8602,15,13.0,25.0,8603.0,8615.0,,,,,verb.possession,81,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+78,2,instructed,51,61,8641,8651,15,62.0,65.0,8652.0,8655.0,66.0,78.0,8656.0,8668.0,verb.communication,83,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+79,1,armed,20,25,8707,8712,15,26.0,33.0,8713.0,8720.0,,,,,verb.competition,87,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+82,0,stood,5,10,9303,9308,15,11.0,60.0,9309.0,9358.0,61.0,122.0,9359.0,9420.0,verb.contact,89,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+82,2,called,50,56,9348,9354,12,57.0,122.0,9355.0,9420.0,,,,,verb.communication,88,direct_object,Conn the Hundred - Fighter,12.0,21.0,33.0,male,1.0,tertiary
+84,1,clashed,207,214,9875,9882,92,215.0,227.0,9883.0,9895.0,228.0,368.0,9896.0,10036.0,verb.contact,93,direct_object,the host,3.0,3.0,6.0,group/nonbinary,1.0,tertiary
+84,2,began,337,342,10005,10010,92,343.0,368.0,10011.0,10036.0,,,,,verb.change,94,direct_object,the host,3.0,3.0,6.0,group/nonbinary,1.0,tertiary
+84,3,steal,346,351,10014,10019,92,352.0,368.0,10020.0,10036.0,,,,,verb.possession,95,direct_object,the host,3.0,3.0,6.0,group/nonbinary,1.0,tertiary
+87,0,put,5,8,10264,10267,15,9.0,31.0,10268.0,10290.0,,,,,verb.contact,96,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+88,0,burned,3,9,10311,10317,15,10.0,13.0,10318.0,10321.0,14.0,23.0,10322.0,10331.0,verb.perception,97,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+91,0,pressed,5,12,10621,10628,15,13.0,56.0,10629.0,10672.0,,,,,verb.contact,100,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+91,4,held,113,117,10729,10733,99,118.0,134.0,10734.0,10750.0,,,,,verb.contact,101,direct_object,a drunken man,1.0,0.0,1.0,male,1.0,tertiary
+96,0,heard,3,8,11053,11058,94,9.0,62.0,11059.0,11112.0,,,,,verb.perception,106,direct_object,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+96,2,saw,68,71,11118,11121,94,72.0,114.0,11122.0,11164.0,,,,,verb.creation,108,direct_object,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+97,3,blew,88,92,11254,11258,94,93.0,108.0,11259.0,11274.0,,,,,verb.creation,112,direct_object,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+100,0,saw,8,11,11469,11472,1,12.0,93.0,11473.0,11554.0,,,,,verb.cognition,117,direct_object,Tara,8.0,0.0,8.0,unknown,0.0,tertiary
+100,0,saw,8,11,11469,11472,75,12.0,93.0,11473.0,11554.0,,,,,verb.cognition,117,direct_object,The man,2.0,7.0,9.0,male,1.0,tertiary
+101,0,saw,25,28,11581,11584,15,29.0,70.0,11585.0,11626.0,,,,,verb.perception,118,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+101,0,saw,25,28,11581,11584,109,29.0,70.0,11585.0,11626.0,,,,,verb.perception,118,direct_object,Finn's conqueror,1.0,0.0,1.0,unknown,0.0,tertiary
+101,1,recognised,46,56,11602,11612,15,57.0,70.0,11613.0,11626.0,,,,,verb.cognition,119,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+101,1,recognised,46,56,11602,11612,109,57.0,70.0,11613.0,11626.0,,,,,verb.cognition,119,direct_object,Finn's conqueror,1.0,0.0,1.0,unknown,0.0,tertiary
+102,5,recover,102,109,11730,11737,15,110.0,148.0,11738.0,11776.0,149.0,191.0,11777.0,11819.0,verb.possession,124,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+102,8,overtake,200,208,11828,11836,15,209.0,212.0,11837.0,11840.0,,,,,verb.competition,122,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+103,5,pursued,56,63,11898,11905,75,64.0,67.0,11906.0,11909.0,69.0,80.0,,,verb.motion,125,direct_object,The man,2.0,7.0,9.0,male,1.0,tertiary
+104,0,perceived,8,17,11932,11941,15,18.0,73.0,11942.0,11997.0,,,,,verb.cognition,126,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+104,0,perceived,8,17,11932,11941,112,18.0,73.0,11942.0,11997.0,,,,,verb.cognition,126,direct_object,the swift enchanter,1.0,0.0,1.0,unknown,0.0,tertiary
+104,2,overtake,45,53,11969,11977,112,54.0,73.0,11978.0,11997.0,,,,,verb.competition,127,direct_object,the swift enchanter,1.0,0.0,1.0,unknown,0.0,tertiary
+106,3,cast,49,53,12134,12138,75,54.0,63.0,12139.0,12148.0,,,,,verb.creation,129,direct_object,The man,2.0,7.0,9.0,male,1.0,tertiary
+109,1,found,63,68,12313,12318,16,69.0,86.0,12319.0,12336.0,,,,,verb.possession,131,direct_object,Midna,6.0,3.0,9.0,male,1.0,tertiary
+112,0,drew,5,9,12452,12456,15,10.0,19.0,12457.0,12466.0,,,,,verb.contact,132,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+112,1,cut,24,27,12471,12474,94,32.0,52.0,12479.0,12499.0,,,,,verb.contact,133,direct_object,The enchanter,5.0,4.0,9.0,male,1.0,tertiary
+112,2,returned,58,66,12505,12513,1,75.0,82.0,12522.0,12529.0,,,,,verb.motion,134,direct_object,Tara,8.0,0.0,8.0,unknown,0.0,tertiary
+113,0,came,8,12,12539,12543,15,13.0,72.0,12544.0,12603.0,,,,,verb.motion,136,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+115,1,called,7,13,12813,12819,16,14.0,42.0,12820.0,12848.0,,,,,verb.communication,137,direct_object,Midna,6.0,3.0,9.0,male,1.0,tertiary
+115,1,called,7,13,12813,12819,154,14.0,42.0,12820.0,12848.0,,,,,verb.communication,137,direct_object,the son of Midna,6.0,4.0,10.0,male,1.0,tertiary
+118,1,overshadowed,89,101,13224,13236,15,102.0,105.0,13237.0,13240.0,107.0,163.0,13242.0,13298.0,verb.change,138,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+118,3,give,131,135,13266,13270,15,136.0,143.0,13271.0,13278.0,144.0,163.0,13279.0,13298.0,verb.possession,139,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+119,0,recalled,7,15,13307,13315,15,16.0,48.0,13316.0,13348.0,,,,,verb.cognition,140,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+119,4,made,147,151,13447,13451,15,152.0,157.0,13452.0,13457.0,,,,,verb.creation,141,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+119,5,lifting,182,189,13482,13489,15,190.0,192.0,13490.0,13492.0,,,,,verb.contact,142,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+119,7,began,228,233,13528,13533,15,234.0,259.0,13534.0,13559.0,,,,,verb.change,144,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+119,9,returned,274,282,13574,13582,15,283.0,295.0,13583.0,13595.0,,,,,verb.change,146,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+120,1,rested,7,13,13655,13661,15,14.0,21.0,13662.0,13669.0,22.0,34.0,,,verb.contact,145,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+120,1,rested,7,13,13655,13661,121,14.0,21.0,13662.0,13669.0,22.0,34.0,,,verb.contact,145,direct_object,the sleeping host,1.0,0.0,1.0,unknown,0.0,tertiary
+120,3,shouted,53,60,13701,13708,121,61.0,81.0,13709.0,13729.0,,,,,verb.communication,147,direct_object,the sleeping host,1.0,0.0,1.0,unknown,0.0,tertiary
+120,5,called,87,93,13735,13741,91,94.0,106.0,13742.0,13754.0,107.0,143.0,13755.0,13791.0,verb.communication,148,direct_object,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+121,6,avoid,125,130,13917,13922,15,131.0,181.0,13923.0,13973.0,,,,,verb.communication,150,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+122,1,astonished,10,20,13985,13995,125,21.0,230.0,13996.0,14205.0,,,,,verb.emotion,152,direct_object,men,1.0,0.0,1.0,male,1.0,tertiary
+122,2,find,24,28,13999,14003,125,29.0,230.0,14004.0,14205.0,,,,,verb.perception,154,direct_object,men,1.0,0.0,1.0,male,1.0,tertiary
+123,1,said,37,41,14244,14248,16,44.0,62.0,14251.0,14269.0,,,,,verb.communication,156,direct_object,Midna,6.0,3.0,9.0,male,1.0,tertiary
+123,1,said,37,41,14244,14248,15,44.0,62.0,14251.0,14269.0,,,,,verb.communication,156,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+123,3,slain,51,56,14258,14263,16,57.0,62.0,14264.0,14269.0,,,,,verb.contact,155,direct_object,Midna,6.0,3.0,9.0,male,1.0,tertiary
+125,0,asked,5,10,14298,14303,91,12.0,44.0,14305.0,14337.0,,,,,verb.communication,158,direct_object,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+125,0,asked,5,10,14298,14303,15,12.0,44.0,14305.0,14337.0,,,,,verb.communication,158,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+125,0,asked,5,10,14298,14303,127,12.0,44.0,14305.0,14337.0,,,,,verb.communication,158,direct_object,men slain in battle,1.0,0.0,1.0,male,1.0,tertiary
+125,1,disbelieved,29,40,14322,14333,15,41.0,44.0,14334.0,14337.0,,,,,verb.cognition,157,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+127,0,followed,41,49,14495,14503,129,50.0,64.0,14504.0,14518.0,65.0,143.0,14519.0,14597.0,verb.motion,159,direct_object,the young hero,1.0,0.0,1.0,unknown,0.0,tertiary
+127,3,saw,159,162,14613,14616,16,163.0,188.0,14617.0,14642.0,189.0,217.0,14643.0,14671.0,verb.perception,162,direct_object,Midna,6.0,3.0,9.0,male,1.0,tertiary
+127,12,praised,346,353,14800,14807,91,354.0,369.0,14808.0,14823.0,,,,,verb.communication,165,direct_object,the captains,4.0,10.0,14.0,group/nonbinary,1.0,tertiary
+127,12,praised,346,353,14800,14807,133,354.0,369.0,14808.0,14823.0,,,,,verb.communication,165,direct_object,the captains's deliverer,1.0,1.0,2.0,male,1.0,tertiary
+127,13,paid,374,378,14828,14832,133,379.0,382.0,14833.0,14836.0,,,,,verb.possession,166,direct_object,the captains's deliverer,1.0,1.0,2.0,male,1.0,tertiary
+129,0,said,0,4,14886,14890,219,5.0,159.0,14891.0,15045.0,,,,,verb.communication,168,direct_object,the sons of inconsiderable and unknown men,1.0,0.0,1.0,male,1.0,tertiary
+129,0,said,0,4,14886,14890,218,5.0,159.0,14891.0,15045.0,,,,,verb.communication,168,direct_object,some great king or champion,1.0,0.0,1.0,male,1.0,tertiary
+129,0,said,0,4,14886,14890,23,5.0,159.0,14891.0,15045.0,,,,,verb.communication,168,direct_object,Conn.,1.0,0.0,1.0,unknown,0.0,tertiary
+129,0,said,0,4,14886,14890,217,5.0,159.0,14891.0,15045.0,,,,,verb.communication,168,direct_object,the son of some great king or champion,1.0,0.0,1.0,male,1.0,tertiary
+129,2,performed,104,113,14990,14999,219,114.0,159.0,15000.0,15045.0,,,,,verb.creation,167,direct_object,the sons of inconsiderable and unknown men,1.0,0.0,1.0,male,1.0,tertiary
+130,0,flung,10,15,15058,15063,15,21.0,51.0,15069.0,15099.0,,,,,verb.contact,169,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+130,1,holding,57,64,15105,15112,15,65.0,90.0,15113.0,15138.0,103.0,118.0,,,verb.contact,171,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+130,1,holding,57,64,15105,15112,72,65.0,90.0,15113.0,15138.0,103.0,118.0,,,verb.contact,171,direct_object,Finn's father,2.0,0.0,2.0,male,1.0,tertiary
+131,3,seeking,42,49,15299,15306,15,50.0,90.0,15307.0,15347.0,,,,,verb.contact,170,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+132,0,claim,51,56,15399,15404,226,57.0,163.0,15405.0,15511.0,,,,,verb.communication,174,direct_object,the Fian leadership of Fail,2.0,0.0,2.0,unknown,0.0,tertiary
+132,0,claim,51,56,15399,15404,15,57.0,163.0,15405.0,15511.0,,,,,verb.communication,174,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+132,0,claim,51,56,15399,15404,224,57.0,163.0,15405.0,15511.0,,,,,verb.communication,174,direct_object,O King of the Kings of Erin,1.0,1.0,2.0,male,1.0,tertiary
+133,0,put,25,28,15539,15542,15,29.0,43.0,15543.0,15557.0,,,,,verb.contact,175,direct_object,Finn,29.0,77.0,106.0,male,1.0,primary
+134,3,installed,188,197,15779,15788,142,198.0,228.0,15789.0,15819.0,,,,,verb.social,177,direct_object,the Fian leadership of Erin,1.0,0.0,1.0,unknown,0.0,tertiary
+134,4,put,234,237,15825,15828,152,303.0,334.0,15894.0,15925.0,,,,,verb.contact,178,direct_object,the merchants's mariners,1.0,0.0,1.0,unknown,0.0,tertiary
+134,4,put,234,237,15825,15828,226,303.0,334.0,15894.0,15925.0,,,,,verb.contact,178,direct_object,the Fian leadership of Fail,2.0,0.0,2.0,unknown,0.0,tertiary
+134,4,put,234,237,15825,15828,148,303.0,334.0,15894.0,15925.0,,,,,verb.contact,178,direct_object,the merchants,1.0,1.0,2.0,group/nonbinary,1.0,tertiary

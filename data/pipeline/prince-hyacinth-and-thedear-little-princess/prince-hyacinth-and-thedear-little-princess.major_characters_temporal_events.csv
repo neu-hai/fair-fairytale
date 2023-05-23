@@ -1,0 +1,176 @@
+sentence_id,event_id,event,verb_start_byte,verb_end_byte,verb_start_byte_text,verb_end_byte_text,coref_id,arg_start_byte_sentence,arg_end_byte_sentence,arg_start_byte_text,arg_end_byte_text,adobj_start_bytes,adobj_end_bytes,adobj_start_bytes_text,adobj_end_bytes_text,supersense_category,major_event,temporal_rank,argument,name,name_mentions,pronoun_mentions,total_mentions,gender,gender_certainty,importance
+0,3,marry,94.0,99.0,94.0,99.0,4,80.0,83.0,80.0,83.0,108.0,144.0,,,verb.social,True,0,subject,a princess,2,2,4,female,1.0,tertiary
+1,1,seek,23.0,27.0,169.0,173.0,6,3.0,11.0,149.0,157.0,,,,,verb.possession,True,1,subject,the King,9,29,38,male,1.0,tertiary
+2,1,know,28.0,32.0,266.0,270.0,6,24.0,27.0,262.0,265.0,,,,,verb.cognition,True,2,subject,the King,9,29,38,male,1.0,tertiary
+3,5,marry,83.0,88.0,415.0,420.0,8,56.0,63.0,388.0,395.0,,,,,verb.social,True,4,subject,The Princess,8,9,17,female,1.0,tertiary
+4,6,tread,148.0,153.0,571.0,576.0,6,68.0,70.0,491.0,493.0,160.0,166.0,583.0,589.0,verb.cognition,True,3,subject,the King,9,29,38,male,1.0,tertiary
+5,3,went,47.0,51.0,638.0,642.0,6,44.0,46.0,635.0,637.0,,,,,verb.motion,True,5,subject,the King,9,29,38,male,1.0,tertiary
+6,1,thought,37.0,44.0,762.0,769.0,6,0.0,8.0,725.0,733.0,,,,,verb.cognition,True,6,subject,the King,9,29,38,male,1.0,tertiary
+7,2,think,57.0,62.0,921.0,926.0,6,39.0,47.0,903.0,911.0,,,,,verb.cognition,True,7,subject,the King,9,29,38,male,1.0,tertiary
+9,1,set,38.0,41.0,1158.0,1161.0,6,3.0,11.0,1123.0,1131.0,59.0,66.0,1179.0,1186.0,verb.contact,True,8,subject,the King,9,29,38,male,1.0,tertiary
+10,6,marry,139.0,144.0,1327.0,1332.0,6,129.0,132.0,1317.0,1320.0,158.0,209.0,1346.0,1397.0,verb.social,True,9,subject,the King,9,29,38,male,1.0,tertiary
+12,3,laughing,72.0,80.0,1735.0,1743.0,6,54.0,56.0,1717.0,1719.0,,,,,verb.body,True,11,subject,the King,9,29,38,male,1.0,tertiary
+13,4,feel,88.0,92.0,1848.0,1852.0,137,63.0,65.0,1823.0,1825.0,,,,,verb.perception,True,12,subject,the King's son,1,2,3,male,1.0,tertiary
+16,3,died,65.0,69.0,2119.0,2123.0,6,56.0,64.0,2110.0,2118.0,,,,,verb.change,True,13,subject,the King,9,29,38,male,1.0,tertiary
+19,2,assured,72.0,79.0,2450.0,2457.0,30,61.0,71.0,2439.0,2449.0,,,,,verb.communication,True,16,subject,the Queen's ladies,1,2,3,female,1.0,tertiary
+19,2,assured,72.0,79.0,2450.0,2457.0,25,61.0,71.0,2439.0,2449.0,,,,,verb.communication,True,16,subject,the Queen,6,9,15,female,1.0,tertiary
+20,4,has,87.0,90.0,2594.0,2597.0,32,76.0,86.0,2583.0,2593.0,,,,,verb.possession,True,15,subject,every hero,1,0,1,unknown,0.0,tertiary
+21,3,looked,90.0,96.0,2702.0,2708.0,25,86.0,89.0,2698.0,2701.0,109.0,114.0,2721.0,2726.0,verb.perception,True,17,subject,the Queen,6,9,15,female,1.0,tertiary
+23,1,speak,26.0,31.0,2851.0,2856.0,35,17.0,19.0,2842.0,2844.0,,,,,verb.communication,True,19,subject,The Prince,18,101,119,male,1.0,primary
+26,1,learned,25.0,32.0,3260.0,3267.0,35,22.0,24.0,3257.0,3259.0,,,,,verb.cognition,True,20,subject,The Prince,18,101,119,male,1.0,primary
+27,3,tell,94.0,98.0,3370.0,3374.0,44,68.0,80.0,3344.0,3356.0,,,,,verb.communication,True,22,subject,The Prince's teachers,1,1,2,group/nonbinary,1.0,tertiary
+27,3,tell,94.0,98.0,3370.0,3374.0,35,68.0,80.0,3344.0,3356.0,,,,,verb.communication,True,22,subject,The Prince,18,101,119,male,1.0,primary
+28,1,hung,13.0,17.0,3418.0,3422.0,35,0.0,8.0,3405.0,3413.0,,,,,verb.contact,True,21,subject,The Prince,18,101,119,male,1.0,primary
+30,6,married,87.0,94.0,3708.0,3715.0,35,74.0,76.0,3695.0,3697.0,,,,,verb.social,True,24,subject,The Prince,18,101,119,male,1.0,primary
+32,1,spare,42.0,47.0,4010.0,4015.0,0,5.0,20.0,3973.0,3988.0,,,,,verb.consumption,True,23,subject,Prince,9,12,21,male,1.0,tertiary
+33,8,laughing,290.0,298.0,4372.0,4380.0,38,279.0,289.0,4361.0,4371.0,307.0,336.0,4389.0,4418.0,verb.body,True,25,subject,the courtiers,2,5,7,group/nonbinary,1.0,tertiary
+37,2,ask,103.0,106.0,5139.0,5142.0,67,88.0,99.0,5124.0,5135.0,,,,,verb.communication,True,29,subject,ambassadors,1,0,1,unknown,0.0,tertiary
+38,0,gave,22.0,26.0,5203.0,5207.0,50,0.0,21.0,5181.0,5202.0,,,,,verb.possession,True,30,subject,the Dear Little Princess,6,6,12,female,1.0,tertiary
+38,0,gave,22.0,26.0,5203.0,5207.0,70,0.0,21.0,5181.0,5202.0,,,,,verb.possession,True,30,subject,the Dear Little Princess's father,1,0,1,male,1.0,tertiary
+38,0,gave,22.0,26.0,5203.0,5207.0,6,0.0,21.0,5181.0,5202.0,,,,,verb.possession,True,30,subject,the King,9,29,38,male,1.0,tertiary
+39,6,kiss,120.0,124.0,5340.0,5344.0,8,5.0,97.0,5225.0,5317.0,,,,,verb.contact,True,31,subject,The Princess,8,9,17,female,1.0,tertiary
+39,6,kiss,120.0,124.0,5340.0,5344.0,0,5.0,97.0,5225.0,5317.0,,,,,verb.contact,True,31,subject,Prince,9,12,21,male,1.0,tertiary
+40,12,rode,223.0,227.0,5759.0,5763.0,35,198.0,200.0,5734.0,5736.0,,,,,verb.motion,True,33,subject,The Prince,18,101,119,male,1.0,primary
+41,2,rode,72.0,76.0,5888.0,5892.0,35,69.0,71.0,5885.0,5887.0,,,,,verb.motion,True,32,subject,The Prince,18,101,119,male,1.0,primary
+42,0,rode,3.0,7.0,6080.0,6084.0,35,0.0,2.0,6077.0,6079.0,,,,,verb.motion,True,34,subject,The Prince,18,101,119,male,1.0,primary
+43,4,fix,100.0,103.0,6272.0,6275.0,82,90.0,93.0,6262.0,6265.0,109.0,152.0,6281.0,6324.0,verb.change,True,35,subject,"a little old woman , who appeared to be at least a hundred years old",1,5,6,female,1.0,tertiary
+45,0,said,28.0,32.0,6535.0,6539.0,9,1.0,25.0,6508.0,6532.0,,,,,verb.communication,True,36,subject,the Fairy,15,47,62,female,1.0,secondary
+47,0,said,21.0,25.0,6767.0,6771.0,9,1.0,18.0,6747.0,6764.0,,,,,verb.communication,True,39,subject,the Fairy,15,47,62,female,1.0,secondary
+49,0,loved,2.0,7.0,6870.0,6875.0,9,0.0,1.0,6868.0,6869.0,20.0,48.0,6888.0,6916.0,verb.emotion,True,38,subject,the Fairy,15,47,62,female,1.0,secondary
+57,1,telling,6.0,13.0,7186.0,7193.0,9,0.0,1.0,7180.0,7181.0,,,,,verb.communication,True,42,subject,the Fairy,15,47,62,female,1.0,secondary
+58,3,know,56.0,60.0,7286.0,7290.0,35,47.0,50.0,7277.0,7280.0,,,,,verb.cognition,True,44,subject,The Prince,18,101,119,male,1.0,primary
+59,1,say,22.0,25.0,7350.0,7353.0,141,11.0,13.0,7339.0,7341.0,,,,,verb.communication,True,45,subject,The Prince's father,4,8,12,male,1.0,tertiary
+60,2,tell,17.0,21.0,7375.0,7379.0,9,0.0,1.0,7358.0,7359.0,,,,,verb.communication,True,46,subject,the Fairy,15,47,62,female,1.0,secondary
+61,5,hear,88.0,92.0,7528.0,7532.0,35,60.0,62.0,7500.0,7502.0,,,,,verb.perception,True,48,subject,The Prince,18,101,119,male,1.0,primary
+62,1,beg,24.0,27.0,7560.0,7563.0,35,22.0,23.0,7558.0,7559.0,,,,,verb.communication,True,47,subject,The Prince,18,101,119,male,1.0,primary
+63,1,said,25.0,29.0,7637.0,7641.0,149,1.0,22.0,7613.0,7634.0,,,,,verb.communication,True,50,subject,The poor boy,1,0,1,male,1.0,tertiary
+64,1,forgetting,8.0,18.0,7660.0,7670.0,9,2.0,3.0,7654.0,7655.0,,,,,verb.cognition,True,49,subject,the Fairy,15,47,62,female,1.0,secondary
+65,6,tell,79.0,83.0,7751.0,7755.0,9,73.0,74.0,7745.0,7746.0,97.0,154.0,7769.0,7826.0,verb.communication,True,52,subject,the Fairy,15,47,62,female,1.0,secondary
+66,1,remember,55.0,63.0,7883.0,7891.0,9,53.0,54.0,7881.0,7882.0,,,,,verb.cognition,True,51,subject,the Fairy,15,47,62,female,1.0,secondary
+68,0,see,15.0,18.0,8040.0,8043.0,35,11.0,14.0,8036.0,8039.0,,,,,verb.cognition,True,55,subject,The Prince,18,101,119,male,1.0,primary
+69,2,got,39.0,42.0,8134.0,8137.0,9,0.0,12.0,8095.0,8107.0,,,,,verb.possession,True,54,subject,the Fairy,15,47,62,female,1.0,secondary
+69,2,got,39.0,42.0,8134.0,8137.0,156,0.0,12.0,8095.0,8107.0,,,,,verb.possession,True,54,subject,the Fairy's father--,1,0,1,unknown,0.0,tertiary
+73,1,tell,22.0,26.0,8301.0,8305.0,9,0.0,1.0,8279.0,8280.0,,,,,verb.communication,True,58,subject,the Fairy,15,47,62,female,1.0,secondary
+74,5,know,101.0,105.0,8536.0,8540.0,35,99.0,100.0,8534.0,8535.0,,,,,verb.cognition,True,60,subject,The Prince,18,101,119,male,1.0,primary
+75,1,hear,26.0,30.0,8644.0,8648.0,35,5.0,13.0,8623.0,8631.0,,,,,verb.perception,True,59,subject,The Prince,18,101,119,male,1.0,primary
+76,5,wait,104.0,108.0,8779.0,8783.0,35,90.0,93.0,8765.0,8768.0,,,,,verb.cognition,True,61,subject,The Prince,18,101,119,male,1.0,primary
+80,4,lacks,75.0,80.0,9063.0,9068.0,159,44.0,64.0,9032.0,9052.0,,,,,verb.possession,True,63,subject,the old lady,1,2,3,female,1.0,tertiary
+83,7,believe,86.0,93.0,9309.0,9316.0,161,82.0,85.0,9305.0,9308.0,,,,,verb.cognition,True,67,subject,this chatterpie who thinks she talks very little's chatterpie who thinks she talks very little,1,4,5,female,1.0,tertiary
+84,4,hear,95.0,99.0,9450.0,9454.0,35,65.0,75.0,9420.0,9430.0,,,,,verb.perception,True,68,subject,The Prince,18,101,119,male,1.0,primary
+87,0,thought,3.0,10.0,9679.0,9686.0,35,0.0,2.0,9676.0,9678.0,,,,,verb.cognition,True,71,subject,The Prince,18,101,119,male,1.0,primary
+88,3,listening,53.0,62.0,9791.0,9800.0,35,32.0,33.0,9770.0,9771.0,,,,,verb.perception,True,70,subject,The Prince,18,101,119,male,1.0,primary
+91,0,know,2.0,6.0,9971.0,9975.0,35,0.0,1.0,9969.0,9970.0,,,,,verb.cognition,True,74,subject,The Prince,18,101,119,male,1.0,primary
+93,6,laughing,98.0,106.0,10121.0,10129.0,105,57.0,92.0,10080.0,10115.0,115.0,159.0,10138.0,10182.0,verb.body,True,73,subject,The Prince's people who had praised his nose,1,0,1,unknown,0.0,tertiary
+93,6,laughing,98.0,106.0,10121.0,10129.0,35,57.0,92.0,10080.0,10115.0,115.0,159.0,10138.0,10182.0,verb.body,True,73,subject,The Prince,18,101,119,male,1.0,primary
+94,2,laugh,29.0,34.0,10212.0,10217.0,107,25.0,28.0,10208.0,10211.0,,,,,verb.body,True,72,subject,the Fairy 's maid,1,4,5,female,1.0,tertiary
+95,6,beg,120.0,123.0,10399.0,10402.0,9,118.0,119.0,10397.0,10398.0,,,,,verb.communication,True,76,subject,the Fairy,15,47,62,female,1.0,secondary
+104,0,have,21.0,25.0,10884.0,10888.0,0,0.0,16.0,10863.0,10879.0,,,,,verb.perception,True,80,subject,Prince,9,12,21,male,1.0,tertiary
+105,1,get,9.0,12.0,10899.0,10902.0,9,0.0,1.0,10890.0,10891.0,,,,,verb.change,True,82,subject,the Fairy,15,47,62,female,1.0,secondary
+106,4,mentioning,62.0,72.0,10978.0,10988.0,138,42.0,45.0,10958.0,10961.0,,,,,verb.communication,True,81,subject,madam,3,2,5,unknown,0.0,tertiary
+108,1,have,34.0,38.0,11073.0,11077.0,35,0.0,1.0,11039.0,11040.0,,,,,verb.possession,True,83,subject,The Prince,18,101,119,male,1.0,primary
+110,2,assure,70.0,76.0,11210.0,11216.0,9,68.0,69.0,11208.0,11209.0,,,,,verb.communication,True,85,subject,the Fairy,15,47,62,female,1.0,secondary
+111,0,wished,20.0,26.0,11271.0,11277.0,9,18.0,19.0,11269.0,11270.0,,,,,verb.emotion,True,84,subject,the Fairy,15,47,62,female,1.0,secondary
+112,4,try,75.0,78.0,11374.0,11377.0,9,68.0,69.0,11367.0,11368.0,,,,,verb.social,True,86,subject,the Fairy,15,47,62,female,1.0,secondary
+113,2,think,19.0,24.0,11427.0,11432.0,9,0.0,1.0,11408.0,11409.0,,,,,verb.cognition,True,87,subject,the Fairy,15,47,62,female,1.0,secondary
+115,3,rode,153.0,157.0,11675.0,11679.0,113,117.0,119.0,11639.0,11641.0,,,,,verb.motion,True,88,subject,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+116,11,hear,207.0,211.0,11901.0,11905.0,113,171.0,173.0,11865.0,11867.0,,,,,verb.perception,True,89,subject,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+118,3,fail,113.0,117.0,12109.0,12113.0,35,92.0,102.0,12088.0,12098.0,,,,,verb.social,True,91,subject,The Prince,18,101,119,male,1.0,primary
+119,4,try,91.0,94.0,12217.0,12220.0,113,54.0,56.0,12180.0,12182.0,,,,,verb.social,True,92,subject,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+120,0,failed,36.0,42.0,12277.0,12283.0,113,33.0,35.0,12274.0,12276.0,,,,,verb.social,True,93,subject,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+121,0,thought,14.0,21.0,12307.0,12314.0,113,11.0,13.0,12304.0,12306.0,,,,,verb.cognition,True,94,subject,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+122,4,prevented,92.0,101.0,12554.0,12563.0,113,71.0,84.0,12533.0,12546.0,,,,,verb.social,True,95,subject,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+125,1,talk,27.0,31.0,12918.0,12922.0,124,21.0,23.0,12912.0,12914.0,,,,,verb.communication,True,98,subject,the old Fairy,1,2,3,unknown,0.0,tertiary
+127,0,see,4.0,7.0,13064.0,13067.0,35,0.0,3.0,13060.0,13063.0,,,,,verb.cognition,True,101,subject,The Prince,18,101,119,male,1.0,primary
+130,2,fail,69.0,73.0,13322.0,13326.0,0,0.0,59.0,13253.0,13312.0,,,,,verb.social,True,100,subject,Prince,9,12,21,male,1.0,tertiary
+131,0,married,3.0,10.0,13371.0,13378.0,0,0.0,2.0,13368.0,13370.0,,,,,verb.social,True,102,subject,Prince,9,12,21,male,1.0,tertiary
+1,1,seek,23.0,27.0,169.0,173.0,7,28.0,35.0,174.0,181.0,,,,,verb.possession,True,1,direct_object,a fairy,1,0,1,unknown,0.0,tertiary
+2,1,know,28.0,32.0,266.0,270.0,8,33.0,92.0,271.0,330.0,,,,,verb.cognition,True,2,direct_object,The Princess,8,9,17,female,1.0,tertiary
+6,1,thought,37.0,44.0,762.0,769.0,6,45.0,75.0,770.0,800.0,,,,,verb.cognition,True,6,direct_object,the King,9,29,38,male,1.0,tertiary
+9,1,set,38.0,41.0,1158.0,1161.0,6,42.0,50.0,1162.0,1170.0,59.0,66.0,1179.0,1186.0,verb.contact,True,8,direct_object,the King,9,29,38,male,1.0,tertiary
+10,6,marry,139.0,144.0,1327.0,1332.0,8,145.0,157.0,1333.0,1345.0,158.0,209.0,1346.0,1397.0,verb.social,True,9,direct_object,The Princess,8,9,17,female,1.0,tertiary
+11,13,hear,216.0,220.0,1643.0,1647.0,6,221.0,227.0,1648.0,1654.0,228.0,233.0,1655.0,1660.0,verb.cognition,True,10,direct_object,the King,9,29,38,male,1.0,tertiary
+15,7,marry,138.0,143.0,2043.0,2048.0,6,144.0,147.0,2049.0,2052.0,,,,,verb.social,True,14,direct_object,the King,9,29,38,male,1.0,tertiary
+19,2,assured,72.0,79.0,2450.0,2457.0,25,80.0,83.0,2458.0,2461.0,,,,,verb.communication,True,16,direct_object,the Queen,6,9,15,female,1.0,tertiary
+21,3,looked,90.0,96.0,2702.0,2708.0,0,97.0,108.0,2709.0,2720.0,109.0,114.0,2721.0,2726.0,verb.perception,True,17,direct_object,Prince,9,12,21,male,1.0,tertiary
+24,1,allowed,11.0,18.0,2947.0,2954.0,38,51.0,221.0,2987.0,3157.0,,,,,verb.communication,True,18,direct_object,the courtiers,2,5,7,group/nonbinary,1.0,tertiary
+24,1,allowed,11.0,18.0,2947.0,2954.0,35,51.0,221.0,2987.0,3157.0,,,,,verb.communication,True,18,direct_object,The Prince,18,101,119,male,1.0,primary
+24,1,allowed,11.0,18.0,2947.0,2954.0,40,51.0,221.0,2987.0,3157.0,,,,,verb.communication,True,18,direct_object,the courtiers's babies,1,1,2,group/nonbinary,1.0,tertiary
+24,1,allowed,11.0,18.0,2947.0,2954.0,25,51.0,221.0,2987.0,3157.0,,,,,verb.communication,True,18,direct_object,the Queen,6,9,15,female,1.0,tertiary
+27,3,tell,94.0,98.0,3370.0,3374.0,44,99.0,102.0,3375.0,3378.0,,,,,verb.communication,True,22,direct_object,The Prince's teachers,1,1,2,group/nonbinary,1.0,tertiary
+27,3,tell,94.0,98.0,3370.0,3374.0,35,99.0,102.0,3375.0,3378.0,,,,,verb.communication,True,22,direct_object,The Prince,18,101,119,male,1.0,primary
+28,1,hung,13.0,17.0,3418.0,3422.0,46,18.0,68.0,3423.0,3473.0,,,,,verb.contact,True,21,direct_object,people with very large noses,1,0,1,unknown,0.0,tertiary
+33,8,laughing,290.0,298.0,4372.0,4380.0,8,299.0,306.0,4381.0,4388.0,307.0,336.0,4389.0,4418.0,verb.body,True,25,direct_object,The Princess,8,9,17,female,1.0,tertiary
+34,7,mention,141.0,148.0,4560.0,4567.0,1,165.0,201.0,4584.0,4620.0,,,,,verb.communication,True,26,direct_object,the Dear Little Princess,2,0,2,female,1.0,tertiary
+35,5,tell,111.0,115.0,4733.0,4737.0,35,116.0,126.0,4738.0,4748.0,,,,,verb.communication,True,28,direct_object,The Prince,18,101,119,male,1.0,primary
+36,3,read,56.0,60.0,4945.0,4949.0,65,85.0,145.0,4974.0,5034.0,,,,,verb.cognition,True,27,direct_object,the beautiful Cleopatra,1,1,2,unknown,0.0,tertiary
+37,2,ask,103.0,106.0,5139.0,5142.0,50,107.0,131.0,5143.0,5167.0,,,,,verb.communication,True,29,direct_object,the Dear Little Princess,6,6,12,female,1.0,tertiary
+38,0,gave,22.0,26.0,5203.0,5207.0,6,27.0,38.0,5208.0,5219.0,,,,,verb.possession,True,30,direct_object,the King,9,29,38,male,1.0,tertiary
+39,6,kiss,120.0,124.0,5340.0,5344.0,8,125.0,133.0,5345.0,5353.0,,,,,verb.contact,True,31,direct_object,The Princess,8,9,17,female,1.0,tertiary
+45,0,said,28.0,32.0,6535.0,6539.0,9,33.0,48.0,6540.0,6555.0,,,,,verb.communication,True,36,direct_object,the Fairy,15,47,62,female,1.0,secondary
+45,0,said,28.0,32.0,6535.0,6539.0,0,33.0,48.0,6540.0,6555.0,,,,,verb.communication,True,36,direct_object,Prince,9,12,21,male,1.0,tertiary
+46,0,beg,16.0,19.0,6585.0,6588.0,9,20.0,23.0,6589.0,6592.0,,,,,verb.communication,True,37,direct_object,the Fairy,15,47,62,female,1.0,secondary
+47,0,said,21.0,25.0,6767.0,6771.0,9,26.0,35.0,6772.0,6781.0,,,,,verb.communication,True,39,direct_object,the Fairy,15,47,62,female,1.0,secondary
+49,0,loved,2.0,7.0,6870.0,6875.0,35,8.0,19.0,6876.0,6887.0,20.0,48.0,6888.0,6916.0,verb.emotion,True,38,direct_object,The Prince,18,101,119,male,1.0,primary
+49,0,loved,2.0,7.0,6870.0,6875.0,141,8.0,19.0,6876.0,6887.0,20.0,48.0,6888.0,6916.0,verb.emotion,True,38,direct_object,The Prince's father,4,8,12,male,1.0,tertiary
+51,0,pray,5.0,9.0,6957.0,6961.0,35,10.0,29.0,6962.0,6981.0,,,,,verb.communication,True,40,direct_object,The Prince,18,101,119,male,1.0,primary
+52,0,said,0.0,4.0,6984.0,6988.0,35,5.0,15.0,6989.0,6999.0,,,,,verb.communication,True,41,direct_object,The Prince,18,101,119,male,1.0,primary
+54,2,replied,27.0,34.0,7033.0,7040.0,9,35.0,44.0,7041.0,7050.0,,,,,verb.communication,True,43,direct_object,the Fairy,15,47,62,female,1.0,secondary
+57,1,telling,6.0,13.0,7186.0,7193.0,9,14.0,17.0,7194.0,7197.0,,,,,verb.communication,True,42,direct_object,the Fairy,15,47,62,female,1.0,secondary
+57,1,telling,6.0,13.0,7186.0,7193.0,35,14.0,17.0,7194.0,7197.0,,,,,verb.communication,True,42,direct_object,The Prince,18,101,119,male,1.0,primary
+57,1,telling,6.0,13.0,7186.0,7193.0,141,14.0,17.0,7194.0,7197.0,,,,,verb.communication,True,42,direct_object,The Prince's father,4,8,12,male,1.0,tertiary
+57,1,telling,6.0,13.0,7186.0,7193.0,146,14.0,17.0,7194.0,7197.0,,,,,verb.communication,True,42,direct_object,your father 's friend,1,0,1,male,1.0,tertiary
+58,3,know,56.0,60.0,7286.0,7290.0,9,61.0,97.0,7291.0,7327.0,,,,,verb.cognition,True,44,direct_object,the Fairy,15,47,62,female,1.0,secondary
+60,2,tell,17.0,21.0,7375.0,7379.0,9,22.0,25.0,7380.0,7383.0,,,,,verb.communication,True,46,direct_object,the Fairy,15,47,62,female,1.0,secondary
+60,2,tell,17.0,21.0,7375.0,7379.0,35,22.0,25.0,7380.0,7383.0,,,,,verb.communication,True,46,direct_object,The Prince,18,101,119,male,1.0,primary
+60,2,tell,17.0,21.0,7375.0,7379.0,141,22.0,25.0,7380.0,7383.0,,,,,verb.communication,True,46,direct_object,The Prince's father,4,8,12,male,1.0,tertiary
+62,1,beg,24.0,27.0,7560.0,7563.0,35,28.0,34.0,7564.0,7570.0,,,,,verb.communication,True,47,direct_object,The Prince,18,101,119,male,1.0,primary
+63,1,said,25.0,29.0,7637.0,7641.0,9,30.0,39.0,7642.0,7651.0,,,,,verb.communication,True,50,direct_object,the Fairy,15,47,62,female,1.0,secondary
+65,6,tell,79.0,83.0,7751.0,7755.0,9,84.0,87.0,7756.0,7759.0,97.0,154.0,7769.0,7826.0,verb.communication,True,52,direct_object,the Fairy,15,47,62,female,1.0,secondary
+65,6,tell,79.0,83.0,7751.0,7755.0,35,84.0,87.0,7756.0,7759.0,97.0,154.0,7769.0,7826.0,verb.communication,True,52,direct_object,The Prince,18,101,119,male,1.0,primary
+66,1,remember,55.0,63.0,7883.0,7891.0,9,64.0,139.0,7892.0,7967.0,,,,,verb.cognition,True,51,direct_object,the Fairy,15,47,62,female,1.0,secondary
+66,1,remember,55.0,63.0,7883.0,7891.0,150,64.0,139.0,7892.0,7967.0,,,,,verb.cognition,True,51,direct_object,a great chatterer,1,0,1,unknown,0.0,tertiary
+67,1,tell,13.0,17.0,7982.0,7986.0,9,18.0,38.0,7987.0,8007.0,,,,,verb.communication,True,53,direct_object,the Fairy,15,47,62,female,1.0,secondary
+67,1,tell,13.0,17.0,7982.0,7986.0,153,18.0,38.0,7987.0,8007.0,,,,,verb.communication,True,53,direct_object,the Fairy's mother,1,0,1,female,1.0,tertiary
+67,1,tell,13.0,17.0,7982.0,7986.0,25,18.0,38.0,7987.0,8007.0,,,,,verb.communication,True,53,direct_object,the Queen,6,9,15,female,1.0,tertiary
+68,0,see,15.0,18.0,8040.0,8043.0,9,19.0,32.0,8044.0,8057.0,,,,,verb.cognition,True,55,direct_object,the Fairy,15,47,62,female,1.0,secondary
+69,2,got,39.0,42.0,8134.0,8137.0,141,43.0,78.0,8138.0,8173.0,,,,,verb.possession,True,54,direct_object,The Prince's father,4,8,12,male,1.0,tertiary
+70,0,interrupted,0.0,11.0,8176.0,8187.0,35,12.0,22.0,8188.0,8198.0,,,,,verb.communication,True,56,direct_object,The Prince,18,101,119,male,1.0,primary
+72,0,answered,12.0,20.0,8217.0,8225.0,9,21.0,30.0,8226.0,8235.0,,,,,verb.communication,True,57,direct_object,the Fairy,15,47,62,female,1.0,secondary
+74,5,know,101.0,105.0,8536.0,8540.0,35,106.0,182.0,8541.0,8617.0,,,,,verb.cognition,True,60,direct_object,The Prince,18,101,119,male,1.0,primary
+75,1,hear,26.0,30.0,8644.0,8648.0,35,31.0,34.0,8649.0,8652.0,,,,,verb.perception,True,59,direct_object,The Prince,18,101,119,male,1.0,primary
+77,0,take,8.0,12.0,8906.0,8910.0,159,13.0,25.0,8911.0,8923.0,,,,,verb.possession,True,62,direct_object,the old lady,1,2,3,female,1.0,tertiary
+79,0,said,0.0,4.0,8960.0,8964.0,35,5.0,26.0,8965.0,8986.0,,,,,verb.communication,True,64,direct_object,The Prince,18,101,119,male,1.0,primary
+81,4,thinks,72.0,78.0,9142.0,9148.0,161,79.0,100.0,9149.0,9170.0,,,,,verb.cognition,True,65,direct_object,this chatterpie who thinks she talks very little's chatterpie who thinks she talks very little,1,4,5,female,1.0,tertiary
+82,1,see,29.0,32.0,9201.0,9204.0,162,33.0,49.0,9205.0,9221.0,,,,,verb.perception,True,66,direct_object,stupid people,1,1,2,group/nonbinary,1.0,tertiary
+83,7,believe,86.0,93.0,9309.0,9316.0,161,94.0,129.0,9317.0,9352.0,,,,,verb.cognition,True,67,direct_object,this chatterpie who thinks she talks very little's chatterpie who thinks she talks very little,1,4,5,female,1.0,tertiary
+83,7,believe,86.0,93.0,9309.0,9316.0,164,94.0,129.0,9317.0,9352.0,,,,,verb.cognition,True,67,direct_object,a moderate talker,1,0,1,unknown,0.0,tertiary
+84,4,hear,95.0,99.0,9450.0,9454.0,100,100.0,194.0,9455.0,9549.0,,,,,verb.perception,True,68,direct_object,the servants,1,1,2,group/nonbinary,1.0,tertiary
+85,6,praise,88.0,94.0,9638.0,9644.0,103,95.0,116.0,9645.0,9666.0,,,,,verb.communication,True,69,direct_object,"one maid who , no matter what was being said , always contrived to praise her mistress 's wisdom's maid who , no matter what was being said , always contrived to praise her mistress 's wisdom",1,1,2,female,1.0,tertiary
+85,6,praise,88.0,94.0,9638.0,9644.0,104,95.0,116.0,9645.0,9666.0,,,,,verb.communication,True,69,direct_object,"one maid who , no matter what was being said , always contrived to praise her mistress 's wisdom's maid who , no matter what was being said , always contrived to praise her mistress 's wisdom's mistress",1,0,1,unknown,0.0,tertiary
+87,0,thought,3.0,10.0,9679.0,9686.0,35,35.0,60.0,9711.0,9736.0,,,,,verb.cognition,True,71,direct_object,The Prince,18,101,119,male,1.0,primary
+88,3,listening,53.0,62.0,9791.0,9800.0,166,63.0,76.0,9801.0,9814.0,,,,,verb.perception,True,70,direct_object,flatterers,1,0,1,unknown,0.0,tertiary
+89,2,change,81.0,87.0,9897.0,9903.0,167,88.0,92.0,9904.0,9908.0,,,,,verb.change,True,75,direct_object,People of that sort,1,2,3,group/nonbinary,1.0,tertiary
+91,0,know,2.0,6.0,9971.0,9975.0,35,7.0,21.0,9976.0,9990.0,,,,,verb.cognition,True,74,direct_object,The Prince,18,101,119,male,1.0,primary
+93,6,laughing,98.0,106.0,10121.0,10129.0,35,107.0,113.0,10130.0,10136.0,115.0,159.0,10138.0,10182.0,verb.body,True,73,direct_object,The Prince,18,101,119,male,1.0,primary
+95,6,beg,120.0,123.0,10399.0,10402.0,9,124.0,127.0,10403.0,10406.0,,,,,verb.communication,True,76,direct_object,the Fairy,15,47,62,female,1.0,secondary
+95,6,beg,120.0,123.0,10399.0,10402.0,0,124.0,127.0,10403.0,10406.0,,,,,verb.communication,True,76,direct_object,Prince,9,12,21,male,1.0,tertiary
+98,0,let,4.0,7.0,10539.0,10542.0,141,8.0,31.0,10543.0,10566.0,,,,,verb.social,True,77,direct_object,The Prince's father,4,8,12,male,1.0,tertiary
+98,0,let,4.0,7.0,10539.0,10542.0,0,8.0,31.0,10543.0,10566.0,,,,,verb.social,True,77,direct_object,Prince,9,12,21,male,1.0,tertiary
+100,0,tell,0.0,4.0,10699.0,10703.0,9,5.0,7.0,10704.0,10706.0,,,,,verb.communication,True,79,direct_object,the Fairy,15,47,62,female,1.0,secondary
+102,0,saw,15.0,18.0,10790.0,10793.0,175,19.0,77.0,10794.0,10852.0,,,,,verb.perception,True,78,direct_object,the ladies as fond of amusement as ever,1,1,2,female,1.0,tertiary
+106,4,mentioning,62.0,72.0,10978.0,10988.0,35,73.0,80.0,10989.0,10996.0,,,,,verb.communication,True,81,direct_object,The Prince,18,101,119,male,1.0,primary
+110,2,assure,70.0,76.0,11210.0,11216.0,9,77.0,80.0,11217.0,11220.0,,,,,verb.communication,True,85,direct_object,the Fairy,15,47,62,female,1.0,secondary
+110,2,assure,70.0,76.0,11210.0,11216.0,35,77.0,80.0,11217.0,11220.0,,,,,verb.communication,True,85,direct_object,The Prince,18,101,119,male,1.0,primary
+111,0,wished,20.0,26.0,11271.0,11277.0,35,27.0,46.0,11278.0,11297.0,,,,,verb.emotion,True,84,direct_object,The Prince,18,101,119,male,1.0,primary
+113,2,think,19.0,24.0,11427.0,11432.0,35,25.0,55.0,11433.0,11463.0,,,,,verb.cognition,True,87,direct_object,The Prince,18,101,119,male,1.0,primary
+117,0,wished,19.0,25.0,11945.0,11951.0,113,26.0,68.0,11952.0,11994.0,,,,,verb.emotion,True,90,direct_object,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+119,4,try,91.0,94.0,12217.0,12220.0,8,95.0,114.0,12221.0,12240.0,,,,,verb.social,True,92,direct_object,The Princess,8,9,17,female,1.0,tertiary
+121,0,thought,14.0,21.0,12307.0,12314.0,50,31.0,168.0,12324.0,12461.0,,,,,verb.cognition,True,94,direct_object,the Dear Little Princess,6,6,12,female,1.0,tertiary
+121,0,thought,14.0,21.0,12307.0,12314.0,113,31.0,168.0,12324.0,12461.0,,,,,verb.cognition,True,94,direct_object,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+123,5,admitted,88.0,96.0,12656.0,12664.0,113,97.0,121.0,12665.0,12689.0,,,,,verb.communication,True,96,direct_object,"The Prince , who was no longer hungry",1,27,28,male,1.0,tertiary
+124,3,say,155.0,158.0,12847.0,12850.0,124,159.0,197.0,12851.0,12889.0,,,,,verb.communication,True,99,direct_object,the old Fairy,1,2,3,unknown,0.0,tertiary
+124,3,say,155.0,158.0,12847.0,12850.0,35,159.0,197.0,12851.0,12889.0,,,,,verb.communication,True,99,direct_object,The Prince,18,101,119,male,1.0,primary
+125,1,talk,27.0,31.0,12918.0,12922.0,35,32.0,38.0,12923.0,12929.0,,,,,verb.communication,True,98,direct_object,The Prince,18,101,119,male,1.0,primary
+126,5,hindered,69.0,77.0,13016.0,13024.0,35,78.0,81.0,13025.0,13028.0,,,,,verb.social,True,97,direct_object,The Prince,18,101,119,male,1.0,primary
+130,2,fail,69.0,73.0,13322.0,13326.0,0,74.0,83.0,13327.0,13336.0,,,,,verb.social,True,100,direct_object,Prince,9,12,21,male,1.0,tertiary
+131,0,married,3.0,10.0,13371.0,13378.0,50,11.0,35.0,13379.0,13403.0,,,,,verb.social,True,102,direct_object,the Dear Little Princess,6,6,12,female,1.0,tertiary
